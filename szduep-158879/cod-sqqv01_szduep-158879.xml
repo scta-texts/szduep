@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="628"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-158879"><!-- t3-l4c5 -->
+        <head xml:id="szduep-158879-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-158879-Hd1e103" type="question-title">Utrum divinae personae, seu proprietates earum, sint de essentia divinitatis</head>
+        <p xml:id="szduep-158879-d1e106">
+          <lb ed="#P" n="50"/>CAPUT V.
+          <lb ed="#P" n="51"/>UTRUM DIVINAE PERSONAE, SEU PROPRIETATES EARUM,
+          <lb ed="#P" n="52"/>SINT DE ESSENTIA DIVINITATIS.
+        </p>
+        <p xml:id="szduep-158879-d1e115">
+          <lb ed="#P" n="53"/>1. Prima sententia. — In hac quaestione,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>prima sententia est, personahtates seu 
+          relatio<lb break="no" ed="#P" n="55"/>nes non solum esse divinitatem ipsam. sed
+          <lb ed="#P" n="56"/>etiam esse de essentia, et quidditate divinitatem
+          <lb ed="#P" n="57"/>esse de essentiah conceptu relationum. Hanc
+          <lb ed="#P" n="58"/>sequuntur nonnulli expositores moderni divi
+          <lb ed="#P" n="59"/>Thomae, citantque eumdem Thomam, 1 part.,
+          <lb ed="#P" n="60"/>quaest. 27, art. 2, ad 3, eo quod ibi afferat: In
+          <lb ed="#P" n="61"/>perfectione divini esse omnia includi. Et 
+          simihi<lb break="no" ed="#P" n="62"/>ter afferunt alia testimonia Patrum: sed illi
+          <lb ed="#P" n="63"/>loquuntur de identitate summa inter 
+          relatio<lb break="no" ed="#P" n="64"/>nem et essentiam: non tamen formahliter 
+          attin<lb break="no" ed="#P" n="65"/>gunt punctum quod tractamus. Ex illo vero
+          <lb ed="#P" n="66"/>principio fundari potest haec sententia, quia
+          <lb ed="#P" n="67"/>non videtur posse intelligi, ut ea, quae in re
+          <lb ed="#P" n="68"/>sunt omnino idem, non sint etiam essentialiter
+          <lb ed="#P" n="69"/>idem: ergo necessario unum esse debet de 
+          es<lb break="no" ed="#P" n="70"/>sentia alterius et e converso. Et confirmatur,
+          <lb ed="#P" n="71"/>nam hac ratione dicimus, attributa omnia esse
+          <lb ed="#P" n="72"/>de essentia divinitatis, et divinitatem esse de
+          <lb ed="#P" n="73"/>essentia ipsorum, quae tantam habent 
+          identi<lb break="no" ed="#P" n="74"/>tatem, ut in una ratione formali includantur,
+          <lb ed="#P" n="75"/>si, prout in se est, spectetur. Confirmatur 
+          se<lb break="no" ed="#P" n="76"/>cundo, nam haec propositio, DEUS est Pater,
+          <lb ed="#P" n="77"/>est propositio per se, quia in DEO, nihil est per
+          <lb ed="#P" n="78"/>accidens, ergo praedicatum est de essentia 
+          sub<lb break="no" ed="#P" n="79"/>jecti. Tandem quia paternitas est de essentia
+          <lb ed="#P" n="80"/>Patris, ergo est essentia Dei: quia Pater non
+          <lb ed="#P" n="81"/>habet aliam essentiam, nisi Dei.
+        </p>
+        <p xml:id="szduep-158879-d1e183">
+          <lb ed="#P" n="82"/>2. Vera sententia. — Contraria sententia
+          <lb ed="#P" n="83"/>mihi semper placuit, juxta quam assero, 
+          re<lb break="no" ed="#P" n="84"/>lationes, seu personalitates, vel personas 
+          divi<lb break="no" ed="#P" n="85"/>nas non esse de essentia Divinitatis, nec Dei,
+          <lb ed="#P" n="86"/>ut Deus est. Ex scholasticis hoc satis aperte
+          <lb ed="#P" n="87"/>sentit D. Thomas, 1. part., quaest. 33, art,
+          <lb ed="#P" n="88"/>ad 1, cum dixit: In Trinitate propria non esse
+          <lb ed="#P" n="89"/>de conceptu communium. Idem docuit Henricus,
+          <lb ed="#P" n="90"/>quodlib. 5, q. 6, et bene AEgidius, in 1. distin.
+          <lb ed="#P" n="91"/>34. art. 2, et idem Argentinus et Torres, q.
+          <lb ed="#P" n="92"/>28, art. 2, disput. 3, et q. 39, et idem sentit
+          <lb ed="#P" n="93"/>Ferrariensis, 2, contra Gentes, cap. 9. In quo
+          <lb ed="#P" n="94"/>sunt illa verba notanda : Paternitas non esse
+          <lb ed="#P" n="95"/>de conceptu divinitatis, etiam si, prout in se
+          <lb ed="#P" n="96"/>est, concipiatur.
+        </p>
+        <p xml:id="szduep-158879-d1e219">
+          <lb ed="#P" n="97"/>3. Probatur ex Patribus. — Inter Patres 
+          in<lb break="no" ed="#P" n="98"/>venio fere eadem quaestionem disputatam in
+          <lb ed="#P" n="99"/>Beotio, in quodam libello de Trinitate, sub his
+          <lb ed="#P" n="100"/>terminis. An Trinitas dicatur substantialiter
+          <lb ed="#P" n="101"/>de Deo, et plane sumit, substantialiter, pro, 
+          es<lb break="no" ed="#P" n="102"/>sentialiter. Nam si vocem illam sumeret, prout
+          <lb ed="#P" n="103"/>distinguitur contra accidentaliter, neque esset
+          <lb ed="#P" n="104"/>locus quaestioni, neque ipse quaestionem illam
+          <lb ed="#P" n="105"/>resolveret negative; (Respondet enim, non
+          <lb ed="#P" n="106"/>praedicari substantialiter nam certissimum
+          <lb ed="#P" n="107"/>est, Trinitatem non dici accidentaliter de Deo,
+          <lb ed="#P" n="108"/>sentit ergo, Trinitatem, ut sic, non esse de es-
+          <pb ed="#P" n="629"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sentia Dei : nam quod est de essentia, 
+          essen<lb break="no" ed="#P" n="2"/>tialiter praedicatur. Eodem modo sumitur haec
+          <lb ed="#P" n="3"/>sententia ex Augustino 5, de Trinitate, cap. 6
+          <lb ed="#P" n="4"/>et sequentibus, ubi docet: Belationes non 
+          pree<lb break="no" ed="#P" n="5"/>dicari de Deo secundum substantiam , neque
+          <lb ed="#P" n="6"/>etiam secundum accidens, sed ut ad aliquid,
+          <lb ed="#P" n="7"/>quod etiam dixit Boetius. Confirmatur ex 
+          eo<lb break="no" ed="#P" n="8"/>dem Augustino 7, de Trinitate, cap. 2 et 4,
+          <lb ed="#P" n="9"/>dicente : Aliud esse in Patre, esse Patrem, vel
+          <lb ed="#P" n="10"/>esse Deum, seu esse simpliciter. Adjungo 
+          prae<lb break="no" ed="#P" n="11"/>terea, aliis locis (scilicet 5, de Trinit., cap. 8
+          <lb ed="#P" n="12"/>et sequentibus, lib, 6, cap. 6 et 7, lib. 11,
+          <lb ed="#P" n="13"/>cap. 10, et lib. 15, cap. 5 et 6) dicere 
+          eum<lb break="no" ed="#P" n="14"/>dem Augustinum : 7n Deo non esse aliud esse,
+          <lb ed="#P" n="15"/>quam sapientem, vel magnum esse, cum tamen
+          <lb ed="#P" n="16"/>haec etiam distinguantur ratione : licet sint
+          <lb ed="#P" n="17"/>idem in re. Omnibus ergo Augustini locis inter
+          <lb ed="#P" n="18"/>se collatis, licet colligere hanc differentiam
+          <lb ed="#P" n="19"/>inter absoluta attributa et relationes, quod in
+          <lb ed="#P" n="20"/>ipso esse simpliciter, quod est de essentia Dei
+          <lb ed="#P" n="21"/>includitur Sapientia, Magnitudo, et omnis 
+          si<lb break="no" ed="#P" n="22"/>milis perfectio, non tamen includitur 
+          Pater<lb break="no" ed="#P" n="23"/>nitas. Eodemque modo sumi potest eadem 
+          as<lb break="no" ed="#P" n="24"/>sertio ex Anselmo, lib. de Spiritu sancto, in
+          <lb ed="#P" n="25"/>principio, ubi de essentia, et Paternitate 
+          eo<lb break="no" ed="#P" n="26"/>dem modo, quo Augustinus loquitur.
+        </p>
+        <p xml:id="szduep-158879-d1e308">
+          <lb ed="#P" n="27"/>4. Denique illam insinuare mihi videntur
+          <lb ed="#P" n="28"/>Concilia, et Patres, quoties distinguunt in Deo
+          <lb ed="#P" n="29"/>communia a propriis, et communia vocant 
+          es<lb break="no" ed="#P" n="30"/>sentialia : propria vero non ita, sed personalia.
+          <lb ed="#P" n="31"/>Et eodem modo distinguunt absoluta a relativis.
+          <lb ed="#P" n="32"/>At vero si relationes essent de essentia Deitatis,
+          <lb ed="#P" n="33"/>essent aeque essentialia , ac ipsa absoluta. 
+          Fa<lb break="no" ed="#P" n="34"/>vent etiam Concilium Lateranense, in capite
+          <lb ed="#P" n="35"/>Pirmiter, et capite Dumnamus, Florentinum
+          <lb ed="#P" n="36"/>et alia, dum dicunt: Patrem commnnicasse
+          <lb ed="#P" n="37"/>Filio totam essentiam, non vero relationem :
+          <lb ed="#P" n="38"/>nam hoc esse verum non posset, si ipsa relatio
+          <lb ed="#P" n="39"/>esset de essentia Deitatis.
+        </p>
+        <p xml:id="szduep-158879-d1e339">
+          <lb ed="#P" n="40"/>5. Ratio prima. — Relationes ad hance 
+          sen<lb break="no" ed="#P" n="41"/>tentiam confirmandam necessariae, et 
+          eviden<lb break="no" ed="#P" n="42"/>tes, mihi videntur, supposito mysterio, in quo
+          <lb ed="#P" n="43"/>secundum se spectato fundata haec veritas, et
+          <lb ed="#P" n="44"/>non tantum in nostro modo concipiendi. 
+          Pro<lb break="no" ed="#P" n="45"/>batur ergo primo, quia quidquid est de 
+          essen<lb break="no" ed="#P" n="46"/>tia singularum personarum : sed tres 
+          relatio<lb break="no" ed="#P" n="47"/>nes non sunt de essentia singularum 
+          persona<lb break="no" ed="#P" n="48"/>rum : ergo nec sunt de essentia Dei. 
+          Conse<lb break="no" ed="#P" n="49"/>quentia legitima est in secunda figura. Minor
+          <lb ed="#P" n="50"/>constat, quia nulla persona est Trinitas. Major
+          <lb ed="#P" n="51"/>vero patet , quia singulae personae sunt verus
+          <lb ed="#P" n="52"/>Deus : ergo quidquid essentialiter convenit
+          <lb ed="#P" n="53"/>Deo, convenit singulis personis. Atque hanc
+          <lb ed="#P" n="54"/>rationem fere sub eisdem terminis, habet
+          <lb ed="#P" n="55"/>Boetius supra, et ex illa colligit, nihil eorum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quae ita dicuntur de personis. ut de omnibus
+          <lb ed="#P" n="57"/>dici non possint , dici substantialiter de Deo.
+          <lb ed="#P" n="58"/>Ita etiam respondent omnes Patres Arianis,
+          <lb ed="#P" n="59"/>qui contrario argumento nitebantur probare,
+          <lb ed="#P" n="60"/>substantiam Patris esse diversam a substantia
+          <lb ed="#P" n="61"/>lilii : quia Pater est ingenitus : Unde 
+          argu<lb break="no" ed="#P" n="62"/>mentabantur : Vel ingenitum dicitur 
+          substan<lb break="no" ed="#P" n="63"/>tialiter de Patre, vel non : si non, ergo 
+          acciden<lb break="no" ed="#P" n="64"/>taliter, quod dici non potest : si vero dicitur
+          <lb ed="#P" n="65"/>substantialiter, ergo alia est substantia Patris
+          <lb ed="#P" n="66"/>a substantia Pilii. Patres autem, sentientes
+          <lb ed="#P" n="67"/>hanc ultimam illationem esse bonam, 
+          respon<lb break="no" ed="#P" n="68"/>dent, negando, dici substantialiter : atque 
+          e<lb break="no" ed="#P" n="69"/>tiam negant dici accidentaliter, sed rclative:
+          <lb ed="#P" n="70"/>ergo praedicata propria personarum non sunt
+          <lb ed="#P" n="71"/>essentialia, ut recte intulit Boetius.
+        </p>
+        <p xml:id="szduep-158879-d1e413">
+          <lb ed="#P" n="72"/>6. Secunda ratio. — Secundam rationem
+          <lb ed="#P" n="73"/>adducit Boetius supra his fere verbis: 
+          Perso<lb break="no" ed="#P" n="74"/>nee divise sunt : Hssentia autem indivisa :
+          <lb ed="#P" n="75"/>ergo necesse est, vocabulum eam personis originem
+          <lb ed="#P" n="76"/>ducens ad substantium non pertinere : 
+          lntjus<lb break="no" ed="#P" n="77"/>modi uutem est nomen Trinitatis et quodlibet
+          <lb ed="#P" n="78"/>aliud relationem significans : ergo Trinitas,
+          <lb ed="#P" n="79"/>vel relatio non est de substantia, id est, de 
+          essen<lb break="no" ed="#P" n="80"/>tia DET. Cujus rationis efficacia in hoc 
+          con<lb break="no" ed="#P" n="81"/>sistit, quod divina essentia tota ita est una et
+          <lb ed="#P" n="82"/>simplex, ut in ratione essentiae nullam 
+          dis<lb break="no" ed="#P" n="83"/>tinctionem admittat, quod manifeste 
+          colligi<lb break="no" ed="#P" n="84"/>tur ex unitate perfecta personarum in 
+          essen<lb break="no" ed="#P" n="85"/>tia, idque supponunt omnia Concilia, 
+          ubicum<lb break="no" ed="#P" n="86"/>que hanc unitatem explicant. Relationes 
+          au<lb break="no" ed="#P" n="87"/>tem intrinsece postulant distinctionem : Ergo
+          <lb ed="#P" n="88"/>impossibile est, ut relationes, quatenus 
+          rela<lb break="no" ed="#P" n="89"/>tiones sunt, constituant essentiam, quatenus
+          <lb ed="#P" n="90"/>essentia est, ergo non sunt de essentia 
+          divini<lb break="no" ed="#P" n="91"/>tatis, nam si de illius essent essentia, suo
+          <lb ed="#P" n="92"/>modo complerent illam in ratione essentiae,
+          <lb ed="#P" n="93"/>seu talis naturae.
+        </p>
+        <p xml:id="szduep-158879-d1e463">
+          <lb ed="#P" n="94"/>7. Rationes alie. — Ad hanc rationem 
+          redu<lb break="no" ed="#P" n="95"/>cuntur aliae, quae fieri possunt. Ut, verbi 
+          gra<lb break="no" ed="#P" n="96"/>tia, quod essentia tota est communis : ergo
+          <lb ed="#P" n="97"/>tota est absoluta : ergo non includit 
+          essentia<lb break="no" ed="#P" n="98"/>liter relationes. Item, quod Pater 
+          communi<lb break="no" ed="#P" n="99"/>cat Filio per generationem totam substantiam,
+          <lb ed="#P" n="100"/>et essentiam suam, ut definitur in capite 
+          Dami<lb break="no" ed="#P" n="101"/>namnus et non communicat Paternitatem : ergo
+          <lb ed="#P" n="102"/>Paternitas non intrat rationem essentiae. 
+          Rur<lb break="no" ed="#P" n="103"/>sus e converso, Pater prius origine, quam 
+          ge<lb break="no" ed="#P" n="104"/>neret Filium, est complete et essentialiter
+          <lb ed="#P" n="105"/>Deus, ergo per generationem Filii non 
+          pro<lb break="no" ed="#P" n="106"/>ducitur aliquid quod sit essentiale Deo : 
+          pro<lb break="no" ed="#P" n="107"/>ducitur autem persona Fii et nostro modo
+          <lb ed="#P" n="108"/>concipiendi comprocucitur ejus relatio, ergo
+          <lb ed="#P" n="109"/>illa non est essentia DEO. Idemque 
+          argumen<lb break="no" ed="#P" n="110"/>tum fieri potest de ersona Spiritus sancti.
+          <pb ed="#P" n="630"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Omnia vero haec argumenta (si recte 
+          specten<lb break="no" ed="#P" n="2"/>tur) in uno illo continentur, quod nulla 
+          per<lb break="no" ed="#P" n="3"/>sona per se sumpta esset simphciter Deus, si
+          <lb ed="#P" n="4"/>collectio relationum esset de essentia Dei, quod
+          <lb ed="#P" n="5"/>si collectio non est, neque aliqua relatio in
+          <lb ed="#P" n="6"/>particulari esse potest, quia eadem omnino
+          <lb ed="#P" n="7"/>est ratio, ut per se constat.
+        </p>
+        <p xml:id="szduep-158879-d1e522">
+          <lb ed="#P" n="8"/>8. Praecluditur evasio. — Respondent vero
+          <lb ed="#P" n="9"/>aliqui, quod licet omnes relationes sint de
+          <lb ed="#P" n="10"/>essentia divinitatis, nihilominus unaquaeque
+          <lb ed="#P" n="11"/>persona est DEUS : qui ad hoc sufficit, ut in
+          <lb ed="#P" n="12"/>se habeat illam naturam, quae identificat sibi
+          <lb ed="#P" n="13"/>omnes has relationes. Verumtamen, aut haec
+          <lb ed="#P" n="14"/>responsio confundit identitatem realem cum
+          <lb ed="#P" n="15"/>inclusione essentiali, aut manifestam involvit
+          <lb ed="#P" n="16"/>repugnantiam. Quia si relationes secundum
+          <lb ed="#P" n="17"/>rationes proprias pertinent ad essentialem
+          <lb ed="#P" n="18"/>constitutionem divinitatis, non potest intelligi
+          <lb ed="#P" n="19"/>divinitas integra et completa esse in aliquo,
+          <lb ed="#P" n="20"/>ita ut identificetur cum illo, nisi etiam 
+          relatio<lb break="no" ed="#P" n="21"/>nes omnes eodem modo in illo sint, et cum illo
+          <lb ed="#P" n="22"/>identificentur. Quod patet, manifeste in 
+          quo<lb break="no" ed="#P" n="23"/>cumque attributo divino, verbi gratia , 
+          Omni<lb break="no" ed="#P" n="24"/>potentia, nam quia illud est de constitutione
+          <lb ed="#P" n="25"/>essentiali divinitatis, fieri non potest, ut aliqua
+          <lb ed="#P" n="26"/>persona in se habeat veram divinitatem sibi
+          <lb ed="#P" n="27"/>identificatam quin eodem modo habeat 
+          om<lb break="no" ed="#P" n="28"/>nipotentiam : etsi per impossibile fingeretur
+          <lb ed="#P" n="29"/>habere in se entitatem essentiae et non 
+          omni<lb break="no" ed="#P" n="30"/>potentiam cum eadem idenütate, non posse
+          <lb ed="#P" n="31"/>dici, habere totam essentiam divinitatis: ergo
+          <lb ed="#P" n="32"/>idem sequitur, si relationes essentialiter 
+          consti<lb break="no" ed="#P" n="33"/>tuunt divinitatem.
+        </p>
+        <p xml:id="szduep-158879-d1e582">
+          <lb ed="#P" n="34"/>9. Deinde declaratur exemplis ex creaturis
+          <lb ed="#P" n="35"/>sumptis. Nam si animal, verbi gratia, in suo
+          <lb ed="#P" n="36"/>conceptu essentiali includeret differentias 
+          con<lb break="no" ed="#P" n="37"/>trahentes, verbi gratia, rationales, etc. Nullo
+          <lb ed="#P" n="38"/>modo dici possest,totam essentiam animalis esse
+          <lb ed="#P" n="39"/>in homine, et sic de aliis speciebus, quamvis
+          <lb ed="#P" n="40"/>in singulis speciebus animal identificetur in re
+          <lb ed="#P" n="41"/>cum propria uniuscujusque differentia. Ergo
+          <lb ed="#P" n="42"/>idem est in praesenti. Nam licet sit diversitas
+          <lb ed="#P" n="43"/>in hoc, quod ratio animalia est communus 
+          tan<lb break="no" ed="#P" n="44"/>tum secundum rationem, essentia vero 
+          reali<lb break="no" ed="#P" n="45"/>ter : nihilominus in eo est rationis paritas,
+          <lb ed="#P" n="46"/>quod essentia intrinsece coalescens ex 
+          opposi<lb break="no" ed="#P" n="47"/>tis rationibus, non potest tota inveniri in 
+          sin<lb break="no" ed="#P" n="48"/>gulis inferioribus, vel quasi inferioribus, in
+          <lb ed="#P" n="49"/>quibus rationes illae oppositae simul esse non
+          <lb ed="#P" n="50"/>possunt. Aliud etiam exemplum est de 
+          perso<lb break="no" ed="#P" n="51"/>nalitate humana : nam si haec esset de essentia
+          <lb ed="#P" n="52"/>humanitatis, non inveniretur tota essentia 
+          ho<lb break="no" ed="#P" n="53"/>minis, ubi talis personalitas non esset. Unde
+          <lb ed="#P" n="54"/>e contrario, quia in Verbo divino est totum id,
+          <lb ed="#P" n="55"/>quod pertinet ad essentiam hominis absque il-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>la personalitate creata, recte concludunt 
+          theo<lb break="no" ed="#P" n="57"/>logi, hujusmodi personalitatem non pertinere
+          <lb ed="#P" n="58"/>ad constitutionem humanae essentiae. Ergo 
+          si<lb break="no" ed="#P" n="59"/>mili modo philosophandum est de divinis 
+          per<lb break="no" ed="#P" n="60"/>sonalitatibus, hac observata differentia, quod
+          <lb ed="#P" n="61"/>in humanitate est distinctio ejus a propria
+          <lb ed="#P" n="62"/>personalitate, propter utriusque 
+          imperfectio<lb break="no" ed="#P" n="63"/>nem et limitationem, et realem 
+          separabilita<lb break="no" ed="#P" n="64"/>tem : in Deo vero eminenti modo est id, quod
+          <lb ed="#P" n="65"/>pertinet ad constitutionem naturae, et quod
+          <lb ed="#P" n="66"/>spectat ad constitutionem personae, servatis
+          <lb ed="#P" n="67"/>uniuscujusque propriis rationibus, 
+          sinedistinc<lb break="no" ed="#P" n="68"/>tione in re, propter infinitatem et 
+          simplicita<lb break="no" ed="#P" n="69"/>tem divinae naturae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

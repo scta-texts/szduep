@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="723"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-182638"><!-- t3-l9c2 -->
+        <head xml:id="szduep-182638-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-182638-Hd1e103" type="question-title">An secunda trinitatis persona sit et dicatur proprie verbum</head>
+        <p xml:id="szduep-182638-d1e106">
+          <pb ed="#P" n="723"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT II.
+          <lb ed="#P" n="2"/>AN SECUNDA TRINITATIS PERSONA SIT ET DICATUR
+          <lb ed="#P" n="3"/>PROPRIE VERBUM.
+        </p>
+        <p xml:id="szduep-182638-d1e119">
+          <lb ed="#P" n="4"/>1. Non est, quod amplius de proprietate, seu
+          <lb ed="#P" n="5"/>veritate divinae filiationis disputemus : hoc
+          <lb ed="#P" n="6"/>enim satis jam actum est, et in libro primo et
+          <lb ed="#P" n="7"/>praecedenti capite est demonstratum, et in
+          <lb ed="#P" n="8"/>Scriptura expresse habemus, Verbum non 
+          tan<lb break="no" ed="#P" n="9"/>tum esse Filium, sed etiam esse cerum Filium,
+          <lb ed="#P" n="10"/>1, Joan. 5. Agimus igitur solum de Verbo, ut
+          <lb ed="#P" n="11"/>Verbum est, quia ejus proprietas non solum
+          <lb ed="#P" n="12"/>ab haereticis, sed etiam ab aliquo Catholico in
+          <lb ed="#P" n="13"/>dubium revocata est, indigetque aliqua 
+          decla<lb break="no" ed="#P" n="14"/>ratione. Operae pretium autem erit advertere
+          <lb ed="#P" n="15"/>(quod Cajetanus, 1 p., q. 34, art. 2, notavit)
+          <lb ed="#P" n="16"/>vocem proprie dupliciter accipi posse, vel ut
+          <lb ed="#P" n="17"/>distinguitur contra Metaphorice, vel ut 
+          distin<lb break="no" ed="#P" n="18"/>guitur contra commune. In hoc enim capite in
+          <lb ed="#P" n="19"/>priori sensu de illa disputamus, de alio 
+          dice<lb break="no" ed="#P" n="20"/>mus in capite sequenti.
+        </p>
+        <p xml:id="szduep-182638-d1e158">
+          <lb ed="#P" n="21"/>2. Varii errores refelluntur. — Fuit ergo
+          <lb ed="#P" n="22"/>antiqua haeresis, quee Verbum Dei ita 
+          abnega<lb break="no" ed="#P" n="23"/>vit, ut nihil esse diceret, ideoque neque 
+          ini<lb break="no" ed="#P" n="24"/>tium Evangelii Joannis, nec Apocalypsim 
+          ad<lb break="no" ed="#P" n="25"/>mitteret. Ita refert Epiphanius, haeres. 51. Ubi
+          <lb ed="#P" n="26"/>hac de causa hos haereticos Alogianos appellat.
+          <lb ed="#P" n="27"/>Idem Augustinus, haeres. 30, Athanasius, orat.
+          <lb ed="#P" n="28"/>contra Gregales Sabellii, et in epist. de 
+          decre<lb break="no" ed="#P" n="29"/>tis Nicenae Synodi. Quo autem fundamento hi
+          <lb ed="#P" n="30"/>haeretici moverentur, neque hi Patres 
+          expli<lb break="no" ed="#P" n="31"/>cant, neque multum refert, cum nullum 
+          ha<lb break="no" ed="#P" n="32"/>buerint probabile fundamentum. Et contra
+          <lb ed="#P" n="33"/>illos sufficiunt iidem libri, quos ipsi esse in hac
+          <lb ed="#P" n="34"/>parte canonicos negabant : in quo satis se esse
+          <lb ed="#P" n="35"/>haereticos ostendunt, neque id nunc denuo
+          <lb ed="#P" n="36"/>confutare, aut auctoritatem illarum partium
+          <lb ed="#P" n="37"/>Scripturae probare necesse est, quia res est 
+          no<lb break="no" ed="#P" n="38"/>ta, et alterius loci.
+        </p>
+        <p xml:id="szduep-182638-d1e201">
+          <lb ed="#P" n="39"/>3. Durandi opinio reprobatur. — Arius 
+          ve<lb break="no" ed="#P" n="40"/>ro, Eunomius, et alii, qui posuerunt 
+          secun<lb break="no" ed="#P" n="41"/>dam personam esse creaturam, etiam 
+          conse<lb break="no" ed="#P" n="42"/>quenter negarunt, esse proprie Verbum, ut
+          <lb ed="#P" n="43"/>Athanasius eisdem locis refert, et oratione
+          <lb ed="#P" n="44"/>contra Arianos in id Dewn de Deo, et 
+          Hila<lb break="no" ed="#P" n="45"/>rius 6, de Trinitate, Cyrillus, lib. 7, Thesauri,
+          <lb ed="#P" n="46"/>cap. 3, et lib. 1, in Joan., cap. 3 et 7, 
+          loque<lb break="no" ed="#P" n="47"/>banturque isti haeretici consequenter. Quia si
+          <lb ed="#P" n="48"/>illa persona esset creatura, non maneret intra
+          <lb ed="#P" n="49"/>Deum ipsum, non ergo posset esse proprium
+          <lb ed="#P" n="50"/>Verbum ipsius Dei. Explicabant ergo illam
+          <lb ed="#P" n="51"/>vocem per metaphoram, ut sicut Joannes 
+          Bap<lb break="no" ed="#P" n="52"/>tista dictus est vox, ita illa excellens creatura
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>dicta sit Verbum, quia per excellentem 
+          sa<lb break="no" ed="#P" n="54"/>pientiam illi communicatam, et per 
+          humani<lb break="no" ed="#P" n="55"/>tatem assumptam, divina secreta, et mysteria
+          <lb ed="#P" n="56"/>nobis manifestavit. Verum tamen 
+          fundamen<lb break="no" ed="#P" n="57"/>tum istorum haereticorum jam supra est 
+          ever<lb break="no" ed="#P" n="58"/>sum , cum ostendimus secundam personam
+          <lb ed="#P" n="59"/>esse verum Deum, et esse in Deo. Omitto etiam
+          <lb ed="#P" n="60"/>errorem Valentini, qui posuit quidem Verbum
+          <lb ed="#P" n="61"/>prolatum a Patre, sed post multa saecula, ut
+          <lb ed="#P" n="62"/>late refert Irenaeus, lib. 1, a principio, et 
+          im<lb break="no" ed="#P" n="63"/>pugnat, lib. 2, attingitque Hilarius, lib. 6, de
+          <lb ed="#P" n="64"/>Trinitate. Sufficiunt tamen contra hunc 
+          erro<lb break="no" ed="#P" n="65"/>rem superius dicta de aeternitate omnium 
+          per<lb break="no" ed="#P" n="66"/>sonarum, et quod temporale Verbum, vel non
+          <lb ed="#P" n="67"/>possit esse intra Deum, et sic nec esset 
+          pro<lb break="no" ed="#P" n="68"/>prie verbum, vel non posset esse sine magna
+          <lb ed="#P" n="69"/>mutatione Dei. Denique inter scholasticos 
+          Du<lb break="no" ed="#P" n="70"/>randus, in 1, dist. 2, quaest. 3, negat 
+          secun<lb break="no" ed="#P" n="71"/>dam personam esse proprie Verbum, ex alio
+          <lb ed="#P" n="72"/>fundamento. Quod non procedit per 
+          intellec<lb break="no" ed="#P" n="73"/>tum, ut supra vidimus libro primo ubi 
+          funda<lb break="no" ed="#P" n="74"/>mentum illud sufficienter impugnavimus. Hic
+          <lb ed="#P" n="75"/>ergo supponimus, secundam personam esse 
+          De<lb break="no" ed="#P" n="76"/>um, procedentem a prima per intellectum, et ni
+          <lb ed="#P" n="77"/>hilominus inquirimus, an proprie Verbum sit.
+        </p>
+        <p xml:id="szduep-182638-d1e290">
+          <lb ed="#P" n="78"/>4. Argumenta. — Ratio dubitandi esse 
+          po<lb break="no" ed="#P" n="79"/>test, quia non omne, quod procedit per 
+          intel<lb break="no" ed="#P" n="80"/>lectum, est Verbum, habitus enim scientiae,
+          <lb ed="#P" n="81"/>verbi gratia, procedit per intellectum, et 
+          ta<lb break="no" ed="#P" n="82"/>men Verbum non est, necesse est ergo, ut 
+          pro<lb break="no" ed="#P" n="83"/>cedat, ad intelligendum, seu ad 
+          repraesentan<lb break="no" ed="#P" n="84"/>dum ei, a quo procedit, sic enim verbum 
+          ho<lb break="no" ed="#P" n="85"/>minis ab ipso procedit, ut ipsum actu 
+          intelli<lb break="no" ed="#P" n="86"/>gentem constituat, eique repraesentet, quae 
+          in<lb break="no" ed="#P" n="87"/>tellectus est. At secunda Trinitatis persona
+          <lb ed="#P" n="88"/>non potest ita procedere a prima, ergo non 
+          po<lb break="no" ed="#P" n="89"/>test esse proprie Verbum. Minor probatur,
+          <lb ed="#P" n="90"/>quia prima persona, quae intelligendo 
+          produ<lb break="no" ed="#P" n="91"/>cit, non constituitur actu intelligens per 
+          per<lb break="no" ed="#P" n="92"/>sonam productam, quia nullam perfectionem
+          <lb ed="#P" n="93"/>ab illa comparat: et ideo nec persona producta
+          <lb ed="#P" n="94"/>potest repraesentare producenti, tum quia
+          <lb ed="#P" n="95"/>talis repraesentatio non ó6st, nisi per 
+          intellec<lb break="no" ed="#P" n="96"/>tionem : tum etiam, quia Pater in se ipso, non
+          <lb ed="#P" n="97"/>in alio omnia cognoscit, ergo non est secunda
+          <lb ed="#P" n="98"/>persona proprie Verbum. Patet consequentia,
+          <lb ed="#P" n="99"/>quia non possumus propriam Verbi rationem,
+          <lb ed="#P" n="100"/>nisi ex nobis colligere, nam ex nostro verbo
+          <lb ed="#P" n="101"/>ad divinum ascendimus.
+        </p>
+        <p xml:id="szduep-182638-d1e345">
+          <lb ed="#P" n="102"/>5. Prima et secunda confirmationes. — Unde
+          <lb ed="#P" n="103"/>confirmatur primo, nam quod procedit ab 
+          in<lb break="no" ed="#P" n="104"/>telligente jam constituto in actu secundo 
+          in<lb break="no" ed="#P" n="105"/>telligendi, non potest esse proprium Verbum
+          <lb ed="#P" n="106"/>mentale, sed erit vocale, vel scriptum, ut in
+          <lb ed="#P" n="107"/>nobis constat : secunda autem persona proce
+          <pb ed="#P" n="724"/>
+          <cb ed="#P" n="a"/>,
+          <lb ed="#P" n="1"/>dit a prima, prius origine constituta in actu
+          <lb ed="#P" n="2"/>secundo intelligendi, ut supra visum est, quia
+          <lb ed="#P" n="3"/>prius origine habet Pater omnia essentialia,
+          <lb ed="#P" n="4"/>inter quae est ipsum intelligere, ergo non 
+          po<lb break="no" ed="#P" n="5"/>test Filius procedere, ut proprium verbum
+          <lb ed="#P" n="6"/>mentale, constat autem nec vocale, seu 
+          transi<lb break="no" ed="#P" n="7"/>torium esse, eczgo nullo modo est proprium
+          <lb ed="#P" n="8"/>Verbum. Tandem confirmatur, quia dicere,
+          <lb ed="#P" n="9"/>et Verbum correlativa sunt, sed primam 
+          per<lb break="no" ed="#P" n="10"/>sonam producere secundam non est dicere
+          <lb ed="#P" n="11"/>ergo nec secunda est Verbum. Minor patet,
+          <lb ed="#P" n="12"/>quia dicere, ut sic, non est producere. Nos
+          <lb ed="#P" n="13"/>enim dicimus res, quas nos producimus, et
+          <lb ed="#P" n="14"/>Verbum ipsum divinum dicit omnia, quae
+          <lb ed="#P" n="15"/>cognoscit, et quae facit, nam de illo etiam
+          <lb ed="#P" n="16"/>verum est illud, ipse dixit et facta sunt. Et
+          <lb ed="#P" n="17"/>tamen non producit saltem per intellectum,
+          <lb ed="#P" n="18"/>ergo.
+        </p>
+        <p xml:id="szduep-182638-d1e404">
+          <lb ed="#P" n="19"/>6. Assertio. — Dicendum nihilominus est,
+          <lb ed="#P" n="20"/>secundam personam esse Verbum Patris cum
+          <lb ed="#P" n="21"/>omni veritate et proprietate. Res per hanc 
+          as<lb break="no" ed="#P" n="22"/>sertionem significata est de Fide, et ultima
+          <lb ed="#P" n="23"/>pars est etiam ita certa, ut sine errore negari
+          <lb ed="#P" n="24"/>non possit. Probatur primo ex Scripturis: nam
+          <lb ed="#P" n="25"/>in Testamento etiam veteri multis in locis 
+          si<lb break="no" ed="#P" n="26"/>enificata est haec veritas, ut in illo Psalmi. 32.
+          <lb ed="#P" n="27"/>Verbo Domini celi firmati sunt, et similibus,
+          <lb ed="#P" n="28"/>praesertim vero in illo Psalm. 44. Fructavit
+          <lb ed="#P" n="29"/>cor mewun verbum bonuwn. Quem locum de 
+          a<lb break="no" ed="#P" n="30"/>terna generatione exponunt Patres ibi 
+          com<lb break="no" ed="#P" n="31"/>muniter, et Cyprianus, lib. 1, contra Judaeos.
+          <lb ed="#P" n="32"/>Et significavit Paulus, ad Hebr. 1, ex illo loco
+          <lb ed="#P" n="33"/>demonstrans Christi divinitatem. Praecipue 
+          ve<lb break="no" ed="#P" n="34"/>ro nobis ostendit hanc proprietatem Joannes
+          <lb ed="#P" n="35"/>Apostolus in tribus locis Novi Testamenti, 
+          Apo<lb break="no" ed="#P" n="36"/>calyp. 19, Et nomen ejus Verbum Dei, in quo
+          <lb ed="#P" n="37"/>indicat proprietatem: nam haec maxime 
+          si<lb break="no" ed="#P" n="38"/>gnificari solet proprio rei nomine, et maxime
+          <lb ed="#P" n="39"/>quando a Deo ipso, vel spiritu ejus imponitur.
+          <lb ed="#P" n="40"/>Item prima canonica, c. 1, ubi vocat Verbum
+          <lb ed="#P" n="41"/>vitee, et in c. 5, numerans personas Trinitatis,
+          <lb ed="#P" n="42"/>secundam ponit nomine Verbi.
+        </p>
+        <p xml:id="szduep-182638-d1e459">
+          <lb ed="#P" n="43"/>7. Initium Evangelii Joannis exponitur.—
+          <lb ed="#P" n="44"/>Insignior locus est initiam Evangeli Joannis:
+          <lb ed="#P" n="45"/>In principio erat Verbum. Est enim vulgatum,
+          <lb ed="#P" n="46"/>Joannem ad hoc praecipue suum Evangelium
+          <lb ed="#P" n="47"/>scripsisse, ut Christi divinitatem et aeternam
+          <lb ed="#P" n="48"/>processionem nobis demonstraret, et ideoinquit
+          <lb ed="#P" n="49"/>Cyrillus Alexandrinus, lib. 7, Thesauri, cap. 5,
+          <lb ed="#P" n="50"/>statim in principio : IVomen Verbi elegit, quia
+          <lb ed="#P" n="51"/>Aest marime proprium et significativum 
+          divini<lb break="no" ed="#P" n="52"/>tatis et processionis proprie secundee personae.
+          <lb ed="#P" n="53"/>Et ob hanc rem male audit Erasmus, qui in
+          <lb ed="#P" n="54"/>illo initio mutare ausus est nomen Verbum, et
+          <lb ed="#P" n="55"/>loco illius ponere nomen Sermo. Reprehendi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur autem, non quia secunda persona non 
+          pos<lb break="no" ed="#P" n="57"/>sit etiam sermo vocari. Nam multi Patres 
+          sae<lb break="no" ed="#P" n="58"/>pe utuntur illa voce, ut videre licet in 
+          Cypria<lb break="no" ed="#P" n="59"/>no, dicto libro 2, contra Judaeos, cap.3 et 5, et
+          <lb ed="#P" n="60"/>Augustino, tract. 108, in Joannem. Imo aliqui
+          <lb ed="#P" n="61"/>ita interpretantur et non male illud ad Hebr. 4:
+          <lb ed="#P" n="62"/>Vivus est enim sermo Dei et efficav, etc. Nam
+          <lb ed="#P" n="63"/>illa omnia, quae Paulus ibi attribuit verbo Dei,
+          <lb ed="#P" n="64"/>propriissime conveniunt in Verbumincreatum,
+          <lb ed="#P" n="65"/>ut notarunt Ambrosius 4, de Fide, cap. tertio,
+          <lb ed="#P" n="66"/>et Cyrillus, lib. 2, in Joannem, cap. 37, et
+          <lb ed="#P" n="67"/>Graece utrobique habetur eadem vox <foreign>logos</foreign>
+          <lb ed="#P" n="68"/>Nihilominus merito reprehenditur Erasmus,f
+          <lb ed="#P" n="69"/>tum quia ausus est, antiquissimam et 
+          recep<lb break="no" ed="#P" n="70"/>tissimam lectionem mutare, tum quia in 
+          rigo<lb break="no" ed="#P" n="71"/>re magis proprium est Verbum, quam Sermo.
+          <lb ed="#P" n="72"/>Nam Ferbwn propriissime dicitur de re 
+          omni<lb break="no" ed="#P" n="73"/>no simplici, Sermo autem in rigore significat
+          <lb ed="#P" n="74"/>orationem compositam. Et ideo aliqui curiose
+          <lb ed="#P" n="75"/>adnotarunt, Sermonis vocem magis 
+          accommo<lb break="no" ed="#P" n="76"/>dari Christo, ut est persona composita: Verbum
+          <lb ed="#P" n="77"/>autem proprie dici de ipsa persona divina 
+          se<lb break="no" ed="#P" n="78"/>cundum se, quamvis illa etiam sermo dici 
+          pos<lb break="no" ed="#P" n="79"/>sit, quia in sua simplicitate eminenter 
+          con<lb break="no" ed="#P" n="80"/>tinet omnia, quae a longo sermone dici 
+          pos<lb break="no" ed="#P" n="81"/>sunt.
+        </p>
+        <p xml:id="szduep-182638-d1e550">
+          <lb ed="#P" n="82"/>8. Ex Conciliis et Patribus non oportet 
+          plu<lb break="no" ed="#P" n="83"/>ra referre, quoniam supra probando Filii 
+          Di<lb break="no" ed="#P" n="84"/>vinitatem et processionem ejus per intellectum
+          <lb ed="#P" n="85"/>allata sunt et in discursu hujus capitis et 
+          se<lb break="no" ed="#P" n="86"/>quentium necessario erunt repetenda. Ut ergo
+          <lb ed="#P" n="87"/>ratione declaremus hanc veritatem, pauca de
+          <lb ed="#P" n="88"/>cerbo praemittenda sunt, ex multis, quae 
+          theo<lb break="no" ed="#P" n="89"/>logi disputant, et inter eos latissime Torres, 1
+          <lb ed="#P" n="90"/>p.q.97.
+        </p>
+        <p xml:id="szduep-182638-d1e573">
+          <lb ed="#P" n="91"/>9. De verbo creato. — Primo ergo Verbum in
+          <lb ed="#P" n="92"/>communi sumptum, in genere signi, seu 
+          re<lb break="no" ed="#P" n="93"/>praesentavi constituitur, quod satis constat ex
+          <lb ed="#P" n="94"/>communi usu et sensu omnium. Verbum enim
+          <lb ed="#P" n="95"/>locutioni respondet : locutio autem ad 
+          signi<lb break="no" ed="#P" n="96"/>ficandum, vel repraesentandum aliquid 
+          refer<lb break="no" ed="#P" n="97"/>tur: verbum ergo hunc etiam respectum 
+          in<lb break="no" ed="#P" n="98"/>cludit. Et hinc fit, ut verbum dicat ordinem
+          <lb ed="#P" n="99"/>ad naturam, seu facultatem rationalem, vel
+          <lb ed="#P" n="100"/>intellectualem, quatenus intelligit, seu 
+          ratio<lb break="no" ed="#P" n="101"/>ne utitur, quod etiam constat ex usu 
+          philoso<lb break="no" ed="#P" n="102"/>phorum. Quia nec brutis, nec sensibus 
+          exter<lb break="no" ed="#P" n="103"/>nis verbum attribuunt, quamvis haec suo 
+          mo<lb break="no" ed="#P" n="104"/>do forment imagines objecta repraesentantes,
+          <lb ed="#P" n="105"/>quia rationem non participant. Item quia 
+          lo<lb break="no" ed="#P" n="106"/>cutio, si sit vera et propria, est actus rationis;
+          <lb ed="#P" n="107"/>Verbum autem, ut dixi, locutioni respondet.
+          <lb ed="#P" n="108"/>Tertio denique, dicit verbum habitudinem ad
+          <lb ed="#P" n="109"/>mentem tanquam ad principium, a quo, vel
+          <lb ed="#P" n="110"/>quo mediante procedit, ut etiamsi repraesentet
+          <pb ed="#P" n="725"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et ad hoc fiat, non est verbum, quia per se
+          <lb ed="#P" n="2"/>non procedit a mente, ut principio 
+          intelligen<lb break="no" ed="#P" n="3"/>di, sed ab objecto, vel aliquo supplente 
+          cau<lb break="no" ed="#P" n="4"/>salitatem ejus. Item procedit hic ratio facta,
+          <lb ed="#P" n="5"/>quia Verbum est terminus locutionis, locutio
+          <lb ed="#P" n="6"/>autem dicit habitudinem ad rationem, ut ad
+          <lb ed="#P" n="7"/>principium. Ex quibus facile erit unicuique
+          <lb ed="#P" n="8"/>descriptionem Verbi colligere, quia tamen 
+          val<lb break="no" ed="#P" n="9"/>de analogum est, facilius accommodabitur ad
+          <lb ed="#P" n="10"/>singula membra, praemissa divisione.
+        </p>
+        <p xml:id="szduep-182638-d1e645">
+          <lb ed="#P" n="11"/>10. De vocali et scripto.—Est ergo secundo
+          <lb ed="#P" n="12"/>advertendum, verbum primo dividi posse in
+          <lb ed="#P" n="13"/>externum et internum. Externum voco, quod
+          <lb ed="#P" n="14"/>sensibile est et per exteriora corporis membra
+          <lb ed="#P" n="15"/>formatur: internum, quod per interiores 
+          po<lb break="no" ed="#P" n="16"/>tentias. Unde illud prius dividi solet in vocale
+          <lb ed="#P" n="17"/>et scriptum, quae materialiter tantum 
+          diffe<lb break="no" ed="#P" n="18"/>runt, nam usum et modum significandi fere
+          <lb ed="#P" n="19"/>eumdem habent. Dubitari autem solet, an
+          <lb ed="#P" n="20"/>verbum sensibile, ut vocale sit proprie verbum.
+          <lb ed="#P" n="21"/>Nam Durandus vuit solum metaphorice ita 
+          ap<lb break="no" ed="#P" n="22"/>pellari eo modo, quo imago hominis vocatur
+          <lb ed="#P" n="23"/>homo: nam solum dicitur verbum, quia 
+          re<lb break="no" ed="#P" n="24"/>praesentat mentale. Cajetanus vero, Torres et
+          <lb ed="#P" n="25"/>alii dicunt, esse proprie verbum. Imo 
+          Cajeta<lb break="no" ed="#P" n="26"/>nus existimat, proprius esse Verbum in voce,
+          <lb ed="#P" n="27"/>quam in phantasia, quia locutio exterior 
+          ma<lb break="no" ed="#P" n="28"/>gis participat de usu rationis, magisque ibi
+          <lb ed="#P" n="29"/>obedit, quam, phantasia, seu disputatio est
+          <lb ed="#P" n="30"/>parvi momenti et de nomine. Si tamen 
+          aiten<lb break="no" ed="#P" n="31"/>damus primam impositionem vocis, non 
+          vide<lb break="no" ed="#P" n="32"/>tur dubium, quin vocale sit proprie verbum,
+          <lb ed="#P" n="33"/>imo fortasse ad illud significandum primo est
+          <lb ed="#P" n="34"/>vox imposita, tanquam nhominibus notius.
+          <lb ed="#P" n="35"/>Item locutio exterior est proprie locutio a 
+          ra<lb break="no" ed="#P" n="36"/>tione procedens et terminus ejus vere 
+          signi<lb break="no" ed="#P" n="37"/>ficat, ac repraesentat : erit ergo proprie verbum.
+          <lb ed="#P" n="38"/>Quanquam probabile sit, compaxatione verbi
+          <lb ed="#P" n="39"/>mentalis esse anologice verbum: quia totum
+          <lb ed="#P" n="40"/>suum esse et repraesentationem habet per
+          <lb ed="#P" n="41"/>quamdam habitudinem ad iliud et per aliquam
+          <lb ed="#P" n="42"/>participationem illius, ut significavit 
+          Augusti<lb break="no" ed="#P" n="43"/>nus, 15, de Trinit., cap. ii, et seqventibus.
+          <lb ed="#P" n="44"/>Idemque dicendum est de verbo scripto. Aliqui
+          <lb ed="#P" n="45"/>etiam volunt actiones alias externas, quibus
+          <lb ed="#P" n="46"/>homines interdum utuntur ad exprimendos
+          <lb ed="#P" n="47"/>conceptus loco vocum, posse etiam dici verba,
+          <lb ed="#P" n="48"/>sed hoc magis metaphoricum est.
+        </p>
+        <p xml:id="szduep-182638-d1e730">
+          <lb ed="#P" n="49"/>11. De verbo phantasia.—Similiter verbum
+          <lb ed="#P" n="50"/>internum subdividitur a divo Thoma supra in
+          <lb ed="#P" n="51"/>verbum phantasiae et mentale, seu 
+          imagina<lb break="no" ed="#P" n="52"/>tionis et intellectus. De priori solum est 
+          ad<lb break="no" ed="#P" n="53"/>vertendum, in imaginatione posse imprimis
+          <lb ed="#P" n="54"/>esse conceptus externorum verborum. 
+          kxpe<lb break="no" ed="#P" n="55"/>rientia enim constat, cum loquimur formare
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prius in imaginatione verba ipsa exterius 
+          pro<lb break="no" ed="#P" n="57"/>ferenda. Atque hoc modo nemo dubitare 
+          po<lb break="no" ed="#P" n="58"/>test, quin illa imago phantasise sit tam proprie
+          <lb ed="#P" n="59"/>verbum sicut vocale vel scriptum, quia habet
+          <lb ed="#P" n="60"/>eumdem usum, eumdemque modum 
+          signifi<lb break="no" ed="#P" n="61"/>candi et eamdem subordinationem ad 
+          ratio<lb break="no" ed="#P" n="62"/>nem. Ulterius vero est in phantasia imago 
+          ip<lb break="no" ed="#P" n="63"/>sius rei significatae per vocem, et de hac aliqui
+          <lb ed="#P" n="64"/>nolunt, ut appelletur verbum, sed idolum, vel
+          <lb ed="#P" n="65"/>phariasma expressum, quia non procedit a
+          <lb ed="#P" n="66"/>ratione. Sieut in bruto simile idolum non 
+          di<lb break="no" ed="#P" n="67"/>cetur verbum. Sed de hoc etiam non est 
+          mul<lb break="no" ed="#P" n="68"/>tum contendendum, nam etiam est quaestio de
+          <lb ed="#P" n="69"/>voce. Quia vero in homine ipsa imaginatio
+          <lb ed="#P" n="70"/>est rationalis per participationem, et in suis
+          <lb ed="#P" n="71"/>conceptibus etiam ultimis dirigi potest ab 
+          in<lb break="no" ed="#P" n="72"/>tellectu, ideo majori cum ratione potest in
+          <lb ed="#P" n="73"/>homine talis conceptus verbum appellari,
+          <lb ed="#P" n="74"/>quam in brutis.
+        </p>
+        <p xml:id="szduep-182638-d1e791">
+          <lb ed="#P" n="75"/>12. De verbo intellectus creati.— Quod vero
+          <lb ed="#P" n="76"/>maxime ad rem praesentem pertinet, est 
+          ver<lb break="no" ed="#P" n="77"/>bum intellectus, in quo distingui etiam potest
+          <lb ed="#P" n="78"/>verbum vocis a verbo rei. Illud est, quod a
+          <lb ed="#P" n="79"/>dialecticis vocari solet conceptus.non ultimus:
+          <lb ed="#P" n="80"/>estque etiam verbum imperfectum et 
+          secun<lb break="no" ed="#P" n="81"/>dum quid, respectu rei significatae per vocem,
+          <lb ed="#P" n="82"/>nam formaliter habet eamdem rationem quam
+          <lb ed="#P" n="83"/>verbum ore prolatum, et ideo est etiam 
+          omit<lb break="no" ed="#P" n="84"/>tendum. Verbum ergo rei est, quod proprie et
+          <lb ed="#P" n="85"/>simpliciter dicitur verbum mentis, quod in
+          <lb ed="#P" n="86"/>hac materia omnes Patres supponunt, et per
+          <lb ed="#P" n="87"/>comparationem ad iliud rationem Verbi divini
+          <lb ed="#P" n="88"/>declarant. Nam licet Verbum divinum longe
+          <lb ed="#P" n="89"/>sit nobilius et principalius verbum, etiam 
+          se<lb break="no" ed="#P" n="90"/>cundum analogiam: nihilominus nostrum
+          <lb ed="#P" n="91"/>verbum nobis notius est, et ideo utimur ac 
+          co<lb break="no" ed="#P" n="92"/>gnoscendum aliud, et seclusis 
+          imperfectioni<lb break="no" ed="#P" n="93"/>bus. Átque hanc viam et rationem declarandi
+          <lb ed="#P" n="94"/>Verbum divinum maxime prosequitur 
+          Augus<lb break="no" ed="#P" n="95"/>tinus, toto libro 15, de Trinitate, et lib. 7, et
+          <lb ed="#P" n="96"/>in aliis habet aliqua Anselmus optime , in
+          <lb ed="#P" n="97"/>Monologio, cap. 29, et sequentibus. Ubi 
+          ver<lb break="no" ed="#P" n="98"/>bum vocat Imaginem ewpressam, quae oritur
+          <lb ed="#P" n="99"/>in ratione cogitante : imo significat, 
+          cogitatio<lb break="no" ed="#P" n="100"/>nem ipsam esse imaginem et imaginem in 
+          cogi<lb break="no" ed="#P" n="101"/>tatione existentem esse verbhwn. Damascenus
+          <lb ed="#P" n="102"/>etiam, lib. 1, cap. 18, vocat verbum 
+          natura<lb break="no" ed="#P" n="103"/>lem-intellectus conceptum et quasi factum. 
+          Ba<lb break="no" ed="#P" n="104"/>silius, hom. 1, in Joannem, dicit procedere a
+          <lb ed="#P" n="105"/>mente sicut rivum a fonte. Denique 
+          Athana<lb break="no" ed="#P" n="106"/>sius, in Epistola de sententia Dionysii contra
+          <lb ed="#P" n="107"/>Arianos, dicit esse mentis promanationem.
+        </p>
+        <p xml:id="szduep-182638-d1e865">
+          <lb ed="#P" n="108"/>13. Convenientia verbi increati cum creato.
+          <lb ed="#P" n="109"/>—cEst autem tertio observandum ex eodem
+          <lb ed="#P" n="110"/>Athanasio, serm. 3, contra Arianos, et ex Ba-
+          <pb ed="#P" n="726"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>silio, oratione contra Sabellium, non esse in
+          <lb ed="#P" n="2"/>omnibus Verbum divinum cum verbo mentali
+          <lb ed="#P" n="3"/>hominis comparandum, sed tantum in iis quae
+          <lb ed="#P" n="4"/>ad perfectionem pertinent. Conveniunt itaque
+          <lb ed="#P" n="5"/>primo, quia utrumque spirituale est et 
+          perma<lb break="no" ed="#P" n="6"/>nens, et non transitorium, ut est verbum 
+          vo<lb break="no" ed="#P" n="7"/>cale. Secundo, utrumque est immanens intra
+          <lb ed="#P" n="8"/>ipsum intelligentem. Tertio, utrumque 
+          reprae<lb break="no" ed="#P" n="9"/>sentat non ad placitum, sed naturaliter, neque
+          <lb ed="#P" n="10"/>ex accidenti, ut sic dicam , seu 
+          concomitan<lb break="no" ed="#P" n="11"/>ter, sed per se et ex vi suae processionis, quia
+          <lb ed="#P" n="12"/>utrumque est ipsummet intelligere ejus, a quo
+          <lb ed="#P" n="13"/>procedit. Quae omnia et similia ad 
+          perfectio<lb break="no" ed="#P" n="14"/>nem spectant, et ad proprietatem verbi 
+          suffi<lb break="no" ed="#P" n="15"/>ciunt, ut statim declarabo.
+        </p>
+        <p xml:id="szduep-182638-d1e911">
+          <lb ed="#P" n="16"/>14. Differentia. — Differunt tamen in 
+          mul<lb break="no" ed="#P" n="17"/>tis. Primo, quia verbum creatum est 
+          acciden<lb break="no" ed="#P" n="18"/>tale, Verbum autem divinum subsistens, quod
+          <lb ed="#P" n="19"/>non minuit rationem et proprietatem verbi,
+          <lb ed="#P" n="20"/>imo perficit. Sicut patet a simili in sapientia
+          <lb ed="#P" n="21"/>accidentali et subsistente, et similibus. Et 
+          ra<lb break="no" ed="#P" n="22"/>tione etiam facile patet, quia ratio subsistentis
+          <lb ed="#P" n="23"/>non excludit veram repraesentationem 
+          intel<lb break="no" ed="#P" n="24"/>lectualem, nec veram rationem imaginis. Hinc
+          <lb ed="#P" n="25"/>secundo differunt, quod Verbum creatum est
+          <lb ed="#P" n="26"/>forma constituens in actu secundo 
+          intelligen<lb break="no" ed="#P" n="27"/>tem, a quo producitur, ut recte probat 
+          quae<lb break="no" ed="#P" n="28"/>dam ratio supra facta. Et sequitur haec 
+          diffe<lb break="no" ed="#P" n="29"/>rentia ex praecedenti, quia res subsistens ut
+          <lb ed="#P" n="30"/>sic, non est forma alterius rei distinctae. 
+          Nas<lb break="no" ed="#P" n="31"/>citur etiam haec differentia ex alia, quae potest
+          <lb ed="#P" n="32"/>esse tertia, quia verbum creatum producitur
+          <lb ed="#P" n="33"/>ex indigentia intelligentis, quia sine illo non
+          <lb ed="#P" n="34"/>est sufficienter constitutus in actu ad 
+          intelli<lb break="no" ed="#P" n="35"/>gendum, neque habet formaliter ipsum 
+          intel<lb break="no" ed="#P" n="36"/>ligere, sed solum actum primum et virtutem
+          <lb ed="#P" n="37"/>producendi verbum. Verbum autem divinum
+          <lb ed="#P" n="38"/>non ex indigentia, aut potentiahtate aliqua
+          <lb ed="#P" n="39"/>sui principii producitur, sed ex infinita 
+          perfec<lb break="no" ed="#P" n="40"/>tione et foecunditate, et ideo non supponit
+          <lb ed="#P" n="41"/>personam producentem solum constitutam in
+          <lb ed="#P" n="42"/>actu primo, sed etiam in actu secundo 
+          intelli<lb break="no" ed="#P" n="43"/>gendi. Quarto denique differunt, quia in 
+          pro<lb break="no" ed="#P" n="44"/>ductione verbi creati forma illa repraesentativa,
+          <lb ed="#P" n="45"/>quae imprimitur ipsi verbo, ut sic dicam, est
+          <lb ed="#P" n="46"/>res distincta a forma, quae est principium 
+          pro<lb break="no" ed="#P" n="47"/>duetionis ejus et comparatur ad illam ut actus
+          <lb ed="#P" n="48"/>secundus ad primum. In productione autem
+          <lb ed="#P" n="49"/>divini verbi, quamvis producens sit distinctum
+          <lb ed="#P" n="50"/>a producente, tamen forma, quae in verbo
+          <lb ed="#P" n="51"/>producto est ratio repraesentandi, eadem est
+          <lb ed="#P" n="52"/>cum forma, quae in producente est ratio 
+          pro<lb break="no" ed="#P" n="53"/>ducendi, nam est ipsummet intelligere Patris
+          <lb ed="#P" n="54"/>communicatum verbo. Ratio autem est eadem,
+          <lb ed="#P" n="55"/>quae tacta est, quia haec productio non est quasi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>transitus de potentia in actum, sed est 
+          com<lb break="no" ed="#P" n="57"/>municatio ejusdem purissimi actus, quae non
+          <lb ed="#P" n="58"/>habet locum, nisi in forma infinita.
+        </p>
+        <p xml:id="szduep-182638-d1e1010">
+          <lb ed="#P" n="59"/>15. Concluditur ratio assertionis. — Ex his
+          <lb ed="#P" n="60"/>ergo omnibus concluditur manifeste ratio 
+          as<lb break="no" ed="#P" n="61"/>sertionis propositae. Nam in divino Verbo vere,
+          <lb ed="#P" n="62"/>ac proprie inveniuntur omnia per se 
+          necessa<lb break="no" ed="#P" n="63"/>ria ad veritatem et proprietatem Verbi : est
+          <lb ed="#P" n="64"/>ergo verbum proprie et non metaphorice. 
+          An<lb break="no" ed="#P" n="65"/>tecedens patet, quia est terminus per se primo
+          <lb ed="#P" n="66"/>productus per actum intelligendi, recipiens ex
+          <lb ed="#P" n="67"/>vi suae productionis ipsummet intelligere 
+          per<lb break="no" ed="#P" n="68"/>sonae producentis, quo constituitur in ratione
+          <lb ed="#P" n="69"/>rei repraesentantis intellectualiter objectum
+          <lb ed="#P" n="70"/>illius intellectionis : haec autem sunt, quae per
+          <lb ed="#P" n="71"/>se et formaliter requiruntur ad esse verbi. 
+          Re<lb break="no" ed="#P" n="72"/>liqua vero, quae in humano verbo inveniuntur
+          <lb ed="#P" n="73"/>et imperfectionem includunt, non pertinent ad
+          <lb ed="#P" n="74"/>formaltatem verbi ut sic, sed ad 
+          imperfectio<lb break="no" ed="#P" n="75"/>nem verbi creati, et ideo ex eis nihil 
+          conclu<lb break="no" ed="#P" n="76"/>ditur contra proprietatem Verbi divini.
+        </p>
+        <p xml:id="szduep-182638-d1e1052">
+          <lb ed="#P" n="77"/>16. Solvuntur argumenta. —Per quod etiam
+          <lb ed="#P" n="78"/>responsum est ad rationem dubitandi : nam
+          <lb ed="#P" n="79"/>totum, quod in ea sumitur, pertinet ad 
+          imper<lb break="no" ed="#P" n="80"/>fectionem verbi creati, sicut in scientia creata,
+          <lb ed="#P" n="81"/>quod sit habitus et forma, est materiale, et ideo
+          <lb ed="#P" n="82"/>non licet inde argumentari, quod in Deo non
+          <lb ed="#P" n="83"/>sit propria scientia. Unde dixit optime 
+          Atha<lb break="no" ed="#P" n="84"/>nasius supra. Non tale esse quaerendum Dei
+          <lb ed="#P" n="85"/>Verbun, quale nostrum est, quia non talis est
+          <lb ed="#P" n="86"/>Deus, quales nos sumus. Responsum etiam est
+          <lb ed="#P" n="87"/>ad primam confirmationem ibi positam : nam
+          <lb ed="#P" n="88"/>si actus secundus intelligendi ita supponatur
+          <lb ed="#P" n="89"/>in producente, ut tamen ipsemet 
+          communice<lb break="no" ed="#P" n="90"/>tur producto ex vi talis productionis, 
+          perfec<lb break="no" ed="#P" n="91"/>tissima est productio Verbi, et talis est in Deo:
+          <lb ed="#P" n="92"/>in nobis autem non ita fit propter 
+          imperfec<lb break="no" ed="#P" n="93"/>tiones declaratas. De secunda vero 
+          confirma<lb break="no" ed="#P" n="94"/>tione dicam in capite sequenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="642"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-162380"><!-- t3-l4c12 -->
+        <head xml:id="szduep-162380-Hd1e101">Caput 12</head>
+        <head xml:id="szduep-162380-Hd1e103" type="question-title">Tres divinas personas vere, ac proprie esse et dici unum deum propter essentiae unitatem</head>
+        <p xml:id="szduep-162380-d1e106">
+          <pb ed="#P" n="642"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT XII.
+          <lb ed="#P" n="2"/>TRES DIVINAS PERSONAS VERE, AC PROPRIE ESSE
+          <lb ed="#P" n="3"/>ET DICI UNUM DEUM PROPTER ESSENTIAE 
+          UNI<lb break="no" ed="#P" n="4"/>TATEM.
+        </p>
+        <p xml:id="szduep-162380-d1e122">
+          <lb ed="#P" n="5"/>1. Prima sententia.— Veritas haec videri 
+          po<lb break="no" ed="#P" n="6"/>test in superioribus satis declarata et 
+          compro<lb break="no" ed="#P" n="7"/>bata: nihilominus tamen hoc loco ex professo
+          <lb ed="#P" n="8"/>tractanda est, tum ad refellendas nonnullas
+          <lb ed="#P" n="9"/>falsas theologorum sententias, tum etiam, ut
+          <lb ed="#P" n="10"/>ex propriis principiis jam demonstratis, illam
+          <lb ed="#P" n="11"/>ostendamus. Est enim haec veluti conclusio in
+          <lb ed="#P" n="12"/>hoc libro praecipue intenta. Dixerunt ergo 
+          al<lb break="no" ed="#P" n="13"/>qui, quod, licet propter Ecclesia usum, et
+          <lb ed="#P" n="14"/>propter vitandas haereses, ita loquendum sit,
+          <lb ed="#P" n="15"/>ut tres personae simpliciter dicantur unus Deus,
+          <lb ed="#P" n="16"/>nihilominus, re ipsa spectata, non esse illam
+          <lb ed="#P" n="17"/>omninc propriam unitatem et ablata 
+          suspicio<lb break="no" ed="#P" n="18"/>ne erroris potuisse allum modum loquendi 
+          in<lb break="no" ed="#P" n="19"/>troduci. Ita Marsilius, in 1, quaest. 5, art. 3,
+          <lb ed="#P" n="20"/>ad A4 et 5, et Petrus de Aliaco, in 1, quaest. 3,
+          <lb ed="#P" n="21"/>circa finem, et quaest 5, per totam. 
+          Afferunt<lb break="no" ed="#P" n="22"/>que illud Geneseos. Creavit Deus caelum et 
+          ter<lb break="no" ed="#P" n="23"/>ram. Uhbi Hebraica lectio habet Crenavit Dii,
+          <lb ed="#P" n="24"/>quod dictum putant propter unitatem 
+          na<lb break="no" ed="#P" n="25"/>turae et Trinitatem personarum. Ita enim ibi
+          <lb ed="#P" n="26"/>exponunt Lyranus Burgensis et alii, quos 
+          re<lb break="no" ed="#P" n="27"/>fert, et sequitur Galatinus, lib. 2, de Arcanis,
+          <lb ed="#P" n="28"/>cap. 9, et Catherinus,lib. 4, contra Cajetanum
+          <lb ed="#P" n="29"/>putat esse certum sensum; quam etiam 
+          theo<lb break="no" ed="#P" n="30"/>logi cum Magistro, in 1, distinct. 2, sequuntur.
+          <lb ed="#P" n="31"/>Nec discordat D. Thomas, 1 part., quaest. 39,
+          <lb ed="#P" n="32"/>art. 3, ubi ait, linguam Hebraeam juxta suum
+          <lb ed="#P" n="33"/>usum admittere illam locutionem, non tamen
+          <lb ed="#P" n="34"/>Latinam. Ex quo videtur sequi, re ipsa 
+          specta<lb break="no" ed="#P" n="35"/>ta, non esse impropriam locutionem illam, sed
+          <lb ed="#P" n="36"/>solum propter usum non admitti. Et 
+          confirma<lb break="no" ed="#P" n="37"/>tur, nam Deus est habens Deitatem, sed in
+          <lb ed="#P" n="38"/>Trinitate sunt tres habentes Deitatem, ergo
+          <lb ed="#P" n="39"/>dici possunt tres dii.
+        </p>
+        <p xml:id="szduep-162380-d1e200">
+          <lb ed="#P" n="40"/>2. Secunda opinio. —Secunda sententia 
+          re<lb break="no" ed="#P" n="41"/>ferri potest, afferens tres personas vere, et
+          <lb ed="#P" n="42"/>proprie esse unuum Deum ratione untus 
+          subsis<lb break="no" ed="#P" n="43"/>tentis communiter in Deitate: ablata vero 
+          sub<lb break="no" ed="#P" n="44"/>sistentia communi non posse tres personas dici
+          <lb ed="#P" n="45"/>proprie et simpliciter unum Deum. Sumitur ex
+          <lb ed="#P" n="46"/>Cajetano, 3 part. , quaest. 3, art. 6, et Durando,
+          <lb ed="#P" n="47"/>in 3, dist. 4, quaest. 3, circa finem, Richardo,
+          <lb ed="#P" n="48"/>art. 1, quaest. 5. Ratio est, quia posita 
+          subsis<lb break="no" ed="#P" n="49"/>tentia communi, hoc subsistens in Deitate est
+          <lb ed="#P" n="50"/>hic Deus, qui proprie dicitur esse Pater, Filius
+          <lb ed="#P" n="51"/>et Spiritus sanctus. Ablata vero illa 
+          subsisten<lb break="no" ed="#P" n="52"/>tia, non potest designari in concreto unus 
+          nu<lb break="no" ed="#P" n="53"/>mero Deus, qui sit tres personae.
+        </p>
+        <p xml:id="szduep-162380-d1e234">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>3. Nihilominus certa fides est, tres personas
+          <lb ed="#P" n="55"/>vere esse ac proprie dici unum DEUM, et nullo
+          <lb ed="#P" n="56"/>modo dici posse, esse plures Deos. Hoc est 
+          ve<lb break="no" ed="#P" n="57"/>luti primum fidei fundamentum, in quo sicut
+          <lb ed="#P" n="58"/>non potest esse falsitas, ita neque admitti 
+          po<lb break="no" ed="#P" n="59"/>test improprietas locutionis, quae parum distat
+          <lb ed="#P" n="60"/>a falsitate. Unde cum fides magis sit de rebus
+          <lb ed="#P" n="61"/>quam de vocibus, ante omnia fatendum est, in
+          <lb ed="#P" n="62"/>re ipsa tantum esse unum Deum, ut docet
+          <lb ed="#P" n="63"/>Scriptura sacra. Et ita Patres omnes hoc 
+          sup<lb break="no" ed="#P" n="64"/>ponunt tanquam primum fundamentum hujus
+          <lb ed="#P" n="65"/>materiae, ut patet ex Concilio Lateranensi, in
+          <lb ed="#P" n="66"/>capite Firmiter, et capite Damnamus, et ex
+          <lb ed="#P" n="67"/>Concilio Florentino et Toletano. saepe citatis,
+          <lb ed="#P" n="68"/>et Augustino 7, de Trinitate, cap. 4, Ambrosio
+          <lb ed="#P" n="69"/>1, de Fide, cap. 1 et 2, et aliis statim 
+          referen<lb break="no" ed="#P" n="70"/>dis. Quia vero doctrina fidei etiam complectitur
+          <lb ed="#P" n="71"/>voces et modos loquendi in ordine ad res 
+          divi<lb break="no" ed="#P" n="72"/>nas explicandas, et vitanda pericula errorum,
+          <lb ed="#P" n="73"/>ideo etiam fatendum est, illam locutionem esse
+          <lb ed="#P" n="74"/>omnino propriam. Tum quia unitas Dei est in
+          <lb ed="#P" n="75"/>se omnino vera et propria: tum etiam quia
+          <lb ed="#P" n="76"/>alias negativa propositio esset magis propria,
+          <lb ed="#P" n="77"/>scilicet, tres personas non esse unum Deum, ac
+          <lb ed="#P" n="78"/>proinde potius essé dicendos plures Deos, quia
+          <lb ed="#P" n="79"/>inter contradictoria non est medium. Haec 
+          au<lb break="no" ed="#P" n="80"/>tem absurda sunt et haeretica: est ergo et vera
+          <lb ed="#P" n="81"/>et propria illa unitas et illa locutio.
+        </p>
+        <p xml:id="szduep-162380-d1e299">
+          <lb ed="#P" n="82"/>4. Secundo dicendum est, quamvis posita
+          <lb ed="#P" n="83"/>subsistentia essentiali clarior sit illa locutio,
+          <lb ed="#P" n="84"/>nihilominus, veritatem et proprietatem ejus
+          <lb ed="#P" n="85"/>non esse ad illam opinionem limitandam, quia
+          <lb ed="#P" n="86"/>veritas fidei non pendet ex theologorum 
+          opi<lb break="no" ed="#P" n="87"/>nionibus. Unde sancti Patres unitatem naturae
+          <lb ed="#P" n="88"/>docent sufficere ad unitatem Dei. Sic 
+          Ambro<lb break="no" ed="#P" n="89"/>sius supra: Pater et Filius unum sunt, non
+          <lb ed="#P" n="90"/>confusione personae, sed unitate nature. Et 
+          op<lb break="no" ed="#P" n="91"/>time Fulgentius, lib. de Fide ad EFetrum, c. 1:
+          <lb ed="#P" n="92"/>Umwnm recte credimus et dicimus Deum, quia una
+          <lb ed="#P" n="93"/>prorsus eternitas, una imunensitas, et una 
+          natu<lb break="no" ed="#P" n="94"/>raliter est trium personarum Diinitas : Et
+          <lb ed="#P" n="95"/>multa habet in eamdem sententiam Sophronius
+          <lb ed="#P" n="96"/>in sua Epist., act. 11, 6 Synodi. Docet etiam
+          <lb ed="#P" n="97"/>Concilium Florentinum, Patrem et Filium esse
+          <lb ed="#P" n="98"/>unum principium Spiritus sancti, et non plura:
+          <lb ed="#P" n="99"/>quod non fundatur in aliqua subsistentia 
+          com<lb break="no" ed="#P" n="100"/>muni, ut infra ostendam, sed in unitate amoris
+          <lb ed="#P" n="101"/>et voluntatis. Sic etiam, licet tres personae 
+          im<lb break="no" ed="#P" n="102"/>mediate assumerent unam humanitatem, 
+          es<lb break="no" ed="#P" n="103"/>sent unus homo, et non propter subsistentiam
+          <lb ed="#P" n="104"/>communem, ut latius in 3 p., tom. 1, disp. 13,
+          <lb ed="#P" n="105"/>sect. 3. Ratio vero est ex dictis in superiori 
+          li<lb break="no" ed="#P" n="106"/>bro sumenda. Quia ad unitatem nominis 
+          sub<lb break="no" ed="#P" n="107"/>stantivi sufficit unitas formae, seu naturae, illam
+          <lb ed="#P" n="108"/>enim significat formaliter per modum per se
+          <pb ed="#P" n="643"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>stantis, et ideo si illa una sit, unum est 
+          sub<lb break="no" ed="#P" n="2"/>stantivum per illam constitutum, etiamsi modi
+          <lb ed="#P" n="3"/>per se essendi plures sint. Deus autem hac voce
+          <lb ed="#P" n="4"/>substantive significatur, et haec est propria, et
+          <lb ed="#P" n="5"/>primaria significatio illius vocis ex primaeva
+          <lb ed="#P" n="6"/>sua significatione, et non ex aliqua usus 
+          ac<lb break="no" ed="#P" n="7"/>commodatione, ergo unitas Divinitatis sufficit
+          <lb ed="#P" n="8"/>ad veram et propriam unitatem Dei, quidquid
+          <lb ed="#P" n="9"/>sit de absoluta subsistentia.
+        </p>
+        <p xml:id="szduep-162380-d1e384">
+          <lb ed="#P" n="10"/>5. Quapropter, si juxta linguam Hebraeam
+          <lb ed="#P" n="11"/>licitum erat ut illa plurali locutione cum 
+          pro<lb break="no" ed="#P" n="12"/>prietate, sumebatur illa vox Dit, magis in vi
+          <lb ed="#P" n="13"/>nominis adjectivi quam substantivi. 
+          Verisimi<lb break="no" ed="#P" n="14"/>lius autem mihi est, non fuisse talem usum
+          <lb ed="#P" n="15"/>proprium in illa lingua, cum in ea 
+          constantis<lb break="no" ed="#P" n="16"/>sime doceatur semper unitas Dei. ubicumque
+          <lb ed="#P" n="17"/>est proprius sermo de illo. Unde, ubi reperitur
+          <lb ed="#P" n="18"/>illud plurale dii, attributum vero Deo, non
+          <lb ed="#P" n="19"/>sumitur proprie ad significandam pluralitatem
+          <lb ed="#P" n="20"/>Deorum, sed metaphorice ad significandam
+          <lb ed="#P" n="21"/>auctoritatem, ut notavit Cajetanus, Genes. 1,
+          <lb ed="#P" n="22"/>et Abulensis, in opusc. de Trinit. Confirmatio
+          <lb ed="#P" n="23"/>autem primae sententiae difficultatem non 
+          ha<lb break="no" ed="#P" n="24"/>bet, quia habens Deitatem significat adjective,
+          <lb ed="#P" n="25"/>et ex parte admittit pluralem locutionem, quia
+          <lb ed="#P" n="26"/>sunt plures habentes Deitatem, qui 
+          nihilomi<lb break="no" ed="#P" n="27"/>nus sunt unus Deus et non plures. De 
+          funda<lb break="no" ed="#P" n="28"/>mento autem alterius opinionis in capite 
+          quar<lb break="no" ed="#P" n="29"/>to-decimo dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

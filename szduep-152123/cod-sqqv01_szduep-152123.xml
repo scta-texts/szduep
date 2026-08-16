@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="601"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-152123"><!-- t3-l3c8 -->
+        <head xml:id="szduep-152123-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-152123-Hd1e103" type="question-title">Sint-ne in tribus personis tres veritates transcendentales</head>
+        <p xml:id="szduep-152123-d1e106">
+          <lb ed="#P" n="90"/>CAPUT VII.
+          <lb ed="#P" n="91"/>SINT-NE IN TRIBUS PERSONIS TRES VERITATES
+          <lb ed="#P" n="92"/>TRANSCENDENTALES.
+        </p>
+        <p xml:id="szduep-152123-d1e115">
+          <lb ed="#P" n="93"/>1. Prima opinio negans.—Haec quaestio tam
+          <lb ed="#P" n="94"/>de vero in concreto, ac substantive sumpto,
+          <lb ed="#P" n="95"/>quam de veritate in abstracto tractari potest,
+          <lb ed="#P" n="96"/>tamen quia supposita regula superius tradita,
+          <lb ed="#P" n="97"/>facile est, ex abstractis colligere modum 
+          lo<lb break="no" ed="#P" n="98"/>quendi in concreto, ideo convenienter in 
+          ab<lb break="no" ed="#P" n="99"/>stracto proponitur. Richardus, ergo in 1, dist.
+          <lb ed="#P" n="100"/>24, art. 1, quaest. 3, ad 1, negat veritatem
+          <lb ed="#P" n="101"/>transcendentalem posse in Deo multiplicari,
+          <lb ed="#P" n="102"/>quia veritas rei, inquit, nihil aliud est, quam
+          <lb ed="#P" n="103"/>essentia conformis , vel conformabilis proprio
+          <lb ed="#P" n="104"/>conceptui talis rei, in divinis autem personis
+          <lb ed="#P" n="105"/>tantum est una essentia, ergo tantum est una
+          <lb ed="#P" n="106"/>veritas. Possumus hanc sententiam 
+          confirma<lb break="no" ed="#P" n="107"/>re, quia omnis veritas aut est prima, aut infe-
+          <pb ed="#P" n="602"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rior illa, sed in Deo non possunt admitti tres
+          <lb ed="#P" n="2"/>primae veritates, quia esset admittere tres deos,
+          <lb ed="#P" n="3"/>neque etiam tres inferiores veritates, quia 
+          ne<lb break="no" ed="#P" n="4"/>cessario futurae essent imperfectae, ergo est
+          <lb ed="#P" n="5"/>tantum una prima veritas.
+        </p>
+        <p xml:id="szduep-152123-d1e165">
+          <lb ed="#P" n="6"/>2. Nihilominus existimo, etiam hoc 
+          trans<lb break="no" ed="#P" n="7"/>cendens recte expositum multiplicari in 
+          divi<lb break="no" ed="#P" n="8"/>nis personis. Est autem advertendum, 
+          verita<lb break="no" ed="#P" n="9"/>tem triplicem esse, in intelligendo, in dicendo,
+          <lb ed="#P" n="10"/>et in essendo, et omnibus his modis veritatem
+          <lb ed="#P" n="11"/>esse in Deo, et Deum esse primam veritatem.
+          <lb ed="#P" n="12"/>In intelligendo quidem, quia per se ipsum ita
+          <lb ed="#P" n="13"/>omnia intelligit, ut nihil, nisi vere possit 
+          in<lb break="no" ed="#P" n="14"/>telligere, unde haec veritas in Deo nihil aliud
+          <lb ed="#P" n="15"/>est, quam infallibilis conformitas intelligentiae
+          <lb ed="#P" n="16"/>divinae cum omni re intelligibili. Quapropter
+          <lb ed="#P" n="17"/>haec veritas tantum potest esse una, quia est
+          <lb ed="#P" n="18"/>essentialis, et omnino absoluta, et quia 
+          intel<lb break="no" ed="#P" n="19"/>ligere Dei tantum est unum. Veritas in 
+          dicen<lb break="no" ed="#P" n="20"/>do est virtus quaedam moralis, seu attributum
+          <lb ed="#P" n="21"/>quoddam divinae voluntatis ratione cujus 
+          in<lb break="no" ed="#P" n="22"/>fallibiliter semper dicit verum, et mentiri non
+          <lb ed="#P" n="23"/>potest, et haec etiam veritas nullo modo 
+          mul<lb break="no" ed="#P" n="24"/>tiplicatur in Trinitate sicut nec voluntas, 
+          cu<lb break="no" ed="#P" n="25"/>jus est absoluta perfectio, seu attributum. 
+          Ve<lb break="no" ed="#P" n="26"/>ritas in essendo in unaquaque re est entitas
+          <lb ed="#P" n="27"/>ipsa rei, ut conformis, vel conformabilis vero
+          <lb ed="#P" n="28"/>conceptui ejus, ut suppono ex Metaphysieca,
+          <lb ed="#P" n="29"/>disputatione octava.
+        </p>
+        <p xml:id="szduep-152123-d1e221">
+          <lb ed="#P" n="30"/>3. Dico ergo, hanc veritatem in essendo
+          <lb ed="#P" n="31"/>multiplicari in divinis personis secundum 
+          en<lb break="no" ed="#P" n="32"/>titates personales, seu relativas earum, licet
+          <lb ed="#P" n="33"/>quoad essentiam Dei una sit. Hanc 
+          posterio<lb break="no" ed="#P" n="34"/>rem partem suppono. Priorem probo 
+          impri<lb break="no" ed="#P" n="35"/>mis ex Mlo 1, Joan. 5: Ut simus in vero Filio
+          <lb ed="#P" n="36"/>ejus, hic est verus DEUS, ergo personae Filii
+          <lb ed="#P" n="37"/>dupliciter convenit veritas in essendo, scilicet
+          <lb ed="#P" n="38"/>in ratione Filii, et in ratione DET. Et priorem
+          <lb ed="#P" n="39"/>veritatem hábet ex sua proprietate relativa
+          <lb ed="#P" n="40"/>et incommunicabili. Posteriorem vero ex 
+          di<lb break="no" ed="#P" n="41"/>vinitate communicabili, ergo prima veritas est
+          <lb ed="#P" n="42"/>propria Filii, posterior communis omnibus
+          <lb ed="#P" n="43"/>personis, non communitate rationis, sed reali,
+          <lb ed="#P" n="44"/>quod per se manifestum est, quia Pater est
+          <lb ed="#P" n="45"/>verus Deus, et Spiritus sanctus simihlter. 
+          Rur<lb break="no" ed="#P" n="46"/>sus idem discursus fieri potest in Patre, quia
+          <lb ed="#P" n="47"/>et est verus Pater, et verus Deus, et in Spiritu
+          <lb ed="#P" n="48"/>sancto, quia, et est vere procedens, et verus
+          <lb ed="#P" n="49"/>Deus, ergo in tribus personis sunt tres 
+          verita<lb break="no" ed="#P" n="50"/>tes personales, et incommunicabiles, ac 
+          com<lb break="no" ed="#P" n="51"/>munis, sola, et una essentialis, quae a 
+          perso<lb break="no" ed="#P" n="52"/>nalibus ratione distinguitur, cum personales
+          <lb ed="#P" n="53"/>inter se realiter distinguantur.
+        </p>
+        <p xml:id="szduep-152123-d1e276">
+          <lb ed="#P" n="54"/>4. Ratione etiam declaratur, respondendo
+          <lb ed="#P" n="55"/>simul ad fundamentum Richardi. Nam veri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tas transcendentalis non convertitur cum 
+          es<lb break="no" ed="#P" n="57"/>quidditativam, secundum quam potest habere 
+          <lb ed="#P" n="58"/>conformitatem cum aliquo proprio concepiu. i
+          <lb ed="#P" n="59"/>hommnis, quia in eo est vera natura humana, 
+          <lb ed="#P" n="60"/>non tamen est veritas personae creatae 
+          huma<lb break="no" ed="#P" n="61"/>nae, quae in quolibet puro homine reperitur.
+          <lb ed="#P" n="62"/>At in Deo, cum una essentia, est triplex 
+          enti<lb break="no" ed="#P" n="63"/>tas personalis, quae potest habere 
+          conformita<lb break="no" ed="#P" n="64"/>tem cum proprio conceptu suo, ergo est 
+          tri<lb break="no" ed="#P" n="65"/>plex veritas transcendentalis relativa.
+        </p>
+        <p xml:id="szduep-152123-d1e307">
+          <lb ed="#P" n="66"/>5. Modus loquendi exponitur Damasus papa.
+          <lb ed="#P" n="67"/>— Est autem circa modum loquendi 
+          ad<lb break="no" ed="#P" n="68"/>vertendum, veritatem, Deo simpliciter et sine
+          <lb ed="#P" n="69"/>addito attributam, accipi solere pro veritate
+          <lb ed="#P" n="70"/>naturae divinae, quae essentialis est. Quomodo
+          <lb ed="#P" n="71"/>Damasus papa et Sophronius, quos paulo 
+          infe<lb break="no" ed="#P" n="72"/>rius referemus, sicut aiunt, esse in tribus 
+          per<lb break="no" ed="#P" n="73"/>sonis unam aeternitatem et unam bonitatem,
+          <lb ed="#P" n="74"/>ita etiam dicunt esse unam veritatem, quod
+          <lb ed="#P" n="75"/>etiam, intelligi potest de veritate moral et 
+          in<lb break="no" ed="#P" n="76"/>tellectuali. Maxime autem haec absoluta 
+          locu<lb break="no" ed="#P" n="77"/>tio habet hunc sensum, quando additur Prima
+          <lb ed="#P" n="78"/>veritas, quia haec additio indicat supremam 
+          ra<lb break="no" ed="#P" n="79"/>tionem veritatis, quae solum est essentiahis, et
+          <lb ed="#P" n="80"/>ideo tres veritates dicendae semper sunt cum
+          <lb ed="#P" n="81"/>declaratione, seu cum illo addito, relativa.
+        </p>
+        <p xml:id="szduep-152123-d1e344">
+          <lb ed="#P" n="82"/>6. Argumentis satisfit —Et ita solvitur 
+          con<lb break="no" ed="#P" n="83"/>firmatio a nobis addita, nam illae tres 
+          verita<lb break="no" ed="#P" n="84"/>tes in re quidem sunt una. Prima, quia sunt
+          <lb ed="#P" n="85"/>una Deitas, si tamen ex propriis conceptibus
+          <lb ed="#P" n="86"/>praecise considerentur, sunt tres veritates, inter
+          <lb ed="#P" n="87"/>se quidem realiter, ab essentiali autem ratione
+          <lb ed="#P" n="88"/>distinctae. Unde si unaquaeque consideretur 
+          se<lb break="no" ed="#P" n="89"/>cundum id praecise, quod addit supra 
+          essen<lb break="no" ed="#P" n="90"/>tiam, non habet inde, quod sit prima veritas,
+          <lb ed="#P" n="91"/>sed ex essentia, quam includit. Et ideo non
+          <lb ed="#P" n="92"/>sequitur, quod sit imperfecta, cum in re 
+          in<lb break="no" ed="#P" n="93"/>cludat totam perfectionem essentiae, sed solum
+          <lb ed="#P" n="94"/>sequitur, non habere ex illo praeciso conceptu
+          <lb ed="#P" n="95"/>totum id quod dicit prima veritas, quod 
+          ve<lb break="no" ed="#P" n="96"/>rum est. Denique advertere oportet, aliquando
+          <lb ed="#P" n="97"/>totam Trinitatem dici veram Trinitatem. Sed
+          <lb ed="#P" n="98"/>per hanc locutionem non significatur aliqua
+          <lb ed="#P" n="99"/>veritas positiva, praeter eas, quas 
+          explicavi<lb break="no" ed="#P" n="100"/>mus, sed affirmatur et declaratur vera 
+          distinc<lb break="no" ed="#P" n="101"/>tio realis personarum inter se, quae solum 
+          ad<lb break="no" ed="#P" n="102"/>dit illam negationem, quod una persona non
+          <lb ed="#P" n="103"/>sit alia. Sicut etiam dici tur una Trinitas,
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="761"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-192423"><!-- t3-l10c3 -->
+        <head xml:id="szduep-192423-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-192423-Hd1e103" type="question-title">An pater et filius immediate, et aeque principaliter producant spiritum sanctum in re ipsa</head>
+        <p xml:id="szduep-192423-d1e106">
+          <lb ed="#P" n="86"/>CAPUT III.
+          <lb ed="#P" n="87"/>AN PATER ET FILIUS IMMEDIATE, ET AEQUE 
+          PRINCI<lb break="no" ed="#P" n="88"/>PALITER PRODUCANT SPIRITUM SANCTUM IN RE
+          <lb ed="#P" n="89"/>IPSA.
+        </p>
+        <p xml:id="szduep-192423-d1e117">
+          <lb ed="#P" n="90"/>1. Sensus queestionis. — In hoc capite 
+          inci<lb break="no" ed="#P" n="91"/>pimus explicare modum, quo Pater et Filius
+          <lb ed="#P" n="92"/>spirant, atque ita paulatim intelligetur ratio
+          <lb ed="#P" n="93"/>a priori, qua potest ex principiis fidei ostendi
+          <lb ed="#P" n="94"/>processio Spiritus sancti a Filio. Ut autem 
+          ti<lb break="no" ed="#P" n="95"/>tulus quaestionis intelligatur, supponenda est
+          <lb ed="#P" n="96"/>illa vulgaris distinctio theologorum et 
+          Phi<lb break="no" ed="#P" n="97"/>losophorum, quia dupliciter potest causa esse
+          <lb ed="#P" n="98"/>immediata, scilicet, vel immediatione virtutis,
+          <lb ed="#P" n="99"/>vel immediatione suppositi. Hic enim solum
+          <lb ed="#P" n="100"/>inquirimus de immediatione suppositi, 
+          solum<lb break="no" ed="#P" n="101"/>que oportet de Patre rem explicare, nam de
+          <lb ed="#P" n="102"/>Filio nulla potest esse difficultas, supposita 
+          ve<lb break="no" ed="#P" n="103"/>ritate fidei, in primo capite demonstrata.
+        </p>
+        <p xml:id="szduep-192423-d1e150">
+          <lb ed="#P" n="104"/>2. Nam si Filius producit Spiritum sanctum,
+          <lb ed="#P" n="105"/>necesse est, ut in se habeat virtutem 
+          produ<lb break="no" ed="#P" n="106"/>cendi illum, nam sine virtute operari, seu
+          <lb ed="#P" n="107"/>producere non potest. Praesertim cum non pro-
+          <pb ed="#P" n="762"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ducat, ut instrumentum , sed ut principalis
+          <lb ed="#P" n="2"/>spirator, ut mox dicemus. Et ita necesse est,
+          <lb ed="#P" n="3"/>ut producat immediate immediatione virtutis,
+          <lb ed="#P" n="4"/>cum in se habeat virtutem, quae immediate
+          <lb ed="#P" n="5"/>attingit terminum productionis. Rursus, cum
+          <lb ed="#P" n="6"/>inter Filium et Spiritum sanctum non 
+          inter<lb break="no" ed="#P" n="7"/>cedat alia persona, sed proxime (ut sic dicam)
+          <lb ed="#P" n="8"/>inter se conjungantur, necesse est, ut Filius
+          <lb ed="#P" n="9"/>etiam producat immediate immediatione 
+          sup<lb break="no" ed="#P" n="10"/>positi, quia non datur aliud suppositum, quo
+          <lb ed="#P" n="11"/>mediante producat. Pater enim non potest
+          <lb ed="#P" n="12"/>esse tale medium, tum quia est prior origine,
+          <lb ed="#P" n="13"/>quam Filius, tum etiam quia nihil a Filio
+          <lb ed="#P" n="14"/>recipit, ut ea ratione dici possit Filius per
+          <lb ed="#P" n="15"/>illum producere, Filius ergo immediate 
+          pro<lb break="no" ed="#P" n="16"/>ducit Spiritum sanctum, tam immediatione
+          <lb ed="#P" n="17"/>virtutis, quam suppositi.
+        </p>
+        <p xml:id="szduep-192423-d1e203">
+          <lb ed="#P" n="18"/>3. Rursus de Patre certum est etiam 
+          produ<lb break="no" ed="#P" n="19"/>cere Spiritum sanctum immediate, saltem 
+          im<lb break="no" ed="#P" n="20"/>mediatione virtutis, quia contulit Filio 
+          virtu<lb break="no" ed="#P" n="21"/>tem spirandi, quae immediate attingit 
+          produc<lb break="no" ed="#P" n="22"/>tionem Spiritus sancti. Quanquam, si virtus
+          <lb ed="#P" n="23"/>illa spirandi praecise consideretur, prout est
+          <lb ed="#P" n="24"/>in Filio, et supponeretur, Spiritum sanctum
+          <lb ed="#P" n="25"/>immediate prodire a Filio, ut a principio
+          <lb ed="#P" n="26"/>quod, et non a Patre, nisi ut a dante Filio
+          <lb ed="#P" n="27"/>virtutem Spirandi : Pater non posset dici 
+          im<lb break="no" ed="#P" n="28"/>mediate producere Spiritum sanctum, nisi per
+          <lb ed="#P" n="29"/>accidens eo modo, quo Avus est causa nepotis
+          <lb ed="#P" n="30"/>in humanis, hac solum existente differentia,
+          <lb ed="#P" n="31"/>quod ille ordo inter divinas personas esset 
+          ma<lb break="no" ed="#P" n="32"/>gis intrinsecus , magisque necessarius. Hoc
+          <lb ed="#P" n="33"/>ergo solum nunc videndum superest, an Pater
+          <lb ed="#P" n="34"/>isto tantum modo producat Spiritum sanctum,
+          <lb ed="#P" n="35"/>vel etiam immediate immediatione suppositi,
+          <lb ed="#P" n="36"/>atque adeo omnino per se etiam immediatione
+          <lb ed="#P" n="37"/>virtutis.
+        </p>
+        <p xml:id="szduep-192423-d1e249">
+          <lb ed="#P" n="38"/>4. Ratio dubitandi. — Ratio dubitandi 
+          im<lb break="no" ed="#P" n="39"/>primis sumitur ex illa locutione Patrum 
+          Grae<lb break="no" ed="#P" n="40"/>corum : Spiritus sanctus procedit a Patre per
+          <lb ed="#P" n="41"/>Filiun, quam habent multi ex citatis, in 1
+          <lb ed="#P" n="42"/>cap., et alios refert Bessarion., in dicto libro,
+          <lb ed="#P" n="43"/>cap. 6, et specialiter videri potest Cyrillus,
+          <lb ed="#P" n="44"/>lib. 11, in Joannem, cap. 1, et Athanasius,
+          <lb ed="#P" n="45"/>in Redargutione hypoerisis Meletii, circa 
+          fi<lb break="no" ed="#P" n="46"/>nem. Sensus enim illius locutionis solum esse
+          <lb ed="#P" n="47"/>posse videtur, Patrem dare Filio virtutem 
+          pro<lb break="no" ed="#P" n="48"/>ducendi Spiritum sanctum , ipsu sutem 
+          Fi<lb break="no" ed="#P" n="49"/>lium immediate producere, atque i:3 Patrem
+          <lb ed="#P" n="50"/>producere mediate tantum per Filium. Et ob
+          <lb ed="#P" n="51"/>eam causam videtur dixisse Damascenus, lib. 1,
+          <lb ed="#P" n="52"/>de Fide, cap. 18: Spiritum sanctum per 
+          Fi<lb break="no" ed="#P" n="53"/>liun conjungi Patri. Difficilius Gregorius 
+          Nys<lb break="no" ed="#P" n="54"/>senus, Oratione : Quod tres Deos dicere non
+          <lb ed="#P" n="55"/>oporteat, dicit, Filium continenter et sine me-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dio ex prima persona esse : Spiritum sanctum
+          <lb ed="#P" n="57"/>vero per id, quod immediate et em continenti est.
+          <lb ed="#P" n="58"/>Unde concludit : Tres personas distingui ut
+          <lb ed="#P" n="59"/>causam ea causa, et ex eo, quod ex causa est.
+          <lb ed="#P" n="60"/>Addi etiam hicpotest, quo ad distinctionem
+          <lb ed="#P" n="61"/>realem Patris a Spiritu sancto non est 
+          neces<lb break="no" ed="#P" n="62"/>saria immediata emanatio, sed sufficit 
+          media<lb break="no" ed="#P" n="63"/>ta per Filium. ftem haec sufticit ad 
+          verifican<lb break="no" ed="#P" n="64"/>das omnes locutiones Scripturae sicut omnes
+          <lb ed="#P" n="65"/>homines dicuntur procedere ab Adamo, licet
+          <lb ed="#P" n="66"/>non omnes immediate procedant, nec est alia
+          <lb ed="#P" n="67"/>ratio, quae cogat ad hanc immediatam 
+          pro<lb break="no" ed="#P" n="68"/>ductionem asserendam, ergo.
+        </p>
+        <p xml:id="szduep-192423-d1e321">
+          <lb ed="#P" n="69"/>5. Vera resolutio. — Nihilominus dicendum
+          <lb ed="#P" n="70"/>est, Spiritum sanctum immediate procedere a
+          <lb ed="#P" n="71"/>Patre et Filio. Quae est veritas fidei: et quia
+          <lb ed="#P" n="72"/>posterior pars est per se nota, ut dixi his 
+          sup<lb break="no" ed="#P" n="73"/>positis, quae in primo capite dicta sunt. Prior
+          <lb ed="#P" n="74"/>probatur sufficienter ex illis verbis Christi:
+          <lb ed="#P" n="75"/>Spiritus, qui a Patre procedit, nam haec 
+          abso<lb break="no" ed="#P" n="76"/>Iuta locutio significat processionem per se,
+          <lb ed="#P" n="77"/>quae est immediata, et non tantum per 
+          acci<lb break="no" ed="#P" n="78"/>dens, qualis esset, si tantum esset mediata, 
+          si<lb break="no" ed="#P" n="79"/>cut est processio nepotis ab avo. Hoc etiam
+          <lb ed="#P" n="80"/>tanquam manifestum supponunt omnes Patres.
+          <lb ed="#P" n="81"/>Imo aeterno Patri peculiariter attribuunt, quod
+          <lb ed="#P" n="82"/>proprie et principaliter producat. Ac denique
+          <lb ed="#P" n="83"/>Concilium Lugdunense et Florentinum hoc
+          <lb ed="#P" n="84"/>sensu definiunt : Patrem et Filium esse umum
+          <lb ed="#P" n="85"/>principiun, quod una spiratione producit 
+          Spi<lb break="no" ed="#P" n="86"/>ritum sanctum. Et omnia, quae de Filio 
+          ad<lb break="no" ed="#P" n="87"/>ducta sunt capite primo, hoc a fortiori 
+          pro<lb break="no" ed="#P" n="88"/>bant, quia omnia, quae eorum relationibus non
+          <lb ed="#P" n="89"/>repugnant, sunt illis communia.
+        </p>
+        <p xml:id="szduep-192423-d1e369">
+          <lb ed="#P" n="90"/>6. Ratio assertionis. — Ratione declaratur,
+          <lb ed="#P" n="91"/>quia Filius non potuit habere virtutem 
+          spi<lb break="no" ed="#P" n="92"/>randi, nisi a Patre, quia nihil habet, quod a
+          <lb ed="#P" n="93"/>Patre non receperit. Pater autem non 
+          potuis<lb break="no" ed="#P" n="94"/>set dare Filio spirandi virtutem, nisi illam in
+          <lb ed="#P" n="95"/>se prius origine haberet, tum quia nemo dat,
+          <lb ed="#P" n="96"/>quod non habet, tum etiam, quia illa virtus
+          <lb ed="#P" n="97"/>non est, nisi essentia et voluntas, conditio 
+          au<lb break="no" ed="#P" n="98"/>tem requisita non minus est in Patre, quam
+          <lb ed="#P" n="99"/>in Filio. Quia ad illam conditionem non est
+          <lb ed="#P" n="100"/>necessaria filiatio praecise, quia filiatio est
+          <lb ed="#P" n="101"/>quae enit ratio hujus necessitatis potest 
+          assi<lb break="no" ed="#P" n="102"/>gnari? Sed ad summuia erit, quatenus est
+          <lb ed="#P" n="103"/>relatio antevertens origine productionem 
+          Spi<lb break="no" ed="#P" n="104"/>ritus sancti, ut infra etiatn ostendam, hanc
+          <lb ed="#P" n="105"/>vero condition m non minus, imo 
+          quodam<lb break="no" ed="#P" n="106"/>modo magis habet Paternitas, quam filiatio:
+          <lb ed="#P" n="107"/>habuit Pater ergo virtutem spirandi prius 
+          ori<lb break="no" ed="#P" n="108"/>gine, quam illam communicaret Filio. At 
+          Pa<lb break="no" ed="#P" n="109"/>ter danco iuo virtutem prodncendi Spiritum
+          <lb ed="#P" n="110"/>sanctum non se illa privavit, sed in se etiam
+          <pb ed="#P" n="763"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>retinuit, quia retinuit essentiam, voluntatem
+          <lb ed="#P" n="2"/>et Paternitatem, ergo quidquid Filius per illam
+          <lb ed="#P" n="3"/>virtutem producit, Pater etiam necessario et
+          <lb ed="#P" n="4"/>immediate producit. Sicut quia Spiritus sanctus
+          <lb ed="#P" n="5"/>ita habet virtutem creandi a Patre et Filio, ut
+          <lb ed="#P" n="6"/>in ipsis etiam maneat, quidquid Spiritus 
+          sanc<lb break="no" ed="#P" n="7"/>tus immediate creat, immediate etiam Pater
+          <lb ed="#P" n="8"/>et Filius creant.
+        </p>
+        <p xml:id="szduep-192423-d1e439">
+          <lb ed="#P" n="9"/>7. Corollarium. — Atque hinc obiter 
+          colli<lb break="no" ed="#P" n="10"/>gitur ratio a priori, ob quam necesse est, 
+          Fi<lb break="no" ed="#P" n="11"/>lium per se producere Spiritum sanctum, 
+          at<lb break="no" ed="#P" n="12"/>que adeo utramque personam immediate illum
+          <lb ed="#P" n="13"/>producere et esse spiratorem. Quia Filius 
+          reci<lb break="no" ed="#P" n="14"/>pit a Patre totam essentiam et voluntatem
+          <lb ed="#P" n="15"/>ejus, et recipit illam adhuc foecundam, quia
+          <lb ed="#P" n="16"/>recipit illam per productionem intellectus, quae
+          <lb ed="#P" n="17"/>de se est prior productione per voluntatem,
+          <lb ed="#P" n="18"/>ergo Filius per voluntatem foecundam 
+          neces<lb break="no" ed="#P" n="19"/>sario spirat simul cum Patre. Patet 
+          conse<lb break="no" ed="#P" n="20"/>quentia, quia illa est productio mere naturalis.
+          <lb ed="#P" n="21"/>Unde impossibile est, quod sit a voluntate 
+          di<lb break="no" ed="#P" n="22"/>vina, quin sit ab omni persona, in qua talis
+          <lb ed="#P" n="23"/>voluntas adhuc foecunda invenitur, id est 
+          prius<lb break="no" ed="#P" n="24"/>quam per illam aliquid ad intra emanasse 
+          in<lb break="no" ed="#P" n="25"/>telligatur. Adde, quod etiam in actibus liberis
+          <lb ed="#P" n="26"/>impossibile est, postquam illa voluntas 
+          intel<lb break="no" ed="#P" n="27"/>ligitur esse in tribus personis, aliquid velle
+          <lb ed="#P" n="28"/>unam, quod non velit alia propter 
+          indivisibi<lb break="no" ed="#P" n="29"/>lem voluntatem, et actum volendi, ergo multo
+          <lb ed="#P" n="30"/>magis id erit necessarium in naturali 
+          produc<lb break="no" ed="#P" n="31"/>tione per illum actum, quoad eas personas, in
+          <lb ed="#P" n="32"/>quibus talis voluntas invenitur ante talem 
+          pro<lb break="no" ed="#P" n="33"/>ductionem. Denique sicut de Fihatione supra
+          <lb ed="#P" n="34"/>dicebamus, non esse conditionem necessariam
+          <lb ed="#P" n="35"/>ad spirandum ex eo praecise, quod filiatio est,
+          <lb ed="#P" n="36"/>eodem modo dicere possumus de Paternitate,
+          <lb ed="#P" n="37"/>non esse talem conditionem ex eo praecise, quia
+          <lb ed="#P" n="38"/>Paternitas est, sed solum quia est relatio non
+          <lb ed="#P" n="39"/>producta per spirationem : nam hoc est satis,
+          <lb ed="#P" n="40"/>ut voluntas, seu essentia illi conjuncta sit 
+          prin<lb break="no" ed="#P" n="41"/>cipium spirandi actualiter : nam hoc sufficit,
+          <lb ed="#P" n="42"/>ut illa sit foecunda, et quod relatio sit omnino
+          <lb ed="#P" n="43"/>improducta, vel per aliam productionem 
+          ha<lb break="no" ed="#P" n="44"/>bita, ad virtutem spirandi impertinens est.
+          <lb ed="#P" n="45"/>Haec ergo ratio probat optime a priori, 
+          produc<lb break="no" ed="#P" n="46"/>tionem debere esse necessario ab utraque 
+          per<lb break="no" ed="#P" n="47"/>sona. Probat autem necessitatem ex parte 
+          ip<lb break="no" ed="#P" n="48"/>sarum personarum : an vero sit etiam id 
+          ne<lb break="no" ed="#P" n="49"/>cessarium ex parte termini, vel productionis,
+          <lb ed="#P" n="50"/>dicemus in sequentibus.
+        </p>
+        <p xml:id="szduep-192423-d1e533">
+          <lb ed="#P" n="51"/>8. Pater et Filius eque per se producunt.—
+          <lb ed="#P" n="52"/>Tandem eodem discursu concluditur, Patrem
+          <lb ed="#P" n="53"/>et Filium aeque per se, ac principaliter 
+          produ<lb break="no" ed="#P" n="54"/>cere Spiritum sanctum. Probatur, quia 
+          uter<lb break="no" ed="#P" n="55"/>que producit per virtutem, quam in se habet,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quae in utroque est aequalis, imo eadem 
+          omni<lb break="no" ed="#P" n="57"/>nino. Uterque etiam producit proxime et 
+          im<lb break="no" ed="#P" n="58"/>mediate, nec in hoc potest esse inaequalitas.
+          <lb ed="#P" n="59"/>Ergo uterque aeque per se et immediate 
+          pro<lb break="no" ed="#P" n="60"/>ducit, sicut omnes tres personae aeque per se,
+          <lb ed="#P" n="61"/>et immediate creant, quia licet virtus creandi
+          <lb ed="#P" n="62"/>sit in eis cum ordine originis, tamen creatio
+          <lb ed="#P" n="63"/>supponit jam illum ordinem, quasi 
+          termina<lb break="no" ed="#P" n="64"/>tum (ut sic dicam) id est, virtutem creandi
+          <lb ed="#P" n="65"/>jam existentem in omnibus personis, et ideo
+          <lb ed="#P" n="66"/>creatio aeque per se, ac principaliter, atque
+          <lb ed="#P" n="67"/>adeo aeque primo (quantum ad ipsum pertinet)
+          <lb ed="#P" n="68"/>est ab omnibus: ita vero se habent duae primae
+          <lb ed="#P" n="69"/>personae quoad virtutem spirandi et 
+          spiratio<lb break="no" ed="#P" n="70"/>nem ipsam, ut declaratum est. Et ideo dixi
+          <lb ed="#P" n="71"/>per se, nam habet hoc speciale Pater, quod
+          <lb ed="#P" n="72"/>praebet Filio virtutem spirandi, sed hoc est
+          <lb ed="#P" n="73"/>quasi providens ad productionem sequentem,
+          <lb ed="#P" n="74"/>et ideo non tollit, quominus Filius aeque per
+          <lb ed="#P" n="75"/>se producat. Neque aliud voluerunt Patres
+          <lb ed="#P" n="76"/>Graeci, ut jam dicam.
+        </p>
+        <p xml:id="szduep-192423-d1e595">
+          <lb ed="#P" n="77"/>9. Ad rationem dubitandi. — Ad rationem
+          <lb ed="#P" n="78"/>ergo dubitandi respondetur, ex illa locutione
+          <lb ed="#P" n="79"/>Patrum Graecorum solum colligendum esse,
+          <lb ed="#P" n="80"/>Patrem veluti duobus modis producere 
+          Spiri<lb break="no" ed="#P" n="81"/>tum sanctum, scilicet, immediate, quatenus 
+          ip<lb break="no" ed="#P" n="82"/>semet habet virtutem et voluntatem, per quam
+          <lb ed="#P" n="83"/>amat, cum prioritate originis et amando 
+          pro<lb break="no" ed="#P" n="84"/>ducit Spiritum sanctum. Et quodammodo 
+          me<lb break="no" ed="#P" n="85"/>diate, quatenus Filio communicat eamdem 
+          vir<lb break="no" ed="#P" n="86"/>tutem et voluntatem, qua ipse etiam Filius
+          <lb ed="#P" n="87"/>amando producit simul cum Patre. Utuntur
+          <lb ed="#P" n="88"/>autem Graeci illo modo loquendi, ut declarent,
+          <lb ed="#P" n="89"/>totam hanc virtutem et processionem reduci
+          <lb ed="#P" n="90"/>ad Patrem, ut ad primum principium et 
+          fon<lb break="no" ed="#P" n="91"/>tem, juxta modum loquendi Dionysi, cap. 1,
+          <lb ed="#P" n="92"/>de divinis Nominibus. Sic Chrysostomus, 
+          ho<lb break="no" ed="#P" n="93"/>mil. 4, in Joan., circa verba illa: Omnia per
+          <lb ed="#P" n="94"/>ipsum facta sunt, dixit illam particulam 
+          so<lb break="no" ed="#P" n="95"/>Ium significare Verbum non esse ingenitum,
+          <lb ed="#P" n="96"/>sed a Patre virtutem creandi accepisse, etiamsi
+          <lb ed="#P" n="97"/>in opere creationis nihilominus habeat 
+          ver<lb break="no" ed="#P" n="98"/>bum, quam Pater. Ita ergo in praesenti locuti
+          <lb ed="#P" n="99"/>sunt Patres Graeci.
+        </p>
+        <p xml:id="szduep-192423-d1e647">
+          <lb ed="#P" n="100"/>10. Quomodo Pater dicatur principaliter 
+          pro<lb break="no" ed="#P" n="101"/>ducere.—Et ad hoc idem significandum dicit
+          <lb ed="#P" n="102"/>aliquando Augustinus: Spiritum sanctum 
+          prin<lb break="no" ed="#P" n="103"/>cipaliter procedere a Patre, ut 15, de Trinitate,
+          <lb ed="#P" n="104"/>cap. 17. Quam locutionem aliqui scholastici
+          <lb ed="#P" n="105"/>extendunt dicentes, Spiritum sanctum 
+          princi<lb break="no" ed="#P" n="106"/>palius procedere a Patre, quam a Filio, ut 
+          Bo<lb break="no" ed="#P" n="107"/>naventura, Scotus et Durandus, in 1, dist. 11,
+          <lb ed="#P" n="108"/>omnes, quaest. 2, Sabriel, q, 3, Marsilius, in 1,
+          <lb ed="#P" n="109"/>q. 15, art. 2. Sel locutionem comparativam
+          <lb ed="#P" n="110"/>vitandam censeo, quia potest ineequalitatem
+          <pb ed="#P" n="764"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>indicare. Ac propterea D. Thomas, dicta q. 36,
+          <lb ed="#P" n="2"/>art. 2, non admittit illum modum loquendi,
+          <lb ed="#P" n="3"/>sed explicat illud principaliter, id est, a se,
+          <lb ed="#P" n="4"/>Filius vero a Patre. Atque eodem modo 
+          ex<lb break="no" ed="#P" n="5"/>plicandum putavit Torres ibi, quod nomine
+          <lb ed="#P" n="6"/>Hieronymi in expositione symboli ad Cyrillum
+          <lb ed="#P" n="7"/>(quae est Epist. 18, in tom. 9) dicitur : 
+          Spiri<lb break="no" ed="#P" n="8"/>tum sanctum proprie procedere a Patre, tamen
+          <lb ed="#P" n="9"/>paulo inferius in eadem Epistola dicitur : 
+          Spi<lb break="no" ed="#P" n="10"/>ritum sanctum proprie et vere de Patre, 
+          Filio<lb break="no" ed="#P" n="11"/>que procedere. Ad confirmationem 
+          responde<lb break="no" ed="#P" n="12"/>tur, imprimis parum referre, quod productio
+          <lb ed="#P" n="13"/>immediata non fuerit Patri necessaria ad 
+          dis<lb break="no" ed="#P" n="14"/>tinctionem realem ab Spiritu sancto, nam per
+          <lb ed="#P" n="15"/>se necessaria est ex vi naturae, et modo 
+          sub<lb break="no" ed="#P" n="16"/>sistendi talis personae. Deinde dicitur, neque
+          <lb ed="#P" n="17"/>fuisse possibilem aliam personam Spiritus
+          <lb ed="#P" n="18"/>sancti praeter eam, quae nunc est, neque hanc
+          <lb ed="#P" n="19"/>potuisse esse sine immediata emanatione ab
+          <lb ed="#P" n="20"/>omnibus prioribus personis, et praesertim a
+          <lb ed="#P" n="21"/>prima, et ex hac parte fuisse necessariam 
+          il<lb break="no" ed="#P" n="22"/>lam immediatam productionem Patris ad 
+          dis<lb break="no" ed="#P" n="23"/>tinctionem a tertia persona, vel potius ad 
+          mul<lb break="no" ed="#P" n="24"/>tiplicationem trium personarum. Alia vero,
+          <lb ed="#P" n="25"/>quia in illa confirmatione tanguntur, satis ex
+          <lb ed="#P" n="26"/>dictis expedita sunt.
+        </p>
+        <p xml:id="szduep-192423-d1e734">
+          <lb ed="#P" n="27"/>11. An Shpyiritus sanctus sit eodem modo a
+          <lb ed="#P" n="28"/>Flio,quo a Patre.—Vandem hinc solvenda est
+          <lb ed="#P" n="29"/>quaestio, quam attigit Rusticus Cardinalis in
+          <lb ed="#P" n="30"/>disputatione contra Acephalos, tom. 4, 
+          Biblio<lb break="no" ed="#P" n="31"/>thecae, in qua dicitnon satis sibi esse 
+          perspec<lb break="no" ed="#P" n="32"/>tum, an Spiritus sanctus eodem modo 
+          proce<lb break="no" ed="#P" n="33"/>dat a Filio, quo a Patre. Refert autem, 
+          quos<lb break="no" ed="#P" n="34"/>dam dixisse, non procedere eodem modo, et
+          <lb ed="#P" n="35"/>ibi in margine citatur D. Thomas, quaest. 10,
+          <lb ed="#P" n="36"/>de Potentia, art. 4, ad 5, sed ihi solum ait
+          <lb ed="#P" n="37"/>D. Thomas Spiritum sanctum non procedere
+          <lb ed="#P" n="38"/>a Filio eo modo, quo Filius a Patre, quia non
+          <lb ed="#P" n="39"/>per generatioriem, quod longe diversum est.
+          <lb ed="#P" n="40"/>Unde mihi absolute videtur dicendum, eodem
+          <lb ed="#P" n="41"/>modo procedere Spiritum sanctum a Patre et
+          <lb ed="#P" n="42"/>Filio, quia immediate, per se, ac per modum
+          <lb ed="#P" n="43"/>amoris. Quamvis virtus producendi non 
+          eo<lb break="no" ed="#P" n="44"/>dem modo sit in Filio, quo in Patre. Sicut
+          <lb ed="#P" n="45"/>omnes tres personae eodem modo creant, licet
+          <lb ed="#P" n="46"/>virtus creandi non eodem modo sit in ipsis
+          <lb ed="#P" n="47"/>quantum ad modum originis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

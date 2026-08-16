@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 15</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 15</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="646"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-163661"><!-- t3-l4c15 -->
+        <head xml:id="szduep-163661-Hd1e101">Caput 15</head>
+        <head xml:id="szduep-163661-Hd1e103" type="question-title">Quo modo inter divinas personas similitudo, et aequalitas intercedat</head>
+        <p xml:id="szduep-163661-d1e106">
+          <lb ed="#P" n="104"/>CAPUT XV.
+          <lb ed="#P" n="105"/>QUO MODO INTER DIVINAS PERSONAS SIMILITUDO, ET
+          <lb ed="#P" n="106"/>AEQUALITAS INTERCEDAT.
+        </p>
+        <p xml:id="szduep-163661-d1e115">
+          <lb ed="#P" n="107"/>1. Tres relationes possunt in unitate 
+          fun<lb break="no" ed="#P" n="108"/>dari juxta communem Aristotelis sententiam,
+          <pb ed="#P" n="647"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5 Metaphysicae, cap. 9, scilicet identitatis, quae
+          <lb ed="#P" n="2"/>fundari dicitur in unitate substantiae: 
+          simili<lb break="no" ed="#P" n="3"/>tudinis in unitate qualitatis: aequalitatis in
+          <lb ed="#P" n="4"/>unitate quantitatis. Constat autem ex 
+          hacte<lb break="no" ed="#P" n="5"/>nus dictis inter personas divinas esse veram
+          <lb ed="#P" n="6"/>identitatem in substantia : unde facile 
+          conclu<lb break="no" ed="#P" n="7"/>di poterat, esse etiam similitudinem et 
+          aequa<lb break="no" ed="#P" n="8"/>litatem secundum metaphoricam aut amplam
+          <lb ed="#P" n="9"/>significationem. Nam secundum proprietatem
+          <lb ed="#P" n="10"/>Deus non est capax talium relationum, quia
+          <lb ed="#P" n="11"/>in Deo non est propria quantitas, vel 
+          quali<lb break="no" ed="#P" n="12"/>tas: sed quidquid in eo est, substantia est,
+          <lb ed="#P" n="13"/>maxime secundum essentiam. Tamen, 
+          quate<lb break="no" ed="#P" n="14"/>nus nomen quantitatis extenditur ad 
+          signifi<lb break="no" ed="#P" n="15"/>candam rei perfectionem, et quatenus 
+          attribu<lb break="no" ed="#P" n="16"/>ta divina per modum qualitatum a nobis 
+          con<lb break="no" ed="#P" n="17"/>cipiuntur, eatenus possunt aequalitas, et 
+          simih<lb break="no" ed="#P" n="18"/>tudo divinis personis tribui. Et ideo recte 
+          ad<lb break="no" ed="#P" n="19"/>notarunt Scotus, Durandus et alii in 1, d. 19,
+          <lb ed="#P" n="20"/>has relationes, quae in creaturis solent 
+          distin<lb break="no" ed="#P" n="21"/>gui, et in diversis formis fundari, in divinis
+          <lb ed="#P" n="22"/>personis esse unitas: et in eadem divina 
+          sub<lb break="no" ed="#P" n="23"/>stantia suo modo fundari. Et haec plane 
+          vide<lb break="no" ed="#P" n="24"/>bantur sufficere de his denominationibus, cum
+          <lb ed="#P" n="25"/>in re non distinguantur ab identitate. Tamen
+          <lb ed="#P" n="26"/>ad majorem declarationem pauca addenda sunt.
+        </p>
+        <p xml:id="szduep-163661-d1e183">
+          <lb ed="#P" n="27"/>2. De personarum similitudine. — Circa 
+          si<lb break="no" ed="#P" n="28"/>militudinem advertendum est, antiquos Patres
+          <lb ed="#P" n="29"/>tempore Concilii Nicaeni, et durante 
+          Ariano<lb break="no" ed="#P" n="30"/>rum errore evitasse voces, quae solam 
+          simili<lb break="no" ed="#P" n="31"/>tudinem inter divinas personas significare 
+          vi<lb break="no" ed="#P" n="32"/>debantur, qualis erat illa celebris vos 
+          homo<lb break="no" ed="#P" n="33"/>jussion, id est, similis essentiae. Et ideo 
+          Con<lb break="no" ed="#P" n="34"/>cilium Ariminium rejectum est, quod. illam
+          <lb ed="#P" n="35"/>vocem in Symbolo posuerit, et Basilius, 
+          Epis<lb break="no" ed="#P" n="36"/>tola 28, dicit, Macedonianos non discessisse ab
+          <lb ed="#P" n="37"/>errore Arii: quia tantum similitudinem 
+          essen<lb break="no" ed="#P" n="38"/>tiae inter Patrem et Filium admittebant. Quod
+          <lb ed="#P" n="39"/>etiam habet Epiphanius, haeres. 713, et 
+          Theo<lb break="no" ed="#P" n="40"/>doretus, lib. 2, Historiarum, cap. 6, et est
+          <lb ed="#P" n="41"/>frequens in Patribus illius aetatis. Hoc tamen
+          <lb ed="#P" n="42"/>ideo fuit, quia haeretici abutebantur illa voce
+          <lb ed="#P" n="43"/>ad excludendas alias, quae veram 
+          consubstan<lb break="no" ed="#P" n="44"/>tialitatem significant. Est enim advertendum:
+          <lb ed="#P" n="45"/>similitudinem, ex vi suae significationis non
+          <lb ed="#P" n="46"/>requirere unitatem realem in forma, sed 
+          con<lb break="no" ed="#P" n="47"/>formitatem. Item in rigore non postulare 
+          con<lb break="no" ed="#P" n="48"/>formitatem in gradu perfectionis, nam duae
+          <lb ed="#P" n="49"/>albedines dicuntur similes, etiamsi non sint
+          <lb ed="#P" n="50"/>pares, seu aeque intensae. Haeretici ergo, ut
+          <lb ed="#P" n="51"/>excluderent unitatem personarum in divina
+          <lb ed="#P" n="52"/>natura, et aequalitatem in perfectione, 
+          simih<lb break="no" ed="#P" n="53"/>tudinem ponebant, et negabant identitatem,
+          <lb ed="#P" n="54"/>et aequalitatem : quo sensu haereticum est
+          <lb ed="#P" n="55"/>ponere similitudinem in divinis personis.
+        </p>
+        <p xml:id="szduep-163661-d1e249">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>3. At vero in sensu catholico, dicendum est,
+          <lb ed="#P" n="57"/>unam personam divinam similem alteri essc.
+          <lb ed="#P" n="58"/>Nam de Filio ait Paulus ad Hebraeos 1: Cum
+          <lb ed="#P" n="59"/>sit splendor glorie, et figura substantiee ejus.
+          <lb ed="#P" n="60"/>Item imaginem Patris etiam illum appellat:
+          <lb ed="#P" n="61"/>non est autem imago sine similitudine. Et
+          <lb ed="#P" n="62"/>Augustinus 7, de Trinitate, capite ultimo,
+          <lb ed="#P" n="63"/>ait, personas divinas dicendas esse similes et
+          <lb ed="#P" n="64"/>non dissimiles, quia hoc ad substantiam 
+          refer<lb break="no" ed="#P" n="65"/>tur. Idem D. Thomas, 1 part., quaest. 31, art.
+          <lb ed="#P" n="66"/>2. Et ratio est, quia licet similitudo non 
+          sem<lb break="no" ed="#P" n="67"/>per requirat aequalitatem, tamen illam etiam
+          <lb ed="#P" n="68"/>non excludit, ut bene notavit Scotus, in 1,
+          <lb ed="#P" n="69"/>distinet. 31. Et similiter non excludit 
+          unita<lb break="no" ed="#P" n="70"/>tem, imo illam requirit aliquo modo, et tanto
+          <lb ed="#P" n="71"/>erit major, quanto fuerit major unitas inter
+          <lb ed="#P" n="72"/>extrema distincta. Similitudo ergo quatenus
+          <lb ed="#P" n="73"/>perfectionem dicit et excludit imperfectionem,
+          <lb ed="#P" n="74"/>proprie conveniet divinis personis. Imo 
+          haere<lb break="no" ed="#P" n="75"/>tici in eo sensu, quo loquebantur, magis 
+          po<lb break="no" ed="#P" n="76"/>nebant personas dissimiles, quam similes: quia
+          <lb ed="#P" n="77"/>cum distinguerent naturas, necessarium erat,
+          <lb ed="#P" n="78"/>eas tantum inter se distare, quantum finitum
+          <lb ed="#P" n="79"/>ab infinito, creatum ab increato, quae magis
+          <lb ed="#P" n="80"/>inter se dissimilia quam similia sunt.
+        </p>
+        <p xml:id="szduep-163661-d1e308">
+          <lb ed="#P" n="81"/>4. Circa aequalitatem neque in re, neque
+          <lb ed="#P" n="82"/>in voce est de aequalitate ambiguitas, 
+          suppo<lb break="no" ed="#P" n="83"/>nendo sermonem esse de quantitate 
+          perfectio<lb break="no" ed="#P" n="84"/>nis non molis. Quo circa sic de fide est, inter
+          <lb ed="#P" n="85"/>divinas personas, esse aequalitatem : Quam
+          <lb ed="#P" n="86"/>recte per negationem explicuit Athanasius, in
+          <lb ed="#P" n="87"/>Symbolo dicens: In Trinitate nihil est majus,
+          <lb ed="#P" n="88"/>ant minus prius, aut posterius. Et inde 
+          con<lb break="no" ed="#P" n="89"/>cludit : fotas tres personas esse sibi coequales.
+          <lb ed="#P" n="90"/>Idem habet Augustinus, 9, de Trinitate, cap.
+          <lb ed="#P" n="91"/>1, dicitque, hanc aequalitatem personarum
+          <lb ed="#P" n="92"/>nihil aliud esse, quam unitatem essentiae. Qui
+          <lb ed="#P" n="93"/>etiam videri potest, lib. 3, contra 
+          Maximi<lb break="no" ed="#P" n="94"/>num, cap. 10, et sermone 38, de Tempore,
+          <lb ed="#P" n="95"/>Anselmus, in Monologio, cap. 13, dicit: 
+          Per<lb break="no" ed="#P" n="96"/>sonas esse equales, quia unagueque est 
+          per<lb break="no" ed="#P" n="97"/>fecta et summa essentia. Idem in Prosologio, cap.
+          <lb ed="#P" n="98"/>3, Richardus etiam Victor, libro de Trinitate,
+          <lb ed="#P" n="99"/>cap. 13, dicit, hanc aequalitatem esse alterius
+          <lb ed="#P" n="100"/>rationis, quam in creaturis, scilicet, quia idem
+          <lb ed="#P" n="101"/>esse cum eadem plenitudine perfectionis, quod
+          <lb ed="#P" n="102"/>est unius personee, est alterius. De cadem 
+          ae<lb break="no" ed="#P" n="103"/>qualitate recte sentit Origenes, lib. 1, 
+          Periar<lb break="no" ed="#P" n="104"/>chon. cap. 2 et 3, et lib. 7, ad Romanos, et
+          <lb ed="#P" n="105"/>Tertullianus 4, contra Marcionem, cap. 25.
+          <lb ed="#P" n="106"/>Ratio itaque est manifesta ex dictis de unitate
+          <lb ed="#P" n="107"/>essentiae in tribus personis. Quam indicavit
+          <lb ed="#P" n="108"/>Concilium Toletanum 6, in confessione fidei
+          <lb ed="#P" n="109"/>dicens: Quoniam unius sunt naturee, idem 
+          per<lb break="no" ed="#P" n="110"/>sonas esse equales, quia illa natura non recipit
+          <pb ed="#P" n="648"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>magis, nec minus. Nec potest, nisi tota 
+          commu<lb break="no" ed="#P" n="2"/>nicari, ut dicit etiam Concilium Lateranense,
+          <lb ed="#P" n="3"/>in capite Damnamus. Quae ratio eodem modo
+          <lb ed="#P" n="4"/>procedit in omnibus attributis Dei, sapientiae,
+          <lb ed="#P" n="5"/>bonitatis, etc. Et in his, in quibus posset 
+          ha<lb break="no" ed="#P" n="6"/>bere difficultatem aliquam, in superioribus
+          <lb ed="#P" n="7"/>explicata est, specialiter de infinitate 
+          perfec<lb break="no" ed="#P" n="8"/>tionis in libro praecedenti, tractando de 
+          per<lb break="no" ed="#P" n="9"/>fectione relationum, et de omnipotentia in hoc
+          <lb ed="#P" n="10"/>libro, capite decimo, ubi etiam aliquid 
+          attigi<lb break="no" ed="#P" n="11"/>mus de aeternitate, et plura in primo tomo de
+          <lb ed="#P" n="12"/>Incarnatione. Nulla ergo difficultas est alicujus
+          <lb ed="#P" n="13"/>momenti in hac veritate.
+        </p>
+        <p xml:id="szduep-163661-d1e408">
+          <lb ed="#P" n="14"/>5. Objectio. — Ordo naturee sit ne in 
+          perso<lb break="no" ed="#P" n="15"/>nis divinis. — Objici vero potest, quia ubi est
+          <lb ed="#P" n="16"/>ordo primi, secundi et tertii non est aequalitas,
+          <lb ed="#P" n="17"/>sed in divinis personis hic ordo reperitur,
+          <lb ed="#P" n="18"/>ergo. Minor patet ex divo Augustino 3, contra
+          <lb ed="#P" n="19"/>Maximinum, capite decimo quarto, ubi hoc
+          <lb ed="#P" n="20"/>sensu docet ; esse inter divinas personas 
+          ordi<lb break="no" ed="#P" n="21"/>nem natura. Quem etiam admittit divus 
+          Tho<lb break="no" ed="#P" n="22"/>mas, 1 parte, quaestione quadragesima 
+          secun<lb break="no" ed="#P" n="23"/>da, licet non concedat, unam personam esse
+          <lb ed="#P" n="24"/>priorem altera. Idem sumitur ex Basilio, libro
+          <lb ed="#P" n="25"/>primo, contra Eunomium, circa medium, 
+          etli<lb break="no" ed="#P" n="26"/>bro tertio, circa principium. Patet etiam ex
+          <lb ed="#P" n="27"/>communi modo loquendi, sic enim 
+          nomina<lb break="no" ed="#P" n="28"/>mus personas, primam, secundam et tertiam,
+          <lb ed="#P" n="29"/>non quidem solo arbitrio nostro (sic enim 
+          fa<lb break="no" ed="#P" n="30"/>cile possent denominationes illae commutari,
+          <lb ed="#P" n="31"/>sicut in quolibet alio numero), sed cum 
+          fun<lb break="no" ed="#P" n="32"/>damento in re ipsa. Est ergo ordo ille in 
+          per<lb break="no" ed="#P" n="33"/>sonis ipsis secundum se, quod etiam 
+          significa<lb break="no" ed="#P" n="34"/>vit Joannes theologus, sess. 21, Concilii 
+          Flo<lb break="no" ed="#P" n="35"/>rentini. Talis autem ordo videtur aliqua ex
+          <lb ed="#P" n="36"/>parte aequalitatem minuere.
+        </p>
+        <p xml:id="szduep-163661-d1e460">
+          <lb ed="#P" n="37"/>6. An sit ordo prioris et posterioris. — 
+          Oc<lb break="no" ed="#P" n="38"/>casione hujus difficultatis tractari hic solet, an
+          <lb ed="#P" n="39"/>inter divinas personas sit ordo prioris et 
+          pos<lb break="no" ed="#P" n="40"/>terioris. Nam D. Thomas simphiciter negat:
+          <lb ed="#P" n="41"/>Scotus admittendam putat prioritatem 
+          origi<lb break="no" ed="#P" n="42"/>nis. Est tamen quaestio de nomine, in qua 
+          im<lb break="no" ed="#P" n="43"/>morari non est necesse: viderique possunt,
+          <lb ed="#P" n="44"/>quae de illa attigi, disput. 12, Metaphycae, sect.
+          <lb ed="#P" n="45"/>1, ubi etiam dixi D. Thomam et Scotum in
+          <lb ed="#P" n="46"/>hoc habere sententias contrarias. D. Thomas
+          <lb ed="#P" n="47"/>enim docet, simpliciter et sine addito non esse
+          <lb ed="#P" n="48"/>admittendam prioritatem, juxta illud 
+          Atha<lb break="no" ed="#P" n="49"/>nasit in symbolo, 7n hac Trinitate nilil prius,
+          <lb ed="#P" n="50"/>aut posterius - Scotus vero adjungit, cum illo
+          <lb ed="#P" n="51"/>addito, originis, admitti posse. Quod sane et
+          <lb ed="#P" n="52"/>in re verum est, et illis vocibus satis commode
+          <lb ed="#P" n="53"/>explicatur, nam origino propriissime divinis
+          <lb ed="#P" n="54"/>personis tribuitur.
+        </p>
+        <p xml:id="szduep-163661-d1e502">
+          <lb ed="#P" n="55"/>7. Resolutio utriusque dubii. — Adde, hunc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ipsum esse ordinem, quem Augustinus et D.
+          <lb ed="#P" n="57"/>Thomas ordinem naturae vocarunt. Est enim
+          <lb ed="#P" n="58"/>advertendum, non vocari naturae ordinem, eo
+          <lb ed="#P" n="59"/>quod inter divinas personas una sit prius 
+          na<lb break="no" ed="#P" n="60"/>tura, quam alia: nam hoc etiam admittendum
+          <lb ed="#P" n="61"/>non est. Quia prioritas naturae proprie sumpta,
+          <lb ed="#P" n="62"/>aut est prioritas in subsistendi consequentia,
+          <lb ed="#P" n="63"/>aut in causalitate propria, neutra autem 
+          inve<lb break="no" ed="#P" n="64"/>nitur in divinis personis. Dicitur ergo ordo
+          <lb ed="#P" n="65"/>naturae, quia ipsamet essentia Dei ex se et 
+          na<lb break="no" ed="#P" n="66"/>tura sua postulat, ut immediate sit in Patre
+          <lb ed="#P" n="67"/>sine ulla processione: in Filio vero per 
+          pro<lb break="no" ed="#P" n="68"/>cessionem ejus ex sola prima persona: In 
+          Spi<lb break="no" ed="#P" n="69"/>ritu sancto per processionem ex utraque. 
+          At<lb break="no" ed="#P" n="70"/>que ita hic ordo naturae nihil aliud est, quam
+          <lb ed="#P" n="71"/>ordo originis: Igitur non immerito prioritas
+          <lb ed="#P" n="72"/>eliam originis dicitur, quae in hoc solo posita
+          <lb ed="#P" n="73"/>est, quod una persona est principium originis,
+          <lb ed="#P" n="74"/>alia terminus, vel (quod idem est) una habet
+          <lb ed="#P" n="75"/>suum esse sine origine, alia vero non sine
+          <lb ed="#P" n="76"/>ulla. Juxta hanc ergo prioritatem solam 
+          dan<lb break="no" ed="#P" n="77"/>tur in divinis personis, prima, secunda et 
+          ter<lb break="no" ed="#P" n="78"/>tia, et ideo hae denominationes nihil 
+          repu<lb break="no" ed="#P" n="79"/>gnant aequalitati. Jam enim supra ostensum
+          <lb ed="#P" n="80"/>est, distinctionem in relationibus originis non
+          <lb ed="#P" n="81"/>minuere, neque augere personarum 
+          perfec<lb break="no" ed="#P" n="82"/>tionem.
+        </p>
+        <p xml:id="szduep-163661-d1e567">
+          <lb ed="#P" n="83"/>8. An equalitas sit relatio rationis. — Solet
+          <lb ed="#P" n="84"/>autem hoc loco ulterius quaeri, an haec 
+          simi<lb break="no" ed="#P" n="85"/>litudo, vel aequalitas inter divinas personas sit
+          <lb ed="#P" n="86"/>relatio realis, vel rationis. De qua quaestione
+          <lb ed="#P" n="87"/>Thomistae multa scribunt. Quia D. Thomas,
+          <lb ed="#P" n="88"/>quaest. 42. art. 1, docet, esse tantum 
+          relatio<lb break="no" ed="#P" n="89"/>nem rationis. Quod Cajetanus optime ibi 
+          de<lb break="no" ed="#P" n="90"/>clarat, et defendit, et Capreolus, in 1, dist. 31,
+          <lb ed="#P" n="91"/>quaest. 9. Ubi etiam Durandus, Gabriel et alii,
+          <lb ed="#P" n="92"/>et Marsilius, in 41, quaest. 33, Scotus autem
+          <lb ed="#P" n="93"/>eadem dist. 31, quaest. 2, et quodlib. 6, art. 2,
+          <lb ed="#P" n="94"/>contendit esse relationem realem. Quia in 
+          di<lb break="no" ed="#P" n="95"/>vinis personis concurrunt omnia necessaria,
+          <lb ed="#P" n="96"/>ut haec relatio realis sit, scilicet, fundamentum,
+          <lb ed="#P" n="97"/>terminus realis, et extrema reahter distincta.
+          <lb ed="#P" n="98"/>Item quia alias non dicerentur divina personae
+          <lb ed="#P" n="99"/>in re ipsa similes et aequales, sed solum 
+          cogi<lb break="no" ed="#P" n="100"/>tatione hominis. Haec vero argumenta revera
+          <lb ed="#P" n="101"/>non cogunt: nam hae denominationes non
+          <lb ed="#P" n="102"/>semper sumuntur formaliter a relatione, sed
+          <lb ed="#P" n="103"/>a fundamento, quod in rebus ipsis existit, et
+          <lb ed="#P" n="104"/>nobis occasionem praebet ad talem relationem
+          <lb ed="#P" n="105"/>excogitandam. Hoc autem fundamentum in
+          <lb ed="#P" n="106"/>praesenti est unitas perfecta ejusdem naturae
+          <lb ed="#P" n="107"/>in singulis personis. Ex hac ergo unitate 
+          pro<lb break="no" ed="#P" n="108"/>venit, ut talis relatio non possit esse realis.
+          <lb ed="#P" n="109"/>Quia praeter ea, quae Scotus numerat, necesse
+          <lb ed="#P" n="110"/>est, ut inter fundamentum et terminum for-
+          <pb ed="#P" n="649"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>malem relationis sit distinctio in re ipsa:
+          <lb ed="#P" n="2"/>maxime in his relationibus unitatis, in quibus
+          <lb ed="#P" n="3"/>habitudo potissime cernitur inter ipsas 
+          for<lb break="no" ed="#P" n="4"/>mas, in quibus est similitudo, vel aequalitas,
+          <lb ed="#P" n="5"/>ut recte Cajetanus advertit, et ideo ubi est una,
+          <lb ed="#P" n="6"/>et eadem forma in utroque extremo, non 
+          po<lb break="no" ed="#P" n="7"/>test esse hujusmodi realis habitudo, quia illa
+          <lb ed="#P" n="8"/>potius est identitas realis et numerica. Qua
+          <lb ed="#P" n="9"/>propter prior sententia simpliciter vera est.
+          <lb ed="#P" n="10"/>De qua re haec nunc sufficiunt, reliqua enim
+          <lb ed="#P" n="11"/>philosophica sunt, et a nobis tractata in 
+          dis<lb break="no" ed="#P" n="12"/>put. 47 Metaphysicae, sect. 9.
+        </p>
+        <p xml:id="szduep-163661-d1e662">
+          <lb ed="#P" n="13"/>9. Objectioni occurritur. — Unum vero hic
+          <lb ed="#P" n="14"/>potest objici, quia inter divinas relationes non
+          <lb ed="#P" n="15"/>solum est aequalitas ratione perfectionis 
+          essen<lb break="no" ed="#P" n="16"/>tialis, sed etiam ratione perfectionis relativae,
+          <lb ed="#P" n="17"/>ut supra dixi ; sed illa perfectio relativa est
+          <lb ed="#P" n="18"/>distincta realiter in una et alia persona, ergo
+          <lb ed="#P" n="19"/>eequalitas in illa habet omnem distinctionem
+          <lb ed="#P" n="20"/>necessariam ad realem relationem. Ad hoc
+          <lb ed="#P" n="21"/>fortasse aliquis respondebit, hanc relationem
+          <lb ed="#P" n="22"/>non posse esse realem, quia non potest una
+          <lb ed="#P" n="23"/>relatio fundari in alia. Sed de hoc alias. Ego
+          <lb ed="#P" n="24"/>respondeo, illam non esse realem, quia illa
+          <lb ed="#P" n="25"/>non est aequalitas fundata in unitate, vel 
+          con<lb break="no" ed="#P" n="26"/>venientia formali, sed in quadam 
+          proportio<lb break="no" ed="#P" n="27"/>nali aestimatione, seu quantitate. Sicut 
+          aliqua<lb break="no" ed="#P" n="28"/>Iis similitudo, quae est inter divinas personas
+          <lb ed="#P" n="29"/>in communi ratione personae, vel relationis,
+          <lb ed="#P" n="30"/>non est relatio realis, quia non est per 
+          conve<lb break="no" ed="#P" n="31"/>nientiam in tota unitate formali talium 
+          per<lb break="no" ed="#P" n="32"/>sonarum. Propter quod Anasthasius Synaita,
+          <lb ed="#P" n="33"/>in expositione fidei personas in propriis 
+          dissi<lb break="no" ed="#P" n="34"/>miles appellavit : inaequales autem dici non
+          <lb ed="#P" n="35"/>possunt, tum quia hoc dicit imperfectionem,
+          <lb ed="#P" n="36"/>tum propter rationes alias supra allatas.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

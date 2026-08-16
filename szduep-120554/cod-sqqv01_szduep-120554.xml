@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="474"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-120554"><!-- t2-l3c8 -->
+        <head xml:id="szduep-120554-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-120554-Hd1e103" type="question-title">An malum, ejusve permissio sit praedestinationis effectus.</head>
+        <p xml:id="szduep-120554-d1e106">
+          <lb ed="#P" n="96"/>CAPUT VII.
+          <lb ed="#P" n="97"/>AN MALUM, EJUSVE PERMISSIO SIT 
+          PRAEDESTINA<lb ed="#P" n="98" break="no"/>TIONIS EFFECTUS.
+        </p>
+        <p xml:id="szduep-120554-d1e115">
+          <lb ed="#P" n="99"/>1. Duo tanquam certa stabiliuntur. — 
+          Pri<lb break="no" ed="#P" n="100"/>mum. — Mors martyris est effectus 
+          praedestina<lb break="no" ed="#P" n="101"/>tionis ejus. — Duo sunt certa, primum est
+          <lb ed="#P" n="102"/>mala poenae posse esse praedestinationis effectus
+          <lb ed="#P" n="103"/>et tales esse, quando vere et cum effectu con
+          <lb ed="#P" n="104"/>ferunt ad vitam aeternam consequendam. Pro-
+          <pb ed="#P" n="475"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>batur, quia haec mala sunt simpliciter bona,
+          <lb ed="#P" n="2"/>ideoque non sunt tantum permissa, sed 
+          inter<lb break="no" ed="#P" n="3"/>dum etiam intenta et ordinata a Deo in statu
+          <lb ed="#P" n="4"/>naturae lapsae : quare absolute sunt effectus
+          <lb ed="#P" n="5"/>Dei, et providentiae ejus: ergo ex hac parte
+          <lb ed="#P" n="6"/>possunt esse praedestinationis effectus. Aliunde
+          <lb ed="#P" n="7"/>vero pertinent haec mala ad beneficia Dei per
+          <lb ed="#P" n="8"/>Christum collata, juxta illud ad Philippenses2:
+          <lb ed="#P" n="9"/>Vobis donatum est pro Christo, non solum ut in
+          <lb ed="#P" n="10"/>eum credatis, sed etiam ut pro ipso patiamini.
+          <lb ed="#P" n="11"/>Ergo quando haec mala ita proveniunt, ut sint
+          <lb ed="#P" n="12"/>occasio, vel materia meriti, vel alterius 
+          fruc<lb break="no" ed="#P" n="13"/>tus gratiae permanentis in vitam aeternam,
+          <lb ed="#P" n="14"/>plane oriuntur ex illa voluntate, qua Deus 
+          ele<lb break="no" ed="#P" n="15"/>git praedestinatum, ac proinde sunt 
+          praedesti<lb break="no" ed="#P" n="16"/>nationis effectus. Confirmatur, nam passio et
+          <lb ed="#P" n="17"/>mors martyris , est effectus praedestinationis
+          <lb ed="#P" n="18"/>ejus, quia est singulare et efficax medium 
+          sa<lb break="no" ed="#P" n="19"/>lutis ejus: ergo idem dicendum est de 
+          quocum<lb break="no" ed="#P" n="20"/>que malo poenae, per quod Deus suos electos
+          <lb ed="#P" n="21"/>promovet ad salutem. Item remissio poenae pro
+          <lb ed="#P" n="22"/>peccatis debitae prout in hac vita praedestinato
+          <lb ed="#P" n="23"/>confertur, ut citius evolet in coelum, effectus
+          <lb ed="#P" n="24"/>est praedestinationis ejus: at haec remissio per
+          <lb ed="#P" n="25"/>mala poenae frequentissime comparatur. 
+          Deni<lb break="no" ed="#P" n="26"/>que etiam poena unius potest esse effectus 
+          prae<lb break="no" ed="#P" n="27"/>destinationis alterius, si illi prosit, ut de Christi
+          <lb ed="#P" n="28"/>passione constat. In hac ergo assertione nulla
+          <lb ed="#P" n="29"/>est difficultas, praeter eam, quam de malo 
+          cul<lb break="no" ed="#P" n="30"/>pae tractabimus.
+        </p>
+        <p xml:id="szduep-120554-d1e200">
+          <lb ed="#P" n="31"/>2. Alterum quod ut verum sancitur. — 
+          Se<lb break="no" ed="#P" n="32"/>cundum certum est, peccatum, seu malum
+          <lb ed="#P" n="33"/>culpae non esse effectum praedestinationis :
+          <lb ed="#P" n="34"/>quia non est effectus Dei, juxta fidem 
+          defini<lb break="no" ed="#P" n="35"/>tam in Concilio Tridentino, sessione 6, can. T.
+          <lb ed="#P" n="36"/>Nec solum de peccato, ut peccatum est, 
+          ve<lb break="no" ed="#P" n="37"/>rum censeo non esse praedestinatum a Deo,
+          <lb ed="#P" n="38"/>sed etiam de actu peccati, cui est intrinsece
+          <lb ed="#P" n="39"/>adjuncta malitia : nam licet Deus ad illum 
+          ac<lb break="no" ed="#P" n="40"/>tum concurrat, non tamen ex se illum 
+          inten<lb break="no" ed="#P" n="41"/>dit, aut praefinit, ut late tractavi, libro 
+          secun<lb break="no" ed="#P" n="42"/>do, de Auxiliis per 5 prima capita. 
+          Quaprop<lb break="no" ed="#P" n="43"/>ter de tali etiam actu verissimum censeo, non
+          <lb ed="#P" n="44"/>esse effectum praedestinationis, quia quod in se
+          <lb ed="#P" n="45"/>non est aliquo modo praedestinatum, et 
+          voli<lb break="no" ed="#P" n="46"/>tum ex fine praedestinationis, non potest esse
+          <lb ed="#P" n="47"/>preedestinationis effectus.
+        </p>
+        <p xml:id="szduep-120554-d1e240">
+          <lb ed="#P" n="48"/>3. In quo sita sit difficultas.— Prima 
+          opi<lb break="no" ed="#P" n="49"/>Aio. — Probatur opinio. — Secunda 
+          corrobo<lb break="no" ed="#P" n="50"/>ratwur. — Difficultas vero superest de 
+          permis<lb break="no" ed="#P" n="51"/>sione peccati, quam Deus potest directe velle
+          <lb ed="#P" n="52"/>et intendere, an sit interdum effectus 
+          praedes<lb break="no" ed="#P" n="53"/>tinationis. Quidam enim opinantur nullo modo
+          <lb ed="#P" n="54"/>esse posse. Primo, quia permissio peccati non
+          <lb ed="#P" n="55"/>potest dici gratia, nec beneficium nobis prae-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>paratum ex meritis Christi, quod tamen 
+          requi<lb break="no" ed="#P" n="57"/>ritur in omni effectu praedestinationis. 
+          Secun<lb break="no" ed="#P" n="58"/>do, quia non potest esse volita permissio 
+          pec<lb break="no" ed="#P" n="59"/>cati ex intentione dandi gloriam praedestinato,
+          <lb ed="#P" n="60"/>quod nos etiam diximus esse necessarium in
+          <lb ed="#P" n="61"/>omni effectu praedestinationis. Assumptum 
+          pro<lb break="no" ed="#P" n="62"/>batur, quia vel illa permissio esset electa ex
+          <lb ed="#P" n="63"/>illa intentione immediate, vel mediate, non
+          <lb ed="#P" n="64"/>primum, quia permissio peccati non est 
+          me<lb break="no" ed="#P" n="65"/>dium immediate conjunctum cum illo fine,
+          <lb ed="#P" n="66"/>neque enim affert utilitatem, quae proxime et
+          <lb ed="#P" n="67"/>per se ad illum conducat: nullum autem 
+          me<lb break="no" ed="#P" n="68"/>dium immediate eligitur ex vi intentionis 
+          ali<lb break="no" ed="#P" n="69"/>cujus finis, nisi habeat immediatam 
+          habitu<lb break="no" ed="#P" n="70"/>dinem et utilitatem ad illum. Neque etiam
+          <lb ed="#P" n="71"/>mediate, quia si aliquod medium est inter
+          <lb ed="#P" n="72"/>permissionem peccati et gloriam, illud est
+          <lb ed="#P" n="73"/>commissio peccati et poenitentia de illo, quae
+          <lb ed="#P" n="74"/>per se et immediate potest conferre ad gratiam
+          <lb ed="#P" n="75"/>et gloriam : ergo necessarium erit ex 
+          inten<lb break="no" ed="#P" n="76"/>tione gloriae immediate velle poenitentiam :
+          <lb ed="#P" n="77"/>et deinde ut poenitentia locum habeat 
+          permit<lb break="no" ed="#P" n="78"/>tere peccatum : nos autem diximus supra non
+          <lb ed="#P" n="79"/>posse poenitentiam hoc modo praefiniri ante
+          <lb ed="#P" n="80"/>permissionem peccati : ergo impossibile est
+          <lb ed="#P" n="81"/>eligere hoc modo permissionem ex illa 
+          inten<lb break="no" ed="#P" n="82"/>tione.
+        </p>
+        <p xml:id="szduep-120554-d1e321">
+          <lb ed="#P" n="83"/>4. Prima assertio. — Ratione fulcitur. —
+          <lb ed="#P" n="84"/>Dico tamen permissionem peccati et esse posse,
+          <lb ed="#P" n="85"/>et saepe etiam esse effectum praedestinationis.
+          <lb ed="#P" n="86"/>Hanc sententiam frequentius hoc tempore 
+          se<lb break="no" ed="#P" n="87"/>quuntur moderni theologi et eam insinuarunt
+          <lb ed="#P" n="88"/>Anselmus et D. Thomas exponentes illa verba
+          <lb ed="#P" n="89"/>ad Rom. 8: Diligentibus Deun ommia 
+          coope<lb break="no" ed="#P" n="90"/>rantur in bonwn, ubi Glossa addidit, etiam
+          <lb ed="#P" n="91"/>peccata, et Adamus dixit, illam 
+          interpretatio<lb break="no" ed="#P" n="92"/>nem non esse superbe rejiciendam, quamvis
+          <lb ed="#P" n="93"/>Paulus primaria intentione loquatur de 
+          tribu<lb break="no" ed="#P" n="94"/>lationibus et malis poenae. Ratione declaratur
+          <lb ed="#P" n="95"/>ex conditionibus supra positis. Nam imprimis
+          <lb ed="#P" n="96"/>permissio, eo modo, quo fieri potest, est 
+          effec<lb break="no" ed="#P" n="97"/>tus Dei, quia bona est et directe volita. Dico
+          <lb ed="#P" n="98"/>autem, eo modo quo fieri potest, quia 
+          formali<lb break="no" ed="#P" n="99"/>ter loquendo permissio consistit in privatione,
+          <lb ed="#P" n="100"/>seu negatione illius auxilii, quo Deus praevidit
+          <lb ed="#P" n="101"/>futurum fuisse efficax ad vitandam culpam.
+          <lb ed="#P" n="102"/>Sicut autem voluntas Dei est adaequata causa
+          <lb ed="#P" n="103"/>dandi tale auxilium : ita etiam non dandi: 
+          li<lb break="no" ed="#P" n="104"/>bere enim et voluntarie non dat: sic ergo 
+          per<lb break="no" ed="#P" n="105"/>missio est effectus Dei. Quod si permissio 
+          in<lb break="no" ed="#P" n="106"/>cludit interdum positivum quid, ut 
+          applicatio<lb break="no" ed="#P" n="107"/>nem talis objecti vel occasionis, cum 
+          praescien<lb break="no" ed="#P" n="108"/>tia, quod homo sit illis male usurus, etiam
+          <lb ed="#P" n="109"/>Deus est vera causa illius effectus positivi, et
+          <lb ed="#P" n="110"/>potest per se et proprie velle illum, non qui-
+          <pb ed="#P" n="476"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dem directe intendens lapsum hominis, sed
+          <lb ed="#P" n="2"/>tantum praesciens et non impediens, ut recte
+          <lb ed="#P" n="3"/>Augustinus, lib. 11, Genes. ad litteram et saepe
+          <lb ed="#P" n="4"/>alias. :
+        </p>
+        <p xml:id="szduep-120554-d1e397">
+          <lb ed="#P" n="5"/>5. Secunda assertio. — Secundo, potest 
+          per<lb break="no" ed="#P" n="6"/>missio esse utilis ad salutem ipsiusmet 
+          praedes<lb break="no" ed="#P" n="7"/>tinati. Quod imprimis constat ex Damasceno,
+          <lb ed="#P" n="8"/>lib. 2, de Fide, c. 29, ubi ait, Deum aliquando
+          <lb ed="#P" n="9"/>velle permittere peccatum propter gloriam
+          <lb ed="#P" n="10"/>suam, aliquando propter bonum aliorum, saepe
+          <lb ed="#P" n="11"/>autem propter bonum ipsiusmet peccatoris.
+          <lb ed="#P" n="12"/>Primum finem videtur tetigisse Paulus ad 
+          Ro<lb break="no" ed="#P" n="13"/>manos, octavo capite, dicens: Uft ostenderet 
+          di<lb break="no" ed="#P" n="14"/>vitias gratie sue in vasa misericordie, 
+          susti<lb break="no" ed="#P" n="15"/>nuit in multa patientia vasa ire. Sic etiam
+          <lb ed="#P" n="16"/>permisit peccatum Adae, ut sapientiam suam
+          <lb ed="#P" n="17"/>in procuranda hominum salute manifestaret.
+          <lb ed="#P" n="18"/>Secundum finem colligit Augustinus, libro de
+          <lb ed="#P" n="19"/>Grat. et liber. Arbit., cap. 20, ex illo 2, 
+          Re<lb break="no" ed="#P" n="20"/>gum 16: Dominus praecepit illi, ut maledicat,
+          <lb ed="#P" n="21"/>etc. Si forte respiciat Deus humilitatem meum.
+          <lb ed="#P" n="22"/>Notat enim Augustinus, permississe Deum
+          <lb ed="#P" n="23"/>peccatum illud Semei propter exercitium 
+          pa<lb break="no" ed="#P" n="24"/>tientiee et humilitatis David. Sic etiam 
+          Am<lb break="no" ed="#P" n="25"/>brosius, serm.47, de fide Petri, dicit, permisisse
+          <lb ed="#P" n="26"/>Deum lapsum Petri propter Ecclesiae bonum.
+          <lb ed="#P" n="27"/>De tertio denique membro, quod ad nos 
+          spec<lb break="no" ed="#P" n="28"/>tat, ait Augustinus, 14, de Civitat., cap. 13:
+          <lb ed="#P" n="29"/>Audeo dicere, superbis esse utile cadere in 
+          ali<lb break="no" ed="#P" n="30"/>quod apertum manifestumque peccatum, unde
+          <lb ed="#P" n="31"/>sibi displiceant. Et congerit loca Scripturae.
+          <lb ed="#P" n="32"/>Et libro de Natura et Gratia, capite vigesimo
+          <lb ed="#P" n="33"/>octavo, ita exponit verba illa 1, ad Timoth. 1:
+          <lb ed="#P" n="34"/>Tradidi illun Satane, ut discat non 
+          blasphe<lb break="no" ed="#P" n="35"/>mare. Non enim de corporali vexatione 
+          daemo<lb break="no" ed="#P" n="36"/>nis hunc locum intelligit, sed de spirituali,
+          <lb ed="#P" n="37"/>quam tentande infert, cum permittitur, seu
+          <lb ed="#P" n="38"/>cum homo destituitur speciali protectione Dei.
+          <lb ed="#P" n="39"/>similia habet Gregorius, homilia 21, in 
+          Evan<lb break="no" ed="#P" n="40"/>gelia. Facit denique quod Bernardus ait, 
+          ser<lb break="no" ed="#P" n="41"/>mon. 54, in Cantica, Deum aliquando 
+          subtra<lb break="no" ed="#P" n="42"/>here, vel retrahere gratiam electis, ne in 
+          su<lb break="no" ed="#P" n="43"/>perbiam efferantur. Est ergo aliquando utilis
+          <lb ed="#P" n="44"/>subtractio gratiae (quod est mirabile) ad 
+          ipsius<lb break="no" ed="#P" n="45"/>met finem gratiae, vel ut perseverantia in illa
+          <lb ed="#P" n="46"/>certior sit, quae magis est necessaria, quam
+          <lb ed="#P" n="47"/>augmentum. Vel ut quod uno modo impediri
+          <lb ed="#P" n="48"/>videtur, alia via magis augeatur. Habet ergo
+          <lb ed="#P" n="49"/>permissio secundam conditionem necessariam
+          <lb ed="#P" n="50"/>ad effectum praedestinationis.
+        </p>
+        <p xml:id="szduep-120554-d1e499">
+          <lb ed="#P" n="51"/>6. Tertia vero et quarta conditio inter se
+          <lb ed="#P" n="52"/>convertuntur, nimirum, ut effectus 
+          praedesti<lb break="no" ed="#P" n="53"/>nationis sit gratia et detur ex intentione 
+          glo<lb break="no" ed="#P" n="54"/>rie, nam si habeat hoc posterius, habebit etiam
+          <lb ed="#P" n="55"/>prius sano modo intellectum. Non est enim
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>necessarium ad effectum praedestinationis ita
+          <lb ed="#P" n="57"/>esse beneficium gratiae, ut sit in sua entitate
+          <lb ed="#P" n="58"/>et substantia aliquid supernaturale, ut in 
+          prae<lb break="no" ed="#P" n="59"/>cedentibus ostensum est : neque quod sit 
+          ali<lb break="no" ed="#P" n="60"/>quod positivum, nam etiam impedire malum
+          <lb ed="#P" n="61"/>est magnum beneficium, moraliter loquendo.
+          <lb ed="#P" n="62"/>Satis ergo est quod sit effectus Dei, ex 
+          provi<lb break="no" ed="#P" n="63"/>dentia supernaturali ordinatus ad finem 
+          su<lb break="no" ed="#P" n="64"/>pernaturalem; re ipsa consequendum, 
+          concur<lb break="no" ed="#P" n="65"/>rente aliquo modo tali medio: haec autem
+          <lb ed="#P" n="66"/>omnia habet illa permissio, si ex intentione
+          <lb ed="#P" n="67"/>efficaci gloriae sit volita.
+        </p>
+        <p xml:id="szduep-120554-d1e541">
+          <lb ed="#P" n="68"/>7. Solum igitur superest probandum, 
+          per<lb break="no" ed="#P" n="69"/>mittere Deum peccatum in praedestinato ex
+          <lb ed="#P" n="70"/>ipsamet intentione gloriae, seu gratiae, aut 
+          vir<lb break="no" ed="#P" n="71"/>tutis. Hoc autem ostenditur ex dictis, quia
+          <lb ed="#P" n="72"/>Deus non permittit peccatum, nisi propter 
+          uti<lb break="no" ed="#P" n="73"/>litatem, aut bonum, quod ex illo potest elicere,
+          <lb ed="#P" n="74"/>ut est frequens apud Augustinum in 
+          Enchiri<lb break="no" ed="#P" n="75"/>dio, c. 11, de Correptione et Gratia, c. 8, et
+          <lb ed="#P" n="76"/>aliis locis supra citatis : sed unum ex his bonis
+          <lb ed="#P" n="77"/>est spirituale commodum ipsius praedestinati:
+          <lb ed="#P" n="78"/>ergo ex intentione ejus, potest Deus velle 
+          per<lb break="no" ed="#P" n="79"/>missionem peccati, ergo ita vult. Nam hic est
+          <lb ed="#P" n="80"/>modus maxime consentaneus divinae sapientiae
+          <lb ed="#P" n="81"/>et bonitati. Estque ad hoc declarandum 
+          opti<lb break="no" ed="#P" n="82"/>mus locus Augustini, lib. de Nat. et Grat.,
+          <lb ed="#P" n="83"/>c. 24. Ubi agens de peccato David, ait, per-.
+          <lb ed="#P" n="84"/>misisse illud Deum, ut esset contra superbiam
+          <lb ed="#P" n="85"/>conturbatio illa medicinalis quodammodo, 
+          diae<lb break="no" ed="#P" n="86"/>rat enim. In abundantia sua non movebor in
+          <lb ed="#P" n="87"/>ctermum et sibi tribuebat quod a Domino 
+          habe<lb break="no" ed="#P" n="88"/>bat, quare ostendendum ei fuerat, unde 
+          habe<lb break="no" ed="#P" n="89"/>ret, etc. Et subdit, c. 95: Hoc superbus 
+          ani<lb break="no" ed="#P" n="90"/>mus omnino non sapit, sed magnus est Dominus,
+          <lb ed="#P" n="91"/>qui persuadet, quomodo ipse novit. Ubi valde
+          <lb ed="#P" n="92"/>notandum est, quod ipsam permissionem, 
+          per<lb break="no" ed="#P" n="93"/>suasionem, postea vocat : quo nomine solet
+          <lb ed="#P" n="94"/>Augustinus praevenientem gratiam et 
+          vocatio<lb break="no" ed="#P" n="95"/>nem ipsam appellare.
+        </p>
+        <p xml:id="szduep-120554-d1e604">
+          <lb ed="#P" n="96"/>8. Objectio. — Sed aiunt, Deum non velle
+          <lb ed="#P" n="97"/>bonum, quod ex peccato potest elicere, 
+          abso<lb break="no" ed="#P" n="98"/>Iuta et praedefiniente voluntate, nisi supposita
+          <lb ed="#P" n="99"/>praescientia ejusdem peccati, ut futuri, teste
+          <lb ed="#P" n="100"/>Augustino in citatis locis, praesertim de 
+          Ge<lb break="no" ed="#P" n="101"/>nesi ad litteram: At voluntas permittendi 
+          pec<lb break="no" ed="#P" n="102"/>catum antecedit praescientiam ejusdem peccati
+          <lb ed="#P" n="103"/>ut futuri : ergo non potest illa permissio 
+          pro<lb break="no" ed="#P" n="104"/>cedere ex intentione talis poni.
+        </p>
+        <p xml:id="szduep-120554-d1e627">
+          <lb ed="#P" n="105"/>9. Diluitur. — Respondeo, duobus modis
+          <lb ed="#P" n="106"/>intelligi posse praescientiam futuri peccati 
+          prae<lb break="no" ed="#P" n="107"/>cedere ad intentionem illius boni, cujus 
+          pec<lb break="no" ed="#P" n="108"/>catum erit occasio, scilicet, vel de praescientia
+          <lb ed="#P" n="109"/>tantum conditionata, vel etiam de absoluta
+          <lb ed="#P" n="110"/>peccati futuri. Priori modo verum est, quod
+          <pb ed="#P" n="477"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sumitur, et ita est intelligendus Augustinus,
+          <lb ed="#P" n="2"/>quoties talem scientiam supponere videtur. Et
+          <lb ed="#P" n="3"/>signum apertum est, quia inquirit, cur Deus
+          <lb ed="#P" n="4"/>voluerit creare angelos, quos praesciebat 
+          pec<lb break="no" ed="#P" n="5"/>caturos : nam quaeestio illa de scientia absoluta
+          <lb ed="#P" n="6"/>intellecta, repugnantiam involveret : quia illa
+          <lb ed="#P" n="7"/>scientia jam supponeret voluntatem creandi
+          <lb ed="#P" n="8"/>tales angelos : ergo necesse est intelligi de
+          <lb ed="#P" n="9"/>praescientia conditionata, quae antecedit 
+          decre<lb break="no" ed="#P" n="10"/>tum voluntatis, tam creandi angelum, vel 
+          ho<lb break="no" ed="#P" n="11"/>minem, quam permittendi in illo peccatum.
+          <lb ed="#P" n="12"/>Haec ergo scientia nihil obstat, imo 
+          necessa<lb break="no" ed="#P" n="13"/>ria est, ut permissio peccati procedat ex 
+          in<lb break="no" ed="#P" n="14"/>tentione illius boni, quod postea ex peccato
+          <lb ed="#P" n="15"/>elicitur.
+        </p>
+        <p xml:id="szduep-120554-d1e679">
+          <lb ed="#P" n="16"/>10. Si autem illud intelligatur de scientia
+          <lb ed="#P" n="17"/>absoluta, falsum profecto est. Nam ante hanc
+          <lb ed="#P" n="18"/>scientiam habet Deus voluntatem permittendi
+          <lb ed="#P" n="19"/>peccatum, ergo ex aliquo motivo et sine bono
+          <lb ed="#P" n="20"/>talem permissionem vult. Nam permissio, licet
+          <lb ed="#P" n="21"/>non sit mala, tamen non est per se et 
+          intrin<lb break="no" ed="#P" n="22"/>sece ita bona, ut sit propter se amabilis, sed ex
+          <lb ed="#P" n="23"/>se est quasi objectum indifferens, quod 
+          hones<lb break="no" ed="#P" n="24"/>tatur ex fine : DEUS autem non vult 
+          permis<lb break="no" ed="#P" n="25"/>sionem, nisi sapientissimo et honestissimo 
+          mo<lb break="no" ed="#P" n="26"/>do : ergo vult illam ex aliquo honesto fine per
+          <lb ed="#P" n="27"/>se intento, qui pertineat ad manifestationem
+          <lb ed="#P" n="28"/>gloriae suae: nam hunc finem intendit Deus per
+          <lb ed="#P" n="29"/>omnem voluntatem suam:: ergo talis finis etiam
+          <lb ed="#P" n="30"/>esse potest aeternam bonum ipsius 
+          praedesti<lb break="no" ed="#P" n="31"/>nati. Patet haec ultima consequentia : quia non
+          <lb ed="#P" n="32"/>est major repugnantia in hoc fine, quam in
+          <lb ed="#P" n="33"/>aliis, nec minor convenientia, aut sapientia
+          <lb ed="#P" n="34"/>in illo intendendo et obtinendo per hoc 
+          me<lb break="no" ed="#P" n="35"/>dium.
+        </p>
+        <p xml:id="szduep-120554-d1e725">
+          <lb ed="#P" n="36"/>11. Incidens dubium. — Hoc autem ultimum,
+          <lb ed="#P" n="37"/>in quo est difficultas, constabit evidentius 
+          exa<lb break="no" ed="#P" n="38"/>minando discursum contrariae sententiae, quia
+          <lb ed="#P" n="39"/>si esset efficax, eodem modo procederet in 
+          in<lb break="no" ed="#P" n="40"/>tentione divina gloriae, aut manifestationis
+          <lb ed="#P" n="41"/>gratiae suae, media permissione peccati. 
+          Con<lb break="no" ed="#P" n="42"/>cedo igitur, quod argumentum recte probat,
+          <lb ed="#P" n="43"/>permissionem peccati non esse medium 
+          im<lb break="no" ed="#P" n="44"/>mediate conjunctum cum gloria praedestinati,
+          <lb ed="#P" n="45"/>sed mediis aliis actibus virtutum, praesertim
+          <lb ed="#P" n="46"/>actu poenitentiae, humilitatis, vel alio simili.
+          <lb ed="#P" n="47"/>Dico vero, etiam hoc bonum esse a Deo 
+          inten<lb break="no" ed="#P" n="48"/>tum, antequam velit permittere peccatum, et
+          <lb ed="#P" n="49"/>consequenter ante absolutam praescientiam
+          <lb ed="#P" n="50"/>peccati futuri. Qualis vero sit haec intentio
+          <lb ed="#P" n="51"/>Dei circa tale bonum occasione peccati 
+          obti<lb break="no" ed="#P" n="52"/>nendum. non eodem modo ab omnibus 
+          expli<lb break="no" ed="#P" n="53"/>catur.
+        </p>
+        <p xml:id="szduep-120554-d1e767">
+          <lb ed="#P" n="54"/>12. Opinio quorumdam. —Quidam id verum
+          <lb ed="#P" n="55"/>putant etiam de intentione absoluta per de-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cretum praefinitivum poenitentiae, volunt enim
+          <lb ed="#P" n="57"/>actum poenitentiae posse praefiniri et intendi
+          <lb ed="#P" n="58"/>ante absolutam praescientiam peccati, et 
+          con<lb break="no" ed="#P" n="59"/>sequenter ante voluntatem permittendi illud.
+          <lb ed="#P" n="60"/>Quia non propterea cogetur Deus procurare,
+          <lb ed="#P" n="61"/>aut velle peccatum. Quia ut talis intentio 
+          poe<lb break="no" ed="#P" n="62"/>nitentiae impleatur, suflicit voluntas 
+          permissi<lb break="no" ed="#P" n="63"/>va, supposita conditionata praescientia. Nam
+          <lb ed="#P" n="64"/>statim est infallibile illud peccatum esse 
+          futu<lb break="no" ed="#P" n="65"/>rum, quod satis est, ut illa intentio 
+          infallibili<lb break="no" ed="#P" n="66"/>ter impleatur. Et ideo etiam non sequitur,
+          <lb ed="#P" n="67"/>quod illa voluntas poenitentiae sit virtualis 
+          vo<lb break="no" ed="#P" n="68"/>lIuntas peccati, quia ex vi talis voluntatis solum
+          <lb ed="#P" n="69"/>attingitur peccatum, quantum necesse est ut
+          <lb ed="#P" n="70"/>poenitentia fiat, ad quod satis est, ut ibi 
+          vir<lb break="no" ed="#P" n="71"/>tute includatur permissio peccati. Alias, etiam
+          <lb ed="#P" n="72"/>voluntas poenitentiae existens in Deo post 
+          prae<lb break="no" ed="#P" n="73"/>scientiam absolutam peccati, esset virtualis
+          <lb ed="#P" n="74"/>voluntas peccati, quia semper dicit poenitentia
+          <lb ed="#P" n="75"/>eamdem habitudinem ad peccatum. Et ita
+          <lb ed="#P" n="76"/>nulla superest ratio, ob quam poenitentiae 
+          ac<lb break="no" ed="#P" n="77"/>tus praefiniri non possit ante absolutam 
+          prae<lb break="no" ed="#P" n="78"/>scientiam peccati futuri.
+        </p>
+        <p xml:id="szduep-120554-d1e826">
+          <lb ed="#P" n="79"/>13. Haec sententia non approbatur. — 
+          Pri<lb break="no" ed="#P" n="80"/>mo. — Secundo. — Morali exemplo res 
+          pate<lb break="no" ed="#P" n="81"/>fit. — Nihilominus sententia haec mihi placere
+          <lb ed="#P" n="82"/>non potest, quoad illa bona, quae necessario
+          <lb ed="#P" n="83"/>supponunt peccatum, ut est poenitentia. 
+          Pri<lb break="no" ed="#P" n="84"/>mo, quia non videtur hic ordo consentaneus
+          <lb ed="#P" n="85"/>divinae sapientiae : nam ista bona, quae 
+          neces<lb break="no" ed="#P" n="86"/>sario requirunt mala culpae, non sunt per se,
+          <lb ed="#P" n="87"/>et ex se absolute amabilia : imo ut talia sunt,
+          <lb ed="#P" n="88"/>censetur esse bona secundum quid, et ideo non
+          <lb ed="#P" n="89"/>vult illa Deus ex se, seu voluntate antecedenti,
+          <lb ed="#P" n="90"/>sed solum supposita ex parte hominis 
+          neces<lb break="no" ed="#P" n="91"/>sitate. Sicut sapiens medicus non vult absolute
+          <lb ed="#P" n="92"/>applicare medicinam, donec infirmitas illam
+          <lb ed="#P" n="93"/>requirat. Secundo, ac praecipue, quod talis
+          <lb ed="#P" n="94"/>voluntas esset virtualis voluntas peccati, ut in
+          <lb ed="#P" n="95"/>superioribus declaravi et nunc patet ex 
+          diffe<lb break="no" ed="#P" n="96"/>rentia, quae moraliter cernitur, quando 
+          suppo<lb break="no" ed="#P" n="97"/>nitur, vel non supponitur peccatum. Nam
+          <lb ed="#P" n="98"/>postquam peccatum est, seu futurum 
+          praesci<lb break="no" ed="#P" n="99"/>tur, velle peenitentiam ejus tantum est velle
+          <lb ed="#P" n="100"/>destructionem ejus : at voluntas destructionis
+          <lb ed="#P" n="101"/>peccati nullo modo est virtualis voluntas 
+          pec<lb break="no" ed="#P" n="102"/>cati, sed potius est odium ejus. Quando autem
+          <lb ed="#P" n="103"/>peccatum non supponitur, voluntas 
+          poeniten<lb break="no" ed="#P" n="104"/>tiae non est tantum voluntas destructionis
+          <lb ed="#P" n="105"/>peccati, sed etiam positionis ejus, quia non
+          <lb ed="#P" n="106"/>potest destrui, nisi quod est, et ideo si non 
+          sup<lb break="no" ed="#P" n="107"/>ponitur esse, in illa voluntate includitur et
+          <lb ed="#P" n="108"/>intenditur, quod prius sit, vel destrui possit.
+          <lb ed="#P" n="109"/>Quod exemplo morali declarari potest : nam
+          <lb ed="#P" n="110"/>voluntas, verbi gratia, consulendi aliquod ma-
+          <pb ed="#P" n="478"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lum, etiam minimum, semper mala est, si in
+          <lb ed="#P" n="2"/>alio, cui datur consilium, non supponitur 
+          vo<lb break="no" ed="#P" n="3"/>Iuntas alicujus mali : si vero in eo supponatur
+          <lb ed="#P" n="4"/>propositum alicujus majoris mali, voluntas
+          <lb ed="#P" n="5"/>consulendi minus non erit mala, quia jani
+          <lb ed="#P" n="6"/>non tendit ad malum, sed ad vitandum majus
+          <lb ed="#P" n="7"/>malum.
+        </p>
+        <p xml:id="szduep-120554-d1e917">
+          <lb ed="#P" n="8"/>14. Conclusio. — Corroboratur. — At vero,
+          <lb ed="#P" n="9"/>quando bonum tale est, ut non supponat 
+          ne<lb break="no" ed="#P" n="10"/>cessario peccatum, licet possit etiam per 
+          occa<lb break="no" ed="#P" n="11"/>sionem peccati provenire: tunc optime potest
+          <lb ed="#P" n="12"/>efficaci intentione praefiniri et intendi a Deo,
+          <lb ed="#P" n="13"/>ante absolutam praescientiam peccati, quod
+          <lb ed="#P" n="14"/>propter tale bonum postea permittitur. Dico
+          <lb ed="#P" n="15"/>igitur ita contingere in ea permissione peccati,
+          <lb ed="#P" n="16"/>quae est praedestinationis effectus. Nam, si quis
+          <lb ed="#P" n="17"/>recte consideret, inveniet, praeter poenitentiam
+          <lb ed="#P" n="18"/>intercedere semper aliquod bonum proxime
+          <lb ed="#P" n="19"/>intentum a Deo media permissione peccati,
+          <lb ed="#P" n="20"/>quod non habet necessariam connexionem cum
+          <lb ed="#P" n="21"/>peccato, quia etiam sine peccato esse potest, et
+          <lb ed="#P" n="22"/>peccatum etiam non dicit intrinsecam 
+          habitu<lb break="no" ed="#P" n="23"/>dinem ad illud, quamvis possit esse occasio
+          <lb ed="#P" n="24"/>ejus. Hoc patet primo in bono humilitatis seu
+          <lb ed="#P" n="25"/>diminutionis superbia , propter quod Deus
+          <lb ed="#P" n="26"/>maxime velle solet hanc permissionem, ut 
+          pa<lb break="no" ed="#P" n="27"/>tet ex ante citatis. Hoc enim bonum per se
+          <lb ed="#P" n="28"/>non requirit peccatum, praesertim actu 
+          com<lb break="no" ed="#P" n="29"/>missum, ut per se constat: sufficeret enim 
+          po<lb break="no" ed="#P" n="30"/>testas peccandi, si homo attente et exacte 
+          il<lb break="no" ed="#P" n="31"/>lam cognosceret, ut ipsum in officio humihtatis
+          <lb ed="#P" n="32"/>contineret. Idem est de absoluto odio peccati,
+          <lb ed="#P" n="33"/>et de proposito cavendi illud et tollendi 
+          occa<lb break="no" ed="#P" n="34"/>siones, etc., quae sunt bona maxime intenta
+          <lb ed="#P" n="35"/>per peccati permissionem et per se ac 
+          intrin<lb break="no" ed="#P" n="36"/>sece non supponunt illud, ut actu commissum.
+        </p>
+        <p xml:id="szduep-120554-d1e983">
+          <lb ed="#P" n="37"/>15. Instantia. — Sed instabit aliquis, quia
+          <lb ed="#P" n="38"/>nullum ex his bonis est ita immediate 
+          con<lb break="no" ed="#P" n="39"/>junctum cum permissione peccati, ut per illam
+          <lb ed="#P" n="40"/>comparandum sit, non intercedente peccato:
+          <lb ed="#P" n="41"/>illud ergo est medium quoddam inter 
+          permis<lb break="no" ed="#P" n="42"/>sionem peccati, et bonum illud per eam 
+          inten<lb break="no" ed="#P" n="43"/>tum : ergo non potest permissio intendi propter
+          <lb ed="#P" n="44"/>illud bonum, nisi mediante hoc medio quod
+          <lb ed="#P" n="45"/>Deo repugnat. Accedit, quod illud bonum 
+          eli<lb break="no" ed="#P" n="46"/>ciendum non est, nisi supposito peccato: hoc
+          <lb ed="#P" n="47"/>autem supposito, non potest bonum illud esse
+          <lb ed="#P" n="48"/>fructuosum, seu utile ad vitam aeternam, nisi
+          <lb ed="#P" n="49"/>prius peccatum per poenitentiam deleatur :
+          <lb ed="#P" n="50"/>ergo etiam poenitentia est aliud medium 
+          in<lb break="no" ed="#P" n="51"/>terpositum inter bonum illud et permissionem
+          <lb ed="#P" n="52"/>peccati: ergo semper necesse est ut ex 
+          inten<lb break="no" ed="#P" n="53"/>uone illius boni, per voluntatem poenitentiae
+          <lb ed="#P" n="54"/>procedatur ad permissionem volendam.
+        </p>
+        <p xml:id="szduep-120554-d1e1025">
+          <lb ed="#P" n="55"/>16. Rejicitur. — Hvasio. — Respondetur,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>idem argumentum fieri posse, quocumque fine
+          <lb ed="#P" n="57"/>Deus velit permittere peccatum, et ideo vel 
+          <lb ed="#P" n="58"/>negandum est, posse Deum permittere 
+          pecca<lb break="no" ed="#P" n="59"/>tum propter aliquem finem bonum, quo nullo
+          <lb ed="#P" n="60"/>modo dici potest, vel argumentum illud efficas
+          <lb ed="#P" n="61"/>non est. Hoc patet in illo fine ostendendi 
+          gra<lb break="no" ed="#P" n="62"/>tiam suam, quem Paulus posuit. Nam haec 
+          os<lb break="no" ed="#P" n="63"/>tensio gratiae non fit nisi subsecuto peccato,
+          <lb ed="#P" n="64"/>quod Deus gratis remittit cui vult: ergo inter
+          <lb ed="#P" n="65"/>permissionem et ostensionem gratiae intercedit
+          <lb ed="#P" n="66"/>peccatum. Dices, hoc esse per accidens, et in
+          <lb ed="#P" n="67"/>ordine ad nos, nam secundum se gratia ipsa
+          <lb ed="#P" n="68"/>satis ostenditur praecise in ipsa permissione,
+          <lb ed="#P" n="69"/>quatenus Deus, cui vult, dat gratiam congruam
+          <lb ed="#P" n="70"/>et efficacem, et cui vult, negat illam, 
+          permit<lb break="no" ed="#P" n="71"/>tendo peccatum: quae differentia in ipsamet
+          <lb ed="#P" n="72"/>permissione ostendi posset, si in se 
+          cognosce<lb break="no" ed="#P" n="73"/>retur, etiam praescindendo a peccato consecuto.
+        </p>
+        <p xml:id="szduep-120554-d1e1071">
+          <lb ed="#P" n="74"/>17. At profecto eadem responsio posset in
+          <lb ed="#P" n="75"/>nostro casu dari, nam permissio sola, si in se
+          <lb ed="#P" n="76"/>cognosceretur, posset sufficere ad inducendum
+          <lb ed="#P" n="77"/>hominem in humilitatem et timorem Dei, et
+          <lb ed="#P" n="78"/>similes fines per talem permissionem intentos.
+          <lb ed="#P" n="79"/>Unde etiam dicemus per accidens, quod 
+          pec<lb break="no" ed="#P" n="80"/>catum subsequatur. Deinde non est adaequata
+          <lb ed="#P" n="81"/>et universalis illa responsio: nam Deus quando
+          <lb ed="#P" n="82"/>ex permissione peccati intendit ostensionem
+          <lb ed="#P" n="83"/>gratiae suae, illud non tam est in ordine ad 
+          bea<lb break="no" ed="#P" n="84"/>tos, quam ad nos viatores. Nam beatis parum.
+          <lb ed="#P" n="85"/>necessarium erat medium illud, cum gratiam
+          <lb ed="#P" n="86"/>ipsam in se cognoscant. Viatores autem non
+          <lb ed="#P" n="87"/>possumus illam differentiam cognoscere, nisi
+          <lb ed="#P" n="88"/>in hominibus ipsis sit varietas actionum 
+          bo<lb break="no" ed="#P" n="89"/>narum et malarum. Deinde in fine 
+          redemptio<lb break="no" ed="#P" n="90"/>nis, verbi gratia, propter quem Deus permisit
+          <lb ed="#P" n="91"/>peccatum Judaeorum, non sola permissio, sed
+          <lb ed="#P" n="92"/>actio ipsa erat necessaria, ut effectus ille 
+          tan<lb break="no" ed="#P" n="93"/>dem obtineretur: multaque similia exempla
+          <lb ed="#P" n="94"/>facile offerri possunt.
+        </p>
+        <p xml:id="szduep-120554-d1e1119">
+          <lb ed="#P" n="95"/>18. Priori objectionis parti satisfit. — Dico
+          <lb ed="#P" n="96"/>ergo ad priorem partem illius objectionis, licet
+          <lb ed="#P" n="97"/>peccatum in re ipsa factum aliquando sit 
+          ne<lb break="no" ed="#P" n="98"/>cessarium ad consequendum illud bonum, quod
+          <lb ed="#P" n="99"/>Deus intendit occasione peccati, non esse 
+          ne<lb break="no" ed="#P" n="100"/>cessarium, ut Deus ipsum peccatum intendat,
+          <lb ed="#P" n="101"/>aut velit, per solam permissionem ejus. Primo
+          <lb ed="#P" n="102"/>quidem, quia peccatum non est opus Dei, sed
+          <lb ed="#P" n="103"/>bominis: Deus autem tunc solum intendit, quod
+          <lb ed="#P" n="104"/>ipse est facturus. Deinde quia tale peccatum,
+          <lb ed="#P" n="105"/>saltem ut peccatum est, non est medium ad
+          <lb ed="#P" n="106"/>talem finem, sed potius quantum ex se est,
+          <lb ed="#P" n="107"/>potens esset ad tale bonum impediendum. 
+          So<lb break="no" ed="#P" n="108"/>lum ergo est occasio quaedam, qua, quia Deus
+          <lb ed="#P" n="109"/>(ex sua infinita potentia et bonitate) bene 
+          uti<lb break="no" ed="#P" n="110"/>tur ad efficiendum aliquod bonum: et ideo
+          <pb ed="#P" n="479"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quamvis illa occasio inter permissionem et 
+          bo<lb break="no" ed="#P" n="2"/>num illud intercedat, non oportet, ut prius sit
+          <lb ed="#P" n="3"/>intenta, sed praevisa et acceptata, seu ordinata
+          <lb ed="#P" n="4"/>ad illum finem. Ex quo etiam fit, ut permissio
+          <lb ed="#P" n="5"/>secundum se spectata non semper sit efficax
+          <lb ed="#P" n="6"/>medium ad talem finem, sed ad summum 
+          suf<lb break="no" ed="#P" n="7"/>ficiens, et ex se ita differens, ut quantum est ex
+          <lb ed="#P" n="8"/>parte voluntatis Dei, necessarium non sit, 
+          ac<lb break="no" ed="#P" n="9"/>tionem permissam consequi permissione posita,
+          <lb ed="#P" n="10"/>sed solum ex infallibili Dei praescientia certum
+          <lb ed="#P" n="11"/>sit, actionem illam esse futuram, posita 
+          per<lb break="no" ed="#P" n="12"/>missione. Quando autem medium hujusmodi
+          <lb ed="#P" n="13"/>est, non est necessarium, ut ante electionem
+          <lb ed="#P" n="14"/>ejus sint volita omnia media, et vel occasiones
+          <lb ed="#P" n="15"/>aut actiones quae possunt intervenire inter 
+          bo<lb break="no" ed="#P" n="16"/>num illud et consecutionem boni intenti, sed
+          <lb ed="#P" n="17"/>satis est, ut postquam praevisum fuerit 
+          pecca<lb break="no" ed="#P" n="18"/>tum permissum, caetera disponantur.
+        </p>
+        <p xml:id="szduep-120554-d1e1200">
+          <lb ed="#P" n="19"/>19. Ad posteriorem partem patet responsio.
+          <lb ed="#P" n="20"/>— Et hinc patet responsio ad alteram partem
+          <lb ed="#P" n="21"/>de poenitentia. Dico enim, etiam illam non
+          <lb ed="#P" n="22"/>esse medium per se, et absolute necessarium
+          <lb ed="#P" n="23"/>ad talem finem, sed solum ex suppositione
+          <lb ed="#P" n="24"/>damni illati per peccatum : ideoque potius 
+          re<lb break="no" ed="#P" n="25"/>medium , quam simpliciter necessarium 
+          me<lb break="no" ed="#P" n="26"/>dium, dici potest. Quae autem hujusmodi sunt,
+          <lb ed="#P" n="27"/>non praeparantur per absolutam voluntatem
+          <lb ed="#P" n="28"/>et praefinitionem, donec eorum merita, vel 
+          ne<lb break="no" ed="#P" n="29"/>cessitas praeexistat, seu praevideatur. Et ideo
+          <lb ed="#P" n="30"/>Deus, quando permittit peccatum in 
+          praedesti<lb break="no" ed="#P" n="31"/>nato, solum habet voluntatem conditionatam,
+          <lb ed="#P" n="32"/>seu praeparatam ad dandum illi poenitentiam,
+          <lb ed="#P" n="33"/>si illa indiguerit : postquam autem videt in
+          <lb ed="#P" n="34"/>illo peccatum, jam vult absolute illius 
+          poeni<lb break="no" ed="#P" n="35"/>tentiam, quia tunc cognoscit illud medium ut
+          <lb ed="#P" n="36"/>necessarium ad finem a se intentum.
+        </p>
+        <p xml:id="szduep-120554-d1e1242">
+          <lb ed="#P" n="37"/>20. Atque haec sufticiunt de effectibus, ex
+          <lb ed="#P" n="38"/>quibus unusquisque per se intelligere potest,
+          <lb ed="#P" n="39"/>quod supra huc remisi de signis 
+          praedestina<lb break="no" ed="#P" n="40"/>tionis, nam ipsimet effectus sunt hujusmodi
+          <lb ed="#P" n="41"/>signa. Quia vero idem effectus, qui in uno est
+          <lb ed="#P" n="42"/>ex praedestinatione, in alio non est ex illa, ideo
+          <lb ed="#P" n="43"/>talia signa non afferunt certam cognitionem.
+          <lb ed="#P" n="44"/>Quando vero multa conjunguntur, et longo
+          <lb ed="#P" n="45"/>tempore, et cum magno fructu, valde 
+          proba<lb break="no" ed="#P" n="46"/>bilem efficiunt conjecturam. De qua legi 
+          po<lb break="no" ed="#P" n="47"/>test Dernardus, serm. 1. Septuagesimae et 
+          mul<lb break="no" ed="#P" n="48"/>ta congerit Vega, lib. 12, in Tridentinum, a
+          <lb ed="#P" n="49"/>cap. 10, ad 29.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

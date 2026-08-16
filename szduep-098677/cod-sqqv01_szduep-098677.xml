@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="388"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-098677"><!-- t2-l2c14 -->
+        <head xml:id="szduep-098677-Hd1e101">Caput 14</head>
+        <head xml:id="szduep-098677-Hd1e103" type="question-title">Probatur eadem sententia auctoritate patrum</head>
+        <p xml:id="szduep-098677-d1e106">
+          <lb ed="#P" n="64"/>CAPUT XIV.
+          <lb ed="#P" n="65"/>PROBATUR EADEM SENTENTIA AUCTORITATE 
+          PA<lb break="no" ed="#P" n="66"/>TRUM.
+        </p>
+        <p xml:id="szduep-098677-d1e115">
+          <lb ed="#P" n="67"/>1. Duplex argumentandi modus, directe 
+          os<lb break="no" ed="#P" n="68"/>tensivus vel tantum indirecte. —Hic etiam 
+          dis<lb break="no" ed="#P" n="69"/>tingui potest duplex modus argumentandi
+          <lb ed="#P" n="70"/>supra insinuatus, scilicet, directe ostensivus,
+          <lb ed="#P" n="71"/>vel tantum indirecte. Et quidem de hoc 
+          pos<lb break="no" ed="#P" n="72"/>teriori modo jam aliquid ex Augustino 
+          retu<lb break="no" ed="#P" n="73"/>limus. Hic vero addere possumus multas alias
+          <lb ed="#P" n="74"/>Augustini locutiones, quae in hoc sensu 
+          acci<lb break="no" ed="#P" n="75"/>piendae sunt. Nam, quaest. 2, ad Simplicianum
+          <lb ed="#P" n="76"/>circa initium, ait: Non quis se arbitretur, ideo
+          <lb ed="#P" n="77"/>percepisse gratium, quia Lene operatus est, sed
+          <lb ed="#P" n="78"/>bene operari non posse nisi per fidem perceperit
+          <lb ed="#P" n="79"/>gratiam. Incipit autem homo percipere gratium,
+          <lb ed="#P" n="80"/>ez quo incipit Deo credere, vel interna, vel 
+          ex<lb break="no" ed="#P" n="81"/>terna admonitione anotus ad fidem. Ubi non
+          <lb ed="#P" n="82"/>negat, ante perceptam gratiam posse hominem
+          <lb ed="#P" n="83"/>aliquid moralis boni operari, sed negat posse
+          <lb ed="#P" n="84"/>ita bene operari, ut gratiam mereatur. Et de
+          <lb ed="#P" n="85"/>hoc modo recte operandi bene dicit, neminem
+          <lb ed="#P" n="86"/>posse bene operari, nisi per fidem perceperit
+          <lb ed="#P" n="87"/>gratiam. Percipere autem gratiam hoc loco,
+          <lb ed="#P" n="88"/>non intelligitur de perceptione per 
+          infusio<lb break="no" ed="#P" n="89"/>nem gratiae habitualis sanctificantis, quia 
+          con<lb break="no" ed="#P" n="90"/>stat ex doctrina Augustini non esse 
+          necessa<lb break="no" ed="#P" n="91"/>riam hanc gratiae perceptionem ad omne 
+          me<lb break="no" ed="#P" n="92"/>ritum alicujus gratiae et quia statim dicit,
+          <lb ed="#P" n="93"/>incipere hominem percipere gratiam, cum
+          <lb ed="#P" n="94"/>incipit Deo credere, quod saepe sit ante 
+          gra<lb break="no" ed="#P" n="95"/>tam sanctificantem. Nec etiam percipere 
+          gra<lb break="no" ed="#P" n="96"/>tium, est tantum accipere vocationem, seu
+          <lb ed="#P" n="97"/>tactum gratiae praevenientis, quia fieri potest,
+          <lb ed="#P" n="98"/>ut post illum tactum vel vocationem, aliquis
+          <lb ed="#P" n="99"/>non incipiat credere Deo. Igitur, 
+          percipere<lb break="no" ed="#P" n="100"/>gratiam, est acceptare vocationem., seu 
+          excita<lb break="no" ed="#P" n="101"/>tionem gratiae , quod facere incipit homo,
+          <lb ed="#P" n="102"/>quando incipit Deo credere. Et ideo recte 
+          di<lb break="no" ed="#P" n="103"/>citur homo, non posse bene, id est, meritorie
+          <lb ed="#P" n="104"/>operari, donec per fidem perceperit gratiam.
+          <lb ed="#P" n="105"/>Atque ita ipsemet declarat paulo inferius 
+          di<lb break="no" ed="#P" n="106"/>cens: JVemo credit, qui non vocatur. Misericors
+          <lb ed="#P" n="107"/>autem Deus vocat, uullis hoc vel fidei meritis
+          <lb ed="#P" n="108"/>largiens , quia merita fidei sequuntur vocatic-
+          <pb ed="#P" n="389"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem, potius quam. praecedant ; nisi ergo vocando
+          <lb ed="#P" n="2"/>praecedat miserecordia Dei, nec credere 
+          quis<lb break="no" ed="#P" n="3"/>piam potest, ut em hoc incipiat justificari et
+          <lb ed="#P" n="4"/>accipiat facultatem bene operandi utique 
+          c<lb break="no" ed="#P" n="5"/>ritorie, vel prout expedit ad vitam aeternam,
+          <lb ed="#P" n="6"/>hanc enim facultatem accipit homo per 
+          voca<lb break="no" ed="#P" n="7"/>tionem. Atque eodem sensu ait inferius: Cui
+          <lb ed="#P" n="8"/>iisericors erit Deus, ut cum vocet, misericors
+          <lb ed="#P" n="9"/>miserebitur ejus ut credat, et cui misericors 
+          fue<lb break="no" ed="#P" n="10"/>rit, ut credat amisericordiam preestabit, hoc est,
+          <lb ed="#P" n="11"/>faciet eum misericordem, ut etiam bene operetur.
+          <lb ed="#P" n="12"/>In eodem profecto sensu, id est, ut 
+          misericor<lb break="no" ed="#P" n="13"/>diam operetur, prout oportet in ordine ad 
+          vi<lb break="no" ed="#P" n="14"/>tam aeternam. Et ideo infert, neminem posse
+          <lb ed="#P" n="15"/>gloriari, quod per opera misericordiaa Deum
+          <lb ed="#P" n="16"/>promeruerit: quia ipsa opera misericordiae
+          <lb ed="#P" n="17"/>sunt ex gratia illa, scilicet quae aliquid apud
+          <lb ed="#P" n="18"/>Deum promereri possunt.
+        </p>
+        <p xml:id="szduep-098677-d1e252">
+          <lb ed="#P" n="19"/>2. Eodem sensu accipiendum est, quod in
+          <lb ed="#P" n="20"/>epist. 143, circa finem idem Augustinus ait,
+          <lb ed="#P" n="21"/>loquens de fide, quae per dilectionem operatur:
+          <lb ed="#P" n="22"/>S'ine qua et anteguam omnino nulla cujusquam
+          <lb ed="#P" n="23"/>Dona opera emistimanda sunt: quoniam omne
+          <lb ed="#P" n="24"/>quod non est ex fide, peccatum est. In quibus
+          <lb ed="#P" n="25"/>verbis fateor (sicut in praecedentibus) 
+          sen<lb break="no" ed="#P" n="26"/>tentiam esse facilem, rationem vero difficilem.
+          <lb ed="#P" n="27"/>Verum est enim, sensu explicato, talia opera
+          <lb ed="#P" n="28"/>non esse existimanda bona in foro Christiano
+          <lb ed="#P" n="29"/>(ut ita dicam) id est, ea bonitate, quae ad 
+          vi<lb break="no" ed="#P" n="30"/>tam aeternam conferat. Cum autem proxime
+          <lb ed="#P" n="31"/>additur, quaia quod non est ea fide, peccatum est,
+          <lb ed="#P" n="32"/>in aliud extremum incidere videtur: nam 
+          in<lb break="no" ed="#P" n="33"/>ter peccatum et opus pietatis datur medium,
+          <lb ed="#P" n="34"/>bonum opus morale naturae consentaneum:
+          <lb ed="#P" n="35"/>at Augustinus hoc medium agnoscere non 
+          vi<lb break="no" ed="#P" n="36"/>detur: nam ex uno extremo aliud probat. Ab
+          <lb ed="#P" n="37"/>omnibus autem est illa ratio, vel non 
+          admit<lb break="no" ed="#P" n="38"/>tenda, vel moderanda, ac pie explicanda, vel
+          <lb ed="#P" n="39"/>modo paulo antea dicto, vel certe, ut dicatur
+          <lb ed="#P" n="40"/>tale opus esse peccatum improprie, quia 
+          pec<lb break="no" ed="#P" n="41"/>cato conjunctum et in statu peccati et a gratia
+          <lb ed="#P" n="42"/>alienum, vel quia non est actus virtutis 
+          sim<lb break="no" ed="#P" n="43"/>pliciter atque ita latissime peccatum. Sic enim
+          <lb ed="#P" n="44"/>idem Augustinus. lib. 19, de Civit., cap. 25,
+          <lb ed="#P" n="45"/>virtutes, etiamsi propter se ipsas appetantur,
+          <lb ed="#P" n="46"/>si ad Deum non referantur, ait esse instantes
+          <lb ed="#P" n="47"/>et superbas, ac proinde, Von virtutes, sed vitia
+          <lb ed="#P" n="48"/>judicanda esse. Et lib. 4, contra Julianum,
+          <lb ed="#P" n="49"/>cap. 13, dicit, sine fide nullam esse veram
+          <lb ed="#P" n="50"/>virtutem. Quod explicans ait: Jecte admoniti
+          <lb ed="#P" n="51"/>sumns sic amare sapientiam, ut eam nobis 
+          the<lb break="no" ed="#P" n="52"/>saurizare avidissime cupiumus, atque ut nobis
+          <lb ed="#P" n="53"/>magis, magisque acquiratur, nec aliqua ea
+          <lb ed="#P" n="54"/>parte minuatur perferamus amolestias et 
+          libidi<lb break="no" ed="#P" n="55"/>nes refrenemus , etc. Quod cum facimus , ideo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>veram virtutem habemus quia verum est 
+          prop<lb break="no" ed="#P" n="57"/>ter quod facimus, id est, hoc nature nostre
+          <lb ed="#P" n="58"/>consentaneum est ad salutem et veram 
+          felicita<lb break="no" ed="#P" n="59"/>tem. Unde inferius infert: S ergo ad 
+          conse<lb break="no" ed="#P" n="60"/>quendam veram beatitudinem nilil prosunt 
+          ho<lb break="no" ed="#P" n="61"/>nini virtutes, mullo modo sunt vere virtutes.
+          <lb ed="#P" n="62"/>Quod late ibi prosequitur.
+        </p>
+        <p xml:id="szduep-098677-d1e353">
+          <lb ed="#P" n="63"/>3. At vero interdum insinuat, ideo non esse
+          <lb ed="#P" n="64"/>veras virtutes, quia sunt peccata ex intensione
+          <lb ed="#P" n="65"/>pravi finis, vel omissione debiti finis. Sed hoc
+          <lb ed="#P" n="66"/>regulariter intelligendum est, non semper,
+          <lb ed="#P" n="67"/>quia non est absolute necessarium, ut infra
+          <lb ed="#P" n="68"/>ostendam. Et ita sensit de virtutibus 
+          Romano<lb break="no" ed="#P" n="69"/>rum idem Augustinus, libro 1, de Civitate, 
+          ca<lb break="no" ed="#P" n="70"/>pite decimo quinto et sequentibus. Aliquando
+          <lb ed="#P" n="71"/>etiam indicat, nullum esse bonum opus et 
+          ste<lb break="no" ed="#P" n="72"/>rile (quod dicebat Julianus), id est, non aptum
+          <lb ed="#P" n="73"/>ad meritum. At hoc intelligendum est de bonc
+          <lb ed="#P" n="74"/>completo et integro, quod operantem 
+          consti<lb break="no" ed="#P" n="75"/>tuit simpliciter bonum, sic enim inquit: Fieri
+          <lb ed="#P" n="76"/>non potest, ut steriliter boni simus, sed bonwmn
+          <lb ed="#P" n="77"/>non sumus, quidquid steriliter sumus: Et infra:
+          <lb ed="#P" n="78"/>Nullo igitur iodo homines sunt steriliter boni,
+          <lb ed="#P" n="79"/>sed qui boni non sunt, possunt esse alii maimus,
+          <lb ed="#P" n="80"/>alii magis mali. Ytaque opus bonum potest
+          <lb ed="#P" n="81"/>esse sterile: homo autem bonus non potest
+          <lb ed="#P" n="82"/>esse sterilis, quia nemo sine fide et gratia 
+          po<lb break="no" ed="#P" n="83"/>test esse simpliciter bonus: si autem homo
+          <lb ed="#P" n="84"/>habet fidem et gratiam, non potest non 
+          fruc<lb break="no" ed="#P" n="85"/>tuose operari, si tamen ut tals est, operetur,
+          <lb ed="#P" n="86"/>quod moraliter loquendo, non potest non 
+          in<lb break="no" ed="#P" n="87"/>terdum praestare. Denique hac ratione, 
+          respi<lb break="no" ed="#P" n="88"/>ciendo ad personas displicet Augustinus, lib.
+          <lb ed="#P" n="89"/>1. Retract., cap. 3, quod in libris de Ordine
+          <lb ed="#P" n="90"/>dixerit, Philosophos non vera pietate preeditos
+          <lb ed="#P" n="91"/>virtutis luce fulsissc. Etlibro de Continentia,
+          <lb ed="#P" n="92"/>in fine, dixit: Continentiam sine fide, non esse
+          <lb ed="#P" n="93"/>veram continentiam , quoniam est peccatum.
+          <lb ed="#P" n="94"/>Non enim haec dicebat Augustinus, quia nullum
+          <lb ed="#P" n="95"/>honestum opus in his hominibus inveniri 
+          po<lb break="no" ed="#P" n="96"/>tuerit, sed quia rarum erat et ideo veram et
+          <lb ed="#P" n="97"/>absolutam virtutem generare non poterat, vel
+          <lb ed="#P" n="98"/>quia tot peccatis, vel pravis intentionibus 
+          foe<lb break="no" ed="#P" n="99"/>dabatur, ut vix purum inveniretur.
+        </p>
+        <p xml:id="szduep-098677-d1e436">
+          <lb ed="#P" n="100"/>4. Insignis locus. —Constabit autem hoc 
+          evi<lb break="no" ed="#P" n="101"/>dentius, accedendo ad alium modum probandi
+          <lb ed="#P" n="102"/>ostensive hanc veritatem ex Patribus disserte
+          <lb ed="#P" n="103"/>distinguentibus inter duo genera boni operis,
+          <lb ed="#P" n="104"/>aut consentaneum tantum naturae, vel fidei ;
+          <lb ed="#P" n="105"/>in quo est insignis locus apud Augustinum, lib.
+          <lb ed="#P" n="106"/>de Spiritu et litter., cap. 27 et 28. Ubi, ut supra
+          <lb ed="#P" n="107"/>dixi, admittit verba illa Pauli : Gentes quee 
+          te<lb break="no" ed="#P" n="108"/>gem non habent, naturaliter ea quoe legis sunt,
+          <lb ed="#P" n="109"/>faciunt : posse intelligi de gentibus per solas
+          <lb ed="#P" n="110"/>naturae vires in ipsa suae vitae impietate ali-
+          <pb ed="#P" n="390"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quid boni per rationem naturalem dictante,
+          <lb ed="#P" n="2"/>facientibus. Nam de eis (inquit) queedam fucta
+          <lb ed="#P" n="3"/>legimus vel novimus, vel audivimus, quee 
+          secun<lb break="no" ed="#P" n="4"/>dum justitiee regulam , mon solum vituperare
+          <lb ed="#P" n="5"/>non possumus , cerum etiam merito, vecteque
+          <lb ed="#P" n="6"/>laudamus. Declarat autem se loqui de bonis
+          <lb ed="#P" n="7"/>operibus non tantum ex objecto, sed etiam ex
+          <lb ed="#P" n="8"/>omnibus circumstantiis. Nam subdit : 
+          Quam<lb break="no" ed="#P" n="9"/>quam se discutiatur , quo fine fiant, via 
+          inve<lb break="no" ed="#P" n="10"/>nientur quae justitiee debitam laudem, 
+          defensio<lb break="no" ed="#P" n="11"/>nemve mercantur. Ubi cum dicit vic, fatetur
+          <lb ed="#P" n="12"/>aliquando contingere, et tacite explicat alia
+          <lb ed="#P" n="13"/>loca, quae videntur contraria, ut de his, quae
+          <lb ed="#P" n="14"/>frequentius accidunt, intelligantur. Quomodo
+          <lb ed="#P" n="15"/>autem id fiat per naturae vires, declarat, quia
+          <lb ed="#P" n="16"/>non usque adeo in anima hunano amago Dei
+          <lb ed="#P" n="17"/>terrenorum affectuwum labe ita detrita est, ut
+          <lb ed="#P" n="18"/>nulla in ea velut externa lineamenta 
+          remanse<lb break="no" ed="#P" n="19"/>rint. Et infra de Judaeis, quantumvis in lege
+          <lb ed="#P" n="20"/>sua corruptis moribus viventibus , eamdem
+          <lb ed="#P" n="21"/>vim naturae in eis mansisse, dicit : Nam et
+          <lb ed="#P" n="22"/>ipsi homines erant (ait) et vis illa naturee inerat
+          <lb ed="#P" n="23"/>eis, qua legitimum aliquid anima rationalis et
+          <lb ed="#P" n="24"/>sentit, et facit - sed pietas que in aliam vitam
+          <lb ed="#P" n="25"/>transfert beatum, et eternam legem habet 
+          im<lb break="no" ed="#P" n="26"/>maculatam , etc. Ac tandem infra sic scribit :
+          <lb ed="#P" n="27"/>Sicut non impediunt a vita eterna justum 
+          quae<lb break="no" ed="#P" n="28"/>dam peccata venialia, sine quibus heec vita non
+          <lb ed="#P" n="29"/>ducitur, sic ad salutem eternam nilal prosunt
+          <lb ed="#P" n="30"/>impio aliqua bona opera, sine quibus 
+          difficilli<lb break="no" ed="#P" n="31"/>me vita cujuslibet pessimi hominis anvenitur.
+          <lb ed="#P" n="32"/>Quid clarius?
+        </p>
+        <p xml:id="szduep-098677-d1e536">
+          <lb ed="#P" n="33"/>5. Est praeterea insignis sub nomine 
+          Au<lb break="no" ed="#P" n="34"/>gustini locus, lib. 3, Hipognosticon, parum a
+          <lb ed="#P" n="35"/>principio, ubi cum dixisset : Peccatum liberum
+          <lb ed="#P" n="36"/>arbitrium hominis possibilitatis bouum perdidit
+          <lb ed="#P" n="37"/>non nomen et rationem, ad explicandum quid
+          <lb ed="#P" n="38"/>intelligat per possibilitatis bonum subdit:
+          <lb ed="#P" n="39"/>Hsse fatemur liberum arbitrium omnibus 
+          ho<lb break="no" ed="#P" n="40"/>aninibus habens quidem judicium rationis, non
+          <lb ed="#P" n="41"/>per quod sit idoneum, que ad Deum pertinent,
+          <lb ed="#P" n="42"/>aut inchoare, aut certe peragere, sed tantum in
+          <lb ed="#P" n="43"/>operibus vitee praesentis, tam bonis, quam 
+          ma<lb break="no" ed="#P" n="44"/>lis. Fatetur ergo non amisisse hominem 
+          libe<lb break="no" ed="#P" n="45"/>rum arbitrium per peccatum Adae quoad 
+          pos<lb break="no" ed="#P" n="46"/>sibilitatem omnis boni, sed retinuisse illam,
+          <lb ed="#P" n="47"/>saltem in operibus vitae praesentis, etiam bonis.
+          <lb ed="#P" n="48"/>Dices, loqui tantum de bonis operibus, non
+          <lb ed="#P" n="49"/>quidem bonitate morali, et honesta, sed 
+          tan<lb break="no" ed="#P" n="50"/>tum naturali, id est, secundum convenientiam
+          <lb ed="#P" n="51"/>ad naturae commoditatem, hoc enim indicant
+          <lb ed="#P" n="52"/>verba et exempla , quae subjungit, dicens:
+          <lb ed="#P" n="53"/>Bonis dico que de bono nature oriuntur, id est,
+          <lb ed="#P" n="54"/>velle laborare in agro, velle manducare, et 
+          li<lb break="no" ed="#P" n="55"/>bere, velle habere amicum, velle habere inda-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>menta , velle fabricare domunm, uaorem velle 
+          du<lb break="no" ed="#P" n="57"/>cere, pecora mutrire, artem velle discere 
+          diver<lb break="no" ed="#P" n="58"/>sarum rerum bonarum , velle quidquid bonum
+          <lb ed="#P" n="59"/>ad prasentem pertinet vitam , que ommnia non
+          <lb ed="#P" n="60"/>sine gubernaculo divino subsistunt, imo ex ipso,
+          <lb ed="#P" n="61"/>et per apsum sunt, et esse ceperunt.
+        </p>
+        <p xml:id="szduep-098677-d1e604">
+          <lb ed="#P" n="62"/>6. Excluditur effugium.— Dico tamen, 
+          Au<lb break="no" ed="#P" n="63"/>gustinum evidenter loqui de his omnibus,
+          <lb ed="#P" n="64"/>quatenus bene moraliter per rationem 
+          natu<lb break="no" ed="#P" n="65"/>ralem fieri possunt. Primo quidem, quia nisi
+          <lb ed="#P" n="66"/>talia sint opera, non possunt dici simpliciter
+          <lb ed="#P" n="67"/>bona, nec a malis distingui. Secundo, quia
+          <lb ed="#P" n="68"/>per mala opera intelligit ea, quae sunt 
+          mora<lb break="no" ed="#P" n="69"/>liter mala, ut exemplis ostendit et concludit
+          <lb ed="#P" n="70"/>dicens : Quidguid non licet , vel non empedit
+          <lb ed="#P" n="71"/>operari. Ergo e contrario per bona opera 
+          in<lb break="no" ed="#P" n="72"/>telligit ea, quae licet operari, et prout licet, ac
+          <lb ed="#P" n="73"/>expedit :-quia si aliter fiat, non est bonum 
+          bi<lb break="no" ed="#P" n="74"/>bere vel comedere, aut uxorem, vel amicum
+          <lb ed="#P" n="75"/>habere. Tertio, quia etiam haec bona opera
+          <lb ed="#P" n="76"/>bene moraliter facta, de bono naturae 
+          oriun<lb break="no" ed="#P" n="77"/>tur, et ut sic etiam pertinent ac bonum vitae
+          <lb ed="#P" n="78"/>praesentis : nam haec etiam ipsa, si non bene
+          <lb ed="#P" n="79"/>fiant, in magnum malum, et incommodum
+          <lb ed="#P" n="80"/>vitae praesentis redundant.
+        </p>
+        <p xml:id="szduep-098677-d1e648">
+          <lb ed="#P" n="81"/>7. Quarto confirmat hoc idem Augustinus in
+          <lb ed="#P" n="82"/>alio loco, libro de Perfectione justitiae, ubi 
+          oc<lb break="no" ed="#P" n="83"/>currens Caelestio , qui objiciebat illud Pauli,
+          <lb ed="#P" n="84"/>Quod vult faciat, ut probaret et bonam 
+          volun<lb break="no" ed="#P" n="85"/>tatem haberi posse sine gratia, ita respondet:
+          <lb ed="#P" n="86"/>Videte obsecro quale sit, volenti, et currenti,
+          <lb ed="#P" n="87"/>misecordiam Dei non esse necessariam, quae 
+          il<lb break="no" ed="#P" n="88"/>lum etiam prevenit ut curreret : quia de 
+          quo<lb break="no" ed="#P" n="89"/>dam aàt Apostolus. Quod vult faciat , ibi (ut
+          <lb ed="#P" n="90"/>arbitror ubi sequitur) et dicit, mon peccat si
+          <lb ed="#P" n="91"/>nubat - quasi pro habendum sit velle mubere, ubi
+          <lb ed="#P" n="92"/>de adjutorio divinee misericordie operosius 
+          dis<lb break="no" ed="#P" n="93"/>putatur. Aut cero ibi prodest aliquid velle,
+          <lb ed="#P" n="94"/>nisi Deus providentia , qua gubernat omnia,
+          <lb ed="#P" n="95"/>marem , faeminamque conjungat. Ubi constat,
+          <lb ed="#P" n="96"/>ex sententia Augustini posse hominem velle
+          <lb ed="#P" n="97"/>nubere, ita ut non peccet sicut Paulus dicit,
+          <lb ed="#P" n="98"/>sine speciali adjutorio divinae gratiae. At vero,
+          <lb ed="#P" n="99"/>ut illud velle sine peccato sit, oportet ut bene
+          <lb ed="#P" n="100"/>etiam ex circumstantiis fiat, atque adeo 
+          sim<lb break="no" ed="#P" n="101"/>pliciter honeste ac bene moraliter. Maxime
+          <lb ed="#P" n="102"/>cum non possit aliter in individuo fieri, nisi
+          <lb ed="#P" n="103"/>aut peccando, aut bene simphciter. Estque hic
+          <lb ed="#P" n="104"/>valde notanda illa Augustini sententia, quod,
+          <lb ed="#P" n="105"/>Ubi operosius disputatur de necessario 
+          adju<lb break="no" ed="#P" n="106"/>torio divine gratie, hujusmodi velle, etiamsi
+          <lb ed="#P" n="107"/>honestum, et sine peccato sit, non cadit sub
+          <lb ed="#P" n="108"/>talem disputationem, quia non pro magno,
+          <lb ed="#P" n="109"/>(id est, quasi pro nihilo) reputatur, si aliquid
+          <lb ed="#P" n="110"/>altius in eo non inveniatur. .
+        </p>
+        <p xml:id="szduep-098677-d1e716">
+          <pb ed="#P" n="391"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>8. Non tamen omittam in his Augustini
+          <lb ed="#P" n="2"/>testimoniis ulterius ponderare verba illa, 
+          qui<lb break="no" ed="#P" n="3"/>bus in utroque loco significat, haec ipsa bona
+          <lb ed="#P" n="4"/>moralia et naturalia esse divinae providentiae
+          <lb ed="#P" n="5"/>beneficia, et eo titulo Deo tribuenda 
+          principa<lb break="no" ed="#P" n="6"/>liter, et inter ejus dona esse computanda, et
+          <lb ed="#P" n="7"/>interdum fortasse esse specialia, etiamsi ad
+          <lb ed="#P" n="8"/>dona gratiae non pertineant. Hoc indicant in
+          <lb ed="#P" n="9"/>priori loco verba illa: Que omnia non sine 
+          gu<lb break="no" ed="#P" n="10"/>bernaculo divino subsistunt, imo ex ipso et per
+          <lb ed="#P" n="11"/>ipsum. sunt vel esse ceperunt. Et similia fere
+          <lb ed="#P" n="12"/>sunt in fine posterioris testimonii, per quae 
+          re<lb break="no" ed="#P" n="13"/>spondet tacitae objectioni, ne homo putet posse
+          <lb ed="#P" n="14"/>sibi tribuere aliquid boni, quod a Deo non 
+          re<lb break="no" ed="#P" n="15"/>ceperit, quia uuumquodque bonum a Deo 
+          sem<lb break="no" ed="#P" n="16"/>per est, cum debita proportione; bonum 
+          ordi<lb break="no" ed="#P" n="17"/>nis naturalis a Deo auctore et provisore naturae,
+          <lb ed="#P" n="18"/>bonum autem gratiae altiori ratione. Inter bona
+          <lb ed="#P" n="19"/>autem naturalis ordinis, quae in Deum ut 
+          pro<lb break="no" ed="#P" n="20"/>visorem naturae referenda sunt, computat 
+          Au<lb break="no" ed="#P" n="21"/>gustinus bonum opus morale praecise 
+          specta<lb break="no" ed="#P" n="22"/>tum, ut consentaneum naturae rationali. Bona
+          <lb ed="#P" n="23"/>autem simpliciter vocat opera quae ad veram
+          <lb ed="#P" n="24"/>sanctitatem conferunt, unde inferius concludit:
+          <lb ed="#P" n="25"/>H'st igitur liberum avbitrium, quod quisquis
+          <lb ed="#P" n="26"/>esse negaverit, catholicus non est: et quisquis
+          <lb ed="#P" n="27"/>sic esse diverit quod sine Deo bouum opus id est
+          <lb ed="#P" n="28"/>(nota declarationem) quod ad ejus sanctum 
+          pro<lb break="no" ed="#P" n="29"/>positum pertinet, neque incipere, neque perficere
+          <lb ed="#P" n="30"/>possit, catholicus est.
+        </p>
+        <p xml:id="szduep-098677-d1e789">
+          <lb ed="#P" n="31"/>9. Est praeterea de hac re illustris locus 
+          Au<lb break="no" ed="#P" n="32"/>gustini in epistola centesima tertia. Ubi refert
+          <lb ed="#P" n="33"/>Polemonem intemperantem et incontinentem
+          <lb ed="#P" n="34"/>hominem opera et suasione Xenocratis fuisse
+          <lb ed="#P" n="35"/>ad meliorem mentem conversum: et subdit:
+          <lb ed="#P" n="36"/>Non ita, wut Deo fuerit acquisitus, sed tantum a
+          <lb ed="#P" n="37"/>dominatu lucuriee liberatus. Et tamen de hoc
+          <lb ed="#P" n="38"/>ipso effectu subjungit: Tamen, nec idipsum
+          <lb ed="#P" n="39"/>quidem quod in eo melius factum est, humano
+          <lb ed="#P" n="40"/>operi tribuerim, sed divino. Quod autem non de
+          <lb ed="#P" n="41"/>opere gratiae, sed naturalis providentiae dixerit,
+          <lb ed="#P" n="42"/>declarat ratio quam subjungit: psius namque
+          <lb ed="#P" n="43"/>corporis, quod est infimum nostrum, si qua bona
+          <lb ed="#P" n="44"/>sunt, sicut forma, vires et salus, et si quid 
+          ejus<lb break="no" ed="#P" n="45"/>odi est, non est nisi em Deo creatore ac 
+          perfec<lb break="no" ed="#P" n="46"/>tore nature, quanto magis animi bona donare
+          <lb ed="#P" n="47"/>nullus alius potest ? Quid enim superbius vel
+          <lb ed="#P" n="48"/>ingratius cogitare potest humana vecordia, si
+          <lb ed="#P" n="49"/>putaverit cum carne pulchrum faciat Deus 
+          ho<lb break="no" ed="#P" n="50"/>minem, animo castuwn ab homine fieri? Haec
+          <lb ed="#P" n="51"/>enim ratio optime probat, Deum ut auctorem
+          <lb ed="#P" n="52"/>et perfectorem naturae conferre hujusmodi 
+          do<lb break="no" ed="#P" n="53"/>num. Addit vero statim Augustinus 
+          testimo<lb break="no" ed="#P" n="54"/>nium Sapientis, Sapientiae, 8 cap.: IVemo esse
+          <lb ed="#P" n="55"/>potest continens, nisi Deus det. Quod idem Au-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gustinus, et cum eo omnes theologi 
+          frequen<lb break="no" ed="#P" n="57"/>tissime explicant de donatione per gratiam.
+          <lb ed="#P" n="58"/>Sed utrumque potest sub codem loco 
+          compre<lb break="no" ed="#P" n="59"/>hendi, nimirum quod et continentiae donum
+          <lb ed="#P" n="60"/>perfectum immaculatum lethali culpa sit 
+          do<lb break="no" ed="#P" n="61"/>num gratiae, et quod imperfectum, et quoad
+          <lb ed="#P" n="62"/>unum vel alium actum sit donum Dei, ut 
+          auc<lb break="no" ed="#P" n="63"/>toris naturae. Sic enim solet Augustinus de 
+          do<lb break="no" ed="#P" n="64"/>nis gratiae interpretari illud Romanorum, 11
+          <lb ed="#P" n="65"/>cap. : Za ipso, per ipsum et in ipso sunt omnia.
+          <lb ed="#P" n="66"/>Cum tamen etiam extendatur ad bona ordinis
+          <lb ed="#P" n="67"/>naturae, ut in citato testimonio de Spiritu et
+          <lb ed="#P" n="68"/>litter., idem Augustinus attigit. Addit vero 
+          sta<lb break="no" ed="#P" n="69"/>tim Augustinus: Polemon ergo, si ex luaurioso
+          <lb ed="#P" n="70"/>continens factus, ita sciret cujus esset hoc 
+          do<lb break="no" ed="#P" n="71"/>wn, ut cum abjectis superstitionibus gentium
+          <lb ed="#P" n="72"/>pie coleret, non solum continens, sed etiam 
+          vera<lb break="no" ed="#P" n="73"/>citer sapiens et salubriter religiosus existeret,
+          <lb ed="#P" n="74"/>quod ei non tantum ad preesentis vitee 
+          honesta<lb break="no" ed="#P" n="75"/>tem, verum et ad futuram immortalitatem 
+          va<lb break="no" ed="#P" n="76"/>leret. Unde constat, Polemonem illum fuisse
+          <lb ed="#P" n="77"/>gentilem, nihilque de fide veri Dei cogitasse:
+          <lb ed="#P" n="78"/>ideoque ejus continentiam qualemcumque(nam
+          <lb ed="#P" n="79"/>sine dubio non potuit esse valde perfecta) ad
+          <lb ed="#P" n="80"/>solam honestatem vitae praesentis pertinuisse:
+          <lb ed="#P" n="81"/>et ideo fuisse donum Dei auctoris naturae: non
+          <lb ed="#P" n="82"/>vero propriae gratiae, quae secundum 
+          Augusti<lb break="no" ed="#P" n="83"/>num cum vera fide incipit, et continentiam
+          <lb ed="#P" n="84"/>elevat ad fructus aeternae vitae.
+        </p>
+        <p xml:id="szduep-098677-d1e911">
+          <lb ed="#P" n="85"/>10. Accedit, hanc fuisse communem 
+          sen<lb break="no" ed="#P" n="86"/>tentiam Patrum , qui Augustinum 
+          praecesse<lb break="no" ed="#P" n="87"/>runt, et in eadem permansisse illos, qui post
+          <lb ed="#P" n="88"/>eum secuti sunt, eique in doctrina de gratia
+          <lb ed="#P" n="89"/>maxime adhaeserunt. Prior pars, quantum 
+          at<lb break="no" ed="#P" n="90"/>tmet ad Graecos Patres, ostendi potest a 
+          for<lb break="no" ed="#P" n="91"/>tori ex dictis in capite septimo, ubi 
+          prae<lb break="no" ed="#P" n="92"/>cipue adduximus Chrysostomum et Marcum
+          <lb ed="#P" n="93"/>Eremitam, qui tantum videntur libero arbitrio
+          <lb ed="#P" n="94"/>tribuere, ut non desint qui eis imponunt, quod
+          <lb ed="#P" n="95"/>in errorem Semipelagianorum inclinaverint:
+          <lb ed="#P" n="96"/>nos vero et ab errore illo eos defendimus , et
+          <lb ed="#P" n="97"/>plura loca adduximus, in quibus aliquid boni
+          <lb ed="#P" n="98"/>posse hominem per vires naturae operari, pro
+          <lb ed="#P" n="99"/>certo habent. Ad idemque ibidem adduximus
+          <lb ed="#P" n="100"/>Nazianzenum, Clementem Alexandrinum et
+          <lb ed="#P" n="101"/>Damascenum, etiam Graecum, licet Augustino
+          <lb ed="#P" n="102"/>posteriorem. Possumusque hic addere eumdem
+          <lb ed="#P" n="103"/>Chrysostomum, homilia 67, ad Populum, ubi
+          <lb ed="#P" n="104"/>ait, nullum esse adeo malum, qui non 
+          inter<lb break="no" ed="#P" n="105"/>dum aliquid boni naturae ductu operetur, 
+          cu<lb break="no" ed="#P" n="106"/>jusque in hac vita aliquod praemium a Deo
+          <lb ed="#P" n="107"/>non recipiat, quia in alia puniendus est. Idem
+          <lb ed="#P" n="108"/>habetur nomine Chrysostomi in homilia 26.
+          <lb ed="#P" n="109"/>Imperfecti in Matth. quatenus ibi dicitur, 
+          in<lb break="no" ed="#P" n="110"/>fideles interdum operari aliquod bonum , na-
+          <pb ed="#P" n="392"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>turali bono motos, Basilius, homilia sexta in
+          <lb ed="#P" n="2"/>caput primum Genes., dicit, esse in nobis 
+          ali<lb break="no" ed="#P" n="3"/>quas virtutes secundum naturam, ad quas
+          <lb ed="#P" n="4"/>Familiaritas ex ipsa natura inest. Qua 
+          senten<lb break="no" ed="#P" n="5"/>tia usus est etiam Damascenus, lib. 3, de Fide,
+          <lb ed="#P" n="6"/>cap. 14. Ex latinis vero Hieronymus expresse
+          <lb ed="#P" n="7"/>hanc sententiam docuit, in cap. 1 et 5, ad Gal.
+          <lb ed="#P" n="8"/>Nam in priori loco dicit, homines carentes
+          <lb ed="#P" n="9"/>fide operari interdum aliquid Sancte, id est,
+          <lb ed="#P" n="10"/>honeste, et sine peccati macula et plane 
+          signi<lb break="no" ed="#P" n="11"/>enificat id facere sine gratia solo ductu 
+          na<lb break="no" ed="#P" n="12"/>turae. In alio vero loco, sine fide dicit, esse
+          <lb ed="#P" n="13"/>posse bona opera, sicut fides potest esse sine
+          <lb ed="#P" n="14"/>charitate, ita illa bona opera sine fide mortua
+          <lb ed="#P" n="15"/>esse. Ambrosius, libro 1, de Abraham, capite
+          <lb ed="#P" n="16"/>secundo , sensit. Regem /Egypti ductu naturae
+          <lb ed="#P" n="17"/>recte se gessisse cum Abraham et ab 
+          adulte<lb break="no" ed="#P" n="18"/>rio abstinuisse. Et similia frequentia sunt in
+          <lb ed="#P" n="19"/>antiquis Patribus.
+        </p>
+        <p xml:id="szduep-098677-d1e1015">
+          <lb ed="#P" n="20"/>11. Post Augustinum vero Prosper, libro
+          <lb ed="#P" n="21"/>contra Collator., cap. 26, agnoscit, etiam post
+          <lb ed="#P" n="22"/>peccatum habere hominem rationem, per quam
+          <lb ed="#P" n="23"/>possit aliqua opera facere, que praesentem 
+          vi<lb break="no" ed="#P" n="24"/>tam honestare possunt, eternam autem vitam
+          <lb ed="#P" n="25"/>conferre non possunt. Similiter Fulgentius, lb.
+          <lb ed="#P" n="26"/>de Incarnatione et Gratia, cap. 26, dicit esse
+          <lb ed="#P" n="27"/>posse in infidelibus, aut peccatoribus aliqua
+          <lb ed="#P" n="28"/>bona opera : quae, quia vel ex charitate non
+          <lb ed="#P" n="29"/>fiunt, vel etiam neque ex fide, ad salutem non
+          <lb ed="#P" n="30"/>prosunt. Clarius Gregorius, hom. 27, in 
+          Evan<lb break="no" ed="#P" n="31"/>gelia distinguit dilectionem naturalem , a 
+          di<lb break="no" ed="#P" n="32"/>lectione charitatis : Aliud (mquit) est, quod
+          <lb ed="#P" n="33"/>sponte ampenditur natura, aliud quod em 
+          cha<lb break="no" ed="#P" n="34"/>ritate debetur obedientie. Et utramque dicit
+          <lb ed="#P" n="35"/>esse bonam in suo ordine, quia posteriorem
+          <lb ed="#P" n="36"/>Christus maxime commendat : priori autem,
+          <lb ed="#P" n="37"/>ut ait : Sacra eloquia non contradicunt. Quam
+          <lb ed="#P" n="38"/>distinctionem et doctrinam amplexus est 
+          Ru<lb break="no" ed="#P" n="39"/>pertus super Joann., cap. 15, et Ecclesiae usu
+          <lb ed="#P" n="40"/>et communi consensu est recepta. Ac denique,
+          <lb ed="#P" n="41"/>quod caput est, Pius V et Gregorius XIII, illam
+          <lb ed="#P" n="42"/>probarunt in bulla contra Michaelem Baium.
+          <lb ed="#P" n="43"/>In qua bulla sententiam hanc, de potestate
+          <lb ed="#P" n="44"/>liberi arbitrii ad faciendum aliquod opus 
+          mo<lb break="no" ed="#P" n="45"/>rale simpliciter bonum et honestum, absque
+          <lb ed="#P" n="46"/>speciali auxilio gratiae, vel confirmant et 
+          ap<lb break="no" ed="#P" n="47"/>probant dicti Pontifices, vel certe plurimum
+          <lb ed="#P" n="48"/>ei favent. Eorum tamen sententiam 
+          commo<lb break="no" ed="#P" n="49"/>dius, capite decimo sexto, referemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

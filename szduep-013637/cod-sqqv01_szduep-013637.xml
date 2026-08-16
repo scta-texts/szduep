@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="54"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-013637"><!-- t1-l2c3 -->
+        <head xml:id="szduep-013637-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-013637-Hd1e103" type="question-title">De immutabilitate dei</head>
+        <p xml:id="szduep-013637-d1e106">
+          <lb ed="#P" n="5"/>CAPUT III.
+          <lb ed="#P" n="6"/>DE IMMUTABILITATE DEI.
+        </p>
+        <p xml:id="szduep-013637-d1e113">
+          <lb ed="#P" n="7"/>1. Deum esse immutabilem de fide 
+          asseve<lb break="no" ed="#P" n="8"/>randum est. — Sub attributo generali 
+          immu<lb break="no" ed="#P" n="9"/>tabilitatis, quod omnia in universum genera
+          <lb ed="#P" n="10"/>mutationem a Deo removet, comprehenduntur
+          <lb ed="#P" n="11"/>omnes speciales negationes sub illa contentae,
+          <lb ed="#P" n="12"/>ut esse impassibilem, inalterabilem, 
+          incorrup<lb break="no" ed="#P" n="13"/>tibillem, ac denique habere totum suum esse
+          <lb ed="#P" n="14"/>inamissibile. Hoc ergo sensu de fide certum
+          <lb ed="#P" n="15"/>est, Deum esse immutabilem; nam per 
+          gene<lb break="no" ed="#P" n="16"/>ralia et specialia verba illa negatio Deo 
+          attri<lb break="no" ed="#P" n="17"/>buitur in Scriptura Malachiae 3: Ego Dominus
+          <lb ed="#P" n="18"/>el non mutor. Num. 23: Non est Deus quasi
+          <lb ed="#P" n="19"/>homo., ut mentiatur, nec ut Filius hominis, ut
+          <lb ed="#P" n="20"/>mutetur. Ubi etiam de mutatione generatim
+          <lb ed="#P" n="21"/>sermo est et specialiter affertur, ut ostendatur
+          <lb ed="#P" n="22"/>immutabilitas Dei, etiam in proposito 
+          volun<lb break="no" ed="#P" n="23"/>tatis suee, unde subjungitur: Diait ergo et
+          <lb ed="#P" n="24"/>,01 faciet ? locutus est et non implebit ? Hem
+          <lb ed="#P" n="25"/>Jacobus : Apud quem non est transmutatio 
+          ne<lb break="no" ed="#P" n="26"/>que vicissitudinis obumbratio. Psalm. 101:
+          <lb ed="#P" n="27"/>cut opertorum mutabis eos et mutabuntur - tu
+          <lb ed="#P" n="28"/>autem idemipse es et anni tui non deficient. Et hoc
+          <lb ed="#P" n="29"/>sensu dicitur immortalis, 1, ad Thimothaeum
+          <lb ed="#P" n="30"/>1. Imo capite 6, dicitur: Deus solus habere 
+          im<lb break="no" ed="#P" n="31"/>mortalitatem. Unde veritas haec in propriis 
+          ter<lb break="no" ed="#P" n="32"/>minis definita est in Concilio Lateranensi cap.
+          <lb ed="#P" n="33"/>Firmiter , et in Patribus est hoc vulgare et
+          <lb ed="#P" n="34"/>commne et ideo non oportet eos adducere.
+        </p>
+        <p xml:id="szduep-013637-d1e176">
+          <lb ed="#P" n="35"/>2. Haec veritas demonstratur. — Ratione
+          <lb ed="#P" n="36"/>item potest haec veritas demonstrari vel 
+          proxi<lb break="no" ed="#P" n="37"/>me a priori ex aliis attributis jam 
+          demonstra<lb break="no" ed="#P" n="38"/>tis, et sic est facilis demonstratio; nam 
+          immu<lb break="no" ed="#P" n="39"/>tabilitas potest esse vel in esse substantiali et
+          <lb ed="#P" n="40"/>sic Deus est immutabilis, quia est suum esse
+          <lb ed="#P" n="41"/>per essentiam et a nullo alio pendet vel in 
+          lo<lb break="no" ed="#P" n="42"/>co et sic mutari non potest, quia est 
+          immen<lb break="no" ed="#P" n="43"/>sus vel in qualitate aut accidente aliquo et
+          <lb ed="#P" n="44"/>sic etiam mutari non potest, quia accidentia
+          <lb ed="#P" n="45"/>non habet. Unde in universum probari hoc
+          <lb ed="#P" n="46"/>potest ex simplicitate, quia accidentalis 
+          muta<lb break="no" ed="#P" n="47"/>lio esse non potest sine aliqua compositione.
+          <lb ed="#P" n="48"/>Item generalius ostenditur ex summa Dei 
+          per<lb break="no" ed="#P" n="49"/>fectione, quia quod mutatur, ideo mutatur ut
+          <lb ed="#P" n="50"/>acquirat perfectionem aliquam, si mutatio 
+          per<lb break="no" ed="#P" n="51"/>lectiva sit et ita haec ratio probat tam de 
+          intel<lb break="no" ed="#P" n="52"/>lectu quam de voluntate. Vel si sit mutatio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>amissiva perfectionis, ideo contingit, quia talis
+          <lb ed="#P" n="54"/>non est cum summa perfectione sed cum 
+          com<lb break="no" ed="#P" n="55"/>positione et adhaesione, eaque non satis firma.
+          <lb ed="#P" n="56"/>tractavi dicta disp. 30 Metaphysicae, sect. S.
+        </p>
+        <p xml:id="szduep-013637-d1e229">
+          <lb ed="#P" n="57"/>3. Tres difficultates insurgunt.— 
+          Occurre<lb break="no" ed="#P" n="58"/>bant circa veritatem hanc tres praecipuae 
+          dif<lb break="no" ed="#P" n="59"/>ficultates. Prima et potissima est de 
+          Myste<lb break="no" ed="#P" n="60"/>rio Incarnationis, sed haec habet proprium
+          <lb ed="#P" n="61"/>in 3 parte locum, ubi tractata est in tomo 1,
+          <lb ed="#P" n="62"/>disp. 8, sect. 3. Secunda est de nominibus, quae
+          <lb ed="#P" n="63"/>de Deo dicuntur ex tempore, ut esse 
+          Creato<lb break="no" ed="#P" n="64"/>rem, Dominum, etc., de quibus inquiri potest,
+          <lb ed="#P" n="65"/>an novum aliquid Deo importent sive 
+          absolu<lb break="no" ed="#P" n="66"/>tum, sive relativum, dummodo reale et 
+          intrin<lb break="no" ed="#P" n="67"/>secum sit ; nam quodcumque sit, ad 
+          mutatio<lb break="no" ed="#P" n="68"/>nem sufficiet. Quae difficultas adeo interdum
+          <lb ed="#P" n="69"/>torsit Augustinum, ut se ignorare solutionem
+          <lb ed="#P" n="70"/>fassus fuerit in 2, de Civit. cap. 15. Tandem
+          <lb ed="#P" n="71"/>vero 5, de Trinitate, c. 15 et 16, eam dissolvit
+          <lb ed="#P" n="72"/>dicens, has denominationes ex tempore dici de
+          <lb ed="#P" n="73"/>Deo, sine mutatione Dei, quia non sumuntur
+          <lb ed="#P" n="74"/>ab aliquo accidente vel re nova, quae in Deo
+          <lb ed="#P" n="75"/>sit, sed conjugendo seu connotando 
+          coexisten<lb break="no" ed="#P" n="76"/>tiam temporalem creaturae, quae incipit esse in
+          <lb ed="#P" n="77"/>creatura cum relatione ad Deum sine 
+          muta<lb break="no" ed="#P" n="78"/>tione ipsius Dei, sicut de existentia Dei in 
+          re<lb break="no" ed="#P" n="79"/>bus superiori capite dictum est. Hic vero 
+          oc<lb break="no" ed="#P" n="80"/>currebat quaestio de his relationibus, quas ex
+          <lb ed="#P" n="81"/>tempore attribuimus Deo, an in ipso reales sint
+          <lb ed="#P" n="82"/>vel rationis, quam tractat divus Thomas 1 p.,
+          <lb ed="#P" n="83"/>q. 13, art. 7 et resolvit esse rationis, estque
+          <lb ed="#P" n="84"/>necessaria resolutio, supponendo relationem
+          <lb ed="#P" n="85"/>realem resultantem in aliquo esse aliquid reale
+          <lb ed="#P" n="86"/>et intrinsecum illi,quia alias nonnulla mutatio
+          <lb ed="#P" n="87"/>et compositio esset in Deo. Sed illam 
+          quaestio<lb break="no" ed="#P" n="88"/>nem latius tractavi in disp. 47 Metaphysieae,
+          <lb ed="#P" n="89"/>sect. 15, n. I5 et seq., estque pure 
+          Metaphysi<lb break="no" ed="#P" n="90"/>ca, quam hic repetere necesse non est, necilli
+          <lb ed="#P" n="91"/>aliquid addendum occurrit.
+        </p>
+        <p xml:id="szduep-013637-d1e307">
+          <lb ed="#P" n="92"/>4. Tertia difficultas.— Resolutio. — Tertia
+          <lb ed="#P" n="93"/>difficultas est de actibus liberis Dei et 
+          conse<lb break="no" ed="#P" n="94"/>quenter de scientia visionis, quae ad illos 
+          se<lb break="no" ed="#P" n="95"/>cundum rationem conscequitur. Sunt autem in
+          <lb ed="#P" n="96"/>hac diflicultate duo puncta ; unum ac 
+          praeci<lb break="no" ed="#P" n="97"/>puum est, quomodo voluntas Dei, cum libera
+          <lb ed="#P" n="98"/>sit, possit se ad hoc vcl illud determinare sine
+          <lb ed="#P" n="99"/>additione aliqua reali, quae sine aliquo 
+          muta<lb break="no" ed="#P" n="100"/>tionis genere fieri non potest. Haec vero 
+          difli<lb break="no" ed="#P" n="101"/>cultas et magis pertinet ad materiam de 
+          volun<lb break="no" ed="#P" n="102"/>tate Dei et a nobis disp. 30, Metaphysicae, sect.
+          <lb ed="#P" n="103"/>9. Veraque ; resolutio est, illam 
+          determinatio<lb break="no" ed="#P" n="104"/>- Alio modo potest haec veritas probari 
+          imme<lb break="no" ed="#P" n="105"/>diate a posteriori ex effectibus, et hoc modo
+          <lb ed="#P" n="106"/>non existimo posse fieri immediatam 
+          illatio<lb break="no" ed="#P" n="107"/>nem satis firmam ex aliquo effectu, ut latius
+          <pb ed="#P" n="55"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem fieri sine addititione reali, quae in 
+          volun<lb break="no" ed="#P" n="2"/>tate Dei fiat. Quod est unum ex praecipuis 
+          mys<lb break="no" ed="#P" n="3"/>teriis divinae incomprehensibilitatis ; sed juxta
+          <lb ed="#P" n="4"/>principia fidei credimus ita esse necessario 
+          di<lb break="no" ed="#P" n="5"/>cendum, ut dicto loco ostensum et pro viribus
+          <lb ed="#P" n="6"/>explicatum est, nec nunc valeo illi puncto 
+          ma<lb break="no" ed="#P" n="7"/>jorem afferre Iucem. Hinc vero oritur 
+          secun<lb break="no" ed="#P" n="8"/>dum punctum, quod ab argumento in 
+          contra<lb break="no" ed="#P" n="9"/>rium sumitur. Nam si Deus vult libere sine
+          <lb ed="#P" n="10"/>additione reali et potuisset ab aeterno non 
+          vel<lb break="no" ed="#P" n="11"/>le sine reali Dei mutatione vel carentia 
+          ali<lb break="no" ed="#P" n="12"/>cujus modi realis, quomodo ex immutabilitate
+          <lb ed="#P" n="13"/>reali Dei colligi potest immutabilitas 
+          volunta<lb break="no" ed="#P" n="14"/>üs in proposito libero. Sed hoc etiam punctum
+          <lb ed="#P" n="15"/>ibidem explicui et expedivi numero quinto et
+          <lb ed="#P" n="16"/>secto. Et ad immutabilitatem parum refert,
+          <lb ed="#P" n="17"/>quod extendatur non solum ad excludendam
+          <lb ed="#P" n="18"/>omnem mutationem physicam et realem, sed
+          <lb ed="#P" n="19"/>etiam ad excludendam omnem animi 
+          incons<lb break="no" ed="#P" n="20"/>tantiam vel prudentiae imperfectionem qualis
+          <lb ed="#P" n="21"/>esset in variatione propositi, etiam si absque
+          <lb ed="#P" n="22"/>physica mutatione esse posset. Unde quod
+          <lb ed="#P" n="23"/>Deus non possit vel propositum liberum 
+          mu<lb break="no" ed="#P" n="24"/>tare vel in tempore aliquid de novo velle, 
+          cer<lb break="no" ed="#P" n="25"/>tissimum est; nam omnia operatur secundum
+          <lb ed="#P" n="26"/>consilium voluntatis swe , quae voluntas ad
+          <lb ed="#P" n="27"/>aeterno disposuit quod in tempore operatur ,
+          <lb ed="#P" n="28"/>ut ibidem dicitur et semel habitata permanet,
+          <lb ed="#P" n="29"/>ut dicitur Prov., cap. 19, utique in 
+          perpe<lb break="no" ed="#P" n="30"/>tuum. Quod autem id proveniat ex 
+          immutabi<lb break="no" ed="#P" n="31"/>Iitate physica vel ex perfectissima scientia et
+          <lb ed="#P" n="32"/>animi constantia, non refert, ut ibi latius 
+          dic<lb break="no" ed="#P" n="33"/>tum est et aliquid in capite sequenti addemus.
+        </p>
+        <p xml:id="szduep-013637-d1e420">
+          <lb ed="#P" n="34"/>5. Hoc attributum est incommunicabile 
+          al<lb break="no" ed="#P" n="35"/>teri. — Atque ex hac veritate constat hoc 
+          at<lb break="no" ed="#P" n="36"/>tributum, prout Deo convenit esse ita proprium
+          <lb ed="#P" n="37"/>illius, ut sit incommunicabile creaturae, juxta
+          <lb ed="#P" n="38"/>illud 1, Thimoth. 6: Qua solus habet 
+          immorta<lb break="no" ed="#P" n="39"/>litatem, id est, immutabihtatem, ut exposuit
+          <lb ed="#P" n="40"/>Augustinus, de Trinitate, cap. 1, quia ut ait:
+          <lb ed="#P" n="41"/>Immortalitatem aliquo modo habet creatura, 
+          nul<lb break="no" ed="#P" n="42"/>lam autem habere immutabilitatem ; solius est
+          <lb ed="#P" n="43"/>creatoris. Idem optime Bernardus serm. 81, in
+          <lb ed="#P" n="44"/>Cant. : Quia omnis (ait) mutatio quedam 
+          mor<lb break="no" ed="#P" n="45"/>tis imitatio est. Ratio autem est, quia omnis
+          <lb ed="#P" n="46"/>alia res eo ipso quod facta est, pendet a 
+          fac<lb break="no" ed="#P" n="47"/>tore suo, qui sicut libere illam fecit, ita potest
+          <lb ed="#P" n="48"/>illam in nihilum redigere. Atque hac ratione
+          <lb ed="#P" n="49"/>omnis creatura est mutabilis in suo esse, late
+          <lb ed="#P" n="50"/>et metaphysice loquendo de mutatione, quae
+          <lb ed="#P" n="51"/>solum respicit terminum, qui aliter se habere
+          <lb ed="#P" n="52"/>potest quam antea in esse suo, sive transitus
+          <lb ed="#P" n="53"/>ille de esse ad non esse sit propria mutatio
+          <lb ed="#P" n="54"/>physica in subjecto recepta, sive non. Et hoc
+          <lb ed="#P" n="55"/>modo habere vel potius esse ipsum esse pror-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sus immutabile, est proprium Dei. Et haec est
+          <lb ed="#P" n="57"/>quasi prima diversitas omnis creaturae ab ipso
+          <lb ed="#P" n="58"/>Deo, ut recte notavit Lactantius libro secundo
+          <lb ed="#P" n="59"/>de origine erroris, cap. 8; Isidorus, lib. 1, de
+          <lb ed="#P" n="60"/>summo bono cap. 1. Quae veritas in hoc sensu
+          <lb ed="#P" n="61"/>coincidit cum illa , quam superiori libro in
+          <lb ed="#P" n="62"/>principio demonstravimus, solum Deum esse
+          <lb ed="#P" n="63"/>ens necessarium. Quomodo autem angeli et
+          <lb ed="#P" n="64"/>substantiae incorruptibiles dici soleant entia
+          <lb ed="#P" n="65"/>necessaria, declaravi disputatione 28 
+          Meta<lb break="no" ed="#P" n="66"/>physicae , sectione prima, num. 12; illa enim
+          <lb ed="#P" n="67"/>necessitas non est simphiciter neque omnibus
+          <lb ed="#P" n="68"/>modis, sed solum quatenus intresecam 
+          poten<lb break="no" ed="#P" n="69"/>tiam non habent ut per contrarium actionem
+          <lb ed="#P" n="70"/>corrumpantur sed solum per suspensionem
+          <lb ed="#P" n="71"/>divini influxus desinere possunt. Et hoc satis
+          <lb ed="#P" n="72"/>est, ut in ipsomet esse suo omnino 
+          immutabi<lb break="no" ed="#P" n="73"/>les non sint. Ex hoc autem ulterius sequitur,
+          <lb ed="#P" n="74"/>ut omnis cruatura finita sit et consequenter
+          <lb ed="#P" n="75"/>ut nec sit immensa nec omnino simplex; et ex
+          <lb ed="#P" n="76"/>priori limitatione habet ut mutari possit 
+          se<lb break="no" ed="#P" n="77"/>cundum locum, ut de corporalibus rebus 
+          cons<lb break="no" ed="#P" n="78"/>tat et de spiritualibus latius tractatur in 
+          ma<lb break="no" ed="#P" n="79"/>teria de angelis: ex posteriori vero 
+          imperfec<lb break="no" ed="#P" n="80"/>tione provenit, ut aliis etiam modis alterari
+          <lb ed="#P" n="81"/>vel mutari possit saltem secundum aliquam
+          <lb ed="#P" n="82"/>successionem qualitatum vel internarum 
+          ac<lb break="no" ed="#P" n="83"/>tionum, vel etiam in coelis et in angelis 
+          cer<lb break="no" ed="#P" n="84"/>nitur, eademque ratio est de omni creatura
+          <lb ed="#P" n="85"/>possibili. Imo interdum docent Patres omnes
+          <lb ed="#P" n="86"/>creatos spiritus, eo ipso quod ex nihilo sunt,
+          <lb ed="#P" n="87"/>mutabiles esse etiam quoad lapsum et culpam,
+          <lb ed="#P" n="88"/>si pura eorum natura spectetur, ut patet ex
+          <lb ed="#P" n="89"/>Damasceno lib. 2, cap. 3, et optime 
+          Ambro<lb break="no" ed="#P" n="90"/>sius libro tertio de fide, capite secundo, et 
+          Au<lb break="no" ed="#P" n="91"/>gustinus libro de Natur. boni, cap. 1 et 10,
+          <lb ed="#P" n="92"/>sed de hoc plenius in propria materia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="321"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-081535"><!-- t2-l2prae -->
+        <head xml:id="szduep-081535-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-081535-d1e103">
+          <pb ed="#P" n="321"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SECUNDUS.
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>CAUSIS PRAEDESTINATIONIS.
+        </p>
+        <p xml:id="szduep-081535-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Explicata praedestinationis natura et quasi
+          <lb ed="#P" n="5"/>essentia, consequens est, ut de causis, 
+          effecti<lb break="no" ed="#P" n="6"/>bus et proprietatibus ejus dicamus: ordo 
+          au<lb break="no" ed="#P" n="7"/>tem doctrinae postulat, ut a causis incipiamus.
+          <lb ed="#P" n="8"/>De qua re fusissime disputant omnes hujus 
+          ma<lb break="no" ed="#P" n="9"/>teriae tractatores ; quoniam in boc puncto de
+          <lb ed="#P" n="10"/>causae praedestinationis praecipuus cardo hujus
+          <lb ed="#P" n="11"/>disputationis versatus hactenus est, tam inter
+          <lb ed="#P" n="12"/>Catholicos et haereticos, quam inter Catholicos
+          <lb ed="#P" n="13"/>inter se: et de illo praecipue agit Augustinus,
+          <lb ed="#P" n="14"/>in libris, quos de hac materia plures 
+          conscrip<lb break="no" ed="#P" n="15"/>sit ; apud quem tam est conjuncta disputatio
+          <lb ed="#P" n="16"/>de causa praedestinationis, cum disputatione
+          <lb ed="#P" n="17"/>de gratia, ut vix valeant separari ; curabimus
+          <lb ed="#P" n="18"/>tamen, quoad fieri possit, eas distinguere: et
+          <lb ed="#P" n="19"/>quae ad materiam de gratia pertinuerint, in
+          <lb ed="#P" n="20"/>eam remittere, aliquid autem interdum 
+          attin<lb break="no" ed="#P" n="21"/>gere necessarium erit. Prius ergo, divisione
+          <lb ed="#P" n="22"/>quadam praemissa, statum controversiae, 
+          va<lb break="no" ed="#P" n="23"/>riaque ejus membra aperiemus, ac deinceps
+          <lb ed="#P" n="24"/>per singula discurremus, tum cum haereticis,
+          <lb ed="#P" n="25"/>tum deinceps cum Catholicis disputando.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

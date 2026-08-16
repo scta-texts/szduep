@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="500"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-126882"><!-- t2-l5c1 -->
+        <head xml:id="szduep-126882-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-126882-Hd1e103" type="question-title">Reprobationem esse in deo, et quid sit</head>
+        <p xml:id="szduep-126882-d1e106">
+          <lb ed="#P" n="16"/>CAPUT I.
+          <lb ed="#P" n="17"/>REPROBATIONEM ESSE IN DEO, ET QUID SIT.
+        </p>
+        <p xml:id="szduep-126882-d1e113">
+          <lb ed="#P" n="18"/>1. Reproborum nomine significant theologi
+          <lb ed="#P" n="19"/>omnes homines, vel angelos, qui aeternam 
+          bea<lb break="no" ed="#P" n="20"/>titudinem non assequuntur. Quae vox in hac
+          <lb ed="#P" n="21"/>significatione fortasse non invenitur expresse
+          <lb ed="#P" n="22"/>in Scriptura: nam ubicumque de reprobis fit
+          <lb ed="#P" n="23"/>mentio, potest absolute pro improbis illa vox
+          <lb ed="#P" n="24"/>accipi, ut Eccl. 9: Speciem mulieris multi 
+          ad<lb break="no" ed="#P" n="25"/>murati, reprobi fiunt, id est, improbi, sic 1
+          <lb ed="#P" n="26"/>ad Cor. 9: Castigo corpus meum, etc., ne ipse
+          <lb ed="#P" n="27"/>reprobus efficiar . quamvis hic locus optime
+          <lb ed="#P" n="28"/>posset in Scholastica proprietate intelligi, ut
+          <lb ed="#P" n="29"/>Anselmus exponit. Quidquid autem sit de voce,
+          <lb ed="#P" n="30"/>res ipsa de fide certa est dari, videlicet, multos
+          <lb ed="#P" n="31"/>homines reprobos quibus dicitur Matth. 25:
+          <lb ed="#P" n="32"/>Ite maledicti in ignem eetermim. Qui etiam ad
+          <lb ed="#P" n="33"/>Hom. 9, vocantur Vasa ire, et 2, ad Tim. 2:
+          <lb ed="#P" n="34"/>Vasa in contumelium. Cur autem hos homines
+          <lb ed="#P" n="35"/>damnari Deus permiserit, postea videbimus.
+        </p>
+        <p xml:id="szduep-126882-d1e155">
+          <lb ed="#P" n="36"/>2. An sit reprobatio. —Hinc etiam spectando
+          <lb ed="#P" n="37"/>ad rem ipsam, eodem modo certum est, 
+          repro<lb break="no" ed="#P" n="38"/>bationem dari: quia reprobus per 
+          reprobatio<lb break="no" ed="#P" n="39"/>nem constituitur seu denominatur talis. Est
+          <lb ed="#P" n="40"/>autem reprobare, aliquid rejicere, praesertim
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="41"/>comparatione alterius. Unde duo possunt in
+          <lb ed="#P" n="42"/>reprobatione intelligi. Unum est exterior 
+          se<lb break="no" ed="#P" n="43"/>paratio et abjectio reprobi, quomodo de Christo
+          <lb ed="#P" n="44"/>dicitur Ps. 117: Lapidem quem vreprobaverunt
+          <lb ed="#P" n="45"/>aedificantes, et Marci 8, et Lucae 17: Oportet
+          <lb ed="#P" n="46"/>illum multa pat et reprobari a gentibus. Atque
+          <lb ed="#P" n="47"/>hoc modo reprobatio exterior eorum qui 
+          dam<lb break="no" ed="#P" n="48"/>nantur, fiet in ultimo judicio, vel particulari,
+          <lb ed="#P" n="49"/>vel generah. Unde constat de fide, 
+          reprobatio<lb break="no" ed="#P" n="50"/>nem quoad hanc partem esse. Hoc autem 
+          ex<lb break="no" ed="#P" n="51"/>terior reprobatio supponit interiorem, quae
+          <lb ed="#P" n="52"/>judicio et voluntate fit, juxta illud Isaiae 7: Ut
+          <lb ed="#P" n="53"/>sciat reprobare malum et eligere bonum. Nam
+          <lb ed="#P" n="54"/>haec reprobatio est opus intellectualis agentis,
+          <lb ed="#P" n="55"/>et ideo ab intellectu et voluntate oriri debet.
+          <lb ed="#P" n="56"/>Et sic etiam constat, reprobationem in mente
+          <lb ed="#P" n="57"/>divina reperiri, quia Deus ipse est, qui exterius
+          <lb ed="#P" n="58"/>reprobat: reprobat autem ex interno judicio et
+          <lb ed="#P" n="59"/>voluntate, ideoque reprobatio nomine odii, et
+          <lb ed="#P" n="60"/>praescientiae, aut alio simili in Scriptura 
+          signi<lb break="no" ed="#P" n="61"/>ficatur, ut videbimus. De hac ergo reprobatione
+          <lb ed="#P" n="62"/>interiori agimus, nam alia pertinet ad 
+          execu<lb break="no" ed="#P" n="63"/>tionem divinae providentiae.
+        </p>
+        <p xml:id="szduep-126882-d1e221">
+          <lb ed="#P" n="64"/>3. Hinc sequitur primo, reprobationem hanc
+          <lb ed="#P" n="65"/>eeternam esse, sicut de praedestinatione 
+          dixi<lb break="no" ed="#P" n="66"/>mus. Probatur, quia quidquid Deus in tempore
+          <lb ed="#P" n="67"/>exequitur, ab aeterno decrevit et mente 
+          conce<lb break="no" ed="#P" n="68"/>pit: neque enim potest aliquid de novo velle
+          <lb ed="#P" n="69"/>aut intelligere: sed Deus in tempore exequitur
+          <lb ed="#P" n="70"/>hanc reprobationem: ergo ratio ejus ex 
+          aeter<lb break="no" ed="#P" n="71"/>nitate praecessit in mente Dei. Unde etiam
+          <lb ed="#P" n="72"/>concluditur, hanc reprobationem formaliter in
+          <lb ed="#P" n="73"/>solo DEO esse: in creatura vero, id est, in 
+          ho<lb break="no" ed="#P" n="74"/>minibus reprobatis, ponere solum 
+          denominatio<lb break="no" ed="#P" n="75"/>nem extrinsecam. Formaliter (inquam) quia 
+          <lb ed="#P" n="76"/>effective aliquos effectus intrinsecos in creatura 
+          <lb ed="#P" n="77"/>ponit, ut postea videbimus. Ratio vero est, quia
+          <lb ed="#P" n="78"/>nihil est aeternum, nisi in DEO: reprobatio
+          <lb ed="#P" n="79"/>autem est aeterna, ergo tantum in Deo est 
+          in<lb break="no" ed="#P" n="80"/>trinsece.
+        </p>
+        <p xml:id="szduep-126882-d1e260">
+          <lb ed="#P" n="81"/>4. In Deo non est proprie reprobatio. — Ad-
+          <pb ed="#P" n="501"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dunt vero nonnulli theologi, etiam in DEO non
+          <lb ed="#P" n="2"/>esse proprie reprobationem, sed tantum per
+          <lb ed="#P" n="3"/>metaphoram, ad eum modum quo voluntas
+          <lb ed="#P" n="4"/>signi metaphorice appellatur voluntas, ut 
+          vi<lb break="no" ed="#P" n="5"/>dere licet in Aureolo in 1, distinctione 41, 
+          ar<lb break="no" ed="#P" n="6"/>ticulo tertio, propositione quarta. Ratio esse
+          <lb ed="#P" n="7"/>potest, quia actus odii vel similes, quos 
+          signi<lb break="no" ed="#P" n="8"/>ficare potest reprobatio, non sunt in DEO 
+          pro<lb break="no" ed="#P" n="9"/>prie, sed per metaphoram. Verumtamen 
+          quid<lb break="no" ed="#P" n="10"/>quid sit de particularibus actibus, de quibus
+          <lb ed="#P" n="11"/>postea videbimus, tamen absolute et 
+          simplici<lb break="no" ed="#P" n="12"/>ter loquendo, omnino certum est, 
+          reprobatio<lb break="no" ed="#P" n="13"/>nem proprie et non tantum per metaphoram
+          <lb ed="#P" n="14"/>in DEO esse. Primo quidem, quia probabile est,
+          <lb ed="#P" n="15"/>reprobationem magis pertinere ad 
+          praescien<lb break="no" ed="#P" n="16"/>tiam, quam ad voluntatem. Deinde, quia supra
+          <lb ed="#P" n="17"/>ostensum est, voluntatem metaphoricam 
+          sem<lb break="no" ed="#P" n="18"/>per supponere in Deo aliquam propriam. 
+          Deni<lb break="no" ed="#P" n="19"/>que quia effectus reprobationis propriissime
+          <lb ed="#P" n="20"/>ssunt a Deo et a providentia ejus: ergo non
+          <lb ed="#P" n="21"/>possunt non supponere aliquam propriam 
+          cog<lb break="no" ed="#P" n="22"/>nitionem et voluntatem, a qua procedant, quia
+          <lb ed="#P" n="23"/>hoc est de necessitate omnium effectuum Dei,
+          <lb ed="#P" n="24"/>pertinetque ad perfectionem et nullam involvit
+          <lb ed="#P" n="25"/>perfectionem.
+        </p>
+        <p xml:id="szduep-126882-d1e323">
+          <lb ed="#P" n="26"/>5. Reprobatio in aliquo immanenti Dei actu
+          <lb ed="#P" n="27"/>consistit. — Tertio sequitur ex dictis, 
+          reproba<lb break="no" ed="#P" n="28"/>tionem positam esse in aliquo actu immanente
+          <lb ed="#P" n="29"/>Dei, aliquo modo libero, sive sit intellectus,
+          <lb ed="#P" n="30"/>sive voluntatis, sive utriusque. Probatur, quia
+          <lb ed="#P" n="31"/>reprobatio absolute loquendo posset non esse
+          <lb ed="#P" n="32"/>in Deo: nam si voluisset, potuisset ita omnia
+          <lb ed="#P" n="33"/>disponere, ut nullus homo vel angelus 
+          dam<lb break="no" ed="#P" n="34"/>naretur: ergo reprobatio non ex necessitate
+          <lb ed="#P" n="35"/>simpliciter Deo convenit: ergo libere. Nihil
+          <lb ed="#P" n="36"/>aautem est in Deo liberum et aeternum, nisi 
+          ac<lb break="no" ed="#P" n="37"/>tus immanens Dei, cum certo respectu ad 
+          crea<lb break="no" ed="#P" n="38"/>turam, ergo talis est reprobatio. Rursus actus
+          <lb ed="#P" n="39"/>immanens in Deo non est nisi intellectus vel
+          <lb ed="#P" n="40"/>voluntatis, ut per se constat: ergo. Potest 
+          au<lb break="no" ed="#P" n="41"/>tem utrique actui nomen reprobationis 
+          accom<lb break="no" ed="#P" n="42"/>modari. Nam reprobatio approbationi 
+          opponi<lb break="no" ed="#P" n="43"/>tur: approbamus autem aliquid primo per
+          <lb ed="#P" n="44"/>: judicium rationis, quo de bonitate, veritate
+          <lb ed="#P" n="45"/>vel dignitate ejus recte judicamus: et e 
+          con<lb break="no" ed="#P" n="46"/>verso, reprobamus id, de quo aliter judicamus.
+          <lb ed="#P" n="47"/>Sicque communi usu dicimur reprobare illam
+          <lb ed="#P" n="48"/>opinionem, quam falsam esse judicamus. 
+          Quo<lb break="no" ed="#P" n="49"/>modo potest etiam intelligi illud Psalm. 32:
+          <lb ed="#P" n="50"/>MHieprobat cogitationes populorum. Per 
+          volunta<lb break="no" ed="#P" n="51"/>tem etiam dicimur approbare aliquid, quando
+          <lb ed="#P" n="52"/>illud tanquam conveniens eligimus. Et e 
+          con<lb break="no" ed="#P" n="53"/>verso nolitio huic electioni opposita dici solet
+          <lb ed="#P" n="54"/>reprobatio. Atque hoc modo reprobatio mali
+          <lb ed="#P" n="55"/>opponitur electioni boni, in illis verbis Isaiae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7: Ut sciat reprobare malum et eligere bommn.
+          <lb ed="#P" n="57"/>Ergo in divina providentia nomen hoc 
+          repro<lb break="no" ed="#P" n="58"/>bationis utrique actui accommodari potest.
+          <lb ed="#P" n="59"/>Nam in Deo et est judicium aeternum de malo
+          <lb ed="#P" n="60"/>merito et indignitate pravorum hominum, et
+          <lb ed="#P" n="61"/>est voluntasreddendi condignam poenam: 
+          uter<lb break="no" ed="#P" n="62"/>que ergo actus potest reprobatio appellari:
+          <lb ed="#P" n="63"/>certumque est in negotio reprobationis 
+          utrum<lb break="no" ed="#P" n="64"/>que requiri, ut ex dicendis amplius constabit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

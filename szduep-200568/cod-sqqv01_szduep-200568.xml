@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="794"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-200568"><!-- t3-l12prae -->
+        <head xml:id="szduep-200568-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-200568-d1e103">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="10"/>LIBER DUODECIMUS.
+          <lb ed="#P" n="11"/>DE MISSIONE DIVINARUM
+          <lb ed="#P" n="12"/>PERSONARUM.
+        </p>
+        <p xml:id="szduep-200568-d1e114">
+          <lb ed="#P" n="13"/>Opera Trinitatis ad extra esse indivisa.—
+          Ex<lb break="no" ed="#P" n="14"/>plicumus hactenus praedicata omnia propria,
+          <lb ed="#P" n="15"/>seu notionalia, quae divinis personis secundum
+          <lb ed="#P" n="16"/>se et ad intra, atque adeo ex aeternitate 
+          con<lb break="no" ed="#P" n="17"/>veniunt : solum superest explicandum 
+          praedi<lb break="no" ed="#P" n="18"/>catum notionale, si quod est, quod de illis 
+          di<lb break="no" ed="#P" n="19"/>catur ex tempore, et cum relatione ad 
+          creatu<lb break="no" ed="#P" n="20"/>ras, fundata in aliqua mutatione ad extra facta
+          <lb ed="#P" n="21"/>in ipsis creaturis. Nihil enim potest de Deo,
+          <lb ed="#P" n="22"/>vel divina persona ex tempore dici, nisi per
+          <lb ed="#P" n="23"/>denominationem aliquam extrinsecam a 
+          mu<lb break="no" ed="#P" n="24"/>tatione vel inceptione creaturae, ut nunc 
+          sup<lb break="no" ed="#P" n="25"/>pono. Sunt autem multa praedicata, quae hoc
+          <lb ed="#P" n="26"/>modo dicuntur de divinis personis ex tempore,
+          <lb ed="#P" n="27"/>ut creare, dominari, esse creatorem , Dominum,
+          <lb ed="#P" n="28"/>et similia ; tamen haec non sunt notionalia, nec
+          <lb ed="#P" n="29"/>pertinent ad praesentem tractatum, quia non
+          <lb ed="#P" n="30"/>conveniunt personis ratione proprietatum, sed
+          <lb ed="#P" n="31"/>ratione unius naturae, et ita omnibus 
+          insepa<lb break="no" ed="#P" n="32"/>rabiliter conveniunt, ut de creatione attingit
+          <lb ed="#P" n="33"/>divus Thomas, 1 part. , quaest. 45, art. 6. 
+          Est<lb break="no" ed="#P" n="34"/>que eadem ratio de caeteris, ut explicare tra-
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="35"/>dunt Concilium Lateranense, in capite 
+          Firmi<lb break="no" ed="#P" n="36"/>ter, et capite Damnamus, de summa Trinitate
+          <lb ed="#P" n="37"/>et Fide Catholica, et sexta Synodus, actione 4,
+          <lb ed="#P" n="38"/>in epistola Agathonis papae, et in synodica 
+          sug<lb break="no" ed="#P" n="39"/>gestione centum viginti quinque Episcoporum
+          <lb ed="#P" n="40"/>ibidem relata et confirmata in actione 17. Item
+          <lb ed="#P" n="41"/>Concilium Toletanum 6 et 11, in principio. Ex
+          <lb ed="#P" n="42"/>quibus sumptum est illud Catholicum dogma,
+          <lb ed="#P" n="43"/>Opera Trinitatis ad extra sunt indivisa. Quod
+          <lb ed="#P" n="44"/>lateexplicat Dionysius, capite secundo, de 
+          Divi<lb break="no" ed="#P" n="45"/>nis nominibus, ostendens, haec nomina, quae ab
+          <lb ed="#P" n="46"/>operibus sumuntur, communia esse et quasi
+          <lb ed="#P" n="47"/>essentialia ratione fundamenti, quod in 
+          perso<lb break="no" ed="#P" n="48"/>nis habent, quia semper est unum et idem in
+          <lb ed="#P" n="49"/>illis, scilicet, unus intellectus, una voluntas 
+          li<lb break="no" ed="#P" n="50"/>bera, una potentia. Ut late etiam tractat 
+          Au<lb break="no" ed="#P" n="51"/>gustinus, libro sexto, de Trinitate a principio,
+          <lb ed="#P" n="52"/>et supra libro quarto satis multa de hac 
+          veri<lb break="no" ed="#P" n="53"/>tate ac vera unitate diximus.
+        </p>
+        <p xml:id="szduep-200568-d1e208">
+          <lb ed="#P" n="54"/>Omissis ergo his praedicatis communibus el
+          <lb ed="#P" n="55"/>quasi essentialibus, sola missio a theologis 
+          poni<lb break="no" ed="#P" n="56"/>tur inter praedicata notionalia, licet ex tempore
+          <pb ed="#P" n="795"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de divinis personis dicatur, et hac ratione de illa
+          <lb ed="#P" n="2"/>disputarunt, in fine hujus materiae, D. Thomas,
+          <lb ed="#P" n="3"/>1 part., quaest. 43, Alensis, 1 part., a q. 71
+          <lb ed="#P" n="4"/>usque 74, reliqui scholastici cum Magistro, in1,
+          <lb ed="#P" n="5"/>dist. 14 et 15, Marsilius, quaest. 17 et 18. Duo
+          <lb ed="#P" n="6"/>vero sunt hujus disputationis praecipua capita,
+          <lb ed="#P" n="7"/>scilicet, quid sit missio et quotuplex: unde
+          <lb ed="#P" n="8"/>constabit, quomodo divinis personis tam active
+          <lb ed="#P" n="9"/>quam passive conveniat, quomodo etiam alicui
+          <lb ed="#P" n="10"/>personae proprie conveniat respectu alterius.
+          <lb ed="#P" n="11"/>Tandemque de variis missionibus personarum,
+          <lb ed="#P" n="12"/>quas factas esse legimus, et praesertim de 
+          ali<lb break="no" ed="#P" n="13"/>quibus, quae principaliores sunt, aliquid 
+          dice<lb break="no" ed="#P" n="14"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

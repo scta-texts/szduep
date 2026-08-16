@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="674"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-170529"><!-- t3-l6c1 -->
+        <head xml:id="szduep-170529-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-170529-Hd1e103" type="question-title">Origines et notionales actus quomodo idem sint inter se, cum essentia et relationibus</head>
+        <p xml:id="szduep-170529-d1e106">
+          <lb ed="#P" n="21"/>CAPUT I.
+          <lb ed="#P" n="22"/>ORIGINES ET NOTIONALES ACTUS QUOMODO IDEM SINT
+          <lb ed="#P" n="23"/>INTER SE, CUM ESSENTIA ET RELATIONIBUS.
+        </p>
+        <p xml:id="szduep-170529-d1e115">
+          <lb ed="#P" n="24"/>1. Origines idem cum essentia. — 
+          Supponi<lb break="no" ed="#P" n="25"/>mus, haec omnia non distingui in re ab essentia
+          <lb ed="#P" n="26"/>divina. Quia supra late ostensum est, nihil posse
+          <lb ed="#P" n="27"/>esse realiter intra Deum, quod ab essentia Dei
+          <lb ed="#P" n="28"/>actualiter distinguatur in re ipsa. Unde fit, ut
+          <lb ed="#P" n="29"/>ratione essentiae seu in illa, omnia haec habeant
+          <lb ed="#P" n="30"/>inter se unitatem seu identitatem, nam haec
+          <lb ed="#P" n="31"/>identitas, etiam inter relationes oppositas et
+          <lb ed="#P" n="32"/>distinctas, invenitur. Quod ergo inquirimus est,
+          <lb ed="#P" n="33"/>cum quo habeat origo immediatam identitatem,
+          <lb ed="#P" n="34"/>quam vocamus etiam adaequatam seu 
+          converti<lb break="no" ed="#P" n="35"/>bilem, qualem habent ea quae ita inter se sunt
+          <lb ed="#P" n="36"/>idem, ut cum quocumque unum est idem, sit
+          <lb ed="#P" n="37"/>etiam aliud, et a quocumque unum 
+          distingui<lb break="no" ed="#P" n="38"/>tur, distinguatur aliud qualem identitatem 
+          ha<lb break="no" ed="#P" n="39"/>bet relatio cum persona, non vero cum essentia,
+          <lb ed="#P" n="40"/>ut in superioribus declaratum est.
+        </p>
+        <p xml:id="szduep-170529-d1e154">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="41"/>2. Origines et notionales actus idem inter se.
+          <lb ed="#P" n="42"/>— Origines esse idem cum relationibus. — 
+          Auc<lb break="no" ed="#P" n="43"/>tores ergo nihil communiter distinguere 
+          viden<lb break="no" ed="#P" n="44"/>tur inter actus notionales et origines, sed 
+          pu<lb break="no" ed="#P" n="45"/>tant has voces esse synonymas. Nam origo actio
+          <lb ed="#P" n="46"/>quaedam est, vel saltem, ut talis concipitur et
+          <lb ed="#P" n="47"/>significatur, nihil enim est aliud quam 
+          genera<lb break="no" ed="#P" n="48"/>tio, nativitas, etc. Est ergo origo quidam actus,
+          <lb ed="#P" n="49"/>et non est communis omnibus personis, quia
+          <lb ed="#P" n="50"/>nor omnes generant nec nascuntur, etc., ergo
+          <lb ed="#P" n="51"/>sunt actus proprii, quibus personarum 
+          proprie<lb break="no" ed="#P" n="52"/>tates indicari possunt: sunt ergo actus 
+          notio<lb break="no" ed="#P" n="53"/>nales, quia notio nihil aliud est quam signum
+          <lb ed="#P" n="54"/>manifestum personae: et ideo quidquid est 
+          pro<lb break="no" ed="#P" n="55"/>prium personarum sub ea ratione notionale 
+          di<lb break="no" ed="#P" n="56"/>citur. Unde ulterius inferunt, hos actus in re
+          <lb ed="#P" n="57"/>idem adsequate esse cum relationibus, licet 
+          ra<lb break="no" ed="#P" n="58"/>tione distinguantur, quia relationes, ut formae
+          <lb ed="#P" n="59"/>permanentes vel assistentes, origines, ut viae et
+          <lb ed="#P" n="60"/>quasi in fieri significantur. Quae doctrina recte
+          <lb ed="#P" n="61"/>intellecta vera est, existimo tamen in illa voce,
+          <lb ed="#P" n="62"/>actus notionalis, posse latere aliquam 
+          aequivo<lb break="no" ed="#P" n="63"/>cationem, quam distinguere necesse est, quia
+          <lb ed="#P" n="64"/>in uno sensu est vera illa identitas, et non in
+          <lb ed="#P" n="65"/>alio. :
+        </p>
+        <p xml:id="szduep-170529-d1e214">
+          <lb ed="#P" n="66"/>3. Actus ergo (juxta ea, quae dixi libro 
+          pri<lb break="no" ed="#P" n="67"/>mo) quo producitur divina persona, dupliciter
+          <lb ed="#P" n="68"/>accipi potest, scilicet per modum principii quo,
+          <lb ed="#P" n="69"/>vel per modum actualis productionis, seu viae.
+          <lb ed="#P" n="70"/>Primo modo significatur nomine intellectionis,
+          <lb ed="#P" n="71"/>aut dilectionis : ostendi enim loco citato,; hos
+          <lb ed="#P" n="72"/>actus esse principium proximum quo personae
+          <lb ed="#P" n="73"/>producunt, et ex dicendis infra de potentia ad
+          <lb ed="#P" n="74"/>origines, id clarius constabit. Posteriori autem
+          <lb ed="#P" n="75"/>modo significantur actus nominibus 
+          generatio<lb break="no" ed="#P" n="76"/>nis, dictionis et spirationis. Tradiditque hanc
+          <lb ed="#P" n="77"/>distinctionem expresse Henricus, in Summ.,
+          <lb ed="#P" n="78"/>art. 54, q. IOet quodlibet 6, q. 1, et est 
+          consen<lb break="no" ed="#P" n="79"/>tanea D. Thomae, 1 part., quaestione 34, 
+          ar<lb break="no" ed="#P" n="80"/>ticulo 1, quatenus ratione, distinguit intelli-
+          <pb ed="#P" n="675"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gere, et dicere, et quaestione 27, articul. 3 et
+          <lb ed="#P" n="2"/>5, ubi non dicit, processiones divinas, seu 
+          o<lb break="no" ed="#P" n="3"/>rigines esse ipsum intelligere, aut velle, sed
+          <lb ed="#P" n="4"/>esse secundum operationes intelli gendi, et volendi.
+          <lb ed="#P" n="5"/>Scotus etiam in 1, distinct. 2, quaest. 4 et 7, et
+          <lb ed="#P" n="6"/>quodlibet, 1, articul. 2, distinxit actus ipsos
+          <lb ed="#P" n="7"/>immanentes ab originibus , quamvis non 
+          po<lb break="no" ed="#P" n="8"/>suerit illos, ut principium quo ipsarum 
+          origi<lb break="no" ed="#P" n="9"/>num, de quo satis citato loco disputatum est.
+          <lb ed="#P" n="10"/>Ubi etiam diximus , ipsummet actum 
+          intelli<lb break="no" ed="#P" n="11"/>gendi, notionalem appellari, quatenus Pater
+          <lb ed="#P" n="12"/>per illum producit, et non Filius, sicut 
+          poten<lb break="no" ed="#P" n="13"/>tia etiam generativa sub hac voce quid 
+          notio<lb break="no" ed="#P" n="14"/>nale est. Actus ergo notionalis hoc modo
+          <lb ed="#P" n="15"/>sumptus non dicit de formah relationem, nec
+          <lb ed="#P" n="16"/>potest cum illa adzequate identificari, quia 
+          ac<lb break="no" ed="#P" n="17"/>tus intelligendi semper est quid absolutum, et
+          <lb ed="#P" n="18"/>notionaliter sumptus non variat rationem 
+          for<lb break="no" ed="#P" n="19"/>malem intellectionis, sed connotat modum
+          <lb ed="#P" n="20"/>existendi in Patre sine origine, et conjunctum
+          <lb ed="#P" n="21"/>esse Paternitati, sicut supra dictum est, et
+          <lb ed="#P" n="22"/>idem infra dicemus de potentia generandi, de
+          <lb ed="#P" n="23"/>qua eadem est ratio. Igitur illa doctrina 
+          com<lb break="no" ed="#P" n="24"/>munis, quam retuli, intelligenda est de actu,
+          <lb ed="#P" n="25"/>prout significat actionem seu viam , qui actus
+          <lb ed="#P" n="26"/>non connotative tantum , ut sic dicam , sed
+          <lb ed="#P" n="27"/>formahter, et intrinsece notionalis est, et ideo
+          <lb ed="#P" n="28"/>cum relatione habet adaequatam identitatem,
+          <lb ed="#P" n="29"/>ut ex dicendis constabit.
+        </p>
+        <p xml:id="szduep-170529-d1e316">
+          <lb ed="#P" n="30"/>4. Origo passiva et relatio persone producte
+          <lb ed="#P" n="31"/>idem. — Superest autem respondendum, quae
+          <lb ed="#P" n="32"/>origo, cum qua relatione habeat praedictam
+          <lb ed="#P" n="33"/>identitatem. Ad quod declarandum 
+          supponen<lb break="no" ed="#P" n="34"/>dum ulterius est, sicut in productione 
+          crea<lb break="no" ed="#P" n="35"/>turae actionem et passionem distinguimus, ita
+          <lb ed="#P" n="36"/>in Deo distingui nostro modo concipiendi 
+          ori<lb break="no" ed="#P" n="37"/>ginem activam et passivam, quales sunt 
+          gene<lb break="no" ed="#P" n="38"/>ratio, quae per modum actionis significatur et
+          <lb ed="#P" n="39"/>nativitas, quae significatur per modum 
+          passio<lb break="no" ed="#P" n="40"/>nis. De origine ergo passiva, quae est proprius
+          <lb ed="#P" n="41"/>actus passivus (ut sic dicam) personae 
+          produc<lb break="no" ed="#P" n="42"/>tae, omnes docent, esse in re omnino idem,
+          <lb ed="#P" n="43"/>cum relationes ejudem personae productae,
+          <lb ed="#P" n="44"/>scilicet nativitatem cum Filiatione et 
+          pro<lb break="no" ed="#P" n="45"/>cessionem cum relatione Spiritus sancti. Quia
+          <lb ed="#P" n="46"/>origo passiva nihil aliud est, quam via ad 
+          ter<lb break="no" ed="#P" n="47"/>minum productum, quatenus ad illum tendit,
+          <lb ed="#P" n="48"/>haec autem via etiam inrebus citatis nihil aliud
+          <lb ed="#P" n="49"/>est, quam ipsemet terminus, ut est in fieri, ad
+          <lb ed="#P" n="50"/>eumdem ergo modum divina concipimus. Hac
+          <lb ed="#P" n="51"/>tamen observata differentia, quod licet via,
+          <lb ed="#P" n="52"/>seu passio et terminus in creaturis modaliter
+          <lb ed="#P" n="53"/>distinguantur, in Deo non habet locum illa
+          <lb ed="#P" n="54"/>distinctio, propter simplicitatem, et quia ibi
+          <lb ed="#P" n="55"/>non est proprium fieri, quantum ad imper-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fectionem, quam importat, sed ita concipitur,
+          <lb ed="#P" n="57"/>ac si esset. Confirmatur, quia passiva origo
+          <lb ed="#P" n="58"/>est realis processio: ergo distinguitur realiter
+          <lb ed="#P" n="59"/>a principio producente: ergo est idem 
+          adae<lb break="no" ed="#P" n="60"/>quate cum persona producta. Tandem, origo
+          <lb ed="#P" n="61"/>passiva est via ad terminum, ergo est illi 
+          pro<lb break="no" ed="#P" n="62"/>portionata, ergo sicut terminus est persona
+          <lb ed="#P" n="63"/>relativa, ita origo est via relativa, ut sic 
+          di<lb break="no" ed="#P" n="64"/>cam, ergo nihil aliud est, quam ipsamet relatio
+          <lb ed="#P" n="65"/>prout in produci.
+        </p>
+        <p xml:id="szduep-170529-d1e399">
+          <lb ed="#P" n="66"/>5. Origo activa et relatio producentis, idem.
+          <lb ed="#P" n="67"/>— Bursus de origine activa etiam est 
+          commu<lb break="no" ed="#P" n="68"/>nis sententia theologorum esse idem adaequate
+          <lb ed="#P" n="69"/>cum relatione personae producentis, 
+          genera<lb break="no" ed="#P" n="70"/>tionem scilicet cum Paternitate, productionem
+          <lb ed="#P" n="71"/>Spiritus sancti cum spiratione. Tenet Magister,
+          <lb ed="#P" n="72"/>in 1, dist. 26, ubi dicit: Generatio et nativitas
+          <lb ed="#P" n="73"/>aliis nominibus sunt Paternitas et Filiatio:
+          <lb ed="#P" n="74"/>quae verba refert et approbat D. Thomas, 1
+          <lb ed="#P" n="75"/>part., quaest. 41, art. 1, ad 2. Idem 
+          Bonaven<lb break="no" ed="#P" n="76"/>tura, dist. 26, quaest. 3. Durandus, quaest. 2,
+          <lb ed="#P" n="77"/>et distinct. 13, quaest. 2, et utroque loco /
+          Egi<lb break="no" ed="#P" n="78"/>dius, Gabriel, Capreolus, Scotus, dist. 28,
+          <lb ed="#P" n="79"/>quaestio 2, Argentina, distinct. 27, quaest. 1,
+          <lb ed="#P" n="80"/>Ferrariensis, 4, contra Gent., cap. 26, 
+          Cajeta<lb break="no" ed="#P" n="81"/>nus, Torres et caeteri moderni, dicta quaest.
+          <lb ed="#P" n="82"/>41, art. 1. Qui omnes consequenter aiunt, 
+          ge<lb break="no" ed="#P" n="83"/>nerationem activam et passivam inter se 
+          rea<lb break="no" ed="#P" n="84"/>liter distingui. Imo hinc confirmant suam 
+          sen<lb break="no" ed="#P" n="85"/>tentiam, quia juxta sententias Patrum, quas
+          <lb ed="#P" n="86"/>libro sequenti referemus, personae non solum
+          <lb ed="#P" n="87"/>relationibus, sed etiam originibus 
+          distinguun<lb break="no" ed="#P" n="88"/>tur, ergo oportet, origines oppositas, quales
+          <lb ed="#P" n="89"/>sunt activa et passiva, aeque inter se 
+          distin<lb break="no" ed="#P" n="90"/>gui, ac relationes illis correspondentes: alias
+          <lb ed="#P" n="91"/>non possent distinguere personas, ergo 
+          una<lb break="no" ed="#P" n="92"/>quaeque origo est idem cum relatione illi 
+          pro<lb break="no" ed="#P" n="93"/>portionata.
+        </p>
+        <p xml:id="szduep-170529-d1e462">
+          <lb ed="#P" n="94"/>6. Origines active in re indistincte.—
+          Se<lb break="no" ed="#P" n="95"/>cundo consequenter inferunt, origines activas
+          <lb ed="#P" n="96"/>inter se non distingui realiter, quia non 
+          dis<lb break="no" ed="#P" n="97"/>tinguuntur a relationibus personarum 
+          produ<lb break="no" ed="#P" n="98"/>centium, sed cum illis adaequate sunt idem,
+          <lb ed="#P" n="99"/>supra autem ostendimus, has relationes inter
+          <lb ed="#P" n="100"/>se non distingui realiter. Ex quo etiam 
+          con<lb break="no" ed="#P" n="101"/>firmant intentum, quia generatio et spiratio
+          <lb ed="#P" n="102"/>non magis inter se opponuntur, quam 
+          Pater<lb break="no" ed="#P" n="103"/>nitas et relatio spiratoris: ergo non magis
+          <lb ed="#P" n="104"/>distinguuntur inter se: ergo neque ab ipsis
+          <lb ed="#P" n="105"/>relationibus. Tandem divus Thomas supra hac
+          <lb ed="#P" n="106"/>ratione totam sententiam confirmat, quia in
+          <lb ed="#P" n="107"/>creaturis actio solum dicit mutationem cum
+          <lb ed="#P" n="108"/>relatione, ergo ablata mutatione nihil potest
+          <lb ed="#P" n="109"/>esse actio, nisi relatio: sed a divinis 
+          origini<lb break="no" ed="#P" n="110"/>bus omnis mutatio excludenda est, ergo nihil
+          <pb ed="#P" n="676"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>manet, quod possit esse generatio, nisi relatio
+          <lb ed="#P" n="2"/>ipsa Paternitatis. Quod potest confirmari, quia
+          <lb ed="#P" n="3"/>generatio et Paternitas non opponuntur: ergo
+          <lb ed="#P" n="4"/>nec distinguuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

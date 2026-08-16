@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="324"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-082497"><!-- t2-l2c3 -->
+        <head xml:id="szduep-082497-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-082497-Hd1e103" type="question-title">Possit-ne dari ex parte hominis praedestinati moralis causa praedestinationis quoad effectus ejus</head>
+        <p xml:id="szduep-082497-d1e106">
+          <lb ed="#P" n="99"/>CAPUT III.
+          <lb ed="#P" n="100"/>POSSIT-NE DARI EX PARTE HOMINIS PRAEDESTINATI
+          <lb ed="#P" n="101"/>MORALIS CAUSA PRAEDESTINATIONIS QUOAD 
+          EF<lb break="no" ed="#P" n="102"/>FECTUS EJUS.
+        </p>
+        <p xml:id="szduep-082497-d1e117">
+          <lb ed="#P" n="103"/>1. Deus quomodo causa moralis. — Coarctamus
+          <lb ed="#P" n="104"/>sermonem ad causam ex parte hominis 
+          prae<lb break="no" ed="#P" n="105"/>destinati, quia solum agimus de causa morali
+          <lb ed="#P" n="106"/>quae a causa physica distinguitur, ut est illa
+          <lb ed="#P" n="107"/>quae meretur, quae impetrat, quae satisfacit et
+          <pb ed="#P" n="325"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quae se moraliter disponit: qui omnes causandi
+          <lb ed="#P" n="2"/>modi in DEUM ipsum, ut DEUS est, non 
+          ca<lb break="no" ed="#P" n="3"/>dunt, quia (secluso Incarnationis mysterio) 
+          im<lb break="no" ed="#P" n="4"/>perfectionem aliquam supponunt in persona
+          <lb ed="#P" n="5"/>operante ad hunc causandi modum, quia esse
+          <lb ed="#P" n="6"/>debet persona subjecta et inferior, etc. Itaque
+          <lb ed="#P" n="7"/>licet Deus possit dici causa moralis talium 
+          ef<lb break="no" ed="#P" n="8"/>fectuum, quia libere illos facit, tamen est causa
+          <lb ed="#P" n="9"/>propria et physica, et illa conditio libertatis
+          <lb ed="#P" n="10"/>communis est omnibus operibus Dei, quae extra
+          <lb ed="#P" n="11"/>se producit. An vero illa libertas in effectibus
+          <lb ed="#P" n="12"/>praedestinationis tanta sit, ut omne debitum
+          <lb ed="#P" n="13"/>excludat, et ideo habet quamdam moralitatem
+          <lb ed="#P" n="14"/>a qua effectus gratuitus denominatur, pendet
+          <lb ed="#P" n="15"/>ex dicendis de causalitate morali ipsiusmet 
+          ho<lb break="no" ed="#P" n="16"/>minis ad tales effectus, et ideo totam 
+          disputa<lb break="no" ed="#P" n="17"/>tionem ad illum modum revocamus. An vero
+          <lb ed="#P" n="18"/>ex parte Christi vel alterius tertiae personae 
+          pos<lb break="no" ed="#P" n="19"/>sit hujusmodi causa in hoc negotio intercedere,
+          <lb ed="#P" n="20"/>postea dicemus.
+        </p>
+        <p xml:id="szduep-082497-d1e178">
+          <lb ed="#P" n="21"/>2. Moralem causam ad efficientem reducit
+          <lb ed="#P" n="22"/>Avistoteles. —Est autem ulterius advertendum,
+          <lb ed="#P" n="23"/>omnem hanc causalitatem moralem, de qua
+          <lb ed="#P" n="24"/>nunc agimus, ad efficientem reduci. Sic enim
+          <lb ed="#P" n="25"/>inter causas efficientes numeravit Aristoteles
+          <lb ed="#P" n="26"/>causam consulentem et rogantem. Nam licet
+          <lb ed="#P" n="27"/>causa finalis videatur esse suo modo moralis,
+          <lb ed="#P" n="28"/>quatenus metaphorice movet agens, et inducit
+          <lb ed="#P" n="29"/>illud ad agendum: tamen suum habet proprium
+          <lb ed="#P" n="30"/>causalitatis modum, propter quem inter causas
+          <lb ed="#P" n="31"/>physicas numeratur. Et quantum ad praesens
+          <lb ed="#P" n="32"/>attinet, maxime in hoc differt finis a morali
+          <lb ed="#P" n="33"/>causa quam inquirimus, quia finis non 
+          suppo<lb break="no" ed="#P" n="34"/>nitur existens, ut suo modo moveat, sed potius
+          <lb ed="#P" n="35"/>movet et attrahit, ut ad existentiam 
+          produca<lb break="no" ed="#P" n="36"/>tur. Causa autem moralis quae ad efficientem
+          <lb ed="#P" n="37"/>reducitur, supponitur existens aliquo modo,
+          <lb ed="#P" n="38"/>nam movere debet, non ut ipsa fiat vel 
+          appe<lb break="no" ed="#P" n="39"/>tatur, sed ut ratione illius jam existentis, 
+          ali<lb break="no" ed="#P" n="40"/>quid aliud fiat, propter quod se habet tanquam
+          <lb ed="#P" n="41"/>ratio agendi ipsi agenti, et ita ad efficiens 
+          re<lb break="no" ed="#P" n="42"/>vocatur. Quadruplex autem videtur esse posse
+          <lb ed="#P" n="43"/>hujusmodi causa, scilicet, meritoria de 
+          con<lb break="no" ed="#P" n="44"/>digno, vel etiam de congruo: quae in tantum
+          <lb ed="#P" n="45"/>causat moraliter, in quantum inducit aliquam
+          <lb ed="#P" n="46"/>obligationem. Satisfactoria, quae ejusdem fere
+          <lb ed="#P" n="47"/>est generis, respicit vero specialis effectus 
+          re<lb break="no" ed="#P" n="48"/>mittendi culpas vel poenas. Impetratoria, quae
+          <lb ed="#P" n="49"/>petendo et orando movet. Ac denique 
+          disposi<lb break="no" ed="#P" n="50"/>tiva, nam licet dispositio revocari soleat ad
+          <lb ed="#P" n="51"/>causam materialem physicam, tamen in 
+          prae<lb break="no" ed="#P" n="52"/>senti est dispositio moralis, et ideo causa 
+          pro<lb break="no" ed="#P" n="53"/>prie moralis est illius formae, quae ratione talis
+          <lb ed="#P" n="54"/>dispositionis datur. Et praeterea, ut talis 
+          dispo<lb break="no" ed="#P" n="55"/>sitio habeatur, requirit ex parte hominis mo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ralem causalitatem, quatenus esse debet non
+          <lb ed="#P" n="57"/>utcumque efficienter, sed etiam libere, ab 
+          ipso<lb break="no" ed="#P" n="58"/>met homine qui se disponit: non quod hoc
+          <lb ed="#P" n="59"/>sufficiat sine altiori influxu gratiae, sed quod
+          <lb ed="#P" n="60"/>necessarium sit juxta doctrinam Concilii 
+          Tri<lb break="no" ed="#P" n="61"/>dentini, sess. 6, cap. 7; et ideo haec causalitas
+          <lb ed="#P" n="62"/>dispositio non separatur ab aliqua morali 
+          cau<lb break="no" ed="#P" n="63"/>salitate, quasi effectiva per modum meriti, 
+          sal<lb break="no" ed="#P" n="64"/>tem de congruo, vel impetrationis. Igitur 
+          om<lb break="no" ed="#P" n="65"/>nes has causas in praesenti inquirimus, et 
+          com<lb break="no" ed="#P" n="66"/>prehendimus sub nomine causae moralis quae
+          <lb ed="#P" n="67"/>vel ex se, vel ex lege divina inducat 
+          necessita<lb break="no" ed="#P" n="68"/>tem vel obligationem conferendi illum 
+          effec<lb break="no" ed="#P" n="69"/>tum, cujus causa dicitur, et sub hac 
+          generali<lb break="no" ed="#P" n="70"/>tate potest dici causa meritoria.
+        </p>
+        <p xml:id="szduep-082497-d1e292">
+          <lb ed="#P" n="71"/>3. Conditiones necessariee in tali causa.—Ex
+          <lb ed="#P" n="72"/>quo possumus intelligere quae conditiones 
+          ne<lb break="no" ed="#P" n="73"/>cessariae sint, ut aliquid ex parte hominis sit
+          <lb ed="#P" n="74"/>hoc modo causa praedestinationis, quoad 
+          ali<lb break="no" ed="#P" n="75"/>quos effectus ejus. Primo enim requiritur, ut
+          <lb ed="#P" n="76"/>sit actus liber ipsius praedestinati, quia debet
+          <lb ed="#P" n="77"/>esse causa moralis, et moralitas fundatur in 
+          li<lb break="no" ed="#P" n="78"/>bertate. Secundo esse debet actus bonus, quia
+          <lb ed="#P" n="79"/>effectus praedestinationis sunt beneficia divina:
+          <lb ed="#P" n="80"/>actus autem malus non provocat neque obligat
+          <lb ed="#P" n="81"/>Deum ad beneficium conferendum: ergo 
+          opor<lb break="no" ed="#P" n="82"/>tet esse actum bonum. Tertio necesse est ut sit
+          <lb ed="#P" n="83"/>proportionatus effectui, tum quia hoc in 
+          uni<lb break="no" ed="#P" n="84"/>versum est de ratione causae ad suum effectum
+          <lb ed="#P" n="85"/>comparatae: tum etiam, quia talis causa debet
+          <lb ed="#P" n="86"/>inducere debitum aliquod talis effectus, quod
+          <lb ed="#P" n="87"/>facere non posset, nisi haberet cum illo 
+          pro<lb break="no" ed="#P" n="88"/>portionem.
+        </p>
+        <p xml:id="szduep-082497-d1e334">
+          <lb ed="#P" n="89"/>4. Quarto requiritur, quod talis causa sit 
+          ali<lb break="no" ed="#P" n="90"/>quo modo prior suo effectu, nam hoc etiam
+          <lb ed="#P" n="91"/>pertinet ad communem rationem causae ; qualis
+          <lb ed="#P" n="92"/>autem debeat esse haec prioritas, an scilicet, in
+          <lb ed="#P" n="93"/>re et executione, vel in mente Dei suffticiat,
+          <lb ed="#P" n="94"/>postea videbimus. Unum vero notatione 
+          dig<lb break="no" ed="#P" n="95"/>num ex hac conditione colligitur, nimirum 
+          il<lb break="no" ed="#P" n="96"/>Ium actum qui est causa alicujus effectus 
+          prae<lb break="no" ed="#P" n="97"/>destinationis, non posse esse causam omnium
+          <lb ed="#P" n="98"/>nisi ipse fit extra effectus praedestinatioms. 
+          De<lb break="no" ed="#P" n="99"/>claratur, nam si sit causa omnium effectuum
+          <lb ed="#P" n="100"/>praedestinationis erit etiam primi: nam ille est
+          <lb ed="#P" n="101"/>unus ex omnibus: ergo ipse non potest esse
+          <lb ed="#P" n="102"/>effectus, quia non potest esse causa sui ipsius.
+          <lb ed="#P" n="103"/>Si autem sit causa aliquorum vel alicujus, 
+          ne<lb break="no" ed="#P" n="104"/>cesse est, ut quamvis ipse etiam sit effectus
+          <lb ed="#P" n="105"/>praedestinationis, sit prior suis effectibus, 
+          sal<lb break="no" ed="#P" n="106"/>tem in praescientia divina, quia necesse est ut
+          <lb ed="#P" n="107"/>causa sit prior effectu. Maxime, quod haec causa
+          <lb ed="#P" n="108"/>non est finalis, sed ad efficientem revocatur,
+          <lb ed="#P" n="109"/>quia moraliter concurrit, tanquam ratio 
+          co<lb break="no" ed="#P" n="110"/>operans ad producendum effectum.
+        </p>
+        <p xml:id="szduep-082497-d1e384">
+          <pb ed="#P" n="326"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5. Resolutio quaestionis. — Ex his ergo 
+          cer<lb break="no" ed="#P" n="2"/>tum est, praedestinationis, quoad aliquos 
+          effec<lb break="no" ed="#P" n="3"/>tus ejus, prout in executione donantur, posse
+          <lb ed="#P" n="4"/>hoc modo dari causam ex parte hominis adulti.
+          <lb ed="#P" n="5"/>Quod addo, ut excludam infantes qui non sunt
+          <lb ed="#P" n="6"/>capaces hujus causalitatis, secluso speciali 
+          pri<lb break="no" ed="#P" n="7"/>vilegio, quia non habent usum libertatis, ut
+          <lb ed="#P" n="8"/>per se constat, et in sequentibus magis 
+          exph<lb break="no" ed="#P" n="9"/>cabimus. Sic ergo explicata assertio constans
+          <lb ed="#P" n="10"/>est apud omnes theologos, et juxta doctrinam
+          <lb ed="#P" n="11"/>fidei. Et patet, quia unus ex his effectibus est
+          <lb ed="#P" n="12"/>gloria, illius autem merita hominis sunt causa,
+          <lb ed="#P" n="13"/>Item remissio peccati est alius effectus qui 
+          ha<lb break="no" ed="#P" n="14"/>bet causam saltem dispositivam ex parte 
+          ho<lb break="no" ed="#P" n="15"/>minis, et sic de aliis. Nec refert ad praesens,
+          <lb ed="#P" n="16"/>quod talis causa non sit in homine ex ipso, sed
+          <lb ed="#P" n="17"/>ex gratia Dei, satis enim est, quod non est in
+          <lb ed="#P" n="18"/>illo, sine ipso moraliter concurrente. Quanquam
+          <lb ed="#P" n="19"/>etiam certum sit, juxta catholicam doctrinam,
+          <lb ed="#P" n="20"/>inde habere talem actum, quod possit esse causa
+          <lb ed="#P" n="21"/>ulterioris effectus praedestinationis, quia ipse
+          <lb ed="#P" n="22"/>est ex divina gratia saltem excitante et 
+          adju<lb break="no" ed="#P" n="23"/>vante. Solum disputandum relinquitur, an in
+          <lb ed="#P" n="24"/>homine possit dari aliqua causa hujusmodi,
+          <lb ed="#P" n="25"/>quae sit ratio praedestinationis, quoad omnes
+          <lb ed="#P" n="26"/>effectus ejus. Revocatur autem haec quaestio a
+          <lb ed="#P" n="27"/>theologis ad primum effectum, qui ex 
+          praedes<lb break="no" ed="#P" n="28"/>tinatione homini confertur, quoniam ab illo
+          <lb ed="#P" n="29"/>reliqui manant vel manare possunt: et ideo
+          <lb ed="#P" n="30"/>qui est causa illius, censetur esse causa 
+          reliquo<lb break="no" ed="#P" n="31"/>rum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

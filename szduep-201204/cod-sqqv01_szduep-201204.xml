@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="797"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-201204"><!-- t3-l12c2 -->
+        <head xml:id="szduep-201204-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-201204-Hd1e103" type="question-title">Quibus divinis personis mitti conveniat, et an pater mitti possit</head>
+        <p xml:id="szduep-201204-d1e106">
+          <pb ed="#P" n="797"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT II.
+          <lb ed="#P" n="2"/>QUIBUS DIVINIS PERSONIS MITTI CONVENIAT, ET AN
+          <lb ed="#P" n="3"/>PATER MITTI POSSIT.
+        </p>
+        <p xml:id="szduep-201204-d1e119">
+          <lb ed="#P" n="4"/>1. Pater non mittitur. — Omnes personae 
+          ve<lb break="no" ed="#P" n="5"/>niunt.—Ex dictis in praecedenti capite facilem
+          <lb ed="#P" n="6"/>resolutionem habet proposita quaestio. Nam
+          <lb ed="#P" n="7"/>imprimis certum videtur personam 
+          improduc<lb break="no" ed="#P" n="8"/>tam, ut Patrem, mitti non posse, ut recte tradit
+          <lb ed="#P" n="9"/>Augustinus 4, de Trin., cap. 20. Probo, quia
+          <lb ed="#P" n="10"/>missio involvit originem, vel illam 
+          principali<lb break="no" ed="#P" n="11"/>ter dicit, ergo mitti passive involvit passivam
+          <lb ed="#P" n="12"/>originem, ita ut mitti sit: Procedere cum 
+          re<lb break="no" ed="#P" n="13"/>latione ad terminum , ad quem mitti dicitur,
+          <lb ed="#P" n="14"/>ergo persona, quae non procedit, non potest
+          <lb ed="#P" n="15"/>mitti. Unde Augustinus 2, de Trin., cap. 5,
+          <lb ed="#P" n="16"/>adnotavit, de Patre nunquam in Scripturis 
+          le<lb break="no" ed="#P" n="17"/>gi, quod mittatur. Potest quidem Pater dici
+          <lb ed="#P" n="18"/>venire, juxta illud Joan. 14: Ad eum 
+          venie<lb break="no" ed="#P" n="19"/>mus, et mansionem agud ewn faciemus, utique
+          <lb ed="#P" n="20"/>Pater, et ergo, praecesserat enim: Zt Pater
+          <lb ed="#P" n="21"/>meus diliget eum. Nam verbum cenire non 
+          di<lb break="no" ed="#P" n="22"/>cit respectum ad alium, a quo proveniat ille
+          <lb ed="#P" n="23"/>adventus, verbum autem mitti dicit hujusmodi
+          <lb ed="#P" n="24"/>respectum , ideo personae omnes venire dici
+          <lb ed="#P" n="25"/>possunt, non tamen omnes mitti, ut notavit
+          <lb ed="#P" n="26"/>Athanasius in Epistola ad Serapionem : ubi
+          <lb ed="#P" n="27"/>significat, nunquam unam personam venire
+          <lb ed="#P" n="28"/>sine aliis, quia veniunt per operationem (ut
+          <lb ed="#P" n="29"/>infra dicemus) et opera Trinitatis ad extra
+          <lb ed="#P" n="30"/>sunt indivisa, mitti autem unam personam,
+          <lb ed="#P" n="31"/>licet non mittantur omnes, quia non omnes
+          <lb ed="#P" n="32"/>procedunt.
+        </p>
+        <p xml:id="szduep-201204-d1e184">
+          <lb ed="#P" n="33"/>2. Omnes donantur. — Deus se donat. — Et
+          <lb ed="#P" n="34"/>eadem ratio est de Verbo dandi, vel donandi,
+          <lb ed="#P" n="35"/>nam in aliqua propria significatione potest
+          <lb ed="#P" n="36"/>Pater dici donari, licet non possit dici mitti.
+          <lb ed="#P" n="37"/>Quia verbum etiam dandi, vel donandi non
+          <lb ed="#P" n="38"/>dicit necessario respectum realem ad eum, qui
+          <lb ed="#P" n="39"/>donat, ut in quarto capite praecedentis libri
+          <lb ed="#P" n="40"/>adnotavi. Nec refert, quod in Scriptura sacra
+          <lb ed="#P" n="41"/>nunquam legamus expresse , Patrem donare,
+          <lb ed="#P" n="42"/>aut dare se ipsum, satis est enim, quod in 
+          si<lb break="no" ed="#P" n="43"/>mili habeatur in Scriptura ; tum quia dicitur
+          <lb ed="#P" n="44"/>venire et manere in nobis; tum etiam quia
+          <lb ed="#P" n="45"/>Deus charitas est, quam charitatem donat 
+          no<lb break="no" ed="#P" n="46"/>bis Pater sufficit etiam, quod urgenti ratione
+          <lb ed="#P" n="47"/>ex sacris litteris colligatur, nam ex Scriptura
+          <lb ed="#P" n="48"/>habemus, divinam personam esse donabilem,
+          <lb ed="#P" n="49"/>seu dabilem, ergo ex hac parte repugnat 
+          Pa<lb break="no" ed="#P" n="50"/>tri dari. Nec vero repugnat ex parte 
+          habitudi<lb break="no" ed="#P" n="51"/>nis ad donantem, quia haec potest esse reflexiva
+          <lb ed="#P" n="52"/>(ut ita loquar) sed identitatis, unde potest ali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>quis donare se ipsum, si sit omnino liber ut
+          <lb ed="#P" n="54"/>maxime est Pater. Hic intelligimus, haec verba
+          <lb ed="#P" n="55"/>veniendi, dandi, aut donandi in dicta 
+          signifi<lb break="no" ed="#P" n="56"/>catione non esse notionalia, sicut verbum 
+          mit<lb break="no" ed="#P" n="57"/>tendi, sed magis esse quasi essentialia, vel
+          <lb ed="#P" n="58"/>potius transcendentalia, quia et communia
+          <lb ed="#P" n="59"/>3unt omnibus personis, et huic Deo secundum
+          <lb ed="#P" n="60"/>se, ut a relationibus abstrahit, possunt 
+          conve<lb break="no" ed="#P" n="61"/>nire. Nam Deus se donat nobis secundum 
+          es<lb break="no" ed="#P" n="62"/>sentialia et personalia, et licet intelligeremus
+          <lb ed="#P" n="63"/>in DEO unam personam tantum, illa esset 
+          suf<lb break="no" ed="#P" n="64"/>ficiens, ut ad nos veniret, et se nobis daret,
+          <lb ed="#P" n="65"/>mitti autem non posset.
+        </p>
+        <p xml:id="szduep-201204-d1e261">
+          <lb ed="#P" n="66"/>3. Objectio. — Objicies, quia Verbum mittit
+          <lb ed="#P" n="67"/>se ipsum, teste Augustino, 2 lib. de Trinit.,
+          <lb ed="#P" n="68"/>cap. 5, quem imitatur Concilium Toletanum
+          <lb ed="#P" n="69"/>11, in Confessione fidei, imo ita loquitur 
+          Hi<lb break="no" ed="#P" n="70"/>ginius papa, Epist. 1. decret, ergo et Pater 
+          po<lb break="no" ed="#P" n="71"/>test mittere se ipsum. Patet consequentia, quia
+          <lb ed="#P" n="72"/>si Verbum mittit se, ergo missum non 
+          neces<lb break="no" ed="#P" n="73"/>sario dicit relationem realem ad mittentem :
+          <lb ed="#P" n="74"/>hoc autem adrmisso, nihil est, cur Pater non
+          <lb ed="#P" n="75"/>possit se ipsum mittere. Respondeo, Higinium
+          <lb ed="#P" n="76"/>id dixisse solum de missione Verbi per 
+          incar<lb break="no" ed="#P" n="77"/>nationem, de hac enim ibi loquebatur. Unde
+          <lb ed="#P" n="78"/>loquuntur de Christo secundum diversas 
+          na<lb break="no" ed="#P" n="79"/>turas, ita ut quatenus homo dicatur missus a
+          <lb ed="#P" n="80"/>se ipso, ut Deus est. Sic enim ibidem ait À
+          ugus<lb break="no" ed="#P" n="81"/>tinus, Filium ut hominem esse minorem, non
+          <lb ed="#P" n="82"/>solum Patre, sed etiam se ut Deo. Atque hoc
+          <lb ed="#P" n="83"/>modo est vera locutio etiam in sensu proprio,
+          <lb ed="#P" n="84"/>existimo enim ad relationem realem ex parte
+          <lb ed="#P" n="85"/>naturae creatae, sufficere distinctionem 
+          secun<lb break="no" ed="#P" n="86"/>dum naturam, etiamsi persona eadem sit, ut
+          <lb ed="#P" n="87"/>alibi dixi. Haec autem missio Christi ut 
+          homi<lb break="no" ed="#P" n="88"/>nis non est illa, de qua nunc loquimur, ut 
+          su<lb break="no" ed="#P" n="89"/>pra declaravi, nec potest hac ratione persona
+          <lb ed="#P" n="90"/>Patris mittere se, cum non assumpserit 
+          natu<lb break="no" ed="#P" n="91"/>ram, in qua mitti possit illo modo.
+        </p>
+        <p xml:id="szduep-201204-d1e320">
+          <lb ed="#P" n="92"/>4. Hanc autem fuisse Higinii mentem, 
+          cla<lb break="no" ed="#P" n="93"/>rum est, quia solum intendit ostendere, 
+          Chris<lb break="no" ed="#P" n="94"/>tum venisse, ut verum Deum, loquiturque de
+          <lb ed="#P" n="95"/>missione rigorosa, quae fit cum aliqua 
+          muta<lb break="no" ed="#P" n="96"/>tione, et sic negat, Christum ut Deum fuisse
+          <lb ed="#P" n="97"/>missum ab aliquo etiam a Patre, ut hominem
+          <lb ed="#P" n="98"/>vero fuisse missum non solum a Patre, sed
+          <lb ed="#P" n="99"/>etiam a se. Augustino vero non facile 
+          accom<lb break="no" ed="#P" n="100"/>modatur hic sensus : quia inde tantum probat,
+          <lb ed="#P" n="101"/>Verbum se ipsum misisse, quia fecit simul cum
+          <lb ed="#P" n="102"/>Patre incarnationem, per quam missum est.
+          <lb ed="#P" n="103"/>Sic autem non dicitur Verbum missum ut 
+          ho<lb break="no" ed="#P" n="104"/>mo, sed ut est talis persona divina. Unde dici
+          <lb ed="#P" n="105"/>potest, esse improprie usum Augustinum 
+          ver<lb break="no" ed="#P" n="106"/>bo amittendi, pro eo, quod est efficere effectum,
+          <lb ed="#P" n="107"/>ratione cujus Filius dicitur missus. Ait enim
+          <pb ed="#P" n="798"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ibidem Augustinus, eo ipso Filium fuisse 
+          mis<lb break="no" ed="#P" n="2"/>sum, quo factus est caro, juxta illud ad 
+          Gala<lb break="no" ed="#P" n="3"/>tas 4, Misit Deus Filium suum factum ea 
+          mau<lb break="no" ed="#P" n="4"/>liere. Quia ergo Filius fecit se ipsum carnem,
+          <lb ed="#P" n="5"/>ideo dicit misisse se. Facilius tamen 
+          conclu<lb break="no" ed="#P" n="6"/>deret, dedisse se, aut venisse ad humanitatem,.
+          <lb ed="#P" n="7"/>neque aliud probatur ex indivisibili, seu 
+          inse<lb break="no" ed="#P" n="8"/>parabili operabili operatione Patris, et Fili.
+          <lb ed="#P" n="9"/>Sed de illo usu verbi mittendi plura in capite
+          <lb ed="#P" n="10"/>sequenti. Hic vero addo, etiam secundum 
+          il<lb break="no" ed="#P" n="11"/>lum modum non extendi verbum mittendi ad
+          <lb ed="#P" n="12"/>Patrem cum reflexione supra se, ita ut dicatur
+          <lb ed="#P" n="13"/>mittere se; neque enim apud Augustinum, vel
+          <lb ed="#P" n="14"/>alium gravem auctorem talis locutio reperitur.
+          <lb ed="#P" n="15"/>Et ratio reddi potest, quia quoties Verbum se
+          <lb ed="#P" n="16"/>donat, mittitur proprie ab alquo, scilicet a
+          <lb ed="#P" n="17"/>Patre, unde efficiendo donationem sui efficit
+          <lb ed="#P" n="18"/>saltem id, quod est missio, quasi materialiter
+          <lb ed="#P" n="19"/>sumptum, et ideo quodammodo intelligi 
+          po<lb break="no" ed="#P" n="20"/>test, licet satis improprie, quod se mittat : 
+          Pa<lb break="no" ed="#P" n="21"/>ter autem, dum venit, aut se donat, a nullo
+          <lb ed="#P" n="22"/>proprie mittitur, et ideo nullo modo efficit
+          <lb ed="#P" n="23"/>missionem, nec se mittit, etiam improprie.
+          <lb ed="#P" n="24"/>5. Dico secundo. Filius, et Spiritus sanctus,
+          <lb ed="#P" n="25"/>mitti possunt. Est res certa ex Scriptura, ut
+          <lb ed="#P" n="26"/>principio capitis praecedentis notavi, et addi
+          <lb ed="#P" n="27"/>potest de Filio illud ad Galatas proxime 
+          cita<lb break="no" ed="#P" n="28"/>tum, Misit Deus Filium suum, et de Spiritu
+          <lb ed="#P" n="29"/>sancto illud Joannis 14: Quem mittet Pater
+          <lb ed="#P" n="30"/>in nomine meo. Ratio autem est, quia in 
+          utra<lb break="no" ed="#P" n="31"/>que illarum personarum potest esse vera 
+          ha<lb break="no" ed="#P" n="32"/>bitudo ad mittentem propter relationem 
+          ori<lb break="no" ed="#P" n="33"/>ginis. Dices. Quid refert processio ad intra ad
+          <lb ed="#P" n="34"/>externum effectum, ut propter illam 
+          processio<lb break="no" ed="#P" n="35"/>nem possit dici persona procedens mitti, 
+          quan<lb break="no" ed="#P" n="36"/>do talem effectum operatur, vel se ipsam 
+          do<lb break="no" ed="#P" n="37"/>nat? Respondeo, per processionem accipere
+          <lb ed="#P" n="38"/>personam procedentem, et potestatem 
+          operan<lb break="no" ed="#P" n="39"/>di, et auctoritatem se constituendi novo modo
+          <lb ed="#P" n="40"/>alicui, quia accipit omnipotentiam, et liberam
+          <lb ed="#P" n="41"/>voluntatem ab eo a quo procedit. Mitti autem
+          <lb ed="#P" n="42"/>nihil aliud est, quam ire vel venire ad aliquem
+          <lb ed="#P" n="43"/>locum per virtutem alterius, impressam 
+          ali<lb break="no" ed="#P" n="44"/>quo modo ei, qui mitti dicitur, ut inter 
+          homi<lb break="no" ed="#P" n="45"/>nes imprimitur per imperium, vel consilium:
+          <lb ed="#P" n="46"/>rebus autem irrationalibus per aliquem 
+          im<lb break="no" ed="#P" n="47"/>petum, vel contractum. In divinis autem haec,
+          <lb ed="#P" n="48"/>quae imperfecta sunt, locum non habent, sed
+          <lb ed="#P" n="49"/>per naturalem productionem communicatur,
+          <lb ed="#P" n="50"/>et quasi imprimitur illa virtus, et ideo talis
+          <lb ed="#P" n="51"/>processio per Verbum mittendi optime 
+          impor<lb break="no" ed="#P" n="52"/>tatur. Sicut Christus dixit de Spiritu sancto:
+          <lb ed="#P" n="53"/>Non loquetur a semetipso, sed quecumque 
+          au<lb break="no" ed="#P" n="54"/>diet, loquetur. Ubi processionem ipsam 
+          audi<lb break="no" ed="#P" n="55"/>tionem. Et de se dixit: Mea doctrina non est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>meda, sed ejus, qui misit me, quod probabiliter
+          <lb ed="#P" n="57"/>cum Augustino, et alus intelligimus dictum,
+          <lb ed="#P" n="58"/>propter communicationem doctrinae per 
+          essen<lb break="no" ed="#P" n="59"/>tiam, quam per generationem accipit Filius.
+          <lb ed="#P" n="60"/>Sicut ergo persona procedens dicitur audire,
+          <lb ed="#P" n="61"/>et discere per aeternam processionem, ita 
+          po<lb break="no" ed="#P" n="62"/>test dici mitti, sed illa dicuntur ex aeternitate,
+          <lb ed="#P" n="63"/>quia non connotant actualem effectum ad extra,
+          <lb ed="#P" n="64"/>sicut Verbum mittendi denotat.
+        </p>
+        <p xml:id="szduep-201204-d1e502">
+          <lb ed="#P" n="65"/>6. Objectio. — Dices. Ut unus homo mittat
+          <lb ed="#P" n="66"/>alium, non satis est dare virtutem eundi, sed
+          <lb ed="#P" n="67"/>necesse est, imprimere illi aliquo modo 
+          volun<lb break="no" ed="#P" n="68"/>tatem eundi, seu impellere illum, ut eat.
+          <lb ed="#P" n="69"/>Alias ubicumque iret Filius inter homines,
+          <lb ed="#P" n="70"/>diceretur Pater ejus mittere illum, quia dedit
+          <lb ed="#P" n="71"/>illi virtutem eundi, quod tamen non ita est,
+          <lb ed="#P" n="72"/>sed oportet, ut impellat illum aliquo modo,
+          <lb ed="#P" n="73"/>dando illi voluntatem eundi per imperium, vel
+          <lb ed="#P" n="74"/>consilium, aut preces, etc. Ergo in divinis,
+          <lb ed="#P" n="75"/>ut persona non satis est, quod producat, quia
+          <lb ed="#P" n="76"/>per productionem non dat alteri voluntatem
+          <lb ed="#P" n="77"/>eundi, sed solam potestatem. Nam potestas
+          <lb ed="#P" n="78"/>naturalis est, voluntas autem libera : unde
+          <lb ed="#P" n="79"/>potestatem, et voluntatem quasi in actu primo,
+          <lb ed="#P" n="80"/>seu indifferenter in ordine ad externa objecta,
+          <lb ed="#P" n="81"/>dat persona producens personae productae; 
+          vo<lb break="no" ed="#P" n="82"/>Iuntatem autem liberam illi non dat, imo 
+          il<lb break="no" ed="#P" n="83"/>lam habet aeque primo persona procedens cum
+          <lb ed="#P" n="84"/>persona producente, ergo non satis est, quod
+          <lb ed="#P" n="85"/>persona producat, ut mittere dicatur. Et in
+          <lb ed="#P" n="86"/>hoc est differentia inter doctrinam, et 
+          missio<lb break="no" ed="#P" n="87"/>nem, quod scientia naturalis est, et ideo per
+          <lb ed="#P" n="88"/>productionem necessario communicatur, quod
+          <lb ed="#P" n="89"/>est verum suo modo etiam de illa scientia,
+          <lb ed="#P" n="90"/>quae maxime videtur libera, ut est scientia 
+          vi<lb break="no" ed="#P" n="91"/>sionis, quia in se non est libera, sed tantum
+          <lb ed="#P" n="92"/>ex parte objecti, tamen objecto posito in esse
+          <lb ed="#P" n="93"/>scibilis, statim necessario repraesentatur per
+          <lb ed="#P" n="94"/>scientiam naturalem, et ideo secundum illam
+          <lb ed="#P" n="95"/>merito dicitur scire, et audire persona 
+          proce<lb break="no" ed="#P" n="96"/>dens a producente. At terminus missionis (ut
+          <lb ed="#P" n="97"/>sic dicam) liber omnino est, et in eo est 
+          om<lb break="no" ed="#P" n="98"/>nino sui juris, et dominii (ut ita loquar) 
+          per<lb break="no" ed="#P" n="99"/>sona procedens, et ideo, ut dicatur mitt talis
+          <lb ed="#P" n="100"/>persona, quando libere venit, non videtur 
+          sa<lb break="no" ed="#P" n="101"/>tis quod accipiat potestatem a producente, cum
+          <lb ed="#P" n="102"/>non accipiat liberam voluntatis suae 
+          determi<lb break="no" ed="#P" n="103"/>nationem.
+        </p>
+        <p xml:id="szduep-201204-d1e589">
+          <lb ed="#P" n="104"/>7. Responsio. — Respondeo primo, divinas
+          <lb ed="#P" n="105"/>personas ita inter se comparari in ordine ad
+          <lb ed="#P" n="106"/>decreta libera, ut non possit una aliquid velle,
+          <lb ed="#P" n="107"/>quin id velit quaelibet alia, et nihilominus 
+          quae<lb break="no" ed="#P" n="108"/>libet earum est liberrima in volendo, quia non
+          <lb ed="#P" n="109"/>determinatur ab alia, sed omnes simul se 
+          de<lb break="no" ed="#P" n="110"/>terminant per unicam, quam communem ha-
+          <pb ed="#P" n="799"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bent, voluntatem. Unde in his decretis liberis
+          <lb ed="#P" n="2"/>formaliter, et in se spectatis, verum sine dubio
+          <lb ed="#P" n="3"/>est, non servari ordinem originis, sed omnes
+          <lb ed="#P" n="4"/>personas simul, quasi uno impetu (ut me 
+          ex<lb break="no" ed="#P" n="5"/>plicem) sese libere determinare ad hoc, vel
+          <lb ed="#P" n="6"/>illud objectum ad extra sine ulla sui mutatione.
+          <lb ed="#P" n="7"/>Nihilominus tamen propter ordinem originis,
+          <lb ed="#P" n="8"/>quem inter se habent, intelligitur persona
+          <lb ed="#P" n="9"/>producens primario velle, quidquid omnes 
+          vo<lb break="no" ed="#P" n="10"/>lunt, non solum quia persona procedens habet
+          <lb ed="#P" n="11"/>a producente illummet actum quoad totam
+          <lb ed="#P" n="12"/>suam realitatem, quo libere vult, sed etiam
+          <lb ed="#P" n="13"/>quia ex vi originis intelligitur persona 
+          proce<lb break="no" ed="#P" n="14"/>dens acciperc illum actum cum tali concordia
+          <lb ed="#P" n="15"/>ad personam producentem, ut necessario 
+          voli<lb break="no" ed="#P" n="16"/>tura sit, quidquid altera voluerit. Unde etiam
+          <lb ed="#P" n="17"/>in exhibenda ipsa libera determinatione (
+          nos<lb break="no" ed="#P" n="18"/>tro loquendi, et intelligendi more) intelligitur
+          <lb ed="#P" n="19"/>persona prior origine habere quasi primarias
+          <lb ed="#P" n="20"/>partes respectu alterius origine posterioris,
+          <lb ed="#P" n="21"/>nam illa, quae non est ab alia, semper 
+          intelli<lb break="no" ed="#P" n="22"/>gitur esse quasi fons illius determinationis,
+          <lb ed="#P" n="23"/>atque hoc satis est, ut etiam quoad 
+          volunta<lb break="no" ed="#P" n="24"/>tem eundi dicatur mittere.
+        </p>
+        <p xml:id="szduep-201204-d1e663">
+          <lb ed="#P" n="25"/>8. Exemplum optimum est in productione
+          <lb ed="#P" n="26"/>Spiritus sancti, quae licet sit aeque primo et 
+          im<lb break="no" ed="#P" n="27"/>mediate a Patre et Filio, nihilominus Pater
+          <lb ed="#P" n="28"/>intelligitur esse quasi primarius auctor ejus, in
+          <lb ed="#P" n="29"/>quantum non solum per se, sed etiam per 
+          Fi<lb break="no" ed="#P" n="30"/>lium spirat, et ipse Filius a Patre habet 
+          amo<lb break="no" ed="#P" n="31"/>rem illum, per quem spirat. Et ideo ipsemet
+          <lb ed="#P" n="32"/>Filius Patri attribuit, quod ipse mittat Spiritum
+          <lb ed="#P" n="33"/>sanctum cum ait, Cum veneret Paracletus, quem
+          <lb ed="#P" n="34"/>ego mittam vobis a Patre. Unde addo et fortasse
+          <lb ed="#P" n="35"/>proprius et clarius, quoties Filius et Spiritus
+          <lb ed="#P" n="36"/>sanctus ad nos veniunt, venire ex naturali
+          <lb ed="#P" n="37"/>propensione bonitatis suae, et ex prudentissimo
+          <lb ed="#P" n="38"/>consilio sapientiae suae, quod totum habent a
+          <lb ed="#P" n="39"/>Patre, et Spiritus sanctus habet etiam a Filio,
+          <lb ed="#P" n="40"/>atque hoc satis est, ut dicatur persona 
+          proce<lb break="no" ed="#P" n="41"/>dens habere a producente voluntatem liberam
+          <lb ed="#P" n="42"/>veniendi, etiamsi non habeat ab illa decretum
+          <lb ed="#P" n="43"/>Iiberum quoad ipsam formalem 
+          determinatio<lb break="no" ed="#P" n="44"/>nem, quia satis est, quod habeat propensionem
+          <lb ed="#P" n="45"/>ad illud per acceptam bonitatem et sapientiam.
+          <lb ed="#P" n="46"/>Nam inter homines, cum unus alium mittit,
+          <lb ed="#P" n="47"/>non imprimit illi immediate voluntatem 
+          eun<lb break="no" ed="#P" n="48"/>di, aut physicam determinationem voluntatis
+          <lb ed="#P" n="49"/>suae ad illum actum, sed satis est, quod tribuit
+          <lb ed="#P" n="50"/>moralem impulsum per imperium vel 
+          consi<lb break="no" ed="#P" n="51"/>lium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

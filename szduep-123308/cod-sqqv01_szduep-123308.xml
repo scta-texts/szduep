@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="485"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-123308"><!-- t2-l4c1 -->
+        <head xml:id="szduep-123308-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-123308-Hd1e103" type="question-title">Quam certum sit, voluisse deum salvare omnes homines, etiam non pbraedestinatos</head>
+        <p xml:id="szduep-123308-d1e106">
+          <lb ed="#P" n="49"/>CAPUT I.
+          <lb ed="#P" n="50"/>QUAM CERTUM SIT, VOLUISSE DEUM SALVARE OMNES
+          <lb ed="#P" n="51"/>HOMINES, ETIAM NON PBRAEDESTINATOS.
+        </p>
+        <p xml:id="szduep-123308-d1e115">
+          <lb ed="#P" n="52"/>1. Gregorius simpliciter partem negativam
+          <lb ed="#P" n="53"/>ampleaatus est. — Haec quaestio fundata est in
+          <pb ed="#P" n="486"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>loco Pauli 1, ad Timoth. 2: Deus vult omnes
+          <lb ed="#P" n="2"/>homines salvos fieri, et ad agnitionem veritatis
+          <lb ed="#P" n="3"/>cenire. Ubi videtur quaestionem definire et 
+          par<lb break="no" ed="#P" n="4"/>tem affirmantem tanquam de fide certam 
+          do<lb break="no" ed="#P" n="5"/>cere. Nihilominus Gregorius, in 1, d. 46, circa
+          <lb ed="#P" n="6"/>finem, simpliciter negat voluisse Deum 
+          salva<lb break="no" ed="#P" n="7"/>re, quos de facto non salvat : quia quod Deus
+          <lb ed="#P" n="8"/>vult, sit; praecipue quando ab ipsomet Deo
+          <lb ed="#P" n="9"/>principaliter- faciendum est. Favetque huic
+          <lb ed="#P" n="10"/>sententiae Augustinus qui interdum solet 
+          testi<lb break="no" ed="#P" n="11"/>monium illud Pauli coarctare ad solos 
+          praedes<lb break="no" ed="#P" n="12"/>tinatos, explicando illud, vel per 
+          distributio<lb break="no" ed="#P" n="13"/>nem accommodam, id est, ut intelligatur de
+          <lb ed="#P" n="14"/>omnibus, qui salvantur, quia nullus salvatur,
+          <lb ed="#P" n="15"/>nisi quem Deus salvari vult: vel ut distributio
+          <lb ed="#P" n="16"/>tantum sit pro generibus singulorum, quia ex
+          <lb ed="#P" n="17"/>omni genere seu statu hominum vult Deus
+          <lb ed="#P" n="18"/>aliquos salvos fieri, ut in Enchirid., cap. 103,
+          <lb ed="#P" n="19"/>exponit.
+        </p>
+        <p xml:id="szduep-123308-d1e167">
+          <lb ed="#P" n="20"/>9. Conclusio. — Testimonio Pauli 
+          corrobo<lb break="no" ed="#P" n="21"/>ratur. —Sed nihilominus dicendum 
+          simpli<lb break="no" ed="#P" n="22"/>citer est, Deum ab aeterno voluisse salvare
+          <lb ed="#P" n="23"/>omnes homines, quoscreare decrevit: idemque
+          <lb ed="#P" n="24"/>de angelis sentiendum est. Probatur ex dicto
+          <lb ed="#P" n="25"/>testimonio: nam si contextus Pauli sincere
+          <lb ed="#P" n="26"/>spectetur, constat universe loqui de omnibus
+          <lb ed="#P" n="27"/>hominibus. Obsecrat enim prius, orari pro
+          <lb ed="#P" n="28"/>omnibus hominibus et subdit: Hoc enim 
+          bo<lb break="no" ed="#P" n="29"/>nwm est, et acceplum coram sSalvatore nostro
+          <lb ed="#P" n="30"/>Deo, qui omnes homines vult salvos fieri. Sed
+          <lb ed="#P" n="31"/>constat mentem Paul esse, ut pro omnibus
+          <lb ed="#P" n="32"/>hominibus simpliciter, sine ulla limitatione
+          <lb ed="#P" n="33"/>oremus: ergo cum eadem universalitate 
+          lo<lb break="no" ed="#P" n="34"/>quitur de omnibus hominibus, quando pro 
+          ra<lb break="no" ed="#P" n="35"/>tione subjungit, quod Deus vult omnes salvos
+          <lb ed="#P" n="36"/>fieri. Quod magis confirmat et declarat 
+          sequen<lb break="no" ed="#P" n="37"/>tibus verbis, dicens: Unus enim Deus, unus et
+          <lb ed="#P" n="38"/>mediator Dei et hominum homo Christus J esus,
+          <lb ed="#P" n="39"/>qui dedit in redemptionem semetipsum pro 
+          om<lb break="no" ed="#P" n="40"/>nibus nobis. In quo ultimo verbo certissimum
+          <lb ed="#P" n="41"/>st, loqui de omnibus simpliciter: est enimde
+          <lb ed="#P" n="42"/>tide Deum esse redemptorem omnium 
+          homi<lb break="no" ed="#P" n="43"/>num : ergo eodem modo loquitur de omnibus
+          <lb ed="#P" n="44"/>in prioribus verbis. Patet consequentia, tum
+          <lb ed="#P" n="45"/>quia contextus et uniformitas verborum, et
+          <lb ed="#P" n="46"/>efficacia discursus ita postulat, tum etiam ex
+          <lb ed="#P" n="47"/>ratione, quae in verbis ipsis insinuatur. Ita
+          <lb ed="#P" n="48"/>enim vult Deus omnes homines salvos fieri,
+          <lb ed="#P" n="49"/>sicut voluit omnes redimere, cum redemptio
+          <lb ed="#P" n="50"/>non sit, nisi propter salutem hominum: 
+          vo<lb break="no" ed="#P" n="51"/>luntas autem redimendi omnes homines non
+          <lb ed="#P" n="52"/>limitatur ad omnes praedestinatos, nec limitari
+          <lb ed="#P" n="53"/>potest aliquo ex dictis modis, ergo nec 
+          volun<lb break="no" ed="#P" n="54"/>tas salvandi omnes homines ita limitanda est.
+        </p>
+        <p xml:id="szduep-123308-d1e246">
+          <lb ed="#P" n="55"/>3. Expositio Augustini.—ied contra empo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sitionem opponitur. — Scio, eumdem 
+          Augusti<lb break="no" ed="#P" n="57"/>num, libro de Corrept. et Grat.. cap. 15, licet
+          <lb ed="#P" n="58"/>intelligat eam distributionem simpliciter de
+          <lb ed="#P" n="59"/>omnibus hominibus, explicare nihilominus per
+          <lb ed="#P" n="60"/>quamdam metaphoram, quod Deus velit omnes
+          <lb ed="#P" n="61"/>homines salvare, non quia ipse talem 
+          volun<lb break="no" ed="#P" n="62"/>tatem habeat, sed quia facit nos velle et 
+          desi<lb break="no" ed="#P" n="63"/>derare, ut omnes salventur, nam hic modus
+          <lb ed="#P" n="64"/>loquendi usitatus est in Scriptura. Sed huic
+          <lb ed="#P" n="65"/>expositioni obstat primo regula ejusdem 
+          Au<lb break="no" ed="#P" n="66"/>gustini, metaphoricam locutionem, etiam 
+          ali<lb break="no" ed="#P" n="67"/>bi usitatam, non esse facile alteri loco 
+          accom<lb break="no" ed="#P" n="68"/>modandam, nisi necessitas litterae id 
+          postu<lb break="no" ed="#P" n="69"/>let, sed retinendam esse proprietatem et 
+          sim<lb break="no" ed="#P" n="70"/>plicitatem verborum, quoad fieri possit, quia
+          <lb ed="#P" n="71"/>alias nihil certum ex Scripturae verbis 
+          habere<lb break="no" ed="#P" n="72"/>mus. At hic nulla est necessitas recurrendi ad
+          <lb ed="#P" n="73"/>metaphoram, ut patebit. Quin etiam addo,
+          <lb ed="#P" n="74"/>illam metaphoram non esse consentaneum 
+          con<lb break="no" ed="#P" n="75"/>textui, quia Paulus dicit, orandum esse pro
+          <lb ed="#P" n="76"/>omnibus, quia Deus vult omnes salvos fieri:
+          <lb ed="#P" n="77"/>ergo inducit nos Paulus ad desiderandum 
+          om<lb break="no" ed="#P" n="78"/>nium salutem ex eo, quod Deus vult ilam:
+          <lb ed="#P" n="79"/>ergo tribuit DEO hanc voluntatem, non quia 
+          <lb ed="#P" n="80"/>in nobis illam faciat (alioquin jam 
+          suppone<lb break="no" ed="#P" n="81"/>ret, quod persuadere conatur) sed quia illam
+          <lb ed="#P" n="82"/>in se habet.
+        </p>
+        <p xml:id="szduep-123308-d1e311">
+          <lb ed="#P" n="83"/>4. Secundo, quia si Deus facit nos velle et
+          <lb ed="#P" n="84"/>desiderare omnium hominum salutem, ideo 
+          <lb ed="#P" n="85"/>profecto est, quia hoc est consentaneum 
+          vo<lb break="no" ed="#P" n="86"/>luntati ejus: ergo hic effectus Dei, scilicet
+          <lb ed="#P" n="87"/>quod faciat nos velle omnium salutem, 
+          sup<lb break="no" ed="#P" n="88"/>ponit in ipso similem voluntatem. Tertio, quia
+          <lb ed="#P" n="89"/>Paulus etiam ostendit hanc ipsam voluntatem 
+          <lb ed="#P" n="90"/>Dei ex eo, quod unus est omnium Deus, qui 
+          <lb ed="#P" n="91"/>unum mediatorem et redemptorem 
+          omnibusde<lb break="no" ed="#P" n="92"/>dit : loquitur ergo de voluntate ipsius Dei. 
+          Ac<lb break="no" ed="#P" n="93"/>cedit tandem, quod metaphora, vel proprietas 
+          <lb ed="#P" n="94"/>verborum unius 1loci ex consonantia aliorum 
+          <lb ed="#P" n="95"/>locorum, quoad fieri possit, sumenda est: at
+          <lb ed="#P" n="96"/>in aliis locis non insinuatur talis metaphora
+          <lb ed="#P" n="97"/>in simili locutione, sed verborum proprietas,
+          <lb ed="#P" n="98"/>ut ex dicendis constabit. 
+        </p>
+        <p xml:id="szduep-123308-d1e348">
+          <lb ed="#P" n="99"/>5. Ferus sensus verborum D. Pauli. —
+          Ne<lb break="no" ed="#P" n="100"/>rus ergo sensus Pauli est, quem verba 
+          simpli<lb break="no" ed="#P" n="101"/>citer, ac proprie intellecta praeseferunt, Deum
+          <lb ed="#P" n="102"/>quantum in se est, velle, ac cupere omnium
+          <lb ed="#P" n="103"/>salutem, ita ut ex parte sua nemini neget 
+          pro<lb break="no" ed="#P" n="104"/>videntiam necessariam , nec relinquat viam
+          <lb ed="#P" n="105"/>salutis simpliciter ac per se impossibilem. 
+          <lb ed="#P" n="106"/>Atque hunc sensum secuti sunt eo in loco
+          <lb ed="#P" n="107"/>Chrysostomus, OEcumenius, Theophylactus et 
+          <lb ed="#P" n="108"/>alii Graeci, Ambrosius, Hieronymus et alii 
+          La<lb break="no" ed="#P" n="109"/>tini ibidem, Prosper, lib. 2, de Vocatione 
+          Gen<lb break="no" ed="#P" n="110"/>tium, cap. 19 et 25, alias 7 et 8, Athanasius,
+          <pb ed="#P" n="487"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lib. 3, de Assumptione hominis. Item 
+          Chrysos<lb break="no" ed="#P" n="2"/>tomus, Hom. 1, in Epistol. ad Ephes., maxime
+          <lb ed="#P" n="3"/>vero Damascenus, lib. 2, de Fide orthodoxa,
+          <lb ed="#P" n="4"/>cap. 29, D. Thomas, 1 part., quaest. 19, art. 6
+          <lb ed="#P" n="5"/>et 3, contra Gentes, cap. 159. Estque jam 
+          com<lb break="no" ed="#P" n="6"/>muniter recepta sententia. Eamque tandem
+          <lb ed="#P" n="7"/>secutus est Augustinus, libro de Spiritu et 
+          ht<lb break="no" ed="#P" n="8"/>tera, cap. 33. Ubi interrogat, si voluntas 
+          cre<lb break="no" ed="#P" n="9"/>dendi donum Dei est, cur non detur omnibus
+          <lb ed="#P" n="10"/>hominibus, cum Deus velit omnes homines
+          <lb ed="#P" n="11"/>salvos fieri, et respondet: Jult quidem Deus
+          <lb ed="#P" n="12"/>omnes homines salvos fieri, et in agnitionem 
+          ve<lb break="no" ed="#P" n="13"/>ritatis venire - non sic tamen ut eis adimat 
+          L<lb break="no" ed="#P" n="14"/>berum. arbitrium, quo vel bene, vel male utentes
+          <lb ed="#P" n="15"/>Justissime judicentur, quod cum sit, infideles
+          <lb ed="#P" n="16"/>contra voluntatem Det faciunt, cum ejus 
+          Evan<lb break="no" ed="#P" n="17"/>gelio non credunt, etc. Et in hibro ad articulos
+          <lb ed="#P" n="18"/>sibi falso impositos, secundus erat, quod Deus
+          <lb ed="#P" n="19"/>nolit omnes salvare : cui respondet: S'
+          inceris<lb break="no" ed="#P" n="20"/>sime credendum est, atque profitendum, Deum
+          <lb ed="#P" n="21"/>Ccelle ut omnes homines salvi fiunt, siquidem
+          <lb ed="#P" n="22"/>Apostolus, cujus ista est sententia, sollicite 
+          pre<lb break="no" ed="#P" n="23"/>cipit, quod in omnibus Ecclesiis fidelissime 
+          cus<lb break="no" ed="#P" n="24"/>toditur, ut Deo pro omnibus hominibus 
+          sup<lb break="no" ed="#P" n="25"/>plicetur, etc. Quae verba habentur apud 
+          Pros<lb break="no" ed="#P" n="26"/>perum ad objectiones Vincentianas, 
+          respon<lb break="no" ed="#P" n="27"/>sione secunda.
+        </p>
+        <p xml:id="szduep-123308-d1e439">
+          <lb ed="#P" n="28"/>6. Atque hanc veritatem confirmant alia
+          <lb ed="#P" n="29"/>testimonia Scripturarum, in quibus Deus 
+          con<lb break="no" ed="#P" n="30"/>fitetur, se nolle mortem peccatoris, sed ut 
+          con<lb break="no" ed="#P" n="31"/>vertatur et vivat. Ezechiel, 18 et 33. Item in
+          <lb ed="#P" n="32"/>quibus dicit se stare ad ostium et pulsare, 
+          Apo<lb break="no" ed="#P" n="33"/>calyp. 3, et illuminare omnem hominem 
+          venien<lb break="no" ed="#P" n="34"/>tem in hunc mundum, Joan. 1, et similia, quae
+          <lb ed="#P" n="35"/>plane ostendunt hanc divinam voluntatem.
+          <lb ed="#P" n="36"/>Quam etiam colligunt interpretes, et ex illo
+          <lb ed="#P" n="37"/>Oseae 13: Perditio tua ex te, tantum ex me
+          <lb ed="#P" n="38"/>auxilium tuum. Perinde enim est, ac si 
+          dixis<lb break="no" ed="#P" n="39"/>set, Auxiliari tibi volui, adducere te ad 
+          salu<lb break="no" ed="#P" n="40"/>tem volui, ideoque perditio tua originem exte
+          <lb ed="#P" n="41"/>habuit, non ex me. Quod certe verum non 
+          es<lb break="no" ed="#P" n="42"/>set, si Deus ex se non vellet salvare, etiam
+          <lb ed="#P" n="43"/>illos, qui pereunt. Quocirca, licet non sit 
+          om<lb break="no" ed="#P" n="44"/>nino certum, verba illa Pauli hunc solum 
+          sen<lb break="no" ed="#P" n="45"/>sum admittere, quod scilicet Deus velit aliquo
+          <lb ed="#P" n="46"/>modo sibi proprio salutem omnium hominum
+          <lb ed="#P" n="47"/>sine exceptione, vel limitatione ad 
+          praedestina<lb break="no" ed="#P" n="48"/>tos : quia expositiones ab Augustino datae, ejus
+          <lb ed="#P" n="49"/>auctoritate fiunt aliquo modo probabiles. Hoc
+          <lb ed="#P" n="50"/>tamen intelligendum puto , dummodo alter
+          <lb ed="#P" n="51"/>sensus tanquam verus et maxime litteralis
+          <lb ed="#P" n="52"/>non excludatur, hoc enim efficaciter probant
+          <lb ed="#P" n="53"/>omnia quae adduximus.
+        </p>
+        <p xml:id="szduep-123308-d1e498">
+          <lb ed="#P" n="54"/>7. Ratione explanatur. — Unde etiam 
+          con<lb break="no" ed="#P" n="55"/>stat, conclusionem positam tanquam certam,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et extra omnem opinionem accipiendam esse,
+          <lb ed="#P" n="57"/>quia est satis in Scriptura expressa, et 
+          com<lb break="no" ed="#P" n="58"/>muni Sanctorum Patrum consensu recepta.
+          <lb ed="#P" n="59"/>Ratione autem declaratur, quia Deus 
+          univer<lb break="no" ed="#P" n="60"/>sam humanam naturam (idemque est de 
+          an<lb break="no" ed="#P" n="61"/>gelica) creavit propter supernaturalem finem,
+          <lb ed="#P" n="62"/>ergo voluit, ut quantum in ipso esset, omnes
+          <lb ed="#P" n="63"/>homines illum finem consequerentur. 
+          Proba<lb break="no" ed="#P" n="64"/>tur consequentia, quia aliter se habuit divina
+          <lb ed="#P" n="65"/>voluntas erga humanam naturam, quam si in
+          <lb ed="#P" n="66"/>puris naturalibus, et propter solam naturalem
+          <lb ed="#P" n="67"/>beatitudinem illam condere voluisset: in nullo
+          <lb ed="#P" n="68"/>autem alio potest esse discrimen, nisi quia
+          <lb ed="#P" n="69"/>nunc praeter voluntatem dandi homini, vel
+          <lb ed="#P" n="70"/>angelo talem naturam, habuit etiam 
+          volunta<lb break="no" ed="#P" n="71"/>tem dandi eis talem beatitudinem, quantum
+          <lb ed="#P" n="72"/>in ipso esset, a quo fine nullum individuum
+          <lb ed="#P" n="73"/>ex parte sua excepit, vel exclusit, ut statim
+          <lb ed="#P" n="74"/>declarabitur.
+        </p>
+        <p xml:id="szduep-123308-d1e548">
+          <lb ed="#P" n="75"/>8. Insurgit difficultas. — Prior opinio. —
+          <lb ed="#P" n="76"/>Quaeri enim hic potest, an habuerit Deus hanc
+          <lb ed="#P" n="77"/>voluntatem salvandi omnes hominesante 
+          prae<lb break="no" ed="#P" n="78"/>visum lapsum Adae, vel etiam post illum. 
+          Qui<lb break="no" ed="#P" n="79"/>dam enim solum priori modo aiunt voluisse
+          <lb ed="#P" n="80"/>salvare omnes homines, secundum primam
+          <lb ed="#P" n="81"/>naturae humanae institutionem, in qua 
+          rece<lb break="no" ed="#P" n="82"/>pit Adam pro omnibus hominibus justitiam,
+          <lb ed="#P" n="83"/>per quam salvari possent: non tamen 
+          ha<lb break="no" ed="#P" n="84"/>buisse Deum similem generalem voluntatem
+          <lb ed="#P" n="85"/>circa omnes homines, postquam illos lapsos
+          <lb ed="#P" n="86"/>in Adam praenovit, quia non omnibus offert
+          <lb ed="#P" n="87"/>sufficientia media, quibus salventur, ut in
+          <lb ed="#P" n="88"/>multis infantibus videtur manifestum , et de
+          <lb ed="#P" n="89"/>aliquibus adultis infidelibus videtur verisimile.
+          <lb ed="#P" n="90"/>Atque hunc dicendi modum insinuat Driedo,
+          <lb ed="#P" n="91"/>de Captivitate et Redemptione generis 
+          hu<lb break="no" ed="#P" n="92"/>mani, tract. 1, cap. 4, ad 2.
+        </p>
+        <p xml:id="szduep-123308-d1e591">
+          <lb ed="#P" n="93"/>9. Difficultatis decisio. — Nihilominus 
+          cer<lb break="no" ed="#P" n="94"/>tum existimo, in utroque signo, et circa 
+          ho<lb break="no" ed="#P" n="95"/>mines in utroque statu habuisse Deum hanc
+          <lb ed="#P" n="96"/>voluntatem. Nani de priori id convincit ratio
+          <lb ed="#P" n="97"/>facta de ordinatione totius naturae in illum 
+          fi<lb break="no" ed="#P" n="98"/>nem. Et declaratur etiam ab effectu, quia Deus
+          <lb ed="#P" n="99"/>condidit totam humanam naturam in Adamo,
+          <lb ed="#P" n="100"/>illique in capiti dedit justitiam pro tota 
+          poste<lb break="no" ed="#P" n="101"/>ritate, nullo individuo excepto: illa autem 
+          jus<lb break="no" ed="#P" n="102"/>titia cum auxiliis sibi debitis erat principium
+          <lb ed="#P" n="103"/>sufficiens ad beatitudinem supernaturalem 
+          con<lb break="no" ed="#P" n="104"/>sequendam; ergo signum est, datam esse ex
+          <lb ed="#P" n="105"/>voluntate salvaudi omnes. Confirmatur, quia
+          <lb ed="#P" n="106"/>si aliquis fuisset exclusus ab illa voluntate,
+          <lb ed="#P" n="107"/>pariter exclusus esset a participatione 
+          origina<lb break="no" ed="#P" n="108"/>lis justitiae, etiamsi Adam in illa permansisset:
+          <lb ed="#P" n="109"/>ergo ille tunc non contraheret peccatum 
+          ori<lb break="no" ed="#P" n="110"/>ginale in Adamo, nec carentia originalis jus-
+          <!-- 534 and 535 bad dup scans -->
+          <pb ed="#P" n="488"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>titiae haberet in eo rationem privationis, sed
+          <lb ed="#P" n="2"/>mere negationis : at hoc non potest de aliquo
+          <lb ed="#P" n="3"/>homine affirmari trahente originem ex 
+          Ada<lb break="no" ed="#P" n="4"/>mo: ergo nullus potest etiam excludi ab illa
+          <lb ed="#P" n="5"/>generali voluntate salvandi homines. Atque
+          <lb ed="#P" n="6"/>haec ratio cum proportione applicata, probat
+          <lb ed="#P" n="7"/>de angelis malis, nam si Deus non habuisset
+          <lb ed="#P" n="8"/>erga illos hanc voluntatem, non ordinasset 
+          il<lb break="no" ed="#P" n="9"/>los in supernaturalem beatitudinem : ergo nec
+          <lb ed="#P" n="10"/>fuisset in illis culpa, non tendere in illam per
+          <lb ed="#P" n="11"/>debita media, quod dici non potest.
+        </p>
+        <p xml:id="szduep-123308-d1e663">
+          <lb ed="#P" n="12"/>10 De posteriori autem signo, seu statu 
+          ho<lb break="no" ed="#P" n="13"/>minum in natura lapsa, id convincit locus
+          <lb ed="#P" n="14"/>Pauli 1, ad Timot. 2. Nam ibi clare loquitur
+          <lb ed="#P" n="15"/>de omnibus jam lapsis, nam pro illis 
+          omni<lb break="no" ed="#P" n="16"/>bus, prout nunc sunt, orari praecipit, et pro
+          <lb ed="#P" n="17"/>illis, pro quibus Christus se in redemptorem
+          <lb ed="#P" n="18"/>obtulit. Et de hac voluntate maxime 
+          loquun<lb break="no" ed="#P" n="19"/>tur Patres supra citati, ita exponentes verba
+          <lb ed="#P" n="20"/>Pauli. Idemque sumitur ex D. Dionysio, cap.2,
+          <lb ed="#P" n="21"/>de Divin. nomin. et 9, de Coelesti hierarch.,
+          <lb ed="#P" n="22"/>Irenaeo, lib. 4, contra haereses, cap. 71, ubi
+          <lb ed="#P" n="23"/>affert alia loca Scripturae, et Scholiastes ibi
+          <lb ed="#P" n="24"/>congerit alia loca Patrum, et plura referam
+          <lb ed="#P" n="25"/>in sequentibus. Tandem probatur a posteriori
+          <lb ed="#P" n="26"/>ex universali redemptione Christi Domini,
+          <lb ed="#P" n="27"/>nam Deus post praevisum originale peccatum
+          <lb ed="#P" n="28"/>ordinavit Christum in redemptionem omnium
+          <lb ed="#P" n="29"/>hominum , haec autem ordinatio, seu hoc 
+          uni<lb break="no" ed="#P" n="30"/>versale medium fuit effectus illius universalis
+          <lb ed="#P" n="31"/>voluntatis, qua voluit Deus, quod in ipso est,
+          <lb ed="#P" n="32"/>salutem omnium hominum:: ergo hanc 
+          volun<lb break="no" ed="#P" n="33"/>tatem habuit etiam post praevisum originale
+          <lb ed="#P" n="34"/>peccatum. Patet consequentia : voluntas Dei,
+          <lb ed="#P" n="35"/>quatenus antecessit praescientiam absolutum
+          <lb ed="#P" n="36"/>originalis peccati, ex se non petebat omnium
+          <lb ed="#P" n="37"/>redemptionem, et illa priori voluntate stante
+          <lb ed="#P" n="38"/>poterat Deus noa mittere universalem 
+          redemp<lb break="no" ed="#P" n="39"/>torem : ergo habuit novam voluntatem nostro
+          <lb ed="#P" n="40"/>modo intelligendi, liberandi omnes homines
+          <lb ed="#P" n="41"/>a lapsu, et ad eum finem dandi universalem
+          <lb ed="#P" n="42"/>redemptorem. Quomodo autem haec voluntas
+          <lb ed="#P" n="43"/>in omnibus locum habeat, ex sequentibus
+          <lb ed="#P" n="44"/>constabit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

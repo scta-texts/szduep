@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="593"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-149978"><!-- t3-l3c4 -->
+        <head xml:id="szduep-149978-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-149978-Hd1e103" type="question-title">Sintne in tribus personis tres subsistentiae personales realiter distinctae</head>
+        <p xml:id="szduep-149978-d1e106">
+          <lb ed="#P" n="60"/>CAPUT IV.
+          <lb ed="#P" n="61"/>SINTNE IN TRIBUS PERSONIS TRES SUBSISTENTIAE
+          <lb ed="#P" n="62"/>PERSONALES REALITER DISTINCTAE.
+        </p>
+        <p xml:id="szduep-149978-d1e115">
+          <lb ed="#P" n="63"/>1. Sensus quaestionis. — Hanc quaestionem
+          <lb ed="#P" n="64"/>disputavi late, in 1 tomo, 3 p., disp. 11, sect. 4.
+          <lb ed="#P" n="65"/>Non potest hoc autem omnino praetermitti,
+          <lb ed="#P" n="66"/>quia est necessaria ad explicandam 
+          distinctio<lb break="no" ed="#P" n="67"/>nem personalem divinarum personarum : eam
+          <lb ed="#P" n="68"/>tamen ad brevem summam redigam. 
+          Adver<lb break="no" ed="#P" n="69"/>tendum igitur est, hoc nomen , subsistentia ,
+          <lb ed="#P" n="70"/>apud antiquos Patres frequentius accipi in vi
+          <lb ed="#P" n="71"/>concreti ad significandam hypostasim, seu
+          <lb ed="#P" n="72"/>personam. In quo sensu nulla est quaestio inter
+          <lb ed="#P" n="73"/>Catholicos, nam de fide est, dari in Trinitate
+          <lb ed="#P" n="74"/>tres subsistentias realiter distinctas, id est,
+          <lb ed="#P" n="75"/>tres hypostases. Et sub illis terminis 
+          invenie<lb break="no" ed="#P" n="76"/>tur illa locutio in 5 et 6 Synodo, et fere in
+          <lb ed="#P" n="77"/>alus Graecis translatis in latinam linguam:
+          <lb ed="#P" n="78"/>semper tamen Graece respondet vox hypostasis.
+          <lb ed="#P" n="79"/>Unde etiam Concilium Lateranense sub 
+          Mar<lb break="no" ed="#P" n="80"/>uno V, et Justinus Imperator in edicto ad
+          <lb ed="#P" n="81"/>Joannem papam, et alii saepe, subsistentiam
+          <lb ed="#P" n="82"/>illo modo accipiunt, cum de tribus 
+          subsisten<lb break="no" ed="#P" n="83"/>tiüs in Trinitate loquuntur. Scholastici vero
+          <lb ed="#P" n="84"/>eam vocem sumunt in vi nominis abstracti,
+          <lb ed="#P" n="85"/>ad significandum proprietatem illam, seu 
+          ra<lb break="no" ed="#P" n="86"/>tionem, a qua habent personae, quod 
+          subsis<lb break="no" ed="#P" n="87"/>tant, et in hoc sensu sunt de praesenti 
+          quaes<lb break="no" ed="#P" n="88"/>tione opiniones inter scholasticos.
+        </p>
+        <p xml:id="szduep-149978-d1e174">
+          <lb ed="#P" n="89"/>9. Prior opinio negans.— Prima opinio 
+          ne<lb break="no" ed="#P" n="90"/>gat, esse in tribus personis tres rationes 
+          sub<lb break="no" ed="#P" n="91"/>sistendi, sed unam tantum essentialem et 
+          ab<lb break="no" ed="#P" n="92"/>solutam. Ita tenuit Durandus, in 3, distinct. 1,
+          <lb ed="#P" n="93"/>quaestione secunda, et ibi Capreolus, et 
+          Palu<lb break="no" ed="#P" n="94"/>danus, idemque sentit Scotus, quaestione 2, 8
+          <lb ed="#P" n="95"/>Ad questionem igitur, et aliis in locis, quae
+          <lb ed="#P" n="96"/>dicto loco retuli. Fundamenta afferuntur 
+          mul<lb break="no" ed="#P" n="97"/>ta, sed unum est caput omnium et difficile,
+          <lb ed="#P" n="98"/>scilicet, quia divina natura per se ipsam 
+          essen<lb break="no" ed="#P" n="99"/>tialiter subsistens est, ergo non subsistit in
+          <lb ed="#P" n="100"/>personis per proprias aliquas subsistentias 
+          per<lb break="no" ed="#P" n="101"/>sonales, ergo non dantur, in divinis personis
+          <lb ed="#P" n="102"/>tres personales subsistentiae realiter inter se
+          <lb ed="#P" n="103"/>distinctae. Antecedens probabitur a nobis infra
+          <lb ed="#P" n="104"/>in libro sequenti. Nunc breviter declaratur ,
+          <lb ed="#P" n="105"/>quia esse divinum est ipsum esse per 
+          essen<lb break="no" ed="#P" n="106"/>tiam. De ratione autem intrinseca et essentiali
+          <lb ed="#P" n="107"/>hujus esse est, quod sit subsistens : nam sicut
+          <pb ed="#P" n="594"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>per se et essentialiter necessario est, ita etiam
+          <lb ed="#P" n="2"/>necessario, ac essentialiter per se est: 
+          subsisten<lb break="no" ed="#P" n="3"/>tia autem nihilaliud est, quam per se existentia.
+          <lb ed="#P" n="4"/>Consequentia autem prima probatur primo, -
+          <lb ed="#P" n="5"/>quia subsistentia personalis ad hoc tantum est
+          <lb ed="#P" n="6"/>ut natura per illam subsistat, sed jam haec 
+          na<lb break="no" ed="#P" n="7"/>tura per illam subsistat, sed jam haec natura
+          <lb ed="#P" n="8"/>divina per se subsistit praecisa relatione, ergo
+          <lb ed="#P" n="9"/>non conjungitur relationi, ut per illam 
+          resis<lb break="no" ed="#P" n="10"/>tat, ergo relatio non affert secum specialem
+          <lb ed="#P" n="11"/>subsistentiam. Secundo, quia nulla 
+          subsisten<lb break="no" ed="#P" n="12"/>tia est amplius terminabilis, quia repugnat
+          <lb ed="#P" n="13"/>subsistentiae esse in alio : ergo non potest 
+          per<lb break="no" ed="#P" n="14"/>sona divina habere subsistentiam propriam,
+          <lb ed="#P" n="15"/>per quam terminet absolutam: ergo nullam
+          <lb ed="#P" n="16"/>habet propriam, ac personalem : quia munus
+          <lb ed="#P" n="17"/>subsistentiae est terminare : ergo hoc ablato,
+          <lb ed="#P" n="18"/>necessaria non est, neque possibilis. Alii 
+          ar<lb break="no" ed="#P" n="19"/>gumentantur tertio ex propria ratione 
+          relatio<lb break="no" ed="#P" n="20"/>nis, quia cum sit esse ad aliud, non potest dare
+          <lb ed="#P" n="21"/>subsistere, juxta Augustinum 7, de Trinitate,
+          <lb ed="#P" n="22"/>cap. 4, ubi dicit : Omnem rem ad se subsistere
+          <lb ed="#P" n="23"/>et multo magis Deum.
+        </p>
+        <p xml:id="szduep-149978-d1e273">
+          <lb ed="#P" n="24"/>3. Assertio affirmans. — Dicendum vero
+          <lb ed="#P" n="25"/>est , dari in divinis personis tres 
+          subsisten<lb break="no" ed="#P" n="26"/>tias personales inter se realiter distinctas.
+          <lb ed="#P" n="27"/>Haec assertio communis est theologorum , et
+          <lb ed="#P" n="28"/>mihi videtur certa. Sumitur ex D. Thoma,
+          <lb ed="#P" n="29"/>1 p., q. 28, tota, et 30, et q. 38, art. 4, ad 3.
+          <lb ed="#P" n="30"/>Ubi Cajetanus idem tenet, et 3 p., q. 2, art.1
+          <lb ed="#P" n="31"/>et q. 3, art. 3. Et communiter Thomistae et
+          <lb ed="#P" n="32"/>recentiores theologi. Et sumitur etiam ex Scoto
+          <lb ed="#P" n="33"/>quodlibet 4 et 5, Henrico quodlib. 5, quaest 8,
+          <lb ed="#P" n="34"/>et Alensis, 3 p., quaest. 2, memb. 3. Et 
+          deni<lb break="no" ed="#P" n="35"/>que omnes, qui negant subsistentiam 
+          absolu<lb break="no" ed="#P" n="36"/>tam, necessario concedunt has relativas, quos
+          <lb ed="#P" n="37"/>infra suo loco referemus. Probatur autem 
+          pri<lb break="no" ed="#P" n="38"/>mo ex Concilis, et Patribus, adjuncta regula
+          <lb ed="#P" n="39"/>tradita in capite superiori. Nam Patres et 
+          Con<lb break="no" ed="#P" n="40"/>cilia tres personas absolute vocant tres 
+          subsis<lb break="no" ed="#P" n="41"/>tentias. Et licet utantur nomine subsistentia
+          <lb ed="#P" n="42"/>pro concreto, tamen cum vox illa substantiva
+          <lb ed="#P" n="43"/>significet, sentiunt dicti Patres, divinas 
+          perso<lb break="no" ed="#P" n="44"/>nas non adjective tantum, sed substantive esse
+          <lb ed="#P" n="45"/>tres subsistentes. Unde recte concluditur etiam
+          <lb ed="#P" n="46"/>formale significatum illius vocis in divinis 
+          per<lb break="no" ed="#P" n="47"/>sonis multiplicari. Sicut ergo in Deo sunt tres
+          <lb ed="#P" n="48"/>subsistentes substantive, ita etiam sunt tres
+          <lb ed="#P" n="49"/>ationes subsistendi, et has vocamus tres 
+          subsis<lb break="no" ed="#P" n="50"/>tentias personales.
+        </p>
+        <p xml:id="szduep-149978-d1e334">
+          <lb ed="#P" n="51"/>4. Secundo probatur assertio ex resolutione
+          <lb ed="#P" n="52"/>praecedentis capitis. Nam in Deo sunt tres 
+          per<lb break="no" ed="#P" n="53"/>sonalitates, ex principio posito, quia 
+          perso<lb break="no" ed="#P" n="54"/>na substantivum nomen est: ergo sunt tres
+          <lb ed="#P" n="55"/>subsistentiae personales, ut loquitur etiam So-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>phronius in sua Epistola, quae habetur 6 
+          Syno<lb break="no" ed="#P" n="57"/>do, actione 11. Probatur consequentia, quia
+          <lb ed="#P" n="58"/>est ab inferiori ad superius, nam de ratione
+          <lb ed="#P" n="59"/>personalitatis est, ut sit subsistentia. Addit
+          <lb ed="#P" n="60"/>vero, quod sit incommunicabilis et in 
+          na<lb break="no" ed="#P" n="61"/>tura rationali, atque ita homo ab eodem habet,
+          <lb ed="#P" n="62"/>quod subsistat, et quod sit persona. Et ideo
+          <lb ed="#P" n="63"/>etiam in Christo Domino sicut non datur 
+          per<lb break="no" ed="#P" n="64"/>sonalitas creata, ita nec subsistentia creata.
+        </p>
+        <p xml:id="szduep-149978-d1e369">
+          <lb ed="#P" n="65"/>5. Evasio. — Respondent tamen auctores
+          <lb ed="#P" n="66"/>contrariae sententiae, aliud esse in creaturis,
+          <lb ed="#P" n="67"/>aliud vero in Deo, quia creaturae ab eodem 
+          for<lb break="no" ed="#P" n="68"/>mali principio habent subsistere et 
+          incommu<lb break="no" ed="#P" n="69"/>nicabiliter subsistere, quia subsistentia creata
+          <lb ed="#P" n="70"/>Iimitata est. Persona autem divina aliunde
+          <lb ed="#P" n="71"/>habet subsistentiam et aliunde 
+          incommunica<lb break="no" ed="#P" n="72"/>bilitatem : nam subsistentiam habet ab 
+          essen<lb break="no" ed="#P" n="73"/>tia, tamen quia illa est infinita et 
+          communica<lb break="no" ed="#P" n="74"/>bilis, indiget relatione, ut ab illa habeat 
+          in<lb break="no" ed="#P" n="75"/>communicabilitatem. Unde fit, ut in divinis
+          <lb ed="#P" n="76"/>personis multiplicentur tres 
+          incommunicabih<lb break="no" ed="#P" n="77"/>tates, et consequenter tres personae, et tres
+          <lb ed="#P" n="78"/>personalitates, quia personalitas non dicit 
+          ra<lb break="no" ed="#P" n="79"/>tionem subsistendi absolute, vel utcumque,
+          <lb ed="#P" n="80"/>sed dicit rationem incommunicabiliter 
+          subsis<lb break="no" ed="#P" n="81"/>tendi. Et eodem modo respondent ad Patres,
+          <lb ed="#P" n="82"/>locutos esse de subsistentia, prout idem est,
+          <lb ed="#P" n="83"/>quod hypostasis, vel suppositum, de cujus 
+          ra<lb break="no" ed="#P" n="84"/>tione etiam est incommunicabiltas.
+        </p>
+        <p xml:id="szduep-149978-d1e415">
+          <lb ed="#P" n="85"/>6. Refellitur. — Haec doctrina in se quidem
+          <lb ed="#P" n="86"/>vera est, male tamen applicatur. Nam ex ea
+          <lb ed="#P" n="87"/>convinci potest, quod intendimus. Quoniam
+          <lb ed="#P" n="88"/>illa incommunicabilitatis non potest esse mera
+          <lb ed="#P" n="89"/>negatio, alioqui persona divina supra Deum
+          <lb ed="#P" n="90"/>subsistentem, ut sic, solam negationem adderet,
+          <lb ed="#P" n="91"/>quod plane falsum et absurdum est. Quia inde
+          <lb ed="#P" n="92"/>sequeretur, hunc Deum absolute subsistentem,
+          <lb ed="#P" n="93"/>esse incommuncabilem quoad totam suam
+          <lb ed="#P" n="94"/>entitatem absolutam, positivam et realem,
+          <lb ed="#P" n="95"/>quia propter solam negationem non 
+          commu<lb break="no" ed="#P" n="96"/>nicatur, vel, quod perinde est, soh negationi
+          <lb ed="#P" n="97"/>non communicatur, imo cum illa negatio 
+          di<lb break="no" ed="#P" n="98"/>catur esse incommunicabilitas, per illam 
+          con<lb break="no" ed="#P" n="99"/>stitueretur illa entitas prorsus 
+          incommunicabi<lb break="no" ed="#P" n="100"/>lis. Praeterquam quod intelligi non potest,
+          <lb ed="#P" n="101"/>quomodo triplex illa negatio pura cadat in 
+          di<lb break="no" ed="#P" n="102"/>vinam subsistentiam essentialem, et quomodo
+          <lb ed="#P" n="103"/>per negationem constituatur persona, vel in
+          <lb ed="#P" n="104"/>quo incommunicabilis reddatur una persona
+          <lb ed="#P" n="105"/>respectu aliarum ejusdem natursae. Necessarium
+          <lb ed="#P" n="106"/>ergo est, ut per illam vocem subsistentie 
+          in<lb break="no" ed="#P" n="107"/>communicabilis, significetur aliqua forma 
+          posi<lb break="no" ed="#P" n="108"/>tiva, ita propria unius personae, ut non 
+          com<lb break="no" ed="#P" n="109"/>municetur aliis. S
+        </p>
+        <p xml:id="szduep-149978-d1e472">
+          <lb ed="#P" n="110"/>7. Interrogo igitur, an illa forma ex pro-
+          <pb ed="#P" n="595"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prio conceptu, et ratione sit subsistens, seu
+          <lb ed="#P" n="2"/>ratio subsistendi, necne. Si primum detur, 
+          il<lb break="no" ed="#P" n="3"/>Iud ipsum est quod intendimus : nam illa 
+          for<lb break="no" ed="#P" n="4"/>ma incommunicabilis in unaquaque persona
+          <lb ed="#P" n="5"/>divina non potest esse nisi propria ejus 
+          rela<lb break="no" ed="#P" n="6"/>tio, ut nunc suppono : ergo si talis forma ex
+          <lb ed="#P" n="7"/>propria ratione est subsistens, vel ratio 
+          subsis<lb break="no" ed="#P" n="8"/>tendi illud habet ex ratione propria, 
+          acper<lb break="no" ed="#P" n="9"/>sonali, seu relativa (haec enim omnia 
+          conver<lb break="no" ed="#P" n="10"/>tuntur in divinis, ut infra dicam) quod autem
+          <lb ed="#P" n="11"/>hujusmodi est, multiplicatur in divinis 
+          per<lb break="no" ed="#P" n="12"/>sonis, ut saepe dictum est. Si autem illa forma
+          <lb ed="#P" n="13"/>ex propria ratione non est subsistens, seu ratio
+          <lb ed="#P" n="14"/>subsistendi , manifeste sequitur , in Deo non
+          <lb ed="#P" n="15"/>esse tres personas, nec tres subsistentes, sed
+          <lb ed="#P" n="16"/>ad summum unum subsistens affectum 
+          pluri<lb break="no" ed="#P" n="17"/>bus formis quasi adjacentibus illi. Declaratur
+          <lb ed="#P" n="18"/>hoc, quia si formae illae ex propriis rationibus
+          <lb ed="#P" n="19"/>secum non afferunt subsistentiam, necessarium
+          <lb ed="#P" n="20"/>est , intelligantur advenire rei subsistenti , et
+          <lb ed="#P" n="21"/>illi quasi adjacere, nam haec duo immediate,
+          <lb ed="#P" n="22"/>et adaequate dividunt formam, seu 
+          proprieta<lb break="no" ed="#P" n="23"/>tem , quia oportet , ut vel sit subsistens , seu
+          <lb ed="#P" n="24"/>ratio subsistendi , vel ut sit inhaerens, aut
+          <lb ed="#P" n="25"/>quasi inhaerens, nostro modo concipiendi.
+        </p>
+        <p xml:id="szduep-149978-d1e535">
+          <lb ed="#P" n="26"/>8. Unde etiam sequeretur , quod hic Deus
+          <lb ed="#P" n="27"/>subsistens, ut sic, vere, proprie, et complete
+          <lb ed="#P" n="28"/>sit persona, quia rationi personae non obstat,
+          <lb ed="#P" n="29"/>quod illi jam subsistenti adveniant plures 
+          for<lb break="no" ed="#P" n="30"/>mae non subsistentes, quantumvis illae inter se
+          <lb ed="#P" n="31"/>incommunicabiles dicantur , id est, realiter
+          <lb ed="#P" n="32"/>distinctae. Nam communicari alteri tanquam
+          <lb ed="#P" n="33"/>formae, ad sustentandam illam, non est contra
+          <lb ed="#P" n="34"/>rationem personse, et suppositi, ut in 
+          princi<lb break="no" ed="#P" n="35"/>pio hujus materiae dixi, et constat in Verbo
+          <lb ed="#P" n="36"/>divino, quod humanitati communicatur, et
+          <lb ed="#P" n="37"/>posset simul communicari aliis naturis realiter
+          <lb ed="#P" n="38"/>distinctis. Atque haec ratio videtur mihi unica,
+          <lb ed="#P" n="39"/>et sufficiens ad confirmandam banc 
+          senten<lb break="no" ed="#P" n="40"/>tiam.
+        </p>
+        <p xml:id="szduep-149978-d1e571">
+          <lb ed="#P" n="41"/>9. Confirmatur assertio. — Potest autem
+          <lb ed="#P" n="42"/>confirmari primo, quia juxta sententiam 
+          op<lb break="no" ed="#P" n="43"/>positam multo difficihus intelligi potest 
+          Tri<lb break="no" ed="#P" n="44"/>nitatis mysterium. Quomodo enim intelligi
+          <lb ed="#P" n="45"/>poterit processio substantialis, nisi terminetur
+          <lb ed="#P" n="46"/>ad rem subsistentem secundum propriam 
+          ra<lb break="no" ed="#P" n="47"/>tionem suam, quae sit terminus completus 
+          il<lb break="no" ed="#P" n="48"/>lius processionis ? Qua etiam ratione intelligi
+          <lb ed="#P" n="49"/>poterit oppositio relativa, qualis in Deo 
+          neces<lb break="no" ed="#P" n="50"/>saria est? Nam esse debet inter res 
+          subsisten<lb break="no" ed="#P" n="51"/>tes, ut sic, cum sit relatio originis. Denique
+          <lb ed="#P" n="52"/>intelligi non poterit, quomodo divina natura
+          <lb ed="#P" n="53"/>dicatur esse in tribus personis, nam potius 
+          di<lb break="no" ed="#P" n="54"/>cendum esset, tres relationes esse in hoc Deo
+          <lb ed="#P" n="55"/>subsistente. Secundo potest confirmari ex mys-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>terio incarnationis, quia si Verbum divinum
+          <lb ed="#P" n="57"/>non habet propriam personalem subsistentiam,
+          <lb ed="#P" n="58"/>intelligi non potest, quomodo unio 
+          hyposta<lb break="no" ed="#P" n="59"/>tica in illo facta sit, et non in aliis personis.
+        </p>
+        <p xml:id="szduep-149978-d1e617">
+          <lb ed="#P" n="60"/>10. Solvuntur argumenta. — Ad 
+          fundamen<lb break="no" ed="#P" n="61"/>tum contrariae sententiae dicam ex professo in
+          <lb ed="#P" n="62"/>libro sequenti. Multi enim theologi illo 
+          con<lb break="no" ed="#P" n="63"/>victi negant dari in Deo subsistentiam 
+          essen<lb break="no" ed="#P" n="64"/>tialem, putant enim, subsistentiam absolutam
+          <lb ed="#P" n="65"/>pugnare cum relativis, et ideo ne relativas
+          <lb ed="#P" n="66"/>negent, negant absolutam. Quod etiam ego
+          <lb ed="#P" n="67"/>faciendum judicarem, si alterutrum esset 
+          ne<lb break="no" ed="#P" n="68"/>cessarium : censeo autem non esse, et ideo
+          <lb ed="#P" n="69"/>dato antecedente, nego consequentiam. Quia
+          <lb ed="#P" n="70"/>in divina persona, quae nostro modo 
+          intelli<lb break="no" ed="#P" n="71"/>gendi constat ex natura, et personalitate ,
+          <lb ed="#P" n="72"/>utraque ex propria ratione subsistens est, 
+          ne<lb break="no" ed="#P" n="73"/>que hoc repugnat, quia non uniuntur per
+          <lb ed="#P" n="74"/>compositionem, sed per summam identitatem,
+          <lb ed="#P" n="75"/>et simplicitatem , ut dicto loco amplius 
+          de<lb break="no" ed="#P" n="76"/>clarabo.
+        </p>
+        <p xml:id="szduep-149978-d1e656">
+          <lb ed="#P" n="77"/>11. Quocirca ad priorem probationem ibi
+          <lb ed="#P" n="78"/>adductam respondeo, subsistentiam non 
+          tan<lb break="no" ed="#P" n="79"/>tum esse, ut natura subsistat, sed etiam ut
+          <lb ed="#P" n="80"/>persona subsistat, et in Deo subsistentia 
+          per<lb break="no" ed="#P" n="81"/>sonalis est necessaria, ut ipsa relatio ex se in
+          <lb ed="#P" n="82"/>suo conceptu subsistens sit. Igitur licet demus
+          <lb ed="#P" n="83"/>divinam essentiam non conjungi relationi ex
+          <lb ed="#P" n="84"/>indigentia subsistendi, nihilominus 
+          necessa<lb break="no" ed="#P" n="85"/>rium est, ut relatio ipsa ex se subsistens sit, ut
+          <lb ed="#P" n="86"/>possit veram personam constituere. Ad 2, 
+          res<lb break="no" ed="#P" n="87"/>pondetur eo modo , quo subsistentia potest
+          <lb ed="#P" n="88"/>esse communicabilis multis personis, esse posse
+          <lb ed="#P" n="89"/>terminabilem, non per compositionem, sed
+          <lb ed="#P" n="90"/>per summam identitatem. Ad 3, infra 
+          tractan<lb break="no" ed="#P" n="91"/>dum est, an relatio divina secundum 
+          pro<lb break="no" ed="#P" n="92"/>priam rationem relationis constituat 
+          perso<lb break="no" ed="#P" n="93"/>nam, et subsistens sit, nunc breviter dicitur
+          <lb ed="#P" n="94"/>ipsummet, esse ad, in se aliquid esse, et ut sic
+          <lb ed="#P" n="95"/>posse esse subsistens. Ad Augustinum vero 
+          res<lb break="no" ed="#P" n="96"/>pondet divus Thomas, 1 parte, quaestione 
+          vige<lb break="no" ed="#P" n="97"/>sima nona, articulo quarto ad primum, 
+          rela<lb break="no" ed="#P" n="98"/>tionem, ut subsistens est, non considerari, nec
+          <lb ed="#P" n="99"/>nominari, ut respicit, sed ut in se aliud est, et
+          <lb ed="#P" n="100"/>ideo dixisse Augustinum, quidquid subsistet, ad
+          <lb ed="#P" n="101"/>se subsistere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

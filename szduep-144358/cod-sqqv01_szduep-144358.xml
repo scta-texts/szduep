@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="570"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-144358"><!-- t3-l1c12 -->
+        <head xml:id="szduep-144358-Hd1e101">Caput 12</head>
+        <head xml:id="szduep-144358-Hd1e103" type="question-title">Quomodo possit intellectus creatus cognoscere vel ostendere personarum trinitatem in deo, supposita divina revelatione</head>
+        <p xml:id="szduep-144358-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>CAPUT XI.
+          <lb ed="#P" n="55"/>QUOMODO POSSIT INTELLECTUS CREATUS COGNOSCERE 
+          <lb ed="#P" n="56"/>VEL OSTENDERE PERSONARUM TRINITATEM IN 
+          <lb ed="#P" n="57"/>DEO, SUPPOSITA DIVINA REVELATIONE.
+        </p>
+        <p xml:id="szduep-144358-d1e119">
+          <lb ed="#P" n="58"/>1. Supponimus primo, posse Deum revelare 
+          <lb ed="#P" n="59"/>homini hoc mysterium, quod est de fide 
+          cer<lb break="no" ed="#P" n="60"/>tum, ut constat ex fideejusdem mysteru, quam
+          <lb ed="#P" n="61"/>profitemur, confitentes non habere nos illam, 
+          <lb ed="#P" n="62"/>nisi ex divina revelatione.
+        </p>
+        <p xml:id="szduep-144358-d1e132">
+          <lb ed="#P" n="63"/>2. Supponimus secundo, hanc revelationem 
+          <lb ed="#P" n="64"/>fieri posse vel obscure, vel evidenter, seu 
+          ali<lb break="no" ed="#P" n="65"/>ter esse posse, aut viae, aut Patriae. De hac 
+          pos<lb break="no" ed="#P" n="66"/>teriori nulla est quaestio, quia certum est, in 
+          <lb ed="#P" n="67"/>Patria revelari hoc mysterium beatis 
+          revela<lb break="no" ed="#P" n="68"/>tione clara et evidenti, scilicet per manisfestam 
+          <lb ed="#P" n="69"/>visionem, qua videtur Deus, sicuti est. Imo
+          <lb ed="#P" n="70"/>verissimum credimus, separari non posse 
+          vi<lb break="no" ed="#P" n="71"/>sionem personarum a visione divinae essentiee, 
+          <lb ed="#P" n="72"/>propter summam identitatem et intrinsecam 
+          <lb ed="#P" n="73"/>connexionem et habitudinem, quam inter se 
+          <lb ed="#P" n="74"/>habent, ut latius in prima parte, quaestione
+          <lb ed="#P" n="75"/>duodecima ostenditur. Unde etiam certum 
+          <lb ed="#P" n="76"/>est, hoc mysterium revelatum fuisse clare et
+          <lb ed="#P" n="77"/>evidenter sanctis angelis, cum primum beati
+          <lb ed="#P" n="78"/>effecti sunt, et postea Christi animae, ac 
+          tan<lb break="no" ed="#P" n="79"/>dem hominibus beatis.
+        </p>
+        <p xml:id="szduep-144358-d1e172">
+          <lb ed="#P" n="80"/>3. De revelatione autem viae, cum sit 
+          cer<lb break="no" ed="#P" n="81"/>tum, aliquam esse possibilem, scilicet, 
+          obscu<lb break="no" ed="#P" n="82"/>ram et in aenigmate, dubitant theologi, an sola
+          <lb ed="#P" n="83"/>illa possibilis sit, ac subinde, an revelatio 
+          Tri<lb break="no" ed="#P" n="84"/>nitatis extra visionem claram, sit obscura ex
+          <lb ed="#P" n="85"/>necessitate, vel possit esse aliqua evidens, non
+          <lb ed="#P" n="86"/>intuitiva, sed abstractiva. Haec autem quaestio
+          <lb ed="#P" n="87"/>alterius loci est, ut capite praecedenti attigi. Et
+          <lb ed="#P" n="88"/>ideo breviter suppono, revelationem omnem 
+          <lb ed="#P" n="89"/>hujus mysterii, quae non ostendit illud 
+          intui<lb break="no" ed="#P" n="90"/>tive, et in se, debere necessario nisi aliquo 
+          tes<lb break="no" ed="#P" n="91"/>timonio, et auctoritate alicujus affirmantis, et
+          <lb ed="#P" n="92"/>dicentis esse in DEO tres personas. Ratio est,
+          <lb ed="#P" n="93"/>quia directe et in se non potest cognosci hoc
+          <lb ed="#P" n="94"/>mysterium, nisi intuitive, ut probant adducta
+          <lb ed="#P" n="95"/>contra Scotum in capite praecedenti. Ex 
+          effec<lb break="no" ed="#P" n="96"/>tibus item demonstrari non potest, ut supra 
+          <lb ed="#P" n="97"/>etiam probatum est de effectibus naturalibus,
+          <lb ed="#P" n="98"/>est autem eadem ratio de supernaturalibus, 
+          <lb ed="#P" n="99"/>ut in 1 tomo, 3 parte, disput. 26, late ostendi.
+          <lb ed="#P" n="100"/>Solum ergo relinquitur revelatio per 
+          testimo<lb break="no" ed="#P" n="101"/>nium revelantis, seu loquentis. Nam 
+          manu<lb break="no" ed="#P" n="102"/>ductio aliqua per rationes probabiles parvi
+          <lb ed="#P" n="103"/>momenti esse potest ad generandum assensum,
+          <lb ed="#P" n="104"/>nisi fides prius supponatur,ut mox dicemus.
+          <lb ed="#P" n="105"/>Oportet ergo, ut omnis revelatio hujus 
+          myste<lb break="no" ed="#P" n="106"/>rii, quae sit viae, seu extra visionem intuiti-
+          <pb ed="#P" n="571"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vam ejus, fiat per testificationem revelationis.
+          <lb ed="#P" n="2"/>Haec autem ulterius distingui solet duplex, una
+          <lb ed="#P" n="3"/>cum evidentia testificationis : alia cum 
+          obscu<lb break="no" ed="#P" n="4"/>ritate tam revelantis, quam rei revelatae: et
+          <lb ed="#P" n="5"/>ergo, ut. mihi certum, suppono utramque esse
+          <lb ed="#P" n="6"/>possibilem. An vero distinguantur specie nec
+          <lb ed="#P" n="7"/>ne, et an utraque sit vera fides, et an possint
+          <lb ed="#P" n="8"/>vesse simul, etiam quod actus, vel concurrere
+          <lb ed="#P" n="9"/>i ad eumdem actum, sunt quaestiones 
+          pertinen<lb break="no" ed="#P" n="10"/>tes ad materiam de fide, quae hic miscendae
+          <lb ed="#P" n="11"/>non sunt, quia non referunt ad doctrinam 
+          ip<lb break="no" ed="#P" n="12"/>sius mysterii, quam tradere intendimus, 
+          lo<lb break="no" ed="#P" n="13"/>quimur ergo nunc de sola fidei revelatione,
+          <lb ed="#P" n="14"/>quae continet ordinarium modum cognoscendi
+          <lb ed="#P" n="15"/>hoc mysterium in via.
+        </p>
+        <p xml:id="szduep-144358-d1e270">
+          <lb ed="#P" n="16"/>4. Qualis sit cognitio per obscuram 
+          revela<lb break="no" ed="#P" n="17"/>tionem. — Supposita igitur hac revelatione,
+          <lb ed="#P" n="18"/>duo inquiri possunt. Unum est, an ipsa 
+          reve<lb break="no" ed="#P" n="19"/>latio per se conferat aliquam cognitionem 
+          hu<lb break="no" ed="#P" n="20"/>jus mysterii. Aliud est, an illa supposita, 
+          pos<lb break="no" ed="#P" n="21"/>sit naturale lumen intellectus, quasi per 
+          redun<lb break="no" ed="#P" n="22"/>dantiam confortari ad ostendendum, vel 
+          pro<lb break="no" ed="#P" n="23"/>bandum hoc mysterium suo discursu naturali.
+          <lb ed="#P" n="24"/>Circa primum dicendum est, illam 
+          revelatio<lb break="no" ed="#P" n="25"/>nem, quantum est ex se, conferre homini 
+          cog<lb break="no" ed="#P" n="26"/>nitionem aliquam hujus mysteri, illam vero,
+          <lb ed="#P" n="27"/>si proportionata sit revelationi. non esse 
+          na<lb break="no" ed="#P" n="28"/>turalem, sed supernaturalem, atque adeo non
+          <lb ed="#P" n="29"/>esse ex naturalibus viribus intellectus, sed ex
+          <lb ed="#P" n="30"/>gratia. Omnia sunt certa et facillime declarari
+          <lb ed="#P" n="31"/>possunt et probari, advertendo, nomine 
+          reve<lb break="no" ed="#P" n="32"/>lationis interdum significari solam objecti 
+          re<lb break="no" ed="#P" n="33"/>velati sufficientem propositionem, sive 
+          creda<lb break="no" ed="#P" n="34"/>tur ab eo, cui fit talis revelatio, sive non, et sive
+          <lb ed="#P" n="35"/>revelatio fiat mere interius ab ipso Deo per se
+          <lb ed="#P" n="36"/>ipsum, vel per angelos, sive fiat exterius per
+          <lb ed="#P" n="37"/>hominum praedicationem. Et hoc modo hic
+          <lb ed="#P" n="38"/>revelatione loquimur, et ideo addidimus in 
+          as<lb break="no" ed="#P" n="39"/>sertione illam particulam, quantum est ex se,
+          <lb ed="#P" n="40"/>quia cum hac revelatione stat, hominem non
+          <lb ed="#P" n="41"/>assentire veritati revelatae, et tunc dici non
+          <lb ed="#P" n="42"/>potest cognoscere illam, sicut qui audit, astra
+          <lb ed="#P" n="43"/>esse paria et non assentit, nec judicat esse 
+          pa<lb break="no" ed="#P" n="44"/>ria, non cognoscit esse paria, sed tantuth 
+          ap<lb break="no" ed="#P" n="45"/>prehendit et audit, id affirmari, vel dici. At si
+          <lb ed="#P" n="46"/>judicet et assentiatur, jam aliquo modo 
+          cog<lb break="no" ed="#P" n="47"/>noscit. Quia ergo haec revelatio quantum est
+          <lb ed="#P" n="48"/>ex se, inducit ad assensum, ideo quantum est
+          <lb ed="#P" n="49"/>ex se, aliquam cognitionem praebet. Atque hoc
+          <lb ed="#P" n="50"/>modo loquuntur de revelatione Concilia, et
+          <lb ed="#P" n="51"/>Augustinus, quoties contra Pelagium docent,
+          <lb ed="#P" n="52"/>non sufficere revelationem, aut doctrinam, ad
+          <lb ed="#P" n="53"/>cognoscendum hoc mysterium, nisi adsit etiam
+          <lb ed="#P" n="54"/>Spiritus sancti gratia, quae adjuvet et inspiret
+          <lb ed="#P" n="55"/>assensum.
+        </p>
+        <p xml:id="szduep-144358-d1e359">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>5. Per quam doctrinam probata relinquitur
+          <lb ed="#P" n="57"/>reliqua conclusionis pars, quae certissima est,
+          <lb ed="#P" n="58"/>quia haec assensio per fidem supernaturalis est
+          <lb ed="#P" n="59"/>in se, et ideo praeter objecti propositionem 
+          suf<lb break="no" ed="#P" n="60"/>ficientem, indiget supernaturali principio, a
+          <lb ed="#P" n="61"/>quo fiat. Atque hinc ortum est, ut nomine 
+          re<lb break="no" ed="#P" n="62"/>velationis interdum in Scriptura significetur
+          <lb ed="#P" n="63"/>ipsamet interna inspiratio, et infusio interioris
+          <lb ed="#P" n="64"/>luminis, quae efficaciter generat fidem, 
+          quo<lb break="no" ed="#P" n="65"/>modo dixit Christus Petro Matth. 16: Caro et
+          <lb ed="#P" n="66"/>sanguis non revelavit tibi, sed Pater meus, et
+          <lb ed="#P" n="67"/>Matth. 11, generaliter dixit: Nemo novit 
+          Fi<lb break="no" ed="#P" n="68"/>lium, nisi Pater, neque Patrem quis novit,
+          <lb ed="#P" n="69"/>nisi Filius, et cui voluerit Filius revelare. Haec
+          <lb ed="#P" n="70"/>enim revelatio non solum ex parte objecti, sed
+          <lb ed="#P" n="71"/>etiam ex parte potentiae fit, et ideo objecti 
+          pro<lb break="no" ed="#P" n="72"/>positionem et inspirationem, ac adjutorium ad
+          <lb ed="#P" n="73"/>credendum includit.
+        </p>
+        <p xml:id="szduep-144358-d1e403">
+          <lb ed="#P" n="74"/>6. Hic autem observare necesse est, Patres
+          <lb ed="#P" n="75"/>interdum significare, per hanc revelationem,
+          <lb ed="#P" n="76"/>non generari in nobis cognitionem aliquam
+          <lb ed="#P" n="77"/>hujus mysterii, quia fidem ab agnitione 
+          con<lb break="no" ed="#P" n="78"/>distinguunt, et ignorationem potius, quam
+          <lb ed="#P" n="79"/>notionem esse dicunt. Imo Dionysius, cap. 7,
+          <lb ed="#P" n="80"/>de Divinis Nominibus, et toto libro de mystica
+          <lb ed="#P" n="81"/>Theologia in universum ait, Deum potius 
+          igno<lb break="no" ed="#P" n="82"/>rari a nobis in hac vita, quam cognosci, 
+          quan<lb break="no" ed="#P" n="83"/>tumvis in eum credamus, imo etiamsi theologi
+          <lb ed="#P" n="84"/>simus. Loquuntur autem Patres in prioribus
+          <lb ed="#P" n="85"/>locis de agnitione , qua cognoscitur res,
+          <lb ed="#P" n="86"/>prout in se est. Unde e converso, ignorantiam
+          <lb ed="#P" n="87"/>vocant, obscuram illam caliginem, in qua Deus
+          <lb ed="#P" n="88"/>in hac vita creditur. Non potest autem negari,
+          <lb ed="#P" n="89"/>quin in illa sit vera cognitio, cum rei 
+          appre<lb break="no" ed="#P" n="90"/>hensionem aliquam, et verum judicium 
+          inclu<lb break="no" ed="#P" n="91"/>dat, unde in Scriptura, non solum cognitio,
+          <lb ed="#P" n="92"/>sed etiam magna sapientia vocari solet, unde
+          <lb ed="#P" n="93"/>Fulgentius ad objectiones Arianorum advertit
+          <lb ed="#P" n="94"/>non dixisse Isaiam, generationem ejus quis
+          <lb ed="#P" n="95"/>cognoscit ^ sed, quis enarrabit? quia fide 
+          ali<lb break="no" ed="#P" n="96"/>quo modo cognosci potest, enarrari autem,
+          <lb ed="#P" n="97"/>quomodo sit, non potest.
+        </p>
+        <p xml:id="szduep-144358-d1e458">
+          <lb ed="#P" n="98"/>7. Denique est in hoc puncto 
+          consideran<lb break="no" ed="#P" n="99"/>dum, nos loqui de consideratione illa, quam
+          <lb ed="#P" n="100"/>per se generat talis revelatio, et quae ad 
+          salu<lb break="no" ed="#P" n="101"/>tem anirmae utilis esse possit, et ad hoc 
+          signi<lb break="no" ed="#P" n="102"/>ficandum addidimus in assertione illam 
+          parti<lb break="no" ed="#P" n="103"/>culam, si fecelationi proportionata sit. Haec
+          <lb ed="#P" n="104"/>enim cognitio est, quae proprie ex revelatione
+          <lb ed="#P" n="105"/>procedit, et ad quam est necessaria specialis
+          <lb ed="#P" n="106"/>gratia, praeter revelationem ex parte objecti.
+          <lb ed="#P" n="107"/>Nam si loquamur de imperfecta cognitione,
+          <lb ed="#P" n="108"/>vel assensu per fidem quamdam humanam, 
+          li<lb break="no" ed="#P" n="109"/>cet haberi non possit, non supposita aliqua
+          <lb ed="#P" n="110"/>revelatione, a qua procedat proxima proposi-
+          <pb ed="#P" n="572"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tio, vel narratio talis mysterii, juxta dicta in
+          <lb ed="#P" n="2"/>capite praecedenti, nihilominus assensus ipse
+          <lb ed="#P" n="3"/>naturalis est, quia non divina, sed humana 
+          ra<lb break="no" ed="#P" n="4"/>tione, vel testificatione proxime nititur, unde
+          <lb ed="#P" n="5"/>imperfectissimam, et de se incertam, ac 
+          for<lb break="no" ed="#P" n="6"/>midolosam assentionem generat. Est hoc 
+          ma<lb break="no" ed="#P" n="7"/>nifestum in homine haeretico, qui nihil credit
+          <lb ed="#P" n="8"/>vera fide infusa, et nihilominus huic mysterio
+          <lb ed="#P" n="9"/>assentitur : ex quo evidenter constat, illum
+          <lb ed="#P" n="10"/>assensum non esse fidei divina, sed humanae,
+          <lb ed="#P" n="11"/>ac proinde acquisitum, ac naturalem. Dices.
+          <lb ed="#P" n="12"/>Qui fieri potest, ut homo assentiatur tam 
+          dif<lb break="no" ed="#P" n="13"/>ficili mysterio per solam hominis auctoritatem,
+          <lb ed="#P" n="14"/>cum adeo apparenter evidentibus principiis
+          <lb ed="#P" n="15"/>naturae repugnare videatur. Respondeo id 
+          con<lb break="no" ed="#P" n="16"/>tingere, vel quia jam ille homo sibi persuasit,
+          <lb ed="#P" n="17"/>mysterium hoc non repugnare naturalibus
+          <lb ed="#P" n="18"/>principiis, intellexitque rationem, ob quem
+          <lb ed="#P" n="19"/>non repugnet, quae humana doctrina, et 
+          ratio<lb break="no" ed="#P" n="20"/>cinatione intelligi potest, aliquo modo, vel
+          <lb ed="#P" n="21"/>quia non habet tantum ingenium, vel 
+          discur<lb break="no" ed="#P" n="22"/>sum, ut illam difficultatem, et apparentem
+          <lb ed="#P" n="23"/>repugnantiam percipiat, vel certe, quia putat
+          <lb ed="#P" n="24"/>se credere testimonio divino, cum tamen 
+          re<lb break="no" ed="#P" n="25"/>vera fallatur, et suo arbitrio credat, quod vult,
+          <lb ed="#P" n="26"/>et quod vult, despiciat, ut latius traditur in
+          <lb ed="#P" n="27"/>materia de fide.
+        </p>
+        <p xml:id="szduep-144358-d1e552">
+          <lb ed="#P" n="28"/>8. Quomodo supposita fide, hic mysterium
+          <lb ed="#P" n="29"/>ostenditur . — Circa secundum punctum 
+          dixe<lb break="no" ed="#P" n="30"/>runt aliqui, supposita revelatione tanti 
+          myste<lb break="no" ed="#P" n="31"/>ri, et firma credulitate illius concepta, posse
+          <lb ed="#P" n="32"/>per vires ingenii humani inveniri rationes 
+          de<lb break="no" ed="#P" n="33"/>monstrativas mysterii. Haec forte fuit opinio
+          <lb ed="#P" n="34"/>Raymundi Lulli, sed est antiquior illo, nam
+          <lb ed="#P" n="35"/>eam refert Durandus, 1, dist. 2, q. 4, et 
+          vide<lb break="no" ed="#P" n="36"/>tur fuisse Richardi de S. Vict., lib. 1, de 
+          Tri<lb break="no" ed="#P" n="37"/>nitate, cap. 4, et lib. 3, cap. 5, etlib. 9, cap. 1,
+          <lb ed="#P" n="38"/>ubi adductis rationibus, quibus veritatem hanc
+          <lb ed="#P" n="39"/>persuadere conatur, putat, non solum esse 
+          pro<lb break="no" ed="#P" n="40"/>babiles, sed etiam mecessarias. Quem imitatur
+          <lb ed="#P" n="41"/>Henricus, quodlib. 8, q. 14, et quedlib. 12, q. 2.
+          <lb ed="#P" n="42"/>hefertur etiam Gerson, alphab. 13, ubi non
+          <lb ed="#P" n="43"/>in particulari de Trinitate loquitur, sed in 
+          com<lb break="no" ed="#P" n="44"/>muni dicit, aliquas veritates fidei posse 
+          de<lb break="no" ed="#P" n="45"/>monstrari : de hoc vero mysterio alis locis
+          <lb ed="#P" n="46"/>sentit, esse supra omnem rationem naturalem.
+          <lb ed="#P" n="47"/>Et alii auctores videntur per quamdam 
+          exag<lb break="no" ed="#P" n="48"/>gerationem locuti, cum rationes vocant 
+          neces<lb break="no" ed="#P" n="49"/>sarias, vel certe necessarias judicarunt, ad 
+          sua<lb break="no" ed="#P" n="50"/>dendam credibilitatem mysterii, non veritatem.
+        </p>
+        <p xml:id="szduep-144358-d1e605">
+          <lb ed="#P" n="51"/>9. Dicendum ergo est, intellectum fide 
+          for<lb break="no" ed="#P" n="52"/>matum, et per voluntatis affectionem 
+          applica<lb break="no" ed="#P" n="53"/>tum, invenire posse rationes, quibus 
+          conve<lb break="no" ed="#P" n="54"/>nientiam hujus mysterii ostendat, hanc 
+          exis<lb break="no" ed="#P" n="55"/>timo fuisse mentem Richardi de Sancto Vict.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Et hoc ad summum probant rationes, quae 
+          af<lb break="no" ed="#P" n="57"/>ferri solent contra primam conclusionem supra
+          <lb ed="#P" n="58"/>positam, quae partim sumuntur ex creaturis, I
+          <lb ed="#P" n="59"/>partim ex Deo ipso. Ex priori capite, prima 
+          <lb ed="#P" n="60"/>est, quia in omnibus creaturis invenitur 
+          vesti<lb break="no" ed="#P" n="61"/>gium Trinitatis, teste D. Augustino 6, de 
+          Tri<lb break="no" ed="#P" n="62"/>nitate, cap. 10, per vestigium autem solemus 
+          <lb ed="#P" n="63"/>cognoscere, qui illud impressit. Secunda, quia 
+          <lb ed="#P" n="64"/>in homine est quaedam Trinitatis imago juxta
+          <lb ed="#P" n="65"/>illud : Faciamus hominem ad imaginem, et sé-
+          <lb ed="#P" n="66"/>muilutudinem nostram. Ubi Trinitas est, quae
+          <lb ed="#P" n="67"/>loquitur, per imaginem autem exemplar 
+          co<lb break="no" ed="#P" n="68"/>gnoscitur. Hinc tertio solet sumi argumentum 
+          <lb ed="#P" n="69"/>ex internis processionibus intellectus, et 
+          volun<lb break="no" ed="#P" n="70"/>tatis, quas in nobis agnoscimus, et pertinere
+          <lb ed="#P" n="71"/>videntur ad perfectionem naturae 
+          intellectua<lb break="no" ed="#P" n="72"/>lis, quae in Deo multo perfectior est. Atque ita
+          <lb ed="#P" n="73"/>hoc argumento persuadet hoc mysterium divus 
+          <lb ed="#P" n="74"/>Thomas, quaest. 22, art. 1 et 3, cum 
+          Augusti<lb break="no" ed="#P" n="75"/>no 15, de Trinitate. Quarta, quia si creatura
+          <lb ed="#P" n="76"/>potest generare filium sibi similem, cur non 
+          <lb ed="#P" n="77"/>poterit Deus, qui per lIsaiam dicit, cap. 66:
+          <lb ed="#P" n="78"/>Numquid ego, qui alios parere facio, ipse non
+          <lb ed="#P" n="79"/>pariam? et qui aliis generationem tribuo, 
+          ste<lb break="no" ed="#P" n="80"/>rilis ero? 
+        </p>
+        <p xml:id="szduep-144358-d1e675">
+          <lb ed="#P" n="81"/>10. Haec autem omnia manuducunt aliquo 
+          <lb ed="#P" n="82"/>modo intellectum, ut apprehendat mysterium
+          <lb ed="#P" n="83"/>tanquam credibile : sine causa vero afferuntur 
+          <lb ed="#P" n="84"/>ad demonstrandum illud. Nam creatura non
+          <lb ed="#P" n="85"/>est vestigium Trinitatis quoad proprietates
+          <lb ed="#P" n="86"/>personales , et distinctivas personarum , sed
+          <lb ed="#P" n="87"/>solum quoad potentiam, sapientiam, et 
+          boni<lb break="no" ed="#P" n="88"/>tatem, quae illis appropriantur, et quoad esse
+          <lb ed="#P" n="89"/>per essentiam, quod illis commune est. Haec
+          <lb ed="#P" n="90"/>autem appropriatio discursu naturali cognosci
+          <lb ed="#P" n="91"/>non posset, imo supponit fidem, et 
+          cognitio<lb break="no" ed="#P" n="92"/>nem Trinitatis, ut fieri possit. Quocirca, 
+          crea<lb break="no" ed="#P" n="93"/>tura, ut sic non dicit relationem ad tres 
+          per<lb break="no" ed="#P" n="94"/>sonas, quatenus distinctae sunt, sed solum,
+          <lb ed="#P" n="95"/>quatenus unum sunt in omnibus illis 
+          attribu<lb break="no" ed="#P" n="96"/>tis. Rursus, homo non est perfecta imago Dei,
+          <lb ed="#P" n="97"/>et ideo solum dicitur ad imaginem factus,
+          <lb ed="#P" n="98"/>quam rationem imaginis habet solum, quia
+          <lb ed="#P" n="99"/>intellectualis est, et liberi arbitrii, et ideo haec
+          <lb ed="#P" n="100"/>etiam convenientia non ostendit mysterium.
+          <lb ed="#P" n="101"/>Neque etiam processiones intellectuales, quae
+          <lb ed="#P" n="102"/>in homine sunt, quia illae sunt accidentales, et
+          <lb ed="#P" n="103"/>ex indigentia, ac potentialitate, ut latius infra,
+          <lb ed="#P" n="104"/>disputando de verbo. Neque Augustinus et
+          <lb ed="#P" n="105"/>D. Thomas utuntur illo medio ad probandum,
+          <lb ed="#P" n="106"/>sed ad declarandum mysterium. Unde minus 
+          <lb ed="#P" n="107"/>efficax argumentum sumitur ex aliis 
+          genera<lb break="no" ed="#P" n="108"/>tionibus materialibus, quia hcet substantiales
+          <lb ed="#P" n="109"/>sint, sunt tamen per actiones transeuntes, et
+          <lb ed="#P" n="110"/>per divisionem, seu multiplicationem indivi-
+          <pb ed="#P" n="573"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>luae naturae, et ex corruptibilitate proveniunt:
+          <lb ed="#P" n="2"/>unde in creaturis incorruptilibus non 
+          inve<lb break="no" ed="#P" n="3"/>[aiuntur, quia per se non spectant ad 
+          perfectio<lb break="no" ed="#P" n="4"/>[aem. In dicto ergo loco Isaiae, non loquitur Deus
+          <lb ed="#P" n="5"/>lde interna generatione Filii naturalis, sed de
+          <lb ed="#P" n="6"/>[pirituali generatione Filiorum adoptivorum.
+          <lb ed="#P" n="7"/>[Quod si aliquando afferuntur verba illa ad hoc
+          <lb ed="#P" n="8"/>Imysterium, solum est per accommodationem
+          <lb ed="#P" n="9"/>ad declarandum illud, et ita loquitur 
+          Conci<lb break="no" ed="#P" n="10"/>lium Hispalense 2, cap. 13.
+        </p>
+        <p xml:id="szduep-144358-d1e769">
+          <lb ed="#P" n="11"/>11. Ex alio capite, scilicet ex parte Dei 
+          su<lb break="no" ed="#P" n="12"/>mitur praecipua ratio ex bonitate ejus, quia
+          <lb ed="#P" n="13"/>bonum est communicativum sui, ergo ad 
+          per<lb break="no" ed="#P" n="14"/>fectionem summi boni spectat, ut summo 
+          mo<lb break="no" ed="#P" n="15"/>do se communicet : haec autem communicatio
+          <lb ed="#P" n="16"/>non est, nisi sit in eadem natura. Deinde ex
+          <lb ed="#P" n="17"/>perfecta Dei beatitudine, nam ad perfectionem
+          <lb ed="#P" n="18"/>beatitudinis spectat amicitia, et societas : ergo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="19"/>hanc debet Deus habere in se ipso, sine 
+          indi<lb break="no" ed="#P" n="20"/>gentia creaturarum, non est autem amicitia,
+          <lb ed="#P" n="21"/>et societas sine distinctione aliqua 
+          persona<lb break="no" ed="#P" n="22"/>rum. Hae vero rationes non probant 
+          commu<lb break="no" ed="#P" n="23"/>nicationem illam, vel amicitiam esse 
+          possibi<lb break="no" ed="#P" n="24"/>lem, aut nullam imperfectionem involvere,
+          <lb ed="#P" n="25"/>sed hoc potius supponunt, ut in simili dixi in
+          <lb ed="#P" n="26"/>materia de Incarnatione, et ideo non valent
+          <lb ed="#P" n="27"/>ad demonstrandum. Ostendunt tamen 
+          con<lb break="no" ed="#P" n="28"/>gruentiam, quae est in hujusmodi mysterio,
+          <lb ed="#P" n="29"/>quia ex fide supponitur, esse possibile, et esse.
+          <lb ed="#P" n="30"/>Ratio ergo naturalis solum probat, non posse
+          <lb ed="#P" n="31"/>demonstrari impossibile, quia omnia principia
+          <lb ed="#P" n="32"/>naturalia sumuntur ex rebus finitis, quibus
+          <lb ed="#P" n="33"/>omnibus superior est res infinita, de qua (ut
+          <lb ed="#P" n="34"/>supra dicebam) ipsa ratio naturalis docet, esse
+          <lb ed="#P" n="35"/>posse aliquid, vel aliquo modo, qui naturali
+          <lb ed="#P" n="36"/>discursu investigari non possit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

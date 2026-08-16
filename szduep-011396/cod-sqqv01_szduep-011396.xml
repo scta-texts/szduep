@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="45"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-011396"><!-- t1-l2prae -->
+        <head xml:id="szduep-011396-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-011396-d1e103">
+          <pb ed="#P" n="45"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SECUNDDUS.
+          <lb ed="#P" n="2"/>DE ATTRIBUTIS DEI
+          <lb ed="#P" n="3"/>NEGATIVIS PROUT UNUS EST.
+        </p>
+        <p xml:id="szduep-011396-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Hactenus quid Deus sit, quaeve attributa,
+          <lb ed="#P" n="5"/>tanquam propria illius praedicata, numerari
+          <lb ed="#P" n="6"/>soleant, generatim explicuimus: nunc ad hujus
+          <lb ed="#P" n="7"/>doctrina complementum per singula ex dictis
+          <lb ed="#P" n="8"/>attributis discurrere necesse est. Et quia 
+          attri<lb break="no" ed="#P" n="9"/>buta negativa faciliora nobisque notiora sunt,
+          <lb ed="#P" n="10"/>ideo de illis prius dicemus in hoc libro, de
+          <lb ed="#P" n="11"/>affirmativis vero in sequenti. Et quoniam in
+          <lb ed="#P" n="12"/>demonstrandis his attributis disp. 30 
+          Metaphy<lb break="no" ed="#P" n="13"/>sicae prolixiores fuimus, ea hic 
+          repeterenecessa<lb break="no" ed="#P" n="14"/>rium non existimamus. Deinde illa omnia, quae
+          <lb ed="#P" n="15"/>ad naturalem philosophiam pertinent, licet
+          <lb ed="#P" n="16"/>occasione horum attributorum a theologis hic
+          <lb ed="#P" n="17"/>tracetentur, vel omnino praetermittere 
+          decrevi<lb break="no" ed="#P" n="18"/>mus, vel ad summum tanta brevitate attingere,
+          <lb ed="#P" n="19"/>ut theologicum discursum non impediant nec
+          <lb ed="#P" n="20"/>interrumpant. Atque hoc modo multa, quae
+          <lb ed="#P" n="21"/>ab aliis prolixe tractantur, breviter 
+          compre<lb break="no" ed="#P" n="22"/>hendere poterimus, nihil omittendo ex his
+          <lb ed="#P" n="23"/>quae ad veram theologiam et majorem Dei
+          <lb ed="#P" n="24"/>cognitionem desiderari possunt. Solum in 
+          ex<lb break="no" ed="#P" n="25"/>plicando attributo, quo Deus dicitur invisibilis,
+          <lb ed="#P" n="26"/>prolixiores erimus, quoniam ad explicandam
+          <lb ed="#P" n="27"/>exacte illam negationem, oportet exponere
+          <lb ed="#P" n="28"/>quomodo Deus visibilis sit, quod valde 
+          super<lb break="no" ed="#P" n="29"/>naturale est et scitu dignum.
+        </p>
+        <p xml:id="szduep-011396-d1e177">
+          <lb ed="#P" n="30"/>Octo ergo attributa negativa in superiori
+          <lb ed="#P" n="31"/>libro, c. 9, posui, quae ex Scripturis 
+          colligun<lb break="no" ed="#P" n="32"/>tur: ncreatus, Incorporens seu Immaterialis,
+          <lb ed="#P" n="33"/>Infinitus, Immensus, Immutabilis, 
+          Incompre<lb break="no" ed="#P" n="34"/>hensibilis, Invisibilis, Ineffabilis. Quibus 
+          con<lb break="no" ed="#P" n="35"/>junguntur alia tria, quae negatione complentur,
+          <lb ed="#P" n="36"/>licet voces non tam aperte illam exprimant,
+          <lb ed="#P" n="37"/>ut Unus, Simplex, A:rternus; hisque addi
+          <lb ed="#P" n="38"/>potest quartum, scilicet esse ubique, quia ultra
+          <lb ed="#P" n="39"/>immensitatem non addit nisi extrinsecam 
+          de<lb break="no" ed="#P" n="40"/>nominationem. Ex his vero praedicatis quatuor
+          <lb ed="#P" n="41"/>jam sunt a nobis explicata, nam idem est esse
+          <lb ed="#P" n="42"/>increatum, quod esse ens necessarium seu per
+          <lb ed="#P" n="43"/>essentiam, ut per se notum est: illud autem
+          <lb ed="#P" n="44"/>in superiori libro satis ostensum ac declara-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="45"/>tum est. Similiter idem est esse incorporeum
+          <lb ed="#P" n="46"/>seu immaterialem, quod carere partibus 
+          essen<lb break="no" ed="#P" n="47"/>tialibus materiae et formae et partibus 
+          quanti<lb break="no" ed="#P" n="48"/>tativis, quod totum continetur sub perfecta Dei
+          <lb ed="#P" n="49"/>simplicitate, de qua satis diximus. Unitatem
+          <lb ed="#P" n="50"/>etiam Dei satis declaravimus, quantum hic 
+          lo<lb break="no" ed="#P" n="51"/>cus patitur, nam unitas trium Personarum in
+          <lb ed="#P" n="52"/>essentia ad tractatum de Trinitate pertinet. Sex
+          <lb ed="#P" n="53"/>ergo alia attributa negativa in hoc libro 
+          expli<lb break="no" ed="#P" n="54"/>canda sunt, et cum immensitate ubiquitatem
+          <lb ed="#P" n="55"/>exponemus, quia nihil rei Deo addit, cum 
+          im<lb break="no" ed="#P" n="56"/>mutabihtate vero conjungemus aeternitatem,
+          <lb ed="#P" n="57"/>quia supposita necessitate essendi, nihil addit
+          <lb ed="#P" n="58"/>aeternitas ultra immutabilitatem, ut 
+          videbi<lb break="no" ed="#P" n="59"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

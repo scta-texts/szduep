@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="524"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-133010"><!-- t2-l6c3 -->
+        <head xml:id="szduep-133010-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-133010-Hd1e103" type="question-title">Sit ne major numerus praedestinatorum, an reproborum</head>
+        <p xml:id="szduep-133010-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>CAPUT III.
+          <lb ed="#P" n="57"/>SIT NE MAJOR NUMERUS PRAEDESTINATORUM, AN
+          <lb ed="#P" n="58"/>REPROBORUM.
+        </p>
+        <p xml:id="szduep-133010-d1e117">
+          <lb ed="#P" n="59"/>1. Omnes qui lethali peccato e vita discedunt,
+          <lb ed="#P" n="60"/>sunt reprobi. — Prima collatio. — Suppono,
+          <lb ed="#P" n="61"/>omnes, qui moriuntur, vcl terminant vitam
+          <lb ed="#P" n="62"/>suam in mortali peccato, esse reprobos. Ne
+          <lb ed="#P" n="63"/>oporteat hic impugnare errores asserentium,
+          <lb ed="#P" n="64"/>vel omnes, vel aliquos damnatorum aliquando
+          <lb ed="#P" n="65"/>fore salvandos, et consequenter jam esse 
+          prae<lb break="no" ed="#P" n="66"/>destinatos, ex quo non parum augeretur 
+          prae<lb break="no" ed="#P" n="67"/>destinatorum numerus. Sed quod posuimus, 
+          <lb ed="#P" n="68"/>est de fide: et errores illi, in materia de 
+          Pur<lb break="no" ed="#P" n="69"/>gatorio. et aliis locis ex professo impugnantur. 
+          <lb ed="#P" n="70"/>Hoc ergo posito, plures comparationes hic fieri 
+          <lb ed="#P" n="71"/>possunt. Prima est inter solos angelos, an 
+          plu<lb break="no" ed="#P" n="72"/>res fuerint praedestinati, quam reprobi. Ad
+          <lb ed="#P" n="73"/>quam theologi communiter affirmative 
+          res<lb break="no" ed="#P" n="74"/>pondent cum S. Thoma, 1 part., quaest. 63,
+          <lb ed="#P" n="75"/>art. 9, ad 1, quod juxta unum probabilem 
+          <lb ed="#P" n="76"/>sensum significatur in Apocal. cum dicitur,
+          <lb ed="#P" n="77"/>Draconem traxisse secum tertiam partem 
+          stel<lb break="no" ed="#P" n="78"/>larum. Rationem infra insinuabo.
+        </p>
+        <p xml:id="szduep-133010-d1e163">
+          <lb ed="#P" n="79"/>2. Secunda collatio. — Secunda comparatio 
+          <lb ed="#P" n="80"/>est inter homines, absolute de omnibus 
+          loquen<lb break="no" ed="#P" n="81"/>do, qui a principio mundi usque ad finem
+          <lb ed="#P" n="82"/>fuerunt et futuri sunt. Et hoc modo est 
+          com<lb break="no" ed="#P" n="83"/>munis et vera sententia, numerum 
+          reprobo<lb break="no" ed="#P" n="84"/>rum esse majorem. Quae sumitur ex illo Matth.
+          <lb ed="#P" n="85"/>1: Arcla est via, que ducit ad vitam, pauci 
+          <lb ed="#P" n="86"/>sunt qui intrant per eam. Ob hanc enim 
+          cau<lb break="no" ed="#P" n="87"/>sam solent in Scriptura electi paucorum 
+          no<lb break="no" ed="#P" n="88"/>mine significari. Quomodo multi intelligunt
+          <lb ed="#P" n="89"/>illud Psalm. 17: A paucis de terra divide eos -
+          <lb ed="#P" n="90"/>et illud Eccles. 17: De negligentia tua purga
+          <lb ed="#P" n="91"/>te cum paucis. Unde 4, libro Esdrae, c. S, dicitur:
+          <lb ed="#P" n="92"/>Hoc sceculum fecit Deus propter multos, futurum
+          <lb ed="#P" n="93"/>autem propter paucos.Et infra clarius: Multi 
+          gui<lb break="no" ed="#P" n="94"/>dem creati sunt, sed pauci salvabuntur. (Qui hiber
+          <lb ed="#P" n="95"/>licet non sit canonicus, habet tamen magnam
+          <lb ed="#P" n="96"/>auctoritatem. Et ibidem declaratur exemplo.
+          <lb ed="#P" n="97"/>Sicut terra (inquit) dat multam materiam, ea
+          <lb ed="#P" n="98"/>qua fiant fictilia, paucam vero ex qua fiant 
+          <lb ed="#P" n="99"/>aurum et argentum, etc. Nam propterea 
+          for<lb break="no" ed="#P" n="100"/>et comparantur gemmis et lapidibus pretiosis,
+          <lb ed="#P" n="101"/>quia sicut haec sunt rara, ita etiam illi.
+        </p>
+        <p xml:id="szduep-133010-d1e216">
+          <lb ed="#P" n="102"/>3. Deinde quasi inductione id faeile ostendi
+          <lb ed="#P" n="103"/>potest. Quia si consideremus statum hominum
+          <lb ed="#P" n="104"/>usque ad CHRISTI adventum, in eo rara erat
+          <lb ed="#P" n="105"/>cognitio DEI et sanctificatio. Post Christ au-
+          <pb ed="#P" n="525"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem adventum innumerae rationes, vel non
+          <lb ed="#P" n="2"/>credunt, vel etiam nondum audierunt 
+          Evan<lb break="no" ed="#P" n="3"/>gelium: et ex his, qui credunt, magna pars
+          <lb ed="#P" n="4"/>condemnatur, ut statim dicam: ergo pensatis
+          <lb ed="#P" n="5"/>omnibus, sine dubio est multo major numerus
+          <lb ed="#P" n="6"/>reproborum. Rationem autem reddit divus
+          <lb ed="#P" n="7"/>Thomas, 1 part., quaest. 23, art. 7 et 1, 2, q.
+          <lb ed="#P" n="8"/>1, art. 2, ad 3. Primo ex conditione humanae
+          <lb ed="#P" n="9"/>naturae quae composita est ex appetitibus 
+          quo<lb break="no" ed="#P" n="10"/>dammodo contrariis, et objecta, quae possint
+          <lb ed="#P" n="11"/>inclinare ad malum, sunt magis familiaria et
+          <lb ed="#P" n="12"/>proportionata. Ad quod accedit deordinatio
+          <lb ed="#P" n="13"/>relicta a peccato originali : propter quod supra
+          <lb ed="#P" n="14"/>dicebamus, originale peccatum esse causam
+          <lb ed="#P" n="15"/>aliquo modo, vel occasionem reprobationis
+          <lb ed="#P" n="16"/>multorum hominum. Deinde sumi potest ratio
+          <lb ed="#P" n="17"/>ex altitudine et excellentia finis, ad quem 
+          con<lb break="no" ed="#P" n="18"/>sequendum homo ordinatur per media, quae
+          <lb ed="#P" n="19"/>multum etiam excedunt vires hominis, 
+          prae<lb break="no" ed="#P" n="20"/>sertim lapsi. Quae rationes sunt optimae ex
+          <lb ed="#P" n="21"/>parte hominis: tamen ex parte Dei 
+          profun<lb break="no" ed="#P" n="22"/>dum est hoc consilium sapientiae ejus, neque
+          <lb ed="#P" n="23"/>aliud dicere possumus, nisi per hoc ostendere
+          <lb ed="#P" n="24"/>voluisse Deum excellentiam gratiae suae in
+          <lb ed="#P" n="25"/>electis, ut Paulus significavit.
+        </p>
+        <p xml:id="szduep-133010-d1e286">
+          <lb ed="#P" n="26"/>4. Tertia collatio. — Prima sententia. — 
+          Ter<lb break="no" ed="#P" n="27"/>tia comparatio est inter homines fideles, seu
+          <lb ed="#P" n="28"/>Christianos, an plures salventur, quam 
+          dam<lb break="no" ed="#P" n="29"/>nentur, vel e converso. In qua re sunt diversae
+          <lb ed="#P" n="30"/>sententiae. Quidam pie credunt plures salvari
+          <lb ed="#P" n="31"/>ex his: quod tenuit Sylvester in Rosa aurea,
+          <lb ed="#P" n="32"/>circa Dominicam Septuagesimse, in fine. Et
+          <lb ed="#P" n="33"/>solet ad hoc afferri parabcla Matthaei 21. Ubi
+          <lb ed="#P" n="34"/>in convivio Patrisfamilias unus tantum 
+          inven<lb break="no" ed="#P" n="35"/>tus est carens veste nuptiali, Matth. autem 21,
+          <lb ed="#P" n="36"/>ex decem virginibus quinque fuerunt fatuae
+          <lb ed="#P" n="37"/>et quinque prudentes. Congruentia vero esse
+          <lb ed="#P" n="38"/>potest, quia ex Christianis plures moriuntur,
+          <lb ed="#P" n="39"/>receptis Sacramentis, quorum virtute facile
+          <lb ed="#P" n="40"/>justificantur: ergo verisimile est plures ex
+          <lb ed="#P" n="41"/>his salvari.
+        </p>
+        <p xml:id="szduep-133010-d1e323">
+          <lb ed="#P" n="42"/>5. Posterior verior. — Contraria sententia
+          <lb ed="#P" n="43"/>communior est, nimirum, ex Christianis 
+          plu<lb break="no" ed="#P" n="44"/>res esse reprobos, quam praedestinatos. Quod
+          <lb ed="#P" n="45"/>aperte affirmat D. Gregorius, hom. 19, in 
+          E<lb break="no" ed="#P" n="46"/>vang., et Augustinus, lib. 3, contra 
+          Cresco<lb break="no" ed="#P" n="47"/>nium, cap. 66, et lib. 4, c. 53, ita exponens
+          <lb ed="#P" n="48"/>parabolam de tritico et palea. Nam per arcem
+          <lb ed="#P" n="49"/>(ut ait) significatur Ecclesia, et per paleam 
+          si<lb break="no" ed="#P" n="50"/>gnificantur reprobi: constat autem majorem
+          <lb ed="#P" n="51"/>esse multitudinem paleae, quam tritici. Idem
+          <lb ed="#P" n="52"/>sentit Cbrysostomus, hom. 40, ad populum, et
+          <lb ed="#P" n="53"/>65, in Matth. Glossa et expositores 
+          communi<lb break="no" ed="#P" n="54"/>Cter, circa illa verba Matth. 12 et 22:
+          <lb ed="#P" n="55"/>sunt vocati, pauci vero electi : et circa parabo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lam de semente, cujus tantum quarta pars
+          <lb ed="#P" n="57"/>fructum attulit. Luc 8. Denique Cajetanus 
+          ex<lb break="no" ed="#P" n="58"/>ponens dictam parabolam de Virginibus, 
+          di<lb break="no" ed="#P" n="59"/>cit, etiam ex illis, qui in Ecclesia mediocriter
+          <lb ed="#P" n="60"/>vivunt, et aliquam curam habent conscientiae
+          <lb ed="#P" n="61"/>suae, dimidiam partem damnari: quod valde
+          <lb ed="#P" n="62"/>rigorosum est. Rationes, seu signa hujus 
+          ex<lb break="no" ed="#P" n="63"/>cessus sumuntur ipsa experientia, et usu 
+          quo<lb break="no" ed="#P" n="64"/>tidiano et propensione ad pravos mores. Nam
+          <lb ed="#P" n="65"/>sine dubio plures ex Christianis male vivunt,
+          <lb ed="#P" n="66"/>et raro perseverant in statu gratiae, et 
+          verisi<lb break="no" ed="#P" n="67"/>mile valde est ita mori, sicut vivunt.
+        </p>
+        <p xml:id="szduep-133010-d1e384">
+          <lb ed="#P" n="68"/>6. Res quidem dubia est. Mihi autem 
+          vide<lb break="no" ed="#P" n="69"/>tur distinctione utendum. Possumus etiam
+          <lb ed="#P" n="70"/>Christianorum nomine intelligere omnes illos,
+          <lb ed="#P" n="71"/>qui nomine CHRISTI gloriantur, 
+          profitentur<lb break="no" ed="#P" n="72"/>que se in illum credere, cum tamen inter eos
+          <lb ed="#P" n="73"/>multi sint haeretici et apostatae, ac schismatici.
+          <lb ed="#P" n="74"/>Et loquendo in hac generalitate probabile mihi
+          <lb ed="#P" n="75"/>est, majorem esse numerum reproborum: et
+          <lb ed="#P" n="76"/>hoc modo intelligo omnia, quae in secunda
+          <lb ed="#P" n="77"/>opinione afferuntur. Confirmarique potest ,
+          <lb ed="#P" n="78"/>quia haeretici et apostatae semper fuerunt in
+          <lb ed="#P" n="79"/>magno numero, quia adjuncto numero 
+          im<lb break="no" ed="#P" n="80"/>piorum fidelium male morientium, plane 
+          ex<lb break="no" ed="#P" n="81"/>cedit numerum sancte morientium. At si per
+          <lb ed="#P" n="82"/>Christianos intelligamus solos illos, qui intra
+          <lb ed="#P" n="83"/>Ecclesiam Catholicam moriuntur, verisimilius
+          <lb ed="#P" n="84"/>mihi est plures illorum salvari, in lege gratiae.
+          <lb ed="#P" n="85"/>Ratio est, quia imprimis ex his, qui 
+          moriun<lb break="no" ed="#P" n="86"/>tur ante adultam aetatem, maxima multitudo
+          <lb ed="#P" n="87"/>decedit cum Baptismo: ex adultis vero, licet
+          <lb ed="#P" n="88"/>major pars hominum saepius moraliter peccet,
+          <lb ed="#P" n="89"/>tamen saepius resurgunt, et ita cadendo et 
+          re<lb break="no" ed="#P" n="90"/>surgendo vitam transigunt. Tandem vero in
+          <lb ed="#P" n="91"/>fine pauci sunt, qui per Sacramenta non 
+          prae<lb break="no" ed="#P" n="92"/>parentur ad mortem et de peccatis doleant,
+          <lb ed="#P" n="93"/>saltem per attritionem: hoc autem suffticit, ut
+          <lb ed="#P" n="94"/>in eo tempore justificentur. Et postquam 
+          jus<lb break="no" ed="#P" n="95"/>tificantur, facile solent illo parvo tempore
+          <lb ed="#P" n="96"/>perseverare sine novo peccato mortali: ergo
+          <lb ed="#P" n="97"/>pensatis omnibus, verisimile est plures ex his
+          <lb ed="#P" n="98"/>Christianis salvari.
+        </p>
+        <p xml:id="szduep-133010-d1e454">
+          <lb ed="#P" n="99"/>7. Quarta comparatio. — Quarta comparatio
+          <lb ed="#P" n="100"/>fieri potest inter totum numerum reproborum
+          <lb ed="#P" n="101"/>et praedestinatorum, prout ex angelis et 
+          homi<lb break="no" ed="#P" n="102"/>nibus constat. Item fieri potest angelorum ad
+          <lb ed="#P" n="103"/>homines, sive inter reprobos inter se, sive 
+          in<lb break="no" ed="#P" n="104"/>ter Praecestinatos. Totam vero hanc 
+          compara<lb break="no" ed="#P" n="105"/>tionem existimo nobis esse ignotam, quia 
+          ne<lb break="no" ed="#P" n="106"/>que in Scriptura, neque in Patribus abquod
+          <lb ed="#P" n="107"/>principium habet et conjecture non possunt
+          <lb ed="#P" n="108"/>esse nisi infirma. Totumque pendet ex illa
+          <lb ed="#P" n="109"/>quaestione, an numerus angelorum, quem Deus
+          <lb ed="#P" n="110"/>creavit, sit major, vel minor, quam totus nu-
+          <pb ed="#P" n="526"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>merus hominum multiplicandus usque ad diem
+          <lb ed="#P" n="2"/>judicii. In qua ego nihil certum neque satis
+          <lb ed="#P" n="3"/>probabile affirmare possum : tractari vero 
+          so<lb break="no" ed="#P" n="4"/>let in materia de angelis, et ideo illam omitto.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="479"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-121730"><!-- t2-l3c9 -->
+        <head xml:id="szduep-121730-Hd1e101">Caput 9</head>
+        <head xml:id="szduep-121730-Hd1e103" type="question-title">Ex praedestinatione non sequi necessitatem habendi, vel conservandi gratiam</head>
+        <p xml:id="szduep-121730-d1e106">
+          <lb ed="#P" n="50"/>CAPUT IX.
+          <lb ed="#P" n="51"/>EX PRAEDESTINATIONE NON SEQUI NECESSITATEM
+          <lb ed="#P" n="52"/>HABENDI, VEL CONSERVANDI GRATIAM.
+        </p>
+        <p xml:id="szduep-121730-d1e115">
+          <lb ed="#P" n="53"/>1. Declaravimus hactenus veros praedesti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>nationis effectus, superest, ut nonnullos falsos
+          <lb ed="#P" n="55"/>effectus excludamus, eaque occasione 
+          concor<lb break="no" ed="#P" n="56"/>diam inter praedestinationem, et arbitrii 
+          liber<lb break="no" ed="#P" n="57"/>tatem explicemus. Nam omnes illi falsi 
+          effec<lb break="no" ed="#P" n="58"/>tus ad hoc tendunt, ut praedestinatio 
+          necessita<lb break="no" ed="#P" n="59"/>tem inferat, aut habendi gratiam, aut bene
+          <lb ed="#P" n="60"/>operandi, aut non peccandi; necessitatem (
+          in<lb break="no" ed="#P" n="61"/>quam) repugnantem libertati : qui effectus 
+          re<lb break="no" ed="#P" n="62"/>vera non solum ex praedestinatione non 
+          se<lb break="no" ed="#P" n="63"/>quitur, verum illi adeo repugnat, quod 
+          prae<lb break="no" ed="#P" n="64"/>destinatio seipsam destrueret, si talem 
+          effec<lb break="no" ed="#P" n="65"/>tum induceret : quia tolleret veram rationem
+          <lb ed="#P" n="66"/>meriti, et praemii, quae sunt finis, et media
+          <lb ed="#P" n="67"/>potissima praedestinationis , ideoque non 
+          pos<lb break="no" ed="#P" n="68"/>sunt hi falsi effectus melius excludi, quam
+          <lb ed="#P" n="69"/>ostendendo concordiam inter 
+          praedestinatio<lb break="no" ed="#P" n="70"/>nem, et usum libertatis. Hic ergo effectus, seu
+          <lb ed="#P" n="71"/>necessitas considerari potest, vel in ordine ad
+          <lb ed="#P" n="72"/>gratiam sanctificantem, vel in ordine ad 
+          sin<lb break="no" ed="#P" n="73"/>gula opera bona, et maxime illa, quae ad 
+          sa<lb break="no" ed="#P" n="74"/>lutem sunt necessaria, inter quae abstinentiam
+          <lb ed="#P" n="75"/>a peccatis comprehendimus. In hoc ergo capite
+          <lb ed="#P" n="76"/>de priori necessitate, in sequenti de posteriori
+          <lb ed="#P" n="77"/>dicemus. Cum autem libertas consistat in 
+          po<lb break="no" ed="#P" n="78"/>testate agendi et non agendi seu habendi, et
+          <lb ed="#P" n="79"/>non habendi sanctitatem, manifestumque sit,
+          <lb ed="#P" n="80"/>electis omnibus ex vi praedestinationis dari,
+          <lb ed="#P" n="81"/>ut possint filii Dei fieri, et esse, tota difficultas
+          <lb ed="#P" n="82"/>est, quomodo in eis relinquatur potestas, ut
+          <lb ed="#P" n="83"/>possint etiam fieri et esse filii diaboli, et 
+          abji<lb break="no" ed="#P" n="84"/>cere a se gratiam, et filiationem Dei, cum
+          <lb ed="#P" n="85"/>praedestinatus non possit non salvari. Quae
+          <lb ed="#P" n="86"/>difficultas partim in re, partim in loquendi
+          <lb ed="#P" n="87"/>modo esse potest, et utrumque breviter 
+          expli<lb break="no" ed="#P" n="88"/>cabimus.
+        </p>
+        <p xml:id="szduep-121730-d1e198">
+          <lb ed="#P" n="89"/>2. Opinio Wiclephi et Waldensis. — 
+          Tan<lb break="no" ed="#P" n="90"/>quam heeresis rejicitur.—Carca justitiam ergo,
+          <lb ed="#P" n="91"/>et gratiam praedestinatorum , quidam 
+          errave<lb break="no" ed="#P" n="92"/>runt dicentes, praedestinatum in hac vita 
+          sem<lb break="no" ed="#P" n="93"/>per, ac necessario esse in gratia. Ita sentit
+          <lb ed="#P" n="94"/>Wiclephus, ut refert Waldensis, lib. 2, de 
+          Sa<lb break="no" ed="#P" n="95"/>cramentalibus, cap. 160. Moveri potuit, quia
+          <lb ed="#P" n="96"/>praedestinatus maxime diligitur a DEO: qui
+          <lb ed="#P" n="97"/>autem diligitur a Deo, justus est. Haec autem
+          <lb ed="#P" n="98"/>est manifesta haeresis, nam ex illa sequitur,
+          <lb ed="#P" n="99"/>parvulum non baptizatum, si praedestinatus
+          <lb ed="#P" n="100"/>sit, jam esse justum, et infidelem placere Deo,
+          <lb ed="#P" n="101"/>etiamsi non habeat fidem, si praedestinatus
+          <lb ed="#P" n="102"/>sit. Denique sequitur, nullum praedestinatum
+          <lb ed="#P" n="103"/>concipi, aut nasci in originali peccato, quae
+          <lb ed="#P" n="104"/>omnia sunt contra fidem. Sunt etiam contra
+          <lb ed="#P" n="105"/>ipsam praedestinationem, quia non omnes, qui
+          <lb ed="#P" n="106"/>in fine vitae salvantur, praeordinantur ad 
+          per<lb break="no" ed="#P" n="107"/>petuam sanctitatem a principio vite 
+          obtinen<lb break="no" ed="#P" n="108"/>dam. Nec fundamentum est alicujus mo-
+          <pb ed="#P" n="480"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>menti: quia licet praedestinatus diligatur 
+          se<lb break="no" ed="#P" n="2"/>cundum divinam praeordinationem , et 
+          prae<lb break="no" ed="#P" n="3"/>scientiam, non tamen semper secundum 
+          prae<lb break="no" ed="#P" n="4"/>sentem justitiam, seu quod idem est, secundum
+          <lb ed="#P" n="5"/>actualem executionem praedestinationis : homo
+          <lb ed="#P" n="6"/>autem non fit justus per praedestinationem,
+          <lb ed="#P" n="7"/>nisi quatenus executioni mandatur quend 
+          gra<lb break="no" ed="#P" n="8"/>tiae effectum.
+        </p>
+        <p xml:id="szduep-121730-d1e267">
+          <lb ed="#P" n="9"/>3. Alter error. — Oppugnatur. — Fuit alter
+          <lb ed="#P" n="10"/>error dicentium, quamvis praedestinatus possit
+          <lb ed="#P" n="11"/>interdum esse in peccato, tamen postquam
+          <lb ed="#P" n="12"/>semel justificatur, nunquam amplius a gratia
+          <lb ed="#P" n="13"/>exciderc. Ita tenuit hoc tempore Calvinus, et
+          <lb ed="#P" n="14"/>fuit antiquus error Joviniani, qui praecipue
+          <lb ed="#P" n="15"/>movebatur ex illo 1, Joan. 2 et 3. Qui natus
+          <lb ed="#P" n="16"/>est ev Deo, non peccat, nec peccare potest, quia -
+          <lb ed="#P" n="17"/>semen ejus in eo manet. De quo videri potest
+          <lb ed="#P" n="18"/>Bellarminus, lib. 7, de Justific., cap. 14 et 15.
+          <lb ed="#P" n="19"/>Et impugnatur ex professo in materia de 
+          cha<lb break="no" ed="#P" n="20"/>ritate et de gratia, ubi ostenditur, charitatem
+          <lb ed="#P" n="21"/>et gratiam semel habitam posse amitti. 
+          Ha<lb break="no" ed="#P" n="22"/>bemusque evidentia exempla in Scriptura, de
+          <lb ed="#P" n="23"/>David, Petro, etc. Item quia alias, vel non
+          <lb ed="#P" n="24"/>praedestinatus nunquam esset vere justus, quod
+          <lb ed="#P" n="25"/>est haereticum, vel praedestinatus haberet 
+          sem<lb break="no" ed="#P" n="26"/>per cum justitia conjunctam infallibilem 
+          per<lb break="no" ed="#P" n="27"/>severantiam in gratia, per speciale donum
+          <lb ed="#P" n="28"/>distinctum a justitia, quod vanum est, et sine
+          <lb ed="#P" n="29"/>fundamento, et contra totius Ecclesiae sensum.
+          <lb ed="#P" n="30"/>Praeterea ex illo errore sequitur, quod omnis,
+          <lb ed="#P" n="31"/>qui mortaliter peccat, vel est reprobus, vel
+          <lb ed="#P" n="32"/>nunquam justus fuit : quodcumque autem 
+          ho<lb break="no" ed="#P" n="33"/>rum dicere, haereticum est.
+        </p>
+        <p xml:id="szduep-121730-d1e324">
+          <lb ed="#P" n="34"/>4. Ratio a priori. — Varie expositiones ad
+          <lb ed="#P" n="35"/>locum Joannis. — Ratio autem a priori, quae
+          <lb ed="#P" n="36"/>ad praesens spectat, est quia talis effectus non
+          <lb ed="#P" n="37"/>est necessarius ad finem praedestinationis: nam
+          <lb ed="#P" n="38"/>etiamsi justus iterum, atque iterum cadat et
+          <lb ed="#P" n="39"/>resurgat , tandem salvarr poterit. Non ergo
+          <lb ed="#P" n="40"/>omnes, qui praedestinantur ad vitam aeternam,
+          <lb ed="#P" n="41"/>praedestinantur etiam ad conservandam 
+          gra<lb break="no" ed="#P" n="42"/>tiam sine interruptione, ex quo primo illam
+          <lb ed="#P" n="43"/>recipiunt. Imo D. Prosper, lib. 2, cap. ultim.,
+          <lb ed="#P" n="44"/>de Vocat. Gen., dicit, consilio Dei factum esse,
+          <lb ed="#P" n="45"/>ut praedestinati permittantur peccare, et 
+          ca<lb break="no" ed="#P" n="46"/>dere a justitia, et aliquando multo tempore in
+          <lb ed="#P" n="47"/>eo statu permanere, ut mysterium 
+          praedesti<lb break="no" ed="#P" n="48"/>nationis occultum sit, et nemo desperet, aut
+          <lb ed="#P" n="49"/>nimium confidat. De quo etiam videri potest
+          <lb ed="#P" n="50"/>Augustinus, de Correption. et Gratia, cap. 6et
+          <lb ed="#P" n="51"/>13, libro, de Praedestin. Sanctor., cap. 14, de
+          <lb ed="#P" n="52"/>Dono perseveran., cap. 6. Ille autem locus
+          <lb ed="#P" n="53"/>Joannis varias habet explicationes : duae vero
+          <lb ed="#P" n="54"/>sunt probabiliores : et quaelibet eligi potest.
+          <lb ed="#P" n="55"/>Una est : Qui natus est ex Deo, si ut talis est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>operetur, non peccat. Alia in sensu composito :
+          <lb ed="#P" n="57"/>Qui natus est, quamdiu justitiam conservat,
+          <lb ed="#P" n="58"/>non peccat, mortaliter, nec potest, quamdiu 
+          il<lb break="no" ed="#P" n="59"/>lam retinet, quia justitia, et peccatum inter se
+          <lb ed="#P" n="60"/>formaliter repugnant.
+        </p>
+        <p xml:id="szduep-121730-d1e387">
+          <lb ed="#P" n="61"/>5. Tertia opinio. —Est tertia sententia 
+          quo<lb break="no" ed="#P" n="62"/>rumdam Catholicorum , qui dicunt, 
+          praedesti<lb break="no" ed="#P" n="63"/>natos per dilectionem Dei absolutam, et 
+          ante<lb break="no" ed="#P" n="64"/>cedentem necessario salvari, et consequenter
+          <lb ed="#P" n="65"/>necessario justificari, et in justitia permanere.
+          <lb ed="#P" n="66"/>Ita sentiunt Ocham, Gabriel et Catherinus.
+          <lb ed="#P" n="67"/>Aliqui vero non admittunt hoc genus 
+          praedes<lb break="no" ed="#P" n="68"/>tinationis, ut evitent hoc genus necessitatis:
+          <lb ed="#P" n="69"/>putant enim repugnare libertati saltem ex
+          <lb ed="#P" n="70"/>parte, ut Joannes a Bononia, lib. de Praedest. 2,
+          <lb ed="#P" n="71"/>part., opin. 3. Favere videtur modus loquendi
+          <lb ed="#P" n="72"/>Augustini, de Corrept. et Gratia, cap. 12. 
+          Pro<lb break="no" ed="#P" n="73"/>visum est lmmanae infirmitati, ut 
+          indeclinabala<lb break="no" ed="#P" n="74"/>ter ageretur. Idem 5, contra Julianum, cap. 3
+          <lb ed="#P" n="75"/>et 4, et Fulgentii, lib. 1, ad Monimum, cap. 11
+          <lb ed="#P" n="76"/>et 12. Imo etiam favere videtur modus 
+          loquen<lb break="no" ed="#P" n="77"/>di Scripturae, Matth. 25. Ut in errorem 
+          indu<lb break="no" ed="#P" n="78"/>cantur, si fieri potest, ac si fieri non potest,
+          <lb ed="#P" n="79"/>oppositum necessarium est. Quomodo 
+          exponi<lb break="no" ed="#P" n="80"/>tur illud 2, ad Timoth. 29. Firmum 
+          fundamen<lb break="no" ed="#P" n="81"/>tun Dei stat, novit Dommius, qua sunt ejus, et
+          <lb ed="#P" n="82"/>similia habentur Joan. 6 et 10, et 1, Joan. 2,
+          <lb ed="#P" n="83"/>propter quod dixit Fulgentius, de fide ad 
+          Pe<lb break="no" ed="#P" n="84"/>trum, cap. 35. Firmissume tene, nullum eorum,
+          <lb ed="#P" n="85"/>qui praedestinati sunt, posse perire. Ratio 
+          au<lb break="no" ed="#P" n="86"/>tem est, quia voluntas Dei est efficax causa,
+          <lb ed="#P" n="87"/>qua posita impossibile est non poni effectum.
+        </p>
+        <p xml:id="szduep-121730-d1e448">
+          <lb ed="#P" n="88"/>6. Haec sententia intelligi potest, aut de 
+          ali<lb break="no" ed="#P" n="89"/>qua vera necessitate, quae immutet modum
+          <lb ed="#P" n="90"/>operandi, et producendi effectum, et 
+          conse<lb break="no" ed="#P" n="91"/>quenter tollat libertatem, vel quoad 
+          exerci<lb break="no" ed="#P" n="92"/>tium, vel quoad specificationem, quae dicitur
+          <lb ed="#P" n="93"/>proprie necessitas consequentis ; vel potest 
+          in<lb break="no" ed="#P" n="94"/>telligi de sola necessitate consequentiae, quae
+          <lb ed="#P" n="95"/>dicitur etiam esse in sensu composito, et nulli
+          <lb ed="#P" n="96"/>libertati repugnare. Auctores citati loquuntur
+          <lb ed="#P" n="97"/>in priori sensu, in quo censeo sententiam illam
+          <lb ed="#P" n="98"/>esse falsam.
+        </p>
+        <p xml:id="szduep-121730-d1e474">
+          <lb ed="#P" n="99"/>7. Prima assertio. — Dico ergo primo, ex
+          <lb ed="#P" n="100"/>praedestinatione, vel electione divina non 
+          se<lb break="no" ed="#P" n="101"/>qui veram aliquam necessitatem habendi, vel
+          <lb ed="#P" n="102"/>conservandi gratiam. Probatur, quia duo 
+          re<lb break="no" ed="#P" n="103"/>quiruntur, ut praedestinatus salvetur. Unum
+          <lb ed="#P" n="104"/>est, quod in hac vita gratiam consequatur
+          <lb ed="#P" n="105"/>(suppono enim post hanc vitam non 
+          compa<lb break="no" ed="#P" n="106"/>rari, si durante vita praesenti non obtinetur).
+          <lb ed="#P" n="107"/>Aliud est, ut pro aliquo tempore hujus vitae
+          <lb ed="#P" n="108"/>perseveret in gratia, ita ut ab aliqua 
+          justifi<lb break="no" ed="#P" n="109"/>catione usque ad mortem non peccet 
+          mortali<lb break="no" ed="#P" n="110"/>ter. Neutrum autem horum oportet fieri in
+          <pb ed="#P" n="481"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praedestinato cum aliqua vera necessitate
+          <lb ed="#P" n="2"/>(et suppono sermonem esse de adultis, nam
+          <lb ed="#P" n="3"/>parvuli non sunt capaces libertatis, aut 
+          neces<lb break="no" ed="#P" n="4"/>sitatis proprie illi oppositae.) Primum probatur,
+          <lb ed="#P" n="5"/>quia justificatio adulti juxta doctrinam fidei,
+          <lb ed="#P" n="6"/>non fit sine illius dispositione libera, et 
+          hu<lb break="no" ed="#P" n="7"/>mana : ergo etiam justificatio praedestinati hoc
+          <lb ed="#P" n="8"/>modo fit : ergo praedestinatio non infert 
+          ne<lb break="no" ed="#P" n="9"/>cessitatem in ordine ad justificationem.
+        </p>
+        <p xml:id="szduep-121730-d1e526">
+          <lb ed="#P" n="10"/>8. Effugium. — Precluditur. — Dicetur 
+          for<lb break="no" ed="#P" n="11"/>tasse, hoc ad summum probare de necessitate
+          <lb ed="#P" n="12"/>quoad exercitium , non vero de necessitate
+          <lb ed="#P" n="13"/>quoad specificationem, quia cum hac stat 
+          suf<lb break="no" ed="#P" n="14"/>ficiens libertas ad moralem actum et meritum.
+          <lb ed="#P" n="15"/>Sed contra hoc est, quia ad justificationem
+          <lb ed="#P" n="16"/>oportet exercere talem dispositionem : ergo si
+          <lb ed="#P" n="17"/>propter hanc causam necessitas aliqua 
+          infe<lb break="no" ed="#P" n="18"/>renda est, non solum erit quoad 
+          specificatio<lb break="no" ed="#P" n="19"/>nem, sed etiam quoad exercitium. Et ut res
+          <lb ed="#P" n="20"/>magis urgeat, ponamus praedestinatum in 
+          ul<lb break="no" ed="#P" n="21"/>timo articulo mortis constitutum , et adhuc
+          <lb ed="#P" n="22"/>existentem in peccato, cui ut salvetur, non
+          <lb ed="#P" n="23"/>satis est non peccare, sed necessarium est hic,
+          <lb ed="#P" n="24"/>et nunc converti : ergo si necessario 
+          conver<lb break="no" ed="#P" n="25"/>tendus est, illa non tantum est necessitas quoad
+          <lb ed="#P" n="26"/>specificationem, sed etiam quoad exercitium.
+          <lb ed="#P" n="27"/>Unde alii hac ratione convicti fatentur 
+          utram<lb break="no" ed="#P" n="28"/>que necessitatem sequi ex tali 
+          praedestinatio<lb break="no" ed="#P" n="29"/>nis modo, et ideo admittendum non esse. Sed
+          <lb ed="#P" n="30"/>hoc ex professo impugnat Augustinus, locis
+          <lb ed="#P" n="31"/>seepe citatis. Et ex sequenti capite constabit,
+          <lb ed="#P" n="32"/>praedestinationem non inferre necessitatem ad
+          <lb ed="#P" n="33"/>singulas actiones, etiamsi modo, et tempore
+          <lb ed="#P" n="34"/>praefinito praestandae sint.
+        </p>
+        <p xml:id="szduep-121730-d1e584">
+          <lb ed="#P" n="35"/>9. Secundum autem de perseverantia 
+          im<lb break="no" ed="#P" n="36"/>primis non requirit necessitatem quoad 
+          exer<lb break="no" ed="#P" n="37"/>citium, ut dictimet auctores fatentur : ponere
+          <lb ed="#P" n="38"/>autem in praedestinato necessitatem quoad 
+          spe<lb break="no" ed="#P" n="39"/>cificationem pro illo solo finali tempore, non
+          <lb ed="#P" n="40"/>est error, quia cum nullo dogmate aperte
+          <lb ed="#P" n="41"/>pugnat. Mihi tamen falsum videtur, quia sine
+          <lb ed="#P" n="42"/>hac etiam necessitate potest infallibiliter fieri
+          <lb ed="#P" n="43"/>a Deo talis effectus, ut ex sequenti capite 
+          con<lb break="no" ed="#P" n="44"/>stabit: ergo non est ponenda talis necessitas
+          <lb ed="#P" n="45"/>sine alio fundamento, cum sit praeternaturalis,
+          <lb ed="#P" n="46"/>et alioqui non sit debita ratione alicujus 
+          su<lb break="no" ed="#P" n="47"/>perioris excellentiae, vel dignitatis, ut sequenti
+          <lb ed="#P" n="48"/>capite magis explicabo, et expediam brevem
+          <lb ed="#P" n="49"/>difficultatem de confirmatione in gratia, an
+          <lb ed="#P" n="50"/>pro aliquo tempore omnibus praedestinatis 
+          con<lb break="no" ed="#P" n="51"/>feratur.
+        </p>
+        <p xml:id="szduep-121730-d1e623">
+          <lb ed="#P" n="52"/>10. Secunda assertio.—Secundo assero, 
+          prae<lb break="no" ed="#P" n="53"/>destinationem infallibiliter inferre gratiam, et
+          <lb ed="#P" n="54"/>perseverantiam praedestinati in illa pro aliquo
+          <lb ed="#P" n="55"/>tempore usque ad mortem, per solam necessi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem consequentiae, quae libertatem nullo 
+          mo<lb break="no" ed="#P" n="57"/>do impedit. Hoc probant testimonia superius
+          <lb ed="#P" n="58"/>adducta. Et ad indicandam hanc certitudinem
+          <lb ed="#P" n="59"/>et infallibilitatem solet Scriptura proponere
+          <lb ed="#P" n="60"/>effectus praedestinationis, ut jam factos, juxta
+          <lb ed="#P" n="61"/>illud ad Rom. 8. Quos preedestinavit, vocavit,
+          <lb ed="#P" n="62"/>Justificavit, etc. Quod notavit D. Gregorius,
+          <lb ed="#P" n="63"/>lib. 5, in 1 Regum, cap. 4. hatio vero prioris
+          <lb ed="#P" n="64"/>partis est, quia divina voluntas absolute 
+          frus<lb break="no" ed="#P" n="65"/>trari non potest. Posterioris autem partis
+          <lb ed="#P" n="66"/>ratio est quia divina voluntas ita movet 
+          vo<lb break="no" ed="#P" n="67"/>luntatem creatam, ut accommodet illi media
+          <lb ed="#P" n="68"/>proportionata, quibus et libere, et 
+          infallibili<lb break="no" ed="#P" n="69"/>ter moveatur : hoc enim pertinet ad infinitam
+          <lb ed="#P" n="70"/>Dei sapientiam, et potentiam, ut supra libro
+          <lb ed="#P" n="71"/>primo tactum est, et iterum capite sequenti
+          <lb ed="#P" n="72"/>explicabitur. Unde etiam confirmatur, quia
+          <lb ed="#P" n="73"/>libertas non tollitur in generali, nisi in 
+          quan<lb break="no" ed="#P" n="74"/>tum in singuls actibus impeditur: sed 
+          prae<lb break="no" ed="#P" n="75"/>destinatio non impedit libertatem in singulis
+          <lb ed="#P" n="76"/>actibus, ut jam ostendam : ergo nec 
+          simplici<lb break="no" ed="#P" n="77"/>ter impedit in consequenda, vel conservanda
+          <lb ed="#P" n="78"/>gratia, per quam comparatur gloria.
+        </p>
+        <p xml:id="szduep-121730-d1e686">
+          <lb ed="#P" n="79"/>11. Objectio. — Ut autem modus loquendi et
+          <lb ed="#P" n="80"/>respondendi in forma ad hanc vulgarem 
+          difti<lb break="no" ed="#P" n="81"/>cultatem magis declaretur, objicio, quia 
+          suppo<lb break="no" ed="#P" n="82"/>sita praedestinatione, non potest quis damnari:
+          <lb ed="#P" n="83"/>ergo supposita praedestinatione non habet 
+          li<lb break="no" ed="#P" n="84"/>bertatem, ut damnetur, et illa suppositio jam
+          <lb ed="#P" n="85"/>posita est: ergo de facto jam non habet hanc
+          <lb ed="#P" n="86"/>libertatem. Prima consequentia patet, quia
+          <lb ed="#P" n="87"/>libertas consistit intrinsece in potestate 
+          agen<lb break="no" ed="#P" n="88"/>di et non agendi, ergo, si facta suppositione
+          <lb ed="#P" n="89"/>non est potestas, etiam non est libertas. Quod
+          <lb ed="#P" n="90"/>autem potestas, non sit, patet, quia jam 
+          po<lb break="no" ed="#P" n="91"/>nitur suppositio et ita sit etiam sensus 
+          com<lb break="no" ed="#P" n="92"/>positus, in quo verum est dicere, impossibile
+          <lb ed="#P" n="93"/>esse praedestinatum damnari. Cum autem 
+          sup<lb break="no" ed="#P" n="94"/>positio illa praecedat usum libertatis, quia Deus
+          <lb ed="#P" n="95"/>ante omnem hunc usum praevisum destinat
+          <lb ed="#P" n="96"/>efficaciter hominem ad gloriam, videtur ex
+          <lb ed="#P" n="97"/>illa suppositione sequi necessitas simpliciter et
+          <lb ed="#P" n="98"/>inducens absolutam impotentiam ad 
+          contra<lb break="no" ed="#P" n="99"/>rium effectum, ac proinde repugnans libertati.
+        </p>
+        <p xml:id="szduep-121730-d1e734">
+          <lb ed="#P" n="100"/>12. Dicitur. — Respondetur, ante omnia
+          <lb ed="#P" n="101"/>distinguendum esse primum antecedens, nam
+          <lb ed="#P" n="102"/>etiam supposita praedestinatione, verbum, 
+          po<lb break="no" ed="#P" n="103"/>test, accipi potest, vel in sensu diviso, vel in
+          <lb ed="#P" n="104"/>composito, et in diviso falsum est antecedens,
+          <lb ed="#P" n="105"/>in composito autem verum est. Haec sunt
+          <lb ed="#P" n="106"/>verba communia, quibus expeditur haec 
+          diffi<lb break="no" ed="#P" n="107"/>cultas: intelligentia vero haec esse debet, quod
+          <lb ed="#P" n="108"/>cum dicitur, Pradestinatus potest damnari,
+          <lb ed="#P" n="109"/>compositio fieri potest veluti in objecto talis
+          <lb ed="#P" n="110"/>potestatis, videlicet quod ad hoc se libertas
+          <pb ed="#P" n="482"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>extendat, ut possit simul in unum conjungere
+          <lb ed="#P" n="2"/>praedestinationem cum damnatione: et hoc
+          <lb ed="#P" n="3"/>modo est falsa et impossibilis propositio, quia
+          <lb ed="#P" n="4"/>repugnat divinae praescientiae habenti 
+          volun<lb break="no" ed="#P" n="5"/>tatem adjunctam. Alio vero modo accipi 
+          po<lb break="no" ed="#P" n="6"/>test, quod illa suppositio tantum sumatur ex
+          <lb ed="#P" n="7"/>parte subjecti et personae: quia videlicet 
+          etiam<lb break="no" ed="#P" n="8"/>si supponatur praedestinata, adhuc vere retinet
+          <lb ed="#P" n="9"/>potestatem peccandi et perseverandi in 
+          pec<lb break="no" ed="#P" n="10"/>cato, si voluerit, quanquam haec potestas 
+          nun<lb break="no" ed="#P" n="11"/>quam sit reducenda in actum praedestinationi
+          <lb ed="#P" n="12"/>contrarium. Etin hoc sensu est vera propositio.
+          <lb ed="#P" n="13"/>Ejusque ratio est, quia illa suppositio non 
+          im<lb break="no" ed="#P" n="14"/>mutat proprium modum agendi hujus 
+          poten<lb break="no" ed="#P" n="15"/>tiae: neque est ex omni parte antecedens, quia
+          <lb ed="#P" n="16"/>non applicatur ad opus, nisi ex praescientia,
+          <lb ed="#P" n="17"/>quod voluntas libere operatura est, si hoc, vel
+          <lb ed="#P" n="18"/>illo modo moveatur. Sic autem expedito 
+          ante<lb break="no" ed="#P" n="19"/>cedente, consequentia simpliciter neganda est,
+          <lb ed="#P" n="20"/>quia ad libertatem absolute et simpliciter 
+          sui<lb break="no" ed="#P" n="21"/>ficit haec potestas, quae vocatur in sensu diviso,
+          <lb ed="#P" n="22"/>quia vere et realiter manet in praedestinato
+          <lb ed="#P" n="23"/>potestas ad utrumque, non obstante 
+          praedesti<lb break="no" ed="#P" n="24"/>natione Dei. Quod si hic manet aliquid 
+          obscu<lb break="no" ed="#P" n="25"/>ritatis, in capite sequenti amplius 
+          explanabi<lb break="no" ed="#P" n="26"/>tur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

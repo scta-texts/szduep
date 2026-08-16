@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="779"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-196894"><!-- t3-l11c3 -->
+        <head xml:id="szduep-196894-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-196894-Hd1e103" type="question-title">An pater et filius diligant se, vel alia spiritu sancto</head>
+        <p xml:id="szduep-196894-d1e106">
+          <lb ed="#P" n="67"/>CAPUT III.
+          <lb ed="#P" n="68"/>AN PATER ET FILIUS DILIGANT SE, VEL ALIA
+          <lb ed="#P" n="69"/>SPIRITU SANCTO.
+        </p>
+        <p xml:id="szduep-196894-d1e115">
+          <lb ed="#P" n="70"/>1. Prima opinio. — Cum dictum sit, Patrem
+          <lb ed="#P" n="71"/>et Filium producere Spiritum sanctum 
+          dili<lb break="no" ed="#P" n="72"/>gendo, difficultas oritur, an ipse Spiritus 
+          sanc<lb break="no" ed="#P" n="73"/>tus possit dici amor, quo Pater et Filius 
+          dili<lb break="no" ed="#P" n="74"/>gunt, et praesertim, an sit, id, quo se diligunt,
+          <lb ed="#P" n="75"/>ut significari videtur per illam propositionem
+          <lb ed="#P" n="76"/>Pater et Filius diligunt se, Spiritu sancto.De
+          <lb ed="#P" n="77"/>qua disputant theologi communiter, divus 
+          Tho<lb break="no" ed="#P" n="78"/>mas , 1 part. , quaest. 1, art. 2, Alexander
+          <lb ed="#P" n="79"/>Alensis, 1 part., quaest. 34, memb. 2 et 3,
+          <lb ed="#P" n="80"/>art. 3, Marsilius, in 1, quaest. 14 et 35, reliqui
+          <lb ed="#P" n="81"/>scholastici, in 1, dist 32, ubi praecipue 
+          Bona<lb break="no" ed="#P" n="82"/>ventura, Scotus, Durandus et Capreolus. Est
+          <lb ed="#P" n="83"/>autem fere communis ipsorum sententia, 
+          lo<lb break="no" ed="#P" n="84"/>cutionem illam esse et veram, et propriam, et
+          <lb ed="#P" n="85"/>fundantur praecipue in auctoritate Augustini,
+          <lb ed="#P" n="86"/>cujus putant fuisse illam locutionem, in quo
+          <lb ed="#P" n="87"/>cum eis convenit Richardus de sancto Victore,
+          <lb ed="#P" n="88"/>in tractatu quodam de variis difficultatibus ad
+          <lb ed="#P" n="89"/>Bernardum.
+        </p>
+        <p xml:id="szduep-196894-d1e161">
+          <lb ed="#P" n="90"/>2. Fundamentum. — Apud Augustinum 
+          au<lb break="no" ed="#P" n="91"/>tem solum reperio, quod 6, de Trin., cap. 5,
+          <lb ed="#P" n="92"/>Spiritum sanctum vocat: Unitatem, 
+          charita<lb break="no" ed="#P" n="93"/>tem et sanctitatem Patris et Filii, et amorem
+          <lb ed="#P" n="94"/>quo genitus a gignente diligitur, 
+          generatorem<lb break="no" ed="#P" n="95"/>que suwm diligit. Et infra sic ait: IVon amplius,
+          <lb ed="#P" n="96"/>quam tria sunt. Unus diligens eum qua de ipso
+          <lb ed="#P" n="97"/>est ;alius diligens eun, a quo est, et ipsa 
+          dilec<lb break="no" ed="#P" n="98"/>lio. Et similia fere habet Hieronymus, in
+          <lb ed="#P" n="99"/>Psal. 17, in princ. : Spiritus sanctus (inquit)
+          <lb ed="#P" n="100"/>nec Pater est, nec Filius, sed ipsa dilectio, quam
+          <lb ed="#P" n="101"/>habet Pater in Filio, et Filius in Patre. 
+          Ber<lb break="no" ed="#P" n="102"/>nardus, etiam serm. 3, Pentecostes, inquit:
+          <lb ed="#P" n="103"/>Spiritum sanclum procedere tanguam 
+          firmissi<lb break="no" ed="#P" n="104"/>mum et indissolubile vinculum Trinitatis, unde,
+          <lb ed="#P" n="105"/>serm. 8, in Cantic., vocat Spiritum sanctum
+          <lb ed="#P" n="106"/>Osculum Patris ad Filium. Et similia habet in
+          <lb ed="#P" n="107"/>lib. de amore Dei, c. 1 et 8, ubi vocat Spiritum
+          <pb ed="#P" n="780"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sanctum amorem Patris ad Filium, et Filii ad
+          <lb ed="#P" n="2"/>Patrem : Denique Guidmundus, in confessione
+          <lb ed="#P" n="3"/>de sancta Trinitate, in tom. 6 Bibliothecae: a
+          <lb ed="#P" n="4"/>Patre (inquit) procedit amor ad Félium, et a
+          <lb ed="#P" n="5"/>Filio ad Patrem, et hic amor est Spiritus 
+          sanc<lb break="no" ed="#P" n="6"/>tus, qui ab utrogue procedit. Confirmari potest
+          <lb ed="#P" n="7"/>haec sententia a simili, nam Pater dicit se Verbo
+          <lb ed="#P" n="8"/>suo, ergo eadem ratione Pater et Filius 
+          dili<lb break="no" ed="#P" n="9"/>gunt se Spiritu sancto. In explicando autem
+          <lb ed="#P" n="10"/>sensu illius locutionis multum variant praedicti
+          <lb ed="#P" n="11"/>auctores, propter difficultatem statim 
+          propo<lb break="no" ed="#P" n="12"/>nendam in sequenti opinione: et ideo illam
+          <lb ed="#P" n="13"/>varietatem melius postea attingemus.
+        </p>
+        <p xml:id="szduep-196894-d1e236">
+          <lb ed="#P" n="14"/>3. Secunda opinio. — Prima ratio. — Als
+          <lb ed="#P" n="15"/>ergo theologis difficilis valde visa est illa 
+          locu<lb break="no" ed="#P" n="16"/>tio, putant enim in sensu proprio et rigoroso
+          <lb ed="#P" n="17"/>falsam esse, ideoque in aliquo sensu minus 
+          pro<lb break="no" ed="#P" n="18"/>prio esse interpretandam. Quod tenuit 
+          Godfre<lb break="no" ed="#P" n="19"/>dus, ut reliqui scholastici referunt, et ex 
+          mo<lb break="no" ed="#P" n="20"/>dernis Torres in commentariis dicti articuli
+          <lb ed="#P" n="21"/>secundi, et putant priorem sententiam virtute
+          <lb ed="#P" n="22"/>retractatam esse ab Augustinc, quando 
+          retrac<lb break="no" ed="#P" n="23"/>tavit illam, Pater est sapiens sapientia genita,
+          <lb ed="#P" n="24"/>nam arbitrantur esse eamdem utriusque 
+          ratio<lb break="no" ed="#P" n="25"/>nem. Sed fortasse melius dicere potuissent 
+          il<lb break="no" ed="#P" n="26"/>lam locutionem, quantum ad Spiritum sanctum
+          <lb ed="#P" n="27"/>attinet, non inveniri formaliter in Augustino,
+          <lb ed="#P" n="28"/>de quo infra aliquid dicam. Ratione tamen non
+          <lb ed="#P" n="29"/>male argumentantur ex dicto exemplo, quia
+          <lb ed="#P" n="30"/>Pater intelligit se Verbo suo, quia non est 
+          sa<lb break="no" ed="#P" n="31"/>piens sapientia genita: ergo nec Pater, 
+          necFi<lb break="no" ed="#P" n="32"/>lrus diligunt de Spiritu sancto. Probatur 
+          conse<lb break="no" ed="#P" n="33"/>quentia primo, quia sicut intelligere se habet
+          <lb ed="#P" n="34"/>ad intelligentem et producentem per 
+          intellec<lb break="no" ed="#P" n="35"/>tum, ita diligere ad diligentem et producentem
+          <lb ed="#P" n="36"/>per voluntatem, et sicut Verbum est terminus
+          <lb ed="#P" n="37"/>productionis, et non aliter comparatur ad 
+          Pa<lb break="no" ed="#P" n="38"/>trem, ita Spiritus sanctus est terminus 
+          produc<lb break="no" ed="#P" n="39"/>tionis suae, et non aliter ad Patrem et Filium
+          <lb ed="#P" n="40"/>comparatur.
+        </p>
+        <p xml:id="szduep-196894-d1e297">
+          <lb ed="#P" n="41"/>4. Secunda ratio.— Secundo, quia ideo 
+          Pa<lb break="no" ed="#P" n="42"/>ter non est sapiens sapientia genita, quia 
+          sa<lb break="no" ed="#P" n="43"/>pere est aliquid in Patre et Pater nihil recipit
+          <lb ed="#P" n="44"/>a suo genito nec formaliter, nec effective, quas
+          <lb ed="#P" n="45"/>habitudines significare potest ablativum illud.
+          <lb ed="#P" n="46"/>Sed haec ratio eisdem terminis applicari 
+          po<lb break="no" ed="#P" n="47"/>test, et cum eadem certitudine ad Spiritum
+          <lb ed="#P" n="48"/>sanctum, et dilectionem, ergo. Minor per se
+          <lb ed="#P" n="49"/>nota videtur, quia etiam diligere dicit 
+          forma<lb break="no" ed="#P" n="50"/>lem perfectionem, et intrinsecam, quam nullo
+          <lb ed="#P" n="51"/>modo possunt Pater, aut Filius a Spiritu 
+          sanc<lb break="no" ed="#P" n="52"/>to habere. Quod ita etiam explicatur, nam
+          <lb ed="#P" n="53"/>cum Pater, et Filius dicuntur se diligere 
+          Spi<lb break="no" ed="#P" n="54"/>ritu sancto aut verbum diligere sumitur 
+          no<lb break="no" ed="#P" n="55"/>uonaliter, pro ipsa origine, ita ut sit idem,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod spirare, et sic inepte, et falso construi
+          <lb ed="#P" n="57"/>tur cum illo relativo, se, quia sic diligere no 
+          <lb ed="#P" n="58"/>tionaliter est producere, Pater autem et Filiu 
+          <lb ed="#P" n="59"/>non producunt se, unde non possunt dici spi
+          <lb ed="#P" n="60"/>rare se. Impropriissime etiam dicerentur Pater
+          <lb ed="#P" n="61"/>aut Filius spirare Spiritu sancto, sed Spiritun
+          <lb ed="#P" n="62"/>sanctum, ergo nec dici potest notionaliter di
+          <lb ed="#P" n="63"/>ligere Spiritu sancto, si haec sunt idem. Quo
+          <lb ed="#P" n="64"/>si diligere notionale non dicat actualem origi
+          <lb ed="#P" n="65"/>nem, sed principium quo: sic etiam includi
+          <lb ed="#P" n="66"/>aliquo modo respectum ad terminum, und
+          <lb ed="#P" n="67"/>reflecti non potest supra principium produc 
+          <lb ed="#P" n="68"/>tionis cum additione ipsius termini. Quia, quoc
+          <lb ed="#P" n="69"/>illa dilectio sit notionalis formaliter, non habe
+          <lb ed="#P" n="70"/>a termino, sed a propriis relationibus Patris
+          <lb ed="#P" n="71"/>et Filii. Quod autem sit dilectio, habet ex eo
+          <lb ed="#P" n="72"/>quod est ipsamet dilectio essentialis. Ac si di
+          <lb ed="#P" n="73"/>ligere sumitur essentialiter, manifestum es
+          <lb ed="#P" n="74"/>falsam esse locutionem (in quo omnes conve
+          <lb ed="#P" n="75"/>niunt) quia Spiritus sanctus nec producitu
+          <lb ed="#P" n="76"/>per dilectionem essentialem ut sic, neque es
+          <lb ed="#P" n="77"/>forma constituens Patrem, aut Filium dihgen
+          <lb ed="#P" n="78"/>tem. Denique in hoc sensu manifeste aequipa
+          <lb ed="#P" n="79"/>ratur haec locutio cum illa alia, Pater est sa
+          <lb ed="#P" n="80"/>piens sapientia genita.
+        </p>
+        <p xml:id="szduep-196894-d1e388">
+          <lb ed="#P" n="81"/>5. Primum assertum. — Mihi in hac re du
+          <lb ed="#P" n="82"/>breviter dicenda occurrunt. Primum est, locu
+          <lb ed="#P" n="83"/>tionem illam in ea verborum forma, neque i
+          <lb ed="#P" n="84"/>Scriptura reperiri, neque in sanctis Patribu
+          <lb ed="#P" n="85"/>adeo clare, ut propter illam in omni proprie 
+          <lb ed="#P" n="86"/>tate defendendam multum contendendum ess
+          <lb ed="#P" n="87"/>videatur. Prior pars de Scriptura certa est a
+          <lb ed="#P" n="88"/>pud omnes, nullum enim affert testimoniun
+          <lb ed="#P" n="89"/>ad eam probandam. Ut altera pars declaretur
+          <lb ed="#P" n="90"/>adverto, has locutiones esse in rigore diversas
+          <lb ed="#P" n="91"/>Pater et Filius diligunt se amore, quà est Sp
+          <lb ed="#P" n="92"/>ritus sanctus, vel, diligunt se Spiritu sancto
+          <lb ed="#P" n="93"/>Nam in hac posteriori Spiritus sanctus signi
+          <lb ed="#P" n="94"/>ficatur, ut forma constituens Patrem, et Filium
+          <lb ed="#P" n="95"/>diligentes, et in hoc consistit ejus difficultas
+          <lb ed="#P" n="96"/>quia non videtur posse hoc habere verum 
+          sen<lb break="no" ed="#P" n="97"/>sum. In priori vero solum denotatur identita:
+          <lb ed="#P" n="98"/>inter Spiritum sanctum, et dilectionem, qua
+          <lb ed="#P" n="99"/>constituit Patrem, et Filium formaliter 
+          diligen<lb break="no" ed="#P" n="100"/>tes, ut manifeste indicat dictio illa, Qui est.
+          <lb ed="#P" n="101"/>et ad summum etiam indicatur , Spiritum
+          <lb ed="#P" n="102"/>sanctum ex vi processionis suae formaliter 
+          ha<lb break="no" ed="#P" n="103"/>bere illam identitatem: utrumque autem 
+          ve<lb break="no" ed="#P" n="104"/>rum est, et facile ut supra in simili dictum esi
+          <lb ed="#P" n="105"/>de sapientia genita. Augustinus autem, et 
+          Hie<lb break="no" ed="#P" n="106"/>ronymus, et alii, si attente considerentur, 
+          ma<lb break="no" ed="#P" n="107"/>gis priorem locutionem, quam posteriorem 
+          in<lb break="no" ed="#P" n="108"/>dicant, solum enim dicunt Spiritum sanctum
+          <lb ed="#P" n="109"/>esse dilectionem, qua Pater diligit Filium, e
+          <lb ed="#P" n="110"/>Filius Patrem. Quod non solum est verum pe
+          <pb ed="#P" n="781"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>appropriationem, ut Durandus putavit, sed 
+          e<lb break="no" ed="#P" n="2"/>tiam per quamdam proprietatem, quatenus 
+          si<lb break="no" ed="#P" n="3"/>gnificat Spiritum sanctum esse illam 
+          dilectio<lb break="no" ed="#P" n="4"/>nem, ex vi suae processionis, sicut etiam de
+          <lb ed="#P" n="5"/>Sapientia cum proportione loquimur. Atque in
+          <lb ed="#P" n="6"/>hunc sensum videtur reducere illam 
+          locutio<lb break="no" ed="#P" n="7"/>nem, Pater, et Filius diligunt se Spiritu 
+          sanc<lb break="no" ed="#P" n="8"/>to , Alexander Alensis supra, id est, diligunt
+          <lb ed="#P" n="9"/>se dilectione, que est Spiritus sanctus, vel quod
+          <lb ed="#P" n="10"/>perinde est, diligendo se, producunt Spiritum
+          <lb ed="#P" n="11"/>sanctum, et suam dilectionem illi 
+          communi<lb break="no" ed="#P" n="12"/>cant.
+        </p>
+        <p xml:id="szduep-196894-d1e486">
+          <lb ed="#P" n="13"/>6. Secundum assertum. — Secundo assero,
+          <lb ed="#P" n="14"/>posse illam locutionem formaliter sumptam in
+          <lb ed="#P" n="15"/>sensu magis proprio defendi. Omissis autem
+          <lb ed="#P" n="16"/>varus sensibus, quos D. Thomas supra refert,
+          <lb ed="#P" n="17"/>et facile refutari possunt, duo videntur habere
+          <lb ed="#P" n="18"/>majus pondus. Prior est Richardusde 
+          sanctoVic<lb break="no" ed="#P" n="19"/>tore, loco citato, qui his verbis sensum declarat:
+          <lb ed="#P" n="20"/>Dicitur Pater Spiritu sancto diligere, non quod
+          <lb ed="#P" n="21"/>per eum amorem habeat, sed quod euhibeat, non
+          <lb ed="#P" n="22"/>quod per eun amorem accipiat, sed impendat.
+          <lb ed="#P" n="23"/>Unde significat illud verbum diligere 
+          aequivo<lb break="no" ed="#P" n="24"/>cum esse, nam uno modo significat esse 
+          forma<lb break="no" ed="#P" n="25"/>liter diligentem, et ita non verificatur illa 
+          pro<lb break="no" ed="#P" n="26"/>positio ; alio modo significat producere alium
+          <lb ed="#P" n="27"/>dilengentem : et hoc modo dicit, esse veram
+          <lb ed="#P" n="28"/>propositionem. Et comparet illam cum hac,
+          <lb ed="#P" n="29"/>Pater dicit Verbo, quae est vera, licet illa sit 
+          fal<lb break="no" ed="#P" n="30"/>sa intelligit Verbo, quia intelligere non 
+          admit<lb break="no" ed="#P" n="31"/>tit, nisi priorem significationem. Unde etiam
+          <lb ed="#P" n="32"/>infert, Patrem diligere se ipso, sumpto verbo,
+          <lb ed="#P" n="33"/>diligere in priori significatione, et diligere 
+          Spi<lb break="no" ed="#P" n="34"/>ritu sancto in alia significatione jam dicta.
+          <lb ed="#P" n="35"/>Quam ita etiam interpretatur, dilgit se per
+          <lb ed="#P" n="36"/>ipiritum sanctum, quem producit dilectorem,
+          <lb ed="#P" n="37"/>et dilectionem sui. Unde etiam concedi debet
+          <lb ed="#P" n="38"/>in hoc sensu: Pater spirat Filio, id est, per
+          <lb ed="#P" n="39"/>ilium, quia illum producit cum virtute 
+          spi<lb break="no" ed="#P" n="40"/>randi. Quare licet hic sensus sit pius, et 
+          pro<lb break="no" ed="#P" n="41"/>babilis, nescio, an fuerit intentus ab 
+          Augusti<lb break="no" ed="#P" n="42"/>no, et aliis, quia illa duplex significatio illius
+          <lb ed="#P" n="43"/>verbi non videtur ita usitata.
+        </p>
+        <p xml:id="szduep-196894-d1e556">
+          <lb ed="#P" n="44"/>7. Sententia D. Thome evponitur. — Alter
+          <lb ed="#P" n="45"/>sensus est, quem D. Thomas late declarat in
+          <lb ed="#P" n="46"/>illo art. 2, et Capreolus, Cajetanus, et alii 
+          ex<lb break="no" ed="#P" n="47"/>ponunt, ac defendunt ab impugnationibus 
+          Sco<lb break="no" ed="#P" n="48"/>ti, et aliorum. Summa est, diligere in ea 
+          lo<lb break="no" ed="#P" n="49"/>cutione, sumi pro actu notionali producendi
+          <lb ed="#P" n="50"/>amorem. JVomen autem significans actionem,
+          <lb ed="#P" n="51"/>inquit D. Thomas, cumn ordine ad definitum 
+          ter<lb break="no" ed="#P" n="52"/>minwm solet denominare agens, seu iribui 
+          agen<lb break="no" ed="#P" n="53"/>Li, non solum cum vefleaione actionis per 
+          mo<lb break="no" ed="#P" n="54"/>dum formae, sed etiam cum replicatione termini.
+          <lb ed="#P" n="55"/>Nam priori modo dicimus, ignem calefacere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>calefactione, posteriori autem modo dicimus,
+          <lb ed="#P" n="57"/>arborem florere floribus. Atque hoc posteriori
+          <lb ed="#P" n="58"/>modo, inquit D. Thomas : Pater, et Filius 
+          di<lb break="no" ed="#P" n="59"/>ligunt Spiritu sancto tanquam termino 
+          dilec<lb break="no" ed="#P" n="60"/>tionis productivee, sicut Pater dicit Verbo 
+          tan<lb break="no" ed="#P" n="61"/>quam termino dictionis. In intellectu enim 
+          ha<lb break="no" ed="#P" n="62"/>bemus voces distinctas, in voluntate autem
+          <lb ed="#P" n="63"/>eamdem accommodamus ad notionalem, et
+          <lb ed="#P" n="64"/>essentialem actum significandum.
+        </p>
+        <p xml:id="szduep-196894-d1e606">
+          <lb ed="#P" n="65"/>8. Propter argumentum autem factum in
+          <lb ed="#P" n="66"/>secunda opinione constituit D. Thomas 
+          diffe<lb break="no" ed="#P" n="67"/>rentiam inter Verbum spirandi, et diligendi,
+          <lb ed="#P" n="68"/>quod Verbum spirare habet valde generalem
+          <lb ed="#P" n="69"/>significationem, sicut Verbum, producere, vel
+          <lb ed="#P" n="70"/>generare, et non includit in suo conceptu 
+          defi<lb break="no" ed="#P" n="71"/>nitum terminum : et ideo non tribuitur 
+          spi<lb break="no" ed="#P" n="72"/>ranti cum denominatione ab ipso termino,
+          <lb ed="#P" n="73"/>quod secus est in Verbo diligendi. Clarius vero
+          <lb ed="#P" n="74"/>dici posset, Verbum spirandi esse ex his, quae
+          <lb ed="#P" n="75"/>tantum significant simplicem habitudinem ad
+          <lb ed="#P" n="76"/>terminum, quae non construuntur cum illo,
+          <lb ed="#P" n="77"/>nisi in accusandi casu, per quem significatur
+          <lb ed="#P" n="78"/>terminus ut sic, scilicet, spirat Spiritum 
+          sanc<lb break="no" ed="#P" n="79"/>tum. Diligere vero non solum dicit 
+          habitudi<lb break="no" ed="#P" n="80"/>nem ad terminum, sed etiam ad objectum, seu
+          <lb ed="#P" n="81"/>materiam circa quam, et ideo potest reflecti
+          <lb ed="#P" n="82"/>supra ipsum principium, si sub objecto 
+          dilec<lb break="no" ed="#P" n="83"/>tionis contineatur, et dicitur : Patrem diligere
+          <lb ed="#P" n="84"/>se, et potest construi cum suo termino in casu
+          <lb ed="#P" n="85"/>ablativo, seu effectivo, quod indicat 
+          denomi<lb break="no" ed="#P" n="86"/>nationem formalem. Ita ergo dicuntur Pater,
+          <lb ed="#P" n="87"/>et Filius diligere se Spiritu sancto, sicut etiam
+          <lb ed="#P" n="88"/>posset arbor dici florere se (si Verbum illud
+          <lb ed="#P" n="89"/>active sumatur), floribus, quia se veluti 
+          ador<lb break="no" ed="#P" n="90"/>nat floribus.
+        </p>
+        <p xml:id="szduep-196894-d1e666">
+          <lb ed="#P" n="91"/>9. Objectio. — Semper tamen difficile potest
+          <lb ed="#P" n="92"/>exponi, qualis sit haec denominatio : quam 
+          Pa<lb break="no" ed="#P" n="93"/>ter, et Filius accipiunt a Spiritu sancto, ut a
+          <lb ed="#P" n="94"/>termino productionis, ut ratione illius possit
+          <lb ed="#P" n="95"/>talis locutio in rigore verificari. 
+          Quotiescum<lb break="no" ed="#P" n="96"/>que enim terminus actionis construitur illo
+          <lb ed="#P" n="97"/>modo cum Verbo significante productionem,
+          <lb ed="#P" n="98"/>significatur, ut forma ejus cui accommodatur,
+          <lb ed="#P" n="99"/>et ideo oportet, ut det illi denominationem
+          <lb ed="#P" n="100"/>formalem, vel intrinsecam, et propriam : ut
+          <lb ed="#P" n="101"/>in hac: 7gnàis calefacit ligmun calore producto,
+          <lb ed="#P" n="102"/>vel per adjacentiam aliquam, quo modo est
+          <lb ed="#P" n="103"/>vera illa locutio : Arbor florescit floribus; quia
+          <lb ed="#P" n="104"/>flores manent in arbore, et ornant illam, vel
+          <lb ed="#P" n="105"/>per extrinsecam denominationem, seu 
+          reprae<lb break="no" ed="#P" n="106"/>sentationem, quo modo vera est illa locutio:
+          <lb ed="#P" n="107"/>Pater dicit se vel aliaVerbo. Hic autem nec 
+          de<lb break="no" ed="#P" n="108"/>nominatio potest esse intrinseca, et formalis,
+          <lb ed="#P" n="109"/>ut constat, neque extrinseca apparet, quia 
+          Spi<lb break="no" ed="#P" n="110"/>ritus sanctus nec repraesentat, neque adjacet,
+          <pb ed="#P" n="782"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>seu ornat, ut ita dicam, Patrem, et Filium 
+          pro<lb break="no" ed="#P" n="2"/>ducentes ipsum.
+        </p>
+        <p xml:id="szduep-196894-d1e721">
+          <lb ed="#P" n="3"/>10. Responsio. — Ad hoc tamen breviter 
+          di<lb break="no" ed="#P" n="4"/>cendum occurrit, denominationem hanc esse
+          <lb ed="#P" n="5"/>posse unionis cujusdam effective : nam ea, quae
+          <lb ed="#P" n="6"/>se diligunt, uniuntur affectu : et ideo recte
+          <lb ed="#P" n="7"/>dici possunt uniri, et dilectione ipsa, tanquam
+          <lb ed="#P" n="8"/>ipsa unitione, et termino producto, tanquam
+          <lb ed="#P" n="9"/>eo, in quo uniuntur. Contingit enim aliqua
+          <lb ed="#P" n="10"/>uniri in tertio, seu in termino aliquo, et tunc
+          <lb ed="#P" n="11"/>non tantum denominantur ab ipsa unione, seu
+          <lb ed="#P" n="12"/>actione, quia uniuntur, sed etiam a termino,
+          <lb ed="#P" n="13"/>quomodo lineae dicuntur uniri puncto, seu 
+          cen<lb break="no" ed="#P" n="14"/>tro: et duae naturae in Christo dicuntur uniri
+          <lb ed="#P" n="15"/>una substantia : sic ergo Pater, et Filius 
+          di<lb break="no" ed="#P" n="16"/>cuntur uniri Spiritu sancto, non informative,
+          <lb ed="#P" n="17"/>sed terminative. Quo sensu vocant Patres 
+          Spi<lb break="no" ed="#P" n="18"/>ritum nexum, et unitatem Patris et Filii, et
+          <lb ed="#P" n="19"/>quia illa unio affectiva est, recte per Verbum
+          <lb ed="#P" n="20"/>diligendi significatur: sic ergo dicuntur se 
+          di<lb break="no" ed="#P" n="21"/>ligere Spiritu sancto, ubi verbum diligendi 
+          no<lb break="no" ed="#P" n="22"/>tionaliter sumitur, significat autem 
+          produc<lb break="no" ed="#P" n="23"/>tionem termini cum unione quadam 
+          producen<lb break="no" ed="#P" n="24"/>tium in ipso.
+        </p>
+        <p xml:id="szduep-196894-d1e771">
+          <lb ed="#P" n="25"/>11. Illatio. — Unde intelligitur ipsum 
+          Spi<lb break="no" ed="#P" n="26"/>ritum sanctum non posse in hac significatione
+          <lb ed="#P" n="27"/>dici diligere alias personas, se ipso, quia neque
+          <lb ed="#P" n="28"/>alias personas neque se producit, neque habet
+          <lb ed="#P" n="29"/>dilectionem notionalem. Sumpto autem Verbo
+          <lb ed="#P" n="30"/>diligendi essentialiter, recte dicitur diligere se
+          <lb ed="#P" n="31"/>ipso, ut D. Thomas dixit, in 2, dist. 31, q. 1,
+          <lb ed="#P" n="32"/>art. 2. ad ultimum, et Marsilius, et alii 
+          adno<lb break="no" ed="#P" n="33"/>tarunt : quia diligit suo amore, qui est 
+          ipse<lb break="no" ed="#P" n="34"/>met Spiritus sanctus, et quia licet respectu sui
+          <lb ed="#P" n="35"/>non sit terminus productus, est tamen 
+          objec<lb break="no" ed="#P" n="36"/>tum ejusdem dilectionis, per quam a Patre, et
+          <lb ed="#P" n="37"/>Filio producitur, et ita est nexus, et unio non
+          <lb ed="#P" n="38"/>tantum Patris, et Filii, inter se, sed etiam cum
+          <lb ed="#P" n="39"/>ipso.
+        </p>
+        <p xml:id="szduep-196894-d1e806">
+          <lb ed="#P" n="40"/>12. An Pater et Filius diligant creaturas
+          <lb ed="#P" n="41"/>Spiritu sancto. — Ultimo intelligitur facile ex
+          <lb ed="#P" n="42"/>dictis, an possit Pater, et Filius recte dici 
+          dili<lb break="no" ed="#P" n="43"/>gere creaturas Spiritu sancto. Scotus enim,
+          <lb ed="#P" n="44"/>dicta dist. 31, hanclocutionem non putant 
+          ad<lb break="no" ed="#P" n="45"/>mittendam : quia Spiritus sanctus non 
+          produ<lb break="no" ed="#P" n="46"/>citur ex dilectione creaturarum, unde per se
+          <lb ed="#P" n="47"/>non videtur esse nexus amoris, seu unionis 
+          af<lb break="no" ed="#P" n="48"/>fectivae Dei ad creaturas, D. Thomas autem,
+          <lb ed="#P" n="49"/>dicta quaest. 37, art. 2, ad 3, concedit, Patrem,
+          <lb ed="#P" n="50"/>et Filium diligere nos Spiritu sancto, sicut
+          <lb ed="#P" n="51"/>Pater dicit creaturas Verbo, quamvis ex 
+          illa<lb break="no" ed="#P" n="52"/>rum cognitione non procedat. Loquitur autem
+          <lb ed="#P" n="53"/>clare D. Thomas de creaturis futuris, et non
+          <lb ed="#P" n="54"/>tantum de possibilibus, et putat, tam Verbum,
+          <lb ed="#P" n="55"/>quam Spiritum sanctum dicere relationem ra-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tionis ad creaturam. Quod intelligo de respectu
+          <lb ed="#P" n="57"/>non tam actuali, quam aptitudinah (ut ita 
+          lo<lb break="no" ed="#P" n="58"/>quar). Quia Verbum necessario procedit aptum
+          <lb ed="#P" n="59"/>ad repraesentandas creaturas etiam existentes,
+          <lb ed="#P" n="60"/>et ideo licet absoluta necessitate non 
+          repraesen<lb break="no" ed="#P" n="61"/>tet illas futuras, tamen ex suppositione, quod
+          <lb ed="#P" n="62"/>futurae sunt necessario repraesentat illas quod
+          <lb ed="#P" n="63"/>satis est, ut ipso verbo dicantur. Sic etiam
+          <lb ed="#P" n="64"/>Spiritus sanctus necessario includit 
+          proportio<lb break="no" ed="#P" n="65"/>nalem relationem, nam licet absoluta 
+          necessi<lb break="no" ed="#P" n="66"/>tate non oporteat creaturas diligi, seu (quod
+          <lb ed="#P" n="67"/>idem est), Patrem et Filium illis effective 
+          uni<lb break="no" ed="#P" n="68"/>ri, cum producunt Spiritum sanctum, si tamen
+          <lb ed="#P" n="69"/>creaturae diligendae sunt a Deo, illo eodem 
+          a<lb break="no" ed="#P" n="70"/>more diligendae sunt quo Spiritus sanctus 
+          pro<lb break="no" ed="#P" n="71"/>ducitur. Et hoc satis esse voluit D. Thomas ut
+          <lb ed="#P" n="72"/>ille creaturae, quae de facto diliguuntur, 
+          di<lb break="no" ed="#P" n="73"/>cantur diligi Spiritu sancto. In hoc ergo sensu
+          <lb ed="#P" n="74"/>potest illa locutio probabiliter defendi : fateor
+          <lb ed="#P" n="75"/>tamen, non esse ita propriam, sicut 
+          praeceden<lb break="no" ed="#P" n="76"/>tem, nec facile usurpandam sine sufficienti 
+          de<lb break="no" ed="#P" n="77"/>claratione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

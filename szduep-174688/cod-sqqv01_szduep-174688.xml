@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="691"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-174688"><!-- t3-l7c1 -->
+        <head xml:id="szduep-174688-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-174688-Hd1e103" type="question-title">Denturne in deo proprietates personales, quae in abstracto concipi, et significari a nobis possint</head>
+        <p xml:id="szduep-174688-d1e106">
+          <pb ed="#P" n="691"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT I.
+          <lb ed="#P" n="2"/>DENTURNE IN DEO PROPRIETATES PERSONALES, QUAE
+          <lb ed="#P" n="3"/>IN ABSTRACTO CONCIPI, ET SIGNIFICARI A NOBIS
+          <lb ed="#P" n="4"/>POSSINT.
+        </p>
+        <p xml:id="szduep-174688-d1e122">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>1. Circa hanc materiam fuit antiqua opinio
+          <lb ed="#P" n="6"/>Praepositivi, qui negavit, esse in Deo 
+          hujus<lb break="no" ed="#P" n="7"/>modi proprietates abstracte significabiles, nisi
+          <lb ed="#P" n="8"/>forte quoad modum loquendi, in quantum 
+          ab<lb break="no" ed="#P" n="9"/>stractum nomen sumitur pro concreto. Quam
+          <lb ed="#P" n="10"/>opinionem secutus est Gregorius 1, distinct. 26,
+          <lb ed="#P" n="11"/>quaest.1 et 2, qui ait, ipsasmet personas posse
+          <lb ed="#P" n="12"/>proprietates appellari, non tamen esse in Deo
+          <lb ed="#P" n="13"/>aliquas proprietates, quae possint a nobis 
+          con<lb break="no" ed="#P" n="14"/>cipi, ut existentes in personis, sed intransitive,
+          <lb ed="#P" n="15"/>(inquit) esse ipsas personas. Addit etiam, 
+          ora<lb break="no" ed="#P" n="16"/>tione complexa posse aliquid significari per
+          <lb ed="#P" n="17"/>modum proprietatis, quomodo generare 
+          Fi<lb break="no" ed="#P" n="18"/>lium, dicitur Proprietas Patris : Nunc autem
+          <lb ed="#P" n="19"/>proprietatis modum dicit, non esse in re, sed
+          <lb ed="#P" n="20"/>in conceptione, et locutione nostra, quia 
+          com<lb break="no" ed="#P" n="21"/>plexio est opus mentis. Hi auctores fundati
+          <lb ed="#P" n="22"/>sunt solum in divina simphcitate , cui 
+          existi<lb break="no" ed="#P" n="23"/>mant repugnare hanc veluti compositionem
+          <lb ed="#P" n="24"/>abstracti, et concreti.
+        </p>
+        <p xml:id="szduep-174688-d1e170">
+          <lb ed="#P" n="25"/>2. Haec opinio a caeteris theologis 
+          commu<lb break="no" ed="#P" n="26"/>niter reprobatur, et merito, quia, si in re ipsa
+          <lb ed="#P" n="27"/>dissentiat a communi sententia, erit plus quam
+          <lb ed="#P" n="28"/>falsa , si vero tantum in modo loquendi , est
+          <lb ed="#P" n="29"/>impertinens, et sine fundamento, et vix 
+          per<lb break="no" ed="#P" n="30"/>mittit nobis uti vocibus aptis ad explicandum
+          <lb ed="#P" n="31"/>hoc mysterium.
+        </p>
+        <p xml:id="szduep-174688-d1e189">
+          <lb ed="#P" n="32"/>3. Dicendum ergo imprimis est, esse in Deo
+          <lb ed="#P" n="33"/>veras, et reales proprietates personales. Quam
+          <lb ed="#P" n="34"/>assertionem sub his terminis censeo omnino
+          <lb ed="#P" n="35"/>esse certam : nam universa Ecclesia ita 
+          loqui<lb break="no" ed="#P" n="36"/>tur in praefatione Missae Trinitatis, 7n personis
+          <lb ed="#P" n="37"/>proprietas , etc. Et Concilium Lateranense in
+          <lb ed="#P" n="38"/>capite Firmiter. Hec sancta Trinitas 
+          secun<lb break="no" ed="#P" n="39"/>dum communem essentiam una, et secundum
+          <lb ed="#P" n="40"/>personales proprietates discreta. Plura statim
+          <lb ed="#P" n="41"/>adducam. Ratio manifesta est, quia ubi sunt
+          <lb ed="#P" n="42"/>res, et personae realiter distinctae, necesse est,
+          <lb ed="#P" n="43"/>ut aliquid sit in unaquaque illarum, quod aliis
+          <lb ed="#P" n="44"/>non sit commune, sed illi conveniat, alias 
+          im<lb break="no" ed="#P" n="45"/>possibile est intelligere distinctionem : sed 
+          per<lb break="no" ed="#P" n="46"/>sonae sunt inter se realter distinctae , ergo in
+          <lb ed="#P" n="47"/>unaquaque persona est aliquid proprium illi :
+          <lb ed="#P" n="48"/>hoc autem proprietatem appellamus. Atque ita
+          <lb ed="#P" n="49"/>per distinctionem ejus, quod commune est, et
+          <lb ed="#P" n="50"/>ejus, quod est proprium, explicarunt hoc 
+          mys<lb break="no" ed="#P" n="51"/>terium Patres omnes, praesertim Basilius,
+          <lb ed="#P" n="52"/>Epistola 43, et Gregorius Nyssenus, libro de
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="53"/>Differentia naturae et hypost., Damascenus,
+          <lb ed="#P" n="54"/>lib. 1 et 3, saepe.
+        </p>
+        <p xml:id="szduep-174688-d1e244">
+          <lb ed="#P" n="55"/>4. Secundo dicendum est, has proprietates
+          <lb ed="#P" n="56"/>recte concipi et explicari hominibus 
+          abstrac<lb break="no" ed="#P" n="57"/>tis. Haec etiam conclusio est mihi certa ex usu
+          <lb ed="#P" n="58"/>omnium theologorum, imo et antiquorum 
+          Pa<lb break="no" ed="#P" n="59"/>trum. Nam Sophronius, in sua Epistola, 
+          ac<lb break="no" ed="#P" n="60"/>tione undecima 6 Synodi, has proprietates
+          <lb ed="#P" n="61"/>alteritates, vocat, et alterificas proprietates,
+          <lb ed="#P" n="62"/>quee inconfuse unumquamque significant 
+          perso<lb break="no" ed="#P" n="63"/>nam. Nicephorus etiam Episcopus, in Concilio
+          <lb ed="#P" n="64"/>Ephesino, tom. 5, capit. 22, vocat 
+          proprieta<lb break="no" ed="#P" n="65"/>les distinctivas personarum. Idem fere habet
+          <lb ed="#P" n="66"/>Joannes Theologus, in Concilio Florentino,
+          <lb ed="#P" n="67"/>sessione 18, Nazianzenus, oratione 19, in
+          <lb ed="#P" n="68"/>sancta lumina, vocat Filiationem, et 
+          genera<lb break="no" ed="#P" n="69"/>tionem, et procesionem, et ingenituram, quam
+          <lb ed="#P" n="70"/>theologi innascibilitatem vocant : subditque :
+          <lb ed="#P" n="71"/>Liceat enim perspicuitatis causa nomina 
+          fin<lb break="no" ed="#P" n="72"/>gere. Multa similia habet Basilius supra, et
+          <lb ed="#P" n="73"/>lib. 2, contra Eunomium, circa finem addit :
+          <lb ed="#P" n="74"/>Non enim demonstrativi proprietatum modi
+          <lb ed="#P" n="75"/>simplicitatis ejus rationem ledent, et infra ait:
+          <lb ed="#P" n="76"/>Deitatem esse communem , paternitatem autem
+          <lb ed="#P" n="77"/>et filiationem esse proprietates : Hilarius, lib. 9,
+          <lb ed="#P" n="78"/>de Trinitate, expresse nominat, nativitatem cet
+          <lb ed="#P" n="79"/>innascibilitatem. Cyprianus, de Cardinalibus
+          <lb ed="#P" n="80"/>Christi operis, capite de Nativitate Christi, 
+          cir<lb break="no" ed="#P" n="81"/>ca finem dicit : Christum vocari magni 
+          consi<lb break="no" ed="#P" n="82"/>lii Angelum, quia generationis et processionis
+          <lb ed="#P" n="83"/>intimas rationes revelavit, subtiliter astruens
+          <lb ed="#P" n="84"/>personarum proprietates et andissolubilis 
+          essen<lb break="no" ed="#P" n="85"/>tie unitatem. Damascenus multus est in hac
+          <lb ed="#P" n="86"/>re, lib. 1, cap. 9 et 10, (ut interpres vertit)
+          <lb ed="#P" n="87"/>innascibilitatem vocat ingignentiam, addens
+          <lb ed="#P" n="88"/>gignentiam et processionem. Dicit etiam, 
+          secun<lb break="no" ed="#P" n="89"/>dam personam producere filialiter, tertium 
+          pro<lb break="no" ed="#P" n="90"/>cessibiliter : utitur etiam nomine, paternitatis
+          <lb ed="#P" n="91"/>et aliis usitatis. Ac denique dicit : Personas
+          <lb ed="#P" n="92"/>esse discretas characterismo proprie 
+          hyposta<lb break="no" ed="#P" n="93"/>seos. Similia legi possunt in Anastasio, in libro
+          <lb ed="#P" n="94"/>de Rec. fidei dogmatibus. Ubi dicit: 
+          Unam<lb break="no" ed="#P" n="95"/>quamque personam conformem sibi forsitan
+          <lb ed="#P" n="96"/>esse proprietatem sig nificativam personalis 
+          sub<lb break="no" ed="#P" n="97"/>sistentie - et specialiter utitur hac voce 
+          geni<lb break="no" ed="#P" n="98"/>tura, tribuens illam Filio. Sic etiam 
+          Tertullia<lb break="no" ed="#P" n="99"/>nus, libro contra Praxaeam, cap. 2, has 
+          pro<lb break="no" ed="#P" n="100"/>prietates formas personarum vocat. Richardus
+          <lb ed="#P" n="101"/>de Sancto Victore, lib. 1, de Trinitate, c. 18,
+          <lb ed="#P" n="102"/>et Augustinus, in libris de Trinitate passim.
+        </p>
+        <p xml:id="szduep-174688-d1e351">
+          <lb ed="#P" n="103"/>5. Ratio vero est manifesta. Nam imprimis
+          <lb ed="#P" n="104"/>conceptio divinarum proprietatum in 
+          abstrac<lb break="no" ed="#P" n="105"/>to non repugnat divinae simplicitati, quin 
+          po<lb break="no" ed="#P" n="106"/>tius, quia abstracta concipiuntur a nobis, ut
+          <lb ed="#P" n="107"/>simpliciora, videtur modus concipiendi magis
+          <pb ed="#P" n="692"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>consentaneus Deo, et ideo in Scriptura est 
+          mul<lb break="no" ed="#P" n="2"/>tum usitatus. Sic enim dicitur Christus, Unitas,
+          <lb ed="#P" n="3"/>Sapientia, Justitia, etc. Unde advertit 
+          Bernar<lb break="no" ed="#P" n="4"/>dus, sermone 80, in Cantica, has locutiones esse
+          <lb ed="#P" n="5"/>aptissimas ad explicandam divinam 
+          perfectio<lb break="no" ed="#P" n="6"/>nem. Et ideo in Concilio Rhemensi non fuisse
+          <lb ed="#P" n="7"/>probatam explicationem Gilberti, dicentis,
+          <lb ed="#P" n="8"/>Deum vocari sapientiam, id est, sapientem, ac
+          <lb ed="#P" n="9"/>si non esset Deus ipsa sapientia per essentiam,
+          <lb ed="#P" n="10"/>quantumvis abstracte et simpliciter a nobis
+          <lb ed="#P" n="11"/>concipiatur. Ergo ex hac parte non repugnat,
+          <lb ed="#P" n="12"/>personales proprietates in abstracto concipere.
+          <lb ed="#P" n="13"/>Quin potius videri potest, modus concipiendi
+          <lb ed="#P" n="14"/>in concreto, repugnare simplicitati Dei : sed
+          <lb ed="#P" n="15"/>neque hoc ita est, quia non concipimus nos
+          <lb ed="#P" n="16"/>ibi concretum propter compositionem , sed
+          <lb ed="#P" n="17"/>propter perfectionem et subsistentiam. Nos
+          <lb ed="#P" n="18"/>enim non concipimus aliquid ut complete 
+          sub<lb break="no" ed="#P" n="19"/>sistens, nisi per modum concreti, illud 
+          conci<lb break="no" ed="#P" n="20"/>piamus.
+        </p>
+        <p xml:id="szduep-174688-d1e412">
+          <lb ed="#P" n="21"/>6. Neuter igitur modus concipiendi 
+          repu<lb break="no" ed="#P" n="22"/>gnat Deo, aut mysterio Trinitatis : aliunde vero
+          <lb ed="#P" n="23"/>necessarius est uterque concipiendi modus ad
+          <lb ed="#P" n="24"/>explicandum mysterium, ut dixit Nazianzenus,
+          <lb ed="#P" n="25"/>et ad respondendum haereticis, ut dixit divus
+          <lb ed="#P" n="26"/>Thomas. Cum enim asseramus personas esse
+          <lb ed="#P" n="27"/>unum, et esse distinctas, oportet respondere
+          <lb ed="#P" n="28"/>haereticis interrogantibus, in quo sint unum,
+          <lb ed="#P" n="29"/>in quo distinguantur : ad hoc ergo 
+          assignan<lb break="no" ed="#P" n="30"/>tur proprietates in abstracto, ut intelligamus,
+          <lb ed="#P" n="31"/>quibus quasi formis distinguantur personae,
+          <lb ed="#P" n="32"/>quae in essentia habent unitatem. Nec satisfacit,
+          <lb ed="#P" n="33"/>quod Gregorius ait, Patrem distingui a Filio
+          <lb ed="#P" n="34"/>se ipso, seu quia Pater est : tum quia per hoc
+          <lb ed="#P" n="35"/>solum explicatur, qui sint illi, qui 
+          distinguun<lb break="no" ed="#P" n="36"/>tur, non tamen quibus distinguuntur. Tum
+          <lb ed="#P" n="37"/>etiam quia cum ipsa concreta dicuntur, se ipsis
+          <lb ed="#P" n="38"/>distingui, videntur ita discerni, ut in nullo
+          <lb ed="#P" n="39"/>conveniant, et :deo ad explicandam 
+          distinctio<lb break="no" ed="#P" n="40"/>nem, quae talem unitatem secum admittit, 
+          ap<lb break="no" ed="#P" n="41"/>tissimus fuit usus harum proprietatum in 
+          abs<lb break="no" ed="#P" n="42"/>tracto.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

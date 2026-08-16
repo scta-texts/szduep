@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="309"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-078859"><!-- t2-l1c19 -->
+        <head xml:id="szduep-078859-Hd1e101">Caput 19</head>
+        <head xml:id="szduep-078859-Hd1e103" type="question-title">Quomodo praedestinatio ad gratiam et supernaturalem gubernationem comparetur</head>
+        <p xml:id="szduep-078859-d1e106">
+          <lb ed="#P" n="105"/>CAPUT XIX.
+          <lb ed="#P" n="106"/>QUOMODO PRAEDESTINATIO AD GRATIAM ET 
+          SUPER<lb break="no" ed="#P" n="107"/>NATURALEM GUBERNATIONEM COMPARETUR.
+        </p>
+        <p xml:id="szduep-078859-d1e115">
+          <lb ed="#P" n="108"/>1. Praedestinatio videtur comparari ad 
+          gra<lb break="no" ed="#P" n="109"/>tiam ut causa ad effectum. — Quomodo haec duo
+          <pb ed="#P" n="310"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>inter se differant. — Alia differentia. — Haec
+          <lb ed="#P" n="2"/>comparatio necessaria visa est ad exactam, ac
+          <lb ed="#P" n="3"/>propriam praedestinationis intelligentiam, 
+          con<lb break="no" ed="#P" n="4"/>feretque non parum ad intelligenda ea, quae
+          <lb ed="#P" n="5"/>de causis et effectibus praedestinationis 
+          dice<lb break="no" ed="#P" n="6"/>mus. Àugustinus ergo, libro de Praedestinatione
+          <lb ed="#P" n="7"/>Sanctorum, c. 10, et de DBono persev., c. 14,
+          <lb ed="#P" n="8"/>hanc comparationem attingens, dicit, 
+          praedes<lb break="no" ed="#P" n="9"/>tinationem et gratiam comparari, ut causam
+          <lb ed="#P" n="10"/>et effectum. Quia preedestinatio (a) est 
+          gra<lb break="no" ed="#P" n="11"/>tie preparatio, gratia vero jam ipsa donatio.
+          <lb ed="#P" n="12"/>Unde infra dicit : Quocirca praedestinatio Dei,
+          <lb ed="#P" n="13"/>quae in bono est gratiee, est ipsius preparatio,
+          <lb ed="#P" n="14"/>gratia vero est ipsius predestinationis effectus.
+          <lb ed="#P" n="15"/>Ex qua doctrina Augustini duplicem 
+          differen<lb break="no" ed="#P" n="16"/>tiam inter praedestinationem et gratiam 
+          colli<lb break="no" ed="#P" n="17"/>gere possumus. Una est, quia differunt sicut
+          <lb ed="#P" n="18"/>aeternum et temporale: nam praedestinatio
+          <lb ed="#P" n="19"/>aeterpna est, gratia temporalis, ut est creatio.
+          <lb ed="#P" n="20"/>Unde ait ibidem Augustinus : Quod ait 
+          Apos<lb break="no" ed="#P" n="21"/>Ltolus ipsius sumus factura creati in Christo
+          <lb ed="#P" n="22"/>Jesu in operibus bonis, gratia est : quod autem
+          <lb ed="#P" n="23"/>sequitur, quee preparavit Deus, ut in eis 
+          am<lb break="no" ed="#P" n="24"/>bulemus, praedestinatio est, quee sine preescientia
+          <lb ed="#P" n="25"/>esse non potest. Potestque a simili declarari,
+          <lb ed="#P" n="26"/>nam ita se habet praedestinatio ad gratiam, seu
+          <lb ed="#P" n="27"/>gubernationem supernaturalem 
+          praedestina<lb break="no" ed="#P" n="28"/>torum propriam, sicut providentia ad 
+          guber<lb break="no" ed="#P" n="29"/>nationem in communi comparantur, ut 
+          tem<lb break="no" ed="#P" n="30"/>porale et aeternum, teste D. Thoma, 1 p., q. 22,
+          <lb ed="#P" n="31"/>art. 1, ad 2, quia providentia dicit causam, 
+          gu<lb break="no" ed="#P" n="32"/>bernatio effectum: illa enim dicit rationem
+          <lb ed="#P" n="33"/>aeternam, per quam Deus gubernat, haec 
+          exe<lb break="no" ed="#P" n="34"/>cutionem ejus, quae in tempore fit. Ergo 
+          eo<lb break="no" ed="#P" n="35"/>iem modo comparatur praedestinatio ad 
+          glo<lb break="no" ed="#P" n="36"/>riam : nam sicut totum ad totum, ita pars ad
+          <lb ed="#P" n="37"/>partem. Undeidem divus Thomas, q. 23, art.2,
+          <lb ed="#P" n="38"/>dixit praedestinationem formaliter nihil 
+          pone<lb break="no" ed="#P" n="39"/>re in praedestinato, causaliter autem ponere
+          <lb ed="#P" n="40"/>gratiam, quod sane facit in tempore, per 
+          su<lb break="no" ed="#P" n="41"/>pernaturalem gubernationem. Atque ex hac
+          <lb ed="#P" n="42"/>differentia videtur sequi alia, quia 
+          praedesti<lb break="no" ed="#P" n="43"/>natio increata est, ut pote aeterna, gratia vero
+          <lb ed="#P" n="44"/>creata, ut nimirum temporale quid et factum.
+          <lb ed="#P" n="45"/>Utraque vero differentia nonnullam 
+          difficulta<lb break="no" ed="#P" n="46"/>tem habet, quae ad majorem hujus 
+          compara<lb break="no" ed="#P" n="47"/>tionis explicationem proponenda et breviter
+          <lb ed="#P" n="48"/>expedienda est.
+        </p>
+        <p xml:id="szduep-078859-d1e230">
+          <lb ed="#P" n="49"/>2. Prima difficultas circa primum 
+          differen<lb break="no" ed="#P" n="50"/>tiam. — Secunda difficultas. — Circa primam
+          <lb ed="#P" n="51"/>ergo differentiam est imprimis difficultas, quia
+          <lb ed="#P" n="52"/>ipsamet praedestinatio est quaedam gratia:
+          <lb ed="#P" n="53"/>nam est quoddam naturale beneficium gratis
+          <lb ed="#P" n="54"/>homini collatum, et hoc est gratia. Nec enim
+          <lb ed="#P" n="55"/>hic gratia vocatur sola forma sanctificans, sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>omnia dona supernaturalia et beneficia, 
+          qui<lb break="no" ed="#P" n="57"/>bus gloria comparatur. Unde non solum 
+          gra<lb break="no" ed="#P" n="58"/>tia est id, quod in homine intrinsece inhaeret,
+          <lb ed="#P" n="59"/>sed etiam multa extrinseca bona, si ad 
+          super<lb break="no" ed="#P" n="60"/>naturalem felicitatem conferant. Sic enim 
+          ha<lb break="no" ed="#P" n="61"/>bere suasores ad bonum, et non habere 
+          sua<lb break="no" ed="#P" n="62"/>sores ad malum inter gratiae dona computavit
+          <lb ed="#P" n="63"/>Augustinus enarratione in Psal. 87, et lib. 50,
+          <lb ed="#P" n="64"/>homil. 13, ergo licet praedestinatio non 
+          inhae<lb break="no" ed="#P" n="65"/>reat, praedestinatio est vera gratia, quia est
+          <lb ed="#P" n="66"/>magnum bonum ejus supernaturale et gratis
+          <lb ed="#P" n="67"/>collatum. Non ergo in universum differunt
+          <lb ed="#P" n="68"/>praedestinatio et gratia, sicut causa et effectus,
+          <lb ed="#P" n="69"/>sed etiam sicut duae gratiae, quae esse possunt
+          <lb ed="#P" n="70"/>causa et effectus, ita ergo potest comparari
+          <lb ed="#P" n="71"/>praedestinatio respectu sequentium gratiarum.
+          <lb ed="#P" n="72"/>Unde nec gratia erit semper temporalis, sed
+          <lb ed="#P" n="73"/>erit aliqua gratia aeterna. Deinde est alia 
+          dif<lb break="no" ed="#P" n="74"/>ficultas circa eamdem partem, praesertim 
+          con<lb break="no" ed="#P" n="75"/>ferendo praedestinationem cum gubernatione
+          <lb ed="#P" n="76"/>electorum : quia duplex est gubernatio. ut ex
+          <lb ed="#P" n="77"/>D. Thoma supra colligitur, una activa, altera
+          <lb ed="#P" n="78"/>passiva : quaero ergo, de qua illarum 
+          differen<lb break="no" ed="#P" n="79"/>tia illa intelligatur ? Nam de passiva per se 
+          no<lb break="no" ed="#P" n="80"/>tum est, et esse temporalem et esse in his, qui
+          <lb ed="#P" n="81"/>gubernantur, nam est veluti passio, quae in
+          <lb ed="#P" n="82"/>patiente recipitur : haec vero non est ad rem,
+          <lb ed="#P" n="83"/>de qua tractamus, agimus enim de 
+          guberna<lb break="no" ed="#P" n="84"/>tione, ut se habet ex parte Dei, atque adeo de
+          <lb ed="#P" n="85"/>activa gubernatione. At vero gubernatio activa
+          <lb ed="#P" n="86"/>videtur esse aeterna: non enim distinguitur a .
+          <lb ed="#P" n="87"/>providentia, ut sentit divus Thomas, prima
+          <lb ed="#P" n="88"/>parte, quaestione 103, articulo 6, 7 et 8 et patet,
+          <lb ed="#P" n="89"/>quia per eumdem actum aeternum, quo Deus
+          <lb ed="#P" n="90"/>ab aeterno praeparat beneficia electis, eos in
+          <lb ed="#P" n="91"/>tempore gubernat. Neque enim DEUS habet
+          <lb ed="#P" n="92"/>intra se aliam rationem gubernandi in 
+          tem<lb break="no" ed="#P" n="93"/>pore, praeter illam, quam ab aeterno concepit,
+          <lb ed="#P" n="94"/>aut decrevit : illa autem gubernandi ratio et
+          <lb ed="#P" n="95"/>gubernatio activa, est ergo aeterna, et non 
+          dif<lb break="no" ed="#P" n="96"/>fert, etiam ratione, a praedestinatione et 
+          pro<lb break="no" ed="#P" n="97"/>videntia, cum proportione sumptis.
+        </p>
+        <p xml:id="szduep-078859-d1e342">
+          <lb ed="#P" n="98"/>Tertia difficultas circa aliam differentiam.
+          <lb ed="#P" n="99"/>—Tertio hinc oritur difficultas circa aliam 
+          dit<lb break="no" ed="#P" n="100"/>ferentiam, quia non omnis gratia creata est,
+          <lb ed="#P" n="101"/>ipsa enim praedestinatio est quaedam gratia
+          <lb ed="#P" n="102"/>increata, et gratia unionis est increata et 
+          Spi<lb break="no" ed="#P" n="103"/>ritus Sanctus ipse, quatenus in propria 
+          per<lb break="no" ed="#P" n="104"/>sona justis confertur, gratia quaedam vocari
+          <lb ed="#P" n="105"/>potest, sicut essentia divina, ut data beatis in
+          <lb ed="#P" n="106"/>ratione speciei intelligibilis, vere dicitur 
+          do<lb break="no" ed="#P" n="107"/>num increatum.
+        </p>
+        <p xml:id="szduep-078859-d1e366">
+          <lb ed="#P" n="108"/>3. Gratia tria significat. — Prima 
+          diffi<lb break="no" ed="#P" n="109"/>cultas oriri videtur ex multiplici 
+          significa<lb break="no" ed="#P" n="110"/>tione hujus vocis, gratia, quam tradit D. Tho-
+          <pb ed="#P" n="311"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mas 1, 2, quaest. 110, art. 1, ubi gratiam tria
+          <lb ed="#P" n="2"/>significare dicit, scilicet, vel amorem et 
+          bene<lb break="no" ed="#P" n="3"/>volentiam, vel donum gratis datum distinctum
+          <lb ed="#P" n="4"/>ab ipso amore et ab illo procedens, ita ut prior
+          <lb ed="#P" n="5"/>dici possit gratia manens in conferente 
+          gra<lb break="no" ed="#P" n="6"/>tiam : posterior vero gratia transiens in eum,
+          <lb ed="#P" n="7"/>cum fit gratia : Vel recompensationem 
+          benefi<lb break="no" ed="#P" n="8"/>cii accepti, cum pro illa gratiam rependere 
+          di<lb break="no" ed="#P" n="9"/>cimus. Et omissa pro nunc hac tertia 
+          signifi<lb break="no" ed="#P" n="10"/>catione, quae libro sequenti nobis fortasse usu
+          <lb ed="#P" n="11"/>erit : duae primae ad praesentem diflicultatem
+          <lb ed="#P" n="12"/>expediendam faciunt. Nam in prima 
+          signifi<lb break="no" ed="#P" n="13"/>catione concedendum est, praedestinationem
+          <lb ed="#P" n="14"/>esse quamdam gratiam : quod ibidem divus
+          <lb ed="#P" n="15"/>Thomas docuit, dicens : Quandoque ipsa 
+          eter<lb break="no" ed="#P" n="16"/>na dilectio Dei gratia Dei dicitur, secundum
+          <lb ed="#P" n="17"/>quod dicitur etiam gratia preedestinationis, in
+          <lb ed="#P" n="18"/>quantun DEUS gratuito, et non ea 
+          meritisali<lb break="no" ed="#P" n="19"/>quos praedestinavit, seu elegit. Dicitur enim ad
+          <lb ed="#P" n="20"/>Ephes. 1: Preedestinavit nos in adoptionem 
+          ft<lb break="no" ed="#P" n="21"/>liorum, in laudem gloriee gratie sue. Unde
+          <lb ed="#P" n="22"/>allegando hoc testimonium, videtur D. 
+          Tho<lb break="no" ed="#P" n="23"/>mas illud interpretari in eodem sensu, ita ut
+          <lb ed="#P" n="24"/>illa vox gratia in illis verbis significet 
+          gratui<lb break="no" ed="#P" n="25"/>tam beneficentiam, quam Deus per 
+          praedesti<lb break="no" ed="#P" n="26"/>nationem, tanquam per maximam gratiam
+          <lb ed="#P" n="27"/>singulariter ostendit.
+        </p>
+        <p xml:id="szduep-078859-d1e438">
+          <lb ed="#P" n="28"/>4. Quo sensu nomen gratiae usurpavit 
+          Augus<lb break="no" ed="#P" n="29"/>tinus loco citato. — Augustinus autem in 
+          defi<lb break="no" ed="#P" n="30"/>nitione praedestinationis , et in differentia,
+          <lb ed="#P" n="31"/>quam constituit inter illam et gratiam, sumit
+          <lb ed="#P" n="32"/>hanc vocem in secundo significato, non 
+          qui<lb break="no" ed="#P" n="33"/>dem in tota amplitudine illius, quia multa
+          <lb ed="#P" n="34"/>sunt dona gratuita, quae ad praedestinationem
+          <lb ed="#P" n="35"/>non pertinent, sed quatenus significat dona
+          <lb ed="#P" n="36"/>gratuita, quibus certissime liberantur 
+          quicum<lb break="no" ed="#P" n="37"/>que liberantur. Atque hoc modo sumpta 
+          gra<lb break="no" ed="#P" n="38"/>tia recte distinguitur a praedestinatione, 
+          tan<lb break="no" ed="#P" n="39"/>quam effectus a causa, et tanquam temporale
+          <lb ed="#P" n="40"/>ab aeterno : Nam talis gratia est transiens, non
+          <lb ed="#P" n="41"/>immanens in Deo, nihil autem transiens extra
+          <lb ed="#P" n="42"/>Deum aeternum est, et necessario procedit a
+          <lb ed="#P" n="43"/>rationibus aeternis, et ab aeterna dilectione.
+          <lb ed="#P" n="44"/>Et ita est etiam intelligendus D. Thomas, 
+          dic<lb break="no" ed="#P" n="45"/>ta quaest. 23, articul. 2, ad 4.
+        </p>
+        <p xml:id="szduep-078859-d1e480">
+          <lb ed="#P" n="46"/>Gratia etiam dicitur donwm in intrinseco
+          <lb ed="#P" n="47"/>consistens. — Adverto autem obiter, quod licet
+          <lb ed="#P" n="48"/>haec gratia dicatur transiens, non est necesse,
+          <lb ed="#P" n="49"/>ut semper, et in universum transeat in ipsum
+          <lb ed="#P" n="50"/>praedestinatum, ita ut in illo intrinsece 
+          reci<lb break="no" ed="#P" n="51"/>piatur. Nam licet gratia intenta per 
+          praedes<lb break="no" ed="#P" n="52"/>tinationem maxime illa sit, quae intrinsece 
+          in<lb break="no" ed="#P" n="53"/>haereat praedestinato, juxta illud, elegit nos in
+          <lb ed="#P" n="54"/>ipso, ut essemus sancti, et illud, Preedestinavit
+          <lb ed="#P" n="55"/>nos in adoptionem filiorum, ad Ephes. 1. Nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>haec adoptio, et vera sanctificatio per 
+          intrin<lb break="no" ed="#P" n="57"/>secam gratiam fit: sicut etiam conformitas
+          <lb ed="#P" n="58"/>illa cum Christo, de qua dicitur ad Rom. 8:
+          <lb ed="#P" n="59"/>Quos preedestinavit conformes fieri imagini
+          <lb ed="#P" n="60"/>Tlii sui. Nihilominus gratia, quae est effectus
+          <lb ed="#P" n="61"/>preedestinationis, et temporalis dicitur, latius
+          <lb ed="#P" n="62"/>patet, et interdum consistit in externis donis,
+          <lb ed="#P" n="63"/>aut causis, vel circumstantiis , interdum in
+          <lb ed="#P" n="64"/>auferendis malis, occasionibus, quae omnia
+          <lb ed="#P" n="65"/>egregie comprehendit Augustinus nomine 
+          be<lb break="no" ed="#P" n="66"/>neficiorum , quibus electi certissime 
+          salvan<lb break="no" ed="#P" n="67"/>tur.
+        </p>
+        <p xml:id="szduep-078859-d1e532">
+          <lb ed="#P" n="68"/>5. Atque hinc constat, ita comparari 
+          prae<lb break="no" ed="#P" n="69"/>destinationem ad singularem gubernationem
+          <lb ed="#P" n="70"/>hominis praedestinati, sicut generalis 
+          provi<lb break="no" ed="#P" n="71"/>dentia ad generalem gubernationem. Nam
+          <lb ed="#P" n="72"/>sicut gubernatio includit omnes actiones, et
+          <lb ed="#P" n="73"/>effectus, quibus Deus confert creaturis media
+          <lb ed="#P" n="74"/>necessaria, vel convenientia ad suos fines : ita
+          <lb ed="#P" n="75"/>illa singularis gubernatio includit omnem Dei
+          <lb ed="#P" n="76"/>actionem, per quam cum effectu perducit
+          <lb ed="#P" n="77"/>electos ad finem praedestinationis. Potestque
+          <lb ed="#P" n="78"/>singularis beneficentia vocari, quia 
+          complecti<lb break="no" ed="#P" n="79"/>tur omnia beneficia, quibus liberantur, 
+          qui<lb break="no" ed="#P" n="80"/>cumque liberantur. Unde, sicut gubernatio
+          <lb ed="#P" n="81"/>illa est effectus adaequatus providentiae : ita
+          <lb ed="#P" n="82"/>haec beneficentia est effectus praedestinationis,
+          <lb ed="#P" n="83"/>et sicut gubernatio est temporalis, et 
+          provi<lb break="no" ed="#P" n="84"/>dentia aeterna, ita haec beneficentia temporalis
+          <lb ed="#P" n="85"/>est, et praedestinatio aeterna.
+        </p>
+        <p xml:id="szduep-078859-d1e574">
+          <lb ed="#P" n="86"/>6. Satisfit secundae difficultati. — 
+          Guberna<lb break="no" ed="#P" n="87"/>tio Dei etiam activa distinguitur a 
+          preedesti<lb break="no" ed="#P" n="88"/>natione. — Actio transiens qua Deus gubernat
+          <lb ed="#P" n="89"/>est ut creaturis, et temporalis. — Cum autem
+          <lb ed="#P" n="90"/>in secunda difticultate quaeritur de quaque 
+          gu<lb break="no" ed="#P" n="91"/>bernatione sit sermo, an de activa, vel de 
+          pas<lb break="no" ed="#P" n="92"/>siva ? posset uno verbo responderi, esse 
+          ser<lb break="no" ed="#P" n="93"/>monem de passiva, et de transeunte extra
+          <lb ed="#P" n="94"/>Deum, sicut de gratia dictum est. Nam sicut
+          <lb ed="#P" n="95"/>Augustinus de hac gratia estlocutus, cum illam
+          <lb ed="#P" n="96"/>a praedestinatione distinxit, ita nos loqui 
+          pos<lb break="no" ed="#P" n="97"/>sumus de beneficentia et gubernatione , quae
+          <lb ed="#P" n="98"/>Dei esse dicitur, non intrinsece (ut sic dicam),
+          <lb ed="#P" n="99"/>sed emanative, id est, non quia sit in Deo, sed
+          <lb ed="#P" n="100"/>quia est a Deo. Et hoc sensisse videtur D. 
+          Tho<lb break="no" ed="#P" n="101"/>mas, dicta q. 23, artic. 2 ad 3, ita 
+          distinguen<lb break="no" ed="#P" n="102"/>do inter praedestinationem et gubernationem,
+          <lb ed="#P" n="103"/>seu gratiam sicut inter praeparationem, 
+          acti<lb break="no" ed="#P" n="104"/>vam et passivam. Addimus vero, etiam 
+          lo<lb break="no" ed="#P" n="105"/>quendo de activa gubernatione, aliquam esse
+          <lb ed="#P" n="106"/>differentiam constituendam inter ipsam, et
+          <lb ed="#P" n="107"/>praedestinationem, saltem haec, quod una est
+          <lb ed="#P" n="108"/>simpliciter aeterna, ut de praedestinatione 
+          dixi<lb break="no" ed="#P" n="109"/>mus, altera simpliciter temporalis, ut de 
+          gu<lb break="no" ed="#P" n="110"/>bernatione explicabimus. Quod, ut distinctius
+          <pb ed="#P" n="312"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>faciamus, adverto, in activa gubernatione tria
+          <lb ed="#P" n="2"/>posse considerari : primum est actio transiens,
+          <lb ed="#P" n="3"/>per quam fiunt effectus gubernationis in 
+          crea<lb break="no" ed="#P" n="4"/>turis. Secundum est ars divini intellectus, quae
+          <lb ed="#P" n="5"/>dirigit illam actionem. Tertium est actus 
+          vo<lb break="no" ed="#P" n="6"/>luntatis movens ad illam actionem. De primo
+          <lb ed="#P" n="7"/>est res controversa, an illa actio sit in 
+          creatu<lb break="no" ed="#P" n="8"/>ris, vel sit in Deo ipso. Ego vero existimo esse
+          <lb ed="#P" n="9"/>in creaturis. Unde si gubernatio activa pro
+          <lb ed="#P" n="10"/>hac actione sumatur, manifestum est distingui
+          <lb ed="#P" n="11"/>a praedestinatione, et providentia, non solum
+          <lb ed="#P" n="12"/>ratione, sed etiam re, et tanquam creatum ab
+          <lb ed="#P" n="13"/>increato, et tanquam temporale ab aeterno.
+          <lb ed="#P" n="14"/>D. Thomas autem, dicta q. 23, art. 2, 
+          guber<lb break="no" ed="#P" n="15"/>nationem dicit esse executionem providentiae,
+          <lb ed="#P" n="16"/>et nihilominus subjungit, illam esse passive
+          <lb ed="#P" n="17"/>in gubernatis, active autem in gubernante.
+          <lb ed="#P" n="18"/>Unde vel loquitur de gubernatione activa in
+          <lb ed="#P" n="19"/>hoc sensu, vel non certe constituit hanc 
+          ac<lb break="no" ed="#P" n="20"/>tionem in 'ipso DEO agente. Et tamen etiam
+          <lb ed="#P" n="21"/>hoc modo activa gubernatio licet increata sit,
+          <lb ed="#P" n="22"/>utpote intra Deum existens (ac proinde in hoc
+          <lb ed="#P" n="23"/>non differens a providentia, et gubernatione),
+          <lb ed="#P" n="24"/>nihilominus distingui potest ratione per 
+          res<lb break="no" ed="#P" n="25"/>pectum ad creaturas. Quia praedestinatio, vel
+          <lb ed="#P" n="26"/>providentia, non dicit respectum actualiter 
+          in<lb break="no" ed="#P" n="27"/>fluentis, quem dicit activa gubernatio. Et 
+          ra<lb break="no" ed="#P" n="28"/>tione hujus diversae habitudinis, etiam possunt
+          <lb ed="#P" n="29"/>distingui tanquam temporale, et aeternum:
+          <lb ed="#P" n="30"/>quia illa habitudo rationis ad ereaturam, ut
+          <lb ed="#P" n="31"/>actu influentis in illam, temporalis est. Sicut
+          <lb ed="#P" n="32"/>creatio activa sub ea denominatione 
+          tempora<lb break="no" ed="#P" n="33"/>lis est, etiamsi actio ipsa realis in Deo ipso
+          <lb ed="#P" n="34"/>constituatur.
+        </p>
+        <p xml:id="szduep-078859-d1e710">
+          <lb ed="#P" n="35"/>7. Ars intellectus divini directva 
+          guberna<lb break="no" ed="#P" n="36"/>Ltionis est ipsa activa gubernatio , et ratione
+          <lb ed="#P" n="37"/>tantum connotati differunt. — Circa 
+          secun<lb break="no" ed="#P" n="38"/>dum, scilicet artem, seu rationem existentem
+          <lb ed="#P" n="39"/>in divino intellectu directivam hujus 
+          actio<lb break="no" ed="#P" n="40"/>nis, dicendum sine dubio est, eamdem 
+          omni<lb break="no" ed="#P" n="41"/>no artem divini intellectus esse providentiam
+          <lb ed="#P" n="42"/>et gubernatiorem activam , solumque 
+          dif<lb break="no" ed="#P" n="43"/>ferre, quod gubernatio videtur connotare 
+          ac<lb break="no" ed="#P" n="44"/>tualem relationem causae influentis, quam non .
+          <lb ed="#P" n="45"/>dicit providentia : Sicut eadem ars est, per
+          <lb ed="#P" n="46"/>quam homo novit, quomodo scribendum sit,
+          <lb ed="#P" n="47"/>et per quam actu dirigit manum, quando
+          <lb ed="#P" n="48"/>scribit , solumque in nobis possunt differre
+          <lb ed="#P" n="49"/>tanquam habitus, et actus, quae distinctio in
+          <lb ed="#P" n="50"/>DEO locum non habet. Qui vero praeter artem
+          <lb ed="#P" n="51"/>ponunt in intellectu imperium exequendi, 
+          for<lb break="no" ed="#P" n="52"/>tasse in eo distinguent gubernationem. 
+          acti<lb break="no" ed="#P" n="53"/>vam a providentia : nos vero actum illum non
+          <lb ed="#P" n="54"/>agnoscimus, qui distinctus sit a judicio 
+          practi<lb break="no" ed="#P" n="55"/>co artis, vel prudentiae. Et ideo illa duo non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>distinguimus , tanquam duo attributa, vel
+          <lb ed="#P" n="57"/>duos actus in mente Dei. Quod plane sensit
+          <lb ed="#P" n="58"/>D. Thomas, 1 part, quaest. 103, articul. 6,
+          <lb ed="#P" n="59"/>dicens in corpore, et ad primum: 
+          Providen<lb break="no" ed="#P" n="60"/>Lium esse ipsum rationem gubernationis, utique
+          <lb ed="#P" n="61"/>quantum ad internum actum, quem ponit in
+          <lb ed="#P" n="62"/>Deo. Nam per habitudinem actualis causse,
+          <lb ed="#P" n="63"/>vel actionis, distingui possunt ratione, imo
+          <lb ed="#P" n="64"/>tanquam aeternum et temporale, sicut de 
+          crea<lb break="no" ed="#P" n="65"/>tione activa, et de omni actione Dei ad extra
+          <lb ed="#P" n="66"/>dictum est.
+        </p>
+        <p xml:id="szduep-078859-d1e784">
+          <lb ed="#P" n="67"/>8. Praedestinatio differt ratione a 
+          guberna<lb break="no" ed="#P" n="68"/>tione prout dicit voluntatem emecutivam.—Circa
+          <lb ed="#P" n="69"/>ultimum membrum de voluntate divina, 
+          qua<lb break="no" ed="#P" n="70"/>tenus vel praedestinationem constituit, aut 
+          in<lb break="no" ed="#P" n="71"/>greditur, vel principium est executionis, et 
+          gu<lb break="no" ed="#P" n="72"/>bernationis ad extra, distingui possunt duo 
+          or<lb break="no" ed="#P" n="73"/>dines actuum in voluntate divina, juxta 
+          supe<lb break="no" ed="#P" n="74"/>rius dicta. Unus est ordo intentionis, alius est
+          <lb ed="#P" n="75"/>ordo executionis: et prior dici potest pertinere
+          <lb ed="#P" n="76"/>ad praedestinationem, posterior vero ad 
+          execu<lb break="no" ed="#P" n="77"/>tionem et gubernationem. Atque ita 
+          praedesti<lb break="no" ed="#P" n="78"/>nationem, et singularem gubernationem 
+          acti<lb break="no" ed="#P" n="79"/>vam, inter divinam voluntatem existentem,
+          <lb ed="#P" n="80"/>distingui inter se ratione, non tamen, ut 
+          crea<lb break="no" ed="#P" n="81"/>tum ab increato, cum utraque sit intra Deum:
+          <lb ed="#P" n="82"/>nec ut temporale ab aeterno, utraque enim
+          <lb ed="#P" n="83"/>eeterna est, sed solum, ut praeparatio, et 
+          prin<lb break="no" ed="#P" n="84"/>cipium proximum executionis. Potest vero 
+          il<lb break="no" ed="#P" n="85"/>lamet voluntas executiva considerari, et 
+          se<lb break="no" ed="#P" n="86"/>cundum se, ut est aeterna absque ullo 
+          respec<lb break="no" ed="#P" n="87"/>tu, vel denominatione temporali, et prout 
+          ac<lb break="no" ed="#P" n="88"/>tu influens, vel denominata in ratione actu
+          <lb ed="#P" n="89"/>gubernantis, et benefacientis, ab actione ipsa,
+          <lb ed="#P" n="90"/>vel relatione, quae in creatura existit : et ita
+          <lb ed="#P" n="91"/>potest dici, sub priori ratione ad 
+          praedestina<lb break="no" ed="#P" n="92"/>tionem pertinere, quia hoc modo considerata,
+          <lb ed="#P" n="93"/>etiam pertinet ad praeparationem aeternam ex
+          <lb ed="#P" n="94"/>parte Dei : sub posteriori autem spectare ad
+          <lb ed="#P" n="95"/>gubernationem, et beneficentiam seu gratiam.
+          <lb ed="#P" n="96"/>Atque ita etiam distingui ratione 
+          gubernatio<lb break="no" ed="#P" n="97"/>nem activam a praedestinatione, vel 
+          providen<lb break="no" ed="#P" n="98"/>tia, non quidem ut creatum ab increato, quia
+          <lb ed="#P" n="99"/>semper actus ipse voluntatis Dei increatus est,
+          <lb ed="#P" n="100"/>sed relatione, vel denominatione nostra, 
+          ra<lb break="no" ed="#P" n="101"/>tone cujus etiam differunt, ut temporale et
+          <lb ed="#P" n="102"/>aeternum, temporale (inquam) quoad 
+          denomi<lb break="no" ed="#P" n="103"/>nationem, vel habitudinem rationis, non 
+          quo<lb break="no" ed="#P" n="104"/>ad entitatem ipsam, ut jam satis declaratum est.
+        </p>
+        <p xml:id="szduep-078859-d1e869">
+          <lb ed="#P" n="105"/>9. Expeditur tertia difficultas. — 
+          Aliquo<lb break="no" ed="#P" n="106"/>rum opinio. — Gratia dici potest increata et
+          <lb ed="#P" n="107"/>creata. — CGratia increata datur conjuncta
+          <lb ed="#P" n="108"/>domo creato. — Ad tertiam difficultatem circa
+          <lb ed="#P" n="109"/>secundam differentiam, quod gratia differat a
+          <lb ed="#P" n="110"/>praedestinatione tanquam creatum ab increato,
+          <pb ed="#P" n="313"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliqui omnino contendunt, nullam esse posse
+          <lb ed="#P" n="2"/>gratiam increatam, propter modum loquendi
+          <lb ed="#P" n="3"/>Augustini, dicto lib. de Praedestinatione 
+          Sanc<lb break="no" ed="#P" n="4"/>torum, cap. 10. Ego vero imprimis assero, 
+          lo<lb break="no" ed="#P" n="5"/>quendo de gratia in tota sua generalitate , et
+          <lb ed="#P" n="6"/>nt abstrahit ab illis duabus significationibus,
+          <lb ed="#P" n="7"/>quas supra ex sancto Thoma notavimus, sic
+          <lb ed="#P" n="8"/>dari posse aliquam gratiam increatam. 
+          Ex<lb break="no" ed="#P" n="9"/>presse enim divus Thomas, dicta quaest. 110,
+          <lb ed="#P" n="10"/>art. 1, in 1, 2, ipsam dilectionem aeternam
+          <lb ed="#P" n="11"/>Dei gratiam vocat. Et eodem modo loquitur
+          <lb ed="#P" n="12"/>CGaspar Casalius, libro de Quadripartita 
+          justi<lb break="no" ed="#P" n="13"/>tia, cap. 4. Nec obstat contra hanc partem
+          <lb ed="#P" n="14"/>Augustini testimonium, quia non loquitur de
+          <lb ed="#P" n="15"/>gratia in tota sua latitudine, sed in 
+          significa<lb break="no" ed="#P" n="16"/>tione magis limitata, distinguendo illam a
+          <lb ed="#P" n="17"/>praedestinatione, et dilectione aeterna, ut ex
+          <lb ed="#P" n="18"/>textu constat. Addo vero ulterius, etiam 
+          gra<lb break="no" ed="#P" n="19"/>tiam, ut est donum gratuitum, posse esse 
+          ali<lb break="no" ed="#P" n="20"/>quo modo , seu aliqua ex parte increatam:
+          <lb ed="#P" n="21"/>non solum in gratia unionis, ubi res est clara,
+          <lb ed="#P" n="22"/>sed etiam in gratia justificationis. Quia 
+          cer<lb break="no" ed="#P" n="23"/>tum est apud theologos , ipsammet personam
+          <lb ed="#P" n="24"/>Spiritus Sancti esse donum, quod datur justis
+          <lb ed="#P" n="25"/>speciali quodam modo cum justificantur, ita
+          <lb ed="#P" n="26"/>ut non solum dona creata illis dentur, sed
+          <lb ed="#P" n="27"/>etiam donum increatum, ut in fine sequentis
+          <lb ed="#P" n="28"/>tractatus ostendemus. Et in patria datur 
+          bea<lb break="no" ed="#P" n="29"/>tis ipsa essentia divina, non solum, ut 
+          objec<lb break="no" ed="#P" n="30"/>tum terminativum visionis, sed etiam, ut 
+          com<lb break="no" ed="#P" n="31"/>priscipium adjuvans ad visionem per modum
+          <lb ed="#P" n="32"/>speciei. Et in via gratia adjuvans interdum
+          <lb ed="#P" n="33"/>esse potest Deus ipse, ut per se ipsum juvans,
+          <lb ed="#P" n="34"/>et confortans nostram facultatem. Verum 
+          qui<lb break="no" ed="#P" n="35"/>dem est, hanc gratiam increatam nunquam
+          <lb ed="#P" n="36"/>donari nobis, nisi, ut conjunctam alicui dono
+          <lb ed="#P" n="37"/>creato, vel mediante illo : hoc tamen non
+          <lb ed="#P" n="38"/>obstat , quominus donum ipsum increatum
+          <lb ed="#P" n="39"/>gratiae denominationem recipiat, cum vere
+          <lb ed="#P" n="40"/>detur, et gratis detur, et ex amore 
+          supernatu<lb break="no" ed="#P" n="41"/>rali detur. Sic enim ipse Filius Dei, quatenus
+          <lb ed="#P" n="42"/>nobis datus ex singulari DEI dilectione ,
+          <lb ed="#P" n="43"/>Joann. 3, dicitur ab eodem Joanne, cap. 1,
+          <lb ed="#P" n="44"/>eratia pro qua, id est, propter quam omnem
+          <lb ed="#P" n="45"/>aliam gratiam recipimus, sic enim illud 
+          inter<lb break="no" ed="#P" n="46"/>pretor : Et gratiam pro gratia. Fateor ergo,
+          <lb ed="#P" n="47"/>non omnem gratiam, etiam a praedestinatione
+          <lb ed="#P" n="48"/>distinctam, esse donum creatum ; neque 
+          con<lb break="no" ed="#P" n="49"/>trarium unquam dixit Augustinus. Semper 
+          ta<lb break="no" ed="#P" n="50"/>men id, quod increatum est, recipit 
+          denomi<lb break="no" ed="#P" n="51"/>nationem gratiae, sub aliqua habitudine, vel
+          <lb ed="#P" n="52"/>denominatione temporali, quoad illam semper
+          <lb ed="#P" n="53"/>differt a praedestinatione, ut temporale ab
+          <lb ed="#P" n="54"/>aeterno, quoad summum potest ex Augustüni
+          <lb ed="#P" n="55"/>doctrina colligi. Unde etiam dici potest, nihil
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>denominari gratiam hoc modo, nisi vel 
+          crea<lb break="no" ed="#P" n="57"/>tum sit, vel conjunctum alicui dono creato:
+          <lb ed="#P" n="58"/>Hoc autem ad praedestinationem , ut sic, 
+          ne<lb break="no" ed="#P" n="59"/>cessarium non est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

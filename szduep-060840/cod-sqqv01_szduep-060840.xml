@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="239"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-060840"><!-- t2-l1c3 -->
+        <head xml:id="szduep-060840-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-060840-Hd1e103" type="question-title">Praedestinatio libere ne, vel necessario deo conveniat</head>
+        <p xml:id="szduep-060840-d1e106">
+          <lb ed="#P" n="61"/>CAPUT III.
+          <lb ed="#P" n="62"/>PRAEDESTINATIO LIBERE NE, VEL NECESSARIO DEO
+          <lb ed="#P" n="63"/>CONVENIAT.
+        </p>
+        <p xml:id="szduep-060840-d1e115">
+          <lb ed="#P" n="64"/>1. Rationes dubitandi. — Ratio dubitandi
+          <lb ed="#P" n="65"/>esse potest, quia, in capite primo, diximus
+          <lb ed="#P" n="66"/>praedestinationem ex necessitate Deo 
+          conve<lb break="no" ed="#P" n="67"/>nire; quod autem ex necessitate alicui 
+          conve<lb break="no" ed="#P" n="68"/>nit, liberum illi non est. Item diximus 
+          prae<lb break="no" ed="#P" n="69"/>destinationem esse aeternam, quod autem 
+          ae<lb break="no" ed="#P" n="70"/>ternum est,immutabile est,ac necessarium, non
+          <lb ed="#P" n="71"/>ergo liberum. Item praedestinatio relata ad 
+          in<lb break="no" ed="#P" n="72"/>tellectum pertinet ad rationes rerum 
+          agenda<lb break="no" ed="#P" n="73"/>rum, quae ex necessitate sunt in mente Dei:
+          <lb ed="#P" n="74"/>relata vero ad voluntatem, est amor quidam,
+          <lb ed="#P" n="75"/>seu voluntas salvandi aliquos homines, quae
+          <lb ed="#P" n="76"/>necessario Deo convenit, saltem suppositione
+          <lb ed="#P" n="77"/>facta, quod voluerit Deus homines creare. 
+          Quo<lb break="no" ed="#P" n="78"/>modo enim potuit bonitas ejus non aliquos
+          <lb ed="#P" n="79"/>praedestinare ?
+        </p>
+        <p xml:id="szduep-060840-d1e152">
+          <lb ed="#P" n="80"/>2. Duplex necessitas in actu 
+          praedestinatio<lb break="no" ed="#P" n="81"/>nis intelligi potest, una simpliciter, id est,
+          <lb ed="#P" n="82"/>nulla facta suppositione, alia ex hypothesi
+          <lb ed="#P" n="83"/>aliqua. Rursus illa prior intelligi potest vel
+          <lb ed="#P" n="84"/>absoluta necessitas, quomodo convenit Deo
+          <lb ed="#P" n="85"/>esse sapientem, justumque, etc. Vel tantum
+          <lb ed="#P" n="86"/>necessitas-congruitatis, vel convenientiae, 
+          quo<lb break="no" ed="#P" n="87"/>modo dicimus necessarium fuisse 
+          Incarnatio<lb break="no" ed="#P" n="88"/>nem ad redemptionem generis humani.
+        </p>
+        <p xml:id="szduep-060840-d1e175">
+          <lb ed="#P" n="89"/>3. Prima assertio. —Primum ergo dicendum
+          <lb ed="#P" n="90"/>est absolute, ac simpliciter loquendo, 
+          praedes<lb break="no" ed="#P" n="91"/>tinationem non convenire Deo necessario, sed
+          <lb ed="#P" n="92"/>esse actum liberum Dei. Et res de fide certa.
+          <lb ed="#P" n="93"/>Sumitur ex Paulo ad Roman. 8: Scimus 
+          quo<lb break="no" ed="#P" n="94"/>niam diligentibus Deum omnia cooperantur in
+          <lb ed="#P" n="95"/>bomun , iis qui secundum propositum vocati
+          <lb ed="#P" n="96"/>sunt sancti, utique secundum propositum 
+          libe<lb break="no" ed="#P" n="97"/>rum voluntatis Dei, non ex aliqua necessitate;
+          <lb ed="#P" n="98"/>unde subdit : Nam quos preescivit et 
+          praedesti<lb break="no" ed="#P" n="99"/>navit conformes fieri inaginis Falii sui, etc.
+          <lb ed="#P" n="100"/>Indicans differentiam inter verum filium et
+          <lb ed="#P" n="101"/>fratres ejus, quod ille solus talis est per 
+          natu<lb break="no" ed="#P" n="102"/>ram et ex necessitate, ii vero praedestinatione,
+          <lb ed="#P" n="103"/>ac proinde libera Dei voluntate. Unde paulo
+          <lb ed="#P" n="104"/>inferius, praedestinatos vocat electos Dei, 
+          di<lb break="no" ed="#P" n="105"/>cens: Quis accusabit adversus electos Dei?
+          <lb ed="#P" n="106"/>Electio autem actus liber est, ergo et 
+          praedes<lb break="no" ed="#P" n="107"/>tinatio. Quod apertissime idem Paulus confir-
+          <pb ed="#P" n="240"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mat ad Ephes. 1, dicens: Praedestinati 
+          secun<lb break="no" ed="#P" n="2"/>dum propositum ejus, qui operatur omnaia 
+          se<lb break="no" ed="#P" n="3"/>cundum consilium voluntatis sue, quibus 
+          ver<lb break="no" ed="#P" n="4"/>bis voluntatem Dei liberam significavit, ut in
+          <lb ed="#P" n="5"/>propria relectione circa locum illum disserui.
+        </p>
+        <p xml:id="szduep-060840-d1e234">
+          <lb ed="#P" n="6"/>4. Idem docent Augustinus, Prosper, 
+          Ful<lb break="no" ed="#P" n="7"/>gentius et alii, dicentes: Fa Deum 
+          preades<lb break="no" ed="#P" n="8"/>tinasse, que fuerat ipse facturus. Quomodo
+          <lb ed="#P" n="9"/>loquitur etiam Damascenus, lib. 2, de Fide,
+          <lb ed="#P" n="10"/>cap. 30. Est autem de fide certum, quae Deus
+          <lb ed="#P" n="11"/>facit, libere facere: ergo quae praedestinat, 
+          li<lb break="no" ed="#P" n="12"/>bere praedestinat. Item providentia Dei libera
+          <lb ed="#P" n="13"/>est : ergo multo magis praedestinatio. Denique
+          <lb ed="#P" n="14"/>quamvis praedestinatio aeterna sit, dicit tamen
+          <lb ed="#P" n="15"/>respectum ad res temporales: sed hic 
+          respec<lb break="no" ed="#P" n="16"/>tus non ex necessitate Deo convenit, quia 
+          ter<lb break="no" ed="#P" n="17"/>minus ejus posset simpliciter non esse: ergo
+          <lb ed="#P" n="18"/>nec praedestinatio necessario Deo convenit:
+          <lb ed="#P" n="19"/>ergo libere. Quin potius, ut Augustinus saepe
+          <lb ed="#P" n="20"/>docuit, in hoc actu maxime cernitur libertas
+          <lb ed="#P" n="21"/>divina voluntatis, quia non solum liberum
+          <lb ed="#P" n="22"/>ei fuit praedestinare, aut non praedestinare:
+          <lb ed="#P" n="23"/>sed etiam pro libera voluntate sua hunc potius,
+          <lb ed="#P" n="24"/>quam illum praedestinavit. Propter etiam quod
+          <lb ed="#P" n="25"/>vocatur hoc opus, maximum opus gratiae et 
+          li<lb break="no" ed="#P" n="26"/>beralitatis ab Augustino, de Praedestinatione
+          <lb ed="#P" n="27"/>Sanctorum, cap. 15, et seepe alias de quo latius
+          <lb ed="#P" n="28"/>in lib. 3.
+        </p>
+        <p xml:id="szduep-060840-d1e286">
+          <lb ed="#P" n="29"/>5. Preedestinatio in hac vita ignota.—Atque
+          <lb ed="#P" n="30"/>hinc oritur (ut hoc obiter notemus) quod licet
+          <lb ed="#P" n="31"/>certissimum sit, praedestinationem esse in Deo,
+          <lb ed="#P" n="32"/>omnino tamen incertum nobis sit, an 
+          praedes<lb break="no" ed="#P" n="33"/>tinatio sit hujus, vel illius hominis. Quo sensu
+          <lb ed="#P" n="34"/>definivit Tridentinum, sess. 6, cap. 12, et can.
+          <lb ed="#P" n="35"/>15 et 16, neminem posse esse certum de sua
+          <lb ed="#P" n="36"/>praedestinatione absque speciali revelatione.
+          <lb ed="#P" n="37"/>hatio enim est, quia hoc pendet ex libera Dei
+          <lb ed="#P" n="38"/>voluntate, cujus determinationem nos 
+          cogno<lb break="no" ed="#P" n="39"/>scere non possumus, donec vel effectum ejus
+          <lb ed="#P" n="40"/>completum videamus, vel revelationem ejus
+          <lb ed="#P" n="41"/>habeamus: effectus autem praedestinationis
+          <lb ed="#P" n="42"/>non completur usque ad gloriam, et ideo in
+          <lb ed="#P" n="43"/>hac vita sine revelatione cognosci non potest.
+          <lb ed="#P" n="44"/>Haec autem revelatio regulariter non fit, ne vel
+          <lb ed="#P" n="45"/>praedestinati negligentes fiant, vel reprobi 
+          des<lb break="no" ed="#P" n="46"/>perent, ut dixit divus Thomas, d. quaestione
+          <lb ed="#P" n="47"/>vigesima tertia, articulo primo, ad quartum.
+          <lb ed="#P" n="48"/>Haec vero intelligenda sunt de certa cognitione:
+          <lb ed="#P" n="49"/>nam probabilis et per conjecturas, aliqualis
+          <lb ed="#P" n="50"/>haberi potest per varia signa praedestinationis,
+          <lb ed="#P" n="51"/>quae postea agentes de effectibus ejus, 
+          enume<lb break="no" ed="#P" n="52"/>rabimus.
+        </p>
+        <p xml:id="szduep-060840-d1e341">
+          <lb ed="#P" n="53"/>6. Secunda assertio. — Secundo dicendum
+          <lb ed="#P" n="54"/>est. 81 semel supponamus aliquos homines
+          <lb ed="#P" n="55"/>cum effectu consecuturos esse vitam aeter-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nam , necesse est praedestinationem esse in
+          <lb ed="#P" n="57"/>Deo, ita ut licet absolute necessaria non sit,
+          <lb ed="#P" n="58"/>ad tales effectus necessaria sit. Hoc sensu 
+          lo<lb break="no" ed="#P" n="59"/>cuti sumus in primo capite, et eodem loquitur
+          <lb ed="#P" n="60"/>divus Thomas, dicto articulo primo, et Alensis
+          <lb ed="#P" n="61"/>ac caeteris scholastici. Ut autem ratione probetur
+          <lb ed="#P" n="62"/>assertio, intelligenda est de praedestinatione
+          <lb ed="#P" n="63"/>absolute dicta, et abstrahendo a modo ejus,
+          <lb ed="#P" n="64"/>seu a particularibus quaestionibus , videlicet,
+          <lb ed="#P" n="65"/>an sit aliquo modo ex praevisis meritis, nec ne;
+          <lb ed="#P" n="66"/>et an supponat intentionem efficacem dandi
+          <lb ed="#P" n="67"/>gloriam, quae totam praedestinationem 
+          ante<lb break="no" ed="#P" n="68"/>cedat ordine rationis, vel sit absque illa. In
+          <lb ed="#P" n="69"/>his enim peculiaribus modis, seu 
+          proprietati<lb break="no" ed="#P" n="70"/>bus praedestinationis difficilius est necessariam
+          <lb ed="#P" n="71"/>connexionem invenire inter talem vel talem
+          <lb ed="#P" n="72"/>praedestinandi modum et effectum ultimum
+          <lb ed="#P" n="73"/>praedestinationis, pendetque illa res ex varis
+          <lb ed="#P" n="74"/>quaestionibus infra tractandis. Assertio ergo
+          <lb ed="#P" n="75"/>intelligenda est de praedestinatione simpliciter
+          <lb ed="#P" n="76"/>dicta, prout definitur ab Augustino, de Bono
+          <lb ed="#P" n="77"/>persev., cap. 14, quod sit, Preescientia et 
+          ope<lb break="no" ed="#P" n="78"/>ratio beneficiorum Dei, quibus certissime 
+          libe<lb break="no" ed="#P" n="79"/>rantur quicumque liberantur. Unde ipse ibi
+          <lb ed="#P" n="80"/>concludit : Tam necessariam esse 
+          preedestina<lb break="no" ed="#P" n="81"/>tionem, quam est necessaria praescientia At
+          <lb ed="#P" n="82"/>vero si in tempore futurum est, ut aliqui 
+          ho<lb break="no" ed="#P" n="83"/>mines beatitudinem consequantur, necesse est
+          <lb ed="#P" n="84"/>ut in Deo praecedat aeterna praescientia talis
+          <lb ed="#P" n="85"/>effectus, ergo et quod praecedat praedestinatio.
+          <lb ed="#P" n="86"/>Item, non potest talis effectus aliquando 
+          eve<lb break="no" ed="#P" n="87"/>nire, nisi Deus ab aeterna voluntate sua illum
+          <lb ed="#P" n="88"/>praeparaverit, ergo si futurus est effectus, 
+          ne<lb break="no" ed="#P" n="89"/>cessario praecedit in Deo praeparatio illius, ergo
+          <lb ed="#P" n="90"/>praedestinatio. Denique non potest res aliqua
+          <lb ed="#P" n="91"/>suum finem consequi, nisi per divinam 
+          provi<lb break="no" ed="#P" n="92"/>dentiam, ergo multo minus possunt homines
+          <lb ed="#P" n="93"/>consequi beatitudinem sine providentia Dei,
+          <lb ed="#P" n="94"/>tali fini accommodata ; sed praedestinatio 
+          ni<lb break="no" ed="#P" n="95"/>hil aliud est, quam hujusmodi providentia,
+          <lb ed="#P" n="96"/>ergo sine praedestinatione non possunt 
+          homi<lb break="no" ed="#P" n="97"/>nes talem finem consequi, ergo necessaria est
+          <lb ed="#P" n="98"/>praedestinatio ad talem effectum. 
+        </p>
+        <p xml:id="szduep-060840-d1e445">
+          <lb ed="#P" n="99"/>7. Objectio. — Responsio. — Angelos ex 
+          om<lb break="no" ed="#P" n="100"/>nibus ordinibus praedestinari. — Tertio 
+          dicen<lb break="no" ed="#P" n="101"/>dum est, licet absolute loquendo , et absque
+          <lb ed="#P" n="102"/>ulla suppositione, praedestinatio non fuerit
+          <lb ed="#P" n="103"/>simpliciter necessaria, nihilominus fuisse 
+          ali<lb break="no" ed="#P" n="104"/>quo modo necessariam, necessitate 
+          congruen<lb break="no" ed="#P" n="105"/>tie et convenientiae cum divina bonitate et 
+          sa<lb break="no" ed="#P" n="106"/>pientia. Probatur, quia valde congruum, atque
+          <lb ed="#P" n="107"/>conveniens fuit, ut Deus et humanum genus
+          <lb ed="#P" n="108"/>crearet, et illud ad supernaturalem finem 
+          ordi<lb break="no" ed="#P" n="109"/>naret, sed convenientissimum etiam fuit, ut
+          <lb ed="#P" n="110"/>species humana in aliquibus saltem individuis
+          <pb ed="#P" n="241"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>consequeretur finem propter quem a Deo creata
+          <lb ed="#P" n="2"/>fuit, ne videretur frustra creata, vel al malum
+          <lb ed="#P" n="3"/>praedestinata , vel ne Deus videretur impotens
+          <lb ed="#P" n="4"/>ad salvandam illam, ac denique, ut Deus ab
+          <lb ed="#P" n="5"/>hac creatura sua perfecte glorificaretur in
+          <lb ed="#P" n="6"/>statu beatitudinis; ergo conveniens fuit et
+          <lb ed="#P" n="7"/>maxime decens, divinam bonitatem, aliquos
+          <lb ed="#P" n="8"/>ex hominibus glorificare in tempore, et 
+          conse<lb break="no" ed="#P" n="9"/>quenter in aeternitate praedestinare. Dices.
+          <lb ed="#P" n="10"/>Nonne Deus plures species angelorum ad illam
+          <lb ed="#P" n="11"/>beatitudinem ordinavit , in quibus speciebus
+          <lb ed="#P" n="12"/>nullum individuum praedestinavit : cur ergo
+          <lb ed="#P" n="13"/>non potuit idem facere cum specie humana?
+          <lb ed="#P" n="14"/>Respondeo, potuisse quidem, non tamen id
+          <lb ed="#P" n="15"/>fuisse conveniens propter rationem factam.
+          <lb ed="#P" n="16"/>Nec est eadem ratio de speciebus angelicis (si
+          <lb ed="#P" n="17"/>verum est, in singulis earum tantum esse
+          <lb ed="#P" n="18"/>unum individuum), quia potuit aliunde esse
+          <lb ed="#P" n="19"/>conveniens, non omnes angelos praedestinare,
+          <lb ed="#P" n="20"/>et ex illa hypothesi idem est non praedestinare
+          <lb ed="#P" n="21"/>unum angelum et non praedestinare totam
+          <lb ed="#P" n="22"/>speciem ejus. Unde juxta illam sententiam,
+          <lb ed="#P" n="23"/>ita comparantur quoad hoc negotium species
+          <lb ed="#P" n="24"/>angelorum inter se, sicut individua hominum.
+          <lb ed="#P" n="25"/>51 autem in singulis speciebus angelorum sunt
+          <lb ed="#P" n="26"/>plura individua, probabile est, ex omnibus
+          <lb ed="#P" n="27"/>speciebus angelorum aliquos fuisse 
+          praedesti<lb break="no" ed="#P" n="28"/>natos. Sicut etiam est verisimilius ex 
+          omni<lb break="no" ed="#P" n="29"/>bus Hierarchiis, et es omnibus angelorum 
+          or<lb break="no" ed="#P" n="30"/>dinibus, aliquos praedestinatos fuisse, id enim
+          <lb ed="#P" n="31"/>magis declarat sapientiam, bonitatem et 
+          po<lb break="no" ed="#P" n="32"/>tentiam Dei et ad majorem pulchritudinem
+          <lb ed="#P" n="33"/>status beatifici pertinet.
+        </p>
+        <p xml:id="szduep-060840-d1e549">
+          <lb ed="#P" n="34"/>8. Praedestinatio an necessaria in statu 
+          in<lb break="no" ed="#P" n="35"/>nocentie. — Urgebit aliquis, quia Deus in statu
+          <lb ed="#P" n="36"/>innocentiae nullum bominem praedestinavit,
+          <lb ed="#P" n="37"/>sed totam speciem humanam labi et quantum
+          <lb ed="#P" n="38"/>im ipsa erat , beatitudinem amittere , permisit :
+          <lb ed="#P" n="39"/>inon ergo possumus dicere, fuisse 
+          convenien<lb break="no" ed="#P" n="40"/>tius, aliquos in illo statu praedestinare : ergo
+          <lb ed="#P" n="41"/>inec absolute id dici potest de specie humana
+          <lb ed="#P" n="42"/>in ordine ad beatitudinem. Respondeo, 
+          dupli<lb break="no" ed="#P" n="43"/>citer intelligi posse, Deum non praedestinasse
+          <lb ed="#P" n="44"/>aliquos homines in statu innocentise. Primo,
+          <lb ed="#P" n="45"/>id est, non praedestinasse illos ad ipsum 
+          inno<lb break="no" ed="#P" n="46"/>centiae statum in hac vita obtinendum 
+          stabi<lb break="no" ed="#P" n="47"/>liter, quasi praeservando illos, ne illum 
+          sta<lb break="no" ed="#P" n="48"/>tum amitterent. Secundo, id est, non 
+          praedes<lb break="no" ed="#P" n="49"/>tinasse homines illius status ad beatitudinem
+          <lb ed="#P" n="50"/>cum eftectu consequendam. fn priori sensu
+          <lb ed="#P" n="51"/>verum est, quod assumitur, nam alios 
+          homi<lb break="no" ed="#P" n="52"/>nes praeter Adam et Evam, nec ad habendum
+          <lb ed="#P" n="53"/>allum statum effticaciter ordinavit : neque etiam
+          <lb ed="#P" n="54"/>ipsos Adainum et Evam, quantum ad 
+          perse<lb break="no" ed="#P" n="55"/>verantiam in illo statu : neutrum enim horum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praedestinavit Deus : si enim praedestinasset,
+          <lb ed="#P" n="57"/>infaillibiliter factum fuisset. Ex hoc autem
+          <lb ed="#P" n="58"/>sensu non potest sumi argumentum ad 
+          prae<lb break="no" ed="#P" n="59"/>destinationem simpliciter, quae est ad gloriam ,
+          <lb ed="#P" n="60"/>quia ille status innocentiae non erat terminus,
+          <lb ed="#P" n="61"/>seu finis ultimus , ad quem homo creabatur,
+          <lb ed="#P" n="62"/>sed erat quaedam via tendendi in aeternam, ac
+          <lb ed="#P" n="63"/>supernaturalem felicitatem. Non est autem
+          <lb ed="#P" n="64"/>inconveniens, quod tota species humana in
+          <lb ed="#P" n="65"/>uno suo individuo, posita in quadam via 
+          bre<lb break="no" ed="#P" n="66"/>viori et faciliori ad aeternam vitam 
+          consequen<lb break="no" ed="#P" n="67"/>dam, illam amiserit , quia non propterea 
+          de<lb break="no" ed="#P" n="68"/>sperata et reproba relicta est. Potuit enim Deus
+          <lb ed="#P" n="69"/>alia via, asperiori quidem, sed fortasse utiliori,
+          <lb ed="#P" n="70"/>eam ad felicitatem perducere. Bene autem
+          <lb ed="#P" n="71"/>probat ratio facta, supposita institutione 
+          hu<lb break="no" ed="#P" n="72"/>manse naturae ad felicitatem aeternam, et 
+          lap<lb break="no" ed="#P" n="73"/>su totius naturae ab illo primo statu 
+          innocen<lb break="no" ed="#P" n="74"/>tiae, fuisse valde conveniens, ut Deus illam
+          <lb ed="#P" n="75"/>redimeret, mocumque alium consequendi 
+          bea<lb break="no" ed="#P" n="76"/>titudinem illi praeberet. Imo convenientius 
+          ju<lb break="no" ed="#P" n="77"/>dicavit Deus (quantum ex ejus operibus 
+          in<lb break="no" ed="#P" n="78"/>telligi potest) hoc modo illamsalvare, quam in
+          <lb ed="#P" n="79"/>statu innocentiae illam sine peccato conservare.
+        </p>
+        <p xml:id="szduep-060840-d1e654">
+          <lb ed="#P" n="80"/>9. Unde si dicatur Deus, nullum hominem
+          <lb ed="#P" n="81"/>in statu innocentiae praedestinasse, quia 
+          nul<lb break="no" ed="#P" n="82"/>Ium voluit ab illo statu innocentise ad gloriam
+          <lb ed="#P" n="83"/>transmittere. Respondemus, satis esse, quod
+          <lb ed="#P" n="84"/>per alium viae statum homines aliquos in 
+          fe<lb break="no" ed="#P" n="85"/>licitatem aeternam tandem transmittat. Si 
+          au<lb break="no" ed="#P" n="86"/>tem quis urgeat, quia etiam de hoc ipso nihil
+          <lb ed="#P" n="87"/>statuerat Deus, pro illo signo rationis, in quo
+          <lb ed="#P" n="88"/>decrevit creare homines in illo innocentiae 
+          sta<lb break="no" ed="#P" n="89"/>tu. Respondetur imprimis, hoc esse incertum,
+          <lb ed="#P" n="90"/>saltem quoad voluntatem efficacem salvandi
+          <lb ed="#P" n="91"/>aliquos homines, et fortasse illos in 
+          particula<lb break="no" ed="#P" n="92"/>ri, qui nunc praedestinari sunt : de qua re 
+          in<lb break="no" ed="#P" n="93"/>fra est dicendum. Quoad media vero mirum
+          <lb ed="#P" n="94"/>non est, quod in eo signo illa non decreverit ;
+          <lb ed="#P" n="95"/>quia media illius status non erant futura 
+          etfi<lb break="no" ed="#P" n="96"/>cacia ad perducendum homines ad gloriam.
+          <lb ed="#P" n="97"/>Unde Hicet admittamus pro illo signo Deum
+          <lb ed="#P" n="98"/>non elegisse aliquem hominem etticaciter ad
+          <lb ed="#P" n="99"/>gloriam, nihil ad praesentem causam refert,
+          <lb ed="#P" n="100"/>quia non antecedit haec electio (juxta aliam
+          <lb ed="#P" n="101"/>sententiam), sed consequitur praedestinationem
+          <lb ed="#P" n="102"/>et praescientiam mediorum. Et ideo cum 
+          prae<lb break="no" ed="#P" n="103"/>destinatio mediorum eflicacium non potuerit
+          <lb ed="#P" n="104"/>in illo signo consummari, nec electio potuit in
+          <lb ed="#P" n="105"/>eodem signo locum habere. Nec inde inferri
+          <lb ed="#P" n="106"/>potest, praedestinationem aliquorum non fuisse
+          <lb ed="#P" n="107"/>per se convenientissimam, quia convenientia
+          <lb ed="#P" n="108"/>ejus non consistit in hoc, quod in tali, vel tali
+          <lb ed="#P" n="109"/>signo rationis fiat ; sed in hoc, quod in 
+          aeterni<lb break="no" ed="#P" n="110"/>tate fiat seu habeatur.
+        </p>
+        <p xml:id="szduep-060840-d1e724">
+          <pb ed="#P" n="242"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>10. Quod si quis inde inferre velit, non fuisse
+          <lb ed="#P" n="2"/>futuram praedestinationem hominum, si status
+          <lb ed="#P" n="3"/>innocentiae durasset, ac proinde per se, 
+          acsim<lb break="no" ed="#P" n="4"/>pliciter spectatam non esse ita convenientem,
+          <lb ed="#P" n="5"/>ut suavis ordo divinae providentiae et 
+          sapien<lb break="no" ed="#P" n="6"/>tiae illum requirat. Respondetur, negando 
+          as<lb break="no" ed="#P" n="7"/>sumptum : Nam si status innocentiae duraturus
+          <lb ed="#P" n="8"/>fuisset, sine dubio aliqui homines in illo 
+          con<lb break="no" ed="#P" n="9"/>sequerentur vitam aeternam. Et hoc probat
+          <lb ed="#P" n="10"/>ratio facta, quia hoc est per se conveniens,
+          <lb ed="#P" n="11"/>pertinetque maxime ad providentiam in omni
+          <lb ed="#P" n="12"/>statu. Pro illis autem , qui tunc salvarentur,
+          <lb ed="#P" n="13"/>etiam esset necessaria praedestinatio: quia non
+          <lb ed="#P" n="14"/>possent sine praescientia et aeterna voluntate
+          <lb ed="#P" n="15"/>Dei salvari, et in his consistit praedestinatio.
+          <lb ed="#P" n="16"/>Quocirca si Deus per scientiam conditionatam
+          <lb ed="#P" n="17"/>praescisset, hominem in illo statu creatum non
+          <lb ed="#P" n="18"/>fuisse lapsurum, sed conservaturum illum pro
+          <lb ed="#P" n="19"/>sua posteritate, consequenter praevidisset 
+          plu<lb break="no" ed="#P" n="20"/>res modos vocandi et auxiliandi hominibus in
+          <lb ed="#P" n="21"/>illo statu quibus infaillibihter salvarentur, si
+          <lb ed="#P" n="22"/>eis tribuerentur: et aliquam multitudinem
+          <lb ed="#P" n="23"/>hominum ad gloriam effhicaciter eligeret et 
+          il<lb break="no" ed="#P" n="24"/>la media efficacia eis dare praeordinaret. Nunc
+          <lb ed="#P" n="25"/>vero, quia talem scientiam de duratione illius
+          <lb ed="#P" n="26"/>status non habuit, praedestinationem suam
+          <lb ed="#P" n="27"/>post praevisum originale peccatum complevit,
+          <lb ed="#P" n="28"/>vel ordinavit. Et ita etiam probat ratio facta,
+          <lb ed="#P" n="29"/>supposita praescientia lapsus humanae naturae,
+          <lb ed="#P" n="30"/>fuisse per se convenientissimam 
+          praeordina<lb break="no" ed="#P" n="31"/>tionem reparationis ejus, cum 
+          praedestinatio<lb break="no" ed="#P" n="32"/>ne aliquorum, qui cum effectu ultimum 
+          fruc<lb break="no" ed="#P" n="33"/>tum illius reparationis consequerentur. 
+          Con<lb break="no" ed="#P" n="34"/>stat igitur, praedestinationem hominum, vel
+          <lb ed="#P" n="35"/>angelorum, per se ac simpliciter spectatam
+          <lb ed="#P" n="36"/>convenientissimam esse et quodam modo 
+          ne<lb break="no" ed="#P" n="37"/>cessariam, secundum congruentem rationem
+          <lb ed="#P" n="38"/>divinae providentiee, appellari posse.
+        </p>
+        <p xml:id="szduep-060840-d1e813">
+          <lb ed="#P" n="39"/>11. Solvuntur argumenta.—Ad rationes 
+          er<lb break="no" ed="#P" n="40"/>go dubitandi patet solutio ex dictis. Non enim
+          <lb ed="#P" n="41"/>dicimus praedestinationem esse necessariam
+          <lb ed="#P" n="42"/>necessitate opposita libertati, sed, vel ex 
+          sup<lb break="no" ed="#P" n="43"/>positione, quae libertatem non tollat, sed 
+          po<lb break="no" ed="#P" n="44"/>tius illius usum supponat, vel solum secundum
+          <lb ed="#P" n="45"/>congruentiam. Neque esse aeternum repugnat
+          <lb ed="#P" n="46"/>actul libero, quia respectus rationis, quo 
+          com<lb break="no" ed="#P" n="47"/>pletur liber actus (nostro intelligendi modo)
+          <lb ed="#P" n="48"/>potest esse aeternus, immutabilis enim est 
+          post<lb break="no" ed="#P" n="49"/>quam semel existit, quod ad aeternam 
+          duratio<lb break="no" ed="#P" n="50"/>nem satis est. Ultima vero ratio probat 
+          neces<lb break="no" ed="#P" n="51"/>sitate congruentiae non majorem : nam 
+          ratio<lb break="no" ed="#P" n="52"/>nes rerum prout sunt in scientia Dei, ante
+          <lb ed="#P" n="53"/>decretum voluntatis non habent rationem 
+          prae<lb break="no" ed="#P" n="54"/>destinationis , ut postea videbimus. Voluntas
+          <lb ed="#P" n="55"/>veroseu decretum efficax salvandi aliquos, non
+          <lb ed="#P" n="56"/>Dei, plane consequitur, materiam 
+          praedestina<lb break="no" ed="#P" n="57"/>est necessario conjunctum cum voluntate 
+          cre<lb break="no" ed="#P" n="58"/>andi aliquos necessitate simpliciter, sed solum
+          <lb ed="#P" n="59"/>necessitate congruentiae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="711"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-179898"><!-- t3-l8c1 -->
+        <head xml:id="szduep-179898-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-179898-Hd1e103" type="question-title">Utrum paternitas sit prima proprietas patris; et unde illi conveniat</head>
+        <p xml:id="szduep-179898-d1e106">
+          <lb ed="#P" n="28"/>CAPUT I.
+          <lb ed="#P" n="29"/>UTRUM PATERNITAS SIT PRIMA PROPRIETAS PATRIS;
+          <lb ed="#P" n="30"/>ET UNDE ILLI CONVENIAT.
+        </p>
+        <p xml:id="szduep-179898-d1e115">
+          <lb ed="#P" n="31"/>1. Resolutio quaestionis quoad priorem 
+          par<lb break="no" ed="#P" n="32"/>tem. — De priori parte hujus quaestionis nihil
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="33"/>fere superest dicendum: constat enim ex 
+          dic<lb break="no" ed="#P" n="34"/>tis in praecedenti libro, Paternitatem esse 
+          pri<lb break="no" ed="#P" n="35"/>mam Patris proprietatem, quia ipsa est, quae
+          <lb ed="#P" n="36"/>illum constituit in suo esse personali. 
+          Decla<lb break="no" ed="#P" n="37"/>rari etiam potest in hunc modum. Quia in
+          <lb ed="#P" n="38"/>prima persona duae tantum sunt notiones, ut
+          <lb ed="#P" n="39"/>in praecedentibus ostensum est, scilicet, 
+          Pa<lb break="no" ed="#P" n="40"/>ternitas et Innascibilitas, quarum prior 
+          posi<lb break="no" ed="#P" n="41"/>tiva est, ut per se constat: posterior vero 
+          for<lb break="no" ed="#P" n="42"/>maliter est negativa, vel potius privativa. Et
+          <lb ed="#P" n="43"/>hinc jam habet Paternitas, ut ipsa sit non 
+          so<lb break="no" ed="#P" n="44"/>Ium prima, sed etiam unica proprietas Patris.
+          <lb ed="#P" n="45"/>Verumtamen etiamsi extendamus nomen 
+          pro<lb break="no" ed="#P" n="46"/>prietatis ad innascibilitatem, semper id, quod
+          <lb ed="#P" n="47"/>est positivum, est prius et fundamentum 
+          pri<lb break="no" ed="#P" n="48"/>vativi: ergo Paternitas est prior proprietas,
+          <lb ed="#P" n="49"/>quam innascibilitas : ergo est omnium prima,
+          <lb ed="#P" n="50"/>quia non est aliud proprium, quod supponat,
+          <lb ed="#P" n="51"/>sed solum id, quod commune est.
+        </p>
+        <p xml:id="szduep-179898-d1e165">
+          <lb ed="#P" n="52"/>2. In secundo ergo puncto explicando, plus
+          <lb ed="#P" n="53"/>difficultatis esse potest. Suppono autem, cum
+          <lb ed="#P" n="54"/>quaerimus, unde sit illa Paternitas, non quaeri
+          <lb ed="#P" n="55"/>principium productivum ejus, vera et reali
+          <lb ed="#P" n="56"/>productione. Quia cum prima persona sit im-
+          <pb ed="#P" n="712"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>producta, ut libro primo ostensum est, non
+          <lb ed="#P" n="2"/>potest proprietas ejus habere tale principrum,
+          <lb ed="#P" n="3"/>neque per veram et realem processionem 
+          ma<lb break="no" ed="#P" n="4"/>nare. Unde in hoc sensu non habet, unde sit,
+          <lb ed="#P" n="5"/>sed ex se est, sicut divinitas ipsa. Quod ergo.
+          <lb ed="#P" n="6"/>quaeri potest, solum est, quae sit ratio et quasi
+          <lb ed="#P" n="7"/>fundamentum, seu radix virtualis illius 
+          pro<lb break="no" ed="#P" n="8"/>prietatis in Deo. Ad eum modum, quo dicimus
+          <lb ed="#P" n="9"/>unum attributum esse rationem alterius, ut
+          <lb ed="#P" n="10"/>voluntatem, verbi gratia, convenire Deo, quia
+          <lb ed="#P" n="11"/>intellectuahis est.
+        </p>
+        <p xml:id="szduep-179898-d1e208">
+          <lb ed="#P" n="12"/>3. Prima opinio. — Resolutio. — In hoc ergo
+          <lb ed="#P" n="13"/>sensu dixit Bonaventura, in 1, distinctione 27,
+          <lb ed="#P" n="14"/>proprietatem illam convenire Patri ex 
+          gene<lb break="no" ed="#P" n="15"/>ratione, seu quia generat, ductus tantum 
+          ar<lb break="no" ed="#P" n="16"/>gumento ex creaturis desumpto. Haec vero
+          <lb ed="#P" n="17"/>opinio jam rejecta est in dictis, superiori libro,
+          <lb ed="#P" n="18"/>capite sexto. Repugnat etiam priori assertioni
+          <lb ed="#P" n="19"/>hic suppositae, quia si Paternitas conveniret 
+          Pa<lb break="no" ed="#P" n="20"/>tri ratione alterius attributi notionalis, proprii
+          <lb ed="#P" n="21"/>illius, quale est generare, jam non esset prima
+          <lb ed="#P" n="22"/>proprietas. Deinde interrogabimus ulterius
+          <lb ed="#P" n="23"/>Bonaventuram , unde conveniat Patri 
+          gene<lb break="no" ed="#P" n="24"/>rare, quia non potest convenire ratione solius
+          <lb ed="#P" n="25"/>essentiae nude sumptae, quia illa non generat,
+          <lb ed="#P" n="26"/>nec per se sola est sufficiens generandi 
+          princi<lb break="no" ed="#P" n="27"/>pium, ergo debet supponit terminata aliqua
+          <lb ed="#P" n="28"/>proprietate, ergo vel debet Bonaventura aliam
+          <lb ed="#P" n="29"/>proprietatem in prima persona concedere ,
+          <lb ed="#P" n="30"/>quod non potest, nec facit, vel illud ejus 
+          asser<lb break="no" ed="#P" n="31"/>tum non potest consistere.
+        </p>
+        <p xml:id="szduep-179898-d1e254">
+          <lb ed="#P" n="32"/>4. Secunda opinio. — Fundamenta. — 
+          Se<lb break="no" ed="#P" n="33"/>cunda opinio est, quae assignat pro ratione,
+          <lb ed="#P" n="34"/>et fundamento Paternitatis ipsum intelligere
+          <lb ed="#P" n="35"/>essentiale. Dicunt enim aliqui, Divinitatem
+          <lb ed="#P" n="36"/>prius ratione, quam determinetur ad personas
+          <lb ed="#P" n="37"/>esse per se intelligentem, et se ipsam actu 
+          in<lb break="no" ed="#P" n="38"/>telligere, et comprehendere. Et ex hoc actu
+          <lb ed="#P" n="39"/>intelligendi aiunt, pullulare Paternitatem, non
+          <lb ed="#P" n="40"/>secundum rem, sed secundum rationem, 
+          mo<lb break="no" ed="#P" n="41"/>do explicato. At denique addunt, ipsum 
+          intel<lb break="no" ed="#P" n="42"/>ligere sic terminatum per Paternitatem , et
+          <lb ed="#P" n="43"/>notionalem effectum, esse rationem 
+          dimana<lb break="no" ed="#P" n="44"/>tionis realis Filii a Patre. Hanc sententiam non
+          <lb ed="#P" n="45"/>invenio in antiquis auctoribus, sed solum in
+          <lb ed="#P" n="46"/>quodam moderno, apud quem diligenter 
+          quae<lb break="no" ed="#P" n="47"/>sivi aliquod fundamentum ejus, et nullum 
+          in<lb break="no" ed="#P" n="48"/>veni. Videtur autem hic auctor, et ingeniosus,
+          <lb ed="#P" n="49"/>et doctus voluisse rationem aliquam fundandi
+          <lb ed="#P" n="50"/>relationem illam in Deo invenire, nullamque
+          <lb ed="#P" n="51"/>magis accommodatam, quam intelligendi 
+          ac<lb break="no" ed="#P" n="52"/>tum reperisse. Quia haec relatio constituit 
+          prin<lb break="no" ed="#P" n="53"/>cipium productivum per intellectum, ergo 
+          ve<lb break="no" ed="#P" n="54"/>risimile est, consequi suo modo ex actu 
+          intel<lb break="no" ed="#P" n="55"/>ligendi. Item, desiderare potuit rationem ali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quam assignare : cur haec relatio prius 
+          con<lb break="no" ed="#P" n="57"/>juncta sit divinitati , quam quaelibet alia:
+          <lb ed="#P" n="58"/>nulla autem ratio magis accommodata dari
+          <lb ed="#P" n="59"/>posse videtur, quam, quia operatio intellectus
+          <lb ed="#P" n="60"/>est omnium prima , et talis relatio ad actum
+          <lb ed="#P" n="61"/>intelligendi dicto modo consequitur. Denique
+          <lb ed="#P" n="62"/>nonnullum argumentum sumi potest ex 
+          spira<lb break="no" ed="#P" n="63"/>tione activa, nam illa consequitur actum 
+          dili<lb break="no" ed="#P" n="64"/>gendi Dei, ut infra videbimus, ergo verisimile
+          <lb ed="#P" n="65"/>est, Paternitatem consequi ad actum 
+          intelli<lb break="no" ed="#P" n="66"/>gendi.
+        </p>
+        <p xml:id="szduep-179898-d1e335">
+          <lb ed="#P" n="67"/>5. Impugnatio inefficaa. — Aliqui vero 
+          impu<lb break="no" ed="#P" n="68"/>gnant hanc sententiam, quia intelligere 
+          essen<lb break="no" ed="#P" n="69"/>tiale in Filio etiam invenitur, et in eo non est
+          <lb ed="#P" n="70"/>ratio, vel fundamentum talis proprietatis ; 
+          er<lb break="no" ed="#P" n="71"/>go neque in prima persona esse potest. Haec
+          <lb ed="#P" n="72"/>vero-ratio nimium probat, aut nihil. 
+          Conclu<lb break="no" ed="#P" n="73"/>det enim, si quid probat nullam rationem,
+          <lb ed="#P" n="74"/>vel quasi radicem illius proprietatis assignari
+          <lb ed="#P" n="75"/>posse. Quia vel illa est aliquid commune, et
+          <lb ed="#P" n="76"/>essentiale, et quidquid illud esse dicatur, 
+          con<lb break="no" ed="#P" n="77"/>tra illud procedet dicta ratio, quia illud in
+          <lb ed="#P" n="78"/>Filio invenire necesse est, vel est aliquid 
+          pro<lb break="no" ed="#P" n="79"/>prium, et hoc esse non potest ante primam
+          <lb ed="#P" n="80"/>proprietatem. Negáre autem omnem 
+          ratio<lb break="no" ed="#P" n="81"/>nem, vel quasi radicem illius proprietatis ,
+          <lb ed="#P" n="82"/>non est rationi consentaneum, quia omnis 
+          na<lb break="no" ed="#P" n="83"/>tura est aliquo modo fundamentum , et ratio
+          <lb ed="#P" n="84"/>suae personalitatis. Unde facile posset 
+          respon<lb break="no" ed="#P" n="85"/>deri, negando consequentiam. Quia intelligere
+          <lb ed="#P" n="86"/>essentiale prout est in Filio supponit 
+          paternita<lb break="no" ed="#P" n="87"/>tem, ut priorem origine, quasi per 
+          immedia<lb break="no" ed="#P" n="88"/>tam resultantiam ab ipso intelligere essentiali:
+          <lb ed="#P" n="89"/>et ideo jam non habet in ipso locum talis 
+          re<lb break="no" ed="#P" n="90"/>sultantia, quia hae relationes non 
+          multiplican<lb break="no" ed="#P" n="91"/>tur numero.
+        </p>
+        <p xml:id="szduep-179898-d1e392">
+          <lb ed="#P" n="92"/>6. Difficultas circa opinionem.—Cuod ergo
+          <lb ed="#P" n="93"/>in illa sententia mihti est difficile, solum est,
+          <lb ed="#P" n="94"/>quia personahtas naturae non sequitur ex 
+          ope<lb break="no" ed="#P" n="95"/>ratione quoad intrinsecam resultantiam a 
+          na<lb break="no" ed="#P" n="96"/>tura, licet per operationem producatur, seu
+          <lb ed="#P" n="97"/>comproducatur, ubi persona producta est.
+          <lb ed="#P" n="98"/>Alioqui potius supponitur ad operationem ,
+          <lb ed="#P" n="99"/>quia actiones sunt suppositorum, vel saltem
+          <lb ed="#P" n="100"/>subsistentium, unde si (ut multi opinantur)
+          <lb ed="#P" n="101"/>divina essentia non est subsistens ante primam
+          <lb ed="#P" n="102"/>personalitatem, nec proprie intelligens 
+          prae<lb break="no" ed="#P" n="103"/>concipi debet, sed ut natura, quae est 
+          princi<lb break="no" ed="#P" n="104"/>pium intelligendi, et nihilominus, ut sie etiam
+          <lb ed="#P" n="105"/>concipitur, ut sufficiens ratio, et radix suae
+          <lb ed="#P" n="106"/>primae personalitatis. Neque enim ponendum
+          <lb ed="#P" n="107"/>est hoc, quasi dependens a subsistentia 
+          essen<lb break="no" ed="#P" n="108"/>tiali, quia formaliter loquendo, et per locum
+          <lb ed="#P" n="109"/>intrinsecum, ut aiunt illa subsistentia per se
+          <lb ed="#P" n="110"/>necessaria non est ad subsistentias personales.
+          <pb ed="#P" n="713"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Praeterea , sicut intelligere , ita et velle 
+          essen<lb break="no" ed="#P" n="2"/>tiale est prius ratione proprietatibus 
+          persona<lb break="no" ed="#P" n="3"/>libus, quia in universum communia sunt hoc
+          <lb ed="#P" n="4"/>modo priora propriis, et tamen illud velle, ut
+          <lb ed="#P" n="5"/>sic , non est fundamentum spirationis activae,
+          <lb ed="#P" n="6"/>neque alicujus proprietatis, ut infra dicam,
+          <lb ed="#P" n="7"/>ergo, etc. Denique ex intelligere, ut sic, solum
+          <lb ed="#P" n="8"/>sequitur , vel repraesentatio rei intellectae , vel
+          <lb ed="#P" n="9"/>terminus aliquis productus, si jam sit a quo
+          <lb ed="#P" n="10"/>produci possit. Paternitas autem, neque habet
+          <lb ed="#P" n="11"/>rationem repraesentandi , neque ullo modo
+          <lb ed="#P" n="12"/>comparatur ad intellectionem, ut terminus:
+          <lb ed="#P" n="13"/>cur ergo dicemus ex illa resultare etiam 
+          se<lb break="no" ed="#P" n="14"/>cundum rationem ? Nam illa resultantia sicut
+          <lb ed="#P" n="15"/>sufficit , ita etiam necessaria est ad veritatem
+          <lb ed="#P" n="16"/>hujus causalis. Quia Divina essentia se 
+          intelli<lb break="no" ed="#P" n="17"/>git, ideo terminatur Paternitate, quia in rigore
+          <lb ed="#P" n="18"/>falsa videtur, quia illius terminationis nulla
+          <lb ed="#P" n="19"/>connexio, vel ratio assignari posse videtur.
+        </p>
+        <p xml:id="szduep-179898-d1e481">
+          <lb ed="#P" n="20"/>7. Vera resolutio. — Cur prima proprietas
+          <lb ed="#P" n="21"/>sit paternitas. — Dico ergo, hanc primam 
+          pro<lb break="no" ed="#P" n="22"/>prietatem immediate consequi ad divinam 
+          na<lb break="no" ed="#P" n="23"/>turam, hoc solo, quod talis natura 
+          substantia<lb break="no" ed="#P" n="24"/>lis est. Quod probo primo a sufficienti partium
+          <lb ed="#P" n="25"/>enumeratione , quia nullum aliud 
+          fundamen<lb break="no" ed="#P" n="26"/>tum excogitari potest. Secundo ex hoc 
+          gene<lb break="no" ed="#P" n="27"/>rali principio, quod unaquaeque natura 
+          sub<lb break="no" ed="#P" n="28"/>stantialis est sufficiens fundamentum 
+          proxi<lb break="no" ed="#P" n="29"/>mum suae personalitatis sibi connaturalis,
+          <lb ed="#P" n="30"/>idque juxta modum existendi illius naturae in
+          <lb ed="#P" n="31"/>tali persona. Nam si est in illa per creationem,
+          <lb ed="#P" n="32"/>ex vi illius affert secum suam subsistentiam,
+          <lb ed="#P" n="33"/>idemque cum proportione est de quacumque
+          <lb ed="#P" n="34"/>alia propria effectione. Et similiter si 
+          Persona<lb break="no" ed="#P" n="35"/>litas communicata sit per aliam propriam 
+          pro<lb break="no" ed="#P" n="36"/>ductionem alicujus personae, necesse est, ut
+          <lb ed="#P" n="37"/>ipsa natura sit formale principium talis 
+          pro<lb break="no" ed="#P" n="38"/>ductionis, et consequenter talis Personalitatis.
+          <lb ed="#P" n="39"/>Denique si absque reali productione personae
+          <lb ed="#P" n="40"/>alicujus natura sit in illa immediate, et per se
+          <lb ed="#P" n="41"/>ipsam secum afferet talem personalitatem. Ita
+          <lb ed="#P" n="42"/>vero se habet natura divina respectu primae
+          <lb ed="#P" n="43"/>personae, et ideo illa est proximum, et 
+          suffi<lb break="no" ed="#P" n="44"/>ciens fundamentum illius primae proprietatis.
+          <lb ed="#P" n="45"/>Dices, sed cur illa proprietas prima fuit talis,
+          <lb ed="#P" n="46"/>potius quam alia ? Responderi imprimis posset,
+          <lb ed="#P" n="47"/>hanc esse rei naturam, nam cum pervenimus
+          <lb ed="#P" n="48"/>ad prima, et immediata principia, non oportet
+          <lb ed="#P" n="49"/>rationem aliam quaerere. Deinde explicari 
+          po<lb break="no" ed="#P" n="50"/>test, hoc inodo, nam propter 
+          communicabi<lb break="no" ed="#P" n="51"/>litatem, et foecunditatem divinae naturae non
+          <lb ed="#P" n="52"/>potuit , prima ejus personalitas esse absoluta,
+          <lb ed="#P" n="53"/>debuit ergo esse relativa, et consequenter 
+          ac<lb break="no" ed="#P" n="54"/>commodata intimae operationi , et 
+          communi<lb break="no" ed="#P" n="55"/>cationi talis naturae. Quia igitur natura illa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>essentialiter intellectualis est, ideo prima 
+          com<lb break="no" ed="#P" n="57"/>municatio ejus intellectualis etiam est, et ideo
+          <lb ed="#P" n="58"/>etiam prima personalitas talis est, qualis ad
+          <lb ed="#P" n="59"/>communicationem per intellectum erat 
+          neces<lb break="no" ed="#P" n="60"/>saria. Atque hoc sensu, quia intelligere Dei est
+          <lb ed="#P" n="61"/>ejus essentiale , et quasi ratio constitutiva 
+          es<lb break="no" ed="#P" n="62"/>sentiae divinae in ratione talis naturae, dici, ac
+          <lb ed="#P" n="63"/>verificari posset, proprietatem hanc sequi ex
+          <lb ed="#P" n="64"/>natura divina, ut intelligente, non tanquam
+          <lb ed="#P" n="65"/>terminum ex operatione, sed tanquam 
+          perso<lb break="no" ed="#P" n="66"/>nalitatem accommodatam naturae habenti 
+          ta<lb break="no" ed="#P" n="67"/>lem relationem essentialem.
+        </p>
+        <p xml:id="szduep-179898-d1e590">
+          <lb ed="#P" n="68"/>S. Occurritur argumento. — Neque contra
+          <lb ed="#P" n="69"/>nos procedit objectio, quam ali faciebant
+          <lb ed="#P" n="70"/>contra superiorem sententiam. Quia licet 
+          ea<lb break="no" ed="#P" n="71"/>dem natura divina sit in Patre et in Filio, 
+          ta<lb break="no" ed="#P" n="72"/>men aliter et aliter. Et ideo in utroque quidem
+          <lb ed="#P" n="73"/>est fundamentum utriusque personalitatis, 
+          di<lb break="no" ed="#P" n="74"/>verso tamen modo: in Patre quidem sine
+          <lb ed="#P" n="75"/>productione, in Verbo, ut communicata per
+          <lb ed="#P" n="76"/>productionem Verbi, quem ordinem talis 
+          es<lb break="no" ed="#P" n="77"/>sentia ex sua intrinseca natura postulabat
+          <lb ed="#P" n="78"/>propter foecunditatem suam.
+        </p>
+        <p xml:id="szduep-179898-d1e617">
+          <lb ed="#P" n="79"/>9. Ad fundamentum secunde opinionis. —
+          <lb ed="#P" n="80"/>Ad fundamenta item a nobis insinuata pro
+          <lb ed="#P" n="81"/>eadem sententia, ne contra nostram fiant,
+          <lb ed="#P" n="82"/>respondere facile possumus. Ad primum, 
+          di<lb break="no" ed="#P" n="83"/>cimus primo, in his subsistentibus 
+          relationi<lb break="no" ed="#P" n="84"/>bus non esse semper necessariam rationem
+          <lb ed="#P" n="85"/>fundandi , ut supra tractatum est. Dicimus
+          <lb ed="#P" n="86"/>deinde, ipsammet naturam divinam, ut est in
+          <lb ed="#P" n="87"/>tali gradu substantialis naturae constituta, esse
+          <lb ed="#P" n="88"/>sufficientem rationem fundandi hoc modo illam
+          <lb ed="#P" n="89"/>relationem nimirum, tanquam virtualem 
+          ra<lb break="no" ed="#P" n="90"/>dicem ejus.
+        </p>
+        <p xml:id="szduep-179898-d1e646">
+          <lb ed="#P" n="91"/>10. Ad secundum dicitur, sufficientem 
+          ra<lb break="no" ed="#P" n="92"/>tionem reddi, cur haec proprietas sit per se
+          <lb ed="#P" n="93"/>immediate conjuncta et quasi dimanans a 
+          di<lb break="no" ed="#P" n="94"/>vina natura, quia illa natura debuit necessario
+          <lb ed="#P" n="95"/>habere aliquam personalitatem primam, quae
+          <lb ed="#P" n="96"/>non potuit esse absoluta propter 
+          foecundita<lb break="no" ed="#P" n="97"/>tem illius naturae. Quod ergo natura illa secum
+          <lb ed="#P" n="98"/>afferat aliquam personalitatem, sufficiens ratio
+          <lb ed="#P" n="99"/>redditur ex eo, quod substantialis natura est:
+          <lb ed="#P" n="100"/>quod vero afferat personalitatem relativam,
+          <lb ed="#P" n="101"/>ratio optime redditur ex eo, quod illa natura
+          <lb ed="#P" n="102"/>non uni tantum personae, sed multis 
+          commu<lb break="no" ed="#P" n="103"/>nicabilis est, media reali productione 
+          aliqua<lb break="no" ed="#P" n="104"/>rum personarum : quod tandem immediate
+          <lb ed="#P" n="105"/>afferat personalitatem relativam talem, vera
+          <lb ed="#P" n="106"/>ratio videtur, quia natura illa postulat 
+          com<lb break="no" ed="#P" n="107"/>municari per modum naturae, prius ratione,
+          <lb ed="#P" n="108"/>quam per modum amoris, et ideo secum affert
+          <lb ed="#P" n="109"/>immediate personalitatem , quae suo modo
+          <lb ed="#P" n="110"/>possit esse immediate principium generationis.
+          <pb ed="#P" n="714"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Et quia hoc habet illa natura. quia 
+          essentiali<lb break="no" ed="#P" n="2"/>ter est intellectualis per essentiam, quae ratio
+          <lb ed="#P" n="3"/>prior est in illa quam amoris: ideo dici potest.
+          <lb ed="#P" n="4"/>quod intelligere per essentiam est ratio illius
+          <lb ed="#P" n="5"/>personalitatis. ut suo modo complet 
+          princi<lb break="no" ed="#P" n="6"/>pium quod generandi non quidem ut terminus
+          <lb ed="#P" n="7"/>resultans est intelligere. ut est operatio 
+          quae<lb break="no" ed="#P" n="8"/>dam, sed tantum ut personalitas consequens
+          <lb ed="#P" n="9"/>naturam, eujus veluti ultima differentia est
+          <lb ed="#P" n="10"/>ipsum intelligere per essentiam.
+        </p>
+        <p xml:id="szduep-179898-d1e718">
+          <lb ed="#P" n="11"/>11. Ad 3. de spiratione activa respondetur
+          <lb ed="#P" n="12"/>potius posse argumentum retorqueri, ut 
+          insi<lb break="no" ed="#P" n="13"/>nuavimus, quia ex velle essentiali. ut omnem
+          <lb ed="#P" n="14"/>originem antecedere intelligitur. nulla 
+          perso<lb break="no" ed="#P" n="15"/>nalitas resultat distincta a paternitate. ut est
+          <lb ed="#P" n="16"/>certissimum. lIpsa vero paternitas eatenus dici
+          <lb ed="#P" n="17"/>posset consequi ad illud velle. in quantum 
+          il<lb break="no" ed="#P" n="18"/>lud etiam velle est ipsum esse essentiale 
+          na<lb break="no" ed="#P" n="19"/>turae divinae, licet non tam formaliter (nostro
+          <lb ed="#P" n="20"/>modo intelligendi cum fundamento in re) 
+          si<lb break="no" ed="#P" n="21"/>cut intelligere. Et ità est vera, quod illa 
+          pro<lb break="no" ed="#P" n="22"/>prietas prima, quam immediate. et ex se affert
+          <lb ed="#P" n="23"/>secum natura divina, sequitur ex illa natura
+          <lb ed="#P" n="24"/>secundum totam foecunditatem suam. quae et
+          <lb ed="#P" n="25"/>intellectum et voluntatem complectitur. Unde
+          <lb ed="#P" n="26"/>persona constituta per illam personalitatem
+          <lb ed="#P" n="27"/>est de se sufficiens principium in suo ordine
+          <lb ed="#P" n="28"/>cujuscumque communicationis illius natura.
+          <lb ed="#P" n="29"/>Et ideo illa natura immediate et sine 
+          produc<lb break="no" ed="#P" n="30"/>tione reali alicujus persone. nullam aliam
+          <lb ed="#P" n="31"/>proprietatem personalem secum affert. Imo
+          <lb ed="#P" n="32"/>nec aliquam aliam relationem sub quacumque
+          <lb ed="#P" n="33"/>ratione spectatam. Nam spiratio activa non
+          <lb ed="#P" n="34"/>sequitur hoc modo ex essentia, ut infra 
+          vide<lb break="no" ed="#P" n="35"/>bimus: nec esti eadem ratio de illa. quia nec
+          <lb ed="#P" n="36"/>est ex se subsistens, vel ratio subsistendi: nec
+          <lb ed="#P" n="37"/>est per se necessaria. ut conditio antecedens
+          <lb ed="#P" n="38"/>ex parte principii ad aliquam productionem,
+          <lb ed="#P" n="39"/>ut libro decimo tractabimus.
+        </p>
+        <p xml:id="szduep-179898-d1e783">
+          <lb ed="#P" n="40"/>12. Primae opinioni satist. — Denique (ut
+          <lb ed="#P" n="41"/>Bonaventura satisfaciamus) ex his etiam 
+          in<lb break="no" ed="#P" n="42"/>telligitur primo, quomodo verum sit quoà
+          <lb ed="#P" n="43"/>supra dixi. proprietatem hanc non fundari in
+          <lb ed="#P" n="44"/>origine Filii, neque esse in Patre. quia 
+          gene<lb break="no" ed="#P" n="45"/>rat. sed ut generet, vel ut sit apius ad 
+          gene<lb break="no" ed="#P" n="46"/>randum. Tamen quia in aeternis idem est posse
+          <lb ed="#P" n="47"/>et esse. ideo Pater babet hanc proprietatem
+          <lb ed="#P" n="48"/>actualiter generando absque alia proprietate
+          <lb ed="#P" n="49"/>in re. praeterquam originis respectu Filii, vel
+          <lb ed="#P" n="50"/>rationis respeetu actionis. seu activae originis.
+          <lb ed="#P" n="51"/>Intelligitur secundo. quomodo haee proprietas,
+          <lb ed="#P" n="52"/>non tantum secundum esse in, vel secundum
+          <lb ed="#P" n="53"/>aliam communem rationem, sed etiam 
+          secun<lb break="no" ed="#P" n="54"/>dum omnem propriam. quatenus in re est,
+          <lb ed="#P" n="55"/>antecedat origine ipsum Filium. quia imme-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>diate et per se est conjuncta cum ipsa essentia,
+          <lb ed="#P" n="57"/>ut talis est, processio autem Filii non est, 
+          ne<lb break="no" ed="#P" n="58"/>que intelligi potest, donec essentia sit 
+          termi<lb break="no" ed="#P" n="59"/>nata hac prima proprietate, quia processio
+          <lb ed="#P" n="60"/>debet esse a persona, non ab essentia. Tertio
+          <lb ed="#P" n="61"/>intelligitur hanc proprietatem esse 
+          fundamen<lb break="no" ed="#P" n="62"/>tum innascibilitatis, quod in sequenti capite
+          <lb ed="#P" n="63"/>explicandum superest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

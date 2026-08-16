@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="326"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-082858"><!-- t2-l2c4 -->
+        <head xml:id="szduep-082858-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-082858-Hd1e103" type="question-title">Utrum praecesserit ante hanc vitam actio aliqua hominis praedestinati, quae sit causu praedestinationis ejus ex parte effectuum</head>
+        <p xml:id="szduep-082858-d1e106">
+          <lb ed="#P" n="32"/>CAPUT IV.
+          <lb ed="#P" n="33"/>UTRUM PRAECESSERIT ANTE HANC VITAM ACTIO
+          <lb ed="#P" n="34"/>ALIQUA HOMINIS PRAEDESTINATI, QUAE SIT 
+          CAU<lb break="no" ed="#P" n="35"/>SU PRAEDESTINATIONIS EJUS EX PARTE 
+          EFFEC<lb break="no" ed="#P" n="36"/>TUUM.
+        </p>
+        <p xml:id="szduep-082858-d1e119">
+          <lb ed="#P" n="37"/>1. Quoniam de hac causa varia fuerunt 
+          pla<lb break="no" ed="#P" n="38"/>cita, et sententiae, inter quas quaedam haereticae,
+          <lb ed="#P" n="39"/>aliae erroneae sunt, aliae inter Catholicos 
+          dispu<lb break="no" ed="#P" n="40"/>tantur, ut clarior sit doctrina, de singulis 
+          se<lb break="no" ed="#P" n="41"/>paratim dicemus incipiendo ab his, quae 
+          absur<lb break="no" ed="#P" n="42"/>diores sunt ac proinde magis sunt antiquatae:
+          <lb ed="#P" n="43"/>quas silentio praetermittere non expedit. 
+          prop<lb break="no" ed="#P" n="44"/>ter doctrinae complementum: eas tamen 
+          bre<lb break="no" ed="#P" n="45"/>viter transigere, utilius existimamus.
+        </p>
+        <p xml:id="szduep-082858-d1e141">
+          <lb ed="#P" n="46"/>2. Error de casu tollente libertatem. —Cum
+          <lb ed="#P" n="47"/>autem nostra quaestio nunc sit de causa morali
+          <lb ed="#P" n="48"/>ex parte hominis, supponit necessario 
+          liberta<lb break="no" ed="#P" n="49"/>tem in homine, quia libertas est ratio vel 
+          fun<lb break="no" ed="#P" n="50"/>damentum totius esse moralis, ac proinde 
+          ne<lb break="no" ed="#P" n="51"/>cessaria ad causalitatem moralem. Quocirca
+          <lb ed="#P" n="52"/>haeretici omnes qui libertatem abstulerunt, nec
+          <lb ed="#P" n="53"/>praedestinationis nec salutis hominum, mora-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>lem causam ponere potuerunt. Manichaei ergo
+          <lb ed="#P" n="55"/>et Priscilianistae, cum libertatem arbitri 
+          nega<lb break="no" ed="#P" n="56"/>verint, assignabant causam praedestinationis et
+          <lb ed="#P" n="57"/>reprobationis hominum, ex diverso nostrorum
+          <lb ed="#P" n="58"/>corporum temperamento, quoad hos, vel illos
+          <lb ed="#P" n="59"/>actus necessario trahimur: varietatem autem
+          <lb ed="#P" n="60"/>temperamentorum. in diversas constelationes
+          <lb ed="#P" n="61"/>revocabant, ut intelligimus ex Leone 1, 
+          Epis<lb break="no" ed="#P" n="62"/>tola 91, ad Turibium, cap. 11, et Gregorius,
+          <lb ed="#P" n="63"/>hom. 10, in Evangelia, Hieronymus, Epist. 8,
+          <lb ed="#P" n="64"/>Augustino, libro de Haeresibus, cap. 10, 
+          Pros<lb break="no" ed="#P" n="65"/>per , lib. 1, de Vocatione gent. , cap. 14,
+          <lb ed="#P" n="66"/>alias, qui Patres errorem hunc improbant et
+          <lb ed="#P" n="67"/>Concilium Bracharense, 1, cap. 8. At vero isti
+          <lb ed="#P" n="68"/>haeretici non assignabant causam moralem, sed
+          <lb ed="#P" n="69"/>physicam naturalem, nec quaerebant causam
+          <lb ed="#P" n="70"/>praedestinationis, ut ostenderent salutem, vel
+          <lb ed="#P" n="71"/>gehennam pendere ex voluntate hominis: sed
+          <lb ed="#P" n="72"/>potius ut excusarent eos qui damnantur, quia
+          <lb ed="#P" n="73"/>necessitate quadam damnantur, et eis qui 
+          sal<lb break="no" ed="#P" n="74"/>vantur, omnem occasionem se gloriandi 
+          adi<lb break="no" ed="#P" n="75"/>merent.
+        </p>
+        <p xml:id="szduep-082858-d1e212">
+          <lb ed="#P" n="76"/>3. Refellitur. —In hoc autem errore magna
+          <lb ed="#P" n="77"/>fuit varietas: quidam enim referebant totam
+          <lb ed="#P" n="78"/>seriem humanae vitae in extrinsecam causam
+          <lb ed="#P" n="79"/>coelestem, alii in Deum ipsum, quasi cogentem
+          <lb ed="#P" n="80"/>voluntatem, qui error etiam nunc viget, alii
+          <lb ed="#P" n="81"/>vero in intrinsecam quorumdam hominum 
+          na<lb break="no" ed="#P" n="82"/>turam, quae de se ad bonum vel malum 
+          deter<lb break="no" ed="#P" n="83"/>minata est. Sed quod ad praesens attinet, idem
+          <lb ed="#P" n="84"/>formaliter (ut sic dicam) est error sive usus 
+          li<lb break="no" ed="#P" n="85"/>bertatis negetur per actionem stellarum, sive
+          <lb ed="#P" n="86"/>per quamcumque aliam extrinsecam vel 
+          intrin<lb break="no" ed="#P" n="87"/>secam causam, ut bene annotavit Origenes, 
+          li<lb break="no" ed="#P" n="88"/>bro 3, Periar., cap. 1. Solum potest esse 
+          dif<lb break="no" ed="#P" n="89"/>ferentia, quia haeretici qui dicunt solum Deum
+          <lb ed="#P" n="90"/>motione sua auferre ab hominibus liberum
+          <lb ed="#P" n="91"/>usum actionum suarum, in solam divinam 
+          vo<lb break="no" ed="#P" n="92"/>luntatem referunt diversitatem et varios 
+          suc<lb break="no" ed="#P" n="93"/>cessus actionum humanarum, et ita non 
+          refe<lb break="no" ed="#P" n="94"/>runt in creaturam aliquam praedestinationis
+          <lb ed="#P" n="95"/>causam, in quo praecise non errant, sed in
+          <lb ed="#P" n="96"/>modo causalitatis, ut suo loco dicemus. Alii
+          <lb ed="#P" n="97"/>vero qui diversitatem humanarum actionum
+          <lb ed="#P" n="98"/>referunt in causam creatam, extrinsecam vel
+          <lb ed="#P" n="99"/>intrinsecam, videntur quidem eidem causae 
+          tri<lb break="no" ed="#P" n="100"/>buere primam rationem praedestinationis. Re
+          <lb ed="#P" n="101"/>tamen vera, vel eos praedestinationem omnino
+          <lb ed="#P" n="102"/>auferre, vel ad voluntatem Dei ultimate 
+          recur<lb break="no" ed="#P" n="103"/>rere, necesse est. Cum enim aiunt, bonum 
+          na<lb break="no" ed="#P" n="104"/>turale temperamentum esse causam necessario
+          <lb ed="#P" n="105"/>afferentem salutem, illius vero causam esse
+          <lb ed="#P" n="106"/>constellationem sub qua homo nascitur: quaero
+          <lb ed="#P" n="107"/>ulterius cur talis homo sub tali constellatione
+          <lb ed="#P" n="108"/>nascatur? Scio, responsuros hoc ipsum preve-
+          <pb ed="#P" n="327"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nire ex necessario cursu fati et ex concurrentia
+          <lb ed="#P" n="2"/>stellarum. At rursus inquiro unde hic stellarum
+          <lb ed="#P" n="3"/>cursus ita constitutus sit, ut in hanc 
+          necessita<lb break="no" ed="#P" n="4"/>tem et inducatur et inducat. Aut enim id 
+          ha<lb break="no" ed="#P" n="5"/>buit a se, et absque alia causa, vel, ut quidam
+          <lb ed="#P" n="6"/>dixerunt, fortuito, et sic tollitur praedestinatio,
+          <lb ed="#P" n="7"/>et non redditur causa ejus, sed effectuum quos
+          <lb ed="#P" n="8"/>nos praedestinationi aut libertati tribuimus.
+          <lb ed="#P" n="9"/>Aut vero Deus est causa hujus ordinis 
+          stella<lb break="no" ed="#P" n="10"/>rum, ex quo reliqua varietas necessario 
+          sequi<lb break="no" ed="#P" n="11"/>tur. Et interrogo rursus, quis Deum impulerit
+          <lb ed="#P" n="12"/>vel determinaverit, ut hunc potius ordinem
+          <lb ed="#P" n="13"/>quam alium stellis praefixerit. Aut enim id
+          <lb ed="#P" n="14"/>Deus etiam fecit naturali et quasi fatali 
+          neces<lb break="no" ed="#P" n="15"/>sitate, et sic etiam tollitur praedestinatio, quae
+          <lb ed="#P" n="16"/>debet esse actus liber: vel facit pro sua 
+          liber<lb break="no" ed="#P" n="17"/>tate, et sic tota varietas et ratio 
+          praedestinatio<lb break="no" ed="#P" n="18"/>nis in divinam voluntatem necessario referenda
+          <lb ed="#P" n="19"/>est. Atque hoc modo satis impugnatur hic 
+          er<lb break="no" ed="#P" n="20"/>ror, quantum ad praesens attinet, nam contra
+          <lb ed="#P" n="21"/>fatum et contra intrinsecam necessitatem 
+          vo<lb break="no" ed="#P" n="22"/>luntatis humanae in actionibus suis bonis vel
+          <lb ed="#P" n="23"/>malis, alibi disputatum est. Contra haereticos
+          <lb ed="#P" n="24"/>vero, qui ita referunt causam praedestinationis
+          <lb ed="#P" n="25"/>in solam Dei voluntateni, ut id exequatur 
+          ne<lb break="no" ed="#P" n="26"/>cessitando voluntatem, infra est a nobis 
+          disse<lb break="no" ed="#P" n="27"/>rendum, libro sequenti.
+        </p>
+        <p xml:id="szduep-082858-d1e349">
+          <lb ed="#P" n="28"/>4. Error de merito animarum ante hanc 
+          ci<lb break="no" ed="#P" n="29"/>tam. — Ali, ut ab his erroribus deviarent,
+          <lb ed="#P" n="30"/>putarunt totam causam felicitatis 
+          praedestina<lb break="no" ed="#P" n="31"/>torum ad eorum libertatem esse referendam,
+          <lb ed="#P" n="32"/>ac proinde fundari in aliquo bono merito 
+          illo<lb break="no" ed="#P" n="33"/>rum. Quia vero invenire non poterant merita,
+          <lb ed="#P" n="34"/>quae in hac vita mortali in eis praecesserint,
+          <lb ed="#P" n="35"/>finxerunt animas omnium hominum prius
+          <lb ed="#P" n="36"/>extitisse, quam in hac vita corporibus 
+          uniren<lb break="no" ed="#P" n="37"/>tur, et in eo statu habuisse bona, vel mala
+          <lb ed="#P" n="38"/>merita. Eos igitur homines, qui animas 
+          rece<lb break="no" ed="#P" n="39"/>perunt, in quibus bona merita praecesserunt,
+          <lb ed="#P" n="40"/>praedestinatos esse dicunt ex illis 
+          praecedenti<lb break="no" ed="#P" n="41"/>bus meritis. Hunc errorem tacito nomine 
+          Ori<lb break="no" ed="#P" n="42"/>genis refert Hieronymus, Epistol. 8 et 139, et
+          <lb ed="#P" n="43"/>in Jeremiam, cap. 24 et 18, in Apologia vero
+          <lb ed="#P" n="44"/>contra Ruffinum, eum Origini tribuit, et 
+          Epi<lb break="no" ed="#P" n="45"/>phanius in Panario, et Epist. ad Joannem 
+          Hie<lb break="no" ed="#P" n="46"/>rosolym., quae etiam inter Epist. Hieronymi,
+          <lb ed="#P" n="47"/>est 60. Attigit etiam Nazianzenus, Orat. 31, et
+          <lb ed="#P" n="48"/>Theophylus, lib. 1, Paschalis. Et plane 
+          inve<lb break="no" ed="#P" n="49"/>nitur hic errorin Origene, lib. 1, Periar.,cap. 7,
+          <lb ed="#P" n="50"/>8 et 9, latius lib. 3, cap. 10, ubi ait: 
+          Provi<lb break="no" ed="#P" n="51"/>dentiam Dei pro singulorum meritis, et causis
+          <lb ed="#P" n="52"/>regere immortales animas : Dum non intra 
+          Int<lb break="no" ed="#P" n="53"/>jus seculi vitam dispensatio humana 
+          concludi<lb break="no" ed="#P" n="54"/>tur, etc. Et infra: Prius gestorum unius 
+          cujus<lb break="no" ed="#P" n="55"/>que causa praecedit, etc. Et infra: Ex preeceden-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Libus causis ununquodque vas vel ad honorem,
+          <lb ed="#P" n="57"/>vel ad contumeliam praeparatur. Et infra easdem
+          <lb ed="#P" n="58"/>vocat : Antiquiores et praecedentes causas, 
+          secun<lb break="no" ed="#P" n="59"/>dum quas hi ad glorium preparantur, etc. Ac
+          <lb ed="#P" n="60"/>denique saepe in illis locis repetit, totam 
+          corpo<lb break="no" ed="#P" n="61"/>rum varictatem, quae in mundo est, ex 
+          varie<lb break="no" ed="#P" n="62"/>tate et diversitate meritorum, quae in 
+          rationa<lb break="no" ed="#P" n="63"/>libus creaturis praecessit, ortam esse.
+        </p>
+        <p xml:id="szduep-082858-d1e432">
+          <lb ed="#P" n="64"/>5. Refellitur. — Animas non fuisse ante 
+          cor<lb break="no" ed="#P" n="65"/>pora. — In hac vero sententia Origenis, 
+          ob<lb break="no" ed="#P" n="66"/>curitatem magnam et infinitam errorum 
+          mul<lb break="no" ed="#P" n="67"/>titudinem invenio. Primum enim ipse 
+          nun<lb break="no" ed="#P" n="68"/>quam satis explicat, an illa merita in puris
+          <lb ed="#P" n="69"/>animabus, seu spiritibus a corporibus 
+          separa<lb break="no" ed="#P" n="70"/>tis, praecesserint, nec ne. Hinc enim, videtur
+          <lb ed="#P" n="71"/>consecutio sermonis, ac sententiae hoc 
+          postu<lb break="no" ed="#P" n="72"/>lare. Et ita videtur communiter intellectus
+          <lb ed="#P" n="73"/>Origenes, nam inde maxime impugnatur, quod
+          <lb ed="#P" n="74"/>crediderit et supponat, animas prius extra 
+          cor<lb break="no" ed="#P" n="75"/>pora esse creatas, et in eo statu habuisse merita,
+          <lb ed="#P" n="76"/>per quae postea corporibus unitae, dilectae 
+          fue<lb break="no" ed="#P" n="77"/>rint, vel odio habitae. Illud autem 
+          fundamen<lb break="no" ed="#P" n="78"/>tum haereticum est , nam fides docet , animas
+          <lb ed="#P" n="79"/>hominum tunc creari, cum corporibus primo
+          <lb ed="#P" n="80"/>infunduntur et non antea, ut definitum est in
+          <lb ed="#P" n="81"/>Concilio Lateranensi sub Innoc. 3, Sess. 8, et in
+          <lb ed="#P" n="82"/>Clementina unica de Summa Trinit., et 
+          Conci<lb break="no" ed="#P" n="83"/>lium Bracharense 1, cap. 6, et Leone Primo,
+          <lb ed="#P" n="84"/>Epistol. 91, ad Turivium, cap. 10, ubi dicit :
+          <lb ed="#P" n="85"/>Catholicam fidem sententiam illam damnare.
+          <lb ed="#P" n="86"/>Idemque habet Hierony mus, Epist. ad 
+          Pama<lb break="no" ed="#P" n="87"/>chium, contra Joannem Hierosolym., et 
+          Angus<lb break="no" ed="#P" n="88"/>tinus, lib. de Ecclesiast. dogm., cap. 13. 
+          Opti<lb break="no" ed="#P" n="89"/>me Gregorius Nyssenus, lib. de Opificio hom.,
+          <lb ed="#P" n="90"/>cap. 28 et 29, et disputatione de Resurrectione
+          <lb ed="#P" n="91"/>et anima, post medium. Praeterea cum hoc
+          <lb ed="#P" n="92"/>errore sic intellecto conjunctusest alius, quem,
+          <lb ed="#P" n="93"/>dictis locis, Origenes indicat, corpora non esse
+          <lb ed="#P" n="94"/>a Deo ex primaria intentione creata, sed solum
+          <lb ed="#P" n="95"/>ut ergastula et carceres spirituum peccantium.
+          <lb ed="#P" n="96"/>Quod fides Catholica damnat, in cap. Firmiter,
+          <lb ed="#P" n="97"/>de Summa, Trinit. et tradunt late Augustinus,
+          <lb ed="#P" n="98"/>lib. 11, de Civit., cap. 23, et Cyrillus Alexandr.,
+          <lb ed="#P" n="99"/>lib. 1, in Joannem, cap. 9, et D. Thomas, 1 p.,
+          <lb ed="#P" n="100"/>quaest. 65.
+        </p>
+        <p xml:id="szduep-082858-d1e515">
+          <lb ed="#P" n="101"/>6. Aliunde vero idem Origines, lib. 2, 
+          Pe<lb break="no" ed="#P" n="102"/>riar., cap. 2, contendit nullum spiritum 
+          crea<lb break="no" ed="#P" n="103"/>tum fuisse unquam sine corpore, imo nec esse
+          <lb ed="#P" n="104"/>posse : quomodo ergo sentire potuit, animas
+          <lb ed="#P" n="105"/>prius esse creatas a corporibus separatas? cum
+          <lb ed="#P" n="106"/>eas rationales, et spirituales esse fateatur, imo
+          <lb ed="#P" n="107"/>ejusdem naturae cum angelis , ut frequentius
+          <lb ed="#P" n="108"/>indicat. Nisi forte senserit, nullum esse 
+          spiri<lb break="no" ed="#P" n="109"/>tum creatum, qui non possit corpori unirti,
+          <lb ed="#P" n="110"/>non tamen necessario uniri, quin potius id ac-
+          <pb ed="#P" n="328"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cipere ex aliquo demerito. At vero, in citato
+          <lb ed="#P" n="2"/>loco, plus certe indicat. Praeterea non videtur
+          <lb ed="#P" n="3"/>sentire potuisse, spiritus non uniri corporibus,
+          <lb ed="#P" n="4"/>nisi ut ergastulis, ut propter mala merita,
+          <lb ed="#P" n="5"/>pam in locis citatis expresse ait, Jacob fuisse
+          <lb ed="#P" n="6"/>dilectum a Deo priusquam in hac vita (ita
+          <lb ed="#P" n="7"/>enim Paulum intelligit) aliquid boni, vel mali
+          <lb ed="#P" n="8"/>egisset, non tamen sine prioribus meritis, ne
+          <lb ed="#P" n="9"/>injustus videatur Deus, gratis unum diligendo,
+          <lb ed="#P" n="10"/>et alium sine culpa odio habendo. Deinde, 
+          cau<lb break="no" ed="#P" n="11"/>sam electionis hominum praedestinatorum 
+          po<lb break="no" ed="#P" n="12"/>nit in meritis praecedentibus ante haec corpora,
+          <lb ed="#P" n="13"/>ergo sentire non potuit, eorum animas uniri
+          <lb ed="#P" n="14"/>eorum corporibus propter praecedentia 
+          deme<lb break="no" ed="#P" n="15"/>rita.
+        </p>
+        <p xml:id="szduep-082858-d1e576">
+          <lb ed="#P" n="16"/>7. Varii errores Origenis. — Videtur ergo
+          <lb ed="#P" n="17"/>Origines sensisse (quantum ex citatis locis 
+          in<lb break="no" ed="#P" n="18"/>telligi potest ) omnes spiritus fuisse semper
+          <lb ed="#P" n="19"/>creatos cum aliquibus corporibus, omnes vero
+          <lb ed="#P" n="20"/>recipere transitum a-corporibus in corpora.
+          <lb ed="#P" n="21"/>Sic enim ibi docet plures, et varios fuisse
+          <lb ed="#P" n="22"/>mundos ante hunc, et ejus initium , et post
+          <lb ed="#P" n="23"/>finem hujus alium, et alios esse futuros:in
+          <lb ed="#P" n="24"/>quibus eaedem animae, vel spiritus rationales
+          <lb ed="#P" n="25"/>migrant per diversa corpora , pro meritorum
+          <lb ed="#P" n="26"/>diversitate. Et fortasse credidit ante haec 
+          cor<lb break="no" ed="#P" n="27"/>pora crassiora, habuisse animas alia subtihora
+          <lb ed="#P" n="28"/>et quasi spiritualia, et pro ratione meritorum
+          <lb ed="#P" n="29"/>illius status recepisse corpora mortalia : non
+          <lb ed="#P" n="30"/>semper in poenam peccatorum, sed interdum
+          <lb ed="#P" n="31"/>ad comparanda in his corporibus altiora bona,
+          <lb ed="#P" n="32"/>ad quae praedestinantur : hoc enim videtur
+          <lb ed="#P" n="33"/>consequens ad ejus dogmata, ut ratio supra
+          <lb ed="#P" n="34"/>facta probat. In quo etiam modo explicandi
+          <lb ed="#P" n="35"/>hanc sententiam plures errores inveniuntur.
+          <lb ed="#P" n="36"/>Unus est: non dari spiritus creatos pure 
+          in<lb break="no" ed="#P" n="37"/>corporeos. Alius est, non posse animas 
+          huma<lb break="no" ed="#P" n="38"/>pas existere extra omne corpus. Tertius est,
+          <lb ed="#P" n="39"/>dari transmigrationem animarum, et has 
+          eas<lb break="no" ed="#P" n="40"/>dem animas , quae nunc nostris corporibus
+          <lb ed="#P" n="41"/>infunduntur, prius in aliis corporibus extitisse,
+          <lb ed="#P" n="42"/>de quibus alias.
+        </p>
+        <p xml:id="szduep-082858-d1e637">
+          <lb ed="#P" n="43"/>8. Quartus ergo Origenis error, et ad 
+          prae<lb break="no" ed="#P" n="44"/>sens directe spectans, est, praecessisse merita,
+          <lb ed="#P" n="45"/>vel demerita in nostris animabus, priusquam
+          <lb ed="#P" n="46"/>nos generaremur, contra illud Pauli, ad
+          <lb ed="#P" n="47"/>Rom. 9. Priusquam boni, vel mali egissent.
+          <lb ed="#P" n="48"/>Quamvis enim Ofrigines limitationem addat,
+          <lb ed="#P" n="49"/>prius quam bonum, vel malum egissent in
+          <lb ed="#P" n="50"/>his mortalibus corporibus : tamen Paulus 
+          ab<lb break="no" ed="#P" n="51"/>solute locutus est , quia pro certo supponit
+          <lb ed="#P" n="52"/>nulla esse hominis , vel ejus animae merita
+          <lb ed="#P" n="53"/>ante hujus vitae initium. Unde absolute 
+          sub<lb break="no" ed="#P" n="54"/>jungit, non ex operibus, sed em vocante. Quod
+          <lb ed="#P" n="55"/>nec vere, nec consequenter dictum esset, si
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>opera saltem in priori vita praecessissent : nam
+          <lb ed="#P" n="57"/>absolute falsum esset dicere, Jacob non esse
+          <lb ed="#P" n="58"/>dilectum ex operibus. Male etiam statim 
+          il<lb break="no" ed="#P" n="59"/>latum esset , sed ex vocante , quia inter opera
+          <lb ed="#P" n="60"/>hujus vitae, et gratiam vocantis, inter 
+          cessis<lb break="no" ed="#P" n="61"/>sent opera alterius vitae.
+        </p>
+        <p xml:id="szduep-082858-d1e684">
+          <lb ed="#P" n="62"/>9. Quinto, numerare possumus errorem
+          <lb ed="#P" n="63"/>alium, nimirum Deum punire homines, vel
+          <lb ed="#P" n="64"/>eis praemia reddere in hac vita, propter 
+          meri<lb break="no" ed="#P" n="65"/>ta propria, quae ante hanc vitam fecerunt.
+          <lb ed="#P" n="66"/>Contrarium significavit Christus, Joan.9,
+          quan<lb break="no" ed="#P" n="67"/>do de caeco illo interrogatus, respondit : NVegue
+          <lb ed="#P" n="68"/>hic peccavit, neque parentes ejus, sed ut 
+          mani<lb break="no" ed="#P" n="69"/>festentur opera DEI in illo. Et Paulus, ad
+          <lb ed="#P" n="70"/>Rom. 5, ait, transisse originalem maculam,
+          <lb ed="#P" n="71"/>eliam in eos , qui non peccaverunt in 
+          similitu<lb break="no" ed="#P" n="72"/>dinem pravaricationis Ade , id est, propria
+          <lb ed="#P" n="73"/>voluntate. Multo vero magis absurdum est,
+          <lb ed="#P" n="74"/>dicere, ipsam praedestinationem esse praemium
+          <lb ed="#P" n="75"/>meritorum alterius vitae, quae ante hanc 
+          prae<lb break="no" ed="#P" n="76"/>cessit , cum dicat Paulus, ad Roman. 9. Non
+          <lb ed="#P" n="77"/>ex operibus, sed ex vocante. Et 1. Timoth.. 2:
+          <lb ed="#P" n="78"/>Vocavit nos non secundwum opera nostra. Quod
+          <lb ed="#P" n="79"/>si Origines dixerit, opera prioris vitae non 
+          vo<lb break="no" ed="#P" n="80"/>cari nostra, redarguitur facile, quia Paulus
+          <lb ed="#P" n="81"/>immediate subjungit, sed secundum propositum
+          <lb ed="#P" n="82"/>suum, et gratium, docens, non dari medium
+          <lb ed="#P" n="83"/>inter donum datum absque merito hujus vitae,
+          <lb ed="#P" n="84"/>quod nostrum dicitur, et gratuitam 
+          donatio<lb break="no" ed="#P" n="85"/>nem. Quod aperte convincit illud 2, ad Cor. 1,
+          <lb ed="#P" n="86"/>et ad Roman. 14. Omnes nos manifestari 
+          opor<lb break="no" ed="#P" n="87"/>tet ante tribunal Christi , ut referat 
+          unusquis<lb break="no" ed="#P" n="88"/>que prout gessit in corpore. Unde colligunt
+          <lb ed="#P" n="89"/>Patres, quod licet Deus non pramiet, vel 
+          pu<lb break="no" ed="#P" n="90"/>niat in homine solos actus, quos per corpus
+          <lb ed="#P" n="91"/>exercet, nam etiam interna voluntatis 
+          deside<lb break="no" ed="#P" n="92"/>ria dijudicat : tamen non judicare homines,
+          <lb ed="#P" n="93"/>nisi ex actibus, quos in hoc mortal corpore
+          <lb ed="#P" n="94"/>exercent, non ergo ex operibus antecedentis
+          <lb ed="#P" n="95"/>vitae. Quod si Deus non respicit illa merita ad
+          <lb ed="#P" n="96"/>conferendam gloriam, multo minus ad 
+          prae<lb break="no" ed="#P" n="97"/>destinandum ad eamdem gloriam. Potest enim
+          <lb ed="#P" n="98"/>aliquid esse meritum gloriae, quod non sit 
+          me<lb break="no" ed="#P" n="99"/>ritum praedestinationis ad gloriam : non vero
+          <lb ed="#P" n="100"/>e contrario potest aliquid esse causa 
+          praedes<lb break="no" ed="#P" n="101"/>tinationis ad gloriam, quod non sit etiam 
+          cau<lb break="no" ed="#P" n="102"/>sa ipsius gloriae, cum praedestinatio sit causa
+          <lb ed="#P" n="103"/>certissima ipsius gloriae.
+        </p>
+        <p xml:id="szduep-082858-d1e778">
+          <lb ed="#P" n="104"/>10. Redarguitur Origenes, dum negat 
+          sta<lb break="no" ed="#P" n="105"/>tum immutabilem qui sit terminus meritorum.
+          <lb ed="#P" n="106"/>—Sexto est valde observandum in Origine, 
+          lo<lb break="no" ed="#P" n="107"/>cis citatis, quod nullum firmum, et stabilem
+          <lb ed="#P" n="108"/>terminum ponit meritorum humanorum. Nam
+          <lb ed="#P" n="109"/>et animas propter demerita praesentis vitae
+          <lb ed="#P" n="110"/>damnatas putavit, aliquando per poenitentiam,
+          <pb ed="#P" n="329"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et bona opera reparari : et in ipsamet 
+          beatitu<lb break="no" ed="#P" n="2"/>dine non credit esse securitatem , imo contra
+          <lb ed="#P" n="3"/>libertatem arbitrii creati existimat esse, quod
+          <lb ed="#P" n="4"/>rationales creaturae per beatitudinem fiant
+          <lb ed="#P" n="5"/>impeccabiles. Unde innumeras statuum 
+          vicissi<lb break="no" ed="#P" n="6"/>tudines eis attribuit, ut nunc ex miseris, media
+          <lb ed="#P" n="7"/>resipiscentia beatae fiant, per opera alterius
+          <lb ed="#P" n="8"/>vitae, quae post hanc vitam sequetur. Quod,
+          <lb ed="#P" n="9"/>(praeter errores absurdissimos, quos includit,
+          <lb ed="#P" n="10"/>qui aliis locis impugnantur), in praesenti 
+          repu<lb break="no" ed="#P" n="11"/>gnantiam involvit. Nam, si res ita esset, non
+          <lb ed="#P" n="12"/>relinqueretur praedestinationi locus simpliciter
+          <lb ed="#P" n="13"/>et proprie loquendo de praedestinatione , quae
+          <lb ed="#P" n="14"/>est ad vitam inamissibilem. Unde interrogo,
+          <lb ed="#P" n="15"/>an illa vicissitudo habeat tandem terminum,
+          <lb ed="#P" n="16"/>vel non habeat ? Si non habet, ergo licet homo
+          <lb ed="#P" n="17"/>in hac vita transiturus sit in beatitudinem,
+          <lb ed="#P" n="18"/>non propterea praedestinatus est, nam inde
+          <lb ed="#P" n="19"/>poterit iterum cadere , et damnari. Et licet
+          <lb ed="#P" n="20"/>ad illam qualemcumque beatitudinem 
+          amissi<lb break="no" ed="#P" n="21"/>bilem, dicatur praecedere aliqua praedestinatio,
+          <lb ed="#P" n="22"/>non poterit tribui meritis vitae, quae ante hanc
+          <lb ed="#P" n="23"/>praecessit, quia non solum una, sed plures vitae
+          <lb ed="#P" n="24"/>praecesserunt, et quaedam fuerunt bonae, 
+          quae<lb break="no" ed="#P" n="25"/>dam malae : et licet in executione terminus
+          <lb ed="#P" n="26"/>unius (ut sic dicam) possit esse ratio alterius,
+          <lb ed="#P" n="27"/>tamen totius successionis, quam praedestinatio
+          <lb ed="#P" n="28"/>respicit, non potest causa ex parte hominis
+          <lb ed="#P" n="29"/>assignari. Sicut in successu temporis hujus
+          <lb ed="#P" n="30"/>vitae, nunc idem homo est justus, nunc 
+          pecca<lb break="no" ed="#P" n="31"/>tor; nunc iterum justus, et semper, vel 
+          adqui<lb break="no" ed="#P" n="32"/>rit, vel amittit justitiam, interventu suorum
+          <lb ed="#P" n="33"/>operum liberorum : totius tamen successionis,
+          <lb ed="#P" n="34"/>et discursus vitae, sic a Deo praeordinata,, non
+          <lb ed="#P" n="35"/>potest dari ratio ex parte hominis.
+        </p>
+        <p xml:id="szduep-082858-d1e876">
+          <lb ed="#P" n="36"/>11. Quod melius convincitur urgendo 
+          argu<lb break="no" ed="#P" n="37"/>mentum ex parte initii illarum vicissitudinum.
+          <lb ed="#P" n="38"/>Cum enim Origenes ante hanc vitam ponat
+          <lb ed="#P" n="39"/>aliam, et ante illam aliam, et sic deinceps, 
+          in<lb break="no" ed="#P" n="40"/>terrogo, an procedatur in infinitum per 
+          to<lb break="no" ed="#P" n="41"/>tam aeternitatem, vel perveniatur ad primum
+          <lb ed="#P" n="42"/>mundum in quo animae creatae sunt, et bene,
+          <lb ed="#P" n="43"/>vel male operari coeperunt. Si primum dicat,
+          <lb ed="#P" n="44"/>errat imprimis in fide, ponendo res creatas ex
+          <lb ed="#P" n="45"/>aeternitate. Id enim necessarium est, ut 
+          vicis<lb break="no" ed="#P" n="46"/>situdo illa in aliquo initio non sistat. Errat
+          <lb ed="#P" n="47"/>deinde in philosophia, et ratione naturali, quae
+          <lb ed="#P" n="48"/>ostendit, vicissitudinem, vel multitudinem 
+          re<lb break="no" ed="#P" n="49"/>rum vel mundorum sibi invicem succedentium
+          <lb ed="#P" n="50"/>non posse esse ex aeternitate, quin aliqua res,
+          <lb ed="#P" n="51"/>vel aliquis mundus ex illis, in particulari, 
+          cer<lb break="no" ed="#P" n="52"/>tus, et designabilis, fuerit ex aeternitate 
+          crea<lb break="no" ed="#P" n="53"/>tus, et consequenter duraverit per infinitam
+          <lb ed="#P" n="54"/>durationem, ac proinde ille fuerit primus 
+          mun<lb break="no" ed="#P" n="55"/>dus, et ceeteri post illum ereati, multitudine
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>finiti necessario sint. Igitur si Origenes 
+          al<lb break="no" ed="#P" n="57"/>teram partem eligat, et primum mundum 
+          ad<lb break="no" ed="#P" n="58"/>mittat, in quo animae esse, et operari 
+          coepe<lb break="no" ed="#P" n="59"/>runt : et ex illis operibus velit assumere 
+          ra<lb break="no" ed="#P" n="60"/>tionem praedestinationis, totam quaestiones de
+          <lb ed="#P" n="61"/>causa praedestinationis ad illum mundum, et
+          <lb ed="#P" n="62"/>ad opera in illo facta revocabimus. 
+          Interroga<lb break="no" ed="#P" n="63"/>bimusque, an illa opera bona sine gratia facta
+          <lb ed="#P" n="64"/>fuerint, vel cum illa. Si absque gratia, 
+          quo<lb break="no" ed="#P" n="65"/>modo poterunt esse causa praedestinationis ad
+          <lb ed="#P" n="66"/>gloriam ? si cum gratia, cur quaedam animae
+          <lb ed="#P" n="67"/>electae sunt ad illa opera facienda et gratiam
+          <lb ed="#P" n="68"/>efficacem ad illa receperunt, et non aliae. Jam
+          <lb ed="#P" n="69"/>enim non potest recurrere ad opera anterioris
+          <lb ed="#P" n="70"/>vitae, quia positum est nullam aliam 
+          praeces<lb break="no" ed="#P" n="71"/>sisse. Haec ergo positio Origenis, et erroribus
+          <lb ed="#P" n="72"/>scatet, et inutilis est ad expediendam 
+          quaestio<lb break="no" ed="#P" n="73"/>nem, quam tractamus.
+        </p>
+        <p xml:id="szduep-082858-d1e963">
+          <lb ed="#P" n="74"/>12. Vertitur Origenis fundamentum.—
+          Fun<lb break="no" ed="#P" n="75"/>damentum autem Origenis solum fuit, quia
+          <lb ed="#P" n="76"/>alias Deus in sua praedestinatione et 
+          distribu<lb break="no" ed="#P" n="77"/>tione bonorum suorum justitiam non servaret.
+          <lb ed="#P" n="78"/>De quo fundamento multa in sequentibus 
+          trac<lb break="no" ed="#P" n="79"/>tanda sunt. Nunc breviter dicitur, consequens
+          <lb ed="#P" n="80"/>illud , justitiam non servaret, duphiciter accipi
+          <lb ed="#P" n="81"/>posse, scilicet, vel contrarie, seu privative,
+          <lb ed="#P" n="82"/>vel contradictorie, seu negative tantum. Priori
+          <lb ed="#P" n="83"/>modo est sensus ; Deum acturum fuisse injuste,
+          <lb ed="#P" n="84"/>si absque praevia diversitate meritorum, hos
+          <lb ed="#P" n="85"/>praedestinaret , non illos, et sic negatur 
+          conse<lb break="no" ed="#P" n="86"/>quentia, quia cum res neutri debeatur, nulla
+          <lb ed="#P" n="87"/>committitur injustitia , licet uni detur et non
+          <lb ed="#P" n="88"/>alteri. Posteriori autem modo sensus erit, 
+          ac<lb break="no" ed="#P" n="89"/>tum illum sic praedestinandi non esse actum
+          <lb ed="#P" n="90"/>justitiae, et hoc non solum concedimus, sed id
+          <lb ed="#P" n="91"/>maxime in tota hac disputatione contendimus,
+          <lb ed="#P" n="92"/>et ad excellentiam gratiae pertinere censemus.
+          <lb ed="#P" n="93"/>Nec repugnat illud Psalm. 24: Umverse vie
+          <lb ed="#P" n="94"/>Domini misericordia et veritas, id est, justitia,
+          <lb ed="#P" n="95"/>tum quia licet de omnibus operibus Dei ad
+          <lb ed="#P" n="96"/>extra, in suo modo verum sit, non oportet, ut
+          <lb ed="#P" n="97"/>ad internos actus dilectionis, vel electionis, seu
+          <lb ed="#P" n="98"/>praedestinationis extendatur , tum etiam quia
+          <lb ed="#P" n="99"/>justitia illa, quae in omnibus Dei operibus 
+          in<lb break="no" ed="#P" n="100"/>venitur, non semper respicit debitum 
+          crea<lb break="no" ed="#P" n="101"/>turae, sed saepe dicitur , consideratione illius,
+          <lb ed="#P" n="102"/>quod Deus sibi, suaeque bonitati debet, vel ilh
+          <lb ed="#P" n="103"/>consentaneum est. Hoc autem modo etiam in
+          <lb ed="#P" n="104"/>praedestinatione invenitur justitia, quatenus
+          <lb ed="#P" n="105"/>bonitati et sapientiae Dei consentaneum est 
+          ali<lb break="no" ed="#P" n="106"/>quos praedestinare. Cum autem concessum est,
+          <lb ed="#P" n="107"/>praedestinationem non esse actum justitiae
+          <lb ed="#P" n="108"/>intelligitur respectu hominis praedestinati,
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

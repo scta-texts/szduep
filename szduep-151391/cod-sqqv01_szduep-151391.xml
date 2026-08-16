@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="599"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-151391"><!-- t3-l3c6 -->
+        <head xml:id="szduep-151391-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-151391-Hd1e103" type="question-title">Quomodo transcendentalia praedicata, res, aliquid, ens multiplicentur simpliciter in trinitate</head>
+        <p xml:id="szduep-151391-d1e106">
+          <pb ed="#P" n="599"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT VI.
+          <lb ed="#P" n="2"/>QUOMODO TRANSCENDENTALIA PRAEDICATA, RES,
+          <lb ed="#P" n="3"/>ALIQUID, ENS MULTIPLICENTUR SIMPLICITER IN
+          <lb ed="#P" n="4"/>TRINITATE.
+        </p>
+        <p xml:id="szduep-151391-d1e122">
+          <lb ed="#P" n="5"/>1. Varia Dei praeedicata eaponuntur. — Ut
+          <lb ed="#P" n="6"/>distinctio divinarum personarum exactius 
+          de<lb break="no" ed="#P" n="7"/>claretur, videndum consequenter est, quaenam
+          <lb ed="#P" n="8"/>alia praedicata et rationes eorum 
+          multipli<lb break="no" ed="#P" n="9"/>centur in divinis personis ob realem 
+          distinc<lb break="no" ed="#P" n="10"/>tionem earum. Ad quam rem explicandam
+          <lb ed="#P" n="11"/>observandum est, ex praedicatis quae de divinis
+          <lb ed="#P" n="12"/>personis dicuntur, quaedam sumi ex sola 
+          es<lb break="no" ed="#P" n="13"/>sentia et proprietatibus absolutis ejus, de 
+          qui<lb break="no" ed="#P" n="14"/>bus certum est, non multiplicari substantive,
+          <lb ed="#P" n="15"/>ut libro sequenti latius dicemus, quaedam vero
+          <lb ed="#P" n="16"/>sumi ex proprietate personali, vel notionali,
+          <lb ed="#P" n="17"/>ut esse genitorem, vel spiratorem, etc. Et de
+          <lb ed="#P" n="18"/>his nulla etiam est specialis controversia, nam
+          <lb ed="#P" n="19"/>si proprietas sit propria unius personae, clarum
+          <lb ed="#P" n="20"/>est, nomen ab illa sumptum multiphicari non
+          <lb ed="#P" n="21"/>posse, quia et forma, unde sumitur, una 
+          tan<lb break="no" ed="#P" n="22"/>tum est et persona habens talem formam 
+          e<lb break="no" ed="#P" n="23"/>tiam est unica, et ideo dixit Athanasius unaus
+          <lb ed="#P" n="24"/>pater, non tres Patres, etc. Si vero forma illa
+          <lb ed="#P" n="25"/>communis sit pluribus personis, ut est 
+          spira<lb break="no" ed="#P" n="26"/>tio activa, tunc eadem erit ratio de illa (
+          ser<lb break="no" ed="#P" n="27"/>vata proportione), quae est de attributis 
+          essen<lb break="no" ed="#P" n="28"/>tialibus respectu omnium personarum, ut 
+          la<lb break="no" ed="#P" n="29"/>tius dicemus libro decimo. Alia vero sunt
+          <lb ed="#P" n="30"/>praedicata communiora, magisque 
+          indifferen<lb break="no" ed="#P" n="31"/>tia, quae ab essentia et a proprietate personali
+          <lb ed="#P" n="32"/>sumi possunt, ut sunt maxime 
+          transcendenta<lb break="no" ed="#P" n="33"/>lia praedicata, et similia. De quibus certum
+          <lb ed="#P" n="34"/>quidem est, quatenus ab essentia sumuntur,
+          <lb ed="#P" n="35"/>non pluraliter, sed singulariter dici de tribus
+          <lb ed="#P" n="36"/>personis, quia in essentia unum sunt, ut libro
+          <lb ed="#P" n="37"/>sequenti videbimus. Atque ita docuit D. 
+          Tho<lb break="no" ed="#P" n="38"/>mas, de boc praedicato Res in 1 part., quaest.
+          <lb ed="#P" n="39"/>39, art. 3, ad 3, dicens, prout sumitur a 
+          sub<lb break="no" ed="#P" n="40"/>stantia, id est, ab essentia singulariter 
+          praedi<lb break="no" ed="#P" n="41"/>cari, sic enim Augustinus, lib. 1, de doctrina
+          <lb ed="#P" n="42"/>Christiana, cap. 5, dicit: Quod eadem Trinitas
+          <lb ed="#P" n="43"/>summa quaedum vres est. Difficultas vero est, an
+          <lb ed="#P" n="44"/>talia praedicata dicantur etiam pluraliter de
+          <lb ed="#P" n="45"/>tribus personis, quatenus a proprietatibus
+          <lb ed="#P" n="46"/>personalibus desumi possunt, quam in hoc
+          <lb ed="#P" n="47"/>Capite de tribus praedicatis transcendentibus
+          <lb ed="#P" n="48"/>propositis expediemus, quia faciliora sunt,
+          <lb ed="#P" n="49"/>postea de reliquis transcendentibus, et 
+          conse<lb break="no" ed="#P" n="50"/>quenter de aliis attributis dicemus.
+        </p>
+        <p xml:id="szduep-151391-d1e224">
+          <lb ed="#P" n="51"/>2. Personas esse tres.—Primum ergo 
+          trans<lb break="no" ed="#P" n="52"/>cendens est Res, de quo non invenio contro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>versiam , omnes enim fatentur , tres personas
+          <lb ed="#P" n="54"/>esse et dici posse tres res. Ita divus Thomas,
+          <lb ed="#P" n="55"/>1 part., quaest. 30, art. 1 et 3, et quaest. 39,
+          <lb ed="#P" n="56"/>art. 3, ad 3, et in 1, d. 25, art. 4, sic etiam
+          <lb ed="#P" n="57"/>dixit Augustinus 1, de doctrina Christiana,
+          <lb ed="#P" n="58"/>cap. 5: Tres personas divinas esse res quibus
+          <lb ed="#P" n="59"/>fruendum nobis est. Unde Anselmus, libro de
+          <lb ed="#P" n="60"/>Incarnatione Verbi, cap. 3: Iihil prohibet
+          <lb ed="#P" n="61"/>(inquit) duas personas Patrem et Filium dicere
+          <lb ed="#P" n="62"/>duas res, si tamen intelligatur, cujusmodi sint
+          <lb ed="#P" n="63"/>res. Quam limitationem seu conditionem 
+          ap<lb break="no" ed="#P" n="64"/>posuit contra eos, qui putabant esse tres res
+          <lb ed="#P" n="65"/>quoad naturam, et non tantum quoad 
+          proprie<lb break="no" ed="#P" n="66"/>tates. Quod autem distinctio proprietatum 
+          suf<lb break="no" ed="#P" n="67"/>ficiat, declarat dicens: Solemus enim dicere
+          <lb ed="#P" n="68"/>rem, quidguid aliquo modo dicimus esse aliquid,
+          <lb ed="#P" n="69"/>qui autem de Deo Patrem, Filium et Spiritum
+          <lb ed="#P" n="70"/>sanctum dicit aliquid dicit.
+        </p>
+        <p xml:id="szduep-151391-d1e273">
+          <lb ed="#P" n="71"/>3. Objectio.—kS atisfit. —Hincergo conficitur
+          <lb ed="#P" n="72"/>ratio, quia unaquae que persona est aliquares
+          <lb ed="#P" n="73"/>simpliciter et absolute, quia est aliqua 
+          substan<lb break="no" ed="#P" n="74"/>tia vera et realis, et omnis substantia est vera
+          <lb ed="#P" n="75"/>res absolute et simpliciter. Et illae res interse 
+          dis<lb break="no" ed="#P" n="76"/>unguuntur realiter, ut probatum est, ergo sunt
+          <lb ed="#P" n="77"/>tres res. Probo consequentiam, quia per hanc
+          <lb ed="#P" n="78"/>numerationem solum indicatur absoluta et 
+          rea<lb break="no" ed="#P" n="79"/>lis distinctio interillas res. Solum potest ohjici,
+          <lb ed="#P" n="80"/>quia hoc nomen Zoes, ut metaphysici dicunt,
+          <lb ed="#P" n="81"/>sumptum est a quidditate rei. Sed in tribus
+          <lb ed="#P" n="82"/>personis non multiplicatur quidditas , quia
+          <lb ed="#P" n="83"/>quidditas idem est quod essentia, essentia 
+          au<lb break="no" ed="#P" n="84"/>tem non multiplicatur, sed est una tantum:
+          <lb ed="#P" n="85"/>ergo nec nomen Aoes, potest pluraliter dici,
+          <lb ed="#P" n="86"/>juxta regulam positam, quia nomen Aes 
+          sub<lb break="no" ed="#P" n="87"/>stantivum est. Responderi potest primo, 
+          quid<lb break="no" ed="#P" n="88"/>quid sit de nominis etymologia , formaliter
+          <lb ed="#P" n="89"/>nomen illud non significare essentiam, sed
+          <lb ed="#P" n="90"/>realitatem , quaecumque illa sit. Haec autem
+          <lb ed="#P" n="91"/>multiplicatur in divinis personis, quia quaelibet
+          <lb ed="#P" n="92"/>relatio aliqua realitas est. Secundo respondet
+          <lb ed="#P" n="93"/>D. Thomas, in 1, ubi supra, quamvis in Deo
+          <lb ed="#P" n="94"/>non sit nisi una essentia esse tamen tres quasi
+          <lb ed="#P" n="95"/>formas, quae habent tres rationes formales
+          <lb ed="#P" n="96"/>quidditativas, nimirum tres relationes 
+          diffe<lb break="no" ed="#P" n="97"/>rentes in formali, et quasi specifica ratione 
+          re<lb break="no" ed="#P" n="98"/>lationis, et hoc satis esse, ut illud nomen 
+          mul<lb break="no" ed="#P" n="99"/>tiplicari possit, quia ex quacumque forma reali
+          <lb ed="#P" n="100"/>talis appellatio ei sufficienter sumitur.
+        </p>
+        <p xml:id="szduep-151391-d1e341">
+          <lb ed="#P" n="101"/>A. Personas essetria entia. —De altero 
+          trans<lb break="no" ed="#P" n="102"/>cendente, scilicet, Ens, scrupulosius loquitur
+          <lb ed="#P" n="103"/>divus Thomas in eadem dist. 25, art. 4. Non
+          <lb ed="#P" n="104"/>enim vult, ut concedamus tria entia, sicut tres
+          <lb ed="#P" n="105"/>res. Ratio ejus est, quia ens dictum est abesse:
+          <lb ed="#P" n="106"/>in Trinitate vero non est, nisi unum esse, sicut
+          <lb ed="#P" n="107"/>una essentia, ergo non possunt esse plura entia,
+          <pb ed="#P" n="600"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>juxta regulam positam, nam ens substantivum
+          <lb ed="#P" n="2"/>est. Nihilominus simpliciter verum censeo tres
+          <lb ed="#P" n="3"/>personas esse tria entia realia. Quod etiam
+          <lb ed="#P" n="4"/>notavit Torres, quaest. 23, art. 3, et sequuntur
+          <lb ed="#P" n="5"/>moderni communiter. Primo, quia D. Thomas,
+          <lb ed="#P" n="6"/>1 part., quaestione trigesima nona, articulo
+          <lb ed="#P" n="7"/>tertio, ad tertium, inde solum probat nomen
+          <lb ed="#P" n="8"/>Res dici pluraliter de tribus personis, quia
+          <lb ed="#P" n="9"/>transcendens est, haec autem ratio si est 
+          adae<lb break="no" ed="#P" n="10"/>quata, idem concludit de ente, quia est aeque
+          <lb ed="#P" n="11"/>transcendens: sunt enim illa duo praedicata
+          <lb ed="#P" n="12"/>convertibilia, et unum intrinsece includitur
+          <lb ed="#P" n="13"/>in conceptu alterius, et si aliquo modo ratione
+          <lb ed="#P" n="14"/>distingui possunt, unum per se primo dicitur
+          <lb ed="#P" n="15"/>de alio, quod satis est, ut non possit unum
+          <lb ed="#P" n="16"/>multiplicari, quin aeque multiplicetur aliud.
+          <lb ed="#P" n="17"/>Re tamen vera illae duae voces Ens et Res, 
+          li<lb break="no" ed="#P" n="18"/>cet fortasse habeant etymologias diversas, 
+          ta<lb break="no" ed="#P" n="19"/>men quoad rem significatam sunt synonymsae,
+          <lb ed="#P" n="20"/>et idem conceptus mentis illis correspondet, ut
+          <lb ed="#P" n="21"/>constat ex usu et communi modo concipiendi,
+          <lb ed="#P" n="22"/>de quo in Metaphysica, disputatione tertia,
+          <lb ed="#P" n="23"/>dictum est.
+        </p>
+        <p xml:id="szduep-151391-d1e413">
+          <lb ed="#P" n="24"/>5. Tandem confirmatur, simul respondendo
+          <lb ed="#P" n="25"/>ad rationem in contrarium, quia ens non 
+          sig<lb break="no" ed="#P" n="26"/>nificat de formali ipsum esse, sed entitatem
+          <lb ed="#P" n="27"/>quamcumque. In divinis autem personis 
+          mul<lb break="no" ed="#P" n="28"/>tiplicantur entitates, et unaquaeque relatio est
+          <lb ed="#P" n="29"/>quaedam entitas realiter distincta ab altera.
+          <lb ed="#P" n="30"/>Addo, quamvis esse simpliciter non 
+          multiplice<lb break="no" ed="#P" n="31"/>tur in divinis personis, quia significat esse 
+          ab<lb break="no" ed="#P" n="32"/>solutum, existentias tamen relativas 
+          multipli<lb break="no" ed="#P" n="33"/>cari, ut dictum est.
+        </p>
+        <p xml:id="szduep-151391-d1e437">
+          <lb ed="#P" n="34"/>6. Dices, hinc saltem sequi divinas personas
+          <lb ed="#P" n="35"/>non esse dicendam simpliciter tria entia, sed
+          <lb ed="#P" n="36"/>solum cum addito, tria entia relativa, quia
+          <lb ed="#P" n="37"/>supra et latius in 1 tom., 3 part., dictum est,
+          <lb ed="#P" n="38"/>non esse simpliciter proferendum; in divinis
+          <lb ed="#P" n="39"/>personis esse tria esse, sed cum declaratione
+          <lb ed="#P" n="40"/>tria esse relativa. Respondetur primo, cum hoc
+          <lb ed="#P" n="41"/>ad modum tantum loquendi pertineat, 
+          opti<lb break="no" ed="#P" n="42"/>mam cautionem esse addere semper illam 
+          de<lb break="no" ed="#P" n="43"/>terminationem, nam et D. Thomas, 1 part.,
+          <lb ed="#P" n="44"/>quaest. 39, art. 3, ad 3, dixit: hoc nomen Res
+          <lb ed="#P" n="45"/>secundum quod pertinet ad relationem pluraliter
+          <lb ed="#P" n="46"/>pradicari de divinis personis. Secundo dicitur
+          <lb ed="#P" n="47"/>has locutiones, ut simpliciter, vel solum cum
+          <lb ed="#P" n="48"/>addito fiant, multum pendere ex communi
+          <lb ed="#P" n="49"/>usu et modo concipiendi, hic autem habet,
+          <lb ed="#P" n="50"/>ut esse simpliciter dictum sumatur pro esse
+          <lb ed="#P" n="51"/>substantiali, et in Deo pro esse essentiali: ens
+          <lb ed="#P" n="52"/>vero non ita, sed dici consuevit de qualibet
+          <lb ed="#P" n="53"/>re, et maxime de persona et supposito 
+          quo<lb break="no" ed="#P" n="54"/>cumque: et ideo non est eadem ratio de 
+          utra<lb break="no" ed="#P" n="55"/>que voce, unde entitas magis transcendens
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>esse videtur, quam esse simpliciter dictum,
+          <lb ed="#P" n="57"/>quia entitas non solum de substantiali et 
+          es<lb break="no" ed="#P" n="58"/>sentiali entitate, sed absolute de quacumque
+          <lb ed="#P" n="59"/>realitate dicitur, et ideo etiam ex hoc capite
+          <lb ed="#P" n="60"/>facilius dicuntur tria entia, quam tria esse in
+          <lb ed="#P" n="61"/>modo loquendi, licet in re proportio servetur.
+        </p>
+        <p xml:id="szduep-151391-d1e502">
+          <lb ed="#P" n="62"/>7. De tertio transcendente, nimirum, 
+          Ali<lb break="no" ed="#P" n="63"/>quid, nihil dicere, necesse est, quia neque in
+          <lb ed="#P" n="64"/>re, neque in conceptu ultimo significat aliquid
+          <lb ed="#P" n="65"/>distinctum a praecedentibus. Unde Anselmus
+          <lb ed="#P" n="66"/>supra inde probat personas esse res, quia sunt
+          <lb ed="#P" n="67"/>aliquid, sicut ergo sunt tres res, ita tria 
+          ah<lb break="no" ed="#P" n="68"/>quid. Quomodo etiam Richardus de sancto
+          <lb ed="#P" n="69"/>Vict., lib. 4, de Trinitate, cap. S, tres personas
+          <lb ed="#P" n="70"/>vocavit tres aliquos, et Patrem dixit esse, 
+          ali<lb break="no" ed="#P" n="71"/>quem alium a Filio. Verumtamen est, quod
+          <lb ed="#P" n="72"/>attinet ad significandi modum, distributionem
+          <lb ed="#P" n="73"/>vel numerationem non tam proprie conjungi
+          <lb ed="#P" n="74"/>cum his terminis aliquid, vel aliquis, quia 
+          in<lb break="no" ed="#P" n="75"/>cludunt signum particulare, cui non proprie
+          <lb ed="#P" n="76"/>additur distributio, ut supra dictum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

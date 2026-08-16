@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="206"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-052582"><!-- t1-l3c4 -->
+        <head xml:id="szduep-052582-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-052582-Hd1e103" type="question-title">An scientia dei practica sit et causa rerum; ubi de variis nominibus divinae scientiae</head>
+        <p xml:id="szduep-052582-d1e106">
+          <lb ed="#P" n="68"/>CAPUT IV.
+          <lb ed="#P" n="69"/>AN SCIENTIA DEI PRACTICA SIT ET CAUSA RERUM;
+          <lb ed="#P" n="70"/>UBI DE VARIIS NOMINIBUS DIVINAE SCIENTIAE.
+        </p>
+        <p xml:id="szduep-052582-d1e115">
+          <lb ed="#P" n="71"/>1. Varie divisiones divinae scientiae. — 
+          Hac<lb break="no" ed="#P" n="72"/>tenus consideravimus divinam scientiam 
+          so<lb break="no" ed="#P" n="73"/>Ium, ut speculativa est, nunc oportet breviter
+          <lb ed="#P" n="74"/>de illa dicere quatenus causa rerum et 
+          opera<lb break="no" ed="#P" n="75"/>tiva est. Consequenter vero necessarium est,
+          <lb ed="#P" n="76"/>exponere, quomodo divina scientia dividatur
+          <lb ed="#P" n="77"/>in practicam et speculativam, ubi oportebit
+          <lb ed="#P" n="78"/>etiam de aliis divisionibus ejus dicere. 
+          Quam<lb break="no" ed="#P" n="79"/>vis enim divina scientia una et simplicissima
+          <lb ed="#P" n="80"/>sit in se, tamen ob multitudinem rerum quae
+          <lb ed="#P" n="81"/>sub illam cadunt et varia munia, quae in illa
+          <lb ed="#P" n="82"/>considerari possunt, distinguitur a nobis variis
+          <lb ed="#P" n="83"/>modis, secundum conceptus nostros 
+          inadaequa<lb break="no" ed="#P" n="84"/>tos, ut illam modo nostro considerare 
+          possi<lb break="no" ed="#P" n="85"/>mus. Atque has divisiones illius scientiae 
+          suffi<lb break="no" ed="#P" n="86"/>cienter tractavi in dicta disp. 30 Metaphysieae,
+          <lb ed="#P" n="87"/>sect. 15. Et ideo solum hic illas insimuabo,
+          <lb ed="#P" n="88"/>quantum necesse est ad explicandum punctum
+          <lb ed="#P" n="89"/>propositum, quod ibi omissum est, quia magis
+          <lb ed="#P" n="90"/>erat theologicum.
+        </p>
+        <p xml:id="szduep-052582-d1e161">
+          <lb ed="#P" n="91"/>2. Prima divisio. — Ex parte igitur rerum
+          <lb ed="#P" n="92"/>cognitarum, potest dividi primo divina 
+          scien<lb break="no" ed="#P" n="93"/>tia in scientiam Dei et creaturum. quae divisio
+          <lb ed="#P" n="94"/>ex dictis in praecedentibus capitibus satis 
+          con<lb break="no" ed="#P" n="95"/>tat : dividitur subinde in scientiam simplieis
+          <lb ed="#P" n="96"/>intelligentiae et visionis.
+        </p>
+        <p xml:id="szduep-052582-d1e178">
+          <lb ed="#P" n="97"/>Secunda divisio. — Quae alias dici possunt
+          <lb ed="#P" n="98"/>abstractiva et intuitiva. In qua divisione non
+          <lb ed="#P" n="99"/>subdividuntur proprie membra prioris 
+          divisio<lb break="no" ed="#P" n="100"/>nis. Nam scientia visionis esse potest de Deo
+          <lb ed="#P" n="101"/>ipso et de creaturis. Nam scientia visionis 
+          dici<lb break="no" ed="#P" n="102"/>tur illa per quam videntur res existentes, vel
+          <lb ed="#P" n="103"/>futurae in qualibet duratione reali secundum
+          <lb ed="#P" n="104"/>actualem existentiam exercitam cum omnibus
+          <lb ed="#P" n="105"/>conditionibus existentiae, ut aiunt, et hoc modo
+          <lb ed="#P" n="106"/>videt Deus seipsum et divinas personas, atque
+          <lb ed="#P" n="107"/>omnia etiam creata, quae aliquando futura sunt.
+          <pb ed="#P" n="207"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Diverso tamen modo in hoc, quod respectu Dei
+          <lb ed="#P" n="2"/>illa scientia est omnino necessaria, nec 
+          po<lb break="no" ed="#P" n="3"/>test esse nisi intuitiva, ut infra libro nono, de
+          <lb ed="#P" n="4"/>Trinitate magis declarabitur. Respectu vero
+          <lb ed="#P" n="5"/>creaturarum scientia visionis, ut visionis et 
+          in<lb break="no" ed="#P" n="6"/>tuitiva est, non est absolute necessaria, sed 
+          so<lb break="no" ed="#P" n="7"/>Ium ex suppositione objecti futuri, ut capite
+          <lb ed="#P" n="8"/>praecedenti tactum est, et latius in libris de
+          <lb ed="#P" n="9"/>scientia Dei futurorum contingentium. At 
+          ve<lb break="no" ed="#P" n="10"/>roscientia simplicis intelligentiae, quae 
+          abstrac<lb break="no" ed="#P" n="11"/>tiva est, quia abstrahit ab actuali existentia
+          <lb ed="#P" n="12"/>objecti sui, solum habet locum circa creaturas,
+          <lb ed="#P" n="13"/>quia omnes et solae creaturae non includunt 
+          es<lb break="no" ed="#P" n="14"/>sentialiter ipsum esse existentiae actualis, et
+          <lb ed="#P" n="15"/>ideo possunt quidditative cognosci secundum
+          <lb ed="#P" n="16"/>suas essentias et ut possibiles sunt, etiamsi non
+          <lb ed="#P" n="17"/>videantur existentes. Et haec vocatur cognitio
+          <lb ed="#P" n="18"/>per simplicem intelligentiam et abstractiva,
+          <lb ed="#P" n="19"/>quia non terminatur ad res, ut actualiter 
+          exis<lb break="no" ed="#P" n="20"/>tentes. Est autem scientia, ut terminatur ad
+          <lb ed="#P" n="21"/>res possibiles simpliciter necessaria, quia 
+          pos<lb break="no" ed="#P" n="22"/>sibilitas creaturarum necessaria est, ut in 
+          dic<lb break="no" ed="#P" n="23"/>to libro nono de Trinitate latius dicturi 
+          su<lb break="no" ed="#P" n="24"/>mus. Insinuabat autem de hoc loco queestio,
+          <lb ed="#P" n="25"/>ad quod ex his membris revocatur scientia
+          <lb ed="#P" n="26"/>conditionalium contingentium, sed de hac re
+          <lb ed="#P" n="27"/>in libro secundo de illa scientia satis dictum
+          <lb ed="#P" n="28"/>est.
+        </p>
+        <p xml:id="szduep-052582-d1e269">
+          <lb ed="#P" n="29"/>3. Alia divisio. — Hinc ulterius dividi 
+          po<lb break="no" ed="#P" n="30"/>test scientia in practicam et speculativam, nam
+          <lb ed="#P" n="31"/>divina scientia utramque rationem 
+          eminen<lb break="no" ed="#P" n="32"/>tissime complectitur, propter quod non solum
+          <lb ed="#P" n="33"/>sapientia et scientia, sed etiam prudentia et
+          <lb ed="#P" n="34"/>ars perfectissime vocatur. Sumitur autem haec
+          <lb ed="#P" n="35"/>distinctio etiam ex objectis. Nam scientia 
+          spe<lb break="no" ed="#P" n="36"/>culativa dicitur quae sistit in cognitione 
+          verita<lb break="no" ed="#P" n="37"/>tis, etiamsi non sit de re, quam sciens possit
+          <lb ed="#P" n="38"/>operari, scientia vero practica et est de re 
+          ope<lb break="no" ed="#P" n="39"/>rabili, et est principium operandi res cognitas,
+          <lb ed="#P" n="40"/>quantum est ex se. Deus autem et 
+          contempla<lb break="no" ed="#P" n="41"/>tur scientia sua omnem veritatem, et per 
+          eam<lb break="no" ed="#P" n="42"/>dem cognoscit omnia, quae operari potest, 
+          ha<lb break="no" ed="#P" n="43"/>bet ergo scientiam speculativam et practicam.
+        </p>
+        <p xml:id="szduep-052582-d1e304">
+          <lb ed="#P" n="44"/>4. Dubium. — Ex qua doctrina videbatur
+          <lb ed="#P" n="45"/>per se manifestum, scientiam Dei non posse
+          <lb ed="#P" n="46"/>habere rationem practicae scientiae, ut de Deo
+          <lb ed="#P" n="47"/>ipso est, quia ut sic, non est de re operabili a
+          <lb ed="#P" n="48"/>sciente. Nihilominus tamen hoc videtur in 
+          du<lb break="no" ed="#P" n="49"/>bium revocasse Scotus in 4 q. Prologi ad 4.
+          <lb ed="#P" n="50"/>Quia licet Deus non sit operabilis a se, est 
+          ama<lb break="no" ed="#P" n="51"/>bilis a se, et hoc videtur esse satis ad scientiam
+          <lb ed="#P" n="52"/>practicam, non quae sit per modum artis, sed
+          <lb ed="#P" n="53"/>quae sit saltem per modum prudentiae. Nam
+          <lb ed="#P" n="54"/>dictamen hoc, amandus est Deus practicum et
+          <lb ed="#P" n="55"/>prudentiale est, et hoc habet Deus circa se ip-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sum. Sicut visio beatifica dici potest practica
+          <lb ed="#P" n="57"/>cognitio, quatenus dictat Deum esse ámandum.
+        </p>
+        <p xml:id="szduep-052582-d1e339">
+          <lb ed="#P" n="58"/>5. Sed nihilominus dicendum est, scientiam
+          <lb ed="#P" n="59"/>Dei, prout versatur circa ea, quae sunt intra
+          <lb ed="#P" n="60"/>Deum, nullo modo esse practicam, ut docet D.
+          <lb ed="#P" n="61"/>Thomas, d. q. 14, art. 16, actandem fatetur 
+          Sco<lb break="no" ed="#P" n="62"/>tus in eadem q., S $i objiciatur. Ratio ejus est,
+          <lb ed="#P" n="63"/>quia in Deo intellectus non est regula 
+          volunta<lb break="no" ed="#P" n="64"/>tis. Alii reddunt rationem, quia licet scientia,
+          <lb ed="#P" n="65"/>quam Deus de se habet amorem excitet, ille
+          <lb ed="#P" n="66"/>amor non est operatio. Quantum hae rationes
+          <lb ed="#P" n="67"/>valeant, ex dicendis constabit. Ego igitur 
+          cen<lb break="no" ed="#P" n="68"/>seo, propriam rationem esse, quia ille amor
+          <lb ed="#P" n="69"/>non est liber, sed omnino naturalis, praxis 
+          au<lb break="no" ed="#P" n="70"/>tem proprie non est nisi ubi est dominium 
+          ac<lb break="no" ed="#P" n="71"/>tionis, ut constat ex usu omnium, et ex his quae
+          <lb ed="#P" n="72"/>de practico et speculativo disseruimus, disp. 44
+          <lb ed="#P" n="73"/>Metaphysicae, sect. 13, a n. 19. Confirmatur,
+          <lb ed="#P" n="74"/>quia amor, quo Deus se diligit, non est a 
+          pru<lb break="no" ed="#P" n="75"/>dentia, quia naturalis est, nec ab arte ob 
+          eam<lb break="no" ed="#P" n="76"/>dem rationem, et quia non est proprie opus,
+          <lb ed="#P" n="77"/>ergo. Tandem quis dicat productionem Spiritus
+          <lb ed="#P" n="78"/>sancti esse ex dictamine practico intellectus
+          <lb ed="#P" n="79"/>Divini ? Igitur licet ille amor sequatur nostro
+          <lb ed="#P" n="80"/>modo intelligendi ex cognitione, tanquam ex
+          <lb ed="#P" n="81"/>conditione proponente objectum, hoc non 
+          sa<lb break="no" ed="#P" n="82"/>tis est, ut illa cognitio practica dicatur. Nam
+          <lb ed="#P" n="83"/>ex speculatione, vel visione rei pulchrae sequi
+          <lb ed="#P" n="84"/>potest delectatio, vel amor, et non propterea
+          <lb ed="#P" n="85"/>est praxis, quia illa affectio voluntatis sequitur
+          <lb ed="#P" n="86"/>ex vi objecti, et consideratio intellectus non
+          <lb ed="#P" n="87"/>inducit modo practico, ut consulendo, 
+          praeci<lb break="no" ed="#P" n="88"/>piendo, vel alio simili, sed est conditio 
+          requi<lb break="no" ed="#P" n="89"/>sita propter naturalem subordinationem talium
+          <lb ed="#P" n="90"/>potentiarum.
+        </p>
+        <p xml:id="szduep-052582-d1e413">
+          <lb ed="#P" n="91"/>6. Corollarium. — Secundo videtur ex 
+          dic<lb break="no" ed="#P" n="92"/>tis inferri satis evidenter, Divinam scientiam,
+          <lb ed="#P" n="93"/>prout versatur circa creaturas esse practicam.
+          <lb ed="#P" n="94"/>Tum quia voluntas divina circa creaturas 
+          li<lb break="no" ed="#P" n="95"/>bere versatur, unde potest per rationem 
+          prac<lb break="no" ed="#P" n="96"/>ticam suo modo dirigi. Tum etiam, quia potest
+          <lb ed="#P" n="97"/>Deus creaturas producere et scit, quomodo a
+          <lb ed="#P" n="98"/>se fieri possunt, ergo cum ab ipso fiant, per 
+          il<lb break="no" ed="#P" n="99"/>lam scientiam effectio earum dirigitur, ergo
+          <lb ed="#P" n="100"/>scientia illa practica est, nam haec sunt munia
+          <lb ed="#P" n="101"/>scientiae practicae. Nihilomiuus Scotus, dicta
+          <lb ed="#P" n="102"/>q. 4 Prologi, S Tertius articulus et in 1, d. 38,
+          <lb ed="#P" n="103"/>q. 1, negat illam scientiam esse practicam:
+          <lb ed="#P" n="104"/>supponit enim habitum practicum proxime
+          <lb ed="#P" n="105"/>versari circa voluntatem, putat autem 
+          scien<lb break="no" ed="#P" n="106"/>tiam Dei non posse practice versari circa 
+          vo<lb break="no" ed="#P" n="107"/>luntatem, etiam quoad liberos effectus. Tum
+          <lb ed="#P" n="108"/>quia intellectus in Deo non est regula 
+          volunta<lb break="no" ed="#P" n="109"/>tis, sed ipsa sibi regula est. Tum etiam, quia
+          <lb ed="#P" n="110"/>ante determinationem liberam voluntatis di-
+          <pb ed="#P" n="208"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vinae, non praecedit dictamen in intellectu, hoc
+          <lb ed="#P" n="2"/>esse faciendum vel amandum.
+        </p>
+        <p xml:id="szduep-052582-d1e468">
+          <lb ed="#P" n="3"/>7. Divina scientia duplici modo est practica.
+          <lb ed="#P" n="4"/>—Sed negari profecto non potest, quin divina
+          <lb ed="#P" n="5"/>cognitio duplici ratione practica sit, uno modo
+          <lb ed="#P" n="6"/>per modum prudentiae, alio modo per modum
+          <lb ed="#P" n="7"/>artis. Per modum prudentiae respectu 
+          ipsius<lb break="no" ed="#P" n="8"/>met voluntatis divinae quoad actus liberos, ut
+          <lb ed="#P" n="9"/>^sic, seu quoad determinationes eorum. Qui
+          <lb ed="#P" n="10"/>enim negari potest actus illos esse 
+          prudentis<lb break="no" ed="#P" n="11"/>simos, et ut tales fuisse a Deo praecognitos et
+          <lb ed="#P" n="12"/>praejudicatos, prius ratione, quam sint, 
+          secun<lb break="no" ed="#P" n="13"/>dum liberam determinationem. Nam quod illi
+          <lb ed="#P" n="14"/>actus sint honestissimi et conformes divinae 
+          bo<lb break="no" ed="#P" n="15"/>nitati manifestum est. Quod vero 
+          praejudicen<lb break="no" ed="#P" n="16"/>tur, ut tales prius ratione, quam 
+          determinen<lb break="no" ed="#P" n="17"/>tur, etiam videtur clarum, quia scientia illa
+          <lb ed="#P" n="18"/>naturalis est et naturalia sunt priora liberis.
+          <lb ed="#P" n="19"/>Ergo ante liberam determinationem antecedit
+          <lb ed="#P" n="20"/>in scientia Dei hoc judicium, celle hoc vel illud
+          <lb ed="#P" n="21"/>rectum erit secundum prudentiam, 
+          liberalita<lb break="no" ed="#P" n="22"/>tem, vel justitiam, ergo tale judicium recte 
+          di<lb break="no" ed="#P" n="23"/>citur practicum et prudentiale, ita loquitur
+          <lb ed="#P" n="24"/>Scriptura, Proverb. 3: Dominus sapientia 
+          fun<lb break="no" ed="#P" n="25"/>davit terram, stabilivit celos prudentia ; Jer.
+          <lb ed="#P" n="26"/>10 et 15: Qui fecit terram in fortitudine sua,
+          <lb ed="#P" n="27"/>praeeparat orbem in sapientia sua, et prudentia
+          <lb ed="#P" n="28"/>sua extendit colos.
+        </p>
+        <p xml:id="szduep-052582-d1e528">
+          <lb ed="#P" n="29"/>8. Quapropter quod Scotus sumit, ante li
+          <lb ed="#P" n="30"/>beram determinationem voluntatis non 
+          ante<lb break="no" ed="#P" n="31"/>cedere hoc judicium ordine rationis, falsum
+          <lb ed="#P" n="32"/>est. Quia etiam de divina voluntate verum est,
+          <lb ed="#P" n="33"/>non posse ferri in incognitum, ideo enim 
+          pro<lb break="no" ed="#P" n="34"/>cessio Spiritus sancti posterior origine est 
+          pro<lb break="no" ed="#P" n="35"/>cessione filii. Supponitur ergo cognitio ad 
+          h<lb break="no" ed="#P" n="36"/>beram Deideterminationem, illa autem est 
+          cog<lb break="no" ed="#P" n="37"/>nitio perfecta de objecto et lactu, et omnibus
+          <lb ed="#P" n="38"/>circumstantiis ejus, ergo est judicium de tota
+          <lb ed="#P" n="39"/>convenientia ejus. Quod vero Cajetanus, 1 p.,
+          <lb ed="#P" n="40"/>quaest. 14, art. 16, significat , illud divinum
+          <lb ed="#P" n="41"/>judicium nox esse practicum, prout antecedit
+          <lb ed="#P" n="42"/>divinam voluntatem, sed prout per illam 
+          de<lb break="no" ed="#P" n="43"/>terminatur ad opus, simpliciter non videtur
+          <lb ed="#P" n="44"/>verum ; quia opus consilii et prudentiae 
+          prac<lb break="no" ed="#P" n="45"/>ticum est, etiam prout antecedit electionem.
+          <lb ed="#P" n="46"/>Neque hinc sequitur per tale judicium 
+          deter<lb break="no" ed="#P" n="47"/>minari divinam voluntatem ad unum et sic
+          <lb ed="#P" n="48"/>tolli divinam libertatem, cum judicium illud
+          <lb ed="#P" n="49"/>naturale sit. Nulla enim est illatio, quia per
+          <lb ed="#P" n="50"/>judicium illud non proponitur bonum 
+          crea<lb break="no" ed="#P" n="51"/>tum vel creabile, ut necessarium simpliciter ,
+          <lb ed="#P" n="52"/>nceque ut continens omnem rationem boni, et
+          <lb ed="#P" n="53"/>ideo non infert necessitatem voluntati Divinae,
+          <lb ed="#P" n="54"/>ut ad illud amandum determinatur, et ideo 
+          di<lb break="no" ed="#P" n="55"/>citur omnia operari secundum consilium volun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tlatis sue, ut in relectione super haec verba
+          <lb ed="#P" n="57"/>late tractavi. Neque de ratione judicii practici
+          <lb ed="#P" n="58"/>est, ut ita determinet voluntatem, sed solum
+          <lb ed="#P" n="59"/>ut ex seaptum sit, et quod ex modo suo ad hoc
+          <lb ed="#P" n="60"/>tendat.
+        </p>
+        <p xml:id="szduep-052582-d1e602">
+          <lb ed="#P" n="61"/>9. At vero per modum artis est 
+          Divinascien<lb break="no" ed="#P" n="62"/>tia practica, in ordine ad operationem ad 
+          ex<lb break="no" ed="#P" n="63"/>tra, quia cognoscit non solum quasi 
+          speculan<lb break="no" ed="#P" n="64"/>do et contemplando quidditatem et 
+          proprieta<lb break="no" ed="#P" n="65"/>tes earum, sed etiam cognoscendo modum quo
+          <lb ed="#P" n="66"/>fieri debent, quod est proprium illius scientiae
+          <lb ed="#P" n="67"/>practicae, quam factivam vocant, et est propria
+          <lb ed="#P" n="68"/>et propriissima ars. Et ita etiam de divina 
+          sa<lb break="no" ed="#P" n="69"/>pientia dicitur in Scriptura, quod est Omnium
+          <lb ed="#P" n="70"/>artifer, Sap. 1 et 8: Quis illorum quee sunt,
+          <lb ed="#P" n="71"/>magis quam illa est artifez ? Unde ubicumque
+          <lb ed="#P" n="72"/>in Scriptura docetur, Deum per sapientiam
+          <lb ed="#P" n="73"/>suam omnia fecisse, Psalm. 103: Omnia in 
+          sa<lb break="no" ed="#P" n="74"/>pientia fecisti, et similibus, ostenditur divinam
+          <lb ed="#P" n="75"/>sapientiam sub ea ratione et practicam 
+          scien<lb break="no" ed="#P" n="76"/>tiam et artem esse. Per omnes enim has voces
+          <lb ed="#P" n="77"/>significatur aliqua ratio formalis, quae 
+          perfec<lb break="no" ed="#P" n="78"/>tionem dicit sine imperfectione in genere 
+          cog<lb break="no" ed="#P" n="79"/>nitionis, seu scientiae, et ideo optima ratione
+          <lb ed="#P" n="80"/>Deo, ac Divinae scientiae tribuuntur.
+        </p>
+        <p xml:id="szduep-052582-d1e648">
+          <lb ed="#P" n="81"/>10. Dubium. — Prima opinio. — Sed quaeri
+          <lb ed="#P" n="82"/>hic potest, an haec divina scientia sit practica
+          <lb ed="#P" n="83"/>prout est scientia simplicis intelligentiae , vel
+          <lb ed="#P" n="84"/>prout est scientia visionis. Quidam enim 
+          sen<lb break="no" ed="#P" n="85"/>tiunt hoc posteriori modo esse scientiam 
+          prac<lb break="no" ed="#P" n="86"/>ticam, quia ita insinuat D. Thomas, dicta q. 14,
+          <lb ed="#P" n="87"/>art. 16. Nam scientia practica est, quae 
+          ordi<lb break="no" ed="#P" n="88"/>natur ad opus, scientia autem simplicis 
+          intel<lb break="no" ed="#P" n="89"/>ligentiae, ut sic non ordinatur ad opus, sed
+          <lb ed="#P" n="90"/>scientia visionis: ergo.
+        </p>
+        <p xml:id="szduep-052582-d1e672">
+          <lb ed="#P" n="91"/>Secunda opinio. — Rejiciuntur hee duee 
+          opi<lb break="no" ed="#P" n="92"/>niones.—Ahi volunt, scientiam practicam 
+          nul<lb break="no" ed="#P" n="93"/>lam esse ex illis, sed esse peculiarem 
+          scien<lb break="no" ed="#P" n="94"/>tiam, quae dicitur approbationis. Alii denique
+          <lb ed="#P" n="95"/>dicunt, nullam- ex his esse, quia non est per
+          <lb ed="#P" n="96"/>modum cognitionis, sed imperi. Sed hae 
+          om<lb break="no" ed="#P" n="97"/>nes opiniones falsae sunt. Et incipiendo ab 
+          ul<lb break="no" ed="#P" n="98"/>tima, infra libro primo, de Praedestinatione 
+          os<lb break="no" ed="#P" n="99"/>tendam, non esse in Deo tale imperium 
+          distinc<lb break="no" ed="#P" n="100"/>tum a judicio de agendis. Et in penultimo 
+          ca<lb break="no" ed="#P" n="101"/>pite hujus libri dicam , Deum non operari
+          <lb ed="#P" n="102"/>immediate res ad extra per aliquem actum
+          <lb ed="#P" n="103"/>intellectus , sed per voluntatem et potentiam
+          <lb ed="#P" n="104"/>exequentem. Deniquein Divina scientia nullus
+          <lb ed="#P" n="105"/>actus cogitari potest nisi per modum 
+          cognitio<lb break="no" ed="#P" n="106"/>nis et quidquid aliud fingitur, sine fundamento
+          <lb ed="#P" n="107"/>est, et explicari non potest.
+        </p>
+        <p xml:id="szduep-052582-d1e711">
+          <lb ed="#P" n="108"/>11. Unde etiam scientia approbationis vera
+          <lb ed="#P" n="109"/>cognitio est, et ad scientiam visionisapplicari
+          <lb ed="#P" n="110"/>solet, licet secundum quemdam modum possit
+          <pb ed="#P" n="209"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>attribui scientiae simplicis intelligentise : 
+          qua<lb break="no" ed="#P" n="2"/>tenus includit haec scientia approbationis 
+          ac<lb break="no" ed="#P" n="3"/>tum aliquem voluntatis, vel ordinem ad illum.
+          <lb ed="#P" n="4"/>Declaratur, nam imprimis includit haec 
+          scien<lb break="no" ed="#P" n="5"/>tia, quod sit cognitio, alias scientia non est:
+          <lb ed="#P" n="6"/>addit vero, quod sit de re, quae Deo placet.
+          <lb ed="#P" n="7"/>Unde proprie censetur explicari per illa verba
+          <lb ed="#P" n="8"/>Gen. 1: lidit Deus cuncta, quae fecerat, et erant
+          <lb ed="#P" n="9"/>valde bona. Quam scientiam fuisse visionis 
+          con<lb break="no" ed="#P" n="10"/>stat, est ergo scientia approbationis, quaedam
+          <lb ed="#P" n="11"/>scientia visionis, qua Deus novit ea, quae sibi
+          <lb ed="#P" n="12"/>placent, seu in quibus ipse complacet, ut 
+          lo<lb break="no" ed="#P" n="13"/>quitur Paulus ad Rom. 11, cum ait: JVon 
+          re<lb break="no" ed="#P" n="14"/>pulit Deus plebem suam, quam preescivit, ut
+          <lb ed="#P" n="15"/>seepe exponit Augustinus. Propter quod dixit
+          <lb ed="#P" n="16"/>Hieronymus in id Abac. 1: Mundi sunt oculi
+          <lb ed="#P" n="17"/>tui, ne videant malun. lIdeo dici Deum 
+          ignora<lb break="no" ed="#P" n="18"/>re malum, quia non libenter videt illud, ergoe
+          <lb ed="#P" n="19"/>converso quae videt libenter et complacendo in
+          <lb ed="#P" n="20"/>eis cognoscere, scientia approbationis dicitur.
+          <lb ed="#P" n="21"/>Unde quia Deus non dicitur proprie 
+          complace<lb break="no" ed="#P" n="22"/>re, nisi in his, quae facere ipse decrevit, ideo
+          <lb ed="#P" n="23"/>haec scientia approbationis scientia visionis est.
+          <lb ed="#P" n="24"/>Si tamen consideremus, etiam Deum scire 
+          mul<lb break="no" ed="#P" n="25"/>ta apta, ut ab ipso approbarentur si fierent,
+          <lb ed="#P" n="26"/>vel quae approbari ab ipso possent, siea vellet,
+          <lb ed="#P" n="27"/>seu, quae per simplicem affectum approbat, 
+          li<lb break="no" ed="#P" n="28"/>cet ea facere non decernat. Ideo sub his 
+          consi<lb break="no" ed="#P" n="29"/>derationibus etiam in scientia simplicis 
+          intel<lb break="no" ed="#P" n="30"/>ligentiae intelligi potest scientia approbationis.
+          <lb ed="#P" n="31"/>Unde, eo modo quo scientia practica potest
+          <lb ed="#P" n="32"/>esse in scientia simplicis intelligentiae, aut 
+          vi<lb break="no" ed="#P" n="33"/>sionis, potest etiam esse scientia approbationis
+          <lb ed="#P" n="34"/>practica et speculativa.
+        </p>
+        <p xml:id="szduep-052582-d1e798">
+          <lb ed="#P" n="35"/>12. Scientia simplicis intelligentiae sub una
+          <lb ed="#P" n="36"/>ratione est speculativa, sub alia practica. —
+          <lb ed="#P" n="37"/>Addo igitur ulterius, scientiam, simplicis 
+          in<lb break="no" ed="#P" n="38"/>telligentiae creaturarum, licet sub una ratione
+          <lb ed="#P" n="39"/>speculativa sit, sub alia optimedici practicam.
+          <lb ed="#P" n="40"/>Patet primum, quia habet totam illam 
+          specu<lb break="no" ed="#P" n="41"/>lationem naturarum creabilium, quae in 
+          scien<lb break="no" ed="#P" n="42"/>tia maxime speculativa spectari potest. Unde
+          <lb ed="#P" n="43"/>ex se, et ex ratione sua, speculativa est. 
+          Se<lb break="no" ed="#P" n="44"/>cundum etiam probatur, quia est scientia de
+          <lb ed="#P" n="45"/>re operabili ab ipso sciente, et modo operabili
+          <lb ed="#P" n="46"/>ab eodem, quia novit Deus per illam scientiam
+          <lb ed="#P" n="47"/>quomodo erat creandus mundus, et quomodo
+          <lb ed="#P" n="48"/>esset recte gubernandus, quae scientia practica
+          <lb ed="#P" n="49"/>est, essetque talis, etiam si Deus decrevisset
+          <lb ed="#P" n="50"/>nec creare mundum, nec gubernare. Nam, ut
+          <lb ed="#P" n="51"/>scientia sit practica (ut ex Metaphysica 
+          con<lb break="no" ed="#P" n="52"/>stat) necesse non est, ut a sciente applicetur
+          <lb ed="#P" n="53"/>ad opus, sed satis est quod de se directiva et
+          <lb ed="#P" n="54"/>regulativa sit operis, quatenus est de re 
+          opera<lb break="no" ed="#P" n="55"/>bili, ut talis est, id est modo, operabili, seu os-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tendendo modum, quo res facienda est, si 
+          ar<lb break="no" ed="#P" n="57"/>tifex voluerit.
+        </p>
+        <p xml:id="szduep-052582-d1e854">
+          <lb ed="#P" n="58"/>13. Scientia visionis per se non est practiea.
+          <lb ed="#P" n="59"/>—At vero scientia visionis per se non est 
+          prac<lb break="no" ed="#P" n="60"/>tica, sed est quaedam intuitio, seu quasi 
+          expe<lb break="no" ed="#P" n="61"/>rimentalis visio. Unde si consideretur in Deo,
+          <lb ed="#P" n="62"/>quatenus terminatur ad res actu existentes,
+          <lb ed="#P" n="63"/>supponit effectionem eorum, unde, ut sic, non
+          <lb ed="#P" n="64"/>facit illas. Si vero consideretur, ut de futuris
+          <lb ed="#P" n="65"/>est, etiam supponit futuritionem earum et ex
+          <lb ed="#P" n="66"/>parte Dei supponit voluntatem aliquam, sine
+          <lb ed="#P" n="67"/>qua illae res non possunt esse absolute futurae.
+          <lb ed="#P" n="68"/>Non est ergo scientia visionis practica, maxime
+          <lb ed="#P" n="69"/>per modum artis. In ordine vero ad 
+          pruden<lb break="no" ed="#P" n="70"/>tiam et ad judicium de agendis, seu vitandis
+          <lb ed="#P" n="71"/>libere, potest suo modo conducere eo modo,
+          <lb ed="#P" n="72"/>quo experientia et memoria, vel praejudicium
+          <lb ed="#P" n="73"/>de futuris solet ad prudentiam conferre. Non
+          <lb ed="#P" n="74"/>tamen propterea talis scientia dici potest 
+          pro<lb break="no" ed="#P" n="75"/>prie practica, sed conditio quaedam antecedens
+          <lb ed="#P" n="76"/>et necessaria ad prudentiam. Sic enim omnis
+          <lb ed="#P" n="77"/>notitia practica in aliqua speculativa fundatur
+          <lb ed="#P" n="78"/>vel secundum rem, ut in nobis, vel secundum
+          <lb ed="#P" n="79"/>rationem, ut in Deo.
+        </p>
+        <p xml:id="szduep-052582-d1e904">
+          <lb ed="#P" n="80"/>14. Scientiam Dei esse causaum rerum 
+          om<lb break="no" ed="#P" n="81"/>nium. — Uktimo ex dictis constat, scientiam
+          <lb ed="#P" n="82"/>Dei esse causam rerum, quatenus practica est.
+          <lb ed="#P" n="83"/>Patet, quia Deus operatur omnia per 
+          sapien<lb break="no" ed="#P" n="84"/>tiam suam, ut Scripturae docent, quae satis 
+          al<lb break="no" ed="#P" n="85"/>legatae sunt (est enim res clara) sed non est
+          <lb ed="#P" n="86"/>causa, nisi ut est operativa, ergo ut est 
+          prac<lb break="no" ed="#P" n="87"/>tica, est causa rerum. Quomodo autem causet,
+          <lb ed="#P" n="88"/>dicemus, capite sexto, agendo de potentia. Nunc
+          <lb ed="#P" n="89"/>solum dicimus, concurrere ad rerum 
+          effectio<lb break="no" ed="#P" n="90"/>nem duobus modis praedictis : primo per 
+          mo<lb break="no" ed="#P" n="91"/>dum prudentiae, nam scientia illa non operatur
+          <lb ed="#P" n="92"/>nisi per voluntatem, ergo prius ratione 
+          intel<lb break="no" ed="#P" n="93"/>ligitur, inducere voluntatem ut hoc, vel illud
+          <lb ed="#P" n="94"/>opcrari velit, et sub hac ratione habet rationem
+          <lb ed="#P" n="95"/>prudentiae. Deinde post voluntatis 
+          determina<lb break="no" ed="#P" n="96"/>tionem dirigit actionem per modum artis, 
+          os<lb break="no" ed="#P" n="97"/>tendens modum, quo res faciendae sunt.
+        </p>
+        <p xml:id="szduep-052582-d1e946">
+          <lb ed="#P" n="98"/>15. Unde etiam constat, an esse causam 
+          re<lb break="no" ed="#P" n="99"/>rum conveniat scientiae simplicis intelligentiae
+          <lb ed="#P" n="100"/>an visionis. Nam esse causam per modum 
+          ar<lb break="no" ed="#P" n="101"/>tis habet, ut est scientia simphlicis intelligentiae
+          <lb ed="#P" n="102"/>applicata per voluntatem. Ex se enim solum
+          <lb ed="#P" n="103"/>habet, ut sit causa veluti in actu primo, id est,
+          <lb ed="#P" n="104"/>causativa, quod etiam habet circa possibilia,
+          <lb ed="#P" n="105"/>quae nunquam erunt. Quod vero sit causa in
+          <lb ed="#P" n="106"/>actu, non habet sine applicatione voluntatis,
+          <lb ed="#P" n="107"/>ejus vero causalitas praeintelligitur ante 
+          scien<lb break="no" ed="#P" n="108"/>tiam visionis, nam haec videt res, ut jam 
+          fac<lb break="no" ed="#P" n="109"/>tas, vel futuras. At vero quoad judicium 
+          pru<lb break="no" ed="#P" n="110"/>dentiale et quasi consilium distinguendum est.
+          <pb ed="#P" n="210"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Nam si consideretur ante omne decretum 
+          libe<lb break="no" ed="#P" n="2"/>rum voluntatis Dei, sic etiam pertinet ad 
+          scien<lb break="no" ed="#P" n="3"/>tiam simplicis intelligentiae,quia illud judicium
+          <lb ed="#P" n="4"/>est omninc naturale et dicitur esse causa 
+          quan<lb break="no" ed="#P" n="5"/>tum est ex se, seu sufliciens in suo genere, non
+          <lb ed="#P" n="6"/>tamen efficaciter et in actu secundo, nisi 
+          ac<lb break="no" ed="#P" n="7"/>cedat decretum voluntatis, quod liberum est,
+          <lb ed="#P" n="8"/>non obstante illo judicio. Si vero consideretur
+          <lb ed="#P" n="9"/>aliquod particulare judicium de aliquo agendo,
+          <lb ed="#P" n="10"/>seu eligendo ex praesuppositione prioris 
+          decre<lb break="no" ed="#P" n="11"/>ti, sic potest interdum pertinere ad scientiam
+          <lb ed="#P" n="12"/>visionis, quatenus illud dictamen simpliciter
+          <lb ed="#P" n="13"/>liberum est, licet ex suppositione sit 
+          necessa<lb break="no" ed="#P" n="14"/>rium. Et haec sufficiunt de hac scientia 
+          practi<lb break="no" ed="#P" n="15"/>ca, quatenus proxime refertur ad voluntatem
+          <lb ed="#P" n="16"/>Dei, et habet rationem prudentiae, seu consilii,
+          <lb ed="#P" n="17"/>quia praeter ea, quae de voluntate dicemus, 
+          ni<lb break="no" ed="#P" n="18"/>hil difficultatis circa illam occurrit, et videri
+          <lb ed="#P" n="19"/>etiam possunt multa, quae de hac re diximus
+          <lb ed="#P" n="20"/>in Relectione citata. De eadem vero scientia,
+          <lb ed="#P" n="21"/>quatenus habet rationem artis nonnulla 
+          di<lb break="no" ed="#P" n="22"/>cenda supersunt. Quae in sequenti capite 
+          trac<lb break="no" ed="#P" n="23"/>tabuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

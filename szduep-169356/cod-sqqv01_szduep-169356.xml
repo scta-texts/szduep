@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="669"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-169356"><!-- t3-l5c9 -->
+        <head xml:id="szduep-169356-Hd1e101">Caput 9</head>
+        <head xml:id="szduep-169356-Hd1e103" type="question-title">An omnes relationes divinae notiones sint</head>
+        <p xml:id="szduep-169356-d1e106">
+          <lb ed="#P" n="37"/>CAPUT IX.
+          <lb ed="#P" n="38"/>AN OMNES RELATIONES DIVINAE NOTIONES SINT.
+        </p>
+        <p xml:id="szduep-169356-d1e113">
+          <lb ed="#P" n="39"/>1. Opinio Gregori. — Theologi omnes 
+          conve<lb break="no" ed="#P" n="40"/>niunt in assignandis notionibus in divinis 
+          per<lb break="no" ed="#P" n="41"/>sonis. Ita docet D. Thomas, 1 part., quaest. 32,
+          <lb ed="#P" n="42"/>art. 2 et sequentibus. Cajetanus et alii 
+          interpre<lb break="no" ed="#P" n="43"/>tes ibi, Alensis, 1 part., q. 68, et alii scholastici
+          <lb ed="#P" n="44"/>cum Magistro, in 1, distinctione 26, ubi 
+          Bona<lb break="no" ed="#P" n="45"/>ventura, quaestione 4. Durandus, quaestione 
+          se<lb break="no" ed="#P" n="46"/>cunda, hRichardus, distinctione 98, quaestione 1,
+          <lb ed="#P" n="47"/>Capreolus , ibi articulo 1 , conclusione 5 et 6,
+          <lb ed="#P" n="48"/>Marsilius, quaestione 29, articulo 1, Solus 
+          Gre<lb break="no" ed="#P" n="49"/>gorius, dist. 26, quaestione 2 (post 
+          Praepositi<lb break="no" ed="#P" n="50"/>vum), sentit, notiones non in ipsis personis, sed
+          <lb ed="#P" n="51"/>in nostris conceptibus positas esse et non in 
+          sim<lb break="no" ed="#P" n="52"/>plicibus conceptibus, sed in complexis, ut sunt,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>genuisse, genitum esse. Sed imprimis sine causa
+          <lb ed="#P" n="54"/>ponit notiones potius in conceptibus complexis,
+          <lb ed="#P" n="55"/>quam in simplicibus: Nam conceptus 
+          Genito<lb break="no" ed="#P" n="56"/>ris, tam proprius est Patris, sicut generare, est
+          <lb ed="#P" n="57"/>ergo tam aptus ad notiones, et ita Basilius 4,
+          <lb ed="#P" n="58"/>contra Eunomium, capite secundo, genitum
+          <lb ed="#P" n="59"/>et ingenitum numerat inter notiones et 
+          ex<lb break="no" ed="#P" n="60"/>presse Augustinus, de Trinitate, cap. 6.
+        </p>
+        <p xml:id="szduep-169356-d1e165">
+          <lb ed="#P" n="61"/>2. Notiones esse in Deo. — Quod vero ad 
+          al<lb break="no" ed="#P" n="62"/>teram partem attinet, verum quidem est, 
+          ip<lb break="no" ed="#P" n="63"/>sum conceptum formalem, quem nos de 
+          pro<lb break="no" ed="#P" n="64"/>pria conditione alicujus personae formamus,
+          <lb ed="#P" n="65"/>posse vocari notionem : sic enim recte intelligi
+          <lb ed="#P" n="66"/>possunt verba Augustini 5, de Trinitate, cap. 6:
+          <lb ed="#P" n="67"/>Alia est notio, qua intelligitur genitor , alia
+          <lb ed="#P" n="68"/>qua ingenitus. Verumtamen quia huic 
+          concep<lb break="no" ed="#P" n="69"/>tui formali objectivus respondet, non fictus, sed
+          <lb ed="#P" n="70"/>verus et in re ipsa suo modo existens, ideo 
+          ra<lb break="no" ed="#P" n="71"/>tones objectivae, quae illis conceptibus 
+          formali<lb break="no" ed="#P" n="72"/>bus respondent, notiones etiam merito 
+          appel<lb break="no" ed="#P" n="73"/>lantur et ipsis divinis personis vere 
+          attribuun<lb break="no" ed="#P" n="74"/>tur. Quo sensu locuti sunt scholastici et 
+          pos<lb break="no" ed="#P" n="75"/>sunt etiam Augustini verba recte ita intelligi.
+          <lb ed="#P" n="76"/>Declaravitque egregie D. Basilius, epistola 43,
+          <lb ed="#P" n="77"/>dicens : NVotionem esse cognoscibile signum - et
+          <lb ed="#P" n="78"/>clarius fortasse diceretur : Proprium et 
+          discre<lb break="no" ed="#P" n="79"/>Ltivum signum, id est, quo unam personam ab
+          <lb ed="#P" n="80"/>aliis discernimus. Explicat ipse in creaturis 
+          in<lb break="no" ed="#P" n="81"/>dividuis, quarum notiones esse dicit 
+          proprieta<lb break="no" ed="#P" n="82"/>tes individuantes unamquamque rem et 
+          dis<lb break="no" ed="#P" n="83"/>tinguentes illam ab aliüs: Quia ergo, inquit,
+          <lb ed="#P" n="84"/>necessarium est, divinas personas, ut 
+          distinc<lb break="no" ed="#P" n="85"/>tas cognoscere, ideo etiam necesse est, ut per
+          <lb ed="#P" n="86"/>quasdam proprias notiones inconfusas 
+          habea<lb break="no" ed="#P" n="87"/>tur in Trinitate comparatio. Hinc ergo 
+          con<lb break="no" ed="#P" n="88"/>cluditur ratio, quia in personis divinis sunt
+          <lb ed="#P" n="89"/>aliquae rationes, seu proprietates, quibus 
+          dis<lb break="no" ed="#P" n="90"/>tinctae cognoscuntur, sed notiones nihil aliud
+          <lb ed="#P" n="91"/>sunt, quam hujusmodi proprietates, quae ita
+          <lb ed="#P" n="92"/>appellantur, quatenus ad hujusmodi 
+          cognitio<lb break="no" ed="#P" n="93"/>nem nobis inserviunt, sunt ergo notiones in
+          <lb ed="#P" n="94"/>divinis personis.
+        </p>
+        <p xml:id="szduep-169356-d1e242">
+          <lb ed="#P" n="95"/>3. Relationes personales sunt noliones.—Hoc
+          <lb ed="#P" n="96"/>supposito manifestum est, tres relationes 
+          per<lb break="no" ed="#P" n="97"/>sonales esse notiones, quia sunt proprietates
+          <lb ed="#P" n="98"/>ita propriae singularum personarum, ut sint
+          <lb ed="#P" n="99"/>velut specificantes et individuantes 
+          unam<lb break="no" ed="#P" n="100"/>quamque in ratione talis personae. Unde per
+          <lb ed="#P" n="101"/>illas maxime divinas personas inter se 
+          confu<lb break="no" ed="#P" n="102"/>sas et distinctas cognoscimus, ergo illae sunt
+          <lb ed="#P" n="103"/>propriissime notiones. Dices. Ergo eadem 
+          ra<lb break="no" ed="#P" n="104"/>tione Genitor, Genitus, Spiratus, inter 
+          notio<lb break="no" ed="#P" n="105"/>nes numeranda erunt, quia illa etiam sunt
+          <lb ed="#P" n="106"/>praedicata propria, quibus optime discernimus
+          <lb ed="#P" n="107"/>personas. Unde ita interdum loquitur Augus-
+          <pb ed="#P" n="670"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tinus, ut 5, de Trinit., capite sexto, cum ait:
+          <lb ed="#P" n="2"/>Alia est notio, qua intelligitur genitor. Tamen
+          <lb ed="#P" n="3"/>ibidem subdit, non esse aliam notionem 
+          ge<lb break="no" ed="#P" n="4"/>niti et Filii. Itaque parum retulerit totum hoc
+          <lb ed="#P" n="5"/>concedere, dummodo numerus notionum non
+          <lb ed="#P" n="6"/>augeatur, propter communem loquendi 
+          mo<lb break="no" ed="#P" n="7"/>dum theologorum, de quo statim dicemus.
+          <lb ed="#P" n="8"/>Proprie vero relationes et non origines inter
+          <lb ed="#P" n="9"/>notiones comprehenduntur. Tum, quia 
+          rela<lb break="no" ed="#P" n="10"/>tiones sunt quasi permanentes formae, origines
+          <lb ed="#P" n="11"/>autem sunt quasi viae, et ita has concipimus
+          <lb ed="#P" n="12"/>quasi in fieri, illas quasi in facto esse. Ideoque
+          <lb ed="#P" n="13"/>origines ad relationes reducuntur et non 
+          nu<lb break="no" ed="#P" n="14"/>merantur, ut notiones distinctae ab illis. Tum
+          <lb ed="#P" n="15"/>etiam, quia in nominibus genitoris et geniti,
+          <lb ed="#P" n="16"/>non habemus propria abstracta, quipus utamur
+          <lb ed="#P" n="17"/>sicut in Paternitate et Filiatione; notiones 
+          au<lb break="no" ed="#P" n="18"/>tem propriissime dicuntur de abstractis. Et
+          <lb ed="#P" n="19"/>ideo Gregorius Ariminensis, quia haec abstracta
+          <lb ed="#P" n="20"/>in divinis personis negavit, notiones etiam non
+          <lb ed="#P" n="21"/>admisit, sed illud falsum fundamentum 
+          refu<lb break="no" ed="#P" n="22"/>tabimus in principio libri septimi.
+        </p>
+        <p xml:id="szduep-169356-d1e325">
+          <lb ed="#P" n="23"/>4. Spiratio an sit notio.—De quarta vero
+          <lb ed="#P" n="24"/>relatione, Spiratione scilicet , activa, dubitari
+          <lb ed="#P" n="25"/>potest, an sit vera notio. Et ratio dubii est,
+          <lb ed="#P" n="26"/>quia ea, quae sunt communia piuribus personis,
+          <lb ed="#P" n="27"/>non numerantur inter notiones, at illa relatio
+          <lb ed="#P" n="28"/>communis est Patri et Filio, ergo. Major patet
+          <lb ed="#P" n="29"/>ex Basilio, Epistola quadragesima tertia, 
+          di<lb break="no" ed="#P" n="30"/>cente, Patrem et Filium non communicare 
+          in<lb break="no" ed="#P" n="31"/>ter se in propriis notionibus. Secundo, quia 
+          a<lb break="no" ed="#P" n="32"/>lias multa praedicata communia pluribus 
+          per<lb break="no" ed="#P" n="33"/>sonis deberent inter notiones poni, ut relatio
+          <lb ed="#P" n="34"/>procedentis, vel producentis. Tertio quia per
+          <lb ed="#P" n="35"/>relationem illam nec constituuntur persona,
+          <lb ed="#P" n="36"/>neque distinguuntur, neque a nobis ut tales
+          <lb ed="#P" n="37"/>cognoscuntur. Primum ostensum est late in
+          <lb ed="#P" n="38"/>praecedentibus capitibus. Secundum ostendetur
+          <lb ed="#P" n="39"/>inferius libro decimo et undecimo, et colligi
+          <lb ed="#P" n="40"/>potest ex dictis, quia illa relatio est quasi 
+          re<lb break="no" ed="#P" n="41"/>sultans, posito fundamento et termino, inter
+          <lb ed="#P" n="42"/>se distinctis, ergo supponit personalem 
+          distinc<lb break="no" ed="#P" n="43"/>tionem, non facit. Atque hinc facile probatur
+          <lb ed="#P" n="44"/>tertium, quia nos, ut hanc relationem 
+          intelh<lb break="no" ed="#P" n="45"/>gamus et rationem aliquam illius, prius 
+          co<lb break="no" ed="#P" n="46"/>gnoscimus personas, ut distinctas, ergo non
+          <lb ed="#P" n="47"/>est, cur illa relatio inter notiones computetur.
+        </p>
+        <p xml:id="szduep-169356-d1e382">
+          <lb ed="#P" n="48"/>5. Assertio affirmans. — Nihilominus 
+          di<lb break="no" ed="#P" n="49"/>cendum est, etiam spirationem activam esse
+          <lb ed="#P" n="50"/>notionem. Ita docent divus Thomas et omnes
+          <lb ed="#P" n="51"/>theologi supra citati, a quorum sententia non
+          <lb ed="#P" n="52"/>est facile recedendum. hiaxime in re, quae
+          <lb ed="#P" n="53"/>magna ex parte pertinet adl modum loquendi
+          <lb ed="#P" n="54"/>proprium suae artis. Ratio vero imprimis est,
+          <lb ed="#P" n="55"/>quia illa relatio est singularis et individua, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non communis omnibus personis, sed aliquas
+          <lb ed="#P" n="57"/>tantum quasi afficiens, unde fit; ut illas 
+          distin<lb break="no" ed="#P" n="58"/>guat ab alia, cui non convenit : vel in re 
+          ip<lb break="no" ed="#P" n="59"/>sa, ut multi volunt, vel saltem quoad nos,
+          <lb ed="#P" n="60"/>quod negari non potest. Esto enim, a priori,
+          <lb ed="#P" n="61"/>(ut sic dicam) non distinguantur Pater et 
+          Fi<lb break="no" ed="#P" n="62"/>lius ab Spiritu sancto per illam spirationem,
+          <lb ed="#P" n="63"/>tamen a posteriori optime a nobis 
+          distinguun<lb break="no" ed="#P" n="64"/>tur : eo enim ipso, quod intelligimus, eos 
+          ha<lb break="no" ed="#P" n="65"/>bere talem respectum realem ad Spiritum
+          <lb ed="#P" n="66"/>sanctum, optime intelligimus habere, unde ab
+          <lb ed="#P" n="67"/>ipso distinguantur. Accedit philosophica ratio,
+          <lb ed="#P" n="68"/>quia relativa sunt simul cognitione, et ideo si
+          <lb ed="#P" n="69"/>una relatio in numero notionum posita est,
+          <lb ed="#P" n="70"/>etiam altera illi respondens poni debuit, quia
+          <lb ed="#P" n="71"/>non possunt cognitione disjungi, notio autem
+          <lb ed="#P" n="72"/>dicit ordinem ad cognitionem. Unde non 
+          so<lb break="no" ed="#P" n="73"/>lum propter Patrem et Filium, sed etiam
+          <lb ed="#P" n="74"/>propter ipsam processionem perfecte 
+          cognos<lb break="no" ed="#P" n="75"/>cendam, debuit spiratio inter notiones 
+          nu<lb break="no" ed="#P" n="76"/>merari.
+        </p>
+        <p xml:id="szduep-169356-d1e450">
+          <lb ed="#P" n="77"/>6. Ad rationes in contrarium. — Neque
+          <lb ed="#P" n="78"/>obstat testimonium Basilii, nam ibi non 
+          uni<lb break="no" ed="#P" n="79"/>verse de omnibus notionibus, sed speciatim de
+          <lb ed="#P" n="80"/>his quae proprietates personales sunt, loquitur.
+          <lb ed="#P" n="81"/>Verba enim ejus sunt : Filium non habere
+          <lb ed="#P" n="82"/>commnunicationem cum Patre, secundum 
+          pro<lb break="no" ed="#P" n="83"/>prietatem suam. Nomen autem Proprietatis,
+          <lb ed="#P" n="84"/>ut infra dicam libro sexto, restringitur ad 
+          re<lb break="no" ed="#P" n="85"/>lationem, seu conditionem omnino propriam
+          <lb ed="#P" n="86"/>unius personae, unde licet omnis proprietas sit
+          <lb ed="#P" n="87"/>notio : non tamen sola, neque omnis notio est
+          <lb ed="#P" n="88"/>proprietas, ideoque licet Pater et Filius non
+          <lb ed="#P" n="89"/>communicent in proprietate, possunt in aliqua
+          <lb ed="#P" n="90"/>notione communicare. Ad secundum negatur
+          <lb ed="#P" n="91"/>sequela, quia illa praedicata sunt communia
+          <lb ed="#P" n="92"/>tantum secundum rationem et non designant
+          <lb ed="#P" n="93"/>unam singularem conditionem, seu formam
+          <lb ed="#P" n="94"/>realiter communem. Spiratio autem est hoc
+          <lb ed="#P" n="95"/>modo forma singularis et communis. Notio
+          <lb ed="#P" n="96"/>autem cebet esse forma particularis et quasi
+          <lb ed="#P" n="97"/>specifica, imo et individualis (ut significavit
+          <lb ed="#P" n="98"/>Basilius) quia debet notificare personam 
+          par<lb break="no" ed="#P" n="99"/>ticularem. lItaque praedicata generalia, seu
+          <lb ed="#P" n="100"/>communia personis communitate rationis, si
+          <lb ed="#P" n="101"/>sint omnibus communia, vel essentialia sunt,
+          <lb ed="#P" n="102"/>si absoluta sint, si vero sint relative, vel in
+          <lb ed="#P" n="103"/>relationibus sumpta, ut persona, licet 
+          notiona<lb break="no" ed="#P" n="104"/>lia interdum dicantur, quia ex notionibus 
+          ali<lb break="no" ed="#P" n="105"/>quo modo sumuntur, non tamen constituunt
+          <lb ed="#P" n="106"/>speciales notiones, sed dicunt rationes aliquas
+          <lb ed="#P" n="107"/>communes illis. icem ergo est de quolibet 
+          no<lb break="no" ed="#P" n="108"/>mine communi tantum secundum rationem,
+          <lb ed="#P" n="109"/>etiamsi tantum duabus personis commune sit.
+          <lb ed="#P" n="110"/>Ad tertiam rationem dubitandi jam responsum
+          <pb ed="#P" n="671"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, spirationem activam, vel distinguere in
+          <lb ed="#P" n="2"/>se personas aliquas, vel saltem quoad nos et
+          <lb ed="#P" n="3"/>aliquo modo notificare ipsum Spiritum 
+          san<lb break="no" ed="#P" n="4"/>ctum, vel cum ejus notitia esse conjunctam,
+          <lb ed="#P" n="5"/>atque hoc satis esse, ut inter notiones 
+          nume<lb break="no" ed="#P" n="6"/>retur.
+        </p>
+        <p xml:id="szduep-169356-d1e544">
+          <lb ed="#P" n="7"/>7. Convenientia et discrimen inter velationes
+          <lb ed="#P" n="8"/>et notiones. — Ex quibus omnibus clare 
+          con<lb break="no" ed="#P" n="9"/>cluditur, omnes relationes divinas esse 
+          notio<lb break="no" ed="#P" n="10"/>nes, quia, et tres personales et una, quae 
+          com<lb break="no" ed="#P" n="11"/>munis est, sunt notiones et praeter illas 
+          rela<lb break="no" ed="#P" n="12"/>tiones non sunt plures. Constat etiam, 
+          rela<lb break="no" ed="#P" n="13"/>tionem et notionem prout de illa dicitur, in
+          <lb ed="#P" n="14"/>re non differre, sed tantum denominatione
+          <lb ed="#P" n="15"/>extrinseca, vel relatione notionis ad nostrum
+          <lb ed="#P" n="16"/>usum, seu cognitionem. helatio enim dicitur
+          <lb ed="#P" n="17"/>secundum respectum realem, quem in se 
+          ha<lb break="no" ed="#P" n="18"/>bet. Notio autem vocatur eadem relatio, 
+          qua<lb break="no" ed="#P" n="19"/>tenus per eam distinctio alicujus personae 
+          no<lb break="no" ed="#P" n="20"/>tificatur. Unde notionis nomen quodam modo
+          <lb ed="#P" n="21"/>videtur esse secundae intentionis, quia 
+          signifi<lb break="no" ed="#P" n="22"/>cat relationem, vel conditionem aliquam in
+          <lb ed="#P" n="23"/>ordine ad nostram notitiam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="632"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-159878"><!-- t3-l4c7 -->
+        <head xml:id="szduep-159878-Hd1e101">Caput 7</head>
+        <head xml:id="szduep-159878-Hd1e103" type="question-title">Sit-ne divina essentia de conceptu essentiali, et quidditativo singularum relationum, ac proprietatum</head>
+        <p xml:id="szduep-159878-d1e106">
+          <lb ed="#P" n="35"/>CAPUT VII.
+          <lb ed="#P" n="36"/>SIT-NE DIVINA ESSENTIA DE CONCEPTU 
+          ESSENTIA<lb break="no" ed="#P" n="37"/>LI, ET QUIDDITATIVO SINGULARUM RELATIONUM,
+          <lb ed="#P" n="38"/>AC PROPRIETATUM.
+        </p>
+        <p xml:id="szduep-159878-d1e117">
+          <lb ed="#P" n="39"/>1. Titulus quaestionis declaratur. — Quaestio
+          <lb ed="#P" n="40"/>haec non ita habet locum in personis in 
+          con<lb break="no" ed="#P" n="41"/>creto conceptis, et significatis, sicut in 
+          rela<lb break="no" ed="#P" n="42"/>tionibus, vel proprietatibus in abstracto 
+          sump<lb break="no" ed="#P" n="43"/>tis. Nam de personis certum est, divinam 
+          es<lb break="no" ed="#P" n="44"/>seniiam in earum conceptu intime et 
+          essentia<lb break="no" ed="#P" n="45"/>liter includi, quia quaelibet persona 
+          essentia<lb break="no" ed="#P" n="46"/>liter est Deus: et quia in universum, persona
+          <lb ed="#P" n="47"/>est intellectualis naturae individua substantia,
+          <lb ed="#P" n="48"/>ergo in Deo persona est naturae intellectualis
+          <lb ed="#P" n="49"/>per essentiam individua substantia: seu 
+          in<lb break="no" ed="#P" n="50"/>communicabilis substantia : ergo divina 
+          na<lb break="no" ed="#P" n="51"/>tura est de essentiali conceptu divinae personae.
+          <lb ed="#P" n="52"/>hatio denique universalis est, quia persona
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>dicit substantiam individuam completam, ac
+          <lb ed="#P" n="54"/>proinde intrinsece constantem ex natura, et
+          <lb ed="#P" n="55"/>personalitate : ex natura (inquam) tanquam
+          <lb ed="#P" n="56"/>ex essentia : ex personalitate vero tanquam ex
+          <lb ed="#P" n="57"/>modo essentiae, quod suo modo et seclusis
+          <lb ed="#P" n="58"/>imperfectionibus, in divinis etiam personis 
+          lo<lb break="no" ed="#P" n="59"/>cum habet. Hae vero rationes non ita 
+          proce<lb break="no" ed="#P" n="60"/>dunt in relationibus , vel proprietatibus in
+          <lb ed="#P" n="61"/>abstracto sumptis, et ideo de illis solis quaestio
+          <lb ed="#P" n="62"/>hic proponitur, quia cum quaestione 
+          superio<lb break="no" ed="#P" n="63"/>ris capitis connexa est.
+        </p>
+        <p xml:id="szduep-159878-d1e176">
+          <lb ed="#P" n="64"/>2. Prima opinio negans. — Fundamentum.
+          <lb ed="#P" n="65"/>— In ea ergo nonnulli moderni auctores 
+          do<lb break="no" ed="#P" n="66"/>cuerunt, sicut relationes non sunt de conceptu
+          <lb ed="#P" n="67"/>essentiali divinae naturae, ita etiam e converso
+          <lb ed="#P" n="68"/>divinam naturam non esse de conceptu 
+          essen<lb break="no" ed="#P" n="69"/>tiali relationum. Asseruntque in suum favorem
+          <lb ed="#P" n="70"/>D. Thomas qui eis favere videtur in quaest. 8,
+          <lb ed="#P" n="71"/>de Potentia, art. 2 et 6, quamvis ait, quod 
+          si<lb break="no" ed="#P" n="72"/>cut haec propositio, Essentia est Paternitas,
+          <lb ed="#P" n="73"/>non est per se, ita neque haec, Paternitas est
+          <lb ed="#P" n="74"/>essentia - ergo sentit neutram esse de conceptu
+          <lb ed="#P" n="75"/>alterius. Rationes vero quae pro hac sententia
+          <lb ed="#P" n="76"/>fiunt, omnes fundantur in nostro modo 
+          conci<lb break="no" ed="#P" n="77"/>piendi et in hoc metaphysico principio, quod
+          <lb ed="#P" n="78"/>quando duo comparantur, ut determinans, et
+          <lb ed="#P" n="79"/>determinabile, seu ut forma contrahens, et
+          <lb ed="#P" n="80"/>contracta, nccessario debent ita distingui, ut
+          <lb ed="#P" n="81"/>neutrum includatur in conceptu alterius. Ita
+          <lb ed="#P" n="82"/>enim se haber dvina essentia et relationes:
+          <lb ed="#P" n="83"/>nam essentia est leterminabilis et quasi 
+          con<lb break="no" ed="#P" n="84"/>trahibilis, relatio vero est determinans et 
+          qua<lb break="no" ed="#P" n="85"/>si contrahens : ergo distinguuntur illo modo.
+        </p>
+        <p xml:id="szduep-159878-d1e227">
+          <lb ed="#P" n="86"/>3. Prima confirmatio Concilii Florentini.
+          <lb ed="#P" n="87"/>— Confirmatur, ac declaratur primo : nam
+          <lb ed="#P" n="88"/>divina persona constat ex essentia et 
+          rela<lb break="no" ed="#P" n="89"/>tione, ut in Concilio Florentino, sess. 19, et
+          <lb ed="#P" n="90"/>seepe alias dicitur: ergo resolvitur nostro modo
+          <lb ed="#P" n="91"/>concipiendi in essentiam, et relationem, 
+          tan<lb break="no" ed="#P" n="92"/>quam in duo mortuo condistincta, ita ut 
+          neu<lb break="no" ed="#P" n="93"/>trum alterum includat. Nam alias, si semper
+          <lb ed="#P" n="94"/>maneret essentia inclusa in relatione, non 
+          es<lb break="no" ed="#P" n="95"/>set vera resolutio,etiam secundum conceptum,
+          <lb ed="#P" n="96"/>quia totum id, quod includebat persona, quae
+          <lb ed="#P" n="97"/>resolvi dicitur, manet inclusum in ipsa 
+          rela<lb break="no" ed="#P" n="98"/>tione. Unde, in quacumque resolutione reali,
+          <lb ed="#P" n="99"/>ita observari videmus, scilicet, ut ea, in quae
+          <lb ed="#P" n="100"/>sit resolutio, mutuo se excludant, ergo idem
+          <lb ed="#P" n="101"/>esse debet in resolutione conceptuum, quae sit
+          <lb ed="#P" n="102"/>ad imitationem resolutionis realis. Quod etiam
+          <lb ed="#P" n="103"/>in aliis omnibus conceptibus extra hane 
+          ma<lb break="no" ed="#P" n="104"/>teriam invenitur, ut cum resolvitur 
+          indivi<lb break="no" ed="#P" n="105"/>duum in speciem et differentiam 
+          individuan<lb break="no" ed="#P" n="106"/>tem et species in genus et differentiam, etc.
+          <lb ed="#P" n="107"/>Quod si de transcendentibus, afferatur in-
+          <pb ed="#P" n="633"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>stantia in contrarium, non admittitur ab his
+          <lb ed="#P" n="2"/>auctoribus: ex quibus aliqui propterea putant,
+          <lb ed="#P" n="3"/>non posse dari conceptum communem 
+          trans<lb break="no" ed="#P" n="4"/>cendentalem. Scotus autem e converso, quia 
+          il<lb break="no" ed="#P" n="5"/>Ium conceptum admittit, videtur negasse 
+          il<lb break="no" ed="#P" n="6"/>lum includi in modis determinantibus ipsum.
+        </p>
+        <p xml:id="szduep-159878-d1e295">
+          <lb ed="#P" n="7"/>4. Secunda confirmatio. — Unde 
+          confirma<lb break="no" ed="#P" n="8"/>tur secundo, quia si relatio includeret 
+          essen<lb break="no" ed="#P" n="9"/>tiam, non posset constituere personam, quia
+          <lb ed="#P" n="10"/>repugnat constituens includere totum id, quod
+          <lb ed="#P" n="11"/>includit constitutum cum secundum modum
+          <lb ed="#P" n="12"/>intelligendi comparentur, ut totum et pars.
+          <lb ed="#P" n="13"/>Patet etiam eadem sequela. Quia si Paternitas,
+          <lb ed="#P" n="14"/>verbi gratia, constituit, ergo intelligitur, ut
+          <lb ed="#P" n="15"/>adveniens essentiae: ergo non potest intelligi,
+          <lb ed="#P" n="16"/>ut secum afferens essentiam: nam haec duo
+          <lb ed="#P" n="17"/>repugnant: ergo e contrario, si intrinsece 
+          in<lb break="no" ed="#P" n="18"/>cludit essentiam, neque illi advenit, nec 
+          cons<lb break="no" ed="#P" n="19"/>tituit personam. Tandem confirmatur, quia
+          <lb ed="#P" n="20"/>alias haec propositio esset formalis, Filiatio
+          <lb ed="#P" n="21"/>est essentia, cum praedicatum sit essentia 
+          sub<lb break="no" ed="#P" n="22"/>jecti: ergo quidquid proprie dicitur de 
+          essen<lb break="no" ed="#P" n="23"/>tia, dicetur de filiatione. Unde hae omnes 
+          lo<lb break="no" ed="#P" n="24"/>cutiones essent verae, Filiatio intelligit, est
+          <lb ed="#P" n="25"/>sapienlia, et similes. Atque adeo, F'ilius eodem
+          <lb ed="#P" n="26"/>esset sapientia, quo Filius, seuw Verum, quod
+          <lb ed="#P" n="27"/>est contra Augustinum 7, de Trinitate, cap. 2.
+        </p>
+        <p xml:id="szduep-159878-d1e343">
+          <lb ed="#P" n="28"/>5. Tertia confirmatio .—Nihilominus 
+          dicen<lb break="no" ed="#P" n="29"/>-dum censeo, Divinam naturam essentialiter
+          <lb ed="#P" n="30"/>includi in relationibus ipsis, neque posse ab eis
+          <lb ed="#P" n="31"/>praescindi eodem modo, quo relationes ab illa
+          <lb ed="#P" n="32"/>praescinduntur. Ita tenent Henricus, quodlib.
+          <lb ed="#P" n="33"/>D, quaest. 6, Torres, 1 part., quaest. 28, art. 2
+          <lb ed="#P" n="34"/>disp. 3, et omnes fere citati, cap. 5, praesertim
+          <lb ed="#P" n="35"/>D. Thomas qui hac ratione dixit in Trinitate.
+          <lb ed="#P" n="36"/>Communia esse de conceptu propriorum. 
+          ldem<lb break="no" ed="#P" n="37"/>que supponit Hichardus de Saneto Victore,
+          <lb ed="#P" n="38"/>lib. 1, de Trinitate, cap. 1, et lib. 5, a 
+          prin<lb break="no" ed="#P" n="39"/>cipio, si attente legatur. Patres etiam Concili
+          <lb ed="#P" n="40"/>Rhemensis cum docuerunt, ipsas etiam 
+          per<lb break="no" ed="#P" n="41"/>sonalitates esse Deum, ut infra videbimus, hoc
+          <lb ed="#P" n="42"/>sensisse, vel supposuisse videntur. Ut autem
+          <lb ed="#P" n="43"/>ratione hoc declaremus, adverto, duobus 
+          mo<lb break="no" ed="#P" n="44"/>dis posse intelligi hanc inclusionem essentiae
+          <lb ed="#P" n="45"/>in relationibus. Uno modo in re ipsa, alio
+          <lb ed="#P" n="46"/>modo loquendo etiam secundum nostros 
+          con<lb break="no" ed="#P" n="47"/>ceptus, seu juxta modum nostrum concipiendi.
+          <lb ed="#P" n="48"/>Dtroque ergo modo recte explicato vera est
+          <lb ed="#P" n="49"/>conclusio. Prior tamen sensus est praecipue
+          <lb ed="#P" n="50"/>in tentus, etin eo est maxime attendenda 
+          diffe<lb break="no" ed="#P" n="51"/>rentia inter relationes comparatas ad 
+          essen<lb break="no" ed="#P" n="52"/>tiam et essentiam comparatam ad relationes.
+        </p>
+        <p xml:id="szduep-159878-d1e400">
+          <lb ed="#P" n="53"/>6. Probatur ergo assertio quoad priorem
+          <lb ed="#P" n="54"/>sensum. Primo, quia divinitas est de essentia
+          <lb ed="#P" n="55"/>Patris, quod nullus dubitat: ergo est de es-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sentia Paternitatis et idem est de caeteris 
+          per<lb break="no" ed="#P" n="57"/>sonis. Probatur consequentia, quia in divinis
+          <lb ed="#P" n="58"/>ita comparantur abstractum et concretum, ut
+          <lb ed="#P" n="59"/>nihil essentialiter includat unum, quod non
+          <lb ed="#P" n="60"/>includat aliud. Praesertim quando sermo est
+          <lb ed="#P" n="61"/>de concreto immediato et adaequato ipsi 
+          abs<lb break="no" ed="#P" n="62"/>tracto, ut infra capite decimo, et latius libro
+          <lb ed="#P" n="63"/>septimo constabit. Et nunc breviter 
+          declara<lb break="no" ed="#P" n="64"/>tus, quia concretum, in Deo nihil aliud est,
+          <lb ed="#P" n="65"/>quam ipsa forma subsistens, propter summam
+          <lb ed="#P" n="66"/>Dei actualitatem et simplicitatem. Si ergo in
+          <lb ed="#P" n="67"/>praesenti Pater nihil aliud est, quam ipsa 
+          Pa<lb break="no" ed="#P" n="68"/>ternitas, ut passim loquitur D. Thomas 
+          praeser<lb break="no" ed="#P" n="69"/>tim, quaest. 28 et 29, primae partis: ergo 
+          Pa<lb break="no" ed="#P" n="70"/>ternitas subsistens essentialiter includit, 
+          quid<lb break="no" ed="#P" n="71"/>quid includit Pater. Est autem subsistens ex
+          <lb ed="#P" n="72"/>prcpria ratione relativa, ut supra ostensum
+          <lb ed="#P" n="73"/>est: ergo relatio illa in propria ratione sua
+          <lb ed="#P" n="74"/>necessario includit essentiam.
+        </p>
+        <p xml:id="szduep-159878-d1e452">
+          <lb ed="#P" n="75"/>7. Secunda ratio sit, quia quaelibet relatio
+          <lb ed="#P" n="76"/>divina, Paternitas, verbi gratia, est Deus, ergo
+          <lb ed="#P" n="77"/>est essentialiter Deus, ergo includit in suo
+          <lb ed="#P" n="78"/>conceptu essentialem deitatem. Antecedens
+          <lb ed="#P" n="79"/>certum est, tum ex Conciliis supra citatis, tum
+          <lb ed="#P" n="80"/>etiam, quia quidquid est in Deo, est Deus, ut
+          <lb ed="#P" n="81"/>ex commune axioma theologorum omnium,
+          <lb ed="#P" n="82"/>quia hoc necessarium est ad perfectionem Dei.
+          <lb ed="#P" n="83"/>Et probari etiam potest ex dictis supra contra
+          <lb ed="#P" n="84"/>Gilbertum. Secunda item consequentia 
+          mani<lb break="no" ed="#P" n="85"/>festa est, nam impossibile est, aliquid esse 
+          es<lb break="no" ed="#P" n="86"/>sentialiter tale, nisi in suo conceptu essentiali
+          <lb ed="#P" n="87"/>includat tale praedicatum, seu formam, a qua
+          <lb ed="#P" n="88"/>illud desumitur.
+        </p>
+        <p xml:id="szduep-159878-d1e485">
+          <lb ed="#P" n="89"/>8. Primam autem illationem aliqui negant,
+          <lb ed="#P" n="90"/>dicentes, Relationem esse identice Deum, non
+          <lb ed="#P" n="91"/>tamen essentialiter. Sicut e converso, Deus est
+          <lb ed="#P" n="92"/>Pater, et Deitas est Paternitas, et tamen non
+          <lb ed="#P" n="93"/>essentialiter, juxta nostram sententiam, sed
+          <lb ed="#P" n="94"/>identice. Nihilominus in hac appellatione, seu
+          <lb ed="#P" n="95"/>in hoc praedicato, Deus, existimo 
+          consequen<lb break="no" ed="#P" n="96"/>tiam esse optimam. Quae probatur primo, quia
+          <lb ed="#P" n="97"/>quidquid est Deus, est summe perfectum, quod
+          <lb ed="#P" n="98"/>esse, aut concipi potest, sed majoris 
+          perfectio<lb break="no" ed="#P" n="99"/>nis est includere essentialiter deitatem, quam
+          <lb ed="#P" n="100"/>quocumque alio modo : ergo quidquid vere est
+          <lb ed="#P" n="101"/>Deus, est essentialiter Deus. Secundo, quia 
+          ip<lb break="no" ed="#P" n="102"/>samet denominatio Dei est denominatio 
+          essen<lb break="no" ed="#P" n="103"/>tialis : nam sumitur a natura essentialiter
+          <lb ed="#P" n="104"/>constituente talem rem. Propter quod existimo,
+          <lb ed="#P" n="105"/>nihil esse in Deo, in quo non intime et 
+          essen<lb break="no" ed="#P" n="106"/>tialiter non includatur divinitas. Neque est 
+          si<lb break="no" ed="#P" n="107"/>mile, quod objiciebatur, quia esse Patrem non
+          <lb ed="#P" n="108"/>est denominatio essentialis, sed personalis:
+          <lb ed="#P" n="109"/>nec Paternitas est talis perfectio, cujus 
+          essen<lb break="no" ed="#P" n="110"/>tialis inclusio necessaria sit ad summam per-
+          <pb ed="#P" n="634"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fectionem entis, loquendo, ut loquimur, 
+          for<lb break="no" ed="#P" n="2"/>maliter de Paternitate et non tantum 
+          eminen<lb break="no" ed="#P" n="3"/>ter, ut supra declaratum est.
+        </p>
+        <p xml:id="szduep-159878-d1e547">
+          <lb ed="#P" n="4"/>9. Atque ex his facile probatur, et 
+          declara<lb break="no" ed="#P" n="5"/>tur assertio in alio sensu, scilicet, in ordine
+          <lb ed="#P" n="6"/>ad nostrum modum concipiendi. Circa quam
+          <lb ed="#P" n="7"/>partem advertere oportet, duobus modis 
+          in<lb break="no" ed="#P" n="8"/>telligi posse unum conceptum objectivum 
+          in<lb break="no" ed="#P" n="9"/>cludi in alio. Primo, ut distincte, ac 
+          formali<lb break="no" ed="#P" n="10"/>ter objectum conceptui formali, id est, ut 
+          dis<lb break="no" ed="#P" n="11"/>tincte et in se consideratum. Secundo, ut 
+          con<lb break="no" ed="#P" n="12"/>fuse contentum et inclusum in illo objecto,
+          <lb ed="#P" n="13"/>quod distincte cogitatur. Priori modo non est
+          <lb ed="#P" n="14"/>dubium, quin possit cogitari a nobis distincte
+          <lb ed="#P" n="15"/>et expresse Paternitas, non concipiendo 
+          dis<lb break="no" ed="#P" n="16"/>tincte essentiam. Quod etiam in conceptu 
+          in<lb break="no" ed="#P" n="17"/>ferioris respectu superioris sape contingit,
+          <lb ed="#P" n="18"/>quia nimirum ipsummet inferius non exacte
+          <lb ed="#P" n="19"/>penetratur, nec comprehensive cognoscitur
+          <lb ed="#P" n="20"/>per talem conceptum: non ergo loquimur in
+          <lb ed="#P" n="21"/>hoc sensu in praedicta assertione. Posteriori
+          <lb ed="#P" n="22"/>autem modo dicimus, necessario includi 
+          essen<lb break="no" ed="#P" n="23"/>tiam in divina relatione, etiam prout a nobis
+          <lb ed="#P" n="24"/>concepta. Hoc enim necessario sequitur ex
+          <lb ed="#P" n="25"/>priori puncto. Primo, quia id, quod est 
+          essen<lb break="no" ed="#P" n="26"/>tialiter superius necessario includitur dicto
+          <lb ed="#P" n="27"/>modo in conceptu inferioris, ut animal in 
+          con<lb break="no" ed="#P" n="28"/>ceptu hominis, ens in conceptu cujuscumque
+          <lb ed="#P" n="29"/>differentiae, vel modi quantumcumque 
+          sim<lb break="no" ed="#P" n="30"/>plicis, sed divina essentia comparatur ad 
+          re<lb break="no" ed="#P" n="31"/>lationes, etiam abstracte conceptas, tanquam
+          <lb ed="#P" n="32"/>essentialis forma communis, non secundum
+          <lb ed="#P" n="33"/>rationem tantum, sed secundum rem, ergo
+          <lb ed="#P" n="34"/>saltem confuse necessario includitur essentia
+          <lb ed="#P" n="35"/>in conceptibus relationum. Secundo, 
+          declara<lb break="no" ed="#P" n="36"/>tur in hunc modum, quia non potest concipi
+          <lb ed="#P" n="37"/>Paternitas divina, quin in ejus conceptu 
+          in<lb break="no" ed="#P" n="38"/>cludatur esse ens reale: vel ergo includitur
+          <lb ed="#P" n="39"/>ibi ens creatum, vel increatum, non enim 
+          po<lb break="no" ed="#P" n="40"/>test abstrahi, quia non agimus de ente in
+          <lb ed="#P" n="41"/>communi, sed de tali ente ordinis divini et in
+          <lb ed="#P" n="42"/>ipso Deo existente : tale autem ens non potest
+          <lb ed="#P" n="43"/>esse creatum, ut per se constat: ergo in 
+          con<lb break="no" ed="#P" n="44"/>ceptu suo includit, quod sit ens increatum,
+          <lb ed="#P" n="45"/>hoc autem esse non potest sine inclusione 
+          es<lb break="no" ed="#P" n="46"/>sentiae, ut superiori libro ostensum est: ergo
+          <lb ed="#P" n="47"/>in illo conceptu necessario includitur essentia
+          <lb ed="#P" n="48"/>saltem confuse, ut declaratum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

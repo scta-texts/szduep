@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="367"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-093243"><!-- t2-l2c8 -->
+        <head xml:id="szduep-093243-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-093243-Hd1e103" type="question-title">Quid senserint antiqui patres praesertim graeci, et inter eos chrysostomus de initio gratiae, vel praedestinationis ex operibus naturae</head>
+        <p xml:id="szduep-093243-d1e106">
+          <lb ed="#P" n="47"/>CAPUT VII.
+          <lb ed="#P" n="48"/>QUID SENSERINT ANTIQUI PATRES PRAESERTIM GRAECI,
+          <lb ed="#P" n="49"/>ET INTER EOS CHRYSOSTOMUS DE INITIO GRATIAE,
+          <lb ed="#P" n="50"/>VEL PRAEDESTINATIONIS EX OPERIBUS NATURAE.
+        </p>
+        <p xml:id="szduep-093243-d1e117">
+          <lb ed="#P" n="51"/>1. Opinio quorumdam .— Haec quaestio ad 
+          hu<lb break="no" ed="#P" n="52"/>jus puncti complementum necessaria visa est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>nequis offendat, vel legens hos Patres antiquos,
+          <lb ed="#P" n="54"/>vel modernos scriptores, qui putant Graecos
+          <lb ed="#P" n="55"/>Patres praesertim Chrysostomum non recte de
+          <lb ed="#P" n="56"/>initio gratiae sensisse, propter nonnulla ejus
+          <lb ed="#P" n="57"/>loca, et verba sine dubio subobscura, 
+          praeser<lb break="no" ed="#P" n="58"/>tim hom. 17, in Joann. et 12, ad Hebraeos,
+          <lb ed="#P" n="59"/>ubi inter alia (inquit) Deum non pravenire 
+          vo<lb break="no" ed="#P" n="60"/>luntates, ne nostram teneret libertatem ; sed 
+          ex<lb break="no" ed="#P" n="61"/>pectare, ut nos incipiamus: deinde vero 
+          ad<lb break="no" ed="#P" n="62"/>jungere dona sua: unde Massilienses hoc
+          <lb ed="#P" n="63"/>praecipue argumento contra Augustinum 
+          ute<lb break="no" ed="#P" n="64"/>bantur, quod ejus doctrina nova videretur et
+          <lb ed="#P" n="65"/>superioribus Patribus contraria. Et videntur
+          <lb ed="#P" n="66"/>praecipue intelligere Chrysostomum, nam 
+          Cas<lb break="no" ed="#P" n="67"/>sianus, Massilius, praecipuus auctor discipulus
+          <lb ed="#P" n="68"/>fuit Chrysostomi , cujus doctrinam imitari
+          <lb ed="#P" n="69"/>profitetur, ut constat ex lib. de Incar. Et ex
+          <lb ed="#P" n="70"/>locis supra citatis apparet, nihil amplius 
+          di<lb break="no" ed="#P" n="71"/>cere, quam Chrysostomus. Unde si 
+          Chrysosto<lb break="no" ed="#P" n="72"/>mum interpretari velimus, eadem ratione 
+          Cas<lb break="no" ed="#P" n="73"/>sianum, Faustum et reliquos exponere 
+          pote<lb break="no" ed="#P" n="74"/>rimus.
+        </p>
+        <p xml:id="szduep-093243-d1e174">
+          <lb ed="#P" n="75"/>2. Patres antiquos recte de causa 
+          pre<lb break="no" ed="#P" n="76"/>destinationis sensisse. — Prima conjectura. 
+          <lb ed="#P" n="77"/>Haec sententia mihi nullo modo probari 
+          po<lb break="no" ed="#P" n="78"/>test: nam praeterquam quod per se 
+          consen<lb break="no" ed="#P" n="79"/>taneum est pietati et rationi, sanctos Patres
+          <lb ed="#P" n="80"/>orthodoxe exponere, ubi commode fieri potest,
+          <lb ed="#P" n="81"/>multa in praesenti occurrunt propter quae 
+          vi<lb break="no" ed="#P" n="82"/>detur incredibile, Chrysostomum, vel alios 
+          Pa<lb break="no" ed="#P" n="83"/>tres in ea fuisse sententia. Primo quidem,
+          <lb ed="#P" n="84"/>quia doctrina a nobis confirmata tain clare, et
+          <lb ed="#P" n="85"/>manifeste docetur a Paulo (sicut vidimus) ut
+          <lb ed="#P" n="86"/>non potuerint dicti Patres maxime 
+          Chrisosto<lb break="no" ed="#P" n="87"/>mus mentem Pauli et sensum ignorare, quod
+          <lb ed="#P" n="88"/>si non ignorarunt, certe non contradixerunt.
+        </p>
+        <p xml:id="szduep-093243-d1e208">
+          <lb ed="#P" n="89"/>3. Secunda conjectura.—Secundo, quia 
+          Coe<lb break="no" ed="#P" n="90"/>lestinus papa in epistola ad Gallos, confirmando
+          <lb ed="#P" n="91"/>Augustini doctrinam, reprehendit 
+          contradic<lb break="no" ed="#P" n="92"/>tionem Massiliensium, ut novitatem 
+          pernicio<lb break="no" ed="#P" n="93"/>sam, et contrariam doctrinae Patrum. Neque
+          <lb ed="#P" n="94"/>est verisimile, tam facile fuisse approbaturum
+          <lb ed="#P" n="95"/>Augustini doctrinam, si putasset esse 
+          contra<lb break="no" ed="#P" n="96"/>riam prioribus Patribus.
+        </p>
+        <p xml:id="szduep-093243-d1e228">
+          <lb ed="#P" n="97"/>Tertia conjectura.—Vertio simile 
+          argumen<lb break="no" ed="#P" n="98"/>tum sumi potest ex Concilio Arausicano quoad
+          <lb ed="#P" n="99"/>involvit auctoritatem Leonis papae, approbat
+          <lb ed="#P" n="100"/>enim sententiam Augustini, et in principio,
+          <lb ed="#P" n="101"/>et fine canonum dicit, illam sententiam esse
+          <lb ed="#P" n="102"/>acceptam a Patribus. Quod item confirmat
+          <lb ed="#P" n="103"/>Vincentius Lyrinensis, libro contra prophana
+          <lb ed="#P" n="104"/>novitates, capite ultimo.
+        </p>
+        <p xml:id="szduep-093243-d1e248">
+          <lb ed="#P" n="105"/>4. Quarta conjectura. — Quarto item 
+          sumi<lb break="no" ed="#P" n="106"/>tur ex consensione Episcoporum Orientalium
+          <lb ed="#P" n="107"/>in Concilio Palaestino, quod refert Augustinus,
+          <pb ed="#P" n="368"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>epist. 106, c. 11 et 12, dicens ibi fuisse 
+          dam<lb break="no" ed="#P" n="2"/>natam Pelagii sententiam jam exortam , et
+          <lb ed="#P" n="3"/>sententiam Semipelagianorum antequam esset
+          <lb ed="#P" n="4"/>exorta, quia in veritatibus ibi definiti virtute
+          <lb ed="#P" n="5"/>anathematizata fuit. Graeci tamen Episcopi in
+          <lb ed="#P" n="6"/>suis conciliis maxime adhaerere solent 
+          senten<lb break="no" ed="#P" n="7"/>tiis Patrum Graecorum : ergo non est 
+          verisi<lb break="no" ed="#P" n="8"/>mile contra eorum mentem definivisse. Quod.
+          <lb ed="#P" n="9"/>argumentum maxime probat de Chrysostomo,
+          <lb ed="#P" n="10"/>qui vel eo tempore vivebat, et aliqui censent
+          <lb ed="#P" n="11"/>probabile adfuisse illi Concilio, vel certe ejus
+          <lb ed="#P" n="12"/>doctrina in manibus omnium tunc versabatur,
+          <lb ed="#P" n="13"/>et in maxima aestimatione habebatur.
+        </p>
+        <p xml:id="szduep-093243-d1e290">
+          <lb ed="#P" n="14"/>5. Quinta conjectura. — Quinto hinc D. 
+          Au<lb break="no" ed="#P" n="15"/>gustinus in eadem Epistola 106, circa finem,
+          <lb ed="#P" n="16"/>absolute profert, catholicam Ecclesiam semper
+          <lb ed="#P" n="17"/>hanc doctrinam tenuisse, et lib. de praedest.
+          <lb ed="#P" n="18"/>Sanct., cap. 14, respondens ad hanc 
+          objectio<lb break="no" ed="#P" n="19"/>nem ex Patribus: Quid opus est (inquit) uteorum
+          <lb ed="#P" n="20"/>scrutemur opuscula, qui priusquam heec heeresis
+          <lb ed="#P" n="21"/>oriretur non habuerunt necessitatem in hac 
+          dif<lb break="no" ed="#P" n="22"/>ficili queestione versari : quod procul dubio 
+          fa<lb break="no" ed="#P" n="23"/>cerent, si respondere talibus cogerentur, unde
+          <lb ed="#P" n="24"/>factun est, ut de gratia Dei quid sentirent,
+          <lb ed="#P" n="25"/>breviter, et transitorie attingerent. Non ergo
+          <lb ed="#P" n="26"/>sentis, doctrinam Patrum suae esse contrariam,
+          <lb ed="#P" n="27"/>sed potius in illa virtute, et breviter contineri.
+          <lb ed="#P" n="28"/>Unde in alis locis semper bene 
+          Chrysosto<lb break="no" ed="#P" n="29"/>mum interpretatur, ut videre licet, libr. de
+          <lb ed="#P" n="30"/>Nat. et Gratia, cap. 64, et maxime lib. 1, 
+          con<lb break="no" ed="#P" n="31"/>tra Julianum, c. 6 et 7, lib. 2, c. 6, ubi inter
+          <lb ed="#P" n="32"/>alia dicit (quod valde notandum est): 
+          Chrysos<lb break="no" ed="#P" n="33"/>tomum eo tempore secure fuisse locutum in 
+          Ec<lb break="no" ed="#P" n="34"/>clesia catholica : quia Pelagiani nondum erant
+          <lb ed="#P" n="35"/>exorti, et a catholicis recte intelligebutur.
+        </p>
+        <p xml:id="szduep-093243-d1e340">
+          <lb ed="#P" n="36"/>6. Sexta conjectura. — Sexto addo, divum
+          <lb ed="#P" n="37"/>Augustinum saepe confirmare doctrinam suam
+          <lb ed="#P" n="38"/>testimoniis antiquorum Patrum, nam, lib. de
+          <lb ed="#P" n="39"/>praedest. Sanct., in principio, et de Bono 
+          per<lb break="no" ed="#P" n="40"/>sever., cap. 14, affert illam sententiam 
+          Cy<lb break="no" ed="#P" n="41"/>priani : In mullo gloriandum , quia nostrum
+          <lb ed="#P" n="42"/>nihil est, putatque esse sufficientem ad totam
+          <lb ed="#P" n="43"/>doctrinam suam confirmandam. Simili modo
+          <lb ed="#P" n="44"/>de Bono perseverantiae, cap. 19 et 23, affert
+          <lb ed="#P" n="45"/>Ambrosium propter verba quaedam generalia:
+          <lb ed="#P" n="46"/>Non est in potestate nostra cor mewn, et orare
+          <lb ed="#P" n="47"/>Dewn. gratie spiritualis est. Rursus eodem
+          <lb ed="#P" n="48"/>cap. 19, affert Nazianzenum, oratione de 
+          pas<lb break="no" ed="#P" n="49"/>chate 44, solum, quia habet verba similia 
+          ge<lb break="no" ed="#P" n="50"/>neralia. At nos simili modo addere possumus
+          <lb ed="#P" n="51"/>Basilium, homilia 22, de Humilitate 
+          dicen<lb break="no" ed="#P" n="52"/>tem : Vilul tibi relictum est, o homo, de quo 
+          glo<lb break="no" ed="#P" n="53"/>riari possis , et infra: Tibi non innotuit Deus
+          <lb ed="#P" n="54"/>per tuam justitiam, sed tu illi per suum 
+          bonita<lb break="no" ed="#P" n="55"/>tem, Cyrillum Hierosolym., Cateches. 1, dicen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem: Dei est gratiam conferre, tuum acquirere, et
+          <lb ed="#P" n="57"/>custodire. Significans primum esse solius Dei,
+          <lb ed="#P" n="58"/>secundum vero esse nostrum, non tamen sine
+          <lb ed="#P" n="59"/>adjutorio Dei. ut in simili declaravit 
+          Augusti<lb break="no" ed="#P" n="60"/>nus 1, Retract, cap. 23 et statim iterum 
+          dice<lb break="no" ed="#P" n="61"/>mus. Et infra subdit idem Cyrillus : Ne spernas
+          <lb ed="#P" n="62"/>gratiam, quia gratis datur. Philo aequalis 
+          Epi<lb break="no" ed="#P" n="63"/>phanio , et per divinam revelationem ab ipse
+          <lb ed="#P" n="64"/>consecratus Episcopus, in lib. 1, in Cant., in
+          <lb ed="#P" n="65"/>tom. 4, Biblioth. Sanct. circa illa verba. 
+          erri<lb break="no" ed="#P" n="66"/>bilis ut Castrorum acies ordinata, cum dixisset,
+          <lb ed="#P" n="67"/>bona opera esse necessaria, subdit : S'ed prius
+          <lb ed="#P" n="68"/>sponsus descendat in hortum oportet, nihil enim
+          <lb ed="#P" n="69"/>adid potest humana fragilitas, nisi divina gratia
+          <lb ed="#P" n="70"/>praeventa. Et infra, Gratia (inquit) alliciendo
+          <lb ed="#P" n="71"/>incigit. Sanctus etiam Diadochus, lib. de 
+          Per<lb break="no" ed="#P" n="72"/>fect. Spir.,cap. 89, egregie declarat processum
+          <lb ed="#P" n="73"/>gratiae , et quomodo ab ipsa bona omnia 
+          inci<lb break="no" ed="#P" n="74"/>piant. His adjungere possumus Hilarium, Ps.
+          <lb ed="#P" n="75"/>118, Octon. 4, circa illa verba : Ft ne auferas
+          <lb ed="#P" n="76"/>de oreeo verbum veritatis. Omnia (unquit) oult
+          <lb ed="#P" n="77"/>a bonitate suo inchoari, et Octon. 3, circa id:
+          <lb ed="#P" n="78"/>Inclina cor mewn in testimonia tua. Prius (
+          1n<lb break="no" ed="#P" n="79"/>quit) quae a Deo sunt cum honore proposuit. Ex
+          <lb ed="#P" n="80"/>Hieronymo etiam multa sumi possunt Dialog.
+          <lb ed="#P" n="81"/>1, contra Pelagianum , quae in superioribus
+          <lb ed="#P" n="82"/>attigimus.
+        </p>
+        <p xml:id="szduep-093243-d1e447">
+          <lb ed="#P" n="83"/>7. Ad Chrysostomum veniamus, qui, hom.
+          <lb ed="#P" n="84"/>28, in Genes., versus finem, egregie declarat,
+          <lb ed="#P" n="85"/>quomodo per divinam gratiam fides hominibus
+          <lb ed="#P" n="86"/>suadeatur, et cum proposuisset multa 
+          impedi<lb break="no" ed="#P" n="87"/>menta, subdit, Praevia gratia sustulit hec 
+          om<lb break="no" ed="#P" n="88"/>nia, et homilia 38, inter alia. Alioquin preces
+          <lb ed="#P" n="89"/>nostras semper preveniens. Et idem egregie
+          <lb ed="#P" n="90"/>declarat, quomodo fides, et petitio Chanamnee
+          <lb ed="#P" n="91"/>a gratia initium habuerit. tem homilia 12, in
+          <lb ed="#P" n="92"/>primam ad Corinth., circa illa verba, cap. 4:
+          <lb ed="#P" n="93"/>Quid habes, quod non accepisti ^ Acceptum 
+          ha<lb break="no" ed="#P" n="94"/>bes (inquit) non hoc, aut illud, sed omnia quae
+          <lb ed="#P" n="95"/>habes ; non enim haec recte facta, tua sunt, sed
+          <lb ed="#P" n="96"/>divine gratiae, etiamsi fidem dicas, ea eatitit
+          <lb ed="#P" n="97"/>ex vocatione : Multa similia habet hom. 8, in
+          <lb ed="#P" n="98"/>eadem epist., circa illa verba, unicuique sicut
+          <lb ed="#P" n="99"/>divisit, etc., et hom. 8, ad Philip. Deus qui 
+          ope<lb break="no" ed="#P" n="100"/>ratur in nobis, etc. Ft propensionem (inquit) 
+          vo<lb break="no" ed="#P" n="101"/>luntatis ipse nobis praebet, et operationem. 
+          Simi<lb break="no" ed="#P" n="102"/>lia homilia 38, ad Populum. Oportet humniliari,
+          <lb ed="#P" n="103"/>quod alios praetergressus in te Deus inclinavit.
+          <lb ed="#P" n="104"/>Et infra : Ne mercedem reputes, ut capias 
+          aer<lb break="no" ed="#P" n="105"/>cedem, gratia confitere salvari, ut ipse tibi se
+          <lb ed="#P" n="106"/>debitorem confiteatur. Alia postea referam.
+          <lb ed="#P" n="107"/>Atque hi omnes Augustinum praecesserunt.
+        </p>
+        <p xml:id="szduep-093243-d1e505">
+          <lb ed="#P" n="108"/>8. At eodem fere tempore fuit Marcus 
+          Ere<lb break="no" ed="#P" n="109"/>mita, cui simul cum Chrysostomus 
+          Massilien<lb break="no" ed="#P" n="110"/>sium sententia tribuitur, propter pauca ejus
+          <pb ed="#P" n="369"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>verba, quae infra referam ex libro de Paradiso.
+          <lb ed="#P" n="2"/>Ille autem tum ibi, tum in alio praecedenti 
+          li<lb break="no" ed="#P" n="3"/>bro de Paradiso et lege spirituali, egregie 
+          de<lb break="no" ed="#P" n="4"/>clarat totam doctrinam de gratia. Nam fere
+          <lb ed="#P" n="5"/>in principio sic ait: Primum omnium certo 
+          sci<lb break="no" ed="#P" n="6"/>mus. Dewn totius boni esse auctorem, principii,
+          <lb ed="#P" n="7"/>tum medi, tum finis - quod recte prosequitur
+          <lb ed="#P" n="8"/>perocto capita prima, et caput quadragesimum.
+          <lb ed="#P" n="9"/>Omnis virtutis initium Deus est, et cap. 47:
+          <lb ed="#P" n="10"/>Omne bonumn proficiscitur a Deo pro nutu 
+          dis<lb break="no" ed="#P" n="11"/>pensante. Cap. vero 53, habet sententiam 
+          no<lb break="no" ed="#P" n="12"/>tandam pro his, quae infra dicemus: Omne
+          <lb ed="#P" n="13"/>opus bonum, quod per nostram naturam 
+          opera<lb break="no" ed="#P" n="14"/>mur , tantum equidem facit , ut a contrario
+          <lb ed="#P" n="15"/>malo, aut vitio abstineamus : Ceterum eatra
+          <lb ed="#P" n="16"/>gratiam sanctificationis accessionem nobis 
+          fa<lb break="no" ed="#P" n="17"/>cere non potest. Alia multa habet c. 56 et c. 137
+          <lb ed="#P" n="18"/>et 168. Ex libro autem de Paradiso, solum 
+          affe<lb break="no" ed="#P" n="19"/>ro haec verba: Quod per gratiam donatur, non
+          <lb ed="#P" n="20"/>jam metiri debemus pro modo, et merito 
+          antecce<lb break="no" ed="#P" n="21"/>dentis infirmitatis, st quidem gratia jam non
+          <lb ed="#P" n="22"/>esset gratia.
+        </p>
+        <p xml:id="szduep-093243-d1e566">
+          <lb ed="#P" n="23"/>9. His addere possumus Cyrilium Alex. et
+          <lb ed="#P" n="24"/>Damascenum, Augustino posteriores, licet 
+          Cy<lb break="no" ed="#P" n="25"/>rillus fere fuerit aequalis. Ille igitur, lib. 1, in
+          <lb ed="#P" n="26"/>Joann., cap. 20, obiter exponens illud Pauli:
+          <lb ed="#P" n="27"/>Quid habes, quod non accepisti ? Non solum (
+          in<lb break="no" ed="#P" n="28"/>quit) esse, sed etiam bene esse et sic aut sic esse
+          <lb ed="#P" n="29"/>accipiunt. Et infra, sola libertate largientis 
+          di<lb break="no" ed="#P" n="30"/>tautur. Et lib. 10, in Joann., cap. 24, optime
+          <lb ed="#P" n="31"/>de hoc propositum exponit illud : Non vos me
+          <lb ed="#P" n="32"/>elegistis, sed ego elegi vos, Ego, inquit, notum
+          <lb ed="#P" n="33"/>me vobis ignorantibus feci clementia commotus.
+          <lb ed="#P" n="34"/>Et hoc exemplo declarat, Dewm. convertere 
+          in<lb break="no" ed="#P" n="35"/>dignos et repugnantes. Et lib. 5, in lsai. 25,
+          <lb ed="#P" n="36"/>attingens illa verba: Sa quis sitit, veniat ad
+          <lb ed="#P" n="37"/>me. Accipiant, inquit, uon ementes pecunia
+          <lb ed="#P" n="38"/>sed liberalissima, ac promptissima vocantis 
+          ma<lb break="no" ed="#P" n="39"/>nificentia. Infra vero subdit, per fidem caetera
+          <lb ed="#P" n="40"/>emi. Damascenus autem, lib. 2, de Fide, c. 30,
+          <lb ed="#P" n="41"/>sic de Deo scribit : /pse omnis boni principium
+          <lb ed="#P" n="42"/>et causa est, et sine ejus cooperatione et auilio
+          <lb ed="#P" n="43"/>impossibile esl nos, aut bonum velle aut agere :
+          <lb ed="#P" n="44"/>at in nolis est ammanere virtuti et sequi Deum
+          <lb ed="#P" n="45"/>nos ad illam vocantem.
+        </p>
+        <p xml:id="szduep-093243-d1e618">
+          <lb ed="#P" n="46"/>10. Locis Chrysostomi occurritur. — Sed
+          <lb ed="#P" n="47"/>quid ad Chrysostomum. Respondeo imprimis,
+          <lb ed="#P" n="48"/>cum non sit sibi contrarius, et quaedam verba
+          <lb ed="#P" n="49"/>cum aliis sint concilianda, potius ea quae 
+          diffi<lb break="no" ed="#P" n="50"/>cilia apparent, trahenda esse in bonum 
+          sen<lb break="no" ed="#P" n="51"/>sum aliorum, quam e converso, quia et facile
+          <lb ed="#P" n="52"/>fieri potest, et id est magis consentaneum 
+          ra<lb break="no" ed="#P" n="53"/>tioni, ac pietati. Deinde, quia in caeteris 
+          Pa<lb break="no" ed="#P" n="54"/>tribus fere eadem diligentia necessaria est,
+          <lb ed="#P" n="55"/>quam in eis adhibent, et admittunt moderni
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>auctores : non video autem curin Chrysostomo
+          <lb ed="#P" n="57"/>crediderint id fieri non posse. Ergo existimo,
+          <lb ed="#P" n="58"/>hos Patres imitatos esse Scripturam, quae 
+          in<lb break="no" ed="#P" n="59"/>terdum gratiae tribuit omnia, interdum 
+          ini<lb break="no" ed="#P" n="60"/>tium boni operis videtur ab homine postulare,
+          <lb ed="#P" n="61"/>Isai. 30: Hapectat Dominus ut misereatur 
+          ves<lb break="no" ed="#P" n="62"/>iri, 4 Reg. 3. Proparate corda vestra 
+          Domi<lb break="no" ed="#P" n="63"/>no. Et Psal. 148: Preeveni in maturitate et 
+          cla<lb break="no" ed="#P" n="64"/>mavi, et multa sunt similia, quae etiam 
+          Conci<lb break="no" ed="#P" n="65"/>lium Tridentinumaflert, sessione 6, et ea 
+          expo<lb break="no" ed="#P" n="66"/>nit, quia per haec admonemur libertatis nostrae
+          <lb ed="#P" n="67"/>vel excitamur, ut bene utendo una gratia,
+          <lb ed="#P" n="68"/>aliam impetremus, vel ad aliam disponamur,
+          <lb ed="#P" n="69"/>non vero significatur per verba similia, 
+          exor<lb break="no" ed="#P" n="70"/>dium salutis, vel praedestinationis esse ex 
+          no<lb break="no" ed="#P" n="71"/>bis. Eumdem ergo esse censeo sensum 
+          Chry<lb break="no" ed="#P" n="72"/>sostomi et antiquorum Patrum. Sed ad 
+          singu<lb break="no" ed="#P" n="73"/>las locutiones quae huic veritati obstare 
+          viden<lb break="no" ed="#P" n="74"/>tur, veniamus.
+        </p>
+        <p xml:id="szduep-093243-d1e686">
+          <lb ed="#P" n="75"/>11. Varie locutiones Patrum enodantur. —
+          <lb ed="#P" n="76"/>Prima locutio. —Prima est illa adducta, Deus
+          <lb ed="#P" n="77"/>nostras non prevenit voluntates, ne nostram t.-
+          <lb ed="#P" n="78"/>meret libertatem. Sed imprimis eadem 
+          reperi<lb break="no" ed="#P" n="79"/>tur apud Damascenum, libro 2, de Fide, c. 29
+          <lb ed="#P" n="80"/>et 30, lib. 4, c. 22, ubi dicit, Deun non 
+          pre<lb break="no" ed="#P" n="81"/>finire, seu preedestinare hos actus. Deinde 
+          Chry<lb break="no" ed="#P" n="82"/>sostomus, hom. 2, in Psal. 50, expresse dicit:
+          <lb ed="#P" n="83"/>Provocat nos Deus dicens, da et tu aliquid, et
+          <lb ed="#P" n="84"/>homil. 23, in Genes., circa finem, recta de
+          <lb ed="#P" n="85"/>Gratia praeveniente sentit. Optime vero 
+          homi<lb break="no" ed="#P" n="86"/>lia 44, in Joann. Generosi cujusdam animá est
+          <lb ed="#P" n="87"/>inspirationes divinas non abicere. Quod superno
+          <lb ed="#P" n="88"/>auatio fieri declarat. Respondeo igitur, ea 
+          lo<lb break="no" ed="#P" n="89"/>cutione solum intendere, Deum non 
+          praeveni<lb break="no" ed="#P" n="90"/>re voluntates nostras, eas ad unum 
+          determi<lb break="no" ed="#P" n="91"/>nando, vel quod perinde esset, physice 
+          praede<lb break="no" ed="#P" n="92"/>terminando. Et in idem redit quod D. Thomas
+          <lb ed="#P" n="93"/>ad Damascenum respondet locutum esse de
+          <lb ed="#P" n="94"/>praedestinatione necessitante.
+        </p>
+        <p xml:id="szduep-093243-d1e732">
+          <lb ed="#P" n="95"/>12. Secunda locutio. — Secunda locutio 
+          Chry<lb break="no" ed="#P" n="96"/>sostomi est, Deum expecture ut nos ancipiamus,
+          <lb ed="#P" n="97"/>ut ipsi perfectionem adjungat. Verumtamen et
+          <lb ed="#P" n="98"/>Nazianzenus, et Ambrosius ita loquuntur, quos
+          <lb ed="#P" n="99"/>Augustinus in suam sententiam adduxit. À
+          m<lb break="no" ed="#P" n="100"/>brosius enim, lib. 2, de Abraham, cap. 7, sic
+          <lb ed="#P" n="101"/>inquit : Talem te praebe bonis studiis et prompta
+          <lb ed="#P" n="102"/>fide, ut Deus vocet te. Similia habet in Ps. 118
+          <lb ed="#P" n="103"/>oct. 10, in principio etinilla verba, Fiat 
+          miseri<lb break="no" ed="#P" n="104"/>cordia tua, wt consoletur me. Nazianzenus vero,
+          <lb ed="#P" n="105"/>orat. 31, exponens illa verba Matth. 19: Non
+          <lb ed="#P" n="106"/>omnes capiunt hoc verbum, sed quibus datum
+          <lb ed="#P" n="107"/>est, volentibus (inquit) datum est. Hilarius 
+          prae<lb break="no" ed="#P" n="108"/>terea, loco supra citato. Est, inquit, a nobis
+          <lb ed="#P" n="109"/>cum oramus exordium - infra vero addit, 
+          Ora<lb break="no" ed="#P" n="110"/>tionis clamorem non vocis, sed fidei spiritu
+          <pb ed="#P" n="370"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>efferendum esse. Difficilius Hieronymus, 
+          dialo<lb break="no" ed="#P" n="2"/>go 3, contra Pelagianos ait: Nostrum sit 
+          vo<lb break="no" ed="#P" n="3"/>garc, illius tribuere, nostrum incipere, illius
+          <lb ed="#P" n="4"/>ficere. Et similiter optatus Milevitanus, lib. 2,
+          <lb ed="#P" n="5"/>contra Parmenianum, circa finem: Jostrum
+          <lb ed="#P" n="6"/>(inquit) est velle, nostrum est currere : Dei 
+          au<lb break="no" ed="#P" n="7"/>tem perficere : Denique Marcus Eremitanus, lib.
+          <lb ed="#P" n="8"/>de Paradiso, circa finem : Jubet (inquit) ut homo
+          <lb ed="#P" n="9"/>imprimis cognoscat et voluntatem depromat,
+          <lb ed="#P" n="10"/>Et infra, operis perfectio Dei est, voluntas 
+          au<lb break="no" ed="#P" n="11"/>tem hominis.
+        </p>
+        <p xml:id="szduep-093243-d1e797">
+          <lb ed="#P" n="12"/>13. Igitur omnes hi Patres solum docere 
+          in<lb break="no" ed="#P" n="13"/>tendunt gratiam non sanctificare, nec 
+          dispo<lb break="no" ed="#P" n="14"/>nere hominem adultum sine libera 
+          coopera<lb break="no" ed="#P" n="15"/>tione ejus, et hanc liberam cooperationem,
+          <lb ed="#P" n="16"/>quae inchoat in homine primam moralem 
+          dis<lb break="no" ed="#P" n="17"/>positionem bonam, vocant initium ex parte 
+          ho<lb break="no" ed="#P" n="18"/>minis, eo modo loquendi quo Concilium 
+          Arau<lb break="no" ed="#P" n="19"/>sicanum, canon. 5, vocavit voluntatem credendi
+          <lb ed="#P" n="20"/>initium fidei, vel salutis. Non ignorarunt 
+          au<lb break="no" ed="#P" n="21"/>tem citati Patres ante hanc hominis 
+          coopera<lb break="no" ed="#P" n="22"/>tionem antecedere divinam excitationem et
+          <lb ed="#P" n="23"/>vocationem. Quin potius Ambrosius 1, loco
+          <lb ed="#P" n="24"/>proxime citato, propter hanc vocationem 
+          cen<lb break="no" ed="#P" n="25"/>set dictum esse: JVon est volentis, neque 
+          cur<lb break="no" ed="#P" n="26"/>rentis. Ne te ipsum (inquit) justificares , sed
+          <lb ed="#P" n="27"/>omnia tribueres Deo, qui te vocavit. Et inidem
+          <lb ed="#P" n="28"/>fereredit dicere, quod hi Patres non loquuntur
+          <lb ed="#P" n="29"/>de initio totius justitiae, sed unius vel alterius
+          <lb ed="#P" n="30"/>beneficii divini, et sic vocant orationem, 
+          ini<lb break="no" ed="#P" n="31"/>tium illius doni, quod per illam impetratur :
+          <lb ed="#P" n="32"/>et sic exhortantur homines ut ipsi incipiant,
+          <lb ed="#P" n="33"/>ut Deus prosequatur. Quod maxime in 
+          Chry<lb break="no" ed="#P" n="34"/>sostomo notandum est, nam ad fideles 
+          loque<lb break="no" ed="#P" n="35"/>batur, quorum fidem verbo Dei, ut 
+          instru<lb break="no" ed="#P" n="36"/>mento, excitare conabatur, ut ipse saepe, 
+          di<lb break="no" ed="#P" n="37"/>serte declarat. Postulat ergo ab eis, ut 
+          inci<lb break="no" ed="#P" n="38"/>piant consentiendo gratiae Dei, non sine 
+          adju<lb break="no" ed="#P" n="39"/>torio ejusdem gratiae,utlocis aliis etiam exponit,
+          <lb ed="#P" n="40"/>et infra attingemus. Praesertimque in illa 
+          ho<lb break="no" ed="#P" n="41"/>milia 2, in Ps.. 50, dicit, Deum dare 
+          vocatio<lb break="no" ed="#P" n="42"/>nem suam indignis, ut commendet gratiam
+          <lb ed="#P" n="43"/>suam. Videri etiam potest, hom. 9, in Gen. 19,
+          <lb ed="#P" n="44"/>in acta, et quarto ad Ephesios.
+        </p>
+        <p xml:id="szduep-093243-d1e872">
+          <lb ed="#P" n="45"/>14. Addo denique, divum Augustinum 
+          in<lb break="no" ed="#P" n="46"/>terdum ita loqui, et hac expositione indigere.
+          <lb ed="#P" n="47"/>Nam lib. 83 quaestionum, quaest. 98, tractans
+          <lb ed="#P" n="48"/>illud. Cujus vult miseretur, et quem vult 
+          indu<lb break="no" ed="#P" n="49"/>rat: hoc dicit provenire: Em occultissimis
+          <lb ed="#P" n="50"/>meritis : nam in eo qui obduratur, preecedunt
+          <lb ed="#P" n="51"/>mala merita- et in eo etium, cujus Deus 
+          mise<lb break="no" ed="#P" n="52"/>retur, praecedunt occultissima merita, quem
+          <lb ed="#P" n="53"/>ibidem ait, praecedere justificationem. Neque
+          <lb ed="#P" n="54"/>est verum, quod quidam respondent, 
+          Augusti<lb break="no" ed="#P" n="55"/>num retractasse hanc sententiam , quando re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ractavit aliam de merito fidei, quam docuerat
+          <lb ed="#P" n="57"/>super epistolam ad Romanos: nam hanc 
+          re<lb break="no" ed="#P" n="58"/>tractationem habet Augustinus, lib. 1 
+          he<lb break="no" ed="#P" n="59"/>tract. cap. 23, et statim cap. 26, agens de 
+          il<lb break="no" ed="#P" n="60"/>lamet, q. 68, nihil retractat, sed confirmat et
+          <lb ed="#P" n="61"/>exponit quod dixerat, nimirum : Ante illa 
+          bo<lb break="no" ed="#P" n="62"/>na merita quantumnvis occulta antecedere 
+          voca<lb break="no" ed="#P" n="63"/>tionem sine merito. Unde obiter constat (quod
+          <lb ed="#P" n="64"/>etiam notandum est) per justificationem in
+          <lb ed="#P" n="65"/>illo loco non intelligere totum progressum ad
+          <lb ed="#P" n="66"/>justitiam a primo exordio, sed infusionem 
+          gra<lb break="no" ed="#P" n="67"/>tiae et remissionem peccati: quam homo 
+          ali<lb break="no" ed="#P" n="68"/>quo modo meretur, per poenitentiam ex fide
+          <lb ed="#P" n="69"/>conceptam.
+        </p>
+        <p xml:id="szduep-093243-d1e931">
+          <lb ed="#P" n="70"/>15. Tertia locutio. — Tertia locutio et 
+          diffi<lb break="no" ed="#P" n="71"/>cilis apud Chrysostomum est, quia plus 
+          vide<lb break="no" ed="#P" n="72"/>tur tribuere rationi naturali et operibus ejus,
+          <lb ed="#P" n="73"/>quam expediat. Hom, 42, in Genes. inde 
+          exag<lb break="no" ed="#P" n="74"/>gerat sanctitatem Abrahae. Qeuod non per fidem
+          <lb ed="#P" n="75"/>a parentibus acceptam, sed per scientiam a 
+          na<lb break="no" ed="#P" n="76"/>tura inditam adeo proficit. Et hom. 3, in 1, ad
+          <lb ed="#P" n="77"/>Cor. dicit: Aliquos philosophos per lumen 
+          ra<lb break="no" ed="#P" n="78"/>Lionis non solum preecepta servasse, sed etiam
+          <lb ed="#P" n="79"/>aliquando superasse. Sed mihi difficilior est 
+          lo<lb break="no" ed="#P" n="80"/>cutio Nazianzeni, oratione de Patre, ubi post
+          <lb ed="#P" n="81"/>laudes ejus ante fidem acceptam, subdit. 
+          Prop<lb break="no" ed="#P" n="82"/>ter heec (ut opinor) fidem loco prema accegnt.
+          <lb ed="#P" n="83"/>Et tamen (si Augustinus bene citat 
+          Nazianze<lb break="no" ed="#P" n="84"/>num) necessario a nobis est exponendus. Et
+          <lb ed="#P" n="85"/>ibi quidem scholiastes respondet, locutum esse
+          <lb ed="#P" n="86"/>de merito improprio pro aliquali dispositione.
+          <lb ed="#P" n="87"/>Ego vero censeo, illum non sensisse, fidem
+          <lb ed="#P" n="88"/>fuisse praemium aliquo modo debitum talibus
+          <lb ed="#P" n="89"/>operibus, sed cum talia opera de se 
+          proportio<lb break="no" ed="#P" n="90"/>nata essent, vel apta ad aliqualem 
+          remunera<lb break="no" ed="#P" n="91"/>tionem (juxta doctrinam D. Thomae 1, 2,
+          <lb ed="#P" n="92"/>q. 21,) dicit, Deum noluisse propter illa dare
+          <lb ed="#P" n="93"/>praemium proportionatum, quod futurum erat
+          <lb ed="#P" n="94"/>inferioris ordinis , sed loco illius dedisse 
+          fi<lb break="no" ed="#P" n="95"/>dem, ex gratia et magnificentia sua.
+        </p>
+        <p xml:id="szduep-093243-d1e990">
+          <lb ed="#P" n="96"/>16. Chrysostomus autem facilius exponitur.
+          <lb ed="#P" n="97"/>Solum enim laudat Abraham, tum quia ita se
+          <lb ed="#P" n="98"/>gessit per naturalem cognitionem, ut 
+          impedi<lb break="no" ed="#P" n="99"/>mentum non posuerit divinae vocationi, juxta
+          <lb ed="#P" n="100"/>ea, quae infra dicemus. Tum etiam, quia cum
+          <lb ed="#P" n="101"/>non habuerit fidem a parentibus, facilem se
+          <lb ed="#P" n="102"/>praebuit ad obediendum divinae revelationt et
+          <lb ed="#P" n="103"/>vocationi. Nunquam autem Chrysostomus 
+          ne<lb break="no" ed="#P" n="104"/>gavit, saltem hoc posterius factum esse cum
+          <lb ed="#P" n="105"/>adjutorio divinae gratiae. Et ad eumdem 
+          mo<lb break="no" ed="#P" n="106"/>dum intelligo, quod dixit Gregorius, hom. 13,
+          <lb ed="#P" n="107"/>de discipulis euntibus in Emmaus : Awdiendo 
+          il<lb break="no" ed="#P" n="108"/>luminati non sunt, faciendo illuminati sunt.
+          <lb ed="#P" n="109"/>Non enim intelligit per illud opus meruisse 
+          il<lb break="no" ed="#P" n="110"/>luminationem, cum dicat caruisse fide, sed si-
+          <pb ed="#P" n="371"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gnificat fuisse aptum opus illud, ut Christus
+          <lb ed="#P" n="2"/>inde sumeret occasionem illuminandi illos.
+          <lb ed="#P" n="3"/>Aliud vero quod de philosophis dicebat 
+          Chry<lb break="no" ed="#P" n="4"/>sostomus , per lumen rationis servasse 
+          prae<lb break="no" ed="#P" n="5"/>cepta, non est intelligendum de omnibus 
+          prae<lb break="no" ed="#P" n="6"/>ceptis, sed de aliquibus: Dicit autem interdum
+          <lb ed="#P" n="7"/>superasse, quia bona etiam aliqua faciebant,
+          <lb ed="#P" n="8"/>quae non erant in praecepto, ut interdum 
+          cas<lb break="no" ed="#P" n="9"/>titatem servare aliquo modo. Quamvis alibi
+          <lb ed="#P" n="10"/>etiam advertat, hec ipsa non semper bene, ac
+          <lb ed="#P" n="11"/>honeste fecisse, id est, recta intentione, ut 
+          vi<lb break="no" ed="#P" n="12"/>dere licet in homil. 8, ejusdem epistolae 1, ad
+          <lb ed="#P" n="13"/>Corint., et videri etiam potest Cassianus, 
+          col<lb break="no" ed="#P" n="14"/>lat. 13, cap. 5.
+        </p>
+        <p xml:id="szduep-093243-d1e1060">
+          <lb ed="#P" n="15"/>17. Quarta locutio — Quarta locutio 
+          Chry<lb break="no" ed="#P" n="16"/>sostomi est, Deum vocare eum, quem scit esse
+          <lb ed="#P" n="17"/>cooperaturum, ut patet ex hom. 31 et 96, in
+          <lb ed="#P" n="18"/>Matth., et homilia de conversione Pauli, et
+          <lb ed="#P" n="19"/>lib. 1, de compunctione cordis, in principio:
+          <lb ed="#P" n="20"/>sed difficilius loquitur Cyrillus Alex., lib. 3, in
+          <lb ed="#P" n="21"/>Joann., cap. 39, et lib. 4, cap. 6et 7, dicens:
+          <lb ed="#P" n="22"/>Dewum vocare eos, qui digni sunt. Addo ctiam
+          <lb ed="#P" n="23"/>fere similem locutionem reperiri in Augustino,
+          <lb ed="#P" n="24"/>epistola 49, q. 2, etserm. 76, de verbis Apostoli.
+          <lb ed="#P" n="25"/>Hi ergo Patres his locis non loquuntur de 
+          ope<lb break="no" ed="#P" n="26"/>ribus, quae per vires naturae fiunt, sed per 
+          vi<lb break="no" ed="#P" n="27"/>res gratiae, et efficacia ipsius vocationis: et ideo
+          <lb ed="#P" n="28"/>haec locutio ad praesentem quaestionem non 
+          per<lb break="no" ed="#P" n="29"/>tinet, sed ad summum potest favere alteri 
+          opi<lb break="no" ed="#P" n="30"/>nioni infra tractandae. Deinde non loquuntur
+          <lb ed="#P" n="31"/>causaliter. id est, Deum vocare hominem, quia
+          <lb ed="#P" n="32"/>praenovit consensurum, sed solum 
+          praenoscen<lb break="no" ed="#P" n="33"/>do illum consensurum et cooperaturum 
+          voca<lb break="no" ed="#P" n="34"/>toni, et sic futurum esse dignum 
+          subsequen<lb break="no" ed="#P" n="35"/>tis gratiae. At hoc non solum non repugnat
+          <lb ed="#P" n="36"/>gratiae, verum illum potius commendat : nam
+          <lb ed="#P" n="37"/>dare vocationem, nimirum efficacem , eo 
+          tem<lb break="no" ed="#P" n="38"/>pore, quo Deus novit penetraturam animam (ut
+          <lb ed="#P" n="39"/>Chrysostomus loquitur) ex maxima 
+          benevolen<lb break="no" ed="#P" n="40"/>tia Dei procedit ; imo haec est gratia, quam 
+          Au<lb break="no" ed="#P" n="41"/>gustinus imprimis exaggerat. Denique illa
+          <lb ed="#P" n="42"/>Praescientia futurae cooperationis , aut 
+          condi<lb break="no" ed="#P" n="43"/>tionata intelligi potest, aut absoluta. Priori
+          <lb ed="#P" n="44"/>modo est res facilis, et consentanea gratiae, ut
+          <lb ed="#P" n="45"/>constat ex saepe dictis. Posteriori autem modo
+          <lb ed="#P" n="46"/>jam supponit gratuitam voluntatem Dei, et sic
+          <lb ed="#P" n="47"/>etiam vere dici potest, Deum vocare efficaciter
+          <lb ed="#P" n="48"/>quem novit consensurum, quia hoc praenovit
+          <lb ed="#P" n="49"/>in suo gratuito decreto, quo nimirum, jam
+          <lb ed="#P" n="50"/>praeordinavit illum ad consentiendum. 
+          Quo<lb break="no" ed="#P" n="51"/>modo solet etiam Augustinus dicere: Deum
+          <lb ed="#P" n="52"/>predestinare, que fuerat ipse facturus.
+        </p>
+        <p xml:id="szduep-093243-d1e1145">
+          <lb ed="#P" n="53"/>18. Quinta locutio. — Quinta locutio 
+          Chry<lb break="no" ed="#P" n="54"/>sostomi est, Deum exigere ab homine poenaten -
+          <lb ed="#P" n="55"/>tiam, quae ipsa per se non sufficit ad tollendum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>peccatum: statim vero accedente gratia et 
+          mise<lb break="no" ed="#P" n="57"/>ricordia Dei peccatum remitti. Ita loquitur, 
+          ho<lb break="no" ed="#P" n="58"/>milia 17 et 42, in Genes., et saepe alias, ex qua
+          <lb ed="#P" n="59"/>locutione colligunt dicti auctores, 
+          Chrysosto<lb break="no" ed="#P" n="60"/>mum requirere poenitentiam ex solo libero 
+          ar<lb break="no" ed="#P" n="61"/>bitrio elicitam, quae a Deo impetret 
+          remissio<lb break="no" ed="#P" n="62"/>nem peccati : quia si loqueretur de 
+          poeniten<lb break="no" ed="#P" n="63"/>Ua ex auxilio gratise, illa per se sufficeret ad
+          <lb ed="#P" n="64"/>remissionem peccati. Et hunc sensum aiunt
+          <lb ed="#P" n="65"/>imitatum esse Cassianum, collat. 20, cap. 8.
+          <lb ed="#P" n="66"/>Respondeo falsum esse, Chrysostomum loqui
+          <lb ed="#P" n="67"/>de naturali poeenitentia : nam evidenter 
+          loqui<lb break="no" ed="#P" n="68"/>tur de poenitentia, quae est sufficiens et 
+          imme<lb break="no" ed="#P" n="69"/>diata dispositio ad remissionem peccati , 
+          qua<lb break="no" ed="#P" n="70"/>lis fuit ponitentia David, cum dixit: Peccavi
+          <lb ed="#P" n="71"/>Domino, et latronis dicentis : Memento mei, 
+          Do<lb break="no" ed="#P" n="72"/>mine, etc. His enim exemplis utitur et illis 
+          e<lb break="no" ed="#P" n="73"/>tiam testimoniis, Convertimini ad me, et 
+          simi<lb break="no" ed="#P" n="74"/>libus. Fuit ergo sententia Chrysostomi, hanc
+          <lb ed="#P" n="75"/>etiam poenitentiam quantumvis 
+          supernatura<lb break="no" ed="#P" n="76"/>lem, per se non justificare hominem 
+          formali<lb break="no" ed="#P" n="77"/>ter, nisi accedat nova misericordia et gratia
+          <lb ed="#P" n="78"/>Dei remittentis peccatum et infundentis 
+          justi<lb break="no" ed="#P" n="79"/>tiam. Quae est verissima et sana doctrina, quam
+          <lb ed="#P" n="80"/>late tractavi, in 1, tom., disput. 4, sect. 8, ubi
+          <lb ed="#P" n="81"/>plura testimonia Chrysostomi adduxi. Et quoad
+          <lb ed="#P" n="82"/>hoc potest etiam Cassianus in bonum sensum
+          <lb ed="#P" n="83"/>adduci.
+        </p>
+        <p xml:id="szduep-093243-d1e1217">
+          <lb ed="#P" n="84"/>19. Sexta locutio. —Sexto invenitur alia 
+          lo<lb break="no" ed="#P" n="85"/>cutio, praesertim apud Marcum Eremitanum 
+          sci<lb break="no" ed="#P" n="86"/>licet, gratium supponere promptitudinem 
+          volun<lb break="no" ed="#P" n="87"/>atis a natura inditam: imo etiam subdit, 
+          vo<lb break="no" ed="#P" n="88"/>luniatem esse velut aucilium a natura inditum.
+          <lb ed="#P" n="89"/>Sed priora verba similia sunt aliis Augustini
+          <lb ed="#P" n="90"/>verbis: Posse habere fidem naturee est hominum ;
+          <lb ed="#P" n="91"/>habere autem gratie est fidelium. Nam illa
+          <lb ed="#P" n="92"/>promptitudo, vel nihil aliud est, quam 
+          capa<lb break="no" ed="#P" n="93"/>citas ipsa voluntatis, quae ab ipsa voluntate
+          <lb ed="#P" n="94"/>non distinguitur, ideoque a natura indicat 
+          di<lb break="no" ed="#P" n="95"/>citur: licet, quatenus respectu gratiae est ad
+          <lb ed="#P" n="96"/>formam non debitam et superioris ordinis, 
+          di<lb break="no" ed="#P" n="97"/>catur proprie obedientialis. Vel ad summum,
+          <lb ed="#P" n="98"/>illa promptitudo dicitur propter inchnationem
+          <lb ed="#P" n="99"/>naturalem voluntatis ad bonum honestum,
+          <lb ed="#P" n="100"/>quae ostendit naturalem rectitudinem ejus,
+          <lb ed="#P" n="101"/>quam gratia per se supponit, quamvis in 
+          ho<lb break="no" ed="#P" n="102"/>mine lapso existat impedita vitio peccati 
+          ori<lb break="no" ed="#P" n="103"/>ginalis. In altera vero locutione, voluntas 
+          di<lb break="no" ed="#P" n="104"/>citur auciliwm ratione suae libertatis, sine qua
+          <lb ed="#P" n="105"/>divina gratia non perficit in nobis opera, 
+          qui<lb break="no" ed="#P" n="106"/>bus sanctificamur. Undeloquendo de voluntate
+          <lb ed="#P" n="107"/>actuali, expresse dicit idem auctor eodem 
+          lo<lb break="no" ed="#P" n="108"/>co. Si ad salutem perficitur, non posse inchoari
+          <lb ed="#P" n="109"/>aut perfici, nisi per gratiam : loquendo vero
+          <lb ed="#P" n="110"/>de ipsa potentia voluntatis, dicit esse instru-
+          <pb ed="#P" n="372"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mentum divinae gratiae ad supernaturales 
+          ope<lb break="no" ed="#P" n="2"/>rationes.
+        </p>
+        <p xml:id="szduep-093243-d1e1288">
+          <lb ed="#P" n="3"/>20. Tandem ponderari hic solet, quod hi
+          <lb ed="#P" n="4"/>Patres simpliciter, et absolute loquentes 
+          mul<lb break="no" ed="#P" n="5"/>tum tribuunt libero arbitrio, et gratiam fere
+          <lb ed="#P" n="6"/>silentio praetereunt. Quomodo potest in 
+          favo<lb break="no" ed="#P" n="7"/>rem Massiliensium citari Clemens Alex., lib. 5,
+          <lb ed="#P" n="8"/>Strom. , a principio , et Damascenus , lib.2,
+          <lb ed="#P" n="9"/>cap. 26, imo et Augustinus, 3. lib., delib. 
+          Ar<lb break="no" ed="#P" n="10"/>bitr. Ad quod ipse respondet 1, Retractationum,
+          <lb ed="#P" n="11"/>cap. 8, tacuisse tunc, sed non exclusisse, quia
+          <lb ed="#P" n="12"/>tunc solum de illa re disputabatur. Unde etiam
+          <lb ed="#P" n="13"/>Faustus, lib. 1, de libro Arbitr., cap. 6. Cum
+          <lb ed="#P" n="14"/>(inquit) sine alio dicitur, tacetur alterum, uon
+          <lb ed="#P" n="15"/>unwn negatur, secuudum regulam, quam 
+          An<lb break="no" ed="#P" n="16"/>tisies Augustinus insinuat. Wh ergo Patrestunc
+          <lb ed="#P" n="17"/>aut contra haereticos disputabant , praecipue
+          <lb ed="#P" n="18"/>contra Manichaeos, aut reprehendebant 
+          homi<lb break="no" ed="#P" n="19"/>num negligentiam: et ideo saepius libertatem
+          <lb ed="#P" n="20"/>commemorant: quamvis aliis locis gratiam
+          <lb ed="#P" n="21"/>non omittant. -
+        </p>
+        <p xml:id="szduep-093243-d1e1332">
+          <lb ed="#P" n="22"/>21. Addo insuper, Chrysostomum in 
+          homi<lb break="no" ed="#P" n="23"/>lia quadam de Adam et Eva, ex professo 
+          do<lb break="no" ed="#P" n="24"/>cuisse totam doctrinam de gratia, adeo ut
+          <lb ed="#P" n="25"/>multi suspicentur, quamdam partem illius 
+          ho<lb break="no" ed="#P" n="26"/>miliae potius Properi quam Chrysostomi. Et
+          <lb ed="#P" n="27"/>mihi etiam rem facit dubium: quod in 
+          episto<lb break="no" ed="#P" n="28"/>la Coelestini saepe citata, tota illa pars ad 
+          litte<lb break="no" ed="#P" n="29"/>ram transcripta est. Alii vero existimant,
+          <lb ed="#P" n="30"/>Chrysostomum jam in fine vitae audivisse 
+          ru<lb break="no" ed="#P" n="31"/>mores de errore Pelagii: et ideo clarius 
+          de<lb break="no" ed="#P" n="32"/>clarasse mentem suam; Coelestinum autem
+          <lb ed="#P" n="33"/>verba ejus usurpasse, quod credere, vetat nihil,
+          <lb ed="#P" n="34"/>quamvis res dubia sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

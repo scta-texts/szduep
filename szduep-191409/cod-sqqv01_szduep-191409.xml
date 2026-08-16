@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="757"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-191409"><!-- t3-l10c2 -->
+        <head xml:id="szduep-191409-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-191409-Hd1e103" type="question-title">An ex reali distinctione inter filium, et spiritum sanctum recte concludatur progessio unius ab alio</head>
+        <p xml:id="szduep-191409-d1e106">
+          <lb ed="#P" n="93"/>CAPUT II.
+          <lb ed="#P" n="94"/>AN EX REALI DISTINCTIONE INTER FILIUM, ET 
+          SPI<lb break="no" ed="#P" n="95"/>RITUM SANCTUM RECTE CONCLUDATUR PROGESSIO
+          <lb ed="#P" n="96"/>UNIUS AB ALIO.
+        </p>
+        <p xml:id="szduep-191409-d1e117">
+          <lb ed="#P" n="97"/>1. Haec est una ex potentissimis rationibus,
+          <lb ed="#P" n="98"/>qua nostri theologi contra Graecos utuntur,
+          <lb ed="#P" n="99"/>nam licet sit velut, a posteriori tamen 
+          proce<lb break="no" ed="#P" n="100"/>dit a principio non solum in se certo secundum
+          <lb ed="#P" n="101"/>fidem, sed etiam a Graecis concesso, qui veram
+          <lb ed="#P" n="102"/>Trinitatem personarum confitentur, quae sine
+          <lb ed="#P" n="103"/>distinctione reali non est. Ergo si recte 
+          ostendi<lb break="no" ed="#P" n="104"/>mns, non posse consistere distinctionem inter
+          <lb ed="#P" n="105"/>quascumque duas personas, sine processione
+          <lb ed="#P" n="106"/>unius ab alia, recte etiam concludemus, Fihum
+          <lb ed="#P" n="107"/>producere Spiritum sanctum, cum perse notum
+          <pb ed="#P" n="758"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sit, non produci ab alio. Propter hanc ergo
+          <lb ed="#P" n="2"/>causam graviores theologi solliciti fuerunt de
+          <lb ed="#P" n="3"/>illa quaestione hypothetica: Si Spiritus 
+          sanc<lb break="no" ed="#P" n="4"/>tus non procederet a Filio, an distingueretur
+          <lb ed="#P" n="5"/>ab illo? Quia licet ex hypothesi impossibili
+          <lb ed="#P" n="6"/>procedat, tamen virtute continet cathegoricam
+          <lb ed="#P" n="7"/>quaestionem, an adaequata radix illius 
+          distinc<lb break="no" ed="#P" n="8"/>tionis sit processio ita, ut sine illa subsistere
+          <lb ed="#P" n="9"/>non potuerit. Utrumque igitur simul 
+          tractan<lb break="no" ed="#P" n="10"/>dum est.
+        </p>
+        <p xml:id="szduep-191409-d1e169">
+          <lb ed="#P" n="11"/>9. Prima opinio. — Prima ergo sententia
+          <lb ed="#P" n="12"/>absolute affirmat, Spiritum sanctum, et 
+          Fi<lb break="no" ed="#P" n="13"/>lium, fore distinctas personas, etiam si una ab
+          <lb ed="#P" n="14"/>altera non procederet, et consequenter negat,
+          <lb ed="#P" n="15"/>ex distinctione personali sufficienter colhgi
+          <lb ed="#P" n="16"/>processionem, ex vi rationis. Haec fuit opinio
+          <lb ed="#P" n="17"/>Henrici quodl. 5, quaest. 9, quam secutus est
+          <lb ed="#P" n="18"/>Scotus, in 1, dist. 12, quaest. 2, ubi etiam 
+          ci<lb break="no" ed="#P" n="19"/>tari solent Gregorius et Gabriel, sed illi aliis
+          <lb ed="#P" n="20"/>modis opinantur, ut infra dicam. 
+          Fundamen<lb break="no" ed="#P" n="21"/>tum hujus sententiae est, quia Filiatio, et 
+          pro<lb break="no" ed="#P" n="22"/>cessio ex propriis, et intrinsecis rationibus,
+          <lb ed="#P" n="23"/>tales relationes sunt, ut secum necessario 
+          aft<lb break="no" ed="#P" n="24"/>ferant realem distinctionem: sed si Spiritus
+          <lb ed="#P" n="25"/>sanctus procederet a Patre, et non a Filio, in
+          <lb ed="#P" n="26"/>Filio maneret vera fihatio, et in Spiritu
+          <lb ed="#P" n="27"/>sancto vera processio, hoc enim est, quod in
+          <lb ed="#P" n="28"/>hypothesi supponitur, alias vana est quaestio:
+          <lb ed="#P" n="29"/>ergo, etc. Major videtur imprimis esse expressa
+          <lb ed="#P" n="30"/>sententia Anselmi, libro de Processione Spiritus
+          <lb ed="#P" n="31"/>sancti, cap. 1, et sequentibus, ubi inter alia
+          <lb ed="#P" n="32"/>dicit: Quia Filius evistit de Deo nascendo,
+          <lb ed="#P" n="33"/>Spiritus sanctus procedendo, ipsa diversitate
+          <lb ed="#P" n="34"/>nativitatis, et processionis referuntur ad 
+          inci<lb break="no" ed="#P" n="35"/>cem, ut alii ab invicem. Ubi non dicit distingui
+          <lb ed="#P" n="36"/>propter relationem originis, sed potius referri
+          <lb ed="#P" n="37"/>inter se relatione distinctionis, propter 
+          diver<lb break="no" ed="#P" n="38"/>sas origines, quas habent independenter ab
+          <lb ed="#P" n="39"/>hoc, quod unus ak alio procedat, nec ne.
+        </p>
+        <p xml:id="szduep-191409-d1e235">
+          <lb ed="#P" n="40"/>3. Prima ratio.—Unde probatur secundo
+          <lb ed="#P" n="41"/>ratione, ab Anselmo insinuata, quia processio
+          <lb ed="#P" n="42"/>Filii ex intrinseca ratione est generatio, 
+          pro<lb break="no" ed="#P" n="43"/>cessio Spiritus sanctus non est generatio: ergo
+          <lb ed="#P" n="44"/>ex propris, et ex intrinsecis rationibus 
+          pos<lb break="no" ed="#P" n="45"/>tulant terminos realiter distinctos, quia non
+          <lb ed="#P" n="46"/>potest unus, et idem terminus generari, et
+          <lb ed="#P" n="47"/>non generari. Sed has rationes retinerent illae
+          <lb ed="#P" n="48"/>processiones, etiamsi Spiritus sanctus non
+          <lb ed="#P" n="49"/>procederet a Filio, ergo etiam tunc termini
+          <lb ed="#P" n="50"/>essent realiter distincti.
+        </p>
+        <p xml:id="szduep-191409-d1e261">
+          <lb ed="#P" n="51"/>4. Secunda ratio. — Tertio, quia nunc de
+          <lb ed="#P" n="52"/>facto Spiritus sancti distinguuntur a Filio per
+          <lb ed="#P" n="53"/>suam relationem processionis, nihil enim
+          <lb ed="#P" n="54"/>aliud habet, per quod distingui possit, et 
+          si<lb break="no" ed="#P" n="55"/>militer Filius distinguitur ab Spiritu sancto
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per suam filiationem, ut supra libro septimo
+          <lb ed="#P" n="57"/>ostensum est. Sed licet Spiritus sanctus non
+          <lb ed="#P" n="58"/>procederet a Filio, Filius haberet filiationem, et
+          <lb ed="#P" n="59"/>Spiritus sanctus processionem : ergo haberent
+          <lb ed="#P" n="60"/>easdem proprietates distinguentes, ergo aeque,
+          <lb ed="#P" n="61"/>acnunc distinguerentur. Confirmatur, quia 
+          im<lb break="no" ed="#P" n="62"/>possibile est, res, quae distinguuntur realiter
+          <lb ed="#P" n="63"/>per se ipsas, in eamdem rem omnino 
+          simpli<lb break="no" ed="#P" n="64"/>cem coalescere, sed filiatio, et processio se 
+          ip<lb break="no" ed="#P" n="65"/>sis distinguuntur realiter, ergo quacumque
+          <lb ed="#P" n="66"/>hypothesi data, impossibile est, quod maneant
+          <lb ed="#P" n="67"/>quin retineant distinctionem.
+        </p>
+        <p xml:id="szduep-191409-d1e303">
+          <lb ed="#P" n="68"/>5. Tertia ratio. — Quarto argumentor ex
+          <lb ed="#P" n="69"/>Scoto quia nihil repugnat, ab eodem simplici
+          <lb ed="#P" n="70"/>principio prodire terminos, et processiones
+          <lb ed="#P" n="71"/>realiter distinctas: ergo quamvis solus Pater
+          <lb ed="#P" n="72"/>esset simplex principium ad intra, possent ab
+          <lb ed="#P" n="73"/>illo procedere distinctae personae, quia 
+          habe<lb break="no" ed="#P" n="74"/>rent eumdem intellectum, et voluntatem, et
+          <lb ed="#P" n="75"/>in modis operandi, seu producendi per has
+          <lb ed="#P" n="76"/>facultates esset idem fundamentum 
+          distin<lb break="no" ed="#P" n="77"/>guendi productiones substantiales ad intra,
+          <lb ed="#P" n="78"/>quae consequenter requirunt terminos 
+          distinc<lb break="no" ed="#P" n="79"/>tos, quia non potest idem terminus bis 
+          sub<lb break="no" ed="#P" n="80"/>tantialiter produci, et maxime per 
+          productio<lb break="no" ed="#P" n="81"/>nes diversarum rationum.
+        </p>
+        <p xml:id="szduep-191409-d1e336">
+          <lb ed="#P" n="82"/>6. Secunda opinio. Contrariam sententiam
+          <lb ed="#P" n="83"/>docuit D. Thomas, quaest. 36, art. 2 (ubi 
+          Ca<lb break="no" ed="#P" n="84"/>jetanus et alii), idem 4, contra Gentes, cap. 29
+          <lb ed="#P" n="85"/>(ubi Ferrariensis). Item quaest. 10, de 
+          Poten<lb break="no" ed="#P" n="86"/>tia, art. 4. Et hanc sententiam sequuntur 
+          fre<lb break="no" ed="#P" n="87"/>quenter scholastici, in 1, d. 11, Bonaventura,
+          <lb ed="#P" n="88"/>quaest. 2, art. 1, Durandus, quaest. 2, /Egidius,
+          <lb ed="#P" n="89"/>art. 3, Hervaeus, et Capreolus, quaest. 1, 
+          Mar<lb break="no" ed="#P" n="90"/>silius, quaest. 15, Aureolus, quaest. 2, art. 1.
+          <lb ed="#P" n="91"/>Idem sentiunt Gabriel et Gregorius. Sed 
+          pro<lb break="no" ed="#P" n="92"/>cedunt alia ratione longe diversa, destruendo
+          <lb ed="#P" n="93"/>hypothesim. Nam Gabriel ait: Si Spiritus
+          <lb ed="#P" n="94"/>sanctus non procederet a Filio, non esse 
+          futu<lb break="no" ed="#P" n="95"/>rum Filium, quia aufertur ab ipso spiratio 
+          ac<lb break="no" ed="#P" n="96"/>tiva, quae idem est cum Filiatione, et ideo
+          <lb ed="#P" n="97"/>consequenter tolleretur filiatio. Sed hoc licet
+          <lb ed="#P" n="98"/>in re ostendat, esse impossibile, Filium non
+          <lb ed="#P" n="99"/>esse spiratorem, tamen per locum intrinsecum
+          <lb ed="#P" n="100"/>non infert, bene, data illa hypothesi non posse
+          <lb ed="#P" n="101"/>esse filiationem ut sic. Quia filiatio secundum
+          <lb ed="#P" n="102"/>se est prior spiratione activa, et modo nostro
+          <lb ed="#P" n="103"/>concipiendi formali ratione ab ea distincta:
+          <lb ed="#P" n="104"/>ergo formaliter non involvitur contradictio in
+          <lb ed="#P" n="105"/>hoc, quod filiatio maneat in tali persona sine
+          <lb ed="#P" n="106"/>spiratione. Gregorius vero et contrario dicit,
+          <lb ed="#P" n="107"/>in eo casu Spiritum sanctum non fuisse 
+          futu<lb break="no" ed="#P" n="108"/>rum a Patre, quia per se est a Filio, et ideo si
+          <lb ed="#P" n="109"/>ab eo non esset, a neutro esset. Quod quidem
+          <lb ed="#P" n="110"/>aliquo modo habet veritatem,. ut statim ex-
+          <pb ed="#P" n="759"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>plicabimus: tamen simpliciter non satisfacit
+          <lb ed="#P" n="2"/>quaestioni : nam ut infra dicam, amor, seu 
+          Spi<lb break="no" ed="#P" n="3"/>ritus sanctus, ut sic, id est, quatenus terminus
+          <lb ed="#P" n="4"/>processionis per voluntatem, non postulat 
+          ne<lb break="no" ed="#P" n="5"/>cessario duas personas, a quibus procedat. 
+          Deni<lb break="no" ed="#P" n="6"/>que hi auctores non respondent quaestioni, quae
+          <lb ed="#P" n="7"/>de facto necessaria est, an processio per se sit
+          <lb ed="#P" n="8"/>necessaria ad distinctionem, sed supponunt
+          <lb ed="#P" n="9"/>potius unam illarum personarum producere
+          <lb ed="#P" n="10"/>aliam, et inde inferunt, non posse ambas 
+          ma<lb break="no" ed="#P" n="11"/>nere, sine tali processione.
+        </p>
+        <p xml:id="szduep-191409-d1e430">
+          <lb ed="#P" n="12"/>7. Fundamentum. — Ratio praecipua pro hac
+          <lb ed="#P" n="13"/>sententia sumi solet ex illo principio : 7n 
+          dici<lb break="no" ed="#P" n="14"/>nis omnia sunt ummn, ubi non obviat relationis
+          <lb ed="#P" n="15"/>oppositio, sed in praedicto casu non esset talis
+          <lb ed="#P" n="16"/>oppositio inter Spiritum sanctum et Filium,
+          <lb ed="#P" n="17"/>ergo nec distinctio, vel (aliter subsumendo), sed
+          <lb ed="#P" n="18"/>sine origine non stat oppositio, ergo nec 
+          dis<lb break="no" ed="#P" n="19"/>tinctio. Major praecipue probari solet 
+          auctori<lb break="no" ed="#P" n="20"/>tate Anselmi, libro de Processione Spiritus 
+          sanc<lb break="no" ed="#P" n="21"/>ti, cap. 3, sed ut objecimus, Anselmus potius
+          <lb ed="#P" n="22"/>videtur favere contrariae sententiae, et 
+          relatio<lb break="no" ed="#P" n="23"/>nes disparatas, significat habere inter se 
+          oppo<lb break="no" ed="#P" n="24"/>sitionem sufficientem ad distinctionem. Unde
+          <lb ed="#P" n="25"/>Scoti defensores fatentur, Filium et Spiritum
+          <lb ed="#P" n="26"/>sanctum relationibus distingui, non vero 
+          qua<lb break="no" ed="#P" n="27"/>tenus relative oppositae sunt, sed quatenus sunt
+          <lb ed="#P" n="28"/>ita disparatae, ut in unam coalescere non 
+          pos<lb break="no" ed="#P" n="29"/>sint, sic enim verum est illud Boetii : Sola 
+          re<lb break="no" ed="#P" n="30"/>latio multiplicat Trinitatem. Unde 
+          Damasce<lb break="no" ed="#P" n="31"/>nus, lib. 1, cap. 10, et lib. 3, cap. 1, tres solas
+          <lb ed="#P" n="32"/>relationes, Paternitatem, Filiationem et 
+          Pro<lb break="no" ed="#P" n="33"/>cessionem numerat, ut sufticientes ad 
+          distinc<lb break="no" ed="#P" n="34"/>tionem personarum.
+        </p>
+        <p xml:id="szduep-191409-d1e482">
+          <lb ed="#P" n="35"/>8. Quomodo sola relatio distinguat in Deo.
+          <lb ed="#P" n="36"/>— Nihilominus principium illud intellectum
+          <lb ed="#P" n="37"/>etiam de relationibus aliquo modo relative 
+          op<lb break="no" ed="#P" n="38"/>positis, habet magnum fundamentum in 
+          sanc<lb break="no" ed="#P" n="39"/>tis Patribus. Nam Gregorius Nyssenus, 
+          oratio<lb break="no" ed="#P" n="40"/>nes Tres Deos dicere non oportere, circa 
+          fi<lb break="no" ed="#P" n="41"/>nem, aperte dicit, personas non distingui, nisi
+          <lb ed="#P" n="42"/>quia una procedit ab alia. Quod est frequens
+          <lb ed="#P" n="43"/>apud Augustinum, lib. 2, de Trinit., cap. 11,
+          <lb ed="#P" n="44"/>lib. 5, fere per totum, idemque significatur
+          <lb ed="#P" n="45"/>saepe in Concilio Florentino cujus verba, et
+          <lb ed="#P" n="46"/>alia testimonia adduxi supra libro quarto ubi
+          <lb ed="#P" n="47"/>principium illud tanquam omnino verum 
+          sta<lb break="no" ed="#P" n="48"/>tui. Adhuc vero non videtur hinc sufficienter
+          <lb ed="#P" n="49"/>probari, quod intendimus. Tum quia 
+          respon<lb break="no" ed="#P" n="50"/>deri potest, ita quidem esse de facto, scilicet
+          <lb ed="#P" n="51"/>distinctionem non esse, nisi ubi est processio,
+          <lb ed="#P" n="52"/>non tamen quia formaliter sint idem, nec quia
+          <lb ed="#P" n="53"/>una sit ratio alterius, sed solum quia fides 
+          do<lb break="no" ed="#P" n="54"/>cet ita esse conjunctas. Tum maxime, quia illo
+          <lb ed="#P" n="55"/>modo non possumus ex distinctione colligere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>originem per viam rationis, prout intendimus
+          <lb ed="#P" n="57"/>contra Graecos, sed solum ex auctoritate, quam
+          <lb ed="#P" n="58"/>fortasse Graeci non admitterent, cum in 
+          Scrip<lb break="no" ed="#P" n="59"/>tura expresse non habeantur.
+        </p>
+        <p xml:id="szduep-191409-d1e542">
+          <lb ed="#P" n="60"/>9. Propter quod multi Thomistae addunt 
+          ra<lb break="no" ed="#P" n="61"/>tionem hanc ad probandum illud principium,
+          <lb ed="#P" n="62"/>quia relatio non distinguit realiter, nisi a suo
+          <lb ed="#P" n="63"/>correlativo, cui opponitur, ergo filiatio ut sic
+          <lb ed="#P" n="64"/>non distinguitur realiter a processione : ergo
+          <lb ed="#P" n="65"/>nunc de facto distinguitur ab illa per 
+          spira<lb break="no" ed="#P" n="66"/>tionem activam, ergo si Spiritus sanctus non
+          <lb ed="#P" n="67"/>precederet a Filio, non distingueretur, quia
+          <lb ed="#P" n="68"/>auferretur a filio forma distinguens ipsum.
+          <lb ed="#P" n="69"/>Haec vero ratio impugnata est a nobis ex 
+          pro<lb break="no" ed="#P" n="70"/>fesso, supra libro septimo, ubi probavimus,
+          <lb ed="#P" n="71"/>relationem ut sic, posse distingui realiter ex
+          <lb ed="#P" n="72"/>vi sua ab alia disparata, etiamsi non sint
+          <lb ed="#P" n="73"/>correlationes. Unde si in divinis specialiter
+          <lb ed="#P" n="74"/>hoc non potest inveniri, non ex communi 
+          ra<lb break="no" ed="#P" n="75"/>tione relationis, sed aliunde probandum est.
+          <lb ed="#P" n="76"/>Et praeterea supra ostendi, de facto personam
+          <lb ed="#P" n="77"/>Filii distingui per suam filiationem ab Spiritu
+          <lb ed="#P" n="78"/>sancto.
+        </p>
+        <p xml:id="szduep-191409-d1e586">
+          <lb ed="#P" n="79"/>10. Explicatur secunda sententia.—Ut ergo
+          <lb ed="#P" n="80"/>verum sensum, et fundamentum hujus 
+          poste<lb break="no" ed="#P" n="81"/>rioris sententiae, quam veram judico, declarem,
+          <lb ed="#P" n="82"/>praemittendum censeo, si Spiritus sanctus non
+          <lb ed="#P" n="83"/>procederet a Filio, per locum intrinsecum 
+          se<lb break="no" ed="#P" n="84"/>qui, personam Spiritus sancti non fuisse 
+          futu<lb break="no" ed="#P" n="85"/>ram hac numero, quae nunc est, et 
+          consequen<lb break="no" ed="#P" n="86"/>ter nec Filium fuisse futurum eumdem 
+          nume<lb break="no" ed="#P" n="87"/>ro, ac denique, quacumque hypothesi facta,
+          <lb ed="#P" n="88"/>impossibile esse, ut hae duae personae 
+          intelh<lb break="no" ed="#P" n="89"/>gantur esse in rerum natura, eaedem omnino,
+          <lb ed="#P" n="90"/>quae nunc sunt, et non distingui realiter. 
+          Pro<lb break="no" ed="#P" n="91"/>bo singulas partes. Primam quidem, quia haec
+          <lb ed="#P" n="92"/>numero relatio processionis, quae nunc est, per
+          <lb ed="#P" n="93"/>se respicit tanquam adaequatum terminum 
+          Pa<lb break="no" ed="#P" n="94"/>trem, et Filium, ut infra etiam ostendemus,
+          <lb ed="#P" n="95"/>ergo non potest haec numero relatio esse vel
+          <lb ed="#P" n="96"/>intelligi existens in rerum natura, quin 
+          respi<lb break="no" ed="#P" n="97"/>ciat utramque personam, tanquam adaequatum
+          <lb ed="#P" n="98"/>terminum suum : nam habitudo simplicissimae
+          <lb ed="#P" n="99"/>relationis non potest tolli, vel minui, manente
+          <lb ed="#P" n="100"/>eadem numero relatione. Hoc etiam recte 
+          pro<lb break="no" ed="#P" n="101"/>bat ratio a Gregorio insinuata, quia haec 
+          nu<lb break="no" ed="#P" n="102"/>mero processio per se est a Patre et Filio ita,
+          <lb ed="#P" n="103"/>ut utraque relatio sit necessaria conditio ex
+          <lb ed="#P" n="104"/>parte principii hujus personae Spiritus sancti
+          <lb ed="#P" n="105"/>ut a nobis etiam ostendetur, sed si Spiritus
+          <lb ed="#P" n="106"/>sanctus non procederet a Filio, jam tiatio non
+          <lb ed="#P" n="107"/>esset conditio necessaria, ergo nec processio
+          <lb ed="#P" n="108"/>terminaretur ad eamdem numero personam,
+          <lb ed="#P" n="109"/>ad quam nunc terminatur, ergo nec esse eadem
+          <lb ed="#P" n="110"/>numero possessio.
+        </p>
+        <p xml:id="szduep-191409-d1e658">
+          <pb ed="#P" n="760"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>11. Et hinc facile probatur secunda pars:
+          <lb ed="#P" n="2"/>quia haec filiatio, quae nunc constituit hanc
+          <lb ed="#P" n="3"/>numero secundam personam, est sufliciens 
+          ra<lb break="no" ed="#P" n="4"/>tio terminandi habitudinem processionis ad
+          <lb ed="#P" n="5"/>ipsam, ut supra etiam, libro septimo, ostensum
+          <lb ed="#P" n="6"/>est, sed posita illa hypothesi, filiatio non esset
+          <lb ed="#P" n="7"/>talis, ergo non esset eadem numero. Simile
+          <lb ed="#P" n="8"/>argumentum est, quia filiatio haec talis est, ut
+          <lb ed="#P" n="9"/>volüntas divina illi conjuncta ut sic, foecunda
+          <lb ed="#P" n="10"/>sit et habeat rationem spirativae virtutis, seu
+          <lb ed="#P" n="11"/>conditionem requisitam in principio quod, ad
+          <lb ed="#P" n="12"/>spirandum: sed posita illa hypothesi, non esset
+          <lb ed="#P" n="13"/>filiatio talis, ergo non esset eadem numero.
+          <lb ed="#P" n="14"/>Unde tandem concluditur tertia pars, nam illa
+          <lb ed="#P" n="15"/>hypothesis intrinsece, ac formaliter tollit 
+          habi<lb break="no" ed="#P" n="16"/>tudinem inter processionem et filiationem,
+          <lb ed="#P" n="17"/>quae inter relationem et terminum formalem
+          <lb ed="#P" n="18"/>intercedit. At haec habitudo est de intrinseco
+          <lb ed="#P" n="19"/>et formali conceptu harum numero relationum,
+          <lb ed="#P" n="20"/>ut explicatum est, ergo illa hypothesis per 
+          lo<lb break="no" ed="#P" n="21"/>cum intrinsecum necessario destruit has 
+          rela<lb break="no" ed="#P" n="22"/>tiones, ita ut non possint esse eaedem numero.
+        </p>
+        <p xml:id="szduep-191409-d1e713">
+          <lb ed="#P" n="23"/>12. Ex quibus intelligitur, propositam 
+          quaes<lb break="no" ed="#P" n="24"/>tionem hypotheticam : S Spiritus sanctus
+          <lb ed="#P" n="25"/>non procederet a Filio, an distingueretur ab
+          <lb ed="#P" n="26"/>illo ? non posse stricte et limitate intelligi de
+          <lb ed="#P" n="27"/>his personis numero, quae nunc sunft, sic enim
+          <lb ed="#P" n="28"/>hypothesis manifestam involvit 
+          contradictio<lb break="no" ed="#P" n="29"/>nem, ex qua utrumque inferri potest. Essent
+          <lb ed="#P" n="30"/>enim tales personae necessario distinctae, quia
+          <lb ed="#P" n="31"/>supponuntur esse eaedem numero, quae nunc
+          <lb ed="#P" n="32"/>sunt, quas sine dubio repugnat in eamdem
+          <lb ed="#P" n="33"/>simplicem coalescere: et non essent distinctae :
+          <lb ed="#P" n="34"/>quia supponuntur non habere originem inter
+          <lb ed="#P" n="35"/>se, quam nunc habent. Et hoc ipsum destruit
+          <lb ed="#P" n="36"/>identitatem earum, ut dixi. Quare censeo, nec
+          <lb ed="#P" n="37"/>D. Thomam, neque alios auctores secundae 
+          sen<lb break="no" ed="#P" n="38"/>tentiae in hoc sensu fuisse locutos. Quin 
+          po<lb break="no" ed="#P" n="39"/>tius (ut hoc obiter advertam) idem dicendum
+          <lb ed="#P" n="40"/>esset respectu Patris, si comparatione illius
+          <lb ed="#P" n="41"/>quaestio similis proponeretur in eodem sensu.
+          <lb ed="#P" n="42"/>Nam etiam involvit intrinsecam 
+          repugnan<lb break="no" ed="#P" n="43"/>tiam, quod haec persona Spiritus sancti a Patre
+          <lb ed="#P" n="44"/>immediate non procedat, et ideo posita illa
+          <lb ed="#P" n="45"/>hypothesi non posset servari distinctio, quia
+          <lb ed="#P" n="46"/>non posset talis persona esse, et nihilominus
+          <lb ed="#P" n="47"/>supponeretur distincta, si supponeretur esse.
+          <lb ed="#P" n="48"/>Proprius ergo sensus illius quaestionis esse 
+          de<lb break="no" ed="#P" n="49"/>bet, an loquendo praecise et abstracte nostro
+          <lb ed="#P" n="50"/>modo concipiendi de processione Verbi, et
+          <lb ed="#P" n="51"/>amoris, sive in his personis, sive in 
+          quacum<lb break="no" ed="#P" n="52"/>que quae a nobis concipi, aut fingi possit, tunc
+          <lb ed="#P" n="53"/>distingueretur amor procedens a Verbo, si ab
+          <lb ed="#P" n="54"/>illo non procederet, sed a Patre tantum. Et
+          <lb ed="#P" n="55"/>hic sensus solus est utilis et accommodatus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>intentioni nostrae. Nam prior sensus supponit
+          <lb ed="#P" n="57"/>talem processionem unius personae ab alia, et
+          <lb ed="#P" n="58"/>inde infert reliqua, quae diximus : nos autem
+          <lb ed="#P" n="59"/>volumus ex distinctione inferre processionem.
+        </p>
+        <p xml:id="szduep-191409-d1e798">
+          <lb ed="#P" n="60"/>13. Secunda sententia probatur. — In hoc
+          <lb ed="#P" n="61"/>ergo sensu veram intelligo sententiam divi
+          <lb ed="#P" n="62"/>Thomae, ut dixi. Ratio est, quia tunc nulla 
+          es<lb break="no" ed="#P" n="63"/>set repugnantia, vel oppositio inter verbum et
+          <lb ed="#P" n="64"/>amorem, quo minus ipsa re identificari 
+          pos<lb break="no" ed="#P" n="65"/>sent : ergo non distinguerentur in re. 
+          Conse<lb break="no" ed="#P" n="66"/>quentia probatur, quia in Deo omnia habent
+          <lb ed="#P" n="67"/>summam unitatem et simplicitatem, quae 
+          illo<lb break="no" ed="#P" n="68"/>rum rationibus et proprietatibus non 
+          repu<lb break="no" ed="#P" n="69"/>gnant : pertinet enim hoc ad divinam 
+          perfec<lb break="no" ed="#P" n="70"/>tionem, ut in omnibus aliis attributis et 
+          per<lb break="no" ed="#P" n="71"/>fectionibus Dei videre licet. Antecedens autem
+          <lb ed="#P" n="72"/>patet. Primo, quia intellectus et voluntas in
+          <lb ed="#P" n="73"/>Deo sunt idem realiter omnino, cujus 
+          identi<lb break="no" ed="#P" n="74"/>tatis ratio non potest esse alia, nisi quia licet
+          <lb ed="#P" n="75"/>nostro modo intelligendi videantur habere 
+          di<lb break="no" ed="#P" n="76"/>versas rationes formales, tamen quia 
+          opposi<lb break="no" ed="#P" n="77"/>tionem non includunt, nec repugnantiam 
+          ha<lb break="no" ed="#P" n="78"/>bent in reali identitate, ideo ad simplicitatem
+          <lb ed="#P" n="79"/>Dei pertinet, ut illam habeant. Et eadem 
+          ra<lb break="no" ed="#P" n="80"/>tione actus intelligendi et amandi est omnino
+          <lb ed="#P" n="81"/>unus secundum rem. Ergo quantum est ex
+          <lb ed="#P" n="82"/>solis conditionibus intellectus et voluntatis,
+          <lb ed="#P" n="83"/>terminus etiam productus per actum 
+          intelli<lb break="no" ed="#P" n="84"/>gendi et amandi esset idem secundum rem,
+          <lb ed="#P" n="85"/>neque in hoc haberent repugnantiam, si non
+          <lb ed="#P" n="86"/>haberent oppositionem et originem. Sicut ergo
+          <lb ed="#P" n="87"/>tunc esset una tantum persona prius origine
+          <lb ed="#P" n="88"/>intelligens et amans, eadem omnino virtute
+          <lb ed="#P" n="89"/>et eodem actu secundum rem, quia unite, ac
+          <lb ed="#P" n="90"/>formaliter esset cognitio et dilectio, ita unum
+          <lb ed="#P" n="91"/>realem terminum adaequatum produceret, qui
+          <lb ed="#P" n="92"/>simul esset Verbum et amor. Nec major ratio
+          <lb ed="#P" n="93"/>distinctionis cogitari tunc posset inter 
+          relatio<lb break="no" ed="#P" n="94"/>nem producti verbi et amoris, quam inter 
+          re<lb break="no" ed="#P" n="95"/>lationem producentis per cognitionem et per
+          <lb ed="#P" n="96"/>amorem. OQuia sicut relationes passivae 
+          viden<lb break="no" ed="#P" n="97"/>tur habere rationes formales diversas, ita
+          <lb ed="#P" n="98"/>etiam activae. Sicut ergo hae nunc non 
+          distin<lb break="no" ed="#P" n="99"/>guuntur, quia sola illa distinctio formalis non
+          <lb ed="#P" n="100"/>repugnat identitati reali, nisi interveniat 
+          op<lb break="no" ed="#P" n="101"/>positio originis, ita etiam tunc dicendum esset
+          <lb ed="#P" n="102"/>de illis.
+        </p>
+        <p xml:id="szduep-191409-d1e894">
+          <lb ed="#P" n="103"/>14. Secundo, declaratur in hunc modum,
+          <lb ed="#P" n="104"/>quia vel Verbum procedit prius origine a 
+          Pa<lb break="no" ed="#P" n="105"/>tre, quam Spiritus sanctus, vel solum prius
+          <lb ed="#P" n="106"/>ratione sine aliquo ordine naturae. Si primum
+          <lb ed="#P" n="107"/>dicatur, hoc ipso necessario dicitur, Spiritum
+          <lb ed="#P" n="108"/>sanctum procedere a Filio, quia prioritas 
+          ori<lb break="no" ed="#P" n="109"/>ginis nihil aliud est, nisi unum esse ab alio:
+          <lb ed="#P" n="110"/>non potest ergo Verbum procedere prius ori-
+          <pb ed="#P" n="761"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gine, quin sit principium Spiritus sancti. Et
+          <lb ed="#P" n="2"/>deinde est optima ratio, quia opera Trinitatis
+          <lb ed="#P" n="3"/>necessarto sunt indivisa, ubicumque ordo 
+          ori<lb break="no" ed="#P" n="4"/>ginis non repugnat, at vero si Filius prius
+          <lb ed="#P" n="5"/>origine procedit a Patre, quam Spiritus sanctus
+          <lb ed="#P" n="6"/>jam non repugnat ejus origini, quod ab illo
+          <lb ed="#P" n="7"/>simul cum Patre sit secunda processio, ergo
+          <lb ed="#P" n="8"/>necessario ita est. Si autem altera pars 
+          eliga<lb break="no" ed="#P" n="9"/>tur, prout revera, data illa hypothesi, 
+          asseren<lb break="no" ed="#P" n="10"/>da esset, tunc eadem ratione sequitur, inter
+          <lb ed="#P" n="11"/>Verbum et amorem non fuisse tunc futuram
+          <lb ed="#P" n="12"/>nisi distinctionem rationis, quia non est 
+          ma<lb break="no" ed="#P" n="13"/>jor ratio de distinctione, quam de ordine, vel
+          <lb ed="#P" n="14"/>proprietate, ad quod applicari potest totus 
+          dis<lb break="no" ed="#P" n="15"/>cursus jam factus.
+        </p>
+        <p xml:id="szduep-191409-d1e952">
+          <lb ed="#P" n="16"/>15. Quomodo ex distinctione origo ostendatur.
+          <lb ed="#P" n="17"/>— Atque hinc tandem intelligitur, quomodo
+          <lb ed="#P" n="18"/>ex distinctione reali inter Spiritum sanctum,
+          <lb ed="#P" n="19"/>et Filium optime concludatur emanatio ab illo.
+          <lb ed="#P" n="20"/>Quia sola ratio verbi et amoris producti non
+          <lb ed="#P" n="21"/>potest inferre hanc distinctionem, nisi inter
+          <lb ed="#P" n="22"/>illa duo interveniat origo : atque ita verum
+          <lb ed="#P" n="23"/>est illud principium: 7 divinis omnia esse
+          <lb ed="#P" n="24"/>unmn, ubi non obviat velationis , vel originis
+          <lb ed="#P" n="25"/>oppositio. Quod non sola auctoritate, sed etiam
+          <lb ed="#P" n="26"/>ratione et discursu facto mihi videtur 
+          sufficien<lb break="no" ed="#P" n="27"/>ter probari. Et ad illud existimo reducenda
+          <lb ed="#P" n="28"/>esse, quae tractat Anselmus, libro de 
+          Proces<lb break="no" ed="#P" n="29"/>S8ione Spiritus sancti , cap. 3, et sequentibus,
+          <lb ed="#P" n="30"/>ubi ex unitate et simplicitate divinitatis 
+          pro<lb break="no" ed="#P" n="31"/>bare conatur, non posse esse duas personas in
+          <lb ed="#P" n="32"/>Trinitate distinctas, quin aliqua earum ab 
+          al<lb break="no" ed="#P" n="33"/>tera procedat. Unde cum manifestum sit 
+          Fi<lb break="no" ed="#P" n="34"/>lium non procedere a Spiritu sancto, inde 
+          con<lb break="no" ed="#P" n="35"/>cludit, necessarium esse, ut Spiritus sanctus
+          <lb ed="#P" n="36"/>procedat a Filio. Et idem videntur mihi 
+          in<lb break="no" ed="#P" n="37"/>tendere Patres Latini in Concilio Florentino,
+          <lb ed="#P" n="38"/>sessione ultima, cum dicunt : Qui negant 
+          Spi<lb break="no" ed="#P" n="39"/>ritum sanctwn procedere a Filio, necessario 
+          di<lb break="no" ed="#P" n="40"/>videre substantiam Dei, et virtute asserere,
+          <lb ed="#P" n="41"/>n0n. totam illam, sed portionem ejus 
+          commumi<lb break="no" ed="#P" n="42"/>cari Flio a Patre. Quia si tota 
+          communicare<lb break="no" ed="#P" n="43"/>tur, etiam virtus spirandi communicaretur,
+          <lb ed="#P" n="44"/>cum haec non repugnet origini Filii, si Filius
+          <lb ed="#P" n="45"/>vere supponatur distinctus a Spiritu sancto.
+          <lb ed="#P" n="46"/>Unde etiam obiter sumi potest ratio ad 
+          confir<lb break="no" ed="#P" n="47"/>mandam dictam resolutionem, et sententiam
+          <lb ed="#P" n="48"/>D. Thomae; nam si Spiritus sanctus non 
+          proce<lb break="no" ed="#P" n="49"/>deret a Filio, ideo esset, quia repugnaret Filio
+          <lb ed="#P" n="50"/>virtus spirandi : non posset autem repugnare,
+          <lb ed="#P" n="51"/>nisi quia in se haberet simul cum filiatione
+          <lb ed="#P" n="52"/>processionem passivam spirationi activae 
+          oppo<lb break="no" ed="#P" n="53"/>sitam : ergo in eo casu necessario essent idem
+          <lb ed="#P" n="54"/>Verbum et amor.
+        </p>
+        <p xml:id="szduep-191409-d1e1039">
+          <lb ed="#P" n="55"/>16. Satisfit fundamentis.—Prima opinio.—
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Tandem ex his facile est argutnenta prioris
+          <lb ed="#P" n="57"/>sententiae dissolvere, si contra sensum a nobis
+          <lb ed="#P" n="58"/>definitum fiant, recte enim probant, quod
+          <lb ed="#P" n="59"/>primo loco supponimus, de his personis Filii
+          <lb ed="#P" n="60"/>et Spiritus sancti in particulari : contra 
+          nos<lb break="no" ed="#P" n="61"/>tram vero resolutionem nihil urgent. Anselmi
+          <lb ed="#P" n="62"/>enim sensus, si recte expendatur, revera est
+          <lb ed="#P" n="63"/>idem omnino cum his, quae diximus. Prius
+          <lb ed="#P" n="64"/>enim supponit, ex concessione Graecorum, 
+          per<lb break="no" ed="#P" n="65"/>sonas Filii, et Spiritus sancti esse distinctas,
+          <lb ed="#P" n="66"/>et ita statuit, illas non posse esse, quin 
+          dis<lb break="no" ed="#P" n="67"/>ünctae sint. Deinde vero ex professo probat,
+          <lb ed="#P" n="68"/>non potuisse esse distinctas, nisi cum 
+          emana<lb break="no" ed="#P" n="69"/>tione unius ab alia. Prima etiam ratio admitti
+          <lb ed="#P" n="70"/>potest, si verbum et amor supponantur, talia
+          <lb ed="#P" n="71"/>esse, qualia nunc sunt : praecise autem 
+          loquen<lb break="no" ed="#P" n="72"/>do de relationibus formalibus termini 
+          cogni<lb break="no" ed="#P" n="73"/>tionis, ut sic, negamus, includere 
+          distinctio<lb break="no" ed="#P" n="74"/>nem realem , nisi aliunde adjungatur 
+          pro<lb break="no" ed="#P" n="75"/>cessio inter illa. Idem respondetur ad 
+          secun<lb break="no" ed="#P" n="76"/>dum, nam filiatio nunc distinguit, quia est
+          <lb ed="#P" n="77"/>formalis ratio terminandi habitudinem 
+          proces<lb break="no" ed="#P" n="78"/>sionis, tunc autem non ita esset, quia non
+          <lb ed="#P" n="79"/>esset origo. Ad tertium dicimus, tunc non
+          <lb ed="#P" n="80"/>fuisse futuras duas productiones substantiales,
+          <lb ed="#P" n="81"/>sed unam secundum rem et duplicem 
+          secun<lb break="no" ed="#P" n="82"/>dum rationem; nam licet extra Deum 
+          multi<lb break="no" ed="#P" n="83"/>plicari possint processiones sine ordine realis
+          <lb ed="#P" n="84"/>originis ipsarum inter se, non tamen intra
+          <lb ed="#P" n="85"/>Deum, propter divinam simphicitatem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

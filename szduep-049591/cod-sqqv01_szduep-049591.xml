@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="194"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-049591"><!-- t1-l3c1 -->
+        <head xml:id="szduep-049591-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-049591-Hd1e103" type="question-title">De scientia, quam deus de se habet</head>
+        <p xml:id="szduep-049591-d1e106">
+          <lb ed="#P" n="50"/>CAPUT I.
+          <lb ed="#P" n="51"/>DE SCIENTIA, QUAM DEUS DE SE HABET.
+        </p>
+        <p xml:id="szduep-049591-d1e113">
+          <lb ed="#P" n="52"/>1. In Deo esse scientiam. — De hoc attributo,
+          <lb ed="#P" n="53"/>quatenus ratione naturali cognosci potest, 
+          dis<lb break="no" ed="#P" n="54"/>serui in Metaphyscea, disp.; 30, saepe citata sect.
+          <lb ed="#P" n="55"/>15, et imprimis supposui, sermonem esse de
+          <pb ed="#P" n="195"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>scientia, ut dicit claram et evidentem rei 
+          cogni<lb break="no" ed="#P" n="2"/>tionem intellectualem et immaterialem, 
+          abstra<lb break="no" ed="#P" n="3"/>hendo a ratione accidentis, qualitatis, habitus
+          <lb ed="#P" n="4"/>et cujuscumque potentialitatis. Quo sensu 
+          evi<lb break="no" ed="#P" n="5"/>dentissimum est naturali lumine in Deo esse
+          <lb ed="#P" n="6"/>scientiam. Quod etiam nostra fides confirmat
+          <lb ed="#P" n="7"/>Esther 14: Domine, qui habes omnem scientiam.
+          <lb ed="#P" n="8"/>Ecclesiast. 94: Cognovit Dominus omnem 
+          scien<lb break="no" ed="#P" n="9"/>tium. Job 91: Numquid Deum docebit quispiam
+          <lb ed="#P" n="10"/>scientiam. Denique ipsamet Scriptura, ut 
+          divi<lb break="no" ed="#P" n="11"/>na esse possit, supponit in Deo scientiam, alias
+          <lb ed="#P" n="12"/>quomodo contineret verba Dei, cum nemo 
+          lo<lb break="no" ed="#P" n="13"/>qui possit, nisi qui cognitionem rationis et 
+          in<lb break="no" ed="#P" n="14"/>tellectus habet quam nunc scientiam 
+          appella<lb break="no" ed="#P" n="15"/>mus. hatio a priori est, quia Deus est in 
+          per<lb break="no" ed="#P" n="16"/>fectissimo et supremo gradu, qui a nobis 
+          cogi<lb break="no" ed="#P" n="17"/>tari potest, nam licet sit etiam ultra omnem
+          <lb ed="#P" n="18"/>ordinem rerum creatarum , tamen quatenus
+          <lb ed="#P" n="19"/>cum illis potest habere aliquam formalem 
+          con<lb break="no" ed="#P" n="20"/>venientiam, licet analogia, dicitur esse in 
+          su<lb break="no" ed="#P" n="21"/>premo gradu, sed hic gradus es intellectualis,
+          <lb ed="#P" n="22"/>ergo. Atque ita supra, libro primo, capite tertio
+          <lb ed="#P" n="23"/>simili discursu conclusimus, Deum 
+          essentiali<lb break="no" ed="#P" n="24"/>ter esse intellectualem. Addi vero potest ex
+          <lb ed="#P" n="25"/>dictis, eodem libro primo, capite 
+          quadragesi<lb break="no" ed="#P" n="26"/>mo-quinto, et sequentibus, Deum ita esse 
+          es<lb break="no" ed="#P" n="27"/>sentialiter intellectualem , ut per essentiam
+          <lb ed="#P" n="28"/>habeat omnem actualitatem intelligendi, quia
+          <lb ed="#P" n="29"/>in omni perfecta ratione entis et praesertim in
+          <lb ed="#P" n="30"/>illo gradu , est perfectissimus actus. Ex quo
+          <lb ed="#P" n="31"/>principio intuli in citato loco Metaphysicae ,
+          <lb ed="#P" n="32"/>non esse in Deo scientiam per modum actus
+          <lb ed="#P" n="33"/>primi, sed per se et connaturaliter esse in actu
+          <lb ed="#P" n="34"/>secundo, vel potius esse ipsum actum 
+          secun<lb break="no" ed="#P" n="35"/>dum , non elicitum vere ab actu primo , sed
+          <lb ed="#P" n="36"/>per essentiam, ac per se subsistentem. Quae
+          <lb ed="#P" n="37"/>omnia et satis clara sunt, et in dicto loco suffi
+          <lb ed="#P" n="38"/>cienter tractata.
+        </p>
+        <p xml:id="szduep-049591-d1e211">
+          <lb ed="#P" n="39"/>2. His vero addendum est , haec omnia 
+          maxi<lb break="no" ed="#P" n="40"/>me convenire divinae scientiae , quatenus est
+          <lb ed="#P" n="41"/>de ipsomet DEO, ejusque natura, ac de 
+          omni<lb break="no" ed="#P" n="42"/>bus, quae intra ipsum vere , ac realiter sunt.
+          <lb ed="#P" n="43"/>Quamvis enim scientia, quam DEUS de se 
+          ha<lb break="no" ed="#P" n="44"/>bet, non distinguatur in re ab ipso: 
+          nihilomi<lb break="no" ed="#P" n="45"/>nus quatenus scientia est, intelligibitur a 
+          no<lb break="no" ed="#P" n="46"/>bis versari circa aliquod objectum, quia omnis
+          <lb ed="#P" n="47"/>scientia necessario esse debet de aliqua re 
+          sci<lb break="no" ed="#P" n="48"/>bili. Primarium ergo objectum divinae 
+          scien<lb break="no" ed="#P" n="49"/>tiae est DEUS ipse, quia se per seipsum 
+          intelh<lb break="no" ed="#P" n="50"/>git et sibi est eonjunctissimus cum summa 
+          ac<lb break="no" ed="#P" n="51"/>tualitate et immaterialitate, ideoque nihil 
+          in<lb break="no" ed="#P" n="52"/>telligere potest prius, quam se, se autem aliquo
+          <lb ed="#P" n="53"/>modo prius saltem ratione cognoscit, quam
+          <lb ed="#P" n="54"/>ecaetera, ut infra dicemus. Item nullum est 
+          ob<lb break="no" ed="#P" n="55"/>jectum ita intelligibile, sicut Deus, nec tam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>intimum suae intellectioni, cui est omnino 
+          ne<lb break="no" ed="#P" n="57"/>cessario conjunctum. Maxime ergo Deus habet
+          <lb ed="#P" n="58"/>scientiam sui ipsius. Scit ergo Deus per illam
+          <lb ed="#P" n="59"/>scientiam, quidquid in ipso est. Item scit illud
+          <lb ed="#P" n="60"/>perfectissimo modo et propterea merito 
+          dici<lb break="no" ed="#P" n="61"/>tur, se comprehendere, ut notavit divus 
+          Tho<lb break="no" ed="#P" n="62"/>mas, dicta quaest. 14, art. 3. et supra 
+          tetigi<lb break="no" ed="#P" n="63"/>mus, lib. 2, cap. 5 et 29, tractando de 
+          incom<lb break="no" ed="#P" n="64"/>prehensibilitate, et ex dictis in sequentibus 
+          ca<lb break="no" ed="#P" n="65"/>pitulis amplius declarabitur.
+        </p>
+        <p xml:id="szduep-049591-d1e275">
+          <lb ed="#P" n="66"/>3. Scientiam convenire Deo cum summa 
+          ez<lb break="no" ed="#P" n="67"/>cellentia. — Tandem concludendum est , huic
+          <lb ed="#P" n="68"/>scientiae, quatenus est de Deo ipso convenire
+          <lb ed="#P" n="69"/>cum summa excellentia perfectiones omnes,
+          <lb ed="#P" n="70"/>quae in scientia desiderari possunt. Nam 
+          im<lb break="no" ed="#P" n="71"/>primis est de novissimo objecto. Secundo est
+          <lb ed="#P" n="72"/>adaequata illi et comprehensiva ejus. Tertio
+          <lb ed="#P" n="73"/>est perfectissima, non solum, quia 
+          substantia<lb break="no" ed="#P" n="74"/>lis et actualissima est, sed etiam, quia habet
+          <lb ed="#P" n="75"/>omnes perfectiones et proprietates scientiae,
+          <lb ed="#P" n="76"/>ut scientia est in perfectissimo gradu. Sunt
+          <lb ed="#P" n="77"/>autem hujusmodi proprietates, imprimis 
+          veri<lb break="no" ed="#P" n="78"/>tas, quam constat in scientia primae veritatis
+          <lb ed="#P" n="79"/>de se ipsa summam esse. Deinde est claritas et
+          <lb ed="#P" n="80"/>evidentia, a qua non separatur, nam haec est
+          <lb ed="#P" n="81"/>perfectio simpliciter, et ideo non potest deesse
+          <lb ed="#P" n="82"/>Deo, qui lucem habitat inaccessibilem , imo qui
+          <lb ed="#P" n="83"/>solus est, luax vera, que illuminat omnem 
+          ho<lb break="no" ed="#P" n="84"/>minem, ut dicitur Joannes 1, et late 
+          prosequi<lb break="no" ed="#P" n="85"/>tur Dionysius, de Divinis nomin. Praeterea est
+          <lb ed="#P" n="86"/>illa scientia summe necessaria et invariabilis,
+          <lb ed="#P" n="87"/>ut terminatur ad Deum , sic enim illam nunc
+          <lb ed="#P" n="88"/>consideramus, infra vero ostendemus respectu
+          <lb ed="#P" n="89"/>omnium objectorum habere has perfectiones.
+          <lb ed="#P" n="90"/>Quia in intellectu perfectio magna est, semper
+          <lb ed="#P" n="91"/>in actu esse, maxime vero hoc est necessarium
+          <lb ed="#P" n="92"/>in scientia Dei, ut est de ipsomet Deo, quia
+          <lb ed="#P" n="93"/>Deus est objectum summe intelligibile et 
+          ip<lb break="no" ed="#P" n="94"/>sum intelligere Dei etiam est ex se 
+          necessa<lb break="no" ed="#P" n="95"/>rium et invariabile, cum sit esse per 
+          essen<lb break="no" ed="#P" n="96"/>tiam : ergo illud intelligere, quatenus 
+          estscien<lb break="no" ed="#P" n="97"/>tia talis objecti, est summe necessarium, ac
+          <lb ed="#P" n="98"/>invariabile. Et ideo per illud procedere 
+          po<lb break="no" ed="#P" n="99"/>test verbum infinitum et immutabile, quod sit
+          <lb ed="#P" n="100"/>verus Deus, ut infra videbimus.
+        </p>
+        <p xml:id="szduep-049591-d1e353">
+          <lb ed="#P" n="101"/>4. Dubium.— Denique est illa scientia 
+          sim<lb break="no" ed="#P" n="102"/>plicissima sine compositione , sive discursu,
+          <lb ed="#P" n="103"/>aut alia simili imperfectione. Quia nec infinita
+          <lb ed="#P" n="104"/>capacitas divinaee mentis capax est similium
+          <lb ed="#P" n="105"/>imperfectionum, nec objecti simplhicitas illam
+          <lb ed="#P" n="106"/>admittit, cum cognoscitur, prout est in se et
+          <lb ed="#P" n="107"/>modo perfectissimo. Neque obstat, quod illa
+          <lb ed="#P" n="108"/>scientia summam veritatem habeat in ordine
+          <lb ed="#P" n="109"/>ad tale objectum, ut diximus. Idque sit non
+          <lb ed="#P" n="110"/>solum apprehensiva, sed etiam judicativa, ut
+          <pb ed="#P" n="196"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vera ratio scientiae postulat. Nam haec omnia
+          <lb ed="#P" n="2"/>possunt esse in simplicissima cognitione et 
+          in<lb break="no" ed="#P" n="3"/>tuitione, ac comprehensione rei simplicis prout
+          <lb ed="#P" n="4"/>in se est. Nam per illam simplicissime 
+          indica<lb break="no" ed="#P" n="5"/>tur, rem ita esse, sicut est, ut dixit D. Thomas,
+          <lb ed="#P" n="6"/>1 part., q. 16, art. 5, ad 1. Et in disp. 8, 
+          Meta<lb break="no" ed="#P" n="7"/>physicae, sect. 3, in fine tetigimus.
+        </p>
+        <p xml:id="szduep-049591-d1e397">
+          <lb ed="#P" n="8"/>5. Dubium. Circa totam hanc doctinam
+          <lb ed="#P" n="9"/>non invenio difficultatem alicujus momenti, 
+          so<lb break="no" ed="#P" n="10"/>Ium de actibus liberis Dei, dubitari potest, 
+          quo<lb break="no" ed="#P" n="11"/>modo perhanc scientiam cognoscantur. Dequa
+          <lb ed="#P" n="12"/>re aliquid tetigimus in libro secundo, occasione
+          <lb ed="#P" n="13"/>scientiae beatorum, et aliquid addemus, capite
+          <lb ed="#P" n="14"/>tertio, nam illa difficultas conjuncta est cum
+          <lb ed="#P" n="15"/>scientia, quam Deus habet de creaturis futuris.
+          <lb ed="#P" n="16"/>Inquiri etiam hic potest, an haec scientia quam
+          <lb ed="#P" n="17"/>Deus de se habet, possit dici scientia, quia,
+          <lb ed="#P" n="18"/>vel propter quid. Dico tamen breviter, 
+          neu<lb break="no" ed="#P" n="19"/>tram dici posse proprie. Non quidem dici 
+          po<lb break="no" ed="#P" n="20"/>test scientia quia, quia haec est imperfecta et
+          <lb ed="#P" n="21"/>per medium extrinsecum. Cognoscit quidem
+          <lb ed="#P" n="22"/>Deus dependentiam suorum effectuum a se, ut
+          <lb ed="#P" n="23"/>infra dicemus: unde etiam scit se posse ab alis
+          <lb ed="#P" n="24"/>cognosci per effectus suos, ipse autem non se
+          <lb ed="#P" n="25"/>cognoscit per effectus, quia illa cognitio 
+          im<lb break="no" ed="#P" n="26"/>perfecta est. Non est etiam scientia illa 
+          prop<lb break="no" ed="#P" n="27"/>ter quid, quia haec est scientia per causam, et
+          <lb ed="#P" n="28"/>Deus non habet causam. Est igitur altior 
+          scien<lb break="no" ed="#P" n="29"/>tia quae potest dici per se ipsam, et ita dicit D.
+          <lb ed="#P" n="30"/>Thomas, quaest. 14, art. 2 et 3, Deum 
+          intelli<lb break="no" ed="#P" n="31"/>gere et comprehendere se per se ipsum. Unde
+          <lb ed="#P" n="32"/>negative potest dici esse propter quid, quia est
+          <lb ed="#P" n="33"/>per ipsam quidditatem rei, quae aliam causam
+          <lb ed="#P" n="34"/>non habet, sed per sese talis est.
+        </p>
+        <p xml:id="szduep-049591-d1e458">
+          <lb ed="#P" n="35"/>Reliqua de hac scientia sufficienter tractata
+          <lb ed="#P" n="36"/>sunt in citato loco Metaphysicae. Nonnulla 
+          ve<lb break="no" ed="#P" n="37"/>ro quae sunt propria hujus scientiae, ut in ea
+          <lb ed="#P" n="38"/>et per eam potest esse productio verbi, 
+          dicen<lb break="no" ed="#P" n="39"/>tur in tractatu de Trinitate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

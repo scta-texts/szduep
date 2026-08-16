@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="454"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-115369"><!-- t2-l2c25 -->
+        <head xml:id="szduep-115369-Hd1e101">Caput 25</head>
+        <head xml:id="szduep-115369-Hd1e103" type="question-title">Detur ne aliqua causa, vel ratio ex parte dei electionis praedestinatorum</head>
+        <p xml:id="szduep-115369-d1e106">
+          <lb ed="#P" n="7"/>CAPUT XXV.
+          <lb ed="#P" n="8"/>DETUR NE ALIQUA CAUSA, VEL RATIO EX PARTE
+          <lb ed="#P" n="9"/>DEI ELECTIONIS PRAEDESTINATORUM.
+        </p>
+        <p xml:id="szduep-115369-d1e115">
+          <lb ed="#P" n="10"/>1. In hac difficultate quatuor distinguenda
+          <lb ed="#P" n="11"/>sunt.—Ratio dubii. — Hactenus dictum est de
+          <lb ed="#P" n="12"/>causis hujus electionis quae extra Deum, ut
+          <lb ed="#P" n="13"/>Deus est, excogitari possunt: nunc superest
+          <lb ed="#P" n="14"/>brevissime inquirendum, an ex parte 
+          ipsius<lb break="no" ed="#P" n="15"/>met Dei, ac sapientiae et bonitatis ejus ratio
+          <lb ed="#P" n="16"/>aliqua hujus electionis dari, aut excogitari
+          <lb ed="#P" n="17"/>possit. In qua re quatuor distinguenda sunt.
+          <lb ed="#P" n="18"/>Primum est, quod Deus efficaciter elegerit 
+          ali<lb break="no" ed="#P" n="19"/>quos, ut infallibiliter salventur : secundum est,
+          <lb ed="#P" n="20"/>quod non ita elegerit omnes creandos, sed
+          <lb ed="#P" n="21"/>quosdam tantum-ex illis: tertium, quod illi
+          <lb ed="#P" n="22"/>fuerint in tanto numero et non in majori:
+          <lb ed="#P" n="23"/>quartum, quod fuerint hae personae et nonillae.
+          <lb ed="#P" n="24"/>De singulis breviter dicam, advertendo hic a
+          <lb ed="#P" n="25"/>nobis quaeri rationem aliquam praeter solam
+          <lb ed="#P" n="26"/>libertatem divinae voluntatis: nam quod Deus
+          <lb ed="#P" n="27"/>pro sola sua libertate, etc., consilio voluntatis
+          <lb ed="#P" n="28"/>suae, haec omnia fecerit, manifestum est; an
+          <lb ed="#P" n="29"/>vero pura libertas fuerit, unica ratio omnium
+          <lb ed="#P" n="30"/>justorum decretorum , vel ultra illam aliam
+          <lb ed="#P" n="31"/>habuerit Deus, hoc inquirimus ; videtur enim
+          <lb ed="#P" n="32"/>spectare ad summam sapientiam et bonitatem,
+          <lb ed="#P" n="33"/>ut in omnibus determinationibus liberis, et
+          <lb ed="#P" n="34"/>circumstantiis earum aliqua speciali ratione
+          <lb ed="#P" n="35"/>ducatur et quod non sit sola pro ratione 
+          vo<lb break="no" ed="#P" n="36"/>luntas, nam hic videtur esse rationabilior et
+          <lb ed="#P" n="37"/>prudentior operandi modus. In contrarium
+          <lb ed="#P" n="38"/>vero est, quia non videtur talis ratio posse
+          <lb ed="#P" n="39"/>semper reperiri, aut excogitari.
+        </p>
+        <p xml:id="szduep-115369-d1e183">
+          <lb ed="#P" n="40"/>2. Prima assertio. — Circa primum 
+          dicen<lb break="no" ed="#P" n="41"/>dum est, non defuisse Deo rationes plures, ob
+          <lb ed="#P" n="42"/>quas sua voluntate efficaci aliquos ad 
+          conse<lb break="no" ed="#P" n="43"/>cutionem gloriae infallibiliter destinaverit ex
+          <lb ed="#P" n="44"/>se, et ante praevisa eorum merita. Qui 
+          existi<lb break="no" ed="#P" n="45"/>mant, hanc electionem in angelis factam non
+          <lb ed="#P" n="46"/>esse, nec in hominibus pro statu innocentiae
+          <lb ed="#P" n="47"/>futuram fuisse, totam rationem hujus 
+          assertio<lb break="no" ed="#P" n="48"/>nis reddunt ex lapsu naturae humanae per 
+          pec<lb break="no" ed="#P" n="49"/>catum originis, et ex debilitate, ac fragilitate
+          <lb ed="#P" n="50"/>virium , quam inde contraxit. Quia nisi ex
+          <lb ed="#P" n="51"/>massa Corrupta Deus elegisset aliquos 
+          infaili<lb break="no" ed="#P" n="52"/>biliter salvandos in tali, ac tanto perfectionis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>gradu, pauci. vel nulli salvarentur, et cum
+          <lb ed="#P" n="54"/>multis imperfectionibus, et lapsibus, vixque
+          <lb ed="#P" n="55"/>ullus perveniret ad excellentem gradum 
+          sanc<lb break="no" ed="#P" n="56"/>titatis, et ideo convenientissimum fuit, ut Deus
+          <lb ed="#P" n="57"/>pro ratione sapientiae suae, et copiosum 
+          nume<lb break="no" ed="#P" n="58"/>rum elegerit, et gradus gloriae distribuerit,
+          <lb ed="#P" n="59"/>cum varietate, et excellentia decentissima et
+          <lb ed="#P" n="60"/>convenientissima. Quae ratio contemnenda non
+          <lb ed="#P" n="61"/>est, estque consentanea Augustino, lib. de 
+          Cor<lb break="no" ed="#P" n="62"/>reptione et Gratia, cap. 11 et 12.
+        </p>
+        <p xml:id="szduep-115369-d1e239">
+          <lb ed="#P" n="63"/>3. Electio per se habet locum in angelis.
+          <lb ed="#P" n="64"/>— At vero supponendo (ut nos credimus) 
+          elec<lb break="no" ed="#P" n="65"/>tionem per se habere locum in omni statu,
+          <lb ed="#P" n="66"/>tam angelorum, quam hominum, rationes ejus
+          <lb ed="#P" n="67"/>sumere necesse est ex alus attributis divinis,
+          <lb ed="#P" n="68"/>quae per se relucent et manifestantur in 
+          ope<lb break="no" ed="#P" n="69"/>ribus Dei, eas vero tetigimus supra, libro primo,
+          <lb ed="#P" n="70"/>explicando necessitatem divinae 
+          praedestinatio<lb break="no" ed="#P" n="71"/>nis. Praecipua vero est ostensio divinae gratiae,
+          <lb ed="#P" n="72"/>libertatis, et dominii. Quam attingit Paulus
+          <lb ed="#P" n="73"/>verbis illis. 7n laudem glorie gratie sue. n
+          <lb ed="#P" n="74"/>nulla enim re magis ostendit Deus, se non ex
+          <lb ed="#P" n="75"/>debito aliquo, vel merito hominis haec 
+          super<lb break="no" ed="#P" n="76"/>naturalia dona conferre, quam eligendo, quos
+          <lb ed="#P" n="77"/>vult efficaciter ad gloriam. Deinde, quia 
+          dice<lb break="no" ed="#P" n="78"/>bat ad perfectionem, et pulchritudinem regni
+          <lb ed="#P" n="79"/>coelestis ut ex directa, et efficaci intentione
+          <lb ed="#P" n="80"/>divina in tali numero, pondere, et mensura
+          <lb ed="#P" n="81"/>totum constitueretur ex talibus membris, sub
+          <lb ed="#P" n="82"/>tali capite, in talibus gradibus, seu 
+          mansioni<lb break="no" ed="#P" n="83"/>bus constitutis, ut ostenderet Deus divitias 
+          glo<lb break="no" ed="#P" n="84"/>ric swue in vasa misericordie, ut ait Paulus ad
+          <lb ed="#P" n="85"/>Rom. 9. Praeterea, ex parte divinae 
+          misericor<lb break="no" ed="#P" n="86"/>dise, et bonitatis potest reddi ratio, quia hic
+          <lb ed="#P" n="87"/>actus est maximae muisericordie, et ostendit
+          <lb ed="#P" n="88"/>valde divinam bonitatem : nam ordinatur ad
+          <lb ed="#P" n="89"/>magnam communicationem illius. Item 
+          de<lb break="no" ed="#P" n="90"/>clarat magnam perfectionem divinae sapientiae
+          <lb ed="#P" n="91"/>et prudentiae, dum infallbihtatem divini 
+          de<lb break="no" ed="#P" n="92"/>creti, cum mutabilitate humanae libertatis ita
+          <lb ed="#P" n="93"/>conjungit, ut illud hanc non destruat, et haec
+          <lb ed="#P" n="94"/>illud non impediat.
+        </p>
+        <p xml:id="szduep-115369-d1e311">
+          <lb ed="#P" n="95"/>4. Secunda assertio. — Circa secundum 
+          di<lb break="no" ed="#P" n="96"/>cendum est, ex parte Dei, ejusque infinitae
+          <lb ed="#P" n="97"/>reddi posse aliquas causas seu rationes, ob
+          <lb ed="#P" n="98"/>quas non omnes homines, vel angelos ad 
+          aeter<lb break="no" ed="#P" n="99"/>nam salutem consequendam efhicaciter 
+          prae<lb break="no" ed="#P" n="100"/>ordinavit, sed solum ex omnibus aliquos 
+          ele<lb break="no" ed="#P" n="101"/>gerit. Ita docet D. Thomas, dicta quaest. 23,
+          <lb ed="#P" n="102"/>art. 5, ad 3. Sufficitque nunc ratio illa 
+          gene<lb break="no" ed="#P" n="103"/>ralis de ostensione gratiae, et summi dominii,
+          <lb ed="#P" n="104"/>ac liberalitatis Dei. Nam haec omnia non tam
+          <lb ed="#P" n="105"/>evidenter, et mirabiliter ostenderentur in 
+          di<lb break="no" ed="#P" n="106"/>lectione omnium quam in dilectione.
+          quorum<lb break="no" ed="#P" n="107"/>dam, prae aliis, absque ratione ulla, vel inae-
+          <pb ed="#P" n="455"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>qualitate ex parte ipsorum. Accedit, quod ad
+          <lb ed="#P" n="2"/>specialem ostensionem vindicativae justitiae 
+          ne<lb break="no" ed="#P" n="3"/>cessarium fuit, non omnes sic diligere : Sed
+          <lb ed="#P" n="4"/>hoc jam magis spectat ad rationes 
+          reprobatio<lb break="no" ed="#P" n="5"/>nis, quam praedestinationis, et ideo inferius
+          <lb ed="#P" n="6"/>libro quinto melius tradetur.
+        </p>
+        <p xml:id="szduep-115369-d1e359">
+          <lb ed="#P" n="7"/>5. Tertia assertio.— Circa tertium, et 
+          quar<lb break="no" ed="#P" n="8"/>tum dicendum est, nullam posse a nobis reddi
+          <lb ed="#P" n="9"/>rationem etiam ex parte Dei sumptam praeter
+          <lb ed="#P" n="10"/>ejus liberam voluntatem, cur elegerit 
+          homi<lb break="no" ed="#P" n="11"/>nes, vel angelos in tanto numero salvandos,
+          <lb ed="#P" n="12"/>et efficaciter vocandos, potius quam in majori,
+          <lb ed="#P" n="13"/>vel minori : et cur potius in his numero 
+          per<lb break="no" ed="#P" n="14"/>sonis, quam in aliis, vel ex possibilibus, vel
+          <lb ed="#P" n="15"/>ex his, quas nunc creat, et reprobae sunt. In
+          <lb ed="#P" n="16"/>hoc etiam conveniunt theologi, nam licet in
+          <lb ed="#P" n="17"/>verbis fortasse differant, vel in modo 
+          expli<lb break="no" ed="#P" n="18"/>candi hanc electionem immediate in ordine
+          <lb ed="#P" n="19"/>ad gloriam, vel ad gratiam efficacem seu 
+          con<lb break="no" ed="#P" n="20"/>gruam : nihilominus absolute in hoc 
+          conve<lb break="no" ed="#P" n="21"/>niunt, quod illa electio gratuita, quae ex parte
+          <lb ed="#P" n="22"/>hominum non habet rationem , ex parte
+          <lb ed="#P" n="23"/>etiam Dei non habet aliam, quae nobis nota
+          <lb ed="#P" n="24"/>sit, praeter divinam voluntatem. Nullus enim
+          <lb ed="#P" n="25"/>hactenus illam reddidit : signum ergo est, non
+          <lb ed="#P" n="26"/>posse ab hbominibus cognosci. Item, quae ratio
+          <lb ed="#P" n="27"/>potest ab hominibus reddi, cur Deus ex 
+          infini<lb break="no" ed="#P" n="28"/>tis angelis, quos creare potuisset, hos potius
+          <lb ed="#P" n="29"/>voluerit creare, quam alios? Item, cur ex 
+          infi<lb break="no" ed="#P" n="30"/>nitis humanitatibus possibilibus hanc potius
+          <lb ed="#P" n="31"/>elegerit ad unionem hypostaticam, quam 
+          a<lb break="no" ed="#P" n="32"/>liam? Numquid non erat possibilis alia tam
+          <lb ed="#P" n="33"/>perfecta in naturalibus, et tam capax illius
+          <lb ed="#P" n="34"/>beneficii, et tam apta, et idonea ad omnes 
+          fi<lb break="no" ed="#P" n="35"/>nes illius mysteri, sicut illa? Item, cur Deus
+          <lb ed="#P" n="36"/>creando homines, et angelos, illos potius creare
+          <lb ed="#P" n="37"/>voluit in hoc momento, quam in alio, in hoc
+          <lb ed="#P" n="38"/>ordine rerum magis quam in alio? Vel cur
+          <lb ed="#P" n="39"/>(quod est D. Thomae exemplum) ex duabus
+          <lb ed="#P" n="40"/>portionibus materiae primae, in prima 
+          creatio<lb break="no" ed="#P" n="41"/>ne hanc creavit sub forma ignis, et illam sub
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="42"/>forma aquae, magis quam e contrario? Certe
+          <lb ed="#P" n="43"/>sicut in his et similibus non potest ratio ab
+          <lb ed="#P" n="44"/>homine reddi , ita nec de Praedestinatorum
+          <lb ed="#P" n="45"/>gratuita electione, quoad numerum 
+          persona<lb break="no" ed="#P" n="46"/>rum, tam formali, quam material.
+        </p>
+        <p xml:id="szduep-115369-d1e450">
+          <lb ed="#P" n="47"/>6. Dubitari autem potest, an hoc ideo sit,
+          <lb ed="#P" n="48"/>quia in re ipsa nulla est alia ratio, vel 
+          prove<lb break="no" ed="#P" n="49"/>niat ex debilitate humani ingenii, quod non
+          <lb ed="#P" n="50"/>omnes rationes divinae providentiae 
+          compre<lb break="no" ed="#P" n="51"/>hendit. Aliqui enim existimant, revera non
+          <lb ed="#P" n="52"/>deesse rationem aliquam ex parte Dei, etiamsi
+          <lb ed="#P" n="53"/>nunc nos lateat. Augustinus enim in 
+          Enchiri<lb break="no" ed="#P" n="54"/>dio, cap. 95: Tunc (inquit) non latebit, quod
+          <lb ed="#P" n="55"/>nunc latet, id est, in beatitudine, cur, scilicet,
+          <lb ed="#P" n="56"/>ille potius quam iste fuerit assunptus, cum
+          <lb ed="#P" n="57"/>causa una fuerit ambobus. At divus Thomas,
+          <lb ed="#P" n="58"/>1 part. , quaest. 23, art. 5, ad 3, plane docet, in
+          <lb ed="#P" n="59"/>re nullam subesse aliam causam vel rationem,
+          <lb ed="#P" n="60"/>praeter voluntatem Dei. Quia ratio et exempla
+          <lb ed="#P" n="61"/>adducta videntur ostendere, non solum non
+          <lb ed="#P" n="62"/>esse nobis notam a'iam rationem, verum etiam
+          <lb ed="#P" n="63"/>in re ipsa inveniri non posse. Quia, si ex parte
+          <lb ed="#P" n="64"/>eorum, inter quos fit electio, est omnimoda
+          <lb ed="#P" n="65"/>aequalitas in ordine ad omnes fines possibiles
+          <lb ed="#P" n="66"/>divinae providentiae, etiam ex parte omnium
+          <lb ed="#P" n="67"/>attributorum Dei erit aequalitas, sola voluntate
+          <lb ed="#P" n="68"/>excepta, quia sola libera est. Et non est 
+          du<lb break="no" ed="#P" n="69"/>bium, quin Deus pro sua libertate possit ex
+          <lb ed="#P" n="70"/>duobus objectis omnino aequalibus sub omni
+          <lb ed="#P" n="71"/>ratione, unum pro sua libertate eligere, et non
+          <lb ed="#P" n="72"/>aliud, quia hoc spectat ad perfectionem 
+          liber<lb break="no" ed="#P" n="73"/>tatis, et non est irrationabile, quia ratio ipsa
+          <lb ed="#P" n="74"/>dictat, non posse, nec debere aliter fieri. Unde
+          <lb ed="#P" n="75"/>mihi probabilissimum est, in negotio divinae
+          <lb ed="#P" n="76"/>praedestinationis ita accidisse. Nec Augustinus
+          <lb ed="#P" n="77"/>oppositum significat, sed solum ait, hoc ipsum,
+          <lb ed="#P" n="78"/>quod nunc latet, vel obscure cognoscitur, quod
+          <lb ed="#P" n="79"/>scilicet sola Dei voluntas fuerit hujus varietatis
+          <lb ed="#P" n="80"/>ratio, tunc clare videndum esse, et sine 
+          dubi<lb break="no" ed="#P" n="81"/>tatione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="235"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-059880"><!-- t2-prae -->
+        <head xml:id="szduep-059880-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-059880-d1e103">
+          <pb ed="#P" n="235"/>
+          <lb ed="#P" n="1"/>TRACTATUS
+          <lb ed="#P" n="2"/>DE DIVINA PRAEDESTINATIONE
+          <lb ed="#P" n="3"/>ET REPROBATIONE.
+        </p>
+        <p xml:id="szduep-059880-d1e114">
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="4"/>PROOEMIUM.
+          <lb ed="#P" n="5"/>Quamvis praedestinatio et reprobatio ita sint conjunctae, et aliquo modo 
+          subor<lb break="no" ed="#P" n="6"/>dinatae , ut vix possit una sine alia perfecte intelligi, aut explicari eamque ob
+          <lb ed="#P" n="7"/>causam soleant a Doctoribus promiscue tractari : nihilominus majoris claritatis
+          <lb ed="#P" n="8"/>gratia de unaquaque separatim dicemus, et deinde illas inter se comparabimus.
+          <lb ed="#P" n="9"/>Atque ita hoc opus in tres praecipuas partes dividemus. Prima erit de 
+          Praedestina<lb break="no" ed="#P" n="10"/>tione, quia nobilior est reprobatione, et ex primaria Dei voluntate est per se 
+          in<lb break="no" ed="#P" n="11"/>tenta ; unde ad reprobationem quodammodo , ut finis ad media, ( omnia enim
+          <lb ed="#P" n="12"/>ipropter electos , etiam reproborum promissio, et procreatio ) et ut habitus ad 
+          priva<lb break="no" ed="#P" n="13"/>tionem comparatur. Unde necesse est, illam primam partem coeteris esse 
+          copiosio<lb break="no" ed="#P" n="14"/>rem, ideoque in tres libros illam distribuemus, atque in primo de praedestinationis
+          <lb ed="#P" n="15"/>essentia, in secundo de illius causis, in tertio vero de ejusdem effectibus 
+          disputabi<lb break="no" ed="#P" n="16"/>mus. Deinde, ut divinae reprobationis justitia melius intelligatur, quartum 
+          inter<lb break="no" ed="#P" n="17"/>iponemus librum, in quo de divina providentia supernaturali cum hominibus, quos
+          <lb ed="#P" n="18"/>Deus non praedestinat , disseremus. Quintus ergo Liber reprobationem explicabit.
+          <lb ed="#P" n="19"/>Sextus vero praedestinationem cum reprobatione conferet, ut in altera divina 
+          miseri<lb break="no" ed="#P" n="20"/>cordia, in altera vero divina justitia magis elucescat. Atque ita totam hujus 
+          mys<lb break="no" ed="#P" n="21"/>ter doctrinam his sex libris, pro captu nostro, Deo bene juvante, 
+          comprehende<lb break="no" ed="#P" n="22"/>imus. Curabimusque in illa tradenda, eam dicendi, ac disputandi rationem tenere,
+          <lb ed="#P" n="23"/>quam solet exacta scientie cognitio postulare. Nam licet hoc praedestinationis 
+          ne<lb break="no" ed="#P" n="24"/>gotium abditissimum sit, solaque fide teneatur, atque humanam scientiam 
+          tran<lb break="no" ed="#P" n="25"/>scendat : tamen suppositis fidei principiis conandum nobis est in eo explicando
+          <lb ed="#P" n="26"/>scientiae methodum observare, ut commodius de tanto rmysterio aliquid investigare
+          <lb ed="#P" n="27"/>possimus. Non quidem divina consilia perscrutando, ac si ab humano ingenio 
+          pos<lb break="no" ed="#P" n="28"/>sint comprehendi : sed venerando potius altitudinem divitiarum sapientiae, et
+          <lb ed="#P" n="29"/>scientiae Dei, et incrustabilia ejus judicia cum admiratione suscipiendo, et hac fide
+          <lb ed="#P" n="30"/>supposita , rationem aliquam, et intelligenuam hujus mysterii cum divina gratia
+          <lb ed="#P" n="31"/>investigando.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

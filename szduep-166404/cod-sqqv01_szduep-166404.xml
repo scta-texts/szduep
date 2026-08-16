@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="657"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-166404"><!-- t3-l5c4 -->
+        <head xml:id="szduep-166404-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-166404-Hd1e103" type="question-title">Utrum relatio spirationis activa realis sit</head>
+        <p xml:id="szduep-166404-d1e106">
+          <lb ed="#P" n="106"/>CAPUT IV.
+          <lb ed="#P" n="107"/>UTRUM RELATIO SPIRATIONIS ACTIVA REALIS SIT.
+        </p>
+        <p xml:id="szduep-166404-d1e113">
+          <lb ed="#P" n="108"/>1. Rationes dubitandi. — Explicatis tribus
+          <pb ed="#P" n="658"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>relationibus personalibus, superest tantum 
+          di<lb break="no" ed="#P" n="2"/>cendum de spiratione activa, de qua nulla fere
+          <lb ed="#P" n="3"/>dubitatio est inter scholasticos, sed pro certo
+          <lb ed="#P" n="4"/>supponunt, hane relationem esse realem. Ut
+          <lb ed="#P" n="5"/>vero, et hujus rei ratio, et gradus certitudinis
+          <lb ed="#P" n="6"/>constet, tractanda breviter est proposita 
+          quaes<lb break="no" ed="#P" n="7"/>tio. Potest enim alicui facere dubitationem,
+          <lb ed="#P" n="8"/>quod apud antiquos Patres nulla videtur 
+          inve<lb break="no" ed="#P" n="9"/>niri mentio ejus relationis : Quamvis enim
+          <lb ed="#P" n="10"/>Concilium Lugdunense sub Gregorio X, in 
+          ca<lb break="no" ed="#P" n="11"/>pite unico de summa Trinitate, in 6, et 
+          Conci<lb break="no" ed="#P" n="12"/>lium Florentinum, sessione 24, dicant: Patrem
+          <lb ed="#P" n="13"/>et Filium una spiratione producere Spiritum
+          <lb ed="#P" n="14"/>sanctum, (quae spiratio realis sine dubio est,
+          <lb ed="#P" n="15"/>quia realiter producunt ): tamen (ut ex 
+          ipso<lb break="no" ed="#P" n="16"/>rum verbis constat) ibi non sumunt 
+          spiratio<lb break="no" ed="#P" n="17"/>nem pro relatione, sed pro origine, vel actu
+          <lb ed="#P" n="18"/>notionali. Est enim illa vox aequivoca, ut 
+          om<lb break="no" ed="#P" n="19"/>nes theologi fatentur : potest autem origo 
+          ac<lb break="no" ed="#P" n="20"/>tiva esse realis, quamvis relatio in ipso 
+          produ<lb break="no" ed="#P" n="21"/>cente non sit realis, ut patet in creatore 
+          res<lb break="no" ed="#P" n="22"/>pectu creaturarum. Hoc enim exemplo, et 
+          com<lb break="no" ed="#P" n="23"/>paratione utitur ad hanc originem 
+          declaran<lb break="no" ed="#P" n="24"/>dam Augustinus 5, de Trinitate, cap. 14. Unde
+          <lb ed="#P" n="25"/>potest nonnullum argumentum sumi , quod
+          <lb ed="#P" n="26"/>sicut relatio creatoris rationis est, et non 
+          rea<lb break="no" ed="#P" n="27"/>lis, licet Pater, Filius et Spiritus sanctus sint
+          <lb ed="#P" n="28"/>unum reale principium per unam creationem:
+          <lb ed="#P" n="29"/>ita relatio spirationis et non realis, etiam 
+          Pa<lb break="no" ed="#P" n="30"/>ter, et Filius realter spirent una spiratione.
+        </p>
+        <p xml:id="szduep-166404-d1e187">
+          <lb ed="#P" n="31"/>2. Praeterea <name xml:id="szduep-166404-Nd1e191">Albinus Flacus</name>, libro primo de
+          <lb ed="#P" n="32"/>Trinitate, capite quinto, dixit: Relationem 
+          spi<lb break="no" ed="#P" n="33"/>ritus sancti ad Patrem, et Filium non 
+          essee<lb break="no" ed="#P" n="34"/>ciprocam, id est mutuam. Quod philosophi et
+          <lb ed="#P" n="35"/>theologi dicere solent de relatione creaturae.
+          <lb ed="#P" n="36"/>Idem sensit Hugo Etherianus, libro 3, contra
+          <lb ed="#P" n="37"/>Graecos, capite 2. Primum enim ait, Spiritum
+          <lb ed="#P" n="38"/>sanctun distingui a alio per relationem ad
+          <lb ed="#P" n="39"/>ipsum, deinde vero subdait: Licet sit proprietas
+          <lb ed="#P" n="40"/>relativorum, ut cum termino recipiant 
+          conver<lb break="no" ed="#P" n="41"/>sionem, hoc quidum non arbitrantur de Spiritu
+          <lb ed="#P" n="42"/>sancto recipiendun, quia licet apse sit Patris et
+          <lb ed="#P" n="43"/>Filii, non tamen conversim Pater et Filius ad
+          <lb ed="#P" n="44"/>ipsun vreferuntur. Cui sententiae aliquo modo
+          <lb ed="#P" n="45"/>favore yidetur Concilium Toletanum 11, in
+          <lb ed="#P" n="46"/>Confessione fidei, nam loquens de Patre et 
+          Fi<lb break="no" ed="#P" n="47"/>lio, semper facit conversionem, non sic loquens
+          <lb ed="#P" n="48"/>de Spiritu sancto. 7n relativis, inquit, 
+          nomi<lb break="no" ed="#P" n="49"/>nibus Pater ad Filium, et Filius ad Patrem, et
+          <lb ed="#P" n="50"/>Spiritus sanctus ad utrumque refertur : et 
+          in<lb break="no" ed="#P" n="51"/>tra: Pater non ad se, sed ad Filium est, et 
+          Fi<lb break="no" ed="#P" n="52"/>lius non ad se, sed ad Patrem et Spiritus 
+          sanc<lb break="no" ed="#P" n="53"/>Lus simniliter non ad se, sed ad Patrem et Frilium
+          <lb ed="#P" n="54"/>refertur. Quomodo loquitur Augustinus 5, de
+          <lb ed="#P" n="55"/>Trinitate, cap. 11.
+        </p>
+        <p xml:id="szduep-166404-d1e247">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>3. Et confirmatur, nam ob hanc causam 
+          an<lb break="no" ed="#P" n="57"/>tiqui Patres tantum ponunt tres proprietates
+          <lb ed="#P" n="58"/>personales positivas (ut innascibilitatem 
+          omit<lb break="no" ed="#P" n="59"/>tamus) sic Concilium Lateranense, in capite
+          <lb ed="#P" n="60"/>Firmiter. Heec sancta Trinitas secundum 
+          sub<lb break="no" ed="#P" n="61"/>stantiam una, secundum proprietates personales
+          <lb ed="#P" n="62"/>discrela, indicans nihil amplius reale ibi esse
+          <lb ed="#P" n="63"/>necessarium. Et in capite Damnamaus, omnem
+          <lb ed="#P" n="64"/>numerum realem praeter ternarium a Deo 
+          ex<lb break="no" ed="#P" n="65"/>cludit, non ergo agnoscit quartam relationem.
+          <lb ed="#P" n="66"/>Unde etiam Damascenus, lib. 1, de Fide, c. 10
+          <lb ed="#P" n="67"/>et 11, copiose de relationibus, et 
+          proprietati<lb break="no" ed="#P" n="68"/>bus disserens, nullam hujus mentionem fecit.
+          <lb ed="#P" n="69"/>Quod notari etiam potest in als, quos supra
+          <lb ed="#P" n="70"/>retulimus, et in sequentibus repetemus. Imo 
+          ve<lb break="no" ed="#P" n="71"/>ro Basilius, epist. 43, dicit: Filium non habere
+          <lb ed="#P" n="72"/>cum Patre aliquam communicationem notionas,
+          <lb ed="#P" n="73"/>secundum proprictatem suam, sicul neque cum 
+          <lb ed="#P" n="74"/>Spiritu sancto. Neque vero id dixit, quia 
+          pu<lb break="no" ed="#P" n="75"/>taverit, Filium non producere cum Patre 
+          Spi<lb break="no" ed="#P" n="76"/>ritum sanctum nam ibidem ait Spiritum 
+          sanc<lb break="no" ed="#P" n="77"/>tum pendere a Filio : ergo quia non habent
+          <lb ed="#P" n="78"/>reiationem, dixisse hoc videtur, quia nimirum
+          <lb ed="#P" n="79"/>sentit, Patrem et Filium non habere aliquam
+          <lb ed="#P" n="80"/>notioncm, seu relationem communem. Unde
+          <lb ed="#P" n="81"/>inter scholasticos, Gregorius 1, dist. 26, 
+          abso<lb break="no" ed="#P" n="82"/>lute negavit, spirationem esse quartam 
+          rela<lb break="no" ed="#P" n="83"/>tionem.
+        </p>
+        <p xml:id="szduep-166404-d1e312">
+          <lb ed="#P" n="84"/>4. Tandem afferri potest ratio, quia relatio
+          <lb ed="#P" n="85"/>principii non semper est realis, ut de creatore
+          <lb ed="#P" n="86"/>dictum est. Dices, ibi hoc provenire ex Dei 
+          ex<lb break="no" ed="#P" n="87"/>cellentia in comparatione ad res creatas, quae
+          <lb ed="#P" n="88"/>imperfectae sunt et inferioris ordinis. Sed 
+          con<lb break="no" ed="#P" n="89"/>tra, quia in productione Spiritus sancti potest
+          <lb ed="#P" n="90"/>idem ex alio capite provenire. Vel quia 
+          per<lb break="no" ed="#P" n="91"/>sona constituta per relationem non est ulterius
+          <lb ed="#P" n="92"/>referibilis per aliam relationem realem. Hac
+          <lb ed="#P" n="93"/>enun ratione utitur D. Thomas, quaest. 42,
+          <lb ed="#P" n="94"/>articulo 3, ad 4, ut probet, unam divinam non
+          <lb ed="#P" n="95"/>referri ad aliam relatione reali distinctionis.
+          <lb ed="#P" n="96"/>Vel etiam. quia Deus non est capax alicujus
+          <lb ed="#P" n="97"/>relationis realis, quae in ipso esse debeat quasi
+          <lb ed="#P" n="98"/>per resultantiam, quia videtur hic modus esse
+          <lb ed="#P" n="99"/>imperfectus, sed debet relatio per se illi 
+          con<lb break="no" ed="#P" n="100"/>venire, aut quia per se est conjuncta 
+          imme<lb break="no" ed="#P" n="101"/>diate cum essentia, vel quia per se terminat
+          <lb ed="#P" n="102"/>processionem, haec autem relatio deberet esse
+          <lb ed="#P" n="103"/>per resultantiam, quia per se necessaria non
+          <lb ed="#P" n="104"/>est. et ideo ille modus realis relationis non 
+          vi<lb break="no" ed="#P" n="105"/>detur beo tribuendus.
+        </p>
+        <p xml:id="szduep-166404-d1e362">
+          <lb ed="#P" n="106"/>5. Vera resolutio. — Nihilominus dicendum
+          <lb ed="#P" n="107"/>est, spirationem activam esse relationem 
+          rea<lb break="no" ed="#P" n="108"/>lem Patris, et Filii ad Spiritum sanctum, 
+          qua<lb break="no" ed="#P" n="109"/>tenus sunt principium ejus. Haec est 
+          commu<lb break="no" ed="#P" n="110"/>nis assertio theologorum sine ulla dissentione,
+          <pb ed="#P" n="659"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>D. Thomae, 1, part., quaest. 28, art. 3, ubi 
+          de<lb break="no" ed="#P" n="2"/>finit, esse quatuor relationes, dixerat autem,
+          <lb ed="#P" n="3"/>art. 1, relationes personarum esse reales, quod
+          <lb ed="#P" n="4"/>dicit esse de fide, quaest. 8, de Potentia, art. 1.
+          <lb ed="#P" n="5"/>Et ideo multi moderni interpretes aeque certum
+          <lb ed="#P" n="6"/>putant hanc relationem esse realem, sicut
+          <lb ed="#P" n="7"/>alias. Tamen definitiones non sunt ita expresse
+          <lb ed="#P" n="8"/>de hac relatione, et ideo hic solum video 
+          cer<lb break="no" ed="#P" n="9"/>titudinem conclusionis theologicae, ut statim
+          <lb ed="#P" n="10"/>deducam. Idem habet divus Thomas, q. 32,
+          <lb ed="#P" n="11"/>art. 2 et 3, et Theologi, in 1, distinct. 13 et 26,
+          <lb ed="#P" n="12"/>ac 28, Alensis, 1 p., quaest. 68. Favet aliquo
+          <lb ed="#P" n="13"/>modo Concilium Toletanum, 11, in Confess.
+          <lb ed="#P" n="14"/>fidei. Nam post verba superius citata dicit:
+          <lb ed="#P" n="15"/>In personis divinis cerni numerum - quatenus
+          <lb ed="#P" n="16"/>ad invicem referuntur. Nam illa particula, Ad
+          <lb ed="#P" n="17"/>invicem , indicat relationes divinas mutuas
+          <lb ed="#P" n="18"/>esse et consequenter esse reales in utroque
+          <lb ed="#P" n="19"/>extremo.
+        </p>
+        <p xml:id="szduep-166404-d1e421">
+          <lb ed="#P" n="20"/>6. Ratio hujus veritatis ex triplici capite
+          <lb ed="#P" n="21"/>reddi potest, primo, si teneamus virtutem 
+          spi<lb break="no" ed="#P" n="22"/>rativam, quae communis est Patri et Filio, non
+          <lb ed="#P" n="23"/>solum includere aliquid essentiale, scilicet, 
+          vo<lb break="no" ed="#P" n="24"/>luntatem, sed etiam aliquid notionale reahter
+          <lb ed="#P" n="25"/>commune utrique, nam hoc non potest esse
+          <lb ed="#P" n="26"/>absolutum : quidquid enim absolutum est,
+          <lb ed="#P" n="27"/>commune est tribus personis: ergo non potest
+          <lb ed="#P" n="28"/>esse, nisi haec relatio. Ad hoc autem necesse
+          <lb ed="#P" n="29"/>est, ut talis relatio sit realis, quia relatio 
+          ra<lb break="no" ed="#P" n="30"/>tionis non est conditio necessaria ad realem
+          <lb ed="#P" n="31"/>virtutem activam. Quae ratio optime colligit,
+          <lb ed="#P" n="32"/>sed quod assumit non solum incertum est, sed
+          <lb ed="#P" n="33"/>etiam falsum, ut infra libro sexto et septimo
+          <lb ed="#P" n="34"/>ostendemus. Secunda ratio et optuma erit, si
+          <lb ed="#P" n="35"/>supponamus, origines activas non esse aliud,
+          <lb ed="#P" n="36"/>quam relationes personarum producentium,
+          <lb ed="#P" n="37"/>quomodo procedit Durandus in primo, 
+          dis<lb break="no" ed="#P" n="38"/>tinctione 13, quaest. 2, sic enim necesse est,
+          <lb ed="#P" n="39"/>originem activam esse reale quid, et habere in
+          <lb ed="#P" n="40"/>re ipsa habitudinem ad terminum, quia sine
+          <lb ed="#P" n="41"/>tali habitudine reali non potest esse origo 
+          ac<lb break="no" ed="#P" n="42"/>tiva realis et realiter distincta a termino, ut
+          <lb ed="#P" n="43"/>in illa sententia esse supponitur. Atque haec
+          <lb ed="#P" n="44"/>ratio etiam est mihi evidens quoad illationem:
+          <lb ed="#P" n="45"/>quam vero sit certum antecedens, quod 
+          assu<lb break="no" ed="#P" n="46"/>mit, videbimus libro septimo. :
+        </p>
+        <p xml:id="szduep-166404-d1e482">
+          <lb ed="#P" n="47"/>7. Tertia ergo et unica ratio, qua divus
+          <lb ed="#P" n="48"/>Thomas, locis citatis utitur, est, quia inter
+          <lb ed="#P" n="49"/>principium, et id, quod ab eo realiter manat,
+          <lb ed="#P" n="50"/>est relatio realis mutua, quando extrema in
+          <lb ed="#P" n="51"/>eodem ordine existunt, id est, quando id, quod
+          <lb ed="#P" n="52"/>procedit, est ejusdem naturae cum eo, a quo
+          <lb ed="#P" n="53"/>procedit, sed Pater et Filius ità comparantur
+          <lb ed="#P" n="54"/>ad Spiritum sanctum, qui ab eis realiter 
+          pro<lb break="no" ed="#P" n="55"/>cedit in eadem natura : ergo referuntur ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ipsum vero respectu reali, qui respectus 
+          spira<lb break="no" ed="#P" n="57"/>tio activa vocatur, est ergo haec s spiratio rcelatio
+          <lb ed="#P" n="58"/>realis. Minor est 5 fide. Major vero ex 
+          com<lb break="no" ed="#P" n="59"/>munt consensu philosophorum et inductione
+          <lb ed="#P" n="60"/>constat in omni reali productione inter 
+          extre<lb break="no" ed="#P" n="61"/>ma ejusdem ordinis extra Deum et quod 
+          maxi<lb break="no" ed="#P" n="62"/>me urget etiam in altera productione divina,
+          <lb ed="#P" n="63"/>quae est intra DEUM. Nullo ergo modo pot test
+          <lb ed="#P" n="64"/>altera processio ad intra excipi, et in hoc 
+          singu<lb break="no" ed="#P" n="65"/>larisreputari, quiarevera nulla est major ratio
+          <lb ed="#P" n="66"/>quoad hoc de una processione, quam de alia i
+          <lb ed="#P" n="67"/>neque de uno extremo, scilicet producto, qnam
+          <lb ed="#P" n="68"/>de alio scilicet producente. Et confirmatur, nam
+          <lb ed="#P" n="69"/>ubi concurrunt omnia necessaria ad respectum
+          <lb ed="#P" n="70"/>realem, consurgit relatio rcalis, hic antem
+          <lb ed="#P" n="71"/>concurrit omnia, scilicet realis terminus, 
+          rea<lb break="no" ed="#P" n="72"/>liter distinctus, fundamentum, seu ratio 
+          fun<lb break="no" ed="#P" n="73"/>dandi realis, scilicet, realis processio in eadem
+          <lb ed="#P" n="74"/>natura : ergo, etc. Tandein est hoc valde 
+          con<lb break="no" ed="#P" n="75"/>sentanceum peoctioni spiritus sancti : cum
+          <lb ed="#P" n="76"/>enim Pater et Filius se invicem respiciant et
+          <lb ed="#P" n="77"/>ipse Spiritus ad Patrem et Filium etiam 
+          refe<lb break="no" ed="#P" n="78"/>ratur, non potest Spiritus sanctus relinqui sine
+          <lb ed="#P" n="79"/>respectu Patris et Filii ad ipsum, ac si esset
+          <lb ed="#P" n="80"/>extraneus. Et ideo ad perfectam etiam 
+          con<lb break="no" ed="#P" n="81"/>nexionem illarum personarum spectat hic mu
+          <lb ed="#P" n="82"/>tuus respectus.
+        </p>
+        <p xml:id="szduep-166404-d1e565">
+          <lb ed="#P" n="83"/>8. Quocirca ad rationes dubitandi, ex 
+          auc<lb break="no" ed="#P" n="84"/>toritate sumptas, respondendum est, Patres in
+          <lb ed="#P" n="85"/>illis locis solum egisse de proprietatibus 
+          consti<lb break="no" ed="#P" n="86"/>tuentibus et distinguentibus personas, inter
+          <lb ed="#P" n="87"/>quas fatemur non contineri hanc relationem,
+          <lb ed="#P" n="88"/>quain non excludunt, sed sub processione illam
+          <lb ed="#P" n="89"/>virtute incluaunt. Hli vero auctores, qui 
+          signi<lb break="no" ed="#P" n="90"/>ficant, non esse conversionem inter Patrem
+          <lb ed="#P" n="91"/>et Filium cum Spiritu sancto, loquuntur de
+          <lb ed="#P" n="92"/>ilus sub propriis nommnibus Patrig et Filii 
+          col<lb break="no" ed="#P" n="93"/>latis cum Spiritu sancto, quia ipse dicitur esse
+          <lb ed="#P" n="94"/>Patris et Filiui, Spiritus, at ipsi non dicuntur
+          <lb ed="#P" n="95"/>Pater, ve! Filius Spiritus sancti : nomen autem
+          <lb ed="#P" n="96"/>Spiratoris, inter antiquos non ita usitatum
+          <lb ed="#P" n="97"/>erat. Cum autem D. Augustinus comparat 
+          spi<lb break="no" ed="#P" n="98"/>ratorem ad creatorem, solum ponit 
+          similitudi<lb break="no" ed="#P" n="99"/>nem in unitate principii, non in modo 
+          relatio<lb break="no" ed="#P" n="100"/>nis. Basilius autem aperte loquitur de Patre
+          <lb ed="#P" n="101"/>et Filio quoad relationes personales et in his
+          <lb ed="#P" n="102"/>dicit non habere communicationem, non negat
+          <lb ed="#P" n="103"/>autem, quin in alia possint illam habere.
+        </p>
+        <p xml:id="szduep-166404-d1e614">
+          <lb ed="#P" n="104"/>9. Ad rationem vero respondetur, fortasse
+          <lb ed="#P" n="105"/>etiam in creaturis non repugnare, unam 
+          rela<lb break="no" ed="#P" n="106"/>tionem fundari in alia, et ideo in superioribus
+          <lb ed="#P" n="107"/>aliam rationem dedimus, ob quam relatio 
+          dis<lb break="no" ed="#P" n="108"/>tinctionis inter Patrem et Filium non est 
+          rea<lb break="no" ed="#P" n="109"/>lis. Deinde dicitur, personas divinas consitutas
+          <lb ed="#P" n="110"/>personaliter suis ciationibus,
+          <pb ed="#P" n="660"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>posse ad personam ab illis productam, quia
+          <lb ed="#P" n="2"/>quoad hunc respectum non considerantur nisi,
+          <lb ed="#P" n="3"/>ut per se subsistentes. Et quasi accidentarrum
+          <lb ed="#P" n="4"/>est, quod illam constitutionem habeant cum
+          <lb ed="#P" n="5"/>mutuo respectu inter se et ita possunt esse,
+          <lb ed="#P" n="6"/>quasi subjectum novae relationis. 
+          Fundamen<lb break="no" ed="#P" n="7"/>tum autem hujus relationis utrique personae
+          <lb ed="#P" n="8"/>communis, non tam sunt personales relationes
+          <lb ed="#P" n="9"/>personarum spirantium, quam virtus spirandi
+          <lb ed="#P" n="10"/>illis communis, quamvis relationes ilae sint
+          <lb ed="#P" n="11"/>conditio necessaria ad constituendum quasi
+          <lb ed="#P" n="12"/>subjectum communis relationis. Ad aliam vero
+          <lb ed="#P" n="13"/>partem, an haec relatio sit quasi resultans 
+          nec<lb break="no" ed="#P" n="14"/>ne? dicam commodius capite sexto. Nunc 
+          so<lb break="no" ed="#P" n="15"/>um assero, quidquid in hoc dicatur, non 
+          re<lb break="no" ed="#P" n="16"/>pugnare perfectioni divinae, cum illa 
+          resultan<lb break="no" ed="#P" n="17"/>tia non sit secundum rem, sed secundum
+          <lb ed="#P" n="18"/>rationem, et non proveniat ab extrinseco, sed
+          <lb ed="#P" n="19"/>ex intrinseca perfectione, nec requirat 
+          termi<lb break="no" ed="#P" n="20"/>num alterius, sed ejusdem naturae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

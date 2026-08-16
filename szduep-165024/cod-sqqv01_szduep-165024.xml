@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="652"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-165024"><!-- t3-l5prae -->
+        <head xml:id="szduep-165024-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-165024-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="21"/>LIBER QUINTUS.
+          <lb ed="#P" n="22"/>DE RELATIONIBUS DIVINIS
+          <lb ed="#P" n="23"/>AC NOTIONIBUS.
+        </p>
+        <p xml:id="szduep-165024-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="24"/>Hactenus explicuimus mysterium Trinitatis,
+          <lb ed="#P" n="25"/>solum confusam quamdam notitiam tradendo,
+          <lb ed="#P" n="26"/>quae vix transcendit declarationem quid 
+          no<lb break="no" ed="#P" n="27"/>minis et ostensionem, quod tale mysterium in
+          <lb ed="#P" n="28"/>Deo et intra Deum sit, salva Dei simplicitate
+          <lb ed="#P" n="29"/>et unitate: nunc ad investigandam ejusdem
+          <lb ed="#P" n="30"/>mysterii distinctam et explicatam cognitionem,
+          <lb ed="#P" n="31"/>quantum caligo viae patitur, necessarium est
+          <lb ed="#P" n="32"/>proprietates omnes personarum formaliter 
+          in<lb break="no" ed="#P" n="33"/>vestigare, earum proprias rationes praecise,
+          <lb ed="#P" n="34"/>ac distincte explicando. Hoc autem 
+          praestabi<lb break="no" ed="#P" n="35"/>mus, considerando prius haec omnia prout
+          <lb ed="#P" n="36"/>omnibus personis possunt esse communia :
+          <lb ed="#P" n="37"/>deinde descendendo ad singulas personas in
+          <lb ed="#P" n="38"/>particulari, et praedicata omnia, quae singulis,
+          <lb ed="#P" n="39"/>ut propria tribuuntur, considerando. Sunt 
+          au<lb break="no" ed="#P" n="40"/>tem varia nomina abstracta et communia om-
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="41"/>nibus personis; quibus hae proprietates 
+          signi<lb break="no" ed="#P" n="42"/>ficantur : unum est ipsummet nomen 
+          proprie<lb break="no" ed="#P" n="43"/>latis, quod in quadam significatione generale
+          <lb ed="#P" n="44"/>est, et caeteris omnibus commune. Quod sub ea
+          <lb ed="#P" n="45"/>ratone, speciali consideratione non indiget,
+          <lb ed="#P" n="46"/>quia in aliis rationibus specialioribus 
+          explica<lb break="no" ed="#P" n="47"/>bitur et illis cognitis cognoscetur. Primum 
+          igi<lb break="no" ed="#P" n="48"/>tur speciale nomen videtur esse Helationis,
+          <lb ed="#P" n="49"/>deinde nomen JVotionis : tertio, Originis 
+          quar<lb break="no" ed="#P" n="50"/>to, actus notionalis : quinto, Personalitatas,
+          <lb ed="#P" n="51"/>quae solet etiam Proprielas appellari, sumpta
+          <lb ed="#P" n="52"/>hac voce in significatione magis restricta et
+          <lb ed="#P" n="53"/>appropriata. lgitur in proxime sequentibus
+          <lb ed="#P" n="54"/>tribus libris explicabimus mysterium , 
+          decla<lb break="no" ed="#P" n="55"/>rando, quid rei subsit his vocibus, et quomodo
+          <lb ed="#P" n="56"/>inter se conveniant, vel distinguantur et quid
+          <lb ed="#P" n="57"/>ad constitutionem, vel distinctionem divina-
+          <pb ed="#P" n="653"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rum personarum conferant. Atque in praesenti
+          <lb ed="#P" n="2"/>Hbro simul de relationibus et notionibus dicere
+          <lb ed="#P" n="3"/>proponimus, quia nihil fere inter se differre
+          <lb ed="#P" n="4"/>existimamus, ut videbimus. Disputavit autem
+          <lb ed="#P" n="5"/>de illis D. Thomas, 1 part., quaest. 28 et 32.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="600"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-151831"><!-- t3-l3c7 -->
+        <head xml:id="szduep-151831-Hd1e101">Caput 7</head>
+        <head xml:id="szduep-151831-Hd1e103" type="question-title">Sint-ne in tribus divinis personis tres unitates transcendentales</head>
+        <p xml:id="szduep-151831-d1e106">
+          <lb ed="#P" n="77"/>CAPUT VII.
+          <lb ed="#P" n="78"/>SINT-NE IN TRIBUS DIVINIS PERSONIS TRES UNITATES
+          <lb ed="#P" n="79"/>TRANSCENDENTALES.
+        </p>
+        <p xml:id="szduep-151831-d1e115">
+          <lb ed="#P" n="80"/>1. Sensus questionis.—Haec quaestio, juxta
+          <lb ed="#P" n="81"/>proprietatem latini sermonis, vix potest ad hoc
+          <lb ed="#P" n="82"/>praedicatum, wnumn in concreto sumptum 
+          adap<lb break="no" ed="#P" n="83"/>tari, quia unum non habet plurale, ut possint
+          <lb ed="#P" n="84"/>dici tres uni, veltria una, quod si tres personae
+          <lb ed="#P" n="85"/>dicantur, tria unum, illud unum singulare est,
+          <lb ed="#P" n="86"/>et ita per illud complexum solum significatur,
+          <lb ed="#P" n="87"/>personas ita esse tria entia, ut sint unum ens:
+          <lb ed="#P" n="88"/>unde recte concluditur, tres personas habere
+          <lb ed="#P" n="89"/>unitatem aliquam transcendentalem, sed per
+          <lb ed="#P" n="90"/>hoc non respondetur quaestioni, an habeant
+          <lb ed="#P" n="91"/>etiam sub aliqua ratione tres unitates. Quod
+          <lb ed="#P" n="92"/>si personae dicantur esse tres unus, et 
+          impro<lb break="no" ed="#P" n="93"/>pria (ne dicam inepta) locutio, et addendum
+          <lb ed="#P" n="94"/>esset (ad vitandum errorem) quis unus. Nam
+          <lb ed="#P" n="95"/>si dicantur tres unus Deus, unus creator, etc.,
+          <lb ed="#P" n="96"/>verissime dicuntur, tamen per hoc non 
+          expli<lb break="no" ed="#P" n="97"/>catur, an praeter illam unitatem, in qua 
+          con<lb break="no" ed="#P" n="98"/>veniunt (de qua libro sequenti dicendum est)
+          <lb ed="#P" n="99"/>habeant alias proprias unitates, in quibus 
+          dis<lb break="no" ed="#P" n="100"/>unguantur. Si vero dicantur tres personae esse
+          <lb ed="#P" n="101"/>untus, addendo aliquid pertinens ad personeas,
+          <lb ed="#P" n="102"/>ut unus Pater, etc., erit falsa locutio, ut latiüs
+          <lb ed="#P" n="103"/>dicemus libro sequenti de aliis terminis 
+          simi<lb break="no" ed="#P" n="104"/>libus. Ob hanc ergo causam non de uno 
+          incon<lb break="no" ed="#P" n="105"/>creto, sed de unitatibus in abstracto titulum
+          <lb ed="#P" n="106"/>capitis proposuimus. Potest autem abstractum
+          <lb ed="#P" n="107"/>nomen in vi concreti substantivi sumi, sicut
+          <pb ed="#P" n="601"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>supra dicebamus de nomine existentiae, et sicut
+          <lb ed="#P" n="2"/>in Metaphysica dici solet, unitatem esse 
+          prin<lb break="no" ed="#P" n="3"/>cipium numeri, nam ibi unitas pro ipso uno
+          <lb ed="#P" n="4"/>sumitur, sic ergo quaerimus, an tres personae
+          <lb ed="#P" n="5"/>divinae sint tres unitates transcendentales.
+        </p>
+        <p xml:id="szduep-151831-d1e193">
+          <lb ed="#P" n="6"/>2. Prima opinio negans. — Aliqui absolute
+          <lb ed="#P" n="7"/>negant, soletque haec opinio tribui Richardo,
+          <lb ed="#P" n="8"/>sed oppositum docet, ut statim referam. Potest
+          <lb ed="#P" n="9"/>autem suaderi, quia ut talis unitas esset 
+          speci<lb break="no" ed="#P" n="10"/>Ifica vel numerica, non prima, quia illa est
+          <lb ed="#P" n="11"/>iunitas rationis et communis: non secunda,
+          <lb ed="#P" n="12"/>quia alias divinae personae essent tria individua
+          <lb ed="#P" n="13"/>numero differentia, quod negat Augustinus,
+          <lb ed="#P" n="14"/>lib. 7, de Trinitate, cap. 8, dicens Divinitatem
+          <lb ed="#P" n="15"/>non esse communem tribus personis tanquam
+          <lb ed="#P" n="16"/>tribus individuis, quia alias essent tres dii.
+        </p>
+        <p xml:id="szduep-151831-d1e220">
+          <lb ed="#P" n="17"/>3. Resolutio.—Nihilominus etiam hoc 
+          trans<lb break="no" ed="#P" n="18"/>cendens (si recte sumatur) multiplicatur in 
+          di<lb break="no" ed="#P" n="19"/>vvinis personis, duplex enim est unitas, scilicet
+          <lb ed="#P" n="20"/>essentialis et personalis, et prior quidem in 
+          di<lb break="no" ed="#P" n="21"/>vinis personis est una tantum, quomodo 
+          Eccle<lb break="no" ed="#P" n="22"/>sia Trinitatem vocat Sanctam et unam unitatem,
+          <lb ed="#P" n="23"/>et eodem modo loquitur Damasus papa in 
+          pro<lb break="no" ed="#P" n="24"/>ffessione fidei ad Paulinum, et Sophronius, in
+          <lb ed="#P" n="25"/>dicta Epistola relata in 9 Synodo, actione 11.
+          <lb ed="#P" n="26"/>IPosterior vero multiplicatur indivinis personis.
+          <lb ed="#P" n="27"/>Ita expresse docet Richardus, in 1, dist. 24,
+          <lb ed="#P" n="28"/>art. 1, quaest. 3, et sumitur ex divo Thoma,
+          <lb ed="#P" n="29"/>4 part. , quaest. 30, art. 3, ubi ait, in Trinitate
+          <lb ed="#P" n="30"/>lesse verum numerum transcendentalem, est
+          <lb ed="#P" n="31"/>autem de ratione numeri, ut ex pluribus 
+          uni<lb break="no" ed="#P" n="32"/>tatibus sibi proportionatis constet. Unde in 
+          so<lb break="no" ed="#P" n="33"/>Iutione ad 1, recte subjungit: Unitatem latius
+          <lb ed="#P" n="34"/>patere quam substantiam vel relationem, et ideo
+          <lb ed="#P" n="35"/>voratione utriusque posse convenire divinis 
+          per<lb break="no" ed="#P" n="36"/>isonis. Atque hoc idem sentit Anselmus, dicto
+          <lb ed="#P" n="37"/>Hbro de Incarnatione Verbi, cap. 3, et 
+          Damas<lb break="no" ed="#P" n="38"/>cenus, lib. 4, cap. 11, et lib. 3, cap. 5, in
+          <lb ed="#P" n="39"/>principio. Et sumitur etiam ex Concilio 
+          Rhe<lb break="no" ed="#P" n="40"/>mensi sub Eugenio III, de quo infra latius 
+          di<lb break="no" ed="#P" n="41"/>cemus.
+        </p>
+        <p xml:id="szduep-151831-d1e277">
+          <lb ed="#P" n="42"/>4. Ratione declaratur, quia unum nihil aliud
+          <lb ed="#P" n="43"/>est quam ens indivisum in se et divisum a
+          <lb ed="#P" n="44"/>quolibet alio, unitas vero est entitas indivisa,
+          <lb ed="#P" n="45"/>sed unaquaeque persona divina in se est 
+          indi<lb break="no" ed="#P" n="46"/>visa et distincta a qualibet alia, ergo 
+          unaquae<lb break="no" ed="#P" n="47"/>que habet propriam unitatem personalem, a
+          <lb ed="#P" n="48"/>qua habet, ut sit una persona. Nam formaliter
+          <lb ed="#P" n="49"/>loquendo hoc non habet ex unitate essentiae,
+          <lb ed="#P" n="50"/>alias omnes essent una persona, inde ergo 
+          so<lb break="no" ed="#P" n="51"/>lum habent, quod sint unus Deus, ergo praeter
+          <lb ed="#P" n="52"/>hanc unitatem, unaquaeque habet propriam
+          <lb ed="#P" n="53"/>unitatem personalem ex propria relatione
+          <lb ed="#P" n="54"/>sumptam, haec ergo unitas multiplicatur. 
+          Con<lb break="no" ed="#P" n="55"/>firmatur tandem ex ratione generali transcen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dentium supra insinuata, nam qua ratione
+          <lb ed="#P" n="57"/>multiplicatur ens vel res, qua transcendens est,
+          <lb ed="#P" n="58"/>debet multiplicari unum, quod est aeque 
+          trans<lb break="no" ed="#P" n="59"/>cendens: estque vel de intrinseco conceptu
+          <lb ed="#P" n="60"/>entis, vel ita concomitans, ut sit ab illo 
+          om<lb break="no" ed="#P" n="61"/>nino inseparabile, ergo proportione servata,
+          <lb ed="#P" n="62"/>sicut sunt in Deo tres entitates, ita et tres 
+          uni<lb break="no" ed="#P" n="63"/>tates.
+        </p>
+        <p xml:id="szduep-151831-d1e329">
+          <lb ed="#P" n="64"/>5. Que unitas multiplicetur in personis. —
+          <lb ed="#P" n="65"/>Unde ad rationem in contrarium responderi
+          <lb ed="#P" n="66"/>potest, hanc unitatem neutram ex illis esse,
+          <lb ed="#P" n="67"/>sed habere proprium nomen et rationem, 
+          sci<lb break="no" ed="#P" n="68"/>licet, unitatis personalis, quae non est specifica,
+          <lb ed="#P" n="69"/>quia singularis est. Et ideo Concilium 
+          HRhe<lb break="no" ed="#P" n="70"/>mense, sicut admittit tres unitates, ita et tres
+          <lb ed="#P" n="71"/>singularitates. Neque etiam videtur haec unitas
+          <lb ed="#P" n="72"/>recte dici individualis, quia individuum proprie
+          <lb ed="#P" n="73"/>dicitur ratione naturae particularis, quomodo
+          <lb ed="#P" n="74"/>Christus Dominus est quoddam individuum
+          <lb ed="#P" n="75"/>humanae naturae: sic autem in Deo non sunt
+          <lb ed="#P" n="76"/>tria individua, sed unum Deitatis: quomodo
+          <lb ed="#P" n="77"/>loquitur Augustinus loco citato. Secundo dici
+          <lb ed="#P" n="78"/>potest si unitas individualis non referatur ad
+          <lb ed="#P" n="79"/>naturam, sed ad rei singularitatem, sic tres
+          <lb ed="#P" n="80"/>unitates personales esse unitates individuales
+          <lb ed="#P" n="81"/>seu numericas, quia nulla illarum communis
+          <lb ed="#P" n="82"/>est, sed propria et particularis talis personae,
+          <lb ed="#P" n="83"/>quae proinde numeratur distincta ab alia. 
+          Quo<lb break="no" ed="#P" n="84"/>modo dixit Damascenus , lib. 3, de Fide, c. 4
+          <lb ed="#P" n="85"/>et 8: Numero uon natura, differre divinas 
+          hy<lb break="no" ed="#P" n="86"/>postases, et Anastasius Synaita, in libro de
+          <lb ed="#P" n="87"/>Dogmatibus fidei, personee, inquit, unum sunt
+          <lb ed="#P" n="88"/>nalura, non omnino unwm mumero, et hoc etiam
+          <lb ed="#P" n="89"/>probant rationes supra adductae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

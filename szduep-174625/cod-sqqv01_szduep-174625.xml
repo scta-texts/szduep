@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="690"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-174625"><!-- t3-l7prae -->
+        <head xml:id="szduep-174625-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-174625-d1e103">
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="30"/>LIBER SEPTIMUS.
+          <lb ed="#P" n="31"/>DE PROPRIETATIBUS
+          <lb ed="#P" n="32"/>QUAE DIVINAS PERSONAS CONSTITUUNT, HARUMQUAE CONSTITUTIONE.
+        </p>
+        <p xml:id="szduep-174625-d1e114">
+          <cb ed="#P" n="g"/>
+          <lb ed="#P" n="33"/>Quamvis proprietates peculiares, et omnino
+          <lb ed="#P" n="34"/>propriae personarum divinarum nihil aliud
+          <lb ed="#P" n="35"/>sint, quam relationes ipsae, vel origines, tamen
+          <lb ed="#P" n="36"/>quia hoc ipsum non est a nobis 
+          demonstra<lb break="no" ed="#P" n="37"/>tum, necessarium fuit hoc loco de 
+          proprieta<lb break="no" ed="#P" n="38"/>tbus sub ac voce, quae a relationibus, et 
+          ori<lb break="no" ed="#P" n="39"/>ginibus abstrahit, disputare. Et ob hanc 
+          cau<lb break="no" ed="#P" n="40"/>sam prius de relationibus, et originibus sub
+          <lb ed="#P" n="41"/>propriis earum conceptibus, et nominibus
+          <cb ed="#P" n="h"/>
+          <lb ed="#P" n="42"/>diximus, ut possemus melius hoc loco utraque
+          <lb ed="#P" n="43"/>cum proprietatibus conferre. Et quia 
+          proprie<lb break="no" ed="#P" n="44"/>tates a nobis accipiuntur, et nominantur hac
+          <lb ed="#P" n="45"/>voce, in ordine ad concipiendas, et 
+          distinguen<lb break="no" ed="#P" n="46"/>das divinas personas, tanquam per formas,
+          <lb ed="#P" n="47"/>aut terminos, seu personalitates earum, ideo
+          <lb ed="#P" n="48"/>simul hic dicendum est de constitutione 
+          divi<lb break="no" ed="#P" n="49"/>narum personarum, de qua D. Thomas, 
+          dis<lb break="no" ed="#P" n="50"/>putavit, 1. part., quaest. 40.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

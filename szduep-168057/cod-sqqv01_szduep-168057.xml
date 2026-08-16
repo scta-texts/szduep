@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="664"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-168057"><!-- t3-l5c7 -->
+        <head xml:id="szduep-168057-Hd1e101">Caput 7</head>
+        <head xml:id="szduep-168057-Hd1e103" type="question-title">Satisfit secundo durandi fundamento, et colligitur relationum numerus, et incidentia dubia expediuntur</head>
+        <p xml:id="szduep-168057-d1e106">
+          <lb ed="#P" n="35"/>CAPUT VII.
+          <lb ed="#P" n="36"/>SATISFIT SECUNDO DURANDI FUNDAMENTO, ET 
+          COL<lb break="no" ed="#P" n="37"/>LIGITUR RELATIONUM NUMERUS, ET INCIDENTIA
+          <lb ed="#P" n="38"/>DUBIA EXPEDIUNTUR.
+        </p>
+        <p xml:id="szduep-168057-d1e117">
+          <lb ed="#P" n="39"/>1. An spiratio et Paternitas sint una 
+          rela<lb break="no" ed="#P" n="40"/>tio.—Aliud Durandi fundamentum postulabat,
+          <lb ed="#P" n="41"/>quomodo possit una relatio respicere duos
+          <lb ed="#P" n="42"/>terminos formaliter distinctos, quod est 
+          quae<lb break="no" ed="#P" n="43"/>rere, an Paternitas et spiratio activa una 
+          re<lb break="no" ed="#P" n="44"/>latio sit et similiter Filiatio, eademque 
+          spira<lb break="no" ed="#P" n="45"/>tio. Nam si sunt una res, colligit Durandus
+          <lb ed="#P" n="46"/>cebere esse unam relationem, quod putat 
+          im<lb break="no" ed="#P" n="47"/>possibile propter diversitatem terminorum.
+          <lb ed="#P" n="48"/>Possumusque confirmare sequelam, quia 
+          Pa<lb break="no" ed="#P" n="49"/>ternitas et spiratio non tantum sunt una res
+          <lb ed="#P" n="50"/>absoluta, quae est essentia, hoc enim etiam 
+          Du<lb break="no" ed="#P" n="51"/>randus admittit, sed sunt unares relativa, hoc
+          <lb ed="#P" n="52"/>enim est, quod contra Durandum reliqui theo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>logi docent, ergo sunt una relatio. Tandem
+          <lb ed="#P" n="54"/>probatur idem convertendo argumentum ab
+          <lb ed="#P" n="55"/>inferiori ad superius: nam si Paternitas et
+          <lb ed="#P" n="56"/>spiratio essent duae relationes, etiam essent
+          <lb ed="#P" n="57"/>duae res, nam multiplicato inferiori, necesse
+          <lb ed="#P" n="58"/>est multiplicari superius, praesertim 
+          transcen<lb break="no" ed="#P" n="59"/>dentale. Unde necessarium erit, duas illas 
+          re<lb break="no" ed="#P" n="60"/>lationes habere duo esse relativa, duas 
+          per<lb break="no" ed="#P" n="61"/>fectiones, ac proinde esse duas res, hae autem
+          <lb ed="#P" n="62"/>sunt absurda, ut contra Durandum diximus,
+          <lb ed="#P" n="63"/>ergo.
+        </p>
+        <p xml:id="szduep-168057-d1e176">
+          <lb ed="#P" n="64"/>2. Opinio affirmans.—Gregorius et Gabriel,
+          <lb ed="#P" n="65"/>locis citatis, cap. 5, absolute ita loquuntur,
+          <lb ed="#P" n="66"/>dicentes illam non esse duas relationes, sed
+          <lb ed="#P" n="67"/>unam simpliciter. Qui consequenter docent
+          <lb ed="#P" n="68"/>in Deo non esse quatuor relationes reales, sed
+          <lb ed="#P" n="69"/>tres tantum. Estque hic loquendi modus 
+          con<lb break="no" ed="#P" n="70"/>sentaneus modo loquendi aliquorum Patrum,
+          <lb ed="#P" n="71"/>quos capite quarto retuli. Nec fundatur in hoc
+          <lb ed="#P" n="72"/>quod spiratio non sit relatio realis, sed in hoc,
+          <lb ed="#P" n="73"/>quod sint tres relationes incommunicabiles et
+          <lb ed="#P" n="74"/>una communicabilis, non sunt quatuor, quia
+          <lb ed="#P" n="75"/>haec non est ab aliis distincta in re. Et 
+          simili<lb break="no" ed="#P" n="76"/>ter licet spiratio et processio sint duae 
+          relatio<lb break="no" ed="#P" n="77"/>nes, quia realiter distinguuntur et Paternitas,
+          <lb ed="#P" n="78"/>et Filhatio sint aliae duae: nihillominus ex illis
+          <lb ed="#P" n="79"/>binariis non consurgunt quatuor, quia una
+          <lb ed="#P" n="80"/>unius binarii non ponit in numerum cum
+          <lb ed="#P" n="81"/>alus duabus: sicut essentia non ponit in 
+          nu<lb break="no" ed="#P" n="82"/>merum cum personis, vel relationibus. Juxta
+          <lb ed="#P" n="83"/>quem loquendi modum, ad argumentum 
+          Dn<lb break="no" ed="#P" n="84"/>randi dicendum est, unam relationem 
+          infini<lb break="no" ed="#P" n="85"/>tum propter eminentiam suam posse referri
+          <lb ed="#P" n="86"/>ad plures terminos, quantumvis illi inter se
+          <lb ed="#P" n="87"/>distincti et formaliter diversi sint. Quia et 
+          po<lb break="no" ed="#P" n="88"/>test aliquam oppositionem cum omnibus illis
+          <lb ed="#P" n="89"/>habere et non sumit speciem, vel quasi 
+          spe<lb break="no" ed="#P" n="90"/>ciem ab illis, sed ex sua eminenti perfectione
+          <lb ed="#P" n="91"/>talis est.
+        </p>
+        <p xml:id="szduep-168057-d1e240">
+          <lb ed="#P" n="92"/>3. Contraria opinio verior.—Haec sententia
+          <lb ed="#P" n="93"/>non est improbabilis. Nihilominus tamen 
+          di<lb break="no" ed="#P" n="94"/>vus Thomas, Scotus et fere alii theologi, 
+          sim<lb break="no" ed="#P" n="95"/>pliciter admittunt illas esse duas relationes, et
+          <lb ed="#P" n="96"/>consequenter numerant quatuor relationes
+          <lb ed="#P" n="97"/>reales in Deo. Fundatur autem hic loquendi
+          <lb ed="#P" n="98"/>modus in peculiari ratione numerandi 
+          rela<lb break="no" ed="#P" n="99"/>tiones, sub nomine relationum, potius quam
+          <lb ed="#P" n="100"/>rerum, aut entium. Nam quia totum esse 
+          re<lb break="no" ed="#P" n="101"/>lationis est esse ad terminum, ideo ubi in re
+          <lb ed="#P" n="102"/>ipsa plures terminos invenimus, ibi plures
+          <lb ed="#P" n="103"/>respectus concipimus et quia ita loquimur, 
+          si<lb break="no" ed="#P" n="104"/>cut concipimus, ideo absolute tales relationes,
+          <lb ed="#P" n="105"/>et reales, et plures nominamus. Reales 
+          qui<lb break="no" ed="#P" n="106"/>dem, quia vere sunt a parte rei: plures vero,
+          <lb ed="#P" n="107"/>quia respiciunt plures terminos vere in re
+          <pb ed="#P" n="665"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>distinctos. Unde, cum dicimus esse plures 
+          re<lb break="no" ed="#P" n="2"/>lationes, perinde est, ac si diceretur, respicere
+          <lb ed="#P" n="3"/>plures terminos, sicut nominantur simpliciter
+          <lb ed="#P" n="4"/>plures ideae, vel plures active processiones, seu
+          <lb ed="#P" n="5"/>productiones. Secus vero est si loquamur de
+          <lb ed="#P" n="6"/>aliqua re sub nomine entis, vel rei simpliciter
+          <lb ed="#P" n="7"/>dictae, tunc enim, prout in se habet esse, et
+          <lb ed="#P" n="8"/>entitatem, et ad modum rei absolute 
+          conside<lb break="no" ed="#P" n="9"/>ratur, et nominatur, et ideo quoties aliqua
+          <lb ed="#P" n="10"/>dicuntur plura entia, vel plures res simphreiter
+          <lb ed="#P" n="11"/>et sine restrictione, plane significatur 
+          distinc<lb break="no" ed="#P" n="12"/>tio realis. Quia etiam nostro concipiendi 
+          mo<lb break="no" ed="#P" n="13"/>do, res non multiplicatur simpliciter, nisi per
+          <lb ed="#P" n="14"/>realem distinctionem. Imo licet aliqua 
+          distin<lb break="no" ed="#P" n="15"/>guantur aliquo modo in re ipsa formalter,
+          <lb ed="#P" n="16"/>seu modaliter non appellantur a nobis 
+          simph<lb break="no" ed="#P" n="17"/>citer plures res, sed res et modus, vel plures
+          <lb ed="#P" n="18"/>modi, aut formalitates.
+        </p>
+        <p xml:id="szduep-168057-d1e321">
+          <lb ed="#P" n="19"/>4. Primae objectioni occurritur. — Sic ergo
+          <lb ed="#P" n="20"/>Paternitas et spiratio, licet duae relationes sint,
+          <lb ed="#P" n="21"/>non possunt dici duae res, quia prout habent
+          <lb ed="#P" n="22"/>in se esse, non distinguuntur in re. Sunt ergo
+          <lb ed="#P" n="23"/>tantum una res absoluta, vel una respectiva.
+          <lb ed="#P" n="24"/>hesponderi potest primo, esse unam 
+          respec<lb break="no" ed="#P" n="25"/>tivam, quae licet in se una sit, ex parte 
+          termi<lb break="no" ed="#P" n="26"/>norum est duplex relatio, quia formaliter, ac
+          <lb ed="#P" n="27"/>propriissime respicit plures terminos 
+          forma<lb break="no" ed="#P" n="28"/>liter, ac realiter distinctos et ad hoc 
+          signifi<lb break="no" ed="#P" n="29"/>candum vocantur duae relationes. Vel certe
+          <lb ed="#P" n="30"/>dici aliter potest, quod sicut essentia et 
+          Pater<lb break="no" ed="#P" n="31"/>nitas sunt una res, non absoluta tantum, nec
+          <lb ed="#P" n="32"/>tantum respectiva, sed utramque rationem
+          <lb ed="#P" n="33"/>unite et simplicissime complectens. Ita 
+          Pater<lb break="no" ed="#P" n="34"/>nitas et spiratio sunt una res respectiva, 
+          du<lb break="no" ed="#P" n="35"/>plicem tamen respectum ad terminos realiter
+          <lb ed="#P" n="36"/>distinctos simplicissime complectens, ratione
+          <lb ed="#P" n="37"/>quorum duplex relatio dicitur, tametsi una
+          <lb ed="#P" n="38"/>res sit.
+        </p>
+        <p xml:id="szduep-168057-d1e367">
+          <lb ed="#P" n="39"/>5. Altera objectio expeditur .—Ad aliam 
+          vul<lb break="no" ed="#P" n="40"/>garem objectionem, quia multiphicato 
+          infe<lb break="no" ed="#P" n="41"/>riori, multiplicatur superius, in forma 
+          respon<lb break="no" ed="#P" n="42"/>detur, id esse verum quando secundum idem
+          <lb ed="#P" n="43"/>fit multiplicatio, seu numeratio, secus autem
+          <lb ed="#P" n="44"/>esse quando fit secundum diversa. Quod in
+          <lb ed="#P" n="45"/>praesenti contingit. Nam cum Paternitas et
+          <lb ed="#P" n="46"/>spiratio dicuntur plures relationes 
+          numeran<lb break="no" ed="#P" n="47"/>tur solum ratione terminorum, ut explicatum
+          <lb ed="#P" n="48"/>est, si vero dicantur duae res, jam 
+          numeran<lb break="no" ed="#P" n="49"/>tur prout in se sunt et secundum intrinsecum
+          <lb ed="#P" n="50"/>esse, seu proprias entitates, et ideo licet 
+          pri<lb break="no" ed="#P" n="51"/>mum concedatur, secundum negatur, nec 
+          ad<lb break="no" ed="#P" n="52"/>mittitur illa consecutio, quia variatur (ut aiunt)
+          <lb ed="#P" n="53"/>appellatio, seu significatio. Ad quam 
+          variatio<lb break="no" ed="#P" n="54"/>nem sufficit communis modus concipiendi et
+          <lb ed="#P" n="55"/>loquendi, de re sub diversis vocibus, respi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cientibus diversos terminos , vel ab illis 
+          ab<lb break="no" ed="#P" n="57"/>strahentibus et solum rem, ut in se habet
+          <lb ed="#P" n="58"/>esse, significantibus ut declaratum est.
+        </p>
+        <p xml:id="szduep-168057-d1e415">
+          <lb ed="#P" n="59"/>6. An vere dicatur, Paternitas est spiratio.
+          <lb ed="#P" n="60"/>— Atque hinc facile expeditur aliud dubium,
+          <lb ed="#P" n="61"/>quod in eadem objectione petebatur. De 
+          ve<lb break="no" ed="#P" n="62"/>ritate hujus propositionis, Paternitas est 
+          spi<lb break="no" ed="#P" n="63"/>ratio, vel Filiatio est spiratio. Gabriel enim
+          <lb ed="#P" n="64"/>ut veram admittit, quia sicut censet, illa duo
+          <lb ed="#P" n="65"/>extrema esse unam relationem, ita concedit
+          <lb ed="#P" n="66"/>vere unam praedicari de alia. Et confirmari
+          <lb ed="#P" n="67"/>potest, etiam posita distinctione formali, vel
+          <lb ed="#P" n="68"/>virtuali inter illa duo extrema, nam similia
+          <lb ed="#P" n="69"/>est inter potentiam et scientiam, 
+          misericor<lb break="no" ed="#P" n="70"/>diam et justitiam, et tamen hae propositiones
+          <lb ed="#P" n="71"/>in Deo admittuntur, scientia est potentia, 
+          mi<lb break="no" ed="#P" n="72"/>sericordia est justitia, ut videre licet in 
+          Au<lb break="no" ed="#P" n="73"/>gustino, lib. 6, de Trin., Gregorio, 18, Moral.,
+          <lb ed="#P" n="74"/>cap. 34, Bernardo, lib. 5, de Consider., ergo
+          <lb ed="#P" n="75"/>et illae admittendae a nobis sunt.
+        </p>
+        <p xml:id="szduep-168057-d1e454">
+          <lb ed="#P" n="76"/>7. Responsio negans. — Respondet Scotus,
+          <lb ed="#P" n="77"/>dicto quodlib. 5: Tertio argumentor. Non esse
+          <lb ed="#P" n="78"/>eamdem rationem de attributis absolutis et 
+          re<lb break="no" ed="#P" n="79"/>lationibus, quia illa habent majorem 
+          infinita<lb break="no" ed="#P" n="80"/>tem propter quam unum de alio praedicatur.
+          <lb ed="#P" n="81"/>Sed non video, quaenam sit haec major 
+          infini<lb break="no" ed="#P" n="82"/>tas, nam si loquamur de infinitate simphiciter
+          <lb ed="#P" n="83"/>in genere, tam relationes, quam alia attributa
+          <lb ed="#P" n="84"/>habent illam ab inclusione essentie et non
+          <lb ed="#P" n="85"/>aliunde. Si vero loquamur de infinitate in 
+          pro<lb break="no" ed="#P" n="86"/>prio genere, etiam relationes habent illam,
+          <lb ed="#P" n="87"/>ut supra ostensum est.
+        </p>
+        <p xml:id="szduep-168057-d1e483">
+          <lb ed="#P" n="88"/>8. Nihilominus propositiones illas 
+          negan<lb break="no" ed="#P" n="89"/>das esse docent D. Thomas, Scotus, AEgidius
+          <lb ed="#P" n="90"/>et alii, quibus potius assentiendum est. Primo
+          <lb ed="#P" n="91"/>ad evitandum periculum confundendi divinas
+          <lb ed="#P" n="92"/>processiones. Unde nemo, ut credo, auderet
+          <lb ed="#P" n="93"/>concedere hanc locutionem, Generatio est 
+          spi<lb break="no" ed="#P" n="94"/>ratio, vel e converso, licet in re non sit 
+          ma<lb break="no" ed="#P" n="95"/>jor distinctio inter has duas origines activas,
+          <lb ed="#P" n="96"/>quam inter illas duas relationes Paternitatis
+          <lb ed="#P" n="97"/>et spirationis. Similiter haec propositio de fide
+          <lb ed="#P" n="98"/>sit, Pater producit Filium per intellectum, haec
+          <lb ed="#P" n="99"/>nihilominus falsa est, Pater producit Filium
+          <lb ed="#P" n="100"/>per voluntatem, quamvis intellectus et 
+          volun<lb break="no" ed="#P" n="101"/>tas non distinguantur in Deo plus, quam
+          <lb ed="#P" n="102"/>Paternitas et spiratio. Secundo est haec 
+          reso<lb break="no" ed="#P" n="103"/>lutio consona praecedenti, quia Paternitas et
+          <lb ed="#P" n="104"/>spiratio distinguuntur a nobis sub genere 
+          re<lb break="no" ed="#P" n="105"/>lationis, tanquam duae species ejus (more 
+          nos<lb break="no" ed="#P" n="106"/>tro loquendo) ergo una species non potest
+          <lb ed="#P" n="107"/>praedicari de alio sub terminis praecisis, ac
+          <lb ed="#P" n="108"/>formalibus, ut sunt illi abstracti. Sicque 
+          argu<lb break="no" ed="#P" n="109"/>mentatur D. Thomas quia non admittmus
+          <lb ed="#P" n="110"/>hanc propositionem Attributum sapientiae est
+          <pb ed="#P" n="666"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>attribulum misericordie, quia mens nostra
+          <lb ed="#P" n="2"/>distinguit illa duo tanquam duas species sub
+          <lb ed="#P" n="3"/>genere attributi: ergo simili proportione 
+          ne<lb break="no" ed="#P" n="4"/>ganda est illa, Paternitas est spiratio. Neque
+          <lb ed="#P" n="5"/>ad hoc refert quod attributum est nomen 
+          se<lb break="no" ed="#P" n="6"/>cundae intentionis, seu involvens actum mentis
+          <lb ed="#P" n="7"/>nostrae, nomen autem relationis, seu 
+          Paterni<lb break="no" ed="#P" n="8"/>tás sit primae intentionis : quia non in hoc sit
+          <lb ed="#P" n="9"/>comparatio, sed in hoc solum, quod illa 
+          mem<lb break="no" ed="#P" n="10"/>bra distinguuntur a nobis formaliter, ut 
+          spe<lb break="no" ed="#P" n="11"/>cies sub genere.
+        </p>
+        <p xml:id="szduep-168057-d1e565">
+          <lb ed="#P" n="12"/>9. Objectionibus occurritur. — Tertio potest
+          <lb ed="#P" n="13"/>reddi generalis ratio, quia omnes hae 
+          praedi<lb break="no" ed="#P" n="14"/>cationes in abstracto formaliter sunt falsae in
+          <lb ed="#P" n="15"/>rigore, quia indicant unam formalitatem esse
+          <lb ed="#P" n="16"/>aliam, unde si interdum admittuntur, est 
+          prop<lb break="no" ed="#P" n="17"/>ter summam identitatem et ad indicandam
+          <lb ed="#P" n="18"/>summam Dei simplicitatem quo modo 
+          loquun<lb break="no" ed="#P" n="19"/>tur Patres allegati. Et ideo extendenda non
+          <lb ed="#P" n="20"/>sunt similes locutiones, sed tunc solum sunt,
+          <lb ed="#P" n="21"/>quando aliunde nullum sequitur absurdum,
+          <lb ed="#P" n="22"/>vel periculum erroris. Quia ergo relationes 
+          di<lb break="no" ed="#P" n="23"/>cunt semper expressam habitudinem ad 
+          termi<lb break="no" ed="#P" n="24"/>nos, quando illi sunt in re ipsa distincti, nec
+          <lb ed="#P" n="25"/>potest unus de alio praedicari, tunc etiam una
+          <lb ed="#P" n="26"/>relatio non praedicatur de alia, ne terminos
+          <lb ed="#P" n="27"/>ipsos confundere videamur, quia in 
+          concepti<lb break="no" ed="#P" n="28"/>bus ipsarum relationum quodammodo 
+          inclu<lb break="no" ed="#P" n="29"/>duntur. Ac propterea inter relationes, dum
+          <lb ed="#P" n="30"/>una de alia praedicatur, semper est servandus
+          <lb ed="#P" n="31"/>formalis sensus. Imo in ipsis absolutis 
+          pro<lb break="no" ed="#P" n="32"/>prietatibus, quae aliquo modo dicunt 
+          habitu<lb break="no" ed="#P" n="33"/>dinem ad objecta, idem cum proportione 
+          ser<lb break="no" ed="#P" n="34"/>vatur. Unde facilius admittitur haec locutio:
+          <lb ed="#P" n="35"/>Sapientia est justitia, quam haec Misericordia
+          <lb ed="#P" n="36"/>est justitia, quia non est tanta oppositio inter
+          <lb ed="#P" n="37"/>objectum sapientiae et justitiae quanta est inter
+          <lb ed="#P" n="38"/>objecta misericordiae et justitiae , quae 
+          opposi<lb break="no" ed="#P" n="39"/>tas rationes involvere videntur, scilicet, debiti
+          <lb ed="#P" n="40"/>et indebiti. Et similiter haec facile admittitur
+          <lb ed="#P" n="41"/>propter sensum identicum, intellectus Dei est
+          <lb ed="#P" n="42"/>voluntas ejus, haec tamen admittenda non est:
+          <lb ed="#P" n="43"/>Potentia generandi est potentia spirandi, ne
+          <lb ed="#P" n="44"/>confundantur processiones. Atque ita 
+          respon<lb break="no" ed="#P" n="45"/>sum est ad fundamenta contraria.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

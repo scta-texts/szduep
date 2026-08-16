@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="231"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-058943"><!-- t1-l3c10 -->
+        <head xml:id="szduep-058943-Hd1e101">Caput 10</head>
+        <head xml:id="szduep-058943-Hd1e103" type="question-title">De divina providentia</head>
+        <p xml:id="szduep-058943-d1e106">
+          <lb ed="#P" n="35"/>CAPUT X.
+          <lb ed="#P" n="36"/>DE DIVINA PROVIDENTIA.
+        </p>
+        <p xml:id="szduep-058943-d1e113">
+          <lb ed="#P" n="37"/>1. Esse in Deo providentiam. — 
+          Providen<lb break="no" ed="#P" n="38"/>tia et Praedestinatio tam sunt conjunctae, ut
+          <lb ed="#P" n="39"/>vix possit una sine altera exacte declarari. Unde
+          <lb ed="#P" n="40"/>cum in sequenti tractatu latissime simus de
+          <lb ed="#P" n="41"/>Praedestinatione dicturi, ibi de Providentia
+          <lb ed="#P" n="42"/>etiam dicemus. Ut vero ratio nominis 
+          habea<lb break="no" ed="#P" n="43"/>tur et quaedam magis generalia principia 
+          sup<lb break="no" ed="#P" n="44"/>ponamus, visum est caput hoc in fine hujus
+          <lb ed="#P" n="45"/>libri adjungere, quod tantum sit velut 
+          praeam<lb break="no" ed="#P" n="46"/>bulum quoddam ad tractatum de 
+          Praedestina<lb break="no" ed="#P" n="47"/>tione. Ut ergo nomen providentiae explicemus,
+          <lb ed="#P" n="48"/>supponimus, habere Deum actualem 
+          guberna<lb break="no" ed="#P" n="49"/>tionem hujus universi, illique praeesse 
+          conser<lb break="no" ed="#P" n="50"/>vando illud et ordinem illius, totumque illud,
+          <lb ed="#P" n="51"/>universasque partes ejus in fines suos pro
+          <lb ed="#P" n="52"/>captu earum dirigendo. Hoc fundamentum de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>fide certum est, esse in Deo Providentiam. Quia
+          <lb ed="#P" n="54"/>gubernatio illa temporalis actio est, quam Deus
+          <lb ed="#P" n="55"/>per suum intellectum et voluntatem operatur,
+          <lb ed="#P" n="56"/>quia Deus non aliter extra se causat, ut supra
+          <lb ed="#P" n="57"/>ex fide ostensum est, crgo necesse est, ut 
+          ra<lb break="no" ed="#P" n="58"/>tio illius gubernationis universi in Dei mente
+          <lb ed="#P" n="59"/>ex aeternitate praecedat , non enim potest in
+          <lb ed="#P" n="60"/>tempore concipi, aut inchoari. Hanc ergo 
+          ra<lb break="no" ed="#P" n="61"/>tionem aeternae gubernationis intra Deum 
+          exis<lb break="no" ed="#P" n="62"/>tentem, providentiam vocamus. Atque hoc
+          <lb ed="#P" n="63"/>modo providentiam esse docet Scriptura, cum
+          <lb ed="#P" n="64"/>de Divina Sapientia dicit : Attingit a fine usque
+          <lb ed="#P" n="65"/>ad finem fortiter et disponit omnia suaciter,
+          <lb ed="#P" n="66"/>Sap. 8, cap. 6. Zqualiter est illi cura de 
+          omni<lb break="no" ed="#P" n="67"/>bus. Et infra : Inomni providentia occurit illis,
+          <lb ed="#P" n="68"/>et cap. 14: Tu autem Pater gubernas omnia 
+          pro<lb break="no" ed="#P" n="69"/>videntia. Et Christus Dominus, Matth. 6 : 
+          Respi<lb break="no" ed="#P" n="70"/>cite volatilia celi, etc. Item Luc 12 et passim.
+          <lb ed="#P" n="71"/>Solet autem a theologis quaeri , an providentia
+          <lb ed="#P" n="72"/>sit actus voluntatis divinae, vel intellectus. Sed
+          <lb ed="#P" n="73"/>hanc quaestionem in Praedestinatione exacte
+          <lb ed="#P" n="74"/>examinabimus. Nunc supponamus, utriusque
+          <lb ed="#P" n="75"/>facultatis actus ad providentiam requiri. Nam
+          <lb ed="#P" n="76"/>in omni gubernatione prudentia necessaria est
+          <lb ed="#P" n="77"/>et voluntatis electio, ac executio et vix definiri
+          <lb ed="#P" n="78"/>potest, quisnam horum actuum magis 
+          neces<lb break="no" ed="#P" n="79"/>sarius ad debitam providentiam sit. Nomen
+          <lb ed="#P" n="80"/>autem providentiae ad utrumque facile 
+          appli<lb break="no" ed="#P" n="81"/>cari potest, et ideo in hac controversia non
+          <lb ed="#P" n="82"/>est multum utilitatis , ut in citato loco latius
+          <lb ed="#P" n="83"/>dicemus.
+        </p>
+        <p xml:id="szduep-058943-d1e220">
+          <lb ed="#P" n="84"/>2. Duplex providentia. — Ut autem haec 
+          ve<lb break="no" ed="#P" n="85"/>ritas fidei melius intelligatur et ut attingamus
+          <lb ed="#P" n="86"/>errores, qui circa illam fuerunt, est 
+          adverten<lb break="no" ed="#P" n="87"/>dum, duas veluti partes in hac providentia
+          <lb ed="#P" n="88"/>distingui posse ; unam physicam, seu 
+          natura<lb break="no" ed="#P" n="89"/>lem appellare possumus, aliam moralem. Prior
+          <lb ed="#P" n="90"/>generalis est rebus omnibus, tam inanimatis,
+          <lb ed="#P" n="91"/>quam animatis, atque etiam hominibus et 
+          an<lb break="no" ed="#P" n="92"/>gelis, quatenus cum aliis commune habent
+          <lb ed="#P" n="93"/>esse et operari. Posterior est propria hominum
+          <lb ed="#P" n="94"/>et angelorum , quia illi soli sunt capaces 
+          mo<lb break="no" ed="#P" n="95"/>ralium actionum et finis, qui per illas 
+          compa<lb break="no" ed="#P" n="96"/>ratur, quia illi soli habent arbitrii libertatem.
+          <lb ed="#P" n="97"/>Ad priorem providentiae partem pertinent 
+          ac<lb break="no" ed="#P" n="98"/>tiones sequentes. Prima conservatio est in esse
+          <lb ed="#P" n="99"/>Providentia enim supponit creationem et 
+          ad<lb break="no" ed="#P" n="100"/>dit actionem necessariam, ut res creata 
+          subsis<lb break="no" ed="#P" n="101"/>tat, et finem suum consequi valeat. Inter has
+          <lb ed="#P" n="102"/>ergo actiones prima est conservatio : Quomodo
+          <lb ed="#P" n="103"/>enim posset aliquid permanere , nisi Deus 
+          vo<lb break="no" ed="#P" n="104"/>luisset. Sap. 11. Alia operatio est concursus,
+          <lb ed="#P" n="105"/>seu cooperatio Dei ad omnes actiones 
+          creatu<lb break="no" ed="#P" n="106"/>rarum, quia sicut sine influxu Dei esse non
+          <lb ed="#P" n="107"/>possunt , ita nec operari, et ideo dicitur Deus,
+          <pb ed="#P" n="232"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cestire lilia agri et pascere corvos, Luc 12. Et
+          <lb ed="#P" n="2"/>ad has duas actiones reducuntur omnes externi
+          <lb ed="#P" n="3"/>actus Providentiae, quam physicam, seu 
+          natu<lb break="no" ed="#P" n="4"/>ralem appellamus.
+        </p>
+        <p xml:id="szduep-058943-d1e289">
+          <lb ed="#P" n="5"/>3. Durandi opinio. — Durandus vero 1, d. 39,
+          <lb ed="#P" n="6"/>q. 3, numero 5 et 6,inter actus providentiae 
+          po<lb break="no" ed="#P" n="7"/>nit dispositionem rerum. Sed ut bene ibidem
+          <lb ed="#P" n="8"/>subjungit dispositio magis pertinet ad 
+          creatio<lb break="no" ed="#P" n="9"/>nem, quam providentia supponit. Nam Deus,
+          <lb ed="#P" n="10"/>cum in aeternitate sua voluit rescreare, 
+          unam<lb break="no" ed="#P" n="11"/>quamque voluit propter suum finem, et totum
+          <lb ed="#P" n="12"/>universum etiam ad certum finem ordinavit et
+          <lb ed="#P" n="13"/>consequenter partes universi convenienter ad
+          <lb ed="#P" n="14"/>illum finem apte disposuit, et singulis 
+          faculta<lb break="no" ed="#P" n="15"/>tes connaturales ad fines suos consequendos
+          <lb ed="#P" n="16"/>ordinatas, tribuere statuit. Haec autem omnia
+          <lb ed="#P" n="17"/>ad dispositionem pertinent et in ipsa creatione
+          <lb ed="#P" n="18"/>continentur, nam qui dat formam, dat 
+          conse<lb break="no" ed="#P" n="19"/>quentia ad formam. Et hoc modo ordinatio 
+          re<lb break="no" ed="#P" n="20"/>rum ad fines suos, quantum ad primam 
+          inten<lb break="no" ed="#P" n="21"/>tionem finis pertinet, in ipsa creatione 
+          inclu<lb break="no" ed="#P" n="22"/>ditur, seu in voluntate creandi res, 
+          namcrean<lb break="no" ed="#P" n="23"/>tur res propter tales fines, et ita vult Deus
+          <lb ed="#P" n="24"/>illas esse propter tales fines. Ad providentiam
+          <lb ed="#P" n="25"/>ergo pertinet proprie conservatio, 
+          cooperatio<lb break="no" ed="#P" n="26"/>que Dei, necessaria, ut res illae possent 
+          tende<lb break="no" ed="#P" n="27"/>re in fines, ad quos creatae sunt. Et ita ad has
+          <lb ed="#P" n="28"/>duas actiones reducitur tota providentia 
+          na<lb break="no" ed="#P" n="29"/>turalis. Nam sub conservatione includuntur
+          <lb ed="#P" n="30"/>omnia necessaria ad vitam et subsistentiam 
+          re<lb break="no" ed="#P" n="31"/>rum; sub cooperatione vero omnes 
+          genera<lb break="no" ed="#P" n="32"/>tiones et corruptiones, et denique omnes 
+          ope<lb break="no" ed="#P" n="33"/>rationes, quibus res possunt ad fines suos 
+          per<lb break="no" ed="#P" n="34"/>venire.
+        </p>
+        <p xml:id="szduep-058943-d1e357">
+          <lb ed="#P" n="35"/>4. Duplici autem titulo haec pertinent ad
+          <lb ed="#P" n="36"/>providentiam Dei, primo quatenus haec 
+          prove<lb break="no" ed="#P" n="37"/>niunt a causis secundis, quas ipse ad hunc 
+          fi<lb break="no" ed="#P" n="38"/>nem produxit et ordinavit et conservat: 
+          se<lb break="no" ed="#P" n="39"/>cundo quatenus Deus ipse in illis et cum illis
+          <lb ed="#P" n="40"/>immediate operatur et eas movet, applicat ad
+          <lb ed="#P" n="41"/>agendum. Unde satis constat, providentiam ex
+          <lb ed="#P" n="42"/>hac parte attingere omnia , quae sunt, vel
+          <lb ed="#P" n="43"/>fiunt in mundo in particulari , quia omnia
+          <lb ed="#P" n="44"/>pendent a Deo in esse et operari, et Deus ad
+          <lb ed="#P" n="45"/>omnia in particulari concurrit, per scientiam
+          <lb ed="#P" n="46"/>suam et voluntatem ac potentiam operando.
+          <lb ed="#P" n="47"/>Et de hac duplici actione providentiae divinae
+          <lb ed="#P" n="48"/>disputavimus late in Metaphysica, disputatione
+          <lb ed="#P" n="49"/>21 et 22. et copiosius in libro primo, de 
+          Auxi<lb break="no" ed="#P" n="50"/>Is.
+        </p>
+        <p xml:id="szduep-058943-d1e394">
+          <lb ed="#P" n="51"/>5. Qua propter nullus infidelis potuit circa
+          <lb ed="#P" n="52"/>hanc partem divinae providentiae errare, nisi,
+          <lb ed="#P" n="53"/>vel qui non agnoverunt Deum esse, vel non
+          <lb ed="#P" n="54"/>putarunt omnia pendere immediate a Deo non
+          <lb ed="#P" n="55"/>in esse et operari, postquam facta sunt. In quo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Aristoteles quid senserit, in disputione 30 
+          Me<lb break="no" ed="#P" n="57"/>taphysiese, sect. 15, num. 40, explicuimus. 
+          Po<lb break="no" ed="#P" n="58"/>tuerunt etiam in hoc errare illi, qui putarunt,
+          <lb ed="#P" n="59"/>DEUM ex necessitate naturae omnia operari,
+          <lb ed="#P" n="60"/>ut Epicurus, Democritus et Cratilus. De quibus
+          <lb ed="#P" n="61"/>non constat, an dicerent Deum conservare res
+          <lb ed="#P" n="62"/>omnes et cooperari cum illis eadem 
+          necessita<lb break="no" ed="#P" n="63"/>te, qua putarunt illas produxisse. Verumtamen
+          <lb ed="#P" n="64"/>etiam si hoc dicerent, illa non esset vera 
+          pro<lb break="no" ed="#P" n="65"/>videntia, quae proprie non cadit nisi in agens
+          <lb ed="#P" n="66"/>liberum. At suppositis principiis positis, quae
+          <lb ed="#P" n="67"/>non solum in fide sunt certa, sed etiam 
+          ratio<lb break="no" ed="#P" n="68"/>ne naturali evidentia, aperte sequitur, 
+          neces<lb break="no" ed="#P" n="69"/>sariam esse Dei providentiam , quae attingat
+          <lb ed="#P" n="70"/>ad omnia et singula, quae fiunt in particulari.
+        </p>
+        <p xml:id="szduep-058943-d1e442">
+          <lb ed="#P" n="71"/>6. Dubium.—Resolutio.—An vero per hanc
+          <lb ed="#P" n="72"/>providentiam possit Deus immutare cursum
+          <lb ed="#P" n="73"/>causarum naturalium, eumve impedire, aut
+          <lb ed="#P" n="74"/>juvare, fortasse non est tam notum lumine 
+          na<lb break="no" ed="#P" n="75"/>turali. Tamen secundum fidem certum est,
+          <lb ed="#P" n="76"/>divinam providentiam ad hoc extendi, quia
+          <lb ed="#P" n="77"/>ejus nutui et voluntati omnia parent. Unde
+          <lb ed="#P" n="78"/>Tob. 9, dicitur: Qui preecipit soli et non 
+          ori<lb break="no" ed="#P" n="79"/>tur, et stellas claudit quasi sub signaculo. Et
+          <lb ed="#P" n="80"/>Matth. 10, dicitur: Unus passer non cadit
+          <lb ed="#P" n="81"/>super terram sine Patre vestro. Nec folium 
+          ar<lb break="no" ed="#P" n="82"/>boris sine ejus scientia et voluntate movetur ;
+          <lb ed="#P" n="83"/>et hinc est, ut pro fructibus etiam 
+          temporali<lb break="no" ed="#P" n="84"/>bus, vel pro influentiis temporum opportunis
+          <lb ed="#P" n="85"/>et conservatione et incolumitate vitae, vel 
+          ani<lb break="no" ed="#P" n="86"/>malium, orari possit et debeat Deus: quia 
+          li<lb break="no" ed="#P" n="87"/>cet haec regulariter eveniant per naturalium
+          <lb ed="#P" n="88"/>causarum cursum, ab ejus nutu et voluntate
+          <lb ed="#P" n="89"/>semper pendent et immutantur etiam 
+          mira<lb break="no" ed="#P" n="90"/>biliter: de qua re et in Scriptura sacra, et in
+          <lb ed="#P" n="91"/>historiis exempla multa leguntur.
+        </p>
+        <p xml:id="szduep-058943-d1e490">
+          <lb ed="#P" n="92"/>7. De providentia morali. Esse necessariam
+          <lb ed="#P" n="93"/>moralem gubernationem.—CQuid senserit 
+          Aris<lb break="no" ed="#P" n="94"/>toteles de providentia Dei. — Circa alteram
+          <lb ed="#P" n="95"/>partem hujus providentiae, quam moralem 
+          ap<lb break="no" ed="#P" n="96"/>pellamus, dicendum est, ultra physicam 
+          efh<lb break="no" ed="#P" n="97"/>cientiam et operationem Dei, quae in omnibus
+          <lb ed="#P" n="98"/>operibus creaturarum etiam liberis et 
+          moralh<lb break="no" ed="#P" n="99"/>bus interveniunt, esse necessarium addere 
+          mo<lb break="no" ed="#P" n="100"/>ralem gubernationem, quae consistit in 
+          prae<lb break="no" ed="#P" n="101"/>ceptis, consiliis, promissionibus, 
+          comminatio<lb break="no" ed="#P" n="102"/>nibus, praemiis et suppliciis. Et de hoc toto
+          <lb ed="#P" n="103"/>genere providentiae pauca (ut opinor) 
+          philoso<lb break="no" ed="#P" n="104"/>phi subodorati sunt. Nam imprimis de 
+          praecep<lb break="no" ed="#P" n="105"/>tis, aut legibus Dei positivis nihil scire 
+          potue<lb break="no" ed="#P" n="106"/>runt, ut constat, quia libere feruntur a Deo, et
+          <lb ed="#P" n="107"/>ideo nisi per revelationem, sciri non possunt.
+          <lb ed="#P" n="108"/>Leges autem quas naturalis ratio dictat, licet
+          <lb ed="#P" n="109"/>cognoscantur ut dictamina rationis naturalis,
+          <lb ed="#P" n="110"/>tamen sub ratione legis divinae et quod Deus
+          <pb ed="#P" n="233"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in eis suam voluntatem et auctoritatem 
+          pecu<lb break="no" ed="#P" n="2"/>liariter interponant. vel cognosci non potest
+          <lb ed="#P" n="3"/>ratione naturali, vel difficillime ; unde non 
+          mi<lb break="no" ed="#P" n="4"/>hi constat, aliquem philosophorum, hoc 
+          pe<lb break="no" ed="#P" n="5"/>culiariter cognovisse. De promissionibus vero
+          <lb ed="#P" n="6"/>et comminationibus in particulari certius hoc
+          <lb ed="#P" n="7"/>est. De praemio autem et poena in generali
+          <lb ed="#P" n="8"/>fortasse aliquid suspicati sunt, sed valde 
+          im<lb break="no" ed="#P" n="9"/>perfecte, ac diminute, ut patet ex Aristotele,
+          <lb ed="#P" n="10"/>libro decimo Ethic., cap. 8, ubi eos, qui 
+          veri<lb break="no" ed="#P" n="11"/>tatem sectantur, dicit esse amicissimos 
+          Deo<lb break="no" ed="#P" n="12"/>rum immortalium. Nan si Dii (inquit) 
+          ca<lb break="no" ed="#P" n="13"/>vam habent humanarum rerum ut existimatur
+          <lb ed="#P" n="14"/>vationi consentaneum est , ipsos eo gaudere,
+          <lb ed="#P" n="15"/>quod est optimum. Ubi et sub magna 
+          dubita<lb break="no" ed="#P" n="16"/>tione loquitur et sub impropriissima Deorum
+          <lb ed="#P" n="17"/>appellatione et diminute valde. Et in lib. 2,
+          <lb ed="#P" n="18"/>Mag. moral. cap. 8. Deum, ait, mala et bona
+          <lb ed="#P" n="19"/>pro meritis distribuere : tamen ibidem sentit,
+          <lb ed="#P" n="20"/>effectus fortuitos non subjacere providentiae
+          <lb ed="#P" n="21"/>DEI, licet aliter in hoc sentiat lib. 7 Ethic. ad
+          <lb ed="#P" n="22"/>Eudonum, cap.18.
+        </p>
+        <p xml:id="szduep-058943-d1e586">
+          <lb ed="#P" n="23"/>8. Deum habere providentiam creaturarum
+          <lb ed="#P" n="24"/>rationalium. — Veritas autem Catholica docet,
+          <lb ed="#P" n="25"/>habere DEUM perfectissimam providentiam
+          <lb ed="#P" n="26"/>ereaturarum rationalium et operationum 
+          libe<lb break="no" ed="#P" n="27"/>rarum tam bonarum quam malarum, non 
+          so<lb break="no" ed="#P" n="28"/>lum generalem et remotam, sed etiam 
+          parti<lb break="no" ed="#P" n="29"/>cularem providentiam: nec solum physicam,
+          <lb ed="#P" n="30"/>sed etiam moralem. Consistit autem haec 
+          pro<lb break="no" ed="#P" n="31"/>videntia, tum in perfecta scientia, quam Deus
+          <lb ed="#P" n="32"/>habet de omnibus liberis effectibus antequam
+          <lb ed="#P" n="33"/>fiant, et postquam facta sunt et in voluntate
+          <lb ed="#P" n="34"/>procurandi illa, si bona sint, per praecepta,
+          <lb ed="#P" n="35"/>consilia, vel alia media consentanea: vel si
+          <lb ed="#P" n="36"/>sint mala, prohibendo illa et impediendo, vel
+          <lb ed="#P" n="37"/>permittendo et de illis, si fiant juxte , vel si
+          <lb ed="#P" n="38"/>misericorditer, pro ratione suae sapientiae 
+          dis<lb break="no" ed="#P" n="39"/>ponendo. Et haec omnia passim docet 
+          Scrip<lb break="no" ed="#P" n="40"/>tura: nam de rerum praescientia jam supra
+          <lb ed="#P" n="41"/>visum est. Et ideo Job 22. irridentur qui 
+          dixe<lb break="no" ed="#P" n="42"/>runt, de Deo: Circa cardines celi ambulat,
+          <lb ed="#P" n="43"/>nec nostra considerat. De aliis vero actibus 
+          mo<lb break="no" ed="#P" n="44"/>ralis providentiae etiam constat ex his, quae
+          <lb ed="#P" n="45"/>supra diximus, de voluntate Dei et ex discursu
+          <lb ed="#P" n="46"/>omnium Scripturarum. Ex quibus veritatem
+          <lb ed="#P" n="47"/>hanc late confirmant Patres, vel qui de 
+          Provi<lb break="no" ed="#P" n="48"/>dentia ex instituto scripserunt, ut 
+          Chrysosto<lb break="no" ed="#P" n="49"/>mus per tres libros et sermones sex, et in 
+          ho<lb break="no" ed="#P" n="50"/>amnil. 9, ad Populum, tomo 5, Theodoretus, lib.
+          <lb ed="#P" n="51"/>T, Curationum et sermon. 10, de Providentia,
+          <lb ed="#P" n="52"/>Salvianus, lib. 8, de Providentia, Nemesius, lib.
+          <lb ed="#P" n="53"/>8 Philosophiae: vel aliis in libris: ut 
+          Augus<lb break="no" ed="#P" n="54"/>unus libro 5, de Civitate cap. 9, et lib. 5. 
+          Ge<lb break="no" ed="#P" n="55"/>nes. ad litteram, cap. 21, lib. 3, de libero Arbi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>trio, et lib. 1 et2, de Ordine, Clemens Alexand.,
+          <lb ed="#P" n="57"/>lib. et 5 Stromat. Cyrillus Hierosolymitanus,
+          <lb ed="#P" n="58"/>catech. 8, et Cyrillus Alexand., lib. 5 contra
+          <lb ed="#P" n="59"/>Julianum.
+        </p>
+        <p xml:id="szduep-058943-d1e672">
+          <lb ed="#P" n="60"/>9. Ratio autem hujus veritatis sumenda est
+          <lb ed="#P" n="61"/>ex actibus illis, in quibus ex divina 
+          providen<lb break="no" ed="#P" n="62"/>tia consistit. Quia imprimis necesse est, Deum
+          <lb ed="#P" n="63"/>omnia scire et de omnibus rectissimum 
+          judi<lb break="no" ed="#P" n="64"/>cium ferre. Potens item est omnia disponere
+          <lb ed="#P" n="65"/>et bene ordinare, ac constituere. Voluntatem
+          <lb ed="#P" n="66"/>etiam habet rectissimam, quae sine sui 
+          muta<lb break="no" ed="#P" n="67"/>tione potest velle bonum et odisse malum, 
+          est<lb break="no" ed="#P" n="68"/>que summe honestum , ut ita singula velit.
+          <lb ed="#P" n="69"/>Estque item supremus Dominus et Princeps,
+          <lb ed="#P" n="70"/>ad quem pertinet leges ferre et praemia , ac
+          <lb ed="#P" n="71"/>poenas pro ratione operum conferre. Denique
+          <lb ed="#P" n="72"/>quia omnia ab ipso ita pendent ut sine ipso,
+          <lb ed="#P" n="73"/>vel volente, vel permittente fieri non possint,
+          <lb ed="#P" n="74"/>ergo habet Deus providentiam etiam moralem
+          <lb ed="#P" n="75"/>omnium actionum liberarum, usque ad 
+          mini<lb break="no" ed="#P" n="76"/>mas.
+        </p>
+        <p xml:id="szduep-058943-d1e711">
+          <lb ed="#P" n="77"/>10. Difficultates vero, quae circa hanc 
+          par<lb break="no" ed="#P" n="78"/>tem providentiae occurrunt, praecipue 
+          sumun<lb break="no" ed="#P" n="79"/>tur ex concordia divinae providentiae cum 
+          li<lb break="no" ed="#P" n="80"/>bertate actionum humanarum. Ubi 
+          conse<lb break="no" ed="#P" n="81"/>quenter se offert tractandum, quomodo Deus
+          <lb ed="#P" n="82"/>ab aeterno disposuerit de his actionibus in 
+          par<lb break="no" ed="#P" n="83"/>ticulari, an, scilicet, praefiniendo omnes, vel
+          <lb ed="#P" n="84"/>aliquas, et alias permittendo, vel simplici 
+          affec<lb break="no" ed="#P" n="85"/>tu prosequendo. Quae omnia in secundo lib.
+          <lb ed="#P" n="86"/>de Auxiliis late a nobis tractata sunt. Et in 
+          se<lb break="no" ed="#P" n="87"/>quenti tractatu in fine, comparando 
+          providen<lb break="no" ed="#P" n="88"/>tiam cum Praedestinatione videbimus, 
+          quo<lb break="no" ed="#P" n="89"/>modo providentia ordinet res in finem, an
+          <lb ed="#P" n="90"/>semper efficaciter, vel interdum tantum 
+          suffi<lb break="no" ed="#P" n="91"/>cienter. Quapropter de his difficultatibus nihil
+          <lb ed="#P" n="92"/>amplius hic dicemus.
+        </p>
+        <p xml:id="szduep-058943-d1e748">
+          <lb ed="#P" n="93"/>11. Dubium.—Solum inquiri potest, an hoc
+          <lb ed="#P" n="94"/>genus providentiae praesertim moralis 
+          necessa<lb break="no" ed="#P" n="95"/>rio conveniat Deo. Ubi non quaerimus de 
+          ne<lb break="no" ed="#P" n="96"/>cessitate absoluta , sic enim providentia est
+          <lb ed="#P" n="97"/>libera, nec de sola necessitate immutabilitatis,
+          <lb ed="#P" n="98"/>nam constat etiam, providentiam semel 
+          sta<lb break="no" ed="#P" n="99"/>bilitam ex parte DEI esse immutabilem. Sed
+          <lb ed="#P" n="100"/>quaerimus de necessitate providentiae divinae,
+          <lb ed="#P" n="101"/>sola suppositione facta, quod DEUS voluerit
+          <lb ed="#P" n="102"/>universum creare, prout modo est, constans
+          <lb ed="#P" n="103"/>ex simplicibus et mixtis corporibus, simul cum
+          <lb ed="#P" n="104"/>hominibus. Quae quaestio vix habet locum in
+          <lb ed="#P" n="105"/>providentia naturali, nam si Deus voluit non
+          <lb ed="#P" n="106"/>solum fieri, sed etiam conservari mundum,
+          <lb ed="#P" n="107"/>per rerum generationes et corruptiones, et
+          <lb ed="#P" n="108"/>alias operationes , non potuit illud destituere
+          <lb ed="#P" n="109"/>sua providentia , quia sine ipsius immediato
+          <lb ed="#P" n="110"/>influxu nihil esse, vel operari potest. At vero
+          <pb ed="#P" n="234"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de alia providentia morali est nonnulla 
+          diffi<lb break="no" ed="#P" n="2"/>cultas, quia non apparet absoluta necessitas
+          <lb ed="#P" n="3"/>ejus illationis. Cur enim non potuit Deus 
+          ho<lb break="no" ed="#P" n="4"/>mines condere et de illis non amplius curare,
+          <lb ed="#P" n="5"/>quam de aliis animantibus, nec poenas, aut
+          <lb ed="#P" n="6"/>praemia reddere, nec praecepta imponere? Quia
+          <lb ed="#P" n="7"/>Deusin his omnibus actionibus liber est, et non
+          <lb ed="#P" n="8"/>habet actus ille intrinsecam connexionem cum
+          <lb ed="#P" n="9"/>opere creationis, vel conservationis humanae
+          <lb ed="#P" n="10"/>naturae, nam ad hoc sufficiebat generalis 
+          con<lb break="no" ed="#P" n="11"/>cursus in ordine physico. In contrarium vero
+          <lb ed="#P" n="12"/>est, si talis providentia necessaria non est 
+          e<lb break="no" ed="#P" n="13"/>tiam supposita creatione et conservatione 
+          hu<lb break="no" ed="#P" n="14"/>manae naturae: ergo non possumus ratione 
+          na<lb break="no" ed="#P" n="15"/>turali eonvincere, Deum habere hanc 
+          provi<lb break="no" ed="#P" n="16"/>dentiam humanarum rerum, quod videtur a
+          <lb ed="#P" n="17"/>mente sanctorum Patrum alienum.
+        </p>
+        <p xml:id="szduep-058943-d1e831">
+          <lb ed="#P" n="18"/>12. Expeditur.—Ad hoc breviter dicendum
+          <lb ed="#P" n="19"/>est ; primum non potuisse Deum, nullam 
+          om<lb break="no" ed="#P" n="20"/>nino providentiam de humanis actionibus 
+          ha<lb break="no" ed="#P" n="21"/>bere supposita voluntate creandi et 
+          conservan<lb break="no" ed="#P" n="22"/>di homines ita ut humano modo operari 
+          pos<lb break="no" ed="#P" n="23"/>sint. Quia imprimis non potuit non illuminare
+          <lb ed="#P" n="24"/>illos saltem mediante lumine naturali, 
+          concur<lb break="no" ed="#P" n="25"/>rendo ad recta dictamina legis naturalis: et
+          <lb ed="#P" n="26"/>ita non potuit eos omnino sine lege 
+          relinque<lb break="no" ed="#P" n="27"/>re, quae revera divina est, licet fortasse ipsi
+          <lb ed="#P" n="28"/>homines id non agnoscerent, nisi divinitus et
+          <lb ed="#P" n="29"/>altiori modo illuminarentur. Deinde non 
+          po<lb break="no" ed="#P" n="30"/>tuit non praescire, quid ipsi homines essent
+          <lb ed="#P" n="31"/>operaturi et per suam voluntatem velle singula
+          <lb ed="#P" n="32"/>opera, vel impedire, vel permittere, aut 
+          pro<lb break="no" ed="#P" n="33"/>movere. Et quoad hunc gradum est 
+          simplici<lb break="no" ed="#P" n="34"/>ter necessaria haec providentia. Ulterius vero
+          <lb ed="#P" n="35"/>est valde consentaneum divinae bonitati , ut
+          <lb ed="#P" n="36"/>majorem providentiam cum hominibus 
+          ha<lb break="no" ed="#P" n="37"/>buerit. Nam, ut recte dixit Ambrosius, lib. 1,
+          <lb ed="#P" n="38"/>de Offic. c. 13: Quis operator negligat operis
+          <lb ed="#P" n="39"/>sui curam. Cwm aliquid non fuisse nulla 
+          inju<lb break="no" ed="#P" n="40"/>ria sit, non curare quod feceris summa 
+          incle<lb break="no" ed="#P" n="41"/>mentia. Quapropter, licet Deus libere haec 
+          om<lb break="no" ed="#P" n="42"/>nia beneficia conferat, tamen quia bonus et
+          <lb ed="#P" n="43"/>sapiens est, semper operatur consentanee ad
+          <lb ed="#P" n="44"/>sapientiam et bonitatem suam, et secundum
+          <lb ed="#P" n="45"/>hunc modum non potuit separari providentia
+          <lb ed="#P" n="46"/>consentanea naturae rationali ab illius 
+          crea<lb break="no" ed="#P" n="47"/>Uone et conservatione, saltem secundum 
+          de<lb break="no" ed="#P" n="48"/>bitam providentiam ex ordinaria lege et quasi
+          <lb ed="#P" n="49"/>connaturali, tam rebus ipsis, quam divinae 
+          bo<lb break="no" ed="#P" n="50"/>nitati et haec necessitas sufficiens est ad 
+          natu<lb break="no" ed="#P" n="51"/>ralem demonstrationem talis providentiae.
+        </p>
+        <p xml:id="szduep-058943-d1e907">
+          <lb ed="#P" n="52"/>13. Deus intellectualibus creaturis praeter
+          <lb ed="#P" n="53"/>Providentiam naturalem addidit supernatura-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>lem. — Addendum vero est, Deum non fuisse
+          <lb ed="#P" n="55"/>contentum dando creaturis intellectualibus
+          <lb ed="#P" n="56"/>providentiam naturalem et moralem ordinis 
+          <lb ed="#P" n="57"/>naturalis, ut sic dicam, sed addidisse etiam
+          <lb ed="#P" n="58"/>supernaturalem ; quia hujusmodi creaturas ad
+          <lb ed="#P" n="59"/>supernaturalem finem ordinavit, unde necesse
+          <lb ed="#P" n="60"/>fuit, ut per media et providentiam 
+          supernatu<lb break="no" ed="#P" n="61"/>ralem, eas gubernaret et ad illum finem 
+          pro<lb break="no" ed="#P" n="62"/>veheret. Hoc autem genus providentiae 
+          cogno<lb break="no" ed="#P" n="63"/>sci non potest per rationem naturalem, sicut
+          <lb ed="#P" n="64"/>nec finis ille ad quem per iliud tenditur, 
+          habe<lb break="no" ed="#P" n="65"/>mus autem illud ex fidei revelatione, ut in
+          <lb ed="#P" n="66"/>sequenti tractatu ostendemus. Ex hoc autem
+          <lb ed="#P" n="67"/>altiori providentiae genere factum est, ut tota
+          <lb ed="#P" n="68"/>providentia naturalis et moralis ad altiorem
+          <lb ed="#P" n="69"/>ordinem aliquo modo evecta sit. Nam quia res
+          <lb ed="#P" n="70"/>omnes inferiores ad homines aliquo modo 
+          or<lb break="no" ed="#P" n="71"/>dinantur, ut ad finem proximum, dum ipse
+          <lb ed="#P" n="72"/>homo ad altiorem finem ordinatus est, 
+          conse<lb break="no" ed="#P" n="73"/>quenter omnes res aliae cooperari debent ad
+          <lb ed="#P" n="74"/>illum finem consequendum, et ideo altiori 
+          quo<lb break="no" ed="#P" n="75"/>dammodo gubernandae sunt.
+        </p>
+        <p xml:id="szduep-058943-d1e964">
+          <lb ed="#P" n="76"/>14. Et hinc oriuntur mysteria multa occulta
+          <lb ed="#P" n="77"/>divinae sapientiae, quae in hujusmodi rerum
+          <lb ed="#P" n="78"/>providentia accidere videmus. Ex quibus unuum
+          <lb ed="#P" n="79"/>est, justos affligi in hac vita, iniquos autem
+          <lb ed="#P" n="80"/>prosperari. Quae apparens inaequalitas et 
+          infi<lb break="no" ed="#P" n="81"/>deles in errorem induxit, ut putarent Deum
+          <lb ed="#P" n="82"/>non habere providentiam rerum et fideles in
+          <lb ed="#P" n="83"/>magnam admirationem adduxit, ut in 
+          Scriptu<lb break="no" ed="#P" n="84"/>ris seepe legimus. Job. 21. Jerem. 12. Tamen
+          <lb ed="#P" n="85"/>si haec omnia considerentur sub providentia
+          <lb ed="#P" n="86"/>supernaturali, cessat admiratio. Nam ex illa
+          <lb ed="#P" n="87"/>ingequalitate potius colligendum est esse aliam
+          <lb ed="#P" n="88"/>virtutis retributionem altiorem, quam in hac
+          <lb ed="#P" n="89"/>vita habere possit et per mala hujus vitae 
+          per<lb break="no" ed="#P" n="90"/>fici justos et praeparari ad illam beatam 
+          conse<lb break="no" ed="#P" n="91"/>quendam, malos autem recipere in hac vita
+          <lb ed="#P" n="92"/>bona sua, ut dicitur Luc. 16. Quod 
+          argumen<lb break="no" ed="#P" n="93"/>tum late prosequuntur Patres citati agentes de
+          <lb ed="#P" n="94"/>Divina Providentia et de Resurrectione, ac 
+          ju<lb break="no" ed="#P" n="95"/>dicio. Ex hac etiam supernaturali Providentia
+          <lb ed="#P" n="96"/>oriuntur mutationes miraculosa, per quas,
+          <lb ed="#P" n="97"/>vel ordo causarum naturalium immutatur, vel
+          <lb ed="#P" n="98"/>actiones aliqua omnem virtutem naturalem
+          <lb ed="#P" n="99"/>superantes fiunt. Ad hanc item reducenda est
+          <lb ed="#P" n="100"/>custodia angelorum bonorum et impugnatio
+          <lb ed="#P" n="101"/>doemonum, nam ob finem supernaturalemilla
+          <lb ed="#P" n="102"/>ordinatur et haec permittitur. Denique ad hanc
+          <lb ed="#P" n="103"/>supernaturalem Providentiam praedestinatio
+          <lb ed="#P" n="104"/>praecipue pertinet, quae totam Dei 
+          providen<lb break="no" ed="#P" n="105"/>tiam quodammodo in se complectitur, ut in
+          <lb ed="#P" n="106"/>sequenti tractatu explicaturi sumus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

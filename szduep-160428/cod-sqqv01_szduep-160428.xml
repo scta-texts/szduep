@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="634"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-160428"><!-- t3-l4c8 -->
+        <head xml:id="szduep-160428-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-160428-Hd1e103" type="question-title">Satisfit argumentis contrariae sententiae et duo dubia illorum occasione incidentia expediuntur</head>
+        <p xml:id="szduep-160428-d1e106">
+          <lb ed="#P" n="49"/>CAPUT VIII.
+          <lb ed="#P" n="50"/>SATISFIT ARGUMENTIS CONTRARIAE SENTENTIAE ET
+          <lb ed="#P" n="51"/>DUO DUBIA ILLORUM OCCASIONE INCIDENTIA 
+          EX<lb break="no" ed="#P" n="52"/>PEDIUNTUR.
+        </p>
+        <p xml:id="szduep-160428-d1e117">
+          <lb ed="#P" n="53"/>1. Argumenta contra nostram sententiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>objecta imprimis non procedunt contra eum
+          <lb ed="#P" n="55"/>sensum, quem ad rem ipsam pertinere 
+          dixi<lb break="no" ed="#P" n="56"/>mus: quia omnia fundantur in modo nostro
+          <lb ed="#P" n="57"/>concipiendi, ut constabit facile attente illa
+          <lb ed="#P" n="58"/>consideranti. Quatenus vero applicari possunt
+          <lb ed="#P" n="59"/>contra alium sensum de modo concipiendi
+          <lb ed="#P" n="60"/>nostro, non difficile solvuntur. Nam illud
+          <lb ed="#P" n="61"/>principium, in quo fundantur, scilicet, quod
+          <lb ed="#P" n="62"/>omnis conceptus includens alium communem,
+          <lb ed="#P" n="63"/>est resolubilis in duos, qui ad invicem non se
+          <lb ed="#P" n="64"/>includant, est falsum. Estque optimum 
+          exem<lb break="no" ed="#P" n="65"/>plum in transcendentibus, quae et dicunt 
+          con<lb break="no" ed="#P" n="66"/>ceptum communem et includuntur in modis,
+          <lb ed="#P" n="67"/>quibus suo modo contrahuntur et licet eorum
+          <lb ed="#P" n="68"/>communitas non sit rei, sed rationis: id nihil
+          <lb ed="#P" n="69"/>obstat, quia non oportet exemplum esse in
+          <lb ed="#P" n="70"/>omnibus simile, neque in hoc mysterio 
+          inve<lb break="no" ed="#P" n="71"/>niri potest, de illo vero exemplo videri 
+          pos<lb break="no" ed="#P" n="72"/>sunt, quae dixi, disput. 2, Metaphysicae, per
+          <lb ed="#P" n="73"/>totam, maxime sectione ultima. Argumenta
+          <lb ed="#P" n="74"/>vero, quae contra hoc fiunt, solum probant,
+          <lb ed="#P" n="75"/>conceptum communem posse praescindi ab 
+          in<lb break="no" ed="#P" n="76"/>feriori et ipsum etiam inferius dupliciter
+          <lb ed="#P" n="77"/>posse a nobis concipi, scilicet, abstracte et
+          <lb ed="#P" n="78"/>concrete, seu per modum totius, vel partis.
+          <lb ed="#P" n="79"/>Quod nos saepe facimus in rebus omnino 
+          sim<lb break="no" ed="#P" n="80"/>plicibus, etiamsi in re ipsa nihil includat 
+          con<lb break="no" ed="#P" n="81"/>ceptus unius, quod non includat etiam 
+          concep<lb break="no" ed="#P" n="82"/>turus alterius, ut patet in his, Deus in Deitas,
+          <lb ed="#P" n="83"/>et in his etiam Zns et Entitas. Et hoc etiam
+          <lb ed="#P" n="84"/>sufficit ad constitutionem divinarum 
+          persona<lb break="no" ed="#P" n="85"/>rum, de qua postea latius.
+        </p>
+        <p xml:id="szduep-160428-d1e193">
+          <lb ed="#P" n="86"/>2. Qualis sit haec, Paternitas est essentia.—
+          <lb ed="#P" n="87"/>Solum propter quoddam testimonium D. 
+          Tho<lb break="no" ed="#P" n="88"/>mae ibi citatum dubitari potest, an haec sit
+          <lb ed="#P" n="89"/>vera locutio, Paternitas est essentia, et qualis
+          <lb ed="#P" n="90"/>sit. Et quoad priorem partem, D. Thomas
+          <lb ed="#P" n="91"/>supponit, illam locutionem esse veram, saltem
+          <lb ed="#P" n="92"/>identica ob summam simplicitatem. Quoad
+          <lb ed="#P" n="93"/>alteram vero partem dicit non esse per se. Et
+          <lb ed="#P" n="94"/>prior quidem pars manifesta est ex dictis, nec
+          <lb ed="#P" n="95"/>difficultatem habet si in legitimo sensu 
+          acci<lb break="no" ed="#P" n="96"/>piatur. Est enim aliquo modo ambigua illa 
+          lo<lb break="no" ed="#P" n="97"/>cutio. Nam significari per illam potest, 
+          Pater<lb break="no" ed="#P" n="98"/>nitatem esse rationem essentialem Dei, et in
+          <lb ed="#P" n="99"/>hoc sensu falsa est, ut ex praecedentibus 
+          con<lb break="no" ed="#P" n="100"/>stat. Proprie vero significat, essentiam esse
+          <lb ed="#P" n="101"/>communem et Paternitati intrinsece, vel 
+          iden<lb break="no" ed="#P" n="102"/>tice convenire: Quod verisimum est. Altera
+          <lb ed="#P" n="103"/>pars de qualitate illius propositionis non caret
+          <lb ed="#P" n="104"/>aliqua difficultate, diximus enim divinitatem
+          <lb ed="#P" n="105"/>esse de essentia relationum: id autem, quod
+          <lb ed="#P" n="106"/>est de essentia, praedicatur per se. Dico ergo,
+          <lb ed="#P" n="107"/>si rem ipsam, spectemus, revera ita esse, D.
+          <lb ed="#P" n="108"/>Thomas autem considerasse formam praedica-
+          <pb ed="#P" n="635"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionis. Nam haec abstracta significare 
+          viden<lb break="no" ed="#P" n="2"/>tur formales rationes praecisas et proprias, et
+          <lb ed="#P" n="3"/>quia ratio formalis unius extremi praecise
+          <lb ed="#P" n="4"/>concepta, non est ratio alterius, ideo dixit D.
+          <lb ed="#P" n="5"/>Thomas illam propositionem non esse per se.
+          <lb ed="#P" n="6"/>Similisque dubitatio tractari solet a 
+          Metaphy<lb break="no" ed="#P" n="7"/>cis de his abstractis, bwmanitas est animalitas,
+          <lb ed="#P" n="8"/>et quae ibi dicuntur possunt hic applicari. 
+          Vi<lb break="no" ed="#P" n="9"/>deatur in Metaphysica nostra, disp. 6, sect. 10.
+          <lb ed="#P" n="10"/>3. Esse communicabilem sit-ne de essentia
+          <lb ed="#P" n="11"/>divinitatis.—Ultimo dubitari potest, an saltem
+          <lb ed="#P" n="12"/>sit de essentia divinitatis esse 
+          communicabi<lb break="no" ed="#P" n="13"/>lem tribus personis, atque esse in illis. Et ratio
+          <lb ed="#P" n="14"/>dubitandi est, quia omne praedicatum 
+          conve<lb break="no" ed="#P" n="15"/>niens divinitati ratione sui et non ratione 
+          re<lb break="no" ed="#P" n="16"/>lationis, est essentiale, sed esse 
+          communica<lb break="no" ed="#P" n="17"/>bilem tribus personis convenit divinitati 
+          ra<lb break="no" ed="#P" n="18"/>tione sui, ergo est praedicatum illi essentiale.
+          <lb ed="#P" n="19"/>Major patet, tum quia illud est praedicatum
+          <lb ed="#P" n="20"/>absolutum. Tum etiam, quia non est 
+          perso<lb break="no" ed="#P" n="21"/>nale, ergo est essentiale non enim datur 
+          me<lb break="no" ed="#P" n="22"/>dium. Tum denique, quia convenit illi ratione
+          <lb ed="#P" n="23"/>suae infinitatis, quae essentialis est. In 
+          contra<lb break="no" ed="#P" n="24"/>rium autem est, quia praedicata essentialia
+          <lb ed="#P" n="25"/>sunt communia singulis personis (hinc enim
+          <lb ed="#P" n="26"/>supra probavimus, praedicatum relativum non
+          <lb ed="#P" n="27"/>esse essentiale) sed esse communicabilem 
+          tri<lb break="no" ed="#P" n="28"/>bus, vel esse in tribus de nulla persona dici
+          <lb ed="#P" n="29"/>potest: ergo non est aliquid essentiale. Et
+          <lb ed="#P" n="30"/>confirmatur, nam, hac ratione, licet homo,
+          <lb ed="#P" n="31"/>ut sic, sit communis multis individuis: 
+          nihil<lb break="no" ed="#P" n="32"/>ominus illa communitas non potest esse 
+          essen<lb break="no" ed="#P" n="33"/>tialis naturae humanae, quia in singulis 
+          indi<lb break="no" ed="#P" n="34"/>viduis illam non habet, ergo similiter, etc.
+        </p>
+        <p xml:id="szduep-160428-d1e324">
+          <lb ed="#P" n="35"/>4. Resolutio affirmautiva. — Respondeo 
+          bre<lb break="no" ed="#P" n="36"/>viter, esse communicabilem tribus personis
+          <lb ed="#P" n="37"/>simpliciter loquendo esse praedicatum 
+          essen<lb break="no" ed="#P" n="38"/>tiale divinitatis, ut priora argumenta 
+          convin<lb break="no" ed="#P" n="39"/>cunt. In hoc autem praedicato explicando, 
+          ca<lb break="no" ed="#P" n="40"/>vendum est, ne adjungatur relatio, tanquam
+          <lb ed="#P" n="41"/>intrinsece complens praedicatum: nam tunc
+          <lb ed="#P" n="42"/>jam non esset praedicatum essentiale, sed 
+          no<lb break="no" ed="#P" n="43"/>tionale. Et hujusmodi existimo esse cum 
+          dici<lb break="no" ed="#P" n="44"/>tur, actu esse in tribus. Quia hoc, esse in, non
+          <lb ed="#P" n="45"/>est modus realis divinitatis distinctus ab ipsis
+          <lb ed="#P" n="46"/>relationibus: nihil enim aliud est, quam esse
+          <lb ed="#P" n="47"/>terminatam tribus relationibus. Cum vero 
+          di<lb break="no" ed="#P" n="48"/>citur communicabilis tribus, nihil aliud 
+          ex<lb break="no" ed="#P" n="49"/>plicatur, quam foecunditas et infinitas ipsius
+          <lb ed="#P" n="50"/>divinitatis, quam essentialis illi est, eamque
+          <lb ed="#P" n="51"/>habet, et ut praecisa a personis, et ut existens
+          <lb ed="#P" n="52"/>in omnibus simul, eamdemque retinet in 
+          sin<lb break="no" ed="#P" n="53"/>gulis. Nam licet terminata sit per relationem
+          <lb ed="#P" n="54"/>unius personae, adhuc manet naturaliter 
+          com<lb break="no" ed="#P" n="55"/>municabilis aliis personis.
+        </p>
+        <p xml:id="szduep-160428-d1e372">
+          <lb ed="#P" n="56"/>5. Atque hoc satis est, ut tale praedicatum
+          <lb ed="#P" n="57"/>conveniat singulis personis, non enim habet
+          <lb ed="#P" n="58"/>convenire illis, ut constitutus per suas 
+          relatio<lb break="no" ed="#P" n="59"/>nes, sed ut habentibus talem naturam: et ideo
+          <lb ed="#P" n="60"/>necesse non est, ut persona dicatur 
+          communi<lb break="no" ed="#P" n="61"/>cabilis: sed habere naturam communicabilem.
+          <lb ed="#P" n="62"/>Neque est simile, quod afferebatur de 
+          commu<lb break="no" ed="#P" n="63"/>nitate: quia non est illa proprietas realiter
+          <lb ed="#P" n="64"/>conveniens alicui naturae, quae in re ipsa vere
+          <lb ed="#P" n="65"/>ac proprie una sit. Quod si in natura humana
+          <lb ed="#P" n="66"/>individua et singulari consideretur, quod est
+          <lb ed="#P" n="67"/>communicabilis supposito, sic etiam est longe
+          <lb ed="#P" n="68"/>diversa ratio, quia, ut sic, non est natura sua
+          <lb ed="#P" n="69"/>communicabilis multis suppositis, neque etiam
+          <lb ed="#P" n="70"/>est communicabilis per identitatem 
+          omnimo<lb break="no" ed="#P" n="71"/>dam cum ipso supposito. In hoc autem est 
+          ali<lb break="no" ed="#P" n="72"/>qua similitudo, quod illa natura etiam existens
+          <lb ed="#P" n="73"/>in suo supposito, retinet illam proprietatem,
+          <lb ed="#P" n="74"/>quae tamen non praedicatur de ipso supposito,
+          <lb ed="#P" n="75"/>ita ut ipsum dicatur communicabile, sed habere
+          <lb ed="#P" n="76"/>naturam tali modo communicabilem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

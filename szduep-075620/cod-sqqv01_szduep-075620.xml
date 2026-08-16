@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="297"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-075620"><!-- t2-l1c16 -->
+        <head xml:id="szduep-075620-Hd1e101">Caput 16</head>
+        <head xml:id="szduep-075620-Hd1e103" type="question-title">Sitne ad praedestinationem necessarius actus imperii, ratione distinctus ab omnibus numeratis</head>
+        <p xml:id="szduep-075620-d1e106">
+          <lb ed="#P" n="39"/>CAPUT XVI,
+          <lb ed="#P" n="40"/>SITNE AD PRAEDESTINATIONEM NECESSARIUS ACTUS
+          <lb ed="#P" n="41"/>IMPERII, RATIONE DISTINCTUS AB OMNIBUS
+          <lb ed="#P" n="42"/>NUMERATIS
+        </p>
+        <p xml:id="szduep-075620-d1e117">
+          <lb ed="#P" n="43"/>1. Ratio dubitandi. — Explicuimus omnes
+          <lb ed="#P" n="44"/>actus intellectus, et voluntatis, qui ad divinam
+          <lb ed="#P" n="45"/>praedestinationem videri possunt necessari :
+          <lb ed="#P" n="46"/>superest , ut videamus an illi sufficiant, vel
+          <lb ed="#P" n="47"/>aliquis alius necessarius sit, in intellectu, vel
+          <lb ed="#P" n="48"/>in voluntate. Ratio dubitandi tota orta est ex
+          <lb ed="#P" n="49"/>actu imperii, quem Philosophi morales, ut
+          <lb ed="#P" n="50"/>ex D. Thoma et Interpret. 1, 2, quaest. 17,
+          <lb ed="#P" n="51"/>haberi potest, ponunt in humana 
+          consulta<lb break="no" ed="#P" n="52"/>one, ac prudentia, tanquam necessarium ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>executionem mediorum, quae post 
+          consulta<lb break="no" ed="#P" n="54"/>tionem approbata et electa fuere. Videtur ergo
+          <lb ed="#P" n="55"/>similis actus ponendus in divina providentia ,
+          <lb ed="#P" n="56"/>ac praedestinatione , servata proportione, et
+          <lb ed="#P" n="57"/>seclusa omni imperfectione distinctionis, aut
+          <lb ed="#P" n="58"/>compositionis. Nam his et similibus 
+          imperfec<lb break="no" ed="#P" n="59"/>tionibus ablatis, imperium per se perfectionem
+          <lb ed="#P" n="60"/>indicat ac potestatem dominantis. Unde in
+          <lb ed="#P" n="61"/>Scriptura legimus, Deum imperando omnia
+          <lb ed="#P" n="62"/>opera sua fecisse, Gen. 1: Dixit Deus, fiat
+          <lb ed="#P" n="63"/>lux, etc., Psal. 148: Ipse diait, et facta sunt,
+          <lb ed="#P" n="64"/>ipse mandanit et creata sunt. Est ergo in Deo
+          <lb ed="#P" n="65"/>talis actus necessarius, tanquam proxima 
+          ra<lb break="no" ed="#P" n="66"/>tio operandi ad extra : ergo cum eadem 
+          pro<lb break="no" ed="#P" n="67"/>portione necessarius est ad opera gratiaee et
+          <lb ed="#P" n="68"/>consequenter etiam ad praedestinationem, per
+          <lb ed="#P" n="69"/>quam praeparantur. Quod vero distinctus 
+          ra<lb break="no" ed="#P" n="70"/>tione sit ab omnibus numeratis, ita ostenditur.
+          <lb ed="#P" n="71"/>Quia imperium est actus liber, ac proinde 
+          dis<lb break="no" ed="#P" n="72"/>tinctus ab omni actu scientiae, qui antecedit
+          <lb ed="#P" n="73"/>voluntatem. Rursus, non est actus voluntatis,
+          <lb ed="#P" n="74"/>sed posterior illo, quia imperium est 
+          intima<lb break="no" ed="#P" n="75"/>tio quaedam voluntatis: nam, quae aliquis fieri
+          <lb ed="#P" n="76"/>voluit, per imperium intimat, ut fiant. Denique
+          <lb ed="#P" n="77"/>est actus practicus , movens et impellens, in
+          <lb ed="#P" n="78"/>quo distinguitur ab omni actu scientiae 
+          futu<lb break="no" ed="#P" n="79"/>rorum, qui consequitur voluntatem. Est ergo
+          <lb ed="#P" n="80"/>actus ratione distinctus ab omnibus his, quia
+          <lb ed="#P" n="81"/>nobis hactenus explicati sunt.
+        </p>
+        <p xml:id="szduep-075620-d1e206">
+          <lb ed="#P" n="82"/>2. Aliqui actum imperii ratione distinctum
+          <lb ed="#P" n="83"/>admittunt. — Quidam ergo theologi, 
+          omni<lb break="no" ed="#P" n="84"/>bus superioribus actibus alium addendum esse
+          <lb ed="#P" n="85"/>putant, quem imperium vocant, etinintellectu
+          <lb ed="#P" n="86"/>illum collocant, post omnem actum scientiae et
+          <lb ed="#P" n="87"/>judicii, et post omnem actum voluntatis, 
+          neces<lb break="no" ed="#P" n="88"/>sarium ad exteriorem operationem seu 
+          effec<lb break="no" ed="#P" n="89"/>tum. Volunt enim externam actionem 
+          immedia<lb break="no" ed="#P" n="90"/>tius ab actuintellectus, quam ab actu voluntatis
+          <lb ed="#P" n="91"/>prodire, qui actus intellectus (ut aiunt) non est
+          <lb ed="#P" n="92"/>cognitio, aut judicium (hoc enim ad voluntatem
+          <lb ed="#P" n="93"/>antecedit), sed est impulsus quidam practicus
+          <lb ed="#P" n="94"/>qui hac voce explicatur, F'ac hoc, et quo potentia
+          <lb ed="#P" n="95"/>exequens, seu ministrans, applicatur ad opus.
+          <lb ed="#P" n="96"/>Hunc ergo actum etiam requirunt in divina
+          <lb ed="#P" n="97"/>mente ad extra operante : et consequenter
+          <lb ed="#P" n="98"/>aiunt, hunc etiam actum pertinere ad 
+          aeter<lb break="no" ed="#P" n="99"/>nam praedestinationem, qua Deus praeparat
+          <lb ed="#P" n="100"/>suis electis beneficia illis in tempore praestanda.
+          <lb ed="#P" n="101"/>Imo in hoc actu maxime collocant rationem
+          <lb ed="#P" n="102"/>praedestinationis, quia est quasi 
+          complemen<lb break="no" ed="#P" n="103"/>tum ejus, et proxima ratio causandi 
+          praedesti<lb break="no" ed="#P" n="104"/>nationis effectus.
+        </p>
+        <p xml:id="szduep-075620-d1e259">
+          <lb ed="#P" n="105"/>3. Fundamentum.—kundamentum hujus 
+          sen<lb break="no" ed="#P" n="106"/>tentiae est supra insinuatum. Quia de divinis non
+          <lb ed="#P" n="107"/>possumus , nisi ex humanis judicare, seclusis
+          <pb ed="#P" n="298"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>imperfectionibus, sed humana prudentia hunc
+          <lb ed="#P" n="2"/>postulat actum, et per illum quasi completur et
+          <lb ed="#P" n="3"/>terminatur, ergo et divina providentia, ergo
+          <lb ed="#P" n="4"/>multo magis praedestinatio, quae efficacissima
+          <lb ed="#P" n="5"/>est, et hic actus imperii propter efficacitatem
+          <lb ed="#P" n="6"/>effectus postulatur. Unde arguitur secundo
+          <lb ed="#P" n="7"/>quia praedestinatio est actus practicus divini
+          <lb ed="#P" n="8"/>intellectus, ex quo infallibiliter et efficaciter
+          <lb ed="#P" n="9"/>sequitur totus praedestinationis effectus ; ergo
+          <lb ed="#P" n="10"/>supponit ille actus in voluntate absolutum 
+          de<lb break="no" ed="#P" n="11"/>cretum, seu electionem talis effectus ; ergo
+          <lb ed="#P" n="12"/>non potest esse, nisi ille actus practicus, 
+          voca<lb break="no" ed="#P" n="13"/>tus imperium, quia post voluntatem nullus
+          <lb ed="#P" n="14"/>alius potest in intellectu sequi.
+        </p>
+        <p xml:id="szduep-075620-d1e303">
+          <lb ed="#P" n="15"/>4. Conclusio. — Ad preedestinationem non est
+          <lb ed="#P" n="16"/>necessarius actus imperii distinctus. — Ego
+          <lb ed="#P" n="17"/>vero imprimis censeo, nullum esse in 
+          intellec<lb break="no" ed="#P" n="18"/>tu actum, quoad extra operetur, qui non sit
+          <lb ed="#P" n="19"/>per modum scientiae, cognitionis seu judicii.
+          <lb ed="#P" n="20"/>Unde consequenter infero, sine fundamento
+          <lb ed="#P" n="21"/>fingi in intellectu actum intellectus mere 
+          im<lb break="no" ed="#P" n="22"/>pulsivum alterius potentiae vel personae, 
+          prae<lb break="no" ed="#P" n="23"/>ter omne judicium, vel cognitionem : quia
+          <lb ed="#P" n="24"/>talis actus supervacaneus est, vixque potest
+          <lb ed="#P" n="25"/>mente concipi. Ex quibus concludo, ad 
+          prae<lb break="no" ed="#P" n="26"/>destinationem non esse talem actum 
+          necessa<lb break="no" ed="#P" n="27"/>rium ac proinde in voluntate non requiri ultra
+          <lb ed="#P" n="28"/>actus superius explicatos quempiam alium et
+          <lb ed="#P" n="29"/>in intellectu praeter scientiam, quae ante 
+          vo<lb break="no" ed="#P" n="30"/>luntatem necessaria est, non intervenire illum
+          <lb ed="#P" n="31"/>impulsivum actum, sed solum judicium de
+          <lb ed="#P" n="32"/>agendis, juxta voluntatis electionem jam fac
+          <lb ed="#P" n="33"/>tum et ejus cognitionem, quae ad illam statim
+          <lb ed="#P" n="34"/>naturaliter subsequitur secundum rationis 
+          or<lb break="no" ed="#P" n="35"/>dinem.
+        </p>
+        <p xml:id="szduep-075620-d1e351">
+          <lb ed="#P" n="36"/>5. Fundamentum. — Duples operandi imodus
+          <lb ed="#P" n="37"/>in homine. Prior imperii. — Hoc imperium in
+          <lb ed="#P" n="38"/>operante est intimatio coluntatis qua alium
+          <lb ed="#P" n="39"/>obligat. — Duae priores partes hujus 
+          assertio<lb break="no" ed="#P" n="40"/>nis generales sunt. Et fundamentalis earum
+          <lb ed="#P" n="41"/>ratio est, quia intellectus essentialiter, et 
+          adae<lb break="no" ed="#P" n="42"/>quate est potentia cognoscitiva, et ideo 
+          nul<lb break="no" ed="#P" n="43"/>lum actum secundum habere potest, qui non
+          <lb ed="#P" n="44"/>sit cognitio, apprehensio, scilicet, vel 
+          judi<lb break="no" ed="#P" n="45"/>cium. Item quia ille actus est immanens, 
+          er<lb break="no" ed="#P" n="46"/>go aliquem effectum formalem habere debet
+          <lb ed="#P" n="47"/>in ipso intellectu, quis autem ille est, nisi 
+          cog<lb break="no" ed="#P" n="48"/>nitio ? Quia vero partes illaa communes sunt
+          <lb ed="#P" n="49"/>ad omnem intellectum, operae pretium erit
+          <lb ed="#P" n="50"/>eas in humano intellectu explicare, ac deinde
+          <lb ed="#P" n="51"/>ad divinum intellectum ascendere. In homine
+          <lb ed="#P" n="52"/>gitur duplex intelligi potest imperandi 
+          mo<lb break="no" ed="#P" n="53"/>dus. Unus est, quando alteri imperat, ut hoc,
+          <lb ed="#P" n="54"/>vel illud faciat : alius est, quando sibimet 
+          im<lb break="no" ed="#P" n="55"/>perare solet homo executiones illius medii,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod eligit. Prior modus est proprius, et sir
+          <lb ed="#P" n="57"/>metaphora, et consistit in legibus, vel pra
+          <lb ed="#P" n="58"/>ceptis, et proprie referri non potest, nisi a
+          <lb ed="#P" n="59"/>personam aliam. Nam res inanimes non sur
+          <lb ed="#P" n="60"/>capaces hujus imperii, ut per se constat, im
+          <lb ed="#P" n="61"/>nec bruta animantia, quia licet interdum vi
+          <lb ed="#P" n="62"/>deantur moveri ad hominis imperium , no
+          <lb ed="#P" n="63"/>est, quia rationem imperii percipiant, se 
+          <lb ed="#P" n="64"/>quia, vel instinctu naturae , vel consuetudin 
+          <lb ed="#P" n="65"/>quadam apprehendunt aliquid, ut convenien
+          <lb ed="#P" n="66"/>ad prosequendum, velut malum fugiendum
+          <lb ed="#P" n="67"/>quando tali modo excitantur , invitantur au
+          <lb ed="#P" n="68"/>terrentur. Hoc ergo imperium in ipsome
+          <lb ed="#P" n="69"/>operante revera nihil aliud est, quam decla
+          <lb ed="#P" n="70"/>ratio, seu imitatio voluntatis suae, qua potes
+          <lb ed="#P" n="71"/>alium obligare ad id faciendum, quod impe
+          <lb ed="#P" n="72"/>rat. Nam (ex omnium sententia) tota vis mo 
+          <lb ed="#P" n="73"/>tiva hujus imperii consistit in obligatione
+          <lb ed="#P" n="74"/>quam imponit, et ideo ejus motio moralis di
+          <lb ed="#P" n="75"/>citur. Haec autem obligatio oritur ex volun
+          <lb ed="#P" n="76"/>tate, quae potest, et vult obligationem impo
+          <lb ed="#P" n="77"/>nere, ideoque tantum esse potest superioris ac
+          <lb ed="#P" n="78"/>inferiorem, alioquin deesset praecipiendi potes
+          <lb ed="#P" n="79"/>tas, sine qua non potest esse proprium prae
+          <lb ed="#P" n="80"/>ceptum , nisi usurpatum, et de se inefficax
+          <lb ed="#P" n="81"/>sed possunt esse petitio, vel preces. Praete
+          <lb ed="#P" n="82"/>potestatem autem, et voluntatem, requiritu
+          <lb ed="#P" n="83"/>intimatio hujus voluntatis : per quam intima
+          <lb ed="#P" n="84"/>tionem ratio imperii , seu legis completur
+          <lb ed="#P" n="85"/>Unde tale imperium in tantum potest ad 
+          in<lb break="no" ed="#P" n="86"/>tellectum pertinere, in quantum necesse est
+          <lb ed="#P" n="87"/>ut ipsemet praecipiens suam voluntatem 
+          cog<lb break="no" ed="#P" n="88"/>noscat, et per aliquam locutionem, vel 
+          si<lb break="no" ed="#P" n="89"/>gnificationem inferiori illam indicet. In quo
+          <lb ed="#P" n="90"/>nullus actus intellectus intervenit, qui non sit
+          <lb ed="#P" n="91"/>per modum cognitionis, et judicii : nec 
+          neces<lb break="no" ed="#P" n="92"/>sarius est alius actus impulsivus. Imo nec 
+          in<lb break="no" ed="#P" n="93"/>telligi potest, quis vel qualis sit, aut quem 
+          <lb ed="#P" n="94"/>formalem effectum habeat in ipso imperante,
+          <lb ed="#P" n="95"/>cujus est actus immanens : aut quid etiam 
+          ef<lb break="no" ed="#P" n="96"/>ficiat in eo, cui imperatur : cum ille solum ad 
+          <lb ed="#P" n="97"/>voluntatem imperantis per locutionem 
+          inti<lb break="no" ed="#P" n="98"/>matam moveatur.
+        </p>
+        <p xml:id="szduep-075620-d1e492">
+          <lb ed="#P" n="99"/>6. Posterior modus imperii. — Tollitur 
+          li<lb break="no" ed="#P" n="100"/>bertas voluntatis, si ponitur hoc imperium 
+          dis<lb break="no" ed="#P" n="101"/>tinctwn in intellectu. — Posterior modus 
+          im<lb break="no" ed="#P" n="102"/>perii, quo homo sibi ipsi imperat, solum est
+          <lb ed="#P" n="103"/>respectu propriarum actionum, et earum 
+          po<lb break="no" ed="#P" n="104"/>tentiarum, quae subsunt liberae motioni 
+          volun<lb break="no" ed="#P" n="105"/>tatis. Et in hoc etiam modo imperandi, 
+          prae<lb break="no" ed="#P" n="106"/>ter voluntatis actum, quo efficaciter vult usum
+          <lb ed="#P" n="107"/>potentiae sibi subjectae, et cognitionem, vel
+          <lb ed="#P" n="108"/>judicium, quod praecedit, vel subsequitur ad
+          <lb ed="#P" n="109"/>talem volitionem, nullus alius actus 
+          impulsi<lb break="no" ed="#P" n="110"/>vus ex parte intellectus concipi potest. Quia
+          <pb ed="#P" n="299"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nte intentionem, et electionem, sufficit 
+          judi<lb break="no" ed="#P" n="2"/>ium practicum de bonitate finis, et de 
+          utili<lb break="no" ed="#P" n="3"/>ate mediorum. Unde Thomistae aliqui, qui ad
+          <lb ed="#P" n="4"/>lectionem ponunt imperium distinctum a 
+          ju<lb break="no" ed="#P" n="5"/>licio, ut efficaciter determinet voluntatem ad
+          <lb ed="#P" n="6"/>lectionem unius medii prae aliis , D. Thomaee
+          <lb ed="#P" n="7"/>iperte contradicunt, ut in citata quaest. 17,
+          <lb ed="#P" n="8"/>rderi potest. Et aliquid ponunt superfluum,
+          <lb ed="#P" n="9"/>quod explicare non possunt, quid sit, vel
+          <lb ed="#P" n="10"/>xiam libertatem voluntatis tollunt : quia 
+          siil<lb break="no" ed="#P" n="11"/>ud imperium efficaciter determinat 
+          volunta<lb break="no" ed="#P" n="12"/>em, aut illud facit vi sua, et sic intellectus
+          <lb ed="#P" n="13"/>it liber in imperando, non voluntas in 
+          obe<lb break="no" ed="#P" n="14"/>liendo , quia posito tali imperio, voluntas ex
+          <lb ed="#P" n="15"/>aecessitate obedit , aut id facit in virtute 
+          ali<lb break="no" ed="#P" n="16"/>jus voluntatis prioris, et de illa 
+          inquire<lb break="no" ed="#P" n="17"/>mus, an requirat aliud simile imperium, quod
+          <lb ed="#P" n="18"/>ii ibi necessarium non est, ne procedatur in
+          <lb ed="#P" n="19"/>nfinitum, neque ad electionem ipsam erit 
+          ne<lb break="no" ed="#P" n="20"/>cessarium, sed judicium sufficiet.
+        </p>
+        <p xml:id="szduep-075620-d1e568">
+          <lb ed="#P" n="21"/>7. Rursus eodem modo possumus de 
+          motio<lb break="no" ed="#P" n="22"/>ne inferiorum potentiarum post electionem
+          <lb ed="#P" n="23"/>factam argumentari. Ut enim electio 
+          mande<lb break="no" ed="#P" n="24"/>tur executioni, sequitur in voluntate usus
+          <lb ed="#P" n="25"/>activus, qui nihil aliud est, quam volitio 
+          ap<lb break="no" ed="#P" n="26"/>plicandi hic et nunc potentiam exequentem
+          <lb ed="#P" n="27"/>ad opus : quae volitio indiget directione 
+          intel<lb break="no" ed="#P" n="28"/>lectus, quae etiam fit per judicium practicum:
+          <lb ed="#P" n="29"/>quod judicium ultra illud, quod praecessit 
+          elec<lb break="no" ed="#P" n="30"/>tionem , solum addit cognitionem electionis
+          <lb ed="#P" n="31"/>jam factee, et circumstantiarum omnium 
+          con<lb break="no" ed="#P" n="32"/>currentium ad debitam executionem talis 
+          elec<lb break="no" ed="#P" n="33"/>tionis. Et fortasse judicium ex tali cognitione
+          <lb ed="#P" n="34"/>procedens vocavit D. Thomas imperium, quia
+          <lb ed="#P" n="35"/>ex vi electionis factae habet specialem 
+          quam<lb break="no" ed="#P" n="36"/>dam efficaciam. Tamen revera nihil aliud est,
+          <lb ed="#P" n="37"/>iquam scientia quaedam practica, seu cognitio
+          <lb ed="#P" n="38"/>prudentialis , et non movet voluntatem, nisi
+          <lb ed="#P" n="39"/>ratione objecti propositi. Unde ex vi 
+          intellec<lb break="no" ed="#P" n="40"/>itus solum est motio quoad specificationem :
+          <lb ed="#P" n="41"/>inam quoad exercitium potius voluntas se 
+          mo<lb break="no" ed="#P" n="42"/>vet ex vi prioris electionis. Cujus signum 
+          ma<lb break="no" ed="#P" n="43"/>mfestum est, uia si velit ab electione 
+          desis<lb break="no" ed="#P" n="44"/>tere, imperium reddetur inefficax : ergo, 
+          quid<lb break="no" ed="#P" n="45"/>iquid aliud praeter hoc fingitur, nihil est. Quia
+          <lb ed="#P" n="46"/>aliud imperium impulsivum, nec propter 
+          vo<lb break="no" ed="#P" n="47"/>luntatem ipsam necessarium est, ut 
+          argumen<lb break="no" ed="#P" n="48"/>tum ostendit, nec propter potentiam 
+          exequen<lb break="no" ed="#P" n="49"/>tem, quia haec immediate applicatur ex vi 
+          ap<lb break="no" ed="#P" n="50"/>petitus, seu voluntatis, nec percipit alium 
+          im<lb break="no" ed="#P" n="51"/>pulsum.
+        </p>
+        <p xml:id="szduep-075620-d1e638">
+          <lb ed="#P" n="52"/>8. Imperium in voluntate ponunt aliqui
+          <lb ed="#P" n="53"/>Doctores. — D. Thomas et alii hoc imperium
+          <lb ed="#P" n="54"/>in intellectu quomodo ponant. — Solet autem
+          <lb ed="#P" n="55"/>interdum homo, ut se ipsum ad operandum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>excitet, secum ipse loqui, sibique imperare,
+          <lb ed="#P" n="57"/>fac hoc, surge, etc. Tamen , si quis attente
+          <lb ed="#P" n="58"/>supra suos actus reflexionem faciat, intelliget
+          <lb ed="#P" n="59"/>imprimis, tale imperium, si sit efficax, 
+          sup<lb break="no" ed="#P" n="60"/>ponere voluntatem efficacem talis actionis
+          <lb ed="#P" n="61"/>imperatae, quam homo in se agnoscit, et per
+          <lb ed="#P" n="62"/>illud imperium eam sibi expressius 
+          propo<lb break="no" ed="#P" n="63"/>nit, ut se magis excitet : si vero sit 
+          impe<lb break="no" ed="#P" n="64"/>rium inefficax, non est proprie imperium,
+          <lb ed="#P" n="65"/>sed veluti exhortatio queedam hominis ad 
+          se<lb break="no" ed="#P" n="66"/>ipsum, ut recordetur, illud sibi expedire, vel
+          <lb ed="#P" n="67"/>quid simile. Deinde totum hoc genus imperii
+          <lb ed="#P" n="68"/>in nobis sit per intellectum, non tamen per
+          <lb ed="#P" n="69"/>impulsum illum practicum, qui non sit 
+          cogni<lb break="no" ed="#P" n="70"/>tio, sed per locutiones mentales, et 
+          intellec<lb break="no" ed="#P" n="71"/>tuales conceptus non ultimatos alicujus 
+          lin<lb break="no" ed="#P" n="72"/>guae, seu vocum aliquarum. Cujus signum 
+          evi<lb break="no" ed="#P" n="73"/>dens est, quia nemo exercet hunc interiorem
+          <lb ed="#P" n="74"/>actum, nisi per verba mentalia illius 
+          idioma<lb break="no" ed="#P" n="75"/>tis, quod novit. At conceptus illi non sunt,
+          <lb ed="#P" n="76"/>nisi cognitiones quaedam talium verborum,
+          <lb ed="#P" n="77"/>et significationis eorum , et illa locutio non
+          <lb ed="#P" n="78"/>tendit, nisi ad excitandam amplius 
+          volunta<lb break="no" ed="#P" n="79"/>tem per efficaciorem propositionem objecti,
+          <lb ed="#P" n="80"/>vel recordationem alicujus resolutionis jam
+          <lb ed="#P" n="81"/>factee. Unde hoc etiam imperium revera non
+          <lb ed="#P" n="82"/>dirigitur directe, et immediate ad voluntatem,
+          <lb ed="#P" n="83"/>vel inferiores potentias, sed ad intellectum :
+          <lb ed="#P" n="84"/>nam quando homo secum loquitur, sicut per
+          <lb ed="#P" n="85"/>intellectum loquitur, ita per intelleetum audit,
+          <lb ed="#P" n="86"/>atque ita qualiscumque impulsus hujus 
+          impe<lb break="no" ed="#P" n="87"/>rii per cognitionem fit. Ac denique hic modus
+          <lb ed="#P" n="88"/>imperandi sibi extraordinarius est, et 
+          acciden<lb break="no" ed="#P" n="89"/>tarius, non vero est per se necessarius ad 
+          ope<lb break="no" ed="#P" n="90"/>rationem, ut per se notum est, et ideo 
+          aucto<lb break="no" ed="#P" n="91"/>res nullam fere mentionem faciunt hujus 
+          im<lb break="no" ed="#P" n="92"/>perii. Ac propterea Doctores, qui non 
+          agnos<lb break="no" ed="#P" n="93"/>cunt, neque admittunt impulsum illum 
+          intel<lb break="no" ed="#P" n="94"/>lectualem, imperium ponunt in voluntate, et
+          <lb ed="#P" n="95"/>non in intellectu. In quam sententiam 
+          incli<lb break="no" ed="#P" n="96"/>nant S. Bonaventura, 3, dist. 1T, artic. 1,
+          <lb ed="#P" n="97"/>quaest. 4, Scotus in 1, d. 38, q. 1, et in 9, d.
+          <lb ed="#P" n="98"/>6, et Quodlib. 17. Tenet Ochamus in 3, quaest.
+          <lb ed="#P" n="99"/>16, Henricus Quodlib. 9, quaest. 6, Almainus,
+          <lb ed="#P" n="100"/>tract. 3, Moral., cap. 2, Medina, Codicede 
+          Ora<lb break="no" ed="#P" n="101"/>tione, quaest. 2. Qui vero convenienter 
+          de<lb break="no" ed="#P" n="102"/>fendunt D. Thomae sententiam, quae 
+          Aristo<lb break="no" ed="#P" n="103"/>telis esse creditur, ponentis imperium in 
+          in<lb break="no" ed="#P" n="104"/>tellectu, nihil aliud imperium esse putant
+          <lb ed="#P" n="105"/>praeter judicium practicum, quod voluntatis
+          <lb ed="#P" n="106"/>electionem, vel usum activum antecedit, ut
+          <lb ed="#P" n="107"/>latius disseritur 1, 2, quaest. 17.
+        </p>
+        <p xml:id="szduep-075620-d1e765">
+          <lb ed="#P" n="108"/>9. Resolutio queestionis quoad diviummn 
+          ac<lb break="no" ed="#P" n="109"/>tum imperii ad se. — Ex his facile est hoc in
+          <lb ed="#P" n="110"/>Deo ipso demonstrare, utendo eadem distinc-
+          <pb ed="#P" n="300"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tione de imperio ad se, vel ad alios. Nam de
+          <lb ed="#P" n="2"/>priori, si ad voluntatem Dei referatur, clarum
+          <lb ed="#P" n="3"/>est esse non posse, nisi voluntatem illam 
+          exe<lb break="no" ed="#P" n="4"/>quentem, quam jam explicuimus. Quae potius
+          <lb ed="#P" n="5"/>videtur dici posse imperium ad rem creatam,
+          <lb ed="#P" n="6"/>quatenus Deus per illam vult aliquid fieri,
+          <lb ed="#P" n="7"/>quam ipsum Deum, quamquam, ut per talem
+          <lb ed="#P" n="8"/>voluntatem manet potentia executiva DEI
+          <lb ed="#P" n="9"/>quasi applicata ad opus pro tali tempore, sub
+          <lb ed="#P" n="10"/>ea ratione dici aliquo modo possit imperium
+          <lb ed="#P" n="11"/>ad se, nam executio illa externa est actus liber
+          <lb ed="#P" n="12"/>Dei, non elicitive, sed imperative. De quo 
+          lo<lb break="no" ed="#P" n="13"/>quendi modo non est contendendum, quando
+          <lb ed="#P" n="14"/>res constat. Si vero ille actus referatur ad 
+          in<lb break="no" ed="#P" n="15"/>tellectum Dei, evidentissimum est, vel non
+          <lb ed="#P" n="16"/>esse in DEO, vel non esse, nisi aut judicium
+          <lb ed="#P" n="17"/>practicum, quo movetur ad aliquid volendum,
+          <lb ed="#P" n="18"/>vel eligendum libere, aut scientiam illam, qua
+          <lb ed="#P" n="19"/>cognoscit decretum a se stabilitum, vel 
+          elec<lb break="no" ed="#P" n="20"/>tonem a se factam, et propterea judicat 
+          ne<lb break="no" ed="#P" n="21"/>cessarium esse exequi, quod a se definitum est.
+          <lb ed="#P" n="22"/>Declaratur praeterea : nam vel hoc imperium
+          <lb ed="#P" n="23"/>ad se est necessarium in intellectu divino
+          <lb ed="#P" n="24"/>propter voluntatem, vel propter actionem 
+          po<lb break="no" ed="#P" n="25"/>tentiae executivae: neutro autem modo est 
+          ne<lb break="no" ed="#P" n="26"/>cessarium ultra scientiam, et judicium, ergo.
+          <lb ed="#P" n="27"/>Major probatur, quia imperium ordinatur ad
+          <lb ed="#P" n="28"/>actionem liberam, quae in Deo non est, nisi
+          <lb ed="#P" n="29"/>aut determinatio ipsiusmet voluntatis, aut
+          <lb ed="#P" n="30"/>executio, quae ex illa nascitur, ergo imperium
+          <lb ed="#P" n="31"/>solum propter aliquam ex his partibus potest
+          <lb ed="#P" n="32"/>desiderari.
+        </p>
+        <p xml:id="szduep-075620-d1e848">
+          <lb ed="#P" n="33"/>10. Imperium ad se non requiritur ad 
+          deter<lb break="no" ed="#P" n="34"/>minationem voluntatis divine. — Ad 
+          decre<lb break="no" ed="#P" n="35"/>lum pradestinationis non requiritur hoc 
+          impe<lb break="no" ed="#P" n="36"/>rium. — Quod ergo propter i ipsam voluntatis
+          <lb ed="#P" n="37"/>divinae determinationem tale imperium nec
+          <lb ed="#P" n="38"/>utile, nec necessarium esse possit, probatur,
+          <lb ed="#P" n="39"/>quia voluntas divina non determinatur ab 
+          in<lb break="no" ed="#P" n="40"/>tellectu ad suam liberam electionem, vel 
+          vo<lb break="no" ed="#P" n="41"/>litionem, sed vel omnino a se, quoad primum
+          <lb ed="#P" n="42"/>decretum liberum, vel ab illo primo 
+          deter<lb break="no" ed="#P" n="43"/>minatur ad secundum, et sic consequenter
+          <lb ed="#P" n="44"/>usque ad ultimam voluntatem exequentem ,
+          <lb ed="#P" n="45"/>alias Dei voluntas libera non esset, et 
+          con<lb break="no" ed="#P" n="46"/>sequenter nec Deus esset liber, quia 
+          intellec<lb break="no" ed="#P" n="47"/>tus non esset formaliter liber, imo in Deo 
+          nul<lb break="no" ed="#P" n="48"/>lum habet actum proprie et formaliter, vel
+          <lb ed="#P" n="49"/>denominative liberum se ad summum 
+          objec<lb break="no" ed="#P" n="50"/>tive, ut supra declaravi. Ut autem voluntas 
+          di<lb break="no" ed="#P" n="51"/>vina se determinet, solum praecedit in 
+          intel<lb break="no" ed="#P" n="52"/>lectu naturalis scientia simplicis intelligentiae,
+          <lb ed="#P" n="53"/>quals a nobis, capite sexto, explicata est. Ad
+          <lb ed="#P" n="54"/>quam pertinet judicium de convenientia 
+          ob<lb break="no" ed="#P" n="55"/>jectorum, vel mediorum utilitate, ex quibus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Deus eligit juxta consilium voluntatis su
+          <lb ed="#P" n="57"/>Nullus ergo alius intelligi potest in divino ij
+          <lb ed="#P" n="58"/>tellectu respectu divinae voluntatis. Aut eni i
+          <lb ed="#P" n="59"/>impulsus ille determinat illam, et hoc rep
+          <lb ed="#P" n="60"/>gnat libertati ejus, ut dixi. Et praeterea q
+          <lb ed="#P" n="61"/>ilo impulsu interrogari potest, an sit act
+          <lb ed="#P" n="62"/>liber , vel necessarius : si liber, a quo dete
+          <lb ed="#P" n="63"/>minatur, vel a qua potentia libere elicitur, v
+          <lb ed="#P" n="64"/>imperatur ? Si necessarius, ergo determinat 
+          <lb ed="#P" n="65"/>quae ex illo sequitur necessaria etiam est,
+          <lb ed="#P" n="66"/>perit divina libertas. Quod si impulsus ille nc
+          <lb ed="#P" n="67"/>determinat voluntatem divinam, quae est ut
+          <lb ed="#P" n="68"/>litas in illo? Quia non potest alio modo m«
+          <lb ed="#P" n="69"/>materia, ad omnes actus voluntatis, et totur
+          <lb ed="#P" n="70"/>praedestinationis decretum, non est necessa
+          <lb ed="#P" n="71"/>rium tale imperium, sed tantum scientia ille
+          <lb ed="#P" n="72"/>quam supra supponi docuimus.
+        </p>
+        <p xml:id="szduep-075620-d1e939">
+          <lb ed="#P" n="73"/>11. At vero post aliquod decretum liberur
+          <lb ed="#P" n="74"/>divinae voluntatis, statim subsequitur in Dec
+          <lb ed="#P" n="75"/>( ut supra etiam dixi ) scientia visionis de ta
+          <lb ed="#P" n="76"/>decreto, in quo consequenter cognoscitur ess
+          <lb ed="#P" n="77"/>futurum id, quod per talem voluntatem absc
+          <lb ed="#P" n="78"/>lutam praefinitum est. De quo genere scientic
+          <lb ed="#P" n="79"/>certissimum est, scientiam unius decreti, quo
+          <lb ed="#P" n="80"/>secundum rationem est prius, necessario sup
+          <lb ed="#P" n="81"/>poni debere ante subsequens decretum. Ut
+          <lb ed="#P" n="82"/>verbi gratia, scientiam de intentione finis sup
+          <lb ed="#P" n="83"/>poni ad electionem mediorum, quia volunta:
+          <lb ed="#P" n="84"/>non potest eligere media sine praevio judicio
+          <lb ed="#P" n="85"/>et intellectus non judicat practice esse eligende
+          <lb ed="#P" n="86"/>media, donec cognoscat finem jam esse 
+          inten<lb break="no" ed="#P" n="87"/>tum, nam intentio est quae movet ad 
+          electio<lb break="no" ed="#P" n="88"/>nem et non movet nisi cognita, quia oportet
+          <lb ed="#P" n="89"/>cognosci connexionem electionis cum 
+          inten<lb break="no" ed="#P" n="90"/>tione jam habita, ut ex vi intentionis voluntas
+          <lb ed="#P" n="91"/>ad electionem moveatur. Sicut in intellectu,
+          <lb ed="#P" n="92"/>ut moveatur. ad conclusionem, non satis est,
+          <lb ed="#P" n="93"/>quod jam habeat assensum principiorum, nisi
+          <lb ed="#P" n="94"/>etiam cognoscat connexionem conclusionis
+          <lb ed="#P" n="95"/>cum principiis. Est autem diversitas, quod 
+          vo<lb break="no" ed="#P" n="96"/>luntas nihil cognoscit, et ideo intellectus, et
+          <lb ed="#P" n="97"/>sibi, et voluntati cognoscit. Si ergo judicium
+          <lb ed="#P" n="98"/>illud, quod Deus habet post cognitum primum
+          <lb ed="#P" n="99"/>decretum circa finem, de eliciendo alio circa
+          <lb ed="#P" n="100"/>media, si hoc (inquam) judicium vocetur 
+          im<lb break="no" ed="#P" n="101"/>perium, de voce non contendo, et admittotalem 
+          <lb ed="#P" n="102"/>actum esse necessarium. Sed hoc imperium 
+          <lb ed="#P" n="103"/>non est actus ratione distinctus a supra positis, 
+          <lb ed="#P" n="104"/>capite sexto, ut ex ibi dictis satis constat.
+        </p>
+        <p xml:id="szduep-075620-d1e1011">
+          <lb ed="#P" n="105"/>12. Atque ad hunc modum philosophandum 
+          <lb ed="#P" n="106"/>est, de omnibus decretis divinae voluntatis 
+          us<lb break="no" ed="#P" n="107"/>que ad voluntatem executivam, antequam 
+          re<lb break="no" ed="#P" n="108"/>quiritur in intellectu divino notitia electionis
+          <pb ed="#P" n="301"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>am factae, cum qua conjunctum est judicium,
+          <lb ed="#P" n="2"/>uod talis executio necessaria sit, posita tali
+          <lb ed="#P" n="3"/>ilectione, quod judicium practicum est, et 
+          po<lb break="no" ed="#P" n="4"/>Iost eo modo imperium appellari. Tamen 
+          prae<lb break="no" ed="#P" n="5"/>er illud, nullus alius actus ratione distinctus
+          <lb ed="#P" n="6"/>tecessarius est, quo voluntas ad talem 
+          execu<lb break="no" ed="#P" n="7"/>ionem ponendam impellatur, imo nec concipi
+          <lb ed="#P" n="8"/>iotest aut explicari qualis sit talis actus, ut de
+          <lb ed="#P" n="9"/>liis actibus voluntatis dictum est : est enim 
+          ea<lb break="no" ed="#P" n="10"/>ilem ratio de omnibus. Atque eodem modo, 
+          po<lb break="no" ed="#P" n="11"/>ita voluntate exequente necessitate quadam
+          <lb ed="#P" n="12"/>naturali sequitur actio externa, eo tempore, et
+          <lb ed="#P" n="13"/>nodo quo vohta est. Sequitur autem ex vi 
+          ip<lb break="no" ed="#P" n="14"/>iius voluntatis immediate , quae vim habet 
+          fa<lb break="no" ed="#P" n="15"/>siendi quidquid vult, immediate, inquam, 
+          res<lb break="no" ed="#P" n="16"/>ectu intellectus et aliorum actuum 
+          volunta<lb break="no" ed="#P" n="17"/>is: sive id faciat voluntas immediate per se
+          <lb ed="#P" n="18"/>psam, sive per potentiam exequentem ratione
+          <lb ed="#P" n="19"/>listinctam. Nam haec applicata manet 
+          adagen<lb break="no" ed="#P" n="20"/>Tum ex vi talis voluntatis, et sic applicata, et
+          <lb ed="#P" n="21"/>»erseverante eadem voluntate, naturaliter agit
+          <lb ed="#P" n="22"/>at quasi despotice obedit voluntati: Sicut 
+          po<lb break="no" ed="#P" n="23"/>entia secundum locum motiva in animalibus
+          <lb ed="#P" n="24"/>aaturaliter obedit appetitui.
+        </p>
+        <p xml:id="szduep-075620-d1e1079">
+          <lb ed="#P" n="25"/>13. Unde satis constat non esse necessarium
+          <lb ed="#P" n="26"/>imperium illud intellectus, per modum 
+          impul<lb break="no" ed="#P" n="27"/>sus, ad applicandam proxime, vel 
+          impellen<lb break="no" ed="#P" n="28"/>dam potentiam exequentem ad agendum ad
+          <lb ed="#P" n="29"/>extra. Verum dubitari potest, an sit per se 
+          ne<lb break="no" ed="#P" n="30"/>cessaria in Deo, vel in quocumque libere 
+          ope<lb break="no" ed="#P" n="31"/>rante, cognitio propriae voluntatis, quae jam
+          <lb ed="#P" n="32"/>voluit executionem, ut potentia executiva 
+          obe<lb break="no" ed="#P" n="33"/>diat voluntati. Est quidem necessarium, ut 
+          po<lb break="no" ed="#P" n="34"/>sita illa voluntate in Deo statim Deus illam 
+          in<lb break="no" ed="#P" n="35"/>tueatur, et cognoscat se velle talem 
+          executio<lb break="no" ed="#P" n="36"/>nem, quia non potest aliquid intra, vel extra se
+          <lb ed="#P" n="37"/>ignorare, qualecumque illud sit. At haec 
+          ne<lb break="no" ed="#P" n="38"/>cessitas oritur ex infinitate actualis scientiae
+          <lb ed="#P" n="39"/>Dei. An vero talis scientia sit per se necessaria
+          <lb ed="#P" n="40"/>ad executionem illius voluntatis, non immerito
+          <lb ed="#P" n="41"/>dubitari potest, quia potentia executiva non
+          <lb ed="#P" n="42"/>est sicut voluntas, quae movetur ab objecto
+          <lb ed="#P" n="43"/>cognito, sed est sicut organum, vel 
+          intrumen<lb break="no" ed="#P" n="44"/>tum, quod necessario applicatur et efficit, quod
+          <lb ed="#P" n="45"/>principale agens vult. Unde sineullo imperio,
+          <lb ed="#P" n="46"/>vel judicio medio, per naturalem sympathiam
+          <lb ed="#P" n="47"/>potentiarum, posita voluntate exequente, 
+          se<lb break="no" ed="#P" n="48"/>qui videtur naturaliter actio potentiae 
+          exequen<lb break="no" ed="#P" n="49"/>tis. Ut in animali ex appetitu sequitur 
+          natura<lb break="no" ed="#P" n="50"/>liter motus corporis, etiam si animal non 
+          cog<lb break="no" ed="#P" n="51"/>noscat ipsam suam appetitionem. Quod 
+          pro<lb break="no" ed="#P" n="52"/>fecto est probabile, et illo posito, constat
+          <lb ed="#P" n="53"/>nullum genus imperii esse per se et immediate
+          <lb ed="#P" n="54"/>necessarium in Deo ad applicationem suae 
+          po<lb break="no" ed="#P" n="55"/>tentie executivae ad opus, etiamsi imperium
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non pro impulsu, sed pro judicio practico 
+          su<lb break="no" ed="#P" n="57"/>matur, hoc enim judicium solum erit 
+          neces<lb break="no" ed="#P" n="58"/>sarium remote, seu mediate, quatenus ad 
+          vo<lb break="no" ed="#P" n="59"/>luntatem necessarium est, posita autem 
+          volun<lb break="no" ed="#P" n="60"/>tate, jam non est aliud necessarium. 
+          Probabi<lb break="no" ed="#P" n="61"/>liter tamen defendi etiam potest, illam 
+          cogni<lb break="no" ed="#P" n="62"/>tionem propriae voluntatis, ac determinationis
+          <lb ed="#P" n="63"/>ad executionem ipsam, esse necessariam ad
+          <lb ed="#P" n="64"/>perfectam subordinationem potentiae 
+          executi<lb break="no" ed="#P" n="65"/>vae et appetitivae , quia hoc modo intelligitur
+          <lb ed="#P" n="66"/>fieri magis voluntarie, magisque vitaliter (ut
+          <lb ed="#P" n="67"/>sic dicam) dum operans, cognoscendo 
+          volunta<lb break="no" ed="#P" n="68"/>tem suam, ratione illius exequitur statim, quod
+          <lb ed="#P" n="69"/>vult. Sicut etiam est necessarium, ut scientia
+          <lb ed="#P" n="70"/>praecedat dirigendo ipsam executionem: nam
+          <lb ed="#P" n="71"/>potentia executiva agentis intellectualis non
+          <lb ed="#P" n="72"/>operatur, nisi prout scientia ipsa repraesentat
+          <lb ed="#P" n="73"/>esse faciendum. Verumtamen, licet haec 
+          om<lb break="no" ed="#P" n="74"/>nia admittantur, nunquam ponitur in 
+          intel<lb break="no" ed="#P" n="75"/>lectu divino actus ratione distinctus a naturali
+          <lb ed="#P" n="76"/>scientia et necessaria, vel simpliciter, vel ex
+          <lb ed="#P" n="77"/>suppositione actus liberi, quod hic 
+          intendi<lb break="no" ed="#P" n="78"/>mus.
+        </p>
+        <p xml:id="szduep-075620-d1e1201">
+          <lb ed="#P" n="79"/>14. De imperio Dei ad alios. — Sequitur,
+          <lb ed="#P" n="80"/>ut dicamus de imperio Dei prout ad creaturas
+          <lb ed="#P" n="81"/>ipsas refertur : loquimur autem in praesenti
+          <lb ed="#P" n="82"/>non de imperio praeceptivo Dei, quo scilicet
+          <lb ed="#P" n="83"/>leges imponit creaturis rationalibus, sed de
+          <lb ed="#P" n="84"/>imperio operativo, quo physice et efficienter
+          <lb ed="#P" n="85"/>tam res inanimes, quam intellectuales 
+          opera<lb break="no" ed="#P" n="86"/>tur. Prius enim imperium ad praesentem 
+          ma<lb break="no" ed="#P" n="87"/>teriam non refert, quia non agimus de 
+          prae<lb break="no" ed="#P" n="88"/>ceptis, vel legibus, quas Deus imponit suis
+          <lb ed="#P" n="89"/>praedestinatis, quae regulariter eaedem sunt cum
+          <lb ed="#P" n="90"/>his, quas reprobis imponit : sed agimus de 
+          im<lb break="no" ed="#P" n="91"/>perio, quo Deus efficaciter movet suos 
+          praedes<lb break="no" ed="#P" n="92"/>tinatos ad implendas leges suas. Quanquam
+          <lb ed="#P" n="93"/>etiam de ipsa lege proprie sumpta, prout in
+          <lb ed="#P" n="94"/>ipso legislatore aliquid ponit, seu praeexistere
+          <lb ed="#P" n="95"/>intelligitur, constat satis ex dictis esse non
+          <lb ed="#P" n="96"/>posse, nisi vel voluntatem obligandi subditos,
+          <lb ed="#P" n="97"/>ad hoc, vel illud faciendum, simul cum 
+          volun<lb break="no" ed="#P" n="98"/>tate manifestandi illis talem voluntatem et
+          <lb ed="#P" n="99"/>quasi promulgandi legem : vel dictamen 
+          in<lb break="no" ed="#P" n="100"/>tellectus, quo legislator judicat hoc esse 
+          ne<lb break="no" ed="#P" n="101"/>cessarium ad honestatem morum suorum 
+          sub<lb break="no" ed="#P" n="102"/>ditorum, quibus proinde vult illud proponi,
+          <lb ed="#P" n="103"/>tanquam regulam actionum suarum. De qua
+          <lb ed="#P" n="104"/>re latius in materia de legibus.
+        </p>
+        <p xml:id="szduep-075620-d1e1261">
+          <lb ed="#P" n="105"/>15. Quid sentiendum sit de imperio Deti 
+          ope<lb break="no" ed="#P" n="106"/>rativo. — Omisso ergo hoc genere praecepti,
+          <lb ed="#P" n="107"/>seu legis, imperium, quo Deus dicitur efficere
+          <lb ed="#P" n="108"/>res ad extra, relatum ad ipsas non potest esse
+          <lb ed="#P" n="109"/>proprium, sed metaphoricum, et in re non 
+          po<lb break="no" ed="#P" n="110"/>test esse aliud, quam voluntas exequens, qua
+          <pb ed="#P" n="302"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>definite vult talem rem facere, aut movere.
+          <lb ed="#P" n="2"/>Probatur, quia proprium imperium solum 
+          po<lb break="no" ed="#P" n="3"/>test referri ad rem intelligentem, ut sic, quod
+          <lb ed="#P" n="4"/>patet ex ejus proximo affectu et quasi 
+          corre<lb break="no" ed="#P" n="5"/>lativo, qui est obedire: solum enim agentibus
+          <lb ed="#P" n="6"/>per intellectum cum proprietate convenit. At
+          <lb ed="#P" n="7"/>vero imperium hoc, de quo agimus, non est in
+          <lb ed="#P" n="8"/>ordine ad res intellectuales, ut sic, sed ad 
+          om<lb break="no" ed="#P" n="9"/>nes effectus Dei: ponitur enim propter 
+          effica<lb break="no" ed="#P" n="10"/>ciam divinae operationis ad extra, et testimonia
+          <lb ed="#P" n="11"/>Scripturae supra adducta ita procedunt: ergo
+          <lb ed="#P" n="12"/>non potest cum illa proprietate poni tale 
+          im<lb break="no" ed="#P" n="13"/>perium, quod sit in intellectu. Confirmatur et
+          <lb ed="#P" n="14"/>declaratur, quia proprio morali imperio 
+          res<lb break="no" ed="#P" n="15"/>pondet moralis motio, media obligatione alteri
+          <lb ed="#P" n="16"/>imposita et manifestata per tale imperium:
+          <lb ed="#P" n="17"/>hoc autem impertinens est ad 
+          praedestinatio<lb break="no" ed="#P" n="18"/>nem, ut dixi, sed solum illud huc spectat, quo
+          <lb ed="#P" n="19"/>Deus efficaciter confert praedestinationis 
+          effec<lb break="no" ed="#P" n="20"/>tus etiam efficacitate physica, necessaria ex
+          <lb ed="#P" n="21"/>parte Dei: ergo tale imperium proprium et
+          <lb ed="#P" n="22"/>morale, non est necessarium ad hoc 
+          providen<lb break="no" ed="#P" n="23"/>tie genus. Quae ratio idem probat de opere
+          <lb ed="#P" n="24"/>creationis et de quovis alio opere DEI. Declarat
+          <lb ed="#P" n="25"/>etiam haec ratio locutiones illas Scripturae non
+          <lb ed="#P" n="26"/>esse in ea proprietate intelligendas, in qua 
+          im<lb break="no" ed="#P" n="27"/>perium significat legem et praeceptum, sed per
+          <lb ed="#P" n="28"/>eas metaphorice declarari efficaciam divinae
+          <lb ed="#P" n="29"/>potentiae, cui sine resistentia obediunt omnes
+          <lb ed="#P" n="30"/>effectus, quia statim recipiunt esse, ac ipse vult,
+          <lb ed="#P" n="31"/>vel etiam illud operantur, vel ibi continentur
+          <lb ed="#P" n="32"/>ubi vult, juxta illud Proverb. 14: Ft legem
+          <lb ed="#P" n="33"/>ponebat aquis, ne transirent fines suos, quae
+          <lb ed="#P" n="34"/>lex habetur Job 38, ubi Deus ad mare 
+          loqui<lb break="no" ed="#P" n="35"/>tur : Usque buc venies et non procedes amplius,
+          <lb ed="#P" n="36"/>etc. Neque enim hae res audire possunt, ut
+          <lb ed="#P" n="37"/>Deus illas proprie loquatur. Est ergo 
+          metapho<lb break="no" ed="#P" n="38"/>rica locutio, nam significatur efticacia, qualis
+          <lb ed="#P" n="39"/>etiam est illa locutio Pauli ad Rom. 4: Vocat
+          <lb ed="#P" n="40"/>ea, quee non sunt, tanquam ea, que sunt.
+        </p>
+        <p xml:id="szduep-075620-d1e1368">
+          <lb ed="#P" n="41"/>16. Loca Scripturee citata quomodo 
+          inter<lb break="no" ed="#P" n="42"/>pretanda. — Ex his facilis est responsio ad 
+          ra<lb break="no" ed="#P" n="43"/>tionem dubitandi in principio positam. Jam
+          <lb ed="#P" n="44"/>enim declaratum est, quale imperium ad 
+          hu<lb break="no" ed="#P" n="45"/>manam actionem, requiratur, et quomodo cum
+          <lb ed="#P" n="46"/>proportione loquendum sit de divinis. 
+          Decla<lb break="no" ed="#P" n="47"/>ravimus etiam quomodo Scripturae testimonia
+          <lb ed="#P" n="48"/>sint intelligenda. Verba enim illa: Fiat luc,
+          <lb ed="#P" n="49"/>aut solum explicant efficacem Dei voluntatem,
+          <lb ed="#P" n="50"/>quae nomine mandati alibi significatur, aut 
+          si<lb break="no" ed="#P" n="51"/>gnificare etiam possunt judicium practicum
+          <lb ed="#P" n="52"/>de luce creanda, quod non est distinctum a
+          <lb ed="#P" n="53"/>scientia Dei, nec per illud loquitur Deus 
+          crea<lb break="no" ed="#P" n="54"/>turae quam facturus est, sed loquitur sibi ipsi,
+          <lb ed="#P" n="55"/>ut voluntatem suam ad illam faciendam indu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cat, non aliter impellendo illam, quam 
+          judi<lb break="no" ed="#P" n="57"/>Cando et cognoscendo.
+        </p>
+        <p xml:id="szduep-075620-d1e1410">
+          <lb ed="#P" n="58"/>17. Objectioni respondetur. — Quando et 
+          quo<lb break="no" ed="#P" n="59"/>modo hoc imperiwm in Deo sit necessarium
+          <lb ed="#P" n="60"/>liberum. — Cum autem objicitur, quia imp
+          <lb ed="#P" n="61"/>rium est actus liber, etc., si nomine im
+          <lb ed="#P" n="62"/>voluntas ipsa executiva intelligatur, sic ve
+          <lb ed="#P" n="63"/>est assumptum et nulla relinquitur diffic
+          <lb ed="#P" n="64"/>Nam qui ita loquuntur, consequenter di
+          <lb ed="#P" n="65"/>intimationem voluntatis potius esse not
+          <lb ed="#P" n="66"/>tionem imperii, quam substantiale imper
+          <lb ed="#P" n="67"/>Et quod ad rem spectat illa intimatio, si
+          <lb ed="#P" n="68"/>respectu sui ipsius, solum est cognitio i
+          <lb ed="#P" n="69"/>si respectu aliorum tantum, est quaedam lo
+          <lb ed="#P" n="70"/>tio, ut explicatum est. Si vero nomine imperii
+          <lb ed="#P" n="71"/>intelligatur judicium practicum intellectus,
+          <lb ed="#P" n="72"/>quod videtur imponere legem voluntati, et hac
+          <lb ed="#P" n="73"/>ratione imperium vocatur, dicendum est,
+          <lb ed="#P" n="74"/>judicium, seu imperium, quatenus ante
+          <lb ed="#P" n="75"/>omnem Dei voluntatem, esse necessarium: na
+          <lb ed="#P" n="76"/>turaliter enim judicat quid sit conveniens
+          <lb ed="#P" n="77"/>quid agere expediat, quod sit consentaneum
+          <lb ed="#P" n="78"/>divinae bonitati, etc., hoc tamen judicium nor
+          <lb ed="#P" n="79"/>est imperium necessitans, sed proponens 
+          tan<lb break="no" ed="#P" n="80"/>tum, nec obligationem per se inducit respectt
+          <lb ed="#P" n="81"/>divina voluntatis, sed tantum ostendit quic
+          <lb ed="#P" n="82"/>illam deceat. Quatenus vero hoc judicium sup.
+          <lb ed="#P" n="83"/>ponit interdum unum decretum liberum, ir
+          <lb ed="#P" n="84"/>virtute cujus dictat de alio decreto habendo
+          <lb ed="#P" n="85"/>quod cum alio habet connexionem necessa
+          <lb ed="#P" n="86"/>riam, si potest dici aliquo modo liberum,
+          <lb ed="#P" n="87"/>est, pendens a priori actu libero, et sic etiar
+          <lb ed="#P" n="88"/>solum se habet tale imperium, ut movens pe
+          <lb ed="#P" n="89"/>modum proponentis et repraesentantis. Queds
+          <lb ed="#P" n="90"/>habet aliquam majorem vim impellendi,
+          <lb ed="#P" n="91"/>interdum etiam necessitandi ad subsequenten
+          <lb ed="#P" n="92"/>volitionem, id habet in virtute prioris volitio
+          <lb ed="#P" n="93"/>nis, quae ipsimet voluntati necessitatem impo
+          <lb ed="#P" n="94"/>nit, ut si unum vult, velit etiam aliud, quoc
+          <lb ed="#P" n="95"/>cum priori est necessario connexum. Atqu
+          <lb ed="#P" n="96"/>ita nunquam imperium, vel impulsus ejus
+          <lb ed="#P" n="97"/>egreditur limites judicii et voluntatis, quar
+          <lb ed="#P" n="98"/>intelligi non potest, tanquam actus aliquis in
+          <lb ed="#P" n="99"/>tellectualiter impellens et a cognitione et vo
+          <lb ed="#P" n="100"/>litione distinctus, vel ratione in Deo, vel en
+          <lb ed="#P" n="101"/>liter in nobis. .
+        </p>
+        <p xml:id="szduep-075620-d1e1508">
+          <lb ed="#P" n="102"/>17. Reliqua quae in fundamento prioris se
+          <lb ed="#P" n="103"/>tentiae tanguntur, in sequenti capite expe
+          <lb ed="#P" n="104"/>dientur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="313"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-079781"><!-- t2-l1c20 -->
+        <head xml:id="szduep-079781-Hd1e101">Caput 20</head>
+        <head xml:id="szduep-079781-Hd1e103" type="question-title">Quomodo praedestinatio ad librum vitae comparetur</head>
+        <p xml:id="szduep-079781-d1e106">
+          <lb ed="#P" n="60"/>CAPUT XX
+          <lb ed="#P" n="61"/>QUOMODO PRAEDESTINATIO AD LIBRUM VITAE 
+          COM<lb break="no" ed="#P" n="62"/>PARETUR.
+        </p>
+        <p xml:id="szduep-079781-d1e115">
+          <lb ed="#P" n="63"/>1. Divus Augustinus, libro 10, de Civitate,
+          <lb ed="#P" n="64"/>cap. 15, praedestinationem significat esse 
+          ip<lb break="no" ed="#P" n="65"/>sum librum vitae, de quo frequens est in 
+          Scrip<lb break="no" ed="#P" n="66"/>tura mentio, dicens : Non Deum liber iste
+          <lb ed="#P" n="67"/>commemorat, ne oblivione fallatur, sed 
+          predes<lb break="no" ed="#P" n="68"/>tinationem significat eorum, quibus eterna 
+          da<lb break="no" ed="#P" n="69"/>LDitur vita. Divus autem Thomas, 1. part., q.
+          <lb ed="#P" n="70"/>24. artic. 1, ad A4, existimat, 
+          praedestinatio<lb break="no" ed="#P" n="71"/>nem distingui ratione a libro vitae, quia 
+          prae<lb break="no" ed="#P" n="72"/>destinatio supponitur ad librum vitae per 
+          mo<lb break="no" ed="#P" n="73"/>dum objecti, seu materiae circa quam, quia
+          <lb ed="#P" n="74"/>in libro vite, id est, notitia, scribuntur, id est,
+          <lb ed="#P" n="75"/>cognoscuntur , quia predestinati jam sunt.
+          <lb ed="#P" n="76"/>Nam ut, in citato loco, Augustinus ait: lVon
+          <lb ed="#P" n="77"/>nescit Deus, et in hoc libro legit ut sciat, sed
+          <lb ed="#P" n="78"/>potius ipsa ejus praescientia de illis (id est,
+          <lb ed="#P" n="79"/>preedestinatis) que falli non potest, liber est
+          <lb ed="#P" n="80"/>vita. Ob hanc ergo causam, ad 
+          complemen<lb break="no" ed="#P" n="81"/>tum hujus libri, necessarium visum est, hanc
+          <lb ed="#P" n="82"/>etiam comparationem facere : et obiter simul
+          <lb ed="#P" n="83"/>explicare totam illam quaest. 24, divi Thomse,
+          <lb ed="#P" n="84"/>et metaphoram illam libri vitae, et modos 
+          ali<lb break="no" ed="#P" n="85"/>quos loquendi divinae Scripturae circa illam.
+        </p>
+        <p xml:id="szduep-079781-d1e167">
+          <lb ed="#P" n="86"/>2. Liber vite mentis notitiam et preescientium
+          <lb ed="#P" n="87"/>significat. — Liber vite in Scriptura et cum 
+          ad<lb break="no" ed="#P" n="88"/>dito et sine addito usurpatur.—Ut ergo a 
+          meta<lb break="no" ed="#P" n="89"/>phora libri vite incipiam, certum est mentis 
+          no<lb break="no" ed="#P" n="90"/>titiam, seu praescientiam significare. Quam, ut
+          <lb ed="#P" n="91"/>explicem, adverto, solere in Scriptura nomen
+          <lb ed="#P" n="92"/>hoc liber metaphorice sumptum, interdum poni
+          <lb ed="#P" n="93"/>absolute et sine addito, ut Daniel 12: n illo
+          <lb ed="#P" n="94"/>tempore salvabitur pognlus tuus omnis, qua 
+          in<lb break="no" ed="#P" n="95"/>ventus fuerit in libro. Exod 32: S non facis,
+          <lb ed="#P" n="96"/>dele me de libro, quem scripsisti. Seepius vero
+          <lb ed="#P" n="97"/>poni cum adjunctione vite, ut Apocal. 20:
+          <lb ed="#P" n="98"/>Quicumque non est incentus in libro vitee 
+          scrip<lb break="no" ed="#P" n="99"/>tus, missus est in staguum ignis. Aliquando
+          <lb ed="#P" n="100"/>vero duplex determinatio additur, ut Apoc. 291:
+          <lb ed="#P" n="101"/>Non intrabit in eam, nisi qui scriptus est in
+          <lb ed="#P" n="102"/>libro vitee agni. Aliquando etiam reperimus in
+          <lb ed="#P" n="103"/>sacra Scriptura, librum justorum, ut Josue 10.
+          <lb ed="#P" n="104"/>Item aliquando ponitur haec vox in singulari,
+          <lb ed="#P" n="105"/>ut citatis locis et aliis infra adducendis : 
+          ali<lb break="no" ed="#P" n="106"/>quando vero in plurali : et quoties in plurali
+          <lb ed="#P" n="107"/>ponitur, absolute et sine determinatione poni-
+          <pb ed="#P" n="314"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur, ut Daniel 7: Judicium sedit et libri aperti
+          <lb ed="#P" n="2"/>sunt, et Apocalypseos 20: Vidi thronum 
+          mag<lb break="no" ed="#P" n="3"/>mun et candidum, et super eo sedentem, et omnes
+          <lb ed="#P" n="4"/>mortuos stantes in conspectu agni, et vidi libros
+          <lb ed="#P" n="5"/>apertos, etc., etinfra : Et judicati sunt mortua
+          <lb ed="#P" n="6"/>ex his, que scripta erant in libris.
+        </p>
+        <p xml:id="szduep-079781-d1e236">
+          <lb ed="#P" n="7"/>3. Prima opinio circa librum vitee — Non
+          <lb ed="#P" n="8"/>placet. — Hinc ergo orta est varietas in 
+          expo<lb break="no" ed="#P" n="9"/>nenda significatione, vel metaphora illius 
+          vo<lb break="no" ed="#P" n="10"/>cis, quam hic breviter referre et veram 
+          expo<lb break="no" ed="#P" n="11"/>sitionem ponere, videtur ad nostram 
+          quaestio<lb break="no" ed="#P" n="12"/>nem expediendam necessarium. Primo igitur
+          <lb ed="#P" n="13"/>aliquibus visum est, non semper in hujusmodi
+          <lb ed="#P" n="14"/>sacrae Scripturae locis accipi metaphorice 
+          no<lb break="no" ed="#P" n="15"/>men libri, sed interdum proprie, pro 
+          mate<lb break="no" ed="#P" n="16"/>riali libro scripto. Beda enim, Apoc. 20, per
+          <lb ed="#P" n="17"/>libros in die judicii aperiendos, intelligit
+          <lb ed="#P" n="18"/>libros Scripturae sacrae, quia tunc patebit 
+          ve<lb break="no" ed="#P" n="19"/>rissima esse, quae de illo die Scripturae 
+          docue<lb break="no" ed="#P" n="20"/>rant. Quae tam expositio, quod ad illum locum
+          <lb ed="#P" n="21"/>spectat, non videtur apta , nam subditur: Zft
+          <lb ed="#P" n="22"/>Judicati sunt mortui ea his, que scripta erant in
+          <lb ed="#P" n="23"/>libro secundum opera ipsorum. Nam autem 
+          vi<lb break="no" ed="#P" n="24"/>dentur judicandi ex his, quae scripta sunt in
+          <lb ed="#P" n="25"/>Scriptura sacra, quianec ibi sunt scripta omnia
+          <lb ed="#P" n="26"/>judicandorum opera, nec poenae singulis 
+          ope<lb break="no" ed="#P" n="27"/>ribus respondentes : utrumque autem est 
+          scrip<lb break="no" ed="#P" n="28"/>tum in mente Dei.
+        </p>
+        <p xml:id="szduep-079781-d1e286">
+          <lb ed="#P" n="29"/>4. Secunda expositio. — Aliter Burgenius,
+          <lb ed="#P" n="30"/>in locum Exod. 32, putat, ibi esse sermonem
+          <lb ed="#P" n="31"/>de libro, non per metaphoram, sed cum 
+          pro<lb break="no" ed="#P" n="32"/>prietate, id est, de quodam libro, in quo 
+          scri<lb break="no" ed="#P" n="33"/>bebantur insignia facta illustrium personarum
+          <lb ed="#P" n="34"/>populi Israel. Cui videtur favere Hilarius, in id
+          <lb ed="#P" n="35"/>Psalm. 68 : Deleantur de libro viventium. Et
+          <lb ed="#P" n="36"/>hunc putant aliqui esse librum justorum, de
+          <lb ed="#P" n="37"/>quo fit mentio in libro Josue et Regum.
+        </p>
+        <p xml:id="szduep-079781-d1e308">
+          <lb ed="#P" n="38"/>5. Rejicitur. — Sed neque illo loco videtur
+          <lb ed="#P" n="39"/>satis accommodata proprietas illius vocis : tum
+          <lb ed="#P" n="40"/>quia ibi dicetur, de libro quem scripsisti, Mle
+          <lb ed="#P" n="41"/>autem liber virorum illustrium non videtur
+          <lb ed="#P" n="42"/>fuisse peculiariter a Deo scriptus, imo tunc
+          <lb ed="#P" n="43"/>nullus erat materialis liber singulariter a Deo
+          <lb ed="#P" n="44"/>scriptus, quia nondum erant Scriptura : tum
+          <lb ed="#P" n="45"/>etiam, quia statim Deus subjungit : Qui 
+          pecca<lb break="no" ed="#P" n="46"/>verit mihi, delebo eum de libro meo. Ubi etiam
+          <lb ed="#P" n="47"/>illa particula, meo, habet eamdem vim et 
+          indi<lb break="no" ed="#P" n="48"/>cat altiorem esse librum, et peculiari modo 
+          di<lb break="no" ed="#P" n="49"/>vinum et quasi per antonomasiam librum Dei
+          <lb ed="#P" n="50"/>appellatum, quae omnia adaptari non possunt
+          <lb ed="#P" n="51"/>ad materialem librum.
+        </p>
+        <p xml:id="szduep-079781-d1e341">
+          <lb ed="#P" n="52"/>Tertia expositio. — Vem significatur illis
+          <lb ed="#P" n="53"/>verbis, neminem deleri ab illo libro, nisi per
+          <lb ed="#P" n="54"/>peccatum, quod maxime convenit libro 
+          justo<lb break="no" ed="#P" n="55"/>rum scripto in mente Dei. Posset quidem dici
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>liber ille metaphorice intelligendus, non tamen
+          <lb ed="#P" n="57"/>pro libro ad praedestinationem, vel justitiam
+          <lb ed="#P" n="58"/>coram DEO pertinente, quia sic nimium 
+          vide<lb break="no" ed="#P" n="59"/>retur excessisse Moyses in sua petitione: sed
+          <lb ed="#P" n="60"/>pro libro, in quo Deus apud se recensuerat
+          <lb ed="#P" n="61"/>duces et principes illius populi, in cujus capite
+          <lb ed="#P" n="62"/>Moysen posuerat, ita ut sensus sit, vel fac hoc,
+          <lb ed="#P" n="63"/>vel aufer a me hoc munus, in quo me 
+          consti<lb break="no" ed="#P" n="64"/>tuisti : quo ablato deleretur de libro illo.
+          <lb ed="#P" n="65"/>Estque satis probabilis expositio.
+        </p>
+        <p xml:id="szduep-079781-d1e376">
+          <lb ed="#P" n="66"/>Quarta expositio Augustini. — Non est 
+          ta<lb break="no" ed="#P" n="67"/>men contemnenda expositio Augustini, 
+          quaes<lb break="no" ed="#P" n="68"/>tione 247, in Exodum, ut de libro etiam 
+          spiri<lb break="no" ed="#P" n="69"/>tualis vitee intelligatur et per exagerationem;
+          <lb ed="#P" n="70"/>quasi dixerit Moyses, aut hoc fac, aut non me
+          <lb ed="#P" n="71"/>nunera inter amicos tuos. Non quod id 
+          volue<lb break="no" ed="#P" n="72"/>rit, aut vere elegerit, sed ut significaret. tam
+          <lb ed="#P" n="73"/>impossibile esse, ut non speraret a DEO id, 
+          <lb ed="#P" n="74"/>quod petebat , quam ut timeret privari 
+          ami<lb break="no" ed="#P" n="75"/>citia ejus, sine culpa.
+        </p>
+        <p xml:id="szduep-079781-d1e400">
+          <lb ed="#P" n="76"/>6. Quinta interpretatio ejusdem Augustini.
+          <lb ed="#P" n="77"/>—fNon satisfacit. — Sexta empositio. — Non
+          <lb ed="#P" n="78"/>probatur. — Verior eapositio. — Supponimus
+          <lb ed="#P" n="79"/>ergo ut verius, locutionem illam esse 
+          meta<lb break="no" ed="#P" n="80"/>phoricam. Ipsa enim metaphora etiam varie
+          <lb ed="#P" n="81"/>explicatur. Et imprimis de libris in pluralh
+          <lb ed="#P" n="82"/>dictis, Augustinus 20, de Civitate, capit. 14, 
+          <lb ed="#P" n="83"/>exponit , libros aperiendos in die judiceii,
+          <lb ed="#P" n="84"/>esse sanctos ipsos et electos, qui ad 
+          judi<lb break="no" ed="#P" n="85"/>cium cum Christo venient. Dicuntur autem
+          <lb ed="#P" n="86"/>libri, quia in eorum vita et moribus 
+          observan<lb break="no" ed="#P" n="87"/>tia praeceptorum Dei cognoscetur, et constabit
+          <lb ed="#P" n="88"/>fuisse possibilem hominibus, et ita per illorum
+          <lb ed="#P" n="89"/>comparationem alii judicabuntur et 
+          condem<lb break="no" ed="#P" n="90"/>nabuntur. At, licet metaphora sit ingeniosa,
+          <lb ed="#P" n="91"/>non videtur accommodata locis sacrae 
+          Scriptu<lb break="no" ed="#P" n="92"/>rae, ubi invenitur: nam in Apocalyps. 20, 
+          sta<lb break="no" ed="#P" n="93"/>tim subditur : Zt judicati sunt mortui em his,
+          <lb ed="#P" n="94"/>quae scripta erant in libris, secundum opera 
+          ap<lb break="no" ed="#P" n="95"/>sorum. Agitur ergo de libris, in quibus scripta
+          <lb ed="#P" n="96"/>sunt talia opera. Unde alii per libros 
+          conscien<lb break="no" ed="#P" n="97"/>tiam omnium judicandorum intelligunt , in
+          <lb ed="#P" n="98"/>quibus singulorum opera, sive bona, sive mala
+          <lb ed="#P" n="99"/>demonstrabuntur. Quae metaphora probabilis 
+          <lb ed="#P" n="100"/>etiam est, et itanon improbatur a Hieronymo,
+          <lb ed="#P" n="101"/>Daniel 7, sed non omnino probatur, quia re 
+          <lb ed="#P" n="102"/>vera in conscientiis hominum non manent
+          <lb ed="#P" n="103"/>scripta omnia ipsorum opera, sed facile 
+          obli<lb break="no" ed="#P" n="104"/>vionis traduntur. Et quamvis Deus tune sua
+          <lb ed="#P" n="105"/>omnipotenti virtute, unicuique daturus sit 
+          ac<lb break="no" ed="#P" n="106"/>tualem et evidentem notitiam omnium, quae
+          <lb ed="#P" n="107"/>in hac vita gessit, juxta illud Pauli ad Roman.
+          <lb ed="#P" n="108"/>2: Testimoniwm reddente illis conscientia 
+          ipso<lb break="no" ed="#P" n="109"/>rum, etc. In die cum judicabit Dominus occulta
+          <lb ed="#P" n="110"/>hominum ; tamen illud non tam erit aperire 
+          <pb ed="#P" n="315"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>libros jam scriptos, quam illos de novo 
+          scribe<lb break="no" ed="#P" n="2"/>re, vel quasi transcribere in notitiis 
+          singulo<lb break="no" ed="#P" n="3"/>rum. hecte igitur librorum nomine 
+          intelligun<lb break="no" ed="#P" n="4"/>tur illi, qui in notitia et mente Dei 
+          indelebili<lb break="no" ed="#P" n="5"/>ter manent conscripti.
+        </p>
+        <p xml:id="szduep-079781-d1e495">
+          <lb ed="#P" n="6"/>7. Cur libri pluraliter dicantur, et quid in
+          <lb ed="#P" n="7"/>eis scriptum sit.—DPrima sententia Hieronymi.
+          <lb ed="#P" n="8"/>—Sed cur libri in plurali appellantur, cum 
+          no<lb break="no" ed="#P" n="9"/>titia Dei una et simplicissima sit? quae item
+          <lb ed="#P" n="10"/>res, vel personae in illis libris descriptae sunt ?
+          <lb ed="#P" n="11"/>Quoad priorem interrogationem attinet, facile
+          <lb ed="#P" n="12"/>ac generatim responderi potest, et librum 
+          il<lb break="no" ed="#P" n="13"/>lum in re esse unum, propter simplicissimam
+          <lb ed="#P" n="14"/>Dei notitiam, quod significatur, cum absolute
+          <lb ed="#P" n="15"/>in singulari nominatur : ut in Psalm. 130 : In
+          <lb ed="#P" n="16"/>libro tuo omnes scribentur. Ex virtute, ac 
+          ra<lb break="no" ed="#P" n="17"/>tione esse plures, quatenus plurium hominum
+          <lb ed="#P" n="18"/>vel etiam ordinum, tam angelorum, quam 
+          ho<lb break="no" ed="#P" n="19"/>minum facta continent. In particulari vero
+          <lb ed="#P" n="20"/>respondendo simul ad alteram 
+          interrogatio<lb break="no" ed="#P" n="21"/>nem , ait Hieronymus in Daniel 7, illos libros
+          <lb ed="#P" n="22"/>esse duos, unum bonorum cum suis bonis 
+          o<lb break="no" ed="#P" n="23"/>peribus, alterum malorum, cum peccatis 
+          eo<lb break="no" ed="#P" n="24"/>rum et priorem ait esse librum vitae, 
+          posterio<lb break="no" ed="#P" n="25"/>rem vero consequenter indicat esse librum
+          <lb ed="#P" n="26"/>mortis. Quia vero Scriptura non tribuit Deo
+          <lb ed="#P" n="27"/>librum mortis, (ut infra cum divo Thoma 
+          di<lb break="no" ed="#P" n="28"/>cemus) subjungit divus Hieronymus, librum
+          <lb ed="#P" n="29"/>bonorum esse in Deo, librum autem mortis
+          <lb ed="#P" n="30"/>esse in diabolo, tanquam accusatore illorum,
+          <lb ed="#P" n="31"/>Apocalypseos 12, et ob hanc causam nomina
+          <lb ed="#P" n="32"/>bonorum dici, scripta esse in coelis, Lucae 
+          de<lb break="no" ed="#P" n="33"/>cimo ; de malis autem dici: Hecedentes a te in
+          <lb ed="#P" n="34"/>lerra scribentur, Jerem. 17, Quia veroin 
+          Apo<lb break="no" ed="#P" n="35"/>calypsi dicitur, mortuos judicatos esse ex his,
+          <lb ed="#P" n="36"/>quae scripta sunt in libris, verisimile profecto
+          <lb ed="#P" n="37"/>est, libros illos omnes esse in DEO, quia, ut ex
+          <lb ed="#P" n="38"/>Augustino supra referebam, Deus non legit in
+          <lb ed="#P" n="39"/>aliquo libro extra se, ut judicium ferat : igitur
+          <lb ed="#P" n="40"/>libri per quos judicat, non sunt extra notitiam
+          <lb ed="#P" n="41"/>ejus.
+        </p>
+        <p xml:id="szduep-079781-d1e576">
+          <lb ed="#P" n="42"/>8. Secunda sententia. —E ideo alii 
+          simpli<lb break="no" ed="#P" n="43"/>citer fatentur, dari in DEO librum malorum,
+          <lb ed="#P" n="44"/>sicut bonorum et mortis , sicut et vitae. Quod
+          <lb ed="#P" n="45"/>significare visus est Basilius, Isai. 4, ubi cum
+          <lb ed="#P" n="46"/>dixisset esse in coelesti Jerusalem librum, in
+          <lb ed="#P" n="47"/>quo electi spiritualiter scribuntur ad vitam ,
+          <lb ed="#P" n="48"/>subjungit, necessarium esse scire: Utrum ne
+          <lb ed="#P" n="49"/>sint quidam, qui scribuntur quidem, non item
+          <lb ed="#P" n="50"/>ad vitam, sed juuta sententiam Jeremiee 
+          dicen<lb break="no" ed="#P" n="51"/>Lis, desertores in terra scribentur. Juvta hnnc
+          <lb ed="#P" n="52"/>igitur sensum duce intelligi debent scriptiones ;
+          <lb ed="#P" n="53"/>wna eorwn est qui ad vitam, alia eorum est, qui
+          <lb ed="#P" n="54"/>scribuntur ad perditionem. Verum est, non 
+          sa<lb break="no" ed="#P" n="55"/>tis exprimere Basilium utramque scriptionem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>esse in Deo, nam potius allegando Jeremiam
+          <lb ed="#P" n="57"/>ait, malos in terra describi, Nazianzenus 
+          e<lb break="no" ed="#P" n="58"/>tiam, orat. 9, ad Julianum, num. 41, librum
+          <lb ed="#P" n="59"/>viventium, pereuntiumque commemorat: qui
+          <lb ed="#P" n="60"/>juxta supra dicta, facile possunt ratione 
+          dis<lb break="no" ed="#P" n="61"/>Ungui, et consequenter propriis nominibus 
+          ap<lb break="no" ed="#P" n="62"/>pellari. Et in eamdem sententiam facit, quod
+          <lb ed="#P" n="63"/>dicit Futhymius, in id Psal. 68: 7n libro tuo
+          <lb ed="#P" n="64"/>omnes scribentur, metaphoram libri absolute
+          <lb ed="#P" n="65"/>positam in sacra Scriptura significare solere
+          <lb ed="#P" n="66"/>generalem praescientiam, in qua, tam boni,
+          <lb ed="#P" n="67"/>quam mali scribuntur. Unde eadem 
+          praescien<lb break="no" ed="#P" n="68"/>tia et per modum unius libri in singulari 
+          in<lb break="no" ed="#P" n="69"/>terdum significatur, propter simplicitatem et
+          <lb ed="#P" n="70"/>unitatem ejus: interdum per modum plurium,
+          <lb ed="#P" n="71"/>propter diversitatem objectorum et 
+          persona<lb break="no" ed="#P" n="72"/>rum. Ratione item hoc suadetur, quia non est
+          <lb ed="#P" n="73"/>dubium, quin reprobi sint praesciti a Deo. Cur
+          <lb ed="#P" n="74"/>ergo eorum praescientia, claraque notitia non
+          <lb ed="#P" n="75"/>recte per metaphoram, liber appellabitur ?
+          <lb ed="#P" n="76"/>Quod si ita est, profecto liber mortis recte 
+          di<lb break="no" ed="#P" n="77"/>cetur, quia qui in illo scripti sunt, non nisi ad
+          <lb ed="#P" n="78"/>mortem secundam sunt praecogniti. Respondet
+          <lb ed="#P" n="79"/>D. Thomas metaphoram libri non ita ad hanc
+          <lb ed="#P" n="80"/>praesscientiam , sicut ad illam electorum 
+          ac<lb break="no" ed="#P" n="81"/>commodari, quia licet scribi in illo libro 
+          so<lb break="no" ed="#P" n="82"/>leant, qui admittuntur ad militiam, vel ad 
+          so<lb break="no" ed="#P" n="83"/>cietatem, aut rem publicam, non tamen 
+          con<lb break="no" ed="#P" n="84"/>fici solet liber, in quo scribantur, quia militia
+          <lb ed="#P" n="85"/>republica, vel societate expelluntur. Sed 
+          con<lb break="no" ed="#P" n="86"/>tra hoc est, quia in recta gubernatione, non
+          <lb ed="#P" n="87"/>solum sit catalogus eorum, qui digni sunt 
+          prae<lb break="no" ed="#P" n="88"/>mio, sed eorum, qui poena et praesertim morte
+          <lb ed="#P" n="89"/>plectendi sunt.
+        </p>
+        <p xml:id="szduep-079781-d1e685">
+          <lb ed="#P" n="90"/>9. Resolutio. — Verumtamen, licet de re 
+          si<lb break="no" ed="#P" n="91"/>gnificata nulla possit esse controversia, cum
+          <lb ed="#P" n="92"/>constet in Deo esse praescientiam electorum et
+          <lb ed="#P" n="93"/>reproborum, et esse unam ratione diversam
+          <lb ed="#P" n="94"/>ab alia: nec etiam loquendo de possibil (ut sic
+          <lb ed="#P" n="95"/>dicam) negari possit, quin metaphora illa 
+          li<lb break="no" ed="#P" n="96"/>bri, vel librorum possit ad utramque 
+          praescien<lb break="no" ed="#P" n="97"/>tiam accommodari , tamen loquendo de usu
+          <lb ed="#P" n="98"/>Scripturae, probabilius est, in ea non esse usum
+          <lb ed="#P" n="99"/>illius metaphorae ad significandum specialiter
+          <lb ed="#P" n="100"/>librum reproborum, quod sit in mente, vel 
+          no<lb break="no" ed="#P" n="101"/>titia DEI. Reperimus quidem in Scriptura 
+          to<lb break="no" ed="#P" n="102"/>tam praescientiam Dei appellatam librum 
+          ab<lb break="no" ed="#P" n="103"/>solute et sine adjectione ulla, ut videtur 
+          cla<lb break="no" ed="#P" n="104"/>rum in illis verbis Psalm. 68: Et in libro tuo
+          <lb ed="#P" n="105"/>omnes scribentur. De quo libro intelligendum
+          <lb ed="#P" n="106"/>est illud, quod Ecclesia in prosa defunctorum
+          <lb ed="#P" n="107"/>ait: Liber scriptus proferetur, in quo totum
+          <lb ed="#P" n="108"/>continetur, unde mundus judicetur. Nam in illo
+          <lb ed="#P" n="109"/>libro, non tantum personae judicandae , sed
+          <lb ed="#P" n="110"/>etiam omnia illarum opera describuntur , ex
+          <pb ed="#P" n="316"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quibus judicandae sunt. Nihilominus tamen,
+          <lb ed="#P" n="2"/>interdum etiam liber absolute dictus significat
+          <lb ed="#P" n="3"/>prasscientiam electorum, ut evidenter constat
+          <lb ed="#P" n="4"/>ex verbis Danielis duodecimo : 7n illo tempore
+          <lb ed="#P" n="5"/>salvabitur pogulus tuus omnis , qui scriptus
+          <lb ed="#P" n="6"/>fuerit in libro. Si enim ibi liber in illa 
+          gene<lb break="no" ed="#P" n="7"/>ralitate acciperetur, non esset verum dicere
+          <lb ed="#P" n="8"/>salvandos iri omnes, qui in illo libro fuerint
+          <lb ed="#P" n="9"/>descripti: saepius vero illa metaphorica vox
+          <lb ed="#P" n="10"/>accommodatur solis praedestinatis, per 
+          adjunc<lb break="no" ed="#P" n="11"/>tionem aliquam, ut ad Philip. 4: Quorun 
+          no<lb break="no" ed="#P" n="12"/>mina sunt in libro vite, quam ponit Paulus,
+          <lb ed="#P" n="13"/>ut specialem praerogativam illorum 
+          Sancto<lb break="no" ed="#P" n="14"/>rum, de quibus loquebatur: nulla autem esset,
+          <lb ed="#P" n="15"/>si omnes etiam reprobi in illo libro scripti 
+          es<lb break="no" ed="#P" n="16"/>sent. Et idem est sensus aliorum locorum, in
+          <lb ed="#P" n="17"/>quibus eadem particula additur.
+        </p>
+        <p xml:id="szduep-079781-d1e774">
+          <lb ed="#P" n="18"/>10. Unde obiter colligo, illam particulam,
+          <lb ed="#P" n="19"/>cite, non significare (ut ita dicam) chartam,
+          <lb ed="#P" n="20"/>vel materiam, in qua scriptio illius libri facta
+          <lb ed="#P" n="21"/>est, sed objectum, seu terminum scriptionis
+          <lb ed="#P" n="22"/>talis libri, ita ut non dicatur liber vitae, quia
+          <lb ed="#P" n="23"/>in ipsa vita per essentiam scriptus sit. Hic
+          <lb ed="#P" n="24"/>enim sensus est violentus, magisque quadrare
+          <lb ed="#P" n="25"/>potest ad illa verba Lucae 10: Gaudete, quia
+          <lb ed="#P" n="26"/>nomina vestra scripta sunt in celis. Nam 
+          coelo<lb break="no" ed="#P" n="27"/>rum nomine significari videtur ipsa essentia
+          <lb ed="#P" n="28"/>Dei, quae est coelum per essentiam, seu 
+          nomi<lb break="no" ed="#P" n="29"/>nando contentum a continente, vel locatum a
+          <lb ed="#P" n="30"/>loco et designando chartam illius scriptionis.
+          <lb ed="#P" n="31"/>Át cum dicitur liber vitae, non hoc 
+          significa<lb break="no" ed="#P" n="32"/>tur, sed objectum, id est, quinam in libro illo
+          <lb ed="#P" n="33"/>describantur , scilicet qui vitam et salutem
+          <lb ed="#P" n="34"/>consequuntur. Ouia si liber vitae 
+          denominare<lb break="no" ed="#P" n="35"/>tur ex eo, quod in Deo est, qui est ipsa vita,
+          <lb ed="#P" n="36"/>etiam reprobi essent scripti in libro vitae. 
+          Au<lb break="no" ed="#P" n="37"/>gustinus autem 20, de Civit., cap. 14: Legit
+          <lb ed="#P" n="38"/>liber vitee, uniuscujusque, et ita vitam illam
+          <lb ed="#P" n="39"/>esse putat, quam hic gerimus, id est, opera
+          <lb ed="#P" n="40"/>hujus vitae. At particula illa Uniuscujusque,
+          <lb ed="#P" n="41"/>non est in textu, et ideo non cogit, nec etiam
+          <lb ed="#P" n="42"/>sustineri potest. Tum quia illo modo etiam 
+          re<lb break="no" ed="#P" n="43"/>probi essent scripti in libro vite uniuscujusque,
+          <lb ed="#P" n="44"/>contra illud, Non ingredientur in eam (id est,
+          <lb ed="#P" n="45"/>Jerusalem coelestem) qui non sunt scripti in
+          <lb ed="#P" n="46"/>libro vite, Apocalyp. 20 et 21, tum etiam quia
+          <lb ed="#P" n="47"/>mox docebimus alios esse libros 
+          conscientia<lb break="no" ed="#P" n="48"/>rum, seu operum hujus vitae a libro vitae 
+          im<lb break="no" ed="#P" n="49"/>mortalis et aeternae : ergo liber vitae a termino
+          <lb ed="#P" n="50"/>nominatur, qui est liber praedestinatorum ad
+          <lb ed="#P" n="51"/>aeternam vitam.
+        </p>
+        <p xml:id="szduep-079781-d1e850">
+          <lb ed="#P" n="52"/>11. Cum vero additur in libro vite agni,
+          <lb ed="#P" n="53"/>fortasse aliquis existimet fieri, ad 
+          coarctan<lb break="no" ed="#P" n="54"/>dum sermonem ad solos homines 
+          praedestina<lb break="no" ed="#P" n="55"/>tos, nam specialiter hominum vita Agno attri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>buitur, quia per agnum illam consecuturi sunt.
+          <lb ed="#P" n="57"/>Sed ego existimo etiam angelos salvos et 
+          prae<lb break="no" ed="#P" n="58"/>destinatos esse per Christum, et ideo etiam 
+          il<lb break="no" ed="#P" n="59"/>lorum nomina scripta esse in libro vitae Agni.
+          <lb ed="#P" n="60"/>Etcerte sermo Joannis, in toto illocap. 21, Apoc.
+          <lb ed="#P" n="61"/>ei de tota Civitate coelesti Jerusalem, quae
+          <lb ed="#P" n="62"/>ex angelis et hominibus constat, et illam vocat
+          <lb ed="#P" n="63"/>sponsam agni et de illa concludit, non 
+          perti<lb break="no" ed="#P" n="64"/>nere ad illam nisi qui scripti sunt in libro vitae
+          <lb ed="#P" n="65"/>agni: ergo in singularem gloriam Christi illa
+          <lb ed="#P" n="66"/>secunda adjectio additur, quoniam omnis vita,
+          <lb ed="#P" n="67"/>totaque beatorum gloria illius est peculiari 
+          ti<lb break="no" ed="#P" n="68"/>tulo, quia per merita illius comparatur.
+        </p>
+        <p xml:id="szduep-079781-d1e892">
+          <lb ed="#P" n="69"/>12. At vero nunquam inveniemus in 
+          Scrip<lb break="no" ed="#P" n="70"/>tura, aut nomen libri absolute positum pro
+          <lb ed="#P" n="71"/>praescientia reproborum specialiter sumi, aut
+          <lb ed="#P" n="72"/>cum aliquo peculiari addito poni ad specialem
+          <lb ed="#P" n="73"/>librum mortis, vel malorum significandum. Et
+          <lb ed="#P" n="74"/>hoc solum significare voluit D. Thomas cum
+          <lb ed="#P" n="75"/>dixit non dari librum mortuorum. Et ad hoc
+          <lb ed="#P" n="76"/>est satis congrua ejus ratio, quia non solent
+          <lb ed="#P" n="77"/>scribi in libro peculiari illi, qui excluduntur
+          <lb ed="#P" n="78"/>a militia, sed illi tantum, qui admittuntur.
+          <lb ed="#P" n="79"/>Cum vero replicatur etiam solere describi in
+          <lb ed="#P" n="80"/>libro, qui puniuntur, certe nec id videtur 
+          ad<lb break="no" ed="#P" n="81"/>modum consuetum. Quod si inter homines 
+          in<lb break="no" ed="#P" n="82"/>terdum sit, ideo est, quia indigent illa 
+          memo<lb break="no" ed="#P" n="83"/>ria ad aliquid providendum in futurum, vel
+          <lb ed="#P" n="84"/>utendum illa Scriptura tanquam exemplari ad
+          <lb ed="#P" n="85"/>puniendos similes. Quae ratio in Deo cessat et
+          <lb ed="#P" n="86"/>ita etiam cessat fundamentum illius 
+          metapho<lb break="no" ed="#P" n="87"/>rae, quoad hanc partem. Accedit praeterea,
+          <lb ed="#P" n="88"/>quod juxta phrasim Scripturae, electos suos 
+          di<lb break="no" ed="#P" n="89"/>citur Deus peculiariter nosse : NNovi Dominnus,
+          <lb ed="#P" n="90"/>qui sunt ejus, 2. ad Tim. 2, quo etiam spectat
+          <lb ed="#P" n="91"/>illud Psal. 1: Novit Dominus viam justorum :
+          <lb ed="#P" n="92"/>et illud ad Rom. 141: NVon repulit Deus plebem
+          <lb ed="#P" n="93"/>suam, quam prascivit. At reprobos potius 
+          igno<lb break="no" ed="#P" n="94"/>rare dicitur et nescire, juxta illud, JVescio vos.
+          <lb ed="#P" n="95"/>Unde de reprobis dicitur, Ps. 68. Cum justis
+          <lb ed="#P" n="96"/>non scribantur..Nam electos novit Deus 
+          scien<lb break="no" ed="#P" n="97"/>tia approbationis, eosque tanquam sibi 
+          pecu<lb break="no" ed="#P" n="98"/>liariter dilectos, in proprio et singulari libro
+          <lb ed="#P" n="99"/>describit, ut illorum etiam peculiarem curam
+          <lb ed="#P" n="100"/>se habere ostendat. Reprobi autem, licet non
+          <lb ed="#P" n="101"/>possint non esse in scientia Dei, propter 
+          infi<lb break="no" ed="#P" n="102"/>nitatem ejus, non tamen illis tribuitur 
+          pecu<lb break="no" ed="#P" n="103"/>liaris liber, quia eorum scientia est scientia
+          <lb ed="#P" n="104"/>reprobationis : Unde potius deleri dicuntur de
+          <lb ed="#P" n="105"/>libro. Denique hac ratione nomina electorum
+          <lb ed="#P" n="106"/>scripta dicuntur esse in celis, Lucae 10. At 
+          re<lb break="no" ed="#P" n="107"/>proborum potiusinde dicuntur deleta, et 
+          scrip<lb break="no" ed="#P" n="108"/>ta in terra, Jerem. 17. Unde Hieronymus 
+          su<lb break="no" ed="#P" n="109"/>pra, librum illorum vocat terrenum, et illum
+          <lb ed="#P" n="110"/>ponit in manu accusatoris potius quam Dei.
+        </p>
+        <p xml:id="szduep-079781-d1e987">
+          <pb ed="#P" n="317"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>13. Objectio. — Responsio. — Solum in illo
+          <lb ed="#P" n="2"/>loco Apocal. 20, liber, imo et libri in plurali,
+          <lb ed="#P" n="3"/>videntur tribui solis reprobis, qui mortuorum
+          <lb ed="#P" n="4"/>nomine videntur ibi significari : nam dicitur:
+          <lb ed="#P" n="5"/>Ht libri aperti sunt, et alius liber apertus est,
+          <lb ed="#P" n="6"/>qui est vite: ergo liber vitae est distinctus a
+          <lb ed="#P" n="7"/>libris aliis: ergo in illis libris non sunt 
+          de<lb break="no" ed="#P" n="8"/>scripti electi, alias includerent in se librum 
+          vi<lb break="no" ed="#P" n="9"/>tae, ergo illi libri solum reprobos continent:
+          <lb ed="#P" n="10"/>datur ergo in Scriptura non solum liber, sed
+          <lb ed="#P" n="11"/>etiam libri proprii et speciales reproborum.
+          <lb ed="#P" n="12"/>hespondeo, imprimis falsum esse ibi nomine
+          <lb ed="#P" n="13"/>mortuorum intelligi reprobos, non enim de
+          <lb ed="#P" n="14"/>spiritualiter, sed de corporaliter mortuis et
+          <lb ed="#P" n="15"/>resuscitatis, sive ad vitam, sive ad poenam,
+          <lb ed="#P" n="16"/>sermo ibi est, ut constat ex illis verbis : Vidi
+          <lb ed="#P" n="17"/>mortuos magnos, et pusillos stantes apud 
+          thro<lb break="no" ed="#P" n="18"/>nwumn Dei: et infra. Ft judicati sunt mortui ea
+          <lb ed="#P" n="19"/>his, que scripta sunt in libris, etc. Non enim
+          <lb ed="#P" n="20"/>solum reprobi, sed etiam praedestinati 
+          judi<lb break="no" ed="#P" n="21"/>candi sunt. Item inferius subditur: Zí dedit
+          <lb ed="#P" n="22"/>mare mortuos, quiin eo erant, et mors, et 
+          infer<lb break="no" ed="#P" n="23"/>nus dederunt mortuos suos. Quibus verbis 
+          re<lb break="no" ed="#P" n="24"/>surrectio corporum mortuorum describitur, ut
+          <lb ed="#P" n="25"/>per se notum est, et late exponit Augustinus,
+          <lb ed="#P" n="26"/>20, de Civit., cap. 14et 15, et expositores in
+          <lb ed="#P" n="27"/>eum locum. Igitur et libri illi, per quos mortui
+          <lb ed="#P" n="28"/>judicantur, tam ad praedestinatos, quam ad
+          <lb ed="#P" n="29"/>reprobos pertinent : nam omnes judicantur 
+          se<lb break="no" ed="#P" n="30"/>cundum opera ipsorum.
+        </p>
+        <p xml:id="szduep-079781-d1e1059">
+          <lb ed="#P" n="31"/>14. Alia responsio. — At vero hoc non 
+          ob<lb break="no" ed="#P" n="32"/>Sstante, concedendum est libros illos distinctos
+          <lb ed="#P" n="33"/>esse aliquo modo a libro qui vitee esse dicitur:
+          <lb ed="#P" n="34"/>quomodo autem, et ipsi plures sint et a libro
+          <lb ed="#P" n="35"/>vitae distinguantur , ita declaro. Nam alius est
+          <lb ed="#P" n="36"/>liber personarum, alius actionum vel operum:
+          <lb ed="#P" n="37"/>liber vitae est personarum, in quo scribuntur
+          <lb ed="#P" n="38"/>electi et praedestinati, quatenus tales sunt:
+          <lb ed="#P" n="39"/>ideoque per antonomasiam dicitur hic, vel 
+          ab<lb break="no" ed="#P" n="40"/>solute liber, vel liber Dei, aut caelestis, vel vita.
+          <lb ed="#P" n="41"/>In quo libro possumus intelligere, describi 
+          elec<lb break="no" ed="#P" n="42"/>tos prius quam in alio describantur eorum 
+          me<lb break="no" ed="#P" n="43"/>rita, quia ex vi solius gratuitae electionis ad
+          <lb ed="#P" n="44"/>gloriam, et gratiam congruam descripti 
+          ma<lb break="no" ed="#P" n="45"/>nent in praescientia Dei in numero 
+          salvando<lb break="no" ed="#P" n="46"/>rum, unde sicut electio non est ex meritis, ita
+          <lb ed="#P" n="47"/>nec haec descriptio. Quia vero illa electio non
+          <lb ed="#P" n="48"/>est complenda, nisi per merita, quia gloria in
+          <lb ed="#P" n="49"/>effectu non est danda, nisi propter merita, ideo
+          <lb ed="#P" n="50"/>necessarius est alius liber in quo opera 
+          descri<lb break="no" ed="#P" n="51"/>bantur, in quo etiam necesse est demerita
+          <lb ed="#P" n="52"/>scribi, quia ad exactum judicium omnium 
+          ope<lb break="no" ed="#P" n="53"/>rum notitia, et comparatio necessaria est. Sic
+          <lb ed="#P" n="54"/>ergo distinguitur liber vitae a libris per quos fit
+          <lb ed="#P" n="55"/>judicium. Qui etiam possunt unus liber appel-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lari, respiciendo ad unitatem et simplicitatem
+          <lb ed="#P" n="57"/>scientiae Dei: tamen propter varios respectus
+          <lb ed="#P" n="58"/>in plurali nominantur, quia sunt libri 
+          conscien<lb break="no" ed="#P" n="59"/>tiarum, ut ait Hieronymus, initio Psal. 88. Et
+          <lb ed="#P" n="60"/>licet ipse significet (sicut de Augustino etiam
+          <lb ed="#P" n="61"/>supra retuli) uniuscujusque conscientiam esse
+          <lb ed="#P" n="62"/>librum ejus, atque adeo illos libros non tam
+          <lb ed="#P" n="63"/>esse in Deo quam in mentibus judicandorum:
+          <lb ed="#P" n="64"/>tamen recte intelligere possumus, notitiam
+          <lb ed="#P" n="65"/>quam Deus habet de conscientiis singulorum,
+          <lb ed="#P" n="66"/>esse libros per quos judicat: qui plures 
+          dicun<lb break="no" ed="#P" n="67"/>tur per respectum ad plures conscientias, sicut
+          <lb ed="#P" n="68"/>dicuntur plures ideae. Alia etiam ratio occurrit,
+          <lb ed="#P" n="69"/>videlicet, ut respectu operum judicandorum
+          <lb ed="#P" n="70"/>duo requirantur libri, quorum alter facta, alter
+          <lb ed="#P" n="71"/>jus contineat : Deus enim in sua aeternitate
+          <lb ed="#P" n="72"/>prius secundum rationem jus conscripsit, 
+          prae<lb break="no" ed="#P" n="73"/>mia et poenas operum taxando, ut scilicet, qui
+          <lb ed="#P" n="74"/>sic peccaverit, sic puniatur, qui aliter 
+          pecca<lb break="no" ed="#P" n="75"/>verit, tali poena afficiatur, et cum proportione
+          <lb ed="#P" n="76"/>de meritis et praemiis. Deinde in alio signo 
+          sin<lb break="no" ed="#P" n="77"/>gulorum opera, et facta futura in notitia sua
+          <lb ed="#P" n="78"/>praehabuit. Hi ergo duo libri in judicio 
+          ape<lb break="no" ed="#P" n="79"/>riendi sunt, ut factum ex uno probetur, ex
+          <lb ed="#P" n="80"/>altero jus dicatur. Aliter exponit Gregorius, 24,
+          <lb ed="#P" n="81"/>Moral., cap. 6, alias 9, et aliter Augustinus,
+          <lb ed="#P" n="82"/>20, de Civit., cap. 14 et 15.
+        </p>
+        <p xml:id="szduep-079781-d1e1176">
+          <lb ed="#P" n="83"/>15. Resolutio totuus questionis. —Rehlnquitur
+          <lb ed="#P" n="84"/>ergo ex hisomnibus, librum vitae per 
+          metapho<lb break="no" ed="#P" n="85"/>ram significare aeternam notitiam quam Deus
+          <lb ed="#P" n="86"/>habet de omnibus qui vitam aeternam 
+          consecu<lb break="no" ed="#P" n="87"/>turi sunt. Ex quo facile est, quaestionem a nobis
+          <lb ed="#P" n="88"/>propositam definire, et librum vitae cum 
+          prae<lb break="no" ed="#P" n="89"/>destinatione conferre. Multum enim inter se 
+          si<lb break="no" ed="#P" n="90"/>milia sunt tamque conjuncta, ut non immerito
+          <lb ed="#P" n="91"/>potuerit Augustinus de illis, tanquam de uno et
+          <lb ed="#P" n="92"/>eodem attributo loqui: in rigore tamen recte 
+          di<lb break="no" ed="#P" n="93"/>vus Thomas dixit ratione differre. Utrumque 
+          au<lb break="no" ed="#P" n="94"/>tem non difficile constabit, explicando ea in 
+          qui<lb break="no" ed="#P" n="95"/>bus inter seconvenire vel differre videntur. 
+          Con<lb break="no" ed="#P" n="96"/>veniunt ergo primo, quia personae omnes quae
+          <lb ed="#P" n="97"/>in libro vitae scriptae sunt, praedestinatae sunt,
+          <lb ed="#P" n="98"/>et non plures, neque pauciores: et e converso,
+          <lb ed="#P" n="99"/>quotquot sunt praedestinati, sunt in illo libro
+          <lb ed="#P" n="100"/>scripti. Hoc patet ex verbis Danielis 12: 
+          Sal<lb break="no" ed="#P" n="101"/>vabitur omnis qui inventus fuerit scriptus in
+          <lb ed="#P" n="102"/>libro. Exclusiva vero additur Apocalyps. 13 et
+          <lb ed="#P" n="103"/>17, ubi dicuntur adorasse bestiam omnes 
+          quo<lb break="no" ed="#P" n="104"/>rum non sunt scripta nomina in librovite A gni.
+          <lb ed="#P" n="105"/>Et clarius, cap. 20: Qui non est inventus in libro
+          <lb ed="#P" n="106"/>vitee scriptus, anissus est in stagmun ignis. Et
+          <lb ed="#P" n="107"/>cap. 21, dicitur de coelesti Jerusalem: Non
+          <lb ed="#P" n="108"/>intrabit in eam, nisi qui scripti. sunt in libro
+          <lb ed="#P" n="109"/>vite Agni. Quicumque ergo in libro illo sunt
+          <lb ed="#P" n="110"/>scripti, salvantur: et qui non salvantur, ibi
+          <pb ed="#P" n="318"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non sunt scripti: at qui non salvantur, 
+          praedes<lb break="no" ed="#P" n="2"/>tinati non sunt, et omnes qui salvantur 
+          prae<lb break="no" ed="#P" n="3"/>destinati sunt, ut supra contra Catherinum
+          <lb ed="#P" n="4"/>diximus: ergo quoad hoc convertuntur inter se
+          <lb ed="#P" n="5"/>praedestinatio et liber vitae: unde ulterius in
+          <lb ed="#P" n="6"/>hoc etiam inter se conveniunt, quod, sicut de
+          <lb ed="#P" n="7"/>praedestinatione diximus, ita etiam liber vitae
+          <lb ed="#P" n="8"/>est actus aeternus immanens DEI ac omnino
+          <lb ed="#P" n="9"/>liber, id est, non necessarius, sed pendens ex
+          <lb ed="#P" n="10"/>arbitrio DET: unde, vel est ipsa praedestinatio,
+          <lb ed="#P" n="11"/>vel secundum rationem proxime ad illam 
+          con<lb break="no" ed="#P" n="12"/>sequitur.
+        </p>
+        <p xml:id="szduep-079781-d1e1270">
+          <lb ed="#P" n="13"/>16. Et quidem, si praedestinatio soli 
+          volun<lb break="no" ed="#P" n="14"/>tati tribuatur, clara est distinctio rationis. Nam
+          <lb ed="#P" n="15"/>metaphora libri clare significat aliquid ad 
+          in<lb break="no" ed="#P" n="16"/>tellectum pertinens. Nam sicut loqui, ita et
+          <lb ed="#P" n="17"/>scribere munus est intellectus : unde 
+          Aristo<lb break="no" ed="#P" n="18"/>teles etiam dixit, hominis intellectum esse
+          <lb ed="#P" n="19"/>tanquam tabulam rasam, in qua nihil est 
+          de<lb break="no" ed="#P" n="20"/>pictum, seu scriptum ; unde tunc incipit in eo
+          <lb ed="#P" n="21"/>depingi, quando imagines rerum in eo 
+          im<lb break="no" ed="#P" n="22"/>primi incipiunt : tunc autem incipit in se
+          <lb ed="#P" n="23"/>scribere, quando incipit nosse. Sic ergo liber
+          <lb ed="#P" n="24"/>Deo attributus in intellectu ejus est, nihilque
+          <lb ed="#P" n="25"/>est aliud, quam catalogus omnium 
+          salvando<lb break="no" ed="#P" n="26"/>rum in mente, seu notitia DEI conscriptus.
+          <lb ed="#P" n="27"/>Sic ergo, sicut intellectus ratione distinguitur
+          <lb ed="#P" n="28"/>a voluntate, ita liber vitae a praedestinatione:
+          <lb ed="#P" n="29"/>et sicut praescientia absoluta futurorum 
+          prae<lb break="no" ed="#P" n="30"/>definitorum a DEO, consequitur secundum 
+          ra<lb break="no" ed="#P" n="31"/>tionem ad voluntatem eligentem , seu 
+          praefi<lb break="no" ed="#P" n="32"/>nientem, ita etiam liber ex praedestinatione
+          <lb ed="#P" n="33"/>sequitur : et cum illa necessario conjunctus est.
+          <lb ed="#P" n="34"/>Eo enim ipso, quod Deus hos elegit ad 
+          beati<lb break="no" ed="#P" n="35"/>tudinem, eosdem in notitia sua conscripsit,
+          <lb ed="#P" n="36"/>tanquam infallibiliter salvandos. Si autem 
+          prae<lb break="no" ed="#P" n="37"/>destinatio referatur ad intellectum, non 
+          appa<lb break="no" ed="#P" n="38"/>ret tam necessaria, neque tam facilis distinctio.
+          <lb ed="#P" n="39"/>Quia vero D. Thomas, licet praedestinationem
+          <lb ed="#P" n="40"/>in intellectu ponat, nihilominus librum vitae
+          <lb ed="#P" n="41"/>ratione ab illa distinguit, declarari in hunc
+          <lb ed="#P" n="42"/>modum potest. Quia liber solum dicit quasi
+          <lb ed="#P" n="43"/>speculativam notitiam, seu intuitionem 
+          sal<lb break="no" ed="#P" n="44"/>vandorum : est enim (ut dixi) veluti catalogus
+          <lb ed="#P" n="45"/>quidam talium personarum : praedestinatio
+          <lb ed="#P" n="46"/>autem dicit judicium practicum dictans et 
+          di<lb break="no" ed="#P" n="47"/>rigens executionem mediorum infallibilium,
+          <lb ed="#P" n="48"/>quae ad salutem electorum per voluntatem 
+          ap<lb break="no" ed="#P" n="49"/>probata sunt. Et ita etiam liber vitae 
+          perfec<lb break="no" ed="#P" n="50"/>tus et completus (ut sic dicam) supponit 
+          prae<lb break="no" ed="#P" n="51"/>destinationem, ut constituentem illi objectum
+          <lb ed="#P" n="52"/>cjus. Ita ergo in rigore praedestinatio et liber
+          <lb ed="#P" n="53"/>vitee comparantur : licet ob summam 
+          conjunc<lb break="no" ed="#P" n="54"/>tionem interdum tanquam idem censeantur.
+        </p>
+        <p xml:id="szduep-079781-d1e1364">
+          <lb ed="#P" n="55"/>17. Difficultas. — Una vero superest diffi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cultas, quia liber vitae non videtur ita firmus
+          <lb ed="#P" n="57"/>et certus sicut praedestinatio, et ideo non 
+          vi<lb break="no" ed="#P" n="58"/>dentur esse tam connexa quantum diximus.
+          <lb ed="#P" n="59"/>Antecedens declaratur, quia ex 
+          praedestinatio<lb break="no" ed="#P" n="60"/>ne nullus auferri potest : Nam, quos ita 
+          pra<lb break="no" ed="#P" n="61"/>scivit ut etium praedestinaverit, allos 
+          infallibili<lb break="no" ed="#P" n="62"/>ter magnificabit, ex ad Roman. 8, et ideo per
+          <lb ed="#P" n="63"/>exagerationem dicitur Matth. 14: 7£a ut in
+          <lb ed="#P" n="64"/>errorem inducantur., si fieri potest, etiam electi:
+          <lb ed="#P" n="65"/>sed quia certissime id non fiet additur : 
+          Ve<lb break="no" ed="#P" n="66"/>rumtamen propter electos breviabuntur dies illa :
+          <lb ed="#P" n="67"/>unde est illud 1, Joan. 2: Non erant ea nobis,
+          <lb ed="#P" n="68"/>si enim fuissent ea nobis, permansissent utique
+          <lb ed="#P" n="69"/>nobiscum. At de libro vitae deleri possunt, qui
+          <lb ed="#P" n="70"/>in eo scripti sunt, ut supponi videtur Exod. 32,
+          <lb ed="#P" n="71"/>Psal. 68 et Apocal. 3.
+        </p>
+        <p xml:id="szduep-079781-d1e1406">
+          <lb ed="#P" n="72"/>18. Satisfit. — Hoc dubium expeditur 
+          fa<lb break="no" ed="#P" n="73"/>cile dicendo, phrasim esse Scripturae, 
+          negatio<lb break="no" ed="#P" n="74"/>nem per modum affirmationis explicare, sicut
+          <lb ed="#P" n="75"/>dicitur Deus odio habere quem non diligit 
+          pe<lb break="no" ed="#P" n="76"/>culiari modo. lIta ergo aiunt Ansbertus et
+          <lb ed="#P" n="77"/>Haymo, Apoc. 3, deleri de libro vite, nhil
+          <lb ed="#P" n="78"/>aliud esse, quam non scribi in illo. Ita enim
+          <lb ed="#P" n="79"/>videtur exponi in eodem Psalm. 68, cum 
+          dici<lb break="no" ed="#P" n="80"/>tur : Deleantur de libro viventium et cum 
+          jus<lb break="no" ed="#P" n="81"/>tis non scribantur. Nam posteriora verba 
+          viden<lb break="no" ed="#P" n="82"/>tur interpretari priora : Igitur verbum delendi
+          <lb ed="#P" n="83"/>non in ea proprietate sumitur, qua significat
+          <lb ed="#P" n="84"/>auferre id, quod semel scriptum fuit, sed ut
+          <lb ed="#P" n="85"/>significat negationem scribendi : et ita non
+          <lb ed="#P" n="86"/>differt in hoc a praedestinatione , nam etiam
+          <lb ed="#P" n="87"/>potest dici aliquis a praedestinatione exclusus.
+          <lb ed="#P" n="88"/>Unde in boc sensu, quod in Apoc. 3, dicitur:
+          <lb ed="#P" n="89"/>Qui vicerit , sic vestietur vestimentis albis, et
+          <lb ed="#P" n="90"/>non delebo nomen ejus de libro vite : perinde
+          <lb ed="#P" n="91"/>est ac si diceretur : Consequetur vitam ad
+          <lb ed="#P" n="92"/>quam est praedestinatus. Estque sententia valde
+          <lb ed="#P" n="93"/>similis ili 2, Pet. 1: 5Satagite ut per bona
+          <lb ed="#P" n="94"/>opera certam vestram vocationem et electionem
+          <lb ed="#P" n="95"/>faciatis.
+        </p>
+        <p xml:id="szduep-079781-d1e1462">
+          <lb ed="#P" n="96"/>19. Alia responsio. — Aliter D. Augustinus,
+          <lb ed="#P" n="97"/>in Psal. 68, intelligit verbum delendi positive
+          <lb ed="#P" n="98"/>(ut sic dicam) seu prout significat deletionem
+          <lb ed="#P" n="99"/>ejus, quod scriptum semel fuit ; dicit tamen
+          <lb ed="#P" n="100"/>hoc modo nihil deleri de libro vitae, quod
+          <lb ed="#P" n="101"/>reipsa in eo scriptum fuerit, sed solum 
+          secun<lb break="no" ed="#P" n="102"/>dum spem, vel opinionem hominum, ita ut
+          <lb ed="#P" n="103"/>deleri dicantur, qui sperabant, vel putabant
+          <lb ed="#P" n="104"/>se esse scriptos in libro vitae, et postea 
+          intelli<lb break="no" ed="#P" n="105"/>gent ibi non fuisse scriptos, et ita delentur 
+          po<lb break="no" ed="#P" n="106"/>tius ex libro scripto in mente sua, quam ex 
+          no<lb break="no" ed="#P" n="107"/>titia Dei. Et in eumdem fere modum 
+          interpre<lb break="no" ed="#P" n="108"/>tantur phrasim illam Ambrosii, Apoc. 3, 
+          Ruper<lb break="no" ed="#P" n="109"/>ti, lib. 4 in Exod., cap. 29. Neque est aliena
+          <lb ed="#P" n="110"/>ab alio usu Scripturae, quae aliquando de re-
+          <pb ed="#P" n="319"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bus loquitur, non prout in se sunt, sed prout
+          <lb ed="#P" n="2"/>sunt in opinione hominum, ut Joann. 5, dicit
+          <lb ed="#P" n="3"/>Christus: Sài ego testimonium perhibeo de me
+          <lb ed="#P" n="4"/>ipso, testimonium meum non est verum, utique
+          <lb ed="#P" n="5"/>opinione vestra. Atque in hoc sensu nulla
+          <lb ed="#P" n="6"/>etiam est differentia inter praedestinationem
+          <lb ed="#P" n="7"/>et librum vitae, quia etiam potest quis deleri
+          <lb ed="#P" n="8"/>de praedestinatione, quam falsa fide, opinione
+          <lb ed="#P" n="9"/>aaut spe sibi promittebat, sine operibus : unde,
+          <lb ed="#P" n="10"/>cum in Apocalypsi promittit Deus, qui vicerit,
+          <lb ed="#P" n="11"/>non delebo ewm, perinde est, ac si diceret, non
+          <lb ed="#P" n="12"/>tantum sua spe, vel hominum opinione, sed
+          <lb ed="#P" n="13"/>vere et re ipsa erit scriptus in libro vitae. Neque
+          <lb ed="#P" n="14"/>per hujusmodi promissionem, aut 
+          commina<lb break="no" ed="#P" n="15"/>tionem significatur, incertitudo aliqua, vel
+          <lb ed="#P" n="16"/>praedestinationis, vel libri vitae , sed solum 
+          si<lb break="no" ed="#P" n="17"/>gnificatur, executionem utriusque pendere ex
+          <lb ed="#P" n="18"/>operibus nostris cum gratia Dei factis. Et ita
+          <lb ed="#P" n="19"/>est probabilis haec expositio, quamvis nimis
+          <lb ed="#P" n="20"/>metaphorice explicet deletionem illam.
+        </p>
+        <p xml:id="szduep-079781-d1e1545">
+          <lb ed="#P" n="21"/>Propter quod divus Thomas, dicta quaest.
+          <lb ed="#P" n="22"/>24. art. 3, dicit dupliciter aliquos scribi in
+          <lb ed="#P" n="23"/>libro vitae , aut solum quoad vitam gratiae
+          <lb ed="#P" n="24"/>temporalis, aut etiam quoad vitam glorise,
+          <lb ed="#P" n="25"/>seu perpetuae gratiae: de his, qui hoc 
+          poste<lb break="no" ed="#P" n="26"/>riori modo scripti sunt , constat non posse
+          <lb ed="#P" n="27"/>deleri de libro vitae, de prioribus autem posse:
+          <lb ed="#P" n="28"/>unde consequenter significat , librum vite,
+          <lb ed="#P" n="29"/>interdum sumi pro libro solius vitae aeternae,
+          <lb ed="#P" n="30"/>et ita non admittere deletionem : interdum
+          <lb ed="#P" n="31"/>pro libro vitae gratiae, vel temporalis , vel
+          <lb ed="#P" n="32"/>abstrahendo a temporali et aeterna, et sic 
+          ad<lb break="no" ed="#P" n="33"/>mittere deletionem. Non permutationem 
+          ip<lb break="no" ed="#P" n="34"/>sius libri, sed permutationem conscriptorum
+          <lb ed="#P" n="35"/>in ipso eo modo, quo Deus dicitur nunc 
+          ne<lb break="no" ed="#P" n="36"/>scire, quod antea sciebat, quia res mutantur,
+          <lb ed="#P" n="37"/>id est, nunc nescit esse justum, quem antea
+          <lb ed="#P" n="38"/>sciebat esse justum , quia ille peccando 
+          jus<lb break="no" ed="#P" n="39"/>titiam amisit. Et sic distinguunt aliqui 
+          E<lb break="no" ed="#P" n="40"/>brum vite, a libro justorum , ux ile sit 
+          tan<lb break="no" ed="#P" n="41"/>tum praedestinatorum, hic omnium, qui al-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="42"/>quando justi sunt. Unde consequenter 
+          dicen<lb break="no" ed="#P" n="43"/>dum est, vel praedestinationem solum 
+          con<lb break="no" ed="#P" n="44"/>jungi cum libro vitae simpliciter dicto, id est,
+          <lb ed="#P" n="45"/>vitae gloriae et aeternae. Vel certe ipsam 
+          praedes<lb break="no" ed="#P" n="46"/>tnationem etiam esse duplicem, unam 
+          sim<lb break="no" ed="#P" n="47"/>pliciter, quae habet conjunctum librum vitae
+          <lb ed="#P" n="48"/>simpliciter : alteram secundum quid, id est,
+          <lb ed="#P" n="49"/>ad gratiam, vel fidem temporalem, et ab hac
+          <lb ed="#P" n="50"/>etiam posse cadere hominem, sicut potest 
+          de<lb break="no" ed="#P" n="51"/>leri de libro vitae. Et ita nullum erit inter haec
+          <lb ed="#P" n="52"/>discrimen, quoad hanc partem, si cum 
+          pro<lb break="no" ed="#P" n="53"/>portione sumantur. Et haec expositio est etiam
+          <lb ed="#P" n="54"/>probabilis, et eam sequuntur Anselmus et
+          <lb ed="#P" n="55"/>Lyrandus, Apocal. 3.
+        </p>
+        <p xml:id="szduep-079781-d1e1626">
+          <lb ed="#P" n="56"/>21. Solum habet nonnullam difficultatera
+          <lb ed="#P" n="57"/>haec expositio quoad phrasim, et usum 
+          Scrip<lb break="no" ed="#P" n="58"/>turae, in qua absolute profertur, eos omnes
+          <lb ed="#P" n="59"/>salvari, qui scripti sunt in libro vitae : ac
+          <lb ed="#P" n="60"/>proinde videtur, nunquam sumi librum vite,
+          <lb ed="#P" n="61"/>nisi pro libro vitae aeternae. Ut ex locis supra 
+          ci<lb break="no" ed="#P" n="62"/>tatis, Daniel 12, Apoc. 20 et 21, et ad Philip. 4,
+          <lb ed="#P" n="63"/>constare potest. Quod etiam supponere 
+          viden<lb break="no" ed="#P" n="64"/>tur Augustinus, Ambrosius, Rupertus et alii
+          <lb ed="#P" n="65"/>Sancti citati. At divus Thomas, in dicto, art. 3,
+          <lb ed="#P" n="66"/>extendit descriptionem libri vita, ut sic : 
+          Cons<lb break="no" ed="#P" n="67"/>scriptio ordinatorum in vitam eternam, quae
+          <lb ed="#P" n="68"/>latior est, quam conscriptio praedestinatorum,
+          <lb ed="#P" n="69"/>per quam, in art. 4, librum vitae definierat. Ad
+          <lb ed="#P" n="70"/>hoc autem tacite D. Thomas respondet, 
+          li<lb break="no" ed="#P" n="71"/>brum quidem vitae solum esse vitae aeternae, ut
+          <lb ed="#P" n="72"/>art. 1, etiam declarat. Tamen in illo posse 
+          ali<lb break="no" ed="#P" n="73"/>quem describi, vel simpliciter, id est, secundum
+          <lb ed="#P" n="74"/>praedestinationem, vel secundum quid, id est,
+          <lb ed="#P" n="75"/>secundum ordinationem gratiae. Quae doctrina
+          <lb ed="#P" n="76"/>in se quidem vera, est et de possibili non 
+          repu<lb break="no" ed="#P" n="77"/>gnat cum metaphora libri vitae : tamen de
+          <lb ed="#P" n="78"/>facto, et juxta usum Scripturae, liber vitae 
+          vi<lb break="no" ed="#P" n="79"/>detur esse conscriptio praedestinatorum, ut
+          <lb ed="#P" n="80"/>art. 1, in Corp. et ad 1, definierat idem divus
+          <lb ed="#P" n="81"/>Thomas, et sic necessarium erit, alterutram ex
+          <lb ed="#P" n="82"/>duabus primis expositionibus retinere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

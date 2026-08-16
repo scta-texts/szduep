@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="110"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-027984"><!-- t1-l2c16 -->
+        <head xml:id="szduep-027984-Hd1e101">Caput 16</head>
+        <head xml:id="szduep-027984-Hd1e103" type="question-title">An de absoluta potentia possit videri deus sine lumine gloriae</head>
+        <p xml:id="szduep-027984-d1e106">
+          <lb ed="#P" n="31"/>CAPUT XVI.
+          <lb ed="#P" n="32"/>AN DE ABSOLUTA POTENTIA POSSIT VIDERI DEUS
+          <lb ed="#P" n="33"/>SINE LUMINE GLORIAE.
+        </p>
+        <p xml:id="szduep-027984-d1e115">
+          <lb ed="#P" n="34"/>1. Prima opinio.— Haec quaestio breviter hoc
+          <lb ed="#P" n="35"/>loco tractanda, ne ad defendendam saniorem
+          <lb ed="#P" n="36"/>doctrinam praecedenti capite declarantam, 
+          pu<lb break="no" ed="#P" n="37"/>tetur necessaria opinio eorum, qui dixerunt,
+          <lb ed="#P" n="38"/>esse adeo necessarium lumen gloriae, ut etiam
+          <lb ed="#P" n="39"/>de potentia absoluta non possit intellectus 
+          ele<lb break="no" ed="#P" n="40"/>vari ad videndum Deum sine tah tunine Quod
+          <lb ed="#P" n="41"/>docuit Cajetanus, 1 D. q. 12, art. 5. Ferrarius
+          <lb ed="#P" n="42"/>2, contra Gentes, c. 54. Sotus, to q. 2, art. 4.
+          <lb ed="#P" n="43"/>Fandamentum eorum fuisse videtur, quia non
+          <lb ed="#P" n="44"/>potest aliquis videre Deum, nisi ipse efficiat
+          <lb ed="#P" n="45"/>visionem beatam, non potest autem effticere
+          <lb ed="#P" n="46"/>ipse, nisi recipiat principium agendi, quod est
+          <lb ed="#P" n="47"/>lumen gloriae : vel quamvis demus sine illo
+          <lb ed="#P" n="48"/>posse aliquo modo efticere, ad summum illud
+          <lb ed="#P" n="49"/>esset instrumentaliter ; ille autem modus 
+          a<lb break="no" ed="#P" n="50"/>gendi non satis est ad actum vitalem, de cujus
+          <lb ed="#P" n="51"/>ratione est, ut procedat a principio formali 
+          in<lb break="no" ed="#P" n="52"/>trinseco et proportionato.
+        </p>
+        <p xml:id="szduep-027984-d1e159">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>2. Rejicitur fundamentum. — Sed hoc 
+          fun<lb break="no" ed="#P" n="54"/>damentum ex hactenus tractatis constat esse
+          <lb ed="#P" n="55"/>inefficax, quia ostensum est, etiam nunc de
+          <lb ed="#P" n="56"/>facto lumen gloriae non esse totale principium
+          <lb ed="#P" n="57"/>efficiendi visionem beatam. Item constat, 
+          vi<lb break="no" ed="#P" n="58"/>sionem illam non habere, quod sit actus 
+          vita<lb break="no" ed="#P" n="59"/>lis ex concursu luminis, sed ex influxu ipsius
+          <lb ed="#P" n="60"/>animae et intellectus. Denique etiam est 
+          osten<lb break="no" ed="#P" n="61"/>sum, hunc influxum, prout est ab intellectu,
+          <lb ed="#P" n="62"/>etiam nunc de facto esse supra vires naturales
+          <lb ed="#P" n="63"/>ejus, atque adeo esse ab illo, ut a vitali 
+          instru<lb break="no" ed="#P" n="64"/>mento elevato divina virtute, ac modo illo 
+          ac<lb break="no" ed="#P" n="65"/>commodato, idque satis esse ad rationem actus
+          <lb ed="#P" n="66"/>vitalis.
+        </p>
+        <p xml:id="szduep-027984-d1e195">
+          <lb ed="#P" n="67"/>3. Secunda opinio. — Secunda ergo 
+          senten<lb break="no" ed="#P" n="68"/>tia distinguit de lumine gloriae, vel per modum
+          <lb ed="#P" n="69"/>habitus permanentis, vel per modum 
+          disposi<lb break="no" ed="#P" n="70"/>tionis transeuntis, dicitque, ad efficiendam
+          <lb ed="#P" n="71"/>visionem omnino necessariam esse aliquam
+          <lb ed="#P" n="72"/>qualitatem, quae sit per modum actus primi
+          <lb ed="#P" n="73"/>distincti a visione, et secundum potentiam 
+          or<lb break="no" ed="#P" n="74"/>dinariam illam qualitatem debere esse lumen
+          <lb ed="#P" n="75"/>gloriae permanens per modum habitus: de 
+          po<lb break="no" ed="#P" n="76"/>tentia vero absoluta sufficere vel 
+          permanen<lb break="no" ed="#P" n="77"/>tem, vel transeuntem qualitatem, alterutram
+          <lb ed="#P" n="78"/>vero istarum necessariam esse. Haec videtur
+          <lb ed="#P" n="79"/>esse opinio Capreoli 4, d. 49, q. 4, ad. 3et 4,
+          <lb ed="#P" n="80"/>contra secundam conclusionem, et citat D. 
+          Tho<lb break="no" ed="#P" n="81"/>mam 22, q. 175, art. 7, ad 2, q. 2, de Veritate,
+          <lb ed="#P" n="82"/>art. 9 et q. 13, art. 2
+        </p>
+        <p xml:id="szduep-027984-d1e232">
+          <lb ed="#P" n="83"/>4. Impugnatur. — Sed haec sententia vel
+          <lb ed="#P" n="84"/>coincidit cum praecedenti, vel est 
+          improbabi<lb break="no" ed="#P" n="85"/>lior illa. Nam illa distinctio quahitatis 
+          perma<lb break="no" ed="#P" n="86"/>nentis, vel transeuntis, sicut datur de lumine,
+          <lb ed="#P" n="87"/>ita potest dari de visione, nam etiam haec 
+          po<lb break="no" ed="#P" n="88"/>test esse permanens, ut est in beatis et 
+          tran<lb break="no" ed="#P" n="89"/>siens, ut multi censent fuisse in D. Paulo. Si
+          <lb ed="#P" n="90"/>ergo sit sermo de visione permanente, qualis
+          <lb ed="#P" n="91"/>est beatifica, non potest ad illam requiri 
+          lu<lb break="no" ed="#P" n="92"/>men, quin illud debeat esse permanens, quia
+          <lb ed="#P" n="93"/>idem lumen requiritur ad conservandam et 
+          ef<lb break="no" ed="#P" n="94"/>ficiendam visionem. Si autem sit sermo de 
+          vi<lb break="no" ed="#P" n="95"/>sione transeunte, ad illam sufficit lumen etiam
+          <lb ed="#P" n="96"/>transiens, nec potest requiri lumen permanens,
+          <lb ed="#P" n="97"/>etiam de potentia ordinaria. Rursus sicut 
+          vi<lb break="no" ed="#P" n="98"/>sio durans multum, vel parum, non differt
+          <lb ed="#P" n="99"/>specie, ita etiam illa duo lumina non possunt
+          <lb ed="#P" n="100"/>specie distingui, si consequenter loquamur.
+          <lb ed="#P" n="101"/>Quia in hoc praecise distinguuntur, quod 
+          alte<lb break="no" ed="#P" n="102"/>rum permanenter, alterum transeunter datur,
+          <lb ed="#P" n="103"/>nam in aliis omnibus conveniunt, nimirum in
+          <lb ed="#P" n="104"/>objecto et in actu et in modo attingendi Deum,
+          <lb ed="#P" n="105"/>illa vero differentia non magis est intrinseca
+          <lb ed="#P" n="106"/>et essentialis in lumine, quam in visione et
+          <lb ed="#P" n="107"/>ratio utriusque est, quia non oritur ex intrin-
+          <pb ed="#P" n="111"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>seca natura talis luminis, nam illud, quod ad
+          <lb ed="#P" n="2"/>breve tempus datur, solum per voluntatem 
+          ex<lb break="no" ed="#P" n="3"/>trinseci agentis hoc habet, nam sicut durat
+          <lb ed="#P" n="4"/>per diem, posset durare per totam 
+          aeternita<lb break="no" ed="#P" n="5"/>tem, quia de se incorruptibile est, non enim
+          <lb ed="#P" n="6"/>habet contrarium, nec causam aliquam, per
+          <lb ed="#P" n="7"/>cujus actionem expelli possit, nec etiam habet
+          <lb ed="#P" n="8"/>causam in se mutabilem, sed tantum libere
+          <lb ed="#P" n="9"/>agentem, quam etiam habet lumen 
+          perma<lb break="no" ed="#P" n="10"/>nens : est ergo illa differentia accidentalis in
+          <lb ed="#P" n="11"/>lumine: sicut in visione ipsa. Ergo necesse est,
+          <lb ed="#P" n="12"/>ut haec opinio coincidat cum priori, nam juxta
+          <lb ed="#P" n="13"/>illam ad visionem requiritur de potentia 
+          ab<lb break="no" ed="#P" n="14"/>soluta lumen tantum durans , quantum durat
+          <lb ed="#P" n="15"/>visio et non amplius, unde non potest habere
+          <lb ed="#P" n="16"/>aliud fundamentum.
+        </p>
+        <p xml:id="szduep-027984-d1e328">
+          <lb ed="#P" n="17"/>5. Vera opinio. — Quapropter mihi 
+          proba<lb break="no" ed="#P" n="18"/>bilius est, Iumen gloriae non esse necessarium
+          <lb ed="#P" n="19"/>de potentia absoluta ad videndum Deum. Hanc
+          <lb ed="#P" n="20"/>sententiam tenet Paludanus 4, d. 49, qu. 1,
+          <lb ed="#P" n="21"/>art. 3, Argentina, quaest. 2, Major, quaest. 4 et
+          <lb ed="#P" n="22"/>moderni Thomistae, nec D. Thomas aliud 
+          un<lb break="no" ed="#P" n="23"/>quam significavit, sed locutus est de potentia
+          <lb ed="#P" n="24"/>ordinaria , seu secundum connaturalem 
+          mo<lb break="no" ed="#P" n="25"/>dum agendi. Probaturque primo ex dictis, quia
+          <lb ed="#P" n="26"/>contraria sententia non habet fundamentum,
+          <lb ed="#P" n="27"/>quo vel probabiliter ostendat implicationem
+          <lb ed="#P" n="28"/>contradictionis. Secundo, quia ostendi, lumen
+          <lb ed="#P" n="29"/>solum requiri, ut suppleat efficientiam, quae
+          <lb ed="#P" n="30"/>deest intellectui, sed hanc efficientiam potest
+          <lb ed="#P" n="31"/>Deus per se ipsum supplere, quia non est illa,
+          <lb ed="#P" n="32"/>quae praecise requiritur ad actum vitae et 
+          effec<lb break="no" ed="#P" n="33"/>tionem quasi formalem ejus, nam haec est illa,
+          <lb ed="#P" n="34"/>quae est per intrinsecum conatum et 
+          attentio<lb break="no" ed="#P" n="35"/>nem intellectus, quae semper manebit sive Deus
+          <lb ed="#P" n="36"/>per se ipsum, sive per lumen suppleat 
+          efficien<lb break="no" ed="#P" n="37"/>tiam, quae deest intellectui. Ex qua ratione 
+          col<lb break="no" ed="#P" n="38"/>ligitur, necessarium esse vel lumen vel majus
+          <lb ed="#P" n="39"/>quoddam auxilium Dei, quod suppleat 
+          efficien<lb break="no" ed="#P" n="40"/>tiam luminis. Quod etiam docent Scotus, loco
+          <lb ed="#P" n="41"/>citato, imo Durandus cui solet contrarium sine
+          <lb ed="#P" n="42"/>causa tribui.
+        </p>
+        <p xml:id="szduep-027984-d1e387">
+          <lb ed="#P" n="43"/>6. Tertio, id probari potest, quia de facto
+          <lb ed="#P" n="44"/>actus fidei et charitatis interdum fit ex speciali
+          <lb ed="#P" n="45"/>auxilio sine efficientia habitus, quod auxilium
+          <lb ed="#P" n="46"/>non est qualitas distincta ab ipsomet actu, sed
+          <lb ed="#P" n="47"/>est ipsamet actio specialiori modo a Deo 
+          pro<lb break="no" ed="#P" n="48"/>cedens. Assumptum patet in actibus, quibts
+          <lb ed="#P" n="49"/>disponimur ad habitus recipiendos, juxta 
+          sen<lb break="no" ed="#P" n="50"/>tentiam, quam nos sequimur et probabiliorem
+          <lb ed="#P" n="51"/>reputamus. Unde Sotus supra non potuit 
+          ali<lb break="no" ed="#P" n="52"/>ter solvere hoc argumentum, nisi negando, 
+          ac<lb break="no" ed="#P" n="53"/>tum fidei et charitatis esse supernaturalem
+          <lb ed="#P" n="54"/>quoad substantiam, quod de visione affirmat,
+          <lb ed="#P" n="55"/>sed illud etiam est plane falsum, nec fere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est major ratio de charitate, quam de visione.
+        </p>
+        <p xml:id="szduep-027984-d1e422">
+          <lb ed="#P" n="57"/>7. Objectio. — Responsum. — Dices. Si in
+          <lb ed="#P" n="58"/>via interdum fiunt hi actus sine concursu 
+          ha<lb break="no" ed="#P" n="59"/>bituum, cur etiam quando primo infunditur
+          <lb ed="#P" n="60"/>Iumen, non ita fiet visio in Patria? 
+          Responde<lb break="no" ed="#P" n="61"/>tur, quia in via proceditur ab imperfecto ad
+          <lb ed="#P" n="62"/>perfectum et ideo homo, qui caret habitibus
+          <lb ed="#P" n="63"/>est capax dispositionis, ideoque praeparari 
+          de<lb break="no" ed="#P" n="64"/>bet et disponi, ut obtineat habitus: non potest
+          <lb ed="#P" n="65"/>autem disponi per actum procedentem ab ipso
+          <lb ed="#P" n="66"/>habitu, quia talis dispositio omnino 
+          supponi<lb break="no" ed="#P" n="67"/>tur et ratione illius infunditur habitus. At vero
+          <lb ed="#P" n="68"/>in Patria, homo supponitur dispositus per 
+          gra<lb break="no" ed="#P" n="69"/>tiam et merita et a principio efficit illam 
+          visio<lb break="no" ed="#P" n="70"/>nem connaturali et perfecto modo, neque ad
+          <lb ed="#P" n="71"/>lumen recipiendum disponitur per visionem
+          <lb ed="#P" n="72"/>ipsam. Ex quo potest obiter sumi argumentum
+          <lb ed="#P" n="73"/>contra eos, qui dicunt primum actum, qui est
+          <lb ed="#P" n="74"/>dispositio ad habitum, procedere ab illo 
+          effec<lb break="no" ed="#P" n="75"/>tive, sic enim dicere possent vel etiam 
+          debe<lb break="no" ed="#P" n="76"/>rent, visionem esse dispositionem ad lumen,
+          <lb ed="#P" n="77"/>licet ab illo procedat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

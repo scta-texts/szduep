@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="133"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-033963"><!-- t1-l2c23 -->
+        <head xml:id="szduep-033963-Hd1e101">Caput 23</head>
+        <head xml:id="szduep-033963-Hd1e103" type="question-title">Utrum necesse sit, beatos videntes divinam essentiam videre simul tres personas; ac subinde etiam in hoc visiones omnes sint aequales</head>
+        <p xml:id="szduep-033963-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>CAPUT XXII.
+          <lb ed="#P" n="57"/>UTRUM NECESSE SIT, BEATOS VIDENTES DIVINAM
+          <lb ed="#P" n="58"/>ESSENTIAM VIDERE SIMUL TRES PERSONAS;
+          <lb ed="#P" n="59"/>AC SUBINDE ETIAM IN HOC VISIONES OMNES
+          <lb ed="#P" n="60"/>SINT AEQUALES.
+        </p>
+        <p xml:id="szduep-033963-d1e122">
+          <lb ed="#P" n="61"/>1. Prima opinio Scoti. — Fundamentum
+          <lb ed="#P" n="62"/>primun.—Prima sententia est Scoti in 1, dist.
+          <lb ed="#P" n="63"/>1, quaest. 2, qui de potentia absoluta affirmat,
+          <lb ed="#P" n="64"/>posse videri Deum essentialiter subsistentem
+          <lb ed="#P" n="65"/>in divinitate, non visis relativis subsistentiis,
+          <lb ed="#P" n="66"/>et consequenter affirmat , posse videri duas
+          <lb ed="#P" n="67"/>personas inter se relatas, ut Patrem et Filium,
+          <lb ed="#P" n="68"/>non visa tertia, ad quam per illas relationes
+          <lb ed="#P" n="69"/>duas non referuntur. Negat tamen posse 
+          vide<lb break="no" ed="#P" n="70"/>ri unam personam , non visa alia, ad quam
+          <lb ed="#P" n="71"/>refertur, quia relativa sunt simul cognitione :
+          <lb ed="#P" n="72"/>non autem explicat Scotus an e converso 
+          vide<lb break="no" ed="#P" n="73"/>ri possint spiratio activa et processio non visis
+          <lb ed="#P" n="74"/>Paternitate et Filiatione. Fundamenta illius
+          <lb ed="#P" n="75"/>sunt. Primum, quia relationes non sunt de 
+          es<lb break="no" ed="#P" n="76"/>sentiali ratione objecti beatifici. Sed hoc 
+          fun<lb break="no" ed="#P" n="77"/>damentum non refert ad praesentem 
+          quaestio<lb break="no" ed="#P" n="78"/>nem, quia esto verum assumat, nihilominus
+          <lb ed="#P" n="79"/>in ordine ad visionem , ut cognitio quadam
+          <lb ed="#P" n="80"/>est, possunt habere relationes necessariam 
+          con<lb break="no" ed="#P" n="81"/>nexionem cum essentia. Atque eadem ratione
+          <lb ed="#P" n="82"/>non est necessarium fundamentum , quod 
+          Ca<lb break="no" ed="#P" n="83"/>jetanus et alii Thomistae in praesenti quaestione
+          <lb ed="#P" n="84"/>sumunt contra Scotum, scilicet, quia sola 
+          es<lb break="no" ed="#P" n="85"/>sentia visa sine relationibus non satiaret 
+          ap<lb break="no" ed="#P" n="86"/>petitum hominis ; tum quia hoc in rigore 
+          fal<lb break="no" ed="#P" n="87"/>sum est : nam essentia,seu hic Deus 
+          essentiali<lb break="no" ed="#P" n="88"/>ter subsistens, est summum bonum et 
+          infini<lb break="no" ed="#P" n="89"/>tum simpliciter et eminenter continens omnia
+          <lb ed="#P" n="90"/>etiam relationes. Tum etiam quia licet id esset
+          <lb ed="#P" n="91"/>verum, adhuc superesset locus praesenti 
+          quaes<lb break="no" ed="#P" n="92"/>tioni: an possit scilicet dari visio essentiae,
+          <lb ed="#P" n="93"/>quae non attingat relationes in se ipsis, sive 
+          il<lb break="no" ed="#P" n="94"/>la visio satiet, aut beatificet, sive non.
+        </p>
+        <p xml:id="szduep-033963-d1e198">
+          <lb ed="#P" n="95"/>2. Fundamentum secundum. — Secundum
+          <lb ed="#P" n="96"/>fundamentum est, quia respectu visionis ; 
+          es<lb break="no" ed="#P" n="97"/>sentia divina est objectum primarium : 
+          rela<lb break="no" ed="#P" n="98"/>tiones autem secundarium: quando vero actus
+          <lb ed="#P" n="99"/>habet duplex objectum hujusmodi, potest 
+          ma<lb break="no" ed="#P" n="100"/>nere circa primarium, quamvis non attingat
+          <lb ed="#P" n="101"/>secundarium. Hoc etiam fundamentum non
+          <lb ed="#P" n="102"/>est efficax, quia si per objectum secundarium
+          <lb ed="#P" n="103"/>intelligat illud, a quo non pendet essentialiter
+          <lb ed="#P" n="104"/>actus, seu cum quo non habet necessariam
+          <lb ed="#P" n="105"/>connexionem, petit principium, dum assumit
+          <lb ed="#P" n="106"/>relationes pertinere ad objectum secundarium.
+          <lb ed="#P" n="107"/>Si vero per secundarium objectum intelligat,
+          <pb ed="#P" n="134"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>id quod per se, seu in se cognoscitur, sed per
+          <lb ed="#P" n="2"/>aliud re vel ratione distinctum, sic est falsa
+          <lb ed="#P" n="3"/>minor. Sape enim objectum secundarium,
+          <lb ed="#P" n="4"/>hoc modo, est ita conjunctum cum primario,
+          <lb ed="#P" n="5"/>ut non possit unum sine alio cognosci. Ut 
+          pa<lb break="no" ed="#P" n="6"/>tet exemplo ab eodem concesso, nam quando
+          <lb ed="#P" n="7"/>cognoscitur relatio cum ordine ad terminum
+          <lb ed="#P" n="8"/>respectu talis cognitionis, relatio est objectum
+          <lb ed="#P" n="9"/>primarium et terminus secundarium, et tamen
+          <lb ed="#P" n="10"/>non possunt illa duo objecta in cognitione 
+          dis<lb break="no" ed="#P" n="11"/>jungi. Denique in illo fundamento supponit
+          <lb ed="#P" n="12"/>Scotus, posse fieri ut eadem visione, qua nunc
+          <lb ed="#P" n="13"/>primario attingitur essentia, et consequenter
+          <lb ed="#P" n="14"/>relationes , videatur essentia, et non 
+          relatio<lb break="no" ed="#P" n="15"/>nes, quod est evidenter falsum, ut infra 
+          osten<lb break="no" ed="#P" n="16"/>dam.
+        </p>
+        <p xml:id="szduep-033963-d1e269">
+          <lb ed="#P" n="17"/>3. Tertium fundamentum. — Tertium 
+          funda<lb break="no" ed="#P" n="18"/>mentum est, quia relationes et essentia 
+          distin<lb break="no" ed="#P" n="19"/>guuntur formaliter. Sed hoc etiam sumit 
+          fal<lb break="no" ed="#P" n="20"/>sum, si sit sermo de distinctione actuali, quae
+          <lb ed="#P" n="21"/>in re existat, si autem sit sermo de qualibet
+          <lb ed="#P" n="22"/>alia, illatio non est formalis, at patet ex his,
+          <lb ed="#P" n="23"/>quae dixi de attributis. Unde Thomistae 
+          potissi<lb break="no" ed="#P" n="24"/>mam vim argumenti contra Scotum ponunt in
+          <lb ed="#P" n="25"/>identitate essentiae et relationum.
+        </p>
+        <p xml:id="szduep-033963-d1e291">
+          <lb ed="#P" n="26"/>4. Quartum fundamentum. — Quartum 
+          fun<lb break="no" ed="#P" n="27"/>damentum esse potest, quia ex hoc, quod 
+          vi<lb break="no" ed="#P" n="28"/>deatur essentia sine relationibus, nulla 
+          sequi<lb break="no" ed="#P" n="29"/>tur implicatio contradictionis, etiamsi inter
+          <lb ed="#P" n="30"/>essentiam et relationes non sit actualis 
+          dis<lb break="no" ed="#P" n="31"/>ünctio in re. Probatur, quia si aliqua est 
+          im<lb break="no" ed="#P" n="32"/>plicatio , maxime , quia si relatio et essentia
+          <lb ed="#P" n="33"/>sunt omnino idem a parte rei, videre unam
+          <lb ed="#P" n="34"/>sine alia esset videre et non videre eamdem
+          <lb ed="#P" n="35"/>rem, quia et videtur, nam hoc supponitur et
+          <lb ed="#P" n="36"/>non videtur , quia id, quod est idem cum ipsa,
+          <lb ed="#P" n="37"/>non videtur. Quae implicatio variis modis 
+          ex<lb break="no" ed="#P" n="38"/>plicatur. Primo quia impossibile est videre 
+          Pe<lb break="no" ed="#P" n="39"/>trum, non viso Petro, sed tam idem est 
+          Pater<lb break="no" ed="#P" n="40"/>nitas cum essentia, sicut Petrus secum. 
+          Se<lb break="no" ed="#P" n="41"/>cundo, non potest videri Paternitas, non visa
+          <lb ed="#P" n="42"/>Paternitate, ergo nec non visa essentia, quia
+          <lb ed="#P" n="43"/>tam idem est cum essentia, quam secum. 
+          Ter<lb break="no" ed="#P" n="44"/>tio, si in Deo esset una persona, non posset 
+          vi<lb break="no" ed="#P" n="45"/>deri divina natura sine persona, sicut nunc
+          <lb ed="#P" n="46"/>etiam de facto constat ex dictis capite 
+          praece<lb break="no" ed="#P" n="47"/>denti, non posse videri divinitatem sine 
+          sub<lb break="no" ed="#P" n="48"/>stantia absoluta : sed tam idem est Deitas cum
+          <lb ed="#P" n="49"/>tribus personis, sicut tunc esset cum una, ergo.
+          <lb ed="#P" n="50"/>Quarto, quia esse trinum est ita intrinsecum
+          <lb ed="#P" n="51"/>Deo et de ratione ejus, sicut est intrinsecum
+          <lb ed="#P" n="52"/>homini esse rationale : sicut ergo implicat 
+          vi<lb break="no" ed="#P" n="53"/>deri hominem, non viso rationali, ita videre
+          <lb ed="#P" n="54"/>de non videndo trinum.
+        </p>
+        <p xml:id="szduep-033963-d1e356">
+          <lb ed="#P" n="55"/>5. At vero haec argumenta, quae sunt potis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sima in hac materia, non ostendunt con
+          <lb ed="#P" n="57"/>dictionem, quia non obstante hac identitate
+          <lb ed="#P" n="58"/>inter relationem et essentiam, Pater aeternus
+          <lb ed="#P" n="59"/>communicat Filio suam essentiam et non 
+          rela<lb break="no" ed="#P" n="60"/>tionem suam. Propter quod probabile est,
+          <lb ed="#P" n="61"/>posse essentialem subsistentiam uniri 
+          hypos<lb break="no" ed="#P" n="62"/>tatice naturae creatae, non unitis relationibus
+          <lb ed="#P" n="63"/>secundum se. Ex quo sic etiam conficio 
+          argu<lb break="no" ed="#P" n="64"/>mentum: nam essentia divina potest uniri 
+          in<lb break="no" ed="#P" n="65"/>tellectui per modum speciei intelligibihs, non
+          <lb ed="#P" n="66"/>unitis relationibus, ut patet ex dicto exemplo,
+          <lb ed="#P" n="67"/>et quia in praesenti videtur esse major ratio:
+          <lb ed="#P" n="68"/>nam haec unio per modum speciei, est ad 
+          effi<lb break="no" ed="#P" n="69"/>ciendum : efficientia autem convenit essentiae
+          <lb ed="#P" n="70"/>independenter a relationibus per se loquendo,
+          <lb ed="#P" n="71"/>sed id, quod praecise unitur per modunt 
+          spe<lb break="no" ed="#P" n="72"/>ciei, potest etiam videri praecise , cum ratio
+          <lb ed="#P" n="73"/>videndi sit species, ergo potest hoc fieri non
+          <lb ed="#P" n="74"/>obstante identitate.
+        </p>
+        <p xml:id="szduep-033963-d1e404">
+          <lb ed="#P" n="75"/>6. Et ratio adjungi potest, quia licet 
+          essen<lb break="no" ed="#P" n="76"/>tia et relatio sint idem, non tamen sunt 
+          adae<lb break="no" ed="#P" n="77"/>quate idem, quia non cum quocumque 
+          identi<lb break="no" ed="#P" n="78"/>ficatur essentia, identificatur relatio, in quo
+          <lb ed="#P" n="79"/>deficiunt omnia argumenta et exempla, quae
+          <lb ed="#P" n="80"/>abducuntur. Petrus enim est idem secum 
+          adae<lb break="no" ed="#P" n="81"/>quate et similiter Paternitas secum, et si in
+          <lb ed="#P" n="82"/>Deo tantum esset una persona , esset natura
+          <lb ed="#P" n="83"/>tam incommunicabilis , sicut persona, atque
+          <lb ed="#P" n="84"/>ita essent adaequate idem. Unde etiam fit, ut
+          <lb ed="#P" n="85"/>non obstante id entitate, quae nunc est inter
+          <lb ed="#P" n="86"/>relationes et essentiam, relationes non sint de
+          <lb ed="#P" n="87"/>essentia divinitatis, seu Dei ut sic, in quo est
+          <lb ed="#P" n="88"/>magnum discrimen inter illas et subsistentiam
+          <lb ed="#P" n="89"/>essentialem. Et ideo non est simile de 
+          rationa<lb break="no" ed="#P" n="90"/>li, quod in argumento quarto sumebatur: quin
+          <lb ed="#P" n="91"/>potius potest retorqueri argumentum , quia
+          <lb ed="#P" n="92"/>non implicat contradictionem videre aliquam
+          <lb ed="#P" n="93"/>naturam quidditative videndo ea, quae sunt de
+          <lb ed="#P" n="94"/>essentia praecise, et non videndo haec, quae sunt
+          <lb ed="#P" n="95"/>extra essentiam, sed relationes sunt extra 
+          es<lb break="no" ed="#P" n="96"/>sentiam Dei. Unde Pater communicat Filio 
+          to<lb break="no" ed="#P" n="97"/>tam essentiam Dei, non communicando 
+          rela<lb break="no" ed="#P" n="98"/>tionem, nec dando illi, quod sit trinus. Sicut
+          <lb ed="#P" n="99"/>ergo identitas non impedit, ut unum sit de 
+          es<lb break="no" ed="#P" n="100"/>sentia et non aliud, vel unum communicatur
+          <lb ed="#P" n="101"/>et non aliud, ita non obstat quod unum 
+          videa<lb break="no" ed="#P" n="102"/>tur et non aliud. Neque sequitur videri et non
+          <lb ed="#P" n="103"/>videri, sicut non sequitur communicari et non
+          <lb ed="#P" n="104"/>communicari.
+        </p>
+        <p xml:id="szduep-033963-d1e472">
+          <lb ed="#P" n="105"/>7. Tandem ex eo, quod ilJa visio sit 
+          intui<lb break="no" ed="#P" n="106"/>tiva et quod terminetur ad Deum, sicut est,
+          <lb ed="#P" n="107"/>non recte inferri videtur, quod sicut Deus in
+          <lb ed="#P" n="108"/>se est trinus, ita necessario debet videri 
+          tri<lb break="no" ed="#P" n="109"/>nus, quia non est de ratione visionis intuitivae
+          <lb ed="#P" n="110"/>ut videatur omnis modus, quem res habet a
+          <pb ed="#P" n="135"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>parte rei: nam <sic>doemon</sic> intuitive videt Christi
+          <lb ed="#P" n="2"/>humanitatem, non videt modum unionis, quem
+          <lb ed="#P" n="3"/>habet in Verbo: unde non licet colligere ; 
+          vi<lb break="no" ed="#P" n="4"/>det illam humanitatem, prout est in se, sed in
+          <lb ed="#P" n="5"/>se est unita Verbo, ergo videt unitatem. Cum
+          <lb ed="#P" n="6"/>enim dicitur res videri, prout in se est, 
+          dupli<lb break="no" ed="#P" n="7"/>citer id potest intelligi, primo ut videatur 
+          se<lb break="no" ed="#P" n="8"/>cundum omnem modum, quem in re habet,
+          <lb ed="#P" n="9"/>secundo, ut secundum id, quod videtur, ita sit
+          <lb ed="#P" n="10"/>hoc est, ut existat a parte rei, sicut videtur,
+          <lb ed="#P" n="11"/>seu a contrario, ut per visionem ita 
+          repraesen<lb break="no" ed="#P" n="12"/>tetur clare, sicut inre ipsa existit. Ad visionem
+          <lb ed="#P" n="13"/>ergo intuitivam satis est, quod videatur res,
+          <lb ed="#P" n="14"/>prout in se est in hoc posteriori sensu, ut patet
+          <lb ed="#P" n="15"/>ex adducto exemplo et quia nihil aliud videtur
+          <lb ed="#P" n="16"/>posse colligi ex ratione intuitionis. Atque haec
+          <lb ed="#P" n="17"/>videtur esse tota vis et probabilitas hujus 
+          opi<lb break="no" ed="#P" n="18"/>nionis.
+        </p>
+        <p xml:id="szduep-033963-d1e533">
+          <lb ed="#P" n="19"/>8. Secunda opinio.—Secunda opinio 
+          distin<lb break="no" ed="#P" n="20"/>guit inter notitiam apprehensivam et 
+          judicati<lb break="no" ed="#P" n="21"/>vam et de apprehensiva intuitiva negat posse
+          <lb ed="#P" n="22"/>videri essentiam sine personis propter rationes
+          <lb ed="#P" n="23"/>supra dictas inter referendam Scoti opinionem.
+          <lb ed="#P" n="24"/>De judicativa vero dicit fieri posse, ut 
+          cog<lb break="no" ed="#P" n="25"/>noscatur essentia sine personis, quia potest
+          <lb ed="#P" n="26"/>beatus judicare, Deum esse unum non 
+          adver<lb break="no" ed="#P" n="27"/>tendo , nec judicando, quomodo generet, et
+          <lb ed="#P" n="28"/>Deus potest concurrere ad unum, non 
+          concur<lb break="no" ed="#P" n="29"/>rendo ad aliud. Ita Sotus in 4, d. 49, p. 3,
+          <lb ed="#P" n="30"/>art. 3, conc. 2. Nonnulli Thomistae, licet non
+          <lb ed="#P" n="31"/>defendant hanc opinionem, dicunt esse 
+          proba<lb break="no" ed="#P" n="32"/>bilem. At profecto, si Sotus intelligeret illa
+          <lb ed="#P" n="33"/>duo posse separari in ipsa visione beatifica,
+          <lb ed="#P" n="34"/>improbabilis esset opinio, quia visio intrinsece
+          <lb ed="#P" n="35"/>est judicium de omnibus, quae videntur, ut 
+          su<lb break="no" ed="#P" n="36"/>pra ostensum est, et Sotus ipse fatetur ibidem,
+          <lb ed="#P" n="37"/>dicens, per visionem beatam necessario fieri 
+          ju<lb break="no" ed="#P" n="38"/>dicium de personis simul cum essentia. Ergo
+          <lb ed="#P" n="39"/>in assertione necesse est, ut loquatur de 
+          judi<lb break="no" ed="#P" n="40"/>cio per aliam cognitionem extra essentiam:
+          <lb ed="#P" n="41"/>et sic vera est sententia. Tamen distinctio
+          <lb ed="#P" n="42"/>etiam est impertinens, quia hoc modo potest
+          <lb ed="#P" n="43"/>dari notitia apprehensiva essentiae solius, sine
+          <lb ed="#P" n="44"/>personis, ut statim ipse docet.
+        </p>
+        <p xml:id="szduep-033963-d1e593">
+          <lb ed="#P" n="45"/>9. Dicit ergo tertia opinio, necessarium 
+          om<lb break="no" ed="#P" n="46"/>nino esse, ut visa essentia, videantur personae
+          <lb ed="#P" n="47"/>omnes, eodem modo, quo videtur essentia. Haec
+          <lb ed="#P" n="48"/>censetur opinio divi Thomae, 1 p., q. 12, art.
+          <lb ed="#P" n="49"/>1 ad 2 et 3, quamvis ibi solum loquatur de
+          <lb ed="#P" n="50"/>facto et absolute de Deo, quem dicit totum 
+          vi<lb break="no" ed="#P" n="51"/>deri, si videtur. At 3 p., q. 3, art. 3, dicit, de
+          <lb ed="#P" n="52"/>eo, qui cognoscit Deum sicuti est, nom posse
+          <lb ed="#P" n="53"/>circumscribere aliquid a Deo et loquitur de
+          <lb ed="#P" n="54"/>abstractione essentiae a personis, quamvis 
+          pro<lb break="no" ed="#P" n="55"/>babile sit, ibi loqui de abstractione negativa et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in sensu conditionato, ut ibi latius dixi. 
+          Cla<lb break="no" ed="#P" n="57"/>rius 2. 2, q. 2, art. 8, ad. 3, dicit non posse
+          <lb ed="#P" n="58"/>videri essentiam sine personis. Ubi Cajetanus
+          <lb ed="#P" n="59"/>late disputat contra Scotum. Eamdem 
+          opinio<lb break="no" ed="#P" n="60"/>nem sequitur Gabriel in 1, d. 1, q. 5, ubi
+          <lb ed="#P" n="61"/>refert Nominales: item Henricus quodlibet 2,
+          <lb ed="#P" n="62"/>q. 7, et quodlibet 3, q. 1, reliqui Scholastici
+          <lb ed="#P" n="63"/>in 3, d. 14, et in 4, d. 49, potius supponunt,
+          <lb ed="#P" n="64"/>quam disputent hanc sententiam, quae ut 
+          opi<lb break="no" ed="#P" n="65"/>nor, vera est.
+        </p>
+        <p xml:id="szduep-033963-d1e643">
+          <lb ed="#P" n="66"/>10. Prima conclusio. — Dico ergo primo.
+          <lb ed="#P" n="67"/>De facto certum est omnes beatos videre Deum
+          <lb ed="#P" n="68"/>trinum et unum, prout in se est. Haec est certa
+          <lb ed="#P" n="69"/>conclusio de fide, sub his enim terminis 
+          tradi<lb break="no" ed="#P" n="70"/>tur in Concilio Florentino in Liter. union. Et
+          <lb ed="#P" n="71"/>colligitur ex Scriptura et patribus, quos 
+          sta<lb break="no" ed="#P" n="72"/>tim referam. Nunc sufficiat illud 1, ad Corint.
+          <lb ed="#P" n="73"/>13: Videmus nunc per speculum in enigmate,
+          <lb ed="#P" n="74"/>tunc autem facie ad faciem. Ex quibus verbis
+          <lb ed="#P" n="75"/>intelligitur, visionem respondere fidei et ea
+          <lb ed="#P" n="76"/>esse clare videnda de Deo, quae in hac vita
+          <lb ed="#P" n="77"/>creduntur. Sicut ergo credimus distincte 
+          mys<lb break="no" ed="#P" n="78"/>terium Trinitatis, ita videbimus, unde est illud
+          <lb ed="#P" n="79"/>Joan. 17: Hoc est vita eterna, ut cognoscant
+          <lb ed="#P" n="80"/>te solum Dewn verum et quem misisti 
+          Jesum<lb break="no" ed="#P" n="81"/>Christum, juxta probabilem expositionem 
+          ali<lb break="no" ed="#P" n="82"/>quorum. Unde Nazianzenus, orat. 20, circa 
+          fi<lb break="no" ed="#P" n="83"/>nem, Bbeataum, inquit, Trinitatem pwrius, 
+          ple<lb break="no" ed="#P" n="84"/>niusque cernentes , etc., et orat. 23, cum
+          <lb ed="#P" n="85"/>processionem personarum explicuisset subdit:
+          <lb ed="#P" n="86"/>Quod si modum queeris, quid his relicturus es,
+          <lb ed="#P" n="87"/>quos solos amutuo se cognoscere atque cognosci,
+          <lb ed="#P" n="88"/>Scriptura sacra testatur , aut his etiam qui
+          <lb ed="#P" n="89"/>postea divinitus illuminabuntur ? fucprius opera
+          <lb ed="#P" n="90"/>eorwmn, ac tunc tantum cognosces, quantum hi
+          <lb ed="#P" n="91"/>mntuo a se ipsis cognoscuntur . Idem Athanasius,
+          <lb ed="#P" n="92"/>libro de JEterna substantia Patris et Filii contra
+          <lb ed="#P" n="93"/>Gregales Sabellii, et orat. contra Arianos, et in
+          <lb ed="#P" n="94"/>expositione fidei.
+        </p>
+        <p xml:id="szduep-033963-d1e708">
+          <lb ed="#P" n="95"/>11. Secunda conclusio.—bico secundo: Visio
+          <lb ed="#P" n="96"/>intuitiva essentiee divinee natura sua, et seclusis
+          <lb ed="#P" n="97"/>miraculis, necessario etiam est visio 
+          persona<lb break="no" ed="#P" n="98"/>rum. Hanc conclusionem non negat Scotus, sed
+          <lb ed="#P" n="99"/>eam potius supponit in dicta q. 2, S Quantum
+          <lb ed="#P" n="100"/>ad tertium ; potestque probari vulgari 
+          testimo<lb break="no" ed="#P" n="101"/>nio Joannis 14, ubi Philippo petenti : Ostende
+          <lb ed="#P" n="102"/>nobis Patrem, respondit Christus, tanto 
+          tempo<lb break="no" ed="#P" n="103"/>re voliscum sum et non cognovistis me * Plalippe
+          <lb ed="#P" n="104"/>qui videt me, videt et Patrem meum. Non credis
+          <lb ed="#P" n="105"/>quia ego in Patre et Pater in me est ? Quae verba
+          <lb ed="#P" n="106"/>aliqui exponunt de visione corporali , qua 
+          vi<lb break="no" ed="#P" n="107"/>debatur Christus in humanitate sua , quae per
+          <lb ed="#P" n="108"/>communicationem idiomatum erat visio Dei.
+          <lb ed="#P" n="109"/>Quae expositio mihi probari non potest : nam
+          <lb ed="#P" n="110"/>licet de ea visione potuisset dicere Christus,
+          <pb ed="#P" n="136"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Qui videt me, videt Deum , non tamen proprie
+          <lb ed="#P" n="2"/>dicere : Videt et Patrem , quia ea quae per
+          <lb ed="#P" n="3"/>communicationem idiomatum tribuuntur 
+          Deo<lb break="no" ed="#P" n="4"/>ratione humanitatis assumptae, non possunt
+          <lb ed="#P" n="5"/>vere de Patre praedicari : sicut esset falsa haec
+          <lb ed="#P" n="6"/>locutio. Qui Christum interficit, interficit et
+          <lb ed="#P" n="7"/>Patrem.
+        </p>
+        <p xml:id="szduep-033963-d1e765">
+          <lb ed="#P" n="8"/>12. Secunda expositio. — Secunda expositio
+          <lb ed="#P" n="9"/>est, ut intelligatur de visione per fidem, quia
+          <lb ed="#P" n="10"/>qui credit in Christum, necesse est, ut credat
+          <lb ed="#P" n="11"/>in Patrem. Hanc significat Tertullianus, libro
+          <lb ed="#P" n="12"/>contra Praceam, capite tertio decimo, ubi sic
+          <lb ed="#P" n="13"/>expontt : Qui videt me, et verba et opera et 
+          pree<lb break="no" ed="#P" n="14"/>cepta credit, necesse est, ut videndo me, id est,
+          <lb ed="#P" n="15"/>divinitatem meam, per fidem, videat etiam et 
+          Pa<lb break="no" ed="#P" n="16"/>trem, quia Pater in ne manens ipse facit opera.
+          <lb ed="#P" n="17"/>À qua expositione non multum discrepant 
+          Cyril<lb break="no" ed="#P" n="18"/>lus, lib. 9 in Joann., cap. 38 et 39, 
+          Chrysosto<lb break="no" ed="#P" n="19"/>mus, homil. 73, in Joann. Estque probabilis
+          <lb ed="#P" n="20"/>expositio, sed per illam non excluditur sequens
+          <lb ed="#P" n="21"/>expositio, cum et verba et ratio Christi 
+          propris<lb break="no" ed="#P" n="22"/>sime illi accommodentur et contextus non 
+          re<lb break="no" ed="#P" n="23"/>pugnet.
+        </p>
+        <p xml:id="szduep-033963-d1e802">
+          <lb ed="#P" n="24"/>13. Tertia expositio. — Tertia ergo 
+          exposi<lb break="no" ed="#P" n="25"/>tio est de clara visione intellectuali. Tamen,
+          <lb ed="#P" n="26"/>inquit Scotus, illis verbis solum affirmari non
+          <lb ed="#P" n="27"/>posse unam personam videri sine sua 
+          correla<lb break="no" ed="#P" n="28"/>tiva, quod ipse non negat, sed animadvertere
+          <lb ed="#P" n="29"/>oportet ad rationem, quam Christus subdit,
+          <lb ed="#P" n="30"/>non enim fundat illam comitantiam 
+          persona<lb break="no" ed="#P" n="31"/>rum respectu visionis in oppositione relativa,
+          <lb ed="#P" n="32"/>sed in unitate essentiae, hoc enim significant
+          <lb ed="#P" n="33"/>illa verba: IVon credis, quia ego in Patre et
+          <lb ed="#P" n="34"/>Pater in me est? Ex quibus aequalitatem 
+          perso<lb break="no" ed="#P" n="35"/>narum simul cum earum distinctione colligunt,
+          <lb ed="#P" n="36"/>Athanasius, Chrysostomus, Cyrillus et 
+          Tertul<lb break="no" ed="#P" n="37"/>lianus, locis ctatis, et alii, quos referam ; ergo
+          <lb ed="#P" n="38"/>docuit Christus ex unitate essentiae necessario
+          <lb ed="#P" n="39"/>sequi, ut videantur personae.
+        </p>
+        <p xml:id="szduep-033963-d1e839">
+          <lb ed="#P" n="40"/>14. Sed aiunt quidam, ex dictis verbis, etiam
+          <lb ed="#P" n="41"/>de visione clara intellectis, solum colligi, quod
+          <lb ed="#P" n="42"/>visa essentia videantur Pater et Filius, ut sunt
+          <lb ed="#P" n="43"/>unus Deus, non vero secundum proprietates,
+          <lb ed="#P" n="44"/>in quibus distinguuntur. Sed haec expositio
+          <lb ed="#P" n="45"/>non consonat verbis Christi, nec sanctorum
+          <lb ed="#P" n="46"/>interpretationi, qui ex hoc loco colligunt 
+          dis<lb break="no" ed="#P" n="47"/>tinctionem personarum. Nam qui videret hunc
+          <lb ed="#P" n="48"/>Deum ut subsistentem in Deitate praecise et
+          <lb ed="#P" n="49"/>non videret proprietates relativas, ut sic, 
+          re<lb break="no" ed="#P" n="50"/>vera nec Patrem, nec Filium videret, nam qui
+          <lb ed="#P" n="51"/>non videt formam constituentem, neque 
+          cons<lb break="no" ed="#P" n="52"/>titutum videre potest : Christus autem loquitur
+          <lb ed="#P" n="53"/>de visione Patris et Filii ; Nam Philippus 
+          pro<lb break="no" ed="#P" n="54"/>priam personam Patris videre cupiebat. Sensus
+          <lb ed="#P" n="55"/>ergo verborum Christi est : Qui videt me se-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cundum divinitatem meam, videt et Patrem,
+          <lb ed="#P" n="57"/>quia licet 1 ipse sit a me distinctus, tamen ego in 
+          <lb ed="#P" n="58"/>ipso, et ipse in me est per naturae identitatem.
+        </p>
+        <p xml:id="szduep-033963-d1e886">
+          <lb ed="#P" n="59"/>15. Sed objicitur, quia Philippus non 
+          pete<lb break="no" ed="#P" n="60"/>bat visionem divinitatis, imo nihil aliud, quamm
+          <lb ed="#P" n="61"/>divisione corporali cogitabat: sicut enim 
+          vi<lb break="no" ed="#P" n="62"/>debat Christum, ita Patrem videre cupiebat;
+          <lb ed="#P" n="63"/>nam si visionem divinitatis desideraret, potius
+          <lb ed="#P" n="64"/>diceret: Ostende nobis te. Tamen de Christi 
+          vi<lb break="no" ed="#P" n="65"/>sione non erat sollicitus, quia jam illum satis
+          <lb ed="#P" n="66"/>videbat, oculis scilicet corporeis; ergo eodem
+          <lb ed="#P" n="67"/>modo volebat videre Patrem, vel quia de illo
+          <lb ed="#P" n="68"/>etiam corporaliter cogitabat, vel certe quia in
+          <lb ed="#P" n="69"/>specie aliqua visibili illum cognoscere 
+          cupie<lb break="no" ed="#P" n="70"/>bat, vel, ad summum, petebat dari sibi 
+          ali<lb break="no" ed="#P" n="71"/>quam notitiam Patris, quia quis esset non 
+          scie<lb break="no" ed="#P" n="72"/>bat. Et hoc modo interpretantur Patres illam
+          <lb ed="#P" n="73"/>Philippi petitionem. Ergo nec Christus in sua
+          <lb ed="#P" n="74"/>responsione de visione beatifica tractat, sed de
+          <lb ed="#P" n="75"/>cognitione per doctrinam suam et fidem; nam 
+          <lb ed="#P" n="76"/>ex doctrina, et operibus ejus cognoscere jam
+          <lb ed="#P" n="77"/>poterat Philippus ipsum esse Deum , et non
+          <lb ed="#P" n="78"/>alium, quam Deum, Patrem suum vocare, quia
+          <lb ed="#P" n="79"/>est ejusdem naturae cum ipso. Et hoc est quod
+          <lb ed="#P" n="80"/>Christus subdit: Non credis, quia ego in Patre
+          <lb ed="#P" n="81"/>et Pater in me est.
+        </p>
+        <p xml:id="szduep-033963-d1e938">
+          <lb ed="#P" n="82"/>16. Enodaiur objectio. — Ego admitto et
+          <lb ed="#P" n="83"/>quidem verisimilius esse credo , Philippum
+          <lb ed="#P" n="84"/>non cogitasse de visione divinitatis , atque
+          <lb ed="#P" n="85"/>beata, sed solum desiderasse majorem 
+          noti<lb break="no" ed="#P" n="86"/>tiam de Patre, quia non intelligebat, quisnam
+          <lb ed="#P" n="87"/>esset ille Pater, de quo Christus loquebatur,
+          <lb ed="#P" n="88"/>ut Augustinus notat, epistola 112, cap. 6, et
+          <lb ed="#P" n="89"/>aliis locis statim citandis : nihilominus tamen
+          <lb ed="#P" n="90"/>nego, Christum non fuisse locutum de omni
+          <lb ed="#P" n="91"/>propria et distincta cognitione Patris et Filii,
+          <lb ed="#P" n="92"/>sive per fidem, sive per speciem , ut attigit
+          <lb ed="#P" n="93"/>Maldonatus , qui hunc locum magna cum
+          <lb ed="#P" n="94"/>brevitate subtiliter et utiliter tractat. Solet
+          <lb ed="#P" n="95"/>enim Christus occasione arrepta ex rudi 
+          al<lb break="no" ed="#P" n="96"/>terius interrogatione, magna fidei mysteria
+          <lb ed="#P" n="97"/>declarare. Atque ita locum illum exposuerunt
+          <lb ed="#P" n="98"/>communiter Patres, Chrysostomus, Cyrillus,
+          <lb ed="#P" n="99"/>locis citatis, et latius Hilarius 7, de Trinitate,
+          <lb ed="#P" n="100"/>circa finem, sic etiam Nazianzenus, orat. 49,
+          <lb ed="#P" n="101"/>de fide, Von immerito, inquit, qui Filium videt,
+          <lb ed="#P" n="102"/>videt et Patrem, quia unitate substantiee et
+          <lb ed="#P" n="103"/>majestate divinitatis umun sunt, Augustinus,
+          <lb ed="#P" n="104"/>tractatu 70, in Joan., ad Philippum inquit, cu
+          <lb ed="#P" n="105"/>inseparabiles separatim desideras nosse? Et 1
+          <lb ed="#P" n="106"/>de Trinitate, cap. S, dicit, quod Philippus 
+          non<lb break="no" ed="#P" n="107"/>dum intellexerat, sicut dixit : Ostende nobis
+          <lb ed="#P" n="108"/>Patrem et sufficit nobis, ita potuisse dicere,
+          <lb ed="#P" n="109"/>ostende nobis te et sufficit nobis, ut enim hoc
+          <lb ed="#P" n="110"/>intelligeret, responsum ei a Domino est. Tanto
+          <pb ed="#P" n="137"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tempore vobiscum sum, et cetera. Idem in 
+          enar<lb break="no" ed="#P" n="2"/>ratione Ps. 84, circa illud : Ostende nobis,
+          <lb ed="#P" n="3"/>JADomdüine, anisericordiam tuam et in Ps. 85, circa
+          <lb ed="#P" n="4"/>illud : Aespice in me, ubi hunc locum tractans,
+          <lb ed="#P" n="5"/>et illam Joannis 17: Howec est vita eeterna, et
+          <lb ed="#P" n="6"/>ccetera, coneludit : Patris et Filii separari non
+          <lb ed="#P" n="7"/>i potest visio, ubi non separatur natura et 
+          sub<lb break="no" ed="#P" n="8"/>stantia. Idem, epist.112, cap. 4, ubi dicit, 
+          Chris<lb break="no" ed="#P" n="9"/>tum dixisse illa verba, propter unitatem Dei
+          <lb ed="#P" n="10"/>Patris et Filii, ac denique, libro Quaestionum
+          <lb ed="#P" n="11"/>novi Testamenti, quaest. 43, Per id, inquit,
+          <lb ed="#P" n="12"/>quod wunwn in substantia sunt, qui unwm videt,
+          <lb ed="#P" n="13"/>ambos videt.
+        </p>
+        <p xml:id="szduep-033963-d1e1036">
+          <lb ed="#P" n="14"/>17. Ratione probatur conclusio. — Secundo
+          <lb ed="#P" n="15"/>principaliter probatur ratione conclusio, et 
+          im<lb break="no" ed="#P" n="16"/>primis contemnenda non sunt omnia, quae 
+          in<lb break="no" ed="#P" n="17"/>sinuata sunt, referendo opinionemScoti. Primo
+          <lb ed="#P" n="18"/>quidem, quia negari non potest, quin natura
+          <lb ed="#P" n="19"/>visionis intuitive sit, ut per eam videatur res,
+          <lb ed="#P" n="20"/>quomodo est, et secundum conditiones 
+          exi<lb break="no" ed="#P" n="21"/>stentiae, quas a parte rei habet, ut sit in 
+          crea<lb break="no" ed="#P" n="22"/>turis, considerata natura visionis intuitive, et
+          <lb ed="#P" n="23"/>seclusis miraculis : sed illa visio Dei est 
+          per<lb break="no" ed="#P" n="24"/>fecte intuitiva, et modus existendi divinitatis
+          <lb ed="#P" n="25"/>est in tribus personis; ergo ex natura talis
+          <lb ed="#P" n="26"/>visionis non impeditae, necesse est haec omnia
+          <lb ed="#P" n="27"/>videri. Secundo etiam hoc persuadet ratio illa
+          <lb ed="#P" n="28"/>de identitate, nam per sese est valde verisimile,
+          <lb ed="#P" n="29"/>ea, quae in re non distinguuntur, neque ex
+          <lb ed="#P" n="30"/>natura rei, simul necessario videri, quando
+          <lb ed="#P" n="31"/>videntur, prout in se sunt. Potestque in hunc
+          <lb ed="#P" n="32"/>modum urgeri, nam qui concipit rem, prout
+          <lb ed="#P" n="33"/>in se est, concipit illam secundum propriam
+          <lb ed="#P" n="34"/>rationem formalem, quam in re habet, ergo
+          <lb ed="#P" n="35"/>si in illa ratione formali essentia et relatio
+          <lb ed="#P" n="36"/>sunt idem, necesse est ex natura rei, ut visa
+          <lb ed="#P" n="37"/>una videatur alia.
+        </p>
+        <p xml:id="szduep-033963-d1e1091">
+          <lb ed="#P" n="38"/>18. Tertio addi potest, quod essentia et 
+          re<lb break="no" ed="#P" n="39"/>latio non solum sunt idem, sed ita sunt inter
+          <lb ed="#P" n="40"/>se connexae, ut essentia ex vi suae rationis 
+          es<lb break="no" ed="#P" n="41"/>sentialis petat terminari per relationes; ergo
+          <lb ed="#P" n="42"/>non potest videri essentia secundum omnia
+          <lb ed="#P" n="43"/>praedicata essentialia, quin simul videantur
+          <lb ed="#P" n="44"/>relationes. Explicatur consequentia, quia unum
+          <lb ed="#P" n="45"/>ex his praedicatis essentialibus est, quod illa
+          <lb ed="#P" n="46"/>essenuia sit infinita et ita fecunda, ut postulet
+          <lb ed="#P" n="47"/>communicari tribus : unde sicut non potest 
+          vi<lb break="no" ed="#P" n="48"/>deri persona, quin videatur incommunicabilis,
+          <lb ed="#P" n="49"/>ita e contrario, non potest videri illa natura,
+          <lb ed="#P" n="50"/>quin videatur communicabilis tribus personis,
+          <lb ed="#P" n="51"/>et in particulari his tribus, quia natura sua non
+          <lb ed="#P" n="52"/>est aliis communicabilis; illa autem 
+          communi<lb break="no" ed="#P" n="53"/>cabilitas est omnino actualis in tali natura;
+          <lb ed="#P" n="54"/>ergo cum visione talis naturae necessario est
+          <lb ed="#P" n="55"/>conjuncta visio trium personarum, quia illa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>communicabilitas non potest concipi sine suo
+          <lb ed="#P" n="57"/>termino.
+        </p>
+        <p xml:id="szduep-033963-d1e1139">
+          <lb ed="#P" n="58"/>19. Tertia conclusio. —Dico tertio fieri non
+          <lb ed="#P" n="59"/>posse, etiam per potentiam Dei absolutam ut
+          <lb ed="#P" n="60"/>videatur clare et intuitive divina essentia, non
+          <lb ed="#P" n="61"/>visis eodem modo dirvinis relationibus. Ratio
+          <lb ed="#P" n="62"/>hujus assertionis communiter assignatur ex
+          <lb ed="#P" n="63"/>sola identitate inter essentiam et relationes,
+          <lb ed="#P" n="64"/>quia impossibile est videre aliquid prout est in
+          <lb ed="#P" n="65"/>se et non videre, quidquid est idem cum illo.
+          <lb ed="#P" n="66"/>Quia si essentia divina videtur, prout est in se,
+          <lb ed="#P" n="67"/>ergo non aliter apparet in mente beati quam
+          <lb ed="#P" n="68"/>sit in se, sed in se non distinguitur a personis,
+          <lb ed="#P" n="69"/>ergo necesse est, ut videatur non distincta a
+          <lb ed="#P" n="70"/>personis : nam si cognosceretur, ut distincta,
+          <lb ed="#P" n="71"/>jam non proprio conceptu, nec prout in seest,
+          <lb ed="#P" n="72"/>cognosceretur. Sed hoc non videtur cogere,
+          <lb ed="#P" n="73"/>tum quia licet videretur essentia non visis 
+          per<lb break="no" ed="#P" n="74"/>sonis, non videretur aliter quam sit, sed solum
+          <lb ed="#P" n="75"/>non videretur omni modo quo est, quod est
+          <lb ed="#P" n="76"/>longe diversum. Tum etiam quia licet 
+          videre<lb break="no" ed="#P" n="77"/>tur essentia sine personis, non videretur, ut
+          <lb ed="#P" n="78"/>distincta, quia aliud est videre praescindendo
+          <lb ed="#P" n="79"/>in mente, aliud distinguendo : qui ergo sic
+          <lb ed="#P" n="80"/>videret, non judicaret essentiam et relationes
+          <lb ed="#P" n="81"/>esse distinctas, sed solum videret essentiam et
+          <lb ed="#P" n="82"/>ibi sisteret, nihil de identitate, vel distinctione
+          <lb ed="#P" n="83"/>judicando. Igitur licet ex identitate adaequata
+          <lb ed="#P" n="84"/>optimum fiat argumentum, tamen supposito
+          <lb ed="#P" n="85"/>Trinitatis mysterio, et quod non obstante illa
+          <lb ed="#P" n="86"/>identitate essentia ut est in se, datur Filio a
+          <lb ed="#P" n="87"/>Patre, non data relatione, non videtur satis
+          <lb ed="#P" n="88"/>convincens argumentum ex sola identitate
+          <lb ed="#P" n="89"/>quasi in adaequata inter essentiam et 
+          relatio<lb break="no" ed="#P" n="90"/>nem, nisi ex peculari ratione visionis intuitivae
+          <lb ed="#P" n="91"/>magis explicetur ratio.
+        </p>
+        <p xml:id="szduep-033963-d1e1215">
+          <lb ed="#P" n="92"/>20. Explicatur.—Ad hoc ergo explicandum
+          <lb ed="#P" n="93"/>hoc utor discursu, quia si videri posset 
+          essen<lb break="no" ed="#P" n="94"/>tia sine relationibus, aut illud esset per 
+          eam<lb break="no" ed="#P" n="95"/>dem visionem, quam beati nunc habent, 
+          fa<lb break="no" ed="#P" n="96"/>ciente Deo, ut repraesentet essentiam et non
+          <lb ed="#P" n="97"/>personas, vel per aliam visionem distinctam
+          <lb ed="#P" n="98"/>ab ea, quae nunc est. Neutrum autem dici 
+          po<lb break="no" ed="#P" n="99"/>test, ut ostendam. Priorem itaque modum 
+          vi<lb break="no" ed="#P" n="100"/>detur insinuasse Scotus in secunda ratione sua.
+          <lb ed="#P" n="101"/>Sed apparet plane impossibile, quod illa visio
+          <lb ed="#P" n="102"/>sit, quin formaliter faciat videre omnia, quae
+          <lb ed="#P" n="103"/>nunc repraesentat. Quia in illa nihil aliud est
+          <lb ed="#P" n="104"/>repraesentare, quam esse quamdam formam et
+          <lb ed="#P" n="105"/>actum ultimum, qui formaliter facit rem 
+          co<lb break="no" ed="#P" n="106"/>gnoscere, prout in se est; ergo si illa visio ex
+          <lb ed="#P" n="107"/>natura sua habet conferre hunc effectum 
+          for<lb break="no" ed="#P" n="108"/>malem, qui est repraesentare essentiam et 
+          per<lb break="no" ed="#P" n="109"/>sonas, impossibile est, quod illa visio maneat
+          <lb ed="#P" n="110"/>in intellectu, et informet illum, quin ei con
+          <pb ed="#P" n="138"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ferat hunc formalem effectum. Quia 
+          impossi<lb break="no" ed="#P" n="2"/>bile. est impedire effectum formalem formae
+          <lb ed="#P" n="3"/>actu inhaerentis et informantis, sicut in eadem
+          <lb ed="#P" n="4"/>visione impossibile esset, manere in intellectu,
+          <lb ed="#P" n="5"/>et per illam nihil videre.
+        </p>
+        <p xml:id="szduep-033963-d1e1275">
+          <lb ed="#P" n="6"/>21. Objectio. — Enervatur. — Dices, fieri
+          <lb ed="#P" n="7"/>posse, ut maneat illa visio, non in totum in se
+          <lb ed="#P" n="8"/>immnutata, sed ex parte diminuta, et ideo 
+          ma<lb break="no" ed="#P" n="9"/>nere posse repraesentando essentiam et non
+          <lb ed="#P" n="10"/>personas, quia potest ab illa auferri id, quo
+          <lb ed="#P" n="11"/>repraesentabat personas, et relinqui id quo 
+          re<lb break="no" ed="#P" n="12"/>praesentabat essentiam. Sed hoc non recte 
+          di<lb break="no" ed="#P" n="13"/>citur, quia illa visio per eamdem entitatem
+          <lb ed="#P" n="14"/>omnino indivisibiliter repraesentat essentiam,
+          <lb ed="#P" n="15"/>et personas ex natura sua, et ideo non potest
+          <lb ed="#P" n="16"/>unum auferri, manente alio, quia in ipso actu
+          <lb ed="#P" n="17"/>sunt omnino et adaequate idem. Et hoc 
+          pro<lb break="no" ed="#P" n="18"/>bant rationes facti in praecedentae conclusione.
+          <lb ed="#P" n="19"/>Et explicatur amplius, quia si in actu visionis
+          <lb ed="#P" n="20"/>aliud est, quo repraesentatur natura et aliud,
+          <lb ed="#P" n="21"/>quo repraesentatur relatio, ita ut illa duo sint
+          <lb ed="#P" n="22"/>separabilia a parte rei et possit unum manere,
+          <lb ed="#P" n="23"/>alio destructo, necesse est, ut in re 
+          distinguan<lb break="no" ed="#P" n="24"/>tur aliquo modo; ergo vel comparabuntur ad
+          <lb ed="#P" n="25"/>actum ut duo gradus intentionis, vel ut duae
+          <lb ed="#P" n="26"/>entitates partiales, integrantes eumdem actum
+          <lb ed="#P" n="27"/>per modum extensionis in ordine ad objectum.
+          <lb ed="#P" n="28"/>(Hanc enim compositionem multi ponunt in
+          <lb ed="#P" n="29"/>actibus intellectus et voluntatis). Nec praeter
+          <lb ed="#P" n="30"/>hos modos hactenus excogitatum est aliud 
+          ge<lb break="no" ed="#P" n="31"/>nus compositionis, vel additionis entitativae in
+          <lb ed="#P" n="32"/>actibus vel habitibus.
+        </p>
+        <p xml:id="szduep-033963-d1e1336">
+          <lb ed="#P" n="33"/>22. Si ergo dicatur primum, sequitur 
+          visio<lb break="no" ed="#P" n="34"/>nem intuitivam essentiee et personarum ita
+          <lb ed="#P" n="35"/>esse a nobis concipiendam, quod visio remissa,
+          <lb ed="#P" n="36"/>v. g., ut quatuor, sufficiat ad videndam 
+          essen<lb break="no" ed="#P" n="37"/>tiam praecise, non personas, addito vero uno
+          <lb ed="#P" n="38"/>gradu, vel duobus sufficiat etiam ad personas
+          <lb ed="#P" n="39"/>videndas, et ideo e contrario fieri posse, ut
+          <lb ed="#P" n="40"/>ablato illo gradu, et remittendo visionem, 
+          pos<lb break="no" ed="#P" n="41"/>sit manere visio essentiae sine visione 
+          perso<lb break="no" ed="#P" n="42"/>narum. Sed hic modus est falsus et 
+          impossibi<lb break="no" ed="#P" n="43"/>lis, quia si illa visio remissa usque ad illum
+          <lb ed="#P" n="44"/>gradum adhuc est intuitiva cognitio et 
+          quid<lb break="no" ed="#P" n="45"/>ditativa divinae essentiae, ergo illa ut sic et
+          <lb ed="#P" n="46"/>absque ulteriori intentione habet ex natura sua
+          <lb ed="#P" n="47"/>repraesentare essentiam et personas in tali 
+          cla<lb break="no" ed="#P" n="48"/>ritatis gradu. Quia de illa procedunt rationes
+          <lb ed="#P" n="49"/>omnes factae in secunda conclusione, quae non
+          <lb ed="#P" n="50"/>fundantur, nisi in ratione intuitivae 
+          cognitio<lb break="no" ed="#P" n="51"/>nis, quatenus talis est. Item ille gradus, quo
+          <lb ed="#P" n="52"/>-addito dicuntur videri personae, et quo ablato
+          <lb ed="#P" n="53"/>dicuntur non videri, necesse est, ut 
+          repraesen<lb break="no" ed="#P" n="54"/>tet relationes et essentiam, quia essentia 
+          in<lb break="no" ed="#P" n="55"/>time includitur et essentialiter in ipsis rela-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tionibus, prout in se sunt, ergo non potest eas
+          <lb ed="#P" n="57"/>repraesentare, non repraesentando essentiam; 
+          <lb ed="#P" n="58"/>ergo eadem ratione caeteri gradus in sua Jai
+          <lb ed="#P" n="59"/>tudine et in suo claritatis gradu 
+          repraesenta<lb break="no" ed="#P" n="60"/>bunt omnia. Denique cum intensio solum 
+          con<lb break="no" ed="#P" n="61"/>feratur ad majorem, vel minorem claritatem,
+          <lb ed="#P" n="62"/>et tota sit ejusdem rationis in ordine ad 
+          ob<lb break="no" ed="#P" n="63"/>jectum, solumque sit diversitas inter gradus 
+          <lb ed="#P" n="64"/>in ordine ad subjectum, quatenus unus alium
+          <lb ed="#P" n="65"/>supponit, non potest intelligi, quod propter
+          <lb ed="#P" n="66"/>solam remissionem, vel intensionem, idem
+          <lb ed="#P" n="67"/>actus manifestet, aut non manifestet personas.
+          <lb ed="#P" n="68"/>Atque hinc facile excludi potest alia pars de
+          <lb ed="#P" n="69"/>augmento, vel diminutione actus per modum
+          <lb ed="#P" n="70"/>extensionis. Primo, quia quaelibet pars talis
+          <lb ed="#P" n="71"/>actus est intuitiva visio essentiae, et ideo 
+          na<lb break="no" ed="#P" n="72"/>tura sua repraesentat totum objectum, prout
+          <lb ed="#P" n="73"/>est in se: secundo, quia infra ostendam 
+          hu<lb break="no" ed="#P" n="74"/>jusmodi compositionem ex partialibus 
+          entita<lb break="no" ed="#P" n="75"/>tibus per modum extensionis non habere 
+          lo<lb break="no" ed="#P" n="76"/>cum in visione beata.
+        </p>
+        <p xml:id="szduep-033963-d1e1436">
+          <lb ed="#P" n="77"/>23. Quod si quis tandem eligat alteram 
+          par<lb break="no" ed="#P" n="78"/>tem, scilicet posse essentiam videri sine 
+          per<lb break="no" ed="#P" n="79"/>sonis per visionem alterius rationis ab ea, qua
+          <lb ed="#P" n="80"/>nunc Deus videtur: in primis non potest hoc
+          <lb ed="#P" n="81"/>intelligi de visione alterius speciei ; nam supra
+          <lb ed="#P" n="82"/>ostensum est non posse in illa visione esse 
+          spe<lb break="no" ed="#P" n="83"/>cificam diversitatem, vel saltem nos non 
+          ha<lb break="no" ed="#P" n="84"/>bere, unde illam sumamus, cum objectum
+          <lb ed="#P" n="85"/>proprium et modus attingendi illud semper
+          <lb ed="#P" n="86"/>idem sit ei lumen gloriae videatur esse in 
+          su<lb break="no" ed="#P" n="87"/>premo gradu intellectualis luminis creati, quod
+          <lb ed="#P" n="88"/>a nobis concipi potest. Deinde loquendo de 
+          di<lb break="no" ed="#P" n="89"/>versitate numerica, vix intelligitur solam 
+          il<lb break="no" ed="#P" n="90"/>lam sufficere ad constituendam tantam 
+          diver<lb break="no" ed="#P" n="91"/>sitatem in actibus, ut unus ex natura sua
+          <lb ed="#P" n="92"/>habeat repraesentare essentiam, cum 
+          relatio<lb break="no" ed="#P" n="93"/>nibus: alus vero praescindendo ab illis. Sed
+          <lb ed="#P" n="94"/>praecipue urget hic illa ratio, quia illa visio
+          <lb ed="#P" n="95"/>cujuscumquemodi et rationis fingatur, est ex
+          <lb ed="#P" n="96"/>natura sua quidditativa et intuitiva cognitio
+          <lb ed="#P" n="97"/>essentiae, quia alias non esset visio, de qua
+          <lb ed="#P" n="98"/>agimus; ergo necesse est, ut ex natura sua 
+          re<lb break="no" ed="#P" n="99"/>praesentet essentiam cum identitate et intima
+          <lb ed="#P" n="100"/>conjunctione, quam habet cum relationibus.
+          <lb ed="#P" n="101"/>hationes enim adductae in secunda conclusione
+          <lb ed="#P" n="102"/>fundatur in natura intuitivae visionis ut sic, et 
+          <lb ed="#P" n="103"/>ideo nihil refert, quod fingatur hujus, vel 
+          il<lb break="no" ed="#P" n="104"/>lius rationis quasi materialis, dummodo illam
+          <lb ed="#P" n="105"/>formalem rationem retineat. Itaque summa
+          <lb ed="#P" n="106"/>totius rationis est, quia non potest fieri visio
+          <lb ed="#P" n="107"/>clara et intuitiva Dei, quin natura sua 
+          reprae<lb break="no" ed="#P" n="108"/>sent et totum Deum trinum et uuum ,hoc autem
+          <lb ed="#P" n="109"/>quod natura sua habet, impediri nono potest, si 
+          <lb ed="#P" n="110"/>talis visio intellectum actuet, ergo nullo modo
+          <pb ed="#P" n="139"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fieri potest, ut unum sine alio videatur. Unde
+          <lb ed="#P" n="2"/>non habet hic locum, quod dicit solet, Deum
+          <lb ed="#P" n="3"/>posse concurrere cum visione, ut manifestet
+          <lb ed="#P" n="4"/>essentiam, non amplius: nam illa manifestatio
+          <lb ed="#P" n="5"/>est in genere causae formalis, unde non indiget
+          <lb ed="#P" n="6"/>novo concursu, nec dividi, aut impediri potest.
+        </p>
+        <p xml:id="szduep-033963-d1e1530">
+          <lb ed="#P" n="7"/>24. Respondetur superius positae difficultati.
+          <lb ed="#P" n="8"/>— Superest respondere ad difficultatem supra
+          <lb ed="#P" n="9"/>positam, cur divinitas possit communicari 
+          rea<lb break="no" ed="#P" n="10"/>liter non communicata relatione, non possit
+          <lb ed="#P" n="11"/>autem videri non visa relatione. Aliqui 
+          respon<lb break="no" ed="#P" n="12"/>dent ad primum non esse necessariam 
+          distinc<lb break="no" ed="#P" n="13"/>tionem actualem in re, inter essentiam et 
+          re<lb break="no" ed="#P" n="14"/>lationes: ad secundum autem esse necessariam.
+          <lb ed="#P" n="15"/>Sed hoc ipsum negat Scotus, illiusque rationem
+          <lb ed="#P" n="16"/>postulamus. Ratio ergo et differentia inter 
+          com<lb break="no" ed="#P" n="17"/>municationem et visionem assignari potest 
+          du<lb break="no" ed="#P" n="18"/>plex: prima, quia communicatio est proprietas
+          <lb ed="#P" n="19"/>realis ipsius naturae quae in re ipsa convenit
+          <lb ed="#P" n="20"/>illi, ratione suae infinitatis ex qua habet, quod
+          <lb ed="#P" n="21"/>identificari possit omnibus relationibus quae
+          <lb ed="#P" n="22"/>cum ipsa non habent oppositionem, quamvis
+          <lb ed="#P" n="23"/>inter se illam habeant. Unde etiam habet quod
+          <lb ed="#P" n="24"/>possit in re omnino identificari cum aliqua 
+          re<lb break="no" ed="#P" n="25"/>latione, licet non adaequate convertatur cum
+          <lb ed="#P" n="26"/>illa; id est, quamvis non distinguatur ab omni
+          <lb ed="#P" n="27"/>illo a quo illa distinguitur. At vero videri 
+          con<lb break="no" ed="#P" n="28"/>venit essentiae per actum extrinsecum visionis,
+          <lb ed="#P" n="29"/>et ideo quod possit vel non possit videri sine 
+          per<lb break="no" ed="#P" n="30"/>sonis, non est regulandum ex infinitate ipsius
+          <lb ed="#P" n="31"/>essentiae, sed ex natura et proprietate talis 
+          visio<lb break="no" ed="#P" n="32"/>nis, in qua omnino eadem entitas est, qua 
+          for<lb break="no" ed="#P" n="33"/>maliter repraesentatur essentia prout in seest,
+          <lb ed="#P" n="34"/>et qua repraesentantur relationes, et ideo a tali
+          <lb ed="#P" n="35"/>visione nonest separabile unum, manente alio.
+          <lb ed="#P" n="36"/>25. Secunda ratio est, quia communicatio
+          <lb ed="#P" n="37"/>seu realis unio, quae ordinatur ad subsistendum
+          <lb ed="#P" n="38"/>vel constituendum ens, non habet eamdem 
+          con<lb break="no" ed="#P" n="39"/>nexionem cum omnibus alis rebus, ad quas
+          <lb ed="#P" n="40"/>talis res dicit habitudinem, at vero cognitio
+          <lb ed="#P" n="41"/>propria et intuitiva habet connexionem cum
+          <lb ed="#P" n="42"/>illis. Exemplo declaratur in ipsismet 
+          relationi<lb break="no" ed="#P" n="43"/>bus, quamvis enim paternitas et filiatio creatae
+          <lb ed="#P" n="44"/>habeant inter se habitudinem, nihilominus 
+          ali<lb break="no" ed="#P" n="45"/>cui personae unitur paternitas cui non unitur
+          <lb ed="#P" n="46"/>filiatio, quia illa unio tantum est ad 
+          constituen<lb break="no" ed="#P" n="47"/>dum seu componendum: at vero in ordine ad
+          <lb ed="#P" n="48"/>cognitionem ita sunt connexae, ut una non 
+          pos<lb break="no" ed="#P" n="49"/>sit sine alia cognosci: et ideo etiam proprietas
+          <lb ed="#P" n="50"/>Filii Dei potuit uniri naturae humanae, non
+          <lb ed="#P" n="51"/>unita paternitate, licet sine paternitate videri
+          <lb ed="#P" n="52"/>non possit, etiam secundum Scotum. Cujus
+          <lb ed="#P" n="53"/>non potest esse alia ratio, nisi quia priori modo
+          <lb ed="#P" n="54"/>unitur quasi in ordine ad se tantum, prout est
+          <lb ed="#P" n="55"/>ratio subsistendi; visio autem propria necessa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rio attingit illam secundum habitudinem ad
+          <lb ed="#P" n="57"/>alium. Et quia hoc est intrinsecum et 
+          connatu<lb break="no" ed="#P" n="58"/>rale visioni, est prorsus inseparabile ab illa, ut
+          <lb ed="#P" n="59"/>explicatum est. Atque hoc modo videtur 
+          satis<lb break="no" ed="#P" n="60"/>factum difficultatibus positis, quantum materia
+          <lb ed="#P" n="61"/>petit. Ex quibus omnibus evidentius colligitur
+          <lb ed="#P" n="62"/>non posse relationes videri, non visa essentia,
+          <lb ed="#P" n="63"/>neque etiam unam relationem sine alia, etiam
+          <lb ed="#P" n="64"/>ex illis, quae formaliter oppositae non sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

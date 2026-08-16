@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="684"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-173195"><!-- t3-l6c6 -->
+        <head xml:id="szduep-173195-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-173195-Hd1e103" type="question-title">Quis sit proprius et formalis terminus utriusque originis</head>
+        <p xml:id="szduep-173195-d1e106">
+          <lb ed="#P" n="86"/>CAPUT VI.
+          <lb ed="#P" n="87"/>QUIS SIT PROPRIUS ET FORMALIS TERMINUS
+          <lb ed="#P" n="88"/>UTRIUSQUE ORIGINIS.
+        </p>
+        <p xml:id="szduep-173195-d1e115">
+          <lb ed="#P" n="89"/>1. Terminus adequatus est persona. — Varie
+          <lb ed="#P" n="90"/>opiniones de termino formali. —In hoc puncto
+          <lb ed="#P" n="91"/>fere sunt iidem dicendi modi, qui in 
+          praece<lb break="no" ed="#P" n="92"/>denti capite notati sunt. Omnes enim doctores
+          <lb ed="#P" n="93"/>conveniunt, personam productam esse 
+          adae<lb break="no" ed="#P" n="94"/>quatum terminum originum, hoc per se 
+          no<lb break="no" ed="#P" n="95"/>tum est, supposito mysterio, unde sola persona
+          <lb ed="#P" n="96"/>dicitur genita vel procedens. De termino 
+          au<lb break="no" ed="#P" n="97"/>tem formali Gregorius, in 1, dist. 5, quaest. 1,
+          <lb ed="#P" n="98"/>quem fere sequitur Gabriel, quaestione 2, non
+          <lb ed="#P" n="99"/>putat, esse distinguendum de termino formali,
+          <lb ed="#P" n="100"/>vel totali, seu integro, qui est persona 
+          pro<lb break="no" ed="#P" n="101"/>ducta, sed fundatur semper in illo falso 
+          fun<lb break="no" ed="#P" n="102"/>damento, quod non distinguit abstracta a
+          <lb ed="#P" n="103"/>concretis. Alii dicunt, relationem personae 
+          pro<lb break="no" ed="#P" n="104"/>ductae esse terminum formalem. Ita Durandus,
+          <lb ed="#P" n="105"/>dicta dist. 5, quaest. 2, et Aureolus apud 
+          Ca<lb break="no" ed="#P" n="106"/>preolum ibi. Fundantur, quia quod praeexistit
+          <lb ed="#P" n="107"/>productioni, non est terminus formalis ejus,
+          <pb ed="#P" n="685"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sed quod subsequitur, essentia autem 
+          praeexis<lb break="no" ed="#P" n="2"/>tit productioni ordine originis: ergo non est
+          <lb ed="#P" n="3"/>terminus formalis, sed relatio. Unde colligit
+          <lb ed="#P" n="4"/>Durandus, in his productionibus essentiam 
+          po<lb break="no" ed="#P" n="5"/>tius se habere, ut materiam, ex qua, vel de
+          <lb ed="#P" n="6"/>qua producitur persona. Quod etiam sensit
+          <lb ed="#P" n="7"/>Henricus, in Sum., art. 5, q. 3. Et ita 
+          expo<lb break="no" ed="#P" n="8"/>nunt locutiones Patrum, cum dicunt: Patrem
+          <lb ed="#P" n="9"/>generasse l'ilium de sua substantia. Quia licet
+          <lb ed="#P" n="10"/>essentia non sit proprie materia, habet cum
+          <lb ed="#P" n="11"/>illa proportionem in hoc quod supponitur 
+          pro<lb break="no" ed="#P" n="12"/>ductioni, et determinatur per proprietatem 
+          per<lb break="no" ed="#P" n="13"/>sonalem, tanquam per formam.
+        </p>
+        <p xml:id="szduep-173195-d1e191">
+          <lb ed="#P" n="14"/>2. Vera resolutio. — Veritas autem est, 
+          ip<lb break="no" ed="#P" n="15"/>sam essentiam, ut communicatam personae
+          <lb ed="#P" n="16"/>esse terminum formalem, requirere autem 
+          re<lb break="no" ed="#P" n="17"/>lationem, ut conditionem necessariam. Haec
+          <lb ed="#P" n="18"/>est D. Thomae sententia, 1 p., q. 41, art. 3,
+          <lb ed="#P" n="19"/>ubi Cajetanus et alii idem docent, et 
+          Capreo<lb break="no" ed="#P" n="20"/>lus, supra Bonaventura, in 1, dist. 5, q. 2, et
+          <lb ed="#P" n="21"/>ibi Scotus, q. 2 et 3, Marsilius, in 1, q. 9. Et
+          <lb ed="#P" n="22"/>posterior quidem pars facilis est, patebitque
+          <lb ed="#P" n="23"/>respondendo ad motivum Durandi. Principalis
+          <lb ed="#P" n="24"/>vero assertio convincitur rationibus factis in
+          <lb ed="#P" n="25"/>praecedenti puncto. Nam in omni productione
+          <lb ed="#P" n="26"/>formalis terminus est natura, vel forma, in
+          <lb ed="#P" n="27"/>qua productum assimilatur producenti, ut ex
+          <lb ed="#P" n="28"/>philosophia constat et inductione ostendi 
+          po<lb break="no" ed="#P" n="29"/>test, et ratione, quia producens intendit 
+          assi<lb break="no" ed="#P" n="30"/>milare sibi productum, et illi communicare
+          <lb ed="#P" n="31"/>suum esse, et suum principium producendi. Si
+          <lb ed="#P" n="32"/>divina natura est, in qua persona est similis
+          <lb ed="#P" n="33"/>producenti, et quae primario communicatur, et
+          <lb ed="#P" n="34"/>est prima ratio, et principium illius 
+          communi<lb break="no" ed="#P" n="35"/>cationis : ergo eadem est terminus formalis.
+          <lb ed="#P" n="36"/>Et confirmatur, quia alias intelligi non posset,
+          <lb ed="#P" n="37"/>quo modo productio Filii esset vera et univoca
+          <lb ed="#P" n="38"/>generatio.
+        </p>
+        <p xml:id="szduep-173195-d1e249">
+          <lb ed="#P" n="39"/>3. Objectioni occurritur. — Dices, hoc 
+          ni<lb break="no" ed="#P" n="40"/>mium probare, scilicet productionem Spiritus
+          <lb ed="#P" n="41"/>sancti esse generationem. Respondeo, propter
+          <lb ed="#P" n="42"/>hoc addenda esse cum proportione, quae 
+          proxi<lb break="no" ed="#P" n="43"/>me diximus in fine capitis superioris. Nam 
+          es<lb break="no" ed="#P" n="44"/>sentia est quidem terminus formalis, sed sub
+          <lb ed="#P" n="45"/>haec voce non explicatur proxima ratio, sub qua
+          <lb ed="#P" n="46"/>est terminus uniuscujusque originis, secundum
+          <lb ed="#P" n="47"/>speciem suam. Est ergo terminus formalis 
+          pro<lb break="no" ed="#P" n="48"/>ductionis Verbi, quatenus est ipsum intelligere
+          <lb ed="#P" n="49"/>per essentiam, et ideo illa productio est vera
+          <lb ed="#P" n="50"/>generatio, ut infra dicam. Eadem vero 
+          essen<lb break="no" ed="#P" n="51"/>tia est formalis terminus productionis Spiritus
+          <lb ed="#P" n="52"/>sancti, quatenus est amor. Et ideo, licet illa
+          <lb ed="#P" n="53"/>productio formaliter tendat ad 
+          communicatio<lb break="no" ed="#P" n="54"/>nem amoris, et quoad hoc procedant in illa
+          <lb ed="#P" n="55"/>rationes factae, quia amor absolutum quid est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et ipsamet essentia per summam identitatem,
+          <lb ed="#P" n="57"/>nihilominus tamen illa non est generatio, quia
+          <lb ed="#P" n="58"/>non ita formaliter tendit ad 
+          communicatio<lb break="no" ed="#P" n="59"/>nem naturae, ut sic, sicut latius infra suo loco
+          <lb ed="#P" n="60"/>dicemus.
+        </p>
+        <p xml:id="szduep-173195-d1e301">
+          <lb ed="#P" n="61"/>4. Fundamento contrario satisfit. — Ad 
+          fun<lb break="no" ed="#P" n="62"/>damentum autem contrariae sententiae 
+          respon<lb break="no" ed="#P" n="63"/>detur, aliquando posse terminum formalem
+          <lb ed="#P" n="64"/>praeexistere productioni, ut resurrectioni 
+          prae<lb break="no" ed="#P" n="65"/>existit anima, imo et generationi hominis 
+          or<lb break="no" ed="#P" n="66"/>dine naturae. Est tamen advertendum 
+          discri<lb break="no" ed="#P" n="67"/>men : nam in illis productionibus anima non
+          <lb ed="#P" n="68"/>est terminus formalis secundum se, sed ut
+          <lb ed="#P" n="69"/>unita materiae, et ideo necesse est, addi 
+          mo<lb break="no" ed="#P" n="70"/>dum unionis : in praesenti vero essentia est
+          <lb ed="#P" n="71"/>terminus formalis, ut communicata personae :
+          <lb ed="#P" n="72"/>ad hoc autem non additur illi novus modus ab
+          <lb ed="#P" n="73"/>ea distinctus, sed sola relatio, et ideo illa est
+          <lb ed="#P" n="74"/>conditio necessaria, ut essentia in tali persona
+          <lb ed="#P" n="75"/>habeat rationem hujusmodi termini.
+        </p>
+        <p xml:id="szduep-173195-d1e336">
+          <lb ed="#P" n="76"/>5. Essentia non imitatur materialem 
+          cau<lb break="no" ed="#P" n="77"/>sam. — Unde etiam falsum est, quod 
+          Duran<lb break="no" ed="#P" n="78"/>dus et Henricus docuerunt de causa materiali.
+          <lb ed="#P" n="79"/>Quia divina natura in his originibus, seu 
+          pro<lb break="no" ed="#P" n="80"/>ductionibus nullum habet concursum, vel quasi
+          <lb ed="#P" n="81"/>concursum causae materialis. Nam praesupponi
+          <lb ed="#P" n="82"/>ad terminum adaequatum productionis non est
+          <lb ed="#P" n="83"/>proprium materialis causae solius, sed convenit
+          <lb ed="#P" n="84"/>etiam principio quasi activo productionis, sive
+          <lb ed="#P" n="85"/>sit principium quod, sive quo et hac potissimum
+          <lb ed="#P" n="86"/>ratione convenit essentiae. Item quando 
+          ter<lb break="no" ed="#P" n="87"/>minus formalis nec producitur, nec 
+          comprodu<lb break="no" ed="#P" n="88"/>citur per originem, sed tantum communicatur,
+          <lb ed="#P" n="89"/>etiam postulat ut supponatur productioni, 
+          or<lb break="no" ed="#P" n="90"/>dine originis, et ex hoc etiam capite convenit
+          <lb ed="#P" n="91"/>essentiae praesupponi secundum rationem, seu
+          <lb ed="#P" n="92"/>ordinem originis, ante personam productam.
+          <lb ed="#P" n="93"/>Non igitur propter hanc solam proprietatem
+          <lb ed="#P" n="94"/>tribui potest Divinitati ratio, vel umbra 
+          mate<lb break="no" ed="#P" n="95"/>rialis causae in his originibus, quia in nulla re
+          <lb ed="#P" n="96"/>propria illi causae est proportio, et quia illa
+          <lb ed="#P" n="97"/>causa imperfectissima est. :
+        </p>
+        <p xml:id="szduep-173195-d1e386">
+          <lb ed="#P" n="98"/>6. Patres ergo cum dicunt, unam personam
+          <lb ed="#P" n="99"/>producere aliam de sua substantia, intelgunt
+          <lb ed="#P" n="100"/>tanquam de totali forma et natura. Nec aliud
+          <lb ed="#P" n="101"/>explicare intendunt per illum loquendi 
+          mo<lb break="no" ed="#P" n="102"/>dum, praeter consubstantialitatem. Ut egregie
+          <lb ed="#P" n="103"/>dixit Joannes Theologus in Concilio Florentino,
+          <lb ed="#P" n="104"/>sess. 18, et sumitur ex Hilario, lib. 8, de 
+          Tri<lb break="no" ed="#P" n="105"/>nit., satis a principio. Consubstanuahtas 
+          au<lb break="no" ed="#P" n="106"/>tem personarum, non est materialis, sed 
+          maxi<lb break="no" ed="#P" n="107"/>me formalis (ut sit dicam) quia est ratione 
+          in<lb break="no" ed="#P" n="108"/>tegrae et simplicissimae naturae, quae est actus
+          <lb ed="#P" n="109"/>purissimus. Unde, illa essentia non 
+          determina<lb break="no" ed="#P" n="110"/>tur per relationem, tanquam materia per for-
+          <pb ed="#P" n="686"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mam, sed ut natura per terminum 
+          substantia<lb break="no" ed="#P" n="2"/>lem, seu personalitatem.
+        </p>
+        <p xml:id="szduep-173195-d1e425">
+          <lb ed="#P" n="3"/>7. Objectio. — Responsio. — Objici vero
+          <lb ed="#P" n="4"/>potest, quia D. Thomas, 1 p., q. 39. ad 1. 
+          ne<lb break="no" ed="#P" n="5"/>gat, hanc propositionem De, significare 
+          habi<lb break="no" ed="#P" n="6"/>tudinem causae formalis, sed magis 
+          habitudi<lb break="no" ed="#P" n="7"/>nem causa materialis et efticientis. Ergo cum
+          <lb ed="#P" n="8"/>Patres docent, Patrem generare Filium de sua
+          <lb ed="#P" n="9"/>substantia, non possumus id exponere de 
+          prin<lb break="no" ed="#P" n="10"/>cipio formali, sed potius de materiali. 
+          Respon<lb break="no" ed="#P" n="11"/>deo, D. Thomam ibi non tractare de hac 
+          pro<lb break="no" ed="#P" n="12"/>positione : Pater generat Filium de substantia,
+          <lb ed="#P" n="13"/>sed de hac: Pater et Filius sunt de, vel ex una
+          <lb ed="#P" n="14"/>essentia. Docetque, non esse admittendam 
+          il<lb break="no" ed="#P" n="15"/>lam locutionem, cum Augustino, 7, de 
+          Trini<lb break="no" ed="#P" n="16"/>tate, cap. 6, potiusque dicendum esse: Pater
+          <lb ed="#P" n="17"/>et Filius suut unius essentie. Quia per hunc
+          <lb ed="#P" n="18"/>posteriorem loquendi modum solum 
+          signitica<lb break="no" ed="#P" n="19"/>tur habitudo formae. et non denotatur aliqua
+          <lb ed="#P" n="20"/>distinctio in re inter personas et essentiam,
+          <lb ed="#P" n="21"/>quia aliqua persona potest essc suamet natura,
+          <lb ed="#P" n="22"/>quae se habet, ut forma. Per priorem vero 
+          lo<lb break="no" ed="#P" n="23"/>cutionem, si Pater, vel Filius dicatur esse de
+          <lb ed="#P" n="24"/>essentia, indicatur aliqua distinctio personae
+          <lb ed="#P" n="25"/>ab essentia, propter habitudinem materiae,
+          <lb ed="#P" n="26"/>vel eflicientis, quam particula De videtur 
+          si<lb break="no" ed="#P" n="27"/>gnificare.
+        </p>
+        <p xml:id="szduep-173195-d1e482">
+          <lb ed="#P" n="28"/>8. Sed hoc ultimum limitandum est, ut 
+          in<lb break="no" ed="#P" n="29"/>telligitur quando particula illa ita absolute 
+          po<lb break="no" ed="#P" n="30"/>nitur inter duo extrema, dicendo, hboc est de
+          <lb ed="#P" n="31"/>illo. Si autem addatur aliqua determinatio,
+          <lb ed="#P" n="32"/>scilicet : Hoc est de substantia illius, unihil 
+          ob<lb break="no" ed="#P" n="33"/>stat, quominus per illam particulam 
+          significe<lb break="no" ed="#P" n="34"/>tur habitudo causae, seu principii formalis, quia
+          <lb ed="#P" n="35"/>per illam locutionem solum significatur, hoc
+          <lb ed="#P" n="36"/>et illud esse ejusdem naturae, et habere inter
+          <lb ed="#P" n="37"/>se distinctionem. Unde idem divus Thomas,
+          <lb ed="#P" n="38"/>quaest. 41, art. 4, ad 3, hanc diflerentiam 
+          con<lb break="no" ed="#P" n="39"/>stituit inter illas duas propositiones. Ubi etiam
+          <lb ed="#P" n="40"/>in solutione ad 1, ait: Cum Filius dicitur 
+          na<lb break="no" ed="#P" n="41"/>ius de Patre, uon siguificari principium 
+          ma<lb break="no" ed="#P" n="42"/>teriale, scd principium generans consubstantiale.
+          <lb ed="#P" n="43"/>Et in solutione ad 2, ait: Cum Filius dicitur
+          <lb ed="#P" n="44"/>genitus de esseutia Patris : particulam De 
+          si<lb break="no" ed="#P" n="45"/>gnificare consubstantialitatem. Et addit, in
+          <lb ed="#P" n="46"/>illa locutione posse particulam De dicere 
+          for<lb break="no" ed="#P" n="47"/>male principium, in his, in quibus ipsae formaee
+          <lb ed="#P" n="48"/>sunt subsistentes et concludit : Et per hunc
+          <lb ed="#P" n="49"/>mogaum dicimus, quod Filius est genitus de 
+          es<lb break="no" ed="#P" n="50"/>sentia Paitris. Eodem ergo modo dicitur 
+          Pa<lb break="no" ed="#P" n="51"/>ter generare Filium de sua substantia,
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

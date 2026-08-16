@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="694"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-175480"><!-- t3-l7c3 -->
+        <head xml:id="szduep-175480-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-175480-Hd1e103" type="question-title">Quomodo proprietates constituant divinas personas in suo esse personali</head>
+        <p xml:id="szduep-175480-d1e106">
+          <lb ed="#P" n="4"/>CAPUT III.
+          <lb ed="#P" n="5"/>QUOMODO PROPRIETATES CONSTITUANT DIVINAS
+          <lb ed="#P" n="6"/>PERSONAS IN SUO ESSE PERSONALI.
+        </p>
+        <p xml:id="szduep-175480-d1e115">
+          <lb ed="#P" n="7"/>1. Opinio Gregorii. — Gregorius, in 1, d. 26
+          <lb ed="#P" n="8"/>et 27, sicut negavit proprietates in abstracto,
+          <lb ed="#P" n="9"/>ita negat, personas divinas illis constitui, et
+          <lb ed="#P" n="10"/>consequenter tollit omnino constitutionem.
+          <lb ed="#P" n="11"/>Fundamentum est, quia in re omnino simplici
+          <lb ed="#P" n="12"/>non est constitutio, sed solum se tota est et se
+          <lb ed="#P" n="13"/>ipsa etiam ab aliis distinguitur : personae 
+          au<lb break="no" ed="#P" n="14"/>tem divinae sunt omnino simplices: ergo. Et
+          <lb ed="#P" n="15"/>confirmatur, quia paternitas non constituitur
+          <lb ed="#P" n="16"/>aliquo alio, alias procederetur in infinitum:
+          <lb ed="#P" n="17"/>ergo se ipsa est talis et per se ipsam 
+          distingui<lb break="no" ed="#P" n="18"/>tur a Filio, vel Filiatione, quod totum habet
+          <lb ed="#P" n="19"/>propter suam simplicitatem : tam simplex 
+          au<lb break="no" ed="#P" n="20"/>tem est Pater, sicut Paternitas, ergo idem de
+          <lb ed="#P" n="21"/>Patre dicendum est.
+        </p>
+        <p xml:id="szduep-175480-d1e150">
+          <lb ed="#P" n="22"/>2. Refellitur. — Personas constitui 
+          proprae<lb break="no" ed="#P" n="23"/>tatibus.—kortasse Gregorius in solo modo 
+          lo<lb break="no" ed="#P" n="24"/>quendi erravit, non tamen sine temeritate in
+          <lb ed="#P" n="25"/>re tam gravi a communi modo loquendi 
+          sanc<lb break="no" ed="#P" n="26"/>torum et theologorum discrepavit. Duo ergo
+          <lb ed="#P" n="27"/>tanquam certam nobis constituenda sunt. 
+          Pri<lb break="no" ed="#P" n="28"/>mum est, divinas personas vere constitui in
+          <lb ed="#P" n="29"/>suo esse personali. Secundum est, hanc 
+          consti<lb break="no" ed="#P" n="30"/>tutionem fieri per uniuscujusque proprietatem
+          <lb ed="#P" n="31"/>positivam, tanquam per formam 
+          determinan<lb break="no" ed="#P" n="32"/>tem personam ad tale esse, seu subsistere 
+          in<lb break="no" ed="#P" n="33"/>communicabile. Utrumque docenttheologi 
+          sta<lb break="no" ed="#P" n="34"/>tim referendi et sumitur ex Sophronio in 
+          epis<lb break="no" ed="#P" n="35"/>tola saepe citata ubi dicit: Personas figurari
+          <lb ed="#P" n="36"/>suis proprictativus. Nam per illud verbum 
+          fi<lb break="no" ed="#P" n="37"/>gurari modo nobis accommodato declaravit
+          <lb ed="#P" n="38"/>determinationem et constitutionem. Sicut 
+          e<lb break="no" ed="#P" n="39"/>tiam Joannes Theologus, in sessione 19, 
+          Con<lb break="no" ed="#P" n="40"/>cilii Florentini dixit: Personam constare 
+          es<lb break="no" ed="#P" n="41"/>sentia et proprietate, similes locutiones 
+          inve<lb break="no" ed="#P" n="42"/>nientur in Damasceno, lib. 1, cap. 8, et 
+          se<lb break="no" ed="#P" n="43"/>quentibus, et in aliis Patribus, quos referam.
+        </p>
+        <p xml:id="szduep-175480-d1e201">
+          <lb ed="#P" n="44"/>3. Ratio assertionis. —Ratio vero utriusque
+          <lb ed="#P" n="45"/>propositionis est clara ex dictis. Nam primo
+          <lb ed="#P" n="46"/>in Trinitate sunt proprietates, quae a nobis in
+          <lb ed="#P" n="47"/>abstracto concipiuntur, ut supra ostensum est,
+          <lb ed="#P" n="48"/>sed forma, quae in abstracto sumitur constituit
+          <lb ed="#P" n="49"/>concretum, in quo est et quod ab illa 
+          denomi<lb break="no" ed="#P" n="50"/>natur: ergo. Praeterea, unaquaeque res 
+          consti<lb break="no" ed="#P" n="51"/>tuitur in suo esse particulari et proprio, per
+          <lb ed="#P" n="52"/>formam sibi propriam : sed hoc modo compa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>rantur proprietates ad personas, et ideo 
+          Ter<lb break="no" ed="#P" n="54"/>tullianus et Basilius locis citatis, cap. 1, illas
+          <lb ed="#P" n="55"/>vocant formas personarum : ergo. Denique,
+          <lb ed="#P" n="56"/>communi modo ita loquimur , Deum Deitate
+          <lb ed="#P" n="57"/>constitui et esse sapientem sapientia, non 
+          cb<lb break="no" ed="#P" n="58"/>stante simplicitate, ergo similiter in praesenti.
+        </p>
+        <p xml:id="szduep-175480-d1e238">
+          <lb ed="#P" n="59"/>4. Qualis sit resolutio. — Prima opinio. —
+          <lb ed="#P" n="60"/>Ut autem constitutionem hanc amplius 
+          decla<lb break="no" ed="#P" n="61"/>remus et fundamento Gregorii satisfaciamus,
+          <lb ed="#P" n="62"/>inquirere necesse est, qualis sit haec 
+          constitu<lb break="no" ed="#P" n="63"/>tio, rei videlicet, an rationis. Discipuli enim
+          <lb ed="#P" n="64"/>D. Thomae convicti argumento Gregorii, 
+          di<lb break="no" ed="#P" n="65"/>cunt esse constitutionem rationis, nonrealem.
+          <lb ed="#P" n="66"/>Ita Cajetanus, quaest. 40, art. 2, et ibi Torres
+          <lb ed="#P" n="67"/>et alii, Ferrariensis, in 4, contra Gentes, c. 20.
+          <lb ed="#P" n="68"/>Et citant nonnulla loca D. Thomae in dicta
+          <lb ed="#P" n="69"/>quaest. 40, articulo primo, ad secundum, et
+          <lb ed="#P" n="70"/>art. 2, ad 1, et in 1, dist. 26, quaest. 2, art. 1.
+          <lb ed="#P" n="71"/>In quibus locis nihil fere invenio, unde hoc
+          <lb ed="#P" n="72"/>colligi possit, sed solum indicat, 
+          constitutio<lb break="no" ed="#P" n="73"/>nem hanc esse sine compositione, vel 
+          distinc<lb break="no" ed="#P" n="74"/>tione in re inter constituens et constitutum,
+          <lb ed="#P" n="75"/>quod verum est. Hinc vero sumitur 
+          funda<lb break="no" ed="#P" n="76"/>mentum hujus sententiae, quia non potest esse
+          <lb ed="#P" n="77"/>constitutio realis sine distinctione real,, seu
+          <lb ed="#P" n="78"/>ex natura rei. Quod probatur primo exratione
+          <lb ed="#P" n="79"/>Gregorii, quia nihil constituit realiter 
+          seip<lb break="no" ed="#P" n="80"/>sum : Secundo, quia forma constituens est 
+          ac<lb break="no" ed="#P" n="81"/>tus constituti, ergo ut realiter constituat, 
+          de<lb break="no" ed="#P" n="82"/>bet esset actus realis, sed non potest esse 
+          ac<lb break="no" ed="#P" n="83"/>tus realis sine distinctione in re, quia actus
+          <lb ed="#P" n="84"/>realis dicit habitudinem ad id, cujus est actus:
+          <lb ed="#P" n="85"/>ergo. Tertio, quia constitutio hominis ex 
+          ani<lb break="no" ed="#P" n="86"/>mali et rationali non est realis, sed rationis,
+          <lb ed="#P" n="87"/>solum quia extrema non distinguuntur in re,
+          <lb ed="#P" n="88"/>quamvis utrumque eorum aliquid reale sit:
+          <lb ed="#P" n="89"/>ergo similiter. Denique, ipsum nomen 
+          consti<lb break="no" ed="#P" n="90"/>tutionis indicat conjunctionem, vel 
+          adunatio<lb break="no" ed="#P" n="91"/>nem plurium inx unum, ergo si illa non sunt
+          <lb ed="#P" n="92"/>plura re, sed ratione tantum, non potest esse
+          <lb ed="#P" n="93"/>constitutio rei, sed rationis.
+        </p>
+        <p xml:id="szduep-175480-d1e316">
+          <lb ed="#P" n="94"/>5. Argumenta contra primam opinionem. —
+          <lb ed="#P" n="95"/>Haec vero sententia nonnullas patitur 
+          difficul<lb break="no" ed="#P" n="96"/>tates. Prima est, qui constitutio rationis non
+          <lb ed="#P" n="97"/>est constitutio, nisi facta et cogitata, sicut ens
+          <lb ed="#P" n="98"/>rationis non est ens, nisi fictum, ergo propter
+          <lb ed="#P" n="99"/>illam solam non debuissent Patres et fere 
+          om<lb break="no" ed="#P" n="100"/>nes theologi antiqui adeo esse solliciti de hac
+          <lb ed="#P" n="101"/>constitutione, et illam simpliciter asserere et
+          <lb ed="#P" n="102"/>constanter defendere; imo nihil aliud 
+          vide<lb break="no" ed="#P" n="103"/>tur, Gregorius voluisse. Cur enim negaret
+          <lb ed="#P" n="104"/>posse non cogitare, aut fingere modum 
+          con<lb break="no" ed="#P" n="105"/>stitutionis : Secundo, sicut Patres dicunt, 
+          per<lb break="no" ed="#P" n="106"/>sonas constitui proprietatibus, ita et 
+          frequen<lb break="no" ed="#P" n="107"/>tius distingui proprietatibus : hon distinguun-
+          <pb ed="#P" n="695"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur autem ratione, sed re ipsa, ergo et 
+          consti<lb break="no" ed="#P" n="2"/>tuuntur. Dicet fortasse aliquis, licet distinctio
+          <lb ed="#P" n="3"/>personarum sit realis, tamen quod illa 
+          at<lb break="no" ed="#P" n="4"/>tribuatur proprietati potius, quam personae
+          <lb ed="#P" n="5"/>ipsi secundum se, est per rationem tantum:
+          <lb ed="#P" n="6"/>quia non aliter proprietas distinguitur a 
+          per<lb break="no" ed="#P" n="7"/>sona: Sed hoc non recte videtur dici, quia in
+          <lb ed="#P" n="8"/>re ipsa personae non distinguuntur se ipsis
+          <lb ed="#P" n="9"/>primo, quia in re habent essentiam 
+          commu<lb break="no" ed="#P" n="10"/>nem et non proprietates, ergo in re ipsa 
+          dis<lb break="no" ed="#P" n="11"/>tinctio est proprietates. Tertio hoc declaro 
+          ac<lb break="no" ed="#P" n="12"/>commodato exemplo, Pater enim generat 
+          Fi<lb break="no" ed="#P" n="13"/>lium per intellectum et non per voluntatem,
+          <lb ed="#P" n="14"/>quod non est per rationem, sed in re ipsa, et
+          <lb ed="#P" n="15"/>tamen intellectus et voluntas Patris non 
+          dis<lb break="no" ed="#P" n="16"/>tinguuntur actu in re, sed ratione tantum,
+          <lb ed="#P" n="17"/>ergo simili modo, quamvis paternitas et 
+          es<lb break="no" ed="#P" n="18"/>sentia non re, sed ratione distinguantur, 
+          ni<lb break="no" ed="#P" n="19"/>hilominus in re ipsa verum esse potest, Patrem
+          <lb ed="#P" n="20"/>constitui et distingui Paternitate et non 
+          essen<lb break="no" ed="#P" n="21"/>tia: ergo est talis constitutio in re ipsa. Quarto
+          <lb ed="#P" n="22"/>denique, quia si constitutio est ens rationis,
+          <lb ed="#P" n="23"/>constitutum est ens rationis: quis autem dicat
+          <lb ed="#P" n="24"/>personam divinam, ut constitutam sua 
+          proprie<lb break="no" ed="#P" n="25"/>tate, esse ens rationis?
+        </p>
+        <p xml:id="szduep-175480-d1e407">
+          <lb ed="#P" n="26"/>6. Secunda opinio refellitur.— Propter haec
+          <lb ed="#P" n="27"/>alii censent, constitutionem hanc et esse et
+          <lb ed="#P" n="28"/>appellandam esse realem. Haec vero sententia
+          <lb ed="#P" n="29"/>duobus modis, et affirmari et defendi potest.
+          <lb ed="#P" n="30"/>Prior est, juxta opinionem Durandi et aliorum
+          <lb ed="#P" n="31"/>dicentium essentiam et relationes actualter et
+          <lb ed="#P" n="32"/>ex natura rei distingui, inde enim optima 
+          ra<lb break="no" ed="#P" n="33"/>tione sequitur, personam divinam re ipsa 
+          coa<lb break="no" ed="#P" n="34"/>lescere ex relatione et essentia inter se unitis.
+          <lb ed="#P" n="35"/>At enim, ut supra argumentabar, ex illa 
+          sen<lb break="no" ed="#P" n="36"/>tentia, non solum sequitur realis constitutio,
+          <lb ed="#P" n="37"/>sed etiam compositio, et ideo haec opinioex tali
+          <lb ed="#P" n="38"/>fundamento defendi non potest.
+        </p>
+        <p xml:id="szduep-175480-d1e438">
+          <lb ed="#P" n="39"/>7. Tertia opinio. — Alius ergo modus, qui
+          <lb ed="#P" n="40"/>etiam non displicet aliquibus interpretibus D.
+          <lb ed="#P" n="41"/>Thomsae, est, ut dicamus, ad constitutionem
+          <lb ed="#P" n="42"/>concurrunt: sed satis esse quod in re ipsa
+          <lb ed="#P" n="43"/>vere sit aliqua entitas communis et aliqua
+          <lb ed="#P" n="44"/>propria, cum distinctione virtuali inter 
+          com<lb break="no" ed="#P" n="45"/>mune et proprium. Nam hoc satis est, ut illa
+          <lb ed="#P" n="46"/>persona, habeat suum esse personale et 
+          in<lb break="no" ed="#P" n="47"/>communicabile ex eo, quod est sibi proprium
+          <lb ed="#P" n="48"/>et non ex eo, quod est sibi commune cum aliis.
+          <lb ed="#P" n="49"/>Et hoc solum significatur nomine 
+          constitutio<lb break="no" ed="#P" n="50"/>nis. Et hoc videntur suadere objectiones factae
+          <lb ed="#P" n="51"/>et illa praecipue, quod haec distinctio virtualis
+          <lb ed="#P" n="52"/>sufficit ad multa alia, quae realiter conveniunt
+          <lb ed="#P" n="53"/>ipsis personis : sicut enim Pater realiter 
+          com<lb break="no" ed="#P" n="54"/>municat Filio suam naturam et non 
+          commu<lb break="no" ed="#P" n="55"/>nicat paternitatem : ergo etiam in re ipsa po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>test Paternitate constitui et distingui et non
+          <lb ed="#P" n="57"/>natura.
+        </p>
+        <p xml:id="szduep-175480-d1e484">
+          <lb ed="#P" n="58"/>8. Objectio. — Responsio. — Dices, hinc solum
+          <lb ed="#P" n="59"/>haberi, qualis est distinctio inter proprietatem
+          <lb ed="#P" n="60"/>et naturam, talem esse constitutionem, quia
+          <lb ed="#P" n="61"/>haec servant proportionem, ut argumenta 
+          pri<lb break="no" ed="#P" n="62"/>mae sententiae probare videntur, sicut ergo est
+          <lb ed="#P" n="63"/>distinctio tantum virtualis, erit etiam in re
+          <lb ed="#P" n="64"/>tantum virtualis constitutio, quae solum est
+          <lb ed="#P" n="65"/>fundamentum constitutionis actualis, ipsa 
+          er<lb break="no" ed="#P" n="66"/>go actualis constitutio erit per rationem 
+          tan<lb break="no" ed="#P" n="67"/>tum, sicut actualis distinctio est per rationem
+          <lb ed="#P" n="68"/>tantum. Responderi tamen potest negando
+          <lb ed="#P" n="69"/>majorem, quia cum distinctione virtuali potest
+          <lb ed="#P" n="70"/>esse constitutio formalis. Nam de ratione 
+          con<lb break="no" ed="#P" n="71"/>stitutionis non est propria unio, sed salvari
+          <lb ed="#P" n="72"/>potest cum vera unitate inter constituentia,
+          <lb ed="#P" n="73"/>dummodo respectu constituti ita se habeant,
+          <lb ed="#P" n="74"/>ut ex formalitate unius habeat proprium esse,
+          <lb ed="#P" n="75"/>ex formahtate autem alterius solum 
+          commu<lb break="no" ed="#P" n="76"/>ne: Hoc autem ita est in divina persona: nam
+          <lb ed="#P" n="77"/>in illa simplicissima entitate et est formalitas
+          <lb ed="#P" n="78"/>relativa et ab hac habet illa persona suum esse
+          <lb ed="#P" n="79"/>proprium et ab illa tantum esse commune: et
+          <lb ed="#P" n="80"/>ideo secundum relativam formalitatem 
+          distin<lb break="no" ed="#P" n="81"/>guitur, non secundum absolutam. Hoc satis
+          <lb ed="#P" n="82"/>est ad constitutionem realem.
+        </p>
+        <p xml:id="szduep-175480-d1e542">
+          <lb ed="#P" n="83"/>9. Resolutio. — In hac re mihi aliquando
+          <lb ed="#P" n="84"/>simpliciter placuit modus loquendi hujus 
+          ul<lb break="no" ed="#P" n="85"/>timae sententiae, quia est aptior ad 
+          explican<lb break="no" ed="#P" n="86"/>dum mysterium et ad intelligendos Patres, et
+          <lb ed="#P" n="87"/>prior opinio solum nititur in rigorosa 
+          signifi<lb break="no" ed="#P" n="88"/>catione unius vocis constitutio. Nunc vero 
+          cen<lb break="no" ed="#P" n="89"/>seo, vitandam esse quaestionem de nomine et
+          <lb ed="#P" n="90"/>distinguendam vocem illam. Nam si per 
+          con<lb break="no" ed="#P" n="91"/>stitutionem intelligamus aliquem 
+          compositio<lb break="no" ed="#P" n="92"/>nis modum, solum est per rationem, et hoc
+          <lb ed="#P" n="93"/>solum probant fundamenta prioris sententiae.
+          <lb ed="#P" n="94"/>Si vero intelligamus veram et propriam 
+          exis<lb break="no" ed="#P" n="95"/>tentiam talis rei ex vi illius proprietatis, quam
+          <lb ed="#P" n="96"/>nos apprehendimus per modum formae, sic est
+          <lb ed="#P" n="97"/>in re ipsa, sicut Deus vere est sapiens 
+          sapien<lb break="no" ed="#P" n="98"/>tia sua. Vel aliter (et in idem incidit) 
+          possu<lb break="no" ed="#P" n="99"/>mus hanc discordiam componeredistinguendo;
+          <lb ed="#P" n="100"/>quia vel loquimur de hac constitutione 
+          quan<lb break="no" ed="#P" n="101"/>tum ad modum, quo nos illam concipimus,
+          <lb ed="#P" n="102"/>vel quantum ad id, quod per talem 
+          constitu<lb break="no" ed="#P" n="103"/>tionem declarare intendimus. Priori modo
+          <lb ed="#P" n="104"/>verum est, hanc constitutionem esse per 
+          ra<lb break="no" ed="#P" n="105"/>tionem, ut priora argumenta probant. 
+          Nihil<lb break="no" ed="#P" n="106"/>ominus tamen, simul verum est, per 
+          constitu<lb break="no" ed="#P" n="107"/>tionem nostro modo sic conceptam significari
+          <lb ed="#P" n="108"/>aliquid, quod vere est in re ipsa, ut probant
+          <lb ed="#P" n="109"/>argumenta posteriora. Unde fit (quod est 
+          maxi<lb break="no" ed="#P" n="110"/>me notandum pro his, quae disputanda sunt)
+          <pb ed="#P" n="696"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex vi hujus constitutionis convenire divinis
+          <lb ed="#P" n="2"/>personis ratione proprietatum, quidquid 
+          con<lb break="no" ed="#P" n="3"/>venire solet rei vere, ac realiter constitutae,
+          <lb ed="#P" n="4"/>ratione formae, seu proprietatis constituentis,
+          <lb ed="#P" n="5"/>seclusa tantum distinctione actuali in re et
+          <lb ed="#P" n="6"/>quacumque alia simili imperfectione. Nam
+          <lb ed="#P" n="7"/>hoc requiritur, ut vere, ac simpliciter dici
+          <lb ed="#P" n="8"/>possint personae ita constitui et hoc significant
+          <lb ed="#P" n="9"/>Patres, cum dicunt, personas significari et
+          <lb ed="#P" n="10"/>constare proprietatibus et hoc etiam ratione
+          <lb ed="#P" n="11"/>tam soliciti sunt theologi in declaranda, ac
+          <lb ed="#P" n="12"/>defendenda hac constitutione.
+        </p>
+        <p xml:id="szduep-175480-d1e636">
+          <lb ed="#P" n="13"/>10. Dubium an persona constet essentia et
+          <lb ed="#P" n="14"/>relatione. — Ultimo tandem inquiret aliquis ,
+          <lb ed="#P" n="15"/>an haec constitutio possit, vel debeat dici ex
+          <lb ed="#P" n="16"/>essentia et proprietate. Nam aliqui Thomistae
+          <lb ed="#P" n="17"/>non admittunt hoc genus constitutioms. Quod
+          <lb ed="#P" n="18"/>significant Ferrariensis 4, contra Gentes, cap.
+          <lb ed="#P" n="19"/>26, et Torres, quaest. 40, art. 2 et 4. et fundari
+          <lb ed="#P" n="20"/>potest, quia relatio intrinsece includit 
+          essen<lb break="no" ed="#P" n="21"/>tiam: ergo se ipsa sola constituit et non cum
+          <lb ed="#P" n="22"/>essentia. Alias, quaedam nugatio in illo genere
+          <lb ed="#P" n="23"/>constitutionis includitur, cum essentia bis ad
+          <lb ed="#P" n="24"/>talem constitutionem vocetur: quatenus 
+          in<lb break="no" ed="#P" n="25"/>trinsece includitur in relatione et iterum 
+          qua<lb break="no" ed="#P" n="26"/>tenus cum relatione dicitur componere 
+          per<lb break="no" ed="#P" n="27"/>sonam, nostro modo intelligendi. Unde 
+          vide<lb break="no" ed="#P" n="28"/>tur inferri, juxta hanc sententiam, 
+          Paternita<lb break="no" ed="#P" n="29"/>tem, verbi gratia, constituere personam 
+          Pa<lb break="no" ed="#P" n="30"/>tris, ut formam totius, dando illi tam esse
+          <lb ed="#P" n="31"/>Patris, ut proprietas ejus est, quam esse Dei,
+          <lb ed="#P" n="32"/>ut includit essentiam: unde non aliter 
+          consti<lb break="no" ed="#P" n="33"/>tuit, quam per sese subsistendo in sua entitate.
+          <lb ed="#P" n="34"/>Quod significare videtur D. Thomas, quando
+          <lb ed="#P" n="35"/>personas appellat, ipsas relationes subsistentes.
+        </p>
+        <p xml:id="szduep-175480-d1e688">
+          <lb ed="#P" n="36"/>11. Ergo vero censeo optime concipi et
+          <lb ed="#P" n="37"/>dici, personam divinam constantem esse ex
+          <lb ed="#P" n="38"/>essentia et relatione, ac subinde ex illis 
+          eon<lb break="no" ed="#P" n="39"/>sutui. Haec opini est hodie frequentius 
+          recep<lb break="no" ed="#P" n="40"/>ta inter modernos theologos. Et suadetur 
+          pri<lb break="no" ed="#P" n="41"/>mo, quia in Concilio Florentino, sessione 19:
+          <lb ed="#P" n="42"/>Dicitur persona divina, constare essentia et
+          <lb ed="#P" n="43"/>proprietate. Et licet hoc dictum non sit totius
+          <lb ed="#P" n="44"/>Concilii, sed cujusdam theologi pro Latinis ibi
+          <lb ed="#P" n="45"/>disputantis, tamen multam habet auctoritatem,
+          <lb ed="#P" n="46"/>tum quia ille Joannes magnae eruditionis ibi
+          <lb ed="#P" n="47"/>ostenditur, tum etiam, quia videtur a caeteris
+          <lb ed="#P" n="48"/>receptum. Deinde etiam hoc insinuant Patres,
+          <lb ed="#P" n="49"/>cum de hac constitutione loquuntur. Ratione
+          <lb ed="#P" n="50"/>confirmatur, quia vix potest intelligi 
+          consti<lb break="no" ed="#P" n="51"/>tutio ex aliquo, ut forma, quin aliquid aliud
+          <lb ed="#P" n="52"/>adjungatur, cum quo fiat constitutio. Quod in
+          <lb ed="#P" n="53"/>preesenti declaratur, quia haec constitutio 
+          di<lb break="no" ed="#P" n="54"/>vinae personae ex parte proprietatis solum est
+          <lb ed="#P" n="55"/>ad incommunicabiliter subsistendum in divi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>na natura, ergo oportet, ut in ea includatur
+          <lb ed="#P" n="57"/>natura, ut alterum constitutionis extremum.
+          <lb ed="#P" n="58"/>Unde non recte dicitur proprietas, constituere
+          <lb ed="#P" n="59"/>personam, ut forma totius, quia non 
+          consti<lb break="no" ed="#P" n="60"/>tuit essentialiter, sed tantum personalter, eo
+          <lb ed="#P" n="61"/>modo, quo in creaturis intelligimus 
+          persona<lb break="no" ed="#P" n="62"/>litatem constituere personam: ergo necesse
+          <lb ed="#P" n="63"/>est ut intelligamus cum proprietate convenire
+          <lb ed="#P" n="64"/>divinitatem ad constituendam personam, ex
+          <lb ed="#P" n="65"/>parte naturae, quia non est persona, nisi sit
+          <lb ed="#P" n="66"/>rationalis naturae incommunicabilis 
+          subsisten<lb break="no" ed="#P" n="67"/>tia. Est ergo haec constitutio proportionalis
+          <lb ed="#P" n="68"/>illi, quam in creaturis intelligimus ex natura
+          <lb ed="#P" n="69"/>et suppositalitate.
+        </p>
+        <p xml:id="szduep-175480-d1e766">
+          <lb ed="#P" n="70"/>12. Ad respondendum autem fundamento
+          <lb ed="#P" n="71"/>contrariae opinionis, aliqui putant esse 
+          neces<lb break="no" ed="#P" n="72"/>sarium, ut dicamus, essentiam non includi in
+          <lb ed="#P" n="73"/>conceptu relationis. Dico tamen, non esse 
+          ne<lb break="no" ed="#P" n="74"/>cessarium, ut divina essentia omnino 
+          exclu<lb break="no" ed="#P" n="75"/>datur a relationibus, sed satis esse, ut per 
+          con<lb break="no" ed="#P" n="76"/>ceptum relationis non exprimatur, seu non
+          <lb ed="#P" n="77"/>expresse concipiatur. Nam ad concipiendam
+          <lb ed="#P" n="78"/>integram constitutionem necesse est utrumque
+          <lb ed="#P" n="79"/>extremum expresse. concipere. Neque etiam
+          <lb ed="#P" n="80"/>committitur nugatio, propter eamdem 
+          cau<lb break="no" ed="#P" n="81"/>sam, et quia intelligi debet haec constitutio
+          <lb ed="#P" n="82"/>esse cum perfectissima unitate, atque adeo
+          <lb ed="#P" n="83"/>cum inclusione ejus, quod commune est, in
+          <lb ed="#P" n="84"/>eo, quod est proprium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

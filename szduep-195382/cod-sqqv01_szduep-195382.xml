@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="773"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-195382"><!-- t3-l11prae -->
+        <head xml:id="szduep-195382-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-195382-d1e103">
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="19"/>LIBER UNDECIMUS.
+          <lb ed="#P" n="20"/>DE TERTIA TRINITATIS PERSONA
+          <lb ed="#P" n="21"/>QUAE SPIRITUS SANCTUS NOMINATUR.
+        </p>
+        <p xml:id="szduep-195382-d1e114">
+          <cb ed="#P" n="g"/>
+          <lb ed="#P" n="22"/>TRIA sunt nomina, quibus solet tertia 
+          per<lb break="no" ed="#P" n="23"/>sona Trinitatis in Scriptura significari, ejusque
+          <lb ed="#P" n="24"/>proprietas nobis declarari, scilicet, nomen 
+          Spi<lb break="no" ed="#P" n="25"/>ritus sancti, Amoris et Doni, sub quibus de illa
+          <lb ed="#P" n="26"/>tractavit D. Thomas, 1 part., quaest. 36, 37 et
+          <lb ed="#P" n="27"/>38. Nam per nomen JSpiritus sancti 
+          indica<lb break="no" ed="#P" n="28"/>tur relatio ad suum principium , per nomen
+          <lb ed="#P" n="29"/>amoris modus processionis , per nomen Doni ,
+          <lb ed="#P" n="30"/>quaedam relatio ad creaturam. Quocirca de
+          <lb ed="#P" n="31"/>primo et secundo nomine pauca a nobis 
+          di<lb break="no" ed="#P" n="32"/>cenda, supersunt, quia propria Spiritus sancti
+          <lb ed="#P" n="33"/>relatio simul cum relatione spirationis et cum
+          <lb ed="#P" n="34"/>his, quae de spiratore diximus, fere explicata
+          <lb ed="#P" n="35"/>est, quia correlativa ut sic, sunt simul cogni-
+          <cb ed="#P" n="h"/>
+          <lb ed="#P" n="36"/>tione et cum de relationibus divinis ageremus,
+          <lb ed="#P" n="37"/>terminum, fundamentum, et rationem 
+          fun<lb break="no" ed="#P" n="38"/>dandi hujus relationis declaravimus. De modo
+          <lb ed="#P" n="39"/>item processionis hujus personae in primo 
+          h<lb break="no" ed="#P" n="40"/>bro aliquid attigimus. Tamen, quia haec 
+          pro<lb break="no" ed="#P" n="41"/>cessio minus nota nobis est, ut D. Thomas,
+          <lb ed="#P" n="42"/>dicta quaest. 36, art. 1, notavit, curabimus
+          <lb ed="#P" n="43"/>hic amplius illam declarare. Utemurque 
+          duo<lb break="no" ed="#P" n="44"/>bus illis modis, quibus obscuriora Dei 
+          investi<lb break="no" ed="#P" n="45"/>gare solemus, scilicet, vel per connotationem
+          <lb ed="#P" n="46"/>aliquam, seu comparationem ab alia, praecipue
+          <lb ed="#P" n="47"/>ad processionem Verbi, vel per negationes 
+          ali<lb break="no" ed="#P" n="48"/>quas, quae in Spiritu sancto etiam per 
+          compa<lb break="no" ed="#P" n="49"/>rationem ad Filium considerari possunt. De-
+          <pb ed="#P" n="774"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nique de respectu peculiari hujus personae ad
+          <lb ed="#P" n="2"/>creaturas nihil hactenus tractatum est, nec
+          <lb ed="#P" n="3"/>videtur facilis ad explicandum tahs respectus,
+          <lb ed="#P" n="4"/>et ideo hoc etiam praecipue nobis superest ad
+          <lb ed="#P" n="5"/>inquirendum de hac persona.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="217"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-055334"><!-- t1-l3c7 -->
+        <head xml:id="szduep-055334-Hd1e101">Caput 7</head>
+        <head xml:id="szduep-055334-Hd1e103" type="question-title">De actibus divinae voluntatis circa objecta creata</head>
+        <p xml:id="szduep-055334-d1e106">
+          <lb ed="#P" n="26"/>CAPUT VII.
+          <lb ed="#P" n="27"/>DE ACTIBUS DIVINAE VOLUNTATIS CIRCA OBJECTA
+          <lb ed="#P" n="28"/>CREATA.
+        </p>
+        <p xml:id="szduep-055334-d1e115">
+          <lb ed="#P" n="29"/>1. In voluntate nostra triplex ordo actuum
+          <lb ed="#P" n="30"/>invenitur. — Quamvis supponamusin re tantum
+          <lb ed="#P" n="31"/>esse unicum et simplicissimum actum divinae
+          <lb ed="#P" n="32"/>voluntatis, ut supra generaliter probatum est;
+          <lb ed="#P" n="33"/>nihilominus intelligendum est in illo actu unice
+          <lb ed="#P" n="34"/>contineri rationem formalem plurium actuum
+          <lb ed="#P" n="35"/>nostrae voluntatis, quos propterea nos 
+          secun<lb break="no" ed="#P" n="36"/>dum rationem in divina distinguimus, ut 
+          mo<lb break="no" ed="#P" n="37"/>dum volendi Dei concipere et explicare 
+          possi<lb break="no" ed="#P" n="38"/>gannus, et ideo hi actus breviter a nobis 
+          recen<lb break="no" ed="#P" n="39"/>sendi sunt, simulque exponemus caetera quae
+          <lb ed="#P" n="40"/>de divina voluntate desiderari possunt : igitur
+          <lb ed="#P" n="41"/>mn nostra voluntate triplicem ordinem actuum
+          <lb ed="#P" n="42"/>intelligimus. Unus est secundum eum ordinem
+          <lb ed="#P" n="43"/>quo animi passiones numerantur, quatenus in
+          <lb ed="#P" n="44"/>voluntate spiritualiter esse possunt, seclusa 
+          per<lb break="no" ed="#P" n="45"/>turbatione passionum. Alius secundum 
+          ordi<lb break="no" ed="#P" n="46"/>nem actuum qui in humana actione, 
+          consul<lb break="no" ed="#P" n="47"/>tatione et deliberatione interveniunt, ut 
+          in<lb break="no" ed="#P" n="48"/>tentio, electio, etc. Tertius ordo actuum potest
+          <lb ed="#P" n="49"/>numerari per varias virtutes voluntatis, ut 
+          jus<lb break="no" ed="#P" n="50"/>titiae, misericordie, liberalitatis, charitatis.
+          <lb ed="#P" n="51"/>Omnes ergo hujus ordinis actus possunt divinae
+          <lb ed="#P" n="52"/>voluntati attribui seclusis imperfectionibus, et
+          <lb ed="#P" n="53"/>ideo breviter explicandi sunt.
+        </p>
+        <p xml:id="szduep-055334-d1e172">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>2. Actus primi ordinis.— Omnes inveniuntur
+          <lb ed="#P" n="55"/>in Deo, excepta tristitia. —In priori ergo ordine
+          <lb ed="#P" n="56"/>undecim actus numeravit divus Thomas 1, 2,
+          <lb ed="#P" n="57"/>quaest. 23 et 25, qui sunt, amor, desiderium,
+          <lb ed="#P" n="58"/>delectatio, quibus opponuntur odium, fuga et
+          <lb ed="#P" n="59"/>tristitia, et hi dicuntur passiones 
+          concupiscibi<lb break="no" ed="#P" n="60"/>les, alii dicuntur irascibiles, ut spes, desperatio,
+          <lb ed="#P" n="61"/>audacia, timor et ira. Ex prioribus ergo sex
+          <lb ed="#P" n="62"/>actibus qui ad concupiscibilem pertinent, 
+          om<lb break="no" ed="#P" n="63"/>nes (excepfa tristitia) possunt divinae voluntati
+          <lb ed="#P" n="64"/>tribui, cum proprietate et sine metaphora. De
+          <lb ed="#P" n="65"/>amore res certa est, et late tractat D. Thomas,
+          <lb ed="#P" n="66"/>1. part., quaest. 20, per totam, et constat ex
+          <lb ed="#P" n="67"/>Scriptura: Diligit omnia quee sunt, Sap. 11, et
+          <lb ed="#P" n="68"/>Sic Deus dilexit mundum, etc. Et patet, nam
+          <lb ed="#P" n="69"/>de ratione amoris solum est velle bonum 
+          ali<lb break="no" ed="#P" n="70"/>cui, ut supra dictum est, Deus autem vult 
+          bo<lb break="no" ed="#P" n="71"/>num creaturis, ut per se constat, et in hoc 
+          af<lb break="no" ed="#P" n="72"/>fectu nulla per se imperfectio miscetur, nam
+          <lb ed="#P" n="73"/>si innobis habet multas, ut revera habet, est ex
+          <lb ed="#P" n="74"/>nobis, non ex ratione ipsius amoris.
+        </p>
+        <p xml:id="szduep-055334-d1e223">
+          <lb ed="#P" n="75"/>3. Dubium. — Resolutio.—Solet autem amor
+          <lb ed="#P" n="76"/>in amorem concupiscentiae et benevolentiae seu
+          <lb ed="#P" n="77"/>amicitiae distingui. Unde quaeri potest, an 
+          uter<lb break="no" ed="#P" n="78"/>que habeat locum in Deo. Cum quo dubio aliud
+          <lb ed="#P" n="79"/>conjunctum est, scilicet, an tota ratio amandi
+          <lb ed="#P" n="80"/>creaturas sit ipsa bonitas increata Dei, vel etiam
+          <lb ed="#P" n="81"/>bonitas in ipsis creaturis inventa. Sed haec 
+          suf<lb break="no" ed="#P" n="82"/>ficienter a nobis tractata sunt in dicta Relect. 1,
+          <lb ed="#P" n="83"/>disp. 1, sect. 2, num. 15 et seqq. Vera enim
+          <lb ed="#P" n="84"/>resolutio est, omnia quidem velle Deum 
+          prop<lb break="no" ed="#P" n="85"/>ter suam bonitatem, tanquam propter 
+          ulti<lb break="no" ed="#P" n="86"/>mum finem et primam rationem volendi 
+          om<lb break="no" ed="#P" n="87"/>nia. Per hoc tamen non excludi, quin ad 
+          volen<lb break="no" ed="#P" n="88"/>dum, in rebus ipsis attendat earum bonitatem
+          <lb ed="#P" n="89"/>majorem vel minorem, nam ex illa oritur etiam
+          <lb ed="#P" n="90"/>major vel minor decentia operandi seu volendi,
+          <lb ed="#P" n="91"/>etiam propter bonitatem suam. Idque quod
+          <lb ed="#P" n="92"/>Deus omnia propter se operetur, nihil obstat,
+          <lb ed="#P" n="93"/>quo minus rationales creaturas vero amore 
+          be<lb break="no" ed="#P" n="94"/>nevolentiae et amicitiae prosequatur. Quia illae
+          <lb ed="#P" n="95"/>sunt capaces talis amoris, et divinam 
+          bonita<lb break="no" ed="#P" n="96"/>tem decet ita illas amare. Item quia non 
+          prop<lb break="no" ed="#P" n="97"/>ter suam utilitatem vel commoditatem illas
+          <lb ed="#P" n="98"/>amat, sed propter bonum ipsarum. Quod autem
+          <lb ed="#P" n="99"/>hoc bonum illarum ad Dei gloriam, ut ad 
+          fi<lb break="no" ed="#P" n="100"/>nem ultimum ab ipso etiam Deo ordinetur, non
+          <lb ed="#P" n="101"/>est contra rationem amicitiae, quia haec non
+          <lb ed="#P" n="102"/>excludit debitum ordinem ad Deum, seu ad 
+          ulti<lb break="no" ed="#P" n="103"/>mum finem. Caeteras vero creaturas inferiores
+          <lb ed="#P" n="104"/>amat Deus amore concupiscentiae, quia omnes
+          <lb ed="#P" n="105"/>illas vult propter commodum et utilitatem 
+          ra<lb break="no" ed="#P" n="106"/>tionalium creaturarum, nec irrationalia 
+          majo<lb break="no" ed="#P" n="107"/>ris amoris capacia sunt. Ut constat ex 
+          Aristo<lb break="no" ed="#P" n="108"/>tele 8, Ethicor. cap. 2, S. Thbomae, 1 part.,
+          <pb ed="#P" n="218"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quaest. 20, art. 2, ad 3, 4, contra Gentes,
+          <lb ed="#P" n="2"/>cap. 19.
+        </p>
+        <p xml:id="szduep-055334-d1e308">
+          <lb ed="#P" n="3"/>4. Gaudium proprium esse in Deo de bonis
+          <lb ed="#P" n="4"/>creaturarum. — Hinc constat intelligi posse ac
+          <lb ed="#P" n="5"/>debere in voiuntate divina rerum ac proprium
+          <lb ed="#P" n="6"/>gaudium de bonis creaturarum, et praesertinr
+          <lb ed="#P" n="7"/>rationalium, et maxime de illo bono quod ad
+          <lb ed="#P" n="8"/>salutem earum spectat. Nam gaudium 
+          comita<lb break="no" ed="#P" n="9"/>tur amorem quando bonum est praesens seu
+          <lb ed="#P" n="10"/>possidetur, et in ratione sua nullam 
+          imperfec<lb break="no" ed="#P" n="11"/>tionem includit. Unde etiam Scriptura hunc
+          <lb ed="#P" n="12"/>affectum Deo tribuit, quae cum proprietate 
+          po<lb break="no" ed="#P" n="13"/>test intelligi. Et eadem ratione, quando 
+          con<lb break="no" ed="#P" n="14"/>tingit personam a Deo dilectam, non habere
+          <lb ed="#P" n="15"/>bonum illud quod Deus illi vult, etiam potest
+          <lb ed="#P" n="16"/>Deus habere desiderium talis boni. Nam (ut
+          <lb ed="#P" n="17"/>supra dixi) circa se non potest habere talem
+          <lb ed="#P" n="18"/>actum, quia non potest ipse non habere omnia
+          <lb ed="#P" n="19"/>sua bona, tamen respectu alterius potest 
+          ha<lb break="no" ed="#P" n="20"/>bere illum, quia alter potest carere eis bonis
+          <lb ed="#P" n="21"/>quae illi Deus vult, et talis videtur esse 
+          volun<lb break="no" ed="#P" n="22"/>tas, qua Deus vult omnes homines salvos fieri,1
+          <lb ed="#P" n="23"/>Timoth. 2, ut exponit Chrysostomus , 
+          ho<lb break="no" ed="#P" n="24"/>mil. 1, ad Ephes. Et latius notavimus, dicta
+          <lb ed="#P" n="25"/>Relect. 1, disp. 1, sect. 2, num. 8 et 
+          sequenti<lb break="no" ed="#P" n="26"/>bus. Neque in hoc actu includitur aliqua 
+          im<lb break="no" ed="#P" n="27"/>perfectio, ut mox explicabimus in actu spei.
+        </p>
+        <p xml:id="szduep-055334-d1e365">
+          <lb ed="#P" n="28"/>5. Dubium.— Prima opinio. — De actu odi
+          <lb ed="#P" n="29"/>est nonnulla disceptatio inter theologos. Nam
+          <lb ed="#P" n="30"/>divus Thomas 1, contra Gentes, cap. 96, 
+          simpli<lb break="no" ed="#P" n="31"/>citer negat Deum aliquid odio habere, quod
+          <lb ed="#P" n="32"/>sequuntur Ferrarius ibi, et Capreolus in 1,
+          <lb ed="#P" n="33"/>dist. 45, quaest. 1.
+        </p>
+        <p xml:id="szduep-055334-d1e381">
+          <lb ed="#P" n="34"/>Secunda opinio.— Vera resolutio.—Alii vero
+          <lb ed="#P" n="35"/>oppositum docent, quorum sententia mihi 
+          ma<lb break="no" ed="#P" n="36"/>gis probatur. Existimo tamen divum Thomam
+          <lb ed="#P" n="37"/>solum locutum fuisse de odio personarum, aut
+          <lb ed="#P" n="38"/>rerum existentium, ut tales sunt, juxta illud
+          <lb ed="#P" n="39"/>quod ibidem adducit ex Sapient. 11: Diligis
+          <lb ed="#P" n="40"/>omnia qua sunt, et nihil odisti eorum quee 
+          fe<lb break="no" ed="#P" n="41"/>cisti. Itaque illa quae DEUS facit, non odit, 
+          pec<lb break="no" ed="#P" n="42"/>catum autem non facit neque facere aut velle
+          <lb ed="#P" n="43"/>potest, et ideo potest illud odisse, et revera odit.
+          <lb ed="#P" n="44"/>Quod enim peccatum non sitsubstantia, sed 
+          ac<lb break="no" ed="#P" n="45"/>cidens, vel per modum accidentis seu actus,
+          <lb ed="#P" n="46"/>parum refert ad rationem odii. Quia etiam 
+          ac<lb break="no" ed="#P" n="47"/>cidentia odio habentur, nos enim odimus 
+          aegri<lb break="no" ed="#P" n="48"/>tudinem et ipsum peccatum. Denique illud odio
+          <lb ed="#P" n="49"/>habetur quod secundum se ita displicet, ut 
+          il<lb break="no" ed="#P" n="50"/>lius destructio appetatur, sed voluntati divinae
+          <lb ed="#P" n="51"/>maxime displicet peccatum ratione suae 
+          mali<lb break="no" ed="#P" n="52"/>tiae, ob quam illud destrui cupit, ergo est in
+          <lb ed="#P" n="53"/>DEO verum ac proprium odium peccati. Et
+          <lb ed="#P" n="54"/>consequenter est etiam odium peccatoris, non
+          <lb ed="#P" n="55"/>ut homo est, sed ut peccator est, ut satis aperte
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>docuit D. Thomas, 1 part., quaest. 10, art.2
+          <lb ed="#P" n="57"/>ad 4. Ubi etiam sentit cum proprietate esse
+          <lb ed="#P" n="58"/>intelligendas Scripturas quae dicunt Deum odio
+          <lb ed="#P" n="59"/>habere impium et impietatem ejus, et odisse
+          <lb ed="#P" n="60"/>omnes qui operantur iniquitates. Nam 
+          forma<lb break="no" ed="#P" n="61"/>liter intellectae de odio peccati et peccatoris, ut
+          <lb ed="#P" n="62"/>peccator est, proprüssime intelligendae sunt,
+          <lb ed="#P" n="63"/>quia licet natura et forma hominis non 
+          displi<lb break="no" ed="#P" n="64"/>ceat Deo, secundum id quod ab ipso habet, 
+          ta<lb break="no" ed="#P" n="65"/>men displicet peccator ratione peccati quod a
+          <lb ed="#P" n="66"/>se habet. Et sicut gratia facit placere Deo 
+          per<lb break="no" ed="#P" n="67"/>sonam peculiari quodam modo, ita etiam 
+          pec<lb break="no" ed="#P" n="68"/>catum facit, ut persona ipsa cui inest, Deo 
+          dis<lb break="no" ed="#P" n="69"/>pliceat: hac ergo ratione illam odio habet et
+          <lb ed="#P" n="70"/>illi malum infert, ergo odio illam habet, saltem
+          <lb ed="#P" n="71"/>ut peccator est. An vero hoc satis sit ad 
+          ratio<lb break="no" ed="#P" n="72"/>nem odii inimicitiae respectu personae 
+          simphci<lb break="no" ed="#P" n="73"/>ter sumptae, quaestio est de nomine. Tamen in
+          <lb ed="#P" n="74"/>hominibus certe non ita loquimur, nam judex
+          <lb ed="#P" n="75"/>qui punit malefactorem, non dicitur proprie
+          <lb ed="#P" n="76"/>illum odisse simpliciter, praesertim odio 
+          inimi<lb break="no" ed="#P" n="77"/>citiae, ergo nec de Deo ita loquendum est. Sed
+          <lb ed="#P" n="78"/>hoc ad praesens non refert, satis enim est, ex
+          <lb ed="#P" n="79"/>dictis constare, inveniri posse in voluntate 
+          di<lb break="no" ed="#P" n="80"/>vina odium circa objectum proportionatum.
+        </p>
+        <p xml:id="szduep-055334-d1e488">
+          <lb ed="#P" n="81"/>6. In Deo esse fugam mali. — Et hinc etiam
+          <lb ed="#P" n="82"/>constat esse posse in voluntate divina fugam
+          <lb ed="#P" n="83"/>mali, odio proportionato et per modum 
+          desi<lb break="no" ed="#P" n="84"/>derii, ut malum destruatur et non fiat. Nam
+          <lb ed="#P" n="85"/>hic etiam affectus imperfectionem non involvit.
+          <lb ed="#P" n="86"/>Secus vero est de tristitia, nam haec est de malo
+          <lb ed="#P" n="87"/>praesenti, quod in Deo esse non potest. Dices,
+          <lb ed="#P" n="88"/>esse potest in amicis ejus et tristitia esse potest
+          <lb ed="#P" n="89"/>de malo amici. Respondeo; si sit malum poenae,
+          <lb ed="#P" n="90"/>non est in amico Dei sine voluntate Dei, et
+          <lb ed="#P" n="91"/>ideo non potest contristare Deum, quia tristitia
+          <lb ed="#P" n="92"/>est de his, quae nobis nolentibus accidunt. Eo
+          <lb ed="#P" n="93"/>vel maxime, quod tale malum in Dei amico
+          <lb ed="#P" n="94"/>non est simpliciter malum, sed plus potest boni
+          <lb ed="#P" n="95"/>afferre, quam mali. Si vero sit malum culpae,
+          <lb ed="#P" n="96"/>dissolvit amicitiam, et ideo jam non est malum
+          <lb ed="#P" n="97"/>amici, nec potest eo titulo contristare Deum.
+          <lb ed="#P" n="98"/>Si vero sit leve malum, non est, quod 
+          contris<lb break="no" ed="#P" n="99"/>tet Deum, qui facile potest illud mederi.
+        </p>
+        <p xml:id="szduep-055334-d1e532">
+          <lb ed="#P" n="100"/>7. Objectio. — Dices, ipsum peccatum est
+          <lb ed="#P" n="101"/>injuria Dei, ac proinde malum Dei, licet 
+          ex<lb break="no" ed="#P" n="102"/>trinsecum, quod sufticiens est ad 
+          contristan<lb break="no" ed="#P" n="103"/>dum. hespondeo, hoc habere locum in homine,
+          <lb ed="#P" n="104"/>qui indiget his bonis extrinsecis, quibus haec
+          <lb ed="#P" n="105"/>mala extrinseca repugnant, vel illa bona plus
+          <lb ed="#P" n="106"/>eestimat et amat quam debeat : Deus autem non
+          <lb ed="#P" n="107"/>indiget his bonis extrinsecis, honore, scilicet
+          <lb ed="#P" n="108"/>gloria, et obedientia hominis: neque illa vult
+          <lb ed="#P" n="109"/>propter suum commodum, sed solum, quia ita
+          <lb ed="#P" n="110"/>decet: et ideo, licet non fiant, vel licet contraria
+          <pb ed="#P" n="219"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mala fiant, non dolet, neque tristatur. 
+          Maxi<lb break="no" ed="#P" n="2"/>me, quia licet sint aliquo modo contra 
+          volun<lb break="no" ed="#P" n="3"/>tatem ejus, non sunt simphliciter ipsi 
+          involun<lb break="no" ed="#P" n="4"/>taria, ut in dicta Relectione declaravi, tristitia
+          <lb ed="#P" n="5"/>autem non est, nisi ubi est proprium 
+          involun<lb break="no" ed="#P" n="6"/>tarium. Deinde, ipsamet tristitia malum 
+          quod<lb break="no" ed="#P" n="7"/>dam est, Deus autem incapax est omnis mali.
+          <lb ed="#P" n="8"/>Unde non solum Deus, verum etiam beati 
+          tris<lb break="no" ed="#P" n="9"/>tari non possunt, nec de internis malis 
+          pro<lb break="no" ed="#P" n="10"/>priis, quia ea pati non possunt, nec de 
+          extrin<lb break="no" ed="#P" n="11"/>secis injuriis, vel infamiis, quia non sunt vera
+          <lb ed="#P" n="12"/>eorum mala, et pro nihilo ea aestimant, nec
+          <lb ed="#P" n="13"/>de divinis offensis, nec de malis amicorum,
+          <lb ed="#P" n="14"/>quos sicut se diligunt, quia non sunt capaces
+          <lb ed="#P" n="15"/>alicujus mali, vel incommodi , multo ergo
+          <lb ed="#P" n="16"/>altiori modo DEUS est incapax talium 
+          effec<lb break="no" ed="#P" n="17"/>tuum. Quoties ergo Scriptura loquitur de 
+          do<lb break="no" ed="#P" n="18"/>lore, aut poenitudine DEI, metaphorica est
+          <lb ed="#P" n="19"/>locutio, ad ostendendum quantum displiceant
+          <lb ed="#P" n="20"/>DEO aliqua mala. Aliud vero est displicere,
+          <lb ed="#P" n="21"/>aliud dolere, in proprietate locutionis, ut in
+          <lb ed="#P" n="22"/>quarto tomo de Poenitentia latius diximus.
+        </p>
+        <p xml:id="szduep-055334-d1e611">
+          <lb ed="#P" n="23"/>8. Actus pertinentes ad partem irascibilem
+          <lb ed="#P" n="24"/>non esse in Deo. — Ex his facile est de actibus
+          <lb ed="#P" n="25"/>pertinentibus ad partem irascibilem judicium
+          <lb ed="#P" n="26"/>ferre, non est enim necessarium per singulos
+          <lb ed="#P" n="27"/>discurrere. Nam quatuor ex illis claram 
+          invol<lb break="no" ed="#P" n="28"/>vunt imperfectionem in persona habente illos.
+          <lb ed="#P" n="29"/>Nam spes (juxta multorum sententiam) dicit
+          <lb ed="#P" n="30"/>tendentiam in bonum absens difficile ad 
+          con<lb break="no" ed="#P" n="31"/>sequendum, Deo autem nihil est difficile, si
+          <lb ed="#P" n="32"/>velit. Vel spes dicit tendentiam ad bonum
+          <lb ed="#P" n="33"/>consequendum virtute alterius, nam quod quis
+          <lb ed="#P" n="34"/>habet in manu sua et voluntate, non sperat,
+          <lb ed="#P" n="35"/>ergo nec Deus sperat. Et eadem ratione non
+          <lb ed="#P" n="36"/>habet locum in Deo desperatio, nam contraria
+          <lb ed="#P" n="37"/>circa idem versantur, et quia nihil potest 
+          divi<lb break="no" ed="#P" n="38"/>nam potentiam et voluntatem impedire, si ipse
+          <lb ed="#P" n="39"/>vult. Si autem non vult impedire, fieri malum
+          <lb ed="#P" n="40"/>aliquod, aut non comparari bonum, sed 
+          prae<lb break="no" ed="#P" n="41"/>sciens effectum futurum illum permittit, non
+          <lb ed="#P" n="42"/>est desperatio, sed simplex nolitio efficaciter
+          <lb ed="#P" n="43"/>impediendi tale malum, vel procurandi tale
+          <lb ed="#P" n="44"/>bonum. Audacia vero et timor supponunt clare
+          <lb ed="#P" n="45"/>defectum potestatis, cum aliqua ignorantia,
+          <lb ed="#P" n="46"/>vel dubitatione eventus futuri, et ideo in Deum
+          <lb ed="#P" n="47"/>non cadunt. De ira solum potest esse aliqua
+          <lb ed="#P" n="48"/>dubitatio. Ego vero existimo in suo formali
+          <lb ed="#P" n="49"/>conceptu non includere imperfectionem, 
+          ideo<lb break="no" ed="#P" n="50"/>que quando Scriptura tribuit iram Deo, proprie
+          <lb ed="#P" n="51"/>intelligi, sicut quando tribuit vindictam. Sed
+          <lb ed="#P" n="52"/>de illo affectu disserui in disputatione speciali
+          <lb ed="#P" n="53"/>de divina justitia, sectione quinta, in principio.
+        </p>
+        <p xml:id="szduep-055334-d1e681">
+          <lb ed="#P" n="54"/>9. Corollarium. — Tandem ex his, quae de
+          <lb ed="#P" n="55"/>actibus his diximus, intelligi potest, quomodo
+          <lb ed="#P" n="56"/>divina voluntas circa bona et mala creata 
+          ver<lb break="no" ed="#P" n="57"/>setur. Nam bona per se loquendo amat, sub
+          <lb ed="#P" n="58"/>amore comprehendendo omnes affectus, 
+          qui<lb break="no" ed="#P" n="59"/>bus voluntas prosequitur bonum appetendo
+          <lb ed="#P" n="60"/>illud, vel complacendo in illo absque ulla 
+          im<lb break="no" ed="#P" n="61"/>perfectione , quod satis constat ex omnibus
+          <lb ed="#P" n="62"/>dictis. Dico autem per se, quia quantum est ex
+          <lb ed="#P" n="63"/>se, et ex vi bonitatis suae, ita dihgit bonum a
+          <lb ed="#P" n="64"/>se creatum, ut nullum malum ei vclit. Sic enim
+          <lb ed="#P" n="65"/>de illo scriptum est. Diligis omnia que sunt
+          <lb ed="#P" n="66"/>et nilil odisti corum quee fecisti. At vero mala
+          <lb ed="#P" n="67"/>quaedam sunt poenae, alia culpae, sub 
+          priori<lb break="no" ed="#P" n="68"/>busque naturales defectus et corruptiones 
+          com<lb break="no" ed="#P" n="69"/>prehendimus. llla ergo mala interdum vult
+          <lb ed="#P" n="70"/>Deus non solum permittendo, sed etiam 
+          agen<lb break="no" ed="#P" n="71"/>do, unde et creare malum dicitur Isai. 43. Imo
+          <lb ed="#P" n="72"/>et facere omne malum quod est in civitate, Amos
+          <lb ed="#P" n="73"/>3. Nihilominus tamen, quia non vult hoc 
+          ma<lb break="no" ed="#P" n="74"/>Ium propter ipsum, sed propter rationem 
+          al<lb break="no" ed="#P" n="75"/>quam boni majorem, vel magis universalem,
+          <lb ed="#P" n="76"/>dicitur haec mala non per se velle, sed quasi
+          <lb ed="#P" n="77"/>per accidens, non quia illa revera non velit
+          <lb ed="#P" n="78"/>directe et in se, sed quia solum illa vult, ut
+          <lb ed="#P" n="79"/>necessario consequantur ex aliis bonis, vel
+          <lb ed="#P" n="80"/>quasi coactus ex alia ratione boni. Sicut in
+          <lb ed="#P" n="81"/>philosophia dicuntur agentia naturalia non per
+          <lb ed="#P" n="82"/>se, sed per accidens corrumpere aliquid, 
+          nul<lb break="no" ed="#P" n="83"/>lumque agens intendens ad malum operari.
+        </p>
+        <p xml:id="szduep-055334-d1e749">
+          <lb ed="#P" n="84"/>10. Objectio. — Responsum. — Dices, multas
+          <lb ed="#P" n="85"/>res possibiles voluit Deus nunquam esse, quod
+          <lb ed="#P" n="86"/>est maximum eorum malum et sine intuitu
+          <lb ed="#P" n="87"/>boni, sed solum, quia noluit creare illas, ergo
+          <lb ed="#P" n="88"/>eodem modo circa res, quas creavit, potest,
+          <lb ed="#P" n="89"/>velle naturalibus bonis illas privare, vel mala
+          <lb ed="#P" n="90"/>naturalia eis inferre, solum quia vult absque
+          <lb ed="#P" n="91"/>alia ratione boni. Respondetur, imprimis in
+          <lb ed="#P" n="92"/>creaturis possibilibus non esse proprie rationem
+          <lb ed="#P" n="93"/>mali, quia malum supponit aliquod in quo sit.
+          <lb ed="#P" n="94"/>Est ergo pura negatio boni, quam Deus proprie
+          <lb ed="#P" n="95"/>non facit, illam enim ex se habet creatura, nisi
+          <lb ed="#P" n="96"/>Deus eam ex nihilo educat, quod pro sua 
+          liber<lb break="no" ed="#P" n="97"/>tate potest non facere et non velle, vel etiam
+          <lb ed="#P" n="98"/>velle non facere. Hoc autem non est velle 
+          ma<lb break="no" ed="#P" n="99"/>Ium, nec odisse, sed solum non amare. Et
+          <lb ed="#P" n="100"/>tamen hoc ipsum non facit Deus sine aliqua
+          <lb ed="#P" n="101"/>ratione sapientiae suae, quae habet aliquam 
+          ra<lb break="no" ed="#P" n="102"/>tionem boni. Deinde dicitur, posse quidem
+          <lb ed="#P" n="103"/>Deum ex absoluto dominio, rebus a se creatis
+          <lb ed="#P" n="104"/>quodcumque malum naturale inferre, et bonis
+          <lb ed="#P" n="105"/>collatis privare : quod si faceret, non sine 
+          ali<lb break="no" ed="#P" n="106"/>qua ratione boni faceret. Nihilominus tamen,
+          <lb ed="#P" n="107"/>secundum ordinariam providentiam suam non
+          <lb ed="#P" n="108"/>id facere, nisi prout expedit ad bonum 
+          uni<lb break="no" ed="#P" n="109"/>versi, juxta finem ultimum ad quem ab ipso
+          <lb ed="#P" n="110"/>ordinatur et ideo Deum nunquam velle haec
+          <pb ed="#P" n="220"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mala, nisi consequenter ex aliis bonis, vel ex
+          <lb ed="#P" n="2"/>aliqua ratione justitiae, vel misericordiae, 
+          ex<lb break="no" ed="#P" n="3"/>petuntur. At mala culpae nullo modo vult, sed
+          <lb ed="#P" n="4"/>permittit. Mundi enim sunt oculi ejus, ne 
+          vi<lb break="no" ed="#P" n="5"/>deant malos, Abac. 3. Ubi occurrebat gravis
+          <lb ed="#P" n="6"/>illa quaestio de modo, quo divina voluntas se
+          <lb ed="#P" n="7"/>gerit circa hominum peccata, quae in libro 
+          se<lb break="no" ed="#P" n="8"/>cundo, de auxiliis a principio, a nobis tractata
+          <lb ed="#P" n="9"/>est. ibique videri potest.
+        </p>
+        <p xml:id="szduep-055334-d1e834">
+          <lb ed="#P" n="10"/>11. Ratione distinguuntur actus voluntatis
+          <lb ed="#P" n="11"/>divine. — Secundo principahter distingui 
+          pos<lb break="no" ed="#P" n="12"/>sunt ratione actus divina voluntatis, juxta
+          <lb ed="#P" n="13"/>progressum voluntatis humanae in 
+          deliberatio<lb break="no" ed="#P" n="14"/>nibus suis. Et ita distinguitur intentio finis,
+          <lb ed="#P" n="15"/>electio mediorum et usus, seu voluntas 
+          exe<lb break="no" ed="#P" n="16"/>quens, quod per electionem firmatum est. Ad
+          <lb ed="#P" n="17"/>hos enim tres actus omnes reduco. Nam ali,
+          <lb ed="#P" n="18"/>qui numerari solent, ut voluntas simplex, finis,
+          <lb ed="#P" n="19"/>fruitio, consensus seu propositum et si qui sunt
+          <lb ed="#P" n="20"/>alii, vel in dictis continentur, vel generalter
+          <lb ed="#P" n="21"/>pertinent ad amorem, vel gaudium. Non est
+          <lb ed="#P" n="22"/>ergo dubium, quin in divina voluntate illi tres
+          <lb ed="#P" n="23"/>actus ratione distinguendi sint, quia formales
+          <lb ed="#P" n="24"/>rationes eorum propriüssime inveniuntur in
+          <lb ed="#P" n="25"/>divino velle, et habentsufticiensfundamentum
+          <lb ed="#P" n="26"/>distinctionis rationis. Quod patet, quia 
+          impri<lb break="no" ed="#P" n="27"/>mis rationes talium actuum non dicunt 
+          imper<lb break="no" ed="#P" n="28"/>fectionem, neque illam formahter includunt.
+          <lb ed="#P" n="29"/>Quia intendere finem, si finis est bonus, ut
+          <lb ed="#P" n="30"/>semper est in voluntate divina, bonum est et
+          <lb ed="#P" n="31"/>non includit in Deo imperfectionem, quia non
+          <lb ed="#P" n="32"/>ita intendit bonum creaturae, quin illud ordi- -
+          <lb ed="#P" n="33"/>net ad suam gloriam. Deinde eligere media
+          <lb ed="#P" n="34"/>consentanea fini per se bonum est et similiter
+          <lb ed="#P" n="35"/>illa exequi, et in his omnibus ostenditur 
+          boni<lb break="no" ed="#P" n="36"/>tas, sapientia et potentia Dei, ergo in 
+          rationi<lb break="no" ed="#P" n="37"/>bus talium actuum nihil includitur, ob quod
+          <lb ed="#P" n="38"/>non possint divinae voluntati propriissime 
+          con<lb break="no" ed="#P" n="39"/>venire. Aliqui vero sunt necessaru, ut Deus
+          <lb ed="#P" n="40"/>propriissime dicatur velle unum propter aliud
+          <lb ed="#P" n="41"/>et operari propter finem. Possuntque hi actus
+          <lb ed="#P" n="42"/>esse in Deo sine ulla distinctione in re, cum
+          <lb ed="#P" n="43"/>sola distinctione virtuali propter eminentiam
+          <lb ed="#P" n="44"/>ipsius velle divini, ergo hi actus proprie et sine
+          <lb ed="#P" n="45"/>Metaphora attribuuntur divinae voluntati. De
+          <lb ed="#P" n="46"/>qua distinctione hic plura non dicam, quia in
+          <lb ed="#P" n="47"/>libro primo de Praedestinatione ex professo
+          <lb ed="#P" n="48"/>tractanda est, et in particulari est ostendenda
+          <lb ed="#P" n="49"/>in praecipuo negotio divinae providentiae, quod
+          <lb ed="#P" n="50"/>est hominum praedestinatio.
+        </p>
+        <p xml:id="szduep-055334-d1e925">
+          <lb ed="#P" n="51"/>12. Oriuntur nonnulle quaestiones. —Winc
+          <lb ed="#P" n="52"/>vero oriri possunt nonnullae quaestiones. 
+          Pri<lb break="no" ed="#P" n="53"/>ma est, quia juxta hanc partitionem assignari
+          <lb ed="#P" n="54"/>poterit aliqua ratio, et causa divinae 
+          volun<lb break="no" ed="#P" n="55"/>tatis, quod absolute negat Augustinus, lib. 1,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de Genesi , contra Manich. cap. 2, sequela
+          <lb ed="#P" n="57"/>cere Deum velle media, quia vult finem, quod
+          <lb ed="#P" n="58"/>non videtur communiter admitti, ut patet ex
+          <lb ed="#P" n="59"/>D. Thoma, dicta quaest. 19, art. 5. Respondeo,
+          <lb ed="#P" n="60"/>hic non esse quaestionem de re, sed solum 
+          ne<lb break="no" ed="#P" n="61"/>cessarium esse congruenter loqui. Itaque 
+          cer<lb break="no" ed="#P" n="62"/>tum est hos actus in divina voluntate non
+          <lb ed="#P" n="63"/>habere inter se illam causalitatem, quam 
+          ha<lb break="no" ed="#P" n="64"/>bent in nostra voluntate, quia in nobis realiter
+          <lb ed="#P" n="65"/>efficiuntur, et inter se distinguuntur, et ita unus
+          <lb ed="#P" n="66"/>potest ab alio manare; in divina autem 
+          vo<lb break="no" ed="#P" n="67"/>luntate solum est unus simplicissimus actus,
+          <lb ed="#P" n="68"/>quo omnia vult. Nihilominus inter objecta 
+          il<lb break="no" ed="#P" n="69"/>lius actus est ordo finis et mediorum, nam
+          <lb ed="#P" n="70"/>Quee a Deo sunt, ordinata sunt, Rom. 13. Et
+          <lb ed="#P" n="71"/>ideo propriissime dicitur velle Deus unum
+          <lb ed="#P" n="72"/>propter aliud, quia locutio illa solum significat
+          <lb ed="#P" n="73"/>ordinem ipsorum objectorum inter se. Et ita
+          <lb ed="#P" n="74"/>loquitur Scriptura, Prov. 16: Omnia propter
+          <lb ed="#P" n="75"/>semetipsum operatus est Dominus, et similia,
+          <lb ed="#P" n="76"/>quae passim occurrunt, et eamdem vim habet
+          <lb ed="#P" n="77"/>illa locutio Pauli ad Ephes. 1: legit nos
+          <lb ed="#P" n="78"/>in ipso, ut essemus sancti. Et hinc fit, ut nos
+          <lb ed="#P" n="79"/>cum fundamento in re, ratione distinguamus
+          <lb ed="#P" n="80"/>actus circa illa objecta, quae inter se, ut finis
+          <lb ed="#P" n="81"/>et media comparantur et ita unum 
+          intentio<lb break="no" ed="#P" n="82"/>nem vere nominamus, et alium electionem.
+          <lb ed="#P" n="83"/>Unde ulterius sequitur, quod sicut unum 
+          attri<lb break="no" ed="#P" n="84"/>butum potest esse ratio alterius adeo, ut vere
+          <lb ed="#P" n="85"/>dicamus Beum esse immutabilem , quia est
+          <lb ed="#P" n="86"/>simplex; ita etiam unus actus voluntatis 
+          di<lb break="no" ed="#P" n="87"/>vinae possit esse ratio alterius. Atque ita 
+          con<lb break="no" ed="#P" n="88"/>stat illas etiam propositiones, de quibus dubitat
+          <lb ed="#P" n="89"/>Cajetanus, dicta quaest. 19, art. 5: Deus vult
+          <lb ed="#P" n="90"/>hoc, quia vult illud, vel, hoc est a Deo volitum,
+          <lb ed="#P" n="91"/>quia illud fuit volitum, si solum dicant 
+          ratio<lb break="no" ed="#P" n="92"/>nem attributalem (ut sic dicam), veras esse,
+          <lb ed="#P" n="93"/>licet sint falsee quoad causalitatem realem, in
+          <lb ed="#P" n="94"/>quo sensu a nullo videntur proferri.
+        </p>
+        <p xml:id="szduep-055334-d1e1025">
+          <lb ed="#P" n="95"/>13. Ex hac duplici divisione actuum divinae
+          <lb ed="#P" n="96"/>voluntatis maxime orta est inter theologos
+          <lb ed="#P" n="97"/>distinctio signorum rationis; in quibus dicitur
+          <lb ed="#P" n="98"/>Deus prius secundum rationem voluisse unum,
+          <lb ed="#P" n="99"/>quam aliud, quae longam nobis praeberet 
+          di<lb break="no" ed="#P" n="100"/>cendi materiam, nisi in 1 t., 3 part., disput. 5,
+          <lb ed="#P" n="101"/>sect. 1, late tractata fuissent, quae praesenti
+          <lb ed="#P" n="102"/>instituto videntur sufficere. Praesertim, quia
+          <lb ed="#P" n="103"/>libro primo de Praedestinatione multa ex illis
+          <lb ed="#P" n="104"/>necessario repetenda , magisque explicanda
+          <lb ed="#P" n="105"/>sunt, et ad materiam illam applicanda, nam
+          <lb ed="#P" n="106"/>ratione illius doctrinae praecipue inventa 
+          vi<lb break="no" ed="#P" n="107"/>dentur illa signa, et si in illa admittantur et
+          <lb ed="#P" n="108"/>intelligantur, facile ad materids alias applicari
+          <lb ed="#P" n="109"/>patet, quia intentio finis solet esse causa 
+          elec<lb break="no" ed="#P" n="110"/>tionis mediorum. Unde etiam esset verum di-
+          <pb ed="#P" n="221"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>poterunt. Quomodo autem Deus se solum amet,
+          <lb ed="#P" n="2"/>ut finem creaturarum, et omnes creaturas, ut
+          <lb ed="#P" n="3"/>media, servato nihilominus ordine finis et 
+          me<lb break="no" ed="#P" n="4"/>diorum in creaturis inter se, explicui in 
+          Relec<lb break="no" ed="#P" n="5"/>tione, dicta disp. 9, sect. 2, num. 13 et 
+          sequen<lb break="no" ed="#P" n="6"/>tibus, estque res facilis, nam etiam inter media
+          <lb ed="#P" n="7"/>ordinata ad unum ultimum finem, potest esse
+          <lb ed="#P" n="8"/>ordo finis proximi et medii ordinati ad illum.
+        </p>
+        <p xml:id="szduep-055334-d1e1085">
+          <lb ed="#P" n="9"/>14. Tertia divisio.—Tertia divisio 
+          principa<lb break="no" ed="#P" n="10"/>lis actuum voluntatis esse potest secundum 
+          om<lb break="no" ed="#P" n="11"/>nia genera virtutum quae perfectionem 
+          inclu<lb break="no" ed="#P" n="12"/>dunt, sicut etiam supra diximus, in divino 
+          in<lb break="no" ed="#P" n="13"/>tellectu omnia genera virtutum intellectualium
+          <lb ed="#P" n="14"/>distingui posse. In nostra autem voluntate 
+          pri<lb break="no" ed="#P" n="15"/>mo distinguimus actum ejus in bonum et 
+          ma<lb break="no" ed="#P" n="16"/>lum. Sed haec divisio non habet locum in divina
+          <lb ed="#P" n="17"/>voluntate quae per se recta est et regula omnis
+          <lb ed="#P" n="18"/>rectitudinis; unde scriptum est: Deus fidelis, et
+          <lb ed="#P" n="19"/>absque ulla iniquitate justus et rectus. Et ad
+          <lb ed="#P" n="20"/>Rom. 3: Numquid iniquus est Deus? Unde in
+          <lb ed="#P" n="21"/>dicta Relectione 1, disp. 2, sect. 1, dixi non
+          <lb ed="#P" n="22"/>repugnare libertati divinae voluntatis 
+          necessi<lb break="no" ed="#P" n="23"/>tatem quoad specificationem. Sic enim 
+          neces<lb break="no" ed="#P" n="24"/>sitatur ad honestum, ut si velit, non possit nisi
+          <lb ed="#P" n="25"/>honesta velle, quod est necessarium quoad 
+          spe<lb break="no" ed="#P" n="26"/>cificationem, cujus rei rationem, et omnia quae
+          <lb ed="#P" n="27"/>ad hoc punctum pertinent, ihbi late prosecutus
+          <lb ed="#P" n="28"/>sum. Est ergo actus voluntatis divinae per se
+          <lb ed="#P" n="29"/>honestus, ille autem dividi potest secundum
+          <lb ed="#P" n="30"/>varias honestates per analogiam quamdam ad
+          <lb ed="#P" n="31"/>virtutes distinctas voluntatis nostrae, de qua re
+          <lb ed="#P" n="32"/>in Metaphysica dixi, quae pro capacitate illius
+          <lb ed="#P" n="33"/>loci sufficere videbantur disp. 30, sect. 16,a
+          <lb ed="#P" n="34"/>num. 37, usque ad finem. Peculiariter autem
+          <lb ed="#P" n="35"/>de divina justitia, de qua est major 
+          controver<lb break="no" ed="#P" n="36"/>sia, aliqua attigi in 1. Relectione, d. 2, sect. 2,
+          <lb ed="#P" n="37"/>sed plenius de illa disserui in speciali 
+          disputa<lb break="no" ed="#P" n="38"/>uone, in fine Opusculorum, ubi consequenter
+          <lb ed="#P" n="39"/>etiam de omnibus speciebus justitiae et de 
+          fide<lb break="no" ed="#P" n="40"/>Iitate seu veritate, liberalitate et magnificentia
+          <lb ed="#P" n="41"/>dixi.
+        </p>
+        <p xml:id="szduep-055334-d1e1159">
+          <lb ed="#P" n="42"/>15. Misericordium esse in Deo. — De 
+          miseri<lb break="no" ed="#P" n="43"/>cordia autem Dei ibi non tractavi, quia locus
+          <lb ed="#P" n="44"/>ille hoc non postulabat. Neque nunc circa illam
+          <lb ed="#P" n="45"/>immorari oportet, quia omnes theologi 
+          conve<lb break="no" ed="#P" n="46"/>niunt misericordiam esse in Deo proprie et
+          <lb ed="#P" n="47"/>formaliter, quia ad rationem formalem 
+          mise<lb break="no" ed="#P" n="48"/>ricordiae solum pertinet affectus sublevandi 
+          mi<lb break="no" ed="#P" n="49"/>seriam alterius. Passio autem seu compassio
+          <lb ed="#P" n="50"/>quae in nobisilli affectui conjungitur, 
+          materia<lb break="no" ed="#P" n="51"/>liter se habet, et ideo potest esse misericordia
+          <lb ed="#P" n="52"/>vera in DEO sine illa compassione. Ita fere 
+          di<lb break="no" ed="#P" n="53"/>vus Thomas, 1 part., quaest. 21, art. 3, et
+          <lb ed="#P" n="54"/>theologi communiter in A4,dist. 46, et Alensius,
+          <lb ed="#P" n="55"/>1 part., quaest. 39. Unde addo, haec duo attri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>buta, justitiam et misericordiam, ad divinam
+          <lb ed="#P" n="57"/>voluntatem proxime pertinere et in ea ratione
+          <lb ed="#P" n="58"/>distingui, sicut alia attributa, quod per se 
+          pa<lb break="no" ed="#P" n="59"/>tet ex dictis. Dico autem, si justitia proprie 
+          su<lb break="no" ed="#P" n="60"/>matur pro commutativa vel distributiva (nam
+          <lb ed="#P" n="61"/>solet etiam generaliter sumi pro omni 
+          volun<lb break="no" ed="#P" n="62"/>tate conveniente Deo secundum decentiam 
+          bo<lb break="no" ed="#P" n="63"/>nitatis ejus) et sic comprehendit omnes actus
+          <lb ed="#P" n="64"/>voluntatis Dei. Misericordia vero est quaedam
+          <lb ed="#P" n="65"/>pars justitiae sic accepta.
+        </p>
+        <p xml:id="szduep-055334-d1e1216">
+          <lb ed="#P" n="66"/>16. Perfectior est misericordia justitia. —
+          <lb ed="#P" n="67"/>Tertio addo, comparando justitiam et 
+          miseri<lb break="no" ed="#P" n="68"/>cordiam proprie, perfectiorem esse 
+          misericor<lb break="no" ed="#P" n="69"/>diam quam justitiam ex vi formalis conceptus.
+          <lb ed="#P" n="70"/>Quia misericordia est ex divina bonitate 
+          proxi<lb break="no" ed="#P" n="71"/>me et immediate, justitia autem praesupponit
+          <lb ed="#P" n="72"/>aliquid ex parte hominis. Item justitia hoc 
+          mo<lb break="no" ed="#P" n="73"/>do supponit misericordiam, non potest enim
+          <lb ed="#P" n="74"/>Deus esse debitor, nisi supponatur misericordia
+          <lb ed="#P" n="75"/>ejus. Nam ut ait Augustinus: Cui deberet 
+          coro<lb break="no" ed="#P" n="76"/>nam justitiee justus Judec, nisi gratiam 
+          dedis<lb break="no" ed="#P" n="77"/>set misericors Pater? Cum autem dixit 
+          Ansel<lb break="no" ed="#P" n="78"/>mus in Prosolog., cap. 20, misericordiam oriri
+          <lb ed="#P" n="79"/>ex justitia, loquitur de justitia generaliter, quia
+          <lb ed="#P" n="80"/>Deus vult quae suam bonitatem decent. Hic vero
+          <lb ed="#P" n="81"/>occurrebat difficultas, an effectus misericordiae
+          <lb ed="#P" n="82"/>in DEO sit attributum ratione distinctum ab 
+          ef<lb break="no" ed="#P" n="83"/>fectu beneficentiae, quae videtur esse idem cum
+          <lb ed="#P" n="84"/>benevolentia et amore. Et consequenter, utrum
+          <lb ed="#P" n="85"/>in Deo ipso misericordia sit major virtus quam
+          <lb ed="#P" n="86"/>Charitas. Hanc vero comparationem facit D.
+          <lb ed="#P" n="87"/>Thomas 22, quaest. 30, art. 4. Et supponit 
+          dis<lb break="no" ed="#P" n="88"/>tinctionem inter Charitatem et misericordiam
+          <lb ed="#P" n="89"/>in nobis, ideoque in illum locum hoc 
+          remitti<lb break="no" ed="#P" n="90"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

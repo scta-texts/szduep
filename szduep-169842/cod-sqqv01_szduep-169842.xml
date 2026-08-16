@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="671"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-169842"><!-- t3-l5c10 -->
+        <head xml:id="szduep-169842-Hd1e101">Caput 10</head>
+        <head xml:id="szduep-169842-Hd1e103" type="question-title">Num omnes notiones sint relationes, et quis sit notionum numerus</head>
+        <p xml:id="szduep-169842-d1e106">
+          <lb ed="#P" n="24"/>CAPUT X.
+          <lb ed="#P" n="25"/>NUM OMNES NOTIONES SINT RELATIONES, ET QUIS
+          <lb ed="#P" n="26"/>SIT NOTIONUM NUMERUS.
+        </p>
+        <p xml:id="szduep-169842-d1e115">
+          <lb ed="#P" n="27"/>1. Matio dubitandi. — Ut materiam de 
+          notio<lb break="no" ed="#P" n="28"/>nibus absolvamus, earumque numerum 
+          con<lb break="no" ed="#P" n="29"/>cludamus, non satis est scire, omnes relationes
+          <lb ed="#P" n="30"/>esse notiones, sed etiam an simpliciter 
+          conver<lb break="no" ed="#P" n="31"/>tantur, ita ut omnes notiones relationes sint.
+          <lb ed="#P" n="32"/>Nam si omnis notio relatio est, tantum erunt
+          <lb ed="#P" n="33"/>quatuor relationes. Videtur autem ita esse 
+          di<lb break="no" ed="#P" n="34"/>cendum, quia notiones non dicuntur nisi in
+          <lb ed="#P" n="35"/>ordine ad cognitionem personarum, ut in se
+          <lb ed="#P" n="36"/>constituuntur, et distinguuntur, solis autem
+          <lb ed="#P" n="37"/>relationibus constituuntur, et distinguuntur,
+          <lb ed="#P" n="38"/>ut postea videbimus, ergo solae relationes 
+          pos<lb break="no" ed="#P" n="39"/>sunt esse notiones. Ergo, et e converso omnis
+          <lb ed="#P" n="40"/>notio est relatio. In contrarium vero est, quia
+          <lb ed="#P" n="41"/>communiter quinque notiones numerantur,
+          <lb ed="#P" n="42"/>nam quatuor relationibus additur 
+          innascibili<lb break="no" ed="#P" n="43"/>tas, ergo non omnis notio est relatio.
+        </p>
+        <p xml:id="szduep-169842-d1e154">
+          <lb ed="#P" n="44"/>2. Duplex modus cognoscendi divina.—
+          hes<lb break="no" ed="#P" n="45"/>pondeo, juxta Dionysii doctrinam duphliei via
+          <lb ed="#P" n="46"/>posse nos cognoscere divina, scilicet vel 
+          affir<lb break="no" ed="#P" n="47"/>mando, vel negando: atque hunc posteriorem
+          <lb ed="#P" n="48"/>modum solet Dionysius praeferre priori, quia
+          <lb ed="#P" n="49"/>in hac vita magis cognoscimus, quid Deus non
+          <lb ed="#P" n="50"/>sit, quam quid sit. Unde affirmationes, quas
+          <lb ed="#P" n="51"/>de Deo formatus, ex rationibus analogis, et
+          <lb ed="#P" n="52"/>communibus creaturis sumptae sunt, et ut pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>prie quodammodo accommodentur, illis 
+          ali<lb break="no" ed="#P" n="54"/>quas negationes adjungimus. Maxime igitur
+          <lb ed="#P" n="55"/>est necessarius nobis hic modus cognoscendi
+          <lb ed="#P" n="56"/>per negationem, ad plene cognoscenda 
+          myste<lb break="no" ed="#P" n="57"/>ria vel proprietates Dei; eo modo, quo in hac
+          <lb ed="#P" n="58"/>vita cognosci possunt. Et praesertim ad 
+          cognos<lb break="no" ed="#P" n="59"/>cendas conditiones aliquas Dei maxime 
+          simpli<lb break="no" ed="#P" n="60"/>ces, quas nisi per negationes nec explicare, nec
+          <lb ed="#P" n="61"/>satis concipere possumus.
+        </p>
+        <p xml:id="szduep-169842-d1e199">
+          <lb ed="#P" n="62"/>3. Quatuor tantum sunt notiones positivae.—
+          <lb ed="#P" n="63"/>Ratio ergo facta in principio recte probat, ad
+          <lb ed="#P" n="64"/>cognoscendum, et explicandum Trinitatis 
+          mys<lb break="no" ed="#P" n="65"/>terium quoad affirmationes, quas de personis
+          <lb ed="#P" n="66"/>enuntiamus , et per quas illas, ut distinctas
+          <lb ed="#P" n="67"/>cognoscimus, sufficere quatuor relationes, sub
+          <lb ed="#P" n="68"/>relationibus origines comprehendendo, ut 
+          su<lb break="no" ed="#P" n="69"/>pra dixi. Itaque verissimum est, omnes 
+          notio<lb break="no" ed="#P" n="70"/>nes positivas esse relationes, ac proinde 
+          tan<lb break="no" ed="#P" n="71"/>tum quatuor esse, quarum numerum eodem
+          <lb ed="#P" n="72"/>modo, quo numerum relationum, sic 
+          colligi<lb break="no" ed="#P" n="73"/>mus. Quia in Deo tantum sunt duae 
+          processio<lb break="no" ed="#P" n="74"/>nes, ex quibus quatuor consurgunt relationes,
+          <lb ed="#P" n="75"/>ergo cum personae divinae solum per 
+          proces<lb break="no" ed="#P" n="76"/>siones multiplicentur, per illarum etiam 
+          rela<lb break="no" ed="#P" n="77"/>tiones personarum explicato, et distinctio 
+          suf<lb break="no" ed="#P" n="78"/>ficienter manifestatur : quantum per 
+          affirma<lb break="no" ed="#P" n="79"/>tiones, et positivas notiones manifestari potest.
+        </p>
+        <p xml:id="szduep-169842-d1e241">
+          <lb ed="#P" n="80"/>4. Quinta negativa addenda.—Addenda 
+          ni<lb break="no" ed="#P" n="81"/>hilominus est aliqua notio negativa, quae 
+          pro<lb break="no" ed="#P" n="82"/>prie relatio non est, licet non omnino a genere
+          <lb ed="#P" n="83"/>relationis recedat, Mla vero tantum una est,
+          <lb ed="#P" n="84"/>videlicet innascibilitas, vel potius 
+          improduci<lb break="no" ed="#P" n="85"/>bilitas, quae propria est primae personae. Ita
+          <lb ed="#P" n="86"/>docent divus Thomas, et omnes theologi 
+          su<lb break="no" ed="#P" n="87"/>perius allegati : Basilius item, Augustinus et
+          <lb ed="#P" n="88"/>alii Patres, quos capite superiori, et capite
+          <lb ed="#P" n="89"/>quarto retulimus. Necessitas autem hujus 
+          no<lb break="no" ed="#P" n="90"/>tionis declarantur in hunc modum. Nam ad
+          <lb ed="#P" n="91"/>duas processiones divinas necessarium est, 
+          sup<lb break="no" ed="#P" n="92"/>poni aliquam personam improductam, quae sit
+          <lb ed="#P" n="93"/>primum principium caeterarum personarum,
+          <lb ed="#P" n="94"/>et utriusque processionis, ergo necessaria 
+          no<lb break="no" ed="#P" n="95"/>bis fuit notio, qua primam personam in 
+          ra<lb break="no" ed="#P" n="96"/>tione primae, et talis principii agnosceremus.
+          <lb ed="#P" n="97"/>Quia sine hoc fundamento, nec personarum
+          <lb ed="#P" n="98"/>multiplicatio, nec certus earum numerus 
+          cog<lb break="no" ed="#P" n="99"/>nosci posset : ut etiam ex discursu primi 
+          h<lb break="no" ed="#P" n="100"/>bri satis cognosci potest. Ila vero conditio
+          <lb ed="#P" n="101"/>primae personae non satis explicatur per solam
+          <lb ed="#P" n="102"/>relationem Paternitatis, quia Patres, qui apud
+          <lb ed="#P" n="103"/>nos sunt, et quibus vox illa per analogiam
+          <lb ed="#P" n="104"/>communis est, non solent esse personae 
+          impro<lb break="no" ed="#P" n="105"/>ductae. Ergo necessarium fuit, addere 
+          notio<lb break="no" ed="#P" n="106"/>nem aliam primae personae propriam, quae hanc
+          <lb ed="#P" n="107"/>illius proprietatem notificaret. Hanc autem ne-
+          <pb ed="#P" n="672"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gativam esse necessarium fuit, quia ratio
+          <lb ed="#P" n="2"/>Primi, quae simplicissima est, a nobis absque
+          <lb ed="#P" n="3"/>negatione non explicatur. Prima ergo persona
+          <lb ed="#P" n="4"/>in ratione primi producentis ad intra, non
+          <lb ed="#P" n="5"/>explicatur, nisi per negationem productionis
+          <lb ed="#P" n="6"/>ad illam terminatae, et haec negatio est 
+          innas<lb break="no" ed="#P" n="7"/>cibilitas. Et licet hac etiam ratione dicatur
+          <lb ed="#P" n="8"/>Pater esse a se, tamen haec ipsa vox negativo
+          <lb ed="#P" n="9"/>conceptui respondet, et eamdem negationem
+          <lb ed="#P" n="10"/>involvit, illud enim dicimus esse a se, quod ab
+          <lb ed="#P" n="11"/>alio non est : nec enim dici potest quispiam
+          <lb ed="#P" n="12"/>esse a se, propter positivam habitudinem ad
+          <lb ed="#P" n="13"/>se ipsum.
+        </p>
+        <p xml:id="szduep-169842-d1e337">
+          <lb ed="#P" n="14"/>5. Haec ergo fuit necessitas illius quintae 
+          no<lb break="no" ed="#P" n="15"/>tionis, quam proprie relationem non esse 
+          mani<lb break="no" ed="#P" n="16"/>festum est, quia non ponit habitudinem realem,
+          <lb ed="#P" n="17"/>sed potius negat. Et in hoc distinguit hanc 
+          no<lb break="no" ed="#P" n="18"/>tionem a Paternitate Augustinus 5, de 
+          Trini<lb break="no" ed="#P" n="19"/>tate, capite tertio, dicens: Alia est notio, qua
+          <lb ed="#P" n="20"/>intelligitur genitor, alia qua ingenitus, tamen
+          <lb ed="#P" n="21"/>subdit inferius: Cum ingenitus dicitur Pater,
+          <lb ed="#P" n="22"/>non quid sit, sed quid non sit, dicitur. Quia
+          <lb ed="#P" n="23"/>enim ex hac notione inferebant Ariani, Patrem
+          <lb ed="#P" n="24"/>non solum distingui a Filiorelatione, sed etiam
+          <lb ed="#P" n="25"/>substantia, quia ingenitum, cum non dicat 
+          re<lb break="no" ed="#P" n="26"/>lationem, necessarium illis videbatur, ut dicat
+          <lb ed="#P" n="27"/>substantiam. Ideo respondit Augustinus, 
+          inge<lb break="no" ed="#P" n="28"/>nitum non quid sit, sed quid Pater non sit, 
+          di<lb break="no" ed="#P" n="29"/>cere, et subjungit: Cum autcem relativum 
+          nega<lb break="no" ed="#P" n="30"/>Llur, non secundum substantiam negatur, aque
+          <lb ed="#P" n="31"/>non solum vult esse negationem, sed esse 
+          ne<lb break="no" ed="#P" n="32"/>gationem solius relationis, sub qua originem
+          <lb ed="#P" n="33"/>complectitur , ut saepe dixi. Unde subinfert in
+          <lb ed="#P" n="34"/>capite septimo: JVon ergo receditur a relativo
+          <lb ed="#P" n="35"/>praedicamento, cum ingenitus dicitur. Et ideo
+          <lb ed="#P" n="36"/>ego dixi, hanc notionem non omnino a 
+          rela<lb break="no" ed="#P" n="37"/>tione recedere, quia negationes seu privationes
+          <lb ed="#P" n="38"/>ad positiva reducuntur.
+        </p>
+        <p xml:id="szduep-169842-d1e394">
+          <lb ed="#P" n="39"/>6. Objectio. — Responsio. — Contra hanc
+          <lb ed="#P" n="40"/>vero partem objiciunt aliqui, quia negatio non
+          <lb ed="#P" n="41"/>potest esse notio. Quia notio debet significare
+          <lb ed="#P" n="42"/>aliquam dignitatem illius personae, quam 
+          no<lb break="no" ed="#P" n="43"/>tificat, ut dixit divus Thomas, 1. part., 
+          quaes<lb break="no" ed="#P" n="44"/>tione 32, art. 3, at negatio nulla est dignitas.
+          <lb ed="#P" n="45"/>Quo argumento convincuntur aliqui, ut dicant,
+          <lb ed="#P" n="46"/>innascibilitatem dicere positivam 
+          proprieta<lb break="no" ed="#P" n="47"/>tem, et non tantum negativam. Tamen sine
+          <lb ed="#P" n="48"/>causa Augustinus, et divus Thomas aliisque
+          <lb ed="#P" n="49"/>theologis contradicunt, et rem novam 
+          intro<lb break="no" ed="#P" n="50"/>ducunt, quam ex professo impugnabimus infra
+          <lb ed="#P" n="51"/>libro octavo. Respondetur ergo, non esse de
+          <lb ed="#P" n="52"/>ratione notionis, ut formaliter consistat in 
+          po<lb break="no" ed="#P" n="53"/>sitiva dignitate alicujus personae, sed satis
+          <lb ed="#P" n="54"/>esse, ut illam per negationem circumscribat,
+          <lb ed="#P" n="55"/>ac notificet, hoc autem facit innascibiltas.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Nam in Patre magna dignitas est, esse 
+          pri<lb break="no" ed="#P" n="57"/>mam personam, et fontem Divinitatis, ut 
+          Pa<lb break="no" ed="#P" n="58"/>tres loquuntur, ac denique esse personam 
+          ha<lb break="no" ed="#P" n="59"/>bentem per sese personalitatem conjunctam
+          <lb ed="#P" n="60"/>Divinitati, et quasi ab illa proxime manantem,
+          <lb ed="#P" n="61"/>quae omnia per illam negationem 
+          convenien<lb break="no" ed="#P" n="62"/>ter notificantur, et ideo licet negationem 
+          for<lb break="no" ed="#P" n="63"/>maliter dicat, inter notiones merito ponitur.
+        </p>
+        <p xml:id="szduep-169842-d1e453">
+          <lb ed="#P" n="64"/>7. Unam notionem negativam sufficere. —
+          <lb ed="#P" n="65"/>Objectio. — Responsio. — Atque hinc ulterius
+          <lb ed="#P" n="66"/>concluditur, hanc solam notionem negativam
+          <lb ed="#P" n="67"/>addendam esse quatuor positivis. Quia sola illa
+          <lb ed="#P" n="68"/>necessaria est (cum Paternitate) et sufficit ad
+          <lb ed="#P" n="69"/>explicandam totam dignitatem Patris, ejusque
+          <lb ed="#P" n="70"/>constitutionem, ad distinctionem ab aliis 
+          per<lb break="no" ed="#P" n="71"/>sonis. Aliae vero sufficienter notificantur per 
+          po<lb break="no" ed="#P" n="72"/>sitivas notiones. Sed instat Scotus in 1, d. 28,
+          <lb ed="#P" n="73"/>q. 1, quia sicut Pater est ingenerabihs, ita Filius
+          <lb ed="#P" n="74"/>est inspirabilis, ergo addenda est alia notio 
+          pro<lb break="no" ed="#P" n="75"/>pria Filii, scilicet, inspirabilitas. Propter quod
+          <lb ed="#P" n="76"/>argumentum ipse ponit sextam notionem. Sed
+          <lb ed="#P" n="77"/>hac ratione plures aliae negationes 
+          multiph<lb break="no" ed="#P" n="78"/>candae essent, nam etiam Spiritus sanctus est
+          <lb ed="#P" n="79"/>ingenerabilis aliter quam Pater, nam Pater
+          <lb ed="#P" n="80"/>dicitur ingenitus, id est, omnino 
+          improduci<lb break="no" ed="#P" n="81"/>bilis, Spiritus sanctus autem est ingenitus 
+          pro<lb break="no" ed="#P" n="82"/>pria et quasi specifica generatione, juxta illud
+          <lb ed="#P" n="83"/>Athanasius: <quote xml:id="szduep-169842-Qd1e498">Non genitus, sed procedens</quote>, item,
+          <lb ed="#P" n="84"/>per negationes aliarum originum, seu 
+          relatio<lb break="no" ed="#P" n="85"/>num possent aliae notiones confingi, nam etiam
+          <lb ed="#P" n="86"/>Spiritus sanctus est improductivus ad intra et
+          <lb ed="#P" n="87"/>Filius ingenerativus, ut sic dicam. Non ergo
+          <lb ed="#P" n="88"/>debuerunt negativae notiones in infinitum et
+          <lb ed="#P" n="89"/>voluntarie multiphcari, sed illa tantum 
+          ad<lb break="no" ed="#P" n="90"/>denda fuit, quae peculiari ex causa erat 
+          neces<lb break="no" ed="#P" n="91"/>saria, quaeque singularem dignitatem et 
+          auc<lb break="no" ed="#P" n="92"/>toritatem nobis indicaret. Hae autem rationes
+          <lb ed="#P" n="93"/>inventee sunt in innascibilitate et non in alis
+          <lb ed="#P" n="94"/>negationibus enumeratis. Illae enim et per 
+          re<lb break="no" ed="#P" n="95"/>lationes satis innotescunt, et peculiarem 
+          di<lb break="no" ed="#P" n="96"/>enitatem non indicant, ut facile consideranti
+          <lb ed="#P" n="97"/>patebit. Potestque praeterea alia ratio 
+          conside<lb break="no" ed="#P" n="98"/>rari, quia negationes, quae alis personis 
+          tri<lb break="no" ed="#P" n="99"/>buuntur, tantum sunt consequentes ad 
+          origi<lb break="no" ed="#P" n="100"/>nes et ad relationes, et sub ea ratione a nobis
+          <lb ed="#P" n="101"/>concipiuntur, ideoque non numerantur, .ut
+          <lb ed="#P" n="102"/>distinctae ab illis. Innascibilitas autem Patris
+          <lb ed="#P" n="103"/>praecedit relationes aliquo modo et hoc 
+          no<lb break="no" ed="#P" n="104"/>mine est peculiariter necessaria, ut statim 
+          di<lb break="no" ed="#P" n="105"/>cam, et ideo merito singulariter inter notiones
+          <lb ed="#P" n="106"/>numeratur.
+        </p>
+        <p xml:id="szduep-169842-d1e551">
+          <lb ed="#P" n="107"/>8. Innascibilitas quo modo propria Patris.
+          <lb ed="#P" n="108"/>— Atque hinc etiam intelligitur altera pars
+          <lb ed="#P" n="109"/>assertionis positae : Quomodo scilicet 
+          innasci<lb break="no" ed="#P" n="110"/>bilitas sit notio propria Patris, quia nimirum
+          <pb ed="#P" n="673"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non dicit solum negationem generationis, sed
+          <lb ed="#P" n="2"/>absolute negationem omnis productionis ad
+          <lb ed="#P" n="3"/>intra. Dices, etiam hoc modo non est haec 
+          ne<lb break="no" ed="#P" n="4"/>gatio propria Patris, quia etiam hic Deus est
+          <lb ed="#P" n="5"/>improducibilis. Respondeo primo , licet hic
+          <lb ed="#P" n="6"/>Deus produci non possit, potest tamen saltem
+          <lb ed="#P" n="7"/>per aliquam productionem communicari et
+          <lb ed="#P" n="8"/>dari alicui personae juxta verbum Christi:
+          <lb ed="#P" n="9"/>Quod dedit mihi Pater majus omnibus est. 
+          Pa<lb break="no" ed="#P" n="10"/>ter autem nec producibilis est, nec 
+          communi<lb break="no" ed="#P" n="11"/>cabilis, secundum suam proprietatem alteri
+          <lb ed="#P" n="12"/>personae. et totum hoc negatur per illam 
+          no<lb break="no" ed="#P" n="13"/>tionem, ut est propria Patris. Secundo dico,
+          <lb ed="#P" n="14"/>aliter hunc Deum esse ingenitum, aliter 
+          Pa<lb break="no" ed="#P" n="15"/>trem, nam illa est pura negatio respectu Dei,
+          <lb ed="#P" n="16"/>ut sic, respectu autem Patris est quodammodo
+          <lb ed="#P" n="17"/>privatio, quia supponit subjectum producibile
+          <lb ed="#P" n="18"/>saltem secundum communem rationem 
+          perso<lb break="no" ed="#P" n="19"/>nae. Atque boc totum dicit notio ingenitum,
+          <lb ed="#P" n="20"/>scilicet, personam improducibilem, et ita 
+          in<lb break="no" ed="#P" n="21"/>nascibilitas dicit illam negationem non in
+          <lb ed="#P" n="22"/>quocumque, sed in aliqua persona, sicut 
+          simi<lb break="no" ed="#P" n="23"/>tas dicit curvitatem in naso. Fuitque hic 
+          con<lb break="no" ed="#P" n="24"/>ceptus necessarius ut possimus concipere Pa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="25"/>trem in ratione personae, priusquam generet.
+          <lb ed="#P" n="26"/>Nam hic conceptus necessarius nobis est ad
+          <lb ed="#P" n="27"/>constitutionem et distinctionem personarum
+          <lb ed="#P" n="28"/>explicandam, ut libro primo tactum est, et in
+          <lb ed="#P" n="29"/>septimo consummabitur; ubi etiam 
+          ostende<lb break="no" ed="#P" n="30"/>mus, illum conceptum non posse esse nisi 
+          ne<lb break="no" ed="#P" n="31"/>gativum, seu privativum in sensu jam dicto.
+        </p>
+        <p xml:id="szduep-169842-d1e637">
+          <lb ed="#P" n="32"/>9. An notiones sint plures simpliciter. —
+          <lb ed="#P" n="33"/>Ultimo concluditur ex dictis notionum 
+          nume<lb break="no" ed="#P" n="34"/>rus, sunt enim quinque, et non plures, neque
+          <lb ed="#P" n="35"/>pauciores, ut probatum est, simulque 
+          commu<lb break="no" ed="#P" n="36"/>nibus objectionibus est satisfactum. Solus
+          <lb ed="#P" n="37"/>Gabriel 1, distinct. 28, art. 3, non permittit, ut
+          <lb ed="#P" n="38"/>notiones simpliciter dicantur esse plures, in
+          <lb ed="#P" n="39"/>quolibet numero, solum quia non omnes 
+          dis<lb break="no" ed="#P" n="40"/>tinguuntur inter se realiter , sicut dixerat
+          <lb ed="#P" n="41"/>etiam de spiratione activa respectu 
+          Paternita<lb break="no" ed="#P" n="42"/>tis et Filiationis. Sed hoc facile refellitur, 
+          ma<lb break="no" ed="#P" n="43"/>xime in preesenti, quia Notio, ut dixi, 
+          forma<lb break="no" ed="#P" n="44"/>liter involvit respectum rationis, vel 
+          denomi<lb break="no" ed="#P" n="45"/>nationem extrinsecam , quae multiplicari 
+          po<lb break="no" ed="#P" n="46"/>test non multiplicatis rebus. Imo adjungi 
+          po<lb break="no" ed="#P" n="47"/>test conditioni alicui, quae non sit res aliqua,
+          <lb ed="#P" n="48"/>sed privatio, ut satis explicatum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

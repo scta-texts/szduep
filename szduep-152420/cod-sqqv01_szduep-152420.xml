@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="603"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-152420"><!-- t3-l3c9 -->
+        <head xml:id="szduep-152420-Hd1e101">Caput 9</head>
+        <head xml:id="szduep-152420-Hd1e103" type="question-title">Sint ne in trinitate tres bonitates, ac subinde tres perfectiones personales</head>
+        <p xml:id="szduep-152420-d1e106">
+          <pb ed="#P" n="603"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT IX.
+          <lb ed="#P" n="2"/>SINT NE IN TRINITATE TRES BONITATES, AC 
+          SU<lb break="no" ed="#P" n="3"/>BINDE TRES PERFECTIONES PERSONALES.
+        </p>
+        <p xml:id="szduep-152420-d1e119">
+          <lb ed="#P" n="4"/>1. Prima opinio negans. — Primum 
+          funda<lb break="no" ed="#P" n="5"/>mentum. — Suppono, non esse sermonem de
+          <lb ed="#P" n="6"/>bonitate morali, seu virtutis, constat enim
+          <lb ed="#P" n="7"/>hanc esse tantum unam et essentialem, sicut
+          <lb ed="#P" n="8"/>paulo antea dixi de veritate morali. Est ergo
+          <lb ed="#P" n="9"/>difficultas de bonitate transcendentali, quae 
+          e<lb break="no" ed="#P" n="10"/>tiam dici potest perfectio entitativa. De quo est
+          <lb ed="#P" n="11"/>prima opinio satis communis, in divinis 
+          per<lb break="no" ed="#P" n="12"/>sonis non dari perfectiones personales, quae et
+          <lb ed="#P" n="13"/>inter se realiter et ab essentiali 
+          perfectionera<lb break="no" ed="#P" n="14"/>tione distinguantur. Ita tenet Scotus 1, d. 3,
+          <lb ed="#P" n="15"/>q. 1, ad 4, Durandus, dist. 1, q. 3, num. 13,
+          <lb ed="#P" n="16"/>Richardus, dist. 24, art. 1, quaest. 3, ad 1,
+          <lb ed="#P" n="17"/>Capreolus 1, d. 7, quaest. 1, ad 3, contra 
+          pri<lb break="no" ed="#P" n="18"/>mam conclusionem articul secundi, Cajetanus,
+          <lb ed="#P" n="19"/>1 p., q. 28, art. 2, et ibi frequentius 
+          Thomis<lb break="no" ed="#P" n="20"/>tae. Fundamentum a priori hujus sententiae
+          <lb ed="#P" n="21"/>est, quia proprietas personalis in Deo 
+          secun<lb break="no" ed="#P" n="22"/>dum propriam rationem nullam dicit 
+          perfec<lb break="no" ed="#P" n="23"/>tionem. Hujus autem ratio est, quia illa 
+          pro<lb break="no" ed="#P" n="24"/>prietas est relatio, ut infra ostendemus. At 
+          re<lb break="no" ed="#P" n="25"/>latiout relatio in tota sua communitate sumpta
+          <lb ed="#P" n="26"/>non dicit perfectionem, tum quia relatio ut sic,
+          <lb ed="#P" n="27"/>non dicit i, sed ad, et ideo secundum se non
+          <lb ed="#P" n="28"/>addit perfectionem, unde in creaturis adest et
+          <lb ed="#P" n="29"/>abest sine subjecti mutatione : tum etiam, quia
+          <lb ed="#P" n="30"/>ad, ut ad commune est relationibus rationis,
+          <lb ed="#P" n="31"/>in quibus nulla perfectio cogitari potest, ergo
+          <lb ed="#P" n="32"/>personalis proprietas, quatenus relatio est, 
+          nul<lb break="no" ed="#P" n="33"/>lam affert Deo perfectionem.
+        </p>
+        <p xml:id="szduep-152420-d1e187">
+          <lb ed="#P" n="34"/>2. Secundum fundamentum.— Tertia ratio.
+          <lb ed="#P" n="35"/>—Quarta ratio. — Aliud vero fundamentum ab
+          <lb ed="#P" n="36"/>inconvenienti est, quia alias una persona 
+          ha<lb break="no" ed="#P" n="37"/>beret perfectionem aliquam, quam non habet
+          <lb ed="#P" n="38"/>alia, et in tribus, vel duabus plures essent 
+          per<lb break="no" ed="#P" n="39"/>fectiones, quam in una, et sic, et imperfectior
+          <lb ed="#P" n="40"/>esset Trinitas, quam una persona, et nulla 
+          per<lb break="no" ed="#P" n="41"/>sona esset summe perfecta : Confirmatur ab
+          <lb ed="#P" n="42"/>Scoto, quia vel illa perfectio, quam diceret
+          <lb ed="#P" n="43"/>relatio, esset finita, vel infinita. Primum dici
+          <lb ed="#P" n="44"/>non potest, repugnat enim perfectioni divinae.
+          <lb ed="#P" n="45"/>Si vero dicatur secundum, non poterit in 
+          ali<lb break="no" ed="#P" n="46"/>quo genere multiplicari, quia in se includet
+          <lb ed="#P" n="47"/>omnem perfectionem, nam hoc estde ratione
+          <lb ed="#P" n="48"/>rei infinite perfectae. Tandem argumentari 
+          pos<lb break="no" ed="#P" n="49"/>sumus, quia si duae relationes divinae dicerent
+          <lb ed="#P" n="50"/>duas perfectiones, illae essent in aequales, atque
+          <lb ed="#P" n="51"/>ita esset major et melior Paternitas, quam 
+          Fi<lb break="no" ed="#P" n="52"/>liatio, quod est absurdum. Sequela patet, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>illae relationes differunt quasi specie in ratione
+          <lb ed="#P" n="54"/>respectiva, ea vero, quae differunt specie 
+          sem<lb break="no" ed="#P" n="55"/>per sunt perfectione inaequalia, ut ex 
+          Aristo<lb break="no" ed="#P" n="56"/>tele in 8, Metaphysicae sumitur, necesse est
+          <lb ed="#P" n="57"/>enim, ut quae sic differunt, haheant diversam
+          <lb ed="#P" n="58"/>quantitatem perfectionis, diversitas autem in
+          <lb ed="#P" n="59"/>quantitate facit inaequalitatem : sicut 
+          diversi<lb break="no" ed="#P" n="60"/>tas in qualitate facit dissimilitudinem.
+        </p>
+        <p xml:id="szduep-152420-d1e251">
+          <lb ed="#P" n="61"/>3. Secunda opinio. — Haec sententia, 
+          quate<lb break="no" ed="#P" n="62"/>nus negat perfectionem in divinis relationibus
+          <lb ed="#P" n="63"/>ut tales sunt, difficilis visa est aliis auctoribus,
+          <lb ed="#P" n="64"/>quia in Deo nihil esse potest , quod non sit
+          <lb ed="#P" n="65"/>summe perfectum, sub omni ratione vera et
+          <lb ed="#P" n="66"/>reali, quae in Deo sit. Et ideo Major in 1, 
+          dis<lb break="no" ed="#P" n="67"/>tinctione 33, ad 2, absolute affirmat , 
+          relatio<lb break="no" ed="#P" n="68"/>nes divinas dicere perfectionem simpliciter,
+          <lb ed="#P" n="69"/>quia sunt, inquit, ipsa divinitas, quod amphius
+          <lb ed="#P" n="70"/>non explicat. Idem tenet Torres, 1 p., q. 28,
+          <lb ed="#P" n="71"/>art. 2, disp. 3, p. 2, in fine, reprobans 
+          opinio<lb break="no" ed="#P" n="72"/>nem Cajetani et Scoti. Ejusque fundamentum
+          <lb ed="#P" n="73"/>solum est, quia quaelibet relatio divina est
+          <lb ed="#P" n="74"/>simpliciter infinita in genere entis. Nec 
+          sequi<lb break="no" ed="#P" n="75"/>tur, inquit, aliquam perfectionem esse in una
+          <lb ed="#P" n="76"/>persona, quae non sit in alia, quia eadem 
+          per<lb break="no" ed="#P" n="77"/>fectio, quae in Patre est paternitas, in Filio est
+          <lb ed="#P" n="78"/>filiatio. Unde, si quis argumentetur. 
+          Paterni<lb break="no" ed="#P" n="79"/>tas est aliqua perfectio, et Paternitas non est
+          <lb ed="#P" n="80"/>in Filio, ergo aliqua perfectio non estin Filio:
+          <lb ed="#P" n="81"/>neganda est, inquit, consecutio, quia mutatur
+          <lb ed="#P" n="82"/>quid, in ad aliquid, quae sunt verba D. 
+          Tho<lb break="no" ed="#P" n="83"/>mae, 1 p., q. 42, art. 4, ad 2. Quorum sensus
+          <lb ed="#P" n="84"/>est, quia sit argumentum ab absoluto ad 
+          res<lb break="no" ed="#P" n="85"/>pectivum, et consequenter a communi ad 
+          par<lb break="no" ed="#P" n="86"/>ticulare,seu a negatione particularis praedicati
+          <lb ed="#P" n="87"/>ad negationem communis, quae non est bona
+          <lb ed="#P" n="88"/>illatio.
+        </p>
+        <p xml:id="szduep-152420-d1e314">
+          <lb ed="#P" n="89"/>4. Redarguitur opinio secunda. — Haec vero
+          <lb ed="#P" n="90"/>sententia, vel non sibi constat, vel non est 
+          di<lb break="no" ed="#P" n="91"/>versa a priori. Interrogo enim, an relatio 
+          ha<lb break="no" ed="#P" n="92"/>beat perfectionem tantum ratione essentiae,
+          <lb ed="#P" n="93"/>quam includit, vel etiam secundum propriam
+          <lb ed="#P" n="94"/>rationem, quam addit ? Si solum illud primum
+          <lb ed="#P" n="95"/>dicatur, non negatur ab auctoribus primae 
+          sen<lb break="no" ed="#P" n="96"/>tentiae, neque ab aliquo potest negari, cum
+          <lb ed="#P" n="97"/>relatio divina sit res increata et ipse Deus. 
+          At<lb break="no" ed="#P" n="98"/>que in hoc sensu bene procedit responsio data.
+          <lb ed="#P" n="99"/>Non est tamen hoc punctum quaestionis: sed
+          <lb ed="#P" n="100"/>an ipsa relatio, prout intelligitur aliquid 
+          ad<lb break="no" ed="#P" n="101"/>dere essentiae, intelligatur etiam adjungere
+          <lb ed="#P" n="102"/>aliquam perfectionem et hoc est, quod negant
+          <lb ed="#P" n="103"/>priores auctores. Quod si posteriores hoc 
+          affir<lb break="no" ed="#P" n="104"/>mare intendunt, nec sufticienter id probant,
+          <lb ed="#P" n="105"/>quia solum id colligunt ex perfectione, quam
+          <lb ed="#P" n="106"/>relatio habet ad essentia: nec bene 
+          satisfa<lb break="no" ed="#P" n="107"/>ciunt difficultati, coguntur enim, si conse-
+          <pb ed="#P" n="604"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quenter loquantur, fateri perfectionem non
+          <lb ed="#P" n="2"/>esse tantum quid absolutum, sed commune 
+          ab<lb break="no" ed="#P" n="3"/>soluto et respectivo: ergo designando 
+          pro<lb break="no" ed="#P" n="4"/>priam perfectionem respectivam Paternitatis,
+          <lb ed="#P" n="5"/>argumentum retinet suam vim. Neque sit 
+          il<lb break="no" ed="#P" n="6"/>latio ab absoluto ad respectivum, sed a 
+          pro<lb break="no" ed="#P" n="7"/>prietate respectiva ad propriam et 
+          proportio<lb break="no" ed="#P" n="8"/>natam perfectionem, utique respectivam, 
+          ne<lb break="no" ed="#P" n="9"/>que medium argumenti est commune, sed
+          <lb ed="#P" n="10"/>perfecte singulare.
+        </p>
+        <p xml:id="szduep-152420-d1e384">
+          <lb ed="#P" n="11"/>5. Tertia opinio. — Nihilominus est tertia
+          <lb ed="#P" n="12"/>sententia, quae hoc tempore aliquibus 
+          proba<lb break="no" ed="#P" n="13"/>tur, qui duo haec, quae subjiciam, conantur
+          <lb ed="#P" n="14"/>conjungere. Primum, quod relationes divinae
+          <lb ed="#P" n="15"/>secundum proprias rationes dicant et addant
+          <lb ed="#P" n="16"/>(nostro modo intelligendi) perfectionem 
+          sim<lb break="no" ed="#P" n="17"/>pliciter divinae essentiae, ratione distinctam ab
+          <lb ed="#P" n="18"/>omni perfectione, quam habet divinitas ex
+          <lb ed="#P" n="19"/>omnibus attributis absolutis. Secundum est,
+          <lb ed="#P" n="20"/>nihilominus hanc perfectionem in Deo tantum
+          <lb ed="#P" n="21"/>esse unam, nec multiplicari, realiter in 
+          per<lb break="no" ed="#P" n="22"/>sonis, ideoque (aiunt), secundum rem nullam
+          <lb ed="#P" n="23"/>perfectionem esse in una persona, quae non
+          <lb ed="#P" n="24"/>sit in alia, quamvis secundum rationem hoc
+          <lb ed="#P" n="25"/>admittant. Prior pars mea etiam sententia 
+          ve<lb break="no" ed="#P" n="26"/>ra est, et infra illam probabo: posteriorem
+          <lb ed="#P" n="27"/>partem probant ex incommodis, quae 
+          infere<lb break="no" ed="#P" n="28"/>bat prima sententia. Ad declarandum autem
+          <lb ed="#P" n="29"/>quomodo haec duo concilientur, advertunt,
+          <lb ed="#P" n="30"/>bonum dupliciter dici. Primo quasi absolute,
+          <lb ed="#P" n="31"/>quod est perfectum, quia nihil ei deest: et
+          <lb ed="#P" n="32"/>hoc est bonum transcendentale, cujus bonitas
+          <lb ed="#P" n="33"/>non est aliud, quam rei integritas et non 
+          re<lb break="no" ed="#P" n="34"/>quirit distinctionem in re ab ipso bono, sed
+          <lb ed="#P" n="35"/>tantum rationis. Alio modo dicitur bonum
+          <lb ed="#P" n="36"/>comparative, quod alteri est conveniens et
+          <lb ed="#P" n="37"/>sic bonitas consistit in convenientia unius
+          <lb ed="#P" n="38"/>ad aliud, requiritque distinctionem realem
+          <lb ed="#P" n="39"/>inter illos, ut bonitas realis sit, ideoque
+          <lb ed="#P" n="40"/>hoc bonum non necessario convertitur cum
+          <lb ed="#P" n="41"/>ente.
+        </p>
+        <p xml:id="szduep-152420-d1e454">
+          <lb ed="#P" n="42"/>6. Hac ergo distinctione supposita, dicunt,
+          <lb ed="#P" n="43"/>relationes divinas pertinere ad perfectionem
+          <lb ed="#P" n="44"/>transcendentalem Dei quia pertinent (inquiunt)
+          <lb ed="#P" n="45"/>ad integritatem Dei, non enim esset Deus 
+          in<lb break="no" ed="#P" n="46"/>tegre constitutus in sua substantia, nisi 
+          ha<lb break="no" ed="#P" n="47"/>beret intra setres relationes. Illae tamen unam
+          <lb ed="#P" n="48"/>tantum integritatem DEI constituunt, et ideo
+          <lb ed="#P" n="49"/>ex illis tantum consurgit una perfectio Dei
+          <lb ed="#P" n="50"/>absque compositione, quia illa integritas est
+          <lb ed="#P" n="51"/>per summam identitatem cum essentia. Quod
+          <lb ed="#P" n="52"/>si objiciatur, quia licet illa integritas sit una
+          <lb ed="#P" n="53"/>perfectio totalis, nihilominus erunt tres quasi
+          <lb ed="#P" n="54"/>partiales, cum ex tribus relationibus 
+          consur<lb break="no" ed="#P" n="55"/>gat. Negant sequelam, quia non integrant per
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modum partis, nec per unitionem, sed identi
+          <lb ed="#P" n="57"/>tatem. At vero comparando unamquamque 
+          re<lb break="no" ed="#P" n="58"/>lationem ad suam personam, fatentur illi esse
+          <lb ed="#P" n="59"/>convenientem, atque adeo bonam, non tamen
+          <lb ed="#P" n="60"/>priori, sed posteriori modo et ideo dicunt, 
+          il<lb break="no" ed="#P" n="61"/>lam solum esse bonitatem secundum rationem, 
+          <lb ed="#P" n="62"/>quia convenientia rei ad se ipsam solum est
+          <lb ed="#P" n="63"/>per rationem. Quapropter licet hoc modo 
+          ad<lb break="no" ed="#P" n="64"/>mittantur tres bonitates in divinis personis,
+          <lb ed="#P" n="65"/>non est inconveniens, quia illae, non sunt 
+          bo<lb break="no" ed="#P" n="66"/>nitates reales, sed rationis tantum.
+        </p>
+        <p xml:id="szduep-152420-d1e513">
+          <lb ed="#P" n="67"/>7. Prima difficultas tertie opinionis. —
+          <lb ed="#P" n="68"/>Helationes tres non esse de integritate Dei.
+          <lb ed="#P" n="69"/>In hac sententia multa mihi sunt difficilia. 
+          <lb ed="#P" n="70"/>Primum est modus loquendi, nimirum, quod
+          <lb ed="#P" n="71"/>relationes pertineant ad Dei integritatem. 
+          Pri<lb break="no" ed="#P" n="72"/>mo quidem, quia nullus Sanctorum Patrum,
+          <lb ed="#P" n="73"/>aut theologorum ita locutus est. Quod 
+          argu<lb break="no" ed="#P" n="74"/>mentum (in hac praesertim materia) valddum
+          <lb ed="#P" n="75"/>est. Praecipue vero contra auctores illius 
+          opi<lb break="no" ed="#P" n="76"/>nionis, quia propter hoc maxime nolunt 
+          ad<lb break="no" ed="#P" n="77"/>mittere tres perfectiones relativas reales, quia
+          <lb ed="#P" n="78"/>Patres, (ut ipsi aiunt) non sunt ita locuti. 
+          Se<lb break="no" ed="#P" n="79"/>cundo, quia inde sequitur, Patrem per se 
+          sump<lb break="no" ed="#P" n="80"/>tum non esse integre Deum. Probatur 
+          seque<lb break="no" ed="#P" n="81"/>la, quia tres relationes sunt de integritate Dei
+          <lb ed="#P" n="82"/>et Pater non est tres relationes, ergo non est
+          <lb ed="#P" n="83"/>integer Deus, consequens autem est manifeste
+          <lb ed="#P" n="84"/>falsum, nam secundum fidem quaelibet 
+          per<lb break="no" ed="#P" n="85"/>sona est perfectus Deus, ut supra toto libro 
+          se<lb break="no" ed="#P" n="86"/>cundo, ostensum est. Esse autem perfectum
+          <lb ed="#P" n="87"/>Deum et esse integre Deum, idem sunt, quia
+          <lb ed="#P" n="88"/>nisi integritas aliquo modo in Deo admitti 
+          de<lb break="no" ed="#P" n="89"/>bet, non est, nisi perfectio ejus, ut dicti etiam
+          <lb ed="#P" n="90"/>auctores intendunt.
+        </p>
+        <p xml:id="szduep-152420-d1e568">
+          <lb ed="#P" n="91"/>8. Tertio declaro hanc difficultatem in hunc
+          <lb ed="#P" n="92"/>modum : nam sirelationes sunt de integritate
+          <lb ed="#P" n="93"/>Dei, inquiro, an haec integritas dicat in Deo
+          <lb ed="#P" n="94"/>unam aliquam imperfectionem simplicem, vel
+          <lb ed="#P" n="95"/>compositam? Hoc posterius non dicetur, cum
+          <lb ed="#P" n="96"/>sit contra simplicitatem Dei. Si vero dicatur
+          <lb ed="#P" n="97"/>prius, inquiro rursus, an illa perfectio sit 
+          ab<lb break="no" ed="#P" n="98"/>soluta, vel relativa? nihil enim est in Deo,
+          <lb ed="#P" n="99"/>quod sub altero istorum membrorum non
+          <lb ed="#P" n="100"/>comprehendatur, ut constat ex doctrina 
+          om<lb break="no" ed="#P" n="101"/>nium Patrum, et theologorum probata in 
+          Con<lb break="no" ed="#P" n="102"/>cilio Florentino. Si ergo illa perfectio est 
+          ab<lb break="no" ed="#P" n="103"/>soluta , non potest formaliter includere tres 
+          <lb ed="#P" n="104"/>relationes, aut ex illis integrari, quia omne
+          <lb ed="#P" n="105"/>absolutum commune est, relationes autem non 
+          <lb ed="#P" n="106"/>sunt communes. Multo vero minus dici potest
+          <lb ed="#P" n="107"/>respectiva, quia omnis perfectio relativa habet 
+          <lb ed="#P" n="108"/>oppositionem cum alia, et ideo non potest 
+          sim<lb break="no" ed="#P" n="109"/>plex relativa perfectio ex retationibus 
+          opposi<lb break="no" ed="#P" n="110"/>tis integrari : ergonulla intelligi potest in Deo
+          <pb ed="#P" n="605"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ana et simplex perfectio, vel integritas, quae
+          <lb ed="#P" n="2"/>xx tribus relationibus consurgat.
+        </p>
+        <p xml:id="szduep-152420-d1e624">
+          <lb ed="#P" n="3"/>9. Atque hoc quidem insinuasse videtur
+          <lb ed="#P" n="4"/>Damascenus, lib. 1, de Fide, capite decimo,
+          <lb ed="#P" n="5"/>dicens : Non ea tribus imperfectis unam 
+          com<lb break="no" ed="#P" n="6"/>vositam naturam per fectam intelli gamus, sed in
+          <lb ed="#P" n="7"/>tribus personis perfectis unam simplicem 
+          sub<lb break="no" ed="#P" n="8"/>stantiam super perfectam et ante perfectam.
+          <lb ed="#P" n="9"/>Ac si diceret totam perfectionem Deitatis et
+          <lb ed="#P" n="10"/>Dei ut sic, praeintelligendam esse relationibus:
+          <lb ed="#P" n="11"/>et cap. 11: Perfectas, inquit, ipsas hypostases
+          <lb ed="#P" n="12"/>personasque dicimus, ut nullam in divina 
+          natu<lb break="no" ed="#P" n="13"/>ra compositionem intelligamus, significans et
+          <lb ed="#P" n="14"/>unamquamque personam secundum se 
+          spec<lb break="no" ed="#P" n="15"/>tatam perfectam esse et non posse ex 
+          perso<lb break="no" ed="#P" n="16"/>nis, quatenus distinctae sunt, vel (quod idem
+          <lb ed="#P" n="17"/>est) ex relationibus, ut tales sunt et 
+          oppositio<lb break="no" ed="#P" n="18"/>nem inter se habent, unam perfectionem 
+          con<lb break="no" ed="#P" n="19"/>surgere sine compositione. Quocirca si velimus
+          <lb ed="#P" n="20"/>illo vocabulo integrilatis uti, dicere possumus
+          <lb ed="#P" n="21"/>ex tribus personis consurgere integritatem
+          <lb ed="#P" n="22"/>Trinitatis, vel melius, consurgere integrum
+          <lb ed="#P" n="23"/>numerum personarum, non vero integritatem
+          <lb ed="#P" n="24"/>Dei, quia non sola Trinitas, sed quaelibet 
+          e<lb break="no" ed="#P" n="25"/>tiam persona est integer Deus.
+        </p>
+        <p xml:id="szduep-152420-d1e676">
+          <lb ed="#P" n="26"/>10. Responderi potest, perfectionem illam,
+          <lb ed="#P" n="27"/>quae integritas dicitur Dei, nec absolutam 
+          tan<lb break="no" ed="#P" n="28"/>tum, nec tantum relativam esse, sed 
+          compre<lb break="no" ed="#P" n="29"/>hendere utramque. Verum haec evasio non 
+          sa<lb break="no" ed="#P" n="30"/>tüsfacit, sed confundit omnia, ut difficultatem
+          <lb ed="#P" n="31"/>effugere videatur. Quia hic non agimus de 
+          es<lb break="no" ed="#P" n="32"/>sentiali perfectione Dei, sed de personal et de
+          <lb ed="#P" n="33"/>illa, quam relationes divinae nostro modo 
+          in<lb break="no" ed="#P" n="34"/>telligendi addunt ultra perfectionem 
+          essentia<lb break="no" ed="#P" n="35"/>lem, quam esse ratione disticntam ab 
+          essentia<lb break="no" ed="#P" n="36"/>lH perfectione, etiam auctores, cum quibus
+          <lb ed="#P" n="37"/>disputamus, supponunt. Illo ergo perfectio ex
+          <lb ed="#P" n="38"/>solis relationibus, ut sic, consurgit, ergo 
+          rela<lb break="no" ed="#P" n="39"/>tiva tantum debet concipi et non mixta. Et
+          <lb ed="#P" n="40"/>preeterea, licet demus esse simul absolutam et
+          <lb ed="#P" n="41"/>respectivam, cum includat in se tres relationes
+          <lb ed="#P" n="42"/>realiter distinctas, non potest habere unitatem
+          <lb ed="#P" n="43"/>perfectionis, nisi per modum collectionis et
+          <lb ed="#P" n="44"/>numeri, esto, non sit per modum 
+          compositio<lb break="no" ed="#P" n="45"/>nis. Probatur assumptum, quia in illa 
+          perfec<lb break="no" ed="#P" n="46"/>tione includitur verus transcendentalis 
+          nume<lb break="no" ed="#P" n="47"/>rus rerum, ex numero autem rerum 
+          distincta<lb break="no" ed="#P" n="48"/>rum, ut tales sunt, non conficitur unum,nisi vel
+          <lb ed="#P" n="49"/>compositione, velcollectione, vel omnino per 
+          ac<lb break="no" ed="#P" n="50"/>cidens. Dico autem, ut tales sunt, quia personae
+          <lb ed="#P" n="51"/>divinae ut sunt unum in essentia, non uniuntur
+          <lb ed="#P" n="52"/>in perfectione personali, sed in essentiali 
+          tan<lb break="no" ed="#P" n="53"/>tum. Absurdum autem videtur dicere, 
+          integri<lb break="no" ed="#P" n="54"/>tatem Dei ut sic, collectivam esse, et non 
+          om<lb break="no" ed="#P" n="55"/>nino simplicem et indivisam. Accedit tandem,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod illa integritas dicitur esse perfectio 
+          sim<lb break="no" ed="#P" n="57"/>pliciter simplex: unde sequitur cuilibet 
+          per<lb break="no" ed="#P" n="58"/>sonae divinae sigillatim sumptae de esse aliquam
+          <lb ed="#P" n="59"/>perfectionem simpliciter simplicem, quia 
+          nul<lb break="no" ed="#P" n="60"/>la earum habet illam integritatem, nulla ergo
+          <lb ed="#P" n="61"/>illarum erit summe perfecta.
+        </p>
+        <p xml:id="szduep-152420-d1e759">
+          <lb ed="#P" n="62"/>11. Secunda difficultas ejusdem opinionas,
+          <lb ed="#P" n="63"/>—JUnamquamque personam habere integritatem
+          <lb ed="#P" n="64"/>suam. — Secunda, et principalis difficultas in
+          <lb ed="#P" n="65"/>hac opinione est, quia quidquid sit de illa
+          <lb ed="#P" n="66"/>locutione integritatis Dei, negari non potest,
+          <lb ed="#P" n="67"/>quin unaquaeque persona suam habeat 
+          inte<lb break="no" ed="#P" n="68"/>gritatem (illo modo loquendi admisso). Nam
+          <lb ed="#P" n="69"/>imprimis unaquaeque est integer Deus, ut
+          <lb ed="#P" n="70"/>dixi, ergo unaquaeque habet integritatem
+          <lb ed="#P" n="71"/>Dei : (sed haec non multiplicatur). Rursus 
+          u<lb break="no" ed="#P" n="72"/>naquaeque est integra persona. Neque enim
+          <lb ed="#P" n="73"/>dici potest ex tribus personis integritatem 
+          di<lb break="no" ed="#P" n="74"/>vinae personae consurgere : nec negari potest,
+          <lb ed="#P" n="75"/>quin unaquaeque persona sit integrum 
+          suppo<lb break="no" ed="#P" n="76"/>situm, multo magis, quam si quaelibet persona
+          <lb ed="#P" n="77"/>creata : haec autem integritas personalis eo
+          <lb ed="#P" n="78"/>ipso, quod personalis est, multiplicatur in 
+          divi<lb break="no" ed="#P" n="79"/>nis personis. Quod significavit Damascenus
+          <lb ed="#P" n="80"/>vocans eas personas perfectas. Et patet facile
+          <lb ed="#P" n="81"/>descendendo ad rationes, quasi specificas 
+          illa<lb break="no" ed="#P" n="82"/>rum personarum, quia Pater est integer Pater
+          <lb ed="#P" n="83"/>et sic de Filio, et Spiritu sancto: si ergo 
+          trans<lb break="no" ed="#P" n="84"/>cendentalis bonitas nihil est, quam rei 
+          integri<lb break="no" ed="#P" n="85"/>tas, sicut multiplicantur integritates 
+          persona<lb break="no" ed="#P" n="86"/>les, ita et bonitates transcendentales relativae.
+          <lb ed="#P" n="87"/>Neque refert, quod hae tres integritates 
+          perso<lb break="no" ed="#P" n="88"/>nales in una essentiali identificentur, quia non
+          <lb ed="#P" n="89"/>propterea confunduntur, sed inter se manent
+          <lb ed="#P" n="90"/>realiter distinctae, si ergo multiplicationi 
+          illa<lb break="no" ed="#P" n="91"/>rum rerum et entitatum relativarum non 
+          ob<lb break="no" ed="#P" n="92"/>stat, quod in una entitate absoluta 
+          identificen<lb break="no" ed="#P" n="93"/>tur, cur obstabit multiplicationi integritatum,
+          <lb ed="#P" n="94"/>seu bonitatum personalium, quod in una 
+          es<lb break="no" ed="#P" n="95"/>sentiali identificentur?
+        </p>
+        <p xml:id="szduep-152420-d1e835">
+          <lb ed="#P" n="96"/>12. Atque hinc potest sumi confirmatio 
+          ef<lb break="no" ed="#P" n="97"/>ficax ex creaturis, nam quando una bonitas
+          <lb ed="#P" n="98"/>totalis ex pluribus rebus consurgit, hoc non
+          <lb ed="#P" n="99"/>impedit, quominus singulae illarum rerum 
+          ha<lb break="no" ed="#P" n="100"/>beant propriam integritatem et bonitatem 
+          dis<lb break="no" ed="#P" n="101"/>tinctam. Respondent, ideo illud esse, quia illae
+          <lb ed="#P" n="102"/>bonitates sunt partiales et non uniuntur per 
+          i<lb break="no" ed="#P" n="103"/>dentitatem, sed per unionem. Sed contra, nam
+          <lb ed="#P" n="104"/>hinc solum sit, relativas integritates 
+          persona<lb break="no" ed="#P" n="105"/>rum divinarum non esse partiales, quod est 
+          ve<lb break="no" ed="#P" n="106"/>rissimum, non tamen non esse distinctas et 
+          tota<lb break="no" ed="#P" n="107"/>les in suo ordine, scilicet, in ratione personal.
+          <lb ed="#P" n="108"/>Imo Damascenus, loco citato, inde probat ex
+          <lb ed="#P" n="109"/>duabus divinis personis, ut distinctae sunt, non
+          <lb ed="#P" n="110"/>posse unam aliquam perfectionem componi,
+          <pb ed="#P" n="606"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia unaquaeque est per se et totaliter 
+          subsis<lb break="no" ed="#P" n="2"/>tens, habet ergo unaquaeque suam totalitatem.
+          <lb ed="#P" n="3"/>Et praeterea, licet in Trinitate non sit pars
+          <lb ed="#P" n="4"/>compositionis, nec pars quantitatis continuae,
+          <lb ed="#P" n="5"/>tamen, seclusa omni imperfectione, invenitur
+          <lb ed="#P" n="6"/>ibi quasi pars quantitatis discretae 
+          transcen<lb break="no" ed="#P" n="7"/>dentalis, eo scilicet modo, quo numerus 
+          con<lb break="no" ed="#P" n="8"/>sideratur, ut quoddam totum, et unitas ut 
+          e<lb break="no" ed="#P" n="9"/>jus pars. Ergo licet integritas personalis in
+          <lb ed="#P" n="10"/>se totalis sit (ut ita loquamur) potest esse
+          <lb ed="#P" n="11"/>quasi partialis comparata ad numerum, seu
+          <lb ed="#P" n="12"/>multitudinem, ergo hoc non obstat, 
+          quomi<lb break="no" ed="#P" n="13"/>nus illae perfectiones relativae, et personales
+          <lb ed="#P" n="14"/>plures sint, realiter inter se distinctae.
+        </p>
+        <p xml:id="szduep-152420-d1e905">
+          <lb ed="#P" n="15"/>13. Denique ex illo etiam, quod ab 
+          auctori<lb break="no" ed="#P" n="16"/>bus contrariae sententiae admittitur, sumi 
+          exis<lb break="no" ed="#P" n="17"/>timo efficax argumentum. Nam unaquaeque
+          <lb ed="#P" n="18"/>relatio est bonum conveniens suae personae et
+          <lb ed="#P" n="19"/>non alteri, ergo sicut distinguuntur relationes,
+          <lb ed="#P" n="20"/>ita et hae bonitates. Respondent, has esse 
+          bo<lb break="no" ed="#P" n="21"/>nitates secundum rationem. At haec 
+          aequivo<lb break="no" ed="#P" n="22"/>catio est : nam licet relatio convenientiae sit
+          <lb ed="#P" n="23"/>rationis, utpote ejusdem ad se ipsum, tamen
+          <lb ed="#P" n="24"/>id, quod denominatur conveniens, supponitur
+          <lb ed="#P" n="25"/>in se esse perfectio realis, ideo enim 
+          concipi<lb break="no" ed="#P" n="26"/>tur ut eonveniens, quia concipitur, ut forma
+          <lb ed="#P" n="27"/>realiter perficiens. Sicut etiam constitutio 
+          per<lb break="no" ed="#P" n="28"/>sonae in Deo dicitur ab eisdem auctoribus esse
+          <lb ed="#P" n="29"/>secundum rationem, quod non tollit, quin 
+          pro<lb break="no" ed="#P" n="30"/>prietates constituentes sint inter se realiter
+          <lb ed="#P" n="31"/>distinctae. Adde, quod de illa integritate, quae
+          <lb ed="#P" n="32"/>in tribus personis simul sumptis consideratur,
+          <lb ed="#P" n="33"/>idem dici potest. Est enim conveniens Deo et
+          <lb ed="#P" n="34"/>Trinitati, ergo ut sic, tantum erit bonitas 
+          ra<lb break="no" ed="#P" n="35"/>tionis, quia relatio convenientiae, quam habet
+          <lb ed="#P" n="36"/>ad Deum, vel Trinitatem, solum est rationis,
+          <lb ed="#P" n="37"/>est enim ejusdem ad se ipsum, quia integritas
+          <lb ed="#P" n="38"/>illa in re non distinguitur a Deo, vel Trinitate.
+          <lb ed="#P" n="39"/>Ergo etiam ilia perfectio, ut bonitas DEI est,
+          <lb ed="#P" n="40"/>non erit realis, sed rationis, vel certe si illa est
+          <lb ed="#P" n="41"/>bonitas realis propter realem perfectionem,
+          <lb ed="#P" n="42"/>quam in se habet, etiam si relatio 
+          convenien<lb break="no" ed="#P" n="43"/>tiae ad id, cujus est perfectio, sit rationis, etiam
+          <lb ed="#P" n="44"/>bonitas uniuscujusque relationis divinae, quam
+          <lb ed="#P" n="45"/>habet, ut talis relatio est, erit realis, etiamsi
+          <lb ed="#P" n="46"/>relatio convenientiae ad suam relationem sit
+          <lb ed="#P" n="47"/>rationis. Ergo cum bonitates illae in se realiter
+          <lb ed="#P" n="48"/>multiplicentur, erunt tres reales bonitates 
+          rea<lb break="no" ed="#P" n="49"/>liter distinctae, in quibus noster intellectus
+          <lb ed="#P" n="50"/>fundat tres relationes convenientiae, 
+          singula<lb break="no" ed="#P" n="51"/>rum perfectionum ad singulas relationes.
+        </p>
+        <p xml:id="szduep-152420-d1e988">
+          <lb ed="#P" n="52"/>14. Quarta opinio. — Est ergo quarta 
+          sen<lb break="no" ed="#P" n="53"/>tentia, quae affirmat bonitatem 
+          transcendenta<lb break="no" ed="#P" n="54"/>lem absolutam esse unam in Trinitate, 
+          relati<lb break="no" ed="#P" n="55"/>vam vero esse unicuique personae propriam et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ita in divinis personis multiplicari, tenet 
+          Ga<lb break="no" ed="#P" n="57"/>briel, in 1, dist. 7, quaest. 3, art. 3, Hervaus, 
+          <lb ed="#P" n="58"/>in 1, dist. 2, quaest. 4, art. 4, et Clitoveus 
+          su<lb break="no" ed="#P" n="59"/>pra Damascenum, lib. 1, cap. 11. Et haec sen- Ji
+          <lb ed="#P" n="60"/>tentia mihi videtur vera, si bene explicetur.
+        </p>
+        <p xml:id="szduep-152420-d1e1013">
+          <lb ed="#P" n="61"/>15. Prima assertio. — Dico ergo primo.
+          <lb ed="#P" n="62"/>Relatio divina, verbi gratia, Paternitas, ex 
+          <lb ed="#P" n="63"/>proprio conceptu dici realem perfectionem, 
+          <lb ed="#P" n="64"/>seu bonitatem transcendentalem. Hoc potest
+          <lb ed="#P" n="65"/>probari primo ex principiis Metaphysicae, quia
+          <lb ed="#P" n="66"/>bonum convertitur cum ente reali, relatio 
+          au<lb break="no" ed="#P" n="67"/>tem vera et realis, quae intrinsece talis est 
+          se<lb break="no" ed="#P" n="68"/>cundum totam suam rationem etiam 
+          specifi<lb break="no" ed="#P" n="69"/>cam, secundum quam aliud respicit, est verum
+          <lb ed="#P" n="70"/>ens reale et forma realis. De quo fundamento
+          <lb ed="#P" n="71"/>iterum occurret sermo infra libro quinto. 
+          Se<lb break="no" ed="#P" n="72"/>cundo ergo probatur specialiter in 
+          relationi<lb break="no" ed="#P" n="73"/>bus divinis. Primo quidem, quia incredibile
+          <lb ed="#P" n="74"/>est mysterium Trinitatis, ut tale est, nullam
+          <lb ed="#P" n="75"/>perfectionem ponere in Deo. Cur enim esset
+          <lb ed="#P" n="76"/>illa multiplicatio personarum in ente summe 
+          <lb ed="#P" n="77"/>perfecto, si illarum, quatenus tales sunt, nulla 
+          <lb ed="#P" n="78"/>est perfectio. Deinde, quia nihil potest esse 
+          <lb ed="#P" n="79"/>magis imperfectum in se et absolute 
+          specta<lb break="no" ed="#P" n="80"/>tum, quam id, quod nullam dicit 
+          perfectio<lb break="no" ed="#P" n="81"/>nem, quia imperfectio non est positivum quid,
+          <lb ed="#P" n="82"/>sed carentia perfectionis : si ergo paternitas
+          <lb ed="#P" n="83"/>ut sic, nullam perfectionem affert, profecto
+          <lb ed="#P" n="84"/>valde imperfecta est. Dicetur, imperfectionem
+          <lb ed="#P" n="85"/>non esse quamcumque negationem 
+          perfectio<lb break="no" ed="#P" n="86"/>nis, sed debitae inesse : paternitati autem, aut 
+          <lb ed="#P" n="87"/>fihationi divinae nullam deberi perfectionem
+          <lb ed="#P" n="88"/>secundum propriam rationem, et ideo 
+          negatio<lb break="no" ed="#P" n="89"/>nem perfectionis in tali entitate non esse 
+          im<lb break="no" ed="#P" n="90"/>perfectionem. Dico tamen hanc videri mihi
+          <lb ed="#P" n="91"/>esse summam imperfectionem, scilicet esse tale
+          <lb ed="#P" n="92"/>ens, cui nulla debeatur perfectio secundum
+          <lb ed="#P" n="93"/>propriam rationem.
+        </p>
+        <p xml:id="szduep-152420-d1e1087">
+          <lb ed="#P" n="94"/>16. Tertio argumentari possumus ex eo, quod
+          <lb ed="#P" n="95"/>relationes sunt subsistentes: subsistentia 
+          au<lb break="no" ed="#P" n="96"/>tem est magna perfectio. Unde Cajetanus, 3 p.,
+          <lb ed="#P" n="97"/>q. 3, art. 1, concedit, relationes divinas, ut
+          <lb ed="#P" n="98"/>subsistentes sunt, diccre perfectionem etiam
+          <lb ed="#P" n="99"/>infinitam, nam D. Thomas ibi id significat.
+          <lb ed="#P" n="100"/>Nihilominus tamen sentit Cajetanus relationes,
+          <lb ed="#P" n="101"/>ut relationes sunt, non dicere perfectionem.
+          <lb ed="#P" n="102"/>Sed haec duo cohaerere non possunt, nam 
+          re<lb break="no" ed="#P" n="103"/>lationes divinae (ut supra dixi) sunt 
+          subsisten<lb break="no" ed="#P" n="104"/>tes, nonsolum ratione essentiae, sed ex propris,
+          <lb ed="#P" n="105"/>et ideo in tribus personis tres sunt 
+          subsisten<lb break="no" ed="#P" n="106"/>tiae personales : quidquid autem personale est,
+          <lb ed="#P" n="107"/>relativum est, sunt ergo tres subsistentiae 
+          re<lb break="no" ed="#P" n="108"/>lativae: ergo relatio divina secundum propriam
+          <lb ed="#P" n="109"/>rationem subsistens est, ergo secundum 
+          pro<lb break="no" ed="#P" n="110"/>priam rationem perfectionem dicit.
+        </p>
+        <p xml:id="szduep-152420-d1e1126">
+          <pb ed="#P" n="607"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>17. Quarto, divina essentia ex sua infinitate
+          <lb ed="#P" n="2"/>ergo illa communicabilitas est magna 
+          perfec<lb break="no" ed="#P" n="3"/>tio in tali natura : ergo habere etiam 
+          suppo<lb break="no" ed="#P" n="4"/>sita, in quibus sit, pertinet (ut ita dicam) ad
+          <lb ed="#P" n="5"/>connaturalem statum talis naturae, ergo ipsa
+          <lb ed="#P" n="6"/>supposita, in quibus est illa natura, quatenus
+          <lb ed="#P" n="7"/>talia sunt, aliquam dicunt perfectionem 
+          enti<lb break="no" ed="#P" n="8"/>tativam, nam communicari suppositis nullam
+          <lb ed="#P" n="9"/>afferentibus perfectionem, non videtur ad 
+          per<lb break="no" ed="#P" n="10"/>Ifectionem pertinere, neque esse conveniens
+          <lb ed="#P" n="11"/>naturae adeo perfectae. Denique, si Pater, ut
+          <lb ed="#P" n="12"/>iPater (et sic de aliis) non dicit bonitatem, 
+          pro<lb break="no" ed="#P" n="13"/>fecto neque sub ea ratione amabilis est. 
+          Quam<lb break="no" ed="#P" n="14"/>vis enim responderi possit specificative, ut sic
+          <lb ed="#P" n="15"/>dicam, esse amabilem ob divinitatem, quam
+          <lb ed="#P" n="16"/>uncludit, tamen reduplicative, id est, ex 
+          pa<lb break="no" ed="#P" n="17"/>ternitate non habere specialem amabilitatem.
+          <lb ed="#P" n="18"/>Hoc ipsum per se apparet valde absurdum,
+          <lb ed="#P" n="19"/>cum in illis personis, etiam secundum proprias
+          <lb ed="#P" n="20"/>rationes, sit maxima pulchritudo et 
+          conve<lb break="no" ed="#P" n="21"/>nientia, et in CHRISTI humanitate fatemur
+          <lb ed="#P" n="22"/>personam Filii esse maximum bonum ilius
+          <lb ed="#P" n="23"/>humanitatis ex ratione, qua terminat illam,
+          <lb ed="#P" n="24"/>terminat autem per proprietatem suam 
+          per<lb break="no" ed="#P" n="25"/>sonalem.
+        </p>
+        <p xml:id="szduep-152420-d1e1187">
+          <lb ed="#P" n="26"/>18. Secunda assertio. — Dico secundo. 
+          Per<lb break="no" ed="#P" n="27"/>fectio, quam dicit relatio, secundum propriam
+          <lb ed="#P" n="28"/>rationem relativa est. Haec assertio sequitur ex
+          <lb ed="#P" n="29"/>praecedenti. Primo, quia unaquaeque res 
+          ha<lb break="no" ed="#P" n="30"/>bet perfectionem entitati suae accommodatam.
+          <lb ed="#P" n="31"/>Unde si relatio illa consideretur, ut forma 
+          sup<lb break="no" ed="#P" n="32"/>positi, sicut dat constitutionem formalem sibi
+          <lb ed="#P" n="33"/>accommodatam, ita etiam formalem 
+          perfectio<lb break="no" ed="#P" n="34"/>nem : ergo sicut est forma relativa, ita etiam
+          <lb ed="#P" n="35"/>perfectio. Secundo id facile patebit, si velimus
+          <lb ed="#P" n="36"/>quasi definire hujusmodi relationem : nam 
+          si<lb break="no" ed="#P" n="37"/>cut esse paternitatis consistit in habitudine ad
+          <lb ed="#P" n="38"/>Filium, ita etiam perfectio ejus. Unde, talis
+          <lb ed="#P" n="39"/>paternitas ideo tam perfecta est, quia talem
+          <lb ed="#P" n="40"/>Filium respicit : ergo in ratione etiam 
+          perfec<lb break="no" ed="#P" n="41"/>tionis relativa est. Tertio item declaratur, quia
+          <lb ed="#P" n="42"/>sicut essentia et relatio distinguuntur ratione,
+          <lb ed="#P" n="43"/>ita perfectio essentiae et perfectio relationis
+          <lb ed="#P" n="44"/>ratione distinguuntur : ergo distinguuntur
+          <lb ed="#P" n="45"/>tanquam absolutum et relativum. Antecedens
+          <lb ed="#P" n="46"/>patet, tum ex similitudine proportionis, tum
+          <lb ed="#P" n="47"/>etiam, quia praecisa, per intellectum tota 
+          per<lb break="no" ed="#P" n="48"/>fectione relationis, manere intelligitur tota
+          <lb ed="#P" n="49"/>perfectio essentiae, quam Pater, verbi gratia,
+          <lb ed="#P" n="50"/>communicat Filio : in hoc autem consistit 
+          dis<lb break="no" ed="#P" n="51"/>tinctio rationis. Consequentia vero probatur,
+          <lb ed="#P" n="52"/>quia relatio nihil absolutum confert essentiae,
+          <lb ed="#P" n="53"/>et quia alias praecisa relatione, non maneret in
+          <lb ed="#P" n="54"/>essentia tota perfectio absoluta.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>communicahilis est realiter multis suppositis,
+        </p>
+        <p xml:id="szduep-152420-d1e1257">
+          <lb ed="#P" n="56"/>19. Tertia assertio. — Tertio ex dictis 
+          con<lb break="no" ed="#P" n="57"/>cluditur, perfectiones personales, seu relativas
+          <lb ed="#P" n="58"/>in divinis personis multiplicari, atque adeo
+          <lb ed="#P" n="59"/>distingui realiter inter se. Hoc etiam est 
+          con<lb break="no" ed="#P" n="60"/>sequens ad dicta, quia quae sunt personalia,
+          <lb ed="#P" n="61"/>sunt propria : quae autem propria sunt, 
+          multi<lb break="no" ed="#P" n="62"/>plicantur in personis, quatenus talia sunt. 
+          Se<lb break="no" ed="#P" n="63"/>cundo, quia si perfectiones sunt relativae, 
+          in<lb break="no" ed="#P" n="64"/>cludunt oppositionem, nam perfectio 
+          paterni<lb break="no" ed="#P" n="65"/>tatis consistit in hoc quod subsistat in ordine
+          <lb ed="#P" n="66"/>ad Filium, et e contrario in filiatione, quod
+          <lb ed="#P" n="67"/>subsistat in ordine ad Patrem : sed oppositio
+          <lb ed="#P" n="68"/>in divinis causat distinctionem et 
+          multiplica<lb break="no" ed="#P" n="69"/>tionem, ergo. Tertio denique quia distinctio
+          <lb ed="#P" n="70"/>rationis inter relationem et essentiam, 
+          quate<lb break="no" ed="#P" n="71"/>nus talis est, infert distinctionem realem inter
+          <lb ed="#P" n="72"/>relationes ipsas, quia relatio et essentia 
+          dis<lb break="no" ed="#P" n="73"/>tinguuntur ratione tanquam incommunicabile
+          <lb ed="#P" n="74"/>et communicabile : sed eodem modo 
+          distin<lb break="no" ed="#P" n="75"/>guuntur ratione inter se distinctio essentiae et
+          <lb ed="#P" n="76"/>perfectio relationis : ergo eodem modo 
+          infer<lb break="no" ed="#P" n="77"/>tur distinctio realis inter perfectiones relativas,
+          <lb ed="#P" n="78"/>quatenus tales sunt.
+        </p>
+        <p xml:id="szduep-152420-d1e1309">
+          <lb ed="#P" n="79"/>20. Objectio ev Patribus. — Responsio. —
+          <lb ed="#P" n="80"/>Hic vero nobis objicitur, quia Patres ita locuti
+          <lb ed="#P" n="81"/>non sunt, sed potius semper dicunt, divinas
+          <lb ed="#P" n="82"/>personas esse unum summum bonum, et ideo
+          <lb ed="#P" n="83"/>unam bonitatem et perfectionem habere: si
+          <lb ed="#P" n="84"/>autem essent tres perfectiones relativae, eadem
+          <lb ed="#P" n="85"/>ratione concedendum esset sine ullo addito, ac
+          <lb ed="#P" n="86"/>simpliciter, divinas personas habere tres 
+          per<lb break="no" ed="#P" n="87"/>fectiones reales et realiter distinctas. Hoc 
+          au<lb break="no" ed="#P" n="88"/>tem videtur absurdum. Respondetur, quamvis
+          <lb ed="#P" n="89"/>Patres hoc expresse non dicerent, satis esset,
+          <lb ed="#P" n="90"/>quod non contradicerent, cum ex eorum 
+          dic<lb break="no" ed="#P" n="91"/>tis necessaria consecutione hoc inferatur, ut
+          <lb ed="#P" n="92"/>rationes factae ostendunt. Deinde nego in 
+          Pa<lb break="no" ed="#P" n="93"/>tribus hoc non inveniri. Nam Damascenus, 
+          li<lb break="no" ed="#P" n="94"/>bro primo, de Fide, cap. 11, diserte dicit : 
+          Pa<lb break="no" ed="#P" n="95"/>trem et Filium distingui perfectionibus 
+          perso<lb break="no" ed="#P" n="96"/>nalibus. In quo unico verbo mihi videntur
+          <lb ed="#P" n="97"/>contineri tres assertiones positae : nam 
+          secun<lb break="no" ed="#P" n="98"/>dum Damascenum dantur perfectiones 
+          perso<lb break="no" ed="#P" n="99"/>nales, in quibus distinguuntur personae, ergo
+          <lb ed="#P" n="100"/>illae relativae sunt et per relationes, ut 
+          relatio<lb break="no" ed="#P" n="101"/>nes sunt, conferuntur. Tandem quod spectat
+          <lb ed="#P" n="102"/>ad modum loquendi de triplici perfectione,
+          <lb ed="#P" n="103"/>vel simplicitér, vel cum illo addito relativa,
+          <lb ed="#P" n="104"/>seu personali, dicendum est, quod de veritate
+          <lb ed="#P" n="105"/>dixi. Nam cum est sermo de divina perfectione
+          <lb ed="#P" n="106"/>simpliciter et absolute, intelligitur de 
+          essen<lb break="no" ed="#P" n="107"/>tiali et summa in genere entis, et ideo dicitur
+          <lb ed="#P" n="108"/>esse simpliciter una, quia perfectio essentialis
+          <lb ed="#P" n="109"/>non multiplicatur. Et eodem modo loquitur
+          <lb ed="#P" n="110"/>divus Thomas de dignitate, nam absolute di-
+          <pb ed="#P" n="608"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cenda est una. Tres autem perfectiones sunt
+          <lb ed="#P" n="2"/>veluti secundum quid, si praecise sumantur, et
+          <lb ed="#P" n="3"/>ideo recte, convenienterque additur, quod sint
+          <lb ed="#P" n="4"/>relativae. Fundamenta contrariae sententiae 
+          pos<lb break="no" ed="#P" n="5"/>tulant nonnullas difficultates, quas in sequenti
+          <lb ed="#P" n="6"/>capite expediemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

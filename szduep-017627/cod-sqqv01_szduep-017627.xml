@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="69"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-017627"><!-- t1-l2c8 -->
+        <head xml:id="szduep-017627-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-017627-Hd1e103" type="question-title">An deus sit invisibilis per naturales vires cujuscumque creaturae et consequenter nonnisi supernaturaliter videatur</head>
+        <p xml:id="szduep-017627-d1e106">
+          <lb ed="#P" n="75"/>CAPUT VII.
+          <lb ed="#P" n="76"/>AN DEUS SIT INVISIBILIS PER NATURALES VIRES
+          <lb ed="#P" n="77"/>CUJUSCUMQUE CREATURAE ET CONSEQUENTER
+          <lb ed="#P" n="78"/>NONNISI SUPERNATURALITER VIDEATUR.
+        </p>
+        <p xml:id="szduep-017627-d1e117">
+          <lb ed="#P" n="79"/>1. Frror aliquorum. — Cum dictum sit,
+          <lb ed="#P" n="80"/>DEUM non esse omnino invisibilem creaturae
+          <lb ed="#P" n="81"/>intellectuali, oportet exponere an aliquo 
+          sal<lb break="no" ed="#P" n="82"/>tem modo illi invisibilis sit et non tantum
+          <lb ed="#P" n="83"/>incomprehensibilis, et consequenter explicare
+          <lb ed="#P" n="84"/>oportet quomodo videri possit, vel quomodo
+          <lb ed="#P" n="85"/>non possit. In puncto ergo proposito fuit 
+          haere<lb break="no" ed="#P" n="86"/>sis begardorum asserentium, quamlibet 
+          natu<lb break="no" ed="#P" n="87"/>ram intellectualem per se ipsam posse fieri
+          <lb ed="#P" n="88"/>beatam, neque indigere lumine gloriae ad 
+          vi<lb break="no" ed="#P" n="89"/>dendum DEUM, qui error refertur et damnatur
+          <lb ed="#P" n="90"/>in Concilio Viennensi sub Clemente: et 
+          habe<lb break="no" ed="#P" n="91"/>tur in Clementina Ad nostrum, de haeret. Et
+          <lb ed="#P" n="92"/>ante hos haereticos fuerunt alii dicti Anomaei,
+          <lb ed="#P" n="93"/>quorum auctor fuit Eunomius seu Acedius,
+          <lb ed="#P" n="94"/>qui dixerunt posse hominem in hac vita 
+          com<lb break="no" ed="#P" n="95"/>prehendere DEUM et aliqui dicunt, fuisse 
+          locu<lb break="no" ed="#P" n="96"/>tos de cognitione per vires naturae. Sed id
+          <lb ed="#P" n="97"/>nec colligi potest ex Chrysostomo in 
+          homi<lb break="no" ed="#P" n="98"/>liis de incomprehensibili DEI nat., quas contra
+          <lb ed="#P" n="99"/>illos scripsit, nec ex Theodoreto, aut aliis illum
+          <lb ed="#P" n="100"/>errorem referentibus. Imo Hieronymus 
+          Mat<lb break="no" ed="#P" n="101"/>thaei 11, in id: Nemo novit Filium nisi Pater,
+          <lb ed="#P" n="102"/>indicat Eunomium fuisse locutum de 
+          cogni<lb break="no" ed="#P" n="103"/>tione per revelationem.
+        </p>
+        <p xml:id="szduep-017627-d1e174">
+          <lb ed="#P" n="104"/>2. Fundamentum erroris. — Fundamentum
+          <lb ed="#P" n="105"/>hujus erroris non refertur a dictis auctoribus;
+          <pb ed="#P" n="70"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>videtur autem esse potuisse, quia si intellectus
+          <lb ed="#P" n="2"/>creatus non posset videre DEUM per suas 
+          na<lb break="no" ed="#P" n="3"/>turales vires, nullo modo posset ad illum 
+          ac<lb break="no" ed="#P" n="4"/>tum elevari, quia potentia praesertim vitalis
+          <lb ed="#P" n="5"/>non potest elevari ultra suam sphaeram. Sed
+          <lb ed="#P" n="6"/>ohoc fundamentum partim solutum est in capite
+          <lb ed="#P" n="7"/>praecedenti ; partim tractandum est in iis, quae
+          <lb ed="#P" n="8"/>dicemus de principiis visionis beatae. Adverto
+          <lb ed="#P" n="9"/>hic etiam, quod licet non inveniatur hic error
+          <lb ed="#P" n="10"/>inter errores Pelagii numeratus , tamen si
+          <lb ed="#P" n="11"/>consequenter locutus est, non potuit non in
+          <lb ed="#P" n="12"/>eo versari, cum dixerit omnia media ad hunc
+          <lb ed="#P" n="13"/>finem consequendum viribus naturae perfici
+          <lb ed="#P" n="14"/>posse et vitam aeternam, quae non est aliud,
+          <lb ed="#P" n="15"/>quam illa visio DEL sine gratia DEI posse
+          <lb ed="#P" n="16"/>comparari. Unde, ut Augustinus refert 1. de
+          <lb ed="#P" n="17"/>Peccator. merit. et remissione, cap. 30, 
+          par<lb break="no" ed="#P" n="18"/>vulis non baptizatis promittebat vitam 
+          aeter<lb break="no" ed="#P" n="19"/>nam, utique tanquam sibi nataraliter 
+          possibi<lb break="no" ed="#P" n="20"/>lem vel etiam debitam. Tamen quia ille 
+          dis<lb break="no" ed="#P" n="21"/>tinguebat vitam aeternam a regno coelorum,
+          <lb ed="#P" n="22"/>ut ibidem ait Augustinus et non declaravit,
+          <lb ed="#P" n="23"/>quid per vitam aeternam intelhgeret et 
+          quomo<lb break="no" ed="#P" n="24"/>do illam a regno DEI distingueret, ideo certo
+          <lb ed="#P" n="25"/>dicere non possumus, quid de visioneDei clara
+          <lb ed="#P" n="26"/>senserit. :
+        </p>
+        <p xml:id="szduep-017627-d1e243">
+          <lb ed="#P" n="27"/>3. Sententia Durandi — Sententia Scoti.
+          <lb ed="#P" n="28"/>— Reoejicitur opinionem S'coti. — Secundo 
+          so<lb break="no" ed="#P" n="29"/>let hic referri sententia Durandi in 4, 
+          dis<lb break="no" ed="#P" n="30"/>tinct. 49, quaest. 2, num. 24, ubi ait 
+          intel<lb break="no" ed="#P" n="31"/>lectum de se aptum esse ad videndum Deum
+          <lb ed="#P" n="32"/>clare, remotis impedimentis : et sine ulla
+          <lb ed="#P" n="33"/>supernaturali virtute supera addita videre
+          <lb ed="#P" n="34"/>illum, per hoc solum quod DEUS sit illi 
+          prae<lb break="no" ed="#P" n="35"/>sens. Verumtamen quia expresse dicit illud
+          <lb ed="#P" n="36"/>non fieri secundum naturae ordinem, sed gratiae,
+          <lb ed="#P" n="37"/>et nunquam dicit, DEUM fieri praesentem per
+          <lb ed="#P" n="38"/>actum naturasem : ideo illa sententia non 
+          per<lb break="no" ed="#P" n="39"/>tinet ad hunc locum, sed infra tractanda est
+          <lb ed="#P" n="40"/>disputando de necessitate luminis gloriae et de
+          <lb ed="#P" n="41"/>modo quo noster intellectus ad illam visionem
+          <lb ed="#P" n="42"/>concurrit. Solet etiam hicreferri sententia Scoti
+          <lb ed="#P" n="43"/>2. dist. 3, quaest. 9, ubi docet posse angelum
+          <lb ed="#P" n="44"/>per virtutem naturalem quidditative 
+          cognos<lb break="no" ed="#P" n="45"/>cere essentiam DEL prout in se est, per speciem
+          <lb ed="#P" n="46"/>sibi inditam repreesentantem DEUM 
+          abstrac<lb break="no" ed="#P" n="47"/>Live sicuti est, quam speciem dicit esse 
+          natu<lb break="no" ed="#P" n="48"/>ralem angelo. Quam opinionem sequitur 
+          Ga<lb break="no" ed="#P" n="49"/>briel ibi, quaest. 2; differt tamen in modo
+          <lb ed="#P" n="50"/>loquendi, negat enim illam cognitionem posse
+          <lb ed="#P" n="51"/>naturaliter haberi, nisi oriatur e intuitiva, ut
+          <lb ed="#P" n="52"/>latius tractat quaest. 1, prolog. 1, art. 2. Tamen
+          <lb ed="#P" n="53"/>quia Scotus fatetur expresse visionem 
+          intui<lb break="no" ed="#P" n="54"/>tivam DEL esse supernaturalem et illam, de qua
+          <lb ed="#P" n="55"/>loquitur esse tantum abstractivam, ideo illa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etiam opinio ad hunc locum non spectat, sed
+          <lb ed="#P" n="57"/>tractatibur in fine lib. 1, de Trinitate. 
+          Displi<lb break="no" ed="#P" n="58"/>cet autem illa opinio Scoti in duobus. Primo,
+          <lb ed="#P" n="59"/>quia in visione clara essentiae divinae prout in
+          <lb ed="#P" n="60"/>se est, distinguit visionem intuitivam ab 
+          abs<lb break="no" ed="#P" n="61"/>tractiva. Secundo, quia gratis nullaque reddita
+          <lb ed="#P" n="62"/>ratione concedit, posse angelos habere speciem
+          <lb ed="#P" n="63"/>naturalem, qua DEUM, sicuti est, abstractive
+          <lb ed="#P" n="64"/>cognoscant, et negant posse habere speciem,
+          <lb ed="#P" n="65"/>quae sit visionis intuitivae principium. Quia non
+          <lb ed="#P" n="66"/>minus est possibilis haec, quam illa, ut infra
+          <lb ed="#P" n="67"/>ostendam et videtur admittere ipse Scotus in
+          <lb ed="#P" n="68"/>4, dist. 49, quaest. 11. Quod si utraque est 
+          pos<lb break="no" ed="#P" n="69"/>sibilis, cur magis dicitur una naturalis angelo
+          <lb ed="#P" n="70"/>quam alia, cum utriusque sit capax capacitate
+          <lb ed="#P" n="71"/>passiva et neutram habere possit, nisi a solo
+          <lb ed="#P" n="72"/>DEO. Imo ut infra videbimus, impossibilis est
+          <lb ed="#P" n="73"/>species, quae repraesentet Deum, prout in se
+          <lb ed="#P" n="74"/>est, non repraesentando illum intuitive.
+        </p>
+        <p xml:id="szduep-017627-d1e352">
+          <lb ed="#P" n="75"/>4. Tertia sententia. — Tertio referri hic 
+          po<lb break="no" ed="#P" n="76"/>test opinio dicens, illam visionem esse quidem
+          <lb ed="#P" n="77"/>supernaturalem quoad consecutionem seu 
+          ef<lb break="no" ed="#P" n="78"/>fectionem, tamen esse naturalem in ratione
+          <lb ed="#P" n="79"/>beatitudinis, quia est finis naturalis hominis,
+          <lb ed="#P" n="80"/>ad quem naturae pondere fertur. Quae duo mihi
+          <lb ed="#P" n="81"/>videntur repugnantia, sed de hoc disputandum
+          <lb ed="#P" n="82"/>est in prima secundae. Nunc ego suppono non
+          <lb ed="#P" n="83"/>dari in nobis appetitum innatum ad visionem
+          <lb ed="#P" n="84"/>claram DEI, ideoque non posse hoc titulo dici
+          <lb ed="#P" n="85"/>naturalem. Denique posset aliquis opinari, 
+          il<lb break="no" ed="#P" n="86"/>lam visionem esse supernaturalem quoad 
+          mo<lb break="no" ed="#P" n="87"/>dum, non tamen quoad substantiam suam:
+          <lb ed="#P" n="88"/>quia cum sit actus elicitus a naturali potentia,
+          <lb ed="#P" n="89"/>necessario esse debet in substantia naturalis,
+          <lb ed="#P" n="90"/>sicut sunt alii actus supernaturales, per quos
+          <lb ed="#P" n="91"/>illa visio comparatur. Hujus opinionis 
+          aucto<lb break="no" ed="#P" n="92"/>rem non invenio, tamen qui negant actum
+          <lb ed="#P" n="93"/>charitatis esse supernaturalem quoad 
+          substan<lb break="no" ed="#P" n="94"/>tiam, possent consequenter hoc modo opinari.
+        </p>
+        <p xml:id="szduep-017627-d1e398">
+          <lb ed="#P" n="95"/>5. Assertio. — Dicendum primo illam 
+          visio<lb break="no" ed="#P" n="96"/>nem esse supernaturalem cuilibet intellectui
+          <lb ed="#P" n="97"/>creato. Ita censeo esse certum de fide. Probatur
+          <lb ed="#P" n="98"/>ex sacris literis ad Romanos 6: Habetis 
+          fruc<lb break="no" ed="#P" n="99"/>Ln vestrum in sanctificatione, finem vero vitam
+          <lb ed="#P" n="100"/>cternam. Ubi nomine vite eternee significatur
+          <lb ed="#P" n="101"/>beatitudo, quae in visionc DEI praecipue 
+          consis<lb break="no" ed="#P" n="102"/>tit, ut constat ex usu et communi sensu 
+          om<lb break="no" ed="#P" n="103"/>nium. De hac autem vita aeterna statim subdit:
+          <lb ed="#P" n="104"/>Stipendium peccati mors, gratia DEI cita
+          <lb ed="#P" n="105"/>eterna. Ubi omnes interpretes notant 
+          diversi<lb break="no" ed="#P" n="106"/>tatem locutionis; nam licet homo suis operibus
+          <lb ed="#P" n="107"/>mercatur et poenam et praemium, tamen 
+          Pau<lb break="no" ed="#P" n="108"/>Ius poenam vocat Stipendium, quia ex toto
+          <lb ed="#P" n="109"/>rigore justitiae debetur; vitam autem aeternam,
+          <lb ed="#P" n="110"/>quae est praemium meritorum, vocat Gratiam,
+          <pb ed="#P" n="71"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia est supernaturale donum, quod quamvis
+          <lb ed="#P" n="2"/>debeatur meritis, illud est ratione gratiae, ut
+          <lb ed="#P" n="3"/>late Augustinus Epist. 105, ad Sixtum, et libro
+          <lb ed="#P" n="4"/>de Gratia et libero arbitr., cap. 8, et in Enchirid.
+          <lb ed="#P" n="5"/>cap. 107; Chrysostomus in Hom. 12, ad Roman.
+          <lb ed="#P" n="6"/>et omnes expositores. Et huic consonat illud
+          <lb ed="#P" n="7"/>Psalm. 83: Gratiam et gloriam dabit Dominus,
+          <lb ed="#P" n="8"/>quia nimirum sunt dona supernaturalia et 
+          ejus<lb break="no" ed="#P" n="9"/>dem ordinis. Imo praecipuum fundamentum
+          <lb ed="#P" n="10"/>necessitatis gratiae per se loquendo est 
+          super<lb break="no" ed="#P" n="11"/>naturalitas illius visionis. Quia enim illa 
+          super<lb break="no" ed="#P" n="12"/>naturalis est, ideo necessaria est gratia et opera
+          <lb ed="#P" n="13"/>illius ad illam obtinendam. Et ideo haec visio
+          <lb ed="#P" n="14"/>specialiter promittitur in Scriptura sacra 
+          tan<lb break="no" ed="#P" n="15"/>quam proprium praemium supernaturalium
+          <lb ed="#P" n="16"/>operum, ut Joannis XIV: Qui diligit me, 
+          mani<lb break="no" ed="#P" n="17"/>festabo ei meipsum, utibi Augustinus tract. 86.
+          <lb ed="#P" n="18"/>Denique facit illud Matthaei 11: IVemo novit
+          <lb ed="#P" n="19"/>Filiun, nisi Pater, neque Patrem quis novit,
+          <lb ed="#P" n="20"/>nisi Filius et cui voluerit Filius revelare. Nam
+          <lb ed="#P" n="21"/>licet hic locus possit exponi de cognitione fidei,
+          <lb ed="#P" n="22"/>quam habemus in hac vita, tamen et 
+          CHRIS<lb break="no" ed="#P" n="23"/>TUS Dominus absolute loquitur de cognitione
+          <lb ed="#P" n="24"/>Patris et Filii, et praeterea inde sumitur 
+          argu<lb break="no" ed="#P" n="25"/>mentum apertum : nam si fides DEI est 
+          super<lb break="no" ed="#P" n="26"/>naturalis actus, multo magis visio. De illa etiam
+          <lb ed="#P" n="27"/>reete intelligitur illud Isaiae 64 et 1, ad Cor. 2:
+          <lb ed="#P" n="28"/>Oculus non vidit, neque auris audivit, neque in
+          <lb ed="#P" n="29"/>cor hominis ascendit que preparavit DEUS
+          <lb ed="#P" n="30"/>diligentibus se, ut notat ibi Hieronymus et aln
+          <lb ed="#P" n="31"/>et Ambrosius in 2. praeparat. ad Missam.
+        </p>
+        <p xml:id="szduep-017627-d1e507">
+          <lb ed="#P" n="32"/>6. Quae testimonia videntur suflicienter de
+          <lb ed="#P" n="33"/>hominibus probare, de angelis vero non 
+          vi<lb break="no" ed="#P" n="34"/>dentur expressa. Nihilominus omnes theologi
+          <lb ed="#P" n="35"/>ita illa intelligunt, et ideo cum eadem 
+          certitu<lb break="no" ed="#P" n="36"/>dine affirmant conclusionem positam respectu
+          <lb ed="#P" n="37"/>omnis intellectus creati. Et Augustinus 12, de
+          <lb ed="#P" n="38"/>Civitate, cap. 9, aperte docet : Quee in 
+          Scrip<lb break="no" ed="#P" n="39"/>tura sacra dicuntur de charitate, gratia et 
+          glo<lb break="no" ed="#P" n="40"/>ria, quod sint supernaturalia dona DET, non
+          <lb ed="#P" n="41"/>minus de angelis vera esse quam de hominibus.
+          <lb ed="#P" n="42"/>Praeterea verba illa: Gratia DET, vita eterna
+          <lb ed="#P" n="43"/>et gratiam et gloriam dabit Dominus : absoluta
+          <lb ed="#P" n="44"/>sunt et non tantum dicuntur respectu 
+          homi<lb break="no" ed="#P" n="45"/>num. Unde idem Augustinus lib. 11, de Civit.,
+          <lb ed="#P" n="46"/>c. 9: Lumen (inquit) verum, quod illuminat 
+          om<lb break="no" ed="#P" n="47"/>nem hominem venientem in hunc mundwm, 
+          illu<lb break="no" ed="#P" n="48"/>manat etiam omnem angelum, ut sit luz non in
+          <lb ed="#P" n="49"/>se ipso, sed iun DEO. Et lib. 10, cap. 2, dicit,
+          <lb ed="#P" n="50"/>etiam quosdam antiquos philosophos 
+          intelle<lb break="no" ed="#P" n="51"/>xisse, angelos fieri beatos participatione divini
+          <lb ed="#P" n="52"/>luminis ; et supra cap. 7, diximus ex sententia
+          <lb ed="#P" n="53"/>quorumdam Patrum, DEUM interdum vocari
+          <lb ed="#P" n="54"/>invisibilem in Scriptura sacra, quia per vires
+          <lb ed="#P" n="55"/>naturae creatae videri non potest. Sic docet
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>divus Augustinus in dicta Epist. 112, cap. 9;
+          <lb ed="#P" n="57"/>et hoc sensu dicunt Patres DEUM esse 
+          invisi<lb break="no" ed="#P" n="58"/>bilem natura, visibilem voluntate et dignitate
+          <lb ed="#P" n="59"/>sua, juxta illud: Nemo novit Filium nisi Pater -
+          <lb ed="#P" n="60"/>neque Patrem quis novit nisi Filius et cui 
+          vo<lb break="no" ed="#P" n="61"/>luerit Filius revelare. Matthae 11, ut notat
+          <lb ed="#P" n="62"/>Damascenus lib. 1,cap.1; Epiphanius haeres. 70;
+          <lb ed="#P" n="63"/>et Ambrosius lib. 1, in Lucam, cap. de 
+          Appari<lb break="no" ed="#P" n="64"/>tione angeli: Cujus natura (inquit) est non 
+          vi<lb break="no" ed="#P" n="65"/>deri, voluntatis videri. Sic denique dicitur 1,
+          <lb ed="#P" n="66"/>ad Timoth. 6: Qui lucem habitat 
+          inaccessibi<lb break="no" ed="#P" n="67"/>lem : utique per naturales vires creatas, sicut
+          <lb ed="#P" n="68"/>statim subditur: Quem nemo hominum videt,
+          <lb ed="#P" n="69"/>sed nec videre potest, per naturam ; non enim
+          <lb ed="#P" n="70"/>excluditur quin per gratiam possit, ut ibi 
+          di<lb break="no" ed="#P" n="71"/>vus Thomas notavit. Ratio hujus veritatis est,
+          <lb ed="#P" n="72"/>quia in creatura non est principium sufficiens
+          <lb ed="#P" n="73"/>ad illam visionem propter eminentiam DEI.
+          <lb ed="#P" n="74"/>Verumtamen explicatio hujus rationis ex 
+          di<lb break="no" ed="#P" n="75"/>cendis capite sequenti pendet.
+        </p>
+        <p xml:id="szduep-017627-d1e607">
+          <lb ed="#P" n="76"/>7. Secunda assertio.—bico secundo: Visio illa
+          <lb ed="#P" n="77"/>beatifica supernaturalis est quoad substantiam
+          <lb ed="#P" n="78"/>suam omni naturae intellectuah creatae. 
+          Sup<lb break="no" ed="#P" n="79"/>pono autem primo, visionem illam creatam
+          <lb ed="#P" n="80"/>esse, quia per visionem increatam nullus 
+          in<lb break="no" ed="#P" n="81"/>tellectus creatus potest formaliter videre, ut de
+          <lb ed="#P" n="82"/>intellectu etiam animae Christi ostendi 1 tom.,
+          <lb ed="#P" n="83"/>3 part., disput. 23, et in 12, quaest. 3, 
+          genera<lb break="no" ed="#P" n="84"/>tim ostenditur de formal beatitudine. Suppono
+          <lb ed="#P" n="85"/>etiam, sermonem esse de naturis jam creatis;
+          <lb ed="#P" n="86"/>nam de possibilibus dicemus capite sequenti.
+          <lb ed="#P" n="87"/>Assertionem ergo positam attigit in propris
+          <lb ed="#P" n="88"/>terminis Cajetanus 22, quaest. 171, art. 2, 
+          exphi<lb break="no" ed="#P" n="89"/>cans solutionem ad 3. D. Thomae, quae difficilis
+          <lb ed="#P" n="90"/>est, ejus tamen difficultas contra hanc 
+          conclu<lb break="no" ed="#P" n="91"/>sionem non procedit : nam ibi docet cognoscere
+          <lb ed="#P" n="92"/>occulta divinae sapientiae esse actum 
+          superna<lb break="no" ed="#P" n="93"/>turalem quoad substantiam ; ergo a fortiori id
+          <lb ed="#P" n="94"/>doceret de visione beatifica, qua manifestatur
+          <lb ed="#P" n="95"/>id quod est in DEO oecultissimum, scilicet,
+          <lb ed="#P" n="96"/>substantia ejus et voluntas. Unde Sotus in 4,
+          <lb ed="#P" n="97"/>dist. 49, quaest. 2, art. 4, ita sentit de visione
+          <lb ed="#P" n="98"/>beata, quamvis de actibus theologicis viae 
+          con<lb break="no" ed="#P" n="99"/>trarium sentiat. Atque idem sumitur ex divo
+          <lb ed="#P" n="100"/>Thoma 12, quaest. 5, art. 5, ad tertium, ubi
+          <lb ed="#P" n="101"/>dicit hanc operationem differre specie ab omni
+          <lb ed="#P" n="102"/>operatione imperfecta, quam homo suis 
+          viri<lb break="no" ed="#P" n="103"/>bus facere potest.
+        </p>
+        <p xml:id="szduep-017627-d1e670">
+          <lb ed="#P" n="104"/>8. Quod sit actus naturalis vel 
+          supernatura<lb break="no" ed="#P" n="105"/>lis, quoad substantiam. — Ut autem ratione
+          <lb ed="#P" n="106"/>hoc probemus, oportet prius supponere quid
+          <lb ed="#P" n="107"/>sit, actum esse naturalem vel supernaturalem
+          <lb ed="#P" n="108"/>quoad substantiam. Nam si quis contendat
+          <lb ed="#P" n="109"/>omnem actum, qui in genere scientiae vel 
+          in<lb break="no" ed="#P" n="110"/>tellectionis convenit cum actibus naturalibus,
+          <pb ed="#P" n="72"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>hoc ipso appellari naturalem quoad 
+          substan<lb break="no" ed="#P" n="2"/>tiam intellectionis vel etiam dici sic naturalem
+          <lb ed="#P" n="3"/>ex eo solum quod potest quacumque ratione
+          <lb ed="#P" n="4"/>elici ab intellectu et in eo recipi, sive 
+          intellec<lb break="no" ed="#P" n="5"/>tus sit sufficiens virtus naturalis, sive non ad
+          <lb ed="#P" n="6"/>Allum faciendum, qui hoc modo usus fuerit haec
+          <lb ed="#P" n="7"/>voce, revocabit totam rem ad quaestionem de
+          <lb ed="#P" n="8"/>modo loquendi et impropriissime loquetur, quia
+          <lb ed="#P" n="9"/>nulla res habet rationem suam ex 
+          genericatan<lb break="no" ed="#P" n="10"/>tum ratione, sed ex specifica et propria: ergo
+          <lb ed="#P" n="11"/>substantia actus non est pensanda ex genere
+          <lb ed="#P" n="12"/>intellectionis, quod abstrahere potest a 
+          natu<lb break="no" ed="#P" n="13"/>rali et supernaturahl specie, sed ex ratione 
+          spe<lb break="no" ed="#P" n="14"/>cifica, nam differentia specifica contrahit 
+          ge<lb break="no" ed="#P" n="15"/>nus et trahit illud ad suum ordinem. Sicut 
+          ha<lb break="no" ed="#P" n="16"/>bitus per se infusus est simphciter naturals,
+          <lb ed="#P" n="17"/>quamvis conveniat in genere habitus cum 
+          na<lb break="no" ed="#P" n="18"/>turalibus. Atque eadem ratione non satis est,
+          <lb ed="#P" n="19"/>ut actus dicatur naturalis quoad substantiam,
+          <lb ed="#P" n="20"/>quod recipiatur in potentia, quae secundum
+          <lb ed="#P" n="21"/>suam entitatem est naturalis, quia potest recipi
+          <lb ed="#P" n="22"/>secundum capacitatem obedientialem, ut 
+          gra<lb break="no" ed="#P" n="23"/>tia et alii habitus per se infusi. Ac denique
+          <lb ed="#P" n="24"/>propter eamdem causam non est satis, quod
+          <lb ed="#P" n="25"/>fiat ab ipsa sententia ; tum quia hinc solum
+          <lb ed="#P" n="26"/>sumi potest ratio communis intellectionis ; tum
+          <lb ed="#P" n="27"/>maxime quia fieri potest ut potentia non 
+          con<lb break="no" ed="#P" n="28"/>currat vi naturah, sed ut elevata et ut 
+          instru<lb break="no" ed="#P" n="29"/>mentum divinae potentiae, ut infra videbimus.
+          <lb ed="#P" n="30"/>Ergo ille actus dicitur a nobis supernaturahs
+          <lb ed="#P" n="31"/>in substantia, cujus entitas talis est secundum
+          <lb ed="#P" n="32"/>suam specificam et specialem rationem , ut
+          <lb ed="#P" n="33"/>fieri non possit per naturalem potentiam 
+          crea<lb break="no" ed="#P" n="34"/>turae, cum generah concursu DEI sibi debito.
+          <lb ed="#P" n="35"/>Quod sumitur ex Cajetano 1 par., qu. 12, art.
+          <lb ed="#P" n="36"/>5, circa solutionem ad 3 sentit enim ; illam
+          <lb ed="#P" n="37"/>formam esse in sua entitate supernaturalem,
+          <lb ed="#P" n="38"/>quae nulli substantiae debetur ex principiis 
+          na<lb break="no" ed="#P" n="39"/>turae, neque habet modum affliciendi 
+          connatu<lb break="no" ed="#P" n="40"/>ralem alicui substantiae creatae. Unde cum 
+          ac<lb break="no" ed="#P" n="41"/>tus vitalis necessario manare debeat a potentia
+          <lb ed="#P" n="42"/>vitali, ille est supernaturalis quoad 
+          substan<lb break="no" ed="#P" n="43"/>tiam, qui ex naturali virtute createe 
+          substan<lb break="no" ed="#P" n="44"/>tiae vel facultatis ejus oriri non potest. Unde
+          <lb ed="#P" n="45"/>ctiam consequens erit, ut excellentiori modo
+          <lb ed="#P" n="46"/>illam afficiat quam ejus naturae debeatur.
+        </p>
+        <p xml:id="szduep-017627-d1e793">
+          <lb ed="#P" n="47"/>9. Hoc ergo supposito, facile probatur 
+          vi<lb break="no" ed="#P" n="48"/>sionem beatificam esse supernaturalem in 
+          sub<lb break="no" ed="#P" n="49"/>stantia, quia entitas illius actus talis est, ut a
+          <lb ed="#P" n="50"/>nullo intellectu creato operante per vires suae
+          <lb ed="#P" n="51"/>naturae fieri possit : quia si posset fieri, per 
+          il<lb break="no" ed="#P" n="52"/>lam entitatem videret quis Deum naturaliter.
+          <lb ed="#P" n="53"/>Item si entitas non est in se supernaturalis,
+          <lb ed="#P" n="54"/>unde habet quod sit supernaturalis ? Dices,
+          <lb ed="#P" n="55"/>habere ex modo supernaturali habito. Sed con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tra, ergo posset intellectus elicere talem 
+          enti<lb break="no" ed="#P" n="57"/>tatem sine illo modo; ergo per illam videret
+          <lb ed="#P" n="58"/>DEUN naturaliter, quia ille actus esset 
+          intel<lb break="no" ed="#P" n="59"/>lectio ; ergo vel esset ejusdem speciei cum 
+          vi<lb break="no" ed="#P" n="60"/>sione DEI, et sic constitueret videntem, vel 
+          es<lb break="no" ed="#P" n="61"/>set alterius speciei et sic non esset eadem
+          <lb ed="#P" n="62"/>entitas secundum substantiam. Denique 
+          inter<lb break="no" ed="#P" n="63"/>rogo quis sit ille modus, qui additur illi 
+          enti<lb break="no" ed="#P" n="64"/>tati, ut faciat videre DEUM, qui nullo modo
+          <lb ed="#P" n="65"/>explicari potest, nisi sit differentia specifica
+          <lb ed="#P" n="66"/>actus et hanc differentiam dicimus dare actui
+          <lb ed="#P" n="67"/>substantiam ejus.
+        </p>
+        <p xml:id="szduep-017627-d1e843">
+          <lb ed="#P" n="68"/>10. Posset autem aliquis dicere, unum et
+          <lb ed="#P" n="69"/>idem in substantia et entitate esse lumen fidei
+          <lb ed="#P" n="70"/>et glorias, quod tamen differt in modo 
+          clarita<lb break="no" ed="#P" n="71"/>tis vel obscuritatis, qui modi sunt accidentales
+          <lb ed="#P" n="72"/>illi entitati. Atque pari modo eumdem actum
+          <lb ed="#P" n="73"/>secundum substantiam, qui in via est obscurus
+          <lb ed="#P" n="74"/>et fidei, posse transire in visionem per 
+          adjec<lb break="no" ed="#P" n="75"/>tionem claritatis, quae sit accidentalis modus
+          <lb ed="#P" n="76"/>illius actus. Quod si huic dicendi modo quis 
+          ad<lb break="no" ed="#P" n="77"/>dat actum fidei in via esse naturalem quoad
+          <lb ed="#P" n="78"/>substantiam, intelligi poterit hoc modo, 
+          enti<lb break="no" ed="#P" n="79"/>tatem unionis esse naturalem et non constitui
+          <lb ed="#P" n="80"/>in esse visionis per specificam differentiam et
+          <lb ed="#P" n="81"/>essentialem, sed per accidentalem modum 
+          su<lb break="no" ed="#P" n="82"/>peradditum. ;
+        </p>
+        <p xml:id="szduep-017627-d1e878">
+          <lb ed="#P" n="83"/>11. Haec vero dicendi ratio imprimis 
+          suppo<lb break="no" ed="#P" n="84"/>nit unum falsum, scilicet actum fidei esse 
+          na<lb break="no" ed="#P" n="85"/>turalem in substantia ; imo inde potest 
+          retor<lb break="no" ed="#P" n="86"/>queri argumentum, quia juxta sanam 
+          doctri<lb break="no" ed="#P" n="87"/>nam actus theologicarum virtutum, qui sunt
+          <lb ed="#P" n="88"/>via ad illam visionem consequendam, sunt 
+          su<lb break="no" ed="#P" n="89"/>pernaturales quoad substantiam alias explicari
+          <lb ed="#P" n="90"/>non potest, quomodo sit gratia necessaria 
+          sim<lb break="no" ed="#P" n="91"/>pliciter ad singulos actus tales, ergo multo 
+          ma<lb break="no" ed="#P" n="92"/>gis visio. Deinde absurdissimum est dicere, 
+          fi<lb break="no" ed="#P" n="93"/>dem et visionem esse accidentales modos actus
+          <lb ed="#P" n="94"/>intelligendi, quia nulla major diversitas inter
+          <lb ed="#P" n="95"/>actus intellectus inveniri potest, cum unus
+          <lb ed="#P" n="96"/>nitatur auctoritate dicentis, alius evidentia 
+          ip<lb break="no" ed="#P" n="97"/>sius rei; unus repraesentet DEUM sicuti est, et
+          <lb ed="#P" n="98"/>sit quidditativa et intuitiva cognitio illius, alius
+          <lb ed="#P" n="99"/>vero minime, sed solum obscura quaedam 
+          cre<lb break="no" ed="#P" n="100"/>dulitas ex obedientia et affectione voluntatis.
+          <lb ed="#P" n="101"/>Ac praeterea si illae essent differentiae 
+          aeciden<lb break="no" ed="#P" n="102"/>tales, oporteret unam speciem substantialem
+          <lb ed="#P" n="103"/>actus illis subesse ; haec autem est 
+          inexplicabi<lb break="no" ed="#P" n="104"/>lis, ut latius in materia de gratia tractandum
+          <lb ed="#P" n="105"/>est. Dicendum ergo est, actum illum videndi
+          <lb ed="#P" n="106"/>DEUM ex vi suae differentiae specificae et 
+          es<lb break="no" ed="#P" n="107"/>sentialis esse visionem DEL; ergo sicuti non
+          <lb ed="#P" n="108"/>potest creatura per vires naturae videre DEUM,
+          <lb ed="#P" n="109"/>ita neque efficere illum actum secundum 
+          spe<lb break="no" ed="#P" n="110"/>ciem essentialem ejus ; ergo secundum illam
+          <pb ed="#P" n="73"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est supernaturalis, et hoc est esse supernaturale
+          <lb ed="#P" n="2"/>quoad substantiam. Neque contra hoc occurrit
+          <lb ed="#P" n="3"/>difficultas alicujus momenti ; quomodo enim
+          <lb ed="#P" n="4"/>actus sie supernaturalis possit elici ab 
+          intel<lb break="no" ed="#P" n="5"/>lectu, dicam infra.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

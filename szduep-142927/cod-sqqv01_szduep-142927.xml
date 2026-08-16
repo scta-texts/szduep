@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="564"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-142927"><!-- t3-l1c11 -->
+        <head xml:id="szduep-142927-Hd1e101">Caput 11</head>
+        <head xml:id="szduep-142927-Hd1e103" type="question-title">Non posse intellectum creatum sine divina revelatione trinitatem personarum in deo cognoscere</head>
+        <p xml:id="szduep-142927-d1e106">
+          <lb ed="#P" n="100"/>CAPUT XI.
+          <lb ed="#P" n="101"/>NON POSSE INTELLECTUM CREATUM SINE DIVINA 
+          RE<lb break="no" ed="#P" n="102"/>VELATIONE TRINITATEM PERSONARUM IN DEO 
+          COG<lb break="no" ed="#P" n="103"/>NOSCERE.
+        </p>
+        <p xml:id="szduep-142927-d1e117">
+          <lb ed="#P" n="104"/>1. Varii modi cognoscendi divina. — Cum in
+          <lb ed="#P" n="105"/>hoc libro investigaverimus, an sit in Deo 
+          per<lb break="no" ed="#P" n="106"/>sonarum pluralitas, et ostenderimus ex 
+          princi<lb break="no" ed="#P" n="107"/>piis fidei, et illam esse, et quanta sit, non abs re
+          <pb ed="#P" n="565"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in fine illius explicamus, quomodo possit 
+          in<lb break="no" ed="#P" n="2"/>tellectus humanus, vel in universum intellectus
+          <lb ed="#P" n="3"/>creatus tanti mysterii cognitionem assequi.
+          <lb ed="#P" n="4"/>Totum enim hoc spectat ad exactam 
+          explicatio<lb break="no" ed="#P" n="5"/>nem illius quaestionis, an sit in Deo Trinitas.
+          <lb ed="#P" n="6"/>Qua ratione, tractando de mysterio 
+          Incarnatio<lb break="no" ed="#P" n="7"/>nis, solet statim in principio similis quaestio
+          <lb ed="#P" n="8"/>tractari, de qua videri possunt, quae in 
+          princi<lb break="no" ed="#P" n="9"/>pio tertiae partis scripsimus, multa enim 
+          pos<lb break="no" ed="#P" n="10"/>sunt ad hunc locum accommodari. Quoniam
+          <lb ed="#P" n="11"/>vero aliqua cognoscuntur ab homine vel angelo
+          <lb ed="#P" n="12"/>per naturale lumen, absque revelatione divina,
+          <lb ed="#P" n="13"/>alia per Dei revelationem, ideo in hoc capite
+          <lb ed="#P" n="14"/>de priori modo cognoscendi, in sequenti de
+          <lb ed="#P" n="15"/>posteriori dicemus. Et quamvis Bernardus, l. 5,
+          <lb ed="#P" n="16"/>de Consideratione, cap. 3, tria membra 
+          distin<lb break="no" ed="#P" n="17"/>guat, dicens: Bes divinas, tribus modis posse
+          <lb ed="#P" n="18"/>a nobis cognosci, intellectu, fide et opinione:
+          <lb ed="#P" n="19"/>tamen haec tria in quolibet duorum 
+          membro<lb break="no" ed="#P" n="20"/>rum, quae nos distinximus, locum habent, 
+          i<lb break="no" ed="#P" n="21"/>laque veluti subdividunt. Nam sub intellectu
+          <lb ed="#P" n="22"/>comprehendit Bernardus omnem cognitionem
+          <lb ed="#P" n="23"/>evidentem , sub fide omnem cognitionem 
+          obs<lb break="no" ed="#P" n="24"/>curam in auctoritate fundatam, sive certa, sive
+          <lb ed="#P" n="25"/>de se incerta sit, sub opinione probabilem 
+          cog<lb break="no" ed="#P" n="26"/>nitionem cum formidine. Quibus tribus modis
+          <lb ed="#P" n="27"/>contingit, versari intellectum humanum circa
+          <lb ed="#P" n="28"/>res aliquas divinas, citra divinam revelationem
+          <lb ed="#P" n="29"/>nam queedam intellectus cognoscit, seu 
+          eviden<lb break="no" ed="#P" n="30"/>ter scire potest, ut Deum esse, et sapientem
+          <lb ed="#P" n="31"/>esse, alia vel ex traditione hominum credere,
+          <lb ed="#P" n="32"/>vel conjectura probabili assequi potest. Et circa
+          <lb ed="#P" n="33"/>ea quae revelata sunt, potest eisdem tribus 
+          mo<lb break="no" ed="#P" n="34"/>dis versari, vel per divinas revelationes, vel
+          <lb ed="#P" n="35"/>variis modis utendo revelatione divina, ut 
+          se<lb break="no" ed="#P" n="36"/>quenti capite explicabimus.
+        </p>
+        <p xml:id="szduep-142927-d1e211">
+          <lb ed="#P" n="37"/>2. Prima opinio.— Duae igitur extremae 
+          sen<lb break="no" ed="#P" n="38"/>tentiae hoc loco referri possunt. Una est, 
+          mys<lb break="no" ed="#P" n="39"/>terium hoc esse, non solum supra, sed etiam
+          <lb ed="#P" n="40"/>-contra rationem naturalem, quae solet tribui
+          <lb ed="#P" n="41"/>Holkot in 1, distinct. 3. Ubi revera non ita 
+          lo<lb break="no" ed="#P" n="42"/>quitur. Potest autem ita suaderi. Quia vel 
+          plu<lb break="no" ed="#P" n="43"/>res personae ita ponuntur in Deo, ut 
+          upaquae<lb break="no" ed="#P" n="44"/>que sit Deus, vel ita, ut sola una sit verus Deus.
+          <lb ed="#P" n="45"/>S1 hoc tantum posteriori modo agnoscantur,
+          <lb ed="#P" n="46"/>non est illud mysterium Trinitatis, de quo
+          <lb ed="#P" n="47"/>tractamus, et immerito dicuntur omnes illae
+          <lb ed="#P" n="48"/>personae esse in Deo, sed sola illa, quae verus
+          <lb ed="#P" n="49"/>Deus est. Si autem ponantur priori modo, 
+          ne<lb break="no" ed="#P" n="50"/>cessario involvendum est aliquid contra 
+          ratio<lb break="no" ed="#P" n="51"/>nem naturalem : ergo. Probatur minor, quia
+          <lb ed="#P" n="52"/>vel illae tres personae habent tres divinitates, et
+          <lb ed="#P" n="53"/>sic erunt tres dii, contra naturalem rationem,
+          <lb ed="#P" n="54"/>vel habent unam tantum Deitatem, et sic 
+          ne<lb break="no" ed="#P" n="55"/>cesse est, ut habeant tres personalitates in una
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>natura, quod non parum adversatur naturali
+          <lb ed="#P" n="57"/>rationi. Et praeterea inquiro ulterius, an iile
+          <lb ed="#P" n="58"/>personahtates sint res distinctae a Deirtate, et
+          <lb ed="#P" n="59"/>sic quaelibet persona Dei erit realiter composita
+          <lb ed="#P" n="60"/>ex personalitate et Deitate, quod est contra 
+          ra<lb break="no" ed="#P" n="61"/>tionem naturalem, vel personalitas et Deitas
+          <lb ed="#P" n="62"/>sunt indistinctae in re, et sic vel personae non
+          <lb ed="#P" n="63"/>erunt distinctae, et ita non erit vera Trinitas,
+          <lb ed="#P" n="64"/>vel personalitates ac personae erunt idem uni
+          <lb ed="#P" n="65"/>tertio, scilicet, Deitati, et non inter se, quod
+          <lb ed="#P" n="66"/>est contra principium evidens lumine naturae:
+          <lb ed="#P" n="67"/>Quee sunt eadem uni tertio, sunt idem inter se,
+          <lb ed="#P" n="68"/>ita ut non possint plus distingui, quam ab illo
+          <lb ed="#P" n="69"/>tertio distinguantur. Quod adeo apparet 
+          natu<lb break="no" ed="#P" n="70"/>rali lumine per se potum, ut humana ratio
+          <lb ed="#P" n="71"/>aliud non posse capere videatur.
+        </p>
+        <p xml:id="szduep-142927-d1e293">
+          <lb ed="#P" n="72"/>3. Secunda opinio.—Alia sententia extrem
+          <lb ed="#P" n="73"/>contraria erit asserentium, posse hoc 
+          myste<lb break="no" ed="#P" n="74"/>rium Trinitatis evidenti ratione demonstrari
+          <lb ed="#P" n="75"/>ab humano intellectu carente omni divina 
+          re<lb break="no" ed="#P" n="76"/>velatione. Solet haec sententia tribui Richardo
+          <lb ed="#P" n="77"/>de Sancto Vict., et Henrico, sedilli in aliosensu
+          <lb ed="#P" n="78"/>locuti sunt, ut capite sequenti ostendam. 
+          Vide<lb break="no" ed="#P" n="79"/>tur autem iilius sententiae fuisse RHaymundum
+          <lb ed="#P" n="80"/>Lullum, qui in suis opusculis saepe putat, se
+          <lb ed="#P" n="81"/>evidenter demonstrare hoc mysterium, et ita
+          <lb ed="#P" n="82"/>demonstrare: ut per illas demonstrationes 
+          Gen<lb break="no" ed="#P" n="83"/>tilis et Paganus convincendus sit, si ad eas 
+          ve<lb break="no" ed="#P" n="84"/>lit attendere, easque penetrare valeat. ita enim
+          <lb ed="#P" n="85"/>loquitur. Non explicat autem Raymundus, an
+          <lb ed="#P" n="86"/>intellectus humanus carens fide, et omni 
+          reve<lb break="no" ed="#P" n="87"/>latione divina possit invenire illas 
+          demonstra<lb break="no" ed="#P" n="88"/>tiones, aut ita illas penetrare, ut convincatur.
+          <lb ed="#P" n="89"/>Atfirmat vero (quod mirabile est) tam 
+          eviden<lb break="no" ed="#P" n="90"/>tem assensum generari de hoc mysterio per
+          <lb ed="#P" n="91"/>illas demonstrationes, ut assensum fidei circa
+          <lb ed="#P" n="92"/>illud excludat. Totum autem hoc solum probat
+          <lb ed="#P" n="93"/>Raymundus afferendo rationes, quas 
+          demons<lb break="no" ed="#P" n="94"/>trationes vocat. Summa vero et fundamentum
+          <lb ed="#P" n="95"/>omnium discursuum ejus est, quia in Deo est
+          <lb ed="#P" n="96"/>bonitas, ergo est actus bonificandi, ergo est
+          <lb ed="#P" n="97"/>bonificans (sic loquitur) et bonificatum seu 
+          bo<lb break="no" ed="#P" n="98"/>nificativum et bonificabile, ergo est concordia
+          <lb ed="#P" n="99"/>inter bonificatum et bonificabile in actu 
+          boni<lb break="no" ed="#P" n="100"/>ficandi, ergo est distinctio inter illa tria, quia
+          <lb ed="#P" n="101"/>concordia non est nisi inter distincta. Ergo illa
+          <lb ed="#P" n="102"/>tria sunt tres personae in Deo. Et inde procedit,
+          <lb ed="#P" n="103"/>inferendo illas tres personas necessario esse
+          <lb ed="#P" n="104"/>Patrem et Filium et amorem, quia hoc spectat
+          <lb ed="#P" n="105"/>ad summam perfectionem divinae bonitatis, ut
+          <lb ed="#P" n="106"/>late prosequitur Vasquez, 1 part., disput. 133,
+          <lb ed="#P" n="107"/>apud quem haec legi, libros enim hujus 
+          aucto<lb break="no" ed="#P" n="108"/>ris videre non valut.
+        </p>
+        <p xml:id="szduep-142927-d1e376">
+          <lb ed="#P" n="109"/>4. Scoti opinio. — Ultimo potest hoc loco
+          <lb ed="#P" n="110"/>referri quaedam sententia Scoti 4, distinct. 49,
+          <pb ed="#P" n="566"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quaest. 11, ubi saltem in angelo admittit, dari
+          <lb ed="#P" n="2"/>posse evidentem cognitionem simplicem 
+          Tri<lb break="no" ed="#P" n="3"/>nitatis, per actum mere naturalem, si velit
+          <lb ed="#P" n="4"/>Deus speciem intelligibilem proportionatam
+          <lb ed="#P" n="5"/>illi donare. Quam speciem solum in hoc asserit
+          <lb ed="#P" n="6"/>esse supra naturam, quod non necessario 
+          con<lb break="no" ed="#P" n="7"/>venit angelo, nec potest illam ab objecto 
+          su<lb break="no" ed="#P" n="8"/>mere, sed Deus libere illam donat, si eam dare
+          <lb ed="#P" n="9"/>vult: tamen ipsa in se naturals est, et 
+          propor<lb break="no" ed="#P" n="10"/>tionata naturah activitati intellectus angelici, et
+          <lb ed="#P" n="11"/>solum ad actum naturalem datur. Voco autem
+          <lb ed="#P" n="12"/>illum actum cognitionem simplicem non 
+          so<lb break="no" ed="#P" n="13"/>lum, quia est sine discursu more angelico,
+          <lb ed="#P" n="14"/>sed etiam, quia non est per medium, id est,
+          <lb ed="#P" n="15"/>per causam, vel effectum, aut testimonium, 
+          <lb ed="#P" n="16"/>sed per immediatam repraesentationem 
+          mys<lb break="no" ed="#P" n="17"/>terii in se. Unde, licet in aliis cognitionibus
+          <lb ed="#P" n="18"/>non putet Scotus repugnare, quod angelus 
+          co<lb break="no" ed="#P" n="19"/>gnoscat per discursum, in hac cognitione non
+          <lb ed="#P" n="20"/>ponit illum , nec formalem, nec virtualem :
+          <lb ed="#P" n="21"/>sentit enim nullum esse posse suflicientem :
+          <lb ed="#P" n="22"/>tamen péer simplicem repraesentationem rei in
+          <lb ed="#P" n="23"/>se non putat repugnare. Duo autem in hac
+          <lb ed="#P" n="24"/>sententia continentur. Unum est, quod talis
+          <lb ed="#P" n="25"/>species intelligibilis sit possibilis. Aliud est,
+          <lb ed="#P" n="26"/>quod naturalis virtus intellectiva angeli ad
+          <lb ed="#P" n="27"/>usum illius speciei sufficiat. Primum horum
+          <lb ed="#P" n="28"/>solum probatur, quia talis notitia Dei non 
+          re<lb break="no" ed="#P" n="29"/>pugnat, ergo nec species, quae sit principium
+          <lb ed="#P" n="30"/>illius. Antecedens probatur, quia nulla ostendi
+          <lb ed="#P" n="31"/>potest contradictio, et quia potest dari 
+          perfec<lb break="no" ed="#P" n="32"/>tior notitia Dei, ergo et haec minus perfecta.
+          <lb ed="#P" n="33"/>Secundum autem supponit Scotus, ut clarum,
+          <lb ed="#P" n="34"/>quia non est, cur actus proportionatus ilh 
+          spe<lb break="no" ed="#P" n="35"/>ciei sit improportionatus naturali lumini 
+          an<lb break="no" ed="#P" n="36"/>gelico. Dicere tamen posset Scotus, illam 
+          co<lb break="no" ed="#P" n="37"/>enitionem angelicam non esse sine 
+          revela<lb break="no" ed="#P" n="38"/>tione, quia infusio talis speciei esset quaedam
+          <lb ed="#P" n="39"/>revelatio : an vero hoc recte, et consequenter
+          <lb ed="#P" n="40"/>dicatur, statim videbimus.
+        </p>
+        <p xml:id="szduep-142927-d1e474">
+          <lb ed="#P" n="41"/>5. Prima assertio. — Dico ergo primo. 
+          Se<lb break="no" ed="#P" n="42"/>clusa omni revelatione divina, impossibile est
+          <lb ed="#P" n="43"/>per evidentem demonstrationem cognoscere,
+          <lb ed="#P" n="44"/>in Deo esse plures personas. Ita docent 
+          theo<lb break="no" ed="#P" n="45"/>logi omnes cum D. Thoma, 1 part., quaest. 32,
+          <lb ed="#P" n="46"/>art. 1. Et videtur certum in fide, quia in 
+          Scrip<lb break="no" ed="#P" n="47"/>tura hoc mysterium proponitur, tanquam 
+          om<lb break="no" ed="#P" n="48"/>nino abditum, quod sola divina revelatione 
+          co<lb break="no" ed="#P" n="49"/>gnosci potuerit, juxta illud Joan. 1: Deum 
+          ne<lb break="no" ed="#P" n="50"/>ano vidit unquam , unigenitus, qui est in sinu
+          <lb ed="#P" n="51"/>Patris , ipse enarravit. Et Matthaei , 11 cap.:
+          <lb ed="#P" n="52"/>Nemo novit Filium, nisi Pater, neque Patrem
+          <lb ed="#P" n="53"/>quis novit, nisi Filius, et cui voluerit Filius
+          <lb ed="#P" n="54"/>revelare, et cap. 16. Caro, et sanguis non 
+          reve<lb break="no" ed="#P" n="55"/>lavit tibi, sed Pater meus qui in callis est. Fa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cit etiam illud, quod D. Thomas affert ex
+          <lb ed="#P" n="57"/>Paulo ad Hebraeos 11. Fidem esse argumentum 
+          <lb ed="#P" n="58"/>non apparentiuwn, quia maxime hoc locum 
+          ha<lb break="no" ed="#P" n="59"/>bet in supremo mysterio fidei, quod est 
+          Trini<lb break="no" ed="#P" n="60"/>tatis. Potestque a fortiori sumi argumentum 
+          <lb ed="#P" n="61"/>ex mysterio Incarnationis, quod Paulus saepe
+          <lb ed="#P" n="62"/>vocat absconditum, de quo suo loco ostenditur
+          <lb ed="#P" n="63"/>non posse probari rationibus naturalibus, 
+          e<lb break="no" ed="#P" n="64"/>tiam quod possibile sit : ergo multo minus
+          <lb ed="#P" n="65"/>poterit probari Trinitas personarum in divina 
+          <lb ed="#P" n="66"/>natura. Deinde veritatem hanc docent, et
+          <lb ed="#P" n="67"/>exaggerant Patres omnes scribentes de hoc
+          <lb ed="#P" n="68"/>mysterio, et praecipue Dionysius, cap. 2, et
+          <lb ed="#P" n="69"/>ultimo de divin. Nom., et Justinus martyr in
+          <lb ed="#P" n="70"/>expositione Fidei, et p. Athanasius, in Epist.
+          <lb ed="#P" n="71"/>ad Serapionem Episcopum.
+        </p>
+        <p xml:id="szduep-142927-d1e546">
+          <lb ed="#P" n="72"/>6. Ratio assertionis. — Tandem probatur
+          <lb ed="#P" n="73"/>ratione, quia nullum est medium natural 
+          lu<lb break="no" ed="#P" n="74"/>mine cognoscibile, quod hanc veritatem 
+          osten<lb break="no" ed="#P" n="75"/>dat, omne enim medium demonstrationis
+          <lb ed="#P" n="76"/>est causa vel effectus, quia omnis 
+          demonstra<lb break="no" ed="#P" n="77"/>tio, quae ex rebus ipsis sumitur absque 
+          testi<lb break="no" ed="#P" n="78"/>monio, vel revelatione, est vel a priori, et per
+          <lb ed="#P" n="79"/>causam, quam vocant propter quid, vel a 
+          pos<lb break="no" ed="#P" n="80"/>teriori et per effectum, quam vocant quia, ad
+          <lb ed="#P" n="81"/>quam reducitur demonstratio ad impossibile.
+          <lb ed="#P" n="82"/>At in praesenti tale medium non potest esse
+          <lb ed="#P" n="83"/>causa, quia Pater aeternus, verbi gratia, 
+          nul<lb break="no" ed="#P" n="84"/>lam habet causam, ut Pater sit, et 
+          consequen<lb break="no" ed="#P" n="85"/>ter, nec Filius habet causam, neque aliud 
+          prin<lb break="no" ed="#P" n="86"/>cipium praeter Patrem, et simile est de Spiritu
+          <lb ed="#P" n="87"/>sancto cum proportione, ergo hic non habet
+          <lb ed="#P" n="88"/>locum demonstratio per causam. Nec vero per
+          <lb ed="#P" n="89"/>effectum, quia omnec effectus creati procedunt
+          <lb ed="#P" n="90"/>a Deo, ut unus est, et Trinitas personarum
+          <lb ed="#P" n="91"/>non est per se requisita ad operationes Dei ad
+          <lb ed="#P" n="92"/>extra, ut latius traditur in materia de 
+          crea<lb break="no" ed="#P" n="93"/>tione, et specialhter contra Henricum , quodl.
+          <lb ed="#P" n="94"/>6, quaest. 2, ostendit bene Scotus in 2, diet. 1,
+          <lb ed="#P" n="95"/>quaest. 1, ergo nulla esse potest talis 
+          demons<lb break="no" ed="#P" n="96"/>tratio. Quod si in aliquibus effectibus hoc 
+          po<lb break="no" ed="#P" n="97"/>test habere difficultatem , illi supernaturales
+          <lb ed="#P" n="98"/>sunt, et cognosci non possunt absque 
+          revela<lb break="no" ed="#P" n="99"/>tione divina, et ideo ad sequens caput 
+          per<lb break="no" ed="#P" n="100"/>tinent.
+        </p>
+        <p xml:id="szduep-142927-d1e611">
+          <lb ed="#P" n="101"/>7. Expenditur discursus Raymundi. — At
+          <lb ed="#P" n="102"/>vero Haymundus, ut hanc effugeret 
+          demons<lb break="no" ed="#P" n="103"/>trationem, novum demonstrandi genus 
+          inve<lb break="no" ed="#P" n="104"/>nit, quod vocat aequiparantiae , seu ab 
+          aequa<lb break="no" ed="#P" n="105"/>libus. Sed nec ipse satis declarat, quod sit 
+          me<lb break="no" ed="#P" n="106"/>dium talis demonstrationis, nec ex illis verbis
+          <lb ed="#P" n="107"/>aliud intelligi potest, nisi quod sit, vel 
+          exem<lb break="no" ed="#P" n="108"/>plum aliquod, vel principium aliquod 
+          univer<lb break="no" ed="#P" n="109"/>sale, applicatum ad Deuni per aliquam 
+          aequi<lb break="no" ed="#P" n="110"/>parationem, vel excellentiam. At nibil horum
+          <pb ed="#P" n="567"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>solet ad demonstrationem sufficere, nisi sit
+          <lb ed="#P" n="2"/>tanta similitudo inter ea, quae aequiparantur ,
+          <lb ed="#P" n="3"/>ut sit per convenientiam univocam in eadem
+          <lb ed="#P" n="4"/>ratione formali, et ita sufficiat ad faciendam
+          <lb ed="#P" n="5"/>evidentem inductionem, vel aequiparationem,
+          <lb ed="#P" n="6"/>vel certe, si principium sumptum ex creaturis
+          <lb ed="#P" n="7"/>applicatur ad Deum, necesse est, ut et in 
+          crea<lb break="no" ed="#P" n="8"/>turis sit evidens, et applicatio etiam ad Deum
+          <lb ed="#P" n="9"/>fiat cum evidenti illatione, quae necessario erit,
+          <lb ed="#P" n="10"/>vel a priori evidenter ostendendo in pertinere
+          <lb ed="#P" n="11"/>ad perfectionem Dei, vel deducendo ad 
+          impos<lb break="no" ed="#P" n="12"/>sibile, verbi gratia, quod inde sequatur aliqua
+          <lb ed="#P" n="13"/>imperfectio in Deo, seu minor perfectio, quam
+          <lb ed="#P" n="14"/>illi sit debita. Omnes autem hi modi 
+          ratioci<lb break="no" ed="#P" n="15"/>nandi sunt per causam, vel per effectum, ut
+          <lb ed="#P" n="16"/>constat , et nullus eorum habet in locum.
+          <lb ed="#P" n="17"/>Quia ex creaturis , quae per rationem 
+          na<lb break="no" ed="#P" n="18"/>turalem cognosci possunt, nullum exemplum,
+          <lb ed="#P" n="19"/>nullave comparatio ad hoc mysterium fieri
+          <lb ed="#P" n="20"/>potest, quae non in pluribus deficiat , et 
+          dissi<lb break="no" ed="#P" n="21"/>militudinem potius habeat quam 
+          similitudi<lb break="no" ed="#P" n="22"/>nem. Nec etiam potest ex creaturis sumi 
+          prin<lb break="no" ed="#P" n="23"/>cipium evidens, quod applicatum ad Deum,
+          <lb ed="#P" n="24"/>hoc mysterium ostendat, quia vel non erit
+          <lb ed="#P" n="25"/>evidens, posse tale principium accommodari ad
+          <lb ed="#P" n="26"/>Deum sine imperfectione, vel semper 
+          suppo<lb break="no" ed="#P" n="27"/>net aliquid esse in Deo, quod solum sit 
+          credi<lb break="no" ed="#P" n="28"/>tum, et non demonstratum.
+        </p>
+        <p xml:id="szduep-142927-d1e700">
+          <lb ed="#P" n="29"/>8. Hujus veritatis nonnulla exempla 
+          affere<lb break="no" ed="#P" n="30"/>mus capite sequenti : nunc illud ipsum, quod
+          <lb ed="#P" n="31"/>Raymundus nobis praebet, sufficiet. Ipse enim,
+          <lb ed="#P" n="32"/>qui has suas demonstrationes adeo exaggerat,
+          <lb ed="#P" n="33"/>nihil omnino concludit , nisi aliquid creditum
+          <lb ed="#P" n="34"/>supponat. Cum enim ex bonitate Dei infert,
+          <lb ed="#P" n="35"/>esse in Deo actum baonificandi:; vel per actum
+          <lb ed="#P" n="36"/>intelligit actionem realem , et 
+          communicatio<lb break="no" ed="#P" n="37"/>nem propriae perfectionis per veram 
+          produc<lb break="no" ed="#P" n="38"/>tionem, et quasi actionem, vel intelligit solum
+          <lb ed="#P" n="39"/>actum formalem, sicut vivificare est actus 
+          ani<lb break="no" ed="#P" n="40"/>mae ; albificare (ut sic dicam) actus albedinis.
+          <lb ed="#P" n="41"/>Si hoc tantum posteriori sensu loquatur, 
+          evi<lb break="no" ed="#P" n="42"/>dens quidem est, bonitatem Dei habere actum
+          <lb ed="#P" n="43"/>bonificandi, sed hinc nihil concludit, quia ille
+          <lb ed="#P" n="44"/>actus non requirit distinctionem ullam ex 
+          na<lb break="no" ed="#P" n="45"/>tura rei inter bonificatum et bonificantem,
+          <lb ed="#P" n="46"/>quia ille actus bonitatis per essentiam non est
+          <lb ed="#P" n="47"/>per inhaerentiam , aut informationem 
+          imper<lb break="no" ed="#P" n="48"/>fectam , sed est per simplicissimam 
+          actualita<lb break="no" ed="#P" n="49"/>tem, et solum se habet ad modum formae 
+          nos<lb break="no" ed="#P" n="50"/>tro modo concipiendi. Unde bonitas Dei 
+          essen<lb break="no" ed="#P" n="51"/>talis, et bonificat (ut suo more loquamur) 
+          Pa<lb break="no" ed="#P" n="52"/>trem, et bunc Deum, prout abstrahit a 
+          perso<lb break="no" ed="#P" n="53"/>nis. Quocirca, loquendo hoc sensu de actu 
+          bo<lb break="no" ed="#P" n="54"/>nificandi, vel non est concordia propria in 
+          di<lb break="no" ed="#P" n="55"/>vina bonitate, nec inter bonificaüvum, ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bonificabile, sed identitas, Vel si appelletur
+          <lb ed="#P" n="57"/>concordia, non est talis, quae requirat 
+          distinc<lb break="no" ed="#P" n="58"/>tionem realem, sed rationis. Nam concordia
+          <lb ed="#P" n="59"/>proprie dicitur in affectu, vel voluntate 
+          plu<lb break="no" ed="#P" n="60"/>rium, et ideo requirit distinctionem, imo si in
+          <lb ed="#P" n="61"/>rigore sumatur, non tam in personis, quam in
+          <lb ed="#P" n="62"/>voluntatibus requirit distinctionem cum 
+          con<lb break="no" ed="#P" n="63"/>venientia in affectibus. Unde inter Filium, ut
+          <lb ed="#P" n="64"/>Deum , et Patrem aeternum non tam est 
+          con<lb break="no" ed="#P" n="65"/>cordia, quam unitas voluntatis : inter Filium
+          <lb ed="#P" n="66"/>autem, ut hominem, et Patrem est propria
+          <lb ed="#P" n="67"/>concordia, imo in eodem Filio homine Deo, est
+          <lb ed="#P" n="68"/>concordia secundum plures voluntates plurium
+          <lb ed="#P" n="69"/>naturarum. At hoc modo non est concordia in
+          <lb ed="#P" n="70"/>divina bonitate inter bonificativum, et 
+          bonifi<lb break="no" ed="#P" n="71"/>cabile, quia nec bonificat per voluntatem, sed
+          <lb ed="#P" n="72"/>per se ipsum, quasi formaliter, nec ibi est
+          <lb ed="#P" n="73"/>aliud bonificans quam ipsa bonitas, nec aliud
+          <lb ed="#P" n="74"/>bonificabile, quam hic Deus, inter quem , et
+          <lb ed="#P" n="75"/>suam bonitatem non est concordia , sed 
+          iden<lb break="no" ed="#P" n="76"/>titas. Quod si latius sumatur concordia pro
+          <lb ed="#P" n="77"/>quacumque convenienti proportione, vel 
+          uni<lb break="no" ed="#P" n="78"/>tate, talis concordia non requirit 
+          distinctio<lb break="no" ed="#P" n="79"/>nem rei, sed rationis, sicque Deus habet
+          <lb ed="#P" n="80"/>summam proportionem cum sua bonitate ,
+          <lb ed="#P" n="81"/>cum summa simphcitate.
+        </p>
+        <p xml:id="szduep-142927-d1e821">
+          <lb ed="#P" n="82"/>9. At, si Raymundus loquitur de actu 
+          boni<lb break="no" ed="#P" n="83"/>ficandi per veram ac realem productionem
+          <lb ed="#P" n="84"/>alicujus petsonae, cui summa illa bonitas 
+          com<lb break="no" ed="#P" n="85"/>municatur, sic non est evidens, nec ratione
+          <lb ed="#P" n="86"/>ulla ostendi potest in divina bonitate esse 
+          ac<lb break="no" ed="#P" n="87"/>tum bonificandi ad intra, et ita cessat 
+          discur<lb break="no" ed="#P" n="88"/>sus, qui in illo principio fundatur, quod ipse
+          <lb ed="#P" n="89"/>sine ulla probaticne assumit. Et praeterea, dato
+          <lb ed="#P" n="90"/>etiam hoc principio in illo sensu, non colligitur
+          <lb ed="#P" n="91"/>inde Trinitas, sed ad summum dualitas 
+          perso<lb break="no" ed="#P" n="92"/>narum, scilicet, persona bonificans 
+          communi<lb break="no" ed="#P" n="93"/>cans alteri suam bonitatem, et persona 
+          bonifi<lb break="no" ed="#P" n="94"/>cata, id est, cui bonitas communicatur, nam
+          <lb ed="#P" n="95"/>bonitas a neutra distinguitur, et actus 
+          commu<lb break="no" ed="#P" n="96"/>nicandi illam non est persona, sed origo, quae
+          <lb ed="#P" n="97"/>a producente et producta non distinguitur, ut
+          <lb ed="#P" n="98"/>in superiori capite satis ostensum est.
+        </p>
+        <p xml:id="szduep-142927-d1e860">
+          <lb ed="#P" n="99"/>10. Secunda assertio. — Dico secundo, 
+          abs<lb break="no" ed="#P" n="100"/>que revelatione divina non solum demonstrari
+          <lb ed="#P" n="101"/>non potest Trinitatis mysterium, verum nec
+          <lb ed="#P" n="102"/>cogitari potest tanquam possibile, cum aliquo
+          <lb ed="#P" n="103"/>assensu probabili vel opinativo aut 
+          formido<lb break="no" ed="#P" n="104"/>loso. Hanc etiam assertionem videntur 
+          suppo<lb break="no" ed="#P" n="105"/>nere theologi omnes, nam qui admittunt 
+          ali<lb break="no" ed="#P" n="106"/>quam probabilitatem hujus mysterii per 
+          natu<lb break="no" ed="#P" n="107"/>ralem discursum, loquuntur supposita aliqua
+          <lb ed="#P" n="108"/>revelatione, ut videbimus capite sequenti. 
+          Ra<lb break="no" ed="#P" n="109"/>tio autem est, quia nullum est in natura 
+          prin<lb break="no" ed="#P" n="110"/>cipium, ex quo possimus in tanti mysterii sus-
+          <pb ed="#P" n="568"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>picionem, nedum probabilem assensionem 
+          per<lb break="no" ed="#P" n="2"/>venire. Explicaturque optime ex fundamento
+          <lb ed="#P" n="3"/>primae sententiae, licet illud non probet hoc
+          <lb ed="#P" n="4"/>mysterium esse contra rationem naturalem, ut
+          <lb ed="#P" n="5"/>nunc videbimus ; ostendit tamen, quantum sit
+          <lb ed="#P" n="6"/>supra omnem rationem naturalem, ut proinde
+          <lb ed="#P" n="7"/>attingi nullo modo per illam valeat.
+        </p>
+        <p xml:id="szduep-142927-d1e908">
+          <lb ed="#P" n="8"/>11. Atque hinc colligitur primo, cum duplex
+          <lb ed="#P" n="9"/>actus in nostra cogitatione distingui soleat, 
+          in<lb break="no" ed="#P" n="10"/>quisitio et assensio seu apprehensiva cognitio
+          <lb ed="#P" n="11"/>et judicativa, maxime procedere rationes 
+          fac<lb break="no" ed="#P" n="12"/>tas de assensione et judicio, sive claro, sive
+          <lb ed="#P" n="13"/>obscuro, sive certo, sive formidoloso, quia 
+          nul<lb break="no" ed="#P" n="14"/>lum est medium, quo tale judicium concipi
+          <lb ed="#P" n="15"/>possit per solam rationem naturalem, seclusa
+          <lb ed="#P" n="16"/>omni revelatione, tam immediata quam 
+          me<lb break="no" ed="#P" n="17"/>diata, id est, tam ipsi assentienti quam alteri
+          <lb ed="#P" n="18"/>immediate facta, nam si alterutro ex his modis
+          <lb ed="#P" n="19"/>intercedat revelatio, erit alia ratio, ut inferius
+          <lb ed="#P" n="20"/>dicam. At vero de inquisitione, vel 
+          apprehen<lb break="no" ed="#P" n="21"/>sione non estres adeo clara: crediderim tamen,
+          <lb ed="#P" n="22"/>seclusa revelatione, nunquam potuisse hoc 
+          mys<lb break="no" ed="#P" n="23"/>terium ascendere in cor hominis, non solum ad
+          <lb ed="#P" n="24"/>apprehendendum illud, ut possibile, verum 
+          e<lb break="no" ed="#P" n="25"/>tiam nec ad revocandum id in dubium aut ad 
+          in<lb break="no" ed="#P" n="26"/>vestigandum vel inquirendum, an fortasse 
+          pos<lb break="no" ed="#P" n="27"/>sibile, aut verum sit. Quia vel nullum est 
+          natu<lb break="no" ed="#P" n="28"/>rale objectum, quod talem cognitionem vel 
+          in<lb break="no" ed="#P" n="29"/>quisitionem in homine excitare possit, vel certe
+          <lb ed="#P" n="30"/>si dubitare inciperet de pluralitate personarum,
+          <lb ed="#P" n="31"/>statim crederet perinde id esse ac cogitare de
+          <lb ed="#P" n="32"/>pluralitate Deorum, vel e converso, si certus
+          <lb ed="#P" n="33"/>existeret de unitate Dei, nunquam dubitaret de
+          <lb ed="#P" n="34"/>pluralitate personarum. Conjunctio ergo 
+          plu<lb break="no" ed="#P" n="35"/>ralitatis personarum cum unitate Dei, in qua
+          <lb ed="#P" n="36"/>posita est altitudo mysterii, statim appareret
+          <lb ed="#P" n="37"/>per se impossibilis intellectui destituto 
+          revela<lb break="no" ed="#P" n="38"/>tione divina, ideoque nullam circa contrariam
+          <lb ed="#P" n="39"/>veritatem inquisitionem admitteret.
+        </p>
+        <p xml:id="szduep-142927-d1e980">
+          <lb ed="#P" n="40"/>12. Philosophi an Trinitatem agnoverint.—
+          <lb ed="#P" n="41"/>Hic vero objici potest, quia multi 
+          philosophian<lb break="no" ed="#P" n="42"/>tiqui mentio fecerunt hujus myterii, illud 
+          asse<lb break="no" ed="#P" n="43"/>verantes. Ita refert Eusebius Caesariensis, lib. 11,
+          <lb ed="#P" n="44"/>de praeparatione Evangelii , cap. 10, ubi ex
+          <lb ed="#P" n="45"/>Platone in Epimenide refert esse in Deo 
+          divi<lb break="no" ed="#P" n="46"/>nissimum Verbum, per quod omnia fecit et
+          <lb ed="#P" n="47"/>ordipavit. Praeterea Augustinus 7, 
+          confessio<lb break="no" ed="#P" n="48"/>num, cap. 9, dicit se legisse apud Platonicos
+          <lb ed="#P" n="49"/>principium Evangeli Joannis. Et Plotinus
+          <lb ed="#P" n="50"/>scripsit librum de tribus hypostasibus, a 
+          qui<lb break="no" ed="#P" n="51"/>bus omnia principium habent, in quo ex 
+          Pla<lb break="no" ed="#P" n="52"/>tone et aliis multa refert, quae etiam attigit
+          <lb ed="#P" n="53"/>Clemens Alexandrinus. Et ejus Scholiastes ,
+          <lb ed="#P" n="54"/>lib. 5, Stromatum, non longe a fine, et 
+          Justi<lb break="no" ed="#P" n="55"/>nus Martyr, in expositione fidei, et Apologia se-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cunda pro Christianis, circa finem. Item Cyrillus 
+          <lb ed="#P" n="57"/>Alexandrinus, lib. 1 et 2, contra Julianum. Et l
+          <lb ed="#P" n="58"/>alia multa refert Eugubinus, 1.5 et2, de perenni [
+          <lb ed="#P" n="59"/>philosophia. Respondetur imprimis hos philo- [
+          <lb ed="#P" n="60"/>sophos nullas rationes afferre, quibus hoc 
+          dic<lb break="no" ed="#P" n="61"/>tum confirment, sed de his substantis, seu
+          <lb ed="#P" n="62"/>personis loqui ex aliqua traditione, aut fide l
+          <lb ed="#P" n="63"/>humana, quae orta aliquo modo est ex 
+          revela<lb break="no" ed="#P" n="64"/>tione divina, saltem remote. Unde Aristoteles,
+          <lb ed="#P" n="65"/>quamvvis discipulus fuerit Platonis, quia sola
+          <lb ed="#P" n="66"/>ratione philosophica procedebat, nullam hujus
+          <lb ed="#P" n="67"/>rei mentionem fecit. Hinc respondent Patres
+          <lb ed="#P" n="68"/>citati, hos Graecos philosophos cum Hebraeis
+          <lb ed="#P" n="69"/>conversatos fuisse, et forsan etiam legisse ah- f
+          <lb ed="#P" n="70"/>quos libros veteris Testamenti, et ex illis 
+          noti<lb break="no" ed="#P" n="71"/>tiam aliquam confusam hujus mysteri 
+          acce<lb break="no" ed="#P" n="72"/>pisse. Ita Eusebius, Justinus, Cyrillus supra, I
+          <lb ed="#P" n="73"/>et D. Augustinus 2, libro de doctrina 
+          Christia<lb break="no" ed="#P" n="74"/>na, cap. 28, et lib. 18, de Civitate, cap. 37, et
+          <lb ed="#P" n="75"/>Theodoretus in libris adversus Graecos. 
+          Deni<lb break="no" ed="#P" n="76"/>que hinc factum est, ut si philosophi non recte
+          <lb ed="#P" n="77"/>et sine errore hoc mysterium conceperint, et 
+          <lb ed="#P" n="78"/>de illo locuti fuerint, nam aperte facimunt
+          <lb ed="#P" n="79"/>personas inaequales, quia naturali discursui 
+          il<lb break="no" ed="#P" n="80"/>Iud accommodabant. Quod aliqui fortasse recte
+          <lb ed="#P" n="81"/>senserunt, divinam revelationem et Spiritus
+          <lb ed="#P" n="82"/>sancti adjutorium habuisse credendum est, ut
+          <lb ed="#P" n="83"/>de Sibyllis sentiunt Clemens 6, Stromatum,
+          <lb ed="#P" n="84"/>Lactantius 4, divinarum Institutionum, cap. 6,
+          <lb ed="#P" n="85"/>Augustinus 18, de Civitate, cap. 23.
+        </p>
+        <p xml:id="szduep-142927-d1e1084">
+          <lb ed="#P" n="86"/>13. Addo denique has assertiones, prout a
+          <lb ed="#P" n="87"/>nobis explicatae sunt, non minus in angelis,
+          <lb ed="#P" n="88"/>quam in hominibus locum habere, loquendo
+          <lb ed="#P" n="89"/>de cognitione, quae sit per aliquod medium 
+          <lb ed="#P" n="90"/>cognitum, seu in illo nititur, sive per 
+          discur<lb break="no" ed="#P" n="91"/>sum, sive absque discursu fiat. Quia etiam 
+          an<lb break="no" ed="#P" n="92"/>geli non cognoscunt hoc modo Deum, nisi ex
+          <lb ed="#P" n="93"/>effectibus, nec possunt naturaliter cognoscere
+          <lb ed="#P" n="94"/>aliquem effectum Dei, qui per se requirat 
+          Tri<lb break="no" ed="#P" n="95"/>nitatem personarum in unitate essentiae. Item
+          <lb ed="#P" n="96"/>non possunt naturaliter cogitare rem unam
+          <lb ed="#P" n="97"/>esse tres res, vel realem dictinctionem veram,
+          <lb ed="#P" n="98"/>et propriam simul stare posse cum identitate
+          <lb ed="#P" n="99"/>in una simplicissima re absque ulla distinctione
+          <lb ed="#P" n="100"/>ab illa, vel compositione cum iia. Denique,
+          <lb ed="#P" n="101"/>quo angelus perfectius cognoscit 
+          personalta<lb break="no" ed="#P" n="102"/>tem creatam, eo magis crederet ductus lumine
+          <lb ed="#P" n="103"/>suo naturali, non posse dari personalitatem,
+          <lb ed="#P" n="104"/>nisi absolutam, et quia hoc in naturalibus 
+          ve<lb break="no" ed="#P" n="105"/>rum est, et angelo evidens, crederet certe 
+          e<lb break="no" ed="#P" n="106"/>tiam, in Deo non esse personalitatem, nisi 
+          ab<lb break="no" ed="#P" n="107"/>solutam, quia dum non videret Deum, non
+          <lb ed="#P" n="108"/>posset concipere personam Dei, nisi ad modum
+          <lb ed="#P" n="109"/>suum. Imo fortasse naturaliter putaret, esse
+          <lb ed="#P" n="110"/>impossibile dari personalitatem relativam, quia
+          <pb ed="#P" n="569"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ratio subsistendi tota videtur esse ad se, et 
+          re<lb break="no" ed="#P" n="2"/>latio quatenus naturaliter concipi, aut inveniri
+          <lb ed="#P" n="3"/>peotest, solum est quid resultans ex absolutis,
+          <lb ed="#P" n="4"/>supponitque illa in se prius existentia, quam
+          <lb ed="#P" n="5"/>alia respiciant. De angelis ergo, quatenus
+          <lb ed="#P" n="6"/>utuntur medio cognito, eadem prorsus est
+          <lb ed="#P" n="7"/>ratio.
+        </p>
+        <p xml:id="szduep-142927-d1e1160">
+          <lb ed="#P" n="8"/>14. Tertia assertio.— Propter Scotum vero
+          <lb ed="#P" n="9"/>addo et dico tertio, fieri non posse, ut 
+          ange<lb break="no" ed="#P" n="10"/>Ilus, vel intellectus creatus virtute naturali 
+          co<lb break="no" ed="#P" n="11"/>gnoscat hoc mysterium directe, et immediate
+          <lb ed="#P" n="12"/>in se ipso per medium incognitum, id est, per
+          <lb ed="#P" n="13"/>speciem intelligibilem, quae immediate 
+          reprae<lb break="no" ed="#P" n="14"/>sentet objectum, efficiendo directam 
+          cognitio<lb break="no" ed="#P" n="15"/>nem ejus in se, etiamsi ipsa species in se non
+          <lb ed="#P" n="16"/>cognoscatur. Probatur, supponendo primo non
+          <lb ed="#P" n="17"/>posse angelum naturaliter intueri Deum, prout
+          <lb ed="#P" n="18"/>test in se, quod in 1 parte, q. 12, et in 1, 2,
+          <lb ed="#P" n="19"/>q. 3, demonstrari solet, et nos in 1 tom., 3 p.,
+          <lb ed="#P" n="20"/>ad q. 10, D. Thomae breviter attigimus.
+        </p>
+        <p xml:id="szduep-142927-d1e1192">
+          <lb ed="#P" n="21"/>15. Suppono secundo, nullam speciem 
+          crea<lb break="no" ed="#P" n="22"/>tam posse directe ducere in cognitionem 
+          Trini<lb break="no" ed="#P" n="23"/>tatis, nisi evidenter et clare repraesentet Deum,
+          <lb ed="#P" n="24"/>i prout est in se. Probatur, quia illa cognitio non
+          <lb ed="#P" n="25"/>nititur aliquo medio cognito extra Deum, ut
+          <lb ed="#P" n="26"/>jam declaratum est, ergo non potest esse 
+          obs<lb break="no" ed="#P" n="27"/>ceura, aut probabilis tantum, vel per ahenos
+          <lb ed="#P" n="28"/>conceptus, quia omnes hae cognitiones 
+          imper<lb break="no" ed="#P" n="29"/>fecte nituntur in aliquibus mediis extrinsecis,
+          <lb ed="#P" n="30"/>quorum cognitionem supponunt, ergo debet
+          <lb ed="#P" n="31"/>esse clara et evidens cognitio: ergo debet 
+          re<lb break="no" ed="#P" n="32"/>i praesentare Deum, prout est in se. Tum quia
+          <lb ed="#P" n="33"/>alias non esset clara et evidens: tum etiam
+          <lb ed="#P" n="34"/>quia non posset aliter generationem et 
+          spira<lb break="no" ed="#P" n="35"/>tionem personarum repraesentare.
+        </p>
+        <p xml:id="szduep-142927-d1e1227">
+          <lb ed="#P" n="36"/>16. Tertio suppono, non posse Deum 
+          evi<lb break="no" ed="#P" n="37"/>denter et clare cognosci, prout est in se, nisi
+          <lb ed="#P" n="38"/>per intuitivam visionem, quia si cognoscitur,
+          <lb ed="#P" n="39"/>prout in se est, cognocitur evidenter, ut actu
+          <lb ed="#P" n="40"/>existens, quia existentia est de essentia ejus,
+          <lb ed="#P" n="41"/>prout in se est. Item cognoscitur secundum
+          <lb ed="#P" n="42"/>omnes conditiones existentiae , tum propter
+          <lb ed="#P" n="43"/>simplicitatem ejus, tum quia hoc totum 
+          inclu<lb break="no" ed="#P" n="44"/>dit illa particula, prout est in se. Ergo 
+          intui<lb break="no" ed="#P" n="45"/>tive videtur, quia nihil aliud est visio 
+          intuiti<lb break="no" ed="#P" n="46"/>va intellectualis, nisi evidens cognitio rei 
+          exis<lb break="no" ed="#P" n="47"/>tentis, prout existens est, et secundum omnes
+          <lb ed="#P" n="48"/>conditiones existentiae ejus. De hac 
+          supposi<lb break="no" ed="#P" n="49"/>tione plura dixi in 3 part., q. 11, disput. 26,
+          <lb ed="#P" n="50"/>ex his ergo sic probatur assertio. Evidens 
+          co<lb break="no" ed="#P" n="51"/>gnitio Trinitatis immediate, et in se ipsa per
+          <lb ed="#P" n="52"/>solam speciem, seu medium incognitum, non
+          <lb ed="#P" n="53"/>potest esse, nisi intuitiva, sed intuitiva non
+          <lb ed="#P" n="54"/>potest esse naturalis angelo, ergo nec illa 
+          co<lb break="no" ed="#P" n="55"/>gnitio. Major patet, quia talis cognitio debet
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>manifestare clare Deum, prout in se est, ut
+          <lb ed="#P" n="57"/>jam probatum est, ergo erit intuitiva, ut eiam
+          <lb ed="#P" n="58"/>ostensum est.
+        </p>
+        <p xml:id="szduep-142927-d1e1282">
+          <lb ed="#P" n="59"/>17. Cognitio abstractiva Trinitatis in se 
+          vc<lb break="no" ed="#P" n="60"/>pugnat.—MHic vero discursus, si recte 
+          expenda<lb break="no" ed="#P" n="61"/>tur, non solum probat, talem cognitionem
+          <lb ed="#P" n="62"/>Trinitatis non posse esse naturalem angelo,
+          <lb ed="#P" n="63"/>verum etiam nec esse possibilem per 
+          superna<lb break="no" ed="#P" n="64"/>turalem revelationem, vel infusionem, ita ut
+          <lb ed="#P" n="65"/>sit distincta a visione intuitiva, quia 
+          impossi<lb break="no" ed="#P" n="66"/>bile est, distinguere circa Deum cognitionem
+          <lb ed="#P" n="67"/>claram et evidentem Dei, prout est in se,a
+          <lb ed="#P" n="68"/>cognitione intuitiva, ut ratio facta probat.
+          <lb ed="#P" n="69"/>Adde, quod si talis cognitio esset possibilis 
+          an<lb break="no" ed="#P" n="70"/>gelo per virtutem sui luminis naturalis, 
+          quan<lb break="no" ed="#P" n="71"/>tum ex parte potentiae, non posset species 
+          ne<lb break="no" ed="#P" n="72"/>cessaria ad talem cognitionem supernaturalis
+          <lb ed="#P" n="73"/>existimari, eo quod non manaret naturaliter
+          <lb ed="#P" n="74"/>ab objecto, sed a DEO libere operante, alioqui
+          <lb ed="#P" n="75"/>(juxta veriorem sententiam) omnes species
+          <lb ed="#P" n="76"/>intelligibiles angelorum, quae cum illis a DEO
+          <lb ed="#P" n="77"/>concreantur, essent supernaturales, et creatio
+          <lb ed="#P" n="78"/>omnis animae rationalis esset, quia libere a
+          <lb ed="#P" n="79"/>Deo fit. Quod si respondeatur, Deum haec 
+          ope<lb break="no" ed="#P" n="80"/>rari, ut auctorem naturae et quasi ex debito
+          <lb ed="#P" n="81"/>quodam, et lege naturis rerum consentanea.
+          <lb ed="#P" n="82"/>Item prorsus de illa specie dicam : supposita
+          <lb ed="#P" n="83"/>virtute naturali intellectus angelici, sufficienti
+          <lb ed="#P" n="84"/>ad illum actum ex parte sua, ut Scotus 
+          sup<lb break="no" ed="#P" n="85"/>ponit. Nam hac sola ratione debentur angelo
+          <lb ed="#P" n="86"/>omnes aliae species, quae illi creduntur 
+          natura<lb break="no" ed="#P" n="87"/>liter infusae. Habebit ergo angelus nunc, ex
+          <lb ed="#P" n="88"/>ordinaria lege naturae suae concreatam speciem
+          <lb ed="#P" n="89"/>qua possit cognoscere DEUM immediate, prout
+          <lb ed="#P" n="90"/>in se est, et Trinitatem ipsam absque divina
+          <lb ed="#P" n="91"/>revelatione, nam illius speciei concreatio non
+          <lb ed="#P" n="92"/>potest dici revelatio; ut satis ex dicto discursu
+          <lb ed="#P" n="93"/>constat. Igitur e converso retorquendo 
+          argu<lb break="no" ed="#P" n="94"/>mentum, cum talis species non detur angelo,
+          <lb ed="#P" n="95"/>signum est, nec in eo esse virtutem 
+          intellecti<lb break="no" ed="#P" n="96"/>vam naturalem ad illos actus, ac proinde non
+          <lb ed="#P" n="97"/>posse illo modo naturaliter cognoscere Deum.
+        </p>
+        <p xml:id="szduep-142927-d1e1369">
+          <lb ed="#P" n="98"/>18. Quarta assertio. — Dico quarto, 
+          nihil<lb break="no" ed="#P" n="99"/>ominus asserendum non esse mysterium 
+          Tri<lb break="no" ed="#P" n="100"/>nitatis esse contra rationem naturalem. lta
+          <lb ed="#P" n="101"/>sentiunt omnes. Et probatur, quia veritas non
+          <lb ed="#P" n="102"/>potest esse veritati contraria, nec Deus, ut
+          <lb ed="#P" n="103"/>operans, potest esse contrarius sibi, ut 
+          exis<lb break="no" ed="#P" n="104"/>tenti, at ratio naturalis, si non erret, non 
+          os<lb break="no" ed="#P" n="105"/>tendit, nisi veritatem, nam si errat, jam non
+          <lb ed="#P" n="106"/>est ratio, sed deceptio, ergo non potest 
+          osten<lb break="no" ed="#P" n="107"/>dere veritatem huic mysterio contrariam.
+          <lb ed="#P" n="108"/>Item Deus est auctor naturalis luminis , ergo
+          <lb ed="#P" n="109"/>non potest per se inclinare ad falsum, nec ad
+          <lb ed="#P" n="110"/>aliquid, quod sit contrarium vero modo exis-
+          <pb ed="#P" n="570"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tendi ipsius Dei, Item, licet ratio naturalis non
+          <lb ed="#P" n="2"/>ostendat, Deum esse trinum: tamen, nec 
+          os<lb break="no" ed="#P" n="3"/>tendere potest, necessario esse debere unum
+          <lb ed="#P" n="4"/>in persona. Et ratio est, quia ratio naturaldis
+          <lb ed="#P" n="5"/>est inferioris ordinis comparatione Dei, et ideo
+          <lb ed="#P" n="6"/>licet sit infra Deum et Deus supra illam, non
+          <lb ed="#P" n="7"/>tamen habent contrarietatem, quae proprie est
+          <lb ed="#P" n="8"/>inter res ejusdem ordinis.
+        </p>
+        <p xml:id="szduep-142927-d1e1421">
+          <lb ed="#P" n="9"/>19. Nec denique potest esse haec 
+          contrarie<lb break="no" ed="#P" n="10"/>tas per ostensionem alicujus generalis 
+          princi<lb break="no" ed="#P" n="11"/>pii repugnantis huic mysterio, quia vel in tali
+          <lb ed="#P" n="12"/>principio non comprehenditur Deus, vel si
+          <lb ed="#P" n="13"/>comprehenditur, quoad illam partem non 
+          po<lb break="no" ed="#P" n="14"/>test demonstrari ratione naturali. Quia ratio
+          <lb ed="#P" n="15"/>naturalis non sumit principia nisi ex rebus 
+          fi<lb break="no" ed="#P" n="16"/>nitis, ultra quas est res infinita simpliciter, de
+          <lb ed="#P" n="17"/>qua non potest sola ratio naturalis ostendere,
+          <lb ed="#P" n="18"/>metiendam esse eisdem legibus et principns,
+          <lb ed="#P" n="19"/>quibus res finitae. Unde concluditur intentum.
+          <lb ed="#P" n="20"/>Quia naturals ratio suadet, in re infinita posse
+          <lb ed="#P" n="21"/>esse aliquid, vel aliquem modum, cujus res 
+          fi<lb break="no" ed="#P" n="22"/>nitae non sint capaces, nec naturali discursu
+          <lb ed="#P" n="23"/>investigari possit juxta sensum Augustini, 
+          Epis<lb break="no" ed="#P" n="24"/>tola tertia ad Volusianum: ergo licet 
+          myste<lb break="no" ed="#P" n="25"/>rium plurium personarum in una natura 
+          vi<lb break="no" ed="#P" n="26"/>deatur repugnare rationi naturah, ut versatur
+          <lb ed="#P" n="27"/>circa objecta finita, non inde potest inferri
+          <lb ed="#P" n="28"/>esse simpliciter contra rationem naturalem,
+          <lb ed="#P" n="29"/>cum ipsamet ratio naturalis agnoscat, naturam
+          <lb ed="#P" n="30"/>illam esse excellentioris ordinis, et se non posse
+          <lb ed="#P" n="31"/>satis attingere quomodo sit.
+        </p>
+        <p xml:id="szduep-142927-d1e1473">
+          <lb ed="#P" n="32"/>20. Ad argumenta. —Ad fundamentum ergo
+          <lb ed="#P" n="33"/>primae sententiae respondetur, tres 
+          personalita<lb break="no" ed="#P" n="34"/>tes esse unam naturam, et connaturalesilh esse
+          <lb ed="#P" n="35"/>valde alienum a ratione naturali, non tamen
+          <lb ed="#P" n="36"/>esse contra, sed supra illam. Illud autem 
+          prin<lb break="no" ed="#P" n="37"/>cipium : Que sunt cadem unà tertio, sunt 
+          ea<lb break="no" ed="#P" n="38"/>dein inter se, ucet in rebus finitis sit 
+          universa<lb break="no" ed="#P" n="39"/>liter verum, in re autem infinita demonstrari
+          <lb ed="#P" n="40"/>non potest per rationem naturalem, et ideo eo
+          <lb ed="#P" n="41"/>modo, quo est evidens, non est contrarium huic
+          <lb ed="#P" n="42"/>mysterio. De quo latius infra occurret sermo
+          <lb ed="#P" n="43"/>tractando de relationibus divinis.
+        </p>
+        <p xml:id="szduep-142927-d1e1503">
+          <lb ed="#P" n="44"/>21. Ad Raymundum satis in superioribus
+          <lb ed="#P" n="45"/>responsum est. Ad Scotum etiam est satis 
+          res<lb break="no" ed="#P" n="46"/>ponsum, breviter tamen addimus, esto, non
+          <lb ed="#P" n="47"/>repugnat dari speciem repraesentantem 
+          Trini<lb break="no" ed="#P" n="48"/>tatem, prout est in se, tamen talem speciem
+          <lb ed="#P" n="49"/>necessario esse debere principium videndi 
+          in<lb break="no" ed="#P" n="50"/>tuitive Deum, ac proinde supernaturalem,
+          <lb ed="#P" n="51"/>unde consequenter negamus, usum talis 
+          spe<lb break="no" ed="#P" n="52"/>ciei esse possibilem angelo per virtutem 
+          natu<lb break="no" ed="#P" n="53"/>ralem, nec oppositum probatur ab Scoto.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

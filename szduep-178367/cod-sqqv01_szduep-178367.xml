@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="705"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-178367"><!-- t3-l7c7 -->
+        <head xml:id="szduep-178367-Hd1e101">Caput 7</head>
+        <head xml:id="szduep-178367-Hd1e103" type="question-title">Utrum relatio sub propria ratione relationis sit forma constituens personam</head>
+        <p xml:id="szduep-178367-d1e106">
+          <lb ed="#P" n="19"/>CAPUT VII.
+          <lb ed="#P" n="20"/>UTRUM RELATIO SUB PROPRIA RATIONE 
+          RELATIO<lb break="no" ed="#P" n="21"/>NIS SIT FORMA CONSTITUENS PERSONAM.
+        </p>
+        <p xml:id="szduep-178367-d1e115">
+          <lb ed="#P" n="22"/>1. Rationes dubitandi. — Ex his quae 
+          hac<lb break="no" ed="#P" n="23"/>tenus diximus, a sufficienti partium 
+          enume<lb break="no" ed="#P" n="24"/>ratione concluditur , relationem personalem
+          <lb ed="#P" n="25"/>esse etiam proprietatem personalem 
+          consti<lb break="no" ed="#P" n="26"/>tuentem personam, quia, excluso absoluto et
+          <lb ed="#P" n="27"/>exclusa origine, nihil aliud superest : 
+          quomo<lb break="no" ed="#P" n="28"/>do autem hoc esse possit, declarandum est.
+          <lb ed="#P" n="29"/>Est autem principalis ratio dubitandi, quia
+          <lb ed="#P" n="30"/>persona producens, in suo esse personali 
+          con<lb break="no" ed="#P" n="31"/>stituta, est prior origine et ratione, quam
+          <lb ed="#P" n="32"/>persona ab illa procedens: et tamen relatio
+          <lb ed="#P" n="33"/>neutro illorum modorum potest esse prior:
+          <lb ed="#P" n="34"/>ergo non potest relatio constituere. Accedit
+          <lb ed="#P" n="35"/>alia difficultas, quia persona, ut sic etiam in
+          <lb ed="#P" n="36"/>divinis dicit de formali personalitatem, ut ex
+          <lb ed="#P" n="37"/>ipsa voce constat, ergo non dicit de formali
+          <lb ed="#P" n="38"/>relationem : ergo personalitas non est relatio
+          <lb ed="#P" n="39"/>ipsa. Minor patet, quia persona, ut sic, non
+          <lb ed="#P" n="40"/>dicit quippiam relativum : nam relativum 
+          ali<lb break="no" ed="#P" n="41"/>cujus esse dicitur, persona vero non est 
+          al<lb break="no" ed="#P" n="42"/>cujus persona, ergo non dicit de formali 
+          rela<lb break="no" ed="#P" n="43"/>tionem.
+        </p>
+        <p xml:id="szduep-178367-d1e165">
+          <lb ed="#P" n="44"/>2. D. Thome resolutio.—In hac difficultate
+          <lb ed="#P" n="45"/>explicanda laborat D. Thomas, in dicta q. 40,
+          <lb ed="#P" n="46"/>art. 4, et tandem concludit, relationem 
+          du<lb break="no" ed="#P" n="47"/>pliciter posse considerari, primo, ut 
+          proprie<lb break="no" ed="#P" n="48"/>tatem personalem , secundo, ut relationem ,
+          <lb ed="#P" n="49"/>et priori modo dicit constituere personam ;
+          <lb ed="#P" n="50"/>posteriori autem referre tantum. Quam 
+          dis<lb break="no" ed="#P" n="51"/>tinctionem pro viribus impugnant Durandus,
+          <lb ed="#P" n="52"/>in 4, dist. 26, q. 1, Scotus, dist. 28, quaestione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ultima, in fine, et alii. Thomistae vero eam 
+          de<lb break="no" ed="#P" n="54"/>fendunt constanter, Cajetanus et Torres, dicta
+          <lb ed="#P" n="55"/>quaest. 40, art. 2 et 4, Capreolus, in 1, dist. 26,
+          <lb ed="#P" n="56"/>quaest. 1, Ferrariensis 4, contra Gentes, c. 26,
+          <lb ed="#P" n="57"/>quibus consentit Marsilius; in 1, q. 29, art. 1,
+          <lb ed="#P" n="58"/>dub. 1. Verumtamen etiam ipsi Thomistae 
+          in<lb break="no" ed="#P" n="59"/>ter se non consentiunt in explicanda 
+          distinc<lb break="no" ed="#P" n="60"/>tione D. Thomoae.
+        </p>
+        <p xml:id="szduep-178367-d1e208">
+          <lb ed="#P" n="61"/>3. Cajetanus ergo, quem fere sequitur 
+          Tor<lb break="no" ed="#P" n="62"/>res, absolute defendit relationem, ut 
+          relatio<lb break="no" ed="#P" n="63"/>nem, constituere. Ad solvendam autem 
+          diffi<lb break="no" ed="#P" n="64"/>cultatem D. Thomae utitur vulgari distinctione
+          <lb ed="#P" n="65"/>de relatione, ut concepta, vel ut exercita, et
+          <lb ed="#P" n="66"/>utroque membro vult comprehendi relationem
+          <lb ed="#P" n="67"/>ut rclatio est. Tamen priori modo ait, concipi
+          <lb ed="#P" n="68"/>solum, ut in se existentem, seu nut 
+          adhaeren<lb break="no" ed="#P" n="69"/>tem, vel afficientem illum, cui convenit: 
+          pos<lb break="no" ed="#P" n="70"/>teriori antem modo ait, intelligi, ut tendentem
+          <lb ed="#P" n="71"/>ad terminum. Sub priori ergo ratione dicit
+          <lb ed="#P" n="72"/>constituere personam, et esse priorem origine,
+          <lb ed="#P" n="73"/>et vocari a D. Thoma proprietatem 
+          persona<lb break="no" ed="#P" n="74"/>lem : sub posteriori autem ratione dici, 
+          re<lb break="no" ed="#P" n="75"/>ferre, et subsequi originem, et vocari a divo
+          <lb ed="#P" n="76"/>Thoma relationem, utique referentem.
+        </p>
+        <p xml:id="szduep-178367-d1e245">
+          <lb ed="#P" n="77"/>4. Hanc sententiam impugnavit late 
+          Ferra<lb break="no" ed="#P" n="78"/>riensis quem postea moderni plures secuti
+          <lb ed="#P" n="79"/>sunt. Ille autem praecipuam vim faet, in 
+          ver<lb break="no" ed="#P" n="80"/>bis divi Thomae, nam aperte distinguit 
+          relatio<lb break="no" ed="#P" n="81"/>nem, ut relatio est a proprietate personali, ut
+          <lb ed="#P" n="82"/>sic, scu quatenus est forma hypostatica. Sed
+          <lb ed="#P" n="83"/>ad hoc facile respondet Cajetanus. Quia in ipso
+          <lb ed="#P" n="84"/>exercitio relationis maxime cernitur ejus 
+          pro<lb break="no" ed="#P" n="85"/>pria ratio, et quasi completur effectus formalis
+          <lb ed="#P" n="86"/>ejus, ideo illam vocasse D. Thomee relationem,
+          <lb ed="#P" n="87"/>ut relatio est, et retinuisse commune nomen
+          <lb ed="#P" n="88"/>formae hypostaticae, seu proprietatis personalis
+          <lb ed="#P" n="89"/>ad illam sub alia ratione significandam. Non
+          <lb ed="#P" n="90"/>quia, ut sic, non sit etiam relatio, sed quia
+          <lb ed="#P" n="91"/>non concipitur, conferre totum id, quod est
+          <lb ed="#P" n="92"/>relationis, sed id tantum, quod est hypostaticae
+          <lb ed="#P" n="93"/>formae.
+        </p>
+        <p xml:id="szduep-178367-d1e284">
+          <lb ed="#P" n="94"/>5. Impugnatur. — Omissis ergo argumentis
+          <lb ed="#P" n="95"/>aliorum, duo mihi videntur in hac opinione
+          <lb ed="#P" n="96"/>difficilia. Primum est, quia si relatio concepta.
+          <lb ed="#P" n="97"/>ut re concipitur, ut relatio secundum ultimam
+          <lb ed="#P" n="98"/>rationem constitutivam relationis: ergo debet
+          <lb ed="#P" n="99"/>etiam concipi, ut habens suum effectum 
+          for<lb break="no" ed="#P" n="100"/>malem in eo, quem constituit: effectus autem
+          <lb ed="#P" n="101"/>formalis relationis, ut relatio est, est referre
+          <lb ed="#P" n="102"/>ad alterum, eum, cui inest, ergo necesse est
+          <lb ed="#P" n="103"/>talem relationem sic conceptam esse etiam
+          <lb ed="#P" n="104"/>exercitam. Prior consequentia patet, quia 
+          re<lb break="no" ed="#P" n="105"/>latio si concipitur , ut constituens, concipitur
+          <lb ed="#P" n="106"/>etiam, ut intrinsece informans, quia, ut ipse
+          <lb ed="#P" n="107"/>divus Thomas dixit, hoc est de ratione pro-
+          <pb ed="#P" n="706"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prietatis constituentis personam: si autem 
+          con<lb break="no" ed="#P" n="2"/>cipitur, ut informans, ergo concipitur, ut 
+          re<lb break="no" ed="#P" n="3"/>latio informans, ergo ut habens suum effectum
+          <lb ed="#P" n="4"/>formalem in eo, quem constituit seu informat,
+          <lb ed="#P" n="5"/>ergo ut referens illum, quia hic est formalis
+          <lb ed="#P" n="6"/>effectus relationis, ut relatio est, ergo jam 
+          con<lb break="no" ed="#P" n="7"/>cipitur, ut exercita: quae erat ultima 
+          conse<lb break="no" ed="#P" n="8"/>quensia facta. Quae ex ipsis terminis supra 
+          de<lb break="no" ed="#P" n="9"/>claratis nota est, quia relatio, ut exercita, nihil
+          <lb ed="#P" n="10"/>aliudest, quam, ut referens ad alterum. Secunda
+          <lb ed="#P" n="11"/>difficultas est, quia Cajetanus solum invenit
+          <lb ed="#P" n="12"/>illam distinctionem coactus illo argumento,
+          <lb ed="#P" n="13"/>quod relatio videtur consequi ex origine 
+          tan<lb break="no" ed="#P" n="14"/>quam ex ratione fundandi, quod principium
+          <lb ed="#P" n="15"/>ex creaturis transfertur ad Deum. At vero in
+          <lb ed="#P" n="16"/>creaturis, quacumque ratione sumatur 
+          pater<lb break="no" ed="#P" n="17"/>nitas, ut paternitas sive ut exercita, sive ut
+          <lb ed="#P" n="18"/>concepta, utroque modo intelligitur, ut 
+          conse<lb break="no" ed="#P" n="19"/>quens ad generationem, quia non solum 
+          exer<lb break="no" ed="#P" n="20"/>citium relationis, ut sic dicam, sed simpliciter
+          <lb ed="#P" n="21"/>tota relatio resultat ex fundamento et termino:
+          <lb ed="#P" n="22"/>ergo si illud principium admittimus in divinis,
+          <lb ed="#P" n="23"/>et consequenter loquimur, etiam relatio, ut
+          <lb ed="#P" n="24"/>concepta, est posterior generatione, vel, si
+          <lb ed="#P" n="25"/>quoad hoc non admittitur illud principium,
+          <lb ed="#P" n="26"/>negetur etiam quoad aliud: illa ergo distinctio
+          <lb ed="#P" n="27"/>videtur magis difficultatem augere, quam 
+          ex<lb break="no" ed="#P" n="28"/>pedire.
+        </p>
+        <p xml:id="szduep-178367-d1e382">
+          <lb ed="#P" n="29"/>6. Capreoli distinctio. — Capreolus ergo, 
+          Fer<lb break="no" ed="#P" n="30"/>rariensis et alii Thomistae aliter explicant 
+          dis<lb break="no" ed="#P" n="31"/>tinctionem. Nam relatio, inquiunt, divina 
+          du<lb break="no" ed="#P" n="32"/>pliciter considerari potest. Primo, ut subsistens
+          <lb ed="#P" n="33"/>est, et sic constituit, et antecedit ratione 
+          gene<lb break="no" ed="#P" n="34"/>rationem. Secundo, secundum esse ad, et ut sic
+          <lb ed="#P" n="35"/>subsequitur, inquiunt, generationem, et non
+          <lb ed="#P" n="36"/>constituit personam, sed refert illam. Hi 
+          auc<lb break="no" ed="#P" n="37"/>tores non habent aliud fundamentum, nisi et
+          <lb ed="#P" n="38"/>auctoritatem D. Thomae. Et quia videntur sibi
+          <lb ed="#P" n="39"/>hoc modo explicare difficultatem.
+        </p>
+        <p xml:id="szduep-178367-d1e408">
+          <lb ed="#P" n="40"/>1. Impugnatur. — Mihi tamen non minus
+          <lb ed="#P" n="41"/>difficilis haec sententia videtur, quam 
+          praece<lb break="no" ed="#P" n="42"/>dens. Cum enim sumunt relationem, ut 
+          subsis<lb break="no" ed="#P" n="43"/>tentem, secluso esse ad, interrogo, qualis sit
+          <lb ed="#P" n="44"/>illa forma, quae subsistens eoncipitur? Aut enim
+          <lb ed="#P" n="45"/>est relativa, aut absoluta, aut abstrahens ab
+          <lb ed="#P" n="46"/>utraque ratione. Primum dicere non possunt,
+          <lb ed="#P" n="47"/>nam praecisa ultima differentia contrahente,
+          <lb ed="#P" n="48"/>non manet forma in tali specie concepta, sed
+          <lb ed="#P" n="49"/>ipsum ad est quasi differentia ultima 
+          consti<lb break="no" ed="#P" n="50"/>tuens for.cam relativam, ergo, praeciso Ad,
+          <lb ed="#P" n="51"/>non manet conceptus formae relativae. 
+          Secun<lb break="no" ed="#P" n="52"/>dum etiam non dicunt, quin potius in eo 
+          con<lb break="no" ed="#P" n="53"/>tradicunt Scoto. Tertium vero de ratione 
+          abs<lb break="no" ed="#P" n="54"/>ttrahente ab abso!uto et respectivo impugnatur
+          <lb ed="#P" n="55"/>ab aliquibus ex doctrina Durandi, in 1, distinc-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tione vigesima-tertia, quaestione prima, quia
+          <lb ed="#P" n="57"/>non datur, nec dari potest conceptus 
+          commu<lb break="no" ed="#P" n="58"/>nis relativo, et absoluto, abstrahensque ab 
+          u<lb break="no" ed="#P" n="59"/>troque. At vero loquendo de communitate 
+          ge<lb break="no" ed="#P" n="60"/>nerica, vel quasi transcendente, non repugnat
+          <lb ed="#P" n="61"/>dari talem rationem abstractam, ut saepe in
+          <lb ed="#P" n="62"/>superioribus dixi, et capite sequenti iterum 
+          di<lb break="no" ed="#P" n="63"/>cam. Loquendo autem de forma singulari et
+          <lb ed="#P" n="64"/>concepta, ut existente et informante, verum
+          <lb ed="#P" n="65"/>plane est, non posse abstrahere ab absoluto et
+          <lb ed="#P" n="66"/>respectivo. Quia non potest dari particulare
+          <lb ed="#P" n="67"/>individuum generis abstrahens ab omnibus
+          <lb ed="#P" n="68"/>differentiis specificis, hic autem debet concipi
+          <lb ed="#P" n="69"/>personalitas, verbi gratia, Patris, ut 
+          consti<lb break="no" ed="#P" n="70"/>tuens particularem et individuam personam,
+          <lb ed="#P" n="71"/>alioqui conceptus ille personae abstrahentis ab
+          <lb ed="#P" n="72"/>absoluta et respectiva de se communis est 
+          om<lb break="no" ed="#P" n="73"/>nibus personis, etiam creatis. Quod si ad 
+          divi<lb break="no" ed="#P" n="74"/>nas determinetur ex parte naturae, communis
+          <lb ed="#P" n="75"/>est omnibus personis divinis : si autem 
+          deter<lb break="no" ed="#P" n="76"/>minandus est ex parte personalitatis, 
+          necessa<lb break="no" ed="#P" n="77"/>rium videtur concipere subsistens relativum, et
+          <lb ed="#P" n="78"/>in tali relatione, ut sic conceptus hujus 
+          perso<lb break="no" ed="#P" n="79"/>nae et non alterius.
+        </p>
+        <p xml:id="szduep-178367-d1e499">
+          <lb ed="#P" n="80"/>8. Secundo possumus ab his auctoribus 
+          in<lb break="no" ed="#P" n="81"/>terrogare, cum dicunt relationem subsistentem
+          <lb ed="#P" n="82"/>constituere, an ut sic, sit subsistens 
+          subsisten<lb break="no" ed="#P" n="83"/>tia essentiali tantum, vel etiam personah ?
+          <lb ed="#P" n="84"/>Primum dici non potest, quia in tali conceptu
+          <lb ed="#P" n="85"/>solum relinquitur hic DEUS communis tribus
+          <lb ed="#P" n="86"/>personis , qui non potest esse principium ,
+          <lb ed="#P" n="87"/>quod generat Filium, quia ab illo non 
+          distin<lb break="no" ed="#P" n="88"/>guitur, ut praecedenti libro dictum est. Si vero
+          <lb ed="#P" n="89"/>dicatur secundum , ergo subsistentia illa 
+          in<lb break="no" ed="#P" n="90"/>communicabilis est, est autem 
+          incommunica<lb break="no" ed="#P" n="91"/>bilis solum ratione oppositionis, ergo ratione
+          <lb ed="#P" n="92"/>relationis, quia ibi oppositio non aliunde 
+          pro<lb break="no" ed="#P" n="93"/>venit : ergo non potest condistingui a 
+          rela<lb break="no" ed="#P" n="94"/>tione sic subsistente propria ratio relationis.
+        </p>
+        <p xml:id="szduep-178367-d1e535">
+          <lb ed="#P" n="95"/>9. Prima assertio. — Dico igitur primo.
+          <lb ed="#P" n="96"/>Relatio divina constituit personam secundum
+          <lb ed="#P" n="97"/>propriam rationem relationis. Ut hanc 
+          asser<lb break="no" ed="#P" n="98"/>tionem explicem, animadverto, quod supra
+          <lb ed="#P" n="99"/>dixi, constitutionem hanc divinarum 
+          persona<lb break="no" ed="#P" n="100"/>rum virtualiter saltem, vel fundamentaliter
+          <lb ed="#P" n="101"/>esse in re ipsa, licet modus constitutionis 
+          ins<lb break="no" ed="#P" n="102"/>tar compositionis sit ex conceptione nostra.
+          <lb ed="#P" n="103"/>Si ergo attendamus ad fundamentum hujus
+          <lb ed="#P" n="104"/>constitutionis, certum videtur, illud esse 
+          rela<lb break="no" ed="#P" n="105"/>tionem, ut relatio est. Probatur, quia hoc 
+          fun<lb break="no" ed="#P" n="106"/>damentum est ipsa relatio, quatenus 
+          determi<lb break="no" ed="#P" n="107"/>nat, vel addit aliquid ipsi essentiae commune,
+          <lb ed="#P" n="108"/>sed nec determinat, neque addit, nisi 
+          quate<lb break="no" ed="#P" n="109"/>nus relatio est, ut ex Patribus ostendimus;
+          <lb ed="#P" n="110"/>ergo non potest esse tale fundamentum , nisi
+          <pb ed="#P" n="707"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ut relatio. Deinde hoc convincunt argumenta
+          <lb ed="#P" n="2"/>proxime facta contra secundam sententiam.
+          <lb ed="#P" n="3"/>Quia fundamentum hujus constitutionis esse
+          <lb ed="#P" n="4"/>debet id, quod est proprium, et 
+          incommunica<lb break="no" ed="#P" n="5"/>bile, quatenus tale est : item esse debet, prout
+          <lb ed="#P" n="6"/>in re ipsa particulari modo subsistit : sic 
+          au<lb break="no" ed="#P" n="7"/>tem non est nisi paternitas, ut paternitas, imo
+          <lb ed="#P" n="8"/>etiam, ut talis paternitas , et sic de caeteris.
+          <lb ed="#P" n="9"/>Unde fit, ut persona divina in re ipsa, 
+          forma<lb break="no" ed="#P" n="10"/>liter, ut sic dicam, et non denominative 
+          tan<lb break="no" ed="#P" n="11"/>tum, relativa sit. Potestque hoc in prima 
+          per<lb break="no" ed="#P" n="12"/>sona Trinitatis ita explicari. Nam illa, et est
+          <lb ed="#P" n="13"/>Pater, et est spirator, et utraque est 
+          praedica<lb break="no" ed="#P" n="14"/>tio relativa, tamen haec posterior 
+          denomina<lb break="no" ed="#P" n="15"/>tiva est secundum rationem, quia non pertinet
+          <lb ed="#P" n="16"/>praedicatum ad formale constitutivum illius
+          <lb ed="#P" n="17"/>personas, neque est fundamentum ejus: alia
+          <lb ed="#P" n="18"/>prior vero formalis est, contraria ratione.
+          <lb ed="#P" n="19"/>Personae ergo divinae formaliter relativae sunt :
+          <lb ed="#P" n="20"/>ergo eo modo quo in re ipsa constituuntur,
+          <lb ed="#P" n="21"/>relationibus, ut relationibus constituuntur ,
+          <lb ed="#P" n="22"/>quia in esse relativo nihil constituitur, nisi
+          <lb ed="#P" n="23"/>per relationem, ut relatio est. Et hoc ipsum
+          <lb ed="#P" n="24"/>est, quod D. Thomas saepe dicit, personam esse
+          <lb ed="#P" n="25"/>ipsam relationem subsistentem, et relationes
+          <lb ed="#P" n="26"/>illas secum afferre supposita, et distinctionem
+          <lb ed="#P" n="27"/>eorum, ut patet in dicta quaestione 40, art. 2
+          <lb ed="#P" n="28"/>et 4.
+        </p>
+        <p xml:id="szduep-178367-d1e637">
+          <lb ed="#P" n="29"/>10. — Hinc ergo (descendendo ad hanc 
+          con<lb break="no" ed="#P" n="30"/>stitutionem , prout a nobis formatur) 
+          colligi<lb break="no" ed="#P" n="31"/>mus, idem omnino dicendum esse de 
+          constitu<lb break="no" ed="#P" n="32"/>tione illa, prout a nobis concipitur, et quasi
+          <lb ed="#P" n="33"/>componitur. Quia constitutio mentis nostrae,
+          <lb ed="#P" n="34"/>ut vera sit, debet esse consentanea 
+          fundamen<lb break="no" ed="#P" n="35"/>to, in quo fundatur, ergo si ita formetur, sicut
+          <lb ed="#P" n="36"/>in rebus ipsis divinis fundari potest, sic etiam
+          <lb ed="#P" n="37"/>constitutio debet esse per relationem, ut relatio
+          <lb ed="#P" n="38"/>est, quia alias non esset conformis fundamento,
+          <lb ed="#P" n="39"/>ex quo sumitur. Declaratur etiam, quia haec
+          <lb ed="#P" n="40"/>constitutio supra fundamentum nihil addit ,
+          <lb ed="#P" n="41"/>nisi distinctionem rationis actualem inter 
+          for<lb break="no" ed="#P" n="42"/>mam constituentem , et naturam : sed non
+          <lb ed="#P" n="43"/>concipimus illam proprietatem , seu formam,
+          <lb ed="#P" n="44"/>ut ratione distinctam ab essentia, nisi ut 
+          rela<lb break="no" ed="#P" n="45"/>tivum ab absoluto, ergo nec concipimus illam
+          <lb ed="#P" n="46"/>ut constituentem, nisi ut relatio est. Et hanc
+          <lb ed="#P" n="47"/>sententiam tenuerunt Gabriel, in 1, dist. 26,
+          <lb ed="#P" n="48"/>q. 1, art. 3, dub. 4, et ibi Durandus, quaest. 1,
+          <lb ed="#P" n="49"/>et distinct. 27, quaest. 1, et Scotus idem tenet
+          <lb ed="#P" n="50"/>supposito , quod personae non constituantur
+          <lb ed="#P" n="51"/>per absoluta, ut videre licet distinctione 28,
+          <lb ed="#P" n="52"/>quaest. ult., S Ad queestionem et Ad argumenta
+          <lb ed="#P" n="53"/>et quodl. 4, etiam ad argumenta : Nec 
+          repu<lb break="no" ed="#P" n="54"/>gnat, ut existimo, D. Thomas ut ex 
+          locutioni<lb break="no" ed="#P" n="55"/>bus, et locis proxime citatis intelligi potest.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Distinctio autem ejus explicabitur in 
+          sequen<lb break="no" ed="#P" n="57"/>tibus. Atque hinc colligunt dicti auctores , si
+          <lb ed="#P" n="58"/>personae illae secundum se concipiantur, non
+          <lb ed="#P" n="59"/>esse in Patre prius ratione generare, quam 
+          re<lb break="no" ed="#P" n="60"/>ferri : neque generationem illam esse 
+          funda<lb break="no" ed="#P" n="61"/>mentum, vel rationem talis relationis. Quod
+          <lb ed="#P" n="62"/>etiam facile patet ex dictis, capite quinto, quia
+          <lb ed="#P" n="63"/>illa relatio non indiget proprio fundamento,
+          <lb ed="#P" n="64"/>cum ex se subsistens sit.
+        </p>
+        <p xml:id="szduep-178367-d1e720">
+          <lb ed="#P" n="65"/>11. Secunda assertio. — Dico secundo. 
+          Quan<lb break="no" ed="#P" n="66"/>do aliqua persona divina concipitur a nobis,
+          <lb ed="#P" n="67"/>non ut relata ad aliam, non concipitur 
+          pro<lb break="no" ed="#P" n="68"/>prio, et distincto conceptu. nec secundum
+          <lb ed="#P" n="69"/>expressam, ac formalem constitutionem suam,
+          <lb ed="#P" n="70"/>sed conceptu confuso, addita aliqua negatione,
+          <lb ed="#P" n="71"/>vel connotatione. Haec assertio potissimum
+          <lb ed="#P" n="72"/>proponitur propter relationem primae 
+          perso<lb break="no" ed="#P" n="73"/>nae divina,, de qua libro sequenti dicendum
+          <lb ed="#P" n="74"/>est, et ideo ex professo tractabitur, quantum
+          <lb ed="#P" n="75"/>ad id, quod est proprium Patris. Nunc ergo
+          <lb ed="#P" n="76"/>generatim declaratur. Quia nos concipere non
+          <lb ed="#P" n="77"/>possumus divina, prout in se sunt, nec 
+          pro<lb break="no" ed="#P" n="78"/>priis conceptibus : et ideo utimur proportione,
+          <lb ed="#P" n="79"/>et analogia creaturarum ad explicanda ea,
+          <lb ed="#P" n="80"/>quae in divinis personis reperimus: tunc 
+          au<lb break="no" ed="#P" n="81"/>tem non utimur propriis conceptibus 
+          divina<lb break="no" ed="#P" n="82"/>rum personarum, sed confusis, et 
+          connotati<lb break="no" ed="#P" n="83"/>vis, vel negativis. Sic ergo, quia in humanis
+          <lb ed="#P" n="84"/>persona Patris prius est, quam generet , et
+          <lb ed="#P" n="85"/>prius generat, quam sit Pater ad hunc ordinem
+          <lb ed="#P" n="86"/>adaptamus modum, quo aeternum Patrem 
+          con<lb break="no" ed="#P" n="87"/>cipimus. Ac proinde tunc nec distincte 
+          conci<lb break="no" ed="#P" n="88"/>pimus constitutionem ejus, nec de illo 
+          forma<lb break="no" ed="#P" n="89"/>mus conceptum omnino positivum, secundum
+          <lb ed="#P" n="90"/>quem sit generatione prior, sed concipimus
+          <lb ed="#P" n="91"/>tantum illum sub ratione primae personae. Cum
+          <lb ed="#P" n="92"/>autem dico primam, negationem dico, ut 
+          su<lb break="no" ed="#P" n="93"/>pra dixi et infra declarabo. Et consequenter
+          <lb ed="#P" n="94"/>solum concipio illum, ut constitutum per 
+          pri<lb break="no" ed="#P" n="95"/>mam personalitem. Quam ut existimo, 
+          appel<lb break="no" ed="#P" n="96"/>lavit D. Thomas relationem, ut formum 
+          hypos<lb break="no" ed="#P" n="97"/>taticun, nam hunc modum concipiendi 
+          nos<lb break="no" ed="#P" n="98"/>trum explicabat. Prima enim personalitas nihil
+          <lb ed="#P" n="99"/>aliud, quam relatio est, tamen sub conceptu
+          <lb ed="#P" n="100"/>personalitatis, non proprio, sed communi 
+          con<lb break="no" ed="#P" n="101"/>ceptu concipitur: nam in eo convenit cum
+          <lb ed="#P" n="102"/>aliis relationibus, et subsistentiis personalibus.
+          <lb ed="#P" n="103"/>Quia vero sub hac ratione confusa non posset
+          <lb ed="#P" n="104"/>sufficere ad constituendam personam 
+          particu<lb break="no" ed="#P" n="105"/>larem, addimus negationem, quam 
+          significa<lb break="no" ed="#P" n="106"/>mus, cum dicimus primam gersonalitatem ,
+          <lb ed="#P" n="107"/>quia positivam rationem propriam addere non
+          <lb ed="#P" n="108"/>possumus, donec proprium ejus respectum 
+          con<lb break="no" ed="#P" n="109"/>cipiamus. Sic ergo praeintelligi potest prima
+          <lb ed="#P" n="110"/>persona constituta, antequam relata, quod non
+          <pb ed="#P" n="708"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>obstat, quo minus per se. ac proprie per 
+          rela<lb break="no" ed="#P" n="2"/>tionem, ut relatio est, constituatur.
+        </p>
+        <p xml:id="szduep-178367-d1e831">
+          <lb ed="#P" n="3"/>12. In personis productis non solet ita urgeri
+          <lb ed="#P" n="4"/>haec difficultas : existimo vero etiam illas posse
+          <lb ed="#P" n="5"/>concipi, ut constitutas, prius, quam ut relatas.
+          <lb ed="#P" n="6"/>Sicut enim in humanis prius concipio 
+          perso<lb break="no" ed="#P" n="7"/>nam Petri productam a Paulo, quam ui 
+          rela<lb break="no" ed="#P" n="8"/>iam ad ipsum: ita possunt concipere in 
+          divi<lb break="no" ed="#P" n="9"/>nis secundam personam. ut subsistentem 
+          in<lb break="no" ed="#P" n="10"/>communicabiliter, per proprietatem ab alio
+          <lb ed="#P" n="11"/>receptam, per processionem intellectus. Quia
+          <lb ed="#P" n="12"/>conceptus est proprius secundae personae, ut
+          <lb ed="#P" n="13"/>constat, et formaliter non includit relationem
+          <lb ed="#P" n="14"/>filiationis, ut talis est, nam de illa persona sic
+          <lb ed="#P" n="15"/>concepta inquirere possumus, an sit filius nec
+          <lb ed="#P" n="16"/>ne. Sicut de verbo infra libro nono videbimus.
+          <lb ed="#P" n="17"/>Imo nec relatio formaliter in illo concepta 
+          in<lb break="no" ed="#P" n="18"/>cluditur : nam qui dicunt illam personam 
+          con<lb break="no" ed="#P" n="19"/>stitui per proprietatem absolutam. illas omnes
+          <lb ed="#P" n="20"/>conditiones in illa supponunt. Quia licet 
+          ali<lb break="no" ed="#P" n="21"/>quod esse sit ab alio receptum : non ideo est
+          <lb ed="#P" n="22"/>formaliter relativum, nam esse potest quasi
+          <lb ed="#P" n="23"/>subjectum, vel fundamentum relationis. Et 
+          si<lb break="no" ed="#P" n="24"/>mili modo concipi potest tertia persona, 
+          ser<lb break="no" ed="#P" n="25"/>vata proportione. Uterque autem conceptus ex
+          <lb ed="#P" n="26"/>parte personae et proprietatis, ac constitutionis
+          <lb ed="#P" n="27"/>ejus. confusus est. determinatur tamen ad 
+          ta<lb break="no" ed="#P" n="28"/>lem personam connotando aliquam, vel 
+          ali<lb break="no" ed="#P" n="29"/>quas conditiones, quae simul sumpta. non
+          <lb ed="#P" n="30"/>conveniunt alteri, licet formalter non dicant
+          <lb ed="#P" n="31"/>relationem. Semper tamen in his conceptibus
+          <lb ed="#P" n="32"/>talium personarum connotatur origo. non quia
+          <lb ed="#P" n="33"/>ipsa origo concipiatur, ut forma constituens:
+          <lb ed="#P" n="34"/>sed quia per denominationem ab illa 
+          concipi<lb break="no" ed="#P" n="35"/>tur terminus ejus in facto esse, atque adeo ut
+          <lb ed="#P" n="36"/>posterior origine. licet nondum expresse 
+          con<lb break="no" ed="#P" n="37"/>ceptus secundum formalem constitutionem
+          <lb ed="#P" n="38"/>suam.
+        </p>
+        <p xml:id="szduep-178367-d1e912">
+          <lb ed="#P" n="39"/>13. Ad argumenia. — Ex his facilis est 
+          res<lb break="no" ed="#P" n="40"/>ponsio ad rationes dubitandi initio propositas.
+          <lb ed="#P" n="41"/>Nam in priori duo attinguntur. Unum est de
+          <lb ed="#P" n="42"/>propzietate originis, ad quod breviter dicitur,
+          <lb ed="#P" n="43"/>in relationibus subsistentibus nullum esse 
+          in<lb break="no" ed="#P" n="44"/>conveniens, quod relatio. ut relatio, sit prior
+          <lb ed="#P" n="45"/>origine. Nam haec prioritas nihil est aliud,
+          <lb ed="#P" n="46"/>quam unam relationem esse sine origine. seu
+          <lb ed="#P" n="47"/>sine tali origine: aliam vero esse per 
+          proces<lb break="no" ed="#P" n="48"/>sionem ab illa. Sicut autem processio potest
+          <lb ed="#P" n="49"/>per se primo tendere ad relativum subsistens,
+          <lb ed="#P" n="50"/>ut supra dixi, ita potest etiam esse a 
+          correlati<lb break="no" ed="#P" n="51"/>vo. seu opposito termino subsistente. Neque
+          <lb ed="#P" n="52"/>hinc sequitur aliquid contra rationem 
+          relatio<lb break="no" ed="#P" n="53"/>nis, quia nec sequitur prioritas naturae, cum
+          <lb ed="#P" n="54"/>ibi sit connexio inseparabilis et origo sine 
+          cau<lb break="no" ed="#P" n="55"/>saltate, nec etiam sequitur prioritas rationis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut jam dicam. Hoc enim in eadem ratione 
+          du<lb break="no" ed="#P" n="57"/>bitandi secundo loco tangebatur, quo modo
+          <lb ed="#P" n="58"/>scilicet una relatio possit esse prior ratione,
+          <lb ed="#P" n="59"/>quam alia. Ad quod respondeo, si relationes
+          <lb ed="#P" n="60"/>concipiantur propriis et particularibus 
+          concep<lb break="no" ed="#P" n="61"/>tibus positivis, sic non sequi prioritatem 
+          ratio<lb break="no" ed="#P" n="62"/>nis, quia illa relatio. vel potius relativum, 
+          ne<lb break="no" ed="#P" n="63"/>que prius aliud attingit, ut terminum 
+          produc<lb break="no" ed="#P" n="64"/>tionis, quam ut terminum relationis, et e 
+          con<lb break="no" ed="#P" n="65"/>verso, et ideo cum prioritate originis stat, ut
+          <lb ed="#P" n="66"/>sint simul cognitione. Loquendo autem de 
+          co<lb break="no" ed="#P" n="67"/>gnitione confusa et negativa, vel connotativa,
+          <lb ed="#P" n="68"/>nullum inconveniens est, ut unum relatum
+          <lb ed="#P" n="69"/>possit concipi. prius, quam aliud, ut ex dietis
+          <lb ed="#P" n="70"/>facile patet. quia non concipitur sub ratione 
+          ha<lb break="no" ed="#P" n="71"/>bitudinis, ut dicetur distinctius libro sequenti.
+          <lb ed="#P" n="72"/>Secunda ratio dubitandi postulat prolixiorem
+          <lb ed="#P" n="73"/>sermonem, et ideo in sequenti capite 
+          commo<lb break="no" ed="#P" n="74"/>dius tractabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

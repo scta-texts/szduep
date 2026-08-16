@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="279"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-070926"><!-- t2-l1c10 -->
+        <head xml:id="szduep-070926-Hd1e101">Caput 10</head>
+        <head xml:id="szduep-070926-Hd1e103" type="question-title">Decretum gratuitum, quod deus habuit de aeterna felicitate plurium angelorum, et hominum fuisse definitum quoad personas, et gradus gratiae, et gloriae</head>
+        <p xml:id="szduep-070926-d1e106">
+          <lb ed="#P" n="10"/>CAPUT X
+          <lb ed="#P" n="11"/>DECRETUM GRATUITUM, QUOD DEUS HABUIT DE
+          <lb ed="#P" n="12"/>AETERNA FELICITATE PLURIUM ANGELORUM, ET
+          <lb ed="#P" n="13"/>HOMINUM FUISSE DEFINITUM QUOAD 
+          PER<lb break="no" ed="#P" n="14"/>SONAS, ET GRADUS GRATIAE, ET
+          <lb ed="#P" n="15"/>GLORIAE.
+        </p>
+        <p xml:id="szduep-070926-d1e122">
+          <lb ed="#P" n="16"/>1. Prima opinio. — Aliquorum opinio fuit,
+          <lb ed="#P" n="17"/>quamvis Deus antecedenti voluntate, qua ex se
+          <lb ed="#P" n="18"/>voluit homines et angelos salvare, absolute
+          <lb ed="#P" n="19"/>definierit, ut aliqui infallibiliter salvarentur,
+          <lb ed="#P" n="20"/>et fortasse etiam certum ac definitum 
+          nume<lb break="no" ed="#P" n="21"/>rum salvandorum praescripserit, ita ut minor
+          <lb ed="#P" n="22"/>esse non posset. non tamen in eo signo 
+          perso<lb break="no" ed="#P" n="23"/>nas in particulari designasse; ac proinde 
+          vo<lb break="no" ed="#P" n="24"/>luntatem illam ex vi sua non fuisse 
+          determina<lb break="no" ed="#P" n="25"/>tam ad has personas, donec per scientiam 
+          prae<lb break="no" ed="#P" n="26"/>visa est earum libera cooperatio cum 
+          antece<lb break="no" ed="#P" n="27"/>dente gratia. Ita refert D. Thomas, d. q. 23,
+          <lb ed="#P" n="28"/>art. 7. 
+        </p>
+        <p xml:id="szduep-070926-d1e153">
+          <lb ed="#P" n="29"/>2. Rejicitur praecedens opinio. — Haec vero
+          <lb ed="#P" n="30"/>opinio probari nullo modo potest, id eoque 
+          me<lb break="no" ed="#P" n="31"/>rito est antiquata et ab omnibus rejecta. Primo
+          <lb ed="#P" n="32"/>quidem, quia Deus in sua providentia, et 
+          prae<lb break="no" ed="#P" n="33"/>serim in primariis effectibus ejus, non 
+          praefi<lb break="no" ed="#P" n="34"/>nit confuse et generatim quod faciendum est,
+          <lb ed="#P" n="35"/>sed omnino distincte et perfecte. Deinde, quia
+          <lb ed="#P" n="36"/>alias de nullo homine vel angelo in particulari
+          <lb ed="#P" n="37"/>esset verum, quod Paulus ait: JVon est volentis
+          <lb ed="#P" n="38"/>neque currentis, sed Dei miserentis. Nec posset
+          <lb ed="#P" n="39"/>alicui dici illud: Quis te discernit? quia DEUS
+          <lb ed="#P" n="40"/>ex vi suae voluntatis absolute neminem 
+          discer<lb break="no" ed="#P" n="41"/>neret, etiam in ordine electionis et 
+          praedesti<lb break="no" ed="#P" n="42"/>nationis, et ita non ex sola voluntate ejus haec
+          <lb ed="#P" n="43"/>misericordia dependisset: sed semper usus 
+          ar<lb break="no" ed="#P" n="44"/>bitrii esset conjungendus et ut praevisus 
+          sup<lb break="no" ed="#P" n="45"/>ponendus. Denique si attente expendatur, quae
+          <lb ed="#P" n="46"/>cap. 8 et 9 adducta sunt, omnia procedunt de
+          <lb ed="#P" n="47"/>electione personarum in individuo, quarum est
+          <lb ed="#P" n="48"/>propria electio et dilectio. Si considerentur
+          <lb ed="#P" n="49"/>etiam dicta de conditionata praescientia, 
+          con<lb break="no" ed="#P" n="50"/>stabit, cirea personas, et earum opera in 
+          par<lb break="no" ed="#P" n="51"/>ticulari versari: ac proinde voluntatis 
+          decre<lb break="no" ed="#P" n="52"/>tum quod illam supponit, eodem modo fuisse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>definitum. Et ex hoc principio facile solvitur
+          <lb ed="#P" n="54"/>fundamentum illius sententiae, ut in 
+          superiori<lb break="no" ed="#P" n="55"/>bus etiam tactum est, etlatius inlib. 3, de 
+          Auxi<lb break="no" ed="#P" n="56"/>Iiis. et ex sequenti puncto etiam intelligetur.
+        </p>
+        <p xml:id="szduep-070926-d1e219">
+          <lb ed="#P" n="57"/>J. Secunda opinio.—Posita preescientia 
+          con<lb break="no" ed="#P" n="58"/>ditionata salvatur libertas cum greedestinatione.
+          <lb ed="#P" n="59"/>— Alii ergo dixerunt, decretum quidem illud
+          <lb ed="#P" n="60"/>fuisse ad certas et individuas personas 
+          de<lb break="no" ed="#P" n="61"/>finitum, quas Deus salvare statuit et ad 
+          bea<lb break="no" ed="#P" n="62"/>titudinem perducere : non tamen per illud, ut
+          <lb ed="#P" n="63"/>sic, definisse Deum unicuique illarum 
+          perso<lb break="no" ed="#P" n="64"/>narum certum terminum, seu gradum gratiae,
+          <lb ed="#P" n="65"/>vel gloriae, ad quam singulee sint perventurae.
+          <lb ed="#P" n="66"/>Sed hoc post praescientiam fuisse quasi 
+          appro<lb break="no" ed="#P" n="67"/>batum, per voluntatem quamdam veluti 
+          com<lb break="no" ed="#P" n="68"/>placentiae. Quod etiam inventum videtur ex
+          <lb ed="#P" n="69"/>timore tollendi libertatem, si omnia in 
+          parti<lb break="no" ed="#P" n="70"/>culari praefinirentur. Sed sic opimantes, 
+          timue<lb break="no" ed="#P" n="71"/>runt ubi non erat timor, videnturque non
+          <lb ed="#P" n="72"/>agnovisse praescientiam conditionatam 
+          certis<lb break="no" ed="#P" n="73"/>simam et infallibilem omnium liberorum 
+          effec<lb break="no" ed="#P" n="74"/>tuum in particulari, qua posita, nihil 
+          difficul<lb break="no" ed="#P" n="75"/>tatis est in componenda libertate circa omnia
+          <lb ed="#P" n="76"/>media cum fine praefinitio in particulari, quoad
+          <lb ed="#P" n="77"/>certum gradum et perfectionem intensivam,
+          <lb ed="#P" n="78"/>imo et quoad omnes circumstantias.
+        </p>
+        <p xml:id="szduep-070926-d1e269">
+          <lb ed="#P" n="79"/>4. Conclusio. — Dicendum ergo est , Deum
+          <lb ed="#P" n="80"/>illo gratuito et absoluto decreto non tantum
+          <lb ed="#P" n="81"/>gloriam indefinite suis electis voluisse, sed
+          <lb ed="#P" n="82"/>illam etiam singulis, in gradu certo, ac definito
+          <lb ed="#P" n="83"/>praeparasse, eodem actu et modo praeordinando
+          <lb ed="#P" n="84"/>illam varietatem mansionum, quam Christus
+          <lb ed="#P" n="85"/>dixit esse in regno Patris sui. Hoc 
+          significa<lb break="no" ed="#P" n="86"/>vit Augustinus exponens haec verba Christi,
+          <lb ed="#P" n="87"/>tract. 68, in Joan., ubi inquirit, quomodo 
+          dixe<lb break="no" ed="#P" n="88"/>rit Christus Dominus : 7n domo Patris mei
+          <lb ed="#P" n="89"/>mansiones multe sunt : et subdiderit : Vado
+          <lb ed="#P" n="90"/>parare vobis locum. Et respondet, mansiones
+          <lb ed="#P" n="91"/>jam esse in praedestinatione et electione, 
+          pa<lb break="no" ed="#P" n="92"/>rari autem gubernatione. Sic etiam Bernardus,
+          <lb ed="#P" n="93"/>serm. 23, in Cant. : Non omnibus, inquit, uno
+          <lb ed="#P" n="94"/>in loco frui datur gratia et secreta sponsi 
+          pree<lb break="no" ed="#P" n="95"/>sentia, sed ut cuique paratum est a Patre, non
+          <lb ed="#P" n="96"/>enim nos ipsum elegimus, sed ipse elegit nos et
+          <lb ed="#P" n="97"/>posuit nos et ubi unusquisque fuerit, ibi erit.
+          <lb ed="#P" n="98"/>Idem asseruit D. Bonaventura, tom. 2, opusc.,
+          <lb ed="#P" n="99"/>tractat. de septem itineribus aeternitatis, 
+          dis<lb break="no" ed="#P" n="100"/>tinct. 1, sect. 2.
+        </p>
+        <p xml:id="szduep-070926-d1e319">
+          <lb ed="#P" n="101"/>5. Probatur conclusio. — Hic modus 
+          electio<lb break="no" ed="#P" n="102"/>nis non repugnat libertati.— Ratio hujus 
+          asser<lb break="no" ed="#P" n="103"/>tionis est eadem, quae praecedentium, nam hic
+          <lb ed="#P" n="104"/>modus electionis et intentionis non repugnat
+          <lb ed="#P" n="105"/>libertati nec gratiae, aut justitiae et est 
+          consen<lb break="no" ed="#P" n="106"/>taneus divinae perfectioni et providentiae, ergo.
+          <lb ed="#P" n="107"/>Major, quoad primam partem de libertate pa-
+          <pb ed="#P" n="280"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tet eadem ratione, quia Deus per hanc 
+          inten<lb break="no" ed="#P" n="2"/>tionem non mutat voluntatem humanam, 
+          im<lb break="no" ed="#P" n="3"/>pediendo modum operandi ejus, sed potius
+          <lb ed="#P" n="4"/>accommodat media, quae suaviter illam 
+          mo<lb break="no" ed="#P" n="5"/>veant et infallibihter. Item, vel Deus 
+          determi<lb break="no" ed="#P" n="6"/>nat physice voluntatem, salva libertate, et sic
+          <lb ed="#P" n="7"/>per illud medium poterit illam definitam 
+          in<lb break="no" ed="#P" n="8"/>tentionem exequi, salva etiam libertate , vel
+          <lb ed="#P" n="9"/>movvet efficaciter per gratiam congruam, 
+          sup<lb break="no" ed="#P" n="10"/>posita conditionata praescientia, et sic etiam
+          <lb ed="#P" n="11"/>per eamdem congruam vocationem 
+          infallibili<lb break="no" ed="#P" n="12"/>ter consequetur eumdem gradum gloriae, 
+          quan<lb break="no" ed="#P" n="13"/>tumvis in particulari definitum. Vel si nec
+          <lb ed="#P" n="14"/>physica praedeterminatio, nec praescientia 
+          con<lb break="no" ed="#P" n="15"/>ditionata placet, neganda erit praeelectio ad
+          <lb ed="#P" n="16"/>gloriam, non solum ad definitum gradum, sed
+          <lb ed="#P" n="17"/>quocumque modo. Vel si dicatur, 
+          praescien<lb break="no" ed="#P" n="18"/>tiam confusam mediorum satis esse, quia si
+          <lb ed="#P" n="19"/>hoc medium non succedat, aliud applicabitur;
+          <lb ed="#P" n="20"/>idem dici poterit in utroque modo electionis,
+          <lb ed="#P" n="21"/>quamvis revera in neutro satisfaciat. Ergo in
+          <lb ed="#P" n="22"/>nullo dicendi modo subest probabilis ratio 
+          ti<lb break="no" ed="#P" n="23"/>moris laedendi libertatem per electionem ad
+          <lb ed="#P" n="24"/>definitum gradum gloriae, magis quam per
+          <lb ed="#P" n="25"/>electionem ad gloriam indefinite.
+        </p>
+        <p xml:id="szduep-070926-d1e395">
+          <lb ed="#P" n="26"/>6. Nec repugnat divine gratie aut justitie.
+          <lb ed="#P" n="27"/>— Quod alteram vero partem de gratia, 
+          res<lb break="no" ed="#P" n="28"/>pectu electorum res manifesta est : nam illis
+          <lb ed="#P" n="29"/>fit maximum beneficium, respectu vero non
+          <lb ed="#P" n="30"/>electorum constabit inferius , eis non 
+          propte<lb break="no" ed="#P" n="31"/>rea denegari sufficientem gratiam , ergo ex
+          <lb ed="#P" n="32"/>neutro capite repugnat haec electio cum divina
+          <lb ed="#P" n="33"/>gratia. Neque etiam cum justitia , quia Deus
+          <lb ed="#P" n="34"/>est liber et supremus Dominus, et conferendo
+          <lb ed="#P" n="35"/>huic beneficium , non negat alteri debitum,
+          <lb ed="#P" n="36"/>ergo nulla est injustitia. Quin etiam pertinere
+          <lb ed="#P" n="37"/>ad perfectionem divinae providentiae, patet
+          <lb ed="#P" n="38"/>primo, quia Deus in suis actibus non procedit
+          <lb ed="#P" n="39"/>confuse , sed distincte et in particulari, nam
+          <lb ed="#P" n="40"/>illud aliud videtur semper provenire ex 
+          im<lb break="no" ed="#P" n="41"/>perfecta cognitione. Secundo, quia Deus non
+          <lb ed="#P" n="42"/>intendit hoc bonum electorum solum tanquam
+          <lb ed="#P" n="43"/>privatum hujus , vel illius personae , sed 
+          tan<lb break="no" ed="#P" n="44"/>quam commune bonum hujus regni coelestis,
+          <lb ed="#P" n="45"/>et ideo per se intendit varios gradus et sedes
+          <lb ed="#P" n="46"/>ejus : ergo totum illud cadit sub 
+          adaequa<lb break="no" ed="#P" n="47"/>tam intentionem Dei. Tertio, ipsa varietas
+          <lb ed="#P" n="48"/>effectuum et mediorum ostendit nobis 
+          hujus<lb break="no" ed="#P" n="49"/>modi fuisse Dei intentionem Dei. Quarto, quia
+          <lb ed="#P" n="50"/>ut dixi, eadem est ratio de quibusdam et de
+          <lb ed="#P" n="51"/>omnibus electis. Quis autem neget 
+          beatissi<lb break="no" ed="#P" n="52"/>mam Virginem fuisse praeelectam ad 
+          cumu<lb break="no" ed="#P" n="53"/>lum glorise, quam habet? Idemque est suo
+          <lb ed="#P" n="54"/>modo de apostolis et aliis sanctis praecipuis.
+          <lb ed="#P" n="55"/>Idem ergo est de omnibus dicendum.
+        </p>
+        <p xml:id="szduep-070926-d1e463">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7. Hec praedefinitio est etiam de gradu 
+          glo<lb break="no" ed="#P" n="57"/>rie accidentali non supponente peccatum. —
+          <lb ed="#P" n="58"/>Solum adverto, hoc praecipue intelligi de 
+          gra<lb break="no" ed="#P" n="59"/>dibus beatitudinis, quoad essentiam ejus. Et
+          <lb ed="#P" n="60"/>potest etiam extendi ad accidentalia praemia,
+          <lb ed="#P" n="61"/>quae peccatum non supponunt necessario. Si 
+          <lb ed="#P" n="62"/>autem est in gloria aliquod accidentale 
+          do<lb break="no" ed="#P" n="63"/>num, quod necessario supponit peccatum illud
+          <lb ed="#P" n="64"/>non potuit cadere sub hanc primam 
+          intentio<lb break="no" ed="#P" n="65"/>nem, quia necessario debet supponi permissio
+          <lb ed="#P" n="66"/>et praevisio talis peccati, ut infra latius 
+          de<lb break="no" ed="#P" n="67"/>clarabo.
+        </p>
+        <p xml:id="szduep-070926-d1e494">
+          <lb ed="#P" n="68"/>8. Objectio. — Solutio. — Potest vero quis
+          <lb ed="#P" n="69"/>objicere, quia sequitur, pervenire hominem
+          <lb ed="#P" n="70"/>aliquando in hac vita ad eum statum gratiae
+          <lb ed="#P" n="71"/>in quo jam non possit crescere, nimirum si ad
+          <lb ed="#P" n="72"/>definitum gradum attingat. Imo etiam sequi,
+          <lb ed="#P" n="73"/>per Deum stare quominus homo sanctior fiat,
+          <lb ed="#P" n="74"/>quam sit de facto, quia quantumvis homo 
+          co<lb break="no" ed="#P" n="75"/>netur, nunquam poterit excedere gradum sibi
+          <lb ed="#P" n="76"/>infinitum. Sed haec facilia sunt consideranti,
+          <lb ed="#P" n="77"/>voluntatem illam Dei non impleri, nisi per
+          <lb ed="#P" n="78"/>sapientem providentiam ejus, per quam ita
+          <lb ed="#P" n="79"/>disponit uniuscujusque actiones et vitae 
+          pro<lb break="no" ed="#P" n="80"/>gressum, ut tunc vita finiatur, quando 
+          imple<lb break="no" ed="#P" n="81"/>tur mensura ejus. Et ideo ad primam 
+          illatio<lb break="no" ed="#P" n="82"/>nem, absolute est neganda sequela, quia 
+          quam<lb break="no" ed="#P" n="83"/>diu homo in hac vita vivit, potest crescere in
+          <lb ed="#P" n="84"/>gratia et praedestinatio non impedit hoc, imo
+          <lb ed="#P" n="85"/>juvat : quod autem vita finiatur simul cum
+          <lb ed="#P" n="86"/>termino praedestinationis, hoc non repugnat
+          <lb ed="#P" n="87"/>cum illo principio. Et eodem modo 
+          responden<lb break="no" ed="#P" n="88"/>dum est ad alteram partem, in executione 
+          sem<lb break="no" ed="#P" n="89"/>per esse parata homini auxilia, quibus possit
+          <lb ed="#P" n="90"/>operari et crescere, quantum voluerit, imoraro
+          <lb ed="#P" n="91"/>aliquem adaequate respondere vocationibus
+          <lb ed="#P" n="92"/>DEI; et nihilominus has vocationes et auxilia
+          <lb ed="#P" n="93"/>non aequaliter omnibus dari, sed juxta 
+          mensu<lb break="no" ed="#P" n="94"/>ram divinae voluntatis et dispositionis 
+          unius<lb break="no" ed="#P" n="95"/>cujusque quoad plura eorum, licet non quoad
+          <lb ed="#P" n="96"/>omnia, ut infra latius declarabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

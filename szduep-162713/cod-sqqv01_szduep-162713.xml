@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="643"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-162713"><!-- t3-l4c13 -->
+        <head xml:id="szduep-162713-Hd1e101">Caput 13</head>
+        <head xml:id="szduep-162713-Hd1e103" type="question-title">Explicantur varii modi loquendi de unitate trium personarum in esse dei</head>
+        <p xml:id="szduep-162713-d1e106">
+          <lb ed="#P" n="30"/>CAPUT XIII
+          <lb ed="#P" n="31"/>EXPLICANTUR VARII MODI LOQUENDI DE UNITATE
+          <lb ed="#P" n="32"/>TRIUM PERSONARUM IN ESSE DEI.
+        </p>
+        <p xml:id="szduep-162713-d1e115">
+          <lb ed="#P" n="33"/>1. Personae an dicantur esse idem.—Ex 
+          dic<lb break="no" ed="#P" n="34"/>tis in superiori capite facile intelligi possunt
+          <lb ed="#P" n="35"/>plures propositiones, et varii modi loquendi,
+          <lb ed="#P" n="36"/>de tribus personis, ut sunt unus Deus. Primus
+          <lb ed="#P" n="37"/>est, quo Pater, Filius et Spiritus sanctus 
+          di<lb break="no" ed="#P" n="38"/>cuntur esse idem Deus, vel idem absolute. Nam
+          <lb ed="#P" n="39"/>si dicantur idem sine ullo addito, erit ambigua
+          <lb ed="#P" n="40"/>locutio, neutraliter vera, masculine falsa. Quia
+          <lb ed="#P" n="41"/>sicut in neutro dici non possunt aliud, et aliud,
+          <lb ed="#P" n="42"/>ita e converso dici possunt idem, quia vero
+          <lb ed="#P" n="43"/>masculine dicuntur alius et alius, idem dici
+          <lb ed="#P" n="44"/>non possunt masculine, quia haec opposita sunt.
+          <lb ed="#P" n="45"/>Et hoc sensu dixit Guidmundus , in quadam
+          <lb ed="#P" n="46"/>confessione Trinitatis, quae habetur in sexto
+          <lb ed="#P" n="47"/>tomo Biblioth. Pater, et Filius sunt idem 
+          ip<lb break="no" ed="#P" n="48"/>sum, non idem ipse. Sumitur etiam ex 
+          Athana<lb break="no" ed="#P" n="49"/>sio, dialog. 3, de Trinit., et Justino in 
+          exposi<lb break="no" ed="#P" n="50"/>tione fidei. Qui propterea sentiunt, illam 
+          locu<lb break="no" ed="#P" n="51"/>tionem esse vitandam, vel propter 
+          ambiguita<lb break="no" ed="#P" n="52"/>tem, vel quia idem immediate adjunctum per-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>sonis sine addito videtur potius masculine
+          <lb ed="#P" n="54"/>sumi.
+        </p>
+        <p xml:id="szduep-162713-d1e167">
+          <lb ed="#P" n="55"/>2. At vero si ei addatur aliquid, erit vera,
+          <lb ed="#P" n="56"/>vel falsa juxta rationem additi. Nam, si 
+          per<lb break="no" ed="#P" n="57"/>sonae dicantur idem suppositum, est falsa, si
+          <lb ed="#P" n="58"/>autem idem Deus, est vera, quia perinde est
+          <lb ed="#P" n="59"/>dicere eumdem Deum, ac dicere unum 
+          nume<lb break="no" ed="#P" n="60"/>ro Deum. Et eadem ratione vera est 
+          haeclocu<lb break="no" ed="#P" n="61"/>tio. Pater est idem Deus cum Filio et Spiritu
+          <lb ed="#P" n="62"/>sancto, sicut Ecclesia de Patre dicit in 
+          Praefa<lb break="no" ed="#P" n="63"/>tione Missae Trinitatis, et similiter de eodem
+          <lb ed="#P" n="64"/>Patre seepe dicit : Qui cum Filio et Spiritu
+          <lb ed="#P" n="65"/>sancto vivit, et regnat. Sic etiam intelligitur
+          <lb ed="#P" n="66"/>id, quod Ecclesia de Filio dicit : Tu solus 
+          Do<lb break="no" ed="#P" n="67"/>miwus, tu solus altissimus, Jesu Christe, cum
+          <lb ed="#P" n="68"/>sancto Spiritu in gloria Dei Patris. Nam
+          <lb ed="#P" n="69"/>quatenus Christus Jesus est idem Deus cum
+          <lb ed="#P" n="70"/>Patre, et Spiritu sancto, eatenus est solus 
+          Do<lb break="no" ed="#P" n="71"/>minus, solusque altissimus.
+        </p>
+        <p xml:id="szduep-162713-d1e207">
+          <lb ed="#P" n="72"/>3. Pater est idem Deus, qui est Filius.—
+          <lb ed="#P" n="73"/>Hinc etiam vera est haec locutio: Pater est
+          <lb ed="#P" n="74"/>idem Deus, qui est Filius. Quamvis de illa 
+          ali<lb break="no" ed="#P" n="75"/>qui dubitent, ut videre licet in commentariis
+          <lb ed="#P" n="76"/>Boetii, de Trinitate, qui nomine Bedae 
+          haben<lb break="no" ed="#P" n="77"/>tur in tomo 8 operum ejus. Sed immerito in
+          <lb ed="#P" n="78"/>dubium hoc vocatur. Aliud enim est dicere,
+          <lb ed="#P" n="79"/>Pater est idem, qui Filius, aliud vero est dicere:
+          <lb ed="#P" n="80"/>est idem Deus, qui Filius. Prior enim locutio
+          <lb ed="#P" n="81"/>merito negatur ab Athanasio, in dialogo 1,
+          <lb ed="#P" n="82"/>contra Anomeeos, et ab Ambrosio 1, de Fide,
+          <lb ed="#P" n="83"/>cap. 2. Quia illud relativum, Qui, refert in ea
+          <lb ed="#P" n="84"/>propositione personam Patris, ut talis est. 
+          AI<lb break="no" ed="#P" n="85"/>tera vero locutio vera est, quia in ea 
+          imme<lb break="no" ed="#P" n="86"/>diate refertur Pater, quatenus Deus est, unde,
+          <lb ed="#P" n="87"/>quia Pater, et Filius sunt idem Deus, qui est
+          <lb ed="#P" n="88"/>Pater. Si autem quis enuntiet. Pater est Deus,
+          <lb ed="#P" n="89"/>et idem Deus est Filius: videtur esse locutio
+          <lb ed="#P" n="90"/>magis ambigua. Nam cum Pater proxime 
+          prae<lb break="no" ed="#P" n="91"/>cesserit, videtur ipse immediate referri, et
+          <lb ed="#P" n="92"/>ideo negatur in dicto commentario. Tamen
+          <lb ed="#P" n="93"/>cum ex parte praedicati propositionis prioris
+          <lb ed="#P" n="94"/>absolute praecesserit Deus, potest de illo 
+          opti<lb break="no" ed="#P" n="95"/>me intelligi locutio, et identitas, et ita erit
+          <lb ed="#P" n="96"/>propositio vera, et videtur mihi sensus satis
+          <lb ed="#P" n="97"/>accommodatus. Haec autem locutio, Deus 
+          Pa<lb break="no" ed="#P" n="98"/>ter est Deus Filius, simpliciter falsa est : nam
+          <lb ed="#P" n="99"/>ratione adjuncti determinatur suppositio ad
+          <lb ed="#P" n="100"/>tales personas, et ideo perinde est, ac si Pater
+          <lb ed="#P" n="101"/>diceretur Filius. Hanc vero locutionem 
+          admit<lb break="no" ed="#P" n="102"/>tunt aliqui Patres ; Pater est idem, quod Filius,
+          <lb ed="#P" n="103"/>ut videre licet in Ambrosio supra, et 
+          Augusti<lb break="no" ed="#P" n="104"/>no, undecimo, de Civitate, cap. 10. Et ratio
+          <lb ed="#P" n="105"/>patet ex dictis, quia illud relativum neutrum,
+          <lb ed="#P" n="106"/>quod, declarat etiam aliud relativum 
+          identita<lb break="no" ed="#P" n="107"/>tis satis in eodem genere usurpari. Ac talia
+          <pb ed="#P" n="644"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>relativa in neutro posita, identitatem tantum
+          <lb ed="#P" n="2"/>in essentia indicant, ut supra dictum est.
+        </p>
+        <p xml:id="szduep-162713-d1e296">
+          <lb ed="#P" n="3"/>4. Deus unicus. — Rursus vero dubitari 
+          so<lb break="no" ed="#P" n="4"/>let, an personae, vel simul, vel sigillatim dici
+          <lb ed="#P" n="5"/>possint Deus unicus. Nam D. Thomas, 1 part.,
+          <lb ed="#P" n="6"/>quaest. 31, art. 4, videtur non admittere hanc
+          <lb ed="#P" n="7"/>locutionem, quod sequitur etiam 
+          Bonaventu<lb break="no" ed="#P" n="8"/>ra, in 1, dist. 21, art. 2. quaest. 1, et favet 
+          Hi<lb break="no" ed="#P" n="9"/>larius 7, de Trinitate, in fine, ubi significat,
+          <lb ed="#P" n="10"/>Deum dicendum non esse unicum. 
+          Fundamen<lb break="no" ed="#P" n="11"/>tum esse potest, quia haec vos videtur 
+          exclu<lb break="no" ed="#P" n="12"/>dere consortium personarum. Illam tamen 
+          lo<lb break="no" ed="#P" n="13"/>cutionem admittit Durandus in 1, d. 9, q. 1.
+          <lb ed="#P" n="14"/>Quia non plus significat unicus, quam wnus
+          <lb ed="#P" n="15"/>tantum, nam hoc sensu dicitur unicus Pater,
+          <lb ed="#P" n="16"/>et unica Deitas. Unde quando dicitur unicus
+          <lb ed="#P" n="17"/>Deus, ex vi sermonis illud nomen unicus cadit
+          <lb ed="#P" n="18"/>in Deum formaliter, quatenus Deus est, et ideo
+          <lb ed="#P" n="19"/>non excludit consortium personarum, sed 
+          Deo<lb break="no" ed="#P" n="20"/>rum. Atque hoc mihi videtur inrigore verum.
+        </p>
+        <p xml:id="szduep-162713-d1e338">
+          <lb ed="#P" n="21"/>5. Deus singularis. — Non est Deus 
+          solita<lb break="no" ed="#P" n="22"/>vius. —Deus unus non unitus.— Idemque 
+          judi<lb break="no" ed="#P" n="23"/>cium est de illa locutione, in qua Deus dicitur
+          <lb ed="#P" n="24"/>singularis : quam etiam Hilarius supra negare
+          <lb ed="#P" n="25"/>videtur, et Leo papa, serm. 2, Pentecost. : /n
+          <lb ed="#P" n="26"/>Deitate (inquit) nec singularitas est, nec 
+          diver<lb break="no" ed="#P" n="27"/>citas. Videntur autem sumpsisse 
+          singularita<lb break="no" ed="#P" n="28"/>tem pro incommunicabilitate. Proprie tamen,
+          <lb ed="#P" n="29"/>et juxta communem usum, singulare 
+          univer<lb break="no" ed="#P" n="30"/>sali opponitur et idem significat, quod 
+          indivi<lb break="no" ed="#P" n="31"/>duum, et unum numero, quo sensu verrssima
+          <lb ed="#P" n="32"/>est illa locutio. Et sic Anselmus, de Incarn.
+          <lb ed="#P" n="33"/>Verbi, cap. 3, tres personas vocat unwum 
+          nume<lb break="no" ed="#P" n="34"/>ro Deum : et Lactantius, lib. 4, cap. 29, circa
+          <lb ed="#P" n="35"/>finem,vocat singularem Deum - et Sophronius,
+          <lb ed="#P" n="36"/>in dicta Epistola vocat Deitatis unitatem 
+          sin<lb break="no" ed="#P" n="37"/>gularem. Magis cavenda est haec vox 
+          Solita<lb break="no" ed="#P" n="38"/>rius, quia excludere videtur societatem 
+          perso<lb break="no" ed="#P" n="39"/>narum : et ideo: illam etiam negat Hilarius
+          <lb ed="#P" n="40"/>supra, et lib. 4, de Trinitate. Et sumitur etiam
+          <lb ed="#P" n="41"/>ex Augustino 6, de Trinitate, cap. 6 et 7. 
+          Ex<lb break="no" ed="#P" n="42"/>pressius id tradit Concilium Toletanum, 6, in
+          <lb ed="#P" n="43"/>confessione fidei. Tandem dubitari solet, an
+          <lb ed="#P" n="44"/>tres personae divinae dici possunt : Unite in
+          <lb ed="#P" n="45"/>Deitate, vel conjunctae. Nam ita videtur loqui
+          <lb ed="#P" n="46"/>Dionysius, cap. 2 et 3, de Divinis nominibus
+          <lb ed="#P" n="47"/>dum nomina essentialia vocat conjuncta : 
+          Si<lb break="no" ed="#P" n="48"/>gnificat etiam Nazianzenus, oratione 23, 
+          Ber<lb break="no" ed="#P" n="49"/>nardus autem, lib. 5, de Consideratione ad 
+          Eu<lb break="no" ed="#P" n="50"/>genium, unus, inquit, non unitus : et idem 
+          ha<lb break="no" ed="#P" n="51"/>betur nomine Bedae in dicto commentario. Et
+          <lb ed="#P" n="52"/>sumitur ex Cyrillo cum Concilio Alexandrino,
+          <lb ed="#P" n="53"/>Epistol. 10. Et sine dubio hic posterior 
+          lo<lb break="no" ed="#P" n="54"/>quendi modus est magis proprius: quia 
+          u<lb break="no" ed="#P" n="55"/>nio indicat distinctionem unitorum: et ideo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cum personae dicuntur unitae in Deitate, 
+          indi<lb break="no" ed="#P" n="57"/>catur distinctio inter ipsas et Deitatem. Et hoc
+          <lb ed="#P" n="58"/>maxime intendit Bernardus, nam hunc 
+          erro<lb break="no" ed="#P" n="59"/>rem impugnabat : propriissime ergo dicuntur
+          <lb ed="#P" n="60"/>unum in Deitate. Quod si dicantur unitae, 
+          di<lb break="no" ed="#P" n="61"/>cendum est PDeitate, non in Deitate, nec 
+          Dei<lb break="no" ed="#P" n="62"/>tati : ut non significetur unio inter personam
+          <lb ed="#P" n="63"/>et Deitatem, et consequenter nec distinctio:
+          <lb ed="#P" n="64"/>sed indicetur unio inter ipsas personas, quae
+          <lb ed="#P" n="65"/>vere sunt distinctae et vinculum hujus unionis
+          <lb ed="#P" n="66"/>dicatur esse sola Deitas, quod recte explicatum
+          <lb ed="#P" n="67"/>verum est: quia non per unionem, sed per
+          <lb ed="#P" n="68"/>identitatem cum personis, illas inter se unit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

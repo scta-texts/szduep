@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="-1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-000003"><!-- t1-pro -->
+        <p xml:id="szduep-000003-d1e101">
+          <pb ed="#P" n="-1"/>
+          <!-- f something -->
+          <lb ed="#P" n="1"/>TRACTATUS DE DIVINA SUBSTANTIA
+          <lb ed="#P" n="2"/>EJUSQUE ATTRIBUTIS.
+          <lb ed="#P" n="3"/>PROOEMIUM.
+        </p>
+        <p xml:id="szduep-000003-d1e114">
+          <lb ed="#P" n="4"/>Universa fere, quae Deo, ut unus est, attribuuntur, duplici theologia cognosci
+          <lb ed="#P" n="5"/>possunt, naturali, et infusa, seu supernaturali. Naturali quidem, quatenus, coeli
+          <lb ed="#P" n="6"/>enarrant gloriam Dei, quod de elementis, animalibus, et praesertim de ipsius 
+          ho<lb break="no" ed="#P" n="7"/>minis natura dici potuisset. Propter quod generalius Paulus dixit, invisibilia Dei per
+          <lb ed="#P" n="8"/>ea, qua facta sunt, intellecta conspiciuntur, sempiterna quoque ejus virtus, ac
+          <lb ed="#P" n="9"/>dwinitas : Et consonat sapiens cum ait, a magnitudine speciet, et creaturee 
+          cognos<lb break="no" ed="#P" n="10"/>cibiliter posse creatorem horum videri. Divina autem, et altiori theologia haec de
+          <lb ed="#P" n="11"/>Deo cognoscuntur, quando ex divina revelatione, et per illam percipiuntur ; quoniam
+          <lb ed="#P" n="12"/>si Paulus dixit : accedentem ad Deum oportet credere, quia est, et inquirentibus se
+          <lb ed="#P" n="13"/>remunerator sit (quae sunt) ut ita dicam (prima elementa cognitionis Dei) multo 
+          ma<lb break="no" ed="#P" n="14"/>gis caetera omnia, quae per naturalem discursum de Deo inquiri possunt, altiori, ac
+          <lb ed="#P" n="15"/>certiori modo ex revelatione cognoscetur. Nec vero duplex hic modus cognoscendi
+          <lb ed="#P" n="16"/>Deum supervacaneus est, aut otiosus, nam prior ad perfectionem naturae 
+          consenta<lb break="no" ed="#P" n="17"/>neam pertinet; et superiori theologiae inservire potest; erit nihilominus ille valde
+          <lb ed="#P" n="18"/>imperfectus, nisi posteriori juvetur; tum ut homo ab erroribus praeservetur, tum
+          <lb ed="#P" n="19"/>etiam ut firmius, et mmobilibus divinis veritatibus adhaereat. Praeterquam quod multa
+          <lb ed="#P" n="20"/>per supernaturalem theologiam, revelantur, quae theologiam naturalem attingi non
+          <lb ed="#P" n="21"/>possunt.
+        </p>
+        <p xml:id="szduep-000003-d1e156">
+          <lb ed="#P" n="22"/>Hinc factum est, ut theologi scholastici disputantes de Deo utramque theologiam
+          <lb ed="#P" n="23"/>promiscue tradiderint, quoniam licet per se, et ex instituto supernaturalem 
+          theolo<lb break="no" ed="#P" n="24"/>giam doceant, nam ex revelatis principiis procedunt, nihilominus naturali Theologia
+          <lb ed="#P" n="25"/>utuntur ut ministra, ad supernaturales veritates confirmandas, et ut ex utriusque
+          <lb ed="#P" n="26"/>theologiae consonantia animus fidelis in illis veritatibus facilius conquiescat. Quoniam
+          <lb ed="#P" n="27"/>vero in opere, in quo Metaphysicam sapientiam tradidimus, necessarium nobis fuit
+          <lb ed="#P" n="28"/>ad illius doctrinae complementum naturalem theologiam disüncte ac separatim pro
+          <lb ed="#P" n="29"/>viribus elaborare : idcirco multo brevius hic possumus ea omnia, quae de divinae 
+          na<lb break="no" ed="#P" n="30"/>turae excellentia per naturalem rationem aliquo modo cognoscuntur, percurrere. Unde
+          <lb ed="#P" n="31"/>cum multi a nobis efffagitarent, ut saltem ea, quae in scholis de Deo secundum se
+          <lb ed="#P" n="32"/>tradidimus, in lucem proferremus, quod facili negotio, et brevi opere, ob causam
+          <lb ed="#P" n="33"/>dictam, fieri posse videbatur, eis, annuendum putavimus. Praesertim quia, cum in
+          <lb ed="#P" n="34"/>alis libris de caeteris fidei mysteriis tractaverimus, ea, quae ad ipsam divinitatem
+          <lb ed="#P" n="35"/>pertinent, et inter alia praecipua sunt, ac caeterorum fundamenta amplius differre non
+          <lb ed="#P" n="36"/>oportebat.
+        </p>
+        <p xml:id="szduep-000003-d1e191">
+          <lb ed="#P" n="37"/>Dicemus igitur in hoc opere de Deo, ut unus est, et ut trinus, et ita duas habebit
+          <lb ed="#P" n="38"/>partes principales, prior de Dei Unitate dici potest, altera de Trinitate. Inter ea vero,
+          <lb ed="#P" n="39"/>quae ad priorem ordinem pertinent, fere omnia, quae Deo, ut unus est, conveniunt,
+          <lb ed="#P" n="40"/>aliquo modo naturali ratione, attinguntur, praeter divinam praedestinationem, et ideo
+          <lb ed="#P" n="41"/>de illa multo fusius a nobis scribendum est, quam de aliis. Subdividemus ergo illam
+          <lb ed="#P" n="42"/>priorem partem in duas, eritque posterior de praedestinatione, prior de Deo, ejusque
+          <lb ed="#P" n="43"/>reliquis attributis. Inter quae unum est, quod naturalis theologia in totum fere re-
+          <pb ed="#P" n="0"/>
+          <!-- f something -->
+          <lb ed="#P" n="1"/>linquit, nimirum, quomodo Deus sit visibulis, vel invisibilis a creatura, quod 
+          myste<lb break="no" ed="#P" n="2"/>rium altissimum est, estque (ut ego judico), totius ordinis gratiae, ac proinde ipsius
+          <lb ed="#P" n="3"/>etiam praedestinationis fundamentum, et ideo in primo tractatu hujus operis per 
+          cae<lb break="no" ed="#P" n="4"/>tera attributa brevissime discurremus supponendo ea, quae vel in Metaphysica, vel in
+          <lb ed="#P" n="5"/>aliis nostris opusculis de illis tractavimus, illaque addendo, quae ad supernaturalem
+          <lb ed="#P" n="6"/>Theologiam spectant : de visione vero creata Dei latius dicemus.
+        </p>
+        <p xml:id="szduep-000003-d1e226">
+          <lb ed="#P" n="7"/>De illis autem quaestionibus, quae vel in prologo sententiarum, vel in principio
+          <lb ed="#P" n="8"/>primae partis tradi solent, id est, de theologia, ejusque objecto, et proprietatibus, in
+          <lb ed="#P" n="9"/>hoc opere nihil dicemus, tum quia brevitati studemus tum praecipue, quia, si omnes
+          <lb ed="#P" n="10"/>quaestiones illae spectentur, quatenus ex generalibus principiis Metaphysicae pendent,
+          <lb ed="#P" n="11"/>ut sunt, de unitate scientiae, vel formahtate objecti ejus, de speculatione, et praxi, et
+          <lb ed="#P" n="12"/>similibus, in Metaphysica haec omnia sunt a nobis tradita, et fere in initio 
+          cujuscum<lb break="no" ed="#P" n="13"/>quescientiae, etiam ipsius Dialecticae, praemitti solent. Si autem considerentur nostrae
+          <lb ed="#P" n="14"/>Theologiae proprietates, ut aliquo modo supernaturales sunt, habent dependentiam a
+          <lb ed="#P" n="15"/>lumine fidei, et sine illius doctrina intelligi non possunt, et cum illa facillime 
+          expe<lb break="no" ed="#P" n="16"/>dientur, ideoque (si vita comite, et Deo bene juvante, post doctrinam de gratia, de
+          <lb ed="#P" n="17"/>theologicis virtutibus doctrinam tradere, concessum aliquando fuerit) simul cum fide,
+          <lb ed="#P" n="18"/>de theologia ipsa, imo de omni virtute supernaturali intellectus, per quam Deus in
+          <lb ed="#P" n="19"/>hac vita cognosci solet, disseremus. Nunc ea, quae clara sunt, nobisque sufficiunt,
+          <lb ed="#P" n="20"/>supponimus, scilicet theologiae objectum, vel primarium, vel suo modo adaequatum,
+          <lb ed="#P" n="21"/>Deum esse, pro ut unus, et trinus est, et prout est primum principium, et finis 
+          ul<lb break="no" ed="#P" n="22"/>timus creaturarum omnium. Quod objectum a fide recipit haec scientia, ideoque ex
+          <lb ed="#P" n="23"/>principiis fide divina revelatis, et creditis, ad suas veritates demonstrandas procedit,
+          <lb ed="#P" n="24"/>et inde suam unitatem, et certitudinem, aliasque perfectiones participat. In hoc
+          <lb ed="#P" n="25"/>vero opere, ea pars hujus doctrinae tantum a nobis traditur, quae circa Deum ipsum
+          <lb ed="#P" n="26"/>versatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

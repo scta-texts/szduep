@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="549"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-139047"><!-- t3-l1c5 -->
+        <head xml:id="szduep-139047-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-139047-Hd1e103" type="question-title">In trinitate processiones non esse immediate a natura, sed per intellectum, et voluntatem</head>
+        <p xml:id="szduep-139047-d1e106">
+          <lb ed="#P" n="92"/>CAPUT V.
+          <lb ed="#P" n="93"/>IN TRINITATE PROCESSIONES NON ESSE IMMEDIATE
+          <lb ed="#P" n="94"/>A NATURA, SED PER INTELLECTUM, ET 
+          VOLUN<lb break="no" ed="#P" n="95"/>TATEM.
+        </p>
+        <p xml:id="szduep-139047-d1e117">
+          <lb ed="#P" n="96"/>1. Sensus quaestionis. — Quamvis in Deo
+          <lb ed="#P" n="97"/>non sit actualis distinctio in re inter naturam,
+          <lb ed="#P" n="98"/>seu essentiam et actum, ac proprietatem ejus,
+          <lb ed="#P" n="99"/>intellectum, scilicet et voluntatem, 
+          nihilomi<lb break="no" ed="#P" n="100"/>nus rationis distinctio cum fundamento in re
+          <lb ed="#P" n="101"/>sufficit, ut nos juxta nostrum concipiendi 
+          mo<lb break="no" ed="#P" n="102"/>dum intelligamus aliquid convenire divinae 
+          na<lb break="no" ed="#P" n="103"/>turae sub una ratione, et non sub alia. Sic enim
+          <lb ed="#P" n="104"/>vere dicimus, Deum per justitiam punire, et per
+          <lb ed="#P" n="105"/>misericordiam parcere et non e converso. Sic
+          <lb ed="#P" n="106"/>ergo in praesenti quaerimus, cum una persona
+          <lb ed="#P" n="107"/>realiter ab alia procedat, ut ostensum est, an
+          <pb ed="#P" n="550"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>procedat immediate per naturam, ut natura
+          <lb ed="#P" n="2"/>est, vel ut affecta proprietate intelligendi, vel
+          <lb ed="#P" n="3"/>amandi, seu quatenus est intellectus, vel 
+          vo<lb break="no" ed="#P" n="4"/>luntas: ad colligendum enim et 
+          concluden<lb break="no" ed="#P" n="5"/>dum personarum numerum, quod in hoc 
+          li<lb break="no" ed="#P" n="6"/>bro intendimus, necessaria est praesens 
+          quaes<lb break="no" ed="#P" n="7"/>tio, quia numerum personarum ex numero
+          <lb ed="#P" n="8"/>processionum colligere debemus ; numerum
+          <lb ed="#P" n="9"/>autem processionum declarare non possumus,
+          <lb ed="#P" n="10"/>nisi prius intelligantur, quales sint et per quos
+          <lb ed="#P" n="11"/>actus.
+        </p>
+        <p xml:id="szduep-139047-d1e174">
+          <lb ed="#P" n="12"/>2. Opinio Durandi. — Durandus ergo in 1,
+          <lb ed="#P" n="13"/>distinct. 6, quaest. 2, et distinct. 10, quaest. 2,
+          <lb ed="#P" n="14"/>opinatus est, illas processiones esse immediate
+          <lb ed="#P" n="15"/>per naturam, et non per intellectum, vel 
+          vo<lb break="no" ed="#P" n="16"/>luntatem. Itaque intelligit, primam Trinitatis
+          <lb ed="#P" n="17"/>personam a se, et per se constitutam in suo
+          <lb ed="#P" n="18"/>esse divino et personali, licet sit intelligens et
+          <lb ed="#P" n="19"/>amans, non producere personam secundam
+          <lb ed="#P" n="20"/>formaliter, quatenus intelligens est, sed solum,
+          <lb ed="#P" n="21"/>quia est infinitum ens habens naturam 
+          infini<lb break="no" ed="#P" n="22"/>te foecundam, ut si lux solis esset intelligens
+          <lb ed="#P" n="23"/>et produceret lumen eo modo, quo nunc 
+          pro<lb break="no" ed="#P" n="24"/>ducit, non produceret illud, qua intelligens
+          <lb ed="#P" n="25"/>esset, sed solum, ut est talis forma sic 
+          foecun<lb break="no" ed="#P" n="26"/>da. Huic opinioni favet Gregorius 1, distinct.7,
+          <lb ed="#P" n="27"/>quaest. 4, art, 2, distinct. 10, quaest. 1, art. 1,
+          <lb ed="#P" n="28"/>dicit enim, intellectum et voluntatem non esse
+          <lb ed="#P" n="29"/>principia divinarum productionum. At ille non
+          <lb ed="#P" n="30"/>negat processiones divinas esse per intellectum
+          <lb ed="#P" n="31"/>et voluntatem, sed eo posito, negat 
+          intellec<lb break="no" ed="#P" n="32"/>tum vel voluntatem esse dicendam principium
+          <lb ed="#P" n="33"/>producendi, quae alia quaestio est infra suoloco
+          <lb ed="#P" n="34"/>tractanda.
+        </p>
+        <p xml:id="szduep-139047-d1e227">
+          <lb ed="#P" n="35"/>3. Durandi fundamenta.—Vtundamenta 
+          Du<lb break="no" ed="#P" n="36"/>randi sunt. Primo, quia sancti dicunt, Filium
+          <lb ed="#P" n="37"/>procedere a Patre natura, non voluntate, 
+          pro<lb break="no" ed="#P" n="38"/>cedit ergo immediate per naturam. Secundo,
+          <lb ed="#P" n="39"/>quia ex infinitate divina essentiae provenit,
+          <lb ed="#P" n="40"/>quod sit communicabilis tribus personis et ex
+          <lb ed="#P" n="41"/>foecunditate ejusdem essentie , seu naturae
+          <lb ed="#P" n="42"/>provenit, quod sit in Deo processio, ergo est
+          <lb ed="#P" n="43"/>immediate per naturam. Tertio, 
+          argumenta<lb break="no" ed="#P" n="44"/>tur ex creaturis, in quibus naturalis productio
+          <lb ed="#P" n="45"/>Filii non est per actum intellectus, vel per 
+          a<lb break="no" ed="#P" n="46"/>lium immanentem, etiam in his rebus, quae
+          <lb ed="#P" n="47"/>tales actus habere possunt, sed est per 
+          imme<lb break="no" ed="#P" n="48"/>diatam actionem ipsius naturae per formam
+          <lb ed="#P" n="49"/>suam: ergo simili modo intelligenda est 
+          ge<lb break="no" ed="#P" n="50"/>neratio et processio in Deo. Quarto, quia si
+          <lb ed="#P" n="51"/>verbum divinum producitur per actum 
+          intel<lb break="no" ed="#P" n="52"/>ligendi, vel est tanquam per principium quo
+          <lb ed="#P" n="53"/>producendi, vel tanquam per actionem, seu
+          <lb ed="#P" n="54"/>productionem ipsam, non enim potest aliud
+          <lb ed="#P" n="55"/>membrum, seu medium excogitari : neutrum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>autem ex illis dici potest. De primo patet, quia
+          <lb ed="#P" n="57"/>actus immanentes, teste Aristotele 9. 
+          Metaphy<lb break="no" ed="#P" n="58"/>sicae non sunt principia productiva, actus 
+          au<lb break="no" ed="#P" n="59"/>tem intelligendi est immanens. Secundum 
+          pro<lb break="no" ed="#P" n="60"/>batur, quia intcelligere est essentiale et 
+          com<lb break="no" ed="#P" n="61"/>mune omnibus personis, producere autem 
+          Ver<lb break="no" ed="#P" n="62"/>bum non est commune, ergo intellectio, ut sic,
+          <lb ed="#P" n="63"/>non est formalis productio, alias quicumque
+          <lb ed="#P" n="64"/>intelligeret, produceret.
+        </p>
+        <p xml:id="szduep-139047-d1e297">
+          <lb ed="#P" n="65"/>4. Productiones diurnas non esse immediate
+          <lb ed="#P" n="66"/>per essentiam, sed per intellectum et voluntatem.
+          <lb ed="#P" n="67"/>—bDicendum vero est productiones divinas non
+          <lb ed="#P" n="68"/>esse immediate per essentiam, utab intellectu et
+          <lb ed="#P" n="69"/>voluntate distinctam secundum rationem, sed
+          <lb ed="#P" n="70"/>esse per actus intellectus et voluntatis. Assertio
+          <lb ed="#P" n="71"/>est in theologia certa, et opinio Durandi 
+          teme<lb break="no" ed="#P" n="72"/>raria et errori proxima censenda est, quia in re
+          <lb ed="#P" n="73"/>gravissima et supernaturali singularis est, et
+          <lb ed="#P" n="74"/>aliena a sensu sanctorum, et a modo loquendi
+          <lb ed="#P" n="75"/>Scripturae sacrae. Primo itaque conctiusio 
+          posi<lb break="no" ed="#P" n="76"/>ta communis est antiquorum Theologorum,
+          <lb ed="#P" n="77"/>D. Thomsee, 1, part., quaest. 27, per totam,
+          <lb ed="#P" n="78"/>Alensis, 1 part., quaest. 42, memb. 2, et quaest.
+          <lb ed="#P" n="79"/>43, memb. 3, Bonaventurae, in 1, distin. 10 et
+          <lb ed="#P" n="80"/>21. et eisdem locis Alberti Capreoli et aliorum,
+          <lb ed="#P" n="81"/>Gabrielis, dist. 7, quaest 2, Richardi, distin. 1,
+          <lb ed="#P" n="82"/>art. 1, Marsilii, quaest. 6, art. 2, Scoti et 
+          Hen<lb break="no" ed="#P" n="83"/>rici, locis referendis in sequentibus capitibus.
+          <lb ed="#P" n="84"/>Moderni etiam omnes contra Durandum con-.
+          <lb ed="#P" n="85"/>veniunt, ejusque opinionem censura notant.
+          <lb ed="#P" n="86"/>Secundo sancti Patres per proprietates, et 
+          ac<lb break="no" ed="#P" n="87"/>tus intellectionis et amoris semper explicant
+          <lb ed="#P" n="88"/>has processiones. Praesertim Augustinus, libro
+          <lb ed="#P" n="89"/>de Trinitate et de Processione Filii, optime
+          <lb ed="#P" n="90"/>Cyrillus, libro 1, in Joan., cap. 5, 
+          Chrysosto<lb break="no" ed="#P" n="91"/>mus et omnes expositores, in principium 
+          Evan<lb break="no" ed="#P" n="92"/>gelii Joannis, et Basilius, homilia in idem 
+          prin<lb break="no" ed="#P" n="93"/>cipium, et Theodoretus, lib. 2, ad Graecos, 
+          Ire<lb break="no" ed="#P" n="94"/>naeus, lib. 2, cóntra haereses, cap. 28, 
+          Damas<lb break="no" ed="#P" n="95"/>cenus, lib. 1, de Fide, cap. 9, Anselmus, in
+          <lb ed="#P" n="96"/>Monologio, cap. 43, et sequentibus, et plures
+          <lb ed="#P" n="97"/>alios referemus infra tractantes de Verbo 
+          di<lb break="no" ed="#P" n="98"/>vino. Qui omnes idem proportionaliter sentiunt
+          <lb ed="#P" n="99"/>de Spiritu sancto, quem propterea vocant 
+          cha<lb break="no" ed="#P" n="100"/>ritatem Patris, et Filii, ut est apud 
+          Augusti<lb break="no" ed="#P" n="101"/>num, lib. 9, de Trinitate, cap. 12, et lib. 15,
+          <lb ed="#P" n="102"/>cap. 17, ubi ait: Spiritum sanctum esse 
+          pro<lb break="no" ed="#P" n="103"/>cedentem amorem. Quomodo loquitur etiam
+          <lb ed="#P" n="104"/>Gregorius, hom. 30, in Evangelia.
+        </p>
+        <p xml:id="szduep-139047-d1e386">
+          <lb ed="#P" n="105"/>5. Patrum fundamenta.— Tertio, quod 
+          ca<lb break="no" ed="#P" n="106"/>put est, tam Patres, quam theologi fundantur
+          <lb ed="#P" n="107"/>in manifestis locutionibus Scriptura, in qua
+          <lb ed="#P" n="108"/>Filius saepe vocatur Verbum, et sapientia 
+          Pa<lb break="no" ed="#P" n="109"/>tris, et propterea dicitur, Ex ore Altissimi
+          <lb ed="#P" n="110"/>prodiisse. Sapientiae 7, Ecclesiast. 24. Nomine 
+          <pb ed="#P" n="551"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>autem oris, in re spirituali nihil, nisi 
+          intellec<lb break="no" ed="#P" n="2"/>tus significari potest. Spiritus autem sanctus
+          <lb ed="#P" n="3"/>vocatur amor propter processionem voluntatis.
+          <lb ed="#P" n="4"/>hespondet Durandus, haec dicta esse non per
+          <lb ed="#P" n="5"/>proprietatem, sed per quamdam 
+          accommoda<lb break="no" ed="#P" n="6"/>tionem, seu approbationem, nam quia 
+          proces<lb break="no" ed="#P" n="7"/>sio Filii est prior, quam processio Spiritus
+          <lb ed="#P" n="8"/>sancti, ideo (ait) illa dicitur esse per 
+          intel<lb break="no" ed="#P" n="9"/>lectum, et haec per voluntatem, quia operatio
+          <lb ed="#P" n="10"/>intellectus natura sua est prior et voluntatis
+          <lb ed="#P" n="11"/>posterior. Sed haec imprimis valde remota 
+          a<lb break="no" ed="#P" n="12"/>nalogia est, et a longe petita. Unde magna
+          <lb ed="#P" n="13"/>audacia est, verba Scripturae, et Sanctorum ad
+          <lb ed="#P" n="14"/>sensum tam improprium detorquere. Deinde
+          <lb ed="#P" n="15"/>ex illa interpretatione sequitur, secundam 
+          per<lb break="no" ed="#P" n="16"/>sonam non esse proprie Verbum, quod 
+          spec<lb break="no" ed="#P" n="17"/>tat ad haeresim Eunomii, et Alogorum, ut 
+          in<lb break="no" ed="#P" n="18"/>fra libro nono videbimus. Praeterea illa 
+          meta<lb break="no" ed="#P" n="19"/>phoraest irrationabilis, namsi utraqueprocessio
+          <lb ed="#P" n="20"/>est immediate per naturam divinam, ut natura
+          <lb ed="#P" n="21"/>est,et ex pura necessitate naturae, quae ratio 
+          red<lb break="no" ed="#P" n="22"/>di potest, cur una illarum processionum sit
+          <lb ed="#P" n="23"/>prior alia? Certe Durandus nullam affert, nec 
+          fa<lb break="no" ed="#P" n="24"/>cile ut opinior, excogitari potest. Et hinc 
+          sum<lb break="no" ed="#P" n="25"/>muntur alia efficacia argumenta ab 
+          inconve<lb break="no" ed="#P" n="26"/>nienti contra Durandum. Nam juxta illius 
+          opi<lb break="no" ed="#P" n="27"/>nionem, nulla ratio reddi potest, cur una 
+          illa<lb break="no" ed="#P" n="28"/>rum processionum sit generatio, et non alia,
+          <lb ed="#P" n="29"/>cum utraque sit immediate per naturam, ut
+          <lb ed="#P" n="30"/>natura est, et sit necessaria, ac substantialis
+          <lb ed="#P" n="31"/>communicatio ejus. Similiter non potest ratio
+          <lb ed="#P" n="32"/>reddi, cur illae productiones sint duae, et non
+          <lb ed="#P" n="33"/>plures. Item cur una sit ab uno tantum, et 
+          a<lb break="no" ed="#P" n="34"/>lia a duobus. Nec denique cur Filius 
+          proce<lb break="no" ed="#P" n="35"/>dens dicatur imago Patris, et non Spiritus
+          <lb ed="#P" n="36"/>sanctus.
+        </p>
+        <p xml:id="szduep-139047-d1e484">
+          <lb ed="#P" n="37"/>6. Ratio a priori. —Quarto, est ratio a
+          <lb ed="#P" n="38"/>priori juxta materiae capacitatem, quia in
+          <lb ed="#P" n="39"/>omni rerum genere productio, vel 
+          communi<lb break="no" ed="#P" n="40"/>catio naturae fit per operationem propriam,
+          <lb ed="#P" n="41"/>seu accommodatam tali naturae, in re autem
+          <lb ed="#P" n="42"/>pure intellectuali propria operatio est actus
+          <lb ed="#P" n="43"/>intellectus, vel voluntatis: cum ergo Deus sit
+          <lb ed="#P" n="44"/>in gradu pure intellectuali, productio, quae
+          <lb ed="#P" n="45"/>intra illum est, per actum intellectus, vel 
+          vo<lb break="no" ed="#P" n="46"/>luntatis esse debet. Et declaratur, nam juxta
+          <lb ed="#P" n="47"/>opinionem Durandi illae divinae productiones
+          <lb ed="#P" n="48"/>non essent per modum actuum vitalium, sed
+          <lb ed="#P" n="49"/>per modum naturalium actionum, qualis est
+          <lb ed="#P" n="50"/>calefactio ab igne, et illuminatio a sole: Unde
+          <lb ed="#P" n="51"/>etiam non essent per modum actuum 
+          im<lb break="no" ed="#P" n="52"/>manentium, sed per modum actuum 
+          trans<lb break="no" ed="#P" n="53"/>euntium: haec autem sunt inconvenientia,
+          <lb ed="#P" n="54"/>quia divina productio debet intelligi summo,
+          <lb ed="#P" n="55"/>ac perfectissimo modo, productio autem vita-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lis est perfectio non vitali et actus immanens
+          <lb ed="#P" n="57"/>transeunte. Imo inde etiam sequeretur, 
+          Ver<lb break="no" ed="#P" n="58"/>bum non esse proprie Filium, quia non 
+          quae<lb break="no" ed="#P" n="59"/>cumque res genita, sed illa, quae procedit per
+          <lb ed="#P" n="60"/>vitalem generationem Filius appellatur. Et
+          <lb ed="#P" n="61"/>similiter Filius Dei ex vi processionis non esset
+          <lb ed="#P" n="62"/>in sinu Patris, sed solum identice propter
+          <lb ed="#P" n="63"/>unitatem substantiae.
+        </p>
+        <p xml:id="szduep-139047-d1e547">
+          <lb ed="#P" n="64"/>7. Processio divina quo modo per naturam.
+          <lb ed="#P" n="65"/>— Nemque rationes Durandi aliquid contra hoc
+          <lb ed="#P" n="66"/>probant. Et imprimis illa locutio, quod Filius
+          <lb ed="#P" n="67"/>est non per voluntatem, sed per naturam, 
+          ni<lb break="no" ed="#P" n="68"/>hil ad rem facit. Nam, ut recte dixit D. 
+          Tho<lb break="no" ed="#P" n="69"/>mas, 1 part., quaest. 30, art. 2, ad 2, et quaest.
+          <lb ed="#P" n="70"/>10, de Potentia, art. 2, ad 11, processio per
+          <lb ed="#P" n="71"/>naturam et per intellectum in Deo coincidunt.
+          <lb ed="#P" n="72"/>Vocatur enim per naturam, quia ex vi talis
+          <lb ed="#P" n="73"/>processionis communicatur ipsa natura. Dici
+          <lb ed="#P" n="74"/>etiam solet per naturam, et non per 
+          volunta<lb break="no" ed="#P" n="75"/>tem, quia est Filius naturalis, non adoptivus,
+          <lb ed="#P" n="76"/>per essentiam, non per gratiam, ut exposuit
+          <lb ed="#P" n="77"/>Fulgentius, ad 4objectionem Arianorum. 
+          Inter<lb break="no" ed="#P" n="78"/>dum etiam dicuntur processiones illae esse 
+          na<lb break="no" ed="#P" n="79"/>turales. seu per naturam, quia non sunt 
+          libe<lb break="no" ed="#P" n="80"/>rae, sed mere necessariae, ut infra videbimus.
+        </p>
+        <p xml:id="szduep-139047-d1e586">
+          <lb ed="#P" n="81"/>8. Divine personae quo modo ex foecunditate
+          <lb ed="#P" n="82"/>nature. — Ad secundum, data consequentia
+          <lb ed="#P" n="83"/>prima, negatur secunda. Nam divinae personae
+          <lb ed="#P" n="84"/>etiam dici possunt esse ex foecunditate naturae,
+          <lb ed="#P" n="85"/>non quia ipsa natura, ut sic, seclusa ratione
+          <lb ed="#P" n="86"/>intellectus et voluntatis, sit proxima ratio 
+          ta<lb break="no" ed="#P" n="87"/>lium processionum, sed quia ex infinitate ejus
+          <lb ed="#P" n="88"/>provenit, ut ita dicam, radicalis foecunditas
+          <lb ed="#P" n="89"/>et communicabilitas necessaria ad illas 
+          pro<lb break="no" ed="#P" n="90"/>ductiones.
+        </p>
+        <p xml:id="szduep-139047-d1e611">
+          <lb ed="#P" n="91"/>9. Tertia item ratio Durandi nullius 
+          mo<lb break="no" ed="#P" n="92"/>menti est, sic enim colligere posset, in Deo
+          <lb ed="#P" n="93"/>non esse processiones ad intra, quia in rebus
+          <lb ed="#P" n="94"/>creatis, nulla res pure intellectualis potest
+          <lb ed="#P" n="95"/>suam substantiam communicare, etiam per
+          <lb ed="#P" n="96"/>immediatam ipsius naturae. Sicut ergo divina
+          <lb ed="#P" n="97"/>substantia ob suam infinitatem altiori modo
+          <lb ed="#P" n="98"/>communicabilis est, ita etiam divinus 
+          intel<lb break="no" ed="#P" n="99"/>lectus et voluntas possunt esse proxima 
+          prin<lb break="no" ed="#P" n="100"/>cipia illius communicationis.
+        </p>
+        <p xml:id="szduep-139047-d1e635">
+          <lb ed="#P" n="101"/>10. Ultima Durandi ratio quamvis per se sit
+          <lb ed="#P" n="102"/>difficilis, retorqueri potest in ipsum, quia 
+          e<lb break="no" ed="#P" n="103"/>tiam divina natura communis est omnibus
+          <lb ed="#P" n="104"/>personis: quomodo ergo per eamdem 
+          essen<lb break="no" ed="#P" n="105"/>tiam Pater generat et non Filius? Quod igitur
+          <lb ed="#P" n="106"/>Durandus de essentia, ut essentia est, 
+          respon<lb break="no" ed="#P" n="107"/>derit, hoc nos de intellectione respondebimus.
+          <lb ed="#P" n="108"/>Adde, quod essentia divina in suo essentiali et
+          <lb ed="#P" n="109"/>quasi specifico esse constituitur per suum 
+          in<lb break="no" ed="#P" n="110"/>telligere, ut in Metaphysica dixi, et infra, libro
+          <pb ed="#P" n="552"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nono attingam. Unde non potest prima 
+          per<lb break="no" ed="#P" n="2"/>sona per naturam procedere, quin procedat
+          <lb ed="#P" n="3"/>per intelligere, quod si prima processio est
+          <lb ed="#P" n="4"/>per intellectum, nemo negabit secundam esse
+          <lb ed="#P" n="5"/>per voluntatem. At enim, licet Durandus 
+          ea<lb break="no" ed="#P" n="6"/>dem difficultate prematur , non propterea
+          <lb ed="#P" n="7"/>soluta relinquitur difficultas : ideoque nobis
+          <lb ed="#P" n="8"/>süperest explicandum quomodo per intelligere
+          <lb ed="#P" n="9"/>et amare possit una persona producere et non
+          <lb ed="#P" n="10"/>alia, cum omnes intelligant et ament, quod
+          <lb ed="#P" n="11"/>in sequentibus capitibus paulatim 
+          proseque<lb break="no" ed="#P" n="12"/>mur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

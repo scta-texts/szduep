@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="774"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-195482"><!-- t3-l11c1 -->
+        <head xml:id="szduep-195482-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-195482-Hd1e103" type="question-title">An tertia trinitatis persona ratione suae processionis recte, ac proprie spiritus, et amor appelletur, et ex quarum rerum amore procedat</head>
+        <p xml:id="szduep-195482-d1e106">
+          <lb ed="#P" n="6"/>CAPUT I.
+          <lb ed="#P" n="7"/>AN TERTIA TRINITATIS PERSONA RATIONE SUAE
+          <lb ed="#P" n="8"/>PROCESSIONIS RECTE, AC PROPRIE SPIRITUS, ET
+          <lb ed="#P" n="9"/>AMOR APPELLETUR, ET EX QUARUM RERUM 
+          A<lb break="no" ed="#P" n="10"/>MORE PROCEDAT.
+        </p>
+        <p xml:id="szduep-195482-d1e119">
+          <lb ed="#P" n="11"/>1. Tertiam hanc personam per voluntatem,
+          <lb ed="#P" n="12"/>atque adeo per modum amoris procedere, 
+          su<lb break="no" ed="#P" n="13"/>pra libro primo, contra Durandum ostensum
+          <lb ed="#P" n="14"/>est, quia processionem et terminum ejus 
+          ins<lb break="no" ed="#P" n="15"/>tar illius, quam in nostra voluntate uteumque
+          <lb ed="#P" n="16"/>experimur , nominamus et apprehendimus.
+          <lb ed="#P" n="17"/>Unde quia etiam in nobis ipsis processio haec
+          <lb ed="#P" n="18"/>obscurior est, pauciora habemus nomina, 
+          qui<lb break="no" ed="#P" n="19"/>bus illam significemus, quam in processione
+          <lb ed="#P" n="20"/>intellectus, sed vere unica voce amoris, vel
+          <lb ed="#P" n="21"/>dilectionis, totam illam significamus. Hinc 
+          er<lb break="no" ed="#P" n="22"/>go factum est, ut ad significandam tertiam
+          <lb ed="#P" n="23"/>Trinitatis personam, ejusque relationem 
+          quae<lb break="no" ed="#P" n="24"/>dam nomina, alias communia, vel essentialia
+          <lb ed="#P" n="25"/>accommodata sint, et quasi de novo imposita
+          <lb ed="#P" n="26"/>ad illam significandam.
+        </p>
+        <p xml:id="szduep-195482-d1e156">
+          <lb ed="#P" n="27"/>2. De nomine Spiritus sancti. —Primo ergo
+          <lb ed="#P" n="28"/>vocatur Spiritus sanctus, estque nomen ejus
+          <lb ed="#P" n="29"/>maxime proprium. Videturque ab ipso Christo
+          <lb ed="#P" n="30"/>impositum, unde illo usus est Matthaeus, ultimo.
+          <lb ed="#P" n="31"/>Baptizantes eos in nomine Patris, et Filii, et
+          <lb ed="#P" n="32"/>Spiritus sancti, ubi tacite declaravit multa
+          <lb ed="#P" n="33"/>alia, quae de Spiritu dixerat, praesertim in 
+          ser<lb break="no" ed="#P" n="34"/>mone caenae, de hac divina persona esse 
+          intel<lb break="no" ed="#P" n="35"/>ligenda. Quam etiam Joannes 1, Canonica,
+          <lb ed="#P" n="36"/>cap. 5, hac voce personaliter appellavit, 
+          di<lb break="no" ed="#P" n="37"/>cens : Tres sunt, qui testimonium dant in celo,
+          <lb ed="#P" n="38"/>Pater, Verbum et Spiritus sanctus. Rationem
+          <lb ed="#P" n="39"/>vero nominis hujus ex modo processionis per
+          <lb ed="#P" n="40"/>voluntatem suminus cum sanctis Patribus.
+          <lb ed="#P" n="41"/>Nam vox Spiritus, solet motionem quamdam,
+          <lb ed="#P" n="42"/>vel impulsum significare, seu rem 
+          subktilissi<lb break="no" ed="#P" n="43"/>mam, quae facile huc, illucque agitur et 
+          impel<lb break="no" ed="#P" n="44"/>litur, ac penetrat, sicque solemus ventum 
+          spi<lb break="no" ed="#P" n="45"/>ritum appellare, et inde vox Spiritus, ad 
+          sub<lb break="no" ed="#P" n="46"/>stantias incorporeas significandas, inde 
+          trans<lb break="no" ed="#P" n="47"/>lata est. Aliunde vero id, quod per 
+          dilectio<lb break="no" ed="#P" n="48"/>nem procedit, tanquam impulsum quemdam
+          <lb ed="#P" n="49"/>concipimus, imo seepe ita illam nominamus,
+          <lb ed="#P" n="50"/>sicut enim rem procedentem per intellectum
+          <lb ed="#P" n="51"/>verbum vocamus, ita illam, quae per 
+          volunta<lb break="no" ed="#P" n="52"/>iem amantem procedit, impulsum, seu impe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tum appellamus. Unde etiam dicimus, 
+          volun<lb break="no" ed="#P" n="54"/>tatem per amorem ferri in rem amatam, et in
+          <lb ed="#P" n="55"/>eam transformari, eique uniri, quasi per 
+          sub<lb break="no" ed="#P" n="56"/>tilissimam amoris penetrationem. Hinc ergo
+          <lb ed="#P" n="57"/>tertia persona a Deo procedens, spiritus 
+          meri<lb break="no" ed="#P" n="58"/>to appellatur, quia per modum amoris, 
+          etim<lb break="no" ed="#P" n="59"/>pulsus procedit, simulque illa voce 
+          significa<lb break="no" ed="#P" n="60"/>tum est, esse amorem substantialem, 
+          summe<lb break="no" ed="#P" n="61"/>que incorpoream et immaterialem. Quoniam
+          <lb ed="#P" n="62"/>vero ille amor purissimus et mundissimus est,
+          <lb ed="#P" n="63"/>ideo addita est vox Sanctus, quae excellentiam
+          <lb ed="#P" n="64"/>illius processionis declarat, simulque indicat,
+          <lb ed="#P" n="65"/>personam esse sanctam per essentiam, quia ex
+          <lb ed="#P" n="66"/>dilectione summa summi Spiritus procedit.
+        </p>
+        <p xml:id="szduep-195482-d1e248">
+          <lb ed="#P" n="67"/>3. Unde intelligitur (quod notavit D. 
+          Tho<lb break="no" ed="#P" n="68"/>mas supra, ex Augustino 5, de Trinitate, cap.
+          <lb ed="#P" n="69"/>11, et lib. 15, cap. 19, et sumitur etiam ex
+          <lb ed="#P" n="70"/>Basilio, lib. 5, contra Eunomium) voces illas
+          <lb ed="#P" n="71"/>secundum se respectas essentiales esse, et 
+          com<lb break="no" ed="#P" n="72"/>munes, nam et Deus Spiritus purus. et sanctus
+          <lb ed="#P" n="73"/>est, et Pater, et Filius similiter. Tamen ut sic
+          <lb ed="#P" n="74"/>per illam vocem Spiritus , non significatur
+          <lb ed="#P" n="75"/>relatio. Applicatum ergo est nomen Spiritus
+          <lb ed="#P" n="76"/>sancti, ut personale est, ad significandam 
+          re<lb break="no" ed="#P" n="77"/>lationem , procedentis per modum impulsus.
+          <lb ed="#P" n="78"/>Vel etiam (ut notavit Augustinus) applicata
+          <lb ed="#P" n="79"/>est vos communis Patri, et Filio, ad 
+          signifi<lb break="no" ed="#P" n="80"/>candam personam, quae per mutuum, et 
+          com<lb break="no" ed="#P" n="81"/>munem amorem Patris, et Fili procedit.
+          <lb ed="#P" n="82"/>Atque hinc etiam relationem ipsam, novo
+          <lb ed="#P" n="83"/>nomine ex Spiritu abstracto spirationem
+          <lb ed="#P" n="84"/>vocamus, vel (quia haec vox magis videtur 
+          ac<lb break="no" ed="#P" n="85"/>tionem significare) vocamus generali nomine
+          <lb ed="#P" n="86"/>processionem, vel nomine complexo passivam
+          <lb ed="#P" n="87"/>spirationem. Denique adnotavit divus Thomas
+          <lb ed="#P" n="88"/>nomina jSpiritus et sanctus , et vocem 
+          com<lb break="no" ed="#P" n="89"/>plexam ex illis essentialia esse, et communia
+          <lb ed="#P" n="90"/>Patri, et Filio: nomen autem Shpiritus sanctus
+          <lb ed="#P" n="91"/>sumptum in vi unius vocis incomplexae esse
+          <lb ed="#P" n="92"/>proprium tertiae personae. Non quidem, quod
+          <lb ed="#P" n="93"/>illa vox incomplexa non potuerit etiam esse
+          <lb ed="#P" n="94"/>communis, si rem tantum spiritualem, et
+          <lb ed="#P" n="95"/>sanctam significaret , nihil enim obstabat ,
+          <lb ed="#P" n="96"/>quominus potuisset sic imponi, sed quod vel
+          <lb ed="#P" n="97"/>nunquam ita legatur imposita , aut usurpata,
+          <lb ed="#P" n="98"/>vel quod ex usu Eecclesiae (ita enim divus 
+          Tho<lb break="no" ed="#P" n="99"/>mas loquitur) ita fuerit accommodata. Et 
+          for<lb break="no" ed="#P" n="100"/>tasse hoc significavit Augustinus, libro, 11, de
+          <lb ed="#P" n="101"/>Civitate, capite 10, cum dixit: S'piritus Patris,
+          <lb ed="#P" n="102"/>et Filii, Spiritus sanctus propria quadam 
+          notio<lb break="no" ed="#P" n="103"/>ne hujus nominis in sacris litteris mcupatur.
+        </p>
+        <p xml:id="szduep-195482-d1e331">
+          <lb ed="#P" n="104"/>4. De nomine amoris. — Circa nomen 
+          Amo<lb break="no" ed="#P" n="105"/>ris non habemus tam expressa Scripturae loca,
+          <lb ed="#P" n="106"/>in quibus tertia haec persona relative, ac 
+          per<lb break="no" ed="#P" n="107"/>sonaliter , seu propria quadam notione amor,
+          <pb ed="#P" n="775"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel dilectio appellatur. Nam licet 1, Joan. 4,
+          <lb ed="#P" n="2"/>dicatur : Dilectio em Deo est, et divus 
+          Augusti<lb break="no" ed="#P" n="3"/>nus, libro 15, de Trinitate, capite 17, per 
+          dilec<lb break="no" ed="#P" n="4"/>tionem ex Deo Spiritum sanctum intelligat ,
+          <lb ed="#P" n="5"/>tamen non inde sufficienter colligitur, nomen
+          <lb ed="#P" n="6"/>amoris esse proprium Spiritus sancti. Sicut
+          <lb ed="#P" n="7"/>licet Filius dicatur Deus de Deo, non sequitur
+          <lb ed="#P" n="8"/>nomen Dei esse proprium Filii, sed solum per
+          <lb ed="#P" n="9"/>particulam De trahi supponendum pro Filio,
+          <lb ed="#P" n="10"/>ita ergo particula ez potuisset trahere nomen
+          <lb ed="#P" n="11"/>dilectionis (si per illud nomen dilectio 
+          signifi<lb break="no" ed="#P" n="12"/>caretur Deus, eo modo quo ibidem dicitur
+          <lb ed="#P" n="13"/>Deus charitas est) ad supponendum pro 
+          Spi<lb break="no" ed="#P" n="14"/>ritu sancto. Addo non esse necessarium, 
+          vo<lb break="no" ed="#P" n="15"/>cem illam intelligere de dilectione per 
+          essen<lb break="no" ed="#P" n="16"/>tiam, sed de creata, ita ut particula ea non 
+          di<lb break="no" ed="#P" n="17"/>cat dimanationem ad intra , sed extra, ut 
+          ex<lb break="no" ed="#P" n="18"/>ponunt idem Augustinus , lib. 1, de Gratia
+          <lb ed="#P" n="19"/>Christi, cap. 21, et Concilium Milevitanum,
+          <lb ed="#P" n="20"/>Canon. 4. Ut inde probant, dilectionem 
+          nos<lb break="no" ed="#P" n="21"/>tram, qua justificamur, et salvamur, ex Dei
+          <lb ed="#P" n="22"/>gratia manare, ac proinde itam dictum esse,
+          <lb ed="#P" n="23"/>Dilectio ex Deo est, sicut alibi a Paulo dictum
+          <lb ed="#P" n="24"/>est, charitas Dei diffusa est in cordibus nostris
+          <lb ed="#P" n="25"/>per Spiritum sanctum qui datus est nobis. Et
+          <lb ed="#P" n="26"/>contextus ipse Joannis hoc magis postulat.
+          <lb ed="#P" n="27"/>Dixerat enim fideles, et qui recte ambulant ,
+          <lb ed="#P" n="28"/>ex Deo esse, et subdit : Charissimi diligamus
+          <lb ed="#P" n="29"/>nos invicem, quaa charitas ea Deo est, 
+          loqui<lb break="no" ed="#P" n="30"/>tur ergo de charitate, quam Deus nobis 
+          infun<lb break="no" ed="#P" n="31"/>dit, ut nos invicem diligamus.
+        </p>
+        <p xml:id="szduep-195482-d1e414">
+          <lb ed="#P" n="32"/>5. Nihilominus ex usu sanctorum Patrum,
+          <lb ed="#P" n="33"/>ac Theologorum, Spiritus sanctus secundum
+          <lb ed="#P" n="34"/>propriam, et peculiarem notionem suam Àmor
+          <lb ed="#P" n="35"/>appellatur , non solum per appropriationem
+          <lb ed="#P" n="36"/>nominis essentialis, sed etiam per peculiarem
+          <lb ed="#P" n="37"/>illius vocis significationem, et impositionem.
+          <lb ed="#P" n="38"/>Ita ut vox illa jam sit multiplex, seu aequivoca,
+          <lb ed="#P" n="39"/>et uno modo essentialis sit, alio personalis ut
+          <lb ed="#P" n="40"/>docuit D. Thomas, dicta quaest. 37, art. 1, et
+          <lb ed="#P" n="41"/>significavit Augustinus, libro decimo quinto, de
+          <lb ed="#P" n="42"/>Trinitate, capite decimo septimo, et 
+          sequenti<lb break="no" ed="#P" n="43"/>bus. Habetque hoc fundamentum, tam in modo
+          <lb ed="#P" n="44"/>processionis Spiritus sancti, quam in voce
+          <lb ed="#P" n="45"/>Amor. In processione, quia sicut Filius recipit
+          <lb ed="#P" n="46"/>a Patre ea omnia, quae formaliter pertinent
+          <lb ed="#P" n="47"/>ad intellectum , ut esse Verbum, sapientiam,
+          <lb ed="#P" n="48"/>etc., ita Spiritus sanctus recipit ea, quae 
+          per<lb break="no" ed="#P" n="49"/>tinent ad voluntatem, ut esse charitatem, et
+          <lb ed="#P" n="50"/>amorem. In voce autem, quia omnis amor 
+          ex<lb break="no" ed="#P" n="51"/>tra Deum productus est, et vox amoris non 
+          so<lb break="no" ed="#P" n="52"/>lum significat actionem, quae intervenit in
+          <lb ed="#P" n="53"/>amando, sed etiam terminum per illam 
+          actio<lb break="no" ed="#P" n="54"/>nem productum. Imo vox amoris maxime 
+          vi<lb break="no" ed="#P" n="55"/>detur terminum ipsum significare, qui nos
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>constituit formaliter amantes, et formaliter
+          <lb ed="#P" n="57"/>voluntatem inclinat, et impellit in rem 
+          ama<lb break="no" ed="#P" n="58"/>tam. Nam actio, qua ille terminus producitur,
+          <lb ed="#P" n="59"/>magis esset dicenda amatio, quam amor, sed
+          <lb ed="#P" n="60"/>quia prior vox usitata non est, dicitur etiam
+          <lb ed="#P" n="61"/>amor, vel dilectio. Merito ergo vox haec 
+          impo<lb break="no" ed="#P" n="62"/>sita etiam est ad significandum amorem intra
+          <lb ed="#P" n="63"/>Deum productum, qui solus Spiritus sanctus
+          <lb ed="#P" n="64"/>est. Verum est, per nomen amoris etiam in
+          <lb ed="#P" n="65"/>creaturis non significare formaliter relationem
+          <lb ed="#P" n="66"/>producti, sed qualitatem ipsam, quae 
+          produci<lb break="no" ed="#P" n="67"/>tur, in quo differt vox, Amor, a nomine, 
+          Ver<lb break="no" ed="#P" n="68"/>bum, etideo potest amor in Deo dici 
+          essentia<lb break="no" ed="#P" n="69"/>liter , sicut intelligere. Nihilominus tamen,
+          <lb ed="#P" n="70"/>quia potest amor esse productus etiam in Deo,
+          <lb ed="#P" n="71"/>ideo potuit illa vos accommodari ad 
+          signifi<lb break="no" ed="#P" n="72"/>candum illum amorem secundum eam 
+          pro<lb break="no" ed="#P" n="73"/>prietatem, et ita factum est, ideoque sub illa
+          <lb ed="#P" n="74"/>significatione nomen illud personale est 
+          Spi<lb break="no" ed="#P" n="75"/>ritus sancti.
+        </p>
+        <p xml:id="szduep-195482-d1e514">
+          <lb ed="#P" n="76"/>6. Addit D. Thomas, in illo articulo 1, 
+          ter<lb break="no" ed="#P" n="77"/>tiam significationem illius vocis amor in 
+          divi<lb break="no" ed="#P" n="78"/>nis, quia non solum significat actum 
+          essentia<lb break="no" ed="#P" n="79"/>lem amandi, nec solum personam productam
+          <lb ed="#P" n="80"/>per voluntatem, sed etiam actum notionalem,
+          <lb ed="#P" n="81"/>per quem producitur illa persona. Hic enim
+          <lb ed="#P" n="82"/>actus ratione distinguitur ab amore essentiali,
+          <lb ed="#P" n="83"/>quia non convenit Spiritui sancto, licet 
+          essen<lb break="no" ed="#P" n="84"/>tialiter amet : ratione etiam distinguitur a
+          <lb ed="#P" n="85"/>persona Spiritus sancti, quia est veluti origo
+          <lb ed="#P" n="86"/>illius, ergo potest nomine amoris significari,
+          <lb ed="#P" n="87"/>cum sit productio amoris, et non habeamus
+          <lb ed="#P" n="88"/>aliam vocem, qua illum significemus. Item
+          <lb ed="#P" n="89"/>hoc significamus , cum dicimus, Patrem, et
+          <lb ed="#P" n="90"/>Filium producere Spiritum sanctum per 
+          amo<lb break="no" ed="#P" n="91"/>rem , quia nec potest intelligi ipse Spiritus
+          <lb ed="#P" n="92"/>sanctus, cum non producatur per se ipsum,
+          <lb ed="#P" n="93"/>nec solus essentialis actus amoris, cum 
+          commu<lb break="no" ed="#P" n="94"/>nis sit Spiritu sancto. Denique hoc declarat
+          <lb ed="#P" n="95"/>D. Thomas proportione ad intellectum , ubi
+          <lb ed="#P" n="96"/>sunt tres voces, intelligere, dicere, et Verbum,
+          <lb ed="#P" n="97"/>quarum prior significat actum essentialem 
+          in<lb break="no" ed="#P" n="98"/>telligendi, secunda originem activam, seu 
+          ac<lb break="no" ed="#P" n="99"/>tum intelligendi notionalem, tertia terminum
+          <lb ed="#P" n="100"/>productum per intellectum : haec ergo tria 
+          in<lb break="no" ed="#P" n="101"/>veniuntur etiam in voluntate, et propter 
+          no<lb break="no" ed="#P" n="102"/>minum penuriam eadem voce omnia 
+          significa<lb break="no" ed="#P" n="103"/>mus. Haec doctrina vera est, sed cavenda est
+          <lb ed="#P" n="104"/>interpretatio eorum, qui hinc colligunt, esse
+          <lb ed="#P" n="105"/>in Patre duplicem dilectionem , unam 
+          absolu<lb break="no" ed="#P" n="106"/>tam, aliam relativam. Hoc enim neque D.
+          <lb ed="#P" n="107"/>Thomas dixit, nec verum est, ut librc primo
+          <lb ed="#P" n="108"/>ostendi. Nam amor notionalis , si significet
+          <lb ed="#P" n="109"/>proximum principium quo producendi 
+          Spiri<lb break="no" ed="#P" n="110"/>tum sanctum , formaliter est amor essentialis,
+          <pb ed="#P" n="776"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>at proinde absolutus : connotat vero 
+          relatio<lb break="no" ed="#P" n="2"/>nem Patris, et Filii, ut conditionem 
+          necessa<lb break="no" ed="#P" n="3"/>riam ad exercendam talem rationem principii:
+          <lb ed="#P" n="4"/>si vero significet activam originem, non est
+          <lb ed="#P" n="5"/>proprie actus amandi, sed est relatio ipsa,
+          <lb ed="#P" n="6"/>prout est quasi in via, et actuali influxu 
+          pro<lb break="no" ed="#P" n="7"/>ducentis, et ideo ad tollendam aequivocationem
+          <lb ed="#P" n="8"/>non solemus jam hanc originem significare
+          <lb ed="#P" n="9"/>nomine amoris, vel dilectionis, sed nomine
+          <lb ed="#P" n="10"/>spirationis. Qua omnia ex doctrina tradita
+          <lb ed="#P" n="11"/>in primo et septimo libro perspicua sunt, 
+          ibi<lb break="no" ed="#P" n="12"/>que sufticienter probata, nec nova difticultas
+          <lb ed="#P" n="13"/>occurrit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

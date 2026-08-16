@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="735"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-185801"><!-- t3-l9c6 -->
+        <head xml:id="szduep-185801-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-185801-Hd1e103" type="question-title">Utrum verbum divinum procedat ex cognitione creaturarum possibilium</head>
+        <p xml:id="szduep-185801-d1e106">
+          <lb ed="#P" n="28"/>CAPUT VI.
+          <lb ed="#P" n="29"/>UTRUM VERBUM DIVINUM PROCEDAT EX COGNITIONE
+          <lb ed="#P" n="30"/>CREATURARUM POSSIBILIUM.
+        </p>
+        <p xml:id="szduep-185801-d1e115">
+          <lb ed="#P" n="31"/>1. Prima opinio negans. — In hoc puncto
+          <lb ed="#P" n="32"/>clarior, quam in praecedenti est sententia Scoti,
+          <lb ed="#P" n="33"/>negants procedere Verbum divinum ex 
+          crea<lb break="no" ed="#P" n="34"/>turarum cognitione sive futurarum, sive 
+          possi<lb break="no" ed="#P" n="35"/>bilium. Ita docet Scotus in 1, dist. 2, quaest. 7,
+          <lb ed="#P" n="36"/>et sumitur ex dist. 32, quaest. 1, idem in 2,
+          <lb ed="#P" n="37"/>dist. 1, quaest. 1, et quodlibet, decimo quarto,
+          <lb ed="#P" n="38"/>S Hic intelligexdum est. Eamdem sententiam
+          <lb ed="#P" n="39"/>sequitur ejus schola, et ex modernis 
+          exposito<lb break="no" ed="#P" n="40"/>ribus divi Thomae aliqui eam constanter 
+          defen<lb break="no" ed="#P" n="41"/>dunt.
+        </p>
+        <p xml:id="szduep-185801-d1e141">
+          <lb ed="#P" n="42"/>2. Primum fundamentum. — Fundamenta
+          <lb ed="#P" n="43"/>afferuntur multa, omnia tamen ad hoc 
+          prin<lb break="no" ed="#P" n="44"/>cipium revocantur, quod in Patre prius 
+          secun<lb break="no" ed="#P" n="45"/>dum naturam est producere Filium, quam
+          <lb ed="#P" n="46"/>cognoscere creaturas etiam possibiles: ergo
+          <lb ed="#P" n="47"/>fieri non potest, ut Verbum procedat ex 
+          cogni<lb break="no" ed="#P" n="48"/>tione creaturarum, quia non procedit ex aliquo
+          <lb ed="#P" n="49"/>posteriori se. Antecedens probatur primo, quia
+          <lb ed="#P" n="50"/>respectu paternae cognitionis creaturae sunt
+          <lb ed="#P" n="51"/>secundarium objectum : cognitio autem prius
+          <lb ed="#P" n="52"/>natura terminatur ad primarium objectum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>quam ad secundarium, ergo Pater prius natura
+          <lb ed="#P" n="54"/>cognoscit se, quam creaturas ; ergo prius etiam
+          <lb ed="#P" n="55"/>natura producit Verbum, quam cognoscat 
+          crea<lb break="no" ed="#P" n="56"/>turas. Probatur haec ultima consequentia, quia
+          <lb ed="#P" n="57"/>illa cognitio sic praecise spectata est 
+          simplici<lb break="no" ed="#P" n="58"/>ter infinita : ergo foecundissima, cum 
+          suppo<lb break="no" ed="#P" n="59"/>natur prior origine. Item illa est sufficiens
+          <lb ed="#P" n="60"/>beatitudo Patris, non enim fit beatus 
+          cognos<lb break="no" ed="#P" n="61"/>cendo creaturas : ergo est etiam sufficiens, ut
+          <lb ed="#P" n="62"/>ex vi illius habeat consortium Verbi, et Filii
+          <lb ed="#P" n="63"/>eadem beatitudine.
+        </p>
+        <p xml:id="szduep-185801-d1e194">
+          <lb ed="#P" n="64"/>3. Secundum fundamentum.—Ctuia vero haec
+          <lb ed="#P" n="65"/>ratio quoad prioritatem naturae videtur 
+          sup<lb break="no" ed="#P" n="66"/>ponere distinctionem ex natura rei inter 
+          di<lb break="no" ed="#P" n="67"/>vina attributa, et quoad reliqua videtur posse
+          <lb ed="#P" n="68"/>instari in cognitione personarum, ideo 
+          auge<lb break="no" ed="#P" n="69"/>tur aliter difficultas. Quia creaturae non solum
+          <lb ed="#P" n="70"/>sunt objectum secundarium, sed etiam sunt
+          <lb ed="#P" n="71"/>objectum quasi accidentarium, in quo 
+          mul<lb break="no" ed="#P" n="72"/>tum differunt a cognitione personarum. 
+          De<lb break="no" ed="#P" n="73"/>claro assumptum primo, quia cognitio 
+          crea<lb break="no" ed="#P" n="74"/>turarum etiam possibilium, non est necessaria
+          <lb ed="#P" n="75"/>Deo ad consummatam perfectionem suam:
+          <lb ed="#P" n="76"/>nullo enim modo indiget creaturis, etiam ut
+          <lb ed="#P" n="77"/>objectis, ad suam perfectionem, nam hoc 
+          es<lb break="no" ed="#P" n="78"/>set imperfectio in ipso. Secundo, quia non
+          <lb ed="#P" n="79"/>tanta necessitate creaturae sunt possibiles,
+          <lb ed="#P" n="80"/>quanta Deus est actu, et quanta Verbum 
+          pro<lb break="no" ed="#P" n="81"/>ducitur, ergo sunt quasi per accidens respectu
+          <lb ed="#P" n="82"/>Dei, et comprehensionis, quam de se habet.
+          <lb ed="#P" n="83"/>Ex quo ulterius sequitur, cognitionem 
+          prima<lb break="no" ed="#P" n="84"/>rii objecti posse dici priorem natura, quam
+          <lb ed="#P" n="85"/>hujus secundarii, non ob distinctionem a parte
+          <lb ed="#P" n="86"/>rei inter cognitiones, sed ob distinctionem, et
+          <lb ed="#P" n="87"/>independantiam unius ab alio. Hinc enim 
+          re<lb break="no" ed="#P" n="88"/>sultat illa prioritas naturae, quae dicitur esse
+          <lb ed="#P" n="89"/>in subsistendi consequentia. Quae in hunc 
+          mo<lb break="no" ed="#P" n="90"/>dum confirmatur explicando argumentum.
+          <lb ed="#P" n="91"/>Nam si per impossibile, creaturae non essent
+          <lb ed="#P" n="92"/>possibiles, nihilominus Pater esset, et se 
+          per<lb break="no" ed="#P" n="93"/>fectissime cognosceret, et consequenter 
+          Ver<lb break="no" ed="#P" n="94"/>bum etiam adaequatum produceret , quia in
+          <lb ed="#P" n="95"/>nullo pendet a creaturis : ergo signum est
+          <lb ed="#P" n="96"/>Verbum nunc produci sine ulla quasi 
+          depen<lb break="no" ed="#P" n="97"/>dentia a cognitione creaturarum, quamvis
+          <lb ed="#P" n="98"/>concomitanter illae cognoscantur.
+        </p>
+        <p xml:id="szduep-185801-d1e272">
+          <lb ed="#P" n="99"/>4. Secunda opinio affirmans. — 
+          Nihilomi<lb break="no" ed="#P" n="100"/>nus secunda sententia affirmat, Verbum, 
+          pro<lb break="no" ed="#P" n="101"/>cedere ex sententia simplicis intelligentiae 
+          crea<lb break="no" ed="#P" n="102"/>turarum possibilium. Quam sine dubio tenet
+          <lb ed="#P" n="103"/>D. Thomas, 1 part., quaest. 35, art. 1, ad 3,
+          <lb ed="#P" n="104"/>ubi quoad hoc eodem modo loquitur de 
+          pro<lb break="no" ed="#P" n="105"/>cessione Verbi ex creaturarum cognitione, et
+          <lb ed="#P" n="106"/>personarum. Idem sumitur ex art. 2 et 3, et
+          <lb ed="#P" n="107"/>ex quaest. 4, de Veritate, art. 5. Tenet Cajeta-
+          <pb ed="#P" n="736"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nus, 1 part. supra, et Torres, quaest. 27, art. 3,
+          <lb ed="#P" n="2"/>in fine, et fere alii expositores his locis. Idem
+          <lb ed="#P" n="3"/>sentit Ferrariensis 4, contra Gentes, cap. 13,
+          <lb ed="#P" n="4"/>licet de ordine rationis inter cognitionem
+          <lb ed="#P" n="5"/>creaturarum in Verbo, et productionem Verbi,
+          <lb ed="#P" n="6"/>specialem habeat opinionem, de qua in capite
+          <lb ed="#P" n="7"/>octavo dicam. Tenet etiam Gabriel, in 1, dist.
+          <lb ed="#P" n="8"/>27, quaest. 3, art. 3, dub. 1. Et sumitur ex aliis
+          <lb ed="#P" n="9"/>theologis ibi, et ubicumque disputant de 
+          scien<lb break="no" ed="#P" n="10"/>tia Dei, ut infra declarabo.
+        </p>
+        <p xml:id="szduep-185801-d1e320">
+          <lb ed="#P" n="11"/>5. Probatio ex Augustino.—Atque haec 
+          sen<lb break="no" ed="#P" n="12"/>tentia mihi etiam magis probatur, quam 
+          pro<lb break="no" ed="#P" n="13"/>bo primo ex D. Augustino, lib. 15, de Trinit.,
+          <lb ed="#P" n="14"/>cap. 13 et 14, ubi inter alia dicit : Verbum 
+          di<lb break="no" ed="#P" n="15"/>vinum esse de omnibus, quee sunt in scientia
+          <lb ed="#P" n="16"/>Dei : nam si aliquid minus esset in Verbo, quam
+          <lb ed="#P" n="17"/>in scientia, non esset Verbum adequatum. 
+          Po<lb break="no" ed="#P" n="18"/>test autem hoc testimonium infirmari ex eo,
+          <lb ed="#P" n="19"/>quod nimium probare videtur, quia 
+          Augusti<lb break="no" ed="#P" n="20"/>nus etiam de scientia futurorum loquitur, sed
+          <lb ed="#P" n="21"/>hoc, ut statim declarabo, non obstat, quia 
+          sa<lb break="no" ed="#P" n="22"/>tis est, quod Verbum procedat ex scientia,
+          <lb ed="#P" n="23"/>quae est futurorum, quamvis non procedat illa,
+          <lb ed="#P" n="24"/>ut est futurorum. Ad illud autem prius necesse
+          <lb ed="#P" n="25"/>est, ut procedat ex scientia creaturarum 
+          ipsa<lb break="no" ed="#P" n="26"/>rum, ut possibiles sunt. Hanc etiam sententiam
+          <lb ed="#P" n="27"/>indicavit idem Augustinus, lib. 11 
+          Confessio<lb break="no" ed="#P" n="28"/>num, cap. 7, dicens : Verbum sempiterne 
+          dici<lb break="no" ed="#P" n="29"/>tur, et eo sempiterne dicuntur omnia. Sic etiam
+          <lb ed="#P" n="30"/>sentit Anselmus, in Monologio, a cap. 28, 
+          us<lb break="no" ed="#P" n="31"/>que ad 44, ostendens Deum unico Verbo sua
+          <lb ed="#P" n="32"/>omnia dicere, quod dicit esse perfectissimum,
+          <lb ed="#P" n="33"/>et verissimum respectu omniwm creaturarum.
+          <lb ed="#P" n="34"/>Et in cap. 30, declarat, illud Verbum non 
+          re<lb break="no" ed="#P" n="35"/>quirere futuras creaturas, sed simpliciter 
+          re<lb break="no" ed="#P" n="36"/>praesentare creaturas. :
+        </p>
+        <p xml:id="szduep-185801-d1e379">
+          <lb ed="#P" n="37"/>6. Aliqui tamen interpretantur Anselmum,
+          <lb ed="#P" n="38"/>ut loquatur de creaturis, non prout in se sunt:
+          <lb ed="#P" n="39"/>neque ut cognoscuntur possibiles, sed prout
+          <lb ed="#P" n="40"/>sunt eminenter in Deo, et referunt hoc 
+          testi<lb break="no" ed="#P" n="41"/>monium pro contraria sententia,quia, ibi 
+          capiti<lb break="no" ed="#P" n="42"/>bus 31 et 32, dicit: Verbum divinum non esse
+          <lb ed="#P" n="43"/>verbum creaturarum. Sed revera expositio est
+          <lb ed="#P" n="44"/>contra mentem Anselmi, nam c. 29, ait, illas
+          <lb ed="#P" n="45"/>creaturas, que dicuntur in Verbo esse ad 
+          ima<lb break="no" ed="#P" n="46"/>tationem ejus, quod non est verum de 
+          creatu<lb break="no" ed="#P" n="47"/>turis, prout eminentes sunt in Deo, sed prout
+          <lb ed="#P" n="48"/>in se sunt, vel esse possunt. Item quia dicere
+          <lb ed="#P" n="49"/>creaturas, prout sunt in Deo, nihil aliud est,
+          <lb ed="#P" n="50"/>quam dicere Deum ipsum; Anselmus autem
+          <lb ed="#P" n="51"/>dicit illo Verbo non tantum dici Deum, sed 
+          e<lb break="no" ed="#P" n="52"/>üam creaturas. Denique quando Deus dicitur
+          <lb ed="#P" n="53"/>cognoscere non tantum se, sed etiam creaturas,
+          <lb ed="#P" n="54"/>necessario debet intelligi de creaturis, prout
+          <lb ed="#P" n="55"/>distinguuntur a Deo, Anselmus autem docet
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>eodem modo procedere Verbum 
+          repraesentati<lb break="no" ed="#P" n="57"/>vum creaturarum, sicut creaturae 
+          cognoscun<lb break="no" ed="#P" n="58"/>tur a Deo. Quod autem recusat appellare 
+          Ver<lb break="no" ed="#P" n="59"/>bum illud Verbum creaturarum, exponit D.
+          <lb ed="#P" n="60"/>Thomas, dicta q. 4, de Veritate, art. 5, ad 2,
+          <lb ed="#P" n="61"/>ideo esse, quia Verbum illud non est a 
+          creatu<lb break="no" ed="#P" n="62"/>ris, non vero quia non sit de creaturis. Itaque
+          <lb ed="#P" n="63"/>sensus est, non esse Verbum, quod trahat 
+          ori<lb break="no" ed="#P" n="64"/>ginem a creaturis quamvis sit Verbum 
+          Teprae<lb break="no" ed="#P" n="65"/>sentans illas, ex vi suae processionis. Vel etiam
+          <lb ed="#P" n="66"/>noluit Anselmus vocare Verbum creaturarum,
+          <lb ed="#P" n="67"/>quia per se primo non procedit ad 
+          repraesen<lb break="no" ed="#P" n="68"/>tandas illas, sed secundario et veluti 
+          consecu<lb break="no" ed="#P" n="69"/>tione quadam. Quod etiam D. Thomas in illo
+          <lb ed="#P" n="70"/>art. 5b, vocavit repraesentare illas per accidens,
+          <lb ed="#P" n="71"/>non quia hoc proprie accidat illi Verbo, sed
+          <lb ed="#P" n="72"/>quia non est de primaria ratione ejus, ut 
+          ex<lb break="no" ed="#P" n="73"/>plicabimus. Quantum vero spectat ad hanc
+          <lb ed="#P" n="74"/>locutionem, non est inconveniens, vocare illud
+          <lb ed="#P" n="75"/>Verbum creaturarum, sicut scientiam Dei 
+          vo<lb break="no" ed="#P" n="76"/>camus scientiam creaturarum. Et ita passim
+          <lb ed="#P" n="77"/>loquitur sanctus Augustinus. ÀAn vero idem 
+          di<lb break="no" ed="#P" n="78"/>cendum sit de imagine, dicam postea.
+        </p>
+        <p xml:id="szduep-185801-d1e475">
+          <lb ed="#P" n="79"/>7. Ratio. — Ratio communis, ad probandam
+          <lb ed="#P" n="80"/>hanc sententiam, est, quia Verbum divinum
+          <lb ed="#P" n="81"/>procedit ex cognitione comprehensiva 
+          divini<lb break="no" ed="#P" n="82"/>tatis, sed talis cognitio est etiam comprehensio
+          <lb ed="#P" n="83"/>omnium creaturarum possibilium, ergo 
+          proce<lb break="no" ed="#P" n="84"/>dit ex earum cognitione. Consequentia patet
+          <lb ed="#P" n="85"/>ex dictis, capite praecedente: simili enim 
+          illatio<lb break="no" ed="#P" n="86"/>ne conclusimus, Verbum procedere ex 
+          cogni<lb break="no" ed="#P" n="87"/>tione personarum, non tantum materialiter et
+          <lb ed="#P" n="88"/>concomitanter, sed per se et formaliter. Major
+          <lb ed="#P" n="89"/>vero est per se nota : minor autem est 
+          com<lb break="no" ed="#P" n="90"/>munis sententia theologorum dicentium, Deum
+          <lb ed="#P" n="91"/>cognoscere omnia in se ipso tanquam in prima
+          <lb ed="#P" n="92"/>causa, quia comprehendendo se et 
+          omnipoten<lb break="no" ed="#P" n="93"/>tiam suam, necessario comprehendit omnes
+          <lb ed="#P" n="94"/>creaturas. Et ideo e contrario dicunt, creaturam
+          <lb ed="#P" n="95"/>videntem Deum posse quidem videre in eo 
+          ali<lb break="no" ed="#P" n="96"/>quas creaturas, tanquam in causis, non tamen
+          <lb ed="#P" n="97"/>omnes, quia comprehenderet causam. Quae
+          <lb ed="#P" n="98"/>constat ex 1 part., q. 12 et 14, et ex 
+          theolo<lb break="no" ed="#P" n="99"/>gis in 1, dist. 35 et in 4, dist. 49. Quamvis
+          <lb ed="#P" n="100"/>enim non omnes ita sentiant, tamen graviores
+          <lb ed="#P" n="101"/>et plures id docent, praesertim D. Thomas, et
+          <lb ed="#P" n="102"/>discipuli ejus, et sine dubio quoad principale
+          <lb ed="#P" n="103"/>fundamentum est doctrina Dionysii et 
+          Augus<lb break="no" ed="#P" n="104"/>tini, ut supra tractatu 1, lib. 3, visum est.
+        </p>
+        <p xml:id="szduep-185801-d1e534">
+          <lb ed="#P" n="105"/>8. Expenditur ratio.—Primus modus 
+          evpli<lb break="no" ed="#P" n="106"/>candi scientiam Dei.—Ut autem vis hujus 
+          ratio<lb break="no" ed="#P" n="107"/>nis melius intelligatur, et occurramus 
+          respon<lb break="no" ed="#P" n="108"/>sionibus, simulque fundamenta contrariae 
+          sen<lb break="no" ed="#P" n="109"/>tentiae diluamus, adverto, tribus modis posse a
+          <lb ed="#P" n="110"/>nobis concipi Deum per scientiam suam et sui,
+          <pb ed="#P" n="737"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cognoscere creaturas possibiles. Primo per
+          <lb ed="#P" n="2"/>eumdem omnino actum re et ratione, prout
+          <lb ed="#P" n="3"/>terminatum ad adaequatum objectum suum,
+          <lb ed="#P" n="4"/>tam primarium, quam secundarium. Et in hoc
+          <lb ed="#P" n="5"/>sensu videntur locuti theologi, qui asserunt,
+          <lb ed="#P" n="6"/>Deum comprehendendo se, necessario etiam
+          <lb ed="#P" n="7"/>comprehendere creaturas, quia ille actus ut
+          <lb ed="#P" n="8"/>perfecte terminetur ad primarium objectum
+          <lb ed="#P" n="9"/>formahter includit, ac necessario postulat 
+          ex<lb break="no" ed="#P" n="10"/>tensionem, et quasi terminationem ad 
+          secunda<lb break="no" ed="#P" n="11"/>rium objectum. Et hic modus tribuendi Deo
+          <lb ed="#P" n="12"/>scientiam creaturarum possibilium, est sine
+          <lb ed="#P" n="13"/>dubio valde consentaneus communi doctrinae,
+          <lb ed="#P" n="14"/>quam supposui ex Dionysio, Augustino, divo
+          <lb ed="#P" n="15"/>Thoma et aliis. Est etiam valde conformis 
+          di<lb break="no" ed="#P" n="16"/>vinae perfectioni et simplicitati, ad quam 
+          spec<lb break="no" ed="#P" n="17"/>tat cognoscere perfecte omnes effectus in sua
+          <lb ed="#P" n="18"/>causa. Quod tanto simplicius et perfectius sit,
+          <lb ed="#P" n="19"/>quando ex vi unius formalissimi actus re et
+          <lb ed="#P" n="20"/>ratione ejusdem, quo causa comprehenditur,
+          <lb ed="#P" n="21"/>mnanifestantur omnes effectus in illa eminenter
+          <lb ed="#P" n="22"/>contenti, manifestantur, inquam, non solum
+          <lb ed="#P" n="23"/>quoad ipsam eminentiam (hoc enim non esset
+          <lb ed="#P" n="24"/>cognoscere effectus) sed etiam quoad ipsos 
+          ef<lb break="no" ed="#P" n="25"/>fectus participabiles a tali causa.
+        </p>
+        <p xml:id="szduep-185801-d1e609">
+          <lb ed="#P" n="26"/>9. Declarari etiam potest ex cognitione 
+          po<lb break="no" ed="#P" n="27"/>tentiae, sive objecti in creaturis. Nam cognitio
+          <lb ed="#P" n="28"/>potentiae, si perfecta sit, et praesertim 
+          compre<lb break="no" ed="#P" n="29"/>hensiva, necessario debet attingere objectum
+          <lb ed="#P" n="30"/>non alia cognitione re, vel ratione distincta,
+          <lb ed="#P" n="31"/>sed se ipsa formaliter, quia propter 
+          connexio<lb break="no" ed="#P" n="32"/>nem illarum rerum non potest ad unam 
+          pri<lb break="no" ed="#P" n="33"/>mario et perfecte terminari, quin transeat ad
+          <lb ed="#P" n="34"/>aliam. Sic ergo Deus comprehendendo sese,
+          <lb ed="#P" n="35"/>comprehendit omnipotentiam suam, etideo 
+          ne<lb break="no" ed="#P" n="36"/>cessario illa comprehensio transit ad creaturas
+          <lb ed="#P" n="37"/>ut possibiles. Potest quidem assignari 
+          differen<lb break="no" ed="#P" n="38"/>tia, quia potentia creata dicit 
+          transcendenta<lb break="no" ed="#P" n="39"/>lem habitudinem ad objectum, a quo speciem
+          <lb ed="#P" n="40"/>sortitur, quod de divina potentia dici non 
+          po<lb break="no" ed="#P" n="41"/>test. Verumtamen non oportet connexionem
+          <lb ed="#P" n="42"/>inter objectum et potentiam quoad cognosci
+          <lb ed="#P" n="43"/>ex eadem ratione oriri: sed quod in creaturis
+          <lb ed="#P" n="44"/>facit habitudo potentiae ad objectum, in Deo
+          <lb ed="#P" n="45"/>potest efficere eminentialis continentia 
+          effec<lb break="no" ed="#P" n="46"/>tuum in potentia et essentialis dependentia
+          <lb ed="#P" n="47"/>creaturarum possibilium a creatrice essentia.
+        </p>
+        <p xml:id="szduep-185801-d1e659">
+          <lb ed="#P" n="48"/>10. Secundus modus declarandi scientiam
+          <lb ed="#P" n="49"/>Dei.—Sic ergo explicata cognitione 
+          creatura<lb break="no" ed="#P" n="50"/>rum in Deo, manifestum estex ratione facta,
+          <lb ed="#P" n="51"/>Verbum, quod producitur, ex comprehensiva
+          <lb ed="#P" n="52"/>cogniticne essentiae, consequenter etiam 
+          pro<lb break="no" ed="#P" n="53"/>duci ex simplici intelligentia creaturarum.
+          <lb ed="#P" n="54"/>Neque esse aliquod verum instans naturae, in
+          <lb ed="#P" n="55"/>quo illa cognitio prius terminetur ad essen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiam, quam ad creaturas possibiles. Quia licet
+          <lb ed="#P" n="57"/>essentia sit primarium objectum et ratio 
+          co<lb break="no" ed="#P" n="58"/>gnoscendi creaturas, tamen propter 
+          connexio<lb break="no" ed="#P" n="59"/>nem unico simplici intuitu cognoscuntur et 
+          es<lb break="no" ed="#P" n="60"/>sentia et creaturae in ipsa. Sicut beatus videns
+          <lb ed="#P" n="61"/>Deum eadem simplici actione et attentione (ut
+          <lb ed="#P" n="62"/>sic rem declarem) videt Deum et res in ipso et
+          <lb ed="#P" n="63"/>simul format verbum ita repraesentans 
+          essen<lb break="no" ed="#P" n="64"/>tiam DEI, ut etiam repraesentet creaturas in
+          <lb ed="#P" n="65"/>ipsa. Et ita facile solvuntur fundamenta 
+          con<lb break="no" ed="#P" n="66"/>trariee sententiae, praeter illud, quod est de 
+          ne<lb break="no" ed="#P" n="67"/>cessitate creaturarum possibilium, de quo 
+          sta<lb break="no" ed="#P" n="68"/>tim dicam.
+        </p>
+        <p xml:id="szduep-185801-d1e709">
+          <lb ed="#P" n="69"/>11. Secundo modo potest intelligi, Deum
+          <lb ed="#P" n="70"/>cognoscere creaturas ex cognitione suae 
+          essen<lb break="no" ed="#P" n="71"/>Uae, non tamen eodem actu, seu eadem 
+          ten<lb break="no" ed="#P" n="72"/>dentia intellectus secundum rationem, sed 
+          ve<lb break="no" ed="#P" n="73"/>luti duobus actibus ratione distinctis, quorum
+          <lb ed="#P" n="74"/>unus sit ratio alterius,sicut in nobis ex 
+          cogita<lb break="no" ed="#P" n="75"/>üone causae, si perfecta sit, oritur statim 
+          co<lb break="no" ed="#P" n="76"/>gnitio effectus, hac tamen interveniente 
+          diffe<lb break="no" ed="#P" n="77"/>rentia, quod in nobis actus illi sunt realiter
+          <lb ed="#P" n="78"/>distincti, et unus ab altero vere et realiter 
+          cau<lb break="no" ed="#P" n="79"/>satur et interdum non sine temporis 
+          successio<lb break="no" ed="#P" n="80"/>ne (in quo forte ratio discursus consistit ) in
+          <lb ed="#P" n="81"/>Deo autem est simplici et eminenti modo, per
+          <lb ed="#P" n="82"/>omnimodam identitatem realem, cum 
+          distinc<lb break="no" ed="#P" n="83"/>Uone tamen virtuali, secundum hunc 
+          expli<lb break="no" ed="#P" n="84"/>candi modum. Et ex hac suppositione et 
+          decla<lb break="no" ed="#P" n="85"/>ratione divinae essentiae videtur procedere 
+          con<lb break="no" ed="#P" n="86"/>traria opinio.
+        </p>
+        <p xml:id="szduep-185801-d1e751">
+          <lb ed="#P" n="87"/>12. Verumtamen sic etiam duplici ratione
+          <lb ed="#P" n="88"/>mihi displicet illa opinio. Primo, quia non
+          <lb ed="#P" n="89"/>approbo hunc modum explicandi scientiam
+          <lb ed="#P" n="90"/>Dei erga creaturas, quia nec virtualem 
+          dis<lb break="no" ed="#P" n="91"/>cursum in Deo admitto, sed simplicissimum
+          <lb ed="#P" n="92"/>modum cognoscendi effectus in causa. Deinde
+          <lb ed="#P" n="93"/>quia non video, cur posita scientia illo modo,
+          <lb ed="#P" n="94"/>non sic etiam ponendum Verbum productum
+          <lb ed="#P" n="95"/>ex tota illa, ut utramque rationem includit,
+          <lb ed="#P" n="96"/>ut ita Verbum sit adaequatum divinae 
+          scien<lb break="no" ed="#P" n="97"/>tiae, sicut Augustinus, dixit, et perfectio illius
+          <lb ed="#P" n="98"/>Verbi postulat. Et declaratur in hunc modum,
+          <lb ed="#P" n="99"/>quia juxta illam sententiam duplex est in Deo
+          <lb ed="#P" n="100"/>scientia ratione distincta, una sui, et alia 
+          crea<lb break="no" ed="#P" n="101"/>turarum, et unaquaeque illarum dicit 
+          perfec<lb break="no" ed="#P" n="102"/>tionem formalem necessario convenientem
+          <lb ed="#P" n="103"/>DEO, et ratione distinctam ab altera, 
+          perti<lb break="no" ed="#P" n="104"/>nentemque ad attributa essentialia. Ergo illa
+          <lb ed="#P" n="105"/>scientia secundum utrumque rationem est
+          <lb ed="#P" n="106"/>productiva, seu ratio sufficiens producendi
+          <lb ed="#P" n="107"/>Verbum ergo sicut illa est in re una, et 
+          ra<lb break="no" ed="#P" n="108"/>tione duplex, ita per illam producitur unum
+          <lb ed="#P" n="109"/>Verbum adaequatum in re quod sit Verbum et
+          <lb ed="#P" n="110"/>DEI, et creaturarum secundum distinctionem
+          <pb ed="#P" n="738"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rationis. Probatur prior consequentia (reliqua
+          <lb ed="#P" n="2"/>enim clara sunt) quia etiam illa scientia 
+          divi<lb break="no" ed="#P" n="3"/>na, ut est scientia creaturarum est infinita
+          <lb ed="#P" n="4"/>quaedam perfectio, et consequenter actus 
+          in<lb break="no" ed="#P" n="5"/>telligendi infinitus, et ideo necessarius, cum
+          <lb ed="#P" n="6"/>pertineat ad essentialem Dei perfectionem, et
+          <lb ed="#P" n="7"/>de se prius origine conveniens Patri: ergo est
+          <lb ed="#P" n="8"/>foecundus ad productionem Verbi.
+        </p>
+        <p xml:id="szduep-185801-d1e827">
+          <lb ed="#P" n="9"/>13. Quocirca, licet juxta hunc modum 
+          exph<lb break="no" ed="#P" n="10"/>candi scientiam Dei intelligi possit scientia illa
+          <lb ed="#P" n="11"/>prius ratione terminata ad essentiam, quam
+          <lb ed="#P" n="12"/>ad creaturas, et consequenter intelligi possit
+          <lb ed="#P" n="13"/>Verbum, ut productum per illam in illo priori
+          <lb ed="#P" n="14"/>terminatam solum ad essentiam : tamen sicut
+          <lb ed="#P" n="15"/>hoc modo non concipitur adaequate tota 
+          scien<lb break="no" ed="#P" n="16"/>tia Dei, ita nec Verbum adaequate productum,
+          <lb ed="#P" n="17"/>et ideo non sequitur in re ipsa non produci ex
+          <lb ed="#P" n="18"/>scientia creaturarum, quia consequenter 
+          intel<lb break="no" ed="#P" n="19"/>ligendum est, in secundo signo rationis, quasi
+          <lb ed="#P" n="20"/>adaequate compleri productionem ejus. Qui
+          <lb ed="#P" n="21"/>modus concipiendi, et loquendi nullam 
+          inge<lb break="no" ed="#P" n="22"/>rit difficultatem, neque est, quod illud prius,
+          <lb ed="#P" n="23"/>et posterius aliquem decipiat, quia haec signa,
+          <lb ed="#P" n="24"/>seu instantia rationis non ponunt prioritatem,
+          <lb ed="#P" n="25"/>in qua vere unum sit prius altero, sed solum
+          <lb ed="#P" n="26"/>explicant rationes varias in eadem 
+          simphreissi<lb break="no" ed="#P" n="27"/>ma re contentas : et ita facile expediuntur
+          <lb ed="#P" n="28"/>fundamenta contraria. Solum superest 
+          expli<lb break="no" ed="#P" n="29"/>candum, quomodo scientia creaturarum in Deo
+          <lb ed="#P" n="30"/>tam necessaria sit, sicut ipsum Verbum 
+          divi<lb break="no" ed="#P" n="31"/>num, quod statim praestabo.
+        </p>
+        <p xml:id="szduep-185801-d1e879">
+          <lb ed="#P" n="32"/>14. Tertius modus explicandi scientiam Dei.
+          <lb ed="#P" n="33"/>—Tertio modo potest intelligi scientia 
+          crea<lb break="no" ed="#P" n="34"/>turarum in Deo, ita ut non sit per 
+          cognitio<lb break="no" ed="#P" n="35"/>nem illarum in essentia Divina tanquam in
+          <lb ed="#P" n="36"/>causa, nec per cognitionem illarum ex 
+          cogni<lb break="no" ed="#P" n="37"/>tione divinitatis tanquam ex cognitione causae:
+          <lb ed="#P" n="38"/>neque etiam ita, ut haec duplex scientia sit in
+          <lb ed="#P" n="39"/>DEO duplex perfectio ratione distincta : sed
+          <lb ed="#P" n="40"/>solum per simplicem repraesentationem 
+          ipsa<lb break="no" ed="#P" n="41"/>rum creaturarum, quae in DEO ultra 
+          cognitio<lb break="no" ed="#P" n="42"/>nem sui nullam realem perfectionem addat:
+          <lb ed="#P" n="43"/>sed solum respectum rationis ad creaturas.
+          <lb ed="#P" n="44"/>Declaratur exemplo scientiae simplicis 
+          intelli<lb break="no" ed="#P" n="45"/>gentie, et visionis : distinguuntur enim in
+          <lb ed="#P" n="46"/>Deo ratione, non vero tanquam perfectiones
+          <lb ed="#P" n="47"/>reales ratione distinctae, sed solum per 
+          respec<lb break="no" ed="#P" n="48"/>tum rationis, qui nostro modo intelligendi 
+          con<lb break="no" ed="#P" n="49"/>surgit in illa scientia, quae erat simplicis 
+          intel<lb break="no" ed="#P" n="50"/>ligentiae, eo ipso, quod objectum ejus futurum
+          <lb ed="#P" n="51"/>est, et comparato illo respectu jam est scientia
+          <lb ed="#P" n="52"/>visionis, sine ulla additione real. Ita ergo in
+          <lb ed="#P" n="53"/>praesenti concipere possumus divinam 
+          scien<lb break="no" ed="#P" n="54"/>tiam, ut terminatam ad solam essentiam DEI
+          <lb ed="#P" n="55"/>tanquam ad rem omnino absolutam, et simul
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etiam ad relationes ad intra, et in hoc solo
+          <lb ed="#P" n="57"/>necessario consistere perfectionem realem ejus,
+          <lb ed="#P" n="58"/>et ad comprehensionem illius objecti non 
+          in<lb break="no" ed="#P" n="59"/>digere cognitione alicujus rei extra se. Et 
+          ni<lb break="no" ed="#P" n="60"/>hilominus eo ipso, quod creaturae possibiles
+          <lb ed="#P" n="61"/>sunt, habere illam scientiam vim 
+          repraesen<lb break="no" ed="#P" n="62"/>tandi illas, et consurgere in ipsa respectum
+          <lb ed="#P" n="63"/>rationis ad tale objectum, per quem 
+          constitui<lb break="no" ed="#P" n="64"/>tur in esse scientiae creaturarum. Unde fit, ut
+          <lb ed="#P" n="65"/>hic respectus minus necessarie, et quasi 
+          acci<lb break="no" ed="#P" n="66"/>dentarie Deo conveniat, ac propterea illa 
+          scien<lb break="no" ed="#P" n="67"/>tia sub ea ratione non sit Verbi divini 
+          pro<lb break="no" ed="#P" n="68"/>ductiva. Et juxta hunc modum explicandi
+          <lb ed="#P" n="69"/>scientiam divinam circa creaturas possibiles,
+          <lb ed="#P" n="70"/>videntur aliqui moderni auctores defendere
+          <lb ed="#P" n="71"/>priorem sententiam.
+        </p>
+        <p xml:id="szduep-185801-d1e971">
+          <lb ed="#P" n="72"/>15. Mihi autem imprimis difficile videtur
+          <lb ed="#P" n="73"/>illud fundamentum. Primo, quia scientia 
+          crea<lb break="no" ed="#P" n="74"/>turarum sic explicata non videtur esse 
+          perfec<lb break="no" ed="#P" n="75"/>tissima, qualis Deo attribui debet, quia non
+          <lb ed="#P" n="76"/>est cognitio effectuum in causa, haec autem
+          <lb ed="#P" n="77"/>est perfectissima. Secundo, quia vix potest 
+          in<lb break="no" ed="#P" n="78"/>telligi, quod divina scientia post 
+          repraesenta<lb break="no" ed="#P" n="79"/>tionem (ut ita dicam) ipsius DEI tanquam 
+          ob<lb break="no" ed="#P" n="80"/>jecti intelligibilis, repraesentet vere, et realiter
+          <lb ed="#P" n="81"/>omnés creaturas possibiles, et non propter 
+          con<lb break="no" ed="#P" n="82"/>nexionem cum essentia sua, sed per sese 
+          prop<lb break="no" ed="#P" n="83"/>ter perfectionem suam, et tamen quod hoc
+          <lb ed="#P" n="84"/>nihil perfectionis realis dicat in illa scientia,
+          <lb ed="#P" n="85"/>cum ex suo genere scientia cujuscumque 
+          ob<lb break="no" ed="#P" n="86"/>jecti scibilis dicat perfectionem simphiciter.
+          <lb ed="#P" n="87"/>Neque in hoc est simile, quod affertur de 
+          scien<lb break="no" ed="#P" n="88"/>ta visionis : nam haec supponit scientiam 
+          sim<lb break="no" ed="#P" n="89"/>plicis intelligentiae earumdem omnino rerum,
+          <lb ed="#P" n="90"/>ut possibilium, et ideo mirum non est, quod
+          <lb ed="#P" n="91"/>illae eaedem res eo ipso, quod futurae sunt, 
+          re<lb break="no" ed="#P" n="92"/>praesententur per eamdem scientiam 
+          immuta<lb break="no" ed="#P" n="93"/>tam. Hic autem non supponitur scientia 
+          ejus<lb break="no" ed="#P" n="94"/>dem rei illo modo, neque etiam alterius rei,
+          <lb ed="#P" n="95"/>in qua cognoscantur creaturae possibiles: et
+          <lb ed="#P" n="96"/>ideo vix potest intelligi illa veluti extensio
+          <lb ed="#P" n="97"/>scientiae sine perfectione reali secundum 
+          ra<lb break="no" ed="#P" n="98"/>tionem distincta. Praesertim, quia in scientia
+          <lb ed="#P" n="99"/>visionis ratione cogimur ad illam dicto modo
+          <lb ed="#P" n="100"/>explicandam, propter immutabilitatem divinae
+          <lb ed="#P" n="101"/>scientiee, hic autem nulla est ratio, propter
+          <lb ed="#P" n="102"/>quam hoc asserendum sit, neque id pertinet
+          <lb ed="#P" n="103"/>ad divinam perfectionem. Cur ergo 
+          obscurio<lb break="no" ed="#P" n="104"/>rem reddemus modum explicandi scientiam
+          <lb ed="#P" n="105"/>illam? t
+        </p>
+        <p xml:id="szduep-185801-d1e1047">
+          <lb ed="#P" n="106"/>16. Tam necessario creaturee 
+          repreesentan<lb break="no" ed="#P" n="107"/>tur in Verbo sicut in scientia Dei.—Addo vero
+          <lb ed="#P" n="108"/>ulterius, etiam admisso illo modo, nihil esse,
+          <lb ed="#P" n="109"/>cur negemus, Verbum procedere ex scientia
+          <lb ed="#P" n="110"/>creaturarum. Quia etiam illa scientia est sim-
+          <pb ed="#P" n="739"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pliciter necessaria non solum in se, sed etiam
+          <lb ed="#P" n="2"/>ut actu repraesentans creaturas, hoc autem 
+          so<lb break="no" ed="#P" n="3"/>lum est produci ex cognitione creaturarum.
+          <lb ed="#P" n="4"/>Consequentia patet ex illo principio, quod hoc
+          <lb ed="#P" n="5"/>Verbum est adaequatum illi scientiae, ut saepe
+          <lb ed="#P" n="6"/>dixi ex Augustino, et idem habet Athanasius
+          <lb ed="#P" n="7"/>in epistola de decretis Nicenae Synodi, et inde
+          <lb ed="#P" n="8"/>probat unitatem illius Verbi, quam rationem
+          <lb ed="#P" n="9"/>nos supra declaravimus. Antecedens vero 
+          pa<lb break="no" ed="#P" n="10"/>tet, quia illa scientia Dei necessario 
+          reprae<lb break="no" ed="#P" n="11"/>sentat, quidquid est repraesentabile, sed 
+          crea<lb break="no" ed="#P" n="12"/>turae possibiles supponuntur naturalter 
+          re<lb break="no" ed="#P" n="13"/>praesentabiles per scientiam, ergo necessario
+          <lb ed="#P" n="14"/>repraesentantur per illam scientiam.
+        </p>
+        <p xml:id="szduep-185801-d1e1095">
+          <lb ed="#P" n="15"/>17. Dicetur fortasse, scientiam illam Dei
+          <lb ed="#P" n="16"/>necessario repraesentare creaturas, ut 
+          possibi<lb break="no" ed="#P" n="17"/>les, sed non tam necessario, ac Pater producit
+          <lb ed="#P" n="18"/>Verbum suum, atque hoc satis esse, ut 
+          Ver<lb break="no" ed="#P" n="19"/>bum non procedat ex illa scientia ut 
+          reprae<lb break="no" ed="#P" n="20"/>sentante creaturas possibiles. Sed contra 
+          pri<lb break="no" ed="#P" n="21"/>mo, quia licet daremus hanc inequalitatem
+          <lb ed="#P" n="22"/>in necessitate, nihilominus cum eadem 
+          pro<lb break="no" ed="#P" n="23"/>portione loquendum esset de Verbo et scientia.
+          <lb ed="#P" n="24"/>Nam Verbum etiam repraesentat creaturas
+          <lb ed="#P" n="25"/>possibiles necessario, ut omnes fatentur, et est
+          <lb ed="#P" n="26"/>per se notum ex illo principio, quod est 
+          Ver<lb break="no" ed="#P" n="27"/>bum adaequatum. Unde hanc 
+          repraesentatio<lb break="no" ed="#P" n="28"/>nem habet ex vi suae processionis, quia ex vi
+          <lb ed="#P" n="29"/>illius totam scientiam Dei habet, secundum
+          <lb ed="#P" n="30"/>absolutum esse illius. Ad quod necessario 
+          se<lb break="no" ed="#P" n="31"/>quitur repraesentatio creaturarum tanta 
+          ne<lb break="no" ed="#P" n="32"/>cessitate, quanta illae sunt possibiles. Ergo
+          <lb ed="#P" n="33"/>accommodando singula singulis, sicut in 
+          scien<lb break="no" ed="#P" n="34"/>tia distinguuntur illa duo, scilicet esse et 
+          re<lb break="no" ed="#P" n="35"/>praesentare creaturas, ita et in Verbo 
+          distin<lb break="no" ed="#P" n="36"/>guenda sunt, ergo verbum quoad esse 
+          proce<lb break="no" ed="#P" n="37"/>dit ex scientia, ut est, et quoad 
+          repraesentatio<lb break="no" ed="#P" n="38"/>nem creaturarum ex cognitione illarum.
+        </p>
+        <p xml:id="szduep-185801-d1e1150">
+          <lb ed="#P" n="39"/>18. Tam necessario repreaesentantur creatura
+          <lb ed="#P" n="40"/>possibiles, sicut Verbum producitur. — Adhuc
+          <lb ed="#P" n="41"/>etiam ulterius addo, non minus necessario
+          <lb ed="#P" n="42"/>scientiam Dei repraesentare creaturas ut 
+          pos<lb break="no" ed="#P" n="43"/>sibiles, quam procedat Verbum a Patre. 
+          Pro<lb break="no" ed="#P" n="44"/>batur, quia illa scientia est prior origine in
+          <lb ed="#P" n="45"/>Patre, non solum secundum se, et absolute
+          <lb ed="#P" n="46"/>spectata, sed etiam ut actu repraesentans 
+          crea<lb break="no" ed="#P" n="47"/>turas possibiles. Quod ita ostendo: nam 
+          crea<lb break="no" ed="#P" n="48"/>turae, ut sint possibiles, non pendent per se
+          <lb ed="#P" n="49"/>a Verbo, ut Verbum est, sed a Deo ut sic, et
+          <lb ed="#P" n="50"/>ab omnipotentia ejus, quae est prior origine
+          <lb ed="#P" n="51"/>in Patre, ergo etiam possibilitas creaturarum
+          <lb ed="#P" n="52"/>secundum se est, ut ita dicam, origine prior:
+          <lb ed="#P" n="53"/>ergo etiam actualis repraesentatio earum in
+          <lb ed="#P" n="54"/>scientia Patris est prior origine, ergo illa 
+          re<lb break="no" ed="#P" n="55"/>praesentatio est tam necessaria, ac Verbi ema-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>natio est origine posterior. Quia si illa 
+          reprae<lb break="no" ed="#P" n="57"/>sentatio est simpliciter necessaria, et 
+          indepen<lb break="no" ed="#P" n="58"/>dens ab emanatione Verbi, et prior illa saltem
+          <lb ed="#P" n="59"/>prioritate originis: nihil obstare potest, 
+          quo<lb break="no" ed="#P" n="60"/>minus sit aeque necessaria. Et consequenter
+          <lb ed="#P" n="61"/>ex eadem prioritate concluditur, Verbum 
+          pro<lb break="no" ed="#P" n="62"/>duci per illam scientiam ut jam actu 
+          reprae<lb break="no" ed="#P" n="63"/>sentantem creaturas possibiles.
+        </p>
+        <p xml:id="szduep-185801-d1e1209">
+          <lb ed="#P" n="64"/>19. Objectioni occurritur. — Sed aiunt, ut
+          <lb ed="#P" n="65"/>creaturae sint possibiles per omnipotentiam
+          <lb ed="#P" n="66"/>Det, supponi ex parte illarum quamdam 
+          pos<lb break="no" ed="#P" n="67"/>sibilitatem objectivam, quae solet vocari non
+          <lb ed="#P" n="68"/>repugnantia, quae non est in illis tam 
+          neces<lb break="no" ed="#P" n="69"/>saria, sicut est Verbi existentia: sed contra,
+          <lb ed="#P" n="70"/>quia vel creaturae habent hanc qualemcumque
+          <lb ed="#P" n="71"/>possibihtatem ex Deo, seu ex divinis ideis: vel
+          <lb ed="#P" n="72"/>habent quasi ex se sine dependentia a Deo.
+          <lb ed="#P" n="73"/>Priori modo necessariam habent illam 
+          possi<lb break="no" ed="#P" n="74"/>bilitatem quasi ex necessaria denominatione,
+          <lb ed="#P" n="75"/>vel conjunctione cum ideis divinis, et ex hac
+          <lb ed="#P" n="76"/>parte non minus necessario habent illam,
+          <lb ed="#P" n="77"/>quam Verbum existat, et alioqui habent 
+          il<lb break="no" ed="#P" n="78"/>lam, cum prioritate originis respectu Verbi,
+          <lb ed="#P" n="79"/>ut explicavi. Sj autem posteriori modo 
+          conci<lb break="no" ed="#P" n="80"/>piatur illa non repugnantia ex parte 
+          creatu<lb break="no" ed="#P" n="81"/>rarum, plane est tam necessaria in sua 
+          nega<lb break="no" ed="#P" n="82"/>uone, sicut Verbum in suo esse actuali, quia
+          <lb ed="#P" n="83"/>est sine dependentia ab alio in illa nam 
+          repu<lb break="no" ed="#P" n="84"/>gnantia. Tota autem necessitas Dei est 
+          neces<lb break="no" ed="#P" n="85"/>sitas independentiae, ergo in hoc est 
+          aequali<lb break="no" ed="#P" n="86"/>tas. Neque hoc est inconveniens, quia non est
+          <lb ed="#P" n="87"/>equalitas in re positiva, sed in negatione
+          <lb ed="#P" n="88"/>quadam.
+        </p>
+        <p xml:id="szduep-185801-d1e1266">
+          <lb ed="#P" n="89"/>20. Ad fundamenta contrarie sententiee.—
+          <lb ed="#P" n="90"/>Et hinc facile patet responsio ad totum 
+          fun<lb break="no" ed="#P" n="91"/>damentum contrariorum. Ad illam vero 
+          con<lb break="no" ed="#P" n="92"/>ditionalem, in qua fit magna vis, si creature
+          <lb ed="#P" n="93"/>non essent possibiles ; Verbum milulomannus esset
+          <lb ed="#P" n="94"/>perfeclum., respondet recte Cajetanus, dato
+          <lb ed="#P" n="95"/>antecedenti, non recte inferri, de facto non
+          <lb ed="#P" n="96"/>procedere Verbum ex scientia creaturarum:
+          <lb ed="#P" n="97"/>sicut e contrario dicere quis potest, licet 
+          Ver<lb break="no" ed="#P" n="98"/>bum non produceretur, creaturas esse posse,
+          <lb ed="#P" n="99"/>quia non pendent per se a Verbo, ut talis 
+          per<lb break="no" ed="#P" n="100"/>sona est, quantum est ex parte sua. Et tamen
+          <lb ed="#P" n="101"/>non sequitur, quod de facto non producantur
+          <lb ed="#P" n="102"/>per Verbum, quia licet ex parte creaturarum
+          <lb ed="#P" n="103"/>non esset necessarium Verbum productum,
+          <lb ed="#P" n="104"/>ex parte Dei necessarium est. Ita ergo e 
+          con<lb break="no" ed="#P" n="105"/>trario dici potest, quamvis ex parte Verbi
+          <lb ed="#P" n="106"/>praecise considerati non sit necessaria 
+          possi<lb break="no" ed="#P" n="107"/>bilitas, vel non repugnantia creaturarum: 
+          ta<lb break="no" ed="#P" n="108"/>men quia alias per se necessaria est ; ideo illa
+          <lb ed="#P" n="109"/>posita per modum termini relationis, 
+          neces<lb break="no" ed="#P" n="110"/>sarium omnino esse, ut Verbum producatur
+          <pb ed="#P" n="740"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex scientia actu repraesentante ipsas 
+          creatu<lb break="no" ed="#P" n="2"/>ras. Deinde addi potest, posita illa hypothesi
+          <lb ed="#P" n="3"/>impossibili, Verbum fore aeque perfectum
+          <lb ed="#P" n="4"/>comparative (ut ita loquar) id est, tam 
+          per<lb break="no" ed="#P" n="5"/>fectum, quantum esset tunc scientia Dei. 
+          Ab<lb break="no" ed="#P" n="6"/>solute tamen, nec scientia Dei esset tam 
+          per<lb break="no" ed="#P" n="7"/>fecta, nec Deus ipse, quia non esset 
+          omnipo<lb break="no" ed="#P" n="8"/>tens. Quod si dicas, non supponi impotentiam
+          <lb ed="#P" n="9"/>in illo, sed tolli possibilitatem non 
+          repugnan<lb break="no" ed="#P" n="10"/>tie ex parte creaturarum. Respondeo, tam
+          <lb ed="#P" n="11"/>impossibile esse hoc posterius, sicut illud, et
+          <lb ed="#P" n="12"/>non posse tolli illam possibilitatem ex parte
+          <lb ed="#P" n="13"/>creaturarum, quin tollatur a Deo positiva
+          <lb ed="#P" n="14"/>perfectio omnipotentiae, ac subinde scientiae,
+          <lb ed="#P" n="15"/>et totius divini esse.
+        </p>
+        <p xml:id="szduep-185801-d1e1354">
+          <lb ed="#P" n="16"/>21. Resolutio quaestionis.— Conclusio igitur
+          <lb ed="#P" n="17"/>ex dictis, Verbum divinum simpliciter 
+          proce<lb break="no" ed="#P" n="18"/>dere ex cognitione creaturarum, ut possibilium,
+          <lb ed="#P" n="19"/>ac proinde Verbum divinum ex vi suae 
+          proces<lb break="no" ed="#P" n="20"/>sionis dicere, non tantum respectum ad Patrem,
+          <lb ed="#P" n="21"/>sed etiam ad creaturas, et in universum res
+          <lb ed="#P" n="22"/>necessario cognitas a Deo. Quod docuit D. 
+          Tho<lb break="no" ed="#P" n="23"/>mas in illa quaest. 34, et sequuntur omnes ejus
+          <lb ed="#P" n="24"/>discipuli, et sumitur etiam ex Augustino, dicto
+          <lb ed="#P" n="25"/>lib. 7, de Trinitate, a principio, et libro etiam
+          <lb ed="#P" n="26"/>15. Ratio autem est, quia Verbum per se primo
+          <lb ed="#P" n="27"/>dicit ordinem ad res cognitas tanquam 
+          reprae<lb break="no" ed="#P" n="28"/>sentans eas, cum ergo inter eas 
+          comprehen<lb break="no" ed="#P" n="29"/>dantur creaturae, ut ostensum est, ad illas dicet
+          <lb ed="#P" n="30"/>similem respectum. Cujus oppositum significat
+          <lb ed="#P" n="31"/>Gabriel, in 1, dist. 27, quaest. 3, art. 3, dub. 1,
+          <lb ed="#P" n="32"/>sed in re non contradicit. Solum enim 
+          inten<lb break="no" ed="#P" n="33"/>dit respectum non esse realem, quod nos 
+          fate<lb break="no" ed="#P" n="34"/>mur, et est per se clarum. Loquimur ergo de
+          <lb ed="#P" n="35"/>respectu rationis, et de hoc non formaliter, sic
+          <lb ed="#P" n="36"/>enim a ratione fingitur, sed fundamentalter,
+          <lb ed="#P" n="37"/>quia repraesentatio a nobis non concipitur, nisi
+          <lb ed="#P" n="38"/>per modum respectus.
+        </p>
+        <p xml:id="szduep-185801-d1e1406">
+          <lb ed="#P" n="39"/>22. Respectus in creaturis unde sit in Verbo.
+          <lb ed="#P" n="40"/>— Sed contra. Ergo hic respectus est proprius
+          <lb ed="#P" n="41"/>Verbi, quia convenit illi ex vi suae processionis:
+          <lb ed="#P" n="42"/>ergo convenit illi ratione suae proprietatis 
+          per<lb break="no" ed="#P" n="43"/>sonalis, et non ratione essentiae: nam ea, quae
+          <lb ed="#P" n="44"/>sunt propria, non conveniunt ex ratione 
+          com<lb break="no" ed="#P" n="45"/>muni, sed ex particulari: consequens autem
+          <lb ed="#P" n="46"/>est falsum, ergo. Propter hoc Aureolus, in 1,
+          <lb ed="#P" n="47"/>dist. 27, ut refert etiam Capreolus ad 
+          argu<lb break="no" ed="#P" n="48"/>menta contra quintam conclusionem concedit,
+          <lb ed="#P" n="49"/>respectum hunc convenire verbo ratione suae
+          <lb ed="#P" n="50"/>proprietatis, et non ratione essentiae. 
+          Opposi<lb break="no" ed="#P" n="51"/>tum autem D. Thomas, d. quaest. 34, art. 3,
+          <lb ed="#P" n="52"/>ad 1, et ibi Cajetanus et alii. Ferrariensis 4,
+          <lb ed="#P" n="53"/>contra Gentes, c. 13. Capreolus supra, atque
+          <lb ed="#P" n="54"/>ibidem etiam Scotus, quaest. 3. Qui dicunt 
+          re<lb break="no" ed="#P" n="55"/>praesentationem rerum convenire Verbo ratio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ne essentiae, non ratione filiationis. Et ratio
+          <lb ed="#P" n="57"/>est, quia haec repraesentatio est intellectualis,
+          <lb ed="#P" n="58"/>unde convenit Verbo ratione ipsius actus 
+          in<lb break="no" ed="#P" n="59"/>telligendi illi communicati: talis autem actus
+          <lb ed="#P" n="60"/>absolutum quid est, ut supra ostendi. Unde
+          <lb ed="#P" n="61"/>haec sententia vera est loquendo de propria
+          <lb ed="#P" n="62"/>forma, quae est ratio repraesentandi. Propter
+          <lb ed="#P" n="63"/>argumentum autem factum addo ex D. Thoma,
+          <lb ed="#P" n="64"/>in 1, dist. 27, quaest. 1, art. 3; aliud esse loqui
+          <lb ed="#P" n="65"/>de ratione formali repraesentandi, aliud de
+          <lb ed="#P" n="66"/>modo habendi illam. Primum convenit Verbo
+          <lb ed="#P" n="67"/>ratione essentiae, ut recte probatum est. 
+          Secun<lb break="no" ed="#P" n="68"/>dum autem convenit ratione proprietatis. Unde
+          <lb ed="#P" n="69"/>repraesentare intellectualiter creaturas, non est
+          <lb ed="#P" n="70"/>proprium Verbi, sed commune omnibus 
+          per<lb break="no" ed="#P" n="71"/>sonis, ut convincit ratio facta, habere autem
+          <lb ed="#P" n="72"/>hanc repraesentationem, ut communicatam ex
+          <lb ed="#P" n="73"/>vi suae formalis processionis, est proprium
+          <lb ed="#P" n="74"/>Verbi, et ideo in hoc involvitur proprietas ejus.
+          <lb ed="#P" n="75"/>Et ita nulla est repugnantia aut retractatio in
+          <lb ed="#P" n="76"/>D. Thoma, quamvis oppositum Cajetanus 
+          dixe<lb break="no" ed="#P" n="77"/>rit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

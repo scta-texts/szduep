@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="500"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-126832"><!-- t2-l5prae -->
+        <head xml:id="szduep-126832-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-126832-d1e103">
+          <pb ed="#P" n="500"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER QUINTUS.
+          <lb ed="#P" n="2"/>DE REPROBATIONE.
+        </p>
+        <p xml:id="szduep-126832-d1e114">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="3"/>Cum reprobatio et praedestinatio suo modo
+          <lb ed="#P" n="4"/>oppositae sint, et in ea oppositione reprobatio
+          <lb ed="#P" n="5"/>ad praedestinationem, tanquam privatio ad 
+          ha<lb break="no" ed="#P" n="6"/>bitum comparetur, ex his quae de 
+          praedestina<lb break="no" ed="#P" n="7"/>tione diximus, facile erit omnia quae ad 
+          repro<lb break="no" ed="#P" n="8"/>bationem pertinent, breviter expedire, quia
+          <lb ed="#P" n="9"/>privatio ex habitu, et unum oppositorum per
+          <lb ed="#P" n="10"/>aliud facile dignoscitur. Ideoque illa omnia,
+          <lb ed="#P" n="11"/>quae de praedestinatione diximus, in hoc libro
+          <lb ed="#P" n="12"/>comprehendemus. Dicemus ergo imprimis de
+          <lb ed="#P" n="13"/>actibus qui ad reprobationem concurrunt, et
+          <lb ed="#P" n="14"/>in quibus consistit, deinde causas et effectus
+          <lb ed="#P" n="15"/>ejus declarabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

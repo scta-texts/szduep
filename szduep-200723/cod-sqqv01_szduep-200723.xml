@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="795"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-200723"><!-- t3-l12c1 -->
+        <head xml:id="szduep-200723-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-200723-Hd1e103" type="question-title">Quid sit missio divinarum personarum</head>
+        <p xml:id="szduep-200723-d1e106">
+          <lb ed="#P" n="15"/>CAPUT I.
+          <lb ed="#P" n="16"/>QUID SIT MISSIO DIVINARUM PERSONARUM.
+        </p>
+        <p xml:id="szduep-200723-d1e113">
+          <lb ed="#P" n="17"/>1. Personas mitti supponitur.—Supponimus
+          <lb ed="#P" n="18"/>tanquam certum, divinas personas mitti, ita
+          <lb ed="#P" n="19"/>enim saepe loquitur Scriptura, Joannis, octavo:
+          <lb ed="#P" n="20"/>H go et quà misit me Pater ; et decimo quinto:
+          <lb ed="#P" n="21"/>Quem ego mittam vobis a Patre , et alia statim
+          <lb ed="#P" n="22"/>referam. Est ergo in divinis personis missio,
+          <lb ed="#P" n="23"/>nam ab illa denominatur persona missa. Sicut
+          <lb ed="#P" n="24"/>autem distinguitur origo in activam et 
+          passi<lb break="no" ed="#P" n="25"/>vam, ita etiam potest missio distingui , nam
+          <lb ed="#P" n="26"/>omni passioni cum proportione respondet 
+          ac<lb break="no" ed="#P" n="27"/>tio ; et missum, ac mittens correlativa sunt.
+        </p>
+        <p xml:id="szduep-200723-d1e139">
+          <lb ed="#P" n="28"/>2. Missio activa et passiva. — Ut autem 
+          ex<lb break="no" ed="#P" n="29"/>plicemus, quid sit missio tam activa, quam
+          <lb ed="#P" n="30"/>passiva, proprietas hujus vocis declaranda
+          <lb ed="#P" n="31"/>est. Nam missio in hominibus significat 
+          mo<lb break="no" ed="#P" n="32"/>tionem, aut regressum alicujus ab aliquo, in
+          <lb ed="#P" n="33"/>ordine ad aliquem terminum, vel locum, aut
+          <lb ed="#P" n="34"/>effectum , quae motio inter homines fit per
+          <lb ed="#P" n="35"/>imperium, vel consilium, vel per impetum,
+          <lb ed="#P" n="36"/>sicut dicitur mitti lapis, vel sagitta. Haec 
+          au<lb break="no" ed="#P" n="37"/>tem missio cum hac proprietate sumpta 
+          ha<lb break="no" ed="#P" n="38"/>bet admixtas plures imperfectiones, scilicet
+          <lb ed="#P" n="39"/>mutationem rei missae, et saepe etiam 
+          mitten<lb break="no" ed="#P" n="40"/>tis, et separationem unius ab alio secundum
+          <lb ed="#P" n="41"/>locum. Certum est ergo (ut notarunt 
+          Athana<lb break="no" ed="#P" n="42"/>sius, oratione in illud : Deus de Deo, circa 
+          fi<lb break="no" ed="#P" n="43"/>nem, et Augustinus, 2, lib. de Trinit., acap. 5,
+          <lb ed="#P" n="44"/>et alii Patres frequenter) non attribui 
+          perso<lb break="no" ed="#P" n="45"/>nis divinis missionem cum hac proprietate, ut
+          <lb ed="#P" n="46"/>haeretici intellexisse videntur, ex missione 
+          col<lb break="no" ed="#P" n="47"/>ligentes imperfectionem aliquam in persona
+          <lb ed="#P" n="48"/>missa, cujus oppositum in superioribus 
+          osten<lb break="no" ed="#P" n="49"/>sum est, et ex Scriptura, et Patribus statim
+          <lb ed="#P" n="50"/>constabit. Tribuitur ergo missio divinis 
+          per<lb break="no" ed="#P" n="51"/>sonis per quamdam metaphoram, seclusis 
+          im<lb break="no" ed="#P" n="52"/>perfectionibus,
+        </p>
+        <p xml:id="szduep-200723-d1e197">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>3. Dupliciter persona denominatur missa.—
+          <lb ed="#P" n="54"/>Est autem advertendum secundo, divinam
+          <lb ed="#P" n="55"/>personam dupliciter denominari missam, 
+          pri<lb break="no" ed="#P" n="56"/>mo ratione assumptae naturae per 
+          communica<lb break="no" ed="#P" n="57"/>tionem idiomatum, secundo, ut divina ipsa
+          <lb ed="#P" n="58"/>persona secundum se mitti etiam dicatur. 
+          Si<lb break="no" ed="#P" n="59"/>gnificavit hanc distinctionem, Augustinus, 4
+          <lb ed="#P" n="60"/>de Trinit., capite 20, dicens: Non tantum 
+          di<lb break="no" ed="#P" n="61"/>citur missus Filius, quia Verbwn caro factum
+          <lb ed="#P" n="62"/>est, sed etiam verbwm est missum, ut caro fieret.
+          <lb ed="#P" n="63"/>Significavit etiam Cyrillus, lib. 4, in Joannem,
+          <lb ed="#P" n="64"/>cap. 42, dicens: Non servilis luec missio est,
+          <lb ed="#P" n="65"/>quamvis ita dici possit, quia formam servi 
+          ac<lb break="no" ed="#P" n="66"/>cepit, sed mittitur etiam, ut Verbwn ex mente,
+          <lb ed="#P" n="67"/>et splendor ea sole, in quo significat, missionem
+          <lb ed="#P" n="68"/>attributam Christo ut homini, et per 
+          commu<lb break="no" ed="#P" n="69"/>nicationem idiomatum Verbo, posse esse 
+          pro<lb break="no" ed="#P" n="70"/>priam, et cum imperfectionibus, quae 
+          humani<lb break="no" ed="#P" n="71"/>tati non repugnant, et circa illam tantum 
+          ver<lb break="no" ed="#P" n="72"/>santur, sic enim Christus, et Verbum dicitur
+          <lb ed="#P" n="73"/>moveri localiter, ascendere, et descendere: at
+          <lb ed="#P" n="74"/>vero missionem attributam immediate divinae
+          <lb ed="#P" n="75"/>personae non posse sumi cum hac proprietate,
+          <lb ed="#P" n="76"/>sed significare egressum unius personae ab alia
+          <lb ed="#P" n="77"/>secundum aliquam operationem, seu aliquem
+          <lb ed="#P" n="78"/>effectum, seclusis imperfectionibus. Sic 
+          tribui<lb break="no" ed="#P" n="79"/>tur missio Spiritui sancto, non enim potest
+          <lb ed="#P" n="80"/>tribui ratione assumptae naturae cum in illo
+          <lb ed="#P" n="81"/>nulla sit. Sic etiam dicitur Filius missus, et
+          <lb ed="#P" n="82"/>factus ex muliere ad Galatas, quarto. Et eodem
+          <lb ed="#P" n="83"/>modo de se loquitur Christus, Joann. 5, 
+          di<lb break="no" ed="#P" n="84"/>cens: Ut omnes honorificent Filium, sicut 
+          ho<lb break="no" ed="#P" n="85"/>norificant Patrem : quinon honorificat Fibum,
+          <lb ed="#P" n="86"/>non honorificat Patrem, qui misit illum. Ubi
+          <lb ed="#P" n="87"/>exmissione colligit aequalitatem ; tantum abest,
+          <lb ed="#P" n="88"/>ut imperfectionem, vel inferioritatem indicet,
+          <lb ed="#P" n="89"/>ut notavit Hilarius, 9, de Trinit., satis a 
+          prin<lb break="no" ed="#P" n="90"/>cipio.
+        </p>
+        <p xml:id="szduep-200723-d1e284">
+          <lb ed="#P" n="91"/>4. Quid sit missio? — Opinio prima. — Es hoc
+          <lb ed="#P" n="92"/>vero intulerunt aliqui (ut refert Magister, in 1,
+          <lb ed="#P" n="93"/>dist. 15) missionem nihil aliud esse, quam 
+          ip<lb break="no" ed="#P" n="94"/>sam processionem unius personae ab alia, ita
+          <lb ed="#P" n="95"/>ut sicut arbor dicitur mittere flores, sic Pater
+          <lb ed="#P" n="96"/>dicatur mittere Filium, generando illum. Sed
+          <lb ed="#P" n="97"/>licet hi aliquid verum dixerint, non satis rem
+          <lb ed="#P" n="98"/>explicarunt, quia processio est aeterna, missio
+          <lb ed="#P" n="99"/>temporalis, juxta illud, Postquam vero 
+          tempo<lb break="no" ed="#P" n="100"/>ris, misit Deus Filium suum, ad Galatas, 
+          quar<lb break="no" ed="#P" n="101"/>to, et illud: Vos autem baptizabimini Spiritu
+          <lb ed="#P" n="102"/>sancto non post multo hos dies. Ergo necesse
+          <lb ed="#P" n="103"/>esse, ut missio aliquid addat praeter aeternam
+          <lb ed="#P" n="104"/>processionem. Unde Augustinus, dicto lib. 4,
+          <lb ed="#P" n="105"/>de Trinit., cap. 20, inquit: JVon eo ipso quod
+          <lb ed="#P" n="106"/>de Patre natus, missus dicitur Filius, sed vel
+          <lb ed="#P" n="107"/>ca, quod apparuit kwic mundo Verbwn caro
+          <pb ed="#P" n="796"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>factum, vel quod ex tempore cujusque, mente
+          <lb ed="#P" n="2"/>percipitur, sicut scriptum est, mitte illam, ut
+          <lb ed="#P" n="3"/>mecum sit, et mecum laboret, Sapientiae, septimo.
+        </p>
+        <p xml:id="szduep-200723-d1e334">
+          <lb ed="#P" n="4"/>5. Opinio secunda Magistri. — Propter hoc
+          <lb ed="#P" n="5"/>autem Magister in primo, distinctione decima
+          <lb ed="#P" n="6"/>quinta, in contrarium extremum inclinat, 
+          di<lb break="no" ed="#P" n="7"/>cens, missionem nihil aliud esse, quam 
+          opera<lb break="no" ed="#P" n="8"/>tionem alicujus temporalis effectus, quia 
+          mis<lb break="no" ed="#P" n="9"/>sio temporalis est, et ex tempore denominat
+          <lb ed="#P" n="10"/>personam. Hanc sententiam secutus est divus
+          <lb ed="#P" n="11"/>Thomas, ibi quaestione tertia, articulo primo,
+          <lb ed="#P" n="12"/>cum hac limitatione, ut missio dicat 
+          tempora<lb break="no" ed="#P" n="13"/>lem actionem, quatenus est a persona 
+          proce<lb break="no" ed="#P" n="14"/>dente ab alia, vel eam, ut sic, manifestat.
+          <lb ed="#P" n="15"/>Idem tenent Bonaventura, dicta distinctione
+          <lb ed="#P" n="16"/>decima quinta, prima parte, quaestione tertia
+          <lb ed="#P" n="17"/>et quarta, Scotus et Gabriel, distinctione 
+          de<lb break="no" ed="#P" n="18"/>cima quarta, Marsilius, primo, quaestione 
+          de<lb break="no" ed="#P" n="19"/>cima octava, et favet Augustinus, secundo, de
+          <lb ed="#P" n="20"/>Trinit., dicens: Hoc operatio visibiliter 
+          ex<lb break="no" ed="#P" n="21"/>pressa, et oculis oblata mortalibus, missio 
+          Spi<lb break="no" ed="#P" n="22"/>ritus sancti dicta est, et hbro quarto, capite
+          <lb ed="#P" n="23"/>vigesimo, Sicut natum esse est Filio, quod a
+          <lb ed="#P" n="24"/>Patre sit. Verumtamen haec etiam sententia,
+          <lb ed="#P" n="25"/>vel in rigore falsa, vel dimiputa saltem est,
+          <lb ed="#P" n="26"/>quia nec accommodat metaphoram missionis,
+          <lb ed="#P" n="27"/>sic enim potius effectus productus diceretur
+          <lb ed="#P" n="28"/>missus, quam divina persona, neque etiam 
+          ex<lb break="no" ed="#P" n="29"/>plicat egressum missi a mittente, quem 
+          ver<lb break="no" ed="#P" n="30"/>bum mittendi importat. Unde fieret, 
+          quam<lb break="no" ed="#P" n="31"/>cumque personam mitti, et mittere se, et
+          <lb ed="#P" n="32"/>aliam eo ipso, quod talem effectum producit,
+          <lb ed="#P" n="33"/>quod consequenter concedit Magister de Filio,
+          <lb ed="#P" n="34"/>et Spiritu sancto: de Patre autem non audet
+          <lb ed="#P" n="35"/>concedcre, quod mittatur propter Augustini
+          <lb ed="#P" n="36"/>auctoritatem, nullam autem rationem reddit:
+          <lb ed="#P" n="37"/>divus Thomas vero aliquam reddit, quam 
+          pos<lb break="no" ed="#P" n="38"/>tea attingemus. Alii tandem distinguunt de
+          <lb ed="#P" n="39"/>missione propzia, et impropria. Sed de hac
+          <lb ed="#P" n="40"/>distinctione dicemus infra, nunc de propria
+          <lb ed="#P" n="41"/>tantum missione tractamus.
+        </p>
+        <p xml:id="szduep-200723-d1e419">
+          <lb ed="#P" n="42"/>6. Vera resolutio. — Dicendum est ergo,
+          <lb ed="#P" n="43"/>Missionem divinae personae, esse processionem
+          <lb ed="#P" n="44"/>ejus cum habitudine, seu connotatione 
+          tempo<lb break="no" ed="#P" n="45"/>ralis effectus. Haec est divi Thomae sententia,
+          <lb ed="#P" n="46"/>articulo primo, secundo, et tertio, sequitur
+          <lb ed="#P" n="47"/>Durandus, in primo, distinctione decima 
+          quin<lb break="no" ed="#P" n="48"/>ta, Cajetanus, dicto articulo primo, et octavo,
+          <lb ed="#P" n="49"/>Ferrariensis, quarto, contra Gentes, capite 
+          vi<lb break="no" ed="#P" n="50"/>gesimo tertio. Et prior pars de processione
+          <lb ed="#P" n="51"/>aeterna sumitur ex Augustino, tertio, contra
+          <lb ed="#P" n="52"/>Maximinum, capite 14, quatenus dicit: Missio
+          <lb ed="#P" n="53"/>non est ineequalitas substantie, sed ordo 
+          natu<lb break="no" ed="#P" n="54"/>re : et quarto de Trinitate, capite vigesimo.
+          <lb ed="#P" n="55"/>Filius inittitur, non quia minor, sed quia ema-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>natio quaedam claritatis Dei sincera. Expresse
+          <lb ed="#P" n="57"/>id docet Gregorius, homil. 26, in Evangelio,
+          <lb ed="#P" n="58"/>Beda, lib. 2, homiliarum, homil. 2, Hilarius
+          <lb ed="#P" n="59"/>8, de Trinitate, ait: Spiritum sanctum mitti
+          <lb ed="#P" n="60"/>a Filio nihil esse aliud, quam ab illo accipere.
+          <lb ed="#P" n="61"/>Denique Cyrillus supra, et lib. 12, Thesauri,
+          <lb ed="#P" n="62"/>cap. 5, sic ait, Missum se Filius a Patre dicit,
+          <lb ed="#P" n="63"/>0), mutatione locorum, sed sicut calorem ab
+          <lb ed="#P" n="64"/>igne, vel splendorem a lumine. Ratio etiam est
+          <lb ed="#P" n="65"/>clara (quae ex eisdem testimonium colligitur)
+          <lb ed="#P" n="66"/>quia missio includit egressum missi a 
+          mitten<lb break="no" ed="#P" n="67"/>te, inter divinas autem personas non est 
+          egres<lb break="no" ed="#P" n="68"/>sio, nisi secundum processionem, ergo necesse
+          <lb ed="#P" n="69"/>est, missionem personae illius esse processionem.
+        </p>
+        <p xml:id="szduep-200723-d1e484">
+          <lb ed="#P" n="70"/>7. Secunda pars probata relinquitur ex
+          <lb ed="#P" n="71"/>dictis contra priorem opinionem Magistri, et
+          <lb ed="#P" n="72"/>utraque confirmatur ex duabus conditionibus
+          <lb ed="#P" n="73"/>missionis, nam debet esse notionalis, alias non
+          <lb ed="#P" n="74"/>distingueretur ab attributis communibus: et
+          <lb ed="#P" n="75"/>cum respectu temporali ad extra, alias non
+          <lb ed="#P" n="76"/>distingueretur a notionibus mere internis, et
+          <lb ed="#P" n="77"/>eeternis, ergo ratione prioris conditionis 
+          ne<lb break="no" ed="#P" n="78"/>cesse est, ut includat internam processionem,
+          <lb ed="#P" n="79"/>ratione vero posterioris conditionis addat
+          <lb ed="#P" n="80"/>temporalem effectum. Quod egregie 
+          decla<lb break="no" ed="#P" n="81"/>ratur ex verbis Christi Domini, Joannis 16:
+          <lb ed="#P" n="82"/>Haivi a Patre, et veni in mundum. Nam ile
+          <lb ed="#P" n="83"/>exitus per divinam processionem fuit, ut 
+          ex<lb break="no" ed="#P" n="84"/>ponit ibi Augustinus, tract. 102, et Hilarius
+          <lb ed="#P" n="85"/>libro 9, de Trinitate. Non tamen habuit 
+          ra<lb break="no" ed="#P" n="86"/>tionem missionis, donec in tempore Filius
+          <lb ed="#P" n="87"/>venit in mundum.
+        </p>
+        <p xml:id="szduep-200723-d1e526">
+          <lb ed="#P" n="88"/>8. Missio cur temporalis. —Et ob hanc 
+          cau<lb break="no" ed="#P" n="89"/>sam (ut Magistro respondeamus) non 
+          repu<lb break="no" ed="#P" n="90"/>gnat, missionem esse temporalem, quamvis
+          <lb ed="#P" n="91"/>includat processionem aeternam, nam si ex re
+          <lb ed="#P" n="92"/>eeterna, et temporali aliquid in tempore 
+          coa<lb break="no" ed="#P" n="93"/>lescit, compositum illud temporale est, ad
+          <lb ed="#P" n="94"/>hunc autem modum se habet missio. Quod
+          <lb ed="#P" n="95"/>ita etiam explicatur, nam haec missio non 
+          di<lb break="no" ed="#P" n="96"/>cit tantum exitum a mittente, sed includit
+          <lb ed="#P" n="97"/>etiam (ut sic dicam) perventionem ad 
+          termi<lb break="no" ed="#P" n="98"/>num, seu effectum: quia ergo effectus in 
+          tem<lb break="no" ed="#P" n="99"/>pore fit missio absolute temporahls est, ut
+          <lb ed="#P" n="100"/>recte D. Thomas et alii docuerunt. Unde 
+          tan<lb break="no" ed="#P" n="101"/>dem intelligitur, missionem duas relationes
+          <lb ed="#P" n="102"/>importare in divinis, unam realem missi ad
+          <lb ed="#P" n="103"/>mittentem, quae non est alia a proprietate 
+          per<lb break="no" ed="#P" n="104"/>sonae missae. Et ideo recte dicunt theclogi, non
+          <lb ed="#P" n="105"/>esse in missione aliam processionem praeter
+          <lb ed="#P" n="106"/>aternam, Bonaventura, 1, dist. 14, art. 2,
+          <lb ed="#P" n="107"/>quaest. 2, Durandus, quaest. 2. Alia relatio est
+          <lb ed="#P" n="108"/>ad creaturam, haec est rationis, et non auget
+          <lb ed="#P" n="109"/>proprietates, nec processiones: tamen, quia
+          <lb ed="#P" n="110"/>temporalis est, missio etiam temporalis est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="502"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-127541"><!-- t2-l5c3 -->
+        <head xml:id="szduep-127541-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-127541-Hd1e103" type="question-title">An deus ex se voluerit aliquem a regno coelesti excludere in primo signo rationis, in quo de salute hominum decrevit</head>
+        <p xml:id="szduep-127541-d1e106">
+          <lb ed="#P" n="101"/>CAPUT III.
+          <lb ed="#P" n="102"/>AN DEUS EX SE VOLUERIT ALIQUEM A REGNO
+          <lb ed="#P" n="103"/>COELESTI EXCLUDERE IN PRIMO SIGNO RATIONIS,
+          <lb ed="#P" n="104"/>IN QUO DE SALUTE HOMINUM DECREVIT.
+        </p>
+        <p xml:id="szduep-127541-d1e117">
+          <lb ed="#P" n="105"/>1. Prior opinio. — Nonnulli theologi 
+          sen<lb break="no" ed="#P" n="106"/>tiunt, in sua voluntate eumdem ordinem 
+          ser<lb break="no" ed="#P" n="107"/>vasse Deum cum reprobis, quem habuit cum
+          <pb ed="#P" n="503"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>electis. Atque ita in eodem signo rationis, in
+          <lb ed="#P" n="2"/>quo Deus elegit efficaciter quosdam ad 
+          glo<lb break="no" ed="#P" n="3"/>riam, voluisse etiam absolute et simpliciter, ut
+          <lb ed="#P" n="4"/>alii non consequantur gloriam. Ita sentit 
+          Du<lb break="no" ed="#P" n="5"/>randus, in 1, d. 40, q. 2, numer. 6, et indicat
+          <lb ed="#P" n="6"/>Corduba, lib. 1, qu., q. 56, notab. 2, opin. 5,
+          <lb ed="#P" n="7"/>quamvis sub dubio. Idemque defendunt aliqui
+          <lb ed="#P" n="8"/>moderni, eamque maxime amplexi sunt 
+          hae<lb break="no" ed="#P" n="9"/>retici hujus temporis, praesertim Calvinus et
+          <lb ed="#P" n="10"/>Beza, eamque tribuunt Augustino, libro 1, ad
+          <lb ed="#P" n="11"/>Simplician., q. 2, et libro 11, Genes. ad 
+          Litte<lb break="no" ed="#P" n="12"/>ram, cap. 10, et Prospero, libro 1, de 
+          Voca<lb break="no" ed="#P" n="13"/>tione Gent., cap. 21, sed immerito, ut infra
+          <lb ed="#P" n="14"/>clare ostendam. Fundamentum praecipuum 
+          su<lb break="no" ed="#P" n="15"/>mitur ex verbis illis ad Rom. 9: Jacob dilezi:
+          <lb ed="#P" n="16"/>Hsau autem odio habwi. Nam illud odium 
+          op<lb break="no" ed="#P" n="17"/>positum fuit amori, et non minus efficax quam
+          <lb ed="#P" n="18"/>illud: quia est tam absolutus actus voluntats
+          <lb ed="#P" n="19"/>divinae, sicut actus amoris: ergo infallibiliter
+          <lb ed="#P" n="20"/>infert, et virtute continet reprobationem: nam
+          <lb ed="#P" n="21"/>sicut ille amor est de bono gloriae, ita odium
+          <lb ed="#P" n="22"/>de malo carentiae gloriae. Et tamen de 
+          utro<lb break="no" ed="#P" n="23"/>que dicitur aequaliter, anteguam quidquam boni
+          <lb ed="#P" n="24"/>aut mali egissent. Ergo in eodem signo 
+          ratio<lb break="no" ed="#P" n="25"/>nis habuit Deus utrumque actum.
+        </p>
+        <p xml:id="szduep-127541-d1e185">
+          <lb ed="#P" n="26"/>2. Unde etiam potest formari ratio, nam
+          <lb ed="#P" n="27"/>voluntas Dei non manet suspensa, nec mere
+          <lb ed="#P" n="28"/>negative se habet circa aliquod objectum :
+          <lb ed="#P" n="29"/>ergoquibus non voluit in illosigno efficaciter
+          <lb ed="#P" n="30"/>dare gloriam, voluit absolute non dare: quia
+          <lb ed="#P" n="31"/>negatio unius voluntatis est (ut ita dicam)
+          <lb ed="#P" n="32"/>positio alterius. Et confirmatur, nam sicut
+          <lb ed="#P" n="33"/>Deus ex se voluit dare gloriam praedestinatis
+          <lb ed="#P" n="34"/>ad ostensionem gratiae suae, ita voluit non
+          <lb ed="#P" n="35"/>dare aliis , vel ad ostensionem potentiae et
+          <lb ed="#P" n="36"/>justitiae suae in illis, vel ad ostensionem 
+          gra<lb break="no" ed="#P" n="37"/>tiae in aliis. Nam priorem finem indicavit
+          <lb ed="#P" n="38"/>Paulus in eodem capite nono, dicens de 
+          Pha<lb break="no" ed="#P" n="39"/>raone: 7n hoc ipsum eacitavi te, ut ostendam
+          <lb ed="#P" n="40"/>in te virtutem meam , id est, potentiam: et
+          <lb ed="#P" n="41"/>universalius de reprobis subjungit: $ Deus
+          <lb ed="#P" n="42"/>volens ostendere iran, et notam facere 
+          poten<lb break="no" ed="#P" n="43"/>liam suam, etc. Posteriorem vero finem 
+          pro<lb break="no" ed="#P" n="44"/>ponit idem Apostolus, dum ait: Zberum esse
+          <lb ed="#P" n="45"/>figulo facere vas in honorem vel in contumeliam
+          <lb ed="#P" n="46"/>ex eadem massa, et ita Deum fecisse reprobos,
+          <lb ed="#P" n="47"/>ut ostenderet divitias gratiee sue in vasa 
+          mise<lb break="no" ed="#P" n="48"/>ricordie: ergo Deus ex se, atque adeo in primo
+          <lb ed="#P" n="49"/>signo rationis, quando nullam inaequalitatem
+          <lb ed="#P" n="50"/>viderat in hominibus, habuit praeconceptos
+          <lb ed="#P" n="51"/>hos fines generalis providentiae suae, et in 
+          vir<lb break="no" ed="#P" n="52"/>tute tantum illorum, sicut hos elegit, ita 
+          vo<lb break="no" ed="#P" n="53"/>luit alios a regno ejicere.
+        </p>
+        <p xml:id="szduep-127541-d1e249">
+          <lb ed="#P" n="54"/>3. Secunda opinio. —Secunda opinio 
+          mode<lb break="no" ed="#P" n="55"/>ratior est, Deum non ita se habuisse circa om-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nes reprobos, tamen circa aliquos habuisse
+          <lb ed="#P" n="57"/>hanc voluntatem, quam non tam ex Scriptura,
+          <lb ed="#P" n="58"/>quam ex effectibus probant. Nam aliqui sunt
+          <lb ed="#P" n="59"/>ita derelicti a Deo, ut non solum non 
+          salven<lb break="no" ed="#P" n="60"/>tur, sed etiam nec salvari possint, potestare
+          <lb ed="#P" n="61"/>proxima et in particulari, ut maxime patet in
+          <lb ed="#P" n="62"/>his parvulis, quibus non potest humano modo
+          <lb ed="#P" n="63"/>applicari baptismus : idemque est suo modo
+          <lb ed="#P" n="64"/>in adultis, ad quos lux Evangelii non pervenit,
+          <lb ed="#P" n="65"/>ne fortasse inspiratio divina supernaturalis.
+          <lb ed="#P" n="66"/>Nam (ut seepe dixi) media ostendunt 
+          intentio<lb break="no" ed="#P" n="67"/>nem finis: baec autem media talia sunt, ut 
+          in<lb break="no" ed="#P" n="68"/>fallibiliter habeant conjunctam exclusionem a
+          <lb ed="#P" n="69"/>Begno: ergo signum est, Deum absolnta 
+          vo<lb break="no" ed="#P" n="70"/>luntate illam intendisse, saltem circa 
+          hujus<lb break="no" ed="#P" n="71"/>modi homines.
+        </p>
+        <p xml:id="szduep-127541-d1e293">
+          <lb ed="#P" n="72"/>5. Tertia opinio. — Alii denique moderantur
+          <lb ed="#P" n="73"/>hanc sententiam, dicentes, Deum ex se 
+          nemi<lb break="no" ed="#P" n="74"/>nem voluisse absolute excludere a Regno, nec
+          <lb ed="#P" n="75"/>ante, nec post praevisum lapsum humanae 
+          natu<lb break="no" ed="#P" n="76"/>rae in Adamo; esse tamen quamdam 
+          diversita<lb break="no" ed="#P" n="77"/>tem inter haec duo signa, seu hos duos status,
+          <lb ed="#P" n="78"/>quod, ante praevisum originale peccatum in
+          <lb ed="#P" n="79"/>humana natura, Deus non solum neminem 
+          ex<lb break="no" ed="#P" n="80"/>cludit a Regno sua absoluta voluntate, verum
+          <lb ed="#P" n="81"/>potius erga omnes habet affectum simphrcis 
+          vo<lb break="no" ed="#P" n="82"/>luntatis salvandi omnes: eodem modo se 
+          ha<lb break="no" ed="#P" n="83"/>buit erga angelos ante praescicntiam peccati.
+          <lb ed="#P" n="84"/>At post praevisum lapsum humanae naturaee,
+          <lb ed="#P" n="85"/>licet nullum etiam statim voluerit ejicere a
+          <lb ed="#P" n="86"/>Regno efficaci voluntate, non tamen circa 
+          om<lb break="no" ed="#P" n="87"/>nes habuit illum simplicem aftectum cupiendi
+          <lb ed="#P" n="88"/>eis beatitudinem aeternam, sed circa plures
+          <lb ed="#P" n="89"/>habuit hujusmodi simplicem affectum 
+          volun<lb break="no" ed="#P" n="90"/>tatis dandi illis regnum, quantum est ex se.
+          <lb ed="#P" n="91"/>Circa nonnullos vero aiunt, post praevisum
+          <lb ed="#P" n="92"/>originale peccatum habuisse Deum 
+          volunta<lb break="no" ed="#P" n="93"/>tem simplicem, et quasi desiderium ejiciendi
+          <lb ed="#P" n="94"/>illos a Regno, propter originale peccatum, et
+          <lb ed="#P" n="95"/>ex hac voluntate impedivisse, ne illis posset
+          <lb ed="#P" n="96"/>applicari remedium contra illud peccatum.
+          <lb ed="#P" n="97"/>Quod maxime affirmant de his parvulis, 
+          qui<lb break="no" ed="#P" n="98"/>bus non potest tale remedium applcari. Et
+          <lb ed="#P" n="99"/>fundamentum est, quia haec impotentia, seu
+          <lb ed="#P" n="100"/>impedimentum, quod in tempore contingit,
+          <lb ed="#P" n="101"/>non evenit, sine divina providentia, quae non
+          <lb ed="#P" n="102"/>tantum est permittens, sed etiam ordinans,
+          <lb ed="#P" n="103"/>quia ille effectus scepe sit sine peccato, et 
+          quid<lb break="no" ed="#P" n="104"/>quid peccatum non est, non est tantum 
+          per<lb break="no" ed="#P" n="105"/>missum , sed etiam ordinatum a DEO: ergo
+          <lb ed="#P" n="106"/>signum est hoc medium esse volitum a DEO
+          <lb ed="#P" n="107"/>propter illum finem, intentum saltem per 
+          sim<lb break="no" ed="#P" n="108"/>plicem voluntatem.
+        </p>
+        <p xml:id="szduep-127541-d1e376">
+          <lb ed="#P" n="109"/>5. Ad explicandam ergo veritatem 
+          praemit<lb break="no" ed="#P" n="110"/>to, vel suppono, posse esse sermonem de om-
+          <pb ed="#P" n="504"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nibus, vel ante, vel post praevisum peccatum
+          <lb ed="#P" n="2"/>Adae. Et in priori consideratione sub 
+          homini<lb break="no" ed="#P" n="3"/>bus etiam angelos comprehendo, quia una est
+          <lb ed="#P" n="4"/>omnium ratio. Sub posteriori vero peccatum
+          <lb ed="#P" n="5"/>Adae, (quod proprium est humanae naturae)
+          <lb ed="#P" n="6"/>considerari potest, vel praecise, ut fuit in Adam
+          <lb ed="#P" n="7"/>in quo omnes peccavimus, vel ut jam 
+          commu<lb break="no" ed="#P" n="8"/>nicatum, et participatum a singulis per 
+          pro<lb break="no" ed="#P" n="9"/>prium originale peccatum uniuscujusque. Quae
+          <lb ed="#P" n="10"/>duae considerationes conferre possunt ad alios
+          <lb ed="#P" n="11"/>effectus infra tractandos, tamen in praesenti
+          <lb ed="#P" n="12"/>quaestione eamdem rationem habent: et ideo
+          <lb ed="#P" n="13"/>absolute sub lapsu humanae naturae utramque
+          <lb ed="#P" n="14"/>rationem comprehendemus.
+        </p>
+        <p xml:id="szduep-127541-d1e418">
+          <lb ed="#P" n="15"/>6. Prima assertio.—bico ergo primo. Ante
+          <lb ed="#P" n="16"/>praevisum Angelicum peccatum vel humanum
+          <lb ed="#P" n="17"/>respective, Deus non habuit absolutum 
+          decre<lb break="no" ed="#P" n="18"/>tum excludendi a Regno coelesti aliquam 
+          in<lb break="no" ed="#P" n="19"/>tellectualem creaturam. Hanc veritatem ita
+          <lb ed="#P" n="20"/>existimo certam, ut contrariam judicem 
+          im<lb break="no" ed="#P" n="21"/>probabilem, et alienam a sana doctrina. Docuit
+          <lb ed="#P" n="22"/>illam D. Thomas, quaest. 6, de Verit.,art. 1, ad
+          <lb ed="#P" n="23"/>ultimum, Scotus in 1, dist. 41. q. 1, ad finem
+          <lb ed="#P" n="24"/>ubi ait sine crudelitate non posse aliud 
+          cogita<lb break="no" ed="#P" n="25"/>ri. Idem Basolis, dist. 40, q. 1. Ferrarius 3,
+          <lb ed="#P" n="26"/>contra Gent., cap. 161, et Corduba supra non
+          <lb ed="#P" n="27"/>est alienus ab hac sententia, quam ita defendit
+          <lb ed="#P" n="28"/>Catherinus, lib. 2. de Praedestinatione, in 
+          prin<lb break="no" ed="#P" n="29"/>cipio, ut oppositam dicat esse horribilem, et
+          <lb ed="#P" n="30"/>omnium piorum aures verberare: ipsumque
+          <lb ed="#P" n="31"/>Augustinum eam ut impiam detestari, lib. 6.
+          <lb ed="#P" n="32"/>Hipognosticon, Horatius etiam, lib. 3, 
+          loco<lb break="no" ed="#P" n="33"/>rum Cathol., cap. 8, ob hanc causam de 
+          Cal<lb break="no" ed="#P" n="34"/>vino ait, quod Deum atrocem et ferocem 
+          con<lb break="no" ed="#P" n="35"/>fingat, Stapleton., in c. 9, Epist. ad Rom.,
+          <lb ed="#P" n="36"/>vers. 20, 8 Nunc igitur, et S Imo, et seq., et
+          <lb ed="#P" n="37"/>infra vers. 30, dicit, hunc fuisse execrabilem
+          <lb ed="#P" n="38"/>sensum Calvini; Deum iniquitatis et injustitiae
+          <lb ed="#P" n="39"/>arguentis. Simihter Viguerius, in Instit. 
+          Theo<lb break="no" ed="#P" n="40"/>log.. cap. 20, SS8, vers. 2, dicit sententiam 
+          il<lb break="no" ed="#P" n="41"/>lam divinae justitiae repugnare. Multa similia,
+          <lb ed="#P" n="42"/>et magis acerba in eam sententiam profert
+          <lb ed="#P" n="43"/>Joannes a Bononia, lib. de Praedestinatione,
+          <lb ed="#P" n="44"/>sparsim. Et Flaminius Nobilius, lib. 1, de
+          <lb ed="#P" n="45"/>Praedestinat., c. 7. Quae non ideo refero, ut
+          <lb ed="#P" n="46"/>has omnes exaggerationes, et censuras 
+          appro<lb break="no" ed="#P" n="47"/>bem, et meas faciam (earum enim judicium
+          <lb ed="#P" n="48"/>aliis committo) sed solum ut sensum 
+          catholi<lb break="no" ed="#P" n="49"/>corum theologorum proponam, qui non 
+          pote<lb break="no" ed="#P" n="50"/>rit non multum permovere lectorem.
+        </p>
+        <p xml:id="szduep-127541-d1e499">
+          <lb ed="#P" n="51"/>7. Probatur autem haec sententia primo ex
+          <lb ed="#P" n="52"/>illis verbis, Sap. 1. Deus mortem non fecit, nec
+          <lb ed="#P" n="53"/>delectatur in perditione viventium, cum 
+          simih<lb break="no" ed="#P" n="54"/>bus supra adductis, in quibus Scriptura semper
+          <lb ed="#P" n="55"/>significat Deum ex se nemini mortem, prae-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sertim spiritualem, vel damnationem velle
+          <lb ed="#P" n="57"/>quod verum non esset, si ex se, et non 
+          provo<lb break="no" ed="#P" n="58"/>catus a creaturis, tale decretum habuisset.
+          <lb ed="#P" n="59"/>Dicunt aliqui, illa testimonia intelligenda esse
+          <lb ed="#P" n="60"/>quantum ad poenam inferni, quae includit
+          <lb ed="#P" n="61"/>poenam, et alias deordinationes et miserias,
+          <lb ed="#P" n="62"/>quae sunt in inferno, non vero quoad 
+          simpli<lb break="no" ed="#P" n="63"/>cem carentiam visionis beatae. Quia illa visio
+          <lb ed="#P" n="64"/>non debetur humanae naturae : et ideo potuit
+          <lb ed="#P" n="65"/>Deus pro sua libertate eam negare quibus 
+          vo<lb break="no" ed="#P" n="66"/>luit. Sed est falsa responsio. quia prima ac
+          <lb ed="#P" n="67"/>praecipua poena, in qua consistit mors secunda
+          <lb ed="#P" n="68"/>animae, est perpetua privatio illius 
+          beatitudi<lb break="no" ed="#P" n="69"/>nis, et consequenter etiam divinae gratiee, et
+          <lb ed="#P" n="70"/>in eadem consistit propria damnatio quoad
+          <lb ed="#P" n="71"/>substantiam. Unde parvuli, qui sine 
+          applica<lb break="no" ed="#P" n="72"/>tione remedii contra originale peccatum 
+          mo<lb break="no" ed="#P" n="73"/>riuntur, vere damnantur, et moriuntur morte
+          <lb ed="#P" n="74"/>secunda, ratione hujus solius privationis. 
+          Ne<lb break="no" ed="#P" n="75"/>que enim talis carentia habet nunc rationem
+          <lb ed="#P" n="76"/>negationis in aliquo homine, sed privationis
+          <lb ed="#P" n="77"/>et poenae, quia licet beatitudo aeterna non 
+          de<lb break="no" ed="#P" n="78"/>beatur naturae secundum se spectatae, debetur
+          <lb ed="#P" n="79"/>tamen naturae ut elevatae ad illum finem, si
+          <lb ed="#P" n="80"/>peccatum non obstet, ex divina ordinatione.
+        </p>
+        <p xml:id="szduep-127541-d1e569">
+          <lb ed="#P" n="81"/>8. Secundo sumitur haec veritas ex Concilio
+          <lb ed="#P" n="82"/>Arausicano, can. 25, et Tridentino, sess. 6,
+          <lb ed="#P" n="83"/>can. 17. Quatenus damnant dicentes, Dewmn
+          <lb ed="#P" n="84"/>preedestinasse aliquos ad malum, sicut 
+          predes<lb break="no" ed="#P" n="85"/>tinavit alios ad bonum. Quod hcet ab aliquibus
+          <lb ed="#P" n="86"/>intelligatur de praedestinatione ad malum 
+          cul<lb break="no" ed="#P" n="87"/>pae (quod posset nobis sufficere, ut statim 
+          di<lb break="no" ed="#P" n="88"/>cam) tamen Concilia, si attente legantur, 
+          e<lb break="no" ed="#P" n="89"/>tiam loquuntur de praedestinatione ad 
+          aeter<lb break="no" ed="#P" n="90"/>nam damnationem, quam scilicet Deus ex sola
+          <lb ed="#P" n="91"/>sua voluntate decreverit, sine praecedente culpa.
+          <lb ed="#P" n="92"/>Quod aperte declaravit Prosper ad objectiones
+          <lb ed="#P" n="93"/>Vincentianas, responsione undecima. Hinc 
+          e<lb break="no" ed="#P" n="94"/>tiam Patres, quos in principio hujus operis
+          <lb ed="#P" n="95"/>retuli, qui aliquando distinguunt 
+          praedestina<lb break="no" ed="#P" n="96"/>tionem ad vitam et ad mortem, differentiam
+          <lb ed="#P" n="97"/>constituunt, quia priorem Deus habet ex se,
+          <lb ed="#P" n="98"/>posteriorem autem minime, donec praevideat
+          <lb ed="#P" n="99"/>peccata hominum, ut videre licet in Concilo
+          <lb ed="#P" n="100"/>Valentino sub Lothario, cap. 5, et in 
+          Fulgen<lb break="no" ed="#P" n="101"/>tio, l.1 ad Monimum, c. 13, et idem plane sentit
+          <lb ed="#P" n="102"/>Augustinus de praedestinatione Sanctorum, c.
+          <lb ed="#P" n="103"/>11, ubi affert illud Psal.: Misericordiam, et 
+          ju<lb break="no" ed="#P" n="104"/>diciun cantabo tibi Domine, quia 
+          praedestina<lb break="no" ed="#P" n="105"/>tio ad vitam ex misericordia est, alio ex 
+          judi<lb break="no" ed="#P" n="106"/>cio; et ideo in epist. 105 et 106, et lib. 3, 
+          con<lb break="no" ed="#P" n="107"/>tra Jul., cap. 18, et lib. 11 Genes. ad litteram,
+          <lb ed="#P" n="108"/>cap. 11, et saepe alias dicit, Dewn non prius
+          <lb ed="#P" n="109"/>esse ultorem, quam homo in peccato sit.
+        </p>
+        <p xml:id="szduep-127541-d1e635">
+          <lb ed="#P" n="110"/>9. Ratio. — Unde tertio argumentor sic ra-
+          <pb ed="#P" n="505"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tione, quia si Deus habuit voluntatem 
+          exclu<lb break="no" ed="#P" n="2"/>dendi aliquos a Regno, vel voluit hoc facere
+          <lb ed="#P" n="3"/>sola potentia, vel justitia. Primum dici non
+          <lb ed="#P" n="4"/>potest secundum fidem, alias tales homines
+          <lb ed="#P" n="5"/>excludendi essent a Regno, etiamsi nihil 
+          pec<lb break="no" ed="#P" n="6"/>cassent, quia Deus absolute id voluit ex sola
+          <lb ed="#P" n="7"/>otestate et dominio. Si vero dicatur 
+          secun<lb break="no" ed="#P" n="8"/>dum, cum illa justitia sit vindicativa, non vult
+          <lb ed="#P" n="9"/>Deus illam ex se, sed propter peccata 
+          homi<lb break="no" ed="#P" n="10"/>num, juxta doctrinam Damasceni, libro 2, de
+          <lb ed="#P" n="11"/>Fide, cap. 29, et ob rationem superius tactam
+          <lb ed="#P" n="12"/>quia si vellet Deus absolute exercere hanc 
+          jus<lb break="no" ed="#P" n="13"/>titiam, nondum praevisa culpa, virtute vellet,
+          <lb ed="#P" n="14"/>et ordinaret ipsam culpam, quod Deo 
+          repu<lb break="no" ed="#P" n="15"/>gnat.
+        </p>
+        <p xml:id="szduep-127541-d1e677">
+          <lb ed="#P" n="16"/>10. Unde in hoc est notanda differentia, et
+          <lb ed="#P" n="17"/>convenientia inter voluntatem dandi gloriam,
+          <lb ed="#P" n="18"/>et excludendi ab illa si utraque supponatur
+          <lb ed="#P" n="19"/>antecedente praescientiam futurorum operum.
+          <lb ed="#P" n="20"/>Nam sicut intentio dandi gloriam ut coronam
+          <lb ed="#P" n="21"/>justitiae, virtute includit voluntatem dandi 
+          bo<lb break="no" ed="#P" n="22"/>na merita, et ideo ex vi illius necesse est, ut
+          <lb ed="#P" n="23"/>Deus illa det et procuret, ita voluntas efficax
+          <lb ed="#P" n="24"/>excludendi a Regno, virtute includeret 
+          volun<lb break="no" ed="#P" n="25"/>tatem dandi, et procurandi mala merita, quae
+          <lb ed="#P" n="26"/>necessaria sunt, ut illa exclusio fiat ex 
+          vindi<lb break="no" ed="#P" n="27"/>cativa justitia, sicut praeordinata esse dicitur.
+          <lb ed="#P" n="28"/>Differunt autem hae virtuales voluntates, quod
+          <lb ed="#P" n="29"/>prior est consentanea divinae bonitati, 
+          poste<lb break="no" ed="#P" n="30"/>rior autem minime. Deus enim non solum
+          <lb ed="#P" n="31"/>velle aut procurare non potest homini mala
+          <lb ed="#P" n="32"/>merita, verum etiam nec permittere ex illo
+          <lb ed="#P" n="33"/>affectu ut homo cadat, et regnum amittat, quia
+          <lb ed="#P" n="34"/>talis intentio per se spectata non est Deo digna,
+          <lb ed="#P" n="35"/>ut constat.
+        </p>
+        <p xml:id="szduep-127541-d1e723">
+          <lb ed="#P" n="36"/>11. Secunda assertio. — Dico secundo. 
+          Post<lb break="no" ed="#P" n="37"/>quam praevisum Adae peccatum et originale,
+          <lb ed="#P" n="38"/>quod ab illo omnes homines contrahunt, non
+          <lb ed="#P" n="39"/>statim Deus propter illud solum, et in illo 
+          eo<lb break="no" ed="#P" n="40"/>dem signo rationis exclusit a Regno per 
+          abso<lb break="no" ed="#P" n="41"/>lutum voluntatis suae decretum omnes 
+          homi<lb break="no" ed="#P" n="42"/>nes, qui de facto damnantur, imo nec eorum
+          <lb ed="#P" n="43"/>Eliuun Hanc assertionem intendunt etiam
+          <lb ed="#P" n="44"/>theologi, et doctores superius citati, 
+          loquun<lb break="no" ed="#P" n="45"/>tur enim de hominibus in praesenti statu 
+          na<lb break="no" ed="#P" n="46"/>turae lapsae constitutis, de quibus etiam, ut
+          <lb ed="#P" n="47"/>opinior, Concilia, et sancti loquuntur, propter
+          <lb ed="#P" n="48"/>quod non minus veram assertionem hanc,
+          <lb ed="#P" n="49"/>quam praecedentem, esse sentio. Ut autem
+          <lb ed="#P" n="50"/>probetur, praesertim quoad ultimam partem,
+          <lb ed="#P" n="51"/>in qua dicimus nullum hominem ita exclusisse
+          <lb ed="#P" n="52"/>Deum a regno definito consilio, oportet 
+          distin<lb break="no" ed="#P" n="53"/>guere inter peccatum originale ut praecise 
+          con<lb break="no" ed="#P" n="54"/>tractum, vel ut durans in homine toto 
+          tem<lb break="no" ed="#P" n="55"/>pore vitae usque ad mortem, et ut sic 
+          praevi<lb break="no" ed="#P" n="56"/>est ex se, salvare omnes homines lapsos:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="57"/>sum. Nam considerando peccatum originale
+          <lb ed="#P" n="58"/>hoc posteriori modo, non est dubium, quin
+          <lb ed="#P" n="59"/>voluerit Deus ab aeterno excludere multos 
+          ho<lb break="no" ed="#P" n="60"/>mines a regno propter solum peccatum 
+          ori<lb break="no" ed="#P" n="61"/>ginale : non tamen in illo primo signo 
+          ratio<lb break="no" ed="#P" n="62"/>nis, in quo lapsum Adae praenovit, sed 
+          post<lb break="no" ed="#P" n="63"/>quam praescivit illos homines perseveraturos
+          <lb ed="#P" n="64"/>in illo usque ad mortem. Nam secundum fidem
+          <lb ed="#P" n="65"/>in tempore hoc facit Deus : quidquid autem in
+          <lb ed="#P" n="66"/>tempore facit, ab aeterno decrevit. Estque illa
+          <lb ed="#P" n="67"/>voluntas justissima, ad vindicativam justitiam
+          <lb ed="#P" n="68"/>spectans, supposito pacto cum Adamo inito.
+          <lb ed="#P" n="69"/>Nunc autem non ita consideramus originale
+          <lb ed="#P" n="70"/>peccatum, sed priori modo, id est, ut praecise
+          <lb ed="#P" n="71"/>contractum, et sistendo in illo signo rationis,
+          <lb ed="#P" n="72"/>in quo talis lapsus humanae naturae fuit 
+          praeco<lb break="no" ed="#P" n="73"/>gnitus, in quo in rigore solum praevisi sunt
+          <lb ed="#P" n="74"/>homines, ut lapsi in Adamo. Nam post illam
+          <lb ed="#P" n="75"/>scientiam, nostro more intelligendi et 
+          loquen<lb break="no" ed="#P" n="76"/>di, decrevit Deus redimere universum 
+          huma<lb break="no" ed="#P" n="77"/>num genus quoad sufticientiam : de illo ergo
+          <lb ed="#P" n="78"/>eodem signo dicimus, Deum in signo illo 
+          ne<lb break="no" ed="#P" n="79"/>minem exclusisse a hegno propter solum 
+          lap<lb break="no" ed="#P" n="80"/>sum Adae, sic praevisum.
+        </p>
+        <p xml:id="szduep-127541-d1e825">
+          <lb ed="#P" n="81"/>12. Probatur assertio. — Probatur assertio
+          <lb ed="#P" n="82"/>primo, quia in illo signo Deus voluit, quantum
+          <lb ed="#P" n="83"/>est ex se, salvare omnes homines lapsos: sed
+          <lb ed="#P" n="84"/>cum illa voluntate repugnat decretum 
+          exclu<lb break="no" ed="#P" n="85"/>dendi a regno omnes, qui non salvantur, si
+          <lb ed="#P" n="86"/>attribuatur Deo ex se solo, cum sola 
+          praevisio<lb break="no" ed="#P" n="87"/>ne originalis peccati. Quod probatur, nam 
+          vo<lb break="no" ed="#P" n="88"/>luntas simplex alicujus boni, et absoluta 
+          noli<lb break="no" ed="#P" n="89"/>tio ejusdem boni tunc non repugnat, quando
+          <lb ed="#P" n="90"/>non utraque habetur ex sola libertate volentis,
+          <lb ed="#P" n="91"/>sine alia causa, vel conditione, tamen quod
+          <lb ed="#P" n="92"/>posita eadem conditione ex parte personae, 
+          a<lb break="no" ed="#P" n="93"/>liquis velit quantum est ex se aliquod bonum
+          <lb ed="#P" n="94"/>ei conferre, et simul velit absolute, et 
+          simph<lb break="no" ed="#P" n="95"/>citer non dare illi tale bonum, repugnantia est
+          <lb ed="#P" n="96"/>manifesta. Quia qui absolute non vult, 
+          simph<lb break="no" ed="#P" n="97"/>citer, et quantum est ex se non vult; velle
+          <lb ed="#P" n="98"/>autem ex se, et non velle etiam ex se, 
+          repu<lb break="no" ed="#P" n="99"/>gnantia est. Ita vero est in proposito: nam
+          <lb ed="#P" n="100"/>posito originali peccato, Deus absolute voluit
+          <lb ed="#P" n="101"/>omnibus dare remedium salutis, atque adeo
+          <lb ed="#P" n="102"/>liberare omnes ab illo lapsu, quantum in 
+          ip<lb break="no" ed="#P" n="103"/>so erat : ergo fierit non potest, ut in eodem 
+          si<lb break="no" ed="#P" n="104"/>gno rationis, et absque alia conditione, vel
+          <lb ed="#P" n="105"/>causa praevisa simul efficaciter voluerit non
+          <lb ed="#P" n="106"/>admittere ad Regnum tantam hominum 
+          mul<lb break="no" ed="#P" n="107"/>titudinem, quia hae duae voluntates plane 
+          re<lb break="no" ed="#P" n="108"/>pugnant, ut declaratum est.
+        </p>
+        <p xml:id="szduep-127541-d1e888">
+          <lb ed="#P" n="109"/>13. Atque haec ratio non solum probat 
+          pri<lb break="no" ed="#P" n="110"/>mam partem assertionis, scilicet, non 
+          habuis<lb break="no" ed="#P" n="111"/>se Deum talem voluntatem circa omnes homi-
+          <pb ed="#P" n="506"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nes, qui de facto non salvantur: sed etiam
+          <lb ed="#P" n="2"/>probat secundam, circa nullum illorum talem
+          <lb ed="#P" n="3"/>voluntatem habuisse. Quia ostensum supra est
+          <lb ed="#P" n="4"/>circa omnes homines lapsos, nullo excepto,
+          <lb ed="#P" n="5"/>habuisse Deum illam voluntatem salvandi 
+          u<lb break="no" ed="#P" n="6"/>numquemque ex parte sua, non obstante 
+          ori<lb break="no" ed="#P" n="7"/>ginali peccato: ergo haec voluntas non 
+          admit<lb break="no" ed="#P" n="8"/>tit aliam circa aliquem: ergo circa neminem
+          <lb ed="#P" n="9"/>omnino habuit Deus voluisset non admittere
+          <lb ed="#P" n="10"/>aliquos ad regnum post praevisum originale
+          <lb ed="#P" n="11"/>peccatum, ergo habuisset illam voluntatem in
+          <lb ed="#P" n="12"/>poenam originalis peccati praevisi: nam talis
+          <lb ed="#P" n="13"/>voluntas dicitur esse ex justitia vindicativa,
+          <lb ed="#P" n="14"/>et ideo ponitur post peccatum originale 
+          praevi<lb break="no" ed="#P" n="15"/>sum, et non antea. lHlud autem non potest
+          <lb ed="#P" n="16"/>esse universaliter verum, quia multi reprobi
+          <lb ed="#P" n="17"/>non ejiciuntur a Regno propter peccatum 
+          ori<lb break="no" ed="#P" n="18"/>ginale, ut constat de omnibus illis, quibus in
+          <lb ed="#P" n="19"/>hac vita originale peccatum remittitur, qui
+          <lb ed="#P" n="20"/>propter illud non puniuntur, praesertim poena
+          <lb ed="#P" n="21"/>eeterna vitae futurae : ergo circa illos non 
+          po<lb break="no" ed="#P" n="22"/>tuit Deus habere voluntatem illam punitivam.
+          <lb ed="#P" n="23"/>Nam quod in tempore non sit, nec Deus ab 
+          ae<lb break="no" ed="#P" n="24"/>terno efficaciterillud voluit: alias divina 
+          volun<lb break="no" ed="#P" n="25"/>tas absoluta non impleretur, quod repugnat.
+        </p>
+        <p xml:id="szduep-127541-d1e956">
+          <lb ed="#P" n="26"/>14. Objectio. — Respondetur. — Dices, aliqui
+          <lb ed="#P" n="27"/>damnantur propter solum originale peccatum:
+          <lb ed="#P" n="28"/>ergo saltem illi potuerunt in illo signo 
+          exclu<lb break="no" ed="#P" n="29"/>di. Respondetur negando consequentiam : quia
+          <lb ed="#P" n="30"/>dllud peccatum, ut praecise contractum, 
+          nun<lb break="no" ed="#P" n="31"/>quam est in tempore sufficiens ratio 
+          privatio<lb break="no" ed="#P" n="32"/>nis beatudinis in perpetuum, sed ut durans
+          <lb ed="#P" n="33"/>in homine usque ad mortem ejus: ergo 
+          prop<lb break="no" ed="#P" n="34"/>ter illud ut sic praevisum, non habuit Deus 
+          ta<lb break="no" ed="#P" n="35"/>lem voluntatem. Alias ex vi illius voluntatis 
+          o<lb break="no" ed="#P" n="36"/>bligaretur Deus ad impediendum ne tale 
+          pec<lb break="no" ed="#P" n="37"/>catum tolleretur ab illis hominibus, et 
+          procu<lb break="no" ed="#P" n="38"/>randum ut cduraret usque ad mortem. Unde
+          <lb ed="#P" n="39"/>illam etiam durationem virtute Deus voluisset
+          <lb ed="#P" n="40"/>per talem voluntatem, quae omnia absurda
+          <lb ed="#P" n="41"/>sunt, et a fortiori hoc ipsum constabit ex 
+          se<lb break="no" ed="#P" n="42"/>quente assertione.
+        </p>
+        <p xml:id="szduep-127541-d1e996">
+          <lb ed="#P" n="43"/>15. Tertia assertio. — Probatur. — Dico
+          <lb ed="#P" n="44"/>tertio, Deus ex se et voluntate simplici non
+          <lb ed="#P" n="45"/>appetivit aliquem hominem privare aeterna
+          <lb ed="#P" n="46"/>gloria, etiam post praevisum originale 
+          pecca<lb break="no" ed="#P" n="47"/>tum. Haec assertio est contra tertiam 
+          opinio<lb break="no" ed="#P" n="48"/>nem, et licet non videatur tam certa assertio,
+          <lb ed="#P" n="49"/>sicut praecedentes, quia theologi, de illa non
+          <lb ed="#P" n="50"/>ita expresse loquuntur : mihi tamem omnino
+          <lb ed="#P" n="51"/>vera videtur et eadem proportione sequi ex
+          <lb ed="#P" n="52"/>positis fundamentis. Primo quia cum illo 
+          affec<lb break="no" ed="#P" n="53"/>tu Dei salvandi omnes et singulos, quantum est
+          <lb ed="#P" n="54"/>ex se, quod Chrysostomus etiam ardens 
+          desi<lb break="no" ed="#P" n="55"/>derium appellavit, cum hoc (inquam) repugnat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non tantum voluntas absoluta, sed etiam simile
+          <lb ed="#P" n="57"/>desiderium contrarium, seu contrarii objecti, 
+          <lb ed="#P" n="58"/>quando utrumque habetur stante eadem 
+          cog<lb break="no" ed="#P" n="59"/>nitione eteisdem causis et rationibus. Maxime 
+          <lb ed="#P" n="60"/>cum supra dixerimus, hoc desiderium salutis 
+          <lb ed="#P" n="61"/>non esse in Deo qualemcumque 
+          complacen<lb break="no" ed="#P" n="62"/>tiam, sed veram prosecutionem per modum
+          <lb ed="#P" n="63"/>intentionis, quoad hoc effhicacis, ut obliget
+          <lb ed="#P" n="64"/>Deum ad danda media ex se sufhicientia: ergo
+          <lb ed="#P" n="65"/>fieri non potest, ut Deus simul et ex se 
+          habue<lb break="no" ed="#P" n="66"/>rit similem intentionem circa contrarium 
+          ma<lb break="no" ed="#P" n="67"/>lum ejusdem personae. Unde auctores illius
+          <lb ed="#P" n="68"/>tertiae opinionis ideo ponunt in Deo hoc 
+          desi<lb break="no" ed="#P" n="69"/>derium damnationis aliquerum, praesertim 
+          par<lb break="no" ed="#P" n="70"/>vulorum, propter solum originale peccatum,
+          <lb ed="#P" n="71"/>quia putant, Deum non habuisse desiderium
+          <lb ed="#P" n="72"/>salutis eorum, neque ulla media sufficientia
+          <lb ed="#P" n="73"/>eis contulisse. Verumtamem quam est falsum
+          <lb ed="#P" n="74"/>hoc fundamentum, ut supra cstendi, tam 
+          fal<lb break="no" ed="#P" n="75"/>sum est, Deum habuisse tale desiderium 
+          dam<lb break="no" ed="#P" n="76"/>nationis illorum hominum.
+        </p>
+        <p xml:id="szduep-127541-d1e1074">
+          <lb ed="#P" n="77"/>16. Corroboratur. — Et confirmatur, nam
+          <lb ed="#P" n="78"/>si qua esset ratio ponendi hunc actum in Deo,
+          <lb ed="#P" n="79"/>maxime quia in tempore multi de facto 
+          impe<lb break="no" ed="#P" n="80"/>diuntur, ne obtinere possint remedium 
+          origi<lb break="no" ed="#P" n="81"/>nalis peccati. Àt hinc nullum argumentum
+          <lb ed="#P" n="82"/>sumitur, quia non est necesse, imo nec 
+          credi<lb break="no" ed="#P" n="83"/>bile, quod tale impedimentum proveniat ex
+          <lb ed="#P" n="84"/>directa intentione Dei hoc procurantis, ne tá-
+          <lb ed="#P" n="85"/>les homines consequantur remissionem 
+          pec<lb break="no" ed="#P" n="86"/>cati originalis. Alioqui Deo tribuendum esset
+          <lb ed="#P" n="87"/>impedimentum salutis ut sic, et duratio 
+          per<lb break="no" ed="#P" n="88"/>petua in statu peccati, non solum ut 
+          permit<lb break="no" ed="#P" n="89"/>tenti, sed etiam ut procuranti, quod mihi 
+          vide<lb break="no" ed="#P" n="90"/>tur absurdissimum et contra illas generales
+          <lb ed="#P" n="91"/>rit, donec deseratur.
+        </p>
+        <p xml:id="szduep-127541-d1e1109">
+          <lb ed="#P" n="92"/>17. Nec refert, quod tale impedimentum
+          <lb ed="#P" n="93"/>seepe proveniat ex effectu per se bono 
+          incul<lb break="no" ed="#P" n="94"/>pabili, quem effectum Deus non tantum 
+          per<lb break="no" ed="#P" n="95"/>mittit, sed etiam vult. Nam, licet hoc possit
+          <lb ed="#P" n="96"/>esse verum de illo effectu per se 
+          conside<lb break="no" ed="#P" n="97"/>rato, vel in ordine ad alios fines universi:
+          <lb ed="#P" n="98"/>tamen ut est impedimentum salutis et 
+          remis<lb break="no" ed="#P" n="99"/>sionis peccati, seu, quod idem est, ut est 
+          occa<lb break="no" ed="#P" n="100"/>sio durationis in statu peccati, sic tantum est
+          <lb ed="#P" n="101"/>permissus, quia involvit aliquo modo malitiam 
+          <lb ed="#P" n="102"/>culpae. Tandem, si Deus haberet talem 
+          effec<lb break="no" ed="#P" n="103"/>absolutam voluntatem. Tum quia nec virtute,
+          <lb ed="#P" n="104"/>nec formaliter includeret conditionem, nulla
+          <lb ed="#P" n="105"/>enim assignari potest : tum etiam, quia ex vi
+          <lb ed="#P" n="106"/>illius dicitur Deus applicare media, quibus
+          <lb ed="#P" n="107"/>infaillibiliter talis homo non salvetur, quod est
+          <pb ed="#P" n="507"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>signum absolutae voluntatis : si ergo hanc non
+          <lb ed="#P" n="2"/>habet, nec simplicem effectum, aut desiderium
+          <lb ed="#P" n="3"/>habet.
+        </p>
+        <p xml:id="szduep-127541-d1e1157">
+          <lb ed="#P" n="4"/>18. Ad argumenta. — Fundamenta secundae
+          <lb ed="#P" n="5"/>et tertiae opinionis soluta sunt ex dictis. Ad 
+          res<lb break="no" ed="#P" n="6"/>pondendum autem fundamentis primae 
+          opinio<lb break="no" ed="#P" n="7"/>nis, oportet explicare, quem actum voluntatis
+          <lb ed="#P" n="8"/>habuerit DEUS circa reprobos in illo signo,
+          <lb ed="#P" n="9"/>quod in sequente capite melius praestabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

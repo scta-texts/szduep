@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="8"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-002086"><!-- t1-l1c3 -->
+        <head xml:id="szduep-002086-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-002086-Hd1e103" type="question-title">An essentia dei consistat in solo esse, vel quid proprie deus sit</head>
+        <p xml:id="szduep-002086-d1e106">
+          <lb ed="#P" n="29"/>CAPUT III.
+          <lb ed="#P" n="30"/>AN ESSENTIA DEI CONSISTAT IN SOLO ESSE, VEL
+          <lb ed="#P" n="31"/>QUID PROPRIE DEUS SIT?
+        </p>
+        <p xml:id="szduep-002086-d1e115">
+          <lb ed="#P" n="32"/>1. Videntur interdum sacri theologi ita
+          <lb ed="#P" n="33"/>constituere essentiam Dei in ipso esse, ut nihil
+          <lb ed="#P" n="34"/>addendum putent per modum affirmationis, ad
+          <lb ed="#P" n="35"/>explicandum , -concipiendum et nostro modo
+          <lb ed="#P" n="36"/>describendum, quid Deus sit, sed solam 
+          nega<lb break="no" ed="#P" n="37"/>tionem esse addendam, quam explicamus, cum .
+          <lb ed="#P" n="38"/>dicimus esse non ab alio, vel esse a se, vel
+          <lb ed="#P" n="39"/>(quod perinde est) esse per essentiam. Hoc
+          <lb ed="#P" n="40"/>videtur posse sumi ex Divo Thoma 1. p., q. 13,
+          <lb ed="#P" n="41"/>art. 11, ubi ait ipsum esse magis proprie 
+          tri<lb break="no" ed="#P" n="42"/>bui Deo quam quodlibet aliud praedicatum :
+          <lb ed="#P" n="43"/>et quo illud est magis determinatum, eo magis
+          <lb ed="#P" n="44"/>deficere ab eo quod Deus est, ideoque ipsum
+          <lb ed="#P" n="45"/>esse indefinite et abstracte sumptum magis
+          <lb ed="#P" n="46"/>proprie explicare essentiam Dei. Adducitque in
+          <lb ed="#P" n="47"/>cam sententiam Damascenus, libro primo, cap.
+          <lb ed="#P" n="48"/>12. dicentem, ex omnibus nominibus 
+          signifi<lb break="no" ed="#P" n="49"/>cantibus, Deum propriissimum esse nomen, Qui
+          <lb ed="#P" n="50"/>est. Universum enim (inquit) id quod est 
+          tan<lb break="no" ed="#P" n="51"/>quam immoensum quoddam et infinitum essentiee
+          <lb ed="#P" n="52"/>pelagus complexwu suo continet. Sic etiam Hiero -
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>nimus in id ad Ephes. 3, ex quo omnis 
+          Paterni<lb break="no" ed="#P" n="54"/>tas, etc. ait, Deum usurpasse sibi esse tanquam
+          <lb ed="#P" n="55"/>proprium, quia solus ipse a se est. Augustinus,
+          <lb ed="#P" n="56"/>vero 12. de Civitate, cap. 2, ait illo verbo 
+          de<lb break="no" ed="#P" n="57"/>claratum esse, in Deo esse summam essentiam,
+          <lb ed="#P" n="58"/>quae est ipsum esse non participatum ab alio.
+          <lb ed="#P" n="59"/>Ac denique Bernardus, 1l. 5. de consid., cap. 6,
+          <lb ed="#P" n="60"/>ait, si interrogas de Deo quis est? non occurrit
+          <lb ed="#P" n="61"/>melius, Qui est. Nempe hoc est ei esse quod hec
+          <lb ed="#P" n="62"/>omnia. esse, si et centum talia addas non 
+          reces<lb break="no" ed="#P" n="63"/>sisti abesse, si ea dimeris nilhil addidisti ; si non
+          <lb ed="#P" n="64"/>diceris nihil minuisti. Denique hoc est, quod
+          <lb ed="#P" n="65"/>Dionysius dixit cap.2 et 5 de divi. nom.: Deum
+          <lb ed="#P" n="66"/>in una existentia omnia prehabere.
+        </p>
+        <p xml:id="szduep-002086-d1e196">
+          <lb ed="#P" n="67"/>2. Vera doctrina. — Vera et antiquissima
+          <lb ed="#P" n="68"/>est doctrina haec, sed illam captui nostro 
+          ma<lb break="no" ed="#P" n="69"/>gis accommodare necesse est. Nos enim ipsum
+          <lb ed="#P" n="70"/>esse, vel quod perinde est, quod est seu ens,
+          <lb ed="#P" n="71"/>uno modo concipimus ut abstractum quoddam
+          <lb ed="#P" n="72"/>ab omnibus, quae quovis modo habent esse
+          <lb ed="#P" n="73"/>commune illis saltem secundum analogiam.
+          <lb ed="#P" n="74"/>Unde non possumus dicere in illo solo esse, ut
+          <lb ed="#P" n="75"/>sic concepto, et in rerum natura posito 
+          secun<lb break="no" ed="#P" n="76"/>dum illam praecisionem, consistere totam 
+          es<lb break="no" ed="#P" n="77"/>sentiam Dei, nec solam perfectionem essendi
+          <lb ed="#P" n="78"/>ad illam spectare. Ut si intelligeremus 
+          natu<lb break="no" ed="#P" n="79"/>ram animalis, sicut percipitur et concipitur, ita
+          <lb ed="#P" n="80"/>praecise existere in rerum natura, non 
+          prop<lb break="no" ed="#P" n="81"/>terea intelligeremus, ibi esse totam 
+          perfectio<lb break="no" ed="#P" n="82"/>nem animalis, nec aliquam determinatam 
+          na<lb break="no" ed="#P" n="83"/>turam ejus. Non potest ergo ita concipi 
+          divi<lb break="no" ed="#P" n="84"/>num esse, imo nec illi esse sic abstracto 
+          ac<lb break="no" ed="#P" n="85"/>commodari potest illa negatio a se seu non ab
+          <lb ed="#P" n="86"/>alio, quia esse sic conceptum abstrahit a creato
+          <lb ed="#P" n="87"/>et increato, et ideo illud esse ut sic praecise
+          <lb ed="#P" n="88"/>conceptum non potest habere ut sit a se; sed
+          <lb ed="#P" n="89"/>oportet ut hoc habeat in aliqua propria et
+          <lb ed="#P" n="90"/>positiva ratione et perfectione essendi, 
+          secun<lb break="no" ed="#P" n="91"/>dum quam habet quod non sit ab alio. 
+          Neces<lb break="no" ed="#P" n="92"/>sarium ergo est alio modo concipere, Deum
+          <lb ed="#P" n="93"/>esse ipsum esse per essentiam: quia scilcet
+          <lb ed="#P" n="94"/>est quoddam esse proprium et singulare, quod
+          <lb ed="#P" n="95"/>ex natura sua propria et particulari habet non
+          <lb ed="#P" n="96"/>solum formalitatem essendi, ut sic dicam, sed
+          <lb ed="#P" n="97"/>etiam exercitium et actualitatem essendi,
+          <lb ed="#P" n="98"/>quam vocamus existentiam in actu exercito.
+          <lb ed="#P" n="99"/>Hoc ergo modo concepto esse Dei, recte 
+          dici<lb break="no" ed="#P" n="100"/>tur in solo illo consistere essentiam Dei, et
+          <lb ed="#P" n="101"/>per negationem illam describi totum id quod
+          <lb ed="#P" n="102"/>est proprium talis existentiae, nimirum, ut in
+          <lb ed="#P" n="103"/>simplicissima ratione sua includat omnem 
+          per<lb break="no" ed="#P" n="104"/>fectionem essendi, et consequertter omnem 
+          om<lb break="no" ed="#P" n="105"/>nino perfectionem essendi, et consequentur
+          <lb ed="#P" n="106"/>omnem omnino perfectionem. Quia omnis 
+          per<lb break="no" ed="#P" n="107"/>fectio est (ut sic dicam) pars aliqua essendi,
+          <pb ed="#P" n="9"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quam in ipso esse per essentiam contineri 
+          ne<lb break="no" ed="#P" n="2"/>cesse est, ut recte dixit Divus Thomas prim.
+          <lb ed="#P" n="3"/>par., quaest. 4, art. 2 et aliis locis.
+        </p>
+        <p xml:id="szduep-002086-d1e299">
+          <lb ed="#P" n="4"/>3. Animadversio.— Ut autem haec ipsa Dei
+          <lb ed="#P" n="5"/>essentia et quidditas magis distincte aliquo
+          <lb ed="#P" n="6"/>modo a nobis concipiatur, animadverto tribus
+          <lb ed="#P" n="7"/>modis posse nos communem aliquam rationem
+          <lb ed="#P" n="8"/>ad proprium Dei conceptum accommodare.
+          <lb ed="#P" n="9"/>Primo per negationes aliquas, ut in negatione
+          <lb ed="#P" n="10"/>essendi ab alio declaratum est. At licet hic
+          <lb ed="#P" n="11"/>modus censeatur a Dionysio aptior et securior
+          <lb ed="#P" n="12"/>ad cognoscendum Deum et de illo loquendum
+          <lb ed="#P" n="13"/>in hac vita : nihilominus quando illa negatio
+          <lb ed="#P" n="14"/>additur secundum communissimam rationem
+          <lb ed="#P" n="15"/>entis vel esse et amplius non explicatur, valde
+          <lb ed="#P" n="16"/>confusus manet conceptus, obscurissimusque
+          <lb ed="#P" n="17"/>relinquitur ad penetrandum, quomodo per 
+          il<lb break="no" ed="#P" n="18"/>lam negationem circumscribatur tota perfectio
+          <lb ed="#P" n="19"/>essendi vel essentiae Dei, vel quid sit illud 
+          po<lb break="no" ed="#P" n="20"/>sitivum sub illa negatione latens, quod totam
+          <lb ed="#P" n="21"/>illam perfectionem includit. Est ergo secundus
+          <lb ed="#P" n="22"/>modus concipiendi Deum relativus, in ordine
+          <lb ed="#P" n="23"/>ad creaturas, ut quando concipitur sub ratione
+          <lb ed="#P" n="24"/>creatoris, actu, vel potentia, vel motoris, aut
+          <lb ed="#P" n="25"/>alia simili. Et haec via est optima ad 
+          cognos<lb break="no" ed="#P" n="26"/>cendum Deum esse, seu necessitatem essendi
+          <lb ed="#P" n="27"/>Hei, tamen ad explicandum quod sit Deus, nisi
+          <lb ed="#P" n="28"/>adjunctis aliis principiis, minus sufficiens 
+          in<lb break="no" ed="#P" n="29"/>venitur. Tertia igitur ratio explicandi 
+          essen<lb break="no" ed="#P" n="30"/>tiam Dei est per convenientiam saltem 
+          analo<lb break="no" ed="#P" n="31"/>gam ad creaturas, addendo semper 
+          negatio<lb break="no" ed="#P" n="32"/>nem vel comparationem, qua declaretur non
+          <lb ed="#P" n="33"/>esse rationem illam in Deo eo modo quo in
+          <lb ed="#P" n="34"/>creatura est, sed longe excellentiori modo 
+          ac<lb break="no" ed="#P" n="35"/>commodato ipsi esse per essentiam. Et hic 
+          mo<lb break="no" ed="#P" n="36"/>dus, qui caeteros quodam modo comprehendit
+          <lb ed="#P" n="37"/>videtur aptissimus ad explicandum quid Deus
+          <lb ed="#P" n="38"/>sit, per aliquam notionem Dei. Hoc videtur
+          <lb ed="#P" n="39"/>per se clarum, tum ex dictis, quia hic modus
+          <lb ed="#P" n="40"/>sumit ex aliis modis, quod conveniens est, et
+          <lb ed="#P" n="41"/>addit aliquid ; tum etiam, quia hic est 
+          natu<lb break="no" ed="#P" n="42"/>ralis homini, quia homo ex cognitione confusa
+          <lb ed="#P" n="43"/>et generali pervenire solet ad particularem et
+          <lb ed="#P" n="44"/>distinctam cognitionem, prout potest. Quod ipso
+          <lb ed="#P" n="45"/>usu clarius constabit ex sequentibus 
+          assertio<lb break="no" ed="#P" n="46"/>nibus.
+        </p>
+        <p xml:id="szduep-002086-d1e395">
+          <lb ed="#P" n="47"/>4. Prima Conclusio. — Dico ergo primo.
+          <lb ed="#P" n="48"/>Esse divinum substantiale est, et in eo genere
+          <lb ed="#P" n="49"/>completum essentialiter. Unde divina essentia
+          <lb ed="#P" n="50"/>natura substantialis completa est, Deusque ipse
+          <lb ed="#P" n="51"/>essentialiter est substantia completa. Tota 
+          as<lb break="no" ed="#P" n="52"/>sertio quoad rem per illam explicatam de fide
+          <lb ed="#P" n="53"/>est, et evidens ratione naturali. Hoc posterius
+          <lb ed="#P" n="54"/>indicta disputatione 29 Metaphysicae ostensum
+          <lb ed="#P" n="55"/>est. Illud vero prius traditur in cap. Firmiter,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et cap. Damnamnus, de Summa Trinit. et fid.
+          <lb ed="#P" n="57"/>cath ; constatque tam aperte ex modo quo
+          <lb ed="#P" n="58"/>scriptura loquitur de Deo ejusque excellentia
+          <lb ed="#P" n="59"/>super omnia creata, ut necessarium non sit
+          <lb ed="#P" n="60"/>particularia testimonia proferre. Non potest
+          <lb ed="#P" n="61"/>enim Deus esse primum ens et primum 
+          prin<lb break="no" ed="#P" n="62"/>cipium omnium et creator omnium 
+          substan<lb break="no" ed="#P" n="63"/>tiarum nisi ipse sit substantia. Nisi velimus
+          <lb ed="#P" n="64"/>illum vocare supersubstantiam, ut Dionysius:
+          <lb ed="#P" n="65"/>etalii Patres interdum loquuntur. Non quidem,
+          <lb ed="#P" n="66"/>quod vera et propriissima substantia non sit,
+          <lb ed="#P" n="67"/>sed ad explicandum esse altiori modo 
+          substan<lb break="no" ed="#P" n="68"/>tiam, et non habere eas imperfectiones a 
+          qui<lb break="no" ed="#P" n="69"/>bus videtur substantiae nomen desumptum,
+          <lb ed="#P" n="70"/>scilicet, a substando. Deus enim proprie non
+          <lb ed="#P" n="71"/>substat, vel accidentibus, vel alicui rei a se 
+          ali<lb break="no" ed="#P" n="72"/>quo modo distinctae, sicut substare potest 
+          om<lb break="no" ed="#P" n="73"/>nis substantia creata. Tamen haec imperfectio
+          <lb ed="#P" n="74"/>non pertinet formahter ad rationem 
+          substan<lb break="no" ed="#P" n="75"/>tiae, licet forte ad etymologiam vocis pertineat.
+          <lb ed="#P" n="76"/>Sed substantia dicitur ens, quod ita per se est,
+          <lb ed="#P" n="77"/>ut non indigeat sustentari ab aliquo subjecto.
+          <lb ed="#P" n="78"/>Unde evidens est primum ens non posse esse
+          <lb ed="#P" n="79"/>accidens, nam accidens semper supponit 
+          ali<lb break="no" ed="#P" n="80"/>quod ens in quo sustentetur, ut notavi disp.
+          <lb ed="#P" n="81"/>29, sect. 1, num. 39. Est ergo Deus substantia:
+          <lb ed="#P" n="82"/>quod autem completa sit, aeque certum est,
+          <lb ed="#P" n="83"/>alias non esset substantia perfecta, imo neque
+          <lb ed="#P" n="84"/>substantia simpliciter. Hoc vero ex seq. c. 
+          evi<lb break="no" ed="#P" n="85"/>dentius constabit.
+        </p>
+        <p xml:id="szduep-002086-d1e484">
+          <lb ed="#P" n="86"/>5. Secunda assertio. — Error. — Dico 
+          se<lb break="no" ed="#P" n="87"/>cundo, substantia Dei non est corporea , sed
+          <lb ed="#P" n="88"/>spiritualis, et similiter esse divinum spirituale
+          <lb ed="#P" n="89"/>est. Supponimus spiritualem seu 
+          incorpo<lb break="no" ed="#P" n="90"/>ream substantiam hic vocari, quae non habet
+          <lb ed="#P" n="91"/>hanc molem quantitatis qua replet spatia 
+          lo<lb break="no" ed="#P" n="92"/>calia, nec talem partium extensionem quae
+          <lb ed="#P" n="93"/>sese invicem a loco excludunt. Nam hoc sensu
+          <lb ed="#P" n="94"/>posuerunt Deum corporeum omnes 
+          idolola<lb break="no" ed="#P" n="95"/>trae, qui commutaverunt gloriam 
+          incorruptibi<lb break="no" ed="#P" n="96"/>lem Dei in similitudinem homimunn, volucrum,
+          <lb ed="#P" n="97"/>quadrupedum et serpentum, ut dicitur ad Rom.
+          <lb ed="#P" n="98"/>1; vel qui ignem aut nimiam aquam, sSolem,
+          <lb ed="#P" n="99"/>vel Lunam hujus mundi rectores esse 
+          putave<lb break="no" ed="#P" n="100"/>runt, ut dicitur Sap. 13. Nonnulli item 
+          phi<lb break="no" ed="#P" n="101"/>losophi referuntur posuisse Deum corporeum,
+          <lb ed="#P" n="102"/>ut de Thalete refert Eusebius l. 14, de Praepar.,
+          <lb ed="#P" n="103"/>c. 6; de Anaximene Augustinus l. 10. 
+          con<lb break="no" ed="#P" n="104"/>fess., c. 6; de Epicuro et aliis, Cicero de Natura
+          <lb ed="#P" n="105"/>Deorum. Et hic referri possunt, quae Aristoteles
+          <lb ed="#P" n="106"/>1. Phys. tractat. Illi enim Philosophi nihil nisi
+          <pb ed="#P" n="10"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>corporeum intelligere valebant, ut idem 
+          signi<lb break="no" ed="#P" n="2"/>ficat 4. Phys., text. 52et 57. In quo errore 
+          fue<lb break="no" ed="#P" n="3"/>runt etiam Sadducsei inter Judaeos, ut ex Act.
+          <lb ed="#P" n="4"/>23 constat. Inter haereticos Manichaei, idem
+          <lb ed="#P" n="5"/>videntur de Deo sensisse, ut sumitur ex 
+          Au<lb break="no" ed="#P" n="6"/>custino de haeresib. in 46, etl. 3 Confess., cap.
+          <lb ed="#P" n="7"/>7, et Epistola 14.
+        </p>
+        <p xml:id="szduep-002086-d1e552">
+          <lb ed="#P" n="8"/>6. Audiani videntur tribuisse Deo humanam
+          <lb ed="#P" n="9"/>figuram ; nam dicebant hominem esse ad 
+          ima<lb break="no" ed="#P" n="10"/>ginem Dei secundum corpus, ut de Audio vel
+          <lb ed="#P" n="11"/>Audaeo eorum auctore refert Epiphanes haeres.
+          <lb ed="#P" n="12"/>10; et Theodoretus lib. 4. de haeret. fab.; cap.
+          <lb ed="#P" n="13"/>13et 1. 4. Hist., c.19; Àugustinus haer. 50. Ubi
+          <lb ed="#P" n="14"/>hos vocat Vadiannos, et dicit non fuisse 
+          haereti<lb break="no" ed="#P" n="15"/>cos, sed schismaticos, quod etiam ait 
+          Damasce<lb break="no" ed="#P" n="16"/>nus additque eos habuisseintegram fidemtotius
+          <lb ed="#P" n="17"/>Ecclesiae , solumque habuisse hoc proprium,
+          <lb ed="#P" n="18"/>quod illud ad similitudinem durissime 
+          wterpre<lb break="no" ed="#P" n="19"/>tabantur. Unde non videntur simphreiter 
+          asse<lb break="no" ed="#P" n="20"/>ruisse Deum esse corporeum, sed aliquo inepto
+          <lb ed="#P" n="21"/>modo explicuisse similitudinem hominis ad
+          <lb ed="#P" n="22"/>Deum, ita ut Deo corpus tribuere viderentur.
+          <lb ed="#P" n="23"/>Augustinus vero indicat eos ob rusticitatem
+          <lb ed="#P" n="24"/>excusari ab haeresi. Tamensi vere ita senserunt,
+          <lb ed="#P" n="25"/>non possunt excusari ab haeresi ob ignorantiam
+          <lb ed="#P" n="26"/>adeo crassam. Tertullianus autem etiam male
+          <lb ed="#P" n="27"/>audit de hoc errore, quia illud Ad imaginem, 
+          vi<lb break="no" ed="#P" n="28"/>detur secupndum corpus interpretari lib. contra
+          <lb ed="#P" n="29"/>Praxeam, capit. 12. Unde Augustinus, l. 10.
+          <lb ed="#P" n="30"/>genes. ad literam, cap. 25, absolute illi tribuit
+          <lb ed="#P" n="31"/>hunc errorem. In libro vero de haeres., in 87,
+          <lb ed="#P" n="32"/>dicit illum non fuisse reputatum haereticum ex
+          <lb ed="#P" n="33"/>hoc capite, illumque excusat quia forte corpus
+          <lb ed="#P" n="34"/>vocavit omne id quod non est fictum nec inane,
+          <lb ed="#P" n="35"/>sed vere aliquid. Tamen libro secundo contra
+          <lb ed="#P" n="36"/>Marc., cap. 16, Deo videtur corpus et animum
+          <lb ed="#P" n="37"/>tribuere. Arnobius, etiam 1. 3. cont. gent., et
+          <lb ed="#P" n="38"/>Lact., lib. 1. de Ira Dei, c. 18, in eadem 
+          sen<lb break="no" ed="#P" n="39"/>tentia videntur fuisse.
+        </p>
+        <p xml:id="szduep-002086-d1e624">
+          <lb ed="#P" n="40"/>7. Contra hos ergo errores dicimus in 
+          asser<lb break="no" ed="#P" n="41"/>tione , substantiam Dei spiritualem esse et
+          <lb ed="#P" n="42"/>incorpoream, id est, quantitati non subjectam
+          <lb ed="#P" n="43"/>neque illius capacem. Quae est de fide 
+          certis<lb break="no" ed="#P" n="44"/>sima. Joannis 4: Spiritus est Deus. Quia vero
+          <lb ed="#P" n="45"/>nomen jSpiritus in scriptura aequivocum est,
+          <lb ed="#P" n="46"/>quod ibi significet substantiam incorpoream,
+          <lb ed="#P" n="47"/>constat, quia illud affert Christus, ut inde 
+          pro<lb break="no" ed="#P" n="48"/>bet Dei adorationem non esse ad certum 
+          lo<lb break="no" ed="#P" n="49"/>cum neque ad corporales caeremonias 
+          coarc<lb break="no" ed="#P" n="50"/>tandam. aut restringendam, sed Deum ubique
+          <lb ed="#P" n="51"/>adorari posse in spiritu et veritate, quia ipse
+          <lb ed="#P" n="52"/>spiritus est, id est, res incorporea, quae loco
+          <lb ed="#P" n="53"/>non continetur, ut communiter Patres 
+          expo<lb break="no" ed="#P" n="54"/>nunt, quos referunt et docte explicant ibi 
+          To<lb break="no" ed="#P" n="55"/>ctus et Maldonatus. Unde hanc veritatem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>confirmant omnia scriptura testimonia, in
+          <lb ed="#P" n="57"/>quibus dicitur Deus vel esse ubique, vel non
+          <lb ed="#P" n="58"/>contineri seu circumscribi loco, quod 
+          pro<lb break="no" ed="#P" n="59"/>prium est corporum. Item afferri possunt 
+          tes<lb break="no" ed="#P" n="60"/>timonia, in quibus Deus dicitur invisibilis, 
+          im<lb break="no" ed="#P" n="61"/>passibilis, immutabilis et similia, quae suis
+          <lb ed="#P" n="62"/>locis afferemus. Nam constat, haec omnia cum
+          <lb ed="#P" n="63"/>proprietate non posse corporali rei convenire.
+          <lb ed="#P" n="64"/>Denique etiam possunt afferri loca in quibus
+          <lb ed="#P" n="65"/>dicitur Deus depingi non posse, neque aliquam
+          <lb ed="#P" n="66"/>ejus similitudinem vel effigiem aut imaginem
+          <lb ed="#P" n="67"/>corporalem posse fieri, utique quia corpus non
+          <lb ed="#P" n="68"/>est, ut in primo tomo 3. part. tractantes de
+          <lb ed="#P" n="69"/>adoratione latius diximus. Ex doctrina vero
+          <lb ed="#P" n="70"/>Ecclesiae et Patribus non oportet multa 
+          con<lb break="no" ed="#P" n="71"/>gerere, quia haec est vulgatissima doctrina apud
+          <lb ed="#P" n="72"/>illos. Sufficit ergo quod in capite F'irmaiter,
+          <lb ed="#P" n="73"/>profitetur Ecclesia : Deum esse omnino 
+          simpli<lb break="no" ed="#P" n="74"/>cem et indivisibilem , et non habere partes in
+          <lb ed="#P" n="75"/>substantia sua. Quae omnia non possunt rei
+          <lb ed="#P" n="76"/>corporeae convenire.
+        </p>
+        <p xml:id="szduep-002086-d1e709">
+          <lb ed="#P" n="77"/>8. Objectio.— Boejicitur.—Conira veritatem
+          <lb ed="#P" n="78"/>hanc in primis objiciebant haeretici locum 
+          il<lb break="no" ed="#P" n="79"/>lum Genes. 1: Faciamus hominem, etc. Sed de
+          <lb ed="#P" n="80"/>hac hominis proprietate et imagine abhas est
+          <lb ed="#P" n="81"/>tractandi locus. Veritas ergo est hominem esse
+          <lb ed="#P" n="82"/>factum ad imaginem Dei secundum animam,
+          <lb ed="#P" n="83"/>non secundum corpus, ut omnes Patres ibi
+          <lb ed="#P" n="84"/>docent. Praesertim Theodoretus q. 20, in Gen.
+          <lb ed="#P" n="85"/>Basilius hom. 10, exam., cap. 8; Gregorius 
+          Nys<lb break="no" ed="#P" n="86"/>senenus orat. 1, quae est circa illa verba 
+          Gene<lb break="no" ed="#P" n="87"/>sis; Augustinus enarr. in Psalm. 48, in fine, et
+          <lb ed="#P" n="88"/>libro primo de doctrin. Christiana, capite 
+          duo<lb break="no" ed="#P" n="89"/>decimo. In quo autem sit illa similitudo etiam
+          <lb ed="#P" n="90"/>secundum animam, tractat late D. Thomas 1.
+          <lb ed="#P" n="91"/>p. q., 93.
+        </p>
+        <p xml:id="szduep-002086-d1e745">
+          <lb ed="#P" n="92"/>9. Alia objectio. —Objiciebant praeterea ea
+          <lb ed="#P" n="93"/>loca scripturae, in quibus Deo tribuuntur 
+          no<lb break="no" ed="#P" n="94"/>mina corporalium rerum. Sed haec nullius 
+          mo<lb break="no" ed="#P" n="95"/>menti sunt; nam si cum proprietate 
+          intelh<lb break="no" ed="#P" n="96"/>gantur, non solum corporeum faciemus Deum,
+          <lb ed="#P" n="97"/>sed etiam monstruosum, imo et chimericum,
+          <lb ed="#P" n="98"/>habebit enim non solum membra hominis, sed
+          <lb ed="#P" n="99"/>ctiam Leonis et aliorum animantium, eritque
+          <lb ed="#P" n="100"/>lux et tenebrae et similia. Constat ergo 
+          meta<lb break="no" ed="#P" n="101"/>phorice illa omnia tribui Deo ad declarandas
+          <lb ed="#P" n="102"/>humano modo varias virtutes et attributa eius.
+          <lb ed="#P" n="103"/>Ut late prosequitur Augustinus, epist. 111. et
+          <lb ed="#P" n="104"/>libr. de essentia Divinitatis, cap. 14 et 15 
+          En<lb break="no" ed="#P" n="105"/>chir., in tract. de formuls spiritualis 
+          intelli<lb break="no" ed="#P" n="106"/>gentiae, Damascenus lib. 1. de Fide.
+        </p>
+        <p xml:id="szduep-002086-d1e780">
+          <lb ed="#P" n="107"/>10. Tandem supererat, ut ratione hane etiam
+          <lb ed="#P" n="108"/>fidei veritatem demonstraremus, sed hoc, ut
+          <lb ed="#P" n="109"/>opinor, sufficienter egimus in dicta disputatione
+          <lb ed="#P" n="110"/>Metaphys., et ex ibi dictis existimo satis clare
+          <pb ed="#P" n="11"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>constare, hanc veritatem esse demonstrabilem
+          <lb ed="#P" n="2"/>ratione naturali. Quod censeo esse non minus
+          <lb ed="#P" n="3"/>certum, quam quod sit demonstrabile Deum
+          <lb ed="#P" n="4"/>esse. Dicit enim Paulus loco seepe citato, ad
+          <lb ed="#P" n="5"/>RomanosI: Znvisibilia ipsius per ea que facta
+          <lb ed="#P" n="6"/>sunt, intellecia conspici. At invisibilia maxime
+          <lb ed="#P" n="7"/>dicuntur ea, quae ad substantiam Dei pertinent,
+          <lb ed="#P" n="8"/>quia incorporalia sunt, sicut 4. Tim. 1, de Deo
+          <lb ed="#P" n="9"/>dicitur : egi seeculorum immortali et invisibili.
+          <lb ed="#P" n="10"/>Imo supposita illa veritate quod Deus sit, 
+          exis<lb break="no" ed="#P" n="11"/>timo esse quasi per se notum non posse esse
+          <lb ed="#P" n="12"/>corporeum. Quia omne corpus est tam 
+          imper<lb break="no" ed="#P" n="13"/>fectae conditionis et naturae et adeo limitatum
+          <lb ed="#P" n="14"/>in perfectione, ut apprehenso et cognito Deo
+          <lb ed="#P" n="15"/>tanquam primo ente et effectore rerum 
+          om<lb break="no" ed="#P" n="16"/>nium, statim per se appareat incredibile, quod
+          <lb ed="#P" n="17"/>habeat molem corporis. Addi etiam hic possent
+          <lb ed="#P" n="18"/>rationes theologicae sumptae ex alis principiis
+          <lb ed="#P" n="19"/>creditis et naturaliter etiam cognitis, ut ex
+          <lb ed="#P" n="20"/>immortalitate animae, ex simphicitate Dei et
+          <lb ed="#P" n="21"/>similibus, quae supponunt aliqua tractanda et
+          <lb ed="#P" n="22"/>ideo melius ex dicendis constabunt.
+        </p>
+        <p xml:id="szduep-002086-d1e843">
+          <lb ed="#P" n="23"/>11. Tertia conclusio. — Ratio Assertionis.
+          <lb ed="#P" n="24"/>— Dico ergo tertio, Deum esse essentialiter
+          <lb ed="#P" n="25"/>viventem, unde cum vivere in viventibus sit
+          <lb ed="#P" n="26"/>esse, necesse est ut esse Dei sit vivere 
+          substan<lb break="no" ed="#P" n="27"/>tialiter. Hanc assertionem tradit Divus Thomas
+          <lb ed="#P" n="28"/>1. part., quaest. 18, post doctrinam de scientia
+          <lb ed="#P" n="29"/>Dei. Videtur enim a notioribus nobis procedere,
+          <lb ed="#P" n="30"/>et ex operatione Dei vitam ejus colligere. Re
+          <lb ed="#P" n="31"/>tamen vera pertinet ad hunc locum, quia vivere
+          <lb ed="#P" n="32"/>est praedicatum maxime essentiale, ideoque
+          <lb ed="#P" n="33"/>valde necessarium ad declarandum nobis modo
+          <lb ed="#P" n="34"/>accommodato quid sit Deus. Estque assertio de
+          <lb ed="#P" n="35"/>fide. Nam in Scriptura divina verus Deus 
+          maxi<lb break="no" ed="#P" n="36"/>me solet nomine Dei viventis appellari, ad 
+          dis<lb break="no" ed="#P" n="37"/>tinguendum illum a falsis diis. Unde Daniel
+          <lb ed="#P" n="38"/>capite ultimo: JVon sola Idola manu facta, sed
+          <lb ed="#P" n="39"/>Dewm viventem. Et cum Rex illi dixisset etiam
+          <lb ed="#P" n="40"/>Draconem, quem Babylonii adorabant ut Deum,
+          <lb ed="#P" n="41"/>esse viventem, respondit Daniel: Dominum
+          <lb ed="#P" n="42"/>Deun mewn adoro, quia ipse est Deus vivens,
+          <lb ed="#P" n="43"/>iste autem non est Deus vivens. Quod statim 
+          os<lb break="no" ed="#P" n="44"/>tendit ex potestate interficiendi illum, 
+          signifi<lb break="no" ed="#P" n="45"/>cans Deum esse viventem, non 
+          quomodocum<lb break="no" ed="#P" n="46"/>que, sed altiori modo super omnia viventia,
+          <lb ed="#P" n="47"/>idest, immortali vita per essentiam. Et ideo
+          <lb ed="#P" n="48"/>Deus non solum dicitur Vivens, sed etiam ipsa
+          <lb ed="#P" n="49"/>vita. Sic Christus, Joan. 14: Ego, (inquit) sum
+          <lb ed="#P" n="50"/>via, veritas et vita; et capit. 5 dicitur Pater 
+          ha<lb break="no" ed="#P" n="51"/>bDere vitam in semetipso, id est, non participatam
+          <lb ed="#P" n="52"/>necdependentem abalio,ut exponunt ibi 
+          Augus<lb break="no" ed="#P" n="53"/>tünus, Chrysostomus, Cyrillus et alii. Quod per
+          <lb ed="#P" n="54"/>aliquod additum interdum significatur: ut cum
+          <lb ed="#P" n="55"/>dicitur Apocalyp. 5: Adoraverunt viventem in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>secula seculorun. RWatio evidens est, quia in 
+          en<lb break="no" ed="#P" n="57"/>tibus gradus viventium est perfectior gradu
+          <lb ed="#P" n="58"/>non viventium, ut videtur per se notum ; sed
+          <lb ed="#P" n="59"/>Deus constitui debet essentialiter in 
+          perfectis<lb break="no" ed="#P" n="60"/>simo gradu entium, ergo. Item Dei nomine 
+          in<lb break="no" ed="#P" n="61"/>telligimus primam causam et auctorem rerum
+          <lb ed="#P" n="62"/>omnium; est ergo Deus auctor vitae, ut in 
+          scrip<lb break="no" ed="#P" n="63"/>tura saepissime nominatur, ergo est ipse 
+          maxi<lb break="no" ed="#P" n="64"/>me vivens.
+        </p>
+        <p xml:id="szduep-002086-d1e939">
+          <lb ed="#P" n="65"/>12. Effugium. — Responsum. — Dices 
+          vi<lb break="no" ed="#P" n="66"/>vere includere imperfectionem ; nam 
+          dicun<lb break="no" ed="#P" n="67"/>tur vivere, quae se movent , movere autem se
+          <lb ed="#P" n="68"/>imperfectionis est ; cum ergo substantialis vita
+          <lb ed="#P" n="69"/>sit principium operationis in se ipso, non 
+          vide<lb break="no" ed="#P" n="70"/>tur posse in Deo inveniri. Respondeo potius
+          <lb ed="#P" n="71"/>ex hoc principio probare Divum Thomam,
+          <lb ed="#P" n="72"/>Deum maxime vivere, quia se maxime movet,
+          <lb ed="#P" n="73"/>et omnia principia suae operationis ad intra ex
+          <lb ed="#P" n="74"/>se et intime habet, sine adminiculo alicujus
+          <lb ed="#P" n="75"/>externi moventis : ut late deducit in discursu
+          <lb ed="#P" n="76"/>totius q. 18 jam citatae. Sed sciendum est,
+          <lb ed="#P" n="77"/>cum dicitur Deus movere se, aut operari intra
+          <lb ed="#P" n="78"/>se aut operari intra se, non intelligi cum 
+          im<lb break="no" ed="#P" n="79"/>perfectionibus creaturarum, quales sunt, vel
+          <lb ed="#P" n="80"/>transitus ab una operatione ad aliam, vel ab
+          <lb ed="#P" n="81"/>otio ad opus, vel cum distinctione inter 
+          opera<lb break="no" ed="#P" n="82"/>tionem et operantem ; nihil enim horum in
+          <lb ed="#P" n="83"/>Dei vita inveniri potest, ut ex aliis divinis 
+          per<lb break="no" ed="#P" n="84"/>fectionibus (infra demonstrandis) manifestum
+          <lb ed="#P" n="85"/>est. Dicitur ergo operari intra se vitali modo,
+          <lb ed="#P" n="86"/>quia perfectionem illam actualem, quam 
+          ha<lb break="no" ed="#P" n="87"/>bent viventia creata dum vitalter in se ipsis
+          <lb ed="#P" n="88"/>operantur cum efhicientia ipsius operationis,
+          <lb ed="#P" n="89"/>hanc habet Deus totam sine illa imperfectione,
+          <lb ed="#P" n="90"/>per substantiam et essentiam suam. Unde 
+          sub<lb break="no" ed="#P" n="91"/>stantialis vita Dei hoc differt a substantiali vita
+          <lb ed="#P" n="92"/>creaturae, quod haec videtur posita in duplhici 
+          ha<lb break="no" ed="#P" n="93"/>bitudine transcendentali ad operationem, 
+          scili<lb break="no" ed="#P" n="94"/>cet, principii activi operationis circa se et simul
+          <lb ed="#P" n="95"/>etiam receptivi; Deus autem vita est 
+          substan<lb break="no" ed="#P" n="96"/>tialis absolutissime et simplicissime nimirum,
+          <lb ed="#P" n="97"/>ut per se et suam essentiam habeat perfectam
+          <lb ed="#P" n="98"/>actualitatem, quam nos in operatione esse 
+          in<lb break="no" ed="#P" n="99"/>telligimus. Dixi de hoc latius dicta disputatione
+          <lb ed="#P" n="100"/>trigesima, Metaphys., sectione decima tertia.
+        </p>
+        <p xml:id="szduep-002086-d1e1020">
+          <lb ed="#P" n="101"/>13. Quarta conclusio. — Dico quarto, Deum
+          <lb ed="#P" n="102"/>essentialiter esse viventem intellectuali vita
+          <lb ed="#P" n="103"/>purissima. Haec etiam assertio de fide est.
+          <lb ed="#P" n="104"/>Nam quod Deus habeat scientiam, fides docet,
+          <lb ed="#P" n="105"/>ut libro tertio videbimus : non est autem 
+          ca<lb break="no" ed="#P" n="106"/>pax scientiae, nisi qui est naturae intellectualis.
+          <lb ed="#P" n="107"/>Ergo dum Scriptura docet, Deum scientiam 
+          ha<lb break="no" ed="#P" n="108"/>bere eamque cum summa perfectione, (quam
+          <lb ed="#P" n="109"/>per altitudinem divitiarum, sapientiae et 
+          scien<lb break="no" ed="#P" n="110"/>tiae interdum declarat Paulus ad Romanos 11;
+          <pb ed="#P" n="12"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>interdum vero vocat Thesaurum sapientiae et
+          <lb ed="#P" n="2"/>scientiae, Col. 2.) plane docet Deum esse 
+          in<lb break="no" ed="#P" n="3"/>tellectualis naturae. Nam sive scientia ipsa sit
+          <lb ed="#P" n="4"/>substantia et natura Dei, sive non, quod infra
+          <lb ed="#P" n="5"/>videbimus, necesse est ut ipsa scientia, vel sit
+          <lb ed="#P" n="6"/>ipsa natura et substantia intelligentis, vel sit
+          <lb ed="#P" n="7"/>radicata (ut sic dicam) in natura intellectuali,
+          <lb ed="#P" n="8"/>quae essentialiter talis sit. Hoc ergo 
+          praedica<lb break="no" ed="#P" n="9"/>tum plane pertinet ad essentialem 
+          constitutio<lb break="no" ed="#P" n="10"/>nem (nostro modo loquendi ) divinae essentiae.
+        </p>
+        <p xml:id="szduep-002086-d1e1070">
+          <lb ed="#P" n="11"/>14. Potestque haec assertio eadem ratione,
+          <lb ed="#P" n="12"/>qua praecedens, confirmari, tum quia 
+          spiritua<lb break="no" ed="#P" n="13"/>lis substantia praesertim in gradu perfecto 
+          in<lb break="no" ed="#P" n="14"/>tellectualis est ; ostensum est autem, Deum
+          <lb ed="#P" n="15"/>esse spiritualem. Tum etiam, quia cum, Deus
+          <lb ed="#P" n="16"/>sit essentialiter vivens, debet etiam 
+          essen<lb break="no" ed="#P" n="17"/>sentialiter esse in supremo gradu viventium;
+          <lb ed="#P" n="18"/>hic autem gradus est intellectualis, ut est
+          <lb ed="#P" n="19"/>per se notum, ergo. Dicere tamen quis 
+          po<lb break="no" ed="#P" n="20"/>test, illum gradum esse perfectissimum inter
+          <lb ed="#P" n="21"/>creatos, tamen Deum non esse in illo, sed in
+          <lb ed="#P" n="22"/>alio eminentiori. At hoc potest, et bene et
+          <lb ed="#P" n="23"/>catholice , et male etiam intelligi. Nam si sit
+          <lb ed="#P" n="24"/>sensus , Deum non esse naturae intellectualis
+          <lb ed="#P" n="25"/>eo modo quo sunt res creatae, nec univoce
+          <lb ed="#P" n="26"/>cum illis, sed analogice, hoc verissimum est :
+          <lb ed="#P" n="27"/>et ad hoc significandum dicunt interdum 
+          Pa<lb break="no" ed="#P" n="28"/>tres, Deum esse supersapientem et 
+          superin<lb break="no" ed="#P" n="29"/>tellectualem. Potestque explicari juxta dicta
+          <lb ed="#P" n="30"/>in praecedenti puncto, quia Dei natura non
+          <lb ed="#P" n="31"/>est intellectualis per modum principii 
+          efficien<lb break="no" ed="#P" n="32"/>tis actus intelligendi a se distinctos, sed ut
+          <lb ed="#P" n="33"/>ipsa intellectio per essentiam. Si vero sit 
+          sen<lb break="no" ed="#P" n="34"/>sus, praedicatum hoc intellectuale nullo modo
+          <lb ed="#P" n="35"/>posse de Deo proprie dici, nec formaliter in eo
+          <lb ed="#P" n="36"/>inveniri, sic omnino falsum est, quia eadem
+          <lb ed="#P" n="37"/>est ratio de praedicato illo et de scientia, 
+          vo<lb break="no" ed="#P" n="38"/>luntate et similibus. Item, quia esse 
+          intellec<lb break="no" ed="#P" n="39"/>tuale in sua abstractione sumptum dicit per-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="40"/>fectionem sine imperfectione et sine ulla 
+          re<lb break="no" ed="#P" n="41"/>pugnantia cum quacumque alia majori, vel
+          <lb ed="#P" n="42"/>eequal perfectione. Denique ad hoc 
+          confirman<lb break="no" ed="#P" n="43"/>dum valet illud : Faciamus hominem ad 
+          ima<lb break="no" ed="#P" n="44"/>ginem et similitudinem nostram. Nam hoc
+          <lb ed="#P" n="45"/>maxime dictum est ratione intellectualis 
+          na<lb break="no" ed="#P" n="46"/>turae, quae in Deo est, tanquam in supremo
+          <lb ed="#P" n="47"/>exemplari; homo vero et angeli illam 
+          parti<lb break="no" ed="#P" n="48"/>cipant, ut sentiunt Patres supra citati. Aliae
+          <lb ed="#P" n="49"/>rationes, quae ad hoc adduci possunt, tractatae
+          <lb ed="#P" n="50"/>sunt indicta dispnutatione trigesima, Metaphys.,
+          <lb ed="#P" n="51"/>sectione decima quarta et decima quinta. Nec
+          <lb ed="#P" n="52"/>specialis difficultas hic occurit.
+        </p>
+        <p xml:id="szduep-002086-d1e1167">
+          <lb ed="#P" n="53"/>15. Ultima conclusio. — Dico ultimo, ad
+          <lb ed="#P" n="54"/>complendam aliqualem descriptionem 
+          quiddi<lb break="no" ed="#P" n="55"/>tatis Dei, addendum esse aliquid quo denote-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="56"/>tur peculiaris, singularis et excellens modus,
+          <lb ed="#P" n="57"/>quo haec omnia habet. Hoc quidem etiam 
+          con<lb break="no" ed="#P" n="58"/>tinet doctrinam fidei et per se satis 
+          eviden<lb break="no" ed="#P" n="59"/>tem, quia illa praedicata ex se communia sunt
+          <lb ed="#P" n="60"/>creaturis ; unde nisi amplius determinentur,
+          <lb ed="#P" n="61"/>non declarant naturam Dei, quam constat se.
+          <lb ed="#P" n="62"/>cundum fidem esse essentialiter diversam ab
+          <lb ed="#P" n="63"/>omni natura creata. Hoc autem ultimum 
+          de<lb break="no" ed="#P" n="64"/>terminans haec omnia ad propriam Dei 
+          natu<lb break="no" ed="#P" n="65"/>ram, potest variis modis explicari. Primo, ut
+          <lb ed="#P" n="66"/>haec omnia praedicata quae in hoc capite 
+          nu<lb break="no" ed="#P" n="67"/>meravimus, determinent ens illud per se 
+          ne<lb break="no" ed="#P" n="68"/>cessarium, quod primo et secundo capite 
+          de<lb break="no" ed="#P" n="69"/>monstravimus esse Deum essentialiter, sic enim
+          <lb ed="#P" n="70"/>cum dicitur Deus Spiritus vivens, 
+          intellectua<lb break="no" ed="#P" n="71"/>lis, in singulis subintelligendum est quasi
+          <lb ed="#P" n="72"/>transcendentaliter includi particulam illam a
+          <lb ed="#P" n="73"/>se vel intrinseca et absoluta necessitate.
+        </p>
+        <p xml:id="szduep-002086-d1e1217">
+          <lb ed="#P" n="74"/>16. Aliter ego hoc ipsum explicui dicta 
+          sec<lb break="no" ed="#P" n="75"/>tione decima quarta, Metaphys., addendo 
+          par<lb break="no" ed="#P" n="76"/>ticulam per essentiam , quae declarat 
+          singula<lb break="no" ed="#P" n="77"/>rem modum habendi illam omnem 
+          perfectio<lb break="no" ed="#P" n="78"/>nem ex vi solius essentiae, id est, sine 
+          efficien<lb break="no" ed="#P" n="79"/>tia alterius et sine efficientia intrinseca, seu
+          <lb ed="#P" n="80"/>adjectione alicujus accidentis. In omnibus 
+          au<lb break="no" ed="#P" n="81"/>tem his modis (si attente considerentur ) cum
+          <lb ed="#P" n="82"/>pervenimus ad concludendam descriptionem
+          <lb ed="#P" n="83"/>Dei, scmper utimur negatione aliqua, hanc
+          <lb ed="#P" n="84"/>enim involuunt omnes illae particulae, ut jam
+          <lb ed="#P" n="85"/>supra declaratum est.
+        </p>
+        <p xml:id="szduep-002086-d1e1246">
+          <lb ed="#P" n="86"/>17. Aliter potest etiam illa determinatio
+          <lb ed="#P" n="87"/>fieri per quandam comparationem ad aliasres,
+          <lb ed="#P" n="88"/>quae talia praedicata participant aliquo modo,
+          <lb ed="#P" n="89"/>et sic dixi in dicta sectione 14 Deum esse 
+          vi<lb break="no" ed="#P" n="90"/>ventem intellectual vita perfectissima. Tamen
+          <lb ed="#P" n="91"/>etiam hanc comparatione sine aliqua negatione
+          <lb ed="#P" n="92"/>explicare non possumus. Sicut Anselmus in
+          <lb ed="#P" n="93"/>Prosolog. dicit : Deum esse aliquid quo nihil
+          <lb ed="#P" n="94"/>mapjus excogitari potest , hoc autem ipsum per
+          <lb ed="#P" n="95"/>duas negationes declarat in cap. 13. dicens:
+          <lb ed="#P" n="96"/>Ergo Domine non solum es, quo majus 
+          eaco<lb break="no" ed="#P" n="97"/>gitari nequit, sed es quiddam majus quam
+          <lb ed="#P" n="98"/>cogitari possit. Quocirca, licet Divus 
+          Tho<lb break="no" ed="#P" n="99"/>mas lect. 4, super cap. 7. Dionysi de divin.
+          <lb ed="#P" n="100"/>nom., recte distinguat modum cognoscendi
+          <lb ed="#P" n="101"/>Deum per negationes vel comparationem et
+          <lb ed="#P" n="102"/>praestantiam : tamen hic posterior semper 
+          in<lb break="no" ed="#P" n="103"/>volvit negationem, per quam exphcandus est,
+          <lb ed="#P" n="104"/>ut Anselmus fecit. Nam cum dicimus vitam
+          <lb ed="#P" n="105"/>intellectualem Dei esse perfectissimam , hoc
+          <lb ed="#P" n="106"/>superlativum explicare non possumus, nisi per
+          <lb ed="#P" n="107"/>negationem alterius wiventis^superioris vel
+          <lb ed="#P" n="108"/>eequalis in talis vitae perfectione. Et ita 
+          sem<lb break="no" ed="#P" n="109"/>per cognoscitur Deus per negationem. Propter
+          <lb ed="#P" n="110"/>quod dixit Dionysius, cap. 2 et 7 de divin.
+          <pb ed="#P" n="13"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nom., esse supra substantiam et supra 
+          cogni<lb break="no" ed="#P" n="2"/>tionem. Sic etiam capite primo, et 5 de Myst.
+          <lb ed="#P" n="3"/>Theolog. dixit, cognitionem Dei per 
+          negatio<lb break="no" ed="#P" n="4"/>nem esse perfectiorem, quia nimirum eflicitur
+          <lb ed="#P" n="5"/>magis propria Dei, nisi enim adjungatur 
+          ne<lb break="no" ed="#P" n="6"/>gatio, semper quod, ut positivum concipitur,
+          <lb ed="#P" n="7"/>commune est, si praecise in positivo sistatur.
+          <lb ed="#P" n="8"/>Nam per ordinem ad negationem etiam 
+          intel<lb break="no" ed="#P" n="9"/>ligimus perfectionem illam singularem in tali
+          <lb ed="#P" n="10"/>et tali praedicato, esse in Deo positivam,
+          <lb ed="#P" n="11"/>quamvis a nobis, ut talis est, non nisi per
+          <lb ed="#P" n="12"/>negationem possit explicari. Et hoc modo
+          <lb ed="#P" n="13"/>explicant sancti quid sit Deus, ut videre licet
+          <lb ed="#P" n="14"/>in Dionysio supra et Augustino 5de Trinitate
+          <lb ed="#P" n="15"/>capit 1 et tractat. 23 in Joann.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

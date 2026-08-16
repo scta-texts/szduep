@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="119"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-030340"><!-- t1-l2c20 -->
+        <head xml:id="szduep-030340-Hd1e101">Caput 20</head>
+        <head xml:id="szduep-030340-Hd1e103" type="question-title">An visio dei aequalis perfectionis sit in omnibus videntibus ipsum</head>
+        <p xml:id="szduep-030340-d1e106">
+          <lb ed="#P" n="37"/>CAPUT XX.
+          <lb ed="#P" n="38"/>AN VISIO DEI AEQUALIS PERFECTIONIS SIT IN
+          <lb ed="#P" n="39"/>OMNIBUS VIDENTIBUS IPSUM.
+        </p>
+        <p xml:id="szduep-030340-d1e115">
+          <lb ed="#P" n="40"/>1. Error haereticorum. —Ex resolutione 
+          su<lb break="no" ed="#P" n="41"/>perioris capitis constat, visiones esse aequales
+          <lb ed="#P" n="42"/>in perfectione essentiali, ideoque 
+          consequen<lb break="no" ed="#P" n="43"/>ter videndum est, an hac sufhiciat, ut 
+          simplici<lb break="no" ed="#P" n="44"/>ter aequales censeantur. Fuit enim antiquus
+          <lb ed="#P" n="45"/>error affirmans aequales esse, cujus auctor
+          <lb ed="#P" n="46"/>fuit Jovinianus, qui dicebat (teste Hieronymo,
+          <lb ed="#P" n="47"/>lib. 2, contra illum) justos non operari, ut 
+          me<lb break="no" ed="#P" n="48"/>reantur amplius, sed ne perdant quod 
+          accepe<lb break="no" ed="#P" n="49"/>runt. Idem refert Hieronymus, epist. 17, ad
+          <lb ed="#P" n="50"/>Damasum. , tom. 7; significat Augustinus, 
+          hae<lb break="no" ed="#P" n="51"/>res. 82; D. Thomas, opusc. 29, cap. 6. Hunc
+          <lb ed="#P" n="52"/>errorem secuti sunt Lutherus et sequaces , ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>referunt et impugnant Hosius, in Confess, cap.
+          <lb ed="#P" n="54"/>87; Vega, lib. 10, in Tridentinum per totum;
+          <lb ed="#P" n="55"/>Sotus 2, de Natura et Gratia, cap. 20, et in 4,
+          <lb ed="#P" n="56"/>d. 49, quaest. 3, art. 2. Et quod mirum est,
+          <lb ed="#P" n="57"/>Durandus, dist. 49, quaest. 2, dicit hanc 
+          sen<lb break="no" ed="#P" n="58"/>tentiam esse probabilem, aliam vero huic 
+          op<lb break="no" ed="#P" n="59"/>positam dicit esse securiorem. Lutherani 
+          ni<lb break="no" ed="#P" n="60"/>tuntur aliis erroribus, ut quod in nobis nulla
+          <lb ed="#P" n="61"/>sit vera justitia, nec meritum, sed sola 
+          impe<lb break="no" ed="#P" n="62"/>tratio justitiae Christi, qui aeque pro omnibus
+          <lb ed="#P" n="63"/>mortuus est : de quibus hic non est dicendum.
+          <lb ed="#P" n="64"/>Fundamentum Joviniani, ut refert 
+          Hierony<lb break="no" ed="#P" n="65"/>mus, praecipue fuit sumptum ex parabola 
+          Mat<lb break="no" ed="#P" n="66"/>thaei 20, ubi, finito labore unius diei, idem 
+          de<lb break="no" ed="#P" n="67"/>narius diurnus datur omnibus , qui in vinea
+          <lb ed="#P" n="68"/>laboraverant ; in quo significatur aequalitas
+          <lb ed="#P" n="69"/>praemii, ut indicatur illis verbis : Pares nobis
+          <lb ed="#P" n="70"/>illos fecisti, qui portavimus pondus diet et
+          <lb ed="#P" n="71"/>estus.
+        </p>
+        <p xml:id="szduep-030340-d1e189">
+          <lb ed="#P" n="72"/>2. Secunda opinio. —Secunda sententia 
+          as<lb break="no" ed="#P" n="73"/>serit, omnes homines futuros esse inaequales
+          <lb ed="#P" n="74"/>omnino in beatitudine, sic Paludanus in 4,
+          <lb ed="#P" n="75"/>dist. 4, quaest. 1. Et potest fundari primo in
+          <lb ed="#P" n="76"/>illo 1, ad Corinth. 15 : Sicut stella differt, etc.
+          <lb ed="#P" n="77"/>Ipse vero solum fundatur in quadam 
+          propor<lb break="no" ed="#P" n="78"/>tione inter angelos et homines. Nam, teste 
+          Gre<lb break="no" ed="#P" n="79"/>gorio, inquit, homines erunt aequales angelis
+          <lb ed="#P" n="80"/>in multitudine et perfectione, sed omnes 
+          ange<lb break="no" ed="#P" n="81"/>li sunt inter se inaequales, ergo et omnes 
+          ho<lb break="no" ed="#P" n="82"/>mines. Excipit tamen ab hac proportione 
+          Chris<lb break="no" ed="#P" n="83"/>tum et Virginem, qui sine ulla comparatione
+          <lb ed="#P" n="84"/>perfectiores sunt omnibus angelis. Aliter 
+          su<lb break="no" ed="#P" n="85"/>mi posset proportio, nam est multorum 
+          Pa<lb break="no" ed="#P" n="86"/>trum sententia, homines assumi ad reparandas
+          <lb ed="#P" n="87"/>sedes angelorum, sed si angeli, qui ceciderunt,
+          <lb ed="#P" n="88"/>stetissent, omnes fuissent inaequales in gloria,
+          <lb ed="#P" n="89"/>ergo et homines, etc.
+        </p>
+        <p xml:id="szduep-030340-d1e232">
+          <lb ed="#P" n="90"/>3. Prima conclusio.—bicendum primo, non
+          <lb ed="#P" n="91"/>omnes videntes Deum futuros esse aequales in
+          <lb ed="#P" n="92"/>perfectione visionis, seu beatitudinis 
+          essentia<lb break="no" ed="#P" n="93"/>lis. Conclusio est de fide. Probatur primo ex
+          <lb ed="#P" n="94"/>Scriptura, in qua primum testimonium est 
+          il<lb break="no" ed="#P" n="95"/>lud Joannis 14: In domo Patris met 
+          man<lb break="no" ed="#P" n="96"/>siones multe sunt, quod Jovinianus exponebat
+          <lb ed="#P" n="97"/>de Ecclesia militante, et de variis ordinibus
+          <lb ed="#P" n="98"/>hierarchiae ejus, sed hoc evidenter 
+          impugna<lb break="no" ed="#P" n="99"/>tur ex contextu ; nam aperte Christus loquitur
+          <lb ed="#P" n="100"/>de gloria coelesti, ad quam tendebat et de qua
+          <lb ed="#P" n="101"/>dixit: ado parare vobis locun. Ahter 
+          respon<lb break="no" ed="#P" n="102"/>deri posset, Christum dicere, esse multas 
+          man<lb break="no" ed="#P" n="103"/>siones, non vero inaquales. Tamen omnes
+          <lb ed="#P" n="104"/>sancti intelligunt dictas esse amultas, propter
+          <lb ed="#P" n="105"/>varietatem earum. Optime Augustinus, lib. de
+          <lb ed="#P" n="106"/>sancta Virginitate, cap. 26, et tract. 67, in 
+          Joan<lb break="no" ed="#P" n="107"/>nem ; Cyrillus ibi, lib. 9, cap. 31; Nazianzenus,
+          <pb ed="#P" n="120"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>orat. 16, Cyprianus, lib. de habitu Virginis, in
+          <lb ed="#P" n="2"/>fine, ubi notat, Christum dixisse, esse varias
+          <lb ed="#P" n="3"/>mansiones, ut nos excitet ad procurandas 
+          me<lb break="no" ed="#P" n="4"/>liores ; Idem, lib. de Laude martyrii ; 
+          Ambro<lb break="no" ed="#P" n="5"/>sius, lib. de Bona morte, cap. 12; Tertullianus,
+          <lb ed="#P" n="6"/>lib. contra Gnosticos, cap. 6, et lib. de 
+          Mono<lb break="no" ed="#P" n="7"/>gam., cap. 10; Gregorius 35 Moral., cap. 14,
+          <lb ed="#P" n="8"/>alias 24 et lib. 4, Dialog., cap. 26 ; 
+          Theodore<lb break="no" ed="#P" n="9"/>tus, lib. 3, in Cantic. ; D. Thomas, opusc. 3,
+          <lb ed="#P" n="10"/>contra errores Graecorum, cap. 9.
+        </p>
+        <p xml:id="szduep-030340-d1e300">
+          <lb ed="#P" n="11"/>4. Secundum testimonium est illud citatum
+          <lb ed="#P" n="12"/>ex 1, ad Corint. 15 : Sicut stella differt ab
+          <lb ed="#P" n="13"/>stella in claritate, sic erit resurrectio 
+          mortuo<lb break="no" ed="#P" n="14"/>rum. In quo constat, non comparare 
+          aposto<lb break="no" ed="#P" n="15"/>lum corpora beatorum ad alia corpora non hu-.
+          <lb ed="#P" n="16"/>mana ; hoc enim comprehenderat jam illis
+          <lb ed="#P" n="17"/>verbis: Alia celestium gloria, alia terrestrium ;
+          <lb ed="#P" n="18"/>comparat ergo ipsa beata corporea inter se et
+          <lb ed="#P" n="19"/>dicit fere inaequalia in perfectionibus gloriae.
+          <lb ed="#P" n="20"/>Unde etiam colligitur, gloriam animae futuram
+          <lb ed="#P" n="21"/>inaequalem : nam illa proportionatur huic et
+          <lb ed="#P" n="22"/>ex illa nascitur. Sic intellexerunt hunc locum
+          <lb ed="#P" n="23"/>citati Patres et expositores ibi, praesertim 
+          Am<lb break="no" ed="#P" n="24"/>brosius et Beda, Chrysostomus, Theodoretus
+          <lb ed="#P" n="25"/>et alii Graeci, et Hilarius, Psalm. 46, circa id:
+          <lb ed="#P" n="26"/>Beatus, quem eligisti, etc. ; Basilius, lib. de 
+          Spi<lb break="no" ed="#P" n="27"/>ritu sancto, cap. 16. Tertullianus, lib. de 
+          Re<lb break="no" ed="#P" n="28"/>surrect. carn., cap. 52; Augustinus, libr. de
+          <lb ed="#P" n="29"/>sanct. Virgin. cap. 26, et optime Bernardus, in
+          <lb ed="#P" n="30"/>Apolog. ad Guillielmum, fere a principio. Ac
+          <lb ed="#P" n="31"/>denique Hierony mus, lib.2, contra Jovin., ubi
+          <lb ed="#P" n="32"/>expendit etiam alia verba illius capitis: nam
+          <lb ed="#P" n="33"/>cum dixisset Paulus, omnes fore in Christo 
+          vi<lb break="no" ed="#P" n="34"/>vificandos , subdit : Unusquisque autem in suo
+          <lb ed="#P" n="35"/>ordine, id est, in suo gradu et perfectione,
+          <lb ed="#P" n="36"/>loquitur enim de ordine dignitatis, ut omnes
+          <lb ed="#P" n="37"/>exponunt. Et licet praecipue constituat 
+          ordi<lb break="no" ed="#P" n="38"/>nem in generali inter Christum et bonos, ac
+          <lb ed="#P" n="39"/>malos ; tamen etiam indicat ordinem 
+          persona<lb break="no" ed="#P" n="40"/>rum. Nam Martyr resurget in ordine 
+          Marty<lb break="no" ed="#P" n="41"/>rum, Virgo in ordine Virginum, ut ibi dicunt
+          <lb ed="#P" n="42"/>D. Thomas et Anselmus qui etiam exponit in
+          <lb ed="#P" n="43"/>suo ordine, in suorum meritorum dignitate.
+        </p>
+        <p xml:id="szduep-030340-d1e374">
+          <lb ed="#P" n="44"/>5. Tertio congeri possunt testimonia , in
+          <lb ed="#P" n="45"/>quibus pro ratione virtutis et meriti 
+          promitti<lb break="no" ed="#P" n="46"/>tur praemium, ut est parabola de fructu 
+          trige<lb break="no" ed="#P" n="47"/>simo, sexagesimo et centesimo, Matth. 13 et
+          <lb ed="#P" n="48"/>Matth. 10: Si vis ad vitam ingredi , serva
+          <lb ed="#P" n="49"/>mandata. Si vis perfectus esse , vade, etc. Et
+          <lb ed="#P" n="50"/>habebis Thesaurum in caelis. Ubi etiam est 
+          il<lb break="no" ed="#P" n="51"/>lud : n qua mensura mensi fueritis remetietur
+          <lb ed="#P" n="52"/>vobis. Est etiam evidens illud 1, Corint. 13:
+          <lb ed="#P" n="53"/>Unusquisque proprium mercedem accipiet 
+          se<lb break="no" ed="#P" n="54"/>cundwm swum laborem. Et illud 2, Corint. 9:
+          <lb ed="#P" n="55"/>Qui parce seminat, parce et metet, et qui seminat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in benedictionibus, de benedictionibus et metet,
+          <lb ed="#P" n="57"/>et cap. 5: Omnes nos manifestari oportet, etc.
+          <lb ed="#P" n="58"/>Unde formari potest duplex ratio, prima, quia
+          <lb ed="#P" n="59"/>beatitudo datur hominibus ut corona et 
+          mer<lb break="no" ed="#P" n="60"/>ces ; servatur ergo ratio justitiae distributivae
+          <lb ed="#P" n="61"/>in ea conferenda. De quo legi possunt 
+          Para<lb break="no" ed="#P" n="62"/>bolae, Matth. 25, et Luc. 19. Secunda ratio est,
+          <lb ed="#P" n="63"/>quia non omnes mali aequales erunt in poena,
+          <lb ed="#P" n="64"/>ut clare dicitur Apoc. 18; ergo nec boni in
+          <lb ed="#P" n="65"/>praemio, quia non est Deus minus justus 
+          in<lb break="no" ed="#P" n="66"/>praemiando, quam in puniendo, imo magis est
+          <lb ed="#P" n="67"/>pronus ad benefaciendum.
+        </p>
+        <p xml:id="szduep-030340-d1e431">
+          <lb ed="#P" n="68"/>6. Tandem diffinita est haec veritas in 
+          Con<lb break="no" ed="#P" n="69"/>cilio Florentino in htterr. union. refertur
+          <lb ed="#P" n="70"/>etiam Concilium Telense sub Siricio Papa:
+          <lb ed="#P" n="71"/>tamen in eo Concilio Telensi, quod 1 tom. 
+          con<lb break="no" ed="#P" n="72"/>ciliorum habetur, nihil de hac causa tractatur.
+          <lb ed="#P" n="73"/>Ponitur autem ibi epistola quaedam Concilii ad
+          <lb ed="#P" n="74"/>Siricium, in qua damnatur error Joviniani,
+          <lb ed="#P" n="75"/>qui diversos gradus abrogabat meritorum. Sed
+          <lb ed="#P" n="76"/>illa Epistola non fuit Concilii Telensis, sed est
+          <lb ed="#P" n="77"/>Ambrosii, cum alns Episcopis suae dioecesis,
+          <lb ed="#P" n="78"/>estque 81, inter Ambrosii epistolas. Et 
+          probabi<lb break="no" ed="#P" n="79"/>lius est illud Concilium Telense non fuisse
+          <lb ed="#P" n="80"/>Italicum, sed Africanum et in illo non 
+          pra<lb break="no" ed="#P" n="81"/>fuisse Ambrosium, sed Donatianum; ut in 
+          prae<lb break="no" ed="#P" n="82"/>mio ejus dicitur. Et non fuisse celebratum
+          <lb ed="#P" n="83"/>tempore Siricii, sed Zozimi, ut dicit Baronius
+          <lb ed="#P" n="84"/>tom. 5, Annal., anno 418, n. 31.Qui etiam ait,
+          <lb ed="#P" n="85"/>nihil in eo Concilio de rebus fidei actum esse,
+          <lb ed="#P" n="86"/>sed tantum ibi fuisse lectam Epistolam. Siricii
+          <lb ed="#P" n="87"/>Papae ad Episcopos Africae, quae est 4 Sirici, et
+          <lb ed="#P" n="88"/>in eodem Concilio nunc legitur. Unde Epistola
+          <lb ed="#P" n="89"/>Ambrosii quae ibi subjungitur, non est 
+          res<lb break="no" ed="#P" n="90"/>ponsio ad 4 Epist. Siricii, sed ad 2, quae ad
+          <lb ed="#P" n="91"/>Mediolanensem Eecclesiam scripta fuerat, in
+          <lb ed="#P" n="92"/>qua epistola non fit mentio dicti erroris 
+          Jovi<lb break="no" ed="#P" n="93"/>niani in particulari, sed generatim dicitur,
+          <lb ed="#P" n="94"/>eum in multis errasse.
+        </p>
+        <p xml:id="szduep-030340-d1e492">
+          <lb ed="#P" n="95"/>7. Secunda conclusio. — Dicendum 
+          secun<lb break="no" ed="#P" n="96"/>do: non est necesse, omnes homines esse 
+          inae<lb break="no" ed="#P" n="97"/>quales in visione Dei. Veritas hujus 
+          conclusio<lb break="no" ed="#P" n="98"/>nis evidentius patet in infantibus, qui cum
+          <lb ed="#P" n="99"/>codem genere remedii decedunt, illi enim 
+          se<lb break="no" ed="#P" n="100"/>cundum legem ordinariam decedunt aequales
+          <lb ed="#P" n="101"/>in gratia, erunt ergo aequales in visione. 
+          Hu<lb break="no" ed="#P" n="102"/>jusmodi sunt omnes circumcisi inter se et 
+          bap<lb break="no" ed="#P" n="103"/>tizati et forte omnes Martyres innocentes. Nam
+          <lb ed="#P" n="104"/>baptismus aequalem effectum habet in aeque
+          <lb ed="#P" n="105"/>disposito, nec potest afferri in his 
+          fundamen<lb break="no" ed="#P" n="106"/>tum probabile inaequalitatis. De adultis vero 
+          in<lb break="no" ed="#P" n="107"/>ter se nihil certum affirmari potest : tamen 
+          nul<lb break="no" ed="#P" n="108"/>Ium est inconveniens , quod multi sint 
+          aequa<lb break="no" ed="#P" n="109"/>les. Paulus enim non dicit, omnes stellas esse
+          <lb ed="#P" n="110"/>inaequales in claritate et probabile est multas
+          <pb ed="#P" n="121"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esse aequales. Quod vero Paludanus ait, de 
+          om<lb break="no" ed="#P" n="2"/>nimoda proportione hominum et angelorum
+          <lb ed="#P" n="3"/>in habenda gloria in gradibus diversis et 
+          inae<lb break="no" ed="#P" n="4"/>qualibus, et gratia dictum est, et de ipsis 
+          an<lb break="no" ed="#P" n="5"/>gelis etiam incertum est, aninter se sint omnes
+          <lb ed="#P" n="6"/>in visione inaequales. Neque etiam existimo,
+          <lb ed="#P" n="7"/>! homines assumi ad illam beatitudinem solum
+          <lb ed="#P" n="8"/>quasi per accidens occasione peccati 
+          angelo<lb break="no" ed="#P" n="9"/>rum, sed per se primo ex primaria Dei 
+          inten<lb break="no" ed="#P" n="10"/>tione et praedestinatione, ut infra tractandi de
+          <lb ed="#P" n="11"/>Preedestinatione dicam.
+        </p>
+        <p xml:id="szduep-030340-d1e557">
+          <lb ed="#P" n="12"/>Parabola vinee Matth. 20, evponitur.
+        </p>
+        <p xml:id="szduep-030340-d1e563">
+          <lb ed="#P" n="13"/>8. Varie expositiones. — Solum superest, ut
+          <lb ed="#P" n="14"/>de parabola vineae Matth. 20, a Christo 
+          pro<lb break="no" ed="#P" n="15"/>posita, pauca dicamus , quia et antiquorum
+          <lb ed="#P" n="16"/>haereticorum fundamentum fuit et novi 
+          haere<lb break="no" ed="#P" n="17"/>tici ex illa colligunt , visionem beatam non
+          <lb ed="#P" n="18"/>dari ut mercedem justitiae, sed pro Dei 
+          volun<lb break="no" ed="#P" n="19"/>tate omnibus aequaliter dari per Christum.
+          <lb ed="#P" n="20"/>Omnes autem hoeeretici inde argwmentantur ,
+          <lb ed="#P" n="21"/>quod omnibus in vinea laborantibus, datus est
+          <lb ed="#P" n="22"/>denarius diurnus. Variae autem sunt 
+          Catholi<lb break="no" ed="#P" n="23"/>corum expositiones, ad quas intelligendas
+          <lb ed="#P" n="24"/>oportet exponere sensum illorum verborum
+          <lb ed="#P" n="25"/>CHRISTI, quae habentur in fine, c. 19, Matthei:
+          <lb ed="#P" n="26"/>Erunt primi novissimi et novissimi primi. Quae
+          <lb ed="#P" n="27"/>verba repetit in fine Parabola Matthei 20.
+          <lb ed="#P" n="28"/>Unde hecet colligere, hanc esse quasi 
+          conclusio<lb break="no" ed="#P" n="29"/>nem parabolae, ad quam probandam et 
+          decla<lb break="no" ed="#P" n="30"/>randam parabola adducta est. Primo ergo 
+          qui<lb break="no" ed="#P" n="31"/>dam exponunt, primos vocari, qui salvantur,
+          <lb ed="#P" n="32"/>novissimos qui damnantur. lta ut sensus sit,
+          <lb ed="#P" n="33"/>multi, qui videntur electi et multum in vinea
+          <lb ed="#P" n="34"/>Dei laborasse, reprobi fiunt et multi, qui 
+          vi<lb break="no" ed="#P" n="35"/>dentur reprobati et parum, aut nihil boni 
+          ha<lb break="no" ed="#P" n="36"/>bere, salvi fient. Hanc expositionem indicat
+          <lb ed="#P" n="37"/>Basilius in regulis brevior. in 255. Et potest
+          <lb ed="#P" n="38"/>suaderi ex verbis, quae statim Christus 
+          adjun<lb break="no" ed="#P" n="39"/>git in fine Parabolae : Multi enim sunt vocati,
+          <lb ed="#P" n="40"/>pauci vero electi. Quibus verbis reddit 
+          ratio<lb break="no" ed="#P" n="41"/>nem, cur novissimi sint primi, scilicet quia
+          <lb ed="#P" n="42"/>electi et quomodo primi sint novissimi, scilicet
+          <lb ed="#P" n="43"/>quia non erant electi. Unde Luc. 13, 
+          novissi<lb break="no" ed="#P" n="44"/>mi dicuntur, qui ejiciuntur a regno, primi 
+          au<lb break="no" ed="#P" n="45"/>tem, qui accumbunt in regno Dei.
+        </p>
+        <p xml:id="szduep-030340-d1e637">
+          <lb ed="#P" n="46"/>9. Secunda expositio. — Alii exponunt 
+          pri<lb break="no" ed="#P" n="47"/>mos et novissimos dici in vocatione et praemio,
+          <lb ed="#P" n="48"/>quia multi, qui sunt primi in vocatione, sunt
+          <lb ed="#P" n="49"/>novissimi in praemio recipiendo et e converso,
+          <lb ed="#P" n="50"/>qui sunt novissimi in vocatione, sunt primi
+          <lb ed="#P" n="51"/>in praemio. Quae videtur simplicissima 
+          exposi<lb break="no" ed="#P" n="52"/>tio, tum quia verba ipsa proprie hoc 
+          signifi<lb break="no" ed="#P" n="53"/>cant, tum etiam, quia hoc ipsum exercetur in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>tota parabola, alii neque citius, alii tardius 
+          vo<lb break="no" ed="#P" n="55"/>cantur et postea, qui postremi vocati fuerant,
+          <lb ed="#P" n="56"/>primi accipiunt praemium et ipse 
+          Paterfami<lb break="no" ed="#P" n="57"/>lias videtur hoc modo voces illas exposuisse,
+          <lb ed="#P" n="58"/>dicens procuratori suo: Da illis mercedem, 
+          in<lb break="no" ed="#P" n="59"/>cipiens a novissimis usque ad primos, vocat 
+          er<lb break="no" ed="#P" n="60"/>go novissimos ultimo loco vocatos et facit illos
+          <lb ed="#P" n="61"/>primos in ordine recipiendi praemium. Deinde
+          <lb ed="#P" n="62"/>alii non ita fiunt novissimi ut damnentur ,
+          <lb ed="#P" n="63"/>nam illi etiam recipiunt praemium : et ita 
+          om<lb break="no" ed="#P" n="64"/>nes Patres exponunt ibi fieri comparationem
+          <lb ed="#P" n="65"/>inter eos, qui salvantur, non inter reprobos et
+          <lb ed="#P" n="66"/>electos, ut mox videbimus. Nec alia verba:
+          <lb ed="#P" n="67"/>Multi enim sunt vocati, pauci vero electi, 
+          con<lb break="no" ed="#P" n="68"/>trarium suadent, quia non afferuntur a 
+          Chris<lb break="no" ed="#P" n="69"/>to tanquam aequivalentia prioribus, sed ut ab
+          <lb ed="#P" n="70"/>eis sumatur argumentum a quasi fortiori:
+          <lb ed="#P" n="71"/>nam si multi sunt vocati, qui non salvantur,
+          <lb ed="#P" n="72"/>quid mirum, quod multi sint prius vocati, qui
+          <lb ed="#P" n="73"/>non sint in praemio primi, etiam si aliquod
+          <lb ed="#P" n="74"/>consequantur.
+        </p>
+        <p xml:id="szduep-030340-d1e705">
+          <lb ed="#P" n="75"/>10. Juxta priorem ergo expositionem 
+          illo<lb break="no" ed="#P" n="76"/>rum verborum intentio Christi est, ostendere
+          <lb ed="#P" n="77"/>per illam Parabolam , negotium salutis non
+          <lb ed="#P" n="78"/>pendere praecipue ex labore et industria 
+          hu<lb break="no" ed="#P" n="79"/>mana, sed ex gratia et electione divina et id
+          <lb ed="#P" n="80"/>ostendi, quia multi, qui videntur maxime 
+          la<lb break="no" ed="#P" n="81"/>borare , etiam ex divina vocatione , tandem
+          <lb ed="#P" n="82"/>damnantur ; alii vero, qui nihil facere 
+          viden<lb break="no" ed="#P" n="83"/>tur, salvantur: unde murmuratio 
+          operario<lb break="no" ed="#P" n="84"/>rum , qui plus laborarunt, non repraesentat
+          <lb ed="#P" n="85"/>murmurationem salvandorum : haec enim 
+          nul<lb break="no" ed="#P" n="86"/>la erit, sed indicat indignationem reproborum
+          <lb ed="#P" n="87"/>eo quod Deus non eos elegerit, nec suam 
+          gra<lb break="no" ed="#P" n="88"/>tiam ita communicaverit, nec laborum 
+          ipso<lb break="no" ed="#P" n="89"/>rum rationem habuerit. Et hoc indicat 
+          respon<lb break="no" ed="#P" n="90"/>sio Patrisfamilias : Amice non facio tibi 
+          inju<lb break="no" ed="#P" n="91"/>riam, an non licet mihi,quod volo facere? etc.,
+          <lb ed="#P" n="92"/>unde quod ait : Tolle quod tuwwm est et vade,
+          <lb ed="#P" n="93"/>non intelligitur juxta hanc sententiam de 
+          prae<lb break="no" ed="#P" n="94"/>mio vitae aeternae, sed vel aliquo temporali 
+          prae<lb break="no" ed="#P" n="95"/>mio hujus vitae, ut exponit Basilius, vel ut 
+          qui<lb break="no" ed="#P" n="96"/>dam exponunt: Tolle quod tuum est, id est 
+          pec<lb break="no" ed="#P" n="97"/>catum et praemium ejus.
+        </p>
+        <p xml:id="szduep-030340-d1e757">
+          <lb ed="#P" n="98"/>11. Impugnatur prima eawpositio.—MHaec 
+          ex<lb break="no" ed="#P" n="99"/>positio in primis est contra communem 
+          sen<lb break="no" ed="#P" n="100"/>tentiam Patrum, ut statim allegabo. Deinde a
+          <lb ed="#P" n="101"/>principio Parabolae usque ad finem violentiam
+          <lb ed="#P" n="102"/>quamdam infert verbis. Quomodo enim dixit
+          <lb ed="#P" n="103"/>Paterfamilias procuratori: Voca operarios et
+          <lb ed="#P" n="104"/>redde illis mercedem, si non omnes fuerunt illa
+          <lb ed="#P" n="105"/>digni? vel quae est illa merces? aut quomodo
+          <lb ed="#P" n="106"/>recte applicatur illud : Volo Intic novissimo dare
+          <lb ed="#P" n="107"/>sicut et tibi; si nullum praemium commune
+          <lb ed="#P" n="108"/>omnibus fuit. Denique solum potest accommo-
+          <pb ed="#P" n="122"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dari parabola per quamdam generalem 
+          ana<lb break="no" ed="#P" n="2"/>logiam, seu proportionem, non vero sententias
+          <lb ed="#P" n="3"/>ejus accommodando, vel fere nullam ; quod
+          <lb ed="#P" n="4"/>valde violentum est. Praeterea enervatur haec
+          <lb ed="#P" n="5"/>Parabola, ut ex ea colligi non possint, vel
+          <lb ed="#P" n="6"/>justorum merita, vel retributio ex justitia,
+          <lb ed="#P" n="7"/>quod plane est contra vim verborum ejus, ut
+          <lb ed="#P" n="8"/>bene Maldonatus ponderat et omnes qui de
+          <lb ed="#P" n="9"/>meritis justorum hoc tempore scribunt.
+        </p>
+        <p xml:id="szduep-030340-d1e807">
+          <lb ed="#P" n="10"/>12. Juxta aliam vero expositionem illorum
+          <lb ed="#P" n="11"/>verborum de novissimis et primis intentio
+          <lb ed="#P" n="12"/>Christi in parabola est, ostendere non semper
+          <lb ed="#P" n="13"/>praemium gloriae mensurari antiquitate 
+          voca<lb break="no" ed="#P" n="14"/>tionis, nec diuturnitate laboris, sed habere
+          <lb ed="#P" n="15"/>apud Deum aliam rationem altiorem, 
+          funda<lb break="no" ed="#P" n="16"/>tam quidem in voluntate sua et dominio; salva
+          <lb ed="#P" n="17"/>tamen semper ratione justitiae in redditione
+          <lb ed="#P" n="18"/>praemii. Haec expositio est consentanea patribus
+          <lb ed="#P" n="19"/>omnibus, qui parabolam illam intelligunt de
+          <lb ed="#P" n="20"/>denario mercedis vitae aeternae, ut constat ex
+          <lb ed="#P" n="21"/>Gregorio, homil. 16, in Ezechiel, et Nazianzeno,
+          <lb ed="#P" n="22"/>oration. 40., Augustino, supra et hom. 59, de
+          <lb ed="#P" n="23"/>Verbis Domini, Tertulliano, libro de Monogam.,
+          <lb ed="#P" n="24"/>cap. 13. Hieronymo, dic. lib. 2 contra Jovin.,
+          <lb ed="#P" n="25"/>et in Matth.. ubi etiam Anselmus et 
+          Chrysos<lb break="no" ed="#P" n="26"/>tomus cum Graecis. Ad hanc etiam Christi 
+          in<lb break="no" ed="#P" n="27"/>tentionem optime accommodantur omnia 
+          ver<lb break="no" ed="#P" n="28"/>ba parabola et nihil est in ea difficultatis
+          <lb ed="#P" n="29"/>praeter illam, quae posita est de denario diurno
+          <lb ed="#P" n="30"/>et de querimonia operariorum.
+        </p>
+        <p xml:id="szduep-030340-d1e855">
+          <lb ed="#P" n="31"/>13. Ad priorem autem respondent 
+          Augusti<lb break="no" ed="#P" n="32"/>nus. Hieronymus ac fere alii patres citati et
+          <lb ed="#P" n="33"/>Gregorius 4 Moral., cap. 31, alias 43, quos
+          <lb ed="#P" n="34"/>explicant et sequuntur D. Thomas, 1 part.,
+          <lb ed="#P" n="35"/>quaest. 12, art. 6 et 1. 2. quaest. 5, art. 3et
+          <lb ed="#P" n="36"/>alii theologi in 4, d. 49. Respondent (inquam)
+          <lb ed="#P" n="37"/>illum denarium esse divinam essentiam, ut est
+          <lb ed="#P" n="38"/>beatitudo objectiva sanctorum, in qua omnes
+          <lb ed="#P" n="39"/>sunt aequales, licet in visione ipsa, quae est
+          <lb ed="#P" n="40"/>formalis beatitudo, aequales non sint. Sed 
+          con<lb break="no" ed="#P" n="41"/>tra, quia vel in hac inaequalitate praelati sunt,
+          <lb ed="#P" n="42"/>qui prius vocati sunt et plus laboraverunt et
+          <lb ed="#P" n="43"/>sic destruitur parabola, falso enim tales 
+          ope<lb break="no" ed="#P" n="44"/>rarii dixissent : Pares illos nobis fecisti, vel
+          <lb ed="#P" n="45"/>praelati sunt novissimi etiam in formali 
+          prae<lb break="no" ed="#P" n="46"/>mio et sic sequitur, magis augeri 
+          difficulta<lb break="no" ed="#P" n="47"/>tem, quia non solum aequales, sed etiam 
+          ex<lb break="no" ed="#P" n="48"/>cellentiores erunt in gloria, qui in meritis et
+          <lb ed="#P" n="49"/>laboribus fuerunt inferiores, unde non 
+          dice<lb break="no" ed="#P" n="50"/>rent alii: Pares illos nobis fecisti, sed majores.
+        </p>
+        <p xml:id="szduep-030340-d1e902">
+          <lb ed="#P" n="51"/>14. Respondent aliqui, praemium gloriae
+          <lb ed="#P" n="52"/>non solum explere merita, sed etiam dari 
+          ul<lb break="no" ed="#P" n="53"/>tra debitum et in hoc excessu posse fieri 
+          ae<lb break="no" ed="#P" n="54"/>qualitem pro Dei voluntate, vel dando 
+          omni<lb break="no" ed="#P" n="55"/>bus aequalem superabundantiam, etiam si inae-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>qualiter laboraverint. Sed hoc falsum omnino
+          <lb ed="#P" n="57"/>est, primo quia non consonat Scripturis 
+          dicen<lb break="no" ed="#P" n="58"/>tibus, quod recipiet unusquisque secundum
+          <lb ed="#P" n="59"/>suum laborem et prout gessit. Secundo quia
+          <lb ed="#P" n="60"/>inde facile inferri potest error de aequalite
+          <lb ed="#P" n="61"/>visionis in omnibus beatis: nam hcet habeant
+          <lb ed="#P" n="62"/>inaequalia merita et unusquisque in primis
+          <lb ed="#P" n="63"/>accipiat condignum praemium, postea per 
+          vo<lb break="no" ed="#P" n="64"/>luntariam donationem Dei omnes possunt fieri
+          <lb ed="#P" n="65"/>aequales, et supposita illa doctrina, nulla 
+          ra<lb break="no" ed="#P" n="66"/>da illis mercedem, et ex hoc ipso orta est 
+          mur<lb break="no" ed="#P" n="67"/>muratio. Dicendum ergo est, illam 
+          inaequalita<lb break="no" ed="#P" n="68"/>tem omnino esse juxta proportionem 
+          merito<lb break="no" ed="#P" n="69"/>aequale praemium receperunt cum primis, 
+          ha<lb break="no" ed="#P" n="70"/>buisse aequalia, vel majora merita.
+        </p>
+        <p xml:id="szduep-030340-d1e950">
+          <lb ed="#P" n="71"/>15. Objectio. —ices, ergo operarii illi, qui
+          <lb ed="#P" n="72"/>primo vocati sunt, nullam habuerunt 
+          murmu<lb break="no" ed="#P" n="73"/>randi occasionem, quia ipsis condigna merces
+          <lb ed="#P" n="74"/>data est et aliis non est data ultra condignum,
+          <lb ed="#P" n="75"/>item cur respondisset Paterfamilias: lVon licet 
+          <lb ed="#P" n="76"/>mihi quod volo facere? Et non potius servatam 
+          <lb ed="#P" n="77"/>se cum omnibus aequitatem et justam 
+          distri<lb break="no" ed="#P" n="78"/>butionem, seu compensationem. Denique si
+          <lb ed="#P" n="79"/>praemium re vera inaequale est, cur tanquam
+          <lb ed="#P" n="80"/>aequale ibi proponitur, quia denarius nobis
+          <lb ed="#P" n="81"/>promissus non est Deus ipse secundum se, sed
+          <lb ed="#P" n="82"/>ut visus, atque adeo proxime ipsa visio, quae
+          <lb ed="#P" n="83"/>est tota merces, ut saepe Augustinus dicit.
+        </p>
+        <p xml:id="szduep-030340-d1e981">
+          <lb ed="#P" n="84"/>16. Responsum. — Ad primum respondeo,
+          <lb ed="#P" n="85"/>verum quidem esse, operarios illos non 
+          ha<lb break="no" ed="#P" n="86"/>buisse veram occasionem, vel rationem 
+          queri<lb break="no" ed="#P" n="87"/>moniae, tamen habuisse apparentem , quod ad
+          <lb ed="#P" n="88"/>parabolam satis est ; nec enim in divino 
+          judi<lb break="no" ed="#P" n="89"/>cio futura est murmuratio, vel querimonia 
+          in<lb break="no" ed="#P" n="90"/>ter eos, qui praemium recipiunt, sed 
+          reprae<lb break="no" ed="#P" n="91"/>sentatur per modum querelae ad explicandum
+          <lb ed="#P" n="92"/>mysterium divinae gratiae , a cujus efficacia et
+          <lb ed="#P" n="93"/>abundantia magis pendet qualitas meritorum,
+          <lb ed="#P" n="94"/>quam ex temporis diuturnitate et humano 
+          la<lb break="no" ed="#P" n="95"/>bore. Et inde maxime oritur admiratio 
+          quae<lb break="no" ed="#P" n="96"/>dam , quia haec ipsa gratia abundantius saepe
+          <lb ed="#P" n="97"/>confertur his, qui novissime vocantur et parvo
+          <lb ed="#P" n="98"/>tempore consummantur et brevi spatio 
+          ex<lb break="no" ed="#P" n="99"/>plent tempora multa. Haec ergo admiratio per
+          <lb ed="#P" n="100"/>illam murmurationem repraesentata est, et quia
+          <lb ed="#P" n="101"/>admiratio provenit ex ignorantia, ideo 
+          intro<lb break="no" ed="#P" n="102"/>ducuntur illi primi operarii tanquam 
+          igno<lb break="no" ed="#P" n="103"/>rantes vim meriti aliorum-et illud ex solo
+          <lb ed="#P" n="104"/>tempore pensantes, unde recte Nazianzenus et
+          <lb ed="#P" n="105"/>Chrysostomus supra dicunt, per novissimos
+          <lb ed="#P" n="106"/>intelligi eos , qui in hac vita minus laborasse
+          <lb ed="#P" n="107"/>videntur, quod ultimo vitae tempore vocati
+          <pb ed="#P" n="123"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt, cum tamen re vera non minus, quam
+          <lb ed="#P" n="2"/>mali meruerint.
+        </p>
+        <p xml:id="szduep-030340-d1e1044">
+          <lb ed="#P" n="3"/>17. Ad secundam interrogationem 
+          elegan<lb break="no" ed="#P" n="4"/>ter ibi Maldonatus respondet , Patremfamilias
+          <lb ed="#P" n="5"/>ita respondisse , quia voluit personae decorum
+          <lb ed="#P" n="6"/>servare, et facti sui rationem vili operario non
+          <lb ed="#P" n="7"/>eddere , illum docens, pro ratione satis esse
+          <lb ed="#P" n="8"/>suam voluntatem. Addo, Christum inducere
+          <lb ed="#P" n="9"/>Patremfamilias ita respondentem ad 
+          instruc<lb break="no" ed="#P" n="10"/>tionem nostram. hespexit ergo ad radicem
+          <lb ed="#P" n="11"/>gratiee, a qua provenit, ut brevi tempore 
+          ali<lb break="no" ed="#P" n="12"/>iquis habeat majora merita, quia Deus sua 
+          vo<lb break="no" ed="#P" n="13"/>luntate praevenit majori , et abundantiori 
+          gra<lb break="no" ed="#P" n="14"/>tia, quos vult. Potuisset ergo respondere 
+          Pater<lb break="no" ed="#P" n="15"/>familias justitiam esse servatam, tamen quia
+          <lb ed="#P" n="16"/>posset in gratiae distributione servatam non
+          <lb ed="#P" n="17"/>esse, ideo radicitus omnes rationes querimoniae
+          <lb ed="#P" n="18"/>evellit et gratiam suam ac liberalem 
+          donatio<lb break="no" ed="#P" n="19"/>nem commendat.
+        </p>
+        <p xml:id="szduep-030340-d1e1083">
+          <lb ed="#P" n="20"/>18. Ad tertiam interrogationem respondetur,
+          <lb ed="#P" n="21"/>ad intentionem parabolae solum spectasse 
+          osten<lb break="no" ed="#P" n="22"/>dere in reddendo illo praemio non haberi 
+          ra<lb break="no" ed="#P" n="23"/>tionem antiquitatis , vocationis nec 
+          diuturni<lb break="no" ed="#P" n="24"/>tatis temporis, quod eodem modo ostenditur,
+          <lb ed="#P" n="25"/>sive praemium detur majus, sive aequale, nam
+          <lb ed="#P" n="26"/>in hoc ipso videtur fieri inaequalitas, quod
+          <lb ed="#P" n="27"/>primis et magis laborantibus non datur majus.
+          <lb ed="#P" n="28"/>Et ideo non curasse Christum de distinctione
+          <lb ed="#P" n="29"/>praemiorum, sed generatim de mercede, vel 
+          de<lb break="no" ed="#P" n="30"/>nario locutum esse. In eo etiam. quod 
+          novis<lb break="no" ed="#P" n="31"/>sime vocatis praecipitur primo loco dari 
+          prae<lb break="no" ed="#P" n="32"/>mium, declaratur inaequalitas per se intenta
+          <lb ed="#P" n="33"/>in parabola, reliqua accidentaria sunt, in 
+          qui<lb break="no" ed="#P" n="34"/>bus locum habet regula Chrysostomi, in 
+          para<lb break="no" ed="#P" n="35"/>bolis non oportere singula verba ad aliquid 
+          si<lb break="no" ed="#P" n="36"/>gnificandum applicare.
+        </p>
+        <p xml:id="szduep-030340-d1e1122">
+          <lb ed="#P" n="37"/>19. Atque haec, ut existimo, est vera 
+          ex<lb break="no" ed="#P" n="38"/>positio, et responsio ad haereticos, juxta quam,
+          <lb ed="#P" n="39"/>non solum ex illa parabola non colligitur 
+          bea<lb break="no" ed="#P" n="40"/>torum aequalitas in visione Dei, sed potius colligi
+          <lb ed="#P" n="41"/>potest inaequalitas fundata in gratia, quia 
+          proxi<lb break="no" ed="#P" n="42"/>me dandum est illud praemium, ut merces 
+          meri<lb break="no" ed="#P" n="43"/>torum. Addendum vero occurrit. quoties 
+          Chris<lb break="no" ed="#P" n="44"/>tus Dominus profert illam sententiam : Erunt
+          <lb ed="#P" n="45"/>pruni novissimi, et novissimi primi, 
+          principah<lb break="no" ed="#P" n="46"/>ter videri loqui de adventu suo et de vocatione
+          <lb ed="#P" n="47"/>hominum ad legem gratiae et ad vocationem ,
+          <lb ed="#P" n="48"/>ac bona gratiae, quae in illa communicantur. Et
+          <lb ed="#P" n="49"/>hoc modo videtur vocare , primos, Judaeos , 
+          no<lb break="no" ed="#P" n="50"/>vissimos, autem, gentiles, vel primos omnes,
+          <lb ed="#P" n="51"/>qui ante suum adventum ad Ecclesiam vocati
+          <lb ed="#P" n="52"/>sunt. aovissimos , quos ipse vocabat et postea
+          <lb ed="#P" n="53"/>vocandi erant. Quod videtur probari ex illo loco
+          <lb ed="#P" n="54"/>Lucae 13: Cum videritis Abraham, Isaac et 
+          Ja<lb break="no" ed="#P" n="55"/>cobet omnes Prophetas in reguo DEI : vos autem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>expelli foras. Et venient ab oriente et occidente,
+          <lb ed="#P" n="57"/>et Aquilone, et Austro, et accumbent in regno
+          <lb ed="#P" n="58"/>DEHT, et ecce sunt novissimi qui erant primi,
+          <lb ed="#P" n="59"/>et sunt primi qui erant novissimi. Ubi aperte
+          <lb ed="#P" n="60"/>loquitur CHRISTUS de Israelitis ante vocatis,
+          <lb ed="#P" n="61"/>quos primos vocat, et de vocandis ex universo
+          <lb ed="#P" n="62"/>orbe ad Ecclesiam suam, quos vocat novissimos.
+          <lb ed="#P" n="63"/>Deinde Matthaei 19 et Marci 10, postquam
+          <lb ed="#P" n="64"/>Christus declaravit excellentiam vocationis, ad
+          <lb ed="#P" n="65"/>perfectionem evangelicam et magnum 
+          prae<lb break="no" ed="#P" n="66"/>mium ejus, dicens : Sà vis perfectus esse,
+          <lb ed="#P" n="67"/>vade, et vende omnia, quee habes, etc. Et infra:
+          <lb ed="#P" n="68"/>Vos, qui secuti estis me, in regeneratione, cum
+          <lb ed="#P" n="69"/>sederit Filius hominis, sedebitis et vos etc.,
+          <lb ed="#P" n="70"/>concludendo sermonem adjungit : Multi autem
+          <lb ed="#P" n="71"/>erunt primi novissimi, et novissimi primi, 
+          signi<lb break="no" ed="#P" n="72"/>ficans, eos esse novissimos, qui ab ipso 
+          vocan<lb break="no" ed="#P" n="73"/>tur, et futuros esse primos dignitate et 
+          excel<lb break="no" ed="#P" n="74"/>lentia praemiorum, quia altiori vocatione et
+          <lb ed="#P" n="75"/>gratia trahendi sunt , et praeferendi illis, qui
+          <lb ed="#P" n="76"/>videbantur esse primi, quos proinde dicit 
+          no<lb break="no" ed="#P" n="77"/>vissimos futuros.
+        </p>
+        <p xml:id="szduep-030340-d1e1217">
+          <lb ed="#P" n="78"/>20. Hoc ergo sensu vocat CHRISTUS primos
+          <lb ed="#P" n="79"/>et novissimos, licet non semper eodem modo
+          <lb ed="#P" n="80"/>de eorum permutatione loquatur. Nam Lucae
+          <lb ed="#P" n="81"/>13, aperte significat, tam magnam futuram
+          <lb ed="#P" n="82"/>esse inter eos permutationem , ut primi non
+          <lb ed="#P" n="83"/>solum inferiores fiant, sed etiam expellantur a
+          <lb ed="#P" n="84"/>regno (quod non de omnibus dictum est, sed
+          <lb ed="#P" n="85"/>pro majori parte, vel fortasse pro omnibus
+          <lb ed="#P" n="86"/>illis, qui etiam post adventum suum sequi 
+          vo<lb break="no" ed="#P" n="87"/>lunt antiquam vocationem et institutionem, ut
+          <lb ed="#P" n="88"/>sunt perfidi Judaei ) Novissimos autem dicit
+          <lb ed="#P" n="89"/>esse sessuros cum Abraham, Isaac et Jacob
+          <lb ed="#P" n="90"/>in regno coelorum ; quod etiam 
+          regulari<lb break="no" ed="#P" n="91"/>ter intelligendum est et sub conditione, si
+          <lb ed="#P" n="92"/>cooperentur vocationi. At vero apud Matthaeum
+          <lb ed="#P" n="93"/>solum fit comparatio inter justos et inter 
+          voca<lb break="no" ed="#P" n="94"/>tionem ipsam quasi ex genere suo. Novissimi
+          <lb ed="#P" n="95"/>enim licet tardius videantur vocari, ad eadem,
+          <lb ed="#P" n="96"/>vel excellentiora bona vocantur et ad hoc 
+          de<lb break="no" ed="#P" n="97"/>clarandum subjungit Christus statim dictam
+          <lb ed="#P" n="98"/>parabolam. Quae subinde potest recte intelligi
+          <lb ed="#P" n="99"/>de vocatione ad diversa bona gratiae in hac vita,
+          <lb ed="#P" n="100"/>ut Jansenius sensit. Tamen quia haec 
+          differen<lb break="no" ed="#P" n="101"/>tia in donis gratiae est principaliter ex gratia,
+          <lb ed="#P" n="102"/>et non ex meritis; et Christus aperte loquitur
+          <lb ed="#P" n="103"/>in parabola, de mercede, ejusque retributione,
+          <lb ed="#P" n="104"/>ne cogamur haec improprie interpretari : recte
+          <lb ed="#P" n="105"/>dicimus, intentionem quidem Christi Domini
+          <lb ed="#P" n="106"/>fuisse peculiarem gratiam suae vocationis et
+          <lb ed="#P" n="107"/>legis commendare ; eam vero explicuisse in
+          <lb ed="#P" n="108"/>ordine ad praemium, quia potens est facere,
+          <lb ed="#P" n="109"/>ut brevissimo tempore et labore aliquis 
+          conse<lb break="no" ed="#P" n="110"/>quatur, quod prius vix multo tempore et la-
+          <pb ed="#P" n="124"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bore obtinebatur, et ita revolvimur in datam
+          <lb ed="#P" n="2"/>interpretationem communem , quae sine dubio
+          <lb ed="#P" n="3"/>solida est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

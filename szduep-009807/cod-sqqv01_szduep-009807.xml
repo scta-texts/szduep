@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="38"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-009807"><!-- t1-l1c13 -->
+        <head xml:id="szduep-009807-Hd1e101">Caput 13</head>
+        <head xml:id="szduep-009807-Hd1e103" type="question-title">Utrum attributa invicem se includant salva distinctione rationis eorum, tam inter se quam ab essentia</head>
+        <p xml:id="szduep-009807-d1e106">
+          <lb ed="#P" n="37"/>CAPUT XIII.
+          <lb ed="#P" n="38"/>UTRUM ATTRIBUTA INVICEM SE INCLUDANT SALVA
+          <lb ed="#P" n="39"/>DISTINCTIONE RATIONIS EORUM, TAM INTER
+          <lb ed="#P" n="40"/>SE QUAM AB ESSENTIA.
+        </p>
+        <p xml:id="szduep-009807-d1e117">
+          <lb ed="#P" n="41"/>1. Ex dictis evidenter concluditur quodlibet
+          <lb ed="#P" n="42"/>attributum essentialiter includi in quolibet .
+          <lb ed="#P" n="43"/>quod etiam docuit Torres, supra, et sequuntur
+          <lb ed="#P" n="44"/>moderni Thomistae, et mihi esse videtur aperta
+          <lb ed="#P" n="45"/>sententia Augustini capite praecedenti. Et 
+          con<lb break="no" ed="#P" n="46"/>secutio est necessaria. Nam sapientia v. g. 
+          es<lb break="no" ed="#P" n="47"/>sentiam divinam essentialiter includit, et divina
+          <lb ed="#P" n="48"/>essentia includit essentialiter justitiam; ergo
+          <lb ed="#P" n="49"/>etiam sapientiam essentialiter includere 
+          justi<lb break="no" ed="#P" n="50"/>tiam necesse est, et sic de reliquis attribntis.
+          <lb ed="#P" n="51"/>Praeterea hoc postulat infinitas et simplicitas
+          <lb ed="#P" n="52"/>attributorum Dei; nam unumquodque attribu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tum est infinitum, non tantum in tali vel tali
+          <lb ed="#P" n="54"/>genere, sed simpliciter in genere entis. 
+          hes<lb break="no" ed="#P" n="55"/>pondent hoc ita esse de attributis in re: 
+          nihil<lb break="no" ed="#P" n="56"/>ominus tamen singula concepta sub 
+          particu<lb break="no" ed="#P" n="57"/>lari ratione alicujus attribuit, ut sapientiae,
+          <lb ed="#P" n="58"/>justitiae, non esse infinita sinipliciter, sed 
+          tan<lb break="no" ed="#P" n="59"/>tum in tali ratione. Sed contra hoc instatur ex
+          <lb ed="#P" n="60"/>dictis, quia si unumquodque attributum in re
+          <lb ed="#P" n="61"/>est infinitum simpliciter, totam illam 
+          infinita<lb break="no" ed="#P" n="62"/>tem essentialiter includit, quia de ratione 
+          en<lb break="no" ed="#P" n="63"/>tis infiniti simpliciter est, ut totam illam 
+          per<lb break="no" ed="#P" n="64"/>fectionem optimo modo includat ac proinde
+          <lb ed="#P" n="65"/>essentialiter ; erro quantumcumque 
+          praescin<lb break="no" ed="#P" n="66"/>datur in conceptu, illam includit, licet mens
+          <lb ed="#P" n="67"/>nostra non expresse neque formaliter de iila
+          <lb ed="#P" n="68"/>cogitet. Et ratio a priori est, quia 
+          unumquod<lb break="no" ed="#P" n="69"/>que attributum includit essentialiter ipsum
+          <lb ed="#P" n="70"/>esse per essentiam, in quo est omnis perfectio
+          <lb ed="#P" n="71"/>unitissime et simplicissime. Unde recte dixit
+          <lb ed="#P" n="72"/>Dionysius, c. 13. de Divin. nom.: Unde Deus
+          <lb ed="#P" n="73"/>est, quia omnia unice est, secundum unicam
+          <lb ed="#P" n="74"/>eminentiam unitatis.
+        </p>
+        <p xml:id="szduep-009807-d1e195">
+          <lb ed="#P" n="75"/>2. Jam vero explicandum nobis superest ,
+          <lb ed="#P" n="76"/>quomodo cum hac tanta unitate et inclusione
+          <lb ed="#P" n="77"/>essentiali attributorum inter se et in essentia
+          <lb ed="#P" n="78"/>et essentiae in attributis, stet distinctio 
+          ratio<lb break="no" ed="#P" n="79"/>nis inter illa et quomodo haec intelligenda sit.
+          <lb ed="#P" n="80"/>Quod fiet convenienter, proponendo 
+          argumen<lb break="no" ed="#P" n="81"/>ta, quae vel pro opinione Scoti capit. 10, 
+          trac<lb break="no" ed="#P" n="82"/>tata sunt vel contra ea quae in explicanda
+          <lb ed="#P" n="83"/>communi sententia diximus, fieri solent. Prius
+          <lb ed="#P" n="84"/>tamen adverto, nominales interdum 
+          concede<lb break="no" ed="#P" n="85"/>re vel significare, attributa divina, nec inter
+          <lb ed="#P" n="86"/>se, neque ab essentia distingui, etiam ratione;
+          <lb ed="#P" n="87"/>nam dicunt non plus distingui essentiam a 
+          sa<lb break="no" ed="#P" n="88"/>pientia, quam essentiam ab essentia vel 
+          sapien<lb break="no" ed="#P" n="89"/>tiam a sapientia. Ita Gabriel sequens Ocham
+          <lb ed="#P" n="90"/>1, dist. 2, qu. 1, articul. secundo; Gregorius
+          <lb ed="#P" n="91"/>in prima distinctione octava, quaest. secunda,
+          <lb ed="#P" n="92"/>Major quaest. prima. Vereor tamen illos uti
+          <lb ed="#P" n="93"/>nominibus aequivoce et magis differe a 
+          com<lb break="no" ed="#P" n="94"/>muni sententia in modo loquendi; nam in re
+          <lb ed="#P" n="95"/>fatentur haec omnia ita distingui, ut de eis
+          <lb ed="#P" n="96"/>possint contradictoria praedicari, imo et 
+          Gre<lb break="no" ed="#P" n="97"/>gorius ait unum posse negari de alio in 
+          ab<lb break="no" ed="#P" n="98"/>stracto, de quo capite sequenti videbimus. 
+          Vi<lb break="no" ed="#P" n="99"/>dentur ergo solum intendere negare omnem
+          <lb ed="#P" n="100"/>veram distinctionem inter attributa, nam 
+          dis<lb break="no" ed="#P" n="101"/>tinctio quae dicitur esse per conceptus nostros,
+          <lb ed="#P" n="102"/>non est vera distinctio, quia quod est in se 
+          in<lb break="no" ed="#P" n="103"/>divisum, non potest per extrinsecos actus 
+          men<lb break="no" ed="#P" n="104"/>tis distingui. Hoc enim est argumentum, quo
+          <lb ed="#P" n="105"/>maxime utuntur et probat quidem 
+          distinctio<lb break="no" ed="#P" n="106"/>nem rationis non esse veram et intrinsecam
+          <lb ed="#P" n="107"/>rebus ; non tamem probat non esse aliqualem
+          <pb ed="#P" n="39"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>distinctionem nostro modo concipiendi et quasi
+          <lb ed="#P" n="2"/>per extrinsecam denominationem , seu esse
+          <lb ed="#P" n="3"/>distinctionem non rerum secundum se, sed
+          <lb ed="#P" n="4"/>prout menti nostrae objiciuntur. Sic ergo 
+          sup<lb break="no" ed="#P" n="5"/>ponimus cum communi sententia, haec 
+          attri<lb break="no" ed="#P" n="6"/>buta saltem ratione distingui ; quae distinctio
+          <lb ed="#P" n="7"/>actu est per intellectum nostrum, 
+          fundamen<lb break="no" ed="#P" n="8"/>tum autem ejus est aliquo modo in re, ut docet
+          <lb ed="#P" n="9"/>D. Thomas supra et bene exponit Cajetanus et
+          <lb ed="#P" n="10"/>Torres qu. 28, 1, p. artic. 2; Capreolus, 1, d.
+          <lb ed="#P" n="11"/>8; Durandus, d. 2, qu. 3 et alii communiter,
+          <lb ed="#P" n="12"/>patebitque ex dicendis.
+        </p>
+        <p xml:id="szduep-009807-d1e300">
+          <lb ed="#P" n="13"/>3. Scoti objectio. — Primo ergo objicit 
+          Sco<lb break="no" ed="#P" n="14"/>tus hanc distinctionem debere esse veram et
+          <lb ed="#P" n="15"/>in re ipsa et non tantum per denominationem
+          <lb ed="#P" n="16"/>a nostris conceptibus, quia justitia et 
+          miseri<lb break="no" ed="#P" n="17"/>cordia secundum se sumptae in omni 
+          abstrac<lb break="no" ed="#P" n="18"/>tione dicunt rationes formales distinctas, quae
+          <lb ed="#P" n="19"/>per definitiones distinctas declarantur; ergo
+          <lb ed="#P" n="20"/>ubicumque formaliter inveniuntur, retinent
+          <lb ed="#P" n="21"/>eamdem distinctionem ; sed in Deo formaliter
+          <lb ed="#P" n="22"/>inveniuntur, ergo. Primum antecedens, ut 
+          no<lb break="no" ed="#P" n="23"/>tum supponit Scotus, quia illa duo ex se 
+          ha<lb break="no" ed="#P" n="24"/>bent distinctas definitiones, definitio autem 
+          ex<lb break="no" ed="#P" n="25"/>plicat rei naturam. Prima vero consequentia
+          <lb ed="#P" n="26"/>probatur, quia ubicumque sunt, retinent 
+          eas<lb break="no" ed="#P" n="27"/>dem definitiones. Item quia impossibile est
+          <lb ed="#P" n="28"/>aliqua esse sine conditione per se et intrinsece
+          <lb ed="#P" n="29"/>ad illas consequente: sed ex illa duplici 
+          de<lb break="no" ed="#P" n="30"/>tinitione seu ratione formali sequitur vera 
+          dis<lb break="no" ed="#P" n="31"/>unctio inter illa duo vel potius in illis 
+          includi<lb break="no" ed="#P" n="32"/>tur tanquam negatio resultans ex positivo, 
+          er<lb break="no" ed="#P" n="33"/>go. Confirmatur haec ratio, quia illa duo ita
+          <lb ed="#P" n="34"/>sunt in Deo, ut de illis contradictoria dicantur
+          <lb ed="#P" n="35"/>et verificentur, ergo oportet illa duo esse vere
+          <lb ed="#P" n="36"/>distincta in se. Antecedens patet, quia justitia
+          <lb ed="#P" n="37"/>Dei non remittit sed punit, misericordia vero
+          <lb ed="#P" n="38"/>e converso vel quod certius est, per 
+          intellec<lb break="no" ed="#P" n="39"/>tum generat Pater et non per voluntatem.
+          <lb ed="#P" n="40"/>Consequentia vero probatur, quia non ideo est
+          <lb ed="#P" n="41"/>falsa una ex his propositionibus contradictoriis
+          <lb ed="#P" n="42"/>et alia vera, quia nos ita concipimus, sed quia
+          <lb ed="#P" n="43"/>in re ita est; ergo fundatur hoc in distinctione,
+          <lb ed="#P" n="44"/>quae sit in re. Unde etiam Deus ipse cognoscit,
+          <lb ed="#P" n="45"/>se generare per intellectum et non per 
+          volun<lb break="no" ed="#P" n="46"/>tatem ; ergo videt suum intellectum esse 
+          ali<lb break="no" ed="#P" n="47"/>quo modo distinctum a voluntate; ergo ita est
+          <lb ed="#P" n="48"/>in re, quia Pater aeternus videt suum 
+          intellec<lb break="no" ed="#P" n="49"/>tum et voluntatem, prout in re sunt et non
+          <lb ed="#P" n="50"/>fingit distinctionem.
+        </p>
+        <p xml:id="szduep-009807-d1e385">
+          <lb ed="#P" n="51"/>4. Aliquorum objectio. — Secundo 
+          principa<lb break="no" ed="#P" n="52"/>liter objiciunt alii : esto non admittatur tanta
+          <lb ed="#P" n="53"/>distinctio, saltem necessarium esse admittere
+          <lb ed="#P" n="54"/>distinctionem praecisionis unius ab alio in 
+          ra<lb break="no" ed="#P" n="55"/>tionibus formalibus, ita ut unum non inclu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>datur in conceptu essentiali alterius. Primo,
+          <lb ed="#P" n="57"/>quia saltem hoc convincunt argumenta Scoti.
+          <lb ed="#P" n="58"/>Secundo, quia non potest concipi quo mo:o
+          <lb ed="#P" n="59"/>distinguantur ratione, si unum includit 
+          quid<lb break="no" ed="#P" n="60"/>quid includit aliud. Quia ut aliqua duo 
+          conci<lb break="no" ed="#P" n="61"/>piantur aliquo modo distincta, oportet ut 
+          ali<lb break="no" ed="#P" n="62"/>quo modo unum non sit aliud, ergo ut unum
+          <lb ed="#P" n="63"/>non includatur essentialiter in alio. Quomodo
+          <lb ed="#P" n="64"/>enim distinguentur sub eadem ratione, sub
+          <lb ed="#P" n="65"/>qua sese includunt mutuo. Ergo oportet, ut sic
+          <lb ed="#P" n="66"/>saltem quatenus objecta nostris conceptibus
+          <lb ed="#P" n="67"/>non se includant, ut possint ratione distingui.
+          <lb ed="#P" n="68"/>Tertio, quia alias haec omnia nomina, quibus
+          <lb ed="#P" n="69"/>attributa significantur, essent synonyma, quod
+          <lb ed="#P" n="70"/>non admittit Divus Thomas quaest. 13, articul.
+          <lb ed="#P" n="71"/>4, nec theologi communiter. Sequela patet,
+          <lb ed="#P" n="72"/>quia significabunt omnino idem et secundum
+          <lb ed="#P" n="73"/>idem, quia quidquid concipitur ex vi unius
+          <lb ed="#P" n="74"/>vocis, concipitur ex vi alterius et e converso.
+          <lb ed="#P" n="75"/>Quarto, quia sequitur, has propositiones 
+          for<lb break="no" ed="#P" n="76"/>males et in abstracto : Sapientia est justitia, 
+          in<lb break="no" ed="#P" n="77"/>tellectus Dei est voluntas Dei, esse veras : quia
+          <lb ed="#P" n="78"/>idem omnino significatur per utrumque 
+          ex<lb break="no" ed="#P" n="79"/>tremum, quod satis est ad veritatem verbi,
+          <lb ed="#P" n="80"/>est : consequens videtur absurdum, alias 
+          quid<lb break="no" ed="#P" n="81"/>quid de uno vere praedicatur, de alio 
+          praedi<lb break="no" ed="#P" n="82"/>caretur, juxta syllogisticam formam, quod 
+          ta<lb break="no" ed="#P" n="83"/>men esse falsum constat ex argumenti Scoti.
+          <lb ed="#P" n="84"/>5. S'coti objectio diluitur. — Ad Scotum 
+          res<lb break="no" ed="#P" n="85"/>pondemus, ad omnia quae de Deo concipimus
+          <lb ed="#P" n="86"/>et vere affirmamus vel negamus, non esse 
+          ne<lb break="no" ed="#P" n="87"/>cessariam distinctionem veram et actualem,
+          <lb ed="#P" n="88"/>quae in Deo praecedat, sed sufficere 
+          fundamen<lb break="no" ed="#P" n="89"/>talem seu virtualem cum imperfecto modo
+          <lb ed="#P" n="90"/>loquendi nostro. Unde primum argumentum
+          <lb ed="#P" n="91"/>Scoti solum probat distinctionem virtualem in
+          <lb ed="#P" n="92"/>re ipsa. Respondendum autem in forma est,
+          <lb ed="#P" n="93"/>misericordiam et justitiam abstractissime 
+          con<lb break="no" ed="#P" n="94"/>ceptas, ut abstrahunt a creata et increata, non
+          <lb ed="#P" n="95"/>inveniri in rerum natura, sed in nostris 
+          men<lb break="no" ed="#P" n="96"/>tibus objective et ita etiam definiri, non prout
+          <lb ed="#P" n="97"/>in re sunt in aliquo, sed prout eisdem 
+          concep<lb break="no" ed="#P" n="98"/>tibus objiciuntur. Ex quo solum infertur 
+          defi<lb break="no" ed="#P" n="99"/>nitionem unius non esse definitionem alterius,
+          <lb ed="#P" n="100"/>nec unum etiam illorum conceptuum includi
+          <lb ed="#P" n="101"/>in alio. Non vero recte inde infertur vel 
+          defi<lb break="no" ed="#P" n="102"/>nitiones illas in re ipsa semper in omnibus
+          <lb ed="#P" n="103"/>rebus esse cum actuali distinctione talium 
+          per<lb break="no" ed="#P" n="104"/>fectionum, nec etiam necessario postulare, ut
+          <lb ed="#P" n="105"/>una ex illis perfectionibus non includatur in
+          <lb ed="#P" n="106"/>alia re ipsa. Aliud enim est, hoc non postulare
+          <lb ed="#P" n="107"/>inclusionem illius , quod ex vi illarum 
+          defini<lb break="no" ed="#P" n="108"/>tionum ad summum sequitur : aliud est, unum
+          <lb ed="#P" n="109"/>postulare exclusionem alterius, quod ex vi 
+          il<lb break="no" ed="#P" n="110"/>larum definitionum necessarium non est. Si-
+          <pb ed="#P" n="40"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cut ergo illi duo conceptus abstrahunt a creata
+          <lb ed="#P" n="2"/>et increata justitia et misericordia, ita 
+          abstra<lb break="no" ed="#P" n="3"/>hunt a distinctione vera et actuali earum 
+          in<lb break="no" ed="#P" n="4"/>ter se, quae in re ipsa sit; sed dicunt solum 
+          ob<lb break="no" ed="#P" n="5"/>jectivam distinctionem in formal ratione, seu
+          <lb ed="#P" n="6"/>distinctione, quae potest esse cum distinctione
+          <lb ed="#P" n="7"/>in re in rebus finitis vel cum identitate in 
+          in<lb break="no" ed="#P" n="8"/>finita.
+        </p>
+        <p xml:id="szduep-009807-d1e541">
+          <lb ed="#P" n="9"/>6. Alia Scoti ratio dissolvitur. — 
+          Distin<lb break="no" ed="#P" n="10"/>guuntur ne attributa ratione in mente Dei. —
+          <lb ed="#P" n="11"/>Ad aliam vero Scoti rationem respondetur, ad
+          <lb ed="#P" n="12"/>veritatem illarum enuntiationum, etiam cum
+          <lb ed="#P" n="13"/>aliqua contradictione, sufficere distinctionem
+          <lb ed="#P" n="14"/>rationis cum fundamento in re, quia nos sicut
+          <lb ed="#P" n="15"/>concipimus ita loquimur, ut latius dicemus
+          <lb ed="#P" n="16"/>infra libro 4, de Trinitate, agentes de 
+          identi<lb break="no" ed="#P" n="17"/>tate essentiae et relationis, in qua videri potest
+          <lb ed="#P" n="18"/>argumentum illud habere majorem aliquam
+          <lb ed="#P" n="19"/>vim. Insinuatur vero in illo argumento 
+          quaes<lb break="no" ed="#P" n="20"/>tio, an haec attributa habeant distinctionem
+          <lb ed="#P" n="21"/>rationis etiam in mente Dei, aut personae clare
+          <lb ed="#P" n="22"/>videntis ipsum. De qua re videri potest 
+          Capreo<lb break="no" ed="#P" n="23"/>lus 1, distinctione 8, quaestion. 4, articul. 3,
+          <lb ed="#P" n="24"/>in fine; Cajetanus, 1 part., qu. 39, articul. 1 et
+          <lb ed="#P" n="25"/>Torres, 1 part., quaest. 28, disputation. 2, dub.
+          <lb ed="#P" n="26"/>3, ubi aliqui moderni. Sed sufficere censeo,
+          <lb ed="#P" n="27"/>quae de hac re dixi disput. 7. Metaphysicae sect.
+          <lb ed="#P" n="28"/>1 et disputatione 54, sect. 2, ubi dixi Deum
+          <lb ed="#P" n="29"/>non fingere entia rationis et consequenter nec
+          <lb ed="#P" n="30"/>distinctionem rationis, nam eadem est ratio.
+          <lb ed="#P" n="31"/>Nimirum, quod Deus cognoscit se, sicut est et
+          <lb ed="#P" n="32"/>ideo sicut in se non habet distinctionem, ita
+          <lb ed="#P" n="33"/>neque fingit illam, neque illa censetur 
+          resul<lb break="no" ed="#P" n="34"/>tare ex cognitione Dei, quatenus se ipsum 
+          co<lb break="no" ed="#P" n="35"/>gnoscit.
+        </p>
+        <p xml:id="szduep-009807-d1e602">
+          <lb ed="#P" n="36"/>7. Nihilominus tamen negari non potest,
+          <lb ed="#P" n="37"/>quin Deus cognoscat entia rationis et 
+          distinc<lb break="no" ed="#P" n="38"/>tonem rationis, quatenus haec ab homine fingi
+          <lb ed="#P" n="39"/>vel excogitari possunt, sicut cognoscit 
+          chime<lb break="no" ed="#P" n="40"/>ram et omnia quae sub imaginationem cadere
+          <lb ed="#P" n="41"/>possunt, non quia ipse fingat illa, neque quia
+          <lb ed="#P" n="42"/>aliter cognoscat quam sint, sed quia 
+          unum<lb break="no" ed="#P" n="43"/>quodque cognoscit quatenus esse habet vel
+          <lb ed="#P" n="44"/>verum vel fictum. Aliud enim est fingere, aliud
+          <lb ed="#P" n="45"/>videre illud ab alio fictum vel effingibile, ut
+          <lb ed="#P" n="46"/>sic dicam. Sicut aliud est discurrere, aliud 
+          in<lb break="no" ed="#P" n="47"/>tueri discursum alterius, quod facit Deus, licet
+          <lb ed="#P" n="48"/>non discurrat et tunc habet discursum 
+          objec<lb break="no" ed="#P" n="49"/>tive in mente, licet non habeat formaliter. Sic
+          <lb ed="#P" n="50"/>ergo habet in mente sua objective conceptus
+          <lb ed="#P" n="51"/>nostros formales attributorum Dei: per quos
+          <lb ed="#P" n="52"/>videt ratione distingui attributa et ita videt 
+          il<lb break="no" ed="#P" n="53"/>la, ut ratione distincta ab homine. Homo enim
+          <lb ed="#P" n="54"/>potest, non solum directe cognoscere attributa
+          <lb ed="#P" n="55"/>per conceptus formales eorum, sed etiam re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>flexe illa comparare, ut distincta sub ea 
+          ra<lb break="no" ed="#P" n="57"/>tione et relationem rationis ibi excogitare, 
+          si<lb break="no" ed="#P" n="58"/>eut etiam potest concipere relationem generis
+          <lb ed="#P" n="59"/>et specierum. Haec ergo omnia Deus intuetur
+          <lb ed="#P" n="60"/>qualia sunt, scilicet, formales conceptus, ut
+          <lb ed="#P" n="61"/>reales, objectivos vero quales fuerint, 
+          inter<lb break="no" ed="#P" n="62"/>dum reales, interdum tantum rationis, in quo
+          <lb ed="#P" n="63"/>nihil fingit Deus, sed unumquodque videt sicut
+          <lb ed="#P" n="64"/>est. Nec video quid dubitationis vel 
+          conten<lb break="no" ed="#P" n="65"/>tionis in hoc esse possit.
+        </p>
+        <p xml:id="szduep-009807-d1e672">
+          <lb ed="#P" n="66"/>8. Aliorum altera objectio vefellitur. — Ad
+          <lb ed="#P" n="67"/>alia argumenta respondeo, optime salvari 
+          dis<lb break="no" ed="#P" n="68"/>tinctionem rationis inter attributa et omnes
+          <lb ed="#P" n="69"/>enuntiationes, quae de illis sunt, non obstante
+          <lb ed="#P" n="70"/>mutua inclusione quam explicummus. Quod
+          <lb ed="#P" n="71"/>satis mihi declarat exemplum de Deo et 
+          Dei<lb break="no" ed="#P" n="72"/>tate, nam haec duo ratione distinguuntur et
+          <lb ed="#P" n="73"/>non sunt voces synonymae; imo de uno potest
+          <lb ed="#P" n="74"/>affirmari aliquid, quod negetur de alio, 
+          nihil<lb break="no" ed="#P" n="75"/>ominus nihil in re inducit unum, etiam ut
+          <lb ed="#P" n="76"/>objectum menti, quod non includat aliud. Idem
+          <lb ed="#P" n="77"/>censeo de Paternitate et Patre, ut infra 
+          osten<lb break="no" ed="#P" n="78"/>dam libro 4 et 7 de Trin. Dico ergo, ad 
+          dis<lb break="no" ed="#P" n="79"/>tinctionem rationis satis esse diversum 
+          mo<lb break="no" ed="#P" n="80"/>dum concipiendi nostrum, etiamsi in re 
+          con<lb break="no" ed="#P" n="81"/>cepta nihil diversum includatur. llle autem
+          <lb ed="#P" n="82"/>modus concipiendi esse potest vel conereti et
+          <lb ed="#P" n="83"/>abstracti, ut in exemplis positis vel explicatior
+          <lb ed="#P" n="84"/>et distinctior conceptus secundum unam 
+          ra<lb break="no" ed="#P" n="85"/>tionem , quam secundum aliam. Sic 
+          distin<lb break="no" ed="#P" n="86"/>guuntur justitia et misericordia ; nam licet res
+          <lb ed="#P" n="87"/>omnino eadem sit, quae utroque conceptu 
+          con<lb break="no" ed="#P" n="88"/>cipitur, tamen per unum concipitur sub 
+          spe<lb break="no" ed="#P" n="89"/>ciali habitudine ad talem effectum et de illo
+          <lb ed="#P" n="90"/>respectu est expressa cogitatio et non de alus,
+          <lb ed="#P" n="91"/>licet non excludantur sed potius confuse 
+          in<lb break="no" ed="#P" n="92"/>cludantur. 4 ;
+        </p>
+        <p xml:id="szduep-009807-d1e733">
+          <lb ed="#P" n="93"/>9. Hic autem modus distinctionis etiam in
+          <lb ed="#P" n="94"/>re creata inveniri potest ; sic enim, ut opinor,
+          <lb ed="#P" n="95"/>ratione distinguuntur intellectus et memoria
+          <lb ed="#P" n="96"/>et non majori distinctione : et in re uno modo
+          <lb ed="#P" n="97"/>concepta existimo includi quidquid includitur
+          <lb ed="#P" n="98"/>in eadem alio modo concepta, quia vis 
+          intelli<lb break="no" ed="#P" n="99"/>gendi est ex intrinseca sua natura retentiva
+          <lb ed="#P" n="100"/>specierum ; inde memoria nominatur et e 
+          con<lb break="no" ed="#P" n="101"/>verso vis immaterialis retentione specierum
+          <lb ed="#P" n="102"/>(de hac enim memoria sermo est) intime est
+          <lb ed="#P" n="103"/>virtus intelligendi, idem est de voluntate ut
+          <lb ed="#P" n="104"/>natura, seu ut voluntas est vel ut liberum 
+          ar<lb break="no" ed="#P" n="105"/>bitrium. Idemque esset de visu ut visio 
+          albe<lb break="no" ed="#P" n="106"/>dinis et nigredinis, si sub his praecisis 
+          ratio<lb break="no" ed="#P" n="107"/>nibus conciperetur et nominaretur. Et multa
+          <lb ed="#P" n="108"/>similia facile excogitari possunt. Et ratio est,
+          <lb ed="#P" n="109"/>quia ut nos aliqua distinguamus ratione, duo
+          <lb ed="#P" n="110"/>sufficiunt, juxta doctrinam Divi Thomae q. 7,
+          <pb ed="#P" n="41"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de Potentia, art. 6 et in d. 2, qu. 1, artic. 2et
+          <lb ed="#P" n="2"/>3. Unum est, quod non concipiamus rem prout
+          <lb ed="#P" n="3"/>est in se, aliud est quod concipiamus illam
+          <lb ed="#P" n="4"/>per habitudinem vel comparationem ad res
+          <lb ed="#P" n="5"/>alias distinctas. Haec autem duo possunt 
+          con<lb break="no" ed="#P" n="6"/>currere in diverso modo concipiendi eamdem
+          <lb ed="#P" n="7"/>rem, etiamsi in re concepta utroque modo 
+          to<lb break="no" ed="#P" n="8"/>tum includatur, ut ex dictis satis patet : hoc
+          <lb ed="#P" n="9"/>ergo non obstat distinctioni rationis.
+        </p>
+        <p xml:id="szduep-009807-d1e799">
+          <lb ed="#P" n="10"/>10. Ex dictis satisfactum est duobus 
+          argu<lb break="no" ed="#P" n="11"/>mentis secundo loco objectis. — Ex his ergo 
+          sa<lb break="no" ed="#P" n="12"/>tis responsum est ad duo prima argumenta
+          <lb ed="#P" n="13"/>secundo loco objecta. Argumenta enim Sooti,
+          <lb ed="#P" n="14"/>sicut non probant distinctionem, ita neque 
+          con<lb break="no" ed="#P" n="15"/>tra hanc partem quidquam probant.De 
+          distinc<lb break="no" ed="#P" n="16"/>tione autem rationis jam explicatum est, 
+          quo<lb break="no" ed="#P" n="17"/>modo possit consistere cum inclusione 
+          essen<lb break="no" ed="#P" n="18"/>tiali: nam licet non sit necessarium omnia,
+          <lb ed="#P" n="19"/>quae distinguuntur ratione, ita sese includere
+          <lb ed="#P" n="20"/>ut de genere et differentia constat, et de 
+          re<lb break="no" ed="#P" n="21"/>latione et Divinitate infra suo loco dicemus,
+          <lb ed="#P" n="22"/>tamen non propterea repugnat illa inclusio
+          <lb ed="#P" n="23"/>cum distinctione rationis ex modo imperfecto
+          <lb ed="#P" n="24"/>concipiendi ut explicatum est, maximeque est
+          <lb ed="#P" n="25"/>necessarium in re et essentia simplicissima
+          <lb ed="#P" n="26"/>ac perfectissima quoad ea omnia , quae 
+          adae<lb break="no" ed="#P" n="27"/>quate cum illa identificantur. Ad Tertium 
+          ve<lb break="no" ed="#P" n="28"/>ro respondetur, ut haec nomina non sint 
+          syno<lb break="no" ed="#P" n="29"/>nyma, satis esse quod eamdem rem diversis
+          <lb ed="#P" n="30"/>modis conceptam repraesentent. Dicunt vero
+          <lb ed="#P" n="31"/>aliqui illas voces, licet non sint synonymae in
+          <lb ed="#P" n="32"/>ordine ad nos, esse synonymas in ordine ad
+          <lb ed="#P" n="33"/>beatos, ut beati sunt, quia vident idem 
+          signi<lb break="no" ed="#P" n="34"/>ficari in re ipsa per omnes illas. Sed hoc non
+          <lb ed="#P" n="35"/>recte dicitur, quia etiam nos idem significari
+          <lb ed="#P" n="36"/>scimus in reipsa per omnes illas, quod vero a
+          <lb ed="#P" n="37"/>nobis non videatur res illa, et videatur a 
+          bea<lb break="no" ed="#P" n="38"/>tis; impertinens est ad vocum significationem,
+          <lb ed="#P" n="39"/>vel ut sint synony mae, quia illae semper 
+          subor<lb break="no" ed="#P" n="40"/>dinantur diversis conceptibus et quantum est
+          <lb ed="#P" n="41"/>ex ipsis, semper faciunt concipere rem diverso
+          <lb ed="#P" n="42"/>modo. Unde licet beati conciperent 
+          sapien<lb break="no" ed="#P" n="43"/>tiam Dei ex vi auditionis et significationis
+          <lb ed="#P" n="44"/>vocis, sapientia , non concipient illam 
+          adae<lb break="no" ed="#P" n="45"/>quate et prout in se est. Quod vero alia via 
+          per<lb break="no" ed="#P" n="46"/>fectius concipiant, accidentarium est. 
+          Simpli<lb break="no" ed="#P" n="47"/>citer ergo et respectu cujuscumque intellectus
+          <lb ed="#P" n="48"/>voces illae synonymae non sunt. De quarto 
+          ar<lb break="no" ed="#P" n="49"/>gumento dicimus capite sequenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

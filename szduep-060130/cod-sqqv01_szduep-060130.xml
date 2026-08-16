@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="236"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-060130"><!-- t2-l1c1 -->
+        <head xml:id="szduep-060130-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-060130-Hd1e103" type="question-title">Necessarium esse in deo praedestinationem ponere</head>
+        <p xml:id="szduep-060130-d1e106">
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="53"/>CAPUT I.
+          <lb ed="#P" n="54"/>NECESSARIUM ESSE IN DEO PRAEDESTINATIONEM
+          <lb ed="#P" n="55"/>PONERE.
+        </p>
+        <p xml:id="szduep-060130-d1e117">
+          <lb ed="#P" n="56"/>1. Non defuerunt, qui praedestinationem in
+          <lb ed="#P" n="57"/>Deo esse negaverint, ut colligitur ex Prospero
+          <lb ed="#P" n="58"/>in responsione ad objectiones Gallorum, capite
+          <lb ed="#P" n="59"/>primo, et ex Augustino, libro secundo, de Bono
+          <lb ed="#P" n="60"/>perseverantiae, capit. 14, putabant enim 
+          prae<lb break="no" ed="#P" n="61"/>destinationem nihil aliud esse, quam fatum,
+          <lb ed="#P" n="62"/>quo posito, libertas arbitrii tollitur.
+        </p>
+        <p xml:id="szduep-060130-d1e135">
+          <lb ed="#P" n="63"/>2. Nihilominus certum de fide est, 
+          praedes<lb break="no" ed="#P" n="64"/>tinationem Deo convenire. Ita docent praedicti
+          <lb ed="#P" n="65"/>Patres, et supponit Tridentinum, Sess.6, cap.12,
+          <pb ed="#P" n="237"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et canon. 16, quatenus definit, neminem posse
+          <lb ed="#P" n="2"/>esse certum de sua praedestinatione, nisi ei
+          <lb ed="#P" n="3"/>specialiter reveletur. Et convincitur ex Paulo
+          <lb ed="#P" n="4"/>ad Rom. 1 et 8,1 ad Corint. 2, et ad Ephes. 1,
+          <lb ed="#P" n="5"/>quibus locis preedestinationem sub hac cadem
+          <lb ed="#P" n="6"/>voce Deo attribuit et sub aliis nominibus 
+          elec<lb break="no" ed="#P" n="7"/>tionis, propositi, prescientie. Idem habetur ex
+          <lb ed="#P" n="8"/>multis aliis locis , quae postea commemorabo.
+        </p>
+        <p xml:id="szduep-060130-d1e167">
+          <lb ed="#P" n="9"/>3. Vox predestinatio exponitur. — Ratio ex
+          <lb ed="#P" n="10"/>re ipsa, constabit ex dicendis : nunc solum
+          <lb ed="#P" n="11"/>declaratur ex vocis significatione. Vox enim
+          <lb ed="#P" n="12"/>pradestinatio composita est a verbo Destino,
+          <lb ed="#P" n="13"/>quod apud latinos varias habet significationes.
+          <lb ed="#P" n="14"/>Duae tamen, vel tres sunt praecipusae ad rem
+          <lb ed="#P" n="15"/>praesentem. Aliquando enim significat mittere,
+          <lb ed="#P" n="16"/>aliquando designare ad aliquod munus , 
+          sae<lb break="no" ed="#P" n="17"/>pius vero animo proponere et statuere. Et
+          <lb ed="#P" n="18"/>quidem divus Thomas, 1 p., quaest. 23, art. 1,
+          <lb ed="#P" n="19"/>quem sequitur Durandus 1, d. 4, quaest. 1,
+          <lb ed="#P" n="20"/>praedestinationis nomen a prima significatione
+          <lb ed="#P" n="21"/>derivat. At vero Alex. Alensis, 1 p., quaest. 28,
+          <lb ed="#P" n="22"/>Memb. 1, et alii, potius existimant sumendam
+          <lb ed="#P" n="23"/>esse ex ultima. Tamen in re non potest esse
+          <lb ed="#P" n="24"/>diversitas, quia praedestinatio non significat
+          <lb ed="#P" n="25"/>exteriorem missionem, seu transmissionem,
+          <lb ed="#P" n="26"/>in vitam aeternam, ut omnes fatentur et 
+          sumi<lb break="no" ed="#P" n="27"/>tur ex Paulo ad Rom. S, ubi 
+          praedestinatio<lb break="no" ed="#P" n="28"/>nem a glorificatione distinguit, et ab illis 
+          actio<lb break="no" ed="#P" n="29"/>nibus , per quas homo re ipsa et exterius (ut
+          <lb ed="#P" n="30"/>sie dicam ) transmittitur in vitam aeternam,
+          <lb ed="#P" n="31"/>ut sunt vocatio et sanctificatio. Ergo etiam si
+          <lb ed="#P" n="32"/>praedestinatio transmissionem significet , non
+          <lb ed="#P" n="33"/>tamen in re exercitam, sed mente conceptam,
+          <lb ed="#P" n="34"/>ut etiam divus Thomas notavit, articulo 
+          se<lb break="no" ed="#P" n="35"/>cundo ad 2.
+        </p>
+        <p xml:id="szduep-060130-d1e228">
+          <lb ed="#P" n="36"/>4. Preedestinatio an sit. — Hinc ergo 
+          eviden<lb break="no" ed="#P" n="37"/>ter constat , esse in Deo praedestinationem ,
+          <lb ed="#P" n="38"/>quia multi sunt, qui divina virtute et auxilio
+          <lb ed="#P" n="39"/>transferuntur in vitam aeternam : necesse est
+          <lb ed="#P" n="40"/>autem, ut hoc fiat ex voluntate, praescientia et
+          <lb ed="#P" n="41"/>providentia Dei ; ergo praecedit in Deo ratio,
+          <lb ed="#P" n="42"/>seu conceptio, ac voluntas illius 
+          transmissio<lb break="no" ed="#P" n="43"/>nis, quae in tempore fit : illa autem 
+          significa<lb break="no" ed="#P" n="44"/>tur nomine praedestinationis. Nam ad hoc 
+          si<lb break="no" ed="#P" n="45"/>gnificandum, verbo, Destino , addita est 
+          par<lb break="no" ed="#P" n="46"/>ticula Preedestinationis. Circa quam est 
+          brevi<lb break="no" ed="#P" n="47"/>ter advertendum, posse significare, vel solam
+          <lb ed="#P" n="48"/>antecessionem aeternitatis ad tempus, vel
+          <lb ed="#P" n="49"/>etiam ordinem aliquem, seu prioritatem 
+          ratio<lb break="no" ed="#P" n="50"/>nis inter ipsos actus divinae scientiae et 
+          volun<lb break="no" ed="#P" n="51"/>tatis. Et hoc posteriori modo sumitur a multis
+          <lb ed="#P" n="52"/>theologis, cum de praedestinatione tractant et
+          <lb ed="#P" n="53"/>recte ut existimo. Tamen in hoc sensu non est
+          <lb ed="#P" n="54"/>res pertinens ad fidem, saltem aperte 
+          defini<lb break="no" ed="#P" n="55"/>tam, quod detur talis praedestinationis modus.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Tum quia haec divisio signorum in divina
+          <lb ed="#P" n="57"/>mente et prioritatis , seu ordinis rationis 
+          in<lb break="no" ed="#P" n="58"/>ter actus voluntatis et intellectus non pertinet
+          <lb ed="#P" n="59"/>ad dogmata fidei, sed ad disputationem mere
+          <lb ed="#P" n="60"/>theologicam : tum etiam , quia in hoc sensu
+          <lb ed="#P" n="61"/>aliqui Catholici intellexerunt, non dari in Deo
+          <lb ed="#P" n="62"/>absolutam praedestinationem, seu 
+          praeparatio<lb break="no" ed="#P" n="63"/>nem gratiae, vel gloriae respectu alicujus 
+          ho<lb break="no" ed="#P" n="64"/>minis , ante praescientiam absolutam 
+          futuro<lb break="no" ed="#P" n="65"/>rum actuum , seu futurae cooperationis liberi
+          <lb ed="#P" n="66"/>arbitrii. Vel saltem non habuisse Deum talem
+          <lb ed="#P" n="67"/>modum propositi, seu praedestinationis circa
+          <lb ed="#P" n="68"/>omnes qui in tempore salvantur. Quae 
+          opinio<lb break="no" ed="#P" n="69"/>nes hactenus non sunt ab Ecclesia damnatae,
+          <lb ed="#P" n="70"/>nec censuram aliquam , aut notam merentur,
+          <lb ed="#P" n="71"/>licet falsae sint, ut postea videbimus.
+        </p>
+        <p xml:id="szduep-060130-d1e311">
+          <lb ed="#P" n="72"/>5. Igitur ut assertio posita fidei 
+          certitudi<lb break="no" ed="#P" n="73"/>nem habeat , sumenda est particula pre, ut
+          <lb ed="#P" n="74"/>dicat solum antecessionem aeternitatis ad 
+          tem<lb break="no" ed="#P" n="75"/>pus, quo sensu procedit optime ratio facta,
+          <lb ed="#P" n="76"/>estque non solum certa, sed etiam evidens,
+          <lb ed="#P" n="77"/>suppositis dogmatibus de glorificatione 
+          justo<lb break="no" ed="#P" n="78"/>rum. Et ita expresse illam particnlam 
+          expli<lb break="no" ed="#P" n="79"/>cuit Alensis, loco citato, articulo primo, 
+          idem<lb break="no" ed="#P" n="80"/>que significavit Durandus 1, distinctione 40,
+          <lb ed="#P" n="81"/>quaest. 1, dicens, rationem destinationis in
+          <lb ed="#P" n="82"/>finem supernaturalem praeexistere in Deo 
+          an<lb break="no" ed="#P" n="83"/>tequam res fiant, et propter hanc 
+          antecessio<lb break="no" ed="#P" n="84"/>nem ad rem ipsam, vocari praedestinationem,
+          <lb ed="#P" n="85"/>quod sumpsit ex D. Thoma, articulo primo.
+          <lb ed="#P" n="86"/>Solum ergo sub hac significatione et generali
+          <lb ed="#P" n="87"/>ratione certum nunc relinquitur, in Deo esse
+          <lb ed="#P" n="88"/>praedestinationem.
+        </p>
+        <p xml:id="szduep-060130-d1e350">
+          <lb ed="#P" n="89"/>6. Deus solus preedestinare potest. — mo, ut
+          <lb ed="#P" n="90"/>recte adnotavit Durandus hinc etiam 
+          concludi<lb break="no" ed="#P" n="91"/>tur, Praedestinationem , ut nunc de illa 
+          loqui<lb break="no" ed="#P" n="92"/>mur, soli Deo posse convenire. Nam 
+          praedes<lb break="no" ed="#P" n="93"/>tinatio significat rationem ordinis, seu 
+          trans<lb break="no" ed="#P" n="94"/>missionis infaillibilis creaturae rationalis in
+          <lb ed="#P" n="95"/>vitam aeternam : solus autem Deus potest 
+          ordi<lb break="no" ed="#P" n="96"/>nare hoc modo rem creatam in finem, tum
+          <lb ed="#P" n="97"/>propter excellentiam illius finis, tum etiam
+          <lb ed="#P" n="98"/>propter infaillibilem et efficacem 
+          praeordina<lb break="no" ed="#P" n="99"/>tionem, quae postulat infinitam sapientiam et
+          <lb ed="#P" n="100"/>omnipotentiam Dei, ergo praedestinatio et in
+          <lb ed="#P" n="101"/>Deo est et soli illi convenire potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

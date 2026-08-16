@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-000238"><!-- t1-l1prae -->
+        <head xml:id="szduep-000238-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-000238-d1e103">
+          <pb ed="#P" n="1"/>
+          <!-- 1 -->
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS.
+          <lb ed="#P" n="2"/>DE EXTSTENTIA DEI
+          <lb ed="#P" n="3"/>DE ESSENTIA EJUSQUE ATTRIBUTIS IN COMMUNI.
+        </p>
+        <p xml:id="szduep-000238-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Ad nostrum institutum accedentes, 
+          praesen<lb break="no" ed="#P" n="5"/>tem tractatum tribus libris comprehendemus.
+          <lb ed="#P" n="6"/>In primo de Dei existentia et essentia dicemus,
+          <lb ed="#P" n="7"/>ac subinde generalem de attributis divinis 
+          doc<lb break="no" ed="#P" n="8"/>trinam trademus. In secundo de negativis 
+          at<lb break="no" ed="#P" n="9"/>tributis dicemus, inter quae unum est, esse
+          <lb ed="#P" n="10"/>incomprehensibilem et invisibilem, cujus 
+          oc<lb break="no" ed="#P" n="11"/>casione de visione beatifica dicemus. In libro
+          <lb ed="#P" n="12"/>autem tertio, affirmativa seu positiva attributa
+          <lb ed="#P" n="13"/>explicabimus. In hoc autem primo libro prius
+          <lb ed="#P" n="14"/>de existentia Dei tractabimus, quoniam hoc est
+          <lb ed="#P" n="15"/>perfectionum omnium fundamentum; postea
+          <lb ed="#P" n="16"/>quid sit Deus, nostro rudi modo concipiendi
+          <lb ed="#P" n="17"/>et loquendi, declarare conabimur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

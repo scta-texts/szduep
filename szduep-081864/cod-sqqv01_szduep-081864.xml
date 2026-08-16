@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="322"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-081864"><!-- t2-l2c2 -->
+        <head xml:id="szduep-081864-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-081864-Hd1e103" type="question-title">Quas physicas causas habeat praedestinatio quoad effectus suos</head>
+        <p xml:id="szduep-081864-d1e106">
+          <lb ed="#P" n="49"/>CAPUT II.
+          <lb ed="#P" n="50"/>QUAS PHYSICAS CAUSAS HABEAT PRAEDESTINATIO
+          <lb ed="#P" n="51"/>QUOAD EFFECTUS SUOS.
+        </p>
+        <p xml:id="szduep-081864-d1e115">
+          <lb ed="#P" n="52"/>1. Dari causam physicam effectuum 
+          praedes<lb break="no" ed="#P" n="53"/>tinationis. — Cum nihil aliud sit, quaerere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>causas praedestinationis ex parte effectuum
+          <lb ed="#P" n="55"/>ejus, quam quaerere causas ipsorum effectuum,
+          <lb ed="#P" n="56"/>constat imprimis omnium effectuum 
+          praedes<lb break="no" ed="#P" n="57"/>tinationis necessario dandam esse aliquam
+          <lb ed="#P" n="58"/>physicam causam. Probatur, quia omnes 
+          effec<lb break="no" ed="#P" n="59"/>tus praedestinationis sunt aliquid creatum, 
+          er<lb break="no" ed="#P" n="60"/>go requirunt efficientem causam physicam, a
+          <lb ed="#P" n="61"/>qua recipiunt esse. Item ipsa praedestinatio est
+          <lb ed="#P" n="62"/>causa talium effectuum, ut Augustinus docet,
+          <lb ed="#P" n="63"/>et libro sequenti ex professo dicemus : est 
+          au<lb break="no" ed="#P" n="64"/>tem veluti causa prima, seu ratio agendi ipsi
+          <lb ed="#P" n="65"/>causae primae, quae non immediate operatur
+          <lb ed="#P" n="66"/>hos omnes effectus, sed per causas secundas:
+          <lb ed="#P" n="67"/>ergo.
+        </p>
+        <p xml:id="szduep-081864-d1e154">
+          <lb ed="#P" n="68"/>2. Deum esse finem ac efficiens preecigmum
+          <lb ed="#P" n="69"/>talum effectuum. — Unde secundo est certum,
+          <lb ed="#P" n="70"/>principalem causam efticientem et finalem 
+          ho<lb break="no" ed="#P" n="71"/>rum omnium eftectuum esse Deum ipsum.
+          <lb ed="#P" n="72"/>Quod est certum de fide, quia ipse Deus est
+          <lb ed="#P" n="73"/>primus et principalis auctor gratiae et gloriae,
+          <lb ed="#P" n="74"/>juxta illud : Gratiam et gloriam dabit 
+          Domi<lb break="no" ed="#P" n="75"/>nis. Et cum omnia propter seipsum, tanquam
+          <lb ed="#P" n="76"/>propter finem operetur, (juxta illud : Omnia
+          <lb ed="#P" n="77"/>propter seipsum operatus est Dominus) multo
+          <lb ed="#P" n="78"/>majori et altiori ratione illa, quae ad 
+          praedes<lb break="no" ed="#P" n="79"/>tinationem electorum exequendam pertinent,
+          <lb ed="#P" n="80"/>propter seipsum operatus est. Nam eos elegit
+          <lb ed="#P" n="81"/>ad manifestationem geloriae et gratiae suae, et
+          <lb ed="#P" n="82"/>ut ab eis perpetuo laudetur et glorificetur.
+          <lb ed="#P" n="83"/>Causalitas autem materialis et formalis in Deo
+          <lb ed="#P" n="84"/>locum non habent, et ideo nihil de illis 
+          di<lb break="no" ed="#P" n="85"/>cimus.
+        </p>
+        <p xml:id="szduep-081864-d1e197">
+          <lb ed="#P" n="86"/>3. De causa necessaria vel possibilis, quae.—
+          <lb ed="#P" n="87"/>Tertio dicendum est, extra Deum et hominem
+          <lb ed="#P" n="88"/>ipsum praedestinatum, per se, et intrinsece, et
+          <lb ed="#P" n="89"/>ex natura rei non requiri aliam causam 
+          phy<lb break="no" ed="#P" n="90"/>sicam talium etfectuum : non repugnare 
+          au<lb break="no" ed="#P" n="91"/>tem, quod Deus illa utatur. Quando autem et
+          <lb ed="#P" n="92"/>quomodo illa utatur ad omnes, vel aliquos
+          <lb ed="#P" n="93"/>praedestinationis effectus, ad praesentem 
+          ma<lb break="no" ed="#P" n="94"/>teriam non refert, et varias involvit 
+          quaestio<lb break="no" ed="#P" n="95"/>nes ad alias materias pertinentes. Haec ergo
+          <lb ed="#P" n="96"/>assertio praecipue ponitur de efficiente causa
+          <lb ed="#P" n="97"/>et consequenter de finali. Nam de materiali
+          <lb ed="#P" n="98"/>statim dicam , de formali vero nulla est 
+          quaes<lb break="no" ed="#P" n="99"/>tio, ut mox dicam. Igitur de efficiente eam
+          <lb ed="#P" n="100"/>breviter explico, quia per se solum Deus est
+          <lb ed="#P" n="101"/>auctor gratiae, non solum ut prima causa, sed
+          <lb ed="#P" n="102"/>etiam ut proxima connaturalis et principalis,
+          <lb ed="#P" n="103"/>quia solus ipse potest communicare propriam
+          <lb ed="#P" n="104"/>suae divinitatis participationem, quae per 
+          gra<lb break="no" ed="#P" n="105"/>tiam fit, reliqua autem dona gratiae sunt et ad
+          <lb ed="#P" n="106"/>illam disponunt, vel illam comitantur, et ideo
+          <lb ed="#P" n="107"/>eamdem per se causam habent. Deus autem
+          <lb ed="#P" n="108"/>per se nullo indiget instrumento ad suos ef-
+          <pb ed="#P" n="323"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fectus proprios: nec cooperatione alterius 
+          cau<lb break="no" ed="#P" n="2"/>sae extrinsecae, maxime cum nulla sit extra
+          <lb ed="#P" n="3"/>ipsum Deum, quae ex natura sua hos effectus
+          <lb ed="#P" n="4"/>habere valeat, ergo ex natura rei nulla causa
+          <lb ed="#P" n="5"/>physica talium effectuum necessaria est extra
+          <lb ed="#P" n="6"/>Deum. Solum quoad aliquos effectus, qui 
+          vi<lb break="no" ed="#P" n="7"/>tales sunt, potest requiri influxus ejusdem 
+          ho<lb break="no" ed="#P" n="8"/>minis praedestinati, ut mox dicam : omnis 
+          er<lb break="no" ed="#P" n="9"/>go alia extrinseca causa per se et quasi ex
+          <lb ed="#P" n="10"/>natura rei necessaria non est. Quod autem
+          <lb ed="#P" n="11"/>Deus possit illa uti, ut instrumento, non est
+          <lb ed="#P" n="12"/>dubium, ubi statim intervenit quaestio: An
+          <lb ed="#P" n="13"/>Christi Domini humanitas sit causa physica
+          <lb ed="#P" n="14"/>omnium eorum effectuum saltem ex quo facta
+          <lb ed="#P" n="15"/>est incarnatio, vel ex quo passio fuit 
+          consum<lb break="no" ed="#P" n="16"/>mata. Item, an Sacramenta novae legis sint
+          <lb ed="#P" n="17"/>causa physica aliquorum talium effectuum,
+          <lb ed="#P" n="18"/>qui ab illis pendent: quae quaestiones et similes
+          <lb ed="#P" n="19"/>hic tractandae non sunt, praesertim cum nihil
+          <lb ed="#P" n="20"/>speciale habeant in praedestinatis. Utitur etiam
+          <lb ed="#P" n="21"/>Deus ministerio angelorum et hominum ad
+          <lb ed="#P" n="22"/>hos effectus in praedestinatis efficiendos, de
+          <lb ed="#P" n="23"/>quorum causalitate dubitari etiam potest, an
+          <lb ed="#P" n="24"/>sit physica, vel tantum moralis : sed parum
+          <lb ed="#P" n="25"/>refert, nam certum est solum esse per accidens
+          <lb ed="#P" n="26"/>in genere physico et vero influxu reali. Siec
+          <lb ed="#P" n="27"/>enim universe intelligo illud Pauli: Neque qua
+          <lb ed="#P" n="28"/>plantat est aliquid, neque qui rigat, sed qui 
+          in<lb break="no" ed="#P" n="29"/>crementum dat, Deus. lgitur solum superest,
+          <lb ed="#P" n="30"/>ut explicemus, quaenam causalitas physica per
+          <lb ed="#P" n="31"/>se requiratur ad hujusmodi effectus ex parte
+          <lb ed="#P" n="32"/>ipsius hominis praedestinati, quod breviter
+          <lb ed="#P" n="33"/>praestabimus per singula causarum genera
+          <lb ed="#P" n="34"/>discurrendo.
+        </p>
+        <p xml:id="szduep-081864-d1e327">
+          <lb ed="#P" n="35"/>4. Homo quomodo sit causa talium 
+          effec<lb break="no" ed="#P" n="36"/>tum. — Quarto ergo dicendum est, habere
+          <lb ed="#P" n="37"/>hominem physicam causalitatem materialem
+          <lb ed="#P" n="38"/>respectu omnium effectuum praedestinationis,
+          <lb ed="#P" n="39"/>qui in ipso fiunt, sive sint habitus, sive actus,
+          <lb ed="#P" n="40"/>sive alia interna auxilia gratiae, omnia enim
+          <lb ed="#P" n="41"/>in anima, vel ejus potentiis recipiuntur, et ex
+          <lb ed="#P" n="42"/>capacitate ejus, quamvis obedientiali, 
+          educun<lb break="no" ed="#P" n="43"/>tur, ab illa enim in esse et in fieri pendent.
+          <lb ed="#P" n="44"/>Quo sensu dixit Augustinus, de Praedest.Sanct.,
+          <lb ed="#P" n="45"/>posse habere fidem nature est hominum, habere
+          <lb ed="#P" n="46"/>autem, gratiee est fidelium ; et Bernardus, lib.
+          <lb ed="#P" n="47"/>de Grat. et lib. Arbit.: Deus est qui dat 
+          gra<lb break="no" ed="#P" n="48"/>tiam, liberum autem avbitrium est capaa ejus;
+          <lb ed="#P" n="49"/>et similia habet Prosper, lib. 2, de Vocat.
+          <lb ed="#P" n="50"/>Gent., cap. 3, et Fulgentius, lib. de Incarnat.
+          <lb ed="#P" n="51"/>et Grat., cap: 22, 23 et 24. Solum est 
+          adver<lb break="no" ed="#P" n="52"/>tendum, talem esse capacitatem hanc, ut ex
+          <lb ed="#P" n="53"/>illa nullum (ut ita dicam) oriatur debitum 
+          to<lb break="no" ed="#P" n="54"/>tius ordinis gratiae, seu omnium donorum 
+          gra<lb break="no" ed="#P" n="55"/>tiae, id est, ut non obstante tali capacitate, de-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bitum non sit humanae naturae, elevari ad 
+          or<lb break="no" ed="#P" n="57"/>dinem gratiae, seu fieri participem donorum
+          <lb ed="#P" n="58"/>ejus. Non sit (inquam) debitum, non solum ex
+          <lb ed="#P" n="59"/>propria justitia, vel merito, quod per se 
+          no<lb break="no" ed="#P" n="60"/>tum est, verum etiam nec debito proportionis,
+          <lb ed="#P" n="61"/>seu exigentiae connaturalis: eo scilicet modo,
+          <lb ed="#P" n="62"/>quo dicuntur debitae essentiae proprietates 
+          con<lb break="no" ed="#P" n="63"/>naturales, vel causaee secundae concursus 
+          ge<lb break="no" ed="#P" n="64"/>neralis. Ratio est, quia etiam hoc debitum
+          <lb ed="#P" n="65"/>repugnat perfectioni gratiae, quia alias jam
+          <lb ed="#P" n="66"/>gratia non esset gratia, sed donum naturae 
+          de<lb break="no" ed="#P" n="67"/>bitum.
+        </p>
+        <p xml:id="szduep-081864-d1e403">
+          <lb ed="#P" n="68"/>5. Radix autem hujus excellentise gratiae
+          <lb ed="#P" n="69"/>sumenda est ex fine, ad quem tota 
+          providen<lb break="no" ed="#P" n="70"/>tia gratiae tendit, est enim ille supernaturalis
+          <lb ed="#P" n="71"/>et naturae non debitus, et ideo media etiam ad
+          <lb ed="#P" n="72"/>illum finem supernaturalia sunt et naturae non
+          <lb ed="#P" n="73"/>debita. Haec autem media sunt praedicta dona
+          <lb ed="#P" n="74"/>gratiae. Unde a fortiori fit multo minus posse
+          <lb ed="#P" n="75"/>esse debitum naturae auxilium congruum et
+          <lb ed="#P" n="76"/>eflicax, infallibiliter perducens ad talem 
+          fi<lb break="no" ed="#P" n="77"/>nem, quod est proprium praedestinatorum :
+          <lb ed="#P" n="78"/>nam si dona ipsa sufficientia non sunt debita,
+          <lb ed="#P" n="79"/>multo minus erunt efficacia. Item, quia si 
+          es<lb break="no" ed="#P" n="80"/>sent debita, darentur omnibus : Deus enim
+          <lb ed="#P" n="81"/>non negat, sine speciali miraculo, quod 
+          na<lb break="no" ed="#P" n="82"/>turae debitum est : illud autem est manifeste
+          <lb ed="#P" n="83"/>falsum. Est autem quaedam differentia 
+          notan<lb break="no" ed="#P" n="84"/>da, quia gratia sufliciens, licet adsit debita
+          <lb ed="#P" n="85"/>naturae secundum se spectatae et multo minus
+          <lb ed="#P" n="86"/>ut affectae originali culpa; est nihilominus
+          <lb ed="#P" n="87"/>aliquo modo debita naturae ordinatae ad finem
+          <lb ed="#P" n="88"/>supernaturalem, cum debito illum procurandi.
+          <lb ed="#P" n="89"/>At vero gratia efficax nulli est debita, non 
+          so<lb break="no" ed="#P" n="90"/>lum ratione naturae secundum se spectatae, 
+          ve<lb break="no" ed="#P" n="91"/>rum etiam neque ut ordinatae et elevatae ad
+          <lb ed="#P" n="92"/>finem supernaturalem, et quandoquidem 
+          ne<lb break="no" ed="#P" n="93"/>que hoc modo omnibus hominibus, vel 
+          ange<lb break="no" ed="#P" n="94"/>lis data est. Et ratio a priori est, quia 
+          ordina<lb break="no" ed="#P" n="95"/>tio ad talem finem ex se solum postulat 
+          sut<lb break="no" ed="#P" n="96"/>ficientia media, reliqua autem pendent ex
+          <lb ed="#P" n="97"/>divina voluntate, accommodante media juxta
+          <lb ed="#P" n="98"/>praescientiam et voluntatem suam, quod nullo
+          <lb ed="#P" n="99"/>titulo potest esse naturae debitum. Ac 
+          propte<lb break="no" ed="#P" n="100"/>rea baec causalitas materialis non refert ad
+          <lb ed="#P" n="101"/>causam praedestinationis, de qua agimus.
+        </p>
+        <p xml:id="szduep-081864-d1e479">
+          <lb ed="#P" n="102"/>6. Quinto, habet etiam praedestinatio 
+          cau<lb break="no" ed="#P" n="103"/>sam physicam efficientem ex parte nostra
+          <lb ed="#P" n="104"/>quoad multos effectus. Quoad illos, videlicet,
+          <lb ed="#P" n="105"/>qui consistunt in actibus vitalibus ipsius 
+          ho<lb break="no" ed="#P" n="106"/>minis et comprehendi solent sub nomine 
+          gra<lb break="no" ed="#P" n="107"/>tiae actualis. Habitualis enim gratia a solo Deo
+          <lb ed="#P" n="108"/>infunditur, quamvis requirat dispositionem ex
+          <lb ed="#P" n="109"/>parte hominis adulti : illa vero dispositio (ut
+          <lb ed="#P" n="110"/>est probabilior opinio) non efticit physice ha-
+          <pb ed="#P" n="324"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bitus ipsos, seclusa causalitate 
+          Sacramento<lb break="no" ed="#P" n="2"/>rum. Actus autem vitales non possunt in 
+          no<lb break="no" ed="#P" n="3"/>bis fieri sine nobis, juxta veram philosophiam:
+          <lb ed="#P" n="4"/>et ideo licet a Deo principaliter donentur, 
+          ho<lb break="no" ed="#P" n="5"/>mo etiam habet circa illos suam physicam 
+          ef<lb break="no" ed="#P" n="6"/>ficientiam, secundariam et minus principalem.-
+          <lb ed="#P" n="7"/>Solum est differentia notanda inter hos actus:
+          <lb ed="#P" n="8"/>nam quidam sunt actus humani et liberi, ut
+          <lb ed="#P" n="9"/>actus fidei, charitatis et caetera, alii vero 
+          ante<lb break="no" ed="#P" n="10"/>cedunt humanum consensum et 
+          deliberatio<lb break="no" ed="#P" n="11"/>nem, ut divina inspiratio et tactus cordis, et
+          <lb ed="#P" n="12"/>similes motus, in quibus gratia operans, 
+          prae<lb break="no" ed="#P" n="13"/>veniens et excitans consistit, quando intrinseca
+          <lb ed="#P" n="14"/>est. Circa priores ergo habet homo non solum
+          <lb ed="#P" n="15"/>efficientiam physicam, sed etiam moralem,
+          <lb ed="#P" n="16"/>quae consistit in libera cooperatione, juxta 
+          doc<lb break="no" ed="#P" n="17"/>trinam Concilii Tridentini, sessione 6. Circa
+          <lb ed="#P" n="18"/>posteriores vero non concurrit homo moraliter,
+          <lb ed="#P" n="19"/>et ideo dicitur potius agi, quam agere : 
+          con<lb break="no" ed="#P" n="20"/>currit tamen physice juxta veriorem 
+          senten<lb break="no" ed="#P" n="21"/>tiam, quia revera tales motus vitales sunt, et
+          <lb ed="#P" n="22"/>ille physicus influxus vitalis potentiae est de
+          <lb ed="#P" n="23"/>intrinseca ratione talis actus, ut vitalis est. Sic
+          <lb ed="#P" n="24"/>ergo potest esse in homine causalitas effectiva
+          <lb ed="#P" n="25"/>circa praedestinationem quoad effectus ejus,
+          <lb ed="#P" n="26"/>etiam quantum ad primum effectum, qui in
+          <lb ed="#P" n="27"/>executione datur: nam ille potest esse aliqua
+          <lb ed="#P" n="28"/>interna inspiratio, vel illuminatio.
+        </p>
+        <p xml:id="szduep-081864-d1e566">
+          <lb ed="#P" n="29"/>7. Ex hac vero causalitate effectiva, vel etiam
+          <lb ed="#P" n="30"/>ex facultate habenti illam, nuillum sequitur
+          <lb ed="#P" n="31"/>debitum respectu talium donorum. Quia 
+          ne<lb break="no" ed="#P" n="32"/>que sequitur debitum connaturalis, quia tota
+          <lb ed="#P" n="33"/>illa efficientia supernaturalis est, ita ut 
+          huma<lb break="no" ed="#P" n="34"/>nae potentiae non concurrant, nisi ut elevatae,
+          <lb ed="#P" n="35"/>et (ut ego opinor) per potentiam activam 
+          obe<lb break="no" ed="#P" n="36"/>dientialem, de qua latius alibi. Neque sequitur
+          <lb ed="#P" n="37"/>debitum justitiae, vel meriti, seu quodcumque
+          <lb ed="#P" n="38"/>debitum morale, quia si efficientia est mere
+          <lb ed="#P" n="39"/>physica et non libera, ac proinde etiam 
+          mo<lb break="no" ed="#P" n="40"/>ralis, non potest esse fundamentum talis 
+          de<lb break="no" ed="#P" n="41"/>biti : si vero sit etiam libera, haec semper 
+          sup<lb break="no" ed="#P" n="42"/>ponit aliquam gratiam sine tali debito datam,
+          <lb ed="#P" n="43"/>ut dicemus. Igitur hic physicus causandi 
+          mo<lb break="no" ed="#P" n="44"/>dus praecise spectatus non pertinet ad causam
+          <lb ed="#P" n="45"/>praedestinationis, quam inquirimus.
+        </p>
+        <p xml:id="szduep-081864-d1e605">
+          <lb ed="#P" n="46"/>8. Finalis causa quae. — Sexto, de causa
+          <lb ed="#P" n="47"/>etiam finali certum est, dari in 
+          praedestina<lb break="no" ed="#P" n="48"/>tione quoad plures effectus ejus, ut fatetur
+          <lb ed="#P" n="49"/>divus Thomas, dic. art. 5, in Corpore et ad 1.
+          <lb ed="#P" n="50"/>Imo Durandus, in 1, d. 44, q. 2, dixit, 
+          om<lb break="no" ed="#P" n="51"/>nium effectuum praedestinationis dari in nobis
+          <lb ed="#P" n="52"/>causam finalem, nimirum praedestinati 
+          beati<lb break="no" ed="#P" n="53"/>tudinem , illam enim non computat ipse inter
+          <lb ed="#P" n="54"/>effectus praedestinationis. Et verum sine dubio
+          <lb ed="#P" n="55"/>est, reliquos omnes effectus ad illam, sicut ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>finem ordinari : tamen quia verius est, 
+          beati<lb break="no" ed="#P" n="57"/>tudinem ipsam comprehendi inter effectus 
+          prae<lb break="no" ed="#P" n="58"/>destinationis, ut libro tertio videbimus, ideo
+          <lb ed="#P" n="59"/>verius est, totius praedestinationis, ut 
+          complec<lb break="no" ed="#P" n="60"/>titur omnes effectus, non dari in nobis finalem
+          <lb ed="#P" n="61"/>causam, sed hanc esse divinam gloriam, ad
+          <lb ed="#P" n="62"/>quam ipsa etiam beatitudo praedestinatorum
+          <lb ed="#P" n="63"/>ordinatur. Comparando autem inter se hos 
+          ef<lb break="no" ed="#P" n="64"/>fectus, unus est propter alium, tanquam 
+          prop<lb break="no" ed="#P" n="65"/>ter finem, ut vocatio propter dispositionem
+          <lb ed="#P" n="66"/>liberam, haec propter justificationem et haec
+          <lb ed="#P" n="67"/>propter fructus justitiae usque ad gloriam.
+        </p>
+        <p xml:id="szduep-081864-d1e658">
+          <lb ed="#P" n="68"/>9. Considerandum autem est, hunc finem 
+          prae<lb break="no" ed="#P" n="69"/>destinationis, sive sit ultimus respectu omnium
+          <lb ed="#P" n="70"/>mediorum, sive proximus in uno medio 
+          res<lb break="no" ed="#P" n="71"/>pectu alterius, semper esse finem 
+          supernatu<lb break="no" ed="#P" n="72"/>ralem. Unde licet in homine fit, non tamen est
+          <lb ed="#P" n="73"/>principaliter ab ipso homine, sed a divina 
+          gra<lb break="no" ed="#P" n="74"/>tia, et proprie non causat finaliter, ut fit ab
+          <lb ed="#P" n="75"/>homine: nam ut sic potius habet rationem 
+          ef<lb break="no" ed="#P" n="76"/>fectus, sed ut est a Deo intentus per 
+          dilectio<lb break="no" ed="#P" n="77"/>nem aliquam naturae non debitam, sed ex mera
+          <lb ed="#P" n="78"/>gratuita voluntate Dei. Quod maxime verum
+          <lb ed="#P" n="79"/>habet in praedestinatis, respectu quorum tahs
+          <lb ed="#P" n="80"/>intentio est absoluta et efficax, ut diximus: et
+          <lb ed="#P" n="81"/>ideo ex vi hujus causalitatis finalis, non habet
+          <lb ed="#P" n="82"/>praedestinatio fundamentum seu originem in
+          <lb ed="#P" n="83"/>homine, sed in Deo.
+        </p>
+        <p xml:id="szduep-081864-d1e695">
+          <lb ed="#P" n="84"/>10. Et haec sufficiunt de his causis physicis:
+          <lb ed="#P" n="85"/>nam de formali nihil addere necesse est, quia
+          <lb ed="#P" n="86"/>hi etfectus praedestinationis, qui in ipso 
+          prae<lb break="no" ed="#P" n="87"/>destinato intrinsece recipiuntur, sunt quaedam
+          <lb ed="#P" n="88"/>formae vel actus animae, vel potentiarum ejus,
+          <lb ed="#P" n="89"/>et ideo non requirunt proprie alias formas 
+          phy<lb break="no" ed="#P" n="90"/>sicas, nam ipsi sunt formae ornantes et 
+          forma<lb break="no" ed="#P" n="91"/>liter perficientes hominem. Interdum vero unus
+          <lb ed="#P" n="92"/>praedestinationis effectus secundum aliquam
+          <lb ed="#P" n="93"/>moralem considerationem, et quasi per 
+          meta<lb break="no" ed="#P" n="94"/>phoram dicitur forma aliorum, ut charitas 
+          di<lb break="no" ed="#P" n="95"/>citur forma fidei et aliarum virtutum, et 
+          in<lb break="no" ed="#P" n="96"/>tentio finis est quodam modo forma electionis:
+          <lb ed="#P" n="97"/>quae locutiones ad praesentem controversiam
+          <lb ed="#P" n="98"/>non referunt. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

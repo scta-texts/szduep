@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="676"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-170946"><!-- t3-l6c2 -->
+        <head xml:id="szduep-170946-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-170946-Hd1e103" type="question-title">Tractatur, et expeditur difficultas circa origines activas</head>
+        <p xml:id="szduep-170946-d1e106">
+          <lb ed="#P" n="5"/>CAPUT II
+          <lb ed="#P" n="6"/>TRACTATUR, ET EXPEDITUR DIFFICULTAS CIRCA
+          <lb ed="#P" n="7"/>ORIGINES ACTIVAS.
+        </p>
+        <p xml:id="szduep-170946-d1e115">
+          <lb ed="#P" n="8"/>1. Prima difficultas. — Circa propositam
+          <lb ed="#P" n="9"/>sententiam de adaequata identitate inter 
+          rela<lb break="no" ed="#P" n="10"/>tionem principii et originem activam nonnullae
+          <lb ed="#P" n="11"/>difficultates sunt, quas expendere necesse est,
+          <lb ed="#P" n="12"/>ut resolutio melius intelligatur. Prima est,
+          <lb ed="#P" n="13"/>quia in creaturis actio et passio non 
+          distin<lb break="no" ed="#P" n="14"/>guuntur a termino producto et consequenter,
+          <lb ed="#P" n="15"/>nec inter se (realiter loquimur), quia fieri 
+          ip<lb break="no" ed="#P" n="16"/>sius termini duplicem habet respectum, unum
+          <lb ed="#P" n="17"/>ad terminum, in quem tendit et sic vocatur
+          <lb ed="#P" n="18"/>passio, seu fieri passivum, alium ad 
+          princi<lb break="no" ed="#P" n="19"/>pium, a quo egreditur et si vocatur actio, ergo
+          <lb ed="#P" n="20"/>eadem proportione in divinis eadem via ad
+          <lb ed="#P" n="21"/>Filium habet utrumque respectum: ergo 
+          ea<lb break="no" ed="#P" n="22"/>dem, ut tendit ad terminum, erit nativitas et
+          <lb ed="#P" n="23"/>ut est a principio, erit generatio. Ac proinde
+          <lb ed="#P" n="24"/>generatio non erit idem adaequate cum 
+          Pater<lb break="no" ed="#P" n="25"/>nitate, sed potius cum Filiatione, cum qua
+          <lb ed="#P" n="26"/>nativitas identificatur. Probatur consequentia:
+          <lb ed="#P" n="27"/>tum a paritate rationis, tum quia nos non 
+          ac<lb break="no" ed="#P" n="28"/>commodamus modum hunc concipiendi ad 
+          di<lb break="no" ed="#P" n="29"/>vina, nisi ex creaturis et servando illam 
+          pro<lb break="no" ed="#P" n="30"/>portionem, nullam Deo tribumus 
+          imperfec<lb break="no" ed="#P" n="31"/>tionem.
+        </p>
+        <p xml:id="szduep-170946-d1e170">
+          <lb ed="#P" n="32"/>2. Secunda difficultas. — Respondebitur
+          <lb ed="#P" n="33"/>(juxta rationem tactam ex divo Thoma) in
+          <lb ed="#P" n="34"/>creaturis id esse propter unam mutationem,
+          <lb ed="#P" n="35"/>quae utramque fundat relationem. Sed contra
+          <lb ed="#P" n="36"/>hoc argumentorsecundo, quia in creatione non
+          <lb ed="#P" n="37"/>est mutatio propria, et nihilominus eadem via,
+          <lb ed="#P" n="38"/>secundum diversos respectus dictos ad 
+          princi<lb break="no" ed="#P" n="39"/>pium vel terminum, est creatio activa et 
+          pas<lb break="no" ed="#P" n="40"/>siva, quae realiter identificatur cum termino,
+          <lb ed="#P" n="41"/>ergo etiam seclusa mutatione manet illa 
+          iden<lb break="no" ed="#P" n="42"/>titas. Scio Thomistas ob hanc causam non 
+          ad<lb break="no" ed="#P" n="43"/>mittere in creatione actionpem ex parte 
+          crea<lb break="no" ed="#P" n="44"/>turae, sed solam relationem ; tamen illam 
+          sen<lb break="no" ed="#P" n="45"/>tentiam falsam esse probavi late in 
+          Metaphy<lb break="no" ed="#P" n="46"/>sica. Quia in creatura est dependentia realis a
+          <lb ed="#P" n="47"/>creatore. Et quia eadem res potest variis 
+          actio<lb break="no" ed="#P" n="48"/>nibus creari. Ac denique quia actus intellectus
+          <lb ed="#P" n="49"/>vel voluntatis divinae non potest esse actio seu
+          <lb ed="#P" n="50"/>principium creandi. Unde aliqui respondent,
+          <lb ed="#P" n="51"/>in creatore id verum esse, quia relatio 
+          creato<lb break="no" ed="#P" n="52"/>ris non est realis, nam si talis esset, inquiunt,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ipsa esset sufficiens actio creativa, in praesenti
+          <lb ed="#P" n="54"/>autem relatio generantis est realis. Sed hoc non
+          <lb ed="#P" n="55"/>recte dicitur, quia quod relatio creatoris sit
+          <lb ed="#P" n="56"/>realis vel rationis, est quasi accidentarium ipsi
+          <lb ed="#P" n="57"/>productioni, solum enim provenit ex Dei 
+          emi<lb break="no" ed="#P" n="58"/>nentia, quia incapax est talis relationis 
+          acci<lb break="no" ed="#P" n="59"/>dentalis. Unde, si per impossibile fingeremus
+          <lb ed="#P" n="60"/>illam relationem esse realem, nihilominus 
+          de<lb break="no" ed="#P" n="61"/>pendentia creaturae eadem et ejusdem rationis
+          <lb ed="#P" n="62"/>esset: ergo eamdem rationem actionis haberet.
+          <lb ed="#P" n="63"/>Quod etiam manifeste convincitur, quia talis
+          <lb ed="#P" n="64"/>relatio est posterior actione et ex illa resultans:
+          <lb ed="#P" n="65"/>ergo quamvis relatio esset realis, non tolleretur
+          <lb ed="#P" n="66"/>actio quae ad illam sequitur.
+        </p>
+        <p xml:id="szduep-170946-d1e252">
+          <lb ed="#P" n="67"/>3. Tertia difficultas. — Melus posset 
+          respon<lb break="no" ed="#P" n="68"/>deri, quamvis in creatione non interveniat 
+          mu<lb break="no" ed="#P" n="69"/>tatio ex defectu subjecti, intervenire saltem 
+          ve<lb break="no" ed="#P" n="70"/>ram dependentiam, in qua possit illa duplex
+          <lb ed="#P" n="71"/>ratio activae et passivae originis fundari, in 
+          di<lb break="no" ed="#P" n="72"/>vinis vero nec dependentiam esse, et ideo non
+          <lb ed="#P" n="73"/>esse eamdem rationem. Sed contra hoc insto
+          <lb ed="#P" n="74"/>tertio, quia licet non sit dependentia secundum
+          <lb ed="#P" n="75"/>rem, tamen secundum rationem concipitur,
+          <lb ed="#P" n="76"/>per proportionem ad illam tanquam via. Unde
+          <lb ed="#P" n="77"/>Joannes Theologus in Concilio Florentino, 
+          ses<lb break="no" ed="#P" n="78"/>sione 18, dicit: Processionem in Deo esse viam
+          <lb ed="#P" n="79"/>ab uno in aliud. Marcus autem Graecus 
+          respon<lb break="no" ed="#P" n="80"/>det: Esse emanationem Spiritus sancti. In quo
+          <lb ed="#P" n="81"/>non dicunt opposita, sed utuntur processionis
+          <lb ed="#P" n="82"/>iomine in diversa significatione: nam interdum
+          <lb ed="#P" n="83"/>suinitur quasi generice, et sic loquitur Joannes,
+          <lb ed="#P" n="84"/>interdum vero specifice accommodatur 
+          spira<lb break="no" ed="#P" n="85"/>uoni, et ita loquitur Marcus. Semper igitur
+          <lb ed="#P" n="86"/>origo concipitur, ut via quaedam, ut etiam 
+          fa<lb break="no" ed="#P" n="87"/>tetur D. Thomas, 1 part., quaest. 40, art. 2, et
+          <lb ed="#P" n="88"/>sequentibus. Ergo hoc satis est, ut in illa via
+          <lb ed="#P" n="89"/>duplicem illum respectum debeamus concipere,
+          <lb ed="#P" n="90"/>scilicet, a principio et ad terminum, ut ibidem
+          <lb ed="#P" n="91"/>D. Thomas fatetur. Ergo haec una via, ut est a
+          <lb ed="#P" n="92"/>principio, est origo activa et ut ad terminum
+          <lb ed="#P" n="93"/>passiva, tota vero identificatur cum termino
+          <lb ed="#P" n="94"/>producto, secundum rem.
+        </p>
+        <p xml:id="szduep-170946-d1e315">
+          <lb ed="#P" n="95"/>4. Quarta difficultas.— Quarto argumentor
+          <lb ed="#P" n="96"/>ex eodem D. Thoma, dicta quaest. 40, dicente:
+          <lb ed="#P" n="97"/>Origo significatur ut via a re vel ad rem, et
+          <lb ed="#P" n="98"/>generatio significatur ut via progrediens a. 
+          ge<lb break="no" ed="#P" n="99"/>nerante - ergo in suo conceptu includit 
+          distinc<lb break="no" ed="#P" n="100"/>tionem realem a generante, per quamdam 
+          op<lb break="no" ed="#P" n="101"/>positionem originis. Quia non solus terminus,
+          <lb ed="#P" n="102"/>sed etiam ipsa origo habet hanc oppositionem,
+          <lb ed="#P" n="103"/>quae in hoc solum consistit, quod est esse ab
+          <lb ed="#P" n="104"/>alio, ergo non potest identificari cum propria
+          <lb ed="#P" n="105"/>relatione persona producentis. Confirmatur
+          <lb ed="#P" n="106"/>explicando quomodo verum sit, actionem et
+          <lb ed="#P" n="107"/>passionem dicere eamdem viam cum duplici
+          <pb ed="#P" n="677"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>respectu. Non enim intelligendum videtur, ut
+          <lb ed="#P" n="2"/>alii auctores significant de respectu causae et
+          <lb ed="#P" n="3"/>effectus, ita ut actio involvat relationem causee,
+          <lb ed="#P" n="4"/>passio relationem effectus, sed potius 
+          intelligen<lb break="no" ed="#P" n="5"/>dum est de duplici habitudine, quam ipsamet
+          <lb ed="#P" n="6"/>mutatio seu via in se intrinsece includit, ad
+          <lb ed="#P" n="7"/>principium et ad terminum, ut motus localis,
+          <lb ed="#P" n="8"/>verbi gratia, est a virtute movente et ad ubi.
+          <lb ed="#P" n="9"/>Et ideo nunquam videtur posse concipi, quod
+          <lb ed="#P" n="10"/>relatio, quae in causa vel principio agendi 
+          re<lb break="no" ed="#P" n="11"/>sultat aut existit intrinsece, habeat rationem
+          <lb ed="#P" n="12"/>actionis, quia actio ut sic, potius respicit ipsum
+          <lb ed="#P" n="13"/>principium, tanquam egrediens ab illo. Unde
+          <lb ed="#P" n="14"/>potest etiam notari alia differentia, quod via
+          <lb ed="#P" n="15"/>comparatur ad agens tanquam quid 
+          extrinse<lb break="no" ed="#P" n="16"/>cum vel distinctum in re, quia ab ilio egreditur,
+          <lb ed="#P" n="17"/>ad terminum autem tanquam ad ahquid 
+          in<lb break="no" ed="#P" n="18"/>trinsecum, in quo manet, et ideo non ita 
+          ne<lb break="no" ed="#P" n="19"/>cesse est, viam ipsam ut actionem a termino
+          <lb ed="#P" n="20"/>distingui.
+        </p>
+        <p xml:id="szduep-170946-d1e393">
+          <lb ed="#P" n="21"/>5. Quinta difficultas.—BAtque hinc sumitur
+          <lb ed="#P" n="22"/>nova ratio, quia actio ut actio non recte 
+          con<lb break="no" ed="#P" n="23"/>cipitur, ut realiter distincta a termino 
+          produc<lb break="no" ed="#P" n="24"/>to, ut inductione patet in omnibus aliis 
+          actio<lb break="no" ed="#P" n="25"/>nibus : ergo neque origo activa a suo termino
+          <lb ed="#P" n="26"/>distincta est : ergo non est adaequate idem cum
+          <lb ed="#P" n="27"/>relatione producentis. Item e converso, cum 
+          ac<lb break="no" ed="#P" n="28"/>tio procedat a supposito, non videtur posse esse
+          <lb ed="#P" n="29"/>idem adaequate cum forma constituente 
+          ipsum<lb break="no" ed="#P" n="30"/>met suppositum. Tandem confirmantur haec
+          <lb ed="#P" n="31"/>omnia in spiratione activa, quae, quatenus 
+          re<lb break="no" ed="#P" n="32"/>latio est, seu proprietas communis Patri et 
+          Fi<lb break="no" ed="#P" n="33"/>lio, subsequitur productionem Spiritus sancti:
+          <lb ed="#P" n="34"/>ergo non est talis productio illamet relatio, 
+          a<lb break="no" ed="#P" n="35"/>lioqui supponeret illam.
+        </p>
+        <p xml:id="szduep-170946-d1e428">
+          <lb ed="#P" n="36"/>6. Alius dicendi modus proponitur.—
+          Prop<lb break="no" ed="#P" n="37"/>ter haec ergo posset excogitari alius dicendi
+          <lb ed="#P" n="38"/>modus nimirum, Generationem activam 
+          reali<lb break="no" ed="#P" n="39"/>ter esse idem cum Filiatione, sicut in creaturis
+          <lb ed="#P" n="40"/>generatio est idem realiter cum persona 
+          pro<lb break="no" ed="#P" n="41"/>ducta, et consequenter generationem et 
+          nativi<lb break="no" ed="#P" n="42"/>tatem non esse res distinctas, sed eamdem 
+          Fi<lb break="no" ed="#P" n="43"/>liationem, quatenus in via concipitur, prout
+          <lb ed="#P" n="44"/>egrediens a Patre, essc generationem et 
+          dis<lb break="no" ed="#P" n="45"/>tingui realiter a Patre, quia ab illo realiter
+          <lb ed="#P" n="46"/>fluit, ut vero tendit ad Filium esse nativitatem.
+          <lb ed="#P" n="47"/>Ac subinde generationem et nativitatem inter
+          <lb ed="#P" n="48"/>se non distingui, quia non habent 
+          oppositio<lb break="no" ed="#P" n="49"/>nem, cum eadem via sit capax illius duplicis
+          <lb ed="#P" n="50"/>habitudinis: Eademque proportione 
+          sentien<lb break="no" ed="#P" n="51"/>dum esse de origine Spiritus sancti. Unde 
+          e<lb break="no" ed="#P" n="52"/>tiam D. Thomas, q. 2, de Potentia, art. 5, ad
+          <lb ed="#P" n="53"/>ultim., in hoc sensu dixisse videtur: Generatio
+          <lb ed="#P" n="54"/>Filii significat relationem per modum actionis,
+          <lb ed="#P" n="55"/>Filius per modum subsistensis hypostasis. Ne-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>que huic sententiae obstat, quod Pater dicatur
+          <lb ed="#P" n="57"/>distingui a Filio per generationem : quia non
+          <lb ed="#P" n="58"/>intelligitur distingui per i'am tanquam per
+          <lb ed="#P" n="59"/>formam intrinsecam et constituentem, sed 
+          tan<lb break="no" ed="#P" n="60"/>quam per viam quasi extrinsecam, quae est ab
+          <lb ed="#P" n="61"/>ipso, quo modo etiam inter homines Pater 
+          di<lb break="no" ed="#P" n="62"/>citur distingui a Filio generatione. 
+          Consequen<lb break="no" ed="#P" n="63"/>ter etiam ad hanc sententiam dicendum est,
+          <lb ed="#P" n="64"/>generationem et originem actualem Spiritus
+          <lb ed="#P" n="65"/>sancti : distingui inter se realiter, quod 
+          signi<lb break="no" ed="#P" n="66"/>ficat Richardus, in 1, d. 13, art. 1, quaestione
+          <lb ed="#P" n="67"/>tertia. Neque id est inconveniens, quia 
+          produc<lb break="no" ed="#P" n="68"/>tio Spiritus sancti manat a generatione Filii
+          <lb ed="#P" n="69"/>mediante termino ejus, quod satis videtur, ut
+          <lb ed="#P" n="70"/>distinguantur.
+        </p>
+        <p xml:id="szduep-170946-d1e509">
+          <lb ed="#P" n="71"/>7. In hac sententia sic declarata nihil 
+          inve<lb break="no" ed="#P" n="72"/>nio erroris aut temeritatis, quia nihil habet,
+          <lb ed="#P" n="73"/>quod repugnet mysterio, et cum res haec solum
+          <lb ed="#P" n="74"/>videatur pertinere ad modum concipiendi 
+          nos<lb break="no" ed="#P" n="75"/>trum, satis commode videtur illum explicare.
+          <lb ed="#P" n="76"/>Nihilominus vel ob hanc ipsam causam non
+          <lb ed="#P" n="77"/>videtur recedendum a communi theologorum
+          <lb ed="#P" n="78"/>sententia: quia non est verisimile,omnes inepte
+          <lb ed="#P" n="79"/>concepisse, aut declarasse hoc mysterium, nec
+          <lb ed="#P" n="80"/>sine causa fuisse ita locutos. Dicendum ergo est,
+          <lb ed="#P" n="81"/>in hoc negotio non esse aequiparandam 
+          origi<lb break="no" ed="#P" n="82"/>nem activam actioni creaturam, cujus rei 
+          ra<lb break="no" ed="#P" n="83"/>tionem multiphciter declaro. Primo, quia 
+          ac<lb break="no" ed="#P" n="84"/>tio creata in re ipsa mediat inter principium,
+          <lb ed="#P" n="85"/>et terminum, et ideo eademmet sub illa duplici
+          <lb ed="#P" n="86"/>habitudine concipi potest, hic autem in re 
+          ip<lb break="no" ed="#P" n="87"/>sa nihil mediat inter personam producentem et
+          <lb ed="#P" n="88"/>productam, et ideo non concipitur illa duplex
+          <lb ed="#P" n="89"/>habitudo, ut conveniens alicui viae, vel 
+          notio<lb break="no" ed="#P" n="90"/>ni : sed solum ut conveniens ipsis personis 
+          se<lb break="no" ed="#P" n="91"/>cundum diversas relationes. Secundo 
+          explica<lb break="no" ed="#P" n="92"/>tur hoc amplius, quia loco illius dependentiae,
+          <lb ed="#P" n="93"/>quae in re creata esse solet inter terminum, et
+          <lb ed="#P" n="94"/>principium, est in divinis personis unus et icem
+          <lb ed="#P" n="95"/>actus intelligendi, aut amandi, qui ex parte
+          <lb ed="#P" n="96"/>principii est ratio producendi et ex parte 
+          ter<lb break="no" ed="#P" n="97"/>mini est ratio recipiendi, seu formalis 
+          termi<lb break="no" ed="#P" n="98"/>nus productionis, et ideo habitudines, quae in
+          <lb ed="#P" n="99"/>re creata solent comitari dictam dependentiam
+          <lb ed="#P" n="100"/>in hoc mysterio non sunt aliae quam relationes
+          <lb ed="#P" n="101"/>producentis, et producti : ergo illae etiam sunt,
+          <lb ed="#P" n="102"/>quae debent concipi per modum originis 
+          acti<lb break="no" ed="#P" n="103"/>vae et passivae.
+        </p>
+        <p xml:id="szduep-170946-d1e583">
+          <lb ed="#P" n="104"/>8. Defenditur commanis sententia. — Tertio
+          <lb ed="#P" n="105"/>est notanda ratio, quia ad intelligendam 
+          ema<lb break="no" ed="#P" n="106"/>nationem realem unius personaeab alia, necesse
+          <lb ed="#P" n="107"/>est, ut etiam inteliigamus realem influxum
+          <lb ed="#P" n="108"/>personae producentis in productum, quem 
+          in<lb break="no" ed="#P" n="109"/>fluxum actionem appellamus. fc autem 
+          in<lb break="no" ed="#P" n="110"/>fluxus realis non potest intelligi in formah
+          <pb ed="#P" n="678"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>principio, quo una persona aliam producit ,
+          <lb ed="#P" n="2"/>ergo debet intelligi, quod sit ipsamet 
+          proprie<lb break="no" ed="#P" n="3"/>tas personae producentis. Major ex terminis
+          <lb ed="#P" n="4"/>videtur nota, quia sine reah influxu non 
+          con<lb break="no" ed="#P" n="5"/>cipimus processionem realem. Minor vero 
+          pro<lb break="no" ed="#P" n="6"/>batur ex differentia inter emanationes divinas
+          <lb ed="#P" n="7"/>et creatas. Nam in creaturis actio in re ipsa
+          <lb ed="#P" n="8"/>distinguitur non solum a principio quod, sed
+          <lb ed="#P" n="9"/>etiam a principio quo agendi, nam ab illo
+          <lb ed="#P" n="10"/>realiter fluit : In Deo autem hoc dici non potest,
+          <lb ed="#P" n="11"/>quia illud principium quo est essentia, ut 
+          in<lb break="no" ed="#P" n="12"/>fra dicam, a qua nihil in re ipsa distinguitur,
+          <lb ed="#P" n="13"/>ergo non possumus concipere in Deo originem
+          <lb ed="#P" n="14"/>activam, ut realiter fluentem a principio quo
+          <lb ed="#P" n="15"/>agendi, sed ratione tantum. Aliunde vero, 
+          ip<lb break="no" ed="#P" n="16"/>sum etiam principium quo producendi in Deo
+          <lb ed="#P" n="17"/>non est quid distinctum a termino producto,
+          <lb ed="#P" n="18"/>quod est etiam singulare in Deo. Ob quam 
+          cau<lb break="no" ed="#P" n="19"/>sam non possumus etiam concipere illud 
+          prin<lb break="no" ed="#P" n="20"/>cipium quo, ut realiter et quasi active influens
+          <lb ed="#P" n="21"/>in personam productam, cum sit intrinseca et
+          <lb ed="#P" n="22"/>essentialis forma ejus, ergo, ut intelligatur ibi
+          <lb ed="#P" n="23"/>realis influxus, recte concipitur ipsa actio 
+          pro<lb break="no" ed="#P" n="24"/>ductiva, ut distincta a termino adaequato in re
+          <lb ed="#P" n="25"/>ipsa, et consequenter idem in re cum principio.
+          <lb ed="#P" n="26"/>Sic enim intelligimus ex parte illius influsum
+          <lb ed="#P" n="27"/>realem in rem productam, qui non posset 
+          sa<lb break="no" ed="#P" n="28"/>tis intelligi, si nec principium quo, neque actio
+          <lb ed="#P" n="29"/>ipsa distingueretur in re ipsa a termino 
+          pro<lb break="no" ed="#P" n="30"/>ducto. Et hoc existimo maxime movisse 
+          theo<lb break="no" ed="#P" n="31"/>logos, quorum sententia sic declarata facilis
+          <lb ed="#P" n="32"/>est, nam rationes dubitandi ex dicto 
+          fundamen<lb break="no" ed="#P" n="33"/>to sunt solutae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

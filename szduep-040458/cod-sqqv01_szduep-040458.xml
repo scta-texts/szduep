@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="159"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-040458"><!-- t1-l2c26 -->
+        <head xml:id="szduep-040458-Hd1e101">Caput 26</head>
+        <head xml:id="szduep-040458-Hd1e103" type="question-title">An, viso deo, necessarium sit videri creaturas, saltem ut possibiles</head>
+        <p xml:id="szduep-040458-d1e106">
+          <lb ed="#P" n="4"/>CAPUT XXVI.
+          <lb ed="#P" n="5"/>AN, VISO DEO, NECESSARIUM SIT VIDERI CREATURAS,
+          <lb ed="#P" n="6"/>SALTEM UT POSSIBILES.
+        </p>
+        <p xml:id="szduep-040458-d1e115">
+          <lb ed="#P" n="7"/>1. Ratio dubitandi .—Una ex praecipuis 
+          diffi<lb break="no" ed="#P" n="8"/>cultatibus quae ab incommodis objici solet 
+          con<lb break="no" ed="#P" n="9"/>tra resolutionem superioris capitis, est, quia ex
+          <lb ed="#P" n="10"/>illa sequitur, visa divina essentia, necessario
+          <lb ed="#P" n="11"/>videri omnia quae a Deo fieri possunt, quia 
+          om<lb break="no" ed="#P" n="12"/>nia illa necessario repraesentari possunt per 
+          es<lb break="no" ed="#P" n="13"/>sentiam Dei, ergo etiam necessario 
+          repraesen<lb break="no" ed="#P" n="14"/>tantur; tum quia non est major ratio de 
+          qui<lb break="no" ed="#P" n="15"/>busdam quam de aliis; tum etiam quia 
+          reprae<lb break="no" ed="#P" n="16"/>sentatio rerum possibilium in sua causa, si
+          <lb ed="#P" n="17"/>possibilis est, profecto naturalis et necessaria
+          <lb ed="#P" n="18"/>est. At si hoc concedatur, sequitur ulterius 
+          vi<lb break="no" ed="#P" n="19"/>sionem Dei esse comprehensionem Dei, quia per
+          <lb ed="#P" n="20"/>illam videtur quidquid in Deo est, vel formaliter,
+          <lb ed="#P" n="21"/>vel eminenter.
+        </p>
+        <p xml:id="szduep-040458-d1e150">
+          <lb ed="#P" n="22"/>2. Prima sententia. — In hac re prima 
+          sen<lb break="no" ed="#P" n="23"/>tentia est affirmans necessarium esse ex vi 
+          vi<lb break="no" ed="#P" n="24"/>sionis Dei videre omnes creaturas possibiles,
+          <lb ed="#P" n="25"/>saltem secundum esse essentiae vel possibile. Ita
+          <lb ed="#P" n="26"/>Godfredus, quodlib. 6, quaest. 3. Et eamdem
+          <lb ed="#P" n="27"/>sententiam tenet Bassolisius, quaest. 4 Prologi,
+          <lb ed="#P" n="28"/>art. 3, latius Durandus in 3, distinct. 14, q. 2
+          <lb ed="#P" n="29"/>et in 4, d. 49, quaest. 3, qui differentiam in hoc
+          <lb ed="#P" n="30"/>constituunt inter creaturas possibiles et 
+          futu<lb break="no" ed="#P" n="31"/>ras; nam sub priori ratione dicunt necessario
+          <lb ed="#P" n="32"/>videri visa divina essentia: non tamen sub 
+          pos<lb break="no" ed="#P" n="33"/>teriori ratione. Et rationem differentiae 
+          red<lb break="no" ed="#P" n="34"/>dunt, quia ut possibiles, necessario 
+          repraesen<lb break="no" ed="#P" n="35"/>tantur per esssentiam, ut futurae vero libere.
+          <lb ed="#P" n="36"/>Quae ratio, ne in ea petatur principium, ita
+          <lb ed="#P" n="37"/>videtur intelligenda, quod creaturae ut 
+          possi<lb break="no" ed="#P" n="38"/>biles necessario continentur in Deo eminenter,
+          <lb ed="#P" n="39"/>et divina omnipotentia habet cum illis 
+          neces<lb break="no" ed="#P" n="40"/>sariam connexionem , creaturae vero ut 
+          ali<lb break="no" ed="#P" n="41"/>quando futurae pendent ex libera Dei voluntate
+          <lb ed="#P" n="42"/>quae non necessario videtur, viso Deo. Et in hoc
+          <lb ed="#P" n="43"/>sensu videtur differentia satis apparens; sed de
+          <lb ed="#P" n="44"/>posteriori parte dicemus capite sequenti: nunc
+          <lb ed="#P" n="45"/>solam priorem tractemus.
+        </p>
+        <p xml:id="szduep-040458-d1e206">
+          <lb ed="#P" n="46"/>3. Addit vero Durandus limitationem qua
+          <lb ed="#P" n="47"/>suam sententiam destruit, et in eamdem incidit
+          <lb ed="#P" n="48"/>difficultatem. Ait enim ex natura visionis Dei
+          <lb ed="#P" n="49"/>necessario sequi, ut videantur omnes creaturae
+          <lb ed="#P" n="50"/>possibiles in Verbo, tamen de potentia absoluta
+          <lb ed="#P" n="51"/>posse haec impediri et fieri ut maneat visio Dei
+          <lb ed="#P" n="52"/>ut sic, non manifestans creaturas. Quod quidem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>non est consequenter dictum, quia si visio illa
+          <lb ed="#P" n="54"/>manifestat creaturas in Verbo, id facit per se
+          <lb ed="#P" n="55"/>ipsam formaliter actuando intellectum , vel
+          <lb ed="#P" n="56"/>ergo manet integra illa visio secundum totam
+          <lb ed="#P" n="57"/>suam entitatem, per quam est repraesentativa
+          <lb ed="#P" n="58"/>creaturarum vel non: si primum, ergo 
+          impos<lb break="no" ed="#P" n="59"/>sibile est visionem illam actuare intellectum
+          <lb ed="#P" n="60"/>et impediri ab ea manifestatione, quia non 
+          po<lb break="no" ed="#P" n="61"/>test impediri effectus formalis tormae, manente
+          <lb ed="#P" n="62"/>integra forma unita subjecto: si secundum 
+          di<lb break="no" ed="#P" n="63"/>cat, superest illi explicandum quomodo sit 
+          di<lb break="no" ed="#P" n="64"/>minuta illa entitas visionis, seu quid addat una
+          <lb ed="#P" n="65"/>visio super aliam. Item quomodo videatur Deus
+          <lb ed="#P" n="66"/>sine creaturis quae inipso continentur. Ac 
+          deni<lb break="no" ed="#P" n="67"/>que falsum simphliciter erit dicere per visionem
+          <lb ed="#P" n="68"/>Dei, ut sic, necessario videri creaturas, quia haec
+          <lb ed="#P" n="69"/>necessitas non sequitur nisi ex tali, seu tanta
+          <lb ed="#P" n="70"/>visione, non autem ex praecisa ratione visionis.
+        </p>
+        <p xml:id="szduep-040458-d1e265">
+          <lb ed="#P" n="71"/>4. Secunda sententia Scoti.— Aliter Scotus
+          <lb ed="#P" n="72"/>in 3,d. 14, q. 2, limitat hancsententiam dicens,
+          <lb ed="#P" n="73"/>per illam visionem non videri omnia possibilia
+          <lb ed="#P" n="74"/>in actu secundo, imo nec posse videri, quia ad
+          <lb ed="#P" n="75"/>hoc esset necessaria infinita attentio: dicit 
+          ta<lb break="no" ed="#P" n="76"/>men videri omnia in actu primo, quia illa visio
+          <lb ed="#P" n="77"/>sufficiens est ut per eam quaecumque creaturae
+          <lb ed="#P" n="78"/>possibiles videantur, non quidem omnes simul,
+          <lb ed="#P" n="79"/>sed nunc istae, nunc illae, prout voluerit beatus
+          <lb ed="#P" n="80"/>attendere. Nec vero Scotus omnibus beatis 
+          con<lb break="no" ed="#P" n="81"/>cedit hanc liberam facultatem videndi omnia
+          <lb ed="#P" n="82"/>etiam divisive seu successive, sed specialiter
+          <lb ed="#P" n="83"/>animae Christi: de aliis vero ait habere certum
+          <lb ed="#P" n="84"/>terminum seu limitationem, juxta modum 
+          bea<lb break="no" ed="#P" n="85"/>titudinis uniuscujusque. Atque hanc ipsam 
+          h<lb break="no" ed="#P" n="86"/>mitationem ponit ex providentia Dei, non quia
+          <lb ed="#P" n="87"/>quaelibet de se non sit ad omnia sufficiens in
+          <lb ed="#P" n="88"/>actu primo.
+        </p>
+        <p xml:id="szduep-040458-d1e307">
+          <lb ed="#P" n="89"/>5. Haec sententia eependitur.— Haec opinio,
+          <lb ed="#P" n="90"/>si loqueretur de lumine gloriae, posset habere
+          <lb ed="#P" n="91"/>aliquam probabilttatem ; tamen de ipsa visione
+          <lb ed="#P" n="92"/>mihi videtur improbabilis. Quia illa 
+          essentiali<lb break="no" ed="#P" n="93"/>ter est actus secundus et non manifestat 
+          objec<lb break="no" ed="#P" n="94"/>tum efticiendo, sed informando, et ideo 
+          repug<lb break="no" ed="#P" n="95"/>nat quod de se sit manifestativa alicujus, quod
+          <lb ed="#P" n="96"/>non semper manifestat quamdiu intellectum
+          <lb ed="#P" n="97"/>actuet. Repugnat etiam ut nunc manifestet rem
+          <lb ed="#P" n="98"/>unam, postea aliam, propter variam 
+          attentio<lb break="no" ed="#P" n="99"/>nem etsine mutatione in ipsa visione, quia illa
+          <lb ed="#P" n="100"/>attentio nihil aliud est, neque esse potest quam
+          <lb ed="#P" n="101"/>effectio ipsius visionis, vel circa visionem : si
+          <lb ed="#P" n="102"/>ergo mutatur attentio, mutatur effectio et 
+          con<lb break="no" ed="#P" n="103"/>sequenter fit etiam aliqua mutatio in ipsa 
+          vi<lb break="no" ed="#P" n="104"/>sione. Quia non mutatur effectio per solam
+          <lb ed="#P" n="105"/>conservationem diversam ejusdem termini, sed
+          <lb ed="#P" n="106"/>mutatur effectio in ordine ad diversum 
+          forma<lb break="no" ed="#P" n="107"/>lem effectum formae factae. Alia contra hanc
+          <pb ed="#P" n="160"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sententiam videri possunt in 1 tom., 3 p., disp.
+          <lb ed="#P" n="2"/>26. sect. 2, et infra cap. 29, hoc ipsum 
+          confir<lb break="no" ed="#P" n="3"/>mabimus.
+        </p>
+        <p xml:id="szduep-040458-d1e362">
+          <lb ed="#P" n="4"/>6. Tertia sententia Henrici.— Tertia opinio
+          <lb ed="#P" n="5"/>est Henrici, quodlib. 7, quaest. 4 et 5, ubi 
+          dis<lb break="no" ed="#P" n="6"/>tinguit de visione essentiae divina, ut essentia
+          <lb ed="#P" n="7"/>absoluta est, vel ut idea est, et in essentia ut
+          <lb ed="#P" n="8"/>idea. Additque posse videri essentiam ut rem
+          <lb ed="#P" n="9"/>omnino absolutam praecise, non videndo illam
+          <lb ed="#P" n="10"/>ut ideam, atque hoc modo posse illam videri
+          <lb ed="#P" n="11"/>non visa ulla creatura ut possibili: de qua parte
+          <lb ed="#P" n="12"/>statim dicemus in sequenti opinione. Tamen, si
+          <lb ed="#P" n="13"/>cognoscatur divinitas ut idea, ait, necessarium
+          <lb ed="#P" n="14"/>esse, ut videantur in illa creaturae possibiles,
+          <lb ed="#P" n="15"/>quia idea dicit relationem ad rem, saltem ut
+          <lb ed="#P" n="16"/>possibilem. Addit vero Henricus hoc modo 
+          vi<lb break="no" ed="#P" n="17"/>deri necessario species rerum creabilium, visis
+          <lb ed="#P" n="18"/>ideis, non vero individua. At vero, quod visa
+          <lb ed="#P" n="19"/>divina essentia ut idea quarumdam specierum
+          <lb ed="#P" n="20"/>creabilium, necessarium sit videri ut ideam
+          <lb ed="#P" n="21"/>omnium possibilium, non aftirmat Henricus
+          <lb ed="#P" n="22"/>(licet pro hac sententia referri soleat) 
+          imosen<lb break="no" ed="#P" n="23"/>tit, nec ipsam animam Christi videre omnes
+          <lb ed="#P" n="24"/>species possibiles.
+        </p>
+        <p xml:id="szduep-040458-d1e410">
+          <lb ed="#P" n="25"/>7. Rejicitur. —In hac vero sententia 
+          im<lb break="no" ed="#P" n="26"/>primis displicet distinctio illa de essentia visa,
+          <lb ed="#P" n="27"/>ut est res absoluta, vel ut est idea, nam si est
+          <lb ed="#P" n="28"/>sermo de absoluto secundum rem , etiam idea
+          <lb ed="#P" n="29"/>est res absoluta : si de respectu rationis, etiam
+          <lb ed="#P" n="30"/>in essentia, ut est omnipotens potest 
+          conside<lb break="no" ed="#P" n="31"/>rari respectus rationis; si denique est sermo
+          <lb ed="#P" n="32"/>de respectu reali, neque idea illum dicit. Unde
+          <lb ed="#P" n="33"/>etiam displicet, quod supponit, creaturas 
+          vi<lb break="no" ed="#P" n="34"/>deri in idea, ut sic et non in essentia, ut in
+          <lb ed="#P" n="35"/>causa, quia potius videntur in illa ut in causa:
+          <lb ed="#P" n="36"/>nec ratio ideae praecise sumpta sufficeret, ut in
+          <lb ed="#P" n="37"/>capite praecedenti dixi. Tandem displicet, quod
+          <lb ed="#P" n="38"/>ait, videri species possibiles, non vero 
+          indivi<lb break="no" ed="#P" n="39"/>dua: tum quia ideae sunt individuorum, ut
+          <lb ed="#P" n="40"/>sequenti libro dicemus. Tum etiam quia in Deo
+          <lb ed="#P" n="41"/>possunt res distinctissime et perfecte cognosci,
+          <lb ed="#P" n="42"/>cognitio autem, quae usque ad individua 
+          des<lb break="no" ed="#P" n="43"/>cendit, est magis expressa et distincta.
+        </p>
+        <p xml:id="szduep-040458-d1e454">
+          <lb ed="#P" n="44"/>8. Quarta sententia. — Quarta opinio esse 
+          po<lb break="no" ed="#P" n="45"/>test, ex vivisionis essentiae divinae ut sic, 
+          nul<lb break="no" ed="#P" n="46"/>lam creaturam possibilem, nec in particulari,
+          <lb ed="#P" n="47"/>nec in communi necessario videri, sed juxta
+          <lb ed="#P" n="48"/>perfectionem visionis plures, vel pauciores 
+          re<lb break="no" ed="#P" n="49"/>praesentari et tam posse esse perfectam 
+          visio<lb break="no" ed="#P" n="50"/>nem , ut omnes repraesentet et tam 
+          imperfec<lb break="no" ed="#P" n="51"/>tam , ut nullam omnino repraesentet. In qua
+          <lb ed="#P" n="52"/>opinione prima pars ejus clara est: de qua late
+          <lb ed="#P" n="53"/>dicturi sumus ; secunda vero, scilicet per 
+          ali<lb break="no" ed="#P" n="54"/>quam perfectam visionem posse videri omnia
+          <lb ed="#P" n="55"/>possibilia, ab aliquibus probatur, quia omnes
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>species possibiles finitae sunt. Sed hoc 
+          funda<lb break="no" ed="#P" n="57"/>mentum falsum est quoad multitudinem 
+          spe<lb break="no" ed="#P" n="58"/>cierum, sed addi potest, totam illam 
+          collectio<lb break="no" ed="#P" n="59"/>nem esse finitae perfectionis; et ideo finito actu
+          <lb ed="#P" n="60"/>et lumine videri posse, ac subinde neque inde
+          <lb ed="#P" n="61"/>sequi comprehensionem divinae essentiae, 
+          ne<lb break="no" ed="#P" n="62"/>que aliam implicationem.
+        </p>
+        <p xml:id="szduep-040458-d1e501">
+          <lb ed="#P" n="63"/>9. Ultima vero pars, scilicet, posse dari 
+          mini<lb break="no" ed="#P" n="64"/>mam visionem, per quam nulla res creata, vel
+          <lb ed="#P" n="65"/>creabilis videatur , probatur primo illa 
+          ra<lb break="no" ed="#P" n="66"/>tione, quod essentia est res omnino absoluta,
+          <lb ed="#P" n="67"/>non ergo repugnabit, videri omnino 
+          abso<lb break="no" ed="#P" n="68"/>lute , sine ulla prorsus habitudine ad crea
+          <lb ed="#P" n="69"/>turas ; praesertim cum non videatur visione
+          <lb ed="#P" n="70"/>comprehensiva, sed tantum quidditativa , ad
+          <lb ed="#P" n="71"/>quam sufficit videre rei essentiam, praecise
+          <lb ed="#P" n="72"/>in illa sistendo. Secundo sic explico, quia
+          <lb ed="#P" n="73"/>potest essentia Dei videri non visis omnibus
+          <lb ed="#P" n="74"/>creaturis simul, ergo potest videri, non visa
+          <lb ed="#P" n="75"/>qualibet creatura determinate sumpta, quia
+          <lb ed="#P" n="76"/>eadem est ratio de una, ac de singulis omnibus.
+          <lb ed="#P" n="77"/>Ergo eadem ratione potest videri divina 
+          essen<lb break="no" ed="#P" n="78"/>tia, nulla creatura in particulari visa, quia
+          <lb ed="#P" n="79"/>eadem est ratio de omnibus collective, quae de
+          <lb ed="#P" n="80"/>singulis divisive ; ergo pari ratione potest 
+          vi<lb break="no" ed="#P" n="81"/>deri non visis creaturis, etiam sub conceptu
+          <lb ed="#P" n="82"/>communi et confuso. Probatur consequentia,
+          <lb ed="#P" n="83"/>quia essentia Dei non videtur confuse, sed clare,
+          <lb ed="#P" n="84"/>pronut in se est, ipsa autem essentia non 
+          conti<lb break="no" ed="#P" n="85"/>net creaturas in communi, sed continet 
+          ange<lb break="no" ed="#P" n="86"/>lum, hominem et singulas alias species in 
+          par<lb break="no" ed="#P" n="87"/>ticulari, a quibus nos abstrahimus conceptum
+          <lb ed="#P" n="88"/>communem et confusum, ergo ex visione Dei
+          <lb ed="#P" n="89"/>clara non potest sequi hic conceptus confusus
+          <lb ed="#P" n="90"/>creaturarum. Tertio, quia potest videri Deus
+          <lb ed="#P" n="91"/>non concipiendo omnipotentiam sub hoc 
+          ex<lb break="no" ed="#P" n="92"/>presso conceptu omnipotentiae, qui nostro 
+          mo<lb break="no" ed="#P" n="93"/>do intelligendi includit habitudinem ad 
+          crea<lb break="no" ed="#P" n="94"/>turas. Diximus enim supra, non esse 
+          necessa<lb break="no" ed="#P" n="95"/>rium, ut qui- videt Deum, distincte videat
+          <lb ed="#P" n="96"/>attributa, prout a nobis ratione distinguuntur,
+          <lb ed="#P" n="97"/>sed tantum per modum unius simplicissimae
+          <lb ed="#P" n="98"/>perfectionis Dei: propter quam causam non
+          <lb ed="#P" n="99"/>est necesse videre attributum misericordiae,
+          <lb ed="#P" n="100"/>vel justitiae, prout ratione distinguuntur, 
+          se<lb break="no" ed="#P" n="101"/>cundum eos proprios conceptus, qui his vocibus
+          <lb ed="#P" n="102"/>respondent, ergo eadem ratione non oportebit,
+          <lb ed="#P" n="103"/>necessario videre omnipotentiam sub hoc 
+          ex<lb break="no" ed="#P" n="104"/>presso conceptu, ergo neque cognoscere 
+          crea<lb break="no" ed="#P" n="105"/>turam, vel in particulari, vel sub aliqua 
+          ra<lb break="no" ed="#P" n="106"/>tione communi ; nam si hoc esset necessarium
+          <lb ed="#P" n="107"/>maxime propter connexionem, quam habent
+          <lb ed="#P" n="108"/>creaturae possibiles cum omnipotentia Dei.
+        </p>
+        <p xml:id="szduep-040458-d1e603">
+          <lb ed="#P" n="109"/>10. Prima conclusio. — Objectio. — 
+          Respon<lb break="no" ed="#P" n="110"/>sio. — Dico primo, non esse necessarium, ut
+          <pb ed="#P" n="161"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>qui videt Deum, videat in eo omnes creaturas
+          <lb ed="#P" n="2"/>possibiles, neque quoad individua omnia, 
+          ne<lb break="no" ed="#P" n="3"/>que quoad rationes specificas. Haec est 
+          senten<lb break="no" ed="#P" n="4"/>tia divi Thomae 1 part., quaest 12, art. 7 et 8,
+          <lb ed="#P" n="5"/>et 3 part., quaest. 10, art. 2, et lib. 3, contra
+          <lb ed="#P" n="6"/>Gentes, cap. 55 et 56, et de Veritate, qaest. 8,
+          <lb ed="#P" n="7"/>art. 4et 5, et quaest. 20, art. 5, et in 3, dist. 14,
+          <lb ed="#P" n="8"/>quaest. 2, et in 4, dist. 46, quaest. 2, et his locis,
+          <lb ed="#P" n="9"/>Paludanus, Capreolus, Cajetanus, Ferrarius,
+          <lb ed="#P" n="10"/>Sotus, Scotus et Henricus, supra citati: est
+          <lb ed="#P" n="11"/>que communior theologorum. Ratio D. Thomae
+          <lb ed="#P" n="12"/>est, quia creaturae videntur in Deo tanquam
+          <lb ed="#P" n="13"/>effectus in causa, non est autem necesse, ut
+          <lb ed="#P" n="14"/>visa causa, videantur omnes effectus in illa
+          <lb ed="#P" n="15"/>virtute contenti ; nisi causa comprehenditur,
+          <lb ed="#P" n="16"/>cum ergo beati videntes Deum, ipsum non
+          <lb ed="#P" n="17"/>comprehendant, non est necessarium, ut in eo
+          <lb ed="#P" n="18"/>videant omnes etfectus possibiles. Confirmatur,
+          <lb ed="#P" n="19"/>quia nec ratione identitatis, nec ratione 
+          con<lb break="no" ed="#P" n="20"/>nexionis hoc est necessarium, ergo nullo 
+          mo<lb break="no" ed="#P" n="21"/>do. Declaratur prior pars, quia licet creaturae
+          <lb ed="#P" n="22"/>possibiles secundum illud esse, quod in DEO
+          <lb ed="#P" n="23"/>habent, non distinguantur a DEO : tamen 
+          se<lb break="no" ed="#P" n="24"/>cundum proprias essentias, seu naturas 
+          possi<lb break="no" ed="#P" n="25"/>biles revera sunt distinctae a Deo, ergo ex
+          <lb ed="#P" n="26"/>vi identitatis non est necesse, illas omnes 
+          vi<lb break="no" ed="#P" n="27"/>deri viso Deo. Quod vero nec sit necessarium
+          <lb ed="#P" n="28"/>ex vi alicujus connexionis; probatur, quia nulla
+          <lb ed="#P" n="29"/>potest assignari, quia potest esse tam imperfecta
+          <lb ed="#P" n="30"/>visio Dei, ut possit in causa illa penetrare 
+          om<lb break="no" ed="#P" n="31"/>nes effectus ejus: ergo potest cognosci non
+          <lb ed="#P" n="32"/>cognitis in ea omnibus proprietatibus ejus et
+          <lb ed="#P" n="33"/>similiter poterit etiam videri, non cognitis 
+          om<lb break="no" ed="#P" n="34"/>nibus particularibus objectis ejus. Denique
+          <lb ed="#P" n="35"/>nulla est ratio, quae probet hanc necessitatem,
+          <lb ed="#P" n="36"/>ut patebit respondendo ad objectiones in 
+          con<lb break="no" ed="#P" n="37"/>trarium, ergo cum sit distinctio inter ipsa 
+          ob<lb break="no" ed="#P" n="38"/>Jecta, et Deus possit se magis, vel minus 
+          per<lb break="no" ed="#P" n="39"/>fectae manifestare, si ex parte objecti non est
+          <lb ed="#P" n="40"/>repugnantia, non est cur asseramus, hoc esse
+          <lb ed="#P" n="41"/>necessarium. Dicunt tamen auctores oppositae
+          <lb ed="#P" n="42"/>sententiae ex parte objecti esse repugnantiam,
+          <lb ed="#P" n="43"/>supposita nostra sententia. Asserimus enim
+          <lb ed="#P" n="44"/>posse creaturas videri in Verbo, visa essentia
+          <lb ed="#P" n="45"/>Dei, propter connexionem quamdam, quae est
+          <lb ed="#P" n="46"/>inter creaturas ut possibiles, et Deum ut 
+          omni<lb break="no" ed="#P" n="47"/>potentem, quae licet non consistat in relatione,
+          <lb ed="#P" n="48"/>consistit in continentia eminentiali unius in
+          <lb ed="#P" n="49"/>alio, et naturali dependentia creaturae, a Deo.
+          <lb ed="#P" n="50"/>At haec ratio mere necessaria est et aeque 
+          ha<lb break="no" ed="#P" n="51"/>bet locum respectu omnium creaturarum 
+          pos<lb break="no" ed="#P" n="52"/>sibilium; ergo, si quaelibet videri potest, omnes
+          <lb ed="#P" n="53"/>necessario videntur, quia eadem est necessitas
+          <lb ed="#P" n="54"/>respectu unius et alterius et omnium simul,
+          <lb ed="#P" n="55"/>quae cujuslibet per se sumptae. Ad hoc vero
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>respondemus, recte procedere, si objectum 
+          ip<lb break="no" ed="#P" n="57"/>sum primarium perfecte comprehenderetur :
+          <lb ed="#P" n="58"/>tamen cum in modo videndi sit inaequalitas,
+          <lb ed="#P" n="59"/>non esse necessarium, ut connexio illa, quae est
+          <lb ed="#P" n="60"/>inter causam et effectus exacte videatur quoad
+          <lb ed="#P" n="61"/>omnes effectus in particulari ; nam recte fieri
+          <lb ed="#P" n="62"/>potest , ut in eadem causa magis, vel minus
+          <lb ed="#P" n="63"/>visa plures, vel pauciores effectus videantur.
+          <lb ed="#P" n="64"/>Unde quod Durandus sumit de repraesentatione
+          <lb ed="#P" n="65"/>naturali omnium rerum possibilium, est 
+          quo<lb break="no" ed="#P" n="66"/>dammodo verum de repraesentatione in 
+          poten<lb break="no" ed="#P" n="67"/>tia, seu in actu primo , quia essentia de se est
+          <lb ed="#P" n="68"/>sufficiens ad omnia repraesentanda. Sed inde
+          <lb ed="#P" n="69"/>non recte infertur repraesentatio in actu 
+          secun<lb break="no" ed="#P" n="70"/>do, quia haec fit per visionem, quae non est
+          <lb ed="#P" n="71"/>adaequata illi speciei, seu causae, vel lumini.
+          <lb ed="#P" n="72"/>Unde etiam non consequenter loquitur 
+          Duran<lb break="no" ed="#P" n="73"/>dus distinguens in hoc inter creaturas ut 
+          possi<lb break="no" ed="#P" n="74"/>biles, vel ut existentes. Quia divina essentia
+          <lb ed="#P" n="75"/>utrasque repraesentat naturaliter inactu primo,
+          <lb ed="#P" n="76"/>si ipsae repraesentabiles sunt. Unde sicut non
+          <lb ed="#P" n="77"/>recte infertur, quod creaturas existentes 
+          reprae<lb break="no" ed="#P" n="78"/>sentet necessario in actu secundo: etiamsi 
+          sup<lb break="no" ed="#P" n="79"/>ponatur, illas esse futuras: ita nec de 
+          possibi<lb break="no" ed="#P" n="80"/>libus id recte infert Durandus.
+        </p>
+        <p xml:id="szduep-040458-d1e790">
+          <lb ed="#P" n="81"/>11. Objicitur secundo. — Respondetur. — Sed
+          <lb ed="#P" n="82"/>instant, hoc esse verum, quando in ipsamet
+          <lb ed="#P" n="83"/>causa aliquid novum apparet in ipsa formaliter
+          <lb ed="#P" n="84"/>existens, ratione cujus est causa novi effectus,
+          <lb ed="#P" n="85"/>qui in illa cognoscitur. Nam si objective non
+          <lb ed="#P" n="86"/>plus video in causa per unam visionem, quam
+          <lb ed="#P" n="87"/>per aliam quoad formalem perfectionem ejus,
+          <lb ed="#P" n="88"/>a qua effectus manare possunt, qui fieri potest,
+          <lb ed="#P" n="89"/>ut in illa et perillam plures, vel diversi effectus
+          <lb ed="#P" n="90"/>videantur? Respondeo necessarium non esse,
+          <lb ed="#P" n="91"/>ut illa visio, quae facit videre aliquam 
+          creatu<lb break="no" ed="#P" n="92"/>ram in essentia divina, quatenus intelligitur
+          <lb ed="#P" n="93"/>terminari ad essentiam divinam prius ratione,
+          <lb ed="#P" n="94"/>quam ad creaturas in ipsa visas, perfectionem
+          <lb ed="#P" n="95"/>aliquam formalem novam in ipsa essentia 
+          os<lb break="no" ed="#P" n="96"/>tendat, quam non ostendit alia visio, quae illam
+          <lb ed="#P" n="97"/>creaturam non manifestat : hoc enim 
+          impossi<lb break="no" ed="#P" n="98"/>bile esse, supra ostensum est ; sed suffhicit ut
+          <lb ed="#P" n="99"/>illam eamdem perfectionem meliori et 
+          expres<lb break="no" ed="#P" n="100"/>siori modo repraesentet. Quia cognitio 
+          effec<lb break="no" ed="#P" n="101"/>tus in causa non semper provenit ex nova re
+          <lb ed="#P" n="102"/>cognita in causa, sed potest provenire ex 
+          pro<lb break="no" ed="#P" n="103"/>fectiori modo concipiendi eamdem causae 
+          per<lb break="no" ed="#P" n="104"/>fectionem. Quantumcumque enim virtus causae
+          <lb ed="#P" n="105"/>in se absoluta sit, negari non potest, quin
+          <lb ed="#P" n="106"/>distinctius et clarius concipiatur, quando 
+          con<lb break="no" ed="#P" n="107"/>cipitur ut conjuncta suis effectibus cum 
+          reprae<lb break="no" ed="#P" n="108"/>sentatione clara diversorum modorum, quibus
+          <lb ed="#P" n="109"/>illi manare possunt a causa. Quamvis enim illi
+          <lb ed="#P" n="110"/>modi non sint distincti in causa, sed in ipsis
+          <pb ed="#P" n="162"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>effectibus, tamen cum simul cognoscuntur cum
+          <lb ed="#P" n="2"/>causa, et ex virtute causae, profecto clarius et
+          <lb ed="#P" n="3"/>distinctius concipitur causa. Quia ergo haec tota
+          <lb ed="#P" n="4"/>repraesentatio, non est necessaria in omni 
+          vi<lb break="no" ed="#P" n="5"/>sione creata, ideo necessarium non est, ut ex
+          <lb ed="#P" n="6"/>vi cujuscumque visionis videantur. Cur autem.
+          <lb ed="#P" n="7"/>unus potius, quam alius effectus per hanc, vel
+          <lb ed="#P" n="8"/>illam visionem repraesentetur, inferius 
+          dice<lb break="no" ed="#P" n="9"/>mus.
+        </p>
+        <p xml:id="szduep-040458-d1e881">
+          <lb ed="#P" n="10"/>12. Secunda conclusio. — Dico secundo. 
+          Pro<lb break="no" ed="#P" n="11"/>babilius est, non posse dari visionem Dei 
+          crea<lb break="no" ed="#P" n="12"/>tam, per quam videantur in Deo omnes res
+          <lb ed="#P" n="13"/>possibiles. Ita sentit D. Thomas in locis 
+          cita<lb break="no" ed="#P" n="14"/>tis et communiter ejus discipuli, 
+          consentiunt<lb break="no" ed="#P" n="15"/>que Bonaventura, Scotus et Richardus, in 3,
+          <lb ed="#P" n="16"/>dist. 14, et in 4, dist. 49. Henricus, dicto 
+          quod<lb break="no" ed="#P" n="17"/>lib. 7, quaest. 4 et 5. De hac vero assertione
+          <lb ed="#P" n="18"/>hic breviter dicam, quia illam ex professo
+          <lb ed="#P" n="19"/>tractavi in 1 tom., 3 part., disp. 20, sect. 2.
+          <lb ed="#P" n="20"/>Et a posteriori magnum argumentum 
+          sumi<lb break="no" ed="#P" n="21"/>tur ex ibi dictis. Quia si visio tam perfecta
+          <lb ed="#P" n="22"/>non est concessa animae Christi, ut omnes 
+          fa<lb break="no" ed="#P" n="23"/>tentur, magnum signum est, non esse 
+          possibi<lb break="no" ed="#P" n="24"/>lem. Unde ratio a priori esse videtur, quia ad
+          <lb ed="#P" n="25"/>hoc requiritur lumen infinitum, quod non est
+          <lb ed="#P" n="26"/>possibile. Maxime vero solet probari ab 
+          incon<lb break="no" ed="#P" n="27"/>venienti, quia valde probabiliter sequitur, per
+          <lb ed="#P" n="28"/>hujusmodi visionem comprehendi divinam 
+          es<lb break="no" ed="#P" n="29"/>sentiam. Propter quam causam nonnulli ex
+          <lb ed="#P" n="30"/>modernis contrariam sententiam et opinionem
+          <lb ed="#P" n="31"/>damnant, ut errori proximam, et parum tutam
+          <lb ed="#P" n="32"/>in fide; sed hoc nimium est: quia licet certum
+          <lb ed="#P" n="33"/>sit, Deum non posse comprehendi ab intellectu
+          <lb ed="#P" n="34"/>creato, quantumvis elevato, ut supra dictum
+          <lb ed="#P" n="35"/>est, tamen quod illa visio omnium possibilium
+          <lb ed="#P" n="36"/>in Deo, esset comprehensio, est mera opinio
+          <lb ed="#P" n="37"/>fundata in illatione quadam probabih, sed
+          <lb ed="#P" n="38"/>incerta, et ideo hoc non sufficit ad hujusmodi
+          <lb ed="#P" n="39"/>censuram, vel aliquam notam contrariae 
+          opi<lb break="no" ed="#P" n="40"/>nionis. De qua re dicemus plura infra, cap. 29.
+        </p>
+        <p xml:id="szduep-040458-d1e951">
+          <lb ed="#P" n="41"/>13. Tertia conclusio. — Objectio. — 
+          Respon<lb break="no" ed="#P" n="42"/>sio. — Dico tertio : Non est necessarium videre
+          <lb ed="#P" n="43"/>in Deo viso aliquam creaturam in particulari
+          <lb ed="#P" n="44"/>secundum propriam naturam specificam seu
+          <lb ed="#P" n="45"/>cenericam ejus. Probatur, quia hoc ipso, quod
+          <lb ed="#P" n="46"/>non necessario videntur omnes, potest aliqua
+          <lb ed="#P" n="47"/>determinate occultari, ergo et quaelibet 
+          deter<lb break="no" ed="#P" n="48"/>minate, seu sigillatim sumpta: nam quoad hoc
+          <lb ed="#P" n="49"/>cadem est omnium ratio, ergo et omnes simul,
+          <lb ed="#P" n="50"/>seu collective sumptae, propter eamdem 
+          cau<lb break="no" ed="#P" n="51"/>sam. Dices : quamvis non sit necessarium 
+          ali<lb break="no" ed="#P" n="52"/>quam determinate videre, potest esse 
+          necessa<lb break="no" ed="#P" n="53"/>rium videre aliquam saltem indeterminate, id
+          <lb ed="#P" n="54"/>est, hanc, velillam. Respondetur tamen, in 
+          prae<lb break="no" ed="#P" n="55"/>senti materia non posse hoc rationabiliter dici:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nam qua ratione quaelibet creatura secundum
+          <lb ed="#P" n="57"/>propriam et determinatam naturam, non habet
+          <lb ed="#P" n="58"/>necessariam connexionem cum visione Dei 
+          se<lb break="no" ed="#P" n="59"/>cundum communem speciem ejus, eadem 
+          ra<lb break="no" ed="#P" n="60"/>tione , neque collectio omnium creaturarum
+          <lb ed="#P" n="61"/>secundum proprias naturas earum habet 
+          hu<lb break="no" ed="#P" n="62"/>jusmodi connexionem, quia divina essentia, vel
+          <lb ed="#P" n="63"/>Omnipotentia ad totam collectionem eodem
+          <lb ed="#P" n="64"/>modo quoad singulos effectus comparatur.
+        </p>
+        <p xml:id="szduep-040458-d1e1008">
+          <lb ed="#P" n="65"/>14. Quarta conclusio. — Dico quarto 
+          pro<lb break="no" ed="#P" n="66"/>babile esse, visa divina essentia , 
+          necessa<lb break="no" ed="#P" n="67"/>rium esse videre, quidquid est possibile, vel
+          <lb ed="#P" n="68"/>creabile saltem sub hoc communissimo 
+          con<lb break="no" ed="#P" n="69"/>ceptu creabilis, seu possibilis. Sic Capreolus
+          <lb ed="#P" n="70"/>in 4, distinct. 49, quaest. 5, art. 3, ad 
+          argu<lb break="no" ed="#P" n="71"/>mentum contra primam conclusionem, ubi in
+          <lb ed="#P" n="72"/>hanc sententiam citat alios, idem Sotus ibi
+          <lb ed="#P" n="73"/>quaest. 3, art. 3, et moderni Thomistae. Dico
+          <lb ed="#P" n="74"/>autem solum esse probabile, quia est res 
+          du<lb break="no" ed="#P" n="75"/>bia. Probatur autem, quia necessarium est viso
+          <lb ed="#P" n="76"/>Deo, videre illum esse omnipotentem, non 
+          po<lb break="no" ed="#P" n="77"/>test autem videri omnipotentia sub propria 
+          ra<lb break="no" ed="#P" n="78"/>Uone et praesertim visione clara et prout in se
+          <lb ed="#P" n="79"/>est, nisi saltem videatur esse tantae perfectionis
+          <lb ed="#P" n="80"/>et virtutis, ut sit efficas ad omne possibile, seu
+          <lb ed="#P" n="81"/>ad omne id, quod non repugnat, ergo necesse
+          <lb ed="#P" n="82"/>est viso Deo videre, omne creabile esse 
+          possi<lb break="no" ed="#P" n="83"/>bile ex vi talis potentiae Dei, quamvis non 
+          vi<lb break="no" ed="#P" n="84"/>deatur in particulari, quidnam illud sit, quod
+          <lb ed="#P" n="85"/>sub objecto creabili comprehenditur. 
+          Declara<lb break="no" ed="#P" n="86"/>tur, quia licet omnipotentia Dei sit alterius 
+          or<lb break="no" ed="#P" n="87"/>dinis a qualibet potentia creata et non recipiat
+          <lb ed="#P" n="88"/>speciem a suo objecto, sicut inferiores 
+          poten<lb break="no" ed="#P" n="89"/>ae, nec relationem ad illud habeat: tamen in
+          <lb ed="#P" n="90"/>hoc habet aliquam convenientiam, quod 
+          ne<lb break="no" ed="#P" n="91"/>cesse est habere aliquid per modum objecti,
+          <lb ed="#P" n="92"/>quod habet necessariam connexionem cum illa
+          <lb ed="#P" n="93"/>natura , non quia ipsa ab objecto pendeat ; sed
+          <lb ed="#P" n="94"/>potius quia objectum in suo esse pendet et in
+          <lb ed="#P" n="95"/>sua possibilitate, quasi constituitur, seu 
+          deno<lb break="no" ed="#P" n="96"/>minatur a tali potentia : ergo sicut aliae 
+          poten<lb break="no" ed="#P" n="97"/>ae non possunt cognosci sine objecto saltem
+          <lb ed="#P" n="98"/>adaequato : ita neque omnipotentia Dei clare
+          <lb ed="#P" n="99"/>videri sine conjunctione cum objecto possibili,
+          <lb ed="#P" n="100"/>seu creabili, ut sic: nam illud est tanquam 
+          ob<lb break="no" ed="#P" n="101"/>jectum adaequatum. In quo differt haec 
+          com<lb break="no" ed="#P" n="102"/>munis ratio ab omnibus particularibus naturis
+          <lb ed="#P" n="103"/>creatis.
+        </p>
+        <p xml:id="szduep-040458-d1e1096">
+          <lb ed="#P" n="104"/>15. Viso Deo necessario videtur ejus 
+          omnipo<lb break="no" ed="#P" n="105"/>tentia. —Quod vero necessarium sit, viso Deo,
+          <lb ed="#P" n="106"/>videre omnipotentiam , videtur clarius, quam
+          <lb ed="#P" n="107"/>ut indigeat probatione. Primum , quia 
+          hujus<lb break="no" ed="#P" n="108"/>modi perfectio est essentialis ipsi Deo et non
+          <lb ed="#P" n="109"/>intelligitur comprehensa sub aliqua alia 
+          per<lb break="no" ed="#P" n="110"/>fectione. Secundo quia viso Deo, necessarium
+          <pb ed="#P" n="163"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est videre, eum habere intellectum et 
+          volunta<lb break="no" ed="#P" n="2"/>tem secundum propriam perfectionem , quam
+          <lb ed="#P" n="3"/>intelligimus, correspondere Deo his vocibus et
+          <lb ed="#P" n="4"/>conceptibus nostris : ergo eadem ratione 
+          ne<lb break="no" ed="#P" n="5"/>cesse est videre omnipotentiam eodem modo,
+          <lb ed="#P" n="6"/>quia non est minus intrinsecum et essentiale
+          <lb ed="#P" n="7"/>hoc attributum, quam illa. Tertio potest sic 
+          ex<lb break="no" ed="#P" n="8"/>plicari, quia quando essentia alicujus rei 
+          co<lb break="no" ed="#P" n="9"/>gnoscitur, verbi gratia, ab angelo per 
+          scien<lb break="no" ed="#P" n="10"/>tiam non discursivam, sed simplicem, ac 
+          per<lb break="no" ed="#P" n="11"/>fectam , visa essentia videntur in illa 
+          pro<lb break="no" ed="#P" n="12"/>prietates, quae conjunctissimae sunt cum ipsa
+          <lb ed="#P" n="13"/>essentia et praesertim si sint illi adaequatae et
+          <lb ed="#P" n="14"/>ab illa non distinguantur, sed visio Dei est
+          <lb ed="#P" n="15"/>scientia altioris ordinis, simplicissima et sine
+          <lb ed="#P" n="16"/>discursu: Omnipotentia autem Dei est 
+          attribu<lb break="no" ed="#P" n="17"/>tum divinae essentiee non per modum 
+          proprie<lb break="no" ed="#P" n="18"/>tatis, sed potius per modum praedicati 
+          essen<lb break="no" ed="#P" n="19"/>tialis, ergo visa tali essentia, quidditative 
+          co<lb break="no" ed="#P" n="20"/>gnita, necesse est videre omnipotentiam ejus,
+          <lb ed="#P" n="21"/>saltem sub hoc adaequato conceptu, 
+          quodom<lb break="no" ed="#P" n="22"/>nia in se eminenter continet et quod efficax est
+          <lb ed="#P" n="23"/>ad omnia, quae exse non repugnant.
+        </p>
+        <p xml:id="szduep-040458-d1e1168">
+          <lb ed="#P" n="24"/>16. Neque contra hanc assertionem urgent
+          <lb ed="#P" n="25"/>argumenta in ultima opinione facta. Quia jam
+          <lb ed="#P" n="26"/>ostendimus, rationem differentiae inter 
+          creatu<lb break="no" ed="#P" n="27"/>ras speciales etcommunem rationem 
+          entiscrea<lb break="no" ed="#P" n="28"/>bilis, seu possibilis. Nam hujus cognitio 
+          ma<lb break="no" ed="#P" n="29"/>gis necessaria est, ut efficacia et virtus divinae
+          <lb ed="#P" n="30"/>naturae videri possit, quam visio particularium
+          <lb ed="#P" n="31"/>specierum. illa autem necessitas non est, quia
+          <lb ed="#P" n="32"/>omnipotentia Dei pendeat ab ente creabihi, sed
+          <lb ed="#P" n="33"/>potius e contrario, quia tale objectum habet
+          <lb ed="#P" n="34"/>necessariam connexionem cum tali potentia et
+          <lb ed="#P" n="35"/>in eo veluti explicatur ejus virtus, propter
+          <lb ed="#P" n="36"/>quod videri non potest, nisi illo etiam aliquo
+          <lb ed="#P" n="37"/>modo concepto. Neque ad hoc oportet, fingere
+          <lb ed="#P" n="38"/>an Deoaliquam habitudinem per modum 
+          rela<lb break="no" ed="#P" n="39"/>tionis ad creaturam, quia revera nulla est,
+          <lb ed="#P" n="40"/>sed est potentia Dei res omnino absoluta, quae
+          <lb ed="#P" n="41"/>nihilominus quoad sui cognitionem, seu 
+          visio<lb break="no" ed="#P" n="42"/>nem potest habere praedictam connexionem
+          <lb ed="#P" n="43"/>cum objecto creabili propter rationem 
+          expli<lb break="no" ed="#P" n="44"/>catam. Denique jam declaratum est, quomodo
+          <lb ed="#P" n="45"/>non possit videri Deus, non visa omnipotentia
+          <lb ed="#P" n="46"/>ejus. Ad hoc autem non est necesse, ut videns
+          <lb ed="#P" n="47"/>Deum ratione distinguat omnipotentiam ab 
+          es<lb break="no" ed="#P" n="48"/>sentia, sed satis est, ut videat summam 
+          per<lb break="no" ed="#P" n="49"/>fectionem Dei prout in se est, et prout 
+          eminen<lb break="no" ed="#P" n="50"/>ter continet omne possibile, atque adeo ut est
+          <lb ed="#P" n="51"/>infinitae virtutis et efficaciae, quod totum 
+          uni<lb break="no" ed="#P" n="52"/>co simplici conceptu beatusintuetur.
+        </p>
+        <p xml:id="szduep-040458-d1e1233">
+          <lb ed="#P" n="53"/>17. Rationi dubitandi in principio posite
+          <lb ed="#P" n="54"/>respondetur. — Solum superest, ut 
+          respondea<lb break="no" ed="#P" n="55"/>mus ad rationem dubitandi in principio posi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tam, cujus difficultas praecipue consistit in 
+          qua<lb break="no" ed="#P" n="57"/>dam interrogatione, in qua aliqui magnam
+          <lb ed="#P" n="58"/>vim faciunt. Cur (scilicet) viso Deo, haec 
+          po<lb break="no" ed="#P" n="59"/>tius res, quam illae in ipso videantur? Ad quod
+          <lb ed="#P" n="60"/>primo responderi potest consequenter, 
+          prove<lb break="no" ed="#P" n="61"/>nire ex libera voluntate Dei, quia sicut videtur
+          <lb ed="#P" n="62"/>quando vult, ita etiam quomodo vult: sic enim,
+          <lb ed="#P" n="63"/>ut supra notavi, dici solet speculum 
+          volunta<lb break="no" ed="#P" n="64"/>rium. Cum enim intellectus ad visionem 
+          bea<lb break="no" ed="#P" n="65"/>tam concurrat, ut instrumentum Dei per 
+          vo<lb break="no" ed="#P" n="66"/>Iuntatem liberam principalis agentis 
+          determi<lb break="no" ed="#P" n="67"/>natur, ut potius has creaturas, quam illas 
+          vi<lb break="no" ed="#P" n="68"/>deat. Quae responsio vera quidem est loquendo
+          <lb ed="#P" n="69"/>de prima radice hujus diversitatis , quamvis
+          <lb ed="#P" n="70"/>etiam ex parte meritorum, seu status beati 
+          pos<lb break="no" ed="#P" n="71"/>sit assignari aliqua ratio hujus effectus , ut
+          <lb ed="#P" n="72"/>constabit ex inferius dicendis, c. 28. 
+          Nihilomi<lb break="no" ed="#P" n="73"/>nus tamen, quia Deus operatur cum causis 
+          sc<lb break="no" ed="#P" n="74"/>cundis juxta capacitatem earum, oportet 
+          assi<lb break="no" ed="#P" n="75"/>gnare in ipsa visione, vel in principio proximo
+          <lb ed="#P" n="76"/>ejus causam , hujus differentiae, si fortasse 
+          ali<lb break="no" ed="#P" n="77"/>qua reperiri potest.
+        </p>
+        <p xml:id="szduep-040458-d1e1292">
+          <lb ed="#P" n="78"/>18. Aliter respondetur ev D. Thoma. —
+          Se<lb break="no" ed="#P" n="79"/>cundo igitur respondet D. Thomas, quaest. 8,
+          <lb ed="#P" n="80"/>de Veritate , articulo 4 ad 12, inter effectus,
+          <lb ed="#P" n="81"/>qui in causa continentur, quosdam esse 
+          notio<lb break="no" ed="#P" n="82"/>res aliis, qui propterea visa causa statim 
+          viden<lb break="no" ed="#P" n="83"/>tur, vel saltem facilius, alios vero esse effectus
+          <lb ed="#P" n="84"/>magis reconditos, ad quos videndos in causa
+          <lb ed="#P" n="85"/>necesse est virtutem causae magis penetrare,
+          <lb ed="#P" n="86"/>ac perfectius cognosci. Et ex hac radice dicit
+          <lb ed="#P" n="87"/>prevenire, ut viso Deo, hi potius quam alii 
+          ef<lb break="no" ed="#P" n="88"/>fectus videantur juxta mensuram et 
+          perfectio<lb break="no" ed="#P" n="89"/>nem luminis. Quae doctrina apta est ad 
+          expli<lb break="no" ed="#P" n="90"/>candam rationem differentiae inter primam et
+          <lb ed="#P" n="91"/>ultimam conclusionem, quia illae rationes 
+          u<lb break="no" ed="#P" n="92"/>niversales creaturarum, quae sunt veluti 
+          adae<lb break="no" ed="#P" n="93"/>quatum objectum divinae Omnipotentiae, 
+          sta<lb break="no" ed="#P" n="94"/>tim relucent in Deo, viso Deo et facillime 
+          co<lb break="no" ed="#P" n="95"/>gnoscuntur, atque immediatam connexionem
+          <lb ed="#P" n="96"/>habent cum quocumque proprio conceptu Dei.
+          <lb ed="#P" n="97"/>Quae omnia non ita reperiuntur in specialibus
+          <lb ed="#P" n="98"/>creaturis secundum proprias naturas et 
+          essen<lb break="no" ed="#P" n="99"/>tias earum. At vero loquendo de comparatione
+          <lb ed="#P" n="100"/>ipsarum particularium creaturarum, cur hae
+          <lb ed="#P" n="101"/>potius, quam illae videantur : non videtur 
+          red<lb break="no" ed="#P" n="102"/>di sufficiens ratio ex illa doctrina, quia licet ad
+          <lb ed="#P" n="103"/>videndas perfectiores creaturas, caeteris 
+          pari<lb break="no" ed="#P" n="104"/>bus, necessarium videatur perfectius Iumen et
+          <lb ed="#P" n="105"/>visio perfectior: tamen quod attinet ad 
+          neces<lb break="no" ed="#P" n="106"/>sariam connexionem singularum creaturarum
+          <lb ed="#P" n="107"/>cum essentia Dei, eadem est ratio de omnibus,
+          <lb ed="#P" n="108"/>ut supra dixi.
+        </p>
+        <p xml:id="szduep-040458-d1e1362">
+          <lb ed="#P" n="109"/>19. Animadversio. —Quapropter 
+          adverten<lb break="no" ed="#P" n="110"/>dum est rationem hujus diversitatis postulare
+          <pb ed="#P" n="164"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>posse vel ex parte visionis, cur potius 
+          reprae<lb break="no" ed="#P" n="2"/>sentet has, quam illas creaturas, vel ex parte
+          <lb ed="#P" n="3"/>Iuminis et speciei intelligibilis, seu divinae 
+          es<lb break="no" ed="#P" n="4"/>sentiae, quatenus habet rationem speciei, quae
+          <lb ed="#P" n="5"/>sunt principia proxima visionis. Quoad 
+          prio<lb break="no" ed="#P" n="6"/>rem partem dico: non esse quaerendam 
+          ratio<lb break="no" ed="#P" n="7"/>nem aliunde, quam ex entitate ipsius visionis,
+          <lb ed="#P" n="8"/>nam quia talis et tam perfecta est in entitate
+          <lb ed="#P" n="9"/>sua, ideo tam perfecte repraesentat Deum, et
+          <lb ed="#P" n="10"/>quia repraesentat Deum cum tali perfectione,
+          <lb ed="#P" n="11"/>ideo facit in eo videri has creaturas potius,
+          <lb ed="#P" n="12"/>quam illas. Haec enim repraesentatio visionis
+          <lb ed="#P" n="13"/>non est voluntaria, seu ad placitum, sed est
+          <lb ed="#P" n="14"/>naturalis et per modum effectus formalis 
+          ip<lb break="no" ed="#P" n="15"/>sius visionis, ergo necesse est, ut fundetur in
+          <lb ed="#P" n="16"/>physica entitate et perfectione ipsius visionis.
+          <lb ed="#P" n="17"/>Ut si per unam visionem videatur Deus et 
+          an<lb break="no" ed="#P" n="18"/>gelus, verbi gratia, in illo, per aliam vero
+          <lb ed="#P" n="19"/>videatur Deus et leo in illo, hoc provenit ex
+          <lb ed="#P" n="20"/>majori perfectione illius visionis.
+        </p>
+        <p xml:id="szduep-040458-d1e1417">
+          <lb ed="#P" n="21"/>20. Quaesitum responsum. — Quod si 
+          inqui<lb break="no" ed="#P" n="22"/>ras, quae sit haec major perfectio. Communiter
+          <lb ed="#P" n="23"/>explicatur per modum majoris intensionis. At
+          <lb ed="#P" n="24"/>hoc nonnullas pati potest difficultates. Primo
+          <lb ed="#P" n="25"/>quia gradus intensionis praecise considerari
+          <lb ed="#P" n="26"/>servant inter se ordinem quemdam et 
+          confor<lb break="no" ed="#P" n="27"/>mitatem, ita ut primus supponat secundum,
+          <lb ed="#P" n="28"/>et secundus tertium, et sic de aliis, in 
+          cognitio<lb break="no" ed="#P" n="29"/>ne autem diversarum creaturarum nullus est
+          <lb ed="#P" n="30"/>necessarius ordo, potest enim videri perfectior
+          <lb ed="#P" n="31"/>creatura, non visa minus perfecta et e 
+          contra<lb break="no" ed="#P" n="32"/>rio: non potest ergo servari proportio 
+          inten<lb break="no" ed="#P" n="33"/>sionis graduum ad hanc quasi extensionem ex
+          <lb ed="#P" n="34"/>parte objecti. Deinde quia intensio solum fit
+          <lb ed="#P" n="35"/>per majorem conatum potentiae, seu 
+          radica<lb break="no" ed="#P" n="36"/>tionem qualitatis in illa in ordine ad idem, et
+          <lb ed="#P" n="37"/>idéo non recte intelligitur, quod per solam 
+          in<lb break="no" ed="#P" n="38"/>tensionem extendatur secundus gradus ad 
+          co<lb break="no" ed="#P" n="39"/>gnoscendas plures creaturas , quam primus,
+          <lb ed="#P" n="40"/>sed solum ad videndum melius easdem. Sicut
+          <lb ed="#P" n="41"/>amor Dei ex hoc, quod intendatur praecise non
+          <lb ed="#P" n="42"/>intelligitur extendi ad proximum, vel ad 
+          ali<lb break="no" ed="#P" n="43"/>quid aliud, sed solum circa idem perfectius
+          <lb ed="#P" n="44"/>versari.
+        </p>
+        <p xml:id="szduep-040458-d1e1473">
+          <lb ed="#P" n="45"/>21. Alterum responsum. — Aliter ergo dici
+          <lb ed="#P" n="46"/>potest , hoc provenire ex perfectiori entitate
+          <lb ed="#P" n="47"/>specifica visionis. Sed hoc supra rejectum est:
+          <lb ed="#P" n="48"/>melius ergo attribuetur haec diversitas 
+          diver<lb break="no" ed="#P" n="49"/>se entitati individuali ipsius visionis, ctiamsi
+          <lb ed="#P" n="50"/>indivisibilis sit, quia sicut unus intellectus 
+          per<lb break="no" ed="#P" n="51"/>fectior est, quam alius, non ex majori 
+          inten<lb break="no" ed="#P" n="52"/>sione, sed ex majori perfectione individuali :
+          <lb ed="#P" n="53"/>sic intelligi facile potest de visione. Atque
+          <lb ed="#P" n="54"/>idem consequenter dicendum est de lumine,
+          <lb ed="#P" n="55"/>quia principium accommodatur suo effectui.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Et similiter dicendum est de specie ; nam 
+          da<lb break="no" ed="#P" n="57"/>tur juxta perfectionem luminis, seu divina 
+          es<lb break="no" ed="#P" n="58"/>sentia accommodat suum concursum per 
+          mo<lb break="no" ed="#P" n="59"/>dum speciei, juxta exigentiam luminis. Atque
+          <lb ed="#P" n="60"/>eadem ratione licet fieri possit, ut duae 
+          visio<lb break="no" ed="#P" n="61"/>nes repraesentent diversos effectus et quod in
+          <lb ed="#P" n="62"/>perfectione, omnibus pensatis, aequales sint ,
+          <lb ed="#P" n="63"/>totum hoc referendum est proxime in diversam
+          <lb ed="#P" n="64"/>perfectionem entitativam ipsius visionis ; nam
+          <lb ed="#P" n="65"/>una ex natura sua habet repraesentare Deum
+          <lb ed="#P" n="66"/>hoc modo , altera vero aliter. Est autem haec
+          <lb ed="#P" n="67"/>sufficiens ratio, quia unaquaeque forma natura
+          <lb ed="#P" n="68"/>sua habet determinatum suum effectum 
+          for<lb break="no" ed="#P" n="69"/>malem. Aliqui vero, cum non habeant, quid
+          <lb ed="#P" n="70"/>contra hanc diversitatem individualem 
+          visio<lb break="no" ed="#P" n="71"/>nem obyjiciant, dicunt illam esse 
+          commenti<lb break="no" ed="#P" n="72"/>tiam et nunquam in qualitatibus inveniri. Sed
+          <lb ed="#P" n="73"/>revera non ita est , nam in quahtatibus 
+          respi<lb break="no" ed="#P" n="74"/>cientibus objecta est frequens distinctio, ut 
+          vi<lb break="no" ed="#P" n="75"/>siones Petri et Pauli differunt in 
+          repraesenta<lb break="no" ed="#P" n="76"/>tione objectorum, plusquam duae visiones 
+          nu<lb break="no" ed="#P" n="77"/>mero distinctae ejusdem personae: et sic de
+          <lb ed="#P" n="78"/>aliis, in praesenti vero licet objectum 
+          prima<lb break="no" ed="#P" n="79"/>rium idem sit ; tamen diverso modo magis, vel
+          <lb ed="#P" n="80"/>minus claro et perfecto concipitur, cum 
+          con<lb break="no" ed="#P" n="81"/>junctione ad unum objectum secundarium,
+          <lb ed="#P" n="82"/>quam ad aliud, et hoc satis est, ut visiones 
+          in<lb break="no" ed="#P" n="83"/>dividualiter distinctae, natura sua habeant 
+          il<lb break="no" ed="#P" n="84"/>lam diversitatem in suis effectibus formalibus.
+        </p>
+        <p xml:id="szduep-040458-d1e1564">
+          <lb ed="#P" n="85"/>22. Corollarium.—Atque hinc primo 
+          intel<lb break="no" ed="#P" n="86"/>ligitur, falsum esse, quod Scotus et alii dicunt,
+          <lb ed="#P" n="87"/>fieri posse, ut stante eadem visione et in 
+          enti<lb break="no" ed="#P" n="88"/>tate invariata manente, nunc per illam 
+          videan<lb break="no" ed="#P" n="89"/>tur istae creaturae : postea aliae , quia Deus est
+          <lb ed="#P" n="90"/>speculum voluntarium; patet enim ex dictis
+          <lb ed="#P" n="91"/>hoc non esse possibile, cum repraesentatio illa
+          <lb ed="#P" n="92"/>sit naturalis in genere causae formalis, et per
+          <lb ed="#P" n="93"/>modum actus secundi et ultimi. Nec Deus 
+          dici<lb break="no" ed="#P" n="94"/>tur speculum voluntarium, quia per 
+          quam<lb break="no" ed="#P" n="95"/>cumque visioriem possit manifestare, quae 
+          vo<lb break="no" ed="#P" n="96"/>luerit, non enim potest privare formam suo
+          <lb ed="#P" n="97"/>effectu formali, manente illa in subjecto, nec
+          <lb ed="#P" n="98"/>etiam potest proprius effectus formalis unius
+          <lb ed="#P" n="99"/>formae fieri per aliam, natura sua habentem
+          <lb ed="#P" n="100"/>distinctum effectum, sive individualem , sive
+          <lb ed="#P" n="101"/>specificum, quia servata proportione eadem est
+          <lb ed="#P" n="102"/>ratio.
+        </p>
+        <p xml:id="szduep-040458-d1e1606">
+          <lb ed="#P" n="103"/>23. Alterum corollarium. — Colligitur 
+          secun<lb break="no" ed="#P" n="104"/>do, non posse illam visionem recipere 
+          varia<lb break="no" ed="#P" n="105"/>tionem in ordine ad creaturas possibiles, quin
+          <lb ed="#P" n="106"/>recipiat in ordine ad Deum. Cujus contrarium
+          <lb ed="#P" n="107"/>sentiunt alii auctores, quia actus potest variari
+          <lb ed="#P" n="108"/>in ordine ad objectum secundarium, licet non
+          <lb ed="#P" n="109"/>varietur circa primarium. Haberet autem hoc
+          <lb ed="#P" n="110"/>locum aliquo modo, si objecta illa tantum con-
+          <pb ed="#P" n="165"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>comitanter viderentur. At supposita superiori
+          <lb ed="#P" n="2"/>doctrina, id dici non potest. Ratio est, quia per
+          <lb ed="#P" n="3"/>illam visionem videntur creaturae in Deo ut in
+          <lb ed="#P" n="4"/>causa et tanquam in primario objecto et 
+          me<lb break="no" ed="#P" n="5"/>dio cognito: ergo ut alii et alii effectus 
+          videan<lb break="no" ed="#P" n="6"/>tur in causa, necesse est, causam ipsam aliter
+          <lb ed="#P" n="7"/>et aliter videri. Item diximus, actum illum,
+          <lb ed="#P" n="8"/>quo videntur Deus et creatura, esse in sua 
+          en<lb break="no" ed="#P" n="9"/>titate indivisibilem, ergo non potest in se 
+          re<lb break="no" ed="#P" n="10"/>cipere mutationem, quin in tota sua 
+          indivisi<lb break="no" ed="#P" n="11"/>bili entitate illam recipiat: ergo oportet, 
+          va<lb break="no" ed="#P" n="12"/>riari tam respectu Dei, quam respectu 
+          crea<lb break="no" ed="#P" n="13"/>turarum. Nec refert, si quis opinetur, illum
+          <lb ed="#P" n="14"/>actum extendi ad creaturas per hoc, quod in se
+          <lb ed="#P" n="15"/>intensior fiat, quia necesse est etiam in ea 
+          opi<lb break="no" ed="#P" n="16"/>nione assignare aliquem gradum intensionis,
+          <lb ed="#P" n="17"/>quo posito manifestetur creatura in Deo et 
+          con<lb break="no" ed="#P" n="18"/>sequenter necessarium est, posito illo gradu,
+          <lb ed="#P" n="19"/>vel melius, vel aliter manifestari Deum , ergo
+          <lb ed="#P" n="20"/>cum necesse sit variata illa visione circa 
+          crea<lb break="no" ed="#P" n="21"/>turas, variarialiquem gradum intensionis ejus,
+          <lb ed="#P" n="22"/>secundum illum oportebit variari visionem
+          <lb ed="#P" n="23"/>circa Deum.
+        </p>
+        <p xml:id="szduep-040458-d1e1680">
+          <lb ed="#P" n="24"/>24. Tertium corollarium.—Unde obiter 
+          col<lb break="no" ed="#P" n="25"/>ligitur tertio, caeteris paribus, eo perfectius 
+          vi<lb break="no" ed="#P" n="26"/>dere Deum, quo plures, vel meliores creaturae
+          <lb ed="#P" n="27"/>videntur in Deo. Non quia haec sit ratioa 
+          prio<lb break="no" ed="#P" n="28"/>ri melius videndi Deum, sed potius quia a 
+          pos<lb break="no" ed="#P" n="29"/>teriori et ab effectu colligimus eo causam 
+          per<lb break="no" ed="#P" n="30"/>fectius videri, quo plura et meliora in eo 
+          viden<lb break="no" ed="#P" n="31"/>tur, caeteris paribus, quia hoc est signum,
+          <lb ed="#P" n="32"/>virtutem ejus perfectius penetrari et cognosci.
+          <lb ed="#P" n="33"/>Unde consequenter fit , ad hujusmodi visionem
+          <lb ed="#P" n="34"/>perfectius lumen requiri, quia actus secundus
+          <lb ed="#P" n="35"/>correspondet primo: Nec censeo necessarium
+          <lb ed="#P" n="36"/>distinguere,ut quidam faciunt, de pluribus 
+          spe<lb break="no" ed="#P" n="37"/>ciebus creaturarum, vel de pluribus individuis,
+          <lb ed="#P" n="38"/>nec de pluribus substantiis, aut accidentibus,
+          <lb ed="#P" n="39"/>quia quacumque ratione plura simul in Deo 
+          vi<lb break="no" ed="#P" n="40"/>deantur ex possibilibus, si caetera paria sint,
+          <lb ed="#P" n="41"/>necesse est, visionem Dei esse meliorem, quia
+          <lb ed="#P" n="42"/>revera virtus et potentia ejus perfectius 
+          co<lb break="no" ed="#P" n="43"/>gnoscitur,
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

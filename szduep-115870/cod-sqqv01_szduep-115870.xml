@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="456"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-115870"><!-- t2-l3prae -->
+        <head xml:id="szduep-115870-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-115870-d1e103">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="25"/>LIBER TERTIUS.
+          <lb ed="#P" n="26"/>DE PRAEDESTINATIONIS
+          <lb ed="#P" n="27"/>EFFECTIBUS, EORUMQUE CONCORDIA CUM ARBITRII LIBERTATE.
+        </p>
+        <p xml:id="szduep-115870-d1e114">
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="28"/>Post disputationem de causis, convenienti
+          <lb ed="#P" n="29"/>ordine sequitur disputatio de effectibus 
+          prae<lb break="no" ed="#P" n="30"/>destinationis: per quam etiam clariora fient,
+          <lb ed="#P" n="31"/>quae de causis dicta sunt. Nam cognitio 
+          causa<lb break="no" ed="#P" n="32"/>rum in nobis magna ex parte fit ex effectuum
+          <lb ed="#P" n="33"/>cognitione. Dicemus ergo prius generatim de
+          <lb ed="#P" n="34"/>effectibus, deinde sigillatim de singulis, prius
+          <lb ed="#P" n="35"/>de supernaturalibus effectibus gratiae et gloriae,
+          <lb ed="#P" n="36"/>postea de bonis naturae ac tandem de malis, seu
+          <lb ed="#P" n="37"/>permissionibus eorum, si quo forte modo 
+          pos<lb break="no" ed="#P" n="38"/>sunt ex praedestinatione provenire. Ac tandem
+          <lb ed="#P" n="39"/>falsos effectus excludemus, veramque concor-
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="40"/>diam praedestinationis cum libertate 
+          declara<lb break="no" ed="#P" n="41"/>bimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

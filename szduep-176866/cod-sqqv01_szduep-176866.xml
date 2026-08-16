@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="699"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-176866"><!-- t3-l7c5 -->
+        <head xml:id="szduep-176866-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-176866-Hd1e103" type="question-title">Utrum proprietates constiiuentes et distinguentes personas, absolutae sint</head>
+        <p xml:id="szduep-176866-d1e106">
+          <lb ed="#P" n="44"/>CAPUT V.
+          <lb ed="#P" n="45"/>UTRUM PROPRIETATES CONSTIIUENTES ET 
+          DISTIN<lb break="no" ed="#P" n="46"/>GUENTES PERSONAS, ABSOLUTAE SINT.
+        </p>
+        <p xml:id="szduep-176866-d1e115">
+          <lb ed="#P" n="47"/>1. Tertia opinio affirmans. — In hac re fuit
+          <lb ed="#P" n="48"/>opinio <name xml:id="szduep-176866-Nd1e121">Joannis de Ripa</name>, in 1, dist. 26 et 27,
+          <lb ed="#P" n="49"/>qui dixit, personas divinas esse absolutas et
+          <lb ed="#P" n="50"/>habere inter se relationes, non ut illis 
+          perso<lb break="no" ed="#P" n="51"/>naliter constituantur, sed tantum ut 
+          referan<lb break="no" ed="#P" n="52"/>tur. Quam sententiam, ut probabilem voluit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>defendere Scotus in illa distinct. 26, quaest. 4,
+          <lb ed="#P" n="54"/>8 Tertia opinin. Fatentur autem illi auctores,
+          <lb ed="#P" n="55"/>has proprietates absolutas non multiplicari in
+          <lb ed="#P" n="56"/>divinis personis nisi media origine, et ita 
+          de<lb break="no" ed="#P" n="57"/>clarant Patres dicentes, personas distingui per
+          <lb ed="#P" n="58"/>origines. Quod autem iidem Patres dicunt, 
+          dis<lb break="no" ed="#P" n="59"/>tingui relationibus, intelligendum erit juxta
+          <lb ed="#P" n="60"/>hanc sententiam, vel a posteriori et quoad nos,
+          <lb ed="#P" n="61"/>quia per relationes intelligimu:- distinctionem,
+          <lb ed="#P" n="62"/>vel certe intelligendum erit potentialiter, ut
+          <lb ed="#P" n="63"/>sic dicam, id est, distingui, quatenus ad 
+          invi<lb break="no" ed="#P" n="64"/>cem referibiles sunt.
+        </p>
+        <p xml:id="szduep-176866-d1e161">
+          <lb ed="#P" n="65"/>2. Fundamentum. — Fundamentum hujus
+          <lb ed="#P" n="66"/>sententiae potissime sumptum est ex modo 
+          con<lb break="no" ed="#P" n="67"/>cipiendi nostro. Nam relationes divinas 
+          conci<lb break="no" ed="#P" n="68"/>pimus instar relationum creaturarum : in 
+          crea<lb break="no" ed="#P" n="69"/>turis autem nunquam relatio primo, et per se
+          <lb ed="#P" n="70"/>causat distinctionem extremorum, inter quae
+          <lb ed="#P" n="71"/>versatur, sed supponit illam, et in unoquoque
+          <lb ed="#P" n="72"/>extremo supponit etiam fundamentum, et 
+          ali<lb break="no" ed="#P" n="73"/>quid, quod referri possit ad aliud: et ideo
+          <lb ed="#P" n="74"/>semper tale etiam fundamentum, vel 
+          subjec<lb break="no" ed="#P" n="75"/>tum in uno extremo absolutum est, et in 
+          alte<lb break="no" ed="#P" n="76"/>ro etiam terminus est absolutus. Quae omnia
+          <lb ed="#P" n="77"/>maxime reperiuntur in relationibus originum
+          <lb ed="#P" n="78"/>creaturarum, ut inter Patrem, et Filium 
+          hu<lb break="no" ed="#P" n="79"/>manos facile considerare licet. Ergo ad 
+          eum<lb break="no" ed="#P" n="80"/>dem modum se habent relationes divinae : sunt
+          <lb ed="#P" n="81"/>enim vere, et proprie relationes, ergo habent
+          <lb ed="#P" n="82"/>omnia pertinentia ad rationem relationis, ut
+          <lb ed="#P" n="83"/>sic. Hujusmodi autem sunt omnia, quae 
+          nume<lb break="no" ed="#P" n="84"/>ravi, conveniunt enim relationi, non ex eo,
+          <lb ed="#P" n="85"/>quod creata est, sed ex eo praecise, quod 
+          to<lb break="no" ed="#P" n="86"/>tum suum esse est, ad aliud se habere: inde
+          <lb ed="#P" n="87"/>enim habet, ut necessario supponat aliquid
+          <lb ed="#P" n="88"/>quod referat, atque adeo quod ex positione 
+          il<lb break="no" ed="#P" n="89"/>lorum resultet.
+        </p>
+        <p xml:id="szduep-176866-d1e219">
+          <lb ed="#P" n="90"/>3. Atque haec ratio applicata ad Patrem 
+          so<lb break="no" ed="#P" n="91"/>let ingerere maximam difficultatem, nam Pater
+          <lb ed="#P" n="92"/>prius secundum rationem generat, quam 
+          re<lb break="no" ed="#P" n="93"/>feratur ad Filium; refertur enim, quia generat.
+          <lb ed="#P" n="94"/>Rursus, ut generet, supponitur quod sit 
+          per<lb break="no" ed="#P" n="95"/>sona : nam esse est prius, quam producere:
+          <lb ed="#P" n="96"/>ergo illa persona ut sic necessario debet esse
+          <lb ed="#P" n="97"/>absoluta. Ex parte vero Filii (et idem est de
+          <lb ed="#P" n="98"/>Spiritu sancto) non ita urget difficultas : 
+          ta<lb break="no" ed="#P" n="99"/>men applicari potest ex alio principio, quod
+          <lb ed="#P" n="100"/>ad relationem non est per se motus, et ita non
+          <lb ed="#P" n="101"/>est per se productio : ergo generatio Filii
+          <lb ed="#P" n="102"/>primo intelligitur terminari ad illam 
+          perso<lb break="no" ed="#P" n="103"/>nam, ut in se absolute constitutam, deinde vero
+          <lb ed="#P" n="104"/>resultare relationem Fili.
+        </p>
+        <p xml:id="szduep-176866-d1e254">
+          <lb ed="#P" n="105"/>4. Alias rationes addit Scotus, quae mihi
+          <lb ed="#P" n="106"/>videntur esse minoris momenti, ut quod 
+          re<lb break="no" ed="#P" n="107"/>latio, verbi gratia, Paternitas ex vi sui con-
+          <pb ed="#P" n="700"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ceptus, non est proprietas omnino 
+          incommu<lb break="no" ed="#P" n="2"/>nicabilis : hoc autem necessarium est, ut 
+          con<lb break="no" ed="#P" n="3"/>tituat personam. Assumptum declarat : quia si
+          <lb ed="#P" n="4"/>per impossibile processio per voluntatem esset
+          <lb ed="#P" n="5"/>prior, quam processio per intellectum, 
+          Pater<lb break="no" ed="#P" n="6"/>nitas esset communis Patri et Spiritui sancto.
+          <lb ed="#P" n="7"/>Item quia ex tribuis relationibus potest 
+          abs<lb break="no" ed="#P" n="8"/>trahi communis conceptus relationis, quod 
+          pu<lb break="no" ed="#P" n="9"/>tat Scotus repugnare respectu trium 
+          proprie<lb break="no" ed="#P" n="10"/>tatum personalium : nam cum illae 
+          incommu<lb break="no" ed="#P" n="11"/>nicabiles esse debeant, non possunt habere
+          <lb ed="#P" n="12"/>conceptum communem. Tandem affert Scotus
+          <lb ed="#P" n="13"/>illud Proverbiorum 40: Quod est nomen ejus,
+          <lb ed="#P" n="14"/>id es Patris, et nomen Filii ejus, si nosti?
+          <lb ed="#P" n="15"/>Nam in hac interrogatione significatur habere
+          <lb ed="#P" n="16"/>Patrem et Filium alia nomina magis occulta,
+          <lb ed="#P" n="17"/>quae necessario debent in illis significare 
+          ali<lb break="no" ed="#P" n="18"/>quas alias proprietates latentes sub Paternitate
+          <lb ed="#P" n="19"/>et Filiatione : illae ergo sunt absolutae.
+        </p>
+        <p xml:id="szduep-176866-d1e309">
+          <lb ed="#P" n="20"/>5. Vera resolutio. — Probatio ex 
+          Scriptu<lb break="no" ed="#P" n="21"/>ris. — Dicendum vero est, nullas esse in 
+          Tri<lb break="no" ed="#P" n="22"/>nitate proprietates absolutas, sed suis 
+          relatio<lb break="no" ed="#P" n="23"/>nibus personalibus personas constitui et 
+          distin<lb break="no" ed="#P" n="24"/>gui. Haec posterior pars sequitur ex praecedenti,
+          <lb ed="#P" n="25"/>eamque in duobus capitibus sequentibus 
+          ex<lb break="no" ed="#P" n="26"/>plicaturi sumus. Prior vero tam est certa, ut
+          <lb ed="#P" n="27"/>aliqui non dubitent oppositam sententiam 
+          er<lb break="no" ed="#P" n="28"/>roneam appellare, sed fortasse non attingit
+          <lb ed="#P" n="29"/>illum gradum : satis est, esse improbabilem et
+          <lb ed="#P" n="30"/>contrariam consensui theologorum. Solet 
+          au<lb break="no" ed="#P" n="31"/>tem haec veritas probari primo ex Scriptura,
+          <lb ed="#P" n="32"/>in qua divinae personae nunquam nominantur,
+          <lb ed="#P" n="33"/>nisi per voces, quae relationem, vel originem
+          <lb ed="#P" n="34"/>important, ut Patris et Filii, etc. Quod 
+          argu<lb break="no" ed="#P" n="35"/>mentum, quamvis tantum sit negativum, 
+          ni<lb break="no" ed="#P" n="36"/>hilominus pro dignitate materiae est validum,
+          <lb ed="#P" n="37"/>quia de hoc mysterio nihil cognoscere 
+          possu<lb break="no" ed="#P" n="38"/>mus, nisi per revelationem. Nec locus ille,
+          <lb ed="#P" n="39"/>quem afferebat Scotus, ex Proverbiorum 30,
+          <lb ed="#P" n="40"/>aliud indicat, sed solum ineffabilem nobis esse
+          <lb ed="#P" n="41"/>Patris et Filii dignitatem et excellentiam, vel
+          <lb ed="#P" n="42"/>etiam ibi significatur, ipsa nomina Patris et
+          <lb ed="#P" n="43"/>Filii, quibus personas nominamus, non satis
+          <lb ed="#P" n="44"/>explicare proprietates illarum, non quia illae
+          <lb ed="#P" n="45"/>proprietates absolutae sint et a relationibus
+          <lb ed="#P" n="46"/>distinctae, sed quia illa nomina communia sunt
+          <lb ed="#P" n="47"/>creaturis, imo ex creaturis ad Deum 
+          transla<lb break="no" ed="#P" n="48"/>ta, et ideo, sicut non explicant modum divinae
+          <lb ed="#P" n="49"/>generationis, ita nec satis explicare valent illas
+          <lb ed="#P" n="50"/>proprietates.
+        </p>
+        <p xml:id="szduep-176866-d1e379">
+          <lb ed="#P" n="51"/>6. Secundo probatur ex Conciliis. 
+          Latera<lb break="no" ed="#P" n="52"/>nense enim in capite Firmiter, primum 
+          nomi<lb break="no" ed="#P" n="53"/>nat Patrem, Filium et Spiritum sanctum : sub
+          <lb ed="#P" n="54"/>his nominibus et deinde subjungit: Trinitatem
+          <lb ed="#P" n="55"/>esse discretam per proprietates personales : in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dicans has esse easdem, quas illis nominibus
+          <lb ed="#P" n="57"/>significaverat, imo significans etiam, unicas
+          <lb ed="#P" n="58"/>esse tantum proprietates personales: quod 
+          no<lb break="no" ed="#P" n="59"/>tandum est. Concilium etiam Florentinum,
+          <lb ed="#P" n="60"/>sess. 18: Relatio, inquit, apud omnes tam 
+          Grae<lb break="no" ed="#P" n="61"/>cos, quam Latinos doctores personas multiplicat,
+          <lb ed="#P" n="62"/>et infra additur etiam dictio exclusiva, sola
+          <lb ed="#P" n="63"/>relatio. Concilium Vormaciense, in Confessione
+          <lb ed="#P" n="64"/>fidei : Quod Pater (inquit) est non ad se, sed ad
+          <lb ed="#P" n="65"/>Filium dicitur, etc. Ubi expendo, non loqui
+          <lb ed="#P" n="66"/>tantum de Patre, ut Patre, nam hoc per se
+          <lb ed="#P" n="67"/>notum erat, sed dicere : Quod est Pater, ut de
+          <lb ed="#P" n="68"/>toto illo, quod personae proprium est, se loqui
+          <lb ed="#P" n="69"/>ostendat. Quod fusius explicuit Concilium 
+          To<lb break="no" ed="#P" n="70"/>letanum 11, in Confess. fidei, nam imprimis
+          <lb ed="#P" n="71"/>habet eadem verba : Quod Pater est, non ad
+          <lb ed="#P" n="72"/>se, sed ad Filium est, deinde addit: In relatione
+          <lb ed="#P" n="73"/>numerus cernitur in substantia, id est, essentia,
+          <lb ed="#P" n="74"/>non invenitur : indicans, numerando 
+          relatio<lb break="no" ed="#P" n="75"/>nem et essentiam omnia dixisse, quae in Deo
+          <lb ed="#P" n="76"/>sunt. Unde exclusive concludit : Ergo hoc solo
+          <lb ed="#P" n="77"/>nuwmnerum insinuant, quod ad invicem sunt, et in
+          <lb ed="#P" n="78"/>hoc mimero carent, quod in se sunt. Et infra
+          <lb ed="#P" n="79"/>declarat, hujusmodi relationem esse 
+          proprie<lb break="no" ed="#P" n="80"/>tatem, unicuique propriam.
+        </p>
+        <p xml:id="szduep-176866-d1e449">
+          <lb ed="#P" n="81"/>T. Ex Patribus. — Tertio ex Patribus 
+          ge<lb break="no" ed="#P" n="82"/>neraliter sumi potest idem argumentum, quia
+          <lb ed="#P" n="83"/>cum saepe loquantur de proprietatibus 
+          perso<lb break="no" ed="#P" n="84"/>nalibus et illis dicant constitui, et distingui
+          <lb ed="#P" n="85"/>personas, nunquam aliarum mentionem 
+          fece<lb break="no" ed="#P" n="86"/>runt. Quin potius ita loquuntur, ut omnes
+          <lb ed="#P" n="87"/>alias manifeste excludere videantur. Praesertim
+          <lb ed="#P" n="88"/>vero D. Augustinus 5, de Trinit., cap. 5, et 
+          se<lb break="no" ed="#P" n="89"/>quentibus aperte docet, in Deo non esse, nisi
+          <lb ed="#P" n="90"/>substantiam, id est, essentiam, et relationem
+          <lb ed="#P" n="91"/>et quidquid ad se, et non ad aliud dicitur, ad
+          <lb ed="#P" n="92"/>essentiam pertinere. Unde inferius inquit : S
+          <lb ed="#P" n="93"/>quod dicitur Pater, ad se et non ad Filim 
+          di<lb break="no" ed="#P" n="94"/>ceretur, secundum substantiam dicerelur, sed
+          <lb ed="#P" n="95"/>quia ad Filium et non ad se dicitur, ideo non
+          <lb ed="#P" n="96"/>secundum substantiam dicitur. Ergo juxta 
+          Au<lb break="no" ed="#P" n="97"/>gustinum, repugnat proprietatem esse 
+          absolu<lb break="no" ed="#P" n="98"/>tam et esse propriam. Unde capite octavo,
+          <lb ed="#P" n="99"/>regulam constituit : Quidquid in Trinitate ad
+          <lb ed="#P" n="100"/>se dicitur, substantialiter dicitur. Damascenus
+          <lb ed="#P" n="101"/>lib. 1, cap. 10, omnia esse communia preter
+          <lb ed="#P" n="102"/>innascentiam, generationem et processionem,
+          <lb ed="#P" n="103"/>quod explicans, capite undecimo, inquit: JVos
+          <lb ed="#P" n="104"/>unum agnoscimus Deum, in solis quidem 
+          pro<lb break="no" ed="#P" n="105"/>prietatibus paternitatis, filiationis et 
+          processao<lb break="no" ed="#P" n="106"/>nis differentiam intelligentes. Similia 
+          sumun<lb break="no" ed="#P" n="107"/>tur ex Anselmo, de Incarn. Verbi, cap. 3, et de
+          <lb ed="#P" n="108"/>Processione Spiritus saneti, cap: 1, et ab illo
+          <lb ed="#P" n="109"/>videtur praecipue sumptum illud axioma: 72»
+          <lb ed="#P" n="110"/>divinis omnia sunt unum, ubi non obviat rela-
+          <pb ed="#P" n="701"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionis oppositio. Quod alias dixit Boetius, lib. 1,
+          <lb ed="#P" n="2"/>de Trinitate: Sola relatio multiplicat 
+          Trini<lb break="no" ed="#P" n="3"/>tatem. Quod etiam habet Joannes Maxentius,
+          <lb ed="#P" n="4"/>in secunda professione fidei. Et eodem sensu
+          <lb ed="#P" n="5"/>dixit Richardus de sancto Victore, lib. 4, de
+          <lb ed="#P" n="6"/>Trinitate, cap. 15. Personas non posse 
+          qua<lb break="no" ed="#P" n="7"/>litatibus distingui, sed tantummodo 
+          origi<lb break="no" ed="#P" n="8"/>nibus.
+        </p>
+        <p xml:id="szduep-176866-d1e538">
+          <lb ed="#P" n="9"/>8. Solet autem ad haec responderi, Patres
+          <lb ed="#P" n="10"/>non loqui de constitutione, sed de 
+          distinctio<lb break="no" ed="#P" n="11"/>ne, et fieri posse, ut personae constituantur
+          <lb ed="#P" n="12"/>per absoluta, distinguantur autem per 
+          rela<lb break="no" ed="#P" n="13"/>tiones. Sed hoc neque in sententia Scoti locum
+          <lb ed="#P" n="14"/>habet, docentis idem esse constitutivum, et
+          <lb ed="#P" n="15"/>distinctivum : neque etiam in aliorum 
+          senten<lb break="no" ed="#P" n="16"/>tia, quia saltem in absolutis omnes concedunt
+          <lb ed="#P" n="17"/>id, quod constituit, distinguere, et nos 
+          gene<lb break="no" ed="#P" n="18"/>raliter probavimus id verum esse. Praeter quam
+          <lb ed="#P" n="19"/>quod Patres non solum loquuntur de 
+          distinc<lb break="no" ed="#P" n="20"/>tione, sed etiam de eo, quo unaquaeque 
+          per<lb break="no" ed="#P" n="21"/>sona in se talis est, et universaliter non 
+          agnos<lb break="no" ed="#P" n="22"/>cunt in Deo quidpiam proprium, nisi 
+          relatio<lb break="no" ed="#P" n="23"/>nem, nec solum dicunt, personas numerari 
+          re<lb break="no" ed="#P" n="24"/>lationibus, sed etiam nihil numerari in Deo,
+          <lb ed="#P" n="25"/>praeter relationes, seu relativa.
+        </p>
+        <p xml:id="szduep-176866-d1e578">
+          <lb ed="#P" n="26"/>9. Ratio. — Quarto, ratio potissima in hac
+          <lb ed="#P" n="27"/>materia sumenda est ex altitudine mysteru,
+          <lb ed="#P" n="28"/>de quo nihil affirmare possumus, ut dicebam,
+          <lb ed="#P" n="29"/>nisi vel quod revelatum est, vel quod in 
+          re<lb break="no" ed="#P" n="30"/>velatis continetur. Praeter hoc vero addere
+          <lb ed="#P" n="31"/>possumus rationem supra insinuatam libro
+          <lb ed="#P" n="32"/>primo ex discursu valde consentaneo rationi
+          <lb ed="#P" n="33"/>naturali, supposito mysterio. Quia omnis 
+          pro<lb break="no" ed="#P" n="34"/>prietas absoluta in Deo dicit perfectionem 
+          sim<lb break="no" ed="#P" n="35"/>pliciter simplicem, quia neque includere 
+          po<lb break="no" ed="#P" n="36"/>test imperfectionem, neque etiam 
+          oppositio<lb break="no" ed="#P" n="37"/>nem, ratione cujus ex vi proprii conceptus
+          <lb ed="#P" n="38"/>non sit melior in quolibet ipsa, quam non
+          <lb ed="#P" n="39"/>ipsa. Proprietas autem personalis non potest
+          <lb ed="#P" n="40"/>formaliter dicere perfectionem simpliciter 
+          se<lb break="no" ed="#P" n="41"/>cundum propriam rationem suam, ut supra
+          <lb ed="#P" n="42"/>ostensum est, quia cum sit incommunicabilis,
+          <lb ed="#P" n="43"/>non potest esse Deo essentialis : omnis autem
+          <lb ed="#P" n="44"/>perfectio simpliciter est essentialis Deo, ergo
+          <lb ed="#P" n="45"/>personalis proprietas non potest esse absoluta
+          <lb ed="#P" n="46"/>in Deo. Atque eadem ratione non potest esse
+          <lb ed="#P" n="47"/>incommunicabilis, quia incommunicabiltas
+          <lb ed="#P" n="48"/>oriri debet, aut ex limitatione, aut ex 
+          opposi<lb break="no" ed="#P" n="49"/>tione : propterea enim subsistentia essentialis
+          <lb ed="#P" n="50"/>communicabilis est, quia nec limitata est, nec
+          <lb ed="#P" n="51"/>oppositionem habet, cum absoluta sit : ergo si
+          <lb ed="#P" n="52"/>subsistentia Patris esset etiam absoluta, non
+          <lb ed="#P" n="53"/>posset intelligi incommunicabilis Filio.
+        </p>
+        <p xml:id="szduep-176866-d1e641">
+          <lb ed="#P" n="54"/>10. Denique addere possumus, quod si 
+          divi<lb break="no" ed="#P" n="55"/>nae personae habeant proprietates absolutas,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vel cum illis etiam habent relativas, quae vere
+          <lb ed="#P" n="57"/>sint proprietates reales intrinsecae, vel non.
+          <lb ed="#P" n="58"/>Fortasse enim non deesset, qui supposita illa
+          <lb ed="#P" n="59"/>sententia lipae, hanc posteriorem partem 
+          eli<lb break="no" ed="#P" n="60"/>geret, ut probabiliorem. Quia tunc relationes
+          <lb ed="#P" n="61"/>tantum essent mere resultantes, et non 
+          con<lb break="no" ed="#P" n="62"/>stituentes, nec distinguentes personas, 
+          utrum<lb break="no" ed="#P" n="63"/>que enim supponunt, ut resultent : non ergo
+          <lb ed="#P" n="64"/>essent necessariae relationes illae ad 
+          constitu<lb break="no" ed="#P" n="65"/>tionem mysterii, sed tantum se haberent, sicut
+          <lb ed="#P" n="66"/>inter Patrem et Filium creatos, excepta ad
+          <lb ed="#P" n="67"/>summum differentia accidentis vel subsiantiae.
+          <lb ed="#P" n="68"/>Atque ita veritas et necessitas illarum 
+          relatio<lb break="no" ed="#P" n="69"/>num pendebit multum ab illa quaestione 
+          Meta<lb break="no" ed="#P" n="70"/>physica, an relatio, quae resultat ex absolutis,
+          <lb ed="#P" n="71"/>sit aliquid rei intrinsecum, vel sola 
+          denomi<lb break="no" ed="#P" n="72"/>natio. Consequens autem est valde alienum a
+          <lb ed="#P" n="73"/>mente Sanctorum Patrum, ponentium has 
+          re<lb break="no" ed="#P" n="74"/>lationes in divinis tanquam omnino 
+          necessa<lb break="no" ed="#P" n="75"/>rias, et per se requisitas ad distinctionem 
+          per<lb break="no" ed="#P" n="76"/>sonarum. Quod si ob hanc causam altera pars
+          <lb ed="#P" n="77"/>eligatur, non minus repugnat Patribus, 
+          po<lb break="no" ed="#P" n="78"/>nere in unaquaque persona duplicem 
+          proprie<lb break="no" ed="#P" n="79"/>tatem : tantum enim singulas, seu unicas
+          <lb ed="#P" n="80"/>agnoscunt, et ut supra argumentabamur, cum
+          <lb ed="#P" n="81"/>una sit perfecta et sufficiens, supervacaneum
+          <lb ed="#P" n="82"/>est aliam fingere, quod magis patebit 
+          respon<lb break="no" ed="#P" n="83"/>dendo ad argumenta.
+        </p>
+        <p xml:id="szduep-176866-d1e711">
+          <lb ed="#P" n="84"/>11. Fundamentum ergo praecipuum quod
+          <lb ed="#P" n="85"/>sumitur ex modo concipiendi nostro, paulatim
+          <lb ed="#P" n="86"/>est in sequentibus capitibus tractandum. Nunc
+          <lb ed="#P" n="87"/>breviter nego, aequiparandas esse relationes 
+          di<lb break="no" ed="#P" n="88"/>vinas cum creatis in omnibus, quae ibi 
+          assu<lb break="no" ed="#P" n="89"/>muntur. Et ratio differentiae primaria est, quia
+          <lb ed="#P" n="90"/>relationes divinae personales sunt subsistentes:
+          <lb ed="#P" n="91"/>creatae vero, et praesertim illae, quae censentur
+          <lb ed="#P" n="92"/>esse per veram resultantiam ex absolutis 
+          ex<lb break="no" ed="#P" n="93"/>tremis, sunt accidentariae, et in eo ordine sunt
+          <lb ed="#P" n="94"/>valde imperfectae et diminutae. Quae differentia
+          <lb ed="#P" n="95"/>quoad hanc posteriorem partem ex 
+          Metaphy<lb break="no" ed="#P" n="96"/>sica satis constat: quoad priorem vero constat
+          <lb ed="#P" n="97"/>ex his, quae diximus in libro tertio de 
+          subsis<lb break="no" ed="#P" n="98"/>tentiis personalibus. Et declarari breviter 
+          po<lb break="no" ed="#P" n="99"/>test, quia relationi, ut sic, non repugnat esse
+          <lb ed="#P" n="100"/>subsistentem, quia licet sit ad aliud, tamen
+          <lb ed="#P" n="101"/>etiam in se est aliquid secundum totam 
+          ratio<lb break="no" ed="#P" n="102"/>nem suam, ut supra declaravi: ergo non 
+          re<lb break="no" ed="#P" n="103"/>pugnat ut sit in se perfecto modo, atque adeo
+          <lb ed="#P" n="104"/>per se subsistens: ergo talis perfectio tribuenda
+          <lb ed="#P" n="105"/>est divinae relationi personali, nam quidquid
+          <lb ed="#P" n="106"/>est in Deo, habet perfectissimum modum, sibi
+          <lb ed="#P" n="107"/>non repugnantem.
+        </p>
+        <p xml:id="szduep-176866-d1e766">
+          <lb ed="#P" n="108"/>12. Ex hac autem differentia colligitur alia,
+          <lb ed="#P" n="109"/>scilicet, relationes originis, quae sunt inter
+          <lb ed="#P" n="110"/>creaturas, non esse per se intentas, sed secun-
+          <pb ed="#P" n="702"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dario resultare: propter quod dictum est ab
+          <lb ed="#P" n="2"/>Aristotele: Ad relationem non esse per se 
+          mo<lb break="no" ed="#P" n="3"/>tun. Hae vero relationes sunt per se, quia in
+          <lb ed="#P" n="4"/>qualibet natura, et maxime in divina, id, quod
+          <lb ed="#P" n="5"/>est per se subsistens in tali natura, est maxime
+          <lb ed="#P" n="6"/>per se. Atque ita Paternitas est in divinitate
+          <lb ed="#P" n="7"/>tanquam per se immediate conjuncta illi. 
+          Fi<lb break="no" ed="#P" n="8"/>liatio vero est tanquam per se intenta per 
+          ge<lb break="no" ed="#P" n="9"/>nerationem (ut more nostro loquamur), et idem
+          <lb ed="#P" n="10"/>est suo modo de processione.
+        </p>
+        <p xml:id="szduep-176866-d1e801">
+          <lb ed="#P" n="11"/>13. Rursus hinc etiam fit, ut relationes 
+          crea<lb break="no" ed="#P" n="12"/>tae indigeant fundamento, in quo nitantur
+          <lb ed="#P" n="13"/>propter imperfectionem suam, divinae autem
+          <lb ed="#P" n="14"/>illo non indigent, quia subsistentes sunt. 
+          Vo<lb break="no" ed="#P" n="15"/>cant quidem aliqui theologi essentiam 
+          funda<lb break="no" ed="#P" n="16"/>mentum harum relationum. Proprius vero 
+          di<lb break="no" ed="#P" n="17"/>cetur quasi radix illarum, sicut natura est 
+          ra<lb break="no" ed="#P" n="18"/>dix suae personalitatis, secludendo tamen 
+          im<lb break="no" ed="#P" n="19"/>perfectiones. Non est tamen fundamentum,
+          <lb ed="#P" n="20"/>quia neque est tale, ut per hujusmodi 
+          relatio<lb break="no" ed="#P" n="21"/>nem referatur: neque etiam est tale, ut in illo
+          <lb ed="#P" n="22"/>sit relatio tanquam in subjecto proximo vel
+          <lb ed="#P" n="23"/>remoto, etiam nostro modo concipiendi, sed
+          <lb ed="#P" n="24"/>potius essentia est in hypostasi, per relationem
+          <lb ed="#P" n="25"/>incommunicabiliter subsistente, tanquam in
+          <lb ed="#P" n="26"/>persona, quae in illa natura subsistit. Denique
+          <lb ed="#P" n="27"/>ex eodem principio sequitur, has relationes
+          <lb ed="#P" n="28"/>non supponere extrema, quae referant, nec
+          <lb ed="#P" n="29"/>distinctionem eorum, ut resultent, sed ipsas
+          <lb ed="#P" n="30"/>esse, quae referuntur secundum rem, ac 
+          proin<lb break="no" ed="#P" n="31"/>de easdem constituere personas relatas nostro
+          <lb ed="#P" n="32"/>modo concipiendi, et consequenter etiam illas
+          <lb ed="#P" n="33"/>distinguere, juxta superius dicta. Et ob 
+          eam<lb break="no" ed="#P" n="34"/>dem causam non oportet, ut pro termino 
+          ha<lb break="no" ed="#P" n="35"/>beant aliquid absolutum, sed se invicem per se
+          <lb ed="#P" n="36"/>primo respicere possunt. Haec ergo est natura
+          <lb ed="#P" n="37"/>illarum relationum personalium, ex qua 
+          satis<lb break="no" ed="#P" n="38"/>factum est fundamento oppositae sententiae.
+          <lb ed="#P" n="39"/>Quomodo autem huic rei et veritati modus
+          <lb ed="#P" n="40"/>noster concipiendi accommodari debeat, 
+          expli<lb break="no" ed="#P" n="41"/>cabo, ut dixi in sequentibus capitibus.
+        </p>
+        <p xml:id="szduep-176866-d1e871">
+          <lb ed="#P" n="42"/>14. Alia vero argumenta Scoti facilem ha-.
+          <lb ed="#P" n="43"/>bent responsionem. Dico enim, relationem 
+          per<lb break="no" ed="#P" n="44"/>sonalem ex proprio conceptu esse 
+          incommuni<lb break="no" ed="#P" n="45"/>cabilem eo ipso, quod subsistens relative est.
+          <lb ed="#P" n="46"/>Neque est ulla ratio, cur proprietas absoluta
+          <lb ed="#P" n="47"/>possit esse ratio subsistendi 
+          incommunicabili<lb break="no" ed="#P" n="48"/>ter, et non relativa: imo in Deo magis hoc 
+          po<lb break="no" ed="#P" n="49"/>test convenire relationi propter oppositionem.
+        </p>
+        <p xml:id="szduep-176866-d1e892">
+          <lb ed="#P" n="50"/>15. Ad argumentum autem ex hypothesi
+          <lb ed="#P" n="51"/>impossibili dicitur primo, ex uno impossibili
+          <lb ed="#P" n="52"/>posse sequi aliud impossibile. Deinde dicitur,
+          <lb ed="#P" n="53"/>in eo casu paternitatem non fore relationem
+          <lb ed="#P" n="54"/>per se primo subsistentem, sed advenientem
+          <lb ed="#P" n="55"/>personae jam subsistenti, sicut nunc est spiratio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>activa, et ideo mirum non esse, quod in eo
+          <lb ed="#P" n="57"/>casu non esset incommunicabilis, quia tunc non
+          <lb ed="#P" n="58"/>esset proprietas personalis. Ad alteram vero
+          <lb ed="#P" n="59"/>partem dicitur, proprietatem personalem esse
+          <lb ed="#P" n="60"/>quidem realiter incommunicabilem, non 
+          ta<lb break="no" ed="#P" n="61"/>men repugnare illi quod habeat convenientiam
+          <lb ed="#P" n="62"/>aliquam rationis cum alia simili proprietate, a
+          <lb ed="#P" n="63"/>qua possit intellectus abstrahere rationem 
+          com<lb break="no" ed="#P" n="64"/>munenm, ut in personis creatis videre licet. 
+          Ne<lb break="no" ed="#P" n="65"/>que intelligo, cur si divinae personae 
+          constitue<lb break="no" ed="#P" n="66"/>rentur absolutis, non convenirent eodem modo
+          <lb ed="#P" n="67"/>in communi conceptu personae increatae 
+          abso<lb break="no" ed="#P" n="68"/>lutae ; sicut nunc conveniunt in conceptu 
+          rela<lb break="no" ed="#P" n="69"/>tivae, ut in libro primo tractatum est: locus
+          <lb ed="#P" n="70"/>autem Proverbiorum jam explicatus est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

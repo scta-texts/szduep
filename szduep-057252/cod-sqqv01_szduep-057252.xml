@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="224"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-057252"><!-- t1-l3c9 -->
+        <head xml:id="szduep-057252-Hd1e101">Caput 9</head>
+        <head xml:id="szduep-057252-Hd1e103" type="question-title">De omnipotentia dei</head>
+        <p xml:id="szduep-057252-d1e106">
+          <lb ed="#P" n="77"/>CAPUT IX.
+          <lb ed="#P" n="78"/>DE OMNIPOTENTIA DEI.
+        </p>
+        <p xml:id="szduep-057252-d1e113">
+          <lb ed="#P" n="79"/>1. Omnipotentiam esse attributum Dei. —
+          <lb ed="#P" n="80"/>Supponimus imprimis , Omnipotentiam esse
+          <lb ed="#P" n="81"/>unum ex specialibus attributis, quae per 
+          mo<lb break="no" ed="#P" n="82"/>dum affirmationis de DEO proprie et vere 
+          di<lb break="no" ed="#P" n="83"/>cuntur. Quae veritas, quoad rem ipsam de fide
+          <lb ed="#P" n="84"/>est, ita enim loquitur Deus: Ego Deus 
+          omni<lb break="no" ed="#P" n="85"/>potens, Gen. 11, 33, et saepe alias et Sap. 11.
+          <lb ed="#P" n="86"/>Vocatur hoc attributum : Omnipotens manus
+          <lb ed="#P" n="87"/>Dei, quee creavit omnia. Et ratione illius 
+          dici<lb break="no" ed="#P" n="88"/>tur Luc. 1: Non erit impossibile apud Deum
+          <lb ed="#P" n="89"/>omne verbum. In hoc autem attributo duo 
+          in<lb break="no" ed="#P" n="90"/>cluduntur. Unum est, esse potentiam vere et
+          <lb ed="#P" n="91"/>proprie effectricem : aliud est, illam potentiam
+          <lb ed="#P" n="92"/>esse amplissimam in objecto suo: atque adeo
+          <lb ed="#P" n="93"/>comprehendere sub se omne possibile, id est,
+          <lb ed="#P" n="94"/>quod fieri non repugnat. Ita enim 
+          explican<lb break="no" ed="#P" n="95"/>dum est hujus potentiae objectum, ut tractavi
+          <lb ed="#P" n="96"/>in disput. 30 Metaphysicae, sect. ult. quibus
+          <lb ed="#P" n="97"/>nihil fere est addendum, quia res est facillima,
+          <lb ed="#P" n="98"/>explicabitur tamen amplius ex dicendis.
+        </p>
+        <p xml:id="szduep-057252-d1e159">
+          <lb ed="#P" n="99"/>2. Dubium.— Resolutio.— Quaeri autem hic
+          <lb ed="#P" n="100"/>solet primo : An hoc attributum sit ratione
+          <lb ed="#P" n="101"/>distinctum ab omnibus aliis, vel sit aliquod ex
+          <lb ed="#P" n="102"/>caeteris, speciali ratione, ac modo conceptum.
+          <lb ed="#P" n="103"/>Et quoniam supra diximus, omnia attributa
+          <lb ed="#P" n="104"/>affirmativa substantiae divinae, tantum ad illa
+          <lb ed="#P" n="105"/>tria revocari, scilicet scientiam, voluntatem et
+          <lb ed="#P" n="106"/>potentiam ; solum superest quaestio, an 
+          poten<lb break="no" ed="#P" n="107"/>tia sit ipsa scientia, vel voluntas, aut aliquid
+          <pb ed="#P" n="225"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ratione distinctum ab ipsis. Quam quaestionem
+          <lb ed="#P" n="2"/>citato loco late etiam tractavi: censuique hoc
+          <lb ed="#P" n="3"/>attributum esse ratione distinctum ab alis
+          <lb ed="#P" n="4"/>duobus, quam sententiam nunc etiam 
+          verio<lb break="no" ed="#P" n="5"/>rem esse existimo. Quamvis illa etiam 
+          proba<lb break="no" ed="#P" n="6"/>babilis sit, quae affirmat voluntatem Dei esse
+          <lb ed="#P" n="7"/>potentiam Dei activam ad extra, quia per
+          <lb ed="#P" n="8"/>suummeet velle, ut tale est, efficacitatem habet
+          <lb ed="#P" n="9"/>producendi id, quod vult. Probabilius vero
+          <lb ed="#P" n="10"/>existimo hanc efficacitatem immediate 
+          conve<lb break="no" ed="#P" n="11"/>nire divinae essentiae ratione sui esse et summae
+          <lb ed="#P" n="12"/>actualitaris, omnipotentiam nihil aliud esse,
+          <lb ed="#P" n="13"/>quam ipsummet esse divinum, ut per se efficax
+          <lb ed="#P" n="14"/>ad extra, ut citato loco declaravi. 
+          Subordi<lb break="no" ed="#P" n="15"/>natur tamen, nostro loquendi modo, divina
+          <lb ed="#P" n="16"/>omnipotentia divinae scientiae, ac voluntati
+          <lb ed="#P" n="17"/>illi, ut dirigenti actionem, quia Deus 
+          rationa<lb break="no" ed="#P" n="18"/>biliter operatur, ut dixit Augustinus, lib. 83,
+          <lb ed="#P" n="19"/>quaest. 46, huic vero, ut moventi et applicanti,
+          <lb ed="#P" n="20"/>quia Deus nihil nisi voluntarie et libere 
+          opera<lb break="no" ed="#P" n="21"/>tur, et hoc modo facilius intelliguntur omnia,
+          <lb ed="#P" n="22"/>quae de actione Dei ad extra, et de concursu
+          <lb ed="#P" n="23"/>cum libero arbitrio traduntur.
+        </p>
+        <p xml:id="szduep-057252-d1e236">
+          <lb ed="#P" n="24"/>Infinitas potentia DEI.
+        </p>
+        <p xml:id="szduep-057252-d1e241">
+          <lb ed="#P" n="25"/>3. Secundo quaeri solet an haec potentia Dei
+          <lb ed="#P" n="26"/>infinita sit in ratione potentiae activae, et in
+          <lb ed="#P" n="27"/>quo consistat haec infinitas, et an inferatur ex
+          <lb ed="#P" n="28"/>omnipotentia, vel illam inferat, vel sit idem
+          <lb ed="#P" n="29"/>cum illa. Ad quae omnia imprimis dicendum
+          <lb ed="#P" n="30"/>est potentiam Dei effectivam sine dubio 
+          infini<lb break="no" ed="#P" n="31"/>tam esse, simpliciter loquendo. Ita colligitur ex
+          <lb ed="#P" n="32"/>Scriptura, Psalmo 144: Magnus Dominus et 
+          lau<lb break="no" ed="#P" n="33"/>dabilis nimis, et magnitudinis ejus non est finis ;
+          <lb ed="#P" n="34"/>subditurque statim: Generatio et generatio 
+          lau<lb break="no" ed="#P" n="35"/>dabit opera tua, et potentiam tuam 
+          pronuntia<lb break="no" ed="#P" n="36"/>bunt. Quo declaratur magnitudinem illam sine
+          <lb ed="#P" n="37"/>fine etiam divinae potentiae convenire. Unde
+          <lb ed="#P" n="38"/>Eccles. 18, inquit Sapiens : Quis investigabit
+          <lb ed="#P" n="39"/>magnalia ejus- virtutem autem magnitudinis
+          <lb ed="#P" n="40"/>ejus quis enuntiabit, aut quis adjiciet enarrare
+          <lb ed="#P" n="41"/>masericordium ejus. Non est minuere negue 
+          ad<lb break="no" ed="#P" n="42"/>Jicere, neque est invenire magnalia Dei. Quae
+          <lb ed="#P" n="43"/>omnia verba infinitatem indicant, non minus
+          <lb ed="#P" n="44"/>in potestate et virtute agendi, quam in essentia
+          <lb ed="#P" n="45"/>et perfectione.
+        </p>
+        <p xml:id="szduep-057252-d1e289">
+          <lb ed="#P" n="46"/>4. Infinitas intensiva et extensiva. — Deinde
+          <lb ed="#P" n="47"/>ut haec infinitas explicetur, addendum est 
+          di<lb break="no" ed="#P" n="48"/>vinam potentiam dici posse infinitam, et 
+          in<lb break="no" ed="#P" n="49"/>tensive et extensive. Intensive infinitam voco,
+          <lb ed="#P" n="50"/>quia in se est infinitae perfectionis. Extensive,
+          <lb ed="#P" n="51"/>quia in objectis suis infinitam extensionem 
+          ha<lb break="no" ed="#P" n="52"/>bet. Prior pars a priori ostendi solet, quia haec
+          <lb ed="#P" n="53"/>potentia est quasi proprietas consequens infi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>nitam essentiam. Quae ratio est optima, solum
+          <lb ed="#P" n="55"/>vero declarat infinitatem quamdam in proprio
+          <lb ed="#P" n="56"/>aliquo generc scu conceptu: sicut scientia vel
+          <lb ed="#P" n="57"/>voluntas, ut sic, dicitur in proprio genere 
+          infi<lb break="no" ed="#P" n="58"/>nita. Ego vero sentio divinam potentiam ad
+          <lb ed="#P" n="59"/>extra ex vi sui conceptus exigere infinitatem
+          <lb ed="#P" n="60"/>simpliciter et in genere entis. Quod ita declaro,
+          <lb ed="#P" n="61"/>quia divina potentia non solum est activa per
+          <lb ed="#P" n="62"/>modum principii guo, proximi scu immediati,
+          <lb ed="#P" n="63"/>quale intelligitur in igne esse calor, sed etiam
+          <lb ed="#P" n="64"/>per modum principii principalis, qualis 
+          intelli<lb break="no" ed="#P" n="65"/>gitur in igne esse forma substantialis. Imo haec
+          <lb ed="#P" n="66"/>est excellentia divinae naturae, quod non 
+          indi<lb break="no" ed="#P" n="67"/>get principio agendi proximo, distincto etiam
+          <lb ed="#P" n="68"/>ratione a sua substantia, sed est activa 
+          imme<lb break="no" ed="#P" n="69"/>diate per suam substantiam, quamvis 
+          intellec<lb break="no" ed="#P" n="70"/>tuali et libero modo, quia per eamdem 
+          sub<lb break="no" ed="#P" n="71"/>stantiam intellectualis est, et libera est in 
+          a<lb break="no" ed="#P" n="72"/>gendo, ut in citato loco Metaphysicae latius 
+          de<lb break="no" ed="#P" n="73"/>claravi. Hinc ergo fit ut talis potentia, quatenus
+          <lb ed="#P" n="74"/>tale principium agendi est, eminenter 
+          conti<lb break="no" ed="#P" n="75"/>nere debeat omnes effectus quorum est activa.
+          <lb ed="#P" n="76"/>Quia principium principalis actionis debet 
+          con<lb break="no" ed="#P" n="77"/>Unere terminum, vel formaliter, ut in actione
+          <lb ed="#P" n="78"/>univoca, vel eminenter, ut in aequivoca actione,
+          <lb ed="#P" n="79"/>qualis est omnis actio Dei ad extra. Ergo illud
+          <lb ed="#P" n="80"/>principium agendi, quatenus tale est, requirit
+          <lb ed="#P" n="81"/>infinitatem simpliciter et in genere entis, quia
+          <lb ed="#P" n="82"/>haec infinitas necessaria est ut eminenter 
+          con<lb break="no" ed="#P" n="83"/>tineat omnia.
+        </p>
+        <p xml:id="szduep-057252-d1e376">
+          <lb ed="#P" n="84"/>5. Potest etiam haec infinitas ex alio modo
+          <lb ed="#P" n="85"/>agendi divinae potentiae declarari, quia talis est
+          <lb ed="#P" n="86"/>ut sine dependentia ab alio suam actionem 
+          per<lb break="no" ed="#P" n="87"/>ficere possit : ad hoc autem requiritur perfectio
+          <lb ed="#P" n="88"/>simpliciter infinita in genere entis, ergo divina
+          <lb ed="#P" n="89"/>potentia activa hoc modo infinita est in suo
+          <lb ed="#P" n="90"/>esse, et haec est infinttas intensiva. Minor a
+          <lb ed="#P" n="91"/>posteriori potest probari, quia illa perfectio
+          <lb ed="#P" n="92"/>operandi propria virtute, sine dependentia ab
+          <lb ed="#P" n="93"/>alio, non est communicabils virtuti, vel 
+          sub<lb break="no" ed="#P" n="94"/>stantiae creatae, etiamsi in infinitum perfectior
+          <lb ed="#P" n="95"/>et perfectior cogitetur, ergo signum est illum
+          <lb ed="#P" n="96"/>agendi modum postulare perfectionem 
+          simpli<lb break="no" ed="#P" n="97"/>citer infinitam. Secundo declaratur a priori,
+          <lb ed="#P" n="98"/>quia esse independens ab alio est esse infinitum
+          <lb ed="#P" n="99"/>simpliciter intensive, sed potentia activa sine
+          <lb ed="#P" n="100"/>dependentia ab alia causa, ideo habet hanc 
+          in<lb break="no" ed="#P" n="101"/>dependentiam in agendo, quia habet etiam in
+          <lb ed="#P" n="102"/>essendo, imo quia est ipsum esse independens
+          <lb ed="#P" n="103"/>(nam, ut dixi, non est tantum potentia proxima
+          <lb ed="#P" n="104"/>sed etiam principium principale per se 
+          imme<lb break="no" ed="#P" n="105"/>diate operans) ergo eamdem infinitatem 
+          inten<lb break="no" ed="#P" n="106"/>sivam habet, ut est principium agendi quam
+          <lb ed="#P" n="107"/>habet, ut est tale esse vel talis natura 
+          substan<lb break="no" ed="#P" n="108"/>tialis. Nam revera, sicut calor, ut est principium
+          <pb ed="#P" n="226"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>calefaciendi includit totam perfectionem quam
+          <lb ed="#P" n="2"/>requirit, ut talis forma sit, vel ut calidum 
+          for<lb break="no" ed="#P" n="3"/>maliter constituat; ita divina essentia totam
+          <lb ed="#P" n="4"/>perfectionem intensivam seu entitativam quam
+          <lb ed="#P" n="5"/>intelligitur postulare, ut talis essentia sit, 
+          in<lb break="no" ed="#P" n="6"/>telligitur etiam postulare, ut sittale principium
+          <lb ed="#P" n="7"/>agendi. :
+        </p>
+        <p xml:id="szduep-057252-d1e452">
+          <lb ed="#P" n="8"/>6. Unde fit ut Deus in omni actione sua agat
+          <lb ed="#P" n="9"/>per potentiam suam, ut est infinita simpliciter
+          <lb ed="#P" n="10"/>et intensive, licet non in singulis actionibus
+          <lb ed="#P" n="11"/>operetur secundum totam extensionem suam,
+          <lb ed="#P" n="12"/>ut per se patet. Et hoc modo dicunt theologi
+          <lb ed="#P" n="13"/>actionem creandi, etiam si sit de re minima,
+          <lb ed="#P" n="14"/>esse a potentia Dei, ut infinita simpliciter, ex
+          <lb ed="#P" n="15"/>modo agendi ex nihilo, ut late declaravi in
+          <lb ed="#P" n="16"/>disp. 20 Metaphysicae: sic ergo ex alio modo
+          <lb ed="#P" n="17"/>agendi sine dependentia ab alio, potentia Dei
+          <lb ed="#P" n="18"/>se ostendit infinitam intensive in omni actione
+          <lb ed="#P" n="19"/>sua. Neque in hac infinitate aliquid 
+          declaran<lb break="no" ed="#P" n="20"/>dum occurrit, nec difficultas alicujus momenti
+          <lb ed="#P" n="21"/>tractanda. Ex hac vero infinitate, ut a nobis
+          <lb ed="#P" n="22"/>declarata est, recte intelligitur quod diximus
+          <lb ed="#P" n="23"/>potentiam Dei activam ad extra esse ratione
+          <lb ed="#P" n="24"/>distinctam ab intellectu et voluntate; quia non
+          <lb ed="#P" n="25"/>se habet, ut facultas operativa addita secundum
+          <lb ed="#P" n="26"/>rationem essentiae Dei. Sed est ipsamet essentia,
+          <lb ed="#P" n="27"/>ut per se immediate operativa, tanquam 
+          prin<lb break="no" ed="#P" n="28"/>cipium principale et immediatum operationis.
+          <lb ed="#P" n="29"/>Sicut potentia calefaciendi, respectu ipsius 
+          ca<lb break="no" ed="#P" n="30"/>loris, non dicit potentiam iilli additam, sed dicit
+          <lb ed="#P" n="31"/>ipsum calorem, ut activum per se ipsum, talis
+          <lb ed="#P" n="32"/>actionis seu termini.
+        </p>
+        <p xml:id="szduep-057252-d1e509">
+          <lb ed="#P" n="33"/>Infinitas extensiva omnipotentiae.
+        </p>
+        <p xml:id="szduep-057252-d1e515">
+          <lb ed="#P" n="34"/>1. Prima opinio. — Refutatur. — Ex hac
+          <lb ed="#P" n="35"/>etiam infinitate intensiva demonstranda est a
+          <lb ed="#P" n="36"/>priori infinitas extensiva potentiae divinae quae
+          <lb ed="#P" n="37"/>in hoc consistit, quod in latitudine suorum 
+          ef<lb break="no" ed="#P" n="38"/>fectuum non habet terminum. Omnis enim 
+          in<lb break="no" ed="#P" n="39"/>finitas consistit aliquo modo in negatione 
+          ali<lb break="no" ed="#P" n="40"/>eujus termini, ut-capite primo, libro secundo,
+          <lb ed="#P" n="41"/>declaratum est, potentia vero activa quae in se
+          <lb ed="#P" n="42"/>indivisibilis est, non potest habere extensionem
+          <lb ed="#P" n="43"/>nisi in effectibus, ergo nec infinitatem sub hac
+          <lb ed="#P" n="44"/>ratione habere potest, nisi quia in illa latitudine
+          <lb ed="#P" n="45"/>effectu caret termino: hoc ergo modo dicitur 
+          in<lb break="no" ed="#P" n="46"/>finita divina potentia. Hanc autem infinitatem
+          <lb ed="#P" n="47"/>aliqui putant sufficienter probari ex eo quod
+          <lb ed="#P" n="48"/>Deus potest velocius ac velocius movere 
+          quodh<lb break="no" ed="#P" n="49"/>bet corpus infinitum sine ullo termino. At haec
+          <lb ed="#P" n="50"/>infirma probatio est, tum quia solum ostendit
+          <lb ed="#P" n="51"/>infinitatem quamdam extensivam in quodam
+          <lb ed="#P" n="52"/>cenere et satis limitato effectu et imperfecto.
+          <lb ed="#P" n="53"/>Unde non video quomodo ex illo effectu colli-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>gi possit potentia simpliciter infinita ad alios
+          <lb ed="#P" n="55"/>quoscumque possibiles vel cogitabiles effectus.
+          <lb ed="#P" n="56"/>Multoque minus potest colligi ex illo effectu
+          <lb ed="#P" n="57"/>infinitas intensiva simphliciter divinae potentiae,
+          <lb ed="#P" n="58"/>secluso modo agendi sine dependentia ab alio
+          <lb ed="#P" n="59"/>quem nos consideravimus. Quia ad illam 
+          velo<lb break="no" ed="#P" n="60"/>citatem in infinitum sufticit potentia motiva
+          <lb ed="#P" n="61"/>superloris ordinis, et infinita secundum quid.
+          <lb ed="#P" n="62"/>Unde non est improbabile inveniri in angels,
+          <lb ed="#P" n="63"/>et non dubito quin possit Deus illam 
+          communi<lb break="no" ed="#P" n="64"/>care creaturae, dummodo semper moveat cum
+          <lb ed="#P" n="65"/>concursu primae causae.
+        </p>
+        <p xml:id="szduep-057252-d1e589">
+          <lb ed="#P" n="66"/>8. Secunda opinio. — Bejicitur. — Ahi hane
+          <lb ed="#P" n="67"/>infinitatem extensivam colligunt ex eo quod
+          <lb ed="#P" n="68"/>effectus divinae potentiae possunt plures in 
+          in<lb break="no" ed="#P" n="69"/>finitum produci. Sed imprimis si sit sermo de
+          <lb ed="#P" n="70"/>pluralitate successiva faciendi plura, et plura
+          <lb ed="#P" n="71"/>ejusdem rationis seu perfectionis, nulla inde
+          <lb ed="#P" n="72"/>infinitas colligitur, sed tantum duratio et 
+          im<lb break="no" ed="#P" n="73"/>mutabilitas, seu integritas ejusdem virtutis. Sic
+          <lb ed="#P" n="74"/>enim sol, si perpetuo duraret, semper facere
+          <lb ed="#P" n="75"/>posset in infinitum, nec propterea dici potest
+          <lb ed="#P" n="76"/>virtus ejus infinita extensive. Si autem sit 
+          ser<lb break="no" ed="#P" n="77"/>mo de effectibus qui simul fieri seu conservari
+          <lb ed="#P" n="78"/>possint in majori, et majori numero in 
+          infini<lb break="no" ed="#P" n="79"/>tum, si illi tantum sint sub certo gradu et 
+          h<lb break="no" ed="#P" n="80"/>mitatae perfectionis, etiam ex hoc effectu non
+          <lb ed="#P" n="81"/>potest colligi infinitas extensiva simpliciter in
+          <lb ed="#P" n="82"/>potentia, sed solum secundum quid, quia 
+          poten<lb break="no" ed="#P" n="83"/>üa activa superioris ordinis et eminentioris
+          <lb ed="#P" n="84"/>virtutis ad id suflicere posset, etiamsi finita
+          <lb ed="#P" n="85"/>simplieiter esset. Unde neque ex illo solo capite
+          <lb ed="#P" n="86"/>potest colligi infinitas intensive simpliciter,
+          <lb ed="#P" n="87"/>nisi aliunde ex modo agendi colligatur. Oportet
+          <lb ed="#P" n="88"/>ergo ut ille processus in infinitum sit, non solum
+          <lb ed="#P" n="89"/>in multitudine effectuum, sed etiam in 
+          perfec<lb break="no" ed="#P" n="90"/>tione eorum, quae in infinitum procedat in tota
+          <lb ed="#P" n="91"/>latitudine entis, et in speciebus ejus absque
+          <lb ed="#P" n="92"/>praefixo termino.
+        </p>
+        <p xml:id="szduep-057252-d1e650">
+          <lb ed="#P" n="93"/>9. Et hoc modo bene quidem infertur Dei
+          <lb ed="#P" n="94"/>potentiam esse infinitam simpliciter extensive
+          <lb ed="#P" n="95"/>ex eo quod potest Deus producere in infinitum
+          <lb ed="#P" n="96"/>perfectiores, et perfectiores species rerum, in
+          <lb ed="#P" n="97"/>genere vel gradu substantiarum. Quia in 
+          ex<lb break="no" ed="#P" n="98"/>tensione potentiae activae nulla major extensio
+          <lb ed="#P" n="99"/>inteliigi potest, et illa est, et concipitur absque
+          <lb ed="#P" n="100"/>termino finito. Dico autem /inito, quia 
+          termi<lb break="no" ed="#P" n="101"/>num infinitum habere potest saltem 
+          extrinse<lb break="no" ed="#P" n="102"/>cum, quia Deus non potest facere substantiam
+          <lb ed="#P" n="103"/>simpliciter infinitam in essentia, quia illa 
+          fac<lb break="no" ed="#P" n="104"/>tibilis non est: sed, infra illam, potest facere
+          <lb ed="#P" n="105"/>quamcumque aliam infinitam etiamsi in 
+          infi<lb break="no" ed="#P" n="106"/>nitum crescat seu multiplicetur in specifica
+          <lb ed="#P" n="107"/>perfectione. llle vero terminus non tollit 
+          infi<lb break="no" ed="#P" n="108"/>nitatem simpliciter in extensione illius objecti,
+          <pb ed="#P" n="227"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia ille terminus est extrinsecus, unde non
+          <lb ed="#P" n="2"/>pertinet ad objectum omnipotentiae, et ita 
+          lati<lb break="no" ed="#P" n="3"/>tudo objecti semper est absolute infinita, sine
+          <lb ed="#P" n="4"/>proprio termino. Unde ex illa extensione 
+          ob<lb break="no" ed="#P" n="5"/>jecti optime etiam infertur infinitas intensiva
+          <lb ed="#P" n="6"/>talis potentiae, quia non posset totam illam
+          <lb ed="#P" n="7"/>substantiarum possibilium latitudinem et 
+          mul<lb break="no" ed="#P" n="8"/>titudinem actu continere eminenter, nisi in se
+          <lb ed="#P" n="9"/>esset intensive infinita.
+        </p>
+        <p xml:id="szduep-057252-d1e711">
+          <lb ed="#P" n="10"/>10. Verumtamen haec probatio a posteriori
+          <lb ed="#P" n="11"/>est, nam a priori potius colligitur infinita illa
+          <lb ed="#P" n="12"/>extensio ex infinitate intensiva talis principii.
+          <lb ed="#P" n="13"/>Deinde probatio sumpta est ex re minus certa
+          <lb ed="#P" n="14"/>quam sit conclusio. Non enim defuerunt 
+          theo<lb break="no" ed="#P" n="15"/>logi qui negaverint posse Deum producere illo
+          <lb ed="#P" n="16"/>modo infinitas species, seu in infinitum. 
+          Quo<lb break="no" ed="#P" n="17"/>rum opinio licet improbabilis (mea sententia)
+          <lb ed="#P" n="18"/>sit, ut disp. 3 Metaphysicae, sect. 17, dixi
+          <lb ed="#P" n="19"/>num. 18 et sequentibus, nihilominus ostendit
+          <lb ed="#P" n="20"/>probationem illam procedere ex principio 
+          mi<lb break="no" ed="#P" n="21"/>nus certo quam sit assertio. Unde potius 
+          sen<lb break="no" ed="#P" n="22"/>tentia illa ex eo maxime improbanda est, quod
+          <lb ed="#P" n="23"/>limitat infinitam potentiam Dei ad certum 
+          ter<lb break="no" ed="#P" n="24"/>minum finitum. Cum ex parte rerum non 
+          re<lb break="no" ed="#P" n="25"/>pugnet dari speciem aliam perfectiorem illo
+          <lb ed="#P" n="26"/>termino.
+        </p>
+        <p xml:id="szduep-057252-d1e750">
+          <lb ed="#P" n="27"/>11. Infinitatem extensivam probari ea 
+          infi<lb break="no" ed="#P" n="28"/>nitate intensiva. — Quocirca infinitas extensiva
+          <lb ed="#P" n="29"/>divinae potentiae directe probanda est ex 
+          infi<lb break="no" ed="#P" n="30"/>nitate intensiva, quia ex illa summa 
+          perfec<lb break="no" ed="#P" n="31"/>tione sui esse habet divina potentia, ut 
+          exten<lb break="no" ed="#P" n="32"/>datur ad omne possibile, seu ex se non 
+          repu<lb break="no" ed="#P" n="33"/>qgnans. Quanta vero sit latitudo illa entium
+          <lb ed="#P" n="34"/>possibilium, quae sub objecto includitur, non
+          <lb ed="#P" n="35"/>potest a nobis ex sola perfectione divini esse
+          <lb ed="#P" n="36"/>demonstrari, re tamen vera, in illa habet 
+          fun<lb break="no" ed="#P" n="37"/>damentum. Nam, quia Deus simpliciter 
+          infini<lb break="no" ed="#P" n="38"/>tus est et nunquam satis participari potest,
+          <lb ed="#P" n="39"/>ideo semper magis ac magis et infinitis modis
+          <lb ed="#P" n="40"/>potest participari. Ex quibus etiam constat, ab
+          <lb ed="#P" n="41"/>hac infinitate extensiva, virtutem activam Dei
+          <lb ed="#P" n="42"/>denominari Omnipotentiam. Et ob eam 
+          ratio<lb break="no" ed="#P" n="43"/>nem de divina sapientia dici Sapient. 7: Cum
+          <lb ed="#P" n="44"/>sit una, omnia posse, et de divino spiritu, quod
+          <lb ed="#P" n="45"/>omnem habeat virtutem. Vtaque idem est 
+          poten<lb break="no" ed="#P" n="46"/>tiam esse infinitam extensive et esse 
+          omnipo<lb break="no" ed="#P" n="47"/>tentiam, licet ratio nominum sit diversa, per
+          <lb ed="#P" n="48"/>unum enim explicatur potentiam illam 
+          exten<lb break="no" ed="#P" n="49"/>di ad omnia possibilia, per aliud vero indicatur -
+          <lb ed="#P" n="50"/>illa possibilia esse infinita. Et ita unum ex alio
+          <lb ed="#P" n="51"/>probari potest.
+        </p>
+        <p xml:id="szduep-057252-d1e807">
+          <lb ed="#P" n="52"/>Objectum divine omnipotentiae exponitur.
+        </p>
+        <p xml:id="szduep-057252-d1e813">
+          <lb ed="#P" n="53"/>12. Ex quibus intelligere licet primo quo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>modo divina omnipotentia ad suum objectum
+          <lb ed="#P" n="55"/>comparetur. Cum enim divina omnipotentia
+          <lb ed="#P" n="56"/>sit vera et realis potentia activa, non potest non
+          <lb ed="#P" n="57"/>habere aliquid per modum objecti. Tum quia
+          <lb ed="#P" n="58"/>ratio potentiae non potest a nobis aliter concipi,
+          <lb ed="#P" n="59"/>tum etiam, quia si illa est potentia, necesse est
+          <lb ed="#P" n="60"/>ut per illam possit aliquid fieri, hoc autem,
+          <lb ed="#P" n="61"/>quod ab illa fieri potest, vocamus objectum
+          <lb ed="#P" n="62"/>ejus. Non est tamen divina potentia talis 
+          na<lb break="no" ed="#P" n="63"/>turae vel perfectionis quasi specificae, ut ad 
+          il<lb break="no" ed="#P" n="64"/>Iud objectum ordinetur, aut realem 
+          habitudi<lb break="no" ed="#P" n="65"/>nem ad illud habeat, vel quae ab illo quasi
+          <lb ed="#P" n="66"/>specificari intelligatur, sicut potentiae creatae
+          <lb ed="#P" n="67"/>solent a suis objectis specificari. Nam hic 
+          mo<lb break="no" ed="#P" n="68"/>dus potentiae minus perfectus est, quia supponit
+          <lb ed="#P" n="69"/>potentiam quasi per se ordinatam ad suum 
+          ob<lb break="no" ed="#P" n="70"/>jectum, quod de divina omnipotentia dici non
+          <lb ed="#P" n="71"/>potest. Est ergo divinum esse absolutissimum,
+          <lb ed="#P" n="72"/>quia vero in se complectitur omnem 
+          perfectio<lb break="no" ed="#P" n="73"/>nem, inde habet ut sit effectivum omnis rei
+          <lb ed="#P" n="74"/>quae possit habere rationem entis, ideoque sine
+          <lb ed="#P" n="75"/>habitudine vel specificatione ab objecto suum
+          <lb ed="#P" n="76"/>objectum necessario habet.
+        </p>
+        <p xml:id="szduep-057252-d1e870">
+          <lb ed="#P" n="77"/>13. Objectio. — Solutio. — Dices, quacumque
+          <lb ed="#P" n="78"/>ratione potentia illa requirat objectum, habebit
+          <lb ed="#P" n="79"/>talem connexionem cum illo, ut sine illo esse
+          <lb ed="#P" n="80"/>non possit, hoc autem repugnat cuicumque
+          <lb ed="#P" n="81"/>perfectioni divinae, quee magis necessaria est
+          <lb ed="#P" n="82"/>quam sit objectum potentiae divinae, etiam in
+          <lb ed="#P" n="83"/>esse possibili. Respondeo verum esse potentiam
+          <lb ed="#P" n="84"/>habere cum objecto necessariam connexionem
+          <lb ed="#P" n="85"/>(quidquid alii contendant) non quidem 
+          relatio<lb break="no" ed="#P" n="86"/>nis realis et termini, nulla enim talis relatio
+          <lb ed="#P" n="87"/>est in Deo ad creaturas, sed est necessaria 
+          con<lb break="no" ed="#P" n="88"/>nexio causalitatis. Sicut enim Deus, actu 
+          etti<lb break="no" ed="#P" n="89"/>ciens esse non potest, nisi aliquid fiat, non quia
+          <lb ed="#P" n="90"/>ipse referatur ad effectum, sed quia effectus
+          <lb ed="#P" n="91"/>pendet ab ipso: ita nec Deus potest esse 
+          omni<lb break="no" ed="#P" n="92"/>potens, nisi aliquid sit possibile ab ipso, non
+          <lb ed="#P" n="93"/>quia omnipotentia ejus ordinetur ad effectum
+          <lb ed="#P" n="94"/>possibilem, sed quia ab illo necessario habent
+          <lb ed="#P" n="95"/>res, ut sint possibiles, si ex parte earum non
+          <lb ed="#P" n="96"/>sit repugnantia. Haec autem non repugnantia
+          <lb ed="#P" n="97"/>omnino necessaria est, ubi implicatio 
+          contra<lb break="no" ed="#P" n="98"/>dictionis non invenitur, ut latius explicabimus
+          <lb ed="#P" n="99"/>infra, libro nono de Trinitate, capite sexto, ubi
+          <lb ed="#P" n="100"/>emanatio Verbi divini cum possibilitate 
+          crea<lb break="no" ed="#P" n="101"/>turarum, in necessitate, comparanda est.
+        </p>
+        <p xml:id="szduep-057252-d1e927">
+          <lb ed="#P" n="102"/>14. Conclusio. — Secundo intelligitur ex
+          <lb ed="#P" n="103"/>dictis quid claudatur sub objecto proprio 
+          divi<lb break="no" ed="#P" n="104"/>nae potentiae. Dicendum est enim cum D. 
+          Tho<lb break="no" ed="#P" n="105"/>ma, comprehendi sub illo objecto quidquid
+          <lb ed="#P" n="106"/>habere potest rationem entis, utique possibilis.
+          <lb ed="#P" n="107"/>Dicitur autem habere rationem entis, quidquid
+          <lb ed="#P" n="108"/>non implicat contradictionem, ut in dicto loco
+          <pb ed="#P" n="228"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Metaphysicae late tractavi, distinguendo in illo
+          <lb ed="#P" n="2"/>objecto negationem non repugnantiae, a 
+          posi<lb break="no" ed="#P" n="3"/>tiva possibilitate. Nam prior supponitur ex se
+          <lb ed="#P" n="4"/>in objecto, posterior vero, quacumque ratione
+          <lb ed="#P" n="5"/>concipiatur ut aliquid positivum possibile, 
+          ha<lb break="no" ed="#P" n="6"/>bet rationem possibilis ab ipsa omnipotentia
+          <lb ed="#P" n="7"/>Dei, quatenus effectiva est suimet objecti. 
+          Unde<lb break="no" ed="#P" n="8"/>refert D. Thomas, d. q. 206, art. 3 et 1, cont.
+          <lb ed="#P" n="9"/>Gentes, cap. 20, illud quod omnino non habet
+          <lb ed="#P" n="10"/>rationem entis, non claudi sub objecto 
+          omni<lb break="no" ed="#P" n="11"/>potentiae, quod intelligendum est cum 
+          propor<lb break="no" ed="#P" n="12"/>üone, scilicet, de non ente possibil, id est, de
+          <lb ed="#P" n="13"/>tali non ente, quod in suo conceptu includat
+          <lb ed="#P" n="14"/>repugnantiam essendi, ut est Chimaeram esse,
+          <lb ed="#P" n="15"/>vel hominem esse irrationalem et similia.
+        </p>
+        <p xml:id="szduep-057252-d1e982">
+          <lb ed="#P" n="16"/>15. Dubium.—Opinio Cajetani. —Cuaeri vero
+          <lb ed="#P" n="17"/>potest, an non ens actu tantum, quatenus tale
+          <lb ed="#P" n="18"/>est, pertineat ad omnipotentiam Dei, ita ut
+          <lb ed="#P" n="19"/>claudatur sub objecto ejus et circa illud 
+          verse<lb break="no" ed="#P" n="20"/>tur aliquo modo Dei omnipotentia. Nam 
+          Caje<lb break="no" ed="#P" n="21"/>tanus, 1 p., quaest. 25, art. 3, dixit 
+          omnipoten<lb break="no" ed="#P" n="22"/>tiam versari circa ens et circa non ens, licet
+          <lb ed="#P" n="23"/>diverso modo, circa ens dando illi esse, circa
+          <lb ed="#P" n="24"/>non ens autem, non producendo illud, cum
+          <lb ed="#P" n="25"/>possit, vel non conservando. Sic enim dicitur
+          <lb ed="#P" n="26"/>Deus, sua omnipotentia annihilare aliquid
+          <lb ed="#P" n="27"/>posse, vel destruere, quae sunt mutationes, vel
+          <lb ed="#P" n="28"/>quasi mutationes ad non esse. Alii dicunt non
+          <lb ed="#P" n="29"/>ens, ut sic, non posse dici objectum 
+          omnipoten<lb break="no" ed="#P" n="30"/>tiae, quantum ad illam negationem, quia ens
+          <lb ed="#P" n="31"/>possibile non habet, quod sit non ens actu ab
+          <lb ed="#P" n="32"/>omnipotentia Dei, sed de se est nihil actu,
+          <lb ed="#P" n="33"/>nisi a Deo esse accipiat. Et sic dicitur creatura
+          <lb ed="#P" n="34"/>habere de suo, quod sit nihil. Item quia 
+          tene<lb break="no" ed="#P" n="35"/>brae non dicentur claudi sub objecto virtutis
+          <lb ed="#P" n="36"/>illuminativae, quia ex absentia illius redeunt,
+          <lb ed="#P" n="37"/>non enim redeunta sole, proprie loquendo, sed
+          <lb ed="#P" n="38"/>cessante actione solis ex se tales sunt.
+        </p>
+        <p xml:id="szduep-057252-d1e1034">
+          <lb ed="#P" n="39"/>16. Resolutio. — Dubium. — Sed quaestio
+          <lb ed="#P" n="40"/>est de modo loquendi, nam res clara est. Quia
+          <lb ed="#P" n="41"/>non ens, ut illa negatio dicit negationem 
+          pos<lb break="no" ed="#P" n="42"/>sibiltatis, seu capacitatis ad esse, omnino
+          <lb ed="#P" n="43"/>excluditur ab objecto omnipotentiae, quod non
+          <lb ed="#P" n="44"/>est limitatio, sed excellentia omnipotentiae.
+          <lb ed="#P" n="45"/>Non ens autem, ut dicit ens possibile cum 
+          ne<lb break="no" ed="#P" n="46"/>gatione actualis existentiae, clauditur sub 
+          ob<lb break="no" ed="#P" n="47"/>jecto, quatenus per potentiam Dei potest 
+          reci<lb break="no" ed="#P" n="48"/>pere existentiam, ut etiam est clarum. 
+          Quate<lb break="no" ed="#P" n="49"/>nus vero est non ens actu, etiam caret influxu
+          <lb ed="#P" n="50"/>omnipotentiae Dei. An vero hoc satis sit, ut
+          <lb ed="#P" n="51"/>dicatur objectum omnipotentiae quoad illam
+          <lb ed="#P" n="52"/>negationem, et an dicendum sit habere a Deo,
+          <lb ed="#P" n="53"/>quod sit non ens, vel ex se, quaestio est modo
+          <lb ed="#P" n="54"/>loquendi. Proprie tamen potius id videtur
+          <lb ed="#P" n="55"/>pertinere ad objectum voluntatis quam poten-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiae. Voluntas non intelligitur positive velle, u
+          <lb ed="#P" n="57"/>illud non sit et ut potentia non influat in illud,
+          <lb ed="#P" n="58"/>potentia autem non intelligitur habere quasi
+          <lb ed="#P" n="59"/>habitudinem ad illud objectum. Unde proprie
+          <lb ed="#P" n="60"/>non habet creatura quod sit non ens actu ex
+          <lb ed="#P" n="61"/>omnipotentia Dei, eo modo quo negatio dicitur
+          <lb ed="#P" n="62"/>esse causa negationis, illa enim negatio 
+          in<lb break="no" ed="#P" n="63"/>fluxus magis esta voluntate quam ab ipsa 
+          poten<lb break="no" ed="#P" n="64"/>tia. Sicut quando ex absentia luminosi sunt
+          <lb ed="#P" n="65"/>tenebrae, removens luminosum est potius 
+          cau<lb break="no" ed="#P" n="66"/>sa tenebrarum, quam ipsum luminosum. Sic
+          <lb ed="#P" n="67"/>ergo voluntas, quae est ratio suspendendi 
+          in<lb break="no" ed="#P" n="68"/>fluxum potentiae est proprie causa et negatio,
+          <lb ed="#P" n="69"/>etiam influxus potest, suo modo, dici prosima
+          <lb ed="#P" n="70"/>causa per se, potentia autem ipsa non ita
+          <lb ed="#P" n="71"/>proprie.
+        </p>
+        <p xml:id="szduep-057252-d1e1110">
+          <lb ed="#P" n="72"/>Actiones divine omnipotentiae.
+        </p>
+        <p xml:id="szduep-057252-d1e1116">
+          <lb ed="#P" n="73"/>17. Ultimo inquiri hic potest de actionibus
+          <lb ed="#P" n="74"/>divinae omnipotentiae, quae materia amplissima
+          <lb ed="#P" n="75"/>est, nam complecti potest omnia, quae de 
+          diyi<lb break="no" ed="#P" n="76"/>nis operibus theologia disputat. Et ideo 
+          brevi<lb break="no" ed="#P" n="77"/>ter advertendum divinam omnipotentiam 
+          nul<lb break="no" ed="#P" n="78"/>lam habere actionem ex necessitate, ideoque
+          <lb ed="#P" n="79"/>propriissime considerari in Deo in actu primo,
+          <lb ed="#P" n="80"/>in quo differt ab- intellectu et voluntate Dei.
+          <lb ed="#P" n="81"/>Nam intellectus et voluntas primo et per se
+          <lb ed="#P" n="82"/>versantur circa ipsum Deum, et ideo ex 
+          necessi<lb break="no" ed="#P" n="83"/>tate habent actum, saltem circa ipsum Deum,
+          <lb ed="#P" n="84"/>et ideo eadem necessitate sunt in actu secundo,
+          <lb ed="#P" n="85"/>vel potius sunt ipse actus secundus, quia illi
+          <lb ed="#P" n="86"/>actus immanentes sunt, et ideo contra Deum
+          <lb ed="#P" n="87"/>ipsum possunt semper, ac necessario esse,
+          <lb ed="#P" n="88"/>quantum ad totam realitatem suam. Potentia
+          <lb ed="#P" n="89"/>vero primo, ac per se versatur circa creaturas, 
+          <lb ed="#P" n="90"/>omnesque actus suos circa illas exercet, 
+          ejus<lb break="no" ed="#P" n="91"/>que actio transiens est, et ideo nec necessaria
+          <lb ed="#P" n="92"/>esse potest, nec est aeterna.
+        </p>
+        <p xml:id="szduep-057252-d1e1162">
+          <lb ed="#P" n="93"/>18. Hinc ergo fit, ut tam ipsius potentiae
+          <lb ed="#P" n="94"/>divinae quam actionis cjus duplex sit 
+          conside<lb break="no" ed="#P" n="95"/>ratio. Potentia enim sumi potest vel per se, ac
+          <lb ed="#P" n="96"/>praecise spectata, vel ut conjuncta liberae 
+          vo<lb break="no" ed="#P" n="97"/>luntati et quasi alligata ordini ab ipsa 
+          volun<lb break="no" ed="#P" n="98"/>tate praescripto. Et juxta hanc duplicem 
+          con<lb break="no" ed="#P" n="99"/>siderationem videtur sumpta vulgaris distinetio
+          <lb ed="#P" n="100"/>theologorum de divina potentia in absolutam
+          <lb ed="#P" n="101"/>et ordinatam, seu ordinariam, quam tradit D.
+          <lb ed="#P" n="102"/>Thomas, d. quaest. 25, art. 5, et alii in 1, d. 43
+          <lb ed="#P" n="103"/>et 44. Nam priori modo et secundum se 
+          poten<lb break="no" ed="#P" n="104"/>tia spectata, absoluta dicitur. Posteriori autem 
+          <lb ed="#P" n="105"/>modo sumpta dicitur ordinata. Quam 
+          insi<lb break="no" ed="#P" n="106"/>nuasse videtur Paulus cum dixit: Deum 
+          opera<lb break="no" ed="#P" n="107"/>ri omnia secundum consilium voluntatis suee. 
+          <lb ed="#P" n="108"/>Christus autem Dominus cum dixit Matthae, 26:
+          <pb ed="#P" n="229"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>An non putas, quia possum rogare Patrem meum
+          <lb ed="#P" n="2"/>et eahibebit mnihi plusquam decem legiones 
+          an<lb break="no" ed="#P" n="3"/>gelorum, etc., priorem potentiam absolutam
+          <lb ed="#P" n="4"/>insinuasse videtur: ordinatam vero cum 
+          sub<lb break="no" ed="#P" n="5"/>jungit : Quomodo ergo implebuntur Scripturae,
+          <lb ed="#P" n="6"/>quia sic oportet fieri.
+        </p>
+        <p xml:id="szduep-057252-d1e1217">
+          <lb ed="#P" n="7"/>19. Et quanquam in explicatione horum
+          <lb ed="#P" n="8"/>terminorum sit aliqua varietas inter theologos
+          <lb ed="#P" n="9"/>(quam notavi in dic. disput. 30 Metaphysicae,
+          <lb ed="#P" n="10"/>sect. ult., num. 32) est parvi momenti et solum
+          <lb ed="#P" n="11"/>de usu vocis, nam res constat. Et in omni 
+          opi<lb break="no" ed="#P" n="12"/>nione certum est, potentiam non dici 
+          absolu<lb break="no" ed="#P" n="13"/>tam, vel ordinatam nisi per respectum ad 
+          vo<lb break="no" ed="#P" n="14"/>Iuntatem, nam quatenus soluta concipitur ab
+          <lb ed="#P" n="15"/>omni lege, seu decreto voluntatis dicitur 
+          abso<lb break="no" ed="#P" n="16"/>luta, ordinata vero, ut conjuncta illi. Potest
+          <lb ed="#P" n="17"/>autem hoc esse duobus modis. Unus est, 
+          qua<lb break="no" ed="#P" n="18"/>tenus potentia intelligitur conjuncta alicui legi
+          <lb ed="#P" n="19"/>universali, ut de movendo coelo continue. In
+          <lb ed="#P" n="20"/>qua lege potest Deus dispensare, cum voluerit,
+          <lb ed="#P" n="21"/>ut cum solem sistere facit, quod juxta hanc
+          <lb ed="#P" n="22"/>expositionem censetur per potentiam 
+          absolu<lb break="no" ed="#P" n="23"/>tam fecisse. Alius modus est, ut potentia 
+          in<lb break="no" ed="#P" n="24"/>telligatur conjuncta decreto aeternae voluntatis
+          <lb ed="#P" n="25"/>Dei de omnibus et singulis, quae in quolibet
+          <lb ed="#P" n="26"/>tempore operatus est, et ita quidquid de facto
+          <lb ed="#P" n="27"/>operatur, dicitur facere per potentiam 
+          ordina<lb break="no" ed="#P" n="28"/>tam , quia semper operatur juxta decretum
+          <lb ed="#P" n="29"/>suum et ita solum ea dicetur posse de absoluta
+          <lb ed="#P" n="30"/>potentia, quae nunquam facturus est. Et 
+          uter<lb break="no" ed="#P" n="31"/>que modus est satis usitatus, prior tamen 
+          vi<lb break="no" ed="#P" n="32"/>detur magis conformis communi modo 
+          loquen<lb break="no" ed="#P" n="33"/>di et commodior.
+        </p>
+        <p xml:id="szduep-057252-d1e1278">
+          <lb ed="#P" n="34"/>20. Duplex est ordo actionum ommipotentie.
+          <lb ed="#P" n="35"/>— Hinc etiam actiones hujus potentiae in duos
+          <lb ed="#P" n="36"/>ordines distinguere possumus, quaedam enim
+          <lb ed="#P" n="37"/>sunt possibiles, quae nunquam erunt, aliae 
+          ve<lb break="no" ed="#P" n="38"/>ro sunt quae fiunt de facto, vel aliquando 
+          tan<lb break="no" ed="#P" n="39"/>tum futurae sunt, vel jam sunt factae. De his
+          <lb ed="#P" n="40"/>ergo actionibus, quae interdum fiunt, 
+          tractan<lb break="no" ed="#P" n="41"/>dum est in toto discursu theologiae, nam una
+          <lb ed="#P" n="42"/>ex his actionibus est creatio, huic adjuncta est
+          <lb ed="#P" n="43"/>conservatio et gubernatio, ad quam pertinet
+          <lb ed="#P" n="44"/>cooperatio, seu concursus cum omnibus causis
+          <lb ed="#P" n="45"/>secundis. Et in his videntur contineri actiones
+          <lb ed="#P" n="46"/>omnes ordinariae, pertinentes ad communem
+          <lb ed="#P" n="47"/>cursum naturae : quae propterea ad 
+          philosophi<lb break="no" ed="#P" n="48"/>cam considerationem pertinent : et ideo de 
+          il<lb break="no" ed="#P" n="49"/>lis diximus in Metaphysica, disp. 20, 21 et 22.
+          <lb ed="#P" n="50"/>Ultra has vero actiones sunt aliae superioris
+          <lb ed="#P" n="51"/>ordinis, ut sunt sanctificatio et justificatio et
+          <lb ed="#P" n="52"/>glorificatio intellectualum creaturarum, 
+          In<lb break="no" ed="#P" n="53"/>carnatio, transsubstantiatio et effectio quaelibet
+          <lb ed="#P" n="54"/>per instrumenta supernaturalia, de quibus per
+          <lb ed="#P" n="55"/>totius theologiae discursum disputatur. Et ideo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>extra rem esset de illis hic dicere. Satis ergo
+          <lb ed="#P" n="57"/>est, advertere, licet actiones hae variae sint, 
+          po<lb break="no" ed="#P" n="58"/>tentiam Dei esse unam et simplicissimam in
+          <lb ed="#P" n="59"/>se, ut in disput. 3 Metaphysicae dixi, sect. ult.,
+          <lb ed="#P" n="60"/>num. 51. Illa enim potentia, ut dixi, non 
+          spe<lb break="no" ed="#P" n="61"/>cificatur ex suis actionibus, quia non 
+          specifi<lb break="no" ed="#P" n="62"/>catur ab objecto, et in se est absolutissima et
+          <lb ed="#P" n="63"/>eminentissima, et ideo cum sit una, omnia 
+          po<lb break="no" ed="#P" n="64"/>test. Ouanquam nihil impedit, quo minus per
+          <lb ed="#P" n="65"/>inadaequatos conceptus a nobis plures possint
+          <lb ed="#P" n="66"/>distingui ratione, ut est potentia creativa, vel
+          <lb ed="#P" n="67"/>motiva, etc., ut ibidem dixi.
+        </p>
+        <p xml:id="szduep-057252-d1e1356">
+          <lb ed="#P" n="68"/>21. De actionibus possibilibus. — De 
+          actio<lb break="no" ed="#P" n="69"/>nibus vero possibilibus regula generalis est,
+          <lb ed="#P" n="70"/>omnes illas actiones, quae non involvunt 
+          re<lb break="no" ed="#P" n="71"/>pugnantiam esse possibiles huic potentiae. 
+          Dis<lb break="no" ed="#P" n="72"/>putare autem in particulari de omnibus 
+          actio<lb break="no" ed="#P" n="73"/>nibus, vel effectibus, de quibus dubitari solet,
+          <lb ed="#P" n="74"/>an in se involvant repugnantiam nec ne, non
+          <lb ed="#P" n="75"/>est hujus loci, sed ad varias materias 
+          theolo<lb break="no" ed="#P" n="76"/>giae et philosophiae pertinet, ut constat. Solum
+          <lb ed="#P" n="77"/>adverto, non solum esse Deo impossibiles 
+          ac<lb break="no" ed="#P" n="78"/>tiones, quae in genere entis, videntur 
+          repu<lb break="no" ed="#P" n="79"/>gnantiam involvere, sed etiam quae divinae
+          <lb ed="#P" n="80"/>bonitati sunt repugnantes, ut mentiri, 
+          pecca<lb break="no" ed="#P" n="81"/>re, infidelem esse, etc. Quia etiam hae 
+          invol<lb break="no" ed="#P" n="82"/>vunt contradictionem comparatae cum infinita
+          <lb ed="#P" n="83"/>bonitate Dei. Et ratio est, quia potentia non
+          <lb ed="#P" n="84"/>potest exire in actum nisi, ut applicata per 
+          vo<lb break="no" ed="#P" n="85"/>Iuntatem, et voluntas Dei non potest velle nisi
+          <lb ed="#P" n="86"/>juxta et decentia suam bonitatem et ad hoc est
+          <lb ed="#P" n="87"/>natura sua determinata quoad specificationem,
+          <lb ed="#P" n="88"/>ut in Relectione prima late disserui.
+        </p>
+        <p xml:id="szduep-057252-d1e1404">
+          <lb ed="#P" n="89"/>22. Dubium. — Resolutio. — Solent autem
+          <lb ed="#P" n="90"/>D. Thomas et alii scholastici, hoc loco in 
+          parti<lb break="no" ed="#P" n="91"/>culari disserere, an possit Deus facere quod
+          <lb ed="#P" n="92"/>praeteritum non sit praeteritum. Quod gratia
+          <lb ed="#P" n="93"/>exempli videtur adductum ad explicandum,
+          <lb ed="#P" n="94"/>quomodo sine impotentia ex parte Dei, fieri
+          <lb ed="#P" n="95"/>non possit, quod implicat contradictionem.
+          <lb ed="#P" n="96"/>Unde in illo puncto certam existimo D. Thomae
+          <lb ed="#P" n="97"/>sententiam in dicta quaest. 25, art. 4 
+          asseren<lb break="no" ed="#P" n="98"/>tis, fieri non posse, ut factum sit infectum, in
+          <lb ed="#P" n="99"/>sensu composito, ita enim ibi loquitur, et 
+          se<lb break="no" ed="#P" n="100"/>cundo contra Gent., cap. 25. Idem Bonaventura
+          <lb ed="#P" n="101"/>1, dist. 42, quaest. 2 et Thomistae omnes. 
+          Est<lb break="no" ed="#P" n="102"/>que aperta sententia Hieronym., epist. 22, ad
+          <lb ed="#P" n="103"/>Eustoch., Augustini 26, contra Faust., cap. 5,
+          <lb ed="#P" n="104"/>Anselmi in Prosolog., cap. 6 et lib. de 
+          Con<lb break="no" ed="#P" n="105"/>cord. Praesc. et praedest., cap. 4. Imo et 
+          Aris<lb break="no" ed="#P" n="106"/>toteles idem tradit ex Agathone 6. Ethicor.,
+          <lb ed="#P" n="107"/>capit. 2. Ratio vero est, quia praeteritum 
+          dici<lb break="no" ed="#P" n="108"/>tur, quod in aliqua differentia temporis habuit
+          <lb ed="#P" n="109"/>esse, impossibile autem est, ut quod semel 
+          po<lb break="no" ed="#P" n="110"/>nitur habens esse in aliqua differentia tempo-
+          <pb ed="#P" n="230"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ris, in illa eadem non habeat, vel non habuerit
+          <lb ed="#P" n="2"/>esse. Quia esset et non esset pro eodem 
+          tem<lb break="no" ed="#P" n="3"/>pore, quod repugnat in se: et consequenter
+          <lb ed="#P" n="4"/>etiam ipsi potentiae DET, quia ad ejus 
+          poten<lb break="no" ed="#P" n="5"/>tiam spectat, ut quod vult esse pro aliquo 
+          tem<lb break="no" ed="#P" n="6"/>pore sit, unde pro eodem tempore non esse,
+          <lb ed="#P" n="7"/>esset contra potentiam DEI. Sicut ergo non
+          <lb ed="#P" n="8"/>potest Deus facere, ut res sit et non sit simul,
+          <lb ed="#P" n="9"/>quia hoc esset se ipsum negare et sibi 
+          repug<lb break="no" ed="#P" n="10"/>nare, ita nec potest facere, ut praeteritum non
+          <lb ed="#P" n="11"/>fuerit.
+        </p>
+        <p xml:id="szduep-057252-d1e1483">
+          <lb ed="#P" n="12"/>23. Opinio contraria.— Eaplicatur. — 
+          Qui<lb break="no" ed="#P" n="13"/>dam autem theologi videntur contrarium 
+          do<lb break="no" ed="#P" n="14"/>cere, maxime Gregorius in 1. d. 42 et alii, quos
+          <lb ed="#P" n="15"/>refert, et sequitur Corduba, lib. 1, q. 55, dub.
+          <lb ed="#P" n="16"/>ult. Sed contradicunt in modo loquendi, non
+          <lb ed="#P" n="17"/>in re. Volunt enim, quod licet Deus fecerit 
+          ali<lb break="no" ed="#P" n="18"/>quam rem, manet in ipso integra potentia,
+          <lb ed="#P" n="19"/>qua potuisset illam non facere in sensu 
+          divi<lb break="no" ed="#P" n="20"/>so, ideoque volunt affirmandum esse, nunc
+          <lb ed="#P" n="21"/>esse in Deo potentiam, ut praeteritum non 
+          fue<lb break="no" ed="#P" n="22"/>rit. Non dicunt autem, posse non fuisse, 
+          post<lb break="no" ed="#P" n="23"/>quam fuisse supponitur, sed absolute et 
+          secun<lb break="no" ed="#P" n="24"/>dum se spectatum, quod nemo negat. Unde
+          <lb ed="#P" n="25"/>illud extra rem est : Similis vero quaestio de
+          <lb ed="#P" n="26"/>voluntate Dei tractari solet, an postquam 
+          ali<lb break="no" ed="#P" n="27"/>quid voluit, maneat in illo potentia, ut illud
+          <lb ed="#P" n="28"/>ipsum in ordine ad idem momentum nolit: et
+          <lb ed="#P" n="29"/>resolutio est, in sensu composito non habere
+          <lb ed="#P" n="30"/>talem potentiam. Non quia aliquam potentiam
+          <lb ed="#P" n="31"/>amiserit aliquid volendo, sed quia nunquam
+          <lb ed="#P" n="32"/>habuit potentiam, ut mutari possit, licet 
+          se<lb break="no" ed="#P" n="33"/>cundum se et in sensu diviso habeat 
+          poten<lb break="no" ed="#P" n="34"/>tiam ad utrumque et eamdem semper retineat,
+          <lb ed="#P" n="35"/>ita ergo in praesenti loquendum est.
+        </p>
+        <p xml:id="szduep-057252-d1e1538">
+          <lb ed="#P" n="36"/>24. Duo dubia expediuntur. — Ex his etiam
+          <lb ed="#P" n="37"/>expedienda sunt duo alia dubia, quae divus
+          <lb ed="#P" n="38"/>Thomas in duobus articulis ultimis illius 
+          quaes<lb break="no" ed="#P" n="39"/>tionis tractavit, scilicet : An Deus possit plura,
+          <lb ed="#P" n="40"/>vel alia facere, quam fecit, et an quae fecit, 
+          po<lb break="no" ed="#P" n="41"/>tuerit efficere meliora. In utroque vero 
+          resolu<lb break="no" ed="#P" n="42"/>tio est clara. Primo ergo certum de fide est, 
+          po<lb break="no" ed="#P" n="43"/>tuisse et plura et alia distincta facere. Ita docent
+          <lb ed="#P" n="44"/>omnes theologi cum Magistro 1, d. 43. Etdivus
+          <lb ed="#P" n="45"/>Thomas, q. 25, art. 5. Et Vualdensis in 
+          doc<lb break="no" ed="#P" n="46"/>trinali lib. 1, cap. 10, ubi oppositum errorem
+          <lb ed="#P" n="47"/>refert tradidisse Wicleffum et Abaillardum ,
+          <lb ed="#P" n="48"/>cumque late ex Patribus confutat. Qui 
+          damna<lb break="no" ed="#P" n="49"/>tusetiamrefertur in Concilio Senonensi. Sedres
+          <lb ed="#P" n="50"/>est evidens in Scripturis, ut patet ex locis 
+          Mat<lb break="no" ed="#P" n="51"/>thaei et Marci supra citatis, quae sunt de 
+          omni<lb break="no" ed="#P" n="52"/>potentia Dei et de ejus libertate, in qua 
+          vide<lb break="no" ed="#P" n="53"/>wur Wicleffus errasse. Hac etiam ratione 
+          di<lb break="no" ed="#P" n="54"/>cimus, potuisse Deumaliam naturam humanam
+          <lb ed="#P" n="55"/>sumere, et potuisse aliter redimere genus hu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>manum, quam fecit et plures salvare, quam
+          <lb ed="#P" n="57"/>salvat, vide Augustinum 13, de Trinit., cap. 18,
+          <lb ed="#P" n="58"/>de Spiritu et lit., cap. 1 et epistol. 3, Gregorium
+          <lb ed="#P" n="59"/>22. Moral., cap. 25. Item, etiam creaturae 
+          mul<lb break="no" ed="#P" n="60"/>ta possunt facere, quae non faciunt, ut homo
+          <lb ed="#P" n="61"/>ratione suae libertatis non facit omnia quae 
+          po<lb break="no" ed="#P" n="62"/>test, multo ergo magis Deus. Item, non solum
+          <lb ed="#P" n="63"/>homo, sed etiam sol posset plura facere quae
+          <lb ed="#P" n="64"/>non facit, quia ei non applicatur materia, 
+          er<lb break="no" ed="#P" n="65"/>go Deus, qui non indiget materia et est 
+          domi<lb break="no" ed="#P" n="66"/>nus suorum actuum, multo magis poterit 
+          plu<lb break="no" ed="#P" n="67"/>ra, vel diversa facere, vel cum causis secundis,
+          <lb ed="#P" n="68"/>si aliae essent, vel aliter applicarentur, vel se
+          <lb ed="#P" n="69"/>solo pro sua libertate.
+        </p>
+        <p xml:id="szduep-057252-d1e1616">
+          <lb ed="#P" n="70"/>25. Dubium. — Resolvitur. — Hic vero 
+          sta<lb break="no" ed="#P" n="71"/>tim occurrit interrogandum, quot sint ista
+          <lb ed="#P" n="72"/>plura, quae potest Deus facere, et an sint finita
+          <lb ed="#P" n="73"/>vel infinita cathegorematice in individuis, vel
+          <lb ed="#P" n="74"/>speciebus, vel gradibus rerum, vel etiam in
+          <lb ed="#P" n="75"/>pluribus mundis in infinitum, vel simul, vel
+          <lb ed="#P" n="76"/>successive, vel ex similibus, vel ex dissimilibus
+          <lb ed="#P" n="77"/>corporibus : atque adeo aequalibus, vel 
+          inae<lb break="no" ed="#P" n="78"/>qualibus in perfectione cum eo, qui nunc est.
+          <lb ed="#P" n="79"/>Itemque utrum non solum modo possit Deus
+          <lb ed="#P" n="80"/>plura facere, quam fecit, sed etiam in 
+          quocum<lb break="no" ed="#P" n="81"/>que rerum statu, seu quacumque suppositione
+          <lb ed="#P" n="82"/>facta, quod aliqua Deus creaverit. Ubi 
+          involvi<lb break="no" ed="#P" n="83"/>tur illa quaestio, an possit Deus facere simul
+          <lb ed="#P" n="84"/>omnia, quae ut possibilia novit, quibus creatis
+          <lb ed="#P" n="85"/>jam non posset facere plura. Sed haec infinitam
+          <lb ed="#P" n="86"/>habent disputationem et per varias materias
+          <lb ed="#P" n="87"/>vagantur : ideoque illa omitto, praesertim quia
+          <lb ed="#P" n="88"/>ex principiis positis in dic. disp. 30 
+          Metaphysi<lb break="no" ed="#P" n="89"/>cae, sect. ult., facile omnia expediri possunt.
+          <lb ed="#P" n="90"/>26. Assertio. — Conclusio. — In alio 
+          punc<lb break="no" ed="#P" n="91"/>to breviter dicendum est, multa fecisse Deum
+          <lb ed="#P" n="92"/>in universo, quae non potest facere meliora in
+          <lb ed="#P" n="93"/>illo genere, et ita quoad aliquid non potuisse
+          <lb ed="#P" n="94"/>facere melius universum hoc, quam fecerit,
+          <lb ed="#P" n="95"/>licet quoad aliqua in particulari illud potuerit
+          <lb ed="#P" n="96"/>facere perfectius. Declaratur imprimis , quia
+          <lb ed="#P" n="97"/>fecit unionem hypostaticam, quo opere 
+          nul<lb break="no" ed="#P" n="98"/>lum altius, nec perfectius potest efficere, ut
+          <lb ed="#P" n="99"/>nunc suppono. Unde fit, ut ex ea parte qua
+          <lb ed="#P" n="100"/>hoc universum nobilitavit per illud opus, non
+          <lb ed="#P" n="101"/>possit hoc universum esse perfectius. Unde
+          <lb ed="#P" n="102"/>etiam ait D. Thomas Beatam Virginem, 
+          qua<lb break="no" ed="#P" n="103"/>tenus assecuta est dignitatem Matris DET, non
+          <lb ed="#P" n="104"/>posse in illo genere nobiliorem dignitatem 
+          ha<lb break="no" ed="#P" n="105"/>bere. Item gratia et gloria (ut ego opinor) sunt
+          <lb ed="#P" n="106"/>talis perfectionis essentialis, ut non possit fieri
+          <lb ed="#P" n="107"/>in ordine qualitatum altior, aut major 
+          perfec<lb break="no" ed="#P" n="108"/>tio intellectualis naturae. Unde etiam hoc 
+          uni<lb break="no" ed="#P" n="109"/>versum ex ea parte, qua refertur ad ultimum
+          <lb ed="#P" n="110"/>finem non potuit esse perfectius, tum ex parte
+          <pb ed="#P" n="231"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>finis ultimi, qui est Deus: tum ex formali 
+          con<lb break="no" ed="#P" n="2"/>secutione illius secundum speciem visionis et
+          <lb ed="#P" n="3"/>fruitionis, qua obtinetur. Rursus in hoc 
+          uni<lb break="no" ed="#P" n="4"/>verso corporeo non potuit fortasse esse nobilior
+          <lb ed="#P" n="5"/>natura , quae illi praeesset in eodem genere 
+          cor<lb break="no" ed="#P" n="6"/>poralium rerum, quam sit homo, quia fortasse
+          <lb ed="#P" n="7"/>non potest esse natura corporalis et rationalis
+          <lb ed="#P" n="8"/>alterius speciei. De coelis vero et simplicibus
+          <lb ed="#P" n="9"/>corporibus est controversia, an potuerint esse
+          <lb ed="#P" n="10"/>essentialiter meliora et alterius speciei, sed
+          <lb ed="#P" n="11"/>probabilius videtur, fieri potuisse, quia nulla
+          <lb ed="#P" n="12"/>apparet repugnantia, quod etiam sentit D. 
+          Tho<lb break="no" ed="#P" n="13"/>mas d. art. 6, ad. 3.
+        </p>
+        <p xml:id="szduep-057252-d1e1740">
+          <lb ed="#P" n="14"/>27. Addit tamen idem D. Sanctus, 
+          suppo<lb break="no" ed="#P" n="15"/>sitis his rebus, ex quibus universum 
+          con<lb break="no" ed="#P" n="16"/>stat, non potuisse esse quoad ordinem et 
+          con<lb break="no" ed="#P" n="17"/>centum earum, in quo bonum universi 
+          consi<lb break="no" ed="#P" n="18"/>stit. Quod incertum est, et ita oppositum docet
+          <lb ed="#P" n="19"/>Durandus 1, dist. 44, quaest. 3, quia in 
+          The<lb break="no" ed="#P" n="20"/>sauris divinae omnipotentiae multi ordines 
+          con<lb break="no" ed="#P" n="21"/>tineri possunt, et fortasse alius esset simpliciter
+          <lb ed="#P" n="22"/>melior, licet in ordine ad finem a Deo 
+          inten<lb break="no" ed="#P" n="23"/>tum hic fuerit optimus. Nam si Deus voluisset
+          <lb ed="#P" n="24"/>aliter homines praedestinare, vel plures, vel
+          <lb ed="#P" n="25"/>in majori virtute, et gratia, vel in statu 
+          inno<lb break="no" ed="#P" n="26"/>centiae perpetuo conservare, posset etiam alio
+          <lb ed="#P" n="27"/>modo elementa, vel influentias coelorum 
+          ordi<lb break="no" ed="#P" n="28"/>nare, ita ut omnibus pensatis totum esset 
+          per<lb break="no" ed="#P" n="29"/>fectius. Semper tamen credendum est Deum
+          <lb ed="#P" n="30"/>juxta finem sibi praestitutum optime omnia
+          <lb ed="#P" n="31"/>facere, quae facit, ut loquitur Augustinus 3,
+          <lb ed="#P" n="32"/>de libero Arbitrio, cap. 5. Et explicui in citato
+          <lb ed="#P" n="33"/>loco Metaphysicae, et in tomo primo de 
+          fncar<lb break="no" ed="#P" n="34"/>natione, disputatione 4, sect. 2 et 3.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="305"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-077793"><!-- t2-l1c18 -->
+        <head xml:id="szduep-077793-Hd1e101">Caput 18</head>
+        <head xml:id="szduep-077793-Hd1e103" type="question-title">Sit-ne praedestinatio pars providentie, et quibus aliis modis ab illa differat</head>
+        <p xml:id="szduep-077793-d1e106">
+          <lb ed="#P" n="89"/>CAPUT XVII.
+          <lb ed="#P" n="90"/>SIT-NE PRAEDESTINATIO PARS PROVIDENTIE, ET 
+          QUI<lb break="no" ed="#P" n="91"/>BUS ALIIS MODIS AB ILLA DIFFERAT.
+        </p>
+        <p xml:id="szduep-077793-d1e115">
+          <lb ed="#P" n="92"/>1. Ratio dubitandi. — Communis modus 
+          lo<lb break="no" ed="#P" n="93"/>quendi theologorum est, praedestinationem
+          <lb ed="#P" n="94"/>esse partem providentiae, ut est apud divum
+          <lb ed="#P" n="95"/>Thomam, 1. part., quaest. 28, art. 4, et q. 6,
+          <lb ed="#P" n="96"/>de Verit., art. 1, et in 1, dist. 40, quaest. 4,
+          <lb ed="#P" n="97"/>art. 2, Capreolum ibi, quaest. 1, art. 1, concl. 2,
+          <lb ed="#P" n="98"/>Durandum, quaest. 1, num. 6, Marsilium, q. M.
+          <lb ed="#P" n="99"/>Quae locutio nonnullam difficultatem habet,
+          <lb ed="#P" n="100"/>quia tam providentia quam praedestinatio est
+          <lb ed="#P" n="101"/>actus divinae voluntatis vel intellectus: uterque
+          <lb ed="#P" n="102"/>autem, simplicissimus est: quomodo ergo ratio
+          <lb ed="#P" n="103"/>totius et partis inveniri in eo potest. Interrogo
+          <lb ed="#P" n="104"/>etiam dequo genere et modo partis hoc 
+          intelliga<lb break="no" ed="#P" n="105"/>tur. Aut enim est pars integralis, et hoc non,
+          <lb ed="#P" n="106"/>quia nulla est ibi quantitas, ad quam haec ratio
+          <lb ed="#P" n="107"/>partis spectet, vel est pars subjectiva, et hoc
+          <pb ed="#P" n="306"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiam non, quia ibi non est aliqua ratio 
+          com<lb break="no" ed="#P" n="2"/>munis, sed providentia Dei unica est et 
+          singu<lb break="no" ed="#P" n="3"/>larissima. Multoque minus aliae rationes partis
+          <lb ed="#P" n="4"/>et totius hic possunt accommodari.
+        </p>
+        <p xml:id="szduep-077793-d1e165">
+          <lb ed="#P" n="5"/>9. Prior modus dicendi. — Duo possunt hic
+          <lb ed="#P" n="6"/>esse dicendi modi: nam providentia et 
+          praedes<lb break="no" ed="#P" n="7"/>tinatio considerari possunt, vel ex parte 
+          objec<lb break="no" ed="#P" n="8"/>torum seu materiae circa quam versantur, vel
+          <lb ed="#P" n="9"/>ex parte ipsius divini actus: et ex utroque 
+          ca<lb break="no" ed="#P" n="10"/>7pite potest illa habitudo exphicari. Prior ergo
+          <lb ed="#P" n="11"/>modus dicendi est, praedestinationem esse 
+          par<lb break="no" ed="#P" n="12"/>tem subjectivam providentise. Nam providentia
+          <lb ed="#P" n="13"/>concipitur a nobis tanquam quoddam genus
+          <lb ed="#P" n="14"/>vel ratio communis et abstracta, cujus species
+          <lb ed="#P" n="15"/>particularis est praedestinatio. Nos enim, sicut
+          <lb ed="#P" n="16"/>distinguimus in Deo plures actus ratione 
+          dis<lb break="no" ed="#P" n="17"/>tinctos, ita possumus ab illis communem 
+          ra<lb break="no" ed="#P" n="18"/>tionem abstrahere, et sub illa subjectivas 
+          par<lb break="no" ed="#P" n="19"/>tes concipere. Ita enim distinguimmus plures
+          <lb ed="#P" n="20"/>ideas a quibus rationem communem ideae 
+          abs<lb break="no" ed="#P" n="21"/>trahimus, et sub illo concepto ideam hominis,
+          <lb ed="#P" n="22"/>leonis, etc., quasi specie distinguimus. Sic ergo
+          <lb ed="#P" n="23"/>in praesenti, distinguere possumus plures 
+          pro<lb break="no" ed="#P" n="24"/>videntias ratione distinctas, naturalem et 
+          su<lb break="no" ed="#P" n="25"/>pernaturalem, et inter supernaturales , unam
+          <lb ed="#P" n="26"/>sufficientem non electorum, aliam efticacem
+          <lb ed="#P" n="27"/>electorum, quae est praedestinatio. Atque ita
+          <lb ed="#P" n="28"/>praedestinationem vocari partem providentiae,
+          <lb ed="#P" n="29"/>tanquam speciem ejus, nam species est pars
+          <lb ed="#P" n="30"/>subjectiva generis. Qui modus dicendi est 
+          pro<lb break="no" ed="#P" n="31"/>babilis et facile sustineri potest. Quia hae 
+          nos<lb break="no" ed="#P" n="32"/>trae locutiones de Deo semper intelliguntur, 
+          se<lb break="no" ed="#P" n="33"/>clusis imperfectionibus, et ideo ad illam sufficit
+          <lb ed="#P" n="34"/>distinctio rationis inter actus DEI.
+        </p>
+        <p xml:id="szduep-077793-d1e234">
+          <lb ed="#P" n="35"/>3. Posterior modus. — Alter modus dicendi,
+          <lb ed="#P" n="36"/>quem indicat D. Thomas, et magis explicat
+          <lb ed="#P" n="37"/>Cajetanus est, praedestinationem esse partem
+          <lb ed="#P" n="38"/>quasi integralem providentiae, non quidem ex
+          <lb ed="#P" n="39"/>parte actus divini propter simplicitatem ejus,
+          <lb ed="#P" n="40"/>sed ex parte objectorum in quibus extensio
+          <lb ed="#P" n="41"/>quaedam et multitudo ac varietas invenitur, et
+          <lb ed="#P" n="42"/>ideo ratio paxtis et totius integralis in eis facile
+          <lb ed="#P" n="43"/>concipi potest. Differt ergo praedestinatio a
+          <lb ed="#P" n="44"/>providentia, quod materia providentiae latius
+          <lb ed="#P" n="45"/>patet, complectitur enim res omnes rationales
+          <lb ed="#P" n="46"/>et irrationales, naturales et supernaturales: et
+          <lb ed="#P" n="47"/>complectitur media sufficientia et effticacia.
+          <lb ed="#P" n="48"/>Praedestinatio autem solum circa quamdam
+          <lb ed="#P" n="49"/>partem hujus materiae versatur, ut ex dictis
+          <lb ed="#P" n="50"/>patet, quia solum respicit finem 
+          supernatura<lb break="no" ed="#P" n="51"/>lem, ut infallibiliter consequendum, a 
+          quibus<lb break="no" ed="#P" n="52"/>dam creaturis intellectualibus per efficacia 
+          me<lb break="no" ed="#P" n="53"/>dia. Recte igitur ex parte materiae dicitur esse
+          <lb ed="#P" n="54"/>pars quasi integralis providentiae. Qui etiam
+          <lb ed="#P" n="55"/>modus dicendi et verus et facilis est. Et in hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>magis probatur quod in eo spectatur divina
+          <lb ed="#P" n="57"/>providentia, non ut ratio aliqua communis, sed
+          <lb ed="#P" n="58"/>ut una, singularis ac comprehensiva ratio, ad
+          <lb ed="#P" n="59"/>quam omnia illa objecta comparantur, sicut
+          <lb ed="#P" n="60"/>partes materiae circa quam ipsa providentia
+          <lb ed="#P" n="61"/>versatur. Et ratio hujus unitatis reddi potest,
+          <lb ed="#P" n="62"/>quia providentia respicit omnes illas res, ut
+          <lb ed="#P" n="63"/>inter se connexas et ordinatas, ratione cujus
+          <lb ed="#P" n="64"/>connexionis non potest ita distingui una 
+          pro<lb break="no" ed="#P" n="65"/>videntia circa unam partem materiae, quin 
+          in<lb break="no" ed="#P" n="66"/>cludat aliquo modo habitudinem ad alias, et
+          <lb ed="#P" n="67"/>ideo tota collectio omnium illarum rerum seu
+          <lb ed="#P" n="68"/>materiarum habentium inter se connexionem,
+          <lb ed="#P" n="69"/>est veluti unum objectum unius simplicissimae
+          <lb ed="#P" n="70"/>providentiae. Sic enim ex unione objecti plures
+          <lb ed="#P" n="71"/>materias complectentis, solemus nos unitatem
+          <lb ed="#P" n="72"/>habitus vel actus mentis desumere. Et quamvis
+          <lb ed="#P" n="73"/>negari non possit quin per inadaequatos 
+          concep<lb break="no" ed="#P" n="74"/>tus possimus nos illam providentiam partiri in
+          <lb ed="#P" n="75"/>ordine ad diversas partes materialium 
+          objecto<lb break="no" ed="#P" n="76"/>rum: tamen non concipimus ilias rationes 
+          tan<lb break="no" ed="#P" n="77"/>quam plures providentias, sed tanquam partes
+          <lb ed="#P" n="78"/>unius providentiae: quas tamen partes 
+          secun<lb break="no" ed="#P" n="79"/>dum rem invenimus tantum in objectis seu
+          <lb ed="#P" n="80"/>materia: non vero in ipso actu Dei. Et 
+          secun<lb break="no" ed="#P" n="81"/>dum hanc rationem partis, dicitur 
+          praedestina<lb break="no" ed="#P" n="82"/>tio esse pars providentiae, ex parte objectorum,
+          <lb ed="#P" n="83"/>non ex parte actus.
+        </p>
+        <p xml:id="szduep-077793-d1e345">
+          <lb ed="#P" n="84"/>4. Quomodo praedestinatio includat omnem
+          <lb ed="#P" n="85"/>provadentiaum. — Hinc vero ulterius addere et
+          <lb ed="#P" n="86"/>inferre possumus, praedestinationem quodam
+          <lb ed="#P" n="87"/>modo includere totam providentiam, loquendo
+          <lb ed="#P" n="88"/>generalius de praedestinatione, ita ut Christi
+          <lb ed="#P" n="89"/>praedestinationem comprehendat. Nam licet
+          <lb ed="#P" n="90"/>objectum inadaequatum providentiae directe
+          <lb ed="#P" n="91"/>plura includere videatur, quam 
+          praedestinatio<lb break="no" ed="#P" n="92"/>nisobjectum, nihilominus praedestinationis 
+          ob<lb break="no" ed="#P" n="93"/>jectum est et principale, ac primarium et 
+          tan<lb break="no" ed="#P" n="94"/>quam finis, ad quem omnia alia referuntur
+          <lb ed="#P" n="95"/>aliquo modo. Unde sicut in scientiis objectum
+          <lb ed="#P" n="96"/>primarium, si tale sit, ut ad illud reliqua 
+          re<lb break="no" ed="#P" n="97"/>ferantur, solet etiam adaequatum aliquatenus
+          <lb ed="#P" n="98"/>reputari, si non in recto (ut aiunt) et directe,
+          <lb ed="#P" n="99"/>saltem in obliquo et reductive; ita hic 
+          objec<lb break="no" ed="#P" n="100"/>tum praedestinationis potest aliquo modo dici
+          <lb ed="#P" n="101"/>adaequatum totius providentiae, ac proinde 
+          prae<lb break="no" ed="#P" n="102"/>destinationem in se totam providentiam 
+          in<lb break="no" ed="#P" n="103"/>cludere. Favetque illud Pauli 4, Cor. 3: 
+          Om<lb break="no" ed="#P" n="104"/>nia vestra sunt, vos autem Christi, Christus
+          <lb ed="#P" n="105"/>vero Dei : Significat enim, totam providentiam
+          <lb ed="#P" n="106"/>tendere ad salutem electorum, et hos ad Christi
+          <lb ed="#P" n="107"/>gloriam, ac tandem omnes electos cum ipso
+          <lb ed="#P" n="108"/>Christo ad DEI gloriam ordinari. Sic Matth.
+          <lb ed="#P" n="109"/>24, effectus ille providentiae , abbreviandi ,
+          <lb ed="#P" n="110"/>scilicet dies persecutionis Antichristi, propter
+          <pb ed="#P" n="307"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>electos dicitur esse. Et Augustinus, Ps. 54, de
+          <lb ed="#P" n="2"/>malis ait: /deo vivere, ut corrigantur, vel ut
+          <lb ed="#P" n="3"/>per eos boni exerceantur. Est autem vivere 
+          ef<lb break="no" ed="#P" n="4"/>fectus providentiae, quem ad praedestinationem
+          <lb ed="#P" n="5"/>Augustinus reducit. Et ideo theologi aiunt,
+          <lb ed="#P" n="6"/>mundum esse duraturum donec 
+          praedestinato<lb break="no" ed="#P" n="7"/>rum numerus impleatur. Sic ergo 
+          praedestina<lb break="no" ed="#P" n="8"/>tio quodam modo totam providentiam 
+          com<lb break="no" ed="#P" n="9"/>plectitur, quamvis simpliciter et secundum 
+          ob<lb break="no" ed="#P" n="10"/>jecta directa, providentia latius pateat, et sic
+          <lb ed="#P" n="11"/>praedestinatio sit illius pars.
+        </p>
+        <p xml:id="szduep-077793-d1e434">
+          <lb ed="#P" n="12"/>5. Duae alie differentie. — Prior. —
+          Prae<lb break="no" ed="#P" n="13"/>ter hanc vero differentiam, 
+          praedestinatio<lb break="no" ed="#P" n="14"/>nem et providentiam, duae aliae notari 
+          pos<lb break="no" ed="#P" n="15"/>sunt, quae ipsarum rationes magis 
+          explica<lb break="no" ed="#P" n="16"/>bunt. Prior est, quia praedestinatio habet 
+          in<lb break="no" ed="#P" n="17"/>fallibilem consecutionem particularis finis 
+          ip<lb break="no" ed="#P" n="18"/>sius praedestinati: providentia vero non includit
+          <lb ed="#P" n="19"/>infallibilem consecutionem finis particularis
+          <lb ed="#P" n="20"/>cujuscumque creaturae, cui per illam 
+          profite<lb break="no" ed="#P" n="21"/>tur. Non quod providentia necessario 
+          exclu<lb break="no" ed="#P" n="22"/>dat hanc consecutionem, sed quod non illam
+          <lb ed="#P" n="23"/>necessario includat : interdum enim 
+          assequi<lb break="no" ed="#P" n="24"/>tur finem, interdum non assequitur. Hanc 
+          dif<lb break="no" ed="#P" n="25"/>ferentiam constituit expresse D. Thomas, q. 6,
+          <lb ed="#P" n="26"/>de Veritate, art. 2, et in 1, dist. 40, q. 4,et
+          <lb ed="#P" n="27"/>attente legatur, 1 part., q. 23, art. 3, idem
+          <lb ed="#P" n="28"/>docet. Item Agidius in 1, d. 39, quaest. 2, ubi
+          <lb ed="#P" n="29"/>etiam Durandus, q. 3, et d. 40,q. 1, ubi etiam
+          <lb ed="#P" n="30"/>Capreolus et Marsilius in 1, q. 40, et Sylvester
+          <lb ed="#P" n="31"/>1n Conflato, q. 22. art. 2.
+        </p>
+        <p xml:id="szduep-077793-d1e480">
+          <lb ed="#P" n="32"/>Prior differentia probatur quoad primam
+          <lb ed="#P" n="33"/>partem. — Et prior quidem pars certissima est,
+          <lb ed="#P" n="34"/>ut patet ex omnibus dictis et ex Paulo ad 
+          Ro<lb break="no" ed="#P" n="35"/>man. 8, et ex illo verbo Augustini, de Bono 
+          per<lb break="no" ed="#P" n="36"/>sever., c. 14, quibus certissime liberantur, cum
+          <lb ed="#P" n="37"/>infinitis similibus. Unde autem oriatur haec
+          <lb ed="#P" n="38"/>certitudo et infallibilitas praedestinationis, in
+          <lb ed="#P" n="39"/>discursu materiae late dicendum est. Nunc 
+          bre<lb break="no" ed="#P" n="40"/>viter dicitur, absolutam certitudinem eventus
+          <lb ed="#P" n="41"/>futuri oriri formaliter ex absoluto proposito
+          <lb ed="#P" n="42"/>divinae voluntatis, supponere autem scientiam
+          <lb ed="#P" n="43"/>conditionatam infallibilem futurorum 
+          contin<lb break="no" ed="#P" n="44"/>dgentium, de qua jam dictum est.
+        </p>
+        <p xml:id="szduep-077793-d1e511">
+          <lb ed="#P" n="45"/>6. Quoad secundum partem non placet 
+          Caje<lb break="no" ed="#P" n="46"/>tano. — Antequam probem alteram partem,
+          <lb ed="#P" n="47"/>referam opinionem Cajetani, qui, 1 p., q. 22,
+          <lb ed="#P" n="48"/>art. 1, negat in hoc differre providentiam a
+          <lb ed="#P" n="49"/>praedestinatione. Vult enim, ad perfectionem
+          <lb ed="#P" n="50"/>divinae providentiae pertinere, ut infallibiliter
+          <lb ed="#P" n="51"/>consequatur finem particularem ad quem 
+          or<lb break="no" ed="#P" n="52"/>dinat quamcümque creaturam. Dicitque, 
+          di<lb break="no" ed="#P" n="53"/>vum Thomam retractasse sententiam, eo quod
+          <lb ed="#P" n="54"/>ibi dixerit, Deum omnibus providere et quod
+          <lb ed="#P" n="55"/>providet, eo modo, quo ab ipso providetur in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fallibiliter fieri. Ratio ejus est, quia alias 
+          divi<lb break="no" ed="#P" n="57"/>na providentia deficeret et frustraretur, quod
+          <lb ed="#P" n="58"/>imperfectionis esset. Nam in omni artifice, vel
+          <lb ed="#P" n="59"/>gubernatore imperfectio est non assequifinem,
+          <lb ed="#P" n="60"/>quem intendit, et non applicare media ad hoc
+          <lb ed="#P" n="61"/>ipsum efficacia. Probatur, quia vel hoc 
+          prove<lb break="no" ed="#P" n="62"/>nit ex ignorantia talium mediorum, vel ex
+          <lb ed="#P" n="63"/>impotentia ad applicandum illa, si ea novit:
+          <lb ed="#P" n="64"/>nam si scientia et potentia adsunt, non potest
+          <lb ed="#P" n="65"/>deesse voluntas, si finis revera intenditur : 
+          er<lb break="no" ed="#P" n="66"/>go si Deus intendit finem suae providentiae,
+          <lb ed="#P" n="67"/>velillum infallibiliter assequitur, vel impotens
+          <lb ed="#P" n="68"/>est, aut ignorat media, quibus certissime est,
+          <lb ed="#P" n="69"/>comparandus.
+        </p>
+        <p xml:id="szduep-077793-d1e570">
+          <lb ed="#P" n="70"/>7. Sed admittendum esse wt certam 
+          induc<lb break="no" ed="#P" n="71"/>tione probatur. Nihilominus differentia posita
+          <lb ed="#P" n="72"/>mihi videtur certa, et probatur imprimis 
+          in<lb break="no" ed="#P" n="73"/>ductione quadam. Etenim negari non potest,
+          <lb ed="#P" n="74"/>quin Deus habeat supernaturalem 
+          providen<lb break="no" ed="#P" n="75"/>uam circa homines, qui non salvantur, quam
+          <lb ed="#P" n="76"/>illis praebet, ut supernaturalem finem 
+          asse<lb break="no" ed="#P" n="77"/>quantur, ad quem illos creavit, et ordinavit:
+          <lb ed="#P" n="78"/>et tamen in eis talis providentia non habet
+          <lb ed="#P" n="79"/>hunc effectum, seu finis particularis 
+          consecu<lb break="no" ed="#P" n="80"/>tionem : ergo non est hoc de ratione 
+          providen<lb break="no" ed="#P" n="81"/>tiae. Consequentia est evidens. Antecedens 
+          au<lb break="no" ed="#P" n="82"/>tem certissimum est, ut docet divus Thomas,
+          <lb ed="#P" n="83"/>quaest. 23, art. 3, et constat ex vulgaribus locis
+          <lb ed="#P" n="84"/>Scripturae, Vult omnes homines salvos fieri, et 
+          il<lb break="no" ed="#P" n="85"/>luminat omnem hominem, etc. Et dicemus late,
+          <lb ed="#P" n="86"/>infre libro quarto, tractando de providentia 
+          su<lb break="no" ed="#P" n="87"/>pernaturali circa homines non electos. Idem
+          <lb ed="#P" n="88"/>videre licet in agentibus naturalibus. Saepe
+          <lb ed="#P" n="89"/>enim deficiunt a consecutione suorum finium
+          <lb ed="#P" n="90"/>particularium, inde enim proveniunt 
+          mons<lb break="no" ed="#P" n="91"/>truosi effectus, qui dicuntur peccata naturae,
+          <lb ed="#P" n="92"/>et causales respectu agentis particularis, quia
+          <lb ed="#P" n="93"/>sunt praeter intentionem ejus. Haec autem 
+          a<lb break="no" ed="#P" n="94"/>gentia naturalia tendunt in suos fines, ordinata
+          <lb ed="#P" n="95"/>a primo agente, et ab eodem habent 
+          provi<lb break="no" ed="#P" n="96"/>dentiam accommodatam ad eosdem fines 
+          con<lb break="no" ed="#P" n="97"/>sequendos : ergo in illis etiam non habet 
+          pro<lb break="no" ed="#P" n="98"/>videntia infallibilem consecutionem 
+          particula<lb break="no" ed="#P" n="99"/>ris finis.
+        </p>
+        <p xml:id="szduep-077793-d1e639">
+          <lb ed="#P" n="100"/>8. Ratio a priori ob quam providentia non 
+          di<lb break="no" ed="#P" n="101"/>citur includere infallibilitatem. — Ratio autem
+          <lb ed="#P" n="102"/>a priori est, quia (ut dicebam,) duo sunt, ex
+          <lb ed="#P" n="103"/>quibus infallibilitas oriri potest. Primum est
+          <lb ed="#P" n="104"/>intentio talis finis existens in voluntate Dei.
+          <lb ed="#P" n="105"/>Secundum est voluntas dandi media, quae Deus
+          <lb ed="#P" n="106"/>praenovit fore efficacissima ad talem 
+          consecu<lb break="no" ed="#P" n="107"/>tionem. Ex neutro autem capite habet 
+          provi<lb break="no" ed="#P" n="108"/>dentia dictam infallibilitatem in tota sua 
+          lati<lb break="no" ed="#P" n="109"/>tudine. Prior pars probatur, quia non semper
+          <lb ed="#P" n="110"/>Deus intendit finem absoluta voluntate, sed vel
+          <pb ed="#P" n="308"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>simplici affectu, vel voluntate includente 
+          ah<lb break="no" ed="#P" n="2"/>quam conditionem, quam Deus non absolute
+          <lb ed="#P" n="3"/>vult et a causa creata pendet, atque impediri
+          <lb ed="#P" n="4"/>potest : talis autem intentio finis non habet
+          <lb ed="#P" n="5"/>infallibilem connexionem cum ejus 
+          consecu<lb break="no" ed="#P" n="6"/>tione, quia hoc est proprium voluntatis 
+          abso<lb break="no" ed="#P" n="7"/>lutae. Quod totum videre licet in exemplo de
+          <lb ed="#P" n="8"/>reprobis, quatenus eis Deus gloriam intendit : .
+          <lb ed="#P" n="9"/>et idem est cum proportione in agentibus 
+          na<lb break="no" ed="#P" n="10"/>turalibus. Hujus autem ratio est, quia Deus
+          <lb ed="#P" n="11"/>est liber et potest intendere particulares fines,
+          <lb ed="#P" n="12"/>prout voluerit. Adde, nihil amplius debitum
+          <lb ed="#P" n="13"/>esse ipsis agentibus particularibus, si in 
+          ordi<lb break="no" ed="#P" n="14"/>ne ad connaturales fines considerentur. Nam
+          <lb ed="#P" n="15"/>respectu finis supernaturalis, neque tendentia
+          <lb ed="#P" n="16"/>ipsa in talem finem debita est, sed ex Dei 
+          h<lb break="no" ed="#P" n="17"/>beralitate addita est naturae : ergo potuit Deus
+          <lb ed="#P" n="18"/>pro arbitrio suo non omnibus conferre talem
+          <lb ed="#P" n="19"/>ordinationem ex decreto absoluto, sed ex 
+          sim<lb break="no" ed="#P" n="20"/>plici tantum affectu, absque intentione omnino
+          <lb ed="#P" n="21"/>absoluta et efficaci.
+        </p>
+        <p xml:id="szduep-077793-d1e715">
+          <lb ed="#P" n="22"/>9. Atque hinc facile patet altera pars, quia
+          <lb ed="#P" n="23"/>non semper Deus vult dare illa media, quae
+          <lb ed="#P" n="24"/>pranovit efticacia. Duobus enim modis 
+          me<lb break="no" ed="#P" n="25"/>dium redditur inefficax. Primo ex intrinseca
+          <lb ed="#P" n="26"/>conditione particularis agentis, quod liberum
+          <lb ed="#P" n="27"/>est et potest resistere, quam libertatem Deus
+          <lb ed="#P" n="28"/>conservare vult, nec tenetur illam semper ita
+          <lb ed="#P" n="29"/>praevenire, ut in alteram partem infallibiliter
+          <lb ed="#P" n="30"/>inducatur, satis enim illi providet, si 
+          sufficien<lb break="no" ed="#P" n="31"/>tia tribuat. Alio modo fit medium inefficax
+          <lb ed="#P" n="32"/>propter aliam causam extrinsecam 
+          impedien<lb break="no" ed="#P" n="33"/>tem, ut in naturalibus contingit, quod 
+          impe<lb break="no" ed="#P" n="34"/>dimentum non semper Deus auferre vult aut
+          <lb ed="#P" n="35"/>debet, cum sit provisor universalis. Propter
+          <lb ed="#P" n="36"/>quae recte dixit Dionysius, cap. 4, de Divinis
+          <lb ed="#P" n="37"/>nomin., circa finem providentiae non esse 
+          na<lb break="no" ed="#P" n="38"/>turam interimere, sed unicuique subvenire,
+          <lb ed="#P" n="39"/>juxta exigentiam naturae suae et 
+          unamquam<lb break="no" ed="#P" n="40"/>que rem sinere operari accommodate ad 
+          natu<lb break="no" ed="#P" n="41"/>ram suam : ergo ex nullo capite habet 
+          provi<lb break="no" ed="#P" n="42"/>dentia illam consecutionem infallibilem.
+        </p>
+        <p xml:id="szduep-077793-d1e763">
+          <lb ed="#P" n="43"/>10. Ad fundamentum Cajetani respondetur.
+          <lb ed="#P" n="44"/>—CUnde facilis est responsio ad fundamentum
+          <lb ed="#P" n="45"/>Cajetani, nam hoc non provenit ex 
+          impoten<lb break="no" ed="#P" n="46"/>tia, vel ignorantia, sed ex libertate divinae 
+          vo<lb break="no" ed="#P" n="47"/>lIuntatis, et quia hoc est etiam magis 
+          consenta<lb break="no" ed="#P" n="48"/>neum rebus ipsis et muneri universalis 
+          guber<lb break="no" ed="#P" n="49"/>natoris. Neque inde sequitur, Deum nullo modo
+          <lb ed="#P" n="50"/>intendere talem finem, sed solum non 
+          inten<lb break="no" ed="#P" n="51"/>dere efficaciter, quod verum est. Nec propterea
+          <lb ed="#P" n="52"/>dicendum est, providentiam divinam 
+          frustra<lb break="no" ed="#P" n="53"/>ri: nam, quod deficit ab uno ordine divinae
+          <lb ed="#P" n="54"/>providentiae, in alium incidit. Ut peccator, qui
+          <lb ed="#P" n="55"/>deficit a praemio, incidit in vindictam. Quo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modo dixit Augustinus, in Enchirid., cap. 11,
+          <lb ed="#P" n="57"/>Deum non permittere mala, nisi ut inde eliciat
+          <lb ed="#P" n="58"/>bona,quod late etiam habet Damascenus,lib. 2,
+          <lb ed="#P" n="59"/>de Fide, cap. 29.
+        </p>
+        <p xml:id="szduep-077793-d1e805">
+          <lb ed="#P" n="60"/>11. Providentia nunguam deficit omnino ab
+          <lb ed="#P" n="61"/>universali fine. — Unde tandem observare
+          <lb ed="#P" n="62"/>oportet, quod licet providentia interdum non
+          <lb ed="#P" n="63"/>assequatur finem particularem, nunquam 
+          ta<lb break="no" ed="#P" n="64"/>men omnino deficit ab universali fine ipsius
+          <lb ed="#P" n="65"/>providentiae, quia ut Ecclesia dicit: Deus in
+          <lb ed="#P" n="66"/>sua providentia non fallitur. Nam quoties 
+          par<lb break="no" ed="#P" n="67"/>ticularis causa suum finem assecutura non est,
+          <lb ed="#P" n="68"/>Deus id non ignorat, neque etiam id fit sine
+          <lb ed="#P" n="69"/>ejus permissione, quam permissionem refert
+          <lb ed="#P" n="70"/>ad alium finem pertinentem, vel ad finem 
+          to<lb break="no" ed="#P" n="71"/>tius universi, vel ad manifestationem alicujus
+          <lb ed="#P" n="72"/>attributi divini. Ac denique omnia refert ad
+          <lb ed="#P" n="73"/>laudem et gloriam suam, qui est universalis
+          <lb ed="#P" n="74"/>tinis providentiae, qui semper efficaciter 
+          inten<lb break="no" ed="#P" n="75"/>ditur. Solum ergo hoc necessarium erat ad
+          <lb ed="#P" n="76"/>perfectam providentiam, et est 
+          sufficientissi<lb break="no" ed="#P" n="77"/>mum. Atque ita fit, ut divina providentia, 
+          sim<lb break="no" ed="#P" n="78"/>pliciter loquendo, nunquam frustretur. Et in
+          <lb ed="#P" n="79"/>eodem sensu verum est, quod D. Thomas dixit:
+          <lb ed="#P" n="80"/>Omnia ita evenire, sicut a Deo providentur :
+          <lb ed="#P" n="81"/>nam quae providentur effticaciter et ex divina
+          <lb ed="#P" n="82"/>voluntate absoluta, eveniunt eodem modo, quo
+          <lb ed="#P" n="83"/>provisa sunt : quae vero tantum antecedenter,
+          <lb ed="#P" n="84"/>seu inefficaciter intenduntur, cum proportione
+          <lb ed="#P" n="85"/>providentur, quantum ad sufficientiam 
+          me<lb break="no" ed="#P" n="86"/>diorum, et quantum est ex parte Dei: 
+          quan<lb break="no" ed="#P" n="87"/>tum ad effectum autem juxta cooperationem
+          <lb ed="#P" n="88"/>creaturae.
+        </p>
+        <p xml:id="szduep-077793-d1e870">
+          <lb ed="#P" n="89"/>12. Secunda differentia inter providentiam et
+          <lb ed="#P" n="90"/>preedestinationem.—Providentia est rerum quee
+          <lb ed="#P" n="91"/>supponuntur. — Secunda differentia est, quia
+          <lb ed="#P" n="92"/>providentia supponit ordine rationis in mente,
+          <lb ed="#P" n="93"/>seu voluntate Dei existentiam illius rei, cui
+          <lb ed="#P" n="94"/>providet : praedestinatio vero per se illam non
+          <lb ed="#P" n="95"/>supponit, sed secum affert, seu includit. 
+          Ex<lb break="no" ed="#P" n="96"/>plico priorem partem, nam sicut in 
+          praedesti<lb break="no" ed="#P" n="97"/>natione diximus ex parte materiae esse duo:
+          <lb ed="#P" n="98"/>scilicet objectum, quod praedestinatur et 
+          ter<lb break="no" ed="#P" n="99"/>minus, ad quem praedestinatur : ita in 
+          provi<lb break="no" ed="#P" n="100"/>dentia duo sunt: subjectum, cui providetur, et
+          <lb ed="#P" n="101"/>bonum, quod illi providetur, seu procuratur. 
+          <lb ed="#P" n="102"/>Hoc secundum non supponitur futurum, sed
+          <lb ed="#P" n="103"/>per ipsam providentiam ordinatur ut sit: illud
+          <lb ed="#P" n="104"/>autem primum supponitur futurum, vel ut
+          <lb ed="#P" n="105"/>alii loquuntur, existens in praesentia 
+          aeternita<lb break="no" ed="#P" n="106"/>tis. Quod recte docuit Nemesius, supra cap. 42.
+          <lb ed="#P" n="107"/>Ita enim comparatur in aeternitate ratio 
+          pro<lb break="no" ed="#P" n="108"/>videntiae ad rem futuram, sicut in tempore
+          <lb ed="#P" n="109"/>executio providentiae, quae est gubernatio, ad
+          <lb ed="#P" n="110"/>rem in se existentem : gubernatio autem non
+          <pb ed="#P" n="309"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, nisi rerum jam existentium ; providentia
+          <lb ed="#P" n="2"/>ergo non est, nisi rerum, quae secundum 
+          or<lb break="no" ed="#P" n="3"/>dinem rationis supponuntur futurae. Et 
+          con<lb break="no" ed="#P" n="4"/>firmatur, quia providentia est de mediis, 
+          sup<lb break="no" ed="#P" n="5"/>ponit ergo institutionem rei ad talem finem,
+          <lb ed="#P" n="6"/>ergo supponit etiam voluntatem creandi 
+          ta<lb break="no" ed="#P" n="7"/>lem rem propter talem finem : et hoc est 
+          sup<lb break="no" ed="#P" n="8"/>ponere in aeternitate rem illam ut futuram.
+        </p>
+        <p xml:id="szduep-077793-d1e942">
+          <lb ed="#P" n="9"/>13. Praedestinatio supponat terminum, et 
+          ob<lb break="no" ed="#P" n="10"/>jectum tantum wt possibile. — Hinc autem 
+          fa<lb break="no" ed="#P" n="11"/>cile declaratur altera pars, quam supra 
+          teti<lb break="no" ed="#P" n="12"/>gimus et huc remisimus, videlicet, quod 
+          prae<lb break="no" ed="#P" n="13"/>destinatio nec terminum, nec objectum suum
+          <lb ed="#P" n="14"/>supponit futurum, sed possibile tantum, et per
+          <lb ed="#P" n="15"/>ipsammet praedestinationem ordinatur, ut sit.
+          <lb ed="#P" n="16"/>Quod sumo ex D. Thoma,q. 6, de Veritate,a. 1.
+          <lb ed="#P" n="17"/>Et declaratur optime in praedestinatione 
+          Chris<lb break="no" ed="#P" n="18"/>ti, qui est exemplar totius nostrae 
+          praedestina<lb break="no" ed="#P" n="19"/>tionis, teste Augustino, lib. de Praedestin. 
+          Sanc<lb break="no" ed="#P" n="20"/>tor., cap. 15; nam praedestinatus est CHRISTUS
+          <lb ed="#P" n="21"/>ut homo, ut esset Filius Dei naturalis, 
+          ante<lb break="no" ed="#P" n="22"/>quam praedestinationem hic homo Christus ut
+          <lb ed="#P" n="23"/>sic, non supponitur existens, nec futurus in
+          <lb ed="#P" n="24"/>mente Dei, sed per ipsam praedestinationem
+          <lb ed="#P" n="25"/>ordinatus fuit, ut esset et ita esset, ut simul
+          <lb ed="#P" n="26"/>esset Filius Dei naturalis, ergo de ratione 
+          prae<lb break="no" ed="#P" n="27"/>destinationis non est, quod supponat 
+          existen<lb break="no" ed="#P" n="28"/>tiam objecti. Quod etiam in nostra declaratur
+          <lb ed="#P" n="29"/>ex dictis : nam praedestinatio non supponit,
+          <lb ed="#P" n="30"/>sed intrinsece includit destinationem ad 
+          ti<lb break="no" ed="#P" n="31"/>nem, praeconceptam in mente praedestinantis:
+          <lb ed="#P" n="32"/>sed ordinatio ad finem non supponit rem, quae
+          <lb ed="#P" n="33"/>ordinatur ad finem, jam existere, qui per
+          <lb ed="#P" n="34"/>eamdem voluntatem, per quam ordinatur ad
+          <lb ed="#P" n="35"/>esse propter talem finem. Unde cum finis sit
+          <lb ed="#P" n="36"/>primum in intentione, non potest res prius
+          <lb ed="#P" n="37"/>esse intentione, quam ad talem finem 
+          desti<lb break="no" ed="#P" n="38"/>netur : agimus enim de fine propter quem res
+          <lb ed="#P" n="39"/>ipsa primo instituitur et de primo agente, qui
+          <lb ed="#P" n="40"/>non tantum ordinat rem ad finem secundum
+          <lb ed="#P" n="41"/>esse accidentale, sed etiam secundum primum
+          <lb ed="#P" n="42"/>esse substantiale.
+        </p>
+        <p xml:id="szduep-077793-d1e1019">
+          <lb ed="#P" n="43"/>14. Diluitur objectio. — Alia objectio. —
+          <lb ed="#P" n="44"/>Solutio. — Et ideo nihil obstat, si quis 
+          obji<lb break="no" ed="#P" n="45"/>ciat, aliquando rem institui propter unum 
+          fi<lb break="no" ed="#P" n="46"/>nem et postea ordinari ad alium. Hoc enim est
+          <lb ed="#P" n="47"/>verum de fine secundario, non vero de 
+          prima<lb break="no" ed="#P" n="48"/>rio: beatitudo autem aeterna, propter quam
+          <lb ed="#P" n="49"/>praedestinati creati sunt, est primarius finis et
+          <lb ed="#P" n="50"/>proprius eorum : et ideo non prius ordinati
+          <lb ed="#P" n="51"/>sunt ad esse per voluntatem creandi illos, quam
+          <lb ed="#P" n="52"/>ordinati fuerint, ut sint beati, per voluntatem
+          <lb ed="#P" n="53"/>glorificandi illos. Dices ut res creetur propter
+          <lb ed="#P" n="54"/>talem finem sufficit ordinatio in illum per 
+          vo<lb break="no" ed="#P" n="55"/>luntatem simplicem: et non requiritur desti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>natio efficax. Respondeo, respectu hominum
+          <lb ed="#P" n="57"/>in communi id verum esse et patet in 
+          repro<lb break="no" ed="#P" n="58"/>bis : in praedestinatis autem non datur duplex
+          <lb ed="#P" n="59"/>intentio et ordinatio in illum finem, una 
+          effi<lb break="no" ed="#P" n="60"/>cax et altera inefficax, sed tantum absoluta
+          <lb ed="#P" n="61"/>destinatio. Et ideo per hanc ipsam ordinati sunt
+          <lb ed="#P" n="62"/>ad beatitudinem, in codem signo, in quo 
+          or<lb break="no" ed="#P" n="63"/>dinati sunt ad esse.
+        </p>
+        <p xml:id="szduep-077793-d1e1069">
+          <lb ed="#P" n="64"/>15. Voluntas creandi et eligendi 
+          preedestina<lb break="no" ed="#P" n="65"/>tun unica est. — Ft religendi predestinatum
+          <lb ed="#P" n="66"/>unica, est. — Satisfit objectioni. — Oportet 
+          ta<lb break="no" ed="#P" n="67"/>men animadvertere, quod sicut voluntas 
+          prae<lb break="no" ed="#P" n="68"/>destinans ad finem non supponit voluntatem
+          <lb ed="#P" n="69"/>creandi praedestinatum, ita neque e converso
+          <lb ed="#P" n="70"/>voluntas creandi praedestinatum supponit 
+          vo<lb break="no" ed="#P" n="71"/>luntatem dandi illi gloriam, sed unica simplici
+          <lb ed="#P" n="72"/>voluntate ordinatur talis persona, ut sit 
+          prop<lb break="no" ed="#P" n="73"/>ter talem finem. Ratio est, quia gloria aut 
+          bea<lb break="no" ed="#P" n="74"/>uitudo non praedestinatur in abstracto, vel (ut
+          <lb ed="#P" n="75"/>alii loquuntur) ut quod, sed praedestinatur 
+          ali<lb break="no" ed="#P" n="76"/>cui, cujus est forma et perfectio quod non fit,
+          <lb ed="#P" n="77"/>nisi quatenus aliqua persona praedestinatur ad
+          <lb ed="#P" n="78"/>illam : non potest autem aliquis praedestinari,
+          <lb ed="#P" n="79"/>ut sit beatus, quin intrinsece praedestinetur
+          <lb ed="#P" n="80"/>ut sit: ergo non potest illa voluntas esse prior
+          <lb ed="#P" n="81"/>altera secundum rationem.
+        </p>
+        <p xml:id="szduep-077793-d1e1111">
+          <lb ed="#P" n="82"/>16. Objectio. —Dices, quidquid est posterius
+          <lb ed="#P" n="83"/>in executione, est prius in intentione: et e 
+          con<lb break="no" ed="#P" n="84"/>verso, quod est in intentione prius, est in 
+          exe<lb break="no" ed="#P" n="85"/>cutione posterius : sed rem creari et esse, in
+          <lb ed="#P" n="86"/>executione est prius, quam beatificari : ergo
+          <lb ed="#P" n="87"/>in intentione fuit posterius : prius ergo voluit
+          <lb ed="#P" n="88"/>Deus hominem beatificare, quam creare. 
+          Res<lb break="no" ed="#P" n="89"/>pondeo maximam illam habere verum inter
+          <lb ed="#P" n="90"/>finem et media, quae non constituunt 
+          intrin<lb break="no" ed="#P" n="91"/>sece ipsum finem, sed sunt causae extrinsecae
+          <lb ed="#P" n="92"/>seu efficientes consecutionis ejus. Non procedit
+          <lb ed="#P" n="93"/>autem inter subjectum et finem formalem:
+          <lb ed="#P" n="94"/>nam ex utroque suo modo constituitur 
+          intrin<lb break="no" ed="#P" n="95"/>sece totalis finis. Ita vero comparantur 
+          perso<lb break="no" ed="#P" n="96"/>na, quae praedestinatur, et gloria ad quam 
+          prae<lb break="no" ed="#P" n="97"/>destinatur : nam gloria est finis, cujus gratia,
+          <lb ed="#P" n="98"/>persona vero est finis, cui ipsa gloria 
+          procura<lb break="no" ed="#P" n="99"/>tur : et ideo licet in tempore prius fiat 
+          perso<lb break="no" ed="#P" n="100"/>na, quam gloria, tamen in aeternitate non
+          <lb ed="#P" n="101"/>prius amatur gloria, quam ametur talis 
+          per<lb break="no" ed="#P" n="102"/>sona, et ideo nec prius amatur, quam ipsa etiam
+          <lb ed="#P" n="103"/>persona ametur et ordinetur, ut beata perpetuo
+          <lb ed="#P" n="104"/>sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

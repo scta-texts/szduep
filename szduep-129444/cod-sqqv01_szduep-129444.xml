@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="510"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-129444"><!-- t2-l5c5 -->
+        <head xml:id="szduep-129444-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-129444-Hd1e103" type="question-title">Reprobationis negativae non dari causam ex parte hominis praesciti</head>
+        <p xml:id="szduep-129444-d1e106">
+          <lb ed="#P" n="34"/>CAPUT V.
+          <lb ed="#P" n="35"/>REPROBATIONIS NEGATIVAE NON DARI CAUSAM EX
+          <lb ed="#P" n="36"/>PARTE HOMINIS PRAESCITI.
+        </p>
+        <p xml:id="szduep-129444-d1e115">
+          <lb ed="#P" n="37"/>1. Error Manicheorum. — Explicata 
+          na<lb break="no" ed="#P" n="38"/>tura reprobationis, breviter dicendum est de
+          <lb ed="#P" n="39"/>causis et effectibus ejus. Constat autem ex his,
+          <lb ed="#P" n="40"/>quae de praedestinatione diximus, hic solum
+          <lb ed="#P" n="41"/>tractare de causa ex parte homifhis, per quam 
+          si<lb break="no" ed="#P" n="42"/>bi aliquo modo meruerit reprobationem suam,
+          <lb ed="#P" n="43"/>obiter vero etiam dicemus de causa ex parte
+          <lb ed="#P" n="44"/>DEI. Omitto autem imprimis errorem 
+          Mani<lb break="no" ed="#P" n="45"/>chaeorum, qui in quoddam principium summe
+          <lb ed="#P" n="46"/>malum referebant totam causam eorum 
+          ho<lb break="no" ed="#P" n="47"/>minum, qui damnantur : et Priscilianistarum,
+          <lb ed="#P" n="48"/>qui hoc tribuebant fato et cuidam naturali 
+          ne<lb break="no" ed="#P" n="49"/>cessitati : item Calvini et sequacium, qui ita
+          <lb ed="#P" n="50"/>hoc tribuunt voluntati divinae, ut illam faciant
+          <lb ed="#P" n="51"/>primam causam et radicem totius culpae et
+          <lb ed="#P" n="52"/>perditionis reproborum. Contra hos enim er-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>rores aliis locis ex professo disputatur : et 
+          vi<lb break="no" ed="#P" n="54"/>deri possunt, quae diximus in libro primo et 
+          <lb ed="#P" n="55"/>secundo de Auxiliis.
+        </p>
+        <p xml:id="szduep-129444-d1e161">
+          <lb ed="#P" n="56"/>2. Opinio negans. — Inter Catholicos ergo 
+          <lb ed="#P" n="57"/>multi negarunt dari causam reprobationis ex 
+          <lb ed="#P" n="58"/>parte hominis. Hujus opinionis videtur esse 
+          <lb ed="#P" n="59"/>D. Thomas, 1 p., q. 23, art. 5, nam in solut.,
+          <lb ed="#P" n="60"/>ad 3, videtur in hoc aequiparare 
+          reprobatio<lb break="no" ed="#P" n="61"/>nem praedestinationi. Idem tenet Ferrariensis
+          <lb ed="#P" n="62"/>3, contra Gentes, cap. 161, Durandus in 1,
+          <lb ed="#P" n="63"/>dist. 4, q. 2, prasertim num. 14, Gregorius,
+          <lb ed="#P" n="64"/>art. 2, conclus. 4 et 5, Marsilius, quaest. 41,
+          <lb ed="#P" n="65"/>art. 2, Driedo in Concordia, 1 p., cap. 3, 
+          Ada<lb break="no" ed="#P" n="66"/>mus ad Rom. 9, et multi ex modernis 
+          scripto<lb break="no" ed="#P" n="67"/>ribus. Fundamentum est, locus satis tractatus
+          <lb ed="#P" n="68"/>ad Rom. 9. Et ratio, quae ex dictis de 
+          praedes<lb break="no" ed="#P" n="69"/>tinatione sumitur, est. Nam si daretur causa
+          <lb ed="#P" n="70"/>reprobationis ex parte hominis, esset in libera
+          <lb ed="#P" n="71"/>potestate ejus reprobari et non reprobari:
+          <lb ed="#P" n="72"/>ergo in eadem potestate esset praedestinari et
+          <lb ed="#P" n="73"/>non praedestinari : nam haec duo immediata
+          <lb ed="#P" n="74"/>esse censentur : omnes enim, qui non 
+          repro<lb break="no" ed="#P" n="75"/>bantur, praedestinantur : ergo posset homo
+          <lb ed="#P" n="76"/>esse causa suae praedestinationis, nimirum,
+          <lb ed="#P" n="77"/>existens causa suae non reprobationis. Additur
+          <lb ed="#P" n="78"/>etiam alia ratio, quia homo non est causa
+          <lb ed="#P" n="79"/>primi effectus reprobationis, vel permissionis
+          <lb ed="#P" n="80"/>peccati, vel negationis auxilii congrui : ergo
+          <lb ed="#P" n="81"/>non est causa totius reprobationis, atque adeo
+          <lb ed="#P" n="82"/>nec reprobationis, simpliciter et absolute.
+        </p>
+        <p xml:id="szduep-129444-d1e223">
+          <lb ed="#P" n="83"/>2. Secunda sententia extreme contraria. —
+          <lb ed="#P" n="84"/>Alii fuerunt in sententia extreme contraria ,
+          <lb ed="#P" n="85"/>scilicet dari ex parte hominis causam totius
+          <lb ed="#P" n="86"/>reprobationis, etiam quoad negationem 
+          prae<lb break="no" ed="#P" n="87"/>destinationis. Hanc tenent omnes auctores,
+          <lb ed="#P" n="88"/>qui affirmant dari in praedestinatis causam suae
+          <lb ed="#P" n="89"/>praedestinationis, ut sunt Henricus, Ocham,
+          <lb ed="#P" n="90"/>Gabriel et alii: loquunturque consequenter.
+          <lb ed="#P" n="91"/>Qui putant Deum voluntate sua non fecisse
+          <lb ed="#P" n="92"/>discretionem electionis inter homines ex se
+          <lb ed="#P" n="93"/>eequales, sed eos elegisse ad gloriam, quos 
+          ali<lb break="no" ed="#P" n="94"/>quo modo magis dispositos praescivit : ergo e
+          <lb ed="#P" n="95"/>contrario aliquos reliquit propter aliquam 
+          cau<lb break="no" ed="#P" n="96"/>sam ex parte illorum, quae fuerit vel illorum
+          <lb ed="#P" n="97"/>culpa, vel carentia illius dispositionis.
+        </p>
+        <p xml:id="szduep-129444-d1e258">
+          <lb ed="#P" n="98"/>4. Media opinio. — Aliqui vero, praesertim
+          <lb ed="#P" n="99"/>ex modernis auctoribus, admittunt causam 
+          re<lb break="no" ed="#P" n="100"/>probationis, quamvis praedestinationis negent
+          <lb ed="#P" n="101"/>et illam esse dicunt originale peccatum. Quia
+          <lb ed="#P" n="102"/>illud ex se fuit sufficiens causa derelictionis
+          <lb ed="#P" n="103"/>divinae : ergo quos Deus deseruit, propter hanc
+          <lb ed="#P" n="104"/>causam deseruit, quamvis multos alios 
+          haben<lb break="no" ed="#P" n="105"/>tes eamdem causam deserere noluerit, quod
+          <lb ed="#P" n="106"/>in illis misericordiae divinae tribuendum est, in
+          <lb ed="#P" n="107"/>aliis vero justo judicio. Atque ita absolute da-
+          <pb ed="#P" n="511"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur causa reprobationis in his, qui deseruntur,
+          <lb ed="#P" n="2"/>quamvis comparationis non detur, scilicet, cur
+          <lb ed="#P" n="3"/>hi potius quam illi deserantur. Et hoc modo
+          <lb ed="#P" n="4"/>interpretantur sententiam divi Thomae et 
+          pu<lb break="no" ed="#P" n="5"/>tant etiam esse divi Augustini : quia multis in
+          <lb ed="#P" n="6"/>locis videtur ita loqui de separatione 
+          electo<lb break="no" ed="#P" n="7"/>rum ex massa perditionis per misericordiam,
+          <lb ed="#P" n="8"/>et derelictionis aliorum in suo lapsu per 
+          judi<lb break="no" ed="#P" n="9"/>cium.
+        </p>
+        <p xml:id="szduep-129444-d1e306">
+          <lb ed="#P" n="10"/>5. Prima conclusio. —Suppositis autem 
+          prin<lb break="no" ed="#P" n="11"/>cipiis a nobis jam traditis resolutio hujus 
+          quaes<lb break="no" ed="#P" n="12"/>tionis facilis est : Aliter enim loquendum est
+          <lb ed="#P" n="13"/>de causa reprobationis positivae, et aliter de
+          <lb ed="#P" n="14"/>causa non praedestinationis , seu reprobationis
+          <lb ed="#P" n="15"/>negativae : de hac ergo posteriori nunc 
+          agi<lb break="no" ed="#P" n="16"/>mus, de alia in sequenti capite dicemus. Dico
+          <lb ed="#P" n="17"/>itaque primo, ex parte reprobi nullam dari
+          <lb ed="#P" n="18"/>causam reprobationis negativae, nec rationem
+          <lb ed="#P" n="19"/>voluntatis Dei de non praeeligenda tali 
+          perso<lb break="no" ed="#P" n="20"/>na efficaciter ad gloriam. Quoad hoc verum
+          <lb ed="#P" n="21"/>habet prima sententia, quam etiam sequuntur
+          <lb ed="#P" n="22"/>Scotus et alii. Recteque fundatur in loco Pauli
+          <lb ed="#P" n="23"/>ad Rom. 9: Antequam quidquam , etc., usque
+          <lb ed="#P" n="24"/>ad illud : Esau autem odio habui, cum 
+          expo<lb break="no" ed="#P" n="25"/>sitione superius a nobis data. Et juxta hanc.
+          <lb ed="#P" n="26"/>assertionem intelligitur illa admiratio 
+          Augus<lb break="no" ed="#P" n="27"/>tini: Cur hunc trahat, et illum non trahat, noli
+          <lb ed="#P" n="28"/>Judicare, etc., tract. 26, in Joan.; et Epist. 165:
+          <lb ed="#P" n="29"/>Chr hunc liberet et non illum. Et de Corrept. et
+          <lb ed="#P" n="30"/>Gratia, cap. S et 13. Nam si respiciamus ad
+          <lb ed="#P" n="31"/>hos effectus in executione, videtur dari causa
+          <lb ed="#P" n="32"/>ex parte hominum. Et ideo aliqui non 
+          mo<lb break="no" ed="#P" n="33"/>ventur hac admiratione Augustini, nam ille
+          <lb ed="#P" n="34"/>trahitur, quia Deo movetur, et ipse se moveri
+          <lb ed="#P" n="35"/>sinit, alter vero non trahitur, quia licet a Deo
+          <lb ed="#P" n="36"/>moveatur, ipse resistit. Tamen, licet hoc sit
+          <lb ed="#P" n="37"/>verum in executione, ihilominas respiciendo
+          <lb ed="#P" n="38"/>ad praeparationem et praeelectionem Dei, 
+          mag<lb break="no" ed="#P" n="39"/>nam habet admirationem, quod hunc potius,
+          <lb ed="#P" n="40"/>quam illum praeelegerit, cujus rei nullam 
+          cau<lb break="no" ed="#P" n="41"/>sam Augustini in hominibus invenit. Quam
+          <lb ed="#P" n="42"/>intelligentiam docte notavit Soto, lib. 1, de
+          <lb ed="#P" n="43"/>Natura et Gratia , cap. 15.
+        </p>
+        <p xml:id="szduep-129444-d1e382">
+          <lb ed="#P" n="44"/>6. Objectio. — Hnervatur. — Secunda 
+          ob<lb break="no" ed="#P" n="45"/>eenio. — Responsum redditur. — Dices, hinc
+          <lb ed="#P" n="46"/>solum probari, non dari causam comparationis
+          <lb ed="#P" n="47"/>unius prae alio, non tamen absolute non dari
+          <lb ed="#P" n="48"/>causam non electionis. Respondeo, hoc 
+          con<lb break="no" ed="#P" n="49"/>vincendum esse, adjuncta ratione. Quia in eo
+          <lb ed="#P" n="50"/>E in quo praedestinati fuerunt electi, non
+          <lb ed="#P" n="51"/>habebant culpam ullam a Deo praevisam : ergo
+          <lb ed="#P" n="52"/>et reliqui, qui non fuerunt electi, non habo
+          <lb ed="#P" n="53"/>bant culpam praevisam in eo signo, in quo
+          <lb ed="#P" n="54"/>electi non sunt : ergo ex parte sua non 
+          habue<lb break="no" ed="#P" n="55"/>runt causam suae non electionis. Prima conse-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quentia patet, quia in eo signo, in quo facta
+          <lb ed="#P" n="57"/>est discretio inter illos, erant illi aequales inter
+          <lb ed="#P" n="58"/>se, ut probat etiam exemplum Pauh de figulo
+          <lb ed="#P" n="59"/>et luto. Et confirmatur aperte in angels, in
+          <lb ed="#P" n="60"/>quibus nulla culpa praecessit ante divinam 
+          per<lb break="no" ed="#P" n="61"/>missionem, et a fortiori, neque ante 
+          volunta<lb break="no" ed="#P" n="62"/>tem non elgendi ad gloriam ; de hominibus
+          <lb ed="#P" n="63"/>autem possent ahter sentire qui putant 
+          elec<lb break="no" ed="#P" n="64"/>tionem praedestinatorum factam esse post 
+          prae<lb break="no" ed="#P" n="65"/>visum originale peccatum, ut statim in simili
+          <lb ed="#P" n="66"/>dicemus, nos autem supra ostendimus etiam
+          <lb ed="#P" n="67"/>hominum electionem factam esse ante 
+          praevi<lb break="no" ed="#P" n="68"/>sum originale peccatum : ergo etiam in 
+          homi<lb break="no" ed="#P" n="69"/>nibus nulla fuit supposita culpa in eo signo, in
+          <lb ed="#P" n="70"/>quo Deus voluit hos eligere, et non alios. 
+          Se<lb break="no" ed="#P" n="71"/>cunda vero consequentia patet : quia ex parte
+          <lb ed="#P" n="72"/>hominum, vel angelorum nulla potest 
+          cogi<lb break="no" ed="#P" n="73"/>tari causa seu ratio talis voluntatis divinae 
+          prae<lb break="no" ed="#P" n="74"/>ter culpam. Dicet aliquis, sufficientem causam
+          <lb ed="#P" n="75"/>esse, quod in tali creatura nulla est ratio, ob
+          <lb ed="#P" n="76"/>quam Deus debeat illam eligere. Respondeo,
+          <lb ed="#P" n="77"/>hic non esse sermonem de hujusmodi ratione
+          <lb ed="#P" n="78"/>negativa, sed de causa aliqua morali, quae ex
+          <lb ed="#P" n="79"/>parte creaturae addita sit et possit movere
+          <lb ed="#P" n="80"/>DEUM ad talem volitionem. Praesertim, quia
+          <lb ed="#P" n="81"/>Deus neminem eligit, eo quod teneatur, aut
+          <lb ed="#P" n="82"/>quia creaturae ob suam capacitatem naturalem
+          <lb ed="#P" n="83"/>debeatur talis electio: ubi autem affirmatio
+          <lb ed="#P" n="84"/>non est causa affirmationis, neque opposita
+          <lb ed="#P" n="85"/>negatio potest proprie dici causa negationis.
+        </p>
+        <p xml:id="szduep-129444-d1e478">
+          <lb ed="#P" n="86"/>7. Ex verbis D. Prosperi objectio. — Mens
+          <lb ed="#P" n="87"/>Prosperi evplanatur. — Contra hanc vero 
+          as<lb break="no" ed="#P" n="88"/>sertionem objici possunt verba Prosperi in
+          <lb ed="#P" n="89"/>responsione tertia, ad Gallos, ubi de reprobis
+          <lb ed="#P" n="90"/>sic loquitur: JVon necessitatem puniendi 
+          ha<lb break="no" ed="#P" n="91"/>buerunt, quia pradestinati non sunt, sed ideo non
+          <lb ed="#P" n="92"/>praedestinati , quia tales futuri ea voluntaria
+          <lb ed="#P" n="93"/>pravaricatione praesciti sunt. Simila habet 
+          re<lb break="no" ed="#P" n="94"/>sponsio septima. Dico tamen, usum esse 
+          ter<lb break="no" ed="#P" n="95"/>mino negativo propositivo, ex contextu enim
+          <lb ed="#P" n="96"/>constat loqui de ipsa reprobatione positiva.
+          <lb ed="#P" n="97"/>Nam , quia illa semper conjuncta est cum
+          <lb ed="#P" n="98"/>negatione praedestinationis , ideo solet unum
+          <lb ed="#P" n="99"/>pro alio usurpari extra rigorosam 
+          disputatio<lb break="no" ed="#P" n="100"/>nem.
+        </p>
+        <p xml:id="szduep-129444-d1e513">
+          <lb ed="#P" n="101"/>8. Secunda assertio. — Hinc ulterius assero,
+          <lb ed="#P" n="102"/>necessarium non esse dari causam ex parte 
+          re<lb break="no" ed="#P" n="103"/>probi, ob quam Deus noluerit illi dari gratiam
+          <lb ed="#P" n="104"/>congruam, seu media in sua praescientia 
+          in<lb break="no" ed="#P" n="105"/>fallibilia ad obtinendam salutem. Hoc probari
+          <lb ed="#P" n="106"/>potest eodem discursu, quia nulla culpa 
+          ne<lb break="no" ed="#P" n="107"/>cessario supponitur ex parte creaturae ad hanc
+          <lb ed="#P" n="108"/>Dei voluntatem. Item, quia prima permissio
+          <lb ed="#P" n="109"/>peccati non potest habere causam ex parte 
+          re<lb break="no" ed="#P" n="110"/>probi, ut recte dicit prima opinio, et manifeste
+          <pb ed="#P" n="512"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>constat ex dictis capite praecedenti : in 
+          per<lb break="no" ed="#P" n="2"/>missione autem includitur negatio dicti auxili.
+          <lb ed="#P" n="3"/>Denique, in angelis est hoc manifestum, quia
+          <lb ed="#P" n="4"/>in eodem signo, in quo Deus voluit dare his
+          <lb ed="#P" n="5"/>angelis hanc gratiam praevenientem, illis vero
+          <lb ed="#P" n="6"/>illam, in angelis electis nulla praecesserat 
+          cul<lb break="no" ed="#P" n="7"/>pa: ergo neque in alus, erant enim in illo
+          <lb ed="#P" n="8"/>signo aequales quoad meritum, vel demeritum.
+        </p>
+        <p xml:id="szduep-129444-d1e560">
+          <lb ed="#P" n="9"/>9. De hominibus autem potest probabihter
+          <lb ed="#P" n="10"/>dici, peccatum originale sufficientem causam
+          <lb ed="#P" n="11"/>fuisse non dandi hanc gratiam his, quibus eam
+          <lb ed="#P" n="12"/>Deus dare noluit : quia nos supra diximus, 
+          dis<lb break="no" ed="#P" n="13"/>tributionem (ut sic dicam) gratiae 
+          praevenien<lb break="no" ed="#P" n="14"/>tis, etiam in divina voluntate, factam esse post
+          <lb ed="#P" n="15"/>praescientiam originalis peccati. Et quamvis
+          <lb ed="#P" n="16"/>hoc fuerit aequale in omnibus, et ideo non 
+          po<lb break="no" ed="#P" n="17"/>tuerit esse ratio dandi gratiam congruam his
+          <lb ed="#P" n="18"/>potius, quam illis, tamen absolute erat ex se
+          <lb ed="#P" n="19"/>sufficiens ratio negandi gratiam congruam
+          <lb ed="#P" n="20"/>his, quibus eam Deus negare vellet : ergo 
+          cre<lb break="no" ed="#P" n="21"/>dibile est etiam respexisse Deum ad hanc 
+          ra<lb break="no" ed="#P" n="22"/>tionem, cum illam habuit voluntatem. Sic
+          <lb ed="#P" n="23"/>enim voluntas illa non erit ex absoluta 
+          potes<lb break="no" ed="#P" n="24"/>tate, sed etiam ex justitia: quando autem
+          <lb ed="#P" n="25"/>commode fieri potest, Deus vult, seu operatur
+          <lb ed="#P" n="26"/>secundum omnem rationem virtutis. Et hoc
+          <lb ed="#P" n="27"/>est, quod saepe insinuat Augustinus in 
+          discre<lb break="no" ed="#P" n="28"/>tione hominum ex massa perditionis, cujus
+          <lb ed="#P" n="29"/>loca statim referam.
+        </p>
+        <p xml:id="szduep-129444-d1e608">
+          <lb ed="#P" n="30"/>10. — Objectio. — Diluitur. — Dices. Multi
+          <lb ed="#P" n="31"/>sunt homines reprobi, quibus peccatum 
+          origi<lb break="no" ed="#P" n="32"/>nale remittitur : ergo in illis non potest hoc
+          <lb ed="#P" n="33"/>peccatum esse causa hujus negationis gratiae
+          <lb ed="#P" n="34"/>congruae, quia Deus non punit peccatum 
+          re<lb break="no" ed="#P" n="35"/>missum. Respondeo negando consequentiam,
+          <lb ed="#P" n="36"/>quia licet Deus non puniat peccatum 
+          remis<lb break="no" ed="#P" n="37"/>sum privatione gloriae, aut gratiae justificantis,
+          <lb ed="#P" n="38"/>vel auxiliantis necessariae, et sufficientis, saepe
+          <lb ed="#P" n="39"/>tamen negat uberiorem gratiam, seu specialem,
+          <lb ed="#P" n="40"/>et non debitam providentiam propter 
+          pecca<lb break="no" ed="#P" n="41"/>tum semel commissum, etiamsi jam remissum
+          <lb ed="#P" n="42"/>sit. Nam ex materia de poenitentia constat,
+          <lb ed="#P" n="43"/>cum culpa non semper remitti omnem poenam
+          <lb ed="#P" n="44"/>quod maxime verum est de poenis hujus vitae
+          <lb ed="#P" n="45"/>et extraordinarns, et de facto constat, remisso
+          <lb ed="#P" n="46"/>originali peccato per baptismum, non dimitti
+          <lb ed="#P" n="47"/>poenam mortis, neque alias poenalitates hujus
+          <lb ed="#P" n="48"/>vitae. Ergo ita potuit Deus absolute inferre
+          <lb ed="#P" n="49"/>hanc peenam, quibus voluit propter talem 
+          cul<lb break="no" ed="#P" n="50"/>pam, quae poena nunquam tolleretur, etiamsi
+          <lb ed="#P" n="51"/>remittatur culpa. Sicut etiam contingit 
+          ali<lb break="no" ed="#P" n="52"/>quem virum justum, qui a Deo recipiebat
+          <lb ed="#P" n="53"/>multa specialia auxilia propter actuale 
+          pecca<lb break="no" ed="#P" n="54"/>tum privari illa speciali gratia, et quamvis
+          <lb ed="#P" n="55"/>postea per poenitentiam restituatur ad justi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiam, non ideo statim restitui ad antiquam 
+          fa<lb break="no" ed="#P" n="57"/>miliaritatem, vel specialem protectionem Dei. 
+        </p>
+        <p xml:id="szduep-129444-d1e673">
+          <lb ed="#P" n="58"/>11. Dubium. — Explanatur. — Sed quaeret 
+          <lb ed="#P" n="59"/>tandem aliquis, an hujus voluntatis, seu 
+          repro<lb break="no" ed="#P" n="60"/>bationis negativae detur aliqua causa saltem ex
+          <lb ed="#P" n="61"/>parte Dei ? Respondeo, si in particulari 
+          loqua<lb break="no" ed="#P" n="62"/>mur de his hominibus, vel angelis 
+          compara<lb break="no" ed="#P" n="63"/>tione illorum, nullam esse, vel certe nullam
+          <lb ed="#P" n="64"/>a nobis assignari posse, sicut dictum est de
+          <lb ed="#P" n="65"/>praedestinatione ; est enim eadem ratio, quia
+          <lb ed="#P" n="66"/>in personis est aequalis dignitas , vel 
+          indigni<lb break="no" ed="#P" n="67"/>tas, et quidquid in uno operatur Deus ad 
+          mani<lb break="no" ed="#P" n="68"/>festanda sua attributa, potuit operari in alio.
+          <lb ed="#P" n="69"/>Tamen in communi habuit sine dubio Deus
+          <lb ed="#P" n="70"/>multas rationes, ob quas noluit omnes eligere
+          <lb ed="#P" n="71"/>eodem modo, et consequenter voluit aliquos
+          <lb ed="#P" n="72"/>non eligere. Quae rationes sumendae sunt vel
+          <lb ed="#P" n="73"/>ex manifestatione divinae gratiae in electis, vel
+          <lb ed="#P" n="74"/>ex parte libertatis, ut Deus relinqueret 
+          creatu<lb break="no" ed="#P" n="75"/>ras omnibus modis libere operari et 
+          ostende<lb break="no" ed="#P" n="76"/>ret fragilitatem suarum virium naturalium.
+          <lb ed="#P" n="77"/>Alia vero ratio, quae sumi solet ex 
+          manifesta<lb break="no" ed="#P" n="78"/>tione justitiae Dei vindicativae, non est ita 
+          ac<lb break="no" ed="#P" n="79"/>cipienda, ut ante praescientiam absolutam 
+          fu<lb break="no" ed="#P" n="80"/>turi peccati habuerit Deus intentionem, vel
+          <lb ed="#P" n="81"/>voluntatem absolutam manifestandi hanc 
+          jus<lb break="no" ed="#P" n="82"/>titiam, quia ut dictum est, Deus ex se non 
+          ha<lb break="no" ed="#P" n="83"/>bet hanc voluntatem, alioqui virtute vellet
+          <lb ed="#P" n="84"/>ipsam culpam. Solum ergo habuit Deus 
+          volun<lb break="no" ed="#P" n="85"/>tatem illam post praevisam culpam, antea vero
+          <lb ed="#P" n="86"/>praecognovit , se posse hoc bonum elicere ex
+          <lb ed="#P" n="87"/>peccato, si ab homine fieret, et solum habuit
+          <lb ed="#P" n="88"/>voluntatem conditionatam ita se gerendi cum
+          <lb ed="#P" n="89"/>homine, si ipse peccaret.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

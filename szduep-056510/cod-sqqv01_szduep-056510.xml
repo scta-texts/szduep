@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="221"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-056510"><!-- t1-l3c8 -->
+        <head xml:id="szduep-056510-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-056510-Hd1e103" type="question-title">De voluntate signi et beneplaciti, antecedente et consequente</head>
+        <p xml:id="szduep-056510-d1e106">
+          <lb ed="#P" n="91"/>CAPUT VIII.
+          <lb ed="#P" n="92"/>DE VOLUNTATE SIGNI ET BENEPLACITI, 
+          ANTECE<lb break="no" ed="#P" n="93"/>DENTE ET CONSEQUENTE.
+        </p>
+        <p xml:id="szduep-056510-d1e115">
+          <lb ed="#P" n="94"/>1. Voluntas signi et beneplaciti. — Quinque
+          <lb ed="#P" n="95"/>signa voluntatis. — Superioribus divisionibus,
+          <lb ed="#P" n="96"/>quae sumptae sunt ex analogia ad nostram 
+          vo<lb break="no" ed="#P" n="97"/>luntatem, additae sunt aliae a theologis quas
+          <lb ed="#P" n="98"/>nosse oportet, ad explicandas varias 
+          locutio<lb break="no" ed="#P" n="99"/>nes Scripturae et Patrum, et ideo illas breviter
+          <lb ed="#P" n="100"/>percurremus. Dividitur ergo voluntas Dei in
+          <lb ed="#P" n="101"/>voluntatem signi et beneplaciti, ut videri 
+          po<lb break="no" ed="#P" n="102"/>test in D. Thoma, quaet. 19, art. 11 et 12. Quae
+          <lb ed="#P" n="103"/>divisio juxta communem sensum theologorum
+          <lb ed="#P" n="104"/>valde analoga est, nam voluntas signi non est
+          <lb ed="#P" n="105"/>vera voluntas, sed signum voluntatis, solet
+          <lb ed="#P" n="106"/>enim vocari voluntas alicujus, id quod ipse
+          <lb ed="#P" n="107"/>vult aliquo modo et omne id, quod indicat
+          <lb ed="#P" n="108"/>voluntatem ejus. Sic videtur sumi Ps. 102:
+          <pb ed="#P" n="222"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Notas fecit vias suas Moysi, Filiis Tsrael 
+          vo<lb break="no" ed="#P" n="2"/>luntates suas, id est, praecepta sua. Et Act. 13:
+          <lb ed="#P" n="3"/>Qui faciet omnes voluntates meas, id est, 
+          prae<lb break="no" ed="#P" n="4"/>cepta, vel opera, quae ego voluero. In hoc ergo
+          <lb ed="#P" n="5"/>sensu vocant theologi voluntatem signi, 
+          ex<lb break="no" ed="#P" n="6"/>ternum signum divinae voluntatis. 
+          Numerant<lb break="no" ed="#P" n="7"/>que quinque signa divinae voluntatis. 
+          Praecep<lb break="no" ed="#P" n="8"/>tum, Prohibitionem (quae est praeceptum 
+          nega<lb break="no" ed="#P" n="9"/>tivum) Consilium, Permissionem, Operationem.
+          <lb ed="#P" n="10"/>Circa quae breviter adverto, signum voluntatis
+          <lb ed="#P" n="11"/>metaphorice dici voluntatem, semper tamen in
+          <lb ed="#P" n="12"/>DEO indicare aliquam veram voluntatem, alias
+          <lb ed="#P" n="13"/>non esset verum signum, neque nomen 
+          volun<lb break="no" ed="#P" n="14"/>tatis mereretur, etiam secundum analogiam.
+          <lb ed="#P" n="15"/>Sicut homo pictus nisi verum hominem 
+          re<lb break="no" ed="#P" n="16"/>praesentaret, nec analogice, nec metaphorice
+          <lb ed="#P" n="17"/>homo dici posset. In his ergo signis attente
+          <lb ed="#P" n="18"/>considerandum est, quam veram voluntatem
+          <lb ed="#P" n="19"/>in Deo indicent. Ideo namque haec signa 
+          dis<lb break="no" ed="#P" n="20"/>tinguuntur, quia non eumdem voluntatis 
+          mo<lb break="no" ed="#P" n="21"/>dum significant.
+        </p>
+        <p xml:id="szduep-056510-d1e200">
+          <lb ed="#P" n="22"/>2. Praeceptum ergo de se non indicat 
+          abso<lb break="no" ed="#P" n="23"/>lutam voluntatem Dei, quod res praecepta fiat,
+          <lb ed="#P" n="24"/>sed indicat absolutam voluntatem praecipiendi
+          <lb ed="#P" n="25"/>et obligandi, ut fiat: cum affectu simplicis
+          <lb ed="#P" n="26"/>desiderii, ut ita fiat. Idem est cum proportione
+          <lb ed="#P" n="27"/>de prohibitione, nam illa etiam est quoddam
+          <lb ed="#P" n="28"/>praeceptum oppositi, seu negativi objecti. 
+          In<lb break="no" ed="#P" n="29"/>dicat ergo in DEO voluntatem praecipiendi et
+          <lb ed="#P" n="30"/>obligandi, ne aliquid fiat cum affectu, ut non
+          <lb ed="#P" n="31"/>fiat, quantum est ex parte Dei. Consilium non
+          <lb ed="#P" n="32"/>est signum voluntatis Dei obligandi, sed 
+          imme<lb break="no" ed="#P" n="33"/>diate videtur consilium indicare judicium 
+          Di<lb break="no" ed="#P" n="34"/>vinum decernens esse melius id, quod consulit,
+          <lb ed="#P" n="35"/>et consequenter etiam indicat simplicem 
+          affec<lb break="no" ed="#P" n="36"/>tum Dei et desiderium, ut id fiat, quantum est
+          <lb ed="#P" n="37"/>ex parte sua. Permissio autem convenit cum
+          <lb ed="#P" n="38"/>praecedentibus, quia non indicat -voluntatem
+          <lb ed="#P" n="39"/>efficacem rei permissae, differt tamen, quia
+          <lb ed="#P" n="40"/>simplicem affectum non indicat. Permittit enim
+          <lb ed="#P" n="41"/>Deus peccatum, quod nullo modo vult. Indicat
+          <lb ed="#P" n="42"/>ergo voluntatem non denegandi concursum
+          <lb ed="#P" n="43"/>generalem ad rem permissam, nec impediendi
+          <lb ed="#P" n="44"/>nefiat. D. Thomas, dictoart. 12, exposuit. 
+          Ope<lb break="no" ed="#P" n="45"/>ratio vero Dei indicat voluntatem Dei, qua vult
+          <lb ed="#P" n="46"/>id facere, vel ad id concurrere, quia omnia
+          <lb ed="#P" n="47"/>per suam voluntatem operatur. Quae voluntas
+          <lb ed="#P" n="48"/>non semper est ejusdem rationis, aliter enim
+          <lb ed="#P" n="49"/>DEUS vult, quod ipse solus facit, quam quod
+          <lb ed="#P" n="50"/>facit per creaturas et aliter vult bonum opus
+          <lb ed="#P" n="51"/>quam illud, quod habet malitiam adjunctam.
+          <lb ed="#P" n="52"/>Et ideo fortasse dictum est, Psalmo 110: 
+          Aa<lb break="no" ed="#P" n="53"/>gna opera Domini, exrquisita in omnes 
+          volunta<lb break="no" ed="#P" n="54"/>tes ejus, quia varii sunt volendi modi, qui in
+          <lb ed="#P" n="55"/>operibus DET latent. Ad quod pertinent multa,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quae de decretis divinae voluntatis in libris de
+          <lb ed="#P" n="57"/>Auxiliis disputavimus.
+        </p>
+        <p xml:id="szduep-056510-d1e284">
+          <lb ed="#P" n="58"/>3. Voluntas beneplaciti significat veram 
+          vo<lb break="no" ed="#P" n="59"/>luntatem. — Ex declaratione hujus membri
+          <lb ed="#P" n="60"/>constare potest, per voluntatem beneplaciti
+          <lb ed="#P" n="61"/>significari voluntatem veram in DEO 
+          existen<lb break="no" ed="#P" n="62"/>tem : ac subinde sub illo membro comprehendi
+          <lb ed="#P" n="63"/>totum velle Dei, prout versatur circa objecta
+          <lb ed="#P" n="64"/>creata, quia hoc necessarium est, ut divisio sit
+          <lb ed="#P" n="65"/>adaequata. Sic ergo omnis vera voluntas Dei
+          <lb ed="#P" n="66"/>beneplacitum ejus dici potest, sicque videtur
+          <lb ed="#P" n="67"/>dixisse Christus, Matth. 11. 7ta Pater, quoniam
+          <lb ed="#P" n="68"/>sic fuit placitam antete. Ibi enim tam de 
+          volun<lb break="no" ed="#P" n="69"/>tate illuminandi quosdam, quam de voluntate
+          <lb ed="#P" n="70"/>obcaecandi, seu non illuminandi alios, locutus
+          <lb ed="#P" n="71"/>est. Aliae ergo divisiones divinae voluntatis, de
+          <lb ed="#P" n="72"/>voluntate beneplaciti intelligendae sunt. Unde
+          <lb ed="#P" n="73"/>ad illam pertinent omnia, quae in tribus primis
+          <lb ed="#P" n="74"/>divisionibus dicta sunt, et ad idem membrum
+          <lb ed="#P" n="75"/>spectant omnes voluntates, quas per quinque
+          <lb ed="#P" n="76"/>dicta signa ostendi, diximus. Ulterius vero
+          <lb ed="#P" n="77"/>solet haec voluntas aliis modis dividi.
+        </p>
+        <p xml:id="szduep-056510-d1e330">
+          <lb ed="#P" n="78"/>Voluntas consequens et antecedens.
+        </p>
+        <p xml:id="szduep-056510-d1e335">
+          <lb ed="#P" n="79"/>4. Primus modus declarandi. — Ulterius 
+          ita<lb break="no" ed="#P" n="80"/>que dividitur voluntas divina in voluntatem
+          <lb ed="#P" n="81"/>antecedentem et consequentem, quam 
+          distinc<lb break="no" ed="#P" n="82"/>tionem tradunt omnes theologi statim citandi,
+          <lb ed="#P" n="83"/>non tamen omnes eodem modo illam 
+          decla<lb break="no" ed="#P" n="84"/>rant. Quidam dicunt voluntatem antecedentem
+          <lb ed="#P" n="85"/>vocari, quando non terminatur ad rem 
+          al<lb break="no" ed="#P" n="86"/>quam in se, sed ad aliam antecedentem, ex
+          <lb ed="#P" n="87"/>qua sufficienter potest altera fieri, licet fortasse
+          <lb ed="#P" n="88"/>impedienda sit, ne fiat. Ita videtur exponere
+          <lb ed="#P" n="89"/>Durandus in 1, distinct. 47, quaest. 1, num. 5,
+          <lb ed="#P" n="90"/>et ibi Bonaventura, art. 1, quaest. 1. Hervaeus,
+          <lb ed="#P" n="91"/>d. 46, quaest. 2, Gabriel, quaest., 1 et alii, quos
+          <lb ed="#P" n="92"/>retuli in Relectione 1, disp. 1, sect. 2, num. 8.
+          <lb ed="#P" n="93"/>Exemplo declarant, quia vult Deus reprobos
+          <lb ed="#P" n="94"/>salvari, non quia velit eis gloriam, sed quia
+          <lb ed="#P" n="95"/>vult sufficientem gratiam, in qua veluti 
+          ante<lb break="no" ed="#P" n="96"/>cedenter continetur gloria. Sed objici potest,
+          <lb ed="#P" n="97"/>quia Deus vult hoc modo antecedenter causas,
+          <lb ed="#P" n="98"/>ex quibus sequitur peccatum, et tamen non 
+          po<lb break="no" ed="#P" n="99"/>test dici velle peccatum, etiam voluntate 
+          an<lb break="no" ed="#P" n="100"/>tecedente, imo simpliciter odio habet 
+          pecca<lb break="no" ed="#P" n="101"/>tum, quia vere illi displicet. Respondebunt
+          <lb ed="#P" n="102"/>fortasse, peccatum non sequi ex eo, quod Deus
+          <lb ed="#P" n="103"/>vult, nempe, ex permissione. Ut autem 
+          dica<lb break="no" ed="#P" n="104"/>tur Deus velle aliquid antecedenter oportere,
+          <lb ed="#P" n="105"/>ut sequatur ex illo quod Deus vult tanquam ex
+          <lb ed="#P" n="106"/>causa.
+        </p>
+        <p xml:id="szduep-056510-d1e398">
+          <lb ed="#P" n="107"/>5. Rejicitur.—Sed nihilominus cum 
+          volun<lb break="no" ed="#P" n="108"/>tas antecedens vera sit et nor metaphorica, et
+          <pb ed="#P" n="223"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ratione illius dicatur Deus velle aliquid, verbi
+          <lb ed="#P" n="2"/>gratia, salutem omnium hominum, 1 Timoth.
+          <lb ed="#P" n="3"/>2. necesse est, ut talis voluntas sit aliquo modo
+          <lb ed="#P" n="4"/>terminata ad rem volitam in se ipsa. Praeterca
+          <lb ed="#P" n="5"/>hae duae voluntates distinguuntur ratione a
+          <lb ed="#P" n="6"/>theologis, at juxta illam expositionem non 
+          es<lb break="no" ed="#P" n="7"/>sent duae voluntates, sed una, quae ut 
+          termi<lb break="no" ed="#P" n="8"/>natur ad suum objectum immediatum, est 
+          con<lb break="no" ed="#P" n="9"/>sequens, respectu vero alterius, quasi virtute,
+          <lb ed="#P" n="10"/>vel causaliter in illo contenti, dicetur 
+          antece<lb break="no" ed="#P" n="11"/>dens. Denique nec ratio nominum quadrat,
+          <lb ed="#P" n="12"/>nam voluntas, quae versatur circa objectum
+          <lb ed="#P" n="13"/>proprium, cur ea ratione consequens dici 
+          de<lb break="no" ed="#P" n="14"/>bet, cum sit proxima sui objecti (ut sic dicam)
+          <lb ed="#P" n="15"/>et aliud non sit objectum ejus nisi virtute et
+          <lb ed="#P" n="16"/>quasi interpretatione quadam. Denique ex 
+          di<lb break="no" ed="#P" n="17"/>cendis constabit, non esse necessarium 
+          recur<lb break="no" ed="#P" n="18"/>rere ad has metaphoras.
+        </p>
+        <p xml:id="szduep-056510-d1e448">
+          <lb ed="#P" n="19"/>6. Secundus modus. — Secundo exponitur
+          <lb ed="#P" n="20"/>haec divisio advertendo, Deum aliquid ex se
+          <lb ed="#P" n="21"/>velle, ratione suae bonitatis, ut misereri, 
+          be<lb break="no" ed="#P" n="22"/>nefacere : aliquid vero tantum provocatus ab
+          <lb ed="#P" n="23"/>hominibus, vel supposita praescientia alicujus
+          <lb ed="#P" n="24"/>operis nostri, ut punire vel aliquod malum ir-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="25"/>rogare. Voluntas ergo Dei, ut versatur circa
+          <lb ed="#P" n="26"/>priora opera, dicitur antecedens, quia ex se
+          <lb ed="#P" n="27"/>Deus illam habet, nulla sumpta occasione ex
+          <lb ed="#P" n="28"/>nostris operibus : ut autem versatur circa 
+          pos<lb break="no" ed="#P" n="29"/>teriora, dicitur consequens, contraria ratione.
+          <lb ed="#P" n="30"/>Hanc partitionem hoc modo explicatam 
+          in<lb break="no" ed="#P" n="31"/>dicavit Chrysostomus, hom. 1, in ad Ephes.
+          <lb ed="#P" n="32"/>Ubi has duas voluntates primariam et 
+          secun<lb break="no" ed="#P" n="33"/>dariam, seu primam et secundam appellavit.
+          <lb ed="#P" n="34"/>Damascenus vero, libro 2, de Fide, c. 29, etiam
+          <lb ed="#P" n="35"/>nomina antecedentis et consequentis addidit.
+          <lb ed="#P" n="36"/>Nec dubitare possumus, quin sit in Deo illud
+          <lb ed="#P" n="37"/>duplex genus voluntatis, nam (ut alia 
+          obscu<lb break="no" ed="#P" n="38"/>riora exempla omittamus) clarum est, 
+          volun<lb break="no" ed="#P" n="39"/>tatem creandi mundum primariam fuisse, ex
+          <lb ed="#P" n="40"/>sola enim sua bonitate illam habuit, quod 
+          e<lb break="no" ed="#P" n="41"/>tiam de voluntate sumendi carnem humanam,
+          <lb ed="#P" n="42"/>credendum est. At voluntas aliquem 
+          damnan<lb break="no" ed="#P" n="43"/>di, vel perpetuo deserendi, secundaria est:
+          <lb ed="#P" n="44"/>Deus enim neminem deserit nisi prius 
+          dese<lb break="no" ed="#P" n="45"/>ratur ab ipso. Unde notari potest ex dictis 
+          Pa<lb break="no" ed="#P" n="46"/>tribus, quoties exempla ponunt secundariae
+          <lb ed="#P" n="47"/>voluntatis, applicare illa ad voluntatem 
+          infe<lb break="no" ed="#P" n="48"/>rendi malum. Nam licet interdum Deus non
+          <lb ed="#P" n="49"/>conferat aliquod bonum, nisi permotus suo
+          <lb ed="#P" n="50"/>modo ab homine, per orationem, 
+          dispositio<lb break="no" ed="#P" n="51"/>nem, vel meritum : nihilominus, quia semper
+          <lb ed="#P" n="52"/>Deus de se est paratus ad haec bona 
+          conferen<lb break="no" ed="#P" n="53"/>da, et illum ipsum ordinem vult propter majus
+          <lb ed="#P" n="54"/>bonum nostrum, quod totum a primaria ejus
+          <lb ed="#P" n="55"/>voluntate originem habet, ideo in malis sem-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="56"/>per explicant voluntatem consequentem, cum
+          <lb ed="#P" n="57"/>tamen (ut dixi) suo modo locum habeat in 
+          ali<lb break="no" ed="#P" n="58"/>quibus bonis. Denique quod attinet ad voces,
+          <lb ed="#P" n="59"/>non est dubium quin sint aptae ad illas 
+          vo<lb break="no" ed="#P" n="60"/>Iuntates significandas et ideo partitio illa in
+          <lb ed="#P" n="61"/>hoc sensu et bona est, et utilis ad divinam 
+          pro<lb break="no" ed="#P" n="62"/>videntiam explicandam.
+        </p>
+        <p xml:id="szduep-056510-d1e550">
+          <lb ed="#P" n="63"/>7. Tertius modus dicendi. — Tertia 
+          exposi<lb break="no" ed="#P" n="64"/>tio illorum membrorum est divi Thomae, dicta
+          <lb ed="#P" n="65"/>quaest. 19, art. 6 ad 1, quem Thomistae 
+          se<lb break="no" ed="#P" n="66"/>quuntur, et Richardus in 1, dist. 46, quaest. 1,
+          <lb ed="#P" n="67"/>Corduba, lib. 1, quaest. 956. Vult itaque divus
+          <lb ed="#P" n="68"/>Thomas voluntatem antecedentem non esse 
+          ab<lb break="no" ed="#P" n="69"/>solutam et efficacem, sed magis (inquit) dici
+          <lb ed="#P" n="70"/>potest velleitas, quam voluntas, voluntatem 
+          ve<lb break="no" ed="#P" n="71"/>ro consequentem dicit esse efficacem, 
+          semper<lb break="no" ed="#P" n="72"/>que impleri. Unde, quod ad voces attinet ,
+          <lb ed="#P" n="73"/>priorem dicit vocari antecedentem, quia est
+          <lb ed="#P" n="74"/>de objecto, seu sine bono secundum se 
+          specta<lb break="no" ed="#P" n="75"/>to, praescindendo ab adjunctis, seu a 
+          particu<lb break="no" ed="#P" n="76"/>laribus circumstantis. Posteriorem vero vocari
+          <lb ed="#P" n="77"/>consequentem, quia est de re in particulari,
+          <lb ed="#P" n="78"/>consideratis omnibus adjunctis et 
+          circumstan<lb break="no" ed="#P" n="79"/>tiis ejus ad hunc modum dixit idem D. 
+          Tho<lb break="no" ed="#P" n="80"/>mas 1, 2, quaest. 6, art. 4, quae ex metu fiunt
+          <lb ed="#P" n="81"/>esse simpliciter voluntaria, et secundum quid
+          <lb ed="#P" n="82"/>involuntaria. Unde cum in periculo 
+          tempes<lb break="no" ed="#P" n="83"/>tatis, quis vult conservare merces, quas 
+          nihi<lb break="no" ed="#P" n="84"/>lominus vult efficaciter projicere in mare, dici
+          <lb ed="#P" n="85"/>potest juxta dictam expositionem habere 
+          vo<lb break="no" ed="#P" n="86"/>luntatem antecedentem per simplicem 
+          affec<lb break="no" ed="#P" n="87"/>tum., seu velleitatem non projiciendi et 
+          volun<lb break="no" ed="#P" n="88"/>tatem consequentem per absolutam 
+          volunta<lb break="no" ed="#P" n="89"/>tem projiciendi merces. Ad hunc ergo modum
+          <lb ed="#P" n="90"/>in Deo philosophamur, juxta dictam 
+          exposi<lb break="no" ed="#P" n="91"/>tionem.
+        </p>
+        <p xml:id="szduep-056510-d1e616">
+          <lb ed="#P" n="92"/>8. Quae quidem expositio quoad doctrinam,
+          <lb ed="#P" n="93"/>quam contimnet, verissima est ( et hoc est, quod
+          <lb ed="#P" n="94"/>ad rem spectat.) ttem quoad verborum 
+          ac<lb break="no" ed="#P" n="95"/>commodationem habet sufficientem 
+          congruen<lb break="no" ed="#P" n="96"/>tiam, ut ex illius declaratione constat. ÀAn 
+          ve<lb break="no" ed="#P" n="97"/>ro fuerit juxta mentem Damasceni parum 
+          re<lb break="no" ed="#P" n="98"/>fert : satis enim est quod non sit illi contraria.
+          <lb ed="#P" n="99"/>Ego vero existimo aliquid illi addidisse. Nam
+          <lb ed="#P" n="100"/>juxta Damascenum voluntas consequens 
+          sem<lb break="no" ed="#P" n="101"/>per est efficax et in hoc convenit cum 
+          volun<lb break="no" ed="#P" n="102"/>tate consequente a D. Thoma explicata , quia
+          <lb ed="#P" n="103"/>utraque est voluntatis effectus in particulari,
+          <lb ed="#P" n="104"/>omnibus consideratis, ut aiunt. Et ita in hoc
+          <lb ed="#P" n="105"/>menibro nihil est peculiare in utraque 
+          exposi<lb break="no" ed="#P" n="106"/>tione praeter rationem seu etymologiam 
+          no<lb break="no" ed="#P" n="107"/>minis. Voluntas autem antecedens juxta 
+          Da<lb break="no" ed="#P" n="108"/>mascenum potest esse et efficax et inefficax,
+          <lb ed="#P" n="109"/>quia utroque modo potest velle Deus aliquod
+          <lb ed="#P" n="110"/>bonum ex se, nam et electis et reprobis voluit
+          <pb ed="#P" n="224"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex se perseverantiam et salutem aeternam
+          <lb ed="#P" n="2"/>atque adeo utrisque antecedenter (juxta illam
+          <lb ed="#P" n="3"/>expositionem) et tamen electis efficaciter, aliis
+          <lb ed="#P" n="4"/>non, sed tantum secundum quid. Hanc ergo
+          <lb ed="#P" n="5"/>voluntatem secundum quid, voluit explicare
+          <lb ed="#P" n="6"/>D. Thomas, et ideo voluntatem antecedenteni,
+          <lb ed="#P" n="7"/>ut sic, semper censuit esse inefficacem. Quod
+          <lb ed="#P" n="8"/>si interdum voluntas aliqua beneplaciti, quam
+          <lb ed="#P" n="9"/>Deus ex se solo habet, absoluta et efficax est,
+          <lb ed="#P" n="10"/>illam vocaret D. Thomas (ut opinor) 
+          conse<lb break="no" ed="#P" n="11"/>quentem, quia habetur absolute et 
+          considera<lb break="no" ed="#P" n="12"/>tis omnibus quae ad illam necessaria sunt, ut
+          <lb ed="#P" n="13"/>fuit voluntas creandi, vel similes.
+        </p>
+        <p xml:id="szduep-056510-d1e692">
+          <lb ed="#P" n="14"/>9. Alia divisio voluntatis. — Omuissis ergo
+          <lb ed="#P" n="15"/>dissensionibus verborum addere possumus 
+          di<lb break="no" ed="#P" n="16"/>visionem actus divinae voluntatis, in 
+          eflicica<lb break="no" ed="#P" n="17"/>cem et inefficacem, quae est subdivisio 
+          volun<lb break="no" ed="#P" n="18"/>tatis antecedentis, juxta expositionem 
+          Damas<lb break="no" ed="#P" n="19"/>ceni, vel est nova divisio voluntatis beneplaciti,
+          <lb ed="#P" n="20"/>et ita habet locum in utraque sententia. In
+          <lb ed="#P" n="21"/>qua divisione de priori membro aliqua sunt
+          <lb ed="#P" n="22"/>certa, videlicet, esse aliquam voluntatem, 
+          ab<lb break="no" ed="#P" n="23"/>solutam et efficacem, in Deo et illam esse per
+          <lb ed="#P" n="24"/>quam principaliter operatur, et quae semper
+          <lb ed="#P" n="25"/>impletur, quia omnia, queecumque voluit, fecit,
+          <lb ed="#P" n="26"/>Ps. 113, et cui nemo potest resistere, Rom. 9,
+          <lb ed="#P" n="27"/>Genes. 50, Esther 13. Et ratione hujus 
+          volun<lb break="no" ed="#P" n="28"/>tatis dicitur Deus, non operari aliquid sine 
+          vo<lb break="no" ed="#P" n="29"/>luntate sua, juxta id ad Ephes. 1: Qui 
+          opera<lb break="no" ed="#P" n="30"/>Llur omnia secundum consilium voluntatis sud.
+          <lb ed="#P" n="31"/>Denique sine hac Dei voluntate nihil subsistere
+          <lb ed="#P" n="32"/>potest, ut dicitur Sap. 11.
+        </p>
+        <p xml:id="szduep-056510-d1e736">
+          <lb ed="#P" n="33"/>10. Nonnulla vero alia de hac voluntate a
+          <lb ed="#P" n="34"/>theologis disputantur. Unum est, an haec ipsa
+          <lb ed="#P" n="35"/>voluntas sit immediatum principium , quo
+          <lb ed="#P" n="36"/>Deus ad extra operatur, vel secundum 
+          ratio<lb break="no" ed="#P" n="37"/>nem sit aliud attributum propinquius, quod in
+          <lb ed="#P" n="38"/>Metaphysica tractatum est, et capite sequenti
+          <lb ed="#P" n="39"/>attingetur. Aliud dubium est, qualis et 
+          quotu<lb break="no" ed="#P" n="40"/>plex sit in Deo haec voluntas efficax, an sit 
+          prae<lb break="no" ed="#P" n="41"/>veniens et praefiniens , vel concomitans 
+          prae<lb break="no" ed="#P" n="42"/>sertim circa actus liberos humanos. Cum qua
+          <lb ed="#P" n="43"/>quaestione conjuncta est alia : quomodo 
+          efti<lb break="no" ed="#P" n="44"/>cacia hujus voluntatis divinae stet cum libertate
+          <lb ed="#P" n="45"/>actuum voluntatis humanae. Quae dubia 
+          lon<lb break="no" ed="#P" n="46"/>gissimae disputationis materiam nobis 
+          praebe<lb break="no" ed="#P" n="47"/>bant, sed tractata sunt copiose in tribus libris
+          <lb ed="#P" n="48"/>de Auxiliis, et ideo nihil amplius dicere 
+          ne<lb break="no" ed="#P" n="49"/>cesse est, praeter ea, quae de Praedestinatione
+          <lb ed="#P" n="50"/>postea dicemus.
+        </p>
+        <p xml:id="szduep-056510-d1e778">
+          <lb ed="#P" n="51"/>11. In altero autem membro voluntatis 
+          inef<lb break="no" ed="#P" n="52"/>ficacis, non est tam certum apud omnes, dari
+          <lb ed="#P" n="53"/>in Deo vere et proprie talem actum, quod 
+          vi<lb break="no" ed="#P" n="54"/>dentur sentire auctores citati in prima 
+          expo<lb break="no" ed="#P" n="55"/>sitione praecedentis divisionis. Cujus occasione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tractari hic solet, de sensu illius loci Pauli:
+          <lb ed="#P" n="57"/>Deus vult omnes homines salvos fieri. Ego vero
+          <lb ed="#P" n="58"/>suppono dari in Deo talem actum et de 
+          omni<lb break="no" ed="#P" n="59"/>bus omnino hominibus locutum fuisse 
+          Pau<lb break="no" ed="#P" n="60"/>lum in citatis verbis. Quod ostendi in Relect. 1,
+          <lb ed="#P" n="61"/>disp. 1, sect. 2, n. 9. et latius id tractabimus
+          <lb ed="#P" n="62"/>infra, lib. 4, de Praedestinatione fere per totum.
+          <lb ed="#P" n="63"/>Hoc ergo supposito, certum est, talem 
+          volunta<lb break="no" ed="#P" n="64"/>tem illam Dei non semper impleri, ut in eodem
+          <lb ed="#P" n="65"/>exemplo et testimonio Pauli manifestum est.
+          <lb ed="#P" n="66"/>Et ratio est, quia non est efficax voluntas, 
+          ne<lb break="no" ed="#P" n="67"/>que ipse Deus vult aliter illam habere, et ideo
+          <lb ed="#P" n="68"/>nulla est imperfectio, ut in dicto loco latius
+          <lb ed="#P" n="69"/>declarabitur. Ubi etiam videbimus, an illa 
+          vo<lb break="no" ed="#P" n="70"/>luntas sit actus liber in Deo, vel necessarius.
+          <lb ed="#P" n="71"/>Item an sit vera intentio finis, conferens 
+          al<lb break="no" ed="#P" n="72"/>quid ad electionem mediorum, vel simplex
+          <lb ed="#P" n="73"/>tantum affectus complacentiae in bonitate 
+          pos<lb break="no" ed="#P" n="74"/>sibili. Item an sit actus aliquo modo absolutus,
+          <lb ed="#P" n="75"/>vel conditionatus, et ideo de divina voluntate
+          <lb ed="#P" n="76"/>haec sufficiant.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

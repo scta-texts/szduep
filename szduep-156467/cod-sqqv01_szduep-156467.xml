@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="619"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-156467"><!-- t3-l4prae -->
+        <head xml:id="szduep-156467-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-156467-d1e103">
+          <pb ed="#P" n="619"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER QUARTUS.
+          <lb ed="#P" n="2"/>DE VERA UNITATE ET IDENTITATE
+          <lb ed="#P" n="3"/>TRIUM PERSONARUM, ET OMNIBUS, QUAE AD ILLAM PERTINENT.
+        </p>
+        <p xml:id="szduep-156467-d1e116">
+          <lb ed="#P" n="4"/>Cum in superioribus ostensum sit, singulas
+          <lb ed="#P" n="5"/>personas esse verum DEUM, constat habere
+          <lb ed="#P" n="6"/>inter se aliquam unitatem. Hic ergo 
+          explican<lb break="no" ed="#P" n="7"/>dum superest, quaenam, et quanta sit, et in
+          <lb ed="#P" n="8"/>qua re, seu in quibus attributis, posita sit, et
+          <lb ed="#P" n="9"/>quia aequalitas, et similitudo ad unitatem 
+          spec<lb break="no" ed="#P" n="10"/>tant, de illis etiam dicemus, ac tandem quibus
+          <lb ed="#P" n="11"/>vocibus apte explicetur haec unitas, 
+          adnota<lb break="no" ed="#P" n="12"/>bimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

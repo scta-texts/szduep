@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="113"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-028797"><!-- t1-l2c18 -->
+        <head xml:id="szduep-028797-Hd1e101">Caput 18</head>
+        <head xml:id="szduep-028797-Hd1e103" type="question-title">An visio dei sit cognitio quidditativa et intuitiva dei, habeatque omnes conditiones perfectae scientiae</head>
+        <p xml:id="szduep-028797-d1e106">
+          <lb ed="#P" n="43"/>CAPUT XVIII.
+          <lb ed="#P" n="44"/>AN VISIO DEI SIT COGNITIO QUIDDITATIVA ET 
+          IN<lb break="no" ed="#P" n="45"/>TUITIVA DEI, HABEATQUE OMNES CONDITIONES
+          <lb ed="#P" n="46"/>PERFECTAE SCIENTIAE.
+        </p>
+        <p xml:id="szduep-028797-d1e117">
+          <lb ed="#P" n="47"/>1. Ratio dubitandi. — Ratio dubitandi esse
+          <lb ed="#P" n="48"/>potest, quia quidditativa cognitio rei 
+          simplicis<lb break="no" ed="#P" n="49"/>simae est comprehensiva ejus, at visio Dei non
+          <lb ed="#P" n="50"/>potest esse comprehensiva illius, ut supra 
+          os<lb break="no" ed="#P" n="51"/>tensum est, ergo nec quidditativa cognitio esse
+          <lb ed="#P" n="52"/>potest. Major declaratur, quia ut aliqua cogni-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tio quidditativa sit, debet totam essentiam rei
+          <lb ed="#P" n="54"/>manifestare usque ad ultimam quasi 
+          differen<lb break="no" ed="#P" n="55"/>tiam seu rationem constitutivam cjus, non 
+          po<lb break="no" ed="#P" n="56"/>test autem amplius ad comprehensionem 
+          desi<lb break="no" ed="#P" n="57"/>derari: maxime in Deo, qui nec causas habet,
+          <lb ed="#P" n="58"/>nec proprietates a sua essentia distinctas, ut
+          <lb ed="#P" n="59"/>ostensum est.
+        </p>
+        <p xml:id="szduep-028797-d1e150">
+          <lb ed="#P" n="60"/>2. Prima conclusio. — Dicendum imprimis
+          <lb ed="#P" n="61"/>est cognitionem illam esse evidentem et 
+          cla<lb break="no" ed="#P" n="62"/>ram ac certam ac proinde perfectam scientiam
+          <lb ed="#P" n="63"/>Dei. Conclusio est certa, nam visio illa 
+          opponi<lb break="no" ed="#P" n="64"/>tur obscurae et aenigmaticae cognitioni et dicitur
+          <lb ed="#P" n="65"/>esse facie ad faciem 1, Corinth. 13, ubi etiam
+          <lb ed="#P" n="66"/>habetur illud: 7unc cognoscam sicut et 
+          cogni<lb break="no" ed="#P" n="67"/>tus sum, et illud: Cum venerit quod perfectum
+          <lb ed="#P" n="68"/>est, evacuabitur quod ex parte est. Unde 
+          colligi<lb break="no" ed="#P" n="69"/>mus visionem illam excludere obscuritatem 
+          fi<lb break="no" ed="#P" n="70"/>dei, ac proinde esse claram et evidentem 
+          ma<lb break="no" ed="#P" n="71"/>nifestationem Dei. Quod etiam satis declaravit
+          <lb ed="#P" n="72"/>Joannes, prima epistola, cap. 3, dicens: 
+          Fide<lb break="no" ed="#P" n="73"/>bimus ewn sicuti est, nam verbum videndi cum
+          <lb ed="#P" n="74"/>aliis circumstantiis claram cognitionem dicit.
+          <lb ed="#P" n="75"/>Item est hoc necessarium, ut cognitio illa satiet
+          <lb ed="#P" n="76"/>appetitum hominis fidelis quaerentis Deum: hoc
+          <lb ed="#P" n="77"/>autem praestat illa cognitio, juxta illud Psal. 16:
+          <lb ed="#P" n="78"/>S'atiabor cun apparuerit gloria tua. Et ideo
+          <lb ed="#P" n="79"/>etiam dicitur visio illa excludere spem, ad Rom.
+          <lb ed="#P" n="80"/>8. Ratio denique declaratur; quia illa cognitio
+          <lb ed="#P" n="81"/>non nititur aliquo medio extrinseco, neque
+          <lb ed="#P" n="82"/>auctoritate dicentis, neque probabih ratione;
+          <lb ed="#P" n="83"/>ergo fundatur in ipsa evidentia rei visae in se,
+          <lb ed="#P" n="84"/>ut prae se fert nomen ipsum visionis. Probatur
+          <lb ed="#P" n="85"/>consequentia, quia impossibile est veritatem
+          <lb ed="#P" n="86"/>aliquam intelligibilem videri in se et sine 
+          me<lb break="no" ed="#P" n="87"/>dio, nisi aperte et clare. Adde, cognitionem 
+          il<lb break="no" ed="#P" n="88"/>lam, non solum esse evidentem, sed etiam 
+          evi<lb break="no" ed="#P" n="89"/>dentiorem omni alia cognitione creata, etiam
+          <lb ed="#P" n="90"/>cognitione primorum principiorum, quod 
+          pa<lb break="no" ed="#P" n="91"/>tet, tum ex perfectione principii, quia procedit
+          <lb ed="#P" n="92"/>a lumine perfectissimo et altioris ordinis, tum
+          <lb ed="#P" n="93"/>ex parte objecti, cujus veritas simplicissima est
+          <lb ed="#P" n="94"/>et in se maxime clara et una. Unde etiam fit
+          <lb ed="#P" n="95"/>cognitionem illam esse certissimam et summe
+          <lb ed="#P" n="96"/>infallibilem, quia omnis cognitio evidens est
+          <lb ed="#P" n="97"/>certa, et quo illa est evidentior alis, eo est 
+          cer<lb break="no" ed="#P" n="98"/>tior. Item ostendit veritatem summe 
+          necessa<lb break="no" ed="#P" n="99"/>riam, ergo generat assensum summe 
+          infallibi<lb break="no" ed="#P" n="100"/>lem.
+        </p>
+        <p xml:id="szduep-028797-d1e242">
+          <lb ed="#P" n="101"/>3. Dubium. — Hic vero inquiri potest an sit
+          <lb ed="#P" n="102"/>certior fide, sed de hoc latius in proprio loco;
+          <lb ed="#P" n="103"/>dubitationem nunc breviter dico, quantum ad
+          <lb ed="#P" n="104"/>excludendam ex parte objecti, et periculum 
+          fal<lb break="no" ed="#P" n="105"/>sitatis esse illas cognitiones aequales, quia 
+          utra<lb break="no" ed="#P" n="106"/>que fundatur in divina veritate, tamen 
+          quan<lb break="no" ed="#P" n="107"/>tum ad positivam perfectionem visio illa po
+          <pb ed="#P" n="114"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>test dici certior non solum ex parte subjecti,
+          <lb ed="#P" n="2"/>quod necessitat, et ab eo excludit omnem 
+          mo<lb break="no" ed="#P" n="3"/>tum dubitationis, sed etiam quia habet omnem
+          <lb ed="#P" n="4"/>perfectionem quae reperitur in fide, et aliquid
+          <lb ed="#P" n="5"/>amplius. Procedit enim ex lumine 
+          supernatu<lb break="no" ed="#P" n="6"/>rali et perfectiori, et fundatur in primaveritate,
+          <lb ed="#P" n="7"/>non loquente, sed in se existente et manifestante
+          <lb ed="#P" n="8"/>totam suam primam veritatem et essendi 
+          ne<lb break="no" ed="#P" n="9"/>cessitatem, in qua fundatur infallibilitas et 
+          cer<lb break="no" ed="#P" n="10"/>titudo fidei. Et praeterea superat illa visio in
+          <lb ed="#P" n="11"/>evidentia et quodammodo comparatur ad 
+          fi<lb break="no" ed="#P" n="12"/>dem, sicut scientia subalternans ad 
+          subalterna<lb break="no" ed="#P" n="13"/>tam, ostendit enim originem, unde fides habet
+          <lb ed="#P" n="14"/>certitudinem suam. Est ergo visio non solum
+          <lb ed="#P" n="15"/>evidentior, sed etiam certior.
+        </p>
+        <p xml:id="szduep-028797-d1e297">
+          <lb ed="#P" n="16"/>4. Secunda conclusio. — Dico secundo 
+          visio<lb break="no" ed="#P" n="17"/>nem illam esse quidditativam et intuitivam
+          <lb ed="#P" n="18"/>cognitionem DEI. Ita sentit D. Thomas, 1 p.,
+          <lb ed="#P" n="19"/>q. 12, artic. 12 et 13, et in 4, d. 49, q. 2, art.
+          <lb ed="#P" n="20"/>3, et quaest. 8, de Veritate, artic. 1, ad 8, et 
+          do<lb break="no" ed="#P" n="21"/>cet Cajetanus, d. qu. 12, artic. 1, in principio,
+          <lb ed="#P" n="22"/>ubi recte declarat quae dicatur cognitio 
+          quid<lb break="no" ed="#P" n="23"/>ditativa. Eam enim nihil aliud esse 
+          intelligi<lb break="no" ed="#P" n="24"/>mus quam propriam rei cognitionem per 
+          es<lb break="no" ed="#P" n="25"/>sentiam vel per propriam speciem ejus: per
+          <lb ed="#P" n="26"/>quam de illa re cognoscuntur omnes 
+          proprie<lb break="no" ed="#P" n="27"/>tates essentiales ejus. Nihil enim amphlus 
+          desi<lb break="no" ed="#P" n="28"/>derari potest ad quidditativam cognitionem :-
+          <lb ed="#P" n="29"/>haec autem omnia habet illa visio respectu DEI,
+          <lb ed="#P" n="30"/>ut ratio dubitandi in principio facta probat, et
+          <lb ed="#P" n="31"/>latius in capitibus sequentibus declarabitur.
+          <lb ed="#P" n="32"/>Atque hinc etiam constat visionem illam esse
+          <lb ed="#P" n="33"/>cognitionem intuitivam. Quin potius addo 
+          con<lb break="no" ed="#P" n="34"/>tra Scotum in 2, d. 3, qu. 9, et in 4, d. 49, q.
+          <lb ed="#P" n="35"/>11, non posse esse quidditativam cognitionem
+          <lb ed="#P" n="36"/>Dei, quin simul etiam sit intuitiva. Quod bene
+          <lb ed="#P" n="37"/>docuit Durapdus, q. 3 Prologi, et Capreolus in
+          <lb ed="#P" n="38"/>2. d. 3, q. 2, ad argumenta contra 6 
+          conclu<lb break="no" ed="#P" n="39"/>sionem, et d. 23, quaest. 1. Ratio est, quia non
+          <lb ed="#P" n="40"/>potest cognosci quidditative Deus, quin 
+          cog<lb break="no" ed="#P" n="41"/>noscatur actu existere, quia de essentia ejus est
+          <lb ed="#P" n="42"/>actu existere: cognitio autem intuitiva dicitur,
+          <lb ed="#P" n="43"/>qua videtur res ut existens et sub omnibus 
+          con<lb break="no" ed="#P" n="44"/>ditionibus existentiae.
+        </p>
+        <p xml:id="szduep-028797-d1e362">
+          <lb ed="#P" n="45"/>5. Effugium. — Refutatur. — Responderi
+          <lb ed="#P" n="46"/>autem potest, non satis esse ad cognitionem 
+          in<lb break="no" ed="#P" n="47"/>tuitivam, quod cognoscatur res ut existens,
+          <lb ed="#P" n="48"/>nam de re absente possumus cognoscere 
+          evi<lb break="no" ed="#P" n="49"/>denter eam existere, oportet ergo ut 
+          cognos<lb break="no" ed="#P" n="50"/>catur res ut praesens, posset autem aliquis per
+          <lb ed="#P" n="51"/>speciem cognoscere quidditatem Dei et 
+          exis<lb break="no" ed="#P" n="52"/>tentiam ejus, non tamen intueri illum ut 
+          prae<lb break="no" ed="#P" n="53"/>sentem. Sed hoc fieri non potest: quia licet per
+          <lb ed="#P" n="54"/>causam vel effectum possit cognosci res ut 
+          exis<lb break="no" ed="#P" n="55"/>tens, etiam si absens sit et in se non videatur;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tamen quod existentia rei evidenter 
+          cognosca<lb break="no" ed="#P" n="57"/>tur in se ipsa absque alio modo cognito, 
+          intel<lb break="no" ed="#P" n="58"/>ligi non potest absque praesentia rei, maxime
+          <lb ed="#P" n="59"/>si talis cognitio sit propria ipsius rei prout in
+          <lb ed="#P" n="60"/>se est. Deinde inquiro quid nomine praeesentie
+          <lb ed="#P" n="61"/>intelligatur, si enim est indistantia localis, haec
+          <lb ed="#P" n="62"/>et necessaria non est ad intuitivam visionem,
+          <lb ed="#P" n="63"/>ut patet in visu corporeo et intellectu angelico,
+          <lb ed="#P" n="64"/>qui intueri potest res etiam si loco distent, et
+          <lb ed="#P" n="65"/>praeterea hoc non habet locum in Deo, qui cum
+          <lb ed="#P" n="66"/>sit immensus, videri non potest ut loco distans
+          <lb ed="#P" n="67"/>a vidente. Aut illa praesentia est objectiva et
+          <lb ed="#P" n="68"/>haec deesse non potest respectu actus, quia fit
+          <lb ed="#P" n="69"/>per ipsammet visionem; ergo non potest esse
+          <lb ed="#P" n="70"/>visio rei existentis in se ipsa et prout in se est,
+          <lb ed="#P" n="71"/>quin illa res sit objective praesens intellectu:
+          <lb ed="#P" n="72"/>per ipsam visionem.
+        </p>
+        <p xml:id="szduep-028797-d1e427">
+          <lb ed="#P" n="73"/>6. Objectio.— Responsio.—Dices, hanc 
+          prae<lb break="no" ed="#P" n="74"/>sentiam in hoc consistere, quod objectum per
+          <lb ed="#P" n="75"/>se ipsum adsit potentiae, et conjungatur illi ad
+          <lb ed="#P" n="76"/>efficiendam intuitionem sui. At hoc etiam 
+          repe<lb break="no" ed="#P" n="77"/>rietur in visione Dei, ut visum est. Et praeterea
+          <lb ed="#P" n="78"/>falsum est, hoc per se requiri ad visionem 
+          in<lb break="no" ed="#P" n="79"/>tuitivam ut sic, fieri enim potest per speciem
+          <lb ed="#P" n="80"/>objecti, etiam si ipsum per se non sit intra 
+          ip<lb break="no" ed="#P" n="81"/>sam potentiam, ut patet in visu corporeo, et
+          <lb ed="#P" n="82"/>cognitione intuitiva quam unus angelus habet
+          <lb ed="#P" n="83"/>de alio, et ideo dixit D. Thomas Quodlhb. 7,
+          <lb ed="#P" n="84"/>quaest. 1, non obstare cognitioni immediatae ac
+          <lb ed="#P" n="85"/>intuitivae, quod fiat per speciem. Et ratio clara
+          <lb ed="#P" n="86"/>est, quia cognitio non habet, quod sit intuitiva
+          <lb ed="#P" n="87"/>formaliter ex principio efficienti, sed ex modo
+          <lb ed="#P" n="88"/>quo terminatur immediate ad objectum in se,
+          <lb ed="#P" n="89"/>et prout in se existit et hoc habere potest, sive
+          <lb ed="#P" n="90"/>fiat per speciem, sive alio modo; est ergo visio
+          <lb ed="#P" n="91"/>Dei quidditativa, necessario etiam intuitiva.
+        </p>
+        <p xml:id="szduep-028797-d1e471">
+          <lb ed="#P" n="92"/>7. Ad rationem dubitandi. — Primum dubium.
+          <lb ed="#P" n="93"/>—Resolutio.—hatio dubitandi in principio 
+          po<lb break="no" ed="#P" n="94"/>sita post discursum sequentium capitum 
+          trac<lb break="no" ed="#P" n="95"/>tanda est,est enim maxima difficultas hujus 
+          ma<lb break="no" ed="#P" n="96"/>teriae. Nunc breviter negatur sequela, quia plus
+          <lb ed="#P" n="97"/>ad comprehensionem requiritur quam ad 
+          quid<lb break="no" ed="#P" n="98"/>ditativam cognitionem, quid autem illud sit
+          <lb ed="#P" n="99"/>paulatim explicabitur. Nunc super est expedire
+          <lb ed="#P" n="100"/>nonnulla brevia dubia quae de proprietatibus
+          <lb ed="#P" n="101"/>illius visionis interrogari possunt. Unum est,
+          <lb ed="#P" n="102"/>an illa visio sit cognitio simplex et incomplexa:
+          <lb ed="#P" n="103"/>quod tractant Ochamus in 4, quaest. 13, et ibi
+          <lb ed="#P" n="104"/>supplement., Gabriel, Sotus et alii, distinct. 49.
+          <lb ed="#P" n="105"/>Dico tamen breviter esse simplicem 
+          cognitio<lb break="no" ed="#P" n="106"/>nem sine ulla comparatione vel discursu. Est
+          <lb ed="#P" n="107"/>enim scientia altioris et divini ordinis, unde
+          <lb ed="#P" n="108"/>sicut Deus sine compositione videt praedicatum
+          <lb ed="#P" n="109"/>in subjecto, et eorum unionem inter se, et 
+          ef<lb break="no" ed="#P" n="110"/>fectum incausa, seu conclusionem in principiis,
+          <pb ed="#P" n="115"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ita multo magis videt beatus simphci intuitu
+          <lb ed="#P" n="2"/>omnia quae per eam scientiam cognoscit. Quod
+          <lb ed="#P" n="3"/>quidem maxime verum est de visione illa, 
+          qua<lb break="no" ed="#P" n="4"/>tenus ad Deum terminatur, nam, ut sic, etiam
+          <lb ed="#P" n="5"/>ex parte objecti simplicissima est, quia in eo
+          <lb ed="#P" n="6"/>ostendit simplicissimam veritatem in qua nulla
+          <lb ed="#P" n="7"/>est compositio. Si vero terminatur ad 
+          creatu<lb break="no" ed="#P" n="8"/>ram, etiam, ut sic, est in se simplex, quia per
+          <lb ed="#P" n="9"/>unam simplicissimam et eminentissimam 
+          spe<lb break="no" ed="#P" n="10"/>ciem ostendit omnia, ac denique est unus et
+          <lb ed="#P" n="11"/>idem actus simplicissimus cum ipsa visione Dei.
+          <lb ed="#P" n="12"/>Eminenter tamen continet vim compositionis
+          <lb ed="#P" n="13"/>et discursus. Neque in hoc est ulla difficultas,
+          <lb ed="#P" n="14"/>quia licet homini sit naturale per 
+          compositio<lb break="no" ed="#P" n="15"/>nem et discursum cognoscere, tamen 
+          superna<lb break="no" ed="#P" n="16"/>turaliter elevari potest ad altiorem modum
+          <lb ed="#P" n="17"/>cognoscendi.
+        </p>
+        <p xml:id="szduep-028797-d1e556">
+          <lb ed="#P" n="18"/>8. Secundum dubium. — Responsum. — 
+          Se<lb break="no" ed="#P" n="19"/>cundo solet inquiri an haec cognitio sit 
+          appre<lb break="no" ed="#P" n="20"/>hensiva vel etiam judicativa. Quia non solemus
+          <lb ed="#P" n="21"/>ferre judicium, nisi componendo et unum alteri
+          <lb ed="#P" n="22"/>tribuendo. Unde Bonaventura in 3, d. 14, 
+          ar<lb break="no" ed="#P" n="23"/>tic. 1, qu. ult., videtur distinguere visionem a
+          <lb ed="#P" n="24"/>judicio: formidat enim concedere eum qui 
+          vi<lb break="no" ed="#P" n="25"/>det Deum judicare de ipso Deo, sed solum de
+          <lb ed="#P" n="26"/>sua visione, quod sit conformis Deo. Sed neque
+          <lb ed="#P" n="27"/>ipse perstitit in ea sententia, nec dubitari 
+          po<lb break="no" ed="#P" n="28"/>test quin illa visio sit perfectissimum judicium,
+          <lb ed="#P" n="29"/>quia per illam perfecte cognoscit beatus, v. g.,
+          <lb ed="#P" n="30"/>quod Deus sit et quod sit perfectus, 
+          omnipo<lb break="no" ed="#P" n="31"/>tens, sed nihil aliud est per intellectum 
+          judi<lb break="no" ed="#P" n="32"/>care de aliqua re quam cognoscere quid illi rei
+          <lb ed="#P" n="33"/>conveniat, seu veritatem quae in illa reperitur.
+          <lb ed="#P" n="34"/>Item notitia judicativa non repugnat cum 
+          sim<lb break="no" ed="#P" n="35"/>plicitate, nos enim propter imperfectionem
+          <lb ed="#P" n="36"/>componimus ad judicandum ; Deus autem et
+          <lb ed="#P" n="37"/>angeli per simplices actus judicant de 
+          quacum<lb break="no" ed="#P" n="38"/>que veritate, sive in se simplex, sive 
+          compo<lb break="no" ed="#P" n="39"/>sita sit, ergo idem facient beati per illam 
+          vi<lb break="no" ed="#P" n="40"/>sionem quae et est perfectior scientia quam
+          <lb ed="#P" n="41"/>angelica, et est eminentissima participatio 
+          di<lb break="no" ed="#P" n="42"/>vinae scientiae. Unde ad hoc judicium non 
+          opor<lb break="no" ed="#P" n="43"/>tet intelligere reflexionem illam, et quasi 
+          com<lb break="no" ed="#P" n="44"/>parationem visionis ad objectum, sed satis est
+          <lb ed="#P" n="45"/>directa cognitio perfecta ipsius objecti de quo
+          <lb ed="#P" n="46"/>judicat, quod et quale sit.
+        </p>
+        <p xml:id="szduep-028797-d1e622">
+          <lb ed="#P" n="47"/>9. Tertium dubium. — Tertio quaeri solet an
+          <lb ed="#P" n="48"/>illa visio sit directa tantum vel etiam reflexa.
+          <lb ed="#P" n="49"/>Nam Ochamus, supra quaest. 13, artic. 10, quem
+          <lb ed="#P" n="50"/>sequuntur Gabriel in 3, d. 14, et supplement.
+          <lb ed="#P" n="51"/>ejus in 4, d. 49, negant illam visionem esse 
+          re<lb break="no" ed="#P" n="52"/>flexam, sed tantum directam, existimantes non
+          <lb ed="#P" n="53"/>posse has duas rationes eidem actui convenre.
+          <lb ed="#P" n="54"/>Quia, ut notitia sit reflexa, existimant 
+          neces<lb break="no" ed="#P" n="55"/>sarium esse, ut sit etiam complexa. Unde infe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>runt posse aliquem esse beatum videndo Deum,
+          <lb ed="#P" n="57"/>qui omnino ignoret, se videre Deum et se esse
+          <lb ed="#P" n="58"/>beatum. Nam haec cognitio includit actum 
+          re<lb break="no" ed="#P" n="59"/>flexum, qui cum sit a visione distinctus, erit ab
+          <lb ed="#P" n="60"/>illa separabilis. Mihi autem imprimis falsum
+          <lb ed="#P" n="61"/>videtur notitiam reflexam debere esse 
+          necessa<lb break="no" ed="#P" n="62"/>rio per compositionem, quia nulla est ratio vel
+          <lb ed="#P" n="63"/>fundamentum, propter quod talis necessitas 
+          af<lb break="no" ed="#P" n="64"/>feratur. Item quia alias angeli non possent 
+          re<lb break="no" ed="#P" n="65"/>flexionem facere super suos actus nisi 
+          compo<lb break="no" ed="#P" n="66"/>nendo, quod est frivolum, nam si alias 
+          verita<lb break="no" ed="#P" n="67"/>tes possunt cognoscere simpliciter, cur non
+          <lb ed="#P" n="68"/>hanc, scilicet, scire se cognoscere? Denique 
+          di<lb break="no" ed="#P" n="69"/>vina scientia eminentissime continet 
+          reflexio<lb break="no" ed="#P" n="70"/>nem et cognitionem sui cum summa 
+          simplici<lb break="no" ed="#P" n="71"/>tate: unde valde probabile judico illam 
+          visio<lb break="no" ed="#P" n="72"/>nem intime et per se ipsam esse reflexam, ita
+          <lb ed="#P" n="73"/>ut non possit beatus videre Deum, quin videat,
+          <lb ed="#P" n="74"/>se videre. Nulla est enim ratio cur hoc 
+          repu<lb break="no" ed="#P" n="75"/>gnet eidem actui: nam sicut lux manifestando
+          <lb ed="#P" n="76"/>alia, se etiam manifestat, ita facile hoc 
+          intel<lb break="no" ed="#P" n="77"/>ligi potest in eodem actu intellectus, imo hoc
+          <lb ed="#P" n="78"/>maxime pertinet ad perfectam claritatem et 
+          cer<lb break="no" ed="#P" n="79"/>titudinem ejus. Adde hoc etiam spectare ad 
+          per<lb break="no" ed="#P" n="80"/>fectionem beatitudinis, et per se esse maxime
+          <lb ed="#P" n="81"/>credibile de illa visione, quae participatio 
+          di<lb break="no" ed="#P" n="82"/>vinae scientiae est in supremo gradu et ordine.
+          <lb ed="#P" n="83"/>Atque ita sensit Bonaventura 3, dicta distinct.
+          <lb ed="#P" n="84"/>14, art. 1, quaest. 3, ad ultimum.
+        </p>
+        <p xml:id="szduep-028797-d1e709">
+          <lb ed="#P" n="85"/>10. Quartum dubium. — Quarto interrogari
+          <lb ed="#P" n="86"/>solet an illa visio sit scientia practica, vel 
+          spe<lb break="no" ed="#P" n="87"/>culativa, vel utrumque simul. Sunt enim 
+          opi<lb break="no" ed="#P" n="88"/>niones variae. Prima affirmat tantum esse 
+          scien<lb break="no" ed="#P" n="89"/>tiam practicam , quia est regula voluntatis
+          <lb ed="#P" n="90"/>quam movet ad operandum et dictat quid 
+          se<lb break="no" ed="#P" n="91"/>cundum rectam rationem agendum sit. Sic
+          <lb ed="#P" n="92"/>Scotus, in Prologo, quaest. 4,ubi non loquitur in
+          <lb ed="#P" n="93"/>particulari de visione, sed de theologia et de
+          <lb ed="#P" n="94"/>quacumque cognitione creata Dei, imo idem
+          <lb ed="#P" n="95"/>probabile censet de increata scientia quam Deus
+          <lb ed="#P" n="96"/>habet de se, de qua infra libro tertio dicemus.
+        </p>
+        <p xml:id="szduep-028797-d1e738">
+          <lb ed="#P" n="97"/>11. Secunda opinio. — Secunda opinio est,
+          <lb ed="#P" n="98"/>illam scientiam tantum esse speculativam,
+          <lb ed="#P" n="99"/>quia est de objecto non operabili a nobis.
+          <lb ed="#P" n="100"/>Quae tribuitur D. Thomae, 1, 2, qu. 3, art.5,
+          <lb ed="#P" n="101"/>et sumitur etiam ex eodem 2, 2, q. 181,
+          <lb ed="#P" n="102"/>art. 4. Citatur etiam Paludanus in 4, d. 49,
+          <lb ed="#P" n="103"/>quaest. 3, artic. 2. Ille tamen in beatis ponit
+          <lb ed="#P" n="104"/>scientiam speculativam et practicam, ut 
+          neces<lb break="no" ed="#P" n="105"/>sariam ad integrandam beatitudinem, et 
+          fate<lb break="no" ed="#P" n="106"/>tur visionem ipsam esse scientiam 
+          speculati<lb break="no" ed="#P" n="107"/>vam: dubium tamen relinquit an practica sit
+          <lb ed="#P" n="108"/>ab illa distincta necne.
+        </p>
+        <p xml:id="szduep-028797-d1e767">
+          <lb ed="#P" n="109"/>Tertia opinio. — Est ergo tertia opinio, quod
+          <lb ed="#P" n="110"/>simul sit practica et speculativa, sicut D.
+          <pb ed="#P" n="116"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Thomas docuit de Theologia, 1 p. , quaestione 1,
+          <lb ed="#P" n="2"/>art. 4. Sic Cajetanus 12, quaest. 3, art. 5, Sotus
+          <lb ed="#P" n="3"/>4, distinct. 49, quaestione 1, artic. 4, ubi 
+          Richar<lb break="no" ed="#P" n="4"/>dus, artic. 1, quaestione 8, idem sentit. Differt
+          <lb ed="#P" n="5"/>tamen ab aliis, quia existimat illam visionem
+          <lb ed="#P" n="6"/>principalius esse practicam quam 
+          speculati<lb break="no" ed="#P" n="7"/>vam, quia principaliter ordinatur ad amorem.
+          <lb ed="#P" n="8"/>Alii e contrario dicunt principalius esse 
+          spe<lb break="no" ed="#P" n="9"/>culativam, quia primarium illa est, quod sit
+          <lb ed="#P" n="10"/>quidditativa cognitio naturae divinae, et ut sic,
+          <lb ed="#P" n="11"/>est speculativa, hinc vero consequenter habet,
+          <lb ed="#P" n="12"/>quod sit affectiva, seu directiva voluntatis, ex
+          <lb ed="#P" n="13"/>quo habet quod practica sit.
+        </p>
+        <p xml:id="szduep-028797-d1e806">
+          <lb ed="#P" n="14"/>12. Lis componitur.—Haec disceptatio solum
+          <lb ed="#P" n="15"/>de modo loquendi esse solet, ideoque ita 
+          vide<lb break="no" ed="#P" n="16"/>tur breviter expedienda. Considerari enim 
+          po<lb break="no" ed="#P" n="17"/>test illa visio, vel ut est de Deo ipso, vel ut in
+          <lb ed="#P" n="18"/>illo et per illum aliqua alia manifestare potest.
+          <lb ed="#P" n="19"/>Priori modo dico esse simpliciter et omnino
+          <lb ed="#P" n="20"/>speculativam, quia est suprema contemplatio
+          <lb ed="#P" n="21"/>primae veritatis, et est de re nullo modo 
+          opera<lb break="no" ed="#P" n="22"/>bili a vidente. Imo licet simul videatur Deus
+          <lb ed="#P" n="23"/>ut dilgibilis ab ipso vidente et ideo respectu
+          <lb ed="#P" n="24"/>amoris videatur esse de re operabili et 
+          regula<lb break="no" ed="#P" n="25"/>bili ab ipso; nihilominus etiam sub illa ratione
+          <lb ed="#P" n="26"/>non censeo esse practicam, ut infra etiam de
+          <lb ed="#P" n="27"/>ipsa scientia Dei dicam. Quia neque est practica
+          <lb ed="#P" n="28"/>per modum artis, seu scientiae factivae, quia
+          <lb ed="#P" n="29"/>non docet, quomodo sit eliciendus amor, seu
+          <lb ed="#P" n="30"/>phycice faciendus, ut per se constat, nec est
+          <lb ed="#P" n="31"/>practica per modum prudentise, quia ille amor
+          <lb ed="#P" n="32"/>necessarius est; unde nonregulatur per 
+          pruden<lb break="no" ed="#P" n="33"/>tiam, sed per suum objectum ; unde illa visio
+          <lb ed="#P" n="34"/>non excitat amorem practico modo, sed per 
+          so<lb break="no" ed="#P" n="35"/>lam contemplationem objecti applicando illud.
+        </p>
+        <p xml:id="szduep-028797-d1e856">
+          <lb ed="#P" n="36"/>13. At vero prout illa visio judicat de aliquibus
+          <lb ed="#P" n="37"/>actionibus extra Deum, potest esse practica.
+          <lb ed="#P" n="38"/>Primo per modum prudentiae, quatenus per
+          <lb ed="#P" n="39"/>illam visionem judicare potest beatus de alus
+          <lb ed="#P" n="40"/>rebus agendis, vel vitandis secundum divinam
+          <lb ed="#P" n="41"/>rationem, seu voluntatem. Secundo per 
+          mo<lb break="no" ed="#P" n="42"/>dum artis, quia illa visio conferre potest 
+          co<lb break="no" ed="#P" n="43"/>gnitionem, quae de se sufficiat ad dirigendam
+          <lb ed="#P" n="44"/>artificiosam operationem. Neque enim est 
+          in<lb break="no" ed="#P" n="45"/>conveniens, ut scientia altioris ordinis 
+          utram<lb break="no" ed="#P" n="46"/>que rationem complectatur, praesertim cum ex
+          <lb ed="#P" n="47"/>vi primarii objecti speculativa sit, practica vero
+          <lb ed="#P" n="48"/>solum circa secundarium objectum. Ex quo 
+          in<lb break="no" ed="#P" n="49"/>telligere licet, visionem illam, quatenus 
+          for<lb break="no" ed="#P" n="50"/>maliter pertinet ad beatitudinem essentialem,
+          <lb ed="#P" n="51"/>esse tantum speculativam et non practicam et
+          <lb ed="#P" n="52"/>hic est sensus divi Thomae 12, quaestione 3, 
+          ar<lb break="no" ed="#P" n="53"/>ticulo 5. Quia illa visio non est beatitudo, nisi
+          <lb ed="#P" n="54"/>prout terminatur ad rem increatam : quia 
+          so<lb break="no" ed="#P" n="55"/>lum objectum increatum est beatitudo objec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiva essentialis, ut in 1. 2, loco citato latius
+          <lb ed="#P" n="57"/>tractandum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="653"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-165137"><!-- t3-l5c1 -->
+        <head xml:id="szduep-165137-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-165137-Hd1e103" type="question-title">Sint-ne in deo relationes reales ad intra</head>
+        <p xml:id="szduep-165137-d1e106">
+          <lb ed="#P" n="6"/>CAPUT I.
+          <lb ed="#P" n="7"/>SINT-NE IN DEO RELATIONES REALES AD INTRA.
+        </p>
+        <p xml:id="szduep-165137-d1e113">
+          <lb ed="#P" n="8"/>1. Non tractamus hoc loco de relationibus
+          <lb ed="#P" n="9"/>Dei ad creaturas, quas rationis esse 
+          supponi<lb break="no" ed="#P" n="10"/>mus, quia illae non conveniunt Deo, ut Trino:
+          <lb ed="#P" n="11"/>nec ad explicandum hoc mysterium, quidquam
+          <lb ed="#P" n="12"/>conferunt. Neque etiam nunc vim facimus in
+          <lb ed="#P" n="13"/>nomine abstracto, vel concreto relationis, aut
+          <lb ed="#P" n="14"/>relativi : nam haec inquisitio et consideratio
+          <lb ed="#P" n="15"/>commodiorem habebit locum in principio 
+          lh<lb break="no" ed="#P" n="16"/>bri septimi. Nunc vero indifferenter utrisque
+          <lb ed="#P" n="17"/>vocibus utemur, tam supponendo abstracte
+          <lb ed="#P" n="18"/>quam concrete posse has proprietates a nobis
+          <lb ed="#P" n="19"/>concipi et significari.
+        </p>
+        <p xml:id="szduep-165137-d1e142">
+          <lb ed="#P" n="20"/>2. Resolutio quaestionis. — Probatio.—Hoc
+          <lb ed="#P" n="21"/>supposito inter Catholicos extra controversiam
+          <lb ed="#P" n="22"/>est, esse inter personas Trinitatis relationes
+          <lb ed="#P" n="23"/>reales. Ita docet D. Thomas, dicta quaest. 28,
+          <lb ed="#P" n="24"/>per totam, et quaest. 8, de Potentia, art. 1, 
+          di<lb break="no" ed="#P" n="25"/>cit, esse de Fide. Docent etiam omnes 
+          scho<lb break="no" ed="#P" n="26"/>lastici, in 1, dist. 33. Et colligitur ex Scriptura,
+          <lb ed="#P" n="27"/>quatenus personas appellat nominibus 
+          signifi<lb break="no" ed="#P" n="28"/>cantibus hujusmodi respectus, qualia sunt, 
+          Pa<lb break="no" ed="#P" n="29"/>tris et Filii: id autem expressius declararunt
+          <lb ed="#P" n="30"/>Concilia et Patres. Nam Toletanus 7, sic 
+          in<lb break="no" ed="#P" n="31"/>quit: Pater ad Filiwmn, et Filius ad Patrem,
+          <lb ed="#P" n="32"/>et Spiritus sanctus ad utrumque refertur, et
+          <lb ed="#P" n="33"/>infra: In relatione personarum cernitur 
+          nume<lb break="no" ed="#P" n="34"/>rus. Idem sumitur ex 6 Synodo, act. 11, in
+          <lb ed="#P" n="35"/>dicta Epistola Sophronii, et ex Concilio 
+          Flo<lb break="no" ed="#P" n="36"/>rentino, sess. 18 et 19. Ubi personae divinae 
+          di<lb break="no" ed="#P" n="37"/>cuntur esse, ad aliquid, et in sess. 25, in litteris
+          <lb ed="#P" n="38"/>unionis idem fere habetur. Augustinus, etiam
+          <lb ed="#P" n="39"/>lib. 5, de Trin., cap. 8 et 9, hac ratione dixit:
+          <lb ed="#P" n="40"/>Solam substantiam, et relationem proprie in
+          <lb ed="#P" n="41"/>Deo inveniri, et 1. 15, c. 3, quod de Deo dicitur,
+          <lb ed="#P" n="42"/>non secundumn substantium, relative dici. 
+          Osten<lb break="no" ed="#P" n="43"/>dit Anselmus, de Incarn. Verbi, c. 1, explicato
+          <lb ed="#P" n="44"/>mysterio ita concludit : Quod totum potest dici
+          <lb ed="#P" n="45"/>relatio. Et multa alia afferemus in sequentibus.
+        </p>
+        <p xml:id="szduep-165137-d1e202">
+          <lb ed="#P" n="46"/>3. Ratio assertionis.—Est autem in his 
+          om<lb break="no" ed="#P" n="47"/>nibus testimoniis considerandum, nunquam
+          <lb ed="#P" n="48"/>expresse, et formaliter dici in eis, illas 
+          relatio<lb break="no" ed="#P" n="49"/>nes esse reales : tamen in his, quae attribuuntur
+          <lb ed="#P" n="50"/>illis relationibus, satis hoc contineri. Tum quia
+          <lb ed="#P" n="51"/>dicuntur esse in Deo vere, et proprie, non 
+          mi<lb break="no" ed="#P" n="52"/>nus, quam substantiam : tum etiam, quia di-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cuntur numerare, seu distinguere realiter 
+          per<lb break="no" ed="#P" n="54"/>sonas, quod non potest facere relatio rationis,
+          <lb ed="#P" n="55"/>est ergo quoad utramque partem aeque certa
+          <lb ed="#P" n="56"/>haec veritas. Ratio autem reddi potest, quia
+          <lb ed="#P" n="57"/>inter divinas personas inveniuntur omnia, quae
+          <lb ed="#P" n="58"/>ad relationem realem necessaria sunt. Nam est
+          <lb ed="#P" n="59"/>ibi realis distinctio extremorum, ut supra 
+          pro<lb break="no" ed="#P" n="60"/>batum est, cum de distinctione personarum
+          <lb ed="#P" n="61"/>ageremus. Est etiam realis processio unius ab
+          <lb ed="#P" n="62"/>alia, ut supra etiam libro primo est probatum,
+          <lb ed="#P" n="63"/>quae processio solet esse sufficiens ratio, vel 
+          in<lb break="no" ed="#P" n="64"/>dicium relationis realis, quando est in eadem
+          <lb ed="#P" n="65"/>natura, seu in eodem ordine naturae: divinae
+          <lb ed="#P" n="66"/>autem personae sunt ejusdem ordinis et naturae.
+          <lb ed="#P" n="67"/>Denique, si ad relationem realem est 
+          necessa<lb break="no" ed="#P" n="68"/>rium fundamentum reale, ibi sufficiens crit
+          <lb ed="#P" n="69"/>divina essentia, vel secundum se, vel ut est
+          <lb ed="#P" n="70"/>formalis potentia, seu principium quo, 
+          pro<lb break="no" ed="#P" n="71"/>ductionis: Fortasse vero in relationibus 
+          sub<lb break="no" ed="#P" n="72"/>sistentibus aliud fundamentum necessarium
+          <lb ed="#P" n="73"/>non est, ut infra dicetur : nihil ergo deest ibi
+          <lb ed="#P" n="74"/>ad relationem realem.
+        </p>
+        <p xml:id="szduep-165137-d1e270">
+          <lb ed="#P" n="75"/>4. Objectio ex Boetio. — Contra hanc 
+          asser<lb break="no" ed="#P" n="76"/>tionem objici potest locus Boetii, lib. 1, de
+          <lb ed="#P" n="77"/>Trinitate, circa medium, alias cap. 6, ubi 
+          di<lb break="no" ed="#P" n="78"/>cit: Cetera praedicamenta convenire Deo 
+          secun<lb break="no" ed="#P" n="79"/>dum substantiam. Ad aliquid vero nullo modo
+          <lb ed="#P" n="80"/>de ipso predicari. Hunc locum objicit D. 
+          Tho<lb break="no" ed="#P" n="81"/>mas, 1 part., quaest. 28, art. 1, et respondet
+          <lb ed="#P" n="82"/>ad primum, DBoetium non negare, relationem
+          <lb ed="#P" n="83"/>esse in Deo, sed asserere, secundum propriam
+          <lb ed="#P" n="84"/>rationem suam non significari, ut existentem
+          <lb ed="#P" n="85"/>in Deo, sed ut ad aliud se habentem. Est tamen
+          <lb ed="#P" n="86"/>difficilis expositio : nam hoc modo etiam 
+          pos<lb break="no" ed="#P" n="87"/>set negare relationem esse in creatura, quia
+          <lb ed="#P" n="88"/>secundum propriam rationem, non 
+          significa<lb break="no" ed="#P" n="89"/>tur, ut existens in creatura, sed ut ad aliud se
+          <lb ed="#P" n="90"/>habens. Existimo ergo, Boetium ibi esse 
+          locu<lb break="no" ed="#P" n="91"/>tum de Deo, ut unus est, et voluisse dicere,
+          <lb ed="#P" n="92"/>quod theologi alias docent, in Deo non 
+          consur<lb break="no" ed="#P" n="93"/>gere relationes ad res diversae naturae, nec per
+          <lb ed="#P" n="94"/>mutationem aliarum rerum, ut diserte 
+          expli<lb break="no" ed="#P" n="95"/>cat capite septimo. Nam de relationibus ad 
+          in<lb break="no" ed="#P" n="96"/>tra, statim disputat capite duodecimo et habet
+          <lb ed="#P" n="97"/>illam celebrem sententiam, substantia preebet
+          <lb ed="#P" n="98"/>unitatem, relatio multiplicat Trinitatem.
+        </p>
+        <p xml:id="szduep-165137-d1e325">
+          <lb ed="#P" n="99"/>5. Dubium de esse ad Cajetanum. — Solet
+          <lb ed="#P" n="100"/>autem inter Thomistas disputari, an relationes
+          <lb ed="#P" n="101"/>divinae sint reales secundum esse ad in 
+          quan<lb break="no" ed="#P" n="102"/>tum ad, an vero solum secundum esse in, quod
+          <lb ed="#P" n="103"/>in eis est, esse subsistens. Nam Cajetanus, in
+          <lb ed="#P" n="104"/>dicto art. 1, quaest. 28, existimat, secundum
+          <lb ed="#P" n="105"/>esse ad, non esse relationes illas aliquid reale.
+          <lb ed="#P" n="106"/>Quod sentit etiam Capreolus, in i, d. 33,
+          <lb ed="#P" n="107"/>sumpseruntque occasionem ex quibusdam ver-
+          <pb ed="#P" n="654"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bis subobscuris D. Thomae in eodem articulo
+          <lb ed="#P" n="2"/>primo dicens: Solum in praedicamento 
+          relatio<lb break="no" ed="#P" n="3"/>nis inveniri aliquid secundum rationem. Quod
+          <lb ed="#P" n="4"/>ipsi interpretantur, esse ipsum esse ad praecise
+          <lb ed="#P" n="5"/>sumptum, et abstractum ab esse an.
+        </p>
+        <p xml:id="szduep-165137-d1e362">
+          <lb ed="#P" n="6"/>6. Hanc vero sententiam existimo falsam.
+          <lb ed="#P" n="7"/>Primo quidem, quia in relatione reali, 
+          prae<lb break="no" ed="#P" n="8"/>sertim divina, nihil est, quod ad veritatem
+          <lb ed="#P" n="9"/>entis non pertineat, maxime ex his, quae 
+          in<lb break="no" ed="#P" n="10"/>trinsece pertinent ad veritatem, et realitatem
+          <lb ed="#P" n="11"/>illius mysterii, alias magna ex parte esse per
+          <lb ed="#P" n="12"/>rationem contictum. Sed ipsum esse ad, unius
+          <lb ed="#P" n="13"/>personae respectu alterius intrinsece pertinet
+          <lb ed="#P" n="14"/>ad illius mysterii veritatem : alioqui relatio,
+          <lb ed="#P" n="15"/>ut relatio, non multiphcaret Trinitatem, ergo,
+          <lb ed="#P" n="16"/>etc. Secundo, quia oppositio inter divinas 
+          per<lb break="no" ed="#P" n="17"/>sonas realis est, ideo enim affert secum 
+          dis<lb break="no" ed="#P" n="18"/>tinctionem realem, sed illa oppositio 
+          intrin<lb break="no" ed="#P" n="19"/>sece, et formalter consistit in esse ad, ergo
+          <lb ed="#P" n="20"/>illud reale est. Tertio denique quia esse ad,
+          <lb ed="#P" n="21"/>nihil aliud est, quam habitudo : Pater autem
+          <lb ed="#P" n="22"/>intrinsece, et ex se, et absque ulla 
+          compara<lb break="no" ed="#P" n="23"/>tione intellectus respicit Filium, ergo realter
+          <lb ed="#P" n="24"/>habet quidquid intelligi potest in hoc esse ad
+          <lb ed="#P" n="25"/>Filium, et idem est de caeteris personis.
+        </p>
+        <p xml:id="szduep-165137-d1e408">
+          <lb ed="#P" n="26"/>7. Fundamentum autem, quod sumebatur
+          <lb ed="#P" n="27"/>ex verbis D. Thomae nihil ad praesens facit,
+          <lb ed="#P" n="28"/>quia relationes divinae, in praedicamento 
+          rela<lb break="no" ed="#P" n="29"/>tionis non sunt. Tamen propter proportionem,
+          <lb ed="#P" n="30"/>et propter veritatem etiam ipsius 
+          praedica<lb break="no" ed="#P" n="31"/>menti realis, sunt illa verba obscura. Ut 
+          au<lb break="no" ed="#P" n="32"/>tem opinor, mens D. Thomae solum fuit 
+          do<lb break="no" ed="#P" n="33"/>cere, per rationem excogitari, aut fingi aliquid
+          <lb ed="#P" n="34"/>simile praedicamento ad aliquid. Quod, sano
+          <lb ed="#P" n="35"/>modo intellectum, est verum, scilicet, 
+          secun<lb break="no" ed="#P" n="36"/>dum quamdam proportionalitatem, non vero
+          <lb ed="#P" n="37"/>secundum univocam rationem, imo nec 
+          secun<lb break="no" ed="#P" n="38"/>dum realem convenientiam, etiam analogam,
+          <lb ed="#P" n="39"/>ut dixi latius disput. 47 Metaphysicae. An vero
+          <lb ed="#P" n="40"/>secundum proportionem ad alia praedicamenta
+          <lb ed="#P" n="41"/>possint alia entia rationis cogitari, dixi ibidem
+          <lb ed="#P" n="42"/>disputatione ultima. Aliud vero fundamentum,
+          <lb ed="#P" n="43"/>quod dicti auctores indicant, nempe esse ad,
+          <lb ed="#P" n="44"/>posse ita praescindi, ut non includat esse in,
+          <lb ed="#P" n="45"/>falsum est : tum quia esse in, ita est 
+          transcen<lb break="no" ed="#P" n="46"/>dens, sicut ens servata proportione, tum etiam,
+          <lb ed="#P" n="47"/>quia relatio, secundum ultimam rationem
+          <lb ed="#P" n="48"/>suam est forma relativi, ut paternitas Patris:
+          <lb ed="#P" n="49"/>unde intersece, et secundum propriam 
+          ratio<lb break="no" ed="#P" n="50"/>nem respicit non tantum terminum, sed etiam
+          <lb ed="#P" n="51"/>subjectum, seu suppositum, quod ad terminum
+          <lb ed="#P" n="52"/>refert.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

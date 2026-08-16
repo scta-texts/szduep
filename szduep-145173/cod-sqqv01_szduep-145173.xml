@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="574"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-145173"><!-- t3-l2c1 -->
+        <head xml:id="szduep-145173-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-145173-Hd1e103" type="question-title">Sitne pater verus deus</head>
+        <p xml:id="szduep-145173-d1e106">
+          <lb ed="#P" n="14"/>CAPUT I.
+          <lb ed="#P" n="15"/>SITNE PATER VERUS DEUS.
+        </p>
+        <p xml:id="szduep-145173-d1e113">
+          <lb ed="#P" n="16"/>1. Non est hoc loco immorandum circa 
+          no<lb break="no" ed="#P" n="17"/>men Patris, quia non tractamus, an prima 
+          per<lb break="no" ed="#P" n="18"/>sona sit verus Pater, nec de his, quae sunt
+          <lb ed="#P" n="19"/>propria ejus. Hoc enim postea agendum est,
+          <lb ed="#P" n="20"/>sed tractamus de natura ejus, seu de modo 
+          en<lb break="no" ed="#P" n="21"/>titatis ejus. Intelhgamus ergo nomine Patris
+          <lb ed="#P" n="22"/>quamdam personam improductam. Et hoc 
+          mo<lb break="no" ed="#P" n="23"/>do circa quaestionem hanc nullus haereticorum,
+          <lb ed="#P" n="24"/>vel etiam infidelium, qui verum Deum alias
+          <lb ed="#P" n="25"/>cognoscant, posuerunt Patris personam, id est,
+          <lb ed="#P" n="26"/>illam, quae improducta est, in ordine 
+          creatu<lb break="no" ed="#P" n="27"/>rarum: nam hoc involvit manifestam 
+          repug<lb break="no" ed="#P" n="28"/>nantiam. Quia illa persona est a se, et 
+          impro<lb break="no" ed="#P" n="29"/>ducta, ut jam in superioribus est ostensum:
+          <lb ed="#P" n="30"/>ergo implicat esse creaturam, cum sit 
+          intrinse<lb break="no" ed="#P" n="31"/>cum creaturae habere esse ab alio. Ex quo etiam
+          <lb ed="#P" n="32"/>manifestum , hanc personam naturam 
+          divi<lb break="no" ed="#P" n="33"/>nam, et subsistere in illa, quia cum sit vera
+          <lb ed="#P" n="34"/>persona, necesse est, ut habeat intellectualem
+          <lb ed="#P" n="35"/>naturam, et non habet creatam, ut ostensum
+          <lb ed="#P" n="36"/>est, habet ergo increatam, quae solum est 
+          di<lb break="no" ed="#P" n="37"/>vina natura. .
+        </p>
+        <p xml:id="szduep-145173-d1e163">
+          <lb ed="#P" n="38"/>2. Error aliquorum hereticorum. — Hoc 
+          ta<lb break="no" ed="#P" n="39"/>men non obstante, non defuerunt haeretici,
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="40"/>qui negaverint personam Patris per se 
+          consi<lb break="no" ed="#P" n="41"/>deratam esse verum Deum, quod etiam de
+          <lb ed="#P" n="42"/>caeteris consequenter aiebant. hefert D. 
+          Au<lb break="no" ed="#P" n="43"/>gustinus, de Haeresibus in 74, dicens: Est alia 
+          <lb ed="#P" n="44"/>haeeresis, quee triformem sic asserit DEUM, ut 
+          <lb ed="#P" n="45"/>quedam pars ejus sit Pater, quedam Filius, 
+          <lb ed="#P" n="46"/>et quedam Spiritus sanctus. Ad quem 
+          erro<lb break="no" ed="#P" n="47"/>rem videtur accessisse Abbas Joachim, qui (ut
+          <lb ed="#P" n="48"/>refertur in Concilio Lateranensi sub 
+          Innocen<lb break="no" ed="#P" n="49"/>tio IIT, capite 2,) dixit, tres personas esse
+          <lb ed="#P" n="50"/>unum Deun, solum collectione quadam, sicut
+          <lb ed="#P" n="51"/>multi homines sunt unus populus, vel multa
+          <lb ed="#P" n="52"/>corpora unum universum. Ex quo errore 
+          pla<lb break="no" ed="#P" n="53"/>ne sequebatur, personam Patris solam, seu
+          <lb ed="#P" n="54"/>per se spectatam , Deum non essc. 
+          Funda<lb break="no" ed="#P" n="55"/>mentum illius erroris fuit, quia tres personae
+          <lb ed="#P" n="56"/>non sunt aliqua una simplex res, quia alias in
+          <lb ed="#P" n="57"/>Deo non tantum esset Trinitas, sed etiam 
+          qua<lb break="no" ed="#P" n="58"/>ternitas, nam essent personae, et una illa res,
+          <lb ed="#P" n="59"/>et nihilominus sunt unus Deus, ergo sunt 
+          u<lb break="no" ed="#P" n="60"/>num collective, ergo prima persona per se
+          <lb ed="#P" n="61"/>spectata non est Deus.
+        </p>
+        <p xml:id="szduep-145173-d1e221">
+          <lb ed="#P" n="62"/>3. Magis vero scholastice possumus ita 
+          ar<lb break="no" ed="#P" n="63"/>gumentari. Nam solus ille est Deus, qui in se
+          <lb ed="#P" n="64"/>habet totam essentiam Dei, et in illa subsistit,
+          <lb ed="#P" n="65"/>sed Pater non ita habet in se totam Dei 
+          essen<lb break="no" ed="#P" n="66"/>tiam, ut quasi afficiat, et constituat illum:
+          <lb ed="#P" n="67"/>ergo. Probatur minor, quia tota Trinmtas est
+          <lb ed="#P" n="68"/>de essentia Dei, tum quia est idem cum 
+          essen<lb break="no" ed="#P" n="69"/>tia Dei, tum etiam quia nihil potest esse in
+          <lb ed="#P" n="70"/>Deo, quod non sit essentiale, alias esset 
+          acci<lb break="no" ed="#P" n="71"/>dentale, quod repugnat : tota autem Trinitas
+          <lb ed="#P" n="72"/>non est in solo Patre modo praedicto, unde haec
+          <lb ed="#P" n="73"/>est falsa propositio, Pater est Trinitas, haec
+          <lb ed="#P" n="74"/>autem vera, Trinitas est Deus, et Deus est 
+          Tri<lb break="no" ed="#P" n="75"/>nitas, ergo Deus non est solus Pater, ergo 
+          ne<lb break="no" ed="#P" n="76"/>que e contrario Pater est Deus.
+        </p>
+        <p xml:id="szduep-145173-d1e256">
+          <lb ed="#P" n="77"/>4. Unitas Dei non est collectiva, sed simplex.
+          <pb ed="#P" n="575"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>—Nihilominus de fide est certum, Deum non
+          <lb ed="#P" n="2"/>esse unum per solam collectionem, sed per
+          <lb ed="#P" n="3"/>veram naturae unitatem, et consequenter est
+          <lb ed="#P" n="4"/>etiam de fide, singulas personas, in quibus est
+          <lb ed="#P" n="5"/>talis natura, esse verum Deum, et non tantum
+          <lb ed="#P" n="6"/>est omnes simul sumptas. Ita definitur in dicto
+          <lb ed="#P" n="7"/>Concilio Lateranensi, et habetur in capite
+          <lb ed="#P" n="8"/>Damnamus, de summa Trinitate, et ex 
+          Scrip<lb break="no" ed="#P" n="9"/>tura, et Patribus constabit ex his, quae dicemus
+          <lb ed="#P" n="10"/>de singulis personis. Ratio vero est clara, quia
+          <lb ed="#P" n="11"/>vel omnes illae personae habent eamdem 
+          natu<lb break="no" ed="#P" n="12"/>ram singularem, et individuam, vel numero
+          <lb ed="#P" n="13"/>distinctam. Hoc secundum dici non potest, alias
+          <lb ed="#P" n="14"/>illae tres personae essent tres dii, vel aliae 
+          quae<lb break="no" ed="#P" n="15"/>dam tres substantiae. Nam si illae naturae essent
+          <lb ed="#P" n="16"/>omnino similes, et aequales in perfectione 
+          es<lb break="no" ed="#P" n="17"/>sentiali, manifeste essent tres dii, et unitas
+          <lb ed="#P" n="18"/>collectiva nihil obstaret, tum quia Deus non
+          <lb ed="#P" n="19"/>est nomen collectionis, sed substantie, tum
+          <lb ed="#P" n="20"/>etiam quia unitas Dei debet esse unitas 
+          simpli<lb break="no" ed="#P" n="21"/>cissima, et perfectissima, unitas autem per
+          <lb ed="#P" n="22"/>eollectionem, est imperfecta, et accidentals,
+          <lb ed="#P" n="23"/>tum etiam, quia jam essent tres essentiae aeque
+          <lb ed="#P" n="24"/>primae, quod repugnat. Si autem illae naturae
+          <lb ed="#P" n="25"/>essent inaequales, sola illa, quae perfectissima
+          <lb ed="#P" n="26"/>esset, constitueret verum Deum. Unde etiam
+          <lb ed="#P" n="27"/>posito illo errore posset concludi, Patrem esse
+          <lb ed="#P" n="28"/>verum Deum, quia nemo dubitat, quin prima
+          <lb ed="#P" n="29"/>pérsona improducta sit perfectissimae naturae :
+          <lb ed="#P" n="30"/>sequeretur autem ex errore illo, alias personas
+          <lb ed="#P" n="31"/>non esse Deum, quod postea refutandum est.
+        </p>
+        <p xml:id="szduep-145173-d1e332">
+          <lb ed="#P" n="32"/>5. Necessario ergo fatendum est unitatem
+          <lb ed="#P" n="33"/>DEI esse per unitatem naturae. Haec autem
+          <lb ed="#P" n="34"/>natura non est partibilis, ut pars ejus possit
+          <lb ed="#P" n="35"/>esse in una persona et pars in alia, sicut 
+          haere<lb break="no" ed="#P" n="36"/>tici citati ab Augustino sensisse videntur, nam
+          <lb ed="#P" n="37"/>hoc etiam rationi naturali repugnat, cum sit
+          <lb ed="#P" n="38"/>magna imperfectio, ergo in quacumque 
+          per<lb break="no" ed="#P" n="39"/>sona est illa natura, in illa est tota essentia
+          <lb ed="#P" n="40"/>Dei, nam in praesenti idem est essentia, quod
+          <lb ed="#P" n="41"/>natura, ergo quaelibet talis persona per se
+          <lb ed="#P" n="42"/>sumpta est verus Deus. Patet consequentia,
+          <lb ed="#P" n="43"/>quia omnis res habens integram alicujus 
+          spe<lb break="no" ed="#P" n="44"/>ciei, seu rationis naturam et in illa subsistens,
+          <lb ed="#P" n="45"/>est verum individuum illius speciei. Sic 
+          Chris<lb break="no" ed="#P" n="46"/>tus Dominus est verus homo, quia in se habet
+          <lb ed="#P" n="47"/>totam quamdam humanam naturam, et in illa
+          <lb ed="#P" n="48"/>subsistit. Etsi eamdem, vel similem haberet
+          <lb ed="#P" n="49"/>Pater, esset etiam verus homo, ergo a fortiori,
+          <lb ed="#P" n="50"/>etc. Et confirmatur tandem, quia si nulla 
+          per<lb break="no" ed="#P" n="51"/>sona determinata est Deus: neque omnes 
+          si<lb break="no" ed="#P" n="52"/>mul sumptae possent esse Deus. Probatur 
+          illa<lb break="no" ed="#P" n="53"/>tio, quia si nulla illarum est Deus, ergo nulla
+          <lb ed="#P" n="54"/>est ens infinitum et summe perfectum: quia
+          <lb ed="#P" n="55"/>hoc est Deus; ergo neque ex illis simul sumptis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>potest coalescere Deus, quia neque ex rebus
+          <lb ed="#P" n="57"/>finitis numero et perfectione potest infinitum
+          <lb ed="#P" n="58"/>consurgere, neque ex collectione plurium 
+          po<lb break="no" ed="#P" n="59"/>test coalescere aliquod summe perfectum, cum
+          <lb ed="#P" n="60"/>ipse modus collectionis imperfectus sit et 
+          sin<lb break="no" ed="#P" n="61"/>gula, quae ibi concurrunt, necessario esse 
+          de<lb break="no" ed="#P" n="62"/>bent imperfecta.
+        </p>
+        <p xml:id="szduep-145173-d1e404">
+          <lb ed="#P" n="63"/>6. Pater verus Deus. — Secundo hinc 
+          con<lb break="no" ed="#P" n="64"/>cluditur, Patrem, seu primam personam 
+          Tri<lb break="no" ed="#P" n="65"/>nitatis praecise spectatam, esse verum Deum.
+          <lb ed="#P" n="66"/>Haec veritas est de fide, ut concluditur ex 
+          dic<lb break="no" ed="#P" n="67"/>tis, et habetur expresse in Scriptura Joannis 1,
+          <lb ed="#P" n="68"/>el Verbum erat apud DEUM, id est, apud
+          <lb ed="#P" n="69"/>Patrem; et in graeco ponitur articulus ad 
+          indi<lb break="no" ed="#P" n="70"/>candam excellentiam divinitatis. Et cap. 6:
+          <lb ed="#P" n="71"/>Hunc enim Pater signavit DEUS, id est, Deus
+          <lb ed="#P" n="72"/>Pater signavit hunc, id est, designavit 
+          Chris<lb break="no" ed="#P" n="73"/>tum, etc. Et cap. 17: Ut cognoscant te solum
+          <lb ed="#P" n="74"/>DEUM verum. Loquitur Christus ad Patrem.
+          <lb ed="#P" n="75"/>De particula autem solum, quae nimium 
+          vide<lb break="no" ed="#P" n="76"/>tur probare, dicemus infra. Plura videri 
+          pos<lb break="no" ed="#P" n="77"/>sunt apud Hilarium, lib. 4, de Trinitate, versus
+          <lb ed="#P" n="78"/>finem, et Augustinus, toto librosexto, et lib. 15,
+          <lb ed="#P" n="79"/>cap. 7, et apud alios supra citatos. Ratio patet
+          <lb ed="#P" n="80"/>ex dictis, quia ostensum est, singulas personas
+          <lb ed="#P" n="81"/>subsistentes in Deitate esse Deum: si autem
+          <lb ed="#P" n="82"/>aliqua subsistit maxime Pater, qui est 
+          princi<lb break="no" ed="#P" n="83"/>pium communicans Deitatem aliis, in quibus
+          <lb ed="#P" n="84"/>illa subsistit: ergo.
+        </p>
+        <p xml:id="szduep-145173-d1e454">
+          <lb ed="#P" n="85"/>7. Ad fundamentum contrarii erroris 
+          nega<lb break="no" ed="#P" n="86"/>tur sequi dari quaternitatem in Deo, ut recte
+          <lb ed="#P" n="87"/>dicitur in dicto capite Damnammus, quia illa una
+          <lb ed="#P" n="88"/>res, seu natura, in qua tres personae 
+          conve<lb break="no" ed="#P" n="89"/>niunt, non est dictincta ab illis, et ita non 
+          au<lb break="no" ed="#P" n="90"/>get cum illis numerum rerum. hRatio autem
+          <lb ed="#P" n="91"/>theologica a nobis facta petit nonnullas 
+          difh<lb break="no" ed="#P" n="92"/>cultates tractandas libro sequenti. Nunc 
+          brevi<lb break="no" ed="#P" n="93"/>ter dicitur, quidquid est de essentia Dei esse de
+          <lb ed="#P" n="94"/>essentia cujuscumque personae, personalitates
+          <lb ed="#P" n="95"/>autem, seu relationes formaliter, ac proprie
+          <lb ed="#P" n="96"/>non esse de essentia Dei, esto, sint idem cum
+          <lb ed="#P" n="97"/>essentia Dei. Et similiter dicitur, quidquid est
+          <lb ed="#P" n="98"/>perfectionis in omnibus personis, esse in 
+          qua<lb break="no" ed="#P" n="99"/>libet earum, et ideo nihil obstare, quominus
+          <lb ed="#P" n="100"/>singulae sint verus Deus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="456"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-115924"><!-- t2-l3c1 -->
+        <head xml:id="szduep-115924-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-115924-Hd1e103" type="question-title">Habeat-ne praedestinatio aliquos effectus, et in quo genere causae</head>
+        <p xml:id="szduep-115924-d1e106">
+          <lb ed="#P" n="42"/>CAPUT I.
+          <lb ed="#P" n="43"/>HABEAT-NE PRAEDESTINATIO ALIQUOS EFFECTUS, ET
+          <lb ed="#P" n="44"/>IN QUO GENERE CAUSAE.
+        </p>
+        <p xml:id="szduep-115924-d1e115">
+          <lb ed="#P" n="45"/>1. Conclusio D. Thoma. —Ratione 
+          adstrui<lb break="no" ed="#P" n="46"/>tur. — In duobus manet difficultas. — Hanc
+          <lb ed="#P" n="47"/>quaestionem tractat D. Thomas, 1 p.. quaest. 23,
+          <lb ed="#P" n="48"/>art. 2, sub alio titulo, scilicet, an 
+          praedestina<lb break="no" ed="#P" n="49"/>tio ponat aliquid in praedestinato et respondet,
+          <lb ed="#P" n="50"/>formaliter nihil ponere, causaliter autem po-
+          <pb ed="#P" n="457"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nere aliquid : quarum partium prior in lib. 1
+          <lb ed="#P" n="2"/>satis explicata est, posterior vero ad praesens
+          <lb ed="#P" n="3"/>spectat. Nam sensus illius est, 
+          praedestinatio<lb break="no" ed="#P" n="4"/>nem esse causam aliquorum effectuum, quos
+          <lb ed="#P" n="5"/>Deus facit in ipso praedestinato. Et in hac 
+          as<lb break="no" ed="#P" n="6"/>sertione conveniunt theologi omnes in 1, d. 40
+          <lb ed="#P" n="7"/>et 41, et est expressa D. Augustini de 
+          Praedes<lb break="no" ed="#P" n="8"/>tinatione Sanctorum, c. 10, et de Bono 
+          perse<lb break="no" ed="#P" n="9"/>ver., c. 14. Et omnes illam sumunt ex Paulo
+          <lb ed="#P" n="10"/>ad Rom. S, ut in sequentibus latius 
+          explicabi<lb break="no" ed="#P" n="11"/>mus. Ratio autem est, quia ut homines 
+          conse<lb break="no" ed="#P" n="12"/>quantur salutem aeternam, plura beneficia eis
+          <lb ed="#P" n="13"/>conferri, multosque effectus in eis fieri, 
+          neces<lb break="no" ed="#P" n="14"/>sarium est, ut per se notum est. At Deus est
+          <lb ed="#P" n="15"/>causa horum effectuum per intellectum et 
+          vo<lb break="no" ed="#P" n="16"/>luntatem, sicut et omnium aliorum: ergo est
+          <lb ed="#P" n="17"/>causa per eos actus in quibus praedestinatio
+          <lb ed="#P" n="18"/>consistit. Nam ostensum est, praedestinationem
+          <lb ed="#P" n="19"/>consistere in actibus intellectus et voluntatis,
+          <lb ed="#P" n="20"/>per quos Deus efficaciter decernit aliquid 
+          futu<lb break="no" ed="#P" n="21"/>rum in ordine ad supernaturalem 
+          Beatitudi<lb break="no" ed="#P" n="22"/>nem: recte igitur praedestinatio dicitur causa
+          <lb ed="#P" n="23"/>talium effectuum. Duo vero supersunt 
+          decla<lb break="no" ed="#P" n="24"/>randa, unum ex parte causae, aliud ex parte
+          <lb ed="#P" n="25"/>effectus. Ex parte quidem causae explicandum
+          <lb ed="#P" n="26"/>est, in quo genere causae praedestinatio sit
+          <lb ed="#P" n="27"/>causa eorum effectuum qui illi tribuuntur: ex
+          <lb ed="#P" n="28"/>parte vero effectus, quas conditiones requirat,
+          <lb ed="#P" n="29"/>ut sub praedestinationem cadat.
+        </p>
+        <p xml:id="szduep-115924-d1e198">
+          <lb ed="#P" n="30"/>2. Circa primum est assertio prima. —Circa.
+          <lb ed="#P" n="31"/>primum advertendum est, posse nos loqui de
+          <lb ed="#P" n="32"/>praedestinatione quoad effectus ejus, vel quoad
+          <lb ed="#P" n="33"/>actum scientiae et voluntatis Dei, in quibus ipsa
+          <lb ed="#P" n="34"/>formaliter consistit. Priori modo dicendum est,
+          <lb ed="#P" n="35"/>unum effectum praedestinationis posse esse
+          <lb ed="#P" n="36"/>causam alterius, secundum omnia causarum
+          <lb ed="#P" n="37"/>genera, juxta exigentiam donorum seu rerum
+          <lb ed="#P" n="38"/>ipsarum quae per talem causalitatem 
+          conferun<lb break="no" ed="#P" n="39"/>tur. Probatur facile inductione, quia gloria,
+          <lb ed="#P" n="40"/>quae est ultimus praedestinationis effectus, est
+          <lb ed="#P" n="41"/>causa finalis aliorum effectuum: et justificatio
+          <lb ed="#P" n="42"/>est finis vocationis: at e contrario merita sunt
+          <lb ed="#P" n="43"/>causa suo modo efficiens glorificationis, et
+          <lb ed="#P" n="44"/>gratia est causa finalis justificationis ac 
+          remis<lb break="no" ed="#P" n="45"/>sionis peccatorum, et contritio, ut est dispositio
+          <lb ed="#P" n="46"/>ad justitiam, reducitur ad materialem causam,
+          <lb ed="#P" n="47"/>et sic de aliis: ergo in effectibus 
+          praedestinatio<lb break="no" ed="#P" n="48"/>nis omne genus causalitatis intervenit: ergo
+          <lb ed="#P" n="49"/>ex parte effectuum, praedestinatio habet 
+          effec<lb break="no" ed="#P" n="50"/>tus in omni genere causae. Ratio autem est,
+          <lb ed="#P" n="51"/>quia sicut ad naturales effectus concurrunt 
+          om<lb break="no" ed="#P" n="52"/>nia causarum genera, ita etiam ad effectus 
+          gra<lb break="no" ed="#P" n="53"/>tiae et gloriae. Et ideo, sicut Deus providit in
+          <lb ed="#P" n="54"/>naturae ordine effectus omnium causarum, et
+          <lb ed="#P" n="55"/>omnes causas necessarias ad effectus tales, ita
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in ordine gratiae similes effectus et causas cum
+          <lb ed="#P" n="57"/>proportione praeordinavit: omnia ergo illa sub
+          <lb ed="#P" n="58"/>praedestinationem cadunt: habet ergo 
+          praedes<lb break="no" ed="#P" n="59"/>tinatio effectus secundum omne genus causae.
+        </p>
+        <p xml:id="szduep-115924-d1e269">
+          <lb ed="#P" n="60"/>3. Circa alterum secunda assertio.— Objectio.
+          <lb ed="#P" n="61"/>—Auacluditur.— Circa posteriorem partem 
+          di<lb break="no" ed="#P" n="62"/>cendum est, praedestinationem, prout in Deo
+          <lb ed="#P" n="63"/>formaliter existit, esse causam suorum 
+          effec<lb break="no" ed="#P" n="64"/>tuum in genere causae efficientis. Probatur,
+          <lb ed="#P" n="65"/>quia Deus ipse est causa horum effectuum in
+          <lb ed="#P" n="66"/>genere efficientis primi ac praecipui: sed est
+          <lb ed="#P" n="67"/>talis causa per eos actus, per quos tales effectus
+          <lb ed="#P" n="68"/>praeordinat seu praedestinat : ergo illi actus sunt
+          <lb ed="#P" n="69"/>principium efficiens talium effectuum: at in
+          <lb ed="#P" n="70"/>illis actibus posita est praedestinatio: ergo. Item
+          <lb ed="#P" n="71"/>praedestinatio non est causa intrinseca, ut per
+          <lb ed="#P" n="72"/>se constat, ac proinde nec formalis, nec 
+          mate<lb break="no" ed="#P" n="73"/>rialis est. Ex causis vero extrinsecis, finalis non
+          <lb ed="#P" n="74"/>potest tribui praedestinationi, nam Deus non
+          <lb ed="#P" n="75"/>confert tales effectus, ut praedestinet illos seu
+          <lb ed="#P" n="76"/>propter praedestinationem ut propter finem:
+          <lb ed="#P" n="77"/>ergo solum relinquitur causa efficiens. Dices,
+          <lb ed="#P" n="78"/>etiam efficere Deum effectum praedestinatum,
+          <lb ed="#P" n="79"/>ut impleat voluntatem suam, et sub ea ratione
+          <lb ed="#P" n="80"/>habere rationem finis. Respondeo, impleri 
+          vo<lb break="no" ed="#P" n="81"/>luntatem Dei non pertinere ad 
+          praedestinatio<lb break="no" ed="#P" n="82"/>nem formalem, sed ad effectum 
+          praedestinatio<lb break="no" ed="#P" n="83"/>nis, et ita solum inde probari, 
+          praedestinatio<lb break="no" ed="#P" n="84"/>nem esse causam efticacem effectus 
+          praedesti<lb break="no" ed="#P" n="85"/>nati. Praeterquam quod ille finis videtur magis
+          <lb ed="#P" n="86"/>reflexus, quam directus, nisi reducatur ad
+          <lb ed="#P" n="87"/>generalem finem divinorum operum, qui est
+          <lb ed="#P" n="88"/>manifestatio et ostensiodivinae potentiae et 
+          alio<lb break="no" ed="#P" n="89"/>rum attributorum : ideo enim vult Deus 
+          prae<lb break="no" ed="#P" n="90"/>destinationem suam infallibiliter impleri, ut
+          <lb ed="#P" n="91"/>ejus potentia et bonitas ostendatur: haec autem
+          <lb ed="#P" n="92"/>ostensio praedestinationis effectus est, non ipsa
+          <lb ed="#P" n="93"/>praedestinatio. Non est ergo praedestinatio 
+          fi<lb break="no" ed="#P" n="94"/>nis, sed efficiens causa suorum effectuum.
+        </p>
+        <p xml:id="szduep-115924-d1e347">
+          <lb ed="#P" n="95"/>4. Proponitur quedam difficultas. — Ratio
+          <lb ed="#P" n="96"/>dulii. — Decisio. — Prior pars explanatur. —
+          <lb ed="#P" n="97"/>Dubitare autem potest aliquis, quomodo hoc
+          <lb ed="#P" n="98"/>conveniat voluntati praedefinienti actus liberos,
+          <lb ed="#P" n="99"/>vel effectus ab eis pendentes, ad quam diximus
+          <lb ed="#P" n="100"/>proprie pertinere praedestinationem, eamque
+          <lb ed="#P" n="101"/>a voluntate exequente distinximus. Estque 
+          du<lb break="no" ed="#P" n="102"/>bitandi ratio, quia efficere ad extra, pertinet
+          <lb ed="#P" n="103"/>ad voluntatem exequentem. Respondeo 
+          brevi<lb break="no" ed="#P" n="104"/>ter, utramque voluntatem ad completam 
+          prae<lb break="no" ed="#P" n="105"/>destinationem pertinere, et utramque habere
+          <lb ed="#P" n="106"/>suo modo causalitatem effectivam circa 
+          prae<lb break="no" ed="#P" n="107"/>destinationis effectus. Primum patet, quia licet
+          <lb ed="#P" n="108"/>praedestinatio inchoetur, nostro loquendi et
+          <lb ed="#P" n="109"/>intelligendi modo, a voluntate praedefiniente
+          <lb ed="#P" n="110"/>secundum ordinem intentionis, tamen etiam
+          <pb ed="#P" n="458"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aeternitate paratus est ad producendum 
+          infal<lb break="no" ed="#P" n="2"/>libiliter in tempore talem effectum, seu 
+          quan<lb break="no" ed="#P" n="3"/>tum est in se jam producit illum, quamvis
+          <lb ed="#P" n="4"/>productio ad extra in tempore incipiat.
+        </p>
+        <p xml:id="szduep-115924-d1e397">
+          <lb ed="#P" n="5"/>5. Posterior declaratur. — Secundum autem
+          <lb ed="#P" n="6"/>declaratur, quia in causalitate Dei effectiva 
+          in<lb break="no" ed="#P" n="7"/>telligere debemus, quidquid est perfectionis in
+          <lb ed="#P" n="8"/>causalitate physica, morali et artificiosa, quae
+          <lb ed="#P" n="9"/>omnes ad genus effticientiae spectant. Voluntas
+          <lb ed="#P" n="10"/>ergo exequens, quasi proxime applicat vel 
+          in<lb break="no" ed="#P" n="11"/>fluat causalitatem physicam. Voluntas autem
+          <lb ed="#P" n="12"/>praefiniens, quatenus intendit finem et eligit
+          <lb ed="#P" n="13"/>media, pertinet ad causalitatem moralem: quia
+          <lb ed="#P" n="14"/>(ut supra declaravi) haec voluntas requiritur ex
+          <lb ed="#P" n="15"/>parte operantis, ut convenienti modo operetur
+          <lb ed="#P" n="16"/>propter finem. Unde ex vi illius voluntatis 
+          se<lb break="no" ed="#P" n="17"/>quitur mediorum executio, quamvis magis 
+          re<lb break="no" ed="#P" n="18"/>mote seu mediate. Sicut in nobis, intentio finis
+          <lb ed="#P" n="19"/>habet quamdam efficaciam: etiam circa ipsam
+          <lb ed="#P" n="20"/>executionem, quatenus efficit electionem, et
+          <lb ed="#P" n="21"/>media electione progreditur usque ad usum.
+          <lb ed="#P" n="22"/>Denique artificiosa causalitas pertinet ad 
+          scien<lb break="no" ed="#P" n="23"/>tiam, ut applicatam per voluntatem, quam
+          <lb ed="#P" n="24"/>etiam diximus suo modo sub praedestinatione
+          <lb ed="#P" n="25"/>concludi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="559"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-141478"><!-- t3-l1c8 -->
+        <head xml:id="szduep-141478-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-141478-Hd1e103" type="question-title">Sit-ne actus intelligendi et amandi principium quo producendi, vel ipsa productio</head>
+        <p xml:id="szduep-141478-d1e106">
+          <lb ed="#P" n="32"/>CAPUT VIII.
+          <lb ed="#P" n="33"/>SIT-NE ACTUS INTELLIGENDI ET AMANDI PRINCIPIUM
+          <lb ed="#P" n="34"/>QUO PRODUCENDI, VEL IPSA PRODUCTIO.
+        </p>
+        <p xml:id="szduep-141478-d1e115">
+          <lb ed="#P" n="35"/>1. Prima opinio. —Haec erat alia difficultas
+          <lb ed="#P" n="36"/>et interrogatio a Durando proposita, cui 
+          bre<lb break="no" ed="#P" n="37"/>viter in hoc capite satisfaciendum et 
+          respon<lb break="no" ed="#P" n="38"/>dendum est. Duas enim in hoc puncto 
+          senten<lb break="no" ed="#P" n="39"/>tias invenio. Prior est, actum intelligendi vel
+          <lb ed="#P" n="40"/>amandi non posse esse principium quod 
+          pro<lb break="no" ed="#P" n="41"/>ductionis, sed productionem ipsam. Ita tenet
+          <lb ed="#P" n="42"/>Torres, dicto art. 5, p. 2 disputationis, quem
+          <lb ed="#P" n="43"/>sequuntur aliqui moderni. Primo, quia D. 
+          Au<lb break="no" ed="#P" n="44"/>gustinus, lib. 15, de Trinit., cap. 7 et 10, dicit
+          <lb ed="#P" n="45"/>verbum procedere ex memoria foecunda, 
+          me<lb break="no" ed="#P" n="46"/>moria autem solum dicit intellectum 
+          constitu<lb break="no" ed="#P" n="47"/>tum in actu primo, ergo ille, ut sic, est 
+          proxi<lb break="no" ed="#P" n="48"/>mum principium, ergo non quatenus est jam
+          <lb ed="#P" n="49"/>constitutus in actu secundo, per ipsum 
+          intel<lb break="no" ed="#P" n="50"/>ligere. Secundo nam philosophamur de 
+          produc<lb break="no" ed="#P" n="51"/>üone divina per comparationem ad nostras
+          <lb ed="#P" n="52"/>productiones, sed in nobis principium produ-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cendi verbum non est intellectio, sed species,
+          <lb ed="#P" n="54"/>seu actus primus, ergo et in Patre. Tertio, quia
+          <lb ed="#P" n="55"/>alias post actum intelligendi paternum 
+          intelli<lb break="no" ed="#P" n="56"/>gendus esset alius, qui esset per modum 
+          actio<lb break="no" ed="#P" n="57"/>nis, seu productionis, cujus principium esset
+          <lb ed="#P" n="58"/>actus intelligendi, hoc autem esse non potest,
+          <lb ed="#P" n="59"/>ergo. Sequela patet, quia inter principium
+          <lb ed="#P" n="60"/>agendi et terminum mediat actio. Minor 
+          pa<lb break="no" ed="#P" n="61"/>tet, quia vel illa actio est intellectio, vel non.
+          <lb ed="#P" n="62"/>Primum dici non potest, alias intellectio esset
+          <lb ed="#P" n="63"/>principium intellectionis, et sic vel esset duplex
+          <lb ed="#P" n="64"/>intellectio, vel esset principium sui ipsius. Si
+          <lb ed="#P" n="65"/>vero secundum dicatur, sequitur, non produci
+          <lb ed="#P" n="66"/>verbum per actionem, quae sit intellectio.
+        </p>
+        <p xml:id="szduep-141478-d1e189">
+          <lb ed="#P" n="67"/>2. Altera opinio Henrici.—Contrariam 
+          sen<lb break="no" ed="#P" n="68"/>tentiam docuit Henricus, quodlib. 6, queest. 1.
+          <lb ed="#P" n="69"/>Cujus opinio quoad hanc partem mihi maxime
+          <lb ed="#P" n="70"/>placet. Censeo itaque optime dici, ipsum 
+          ac<lb break="no" ed="#P" n="71"/>tum intelligendi paternum esse proximam 
+          ra<lb break="no" ed="#P" n="72"/>tionem et quasi virtutem, per quam Pater
+          <lb ed="#P" n="73"/>communicat Filio suo essentiam. Et idem dico
+          <lb ed="#P" n="74"/>de actu amandi in Patre et Filio per 
+          compara<lb break="no" ed="#P" n="75"/>tionem ad Spiritum sanctum. Quod probo 
+          pri<lb break="no" ed="#P" n="76"/>mo supponendo essentiam divinam (ut D. 
+          Tho<lb break="no" ed="#P" n="77"/>mas vult) esse potentiam generandi, quatenus
+          <lb ed="#P" n="78"/>est in patre. Quod ex sententia communi ita
+          <lb ed="#P" n="79"/>est intelligendum, ut essentia, quatenus 
+          essen<lb break="no" ed="#P" n="80"/>tia, sit radicale principium et quatenus 
+          intel<lb break="no" ed="#P" n="81"/>lectus, sit principium proximum. Hinc ergo
+          <lb ed="#P" n="82"/>argumentor. Nam intellectus divinus per se
+          <lb ed="#P" n="83"/>ipsum et essentialiter est actus ultimus 
+          intel<lb break="no" ed="#P" n="84"/>ligendi, ita ut in Deo non tam sit intellectus,
+          <lb ed="#P" n="85"/>quam ipsum intelligere, quia intellectus dicit
+          <lb ed="#P" n="86"/>potentiam, intelligere autem dicit actum : ergo
+          <lb ed="#P" n="87"/>si intellectus est principium proximum a 
+          for<lb break="no" ed="#P" n="88"/>tiori ipsum intelhgere.
+        </p>
+        <p xml:id="szduep-141478-d1e240">
+          <lb ed="#P" n="89"/>3. Ad argumentum primae opinionis. — 
+          Se<lb break="no" ed="#P" n="90"/>cundo declaratur ex differentia supra insinuata
+          <lb ed="#P" n="91"/>inter Verbum divinum et humanum, quod 
+          hu<lb break="no" ed="#P" n="92"/>manum ad hoc producitur, ut constituat 
+          pro<lb break="no" ed="#P" n="93"/>ducentem in actu secundo intelligendi : 
+          Ver<lb break="no" ed="#P" n="94"/>bum autem divinum non producitur, ut 
+          con<lb break="no" ed="#P" n="95"/>stituat Patrem intelligentem, ut recte probat
+          <lb ed="#P" n="96"/>Augustinus loco de Trinitate proxime citato.
+          <lb ed="#P" n="97"/>Quia Pater non producit ex indigentia, sed ex
+          <lb ed="#P" n="98"/>abundantia et foecunditate, nec recipit aliquid
+          <lb ed="#P" n="99"/>a Filio. Hinc ergo est, ut principium quo Verbi
+          <lb ed="#P" n="100"/>humani sit actus primus, scilicet, species, 
+          res<lb break="no" ed="#P" n="101"/>pectu autem Verbi divini sit ipsemet actus 
+          in<lb break="no" ed="#P" n="102"/>telligendi. Nam ut recte Augustinus supra 
+          con<lb break="no" ed="#P" n="103"/>cludit : Verbumn Dei est sapientia genita ex
+          <lb ed="#P" n="104"/>sapientia generante, ita ut illa abstracta pro
+          <lb ed="#P" n="105"/>concretis, seu personis sumantur. Ergo Pater,
+          <lb ed="#P" n="106"/>quatenus infinite sapiens producit Verbum 
+          ea<lb break="no" ed="#P" n="107"/>dem infinita sapientia sapiens : ergo ipsamet
+          <pb ed="#P" n="560"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sapientia Dei, quae nihil aliud est, quod actus
+          <lb ed="#P" n="2"/>intelligendi ejus, est proxima ratio illius 
+          com<lb break="no" ed="#P" n="3"/>municationis. Tertio denique quia non potest
+          <lb ed="#P" n="4"/>recte intelligi (maxime juxta opinionem 
+          eo<lb break="no" ed="#P" n="5"/>rumdem Thomistarum) actum intelligendi esse
+          <lb ed="#P" n="6"/>per modum actionis, ergo debet intelligi per
+          <lb ed="#P" n="7"/>modum principii, quia non potest cogitari 
+          ter<lb break="no" ed="#P" n="8"/>tium membrum, ut recte colligit Durandus. 
+          An<lb break="no" ed="#P" n="9"/>tecedens declarabitur melius et probabitur 
+          res<lb break="no" ed="#P" n="10"/>pondendo ad argumenta.
+        </p>
+        <p xml:id="szduep-141478-d1e310">
+          <lb ed="#P" n="11"/>4. Ad primum ergo ex Augustino imprimis
+          <lb ed="#P" n="12"/>respondeo ibi magis loqui de intellectuhumano,
+          <lb ed="#P" n="13"/>quam de divino. Et quamvis declaret virtutem
+          <lb ed="#P" n="14"/>Patris ad generandum per analogiam ad 
+          memo<lb break="no" ed="#P" n="15"/>riam hominis foecundam, non est necesse, ut
+          <lb ed="#P" n="16"/>comparatio teneat in omnibus et in his 
+          praeser<lb break="no" ed="#P" n="17"/>tim, quae involvunt imperfectionem, hujusmodi
+          <lb ed="#P" n="18"/>autem est, quod memoria humana intelligatur
+          <lb ed="#P" n="19"/>foecunda, quatenus est in actu primo, et non
+          <lb ed="#P" n="20"/>quatenus jam est in actu secundo. Unde dico
+          <lb ed="#P" n="21"/>adulterius, intellectum, seu memoriam aeterni
+          <lb ed="#P" n="22"/>Patris, etiam prout a nobis concipitur in actu
+          <lb ed="#P" n="23"/>primo esse foecundam : non tamen uno solo
+          <lb ed="#P" n="24"/>modo, sed quodammodo duobus. Nam primo
+          <lb ed="#P" n="25"/>est foecunda ad actum intelligendi quasi 
+          pro<lb break="no" ed="#P" n="26"/>ducendum, (ut loquitur Scotus) quia ut supra
+          <lb ed="#P" n="27"/>dixi, illum non reahter producit, sed a nobis
+          <lb ed="#P" n="28"/>concipitur, ac si produceret. Eadem vero 
+          me<lb break="no" ed="#P" n="29"/>moria jam formata illo actu adhuc est 
+          foecun<lb break="no" ed="#P" n="30"/>da, ut sit principium, quo realiter producitur
+          <lb ed="#P" n="31"/>verbum, quia, ut saepe dixi, illud verbum non
+          <lb ed="#P" n="32"/>producitur ad intelligendum, sed ex 
+          intelli<lb break="no" ed="#P" n="33"/>gentia (ut sic dicam). Unde jam patet 
+          respon<lb break="no" ed="#P" n="34"/>sio ad 2. In hoc enim non est servanda 
+          simili<lb break="no" ed="#P" n="35"/>tudo inter productionem verbi humani, et 
+          divi<lb break="no" ed="#P" n="36"/>na, propter rationem dictam.
+        </p>
+        <p xml:id="szduep-141478-d1e369">
+          <lb ed="#P" n="37"/>5. Processio ad antra non est actio. — Ad
+          <lb ed="#P" n="38"/>tertium, primo assero, in his productionibus
+          <lb ed="#P" n="39"/>divinis non intervenire veras et proprias
+          <lb ed="#P" n="40"/>actiones, ut recte sentit D. Thomas, 1 part.,
+          <lb ed="#P" n="41"/>quaest. 41, art. 1, ad argumenta, et infra ex
+          <lb ed="#P" n="42"/>proposito declarabitur. Quia actio in suo 
+          con<lb break="no" ed="#P" n="43"/>ceptu et ratione formali includit 
+          imperfectio<lb break="no" ed="#P" n="44"/>nem et rationem dependentiae, ut ex 
+          Metaphy<lb break="no" ed="#P" n="45"/>sica etiam suppono, et ita non potest attribui
+          <lb ed="#P" n="46"/>cum proprietate divinis personis. Ex quo facile
+          <lb ed="#P" n="47"/>respondetur ad argumentum, negando 
+          seque<lb break="no" ed="#P" n="48"/>lam : nam cum producitur Verbum divinum,
+          <lb ed="#P" n="49"/>verbi gratia, non mediat actio inter proximum
+          <lb ed="#P" n="50"/>principium quo et terminum, et ideo cum 
+          di<lb break="no" ed="#P" n="51"/>citur Verbum illud procedere per 
+          intellectio<lb break="no" ed="#P" n="52"/>nem necessario videtur intelligendum tanquam
+          <lb ed="#P" n="53"/>per principium quo. In hoc autem comparatur
+          <lb ed="#P" n="54"/>et assimilatur verbo humano, quod sicut inter
+          <lb ed="#P" n="55"/>actionem intelligendi et verbum hominis nihil
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mediat, ita neque inter actum intelligendi
+          <lb ed="#P" n="57"/>eeterni Patris, et Verbum divinum, et quoad
+          <lb ed="#P" n="58"/>ad modum actionis. Sicut Thomistae aiunt, 
+          <lb ed="#P" n="59"/>volitionem creandi Dei, esse ipsam actionem
+          <lb ed="#P" n="60"/>creandi , quia non putant aliam actionem
+          <lb ed="#P" n="61"/>creandi mediate inter terminum et illam 
+          voli<lb break="no" ed="#P" n="62"/>tionem. 
+        </p>
+        <p xml:id="szduep-141478-d1e430">
+          <lb ed="#P" n="63"/>6. Addo vero ulterius, si praeter illum actum
+          <lb ed="#P" n="64"/>intelligendi, aliquid potest a nobis intelligi per
+          <lb ed="#P" n="65"/>modum actionis ad intra solum esse illam,
+          <lb ed="#P" n="66"/>quam theologi vocant originem activam, ut
+          <lb ed="#P" n="67"/>est respectu Filii generatio, de qua, quid 
+          for<lb break="no" ed="#P" n="68"/>maliter et realiter sit, infra dicturi sumus.
+          <lb ed="#P" n="69"/>Iidem tamen auctores, cum quibus disputamus,
+          <lb ed="#P" n="70"/>fatentur, illam originem solum esse posse 
+          re<lb break="no" ed="#P" n="71"/>lationem personae producentis, vel, ut alii 
+          vo<lb break="no" ed="#P" n="72"/>lunt, relationem personae productae, quatenus
+          <lb ed="#P" n="73"/>intelligitur ut fluens a producente, quidquic
+          <lb ed="#P" n="74"/>autem horum dicatur, constat actum 
+          intelli<lb break="no" ed="#P" n="75"/>gendi non esse ipsam originem activam, quoc
+          <lb ed="#P" n="76"/>et adversarii fatentur, et ex dictis ostendi 
+          po<lb break="no" ed="#P" n="77"/>test, quia actus intelligendi non est relatio, nec
+          <lb ed="#P" n="78"/>in fieri, nec in facto esse, ergo actus 
+          intelli<lb break="no" ed="#P" n="79"/>gendi non est ipsa productio, vel actio, quali:
+          <lb ed="#P" n="80"/>in Deo cogitari potest, est ergo principium quc
+          <lb ed="#P" n="81"/>talis productionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

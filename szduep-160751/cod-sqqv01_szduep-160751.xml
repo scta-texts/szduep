@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="635"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-160751"><!-- t3-l4c9 -->
+        <head xml:id="szduep-160751-Hd1e101">Caput 9</head>
+        <head xml:id="szduep-160751-Hd1e103" type="question-title">Tres divinas personas habere eamdem perfectam unitatem in omnibus attributis divinis</head>
+        <p xml:id="szduep-160751-d1e106">
+          <lb ed="#P" n="77"/>CAPUT IX.
+          <lb ed="#P" n="78"/>TRES DIVINAS PERSONAS HABERE EAMDEM 
+          PERFEC<lb break="no" ed="#P" n="79"/>TAM UNITATEM IN OMNIBUS ATTRIBUTIS DIVINIS.
+        </p>
+        <p xml:id="szduep-160751-d1e115">
+          <lb ed="#P" n="80"/>1. Haec veritas resoluta fere est, in libro
+          <lb ed="#P" n="81"/>praecedenti: nam declarando, quae praedicata
+          <lb ed="#P" n="82"/>multiplicentur in divinis personis, diximus haec
+          <lb ed="#P" n="83"/>non multiplicari. Unde sequitur habere in eis
+          <lb ed="#P" n="84"/>illam unitatem, et praesertim propter quumdam
+          <lb ed="#P" n="85"/>difficultatem de omnipotentia, illam 
+          proponi<lb break="no" ed="#P" n="86"/>mus.
+        </p>
+        <p xml:id="szduep-160751-d1e133">
+          <lb ed="#P" n="87"/>2. Dicimus ergo primo. Omnes divinas 
+          per<lb break="no" ed="#P" n="88"/>sonas habere omnia et eadem numero 
+          attri<lb break="no" ed="#P" n="89"/>buta, quae Divinitati seu Deo conveniunt. Haec
+          <lb ed="#P" n="90"/>assertio est de fide, et ex Scriptura sumitur ex
+          <lb ed="#P" n="91"/>eisdem locis, quibus probatur divinitas 
+          perso<lb break="no" ed="#P" n="92"/>narum. In Conciliis vero expresse traditur in
+          <lb ed="#P" n="93"/>Lateranense, in capite Firmilter et capite 
+          Dam<lb break="no" ed="#P" n="94"/>namus, et in Toletanis, 6 et 11, in Confessione
+          <lb ed="#P" n="95"/>fidei, et in Concilio Ephesino, tom. 5, cap. 22,
+          <lb ed="#P" n="96"/>ubi sic habetur: Quelibet personarum Deus
+          <lb ed="#P" n="97"/>perfectus est, id est, omnibus proprietatibus
+          <lb ed="#P" n="98"/>Deitatis ornata esse noscitur et creditur. Ex
+          <lb ed="#P" n="99"/>Patribus etiam omnes saepe citati, maxime 
+          Da<lb break="no" ed="#P" n="100"/>mascenus, lib. 1, de Fide, cap. 8 et 
+          sequenti<lb break="no" ed="#P" n="101"/>bus, Richardus de Sancto Victore, lib. 1, de
+          <lb ed="#P" n="102"/>Trinitate, cap. 11, et lib. 3, cap. 22. Sic etiam
+          <lb ed="#P" n="103"/>dicit Ambrosius, lib. 1, de Fide, cap. 2: Unitas
+          <lb ed="#P" n="104"/>potestatis excludit numeri quantitatem. Quod
+          <lb ed="#P" n="105"/>idem proportionaliter dici potest de quolibet
+          <lb ed="#P" n="106"/>attributo. Denique hoc concludi potest ex 
+          dic<lb break="no" ed="#P" n="107"/>tis de unitate Divinitatis, nam una Divinitas
+          <pb ed="#P" n="636"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>unum habet intellectum, unam voluntatem, et
+          <lb ed="#P" n="2"/>sic de aliis attributis: ergo quae habent 
+          unita<lb break="no" ed="#P" n="3"/>tem numericam in Divinitate, eamdem 
+          neces<lb break="no" ed="#P" n="4"/>sario habent in omnibus attributis. Deinde, hic
+          <lb ed="#P" n="5"/>valet locus argumentandi ab unitate in tertio,
+          <lb ed="#P" n="6"/>a unitatem inter se, ut in divinis 
+          argumenta<lb break="no" ed="#P" n="7"/>tur etiam aliquando D. Thomas, 2, contra
+          <lb ed="#P" n="8"/>Gentes, cap. 9. Quia haec attributa non habent
+          <lb ed="#P" n="9"/>inter se oppositionem, et ideo adaequate 
+          iden<lb break="no" ed="#P" n="10"/>üficantur Divinitati, ac subinde etiam idem
+          <lb ed="#P" n="11"/>sunt cum omni illo, cum quo identificatur 
+          Di<lb break="no" ed="#P" n="12"/>vinitas.
+        </p>
+        <p xml:id="szduep-160751-d1e212">
+          <lb ed="#P" n="13"/>3. Secundo dicendum est, omnia haec 
+          attri<lb break="no" ed="#P" n="14"/>buta esse de essentia singularum personarum
+          <lb ed="#P" n="15"/>et relationum, licet relationes non sint 
+          essen<lb break="no" ed="#P" n="16"/>tiales illis. Haec assertio sequitur ex dictis, et
+          <lb ed="#P" n="17"/>cum eadem proportione est intelligenda, nam
+          <lb ed="#P" n="18"/>omnia praedicata, quae realiter intrinsece, ac
+          <lb ed="#P" n="19"/>necessario dicuntur de divinis personis, aut
+          <lb ed="#P" n="20"/>notionalia sunt aut essentialia. Quod hic 
+          an<lb break="no" ed="#P" n="21"/>notare volui, ut intelligatur, quam sit falsa
+          <lb ed="#P" n="22"/>sententia eorum qui negant haec attributa esse
+          <lb ed="#P" n="23"/>de essentia Divinitatis seu Dei, ut Deus est.
+          <lb ed="#P" n="24"/>Namssi sunt de essentia personarum, necessario
+          <lb ed="#P" n="25"/>erunt de essentia Dei, vel fingere necesse est
+          <lb ed="#P" n="26"/>alium ordinem in hujusmodi praedicatis divinis,
+          <lb ed="#P" n="27"/>praeter notionalem et essentialem, contra 
+          om<lb break="no" ed="#P" n="28"/>nes probatos theologos et contra modum 
+          lo<lb break="no" ed="#P" n="29"/>quendi Patrum et Conciliorum, et contra 
+          ra<lb break="no" ed="#P" n="30"/>tionem: quia quidquid non est de essentia vel
+          <lb ed="#P" n="31"/>de persona, accidentale est. Sed de hoc latius
+          <lb ed="#P" n="32"/>alibi, et videri possunt quae dixi in disputatione
+          <lb ed="#P" n="33"/>Metaphysicae.
+        </p>
+        <p xml:id="szduep-160751-d1e260">
+          <lb ed="#P" n="34"/>4. Primum dubium de esse improducto. —
+          <lb ed="#P" n="35"/>Tres vero difficultates occurrunt. Prima est de
+          <lb ed="#P" n="36"/>hoc attributo : Esseomnino improductum, quod
+          <lb ed="#P" n="37"/>convenit Deitati, seu huic Deo, ut sic et in illo
+          <lb ed="#P" n="38"/>non conveniunt omnes personae, imo nulli
+          <lb ed="#P" n="39"/>convenit, nisi soli Patri, et tamen est 
+          attribu<lb break="no" ed="#P" n="40"/>tum essentiale, cum conveniat Deo ratione
+          <lb ed="#P" n="41"/>Deitatis. Et hinc etiam dubitari potest de 
+          at<lb break="no" ed="#P" n="42"/>tributo aeternitatis : nam licet conveniat 
+          om<lb break="no" ed="#P" n="43"/>nibus personis, quatenus dicit durationem sine
+          <lb ed="#P" n="44"/>principio, vel mutatione: tamen quatenus 
+          di<lb break="no" ed="#P" n="45"/>cit necessitatem essendi, non videtur 
+          conve<lb break="no" ed="#P" n="46"/>nire personis omnibus eo modo, quo convenit
+          <lb ed="#P" n="47"/>huic Deo: nam Deo convenit a se et sine 
+          pro<lb break="no" ed="#P" n="48"/>ductione, non vero personis omnibus.
+        </p>
+        <p xml:id="szduep-160751-d1e295">
+          <lb ed="#P" n="49"/>5. Haec difficultas facilem habet solutionem:
+          <lb ed="#P" n="50"/>ita enim de illo attributo improductum, 
+          qua<lb break="no" ed="#P" n="51"/>tenus absolutum est, judicandum est, sicut in
+          <lb ed="#P" n="52"/>praecedenti capite dixi de attributo 
+          communi<lb break="no" ed="#P" n="53"/>cabilitatis. Nam esse improductum, sicut 
+          con<lb break="no" ed="#P" n="54"/>venit Deo, in quantum Deus est, seu Deitati,
+          <lb ed="#P" n="55"/>ita etiam omnibus personis convenit habere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>esse essentiale, omnino improductum. Quia
+          <lb ed="#P" n="57"/>licet Filius et Spiritus sanctus habeant illud
+          <lb ed="#P" n="58"/>esse communicatum per productionem 
+          perso<lb break="no" ed="#P" n="59"/>nae: ipsum tamen esse, vel divinitas ipsa non
+          <lb ed="#P" n="60"/>producitur. Non pertinet autem ad attributum
+          <lb ed="#P" n="61"/>essentiale Dei, quod sit persona improdueta:
+          <lb ed="#P" n="62"/>imo quamvis hoc Patri conveniat, non est ex
+          <lb ed="#P" n="63"/>vi solius Deitatis, sed ratione suae proprietatis,
+          <lb ed="#P" n="64"/>ut infra videbimus. Unde etiam facile constat,
+          <lb ed="#P" n="65"/>eeternitatem (ut supra etiam tetigei), esse 
+          eam<lb break="no" ed="#P" n="66"/>dem et ejusdem rationis in omnibus personis,
+          <lb ed="#P" n="67"/>quia convenit illis ratione ejusdem esse per
+          <lb ed="#P" n="68"/>essentiam, in omnibus existentis et cum aequali
+          <lb ed="#P" n="69"/>necessitate. Nam hcet Pater sit a se, et Filius
+          <lb ed="#P" n="70"/>a Patre, tam necessario habet illud esse Filius,
+          <lb ed="#P" n="71"/>sicut Pater, et Pater ipse tam necessario 
+          gene<lb break="no" ed="#P" n="72"/>rat, sicut est. Unde sola superest diversitas in
+          <lb ed="#P" n="73"/>modo habendi illud esse, qui solum est modus
+          <lb ed="#P" n="74"/>originis , seu relationis.
+        </p>
+        <p xml:id="szduep-160751-d1e356">
+          <lb ed="#P" n="75"/>6. Secundum dubium de apgmopriatis 
+          attri<lb break="no" ed="#P" n="76"/>butis. —Secunda difficultas est, quia quaedam
+          <lb ed="#P" n="77"/>praedicata absoluta tribuuntur singulis 
+          perso<lb break="no" ed="#P" n="78"/>nis, tanquam propria illarum, ut Filio, 
+          Sa<lb break="no" ed="#P" n="79"/>pientia et veritas, Spiritui sancto Amor et 
+          Bo<lb break="no" ed="#P" n="80"/>nitas, Patri Dominatio, auctoritas, etc. Hane
+          <lb ed="#P" n="81"/>difficultatem propono, ut attingam verbum
+          <lb ed="#P" n="82"/>unum de appropriatione attributorum. Non
+          <lb ed="#P" n="83"/>enim defuerunt haeretici, qui dixerint, haec
+          <lb ed="#P" n="84"/>attributa, vel omnia, vel aliqua non esse 
+          tan<lb break="no" ed="#P" n="85"/>tum appropriata, sed etiam propria 
+          persona<lb break="no" ed="#P" n="86"/>rum, ut colligitur ex Bernardo, Epist. 190. Est
+          <lb ed="#P" n="87"/>tamen manifesta haeresis, ut ipse ibi 
+          prose<lb break="no" ed="#P" n="88"/>quitur et ex dictis satis constat. Dicendum 
+          er<lb break="no" ed="#P" n="89"/>go est, quamvis attributa omnia sint 
+          commu<lb break="no" ed="#P" n="90"/>nia, tamen a doctoribus sanctis, quaedam 
+          ac<lb break="no" ed="#P" n="91"/>commodari uni personae et alia alis, propter
+          <lb ed="#P" n="92"/>majorem quamdam afftinitatem ad 
+          proprieta<lb break="no" ed="#P" n="93"/>tes personales earum, ut illas nobis magis 
+          ex<lb break="no" ed="#P" n="94"/>plicent. Ut Magister et doctores late tractant
+          <lb ed="#P" n="95"/>in dist. 31 et 32, et melius, ac copiosius divus
+          <lb ed="#P" n="96"/>Thomas, 1 part., quaest. 39, art. 1 et 8, ubi
+          <lb ed="#P" n="97"/>affert Patres et omnia, quae necessaria sunt.
+          <lb ed="#P" n="98"/>Tertia difficultas est gravior, et ideo 
+          expedie<lb break="no" ed="#P" n="99"/>tur commodius in capite sequenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="521"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-132112"><!-- t2-l6c1 -->
+        <head xml:id="szduep-132112-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-132112-Hd1e103" type="question-title">Utrum praedestinatus semper in hac vita recipiat majora dona gratiae, quam reprobus</head>
+        <p xml:id="szduep-132112-d1e106">
+          <lb ed="#P" n="5"/>CAPUT I.
+          <lb ed="#P" n="6"/>UTRUM PRAEDESTINATUS SEMPER IN HAC VITA 
+          RECI<lb break="no" ed="#P" n="7"/>PIAT MAJORA DONA GRATIAE, QUAM REPROBUS.
+        </p>
+        <p xml:id="szduep-132112-d1e115">
+          <lb ed="#P" n="8"/>1. Dubitandi ratio. — Ratio dubitandi est,
+          <lb ed="#P" n="9"/>quia dona gratiae aut sunt gratia sanctificans
+          <lb ed="#P" n="10"/>cum habitibus infusis, aut actus virtutum 
+          per<lb break="no" ed="#P" n="11"/>tinentes ad gratiam cooperantem, vel 
+          voca<lb break="no" ed="#P" n="12"/>tiones, et auxilia gratiae operantis. In his 
+          au<lb break="no" ed="#P" n="13"/>tem omnibus interdum videntur excedere 
+          re<lb break="no" ed="#P" n="14"/>probi praedestinatos. Primum patet, quia 
+          in<lb break="no" ed="#P" n="15"/>terdum reprobus consequitur in hac vita 
+          ma<lb break="no" ed="#P" n="16"/>jorem sanctitatem pro aliquo tempore, quam
+          <lb ed="#P" n="17"/>praedestinatus in tota vita. Quod patebit facile
+          <lb ed="#P" n="18"/>conferendo adultum aliquo tempore vitae 
+          sanc<lb break="no" ed="#P" n="19"/>te operantem, et postea in peccato morientem,
+          <lb ed="#P" n="20"/>cum infante baptizato, et cum sola gratia 
+          bap<lb break="no" ed="#P" n="21"/>tismali mortuo. Unde idem est evidens de 
+          ac<lb break="no" ed="#P" n="22"/>tibus bonis: nam interdum aliquis salvatur
+          <lb ed="#P" n="23"/>cum una tantum contritione, vel attritione,
+          <lb ed="#P" n="24"/>alii vero damnantur, quia saepius, et multos
+          <lb ed="#P" n="25"/>vitae tempore insignes actus virtutum operati
+          <lb ed="#P" n="26"/>sunt. Ex quo etiam constat, idem dicendum
+          <lb ed="#P" n="27"/>esse de auxiliis operantis gratiae : tum quia illi
+          <lb ed="#P" n="28"/>actus ab hujusmodi auxiliis procedunt : tum
+          <lb ed="#P" n="29"/>etiam quia reprobi interdum efficaciter 
+          vocan<lb break="no" ed="#P" n="30"/>tur ad statum perfectionis, verbi gratia, ad
+          <lb ed="#P" n="31"/>quem praedestinatus non vocatur: ergo, etc.
+          <lb ed="#P" n="32"/>Propter quod hanc partem absolute affirmare
+          <lb ed="#P" n="33"/>videntur Sotus, 1, de Nat. et Grat., cap. 16,
+          <lb ed="#P" n="34"/>Vega, lib. 6, in Tridentin., cap. 9. Et maxime
+          <lb ed="#P" n="35"/>hoc sentiunt, qui putant dari causam 
+          praedes<lb break="no" ed="#P" n="36"/>tinationis, vel aliquos non praeelectos salvari,
+          <lb ed="#P" n="37"/>praecipue illi, qui simul negant conditionatam
+          <lb ed="#P" n="38"/>praescientiam, et physicam 
+          praedeterminatio<lb break="no" ed="#P" n="39"/>nem non admittunt.
+        </p>
+        <p xml:id="szduep-132112-d1e187">
+          <lb ed="#P" n="40"/>2. In contrarium ratio. — In contrarium
+          <lb ed="#P" n="41"/>vero est, quia prima ratio in ordine 
+          executio<lb break="no" ed="#P" n="42"/>nis, propter quam hic salvatur, et non ille,
+          <lb ed="#P" n="43"/>est, quia DEUS huic praestare voluit specialem
+          <lb ed="#P" n="44"/>misericordiam, et non alteri, juxta illud : 
+          Cu<lb break="no" ed="#P" n="45"/>us vult miseretur, et quem vult, indurat, ad
+          <lb ed="#P" n="46"/>hom. 9. Haec autem misericordia consistit in
+          <lb ed="#P" n="47"/>collatione alicujus specialis gratiae, obduratio
+          <lb ed="#P" n="48"/>vero in negatione similis gratiae, ut docuit
+          <lb ed="#P" n="49"/>Augustinus 1, ad Simplicianum , quaestione
+          <lb ed="#P" n="50"/>secunda. Ergo praedestinatus, et reprobus 
+          sem<lb break="no" ed="#P" n="51"/>per sunt ita impares, ut praedestinatus excedat
+          <lb ed="#P" n="52"/>n speciali dono gratiae. Hic autem excessus in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>duobus consistere videtur. Unum est, quia
+          <lb ed="#P" n="54"/>praedestinati voluntas quodam speciali modo
+          <lb ed="#P" n="55"/>praeparatur quo non praeparatur voluntas 
+          re<lb break="no" ed="#P" n="56"/>probi, ut late Augustinus de Praedestinat.
+          <lb ed="#P" n="57"/>Sanctor., cap. 6, 8, 10 et 16, et saepe alias.
+          <lb ed="#P" n="58"/>Prosper, libro secundo, de Vocatione Gentium,
+          <lb ed="#P" n="59"/>c. 8, alias 23, et ad Genuenses, responsione 3,
+          <lb ed="#P" n="60"/>et ad Gallos, responsione 5. Idem sentit 
+          Grego<lb break="no" ed="#P" n="61"/>rius, homil. 30, in Evangelia. Aliud est 
+          perse<lb break="no" ed="#P" n="62"/>verantiae donum, quod praedestinato datur,
+          <lb ed="#P" n="63"/>non vero reprobo : est autem illud speciale
+          <lb ed="#P" n="64"/>donum gratiae, ut late Augustinus, toto libro
+          <lb ed="#P" n="65"/>de Bono persever. Et docuit Innocentius, 1,
+          <lb ed="#P" n="66"/>Epist. 94, inter Epistolas Augustini, et 
+          Coeles<lb break="no" ed="#P" n="67"/>tinus, Epist. ad Episcopos Galliae, cap. 7, et
+          <lb ed="#P" n="68"/>tandem Concilium Tridentinum, sess. 6. 
+          Prop<lb break="no" ed="#P" n="69"/>ter quae alii moderni theologi partem hanc
+          <lb ed="#P" n="70"/>etiam esse censent.
+        </p>
+        <p xml:id="szduep-132112-d1e260">
+          <lb ed="#P" n="71"/>3. Ut veram resolutionem hujus quaestionis
+          <lb ed="#P" n="72"/>breviter tradamus, oportet distinguere ea, quae
+          <lb ed="#P" n="73"/>per se, ac necessario sequuntur ex 
+          praedesti<lb break="no" ed="#P" n="74"/>natione, ab iis, quae sunt quodammodo per
+          <lb ed="#P" n="75"/>accidens, quatenus non sequuntur ex ratione
+          <lb ed="#P" n="76"/>praedestinationis ut sic. Quia nimirum, licet
+          <lb ed="#P" n="77"/>ex hac, vel illa praedestinatione magis, vel
+          <lb ed="#P" n="78"/>minus perfecta sequi possint, per se tamen ad
+          <lb ed="#P" n="79"/>praedestinationem ut sic necessaria non sunt.
+          <lb ed="#P" n="80"/>Prioris generis sunt justificatio aliqua (sub qua
+          <lb ed="#P" n="81"/>comprehendo aliam vocationem efficacem,
+          <lb ed="#P" n="82"/>quatenus ad justitiam fuerit necessaria) et
+          <lb ed="#P" n="83"/>perseverantia usque ad mortem in justitia :
+          <lb ed="#P" n="84"/>nam haec duo suffticiunt, ut praedestinatio 
+          com<lb break="no" ed="#P" n="85"/>pleatur. Posterioris generis sunt abundantiora
+          <lb ed="#P" n="86"/>dona gratiae, sive habitualis, sive actualis,
+          <lb ed="#P" n="87"/>quia sine his potest praedestinatus salvari, nisi
+          <lb ed="#P" n="88"/>fuerit adeo excellens terminus 
+          praedestinatio<lb break="no" ed="#P" n="89"/>nis ejus, ut his omnibus indigeat. Comparatio
+          <lb ed="#P" n="90"/>ergo ut sit doctrinalis, et possit sub scientiam
+          <lb ed="#P" n="91"/>cadere, debet fieri in his, quae sunt per se,
+          <lb ed="#P" n="92"/>nam in his, quae sunt per accidens. potest esse
+          <lb ed="#P" n="93"/>magna varietas.
+        </p>
+        <p xml:id="szduep-132112-d1e312">
+          <lb ed="#P" n="94"/>4. Prima conclusio. — Unde imprimis 
+          di<lb break="no" ed="#P" n="95"/>cendum est, in posterioribus donis gratiae posse
+          <lb ed="#P" n="96"/>reprobum superare multos praedestinatos. Hoc
+          <lb ed="#P" n="97"/>probat discursus primo loco in ratione 
+          dubi<lb break="no" ed="#P" n="98"/>tandi positus. Et praeterea probatur inductione.
+          <lb ed="#P" n="99"/>Nam Lucifer in majori gratia creatus fuit,
+          <lb ed="#P" n="100"/>quam ullus sanctorum angelorum. In 
+          homini<lb break="no" ed="#P" n="101"/>bus etiam est per se clarum. Ratio vero est
+          <lb ed="#P" n="102"/>jam tacta, quia cum illa dona non sint 
+          neces<lb break="no" ed="#P" n="103"/>saria in illa abundantia, et perfectione ad 
+          prae<lb break="no" ed="#P" n="104"/>destinationem ut sic, non est necesse dari
+          <lb ed="#P" n="105"/>omnibus praedestinatis : et cum alias sola non
+          <lb ed="#P" n="106"/>sufficiant ad salutem aeternam sine 
+          perseve<lb break="no" ed="#P" n="107"/>rantia, possunt pro Dei arbitrio communicar;
+          <pb ed="#P" n="522"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>reprobis : nam licet illi absolute, et 
+          simplici<lb break="no" ed="#P" n="2"/>ter praedestinati non sint, possunt tamen esse
+          <lb ed="#P" n="3"/>praeordinati, et praefiniti ad aliquem gradum
+          <lb ed="#P" n="4"/>gratiee in hac vita obtinendum : nihil ergo
+          <lb ed="#P" n="5"/>impedit, quominus in his beneficiis aliquando
+          <lb ed="#P" n="6"/>reprobus superet praedestinatum.
+        </p>
+        <p xml:id="szduep-132112-d1e362">
+          <lb ed="#P" n="7"/>5. Secunda conclusio.— Secundo dicendum,
+          <lb ed="#P" n="8"/>praedestinatum semper recipere aliquod 
+          do<lb break="no" ed="#P" n="9"/>num gratiae, quod non communicatur 
+          repro<lb break="no" ed="#P" n="10"/>bo, ratione cujus caetera dona, etiamsi in 
+          en<lb break="no" ed="#P" n="11"/>titate sua vel non majora, vel etiam minora
+          <lb ed="#P" n="12"/>esse videantur, in ordine ad consequendam
+          <lb ed="#P" n="13"/>salutem, sunt efficaciora, atque adeo in ratione
+          <lb ed="#P" n="14"/>gratiae, et beneficii majora. Hanc assertionem
+          <lb ed="#P" n="15"/>probant rationes posteriori loco propositae. Et
+          <lb ed="#P" n="16"/>explicatur praeterea breviter. Nam imprimis
+          <lb ed="#P" n="17"/>praedestinatus perseverat usque ad mortem in
+          <lb ed="#P" n="18"/>gratia, et non reprobus : hoc autem speciale
+          <lb ed="#P" n="19"/>DEI donum est, ut est certum, et breviter 
+          pro<lb break="no" ed="#P" n="20"/>batum jam est. Est autem advertendum, ex hoc
+          <lb ed="#P" n="21"/>non sequi, praedestinatum necessario excedere
+          <lb ed="#P" n="22"/>in aliquo dono intrinseco, quod illi inhaereat:
+          <lb ed="#P" n="23"/>nam hoc non est semper necessarium ad 
+          per<lb break="no" ed="#P" n="24"/>severandum, ultra communem gratiam 
+          justi<lb break="no" ed="#P" n="25"/>ficantem : sed sufficit specialis providentia Dei,
+          <lb ed="#P" n="26"/>vel auferentis occasiones pravas, et 
+          impedi<lb break="no" ed="#P" n="27"/>menta salutis, vel ordinantis, quovis modo, ut
+          <lb ed="#P" n="28"/>mors in bono statu homini contingat, juxta
+          <lb ed="#P" n="29"/>illud : Raptus est ne malitia mutaret intellectum
+          <lb ed="#P" n="30"/>ejus. Atque ita salvatur parvulus cum sola 
+          gra<lb break="no" ed="#P" n="31"/>tia baptismah, et recipit donum 
+          perseveran<lb break="no" ed="#P" n="32"/>tiae, non per novum intrinsecum donum illi
+          <lb ed="#P" n="33"/>inhaerens, quia nec esse potest habitus, vel
+          <lb ed="#P" n="34"/>intentio ejus, ut per se notum est, nec 
+          actua<lb break="no" ed="#P" n="35"/>lis motio, quia parvulus non est capax ejus,
+          <lb ed="#P" n="36"/>nec illa indiget; erit ergo specialis DEI 
+          provi<lb break="no" ed="#P" n="37"/>dentia circa mortem ejus, quae de facto magis
+          <lb ed="#P" n="38"/>illi prodest ad aeternam salutem 
+          consequen<lb break="no" ed="#P" n="39"/>dam, quam prosint alicui adulto multa bona
+          <lb ed="#P" n="40"/>opera, et magnum gratiae augmentum, in quo
+          <lb ed="#P" n="41"/>tandem non perseverat. Eademque differentia
+          <lb ed="#P" n="42"/>inter adultos facile considerari potest.
+        </p>
+        <p xml:id="szduep-132112-d1e443">
+          <lb ed="#P" n="43"/>6. Secundo spectat ad hoc discrimen aliqua
+          <lb ed="#P" n="44"/>vocatio speciali modo efficax, quae 
+          praedesti<lb break="no" ed="#P" n="45"/>nato datur, et non reprobo, de qua saepe 
+          lo<lb break="no" ed="#P" n="46"/>quitur Augustinus, in citatis, et in aliis locis, et
+          <lb ed="#P" n="47"/>eam vocat altam, atque secretam. Ejusque 
+          il<lb break="no" ed="#P" n="48"/>lustre exemplum in angelis invenitur : nam
+          <lb ed="#P" n="49"/>in primo instanti creationis omnes receperunt
+          <lb ed="#P" n="50"/>vocationem congruam, ut se disponerent ad
+          <lb ed="#P" n="51"/>primam justitiam : in secundo vero, in quo
+          <lb ed="#P" n="52"/>perfecte deliberaturi erant, ut viam suam 
+          con<lb break="no" ed="#P" n="53"/>summarent, praedestinatis data est vocatio 
+          ef<lb break="no" ed="#P" n="54"/>ficax, aliis vero non est data : et ex differentia
+          <lb ed="#P" n="55"/>in hoc dono orta est etiam differentia in aeter-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>na salute. Inter homines etiam hoc 
+          conside<lb break="no" ed="#P" n="57"/>rare licet, maxime in duobus jam morti 
+          vici<lb break="no" ed="#P" n="58"/>nis, et existentibus in peccato mortali, nam
+          <lb ed="#P" n="59"/>uni aliquando datur vocatio efficax ad 
+          poeni<lb break="no" ed="#P" n="60"/>tentiam, alteri non datur, et statim ambo 
+          mo<lb break="no" ed="#P" n="61"/>riuntur. Est ergo necessaria haec diversitas,
+          <lb ed="#P" n="62"/>quia actualis conversio (juxta veram 
+          doctri<lb break="no" ed="#P" n="63"/>nam), non fit sine vocatione efficaci.
+        </p>
+        <p xml:id="szduep-132112-d1e493">
+          <lb ed="#P" n="64"/>7. Quaestio. — Hic autem occurrebat 
+          quaes<lb break="no" ed="#P" n="65"/>tio. an necessarium sit in his eventibus, 
+          prae<lb break="no" ed="#P" n="66"/>destinatum excedere reprobum in aliquo 
+          ma<lb break="no" ed="#P" n="67"/>jori auxilio gratiae intrinseco, vel saltem in
+          <lb ed="#P" n="68"/>aliqua majori providentia, qua tollantur 
+          im<lb break="no" ed="#P" n="69"/>pedimenta conversionis, ita ut simpheiter 
+          ve<lb break="no" ed="#P" n="70"/>rum sit dicere, praedestinatum in ea occasione
+          <lb ed="#P" n="71"/>recipere majus auxilium. Sed quia rem hane
+          <lb ed="#P" n="72"/>ex professo tractavi, libro tertio de Auxilus,
+          <lb ed="#P" n="73"/>capitibus 20 et 21. Respondeo distinguendo de
+          <lb ed="#P" n="74"/>auxilio actuali concomitante et per modum
+          <lb ed="#P" n="75"/>concursus, seu actualis influxus et de auxilio 
+          <lb ed="#P" n="76"/>praeveniente, seu per modum principii. Nam
+          <lb ed="#P" n="77"/>de priori dicendum est, semper praedestinatum 
+          <lb ed="#P" n="78"/>excedere in aliquo hujusmodi auxilio, quando
+          <lb ed="#P" n="79"/>caetera aequalia sunt, quia semper excedit in
+          <lb ed="#P" n="80"/>aliqua conversione, vel bona dispositione 
+          ulti<lb break="no" ed="#P" n="81"/>ma, quae non habetur sine hoc auxilio, neque
+          <lb ed="#P" n="82"/>hoc auxilium datur sine illa. At vero de alio
+          <lb ed="#P" n="83"/>praeveniente auxilio id non est per se 
+          necessa<lb break="no" ed="#P" n="84"/>rium, quia sitale majus auxilium esset 
+          neces<lb break="no" ed="#P" n="85"/>sarium per se et ex parte principii ad actualem
+          <lb ed="#P" n="86"/>conversionem, qui illud non haberet, non 
+          ac<lb break="no" ed="#P" n="87"/>ciperet sufficiens auxilium ad conversionem,
+          <lb ed="#P" n="88"/>quia deest illi aliquid, quod per se necessarium
+          <lb ed="#P" n="89"/>est et non est in potestate ejus, cum ad 
+          gra<lb break="no" ed="#P" n="90"/>tiam vocationis pertinere dicatur. Item quia,
+          <lb ed="#P" n="91"/>vel ille, qui recipit majus auxilium, potest 
+          ni<lb break="no" ed="#P" n="92"/>hilominus non converti, vel non potest. 
+          Se<lb break="no" ed="#P" n="93"/>cundum dici rion potest, juxta Concilium 
+          Tri<lb break="no" ed="#P" n="94"/>dentinum, sess. 6, can. 4, quia talis praemotio
+          <lb ed="#P" n="95"/>tolleret libertatem, est enim antecedens. Si
+          <lb ed="#P" n="96"/>vero dicatur primum: ergo cum illo eodem
+          <lb ed="#P" n="97"/>auxilio stat unum converti et non alium : non
+          <lb ed="#P" n="98"/>ergo requiritur majus in eo qui convertitur.
+        </p>
+        <p xml:id="szduep-132112-d1e571">
+          <lb ed="#P" n="99"/>7. Nihilominus tamen, ut in ultima parte
+          <lb ed="#P" n="100"/>conclusionis insinuavi, tale auxilium in eo, qui
+          <lb ed="#P" n="101"/>convertitur, habet rationem majoris benefici,
+          <lb ed="#P" n="102"/>majorisque gratiae. Sunt enim haec duo valde
+          <lb ed="#P" n="103"/>diversa, esse majus auxilium et esse majus 
+          be<lb break="no" ed="#P" n="104"/>neficium. Nam majus auxilium significat, esse
+          <lb ed="#P" n="105"/>majus principium et potentius ad operandum,
+          <lb ed="#P" n="106"/>quod non semper habet vocatio congrua, ut
+          <lb ed="#P" n="107"/>ostendi. At majus beneficium solum dicit, quod
+          <lb ed="#P" n="108"/>tale auxilium detur ex majori dilectione Dei
+          <lb ed="#P" n="109"/>et ideo conferatur in ea opportunitate et 
+          tem<lb break="no" ed="#P" n="110"/>pore, quod Deus praenovit fore accommoda-
+          <pb ed="#P" n="523"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum, ut in illo infallibiliter habeat effectum :
+          <lb ed="#P" n="2"/>in hoc excedit praedestinatus reprobum 
+          quan<lb break="no" ed="#P" n="3"/>tum ad illam vocationem, ex qua saltem 
+          pen<lb break="no" ed="#P" n="4"/>det ultima salus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

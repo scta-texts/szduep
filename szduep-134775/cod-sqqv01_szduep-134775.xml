@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="533"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-134775"><!-- t3-l1prae -->
+        <head xml:id="szduep-134775-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-134775-d1e103">
+          <pb ed="#P" n="533"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS.
+          <lb ed="#P" n="2"/>DE TRINITATE PERSONARUM
+          <lb ed="#P" n="3"/>EARUMQUE PROCESSIONE AN IN DEO SIT.
+        </p>
+        <p xml:id="szduep-134775-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Quamvis scientia supponat subjectum suum
+          <lb ed="#P" n="5"/>esse, et haec doctrina, quatenus rationem 
+          scien<lb break="no" ed="#P" n="6"/>uae participat, ex fide supponat Deum esse 
+          tri<lb break="no" ed="#P" n="7"/>num, sicut est unus: nihilominus propter
+          <lb ed="#P" n="8"/>haereticorum importunitatem necessarium est
+          <lb ed="#P" n="9"/>theologis, veritatem hanc non tantum 
+          suppo<lb break="no" ed="#P" n="10"/>nere, sed etiam per regulas fidei Catholicae
+          <lb ed="#P" n="11"/>demonstrare. Tenantes igitur doctrinae 
+          ordi<lb break="no" ed="#P" n="12"/>nem, quem promissimus , ostendemus prius
+          <lb ed="#P" n="13"/>Trinitatem in Deo esse. Quid autem sit, non
+          <lb ed="#P" n="14"/>potest in hac vita cognosci, tamen loco illius
+          <lb ed="#P" n="15"/>curabimus explicare mysterium, quantum 
+          fie<lb break="no" ed="#P" n="16"/>ri possit ex principiis revelatis, tam in 
+          com<lb break="no" ed="#P" n="17"/>muni de personis, quam in particulari de 
+          sin<lb break="no" ed="#P" n="18"/>gulis disputando. Ex quibus facile erit, et 
+          ra<lb break="no" ed="#P" n="19"/>uones contra hoc mysterium solvere et 
+          pro<lb break="no" ed="#P" n="20"/>prietates, quas habuerit, intelligere. Causas
+          <lb ed="#P" n="21"/>autem non habet, cum pertineat ad 
+          subsisten<lb break="no" ed="#P" n="22"/>tiam ipsius primae causae. Nec etiam habet
+          <lb ed="#P" n="23"/>proprios effectus, quia Deus extra se nihil, ut
+          <lb ed="#P" n="24"/>inus, sed ut unus operatur, ut postea etiam
+          <lb ed="#P" n="25"/>dicemus. In hoc autem primo libro duo 
+          con<lb break="no" ed="#P" n="26"/>jungimus, scilicet, esse in Deo personas , et
+          <lb ed="#P" n="27"/>processiones divinas, quia ita inter se connexa
+          <lb ed="#P" n="28"/>sunt, ut unius sine alterius existentia ostendi
+          <lb ed="#P" n="29"/>non possit. D. Thomas autem de 
+          processioni<lb break="no" ed="#P" n="30"/>bus tractat , q. 27, de Personis vero in 29,
+          <lb ed="#P" n="31"/>usque ad 32, 1 p.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

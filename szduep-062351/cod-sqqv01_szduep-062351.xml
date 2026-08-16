@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="245"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-062351"><!-- t2-l1c5 -->
+        <head xml:id="szduep-062351-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-062351-Hd1e103" type="question-title">Quae res cadant sub praedestinatione tanquam ipsius termini</head>
+        <p xml:id="szduep-062351-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="51"/>CAPUT V.
+          <lb ed="#P" n="52"/>QUAE RES CADANT SUB PRAEDESTINATIONE TANQUAM
+          <lb ed="#P" n="53"/>IPSIUS TERMINI.
+        </p>
+        <p xml:id="szduep-062351-d1e117">
+          <lb ed="#P" n="54"/>1. Varie questiones. —Diximus, materiam,
+          <lb ed="#P" n="55"/>circa quam praedestinatio versatur, duo 
+          com<lb break="no" ed="#P" n="56"/>prehendere : scilicet personam, quae 
+          praedesti<lb break="no" ed="#P" n="57"/>natur, quae vocatur objectum praedestinationis:
+          <lb ed="#P" n="58"/>et rem, seu bonum, ad quod praedestinatur,
+          <lb ed="#P" n="59"/>quod terminus ejusdem praedestinationis 
+          ap<lb break="no" ed="#P" n="60"/>pellatur. Cum ergo in praecedente capite 
+          ob<lb break="no" ed="#P" n="61"/>jectum praedestinationis explicuerimus, 
+          super<lb break="no" ed="#P" n="62"/>est ut in praesenti de illius termino dicamus.
+          <lb ed="#P" n="63"/>De quo multa quaeri solent, quae hic breviter
+          <lb ed="#P" n="64"/>expedienda sunt : scilicet, an terminus 
+          prae<lb break="no" ed="#P" n="65"/>destinationis esse possit malum culpae, vel 
+          poe<lb break="no" ed="#P" n="66"/>nae, vel solum aliquod bonum per se 
+          expecti<lb break="no" ed="#P" n="67"/>bile et an quodlibet bonum, vel solum illud,
+          <lb ed="#P" n="68"/>quod supernaturale est et inter supernaturalia,
+          <lb ed="#P" n="69"/>an sola beatitudo vel gratia, an vero alii actus
+          <lb ed="#P" n="70"/>boni possint sufficienter praedestinationem 
+          ter<lb break="no" ed="#P" n="71"/>minare.
+        </p>
+        <p xml:id="szduep-062351-d1e159">
+          <lb ed="#P" n="72"/>2. Prima assertio.—Malum culpee non est 
+          ter<lb break="no" ed="#P" n="73"/>minus praedestinationis. —Principio igitur pro
+          <lb ed="#P" n="74"/>certo statuendum est, malum culpae non posse
+          <lb ed="#P" n="75"/>esse praedestinationis terminum : itaque Deus
+          <lb ed="#P" n="76"/>neminem ad malum culpae praedestinat. Hoc est
+          <lb ed="#P" n="77"/>de fide, definitum in Concilio Arausicano 2, c.
+          <lb ed="#P" n="78"/>25, sumiturque ex Tridentino, sess. 6, cap. 17,
+          <lb ed="#P" n="79"/>et late tractatur a Fulgentio, libro primo ad
+          <lb ed="#P" n="80"/>Monimum. Tradit etiam Augustinus, libro de
+          <lb ed="#P" n="81"/>Praedestinatione Sanctorum, capite decimo.Ubi
+          <lb ed="#P" n="82"/>hac ratione dicit praescientiam latius patere,
+          <lb ed="#P" n="83"/>quam praedestinationem : Quia Deus solum ea
+          <lb ed="#P" n="84"/>praedestinat quee ipse est facturus, preescit 
+          au<lb break="no" ed="#P" n="85"/>tem etiam quaee non est facturus, neque 
+          preedes<lb break="no" ed="#P" n="86"/>tinat, ut peccata. Et hacratione, libro quinto, de
+          <lb ed="#P" n="87"/>Civitate, capite nono ait: Deum esse auctorem
+          <lb ed="#P" n="88"/>omnwm potestatum, non cero omnium 
+          volunta<lb break="no" ed="#P" n="89"/>ium. Quia malarum voluntatum auctor non
+          <lb ed="#P" n="90"/>est, et consequenter nec illas praedestinat, nec
+          <lb ed="#P" n="91"/>per suam praescientiam facit quod futurae sint,
+          <lb ed="#P" n="92"/>sedquia future sunt, illas preescit,ut ibidem, 
+          ca<lb break="no" ed="#P" n="93"/>pite decimo, subjungit. Ratio vero est, quia sive
+          <lb ed="#P" n="94"/>praedestinatio ad intellectum pertineat, sive ad
+          <lb ed="#P" n="95"/>voluntatem, certum est aliquo modo involvere
+          <lb ed="#P" n="96"/>voluntatem, ita ut Deus praedestinare non 
+          di<lb break="no" ed="#P" n="97"/>catur, nisi quae simpliciter vult fieri. Deus 
+          au<lb break="no" ed="#P" n="98"/>tem non vult peccatum fieri, ergo nec 
+          praedes<lb break="no" ed="#P" n="99"/>tinat illud, ergo neque hominem, ut peccet,
+          <lb ed="#P" n="100"/>seu malum faciat: alioqui enim 
+          praedestina<lb break="no" ed="#P" n="101"/>ret peccatum ipsum, Confirmatur, quia 
+          volun<lb break="no" ed="#P" n="102"/>tas permissiva non satis est ad praedestinatio-
+          <pb ed="#P" n="246"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem, sed secundum fidem Deus tantum 
+          per<lb break="no" ed="#P" n="2"/>ittit hominem peccare, non facit nec inducit
+          <lb ed="#P" n="3"/>eum, ut peccet: ergo non praedestinat. 
+          De<lb break="no" ed="#P" n="4"/>nique hac ratione ostendimus in libro 
+          se<lb break="no" ed="#P" n="5"/>cundo de Auxiliis, Deum praefinire mala culpae,
+          <lb ed="#P" n="6"/>et omnia ibi adducta hanc veritatem 
+          confir<lb break="no" ed="#P" n="7"/>mant.
+        </p>
+        <p xml:id="szduep-062351-d1e249">
+          <lb ed="#P" n="8"/>3. Secunda assertio. — Secundo dicendum
+          <lb ed="#P" n="9"/>est, licet in aliquo vero sensu, dici possit Deus,
+          <lb ed="#P" n="10"/>praedestinare aliquos homines ad malum 
+          poe<lb break="no" ed="#P" n="11"/>nae : non tamen in sensu propriissimo et 
+          rigo<lb break="no" ed="#P" n="12"/>roso, in quo nunc loquimur. Prior pars 
+          poni<lb break="no" ed="#P" n="13"/>tur propter Augustinum, qui interdum 
+          abso<lb break="no" ed="#P" n="14"/>Iute dicit aliquos esse a Deo praedestinatos ad
+          <lb ed="#P" n="15"/>gehennam, ut patet in Enrichid., capite 100, et
+          <lb ed="#P" n="16"/>lib. 15 de Civitate, cap. 1, et lib. 21, cap. 24.
+          <lb ed="#P" n="17"/>Et ita intelligendus est, si alicubi dixerit 
+          ab<lb break="no" ed="#P" n="18"/>solute, aliquos esse praedestinatos ad interitum,
+          <lb ed="#P" n="19"/>ut libr. de Perfect. Just., sicut illum exposuit
+          <lb ed="#P" n="20"/>Fulgentius, dicto lib. 1, ad Monimum. Et 
+          eo<lb break="no" ed="#P" n="21"/>dem modoloquitur Isidorus, lib. 2, de Summo
+          <lb ed="#P" n="22"/>bono, cap. 6, et indicat Concilium Valentinum
+          <lb ed="#P" n="23"/>sub Lothario, cap. 3. Sed in hoc genere 
+          locu<lb break="no" ed="#P" n="24"/>tionis advertendum est, illam particulam Prae,
+          <lb ed="#P" n="25"/>dicere antecessionem aeternitatis ad tempus,
+          <lb ed="#P" n="26"/>non voluntatis divina ad praescientiam ejus.
+          <lb ed="#P" n="27"/>Sic enim verum est, quod Concilium 
+          Arausica<lb break="no" ed="#P" n="28"/>num et Tridentinum definierunt: Deum 
+          potes<lb break="no" ed="#P" n="29"/>tate suaneminem ad malum preedestinasse. Quod
+          <lb ed="#P" n="30"/>ego intelligo etiam de malo poenae et aeternae
+          <lb ed="#P" n="31"/>miseriae, ut in secunda parte hujus materiae 
+          la<lb break="no" ed="#P" n="32"/>tius ostendam. Expendo tamen verbum illud ,
+          <lb ed="#P" n="33"/>Potestate sua, quo significatur, Deum ex sola
+          <lb ed="#P" n="34"/>potentia et voluntate neminem ad malum 
+          aeter<lb break="no" ed="#P" n="35"/>nae miseriae ordinasse. Id vero non excludit,
+          <lb ed="#P" n="36"/>quin ex justitia aliquos in aeternum punire
+          <lb ed="#P" n="37"/>decreverit. Hoc autem decretum supponit 
+          prae<lb break="no" ed="#P" n="38"/>scientiam culpae, propter quam homo dignus
+          <lb ed="#P" n="39"/>est tali poena. Ideoque tale decretum non 
+          po<lb break="no" ed="#P" n="40"/>test dici praedestinatio in ordine ad 
+          praescien<lb break="no" ed="#P" n="41"/>tiam, sed ratione aeternitatis comparatae ad
+          <lb ed="#P" n="42"/>talem effectum : et ita loquuntur dicti Patres,
+          <lb ed="#P" n="43"/>nam expresse declarant, praedestinationem 
+          il<lb break="no" ed="#P" n="44"/>lam supponere dictam praescientiam.
+        </p>
+        <p xml:id="szduep-062351-d1e332">
+          <lb ed="#P" n="45"/>4. Ex his ergo patet prior pars assertionis.
+          <lb ed="#P" n="46"/>Nam dicta locutio in priori sensu vera est.
+          <lb ed="#P" n="47"/>Et ratio illius est, quia Deus vere dicitur 
+          prae<lb break="no" ed="#P" n="48"/>destinare illa, quae absoluta et efficaci 
+          volun<lb break="no" ed="#P" n="49"/>tate sua aeternitate ordinavit et facere decrevit,
+          <lb ed="#P" n="50"/>saltem eo sensu, quo particula, Pre, dicit, 
+          an<lb break="no" ed="#P" n="51"/>tecessionem aeternitatis ad tempus: sed Deus
+          <lb ed="#P" n="52"/>absoluta voluntate decrevit punire, quos 
+          pec<lb break="no" ed="#P" n="53"/>caturos et usque ad finem in peccatis 
+          perman<lb break="no" ed="#P" n="54"/>suros esse, praescivit: ergo eos, ut impios, recte
+          <lb ed="#P" n="55"/>dicitur ad poenam praedestinasse. Atque haec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ratio a fortiori praecedit de quacumque alia
+          <lb ed="#P" n="57"/>peena.
+        </p>
+        <p xml:id="szduep-062351-d1e365">
+          <lb ed="#P" n="58"/>5. Posterior item assertionis pars ex eadem
+          <lb ed="#P" n="59"/>doctrina declaratur, quia Deus dicitur 
+          propriis<lb break="no" ed="#P" n="60"/>sime praedestinare hominem, quando ex se et
+          <lb ed="#P" n="61"/>ex sua benevolentia et affectu et non tantum
+          <lb ed="#P" n="62"/>provocatus ex praescientia alicujus operis 
+          ip<lb break="no" ed="#P" n="63"/>sius hominis, illum ordinat efficaciter ad 
+          ali<lb break="no" ed="#P" n="64"/>quem finem, vel terminum homini 
+          convenien<lb break="no" ed="#P" n="65"/>tem et commodum : sed illa praeordinatio ad
+          <lb ed="#P" n="66"/>peenam non est hujusmodi, non est ergo 
+          pro<lb break="no" ed="#P" n="67"/>priissima praedestinatio. Major declaratur 
+          pri<lb break="no" ed="#P" n="68"/>mo ex Scriptura, quoties enim in ea 
+          praedes<lb break="no" ed="#P" n="69"/>tinationis vox reperitur, in bonam partem
+          <lb ed="#P" n="70"/>accipitur, ut patet ex locis saepe citatis : 
+          ideo<lb break="no" ed="#P" n="71"/>que in hac significatione est jam usurpata haec
+          <lb ed="#P" n="72"/>vox apud scholasticos, cujus ratio patebit ex
+          <lb ed="#P" n="73"/>dicendis. Declaratur 2, ex quadam doctrina 
+          Da<lb break="no" ed="#P" n="74"/>masceni, l. 2, de Fide, cap. 29, quam indicavit
+          <lb ed="#P" n="75"/>Chrysostomus, homilia 1, in ad Ephes. 
+          Dupli<lb break="no" ed="#P" n="76"/>citer Deum aliquid velle hominibus, scilicet,
+          <lb ed="#P" n="77"/>vel ex se tantum et ex sua propensione, vel
+          <lb ed="#P" n="78"/>provocatus et quasi coactus ab ipsis 
+          homini<lb break="no" ed="#P" n="79"/>bus. Priori modo vult eis bona, posteriori 
+          au<lb break="no" ed="#P" n="80"/>tem mala poenae. Praedestinatio igitur 
+          propriis<lb break="no" ed="#P" n="81"/>sime dicta, ad priorem modum voluntatis
+          <lb ed="#P" n="82"/>spectat, et ideo circa bona versatur, et in 
+          ma<lb break="no" ed="#P" n="83"/>lum poenae non cadit.
+        </p>
+        <p xml:id="szduep-062351-d1e424">
+          <lb ed="#P" n="84"/>6. Tertia assertio. — Praedestinationis 
+          de<lb break="no" ed="#P" n="85"/>cretum absolutum. — Hinc ergo dicendum est
+          <lb ed="#P" n="86"/>tertio, terminum praedestinationis, semper esse
+          <lb ed="#P" n="87"/>aliquod bonum, ad quod homo ex peculiari
+          <lb ed="#P" n="88"/>Dei affectu ordinatur. Haec assertio ex Seriptura
+          <lb ed="#P" n="89"/>sumitur. UÜbicumque enim verbum 
+          praedesti<lb break="no" ed="#P" n="90"/>nandi ponitur, in bonam partem accipitur. Ita
+          <lb ed="#P" n="91"/>etiam praedestinationem definit Augustinus, 
+          li<lb break="no" ed="#P" n="92"/>bro de Praedest. Sanctorum, cap. 10, et Bono
+          <lb ed="#P" n="93"/>persever., cap. 14, et hic etiam est usus 
+          scho<lb break="no" ed="#P" n="94"/>lasticorum. Patetque ex dictis a sufficienti 
+          par<lb break="no" ed="#P" n="95"/>tium enumeratione, patebitque amplius ex
+          <lb ed="#P" n="96"/>dicendis. Nunc ad majorem explicationem 
+          ad<lb break="no" ed="#P" n="97"/>dendum est, quia voluntas boni aliquando esse
+          <lb ed="#P" n="98"/>potest absoluta, aliquando vero tantum 
+          sim<lb break="no" ed="#P" n="99"/>plex affectus, quem velleitatem vocant : 
+          prae<lb break="no" ed="#P" n="100"/>destinationem non quemcumque affectum boni,
+          <lb ed="#P" n="101"/>sed absolutum ejus decretum dicere, vel 
+          in<lb break="no" ed="#P" n="102"/>cludere. Hinc enim est illud Pauli ad Romanos,
+          <lb ed="#P" n="103"/>cap. octavo: Quos praedestinavit , hos vocavit,
+          <lb ed="#P" n="104"/>justificavit , magnificavit. Ubi praedestinatos
+          <lb ed="#P" n="105"/>absolute dictos ad bonum intelligit et tali 
+          mo<lb break="no" ed="#P" n="106"/>do , ut finem consequantur. Hinc etiam est
+          <lb ed="#P" n="107"/>illud Augustini, capite decimoquarto, de Bono
+          <lb ed="#P" n="108"/>perseverantiae. Praedestinatio est preeparatio
+          <lb ed="#P" n="109"/>beneficiorum, versatur ergo circa bonum, 
+          qui<lb break="no" ed="#P" n="110"/>bus certissime liberantur, versatur ergo per
+          <pb ed="#P" n="247"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>absolutam voluntatem. Denique, et nomen 
+          ip<lb break="no" ed="#P" n="2"/>sum praedestinationis hoc prae se fert, et 
+          com<lb break="no" ed="#P" n="3"/>munis usus ita obtinuit.
+        </p>
+        <p xml:id="szduep-062351-d1e496">
+          <lb ed="#P" n="4"/>7. Solum potest quis dubitare ex illis verbis.
+          <lb ed="#P" n="5"/>Act. 4: Quae manus tua et consilium tuum 
+          de<lb break="no" ed="#P" n="6"/>creverunt fieri. Ubi est sermo de Passione 
+          Chris<lb break="no" ed="#P" n="7"/>ti, quam Deus non ex se voluit, sed propter
+          <lb ed="#P" n="8"/>hominum peccata : et tamen ibi ponitur 
+          ver<lb break="no" ed="#P" n="9"/>bum praedestinandi. Respondeo, quoddam esse
+          <lb ed="#P" n="10"/>malum poenae, quod in puram vindictam 
+          in<lb break="no" ed="#P" n="11"/>fligitur, ut est gehenna et huic dicimus non
+          <lb ed="#P" n="12"/>proprie attribui praedestinationis nomen. Aliud
+          <lb ed="#P" n="13"/>vero est malum poenae medicinalis, quod in
+          <lb ed="#P" n="14"/>ordine ad majus bonum cum effectu 
+          conse<lb break="no" ed="#P" n="15"/>quendum ordinatur : et hoc sub hujusmodi
+          <lb ed="#P" n="16"/>consideratione sub praedestinationem cadit:
+          <lb ed="#P" n="17"/>nam est unum ex mediis, vel remediis, quibus
+          <lb ed="#P" n="18"/>Deus utitur ad salutem praedestinatorum 
+          ob<lb break="no" ed="#P" n="19"/>tinendam, et in hoc ordine continetur passio
+          <lb ed="#P" n="20"/>Ghristi: imo est maximum et quasi universale
+          <lb ed="#P" n="21"/>remedium, quod Deus ex se sola sua intinita
+          <lb ed="#P" n="22"/>bonitate praedestinavit, pro hominibus jam 
+          lap<lb break="no" ed="#P" n="23"/>sis in divina praescientia.
+        </p>
+        <p xml:id="szduep-062351-d1e542">
+          <lb ed="#P" n="24"/>8. Preedestinatio propriissima habet pro 
+          ter<lb break="no" ed="#P" n="25"/>mino supernaturale bonum. — Ulterius vero
+          <lb ed="#P" n="26"/>addendum est, propriissimam 
+          praedestinatio<lb break="no" ed="#P" n="27"/>nem, de qua nunc loquimur, non habere pro
+          <lb ed="#P" n="28"/>termino quodcumque bonum sed 
+          supernatu<lb break="no" ed="#P" n="29"/>rale. Ita D. Thomas, art. 1, et omnes scholastici,
+          <lb ed="#P" n="30"/>et est maxime consentaneum modo loquendi
+          <lb ed="#P" n="31"/>D. Pauli. Ubicumque enim hoc verbo usus est,
+          <lb ed="#P" n="32"/>agit aut de bonis gratiae unionis, ut ad Rom. 1
+          <lb ed="#P" n="33"/>et ad Corint. 2, aut de bonis gratiae 
+          sanctifi<lb break="no" ed="#P" n="34"/>cantis, ut ad Rom. 8 et ad Eph. 1. Ratio etiam
+          <lb ed="#P" n="35"/>D. Thomae est optima, quia naturalia bona
+          <lb ed="#P" n="36"/>sunt naturae debita, et ordinatio in naturalem
+          <lb ed="#P" n="37"/>finem ex proprio impetu et viribus ipsius, 
+          na<lb break="no" ed="#P" n="38"/>turae nascitur, ideoque non requirit specialem
+          <lb ed="#P" n="39"/>praedestinationem, sed communem 
+          providen<lb break="no" ed="#P" n="40"/>Ctiam. Finis autem supernaturalis non est ex
+          <lb ed="#P" n="41"/>inclinatione naturae : nec ejus consecutio est
+          <lb ed="#P" n="42"/>per vires proprias et ideo, ut homo efficaciter
+          <lb ed="#P" n="43"/>in illum tendat, necesse est, ut ab alio 
+          ordine<lb break="no" ed="#P" n="44"/>tur et quasi transmittatur : et hoc fit per 
+          prae<lb break="no" ed="#P" n="45"/>destinationem. Versatur ergo praedestinatio
+          <lb ed="#P" n="46"/>circa supernaturalia bona.
+        </p>
+        <p xml:id="szduep-062351-d1e595">
+          <lb ed="#P" n="47"/>9. An gratia, vel gloria sit terminus 
+          pre<lb break="no" ed="#P" n="48"/>destinationis. — Quia vero in his bonis gratia
+          <lb ed="#P" n="49"/>et gloria comprehenduntur (nam de unione
+          <lb ed="#P" n="50"/>hypostatica nunc non agimus) difficultas esse
+          <lb ed="#P" n="51"/>solet, an utraque, vel altera tantum sit 
+          termi<lb break="no" ed="#P" n="52"/>nus praedestinationis. Et in hoc est diversitas
+          <lb ed="#P" n="53"/>opinionum.
+        </p>
+        <p xml:id="szduep-062351-d1e613">
+          <lb ed="#P" n="54"/>10. Prima opinio.—Prima opinio dicit 
+          prae<lb break="no" ed="#P" n="55"/>destinationem habere pro termino et proximo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et ultimo solam gloriam. fIta sentiunt omnes,
+          <lb ed="#P" n="57"/>qui praedestinationem constituunt in solo 
+          pro<lb break="no" ed="#P" n="58"/>posito dandi gloriam, ut Ochamus, Gabriel,
+          <lb ed="#P" n="59"/>Guilhelmus, de Rubion. in 1, dist. 40, q. 1et
+          <lb ed="#P" n="60"/>Catherinus, opusc. de Praedestinat., lib. 4, c.
+          <lb ed="#P" n="61"/>ult., et lib. 3, cap. 2 et 3. Fundamentum esse
+          <lb ed="#P" n="62"/>potuit, quia ex vi illius decreti est homo 
+          suffi<lb break="no" ed="#P" n="63"/>cienter ordinatus ad gloriam infallibiliter 
+          con<lb break="no" ed="#P" n="64"/>sequendam : jam ergo est praedestinatus.
+        </p>
+        <p xml:id="szduep-062351-d1e642">
+          <lb ed="#P" n="65"/>11. Heec opinio rejicitur. — Haec vero 
+          sen<lb break="no" ed="#P" n="66"/>tentia, quantum ad partem exclusivam, falsa
+          <lb ed="#P" n="67"/>est, et contra caeteros theologos, et parum 
+          con<lb break="no" ed="#P" n="68"/>sentanea Paulo, qui ad Rom. S, significavit,
+          <lb ed="#P" n="69"/>preedestinationem etiam versari circa media,
+          <lb ed="#P" n="70"/>quae sunt vocatio et justificatio. Et ad Ephes. 1,
+          <lb ed="#P" n="71"/>expresse dixit : Preedestinavit nos in 
+          adoptio<lb break="no" ed="#P" n="72"/>nem filiorum Dei, quae fit per gratiam. Facit
+          <lb ed="#P" n="73"/>etiam, quod de eodem Paulo dicitur (Act. 22):
+          <lb ed="#P" n="74"/>Deus Patrum nostrorum preordinavit te, ut
+          <lb ed="#P" n="75"/>cognosceres voluntatem ejus et videres justum,
+          <lb ed="#P" n="76"/>etc. Apertissimeque id docuit Augustinus, locis
+          <lb ed="#P" n="77"/>seepe citatis, cum ait: Preedestinationem esse
+          <lb ed="#P" n="78"/>preparationem gratie, ac beneficiorum Det. Et
+          <lb ed="#P" n="79"/>in Enchirid., cap. 100,cum vocat 
+          praedestinatio<lb break="no" ed="#P" n="80"/>nem ad gratiam. Et alia loca statim referemus
+          <lb ed="#P" n="81"/>et rationem reddemus.
+        </p>
+        <p xml:id="szduep-062351-d1e681">
+          <lb ed="#P" n="82"/>12. Secunda opinio. — Est ergo alia opinio
+          <lb ed="#P" n="83"/>dicens, praedestinationem non versari circa
+          <lb ed="#P" n="84"/>gloriam, sed solum circa gratiam. Hanc tenuit
+          <lb ed="#P" n="85"/>Durandus in 1, dist. 41, quaest. 1, ad. 1,et
+          <lb ed="#P" n="86"/>sequuntur aliqui moderni, tribuuntque D.
+          <lb ed="#P" n="87"/>Thomse, eo quod hic art. 4, dicit, dilectionem,
+          <lb ed="#P" n="88"/>seu electionem ad gloriam supponi ad 
+          praedes<lb break="no" ed="#P" n="89"/>tinationem, unde inferunt non pertinere ad
+          <lb ed="#P" n="90"/>illam. Adducunt etiam Augustinum, qui 
+          prae<lb break="no" ed="#P" n="91"/>destinationem semper definit per ordinem ad
+          <lb ed="#P" n="92"/>gratiam. Ratio denique Durandi est, quia 
+          pro<lb break="no" ed="#P" n="93"/>videntia non est de fine, sed de mediis : at
+          <lb ed="#P" n="94"/>praedestinatio est pars providentiae : ergo.
+        </p>
+        <p xml:id="szduep-062351-d1e712">
+          <lb ed="#P" n="95"/>13. Secunda opinio rejicitur quoad partem
+          <lb ed="#P" n="96"/>negantem.—MHanc vero sententiam etiam quoad
+          <lb ed="#P" n="97"/>partem negantem falsam esse existimo. Et 
+          im<lb break="no" ed="#P" n="98"/>primis est contra communem sententiam 
+          alio<lb break="no" ed="#P" n="99"/>rum theologorum. Nec D. Thomas refragatur,
+          <lb ed="#P" n="100"/>quia in illo articulo loquitur, supponendo,
+          <lb ed="#P" n="101"/>praedestinationem formaliter pertinere ad 
+          in<lb break="no" ed="#P" n="102"/>tellectum : loquendo vero de voluntate, quam
+          <lb ed="#P" n="103"/>necessario vel dicit, vel connotat 
+          praedestina<lb break="no" ed="#P" n="104"/>tio, non negat illam habere pro termino 
+          glo<lb break="no" ed="#P" n="105"/>riam. Imo saepe significat praedestinationem
+          <lb ed="#P" n="106"/>includere voluntatem dandi gratiam et 
+          glo<lb break="no" ed="#P" n="107"/>riam. Nam, articulo primo, ait: Hatio 
+          trans<lb break="no" ed="#P" n="108"/>missionis creature rationalis in finem vite
+          <lb ed="#P" n="109"/>cterne, preedestinatio nominatur : et articulo
+          <lb ed="#P" n="110"/>secundo, dicit : Predestinationem esse ratio-
+          <pb ed="#P" n="248"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ne ordinis in salutem eternam. Ex infra: dicit
+          <lb ed="#P" n="2"/>executionem praedestinationis extendi usque
+          <lb ed="#P" n="3"/>ad magnificationem quae est glorificatio. Et
+          <lb ed="#P" n="4"/>praeterea, licet daremus, gloriam ut intentam
+          <lb ed="#P" n="5"/>per electionem, seu dilectionem, quam ponit
+          <lb ed="#P" n="6"/>D. Thomas ante praedestinationem, non 
+          per<lb break="no" ed="#P" n="7"/>tinere ad praedestinationem, sed supponi ad.
+          <lb ed="#P" n="8"/>illam : Nihilominus negari non potest, quin
+          <lb ed="#P" n="9"/>voluntas aliqua dandi gloriam ad 
+          praedesti<lb break="no" ed="#P" n="10"/>nationem pertineat vel in illa includatur. Hoc
+          <lb ed="#P" n="11"/>enim aperte sumitur ex Paulo ad Rom. 8,
+          <lb ed="#P" n="12"/>praedestinationem usque ad glorificationem
+          <lb ed="#P" n="13"/>perducit. Unde, capite nono, ait : Ut ostenderet
+          <lb ed="#P" n="14"/>divitias gratie sue in vasa müsericordie ,
+          <lb ed="#P" n="15"/>quee pradestinavit in glorium : et Act., 13,
+          <lb ed="#P" n="16"/>dicitur: Quotquot predestinati erant in vitam
+          <lb ed="#P" n="17"/>cternam, et ideo Praeedestinationem ad vitam
+          <lb ed="#P" n="18"/>vocavit Tridentinum , sess. 6, capite 12, et
+          <lb ed="#P" n="19"/>Can. 17, et Augustinus , libro de 
+          Praedesti<lb break="no" ed="#P" n="20"/>natione Dei (si tamen est ejus), cap. 3, vocat
+          <lb ed="#P" n="21"/>praedestinationem glorie : gloria autem non
+          <lb ed="#P" n="22"/>praedestinatur, nisi quatenus aliquis 
+          praedes<lb break="no" ed="#P" n="23"/>tinatur ad gloriam. Praeterea cum Augustinus
+          <lb ed="#P" n="24"/>dixit praedestinationem esse preeparationem
+          <lb ed="#P" n="25"/>beneficiorum, non exclusit gloriam, quae 
+          maxi<lb break="no" ed="#P" n="26"/>mum beneficium est : imo inclusit, cum 
+          addi<lb break="no" ed="#P" n="27"/>dit , quibus certissime liberantur , quicumque
+          <lb ed="#P" n="28"/>liberantur, quia homo non est perfecte a 
+          mi<lb break="no" ed="#P" n="29"/>seria liberatus, donec gloriam obtineat. Imo
+          <lb ed="#P" n="30"/>ctiam cum dixit Augustinus praedestinationem
+          <lb ed="#P" n="31"/>esse praeparationem gratiae, gloriam 
+          compre<lb break="no" ed="#P" n="32"/>hendit, ut eleganter exposuit Fulgentius, dicto
+          <lb ed="#P" n="33"/>lib. 1, ad Monimum, cap. 8 et 10, ubi, 
+          Prop<lb break="no" ed="#P" n="34"/>terea, inquit, omnia et vocationis initia, et 
+          jus<lb break="no" ed="#P" n="35"/>Lificationis augmenta, et glorificationis premia
+          <lb ed="#P" n="36"/>in praedestinatione semper Deus habuit. Et 
+          ra<lb break="no" ed="#P" n="37"/>tionem reddit, quia etiam vita aeterna, teste
+          <lb ed="#P" n="38"/>Paulo, est quaedam gratia. Denique 
+          Augusti<lb break="no" ed="#P" n="39"/>nus 15, de Civit., cap. 1, civitatem Dei dicit
+          <lb ed="#P" n="40"/>esse praedestinatam ad regnum coelorum.
+        </p>
+        <p xml:id="szduep-062351-d1e840">
+          <lb ed="#P" n="41"/>14. Distinctio duplicis preedestinationis. —
+          <lb ed="#P" n="42"/>Hinc vero aliqui sumpserunt occasionem 
+          dis<lb break="no" ed="#P" n="43"/>tinguendi duas praedestinationes, unam ad
+          <lb ed="#P" n="44"/>gratiam, aliam ad gloriam, ut videre est in
+          <lb ed="#P" n="45"/>Turriano, libro de Praedestinatione. Quae 
+          dis<lb break="no" ed="#P" n="46"/>tinctio, si data fuisset in ordine ad diversos
+          <lb ed="#P" n="47"/>homines , scilicet, praedestinatos et reprobos,
+          <lb ed="#P" n="48"/>admitti posset : dummodo sub praedestinatione
+          <lb ed="#P" n="49"/>ad gloriam , quem sola est praedestinatio 
+          sim<lb break="no" ed="#P" n="50"/>pliciter, includatur etiam gratia. Sic enim
+          <lb ed="#P" n="51"/>possunt multi reprohi dici praedestinati ad
+          <lb ed="#P" n="52"/>fidem et ad gratiam in hac vita pro aliquo
+          <lb ed="#P" n="53"/>tempore obtinendam, quae dici potest 
+          praedes<lb break="no" ed="#P" n="54"/>tinatio secundum quid respectu alterius. Non
+          <lb ed="#P" n="55"/>est tamen hic sensus dictorum auctorum , sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in ipsis praedestinatis illas duas 
+          praedestinatio<lb break="no" ed="#P" n="57"/>nesdistinguunt, ut ponant alicujus 
+          praedestina<lb break="no" ed="#P" n="58"/>tionis causam et non videantur contradicere
+          <lb ed="#P" n="59"/>Augustino neganti causam praedestinationis,
+          <lb ed="#P" n="60"/>ut infra videbimus.
+        </p>
+        <p xml:id="szduep-062351-d1e889">
+          <lb ed="#P" n="61"/>15. HRejicitur posita distinctio. — Nobis 
+          au<lb break="no" ed="#P" n="62"/>tem non est distinctio necessaria , meritoque
+          <lb ed="#P" n="63"/>ab scholasticis non est usurpata. Nam licet in
+          <lb ed="#P" n="64"/>Deo sit voluntas dandi gloriam et dandi 
+          gra<lb break="no" ed="#P" n="65"/>tiam quae voluntates possunt dici plures actus
+          <lb ed="#P" n="66"/>ratione distincti : tamen praedestinatio 
+          per<lb break="no" ed="#P" n="67"/>fecta et simpliciter dicta una est, quae prout in
+          <lb ed="#P" n="68"/>voluntate consideratur, utrumque actum 
+          com<lb break="no" ed="#P" n="69"/>plectitur ; prout vero spectat ad intellectum,
+          <lb ed="#P" n="70"/>dicit unam completam rationem mediorum
+          <lb ed="#P" n="71"/>omnium, quibus efficaciter perducitur 
+          praedes<lb break="no" ed="#P" n="72"/>tinatus ad gloriam, ex proposito divinae 
+          volun<lb break="no" ed="#P" n="73"/>tatis. Ratio autem est, quia praedestinatio est
+          <lb ed="#P" n="74"/>transmissio quaedam in mente, seu voluntate
+          <lb ed="#P" n="75"/>praedestinantis existens : transmissio autem
+          <lb ed="#P" n="76"/>perfecta non respicit tantum terminum 
+          ulti<lb break="no" ed="#P" n="77"/>mum,, sed etiam viam, nec solam viam , sed
+          <lb ed="#P" n="78"/>attingit etiam ultimum terminum intrinsece,
+          <lb ed="#P" n="79"/>seu inclusive, ut sic dicam : ergo 
+          praedestina<lb break="no" ed="#P" n="80"/>tio complectitur gloriam, ut ultimum 
+          termi<lb break="no" ed="#P" n="81"/>num et gratiam, ut viam. Unde hic quadrat
+          <lb ed="#P" n="82"/>illud Aristotelis: ubi est unum propter aliud
+          <lb ed="#P" n="83"/>ibi est unum tantum. Hic enim praedestinatio
+          <lb ed="#P" n="84"/>ad gratiam est propter gloriam. et praedestinatio
+          <lb ed="#P" n="85"/>ad gloriam est per gratiam : ergo una 
+          com<lb break="no" ed="#P" n="86"/>pleta praedestinatio utrumque terminum 
+          com<lb break="no" ed="#P" n="87"/>plectitur, unum ut ultimum, alium ut 
+          proxi<lb break="no" ed="#P" n="88"/>mum. Sicut unus moius est ad ultimum 
+          termi<lb break="no" ed="#P" n="89"/>num, et ad omnes intermedios.
+        </p>
+        <p xml:id="szduep-062351-d1e954">
+          <lb ed="#P" n="90"/>16. Plures termini gratie ad duo capita
+          <lb ed="#P" n="91"/>reducti. — Ex quo intellgitur terminum 
+          glo<lb break="no" ed="#P" n="92"/>riae esse unum, terminos autem gratia esse
+          <lb ed="#P" n="93"/>plures : sicut in motu unus est postremus
+          <lb ed="#P" n="94"/>terminus, plures autem intermedii. Reducit
+          <lb ed="#P" n="95"/>autem Paulus ad Romanos 8, omnes 
+          termi<lb break="no" ed="#P" n="96"/>nos gratiae ad duo capita, scilicet vocationem et
+          <lb ed="#P" n="97"/>justificationem : sub vocatione comprehendit
+          <lb ed="#P" n="98"/>omnia dona gratiae praevenientis seu 
+          excitan<lb break="no" ed="#P" n="99"/>tis, per quae Deus inchoat salutem in 
+          praedesti<lb break="no" ed="#P" n="100"/>nato: sub justificatione vero comprehendit 
+          om<lb break="no" ed="#P" n="101"/>nia dona gratiae adjuvantis seu cooperantis, per
+          <lb ed="#P" n="102"/>quae perficit Deus sanctificationem 
+          praedesti<lb break="no" ed="#P" n="103"/>nati, eamque conservat usque ad finem vitae.
+          <lb ed="#P" n="104"/>Praeter haec vero, solet interdum praedestinatio
+          <lb ed="#P" n="105"/>terminari ad alias dignitates seu excellentias
+          <lb ed="#P" n="106"/>pertinentes ad ordinem gratiae, ut Beatissima
+          <lb ed="#P" n="107"/>Virgo dici potest praedestinata ad maternitatem
+          <lb ed="#P" n="108"/>divinam, Apostoli dicuntur electi ad 
+          Apostola<lb break="no" ed="#P" n="109"/>tum, etc. At vero haec dona per se non 
+          perti<lb break="no" ed="#P" n="110"/>nent ad gratiam sanctificantem, sed vel ad mi-
+          <pb ed="#P" n="249"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nisteria, vel ad gratias gratis datas. Et ideo 
+          prae<lb break="no" ed="#P" n="2"/>destinatio ad haec dona merito posset distingui
+          <lb ed="#P" n="3"/>rationea praedestinatione simpliciter, quae est ad
+          <lb ed="#P" n="4"/>gratiam et gloriam. Tamen quia in 
+          praedesti<lb break="no" ed="#P" n="5"/>natis haec etiam dona sunt quaedam media,
+          <lb ed="#P" n="6"/>quibus perficiuntur usque ad aeternam salutem
+          <lb ed="#P" n="7"/>(juxta illud: Diligentibus Deum omnia 
+          coope<lb break="no" ed="#P" n="8"/>vantur in bomum), ideo haec omnia sub 
+          adae<lb break="no" ed="#P" n="9"/>quato praedestinationis termino 
+          comprehendi<lb break="no" ed="#P" n="10"/>mus.
+        </p>
+        <p xml:id="szduep-062351-d1e1028">
+          <lb ed="#P" n="11"/>17. Dissolvitur fundamentum primee 
+          senten<lb break="no" ed="#P" n="12"/>tice.—kundamenta aliarum opinionum ex 
+          dic<lb break="no" ed="#P" n="13"/>tis soluta sunt. Ad fundamentum primae 
+          dici<lb break="no" ed="#P" n="14"/>mus ordinationem ad finem praecise sumptam,
+          <lb ed="#P" n="15"/>etiamsi virtute contineat praedestinationem
+          <lb ed="#P" n="16"/>tanquam in radice (supponimus enim esse 
+          or<lb break="no" ed="#P" n="17"/>dinationem absolutam), nihilominus tamen
+          <lb ed="#P" n="18"/>formaliter non continere illam, sine ratione
+          <lb ed="#P" n="19"/>mediorum approbata seu determinata per 
+          vo<lb break="no" ed="#P" n="20"/>untatem.
+        </p>
+        <p xml:id="szduep-062351-d1e1052">
+          <lb ed="#P" n="21"/>Prima responsio ad fundamentum secundee
+          <lb ed="#P" n="22"/>sententia.— Ad fundamentum vero alterius 
+          opi<lb break="no" ed="#P" n="23"/>nionis dicitur, primo. Quamvis voluntas finis
+          <lb ed="#P" n="24"/>respectu hominis qui praedestinatur; tamen
+          <lb ed="#P" n="25"/>respectu ipsius Dei praedestinantis, esse 
+          volun<lb break="no" ed="#P" n="26"/>tatem cujusdam medii, quo gloriam suam et
+          <lb ed="#P" n="27"/>communicationem suae bonitatis assequitur, et
+          <lb ed="#P" n="28"/>hoc satis esse ut talis voluntas sub 
+          praedestina<lb break="no" ed="#P" n="29"/>tione comprehendatur.
+        </p>
+        <p xml:id="szduep-062351-d1e1074">
+          <lb ed="#P" n="30"/>Secunda responsio. — Differentia inter 
+          provi<lb break="no" ed="#P" n="31"/>dentiam et praedestinationem. — Secundo 
+          dici<lb break="no" ed="#P" n="32"/>tur, si vim verborum attendamus, in hoc posse
+          <lb ed="#P" n="33"/>stitui differentiam quamdam inter 
+          providen<lb break="no" ed="#P" n="34"/>contiam et praedestinationem, quod 
+          providen<lb break="no" ed="#P" n="35"/>tia supponit res destinatas ad suos fines, et
+          <lb ed="#P" n="36"/>illis procurat consecutionem eorum per media
+          <lb ed="#P" n="37"/>consentanea. Praedestinatio vero, quoniam 
+          di<lb break="no" ed="#P" n="38"/>cit primam destinationem in animo 
+          praedesti<lb break="no" ed="#P" n="39"/>nantis, complectitur non solum procurationem
+          <lb ed="#P" n="40"/>mediorum, sed etiam ordinationem in ipsum
+          <lb ed="#P" n="41"/>finem. Haec autem differentia inter 
+          praedesti<lb break="no" ed="#P" n="42"/>nationem et providentiam, intelligetur melius
+          <lb ed="#P" n="43"/>ex comparatione inter illas, quam in fine hujus
+          <lb ed="#P" n="44"/>libri commodius trademus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

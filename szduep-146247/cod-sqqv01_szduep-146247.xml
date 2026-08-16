@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="578"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-146247"><!-- t3-l2c3 -->
+        <head xml:id="szduep-146247-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-146247-Hd1e103" type="question-title">Filium secundam trinitatis personam esse verum deum</head>
+        <p xml:id="szduep-146247-d1e106">
+          <lb ed="#P" n="62"/>CAPUT III.
+          <lb ed="#P" n="63"/>FILIUM SECUNDAM TRINITATIS PERSONAM ESSE
+          <lb ed="#P" n="64"/>VERUM DEUM.
+        </p>
+        <p xml:id="szduep-146247-d1e115">
+          <lb ed="#P" n="65"/>1. Arii heresis. — Hoc loco explodenda a
+          <lb ed="#P" n="66"/>nobis est haeresis Arii, quae licet fortasse fuerit
+          <lb ed="#P" n="67"/>illo antiquior, illi tamen specialiter tribuitur,
+          <lb ed="#P" n="68"/>quia illam amplificavit et pertinacius 
+          persua<lb break="no" ed="#P" n="69"/>dere, ac fundare conatus est. Ille igitur, 
+          quam<lb break="no" ed="#P" n="70"/>vis Filium appellaret Deum per quamdam 
+          ex<lb break="no" ed="#P" n="71"/>cellentem participationem, negavit tamen esse
+          <lb ed="#P" n="72"/>vere et essentialiter Deum, aususque est 
+          abso<lb break="no" ed="#P" n="73"/>lute appellare creaturam. Dicebat enim esse
+          <lb ed="#P" n="74"/>factum ex nihilo, imo et temporalem, quamvis
+          <lb ed="#P" n="75"/>productum ante hunc mundum, imo aiebat,
+          <lb ed="#P" n="76"/>ad hunc finem Patrem illum creasse, ut per
+          <lb ed="#P" n="77"/>illum alia crearet. Unde etiam consequenter
+          <lb ed="#P" n="78"/>docebat, non verum Deum, sed hunc Filhium
+          <lb ed="#P" n="79"/>fuisse Incarnatum, quamvis eum, non tantum
+          <lb ed="#P" n="80"/>in carne, sed etiam in propria natura diceret
+          <lb ed="#P" n="81"/>esse subjectum Patri et ad illum orasse, etiam
+          <lb ed="#P" n="82"/>ante Incarnationem, petendo ut sibi daret 
+          ho<lb break="no" ed="#P" n="83"/>mines in haereditatem. Haec omnia sumuntur
+          <lb ed="#P" n="84"/>ex Athanasio, praesertim oratione 2 et 3, 
+          con<lb break="no" ed="#P" n="85"/>tra Arianos, et ex Cyrillo Alex., lib. 6, 
+          The<lb break="no" ed="#P" n="86"/>sauri, cap. 3, et lib. 10, cap. 2 et 9, et hb. 11,
+          <lb ed="#P" n="87"/>in Joannem, cap. 17, Epiphanio, Haeresi, 69,
+          <lb ed="#P" n="88"/>Augustino, in 49, Theodoreto, lib. 3, haeret.
+          <lb ed="#P" n="89"/>fabularum. 
+        </p>
+        <p xml:id="szduep-146247-d1e172">
+          <lb ed="#P" n="90"/>2. Arium postea secuti sunt Aetius et 
+          Eu<lb break="no" ed="#P" n="91"/>nomius, ut constat ex Nycephoro, lib. 9, c. 17,
+          <lb ed="#P" n="92"/>et lib 11, cap. 11, et ex Basilio, libro contra
+          <lb ed="#P" n="93"/>Eunomium. Advertit autem Augustinus, 
+          li<lb break="no" ed="#P" n="94"/>bro 6, de Trinitate, cap. 1, licet Arius dixerit,
+          <lb ed="#P" n="95"/>Filium Dei non esse aeternum, tamen sectatores
+          <lb ed="#P" n="96"/>ejus illum posuisse productum ex aeternitate.
+          <lb ed="#P" n="97"/>Imo Maximinus Arianus etiam concedebat,
+          <lb ed="#P" n="98"/>esse productum ex substantia Patris, non 
+          ta<lb break="no" ed="#P" n="99"/>men consubstantialem, ut colligitur ex eodem
+          <lb ed="#P" n="100"/>post Concilium Nicenum etiam concedebant
+          <lb ed="#P" n="101"/>Ariani, Filium esse per omnia similem Patri, 
+          <lb ed="#P" n="102"/>quomodo loquebantur, ut deciperent 
+          Catholi<lb break="no" ed="#P" n="103"/>admittere illam vocem homousion, de qua plura
+          <lb ed="#P" n="104"/>infra libro quarto.
+        </p>
+        <p xml:id="szduep-146247-d1e208">
+          <pb ed="#P" n="579"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>3. Quid Origenes et Tertulliamus senserint.—
+          <lb ed="#P" n="2"/>De Origene controversia est, an hoc errore
+          <lb ed="#P" n="3"/>lapsus fuerit : illi enim tribuunt Augustinus,
+          <lb ed="#P" n="4"/>haeresi 43. Et Epiphanius, in epistol. ad 
+          Joan<lb break="no" ed="#P" n="5"/>nem Episcopum Hierosoly mitanum, quae etiam
+          <lb ed="#P" n="6"/>habetur inter epistolas Hieronymi, et ex 
+          sexa<lb break="no" ed="#P" n="7"/>gesima. Item Theophylactus Alex., lib. 2, 
+          Pas<lb break="no" ed="#P" n="8"/>chalis. Denique D. Thomas, 1 part., quaest. 34,
+          <lb ed="#P" n="9"/>art. 1, ad 1 Origenem vocat fontem Arianorum.
+          <lb ed="#P" n="10"/>Illum vero ab hac nota defendunt Pamphylus,
+          <lb ed="#P" n="11"/>in Apologia pro Origene, et Ruffinus, lib. 1,
+          <lb ed="#P" n="12"/>Historiae, et Socrates, lib. 6. Et quidem 
+          Atha<lb break="no" ed="#P" n="13"/>nasius, in epistola de decretis Nicenae Synodi,
+          <lb ed="#P" n="14"/>Origenem adducit pro sententia Catholica, et
+          <lb ed="#P" n="15"/>ipse Origenes, lib. 1, Periarchon., cap. 2et 3,
+          <lb ed="#P" n="16"/>non videtur male sentire. Super Joannem vero
+          <lb ed="#P" n="17"/>male loquitur, multi autem censent illa loca
+          <lb ed="#P" n="18"/>fuisse ab haereticis depravata. Denique adhuc
+          <lb ed="#P" n="19"/>sub judice lis est. Similis controversia esse 
+          so<lb break="no" ed="#P" n="20"/>let de Tertulliano, propter quemdam librum de
+          <lb ed="#P" n="21"/>Trinitate illi olim attributum, sed constat 
+          il<lb break="no" ed="#P" n="22"/>lum librum non esse Tertulliani, sed 
+          Novatia<lb break="no" ed="#P" n="23"/>ni, et Tertullianum in libro contra Praxaeam,
+          <lb ed="#P" n="24"/>recte de hoc mysterio scripsisse. Haeretici 
+          deni<lb break="no" ed="#P" n="25"/>que hujus temporis, praesertim in Transylvania
+          <lb ed="#P" n="26"/>ihanc haeresim excitarunt cum omnibus Arii
+          <lb ed="#P" n="27"/>erroribus, ut videri potest in modernis 
+          auc<lb break="no" ed="#P" n="28"/>toribus , praesertim Bellarmino, lib. 1, de
+          <lb ed="#P" n="29"/>Christo.
+        </p>
+        <p xml:id="szduep-146247-d1e278">
+          <lb ed="#P" n="30"/>4. Fundamenta hujus erroris, quae ex ratione
+          <lb ed="#P" n="31"/>sumi possunt, ex parte insinuata sunt, capite
+          <lb ed="#P" n="32"/>praecedenti et aliis superioribus, et latius 
+          dis<lb break="no" ed="#P" n="33"/>solventur in libro quarto. Quae vero 
+          sumeban<lb break="no" ed="#P" n="34"/>tur ex Scriptura, latissime tractantur a 
+          prae<lb break="no" ed="#P" n="35"/>dictis Patribus distincte vero et ordinate ab
+          <lb ed="#P" n="36"/>Idacio Claro, librocontra Varimandum in tomo
+          <lb ed="#P" n="37"/>quarto Bibliothecae, brevius a Fulgentio, lib.
+          <lb ed="#P" n="38"/>ad objectiones Arianorum et optime a divo
+          <lb ed="#P" n="39"/>Thoma 4, contra Gentes, cap. 6 et S. Ubi etiam
+          <lb ed="#P" n="40"/>advertit, errorem hunc ex Platonis philosophia
+          <lb ed="#P" n="41"/>manasse. Nos vero aliquas objectiones infra
+          <lb ed="#P" n="42"/>proponemus, illas praecipue, quae ad 
+          Scriptu<lb break="no" ed="#P" n="43"/>ram intelligendam nonnullam lucem afferre
+          <lb ed="#P" n="44"/>possint.
+        </p>
+        <p xml:id="szduep-146247-d1e313">
+          <lb ed="#P" n="45"/>5. Assertio catholica. — Veritas igitur 
+          Ca<lb break="no" ed="#P" n="46"/>tholica est, Filium secundam personam 
+          Trini<lb break="no" ed="#P" n="47"/>tatis, esse verum Deum per essentiam, aeque
+          <lb ed="#P" n="48"/>ac Patrem. Quae veritas primo probanda est ex
+          <lb ed="#P" n="49"/>Sriptura, quod brevissime expediam, quia res
+          <lb ed="#P" n="50"/>est vulgarissima, et quia tam Patres citati quam
+          <lb ed="#P" n="51"/>imoderni doctores innumera testimonia 
+          conge<lb break="no" ed="#P" n="52"/>runt et expendunt. Ut autem indifferenter 
+          affe<lb break="no" ed="#P" n="53"/>ramus testimonia, supponendum est, Verbum
+          <lb ed="#P" n="54"/>divinum et Filium Dei eamdem esse personam,
+          <lb ed="#P" n="55"/>quod infra suo loco ostendemus. Item est sup-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ponendum hanc eamdem personam esse 
+          Chris<lb break="no" ed="#P" n="57"/>tum Dominum, quod probavi in 1 tom., 3 p.,
+          <lb ed="#P" n="58"/>disp. 12. Haec vero omnia sufficienter patent
+          <lb ed="#P" n="59"/>ex capite primo Joannis, ubi prius dicitur: 
+          Ver<lb break="no" ed="#P" n="60"/>bum esse Dewn, apud Deum, et statim 
+          subdi<lb break="no" ed="#P" n="61"/>tur : Verbum caro factum est, et postea 
+          sub<lb break="no" ed="#P" n="62"/>jungitur esse: Unigenitum Patris.
+        </p>
+        <p xml:id="szduep-146247-d1e357">
+          <lb ed="#P" n="63"/>6. Probatio em Scriptura. — Prima ergo
+          <lb ed="#P" n="64"/>probatio sumenda est absoluta et vera Dei 
+          ap<lb break="no" ed="#P" n="65"/>pellatione : quam Scriptura tribuit Verbo, Filio
+          <lb ed="#P" n="66"/>et Christo. Quod ostendi potest primo ex 
+          ve<lb break="no" ed="#P" n="67"/>teri Testamento, ex illis nimirum locis, quibus
+          <lb ed="#P" n="68"/>praedictum fuit, Messiam fore verum Deum,
+          <lb ed="#P" n="69"/>quae adduxi in primo dicto tomo, disp. 2, ubi
+          <lb ed="#P" n="70"/>etiam ostendi, Christum Dominum esse verum
+          <lb ed="#P" n="71"/>Messiam promissum. Quibus addere necesse
+          <lb ed="#P" n="72"/>est illud, Oseae 1: Salvabo eos in Domino Deo
+          <lb ed="#P" n="73"/>suo. Item illud Jeremiae 23: Ft hoc est 
+          no<lb break="no" ed="#P" n="74"/>men, quod vocabunt eum, Dominus Deus noster.
+          <lb ed="#P" n="75"/>Cui consonat illud Isaiae 9 : Ft vocabitur Deus
+          <lb ed="#P" n="76"/>fortis, et cap. 45: Vere tu es Deus absconditus,
+          <lb ed="#P" n="77"/>id est, Incarnatus, Psal. etiam 23. Christus
+          <lb ed="#P" n="78"/>vocatur BEerc glorie, subditur vero: Quis est
+          <lb ed="#P" n="79"/>iste ev glorie? Et respondetur : Dominus
+          <lb ed="#P" n="80"/>fortis et potens, Dominus virtutum, unde est
+          <lb ed="#P" n="81"/>celebris locus Ps. 109: Divit Dominus Domino
+          <lb ed="#P" n="82"/>meo. Quem locum ad suam divinitatem et 
+          na<lb break="no" ed="#P" n="83"/>turalem filiationem probandam adduxit 
+          Chris<lb break="no" ed="#P" n="84"/>tus Matt. 22, nec Pharisaei habuerunt, quod
+          <lb ed="#P" n="85"/>responderent. Recteque illud testimonium 
+          con<lb break="no" ed="#P" n="86"/>firmant verba Sapientis Eccl. ult.: Invocavi
+          <lb ed="#P" n="87"/>Dominum Patrem Domini mei. Denique sunt
+          <lb ed="#P" n="88"/>optima verba Job, cap. 19: Credo quod 
+          Redemp<lb break="no" ed="#P" n="89"/>tor ineus vivit, et infra: Videbo Deum salvatorem
+          <lb ed="#P" n="90"/>mewn, quem oculi met conspecturi sunt.
+        </p>
+        <p xml:id="szduep-146247-d1e420">
+          <lb ed="#P" n="91"/>7. Ex novo Testamento fere totum 
+          Evange<lb break="no" ed="#P" n="92"/>lium Joannis adduci potest ad confirmandam
+          <lb ed="#P" n="93"/>hanc veritatem, imo propter hunc finem 
+          po<lb break="no" ed="#P" n="94"/>tissime fuisse conscriptum contra Ebionem,
+          <lb ed="#P" n="95"/>Cherintum et alios haereticos, testantur 
+          Hiero<lb break="no" ed="#P" n="96"/>nymus, lib. de Scriptoribus Eccl. in Joanne, et
+          <lb ed="#P" n="97"/>Ireneeus, lib. 3, q. 11, Epiphanius, haeresi 51, et
+          <lb ed="#P" n="98"/>expositores communiter in principio Evangelii
+          <lb ed="#P" n="99"/>Joannis. Idem probatur ex Epistola 1, ejusdem
+          <lb ed="#P" n="100"/>Joannis, praesertim ex ultimis verbis ejus, uf
+          <lb ed="#P" n="101"/>simus in vero lilio ejus, lic est verus Deus.
+          <lb ed="#P" n="102"/>Nam licet Erasmus illudere voluerit hoc 
+          testi<lb break="no" ed="#P" n="103"/>monium, dicens, illud pronomen ic referri
+          <lb ed="#P" n="104"/>ad illud relativum ejus, quod proxime 
+          praeces<lb break="no" ed="#P" n="105"/>sit, atque ita designare personam Patris et non
+          <lb ed="#P" n="106"/>Filii ; nihilominus Athanasius in disputatione
+          <lb ed="#P" n="107"/>cum Ario in Concilio Niceno, testimonium
+          <lb ed="#P" n="108"/>hoc vocat Scriptam demonstrationem. Neque
+          <lb ed="#P" n="109"/>ipsi Ariani ausi fuerunt negare, illud 
+          prono<lb break="no" ed="#P" n="110"/>men Aic designare Filium, nam contextus id
+          <pb ed="#P" n="580"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>requirit, et omnes interpretes ita semper 
+          ex<lb break="no" ed="#P" n="2"/>posuerunt, et in graeco textu praecedentia 
+          ver<lb break="no" ed="#P" n="3"/>ba ità cordinantur, et connectuntur sequentibus
+          <lb ed="#P" n="4"/>ut nullum dent locum tergiversationibus. 
+          Prae<lb break="no" ed="#P" n="5"/>terquam quod sola illa verba : Ut simus in
+          <lb ed="#P" n="6"/>vero Filio ejus, ad confirmandam yeritatem
+          <lb ed="#P" n="7"/>sufficerent, ut statim dicam. :
+        </p>
+        <p xml:id="szduep-146247-d1e485">
+          <lb ed="#P" n="8"/>8. Praeterea ex Paulo sunt innumera 
+          testi<lb break="no" ed="#P" n="9"/>monia : illustrissimum est totum caput 
+          pri<lb break="no" ed="#P" n="10"/>mum ad Hebraeos: sunt etiam optima verba ad
+          <lb ed="#P" n="11"/>Rom. 9: Qui est super omnia Deus benedictus
+          <lb ed="#P" n="12"/>in seecula, loquitur etiam aperte de CHRISTO,
+          <lb ed="#P" n="13"/>quidquid etiam Erasmus tergiversetur, contra
+          <lb ed="#P" n="14"/>expositores omnes. Item ad Titum 2: 
+          Zapec<lb break="no" ed="#P" n="15"/>tantes beatam spem, et adventum glorie magni
+          <lb ed="#P" n="16"/>Dei, et Salvatoris nostri Jesu Christi. Quae
+          <lb ed="#P" n="17"/>verba ita etiam dividit Erasmus, ut illam 
+          vo<lb break="no" ed="#P" n="18"/>cem magnun Dewn retferat ad Patrem. Sed
+          <lb ed="#P" n="19"/>contra omnes et ineptissime : non enim 
+          expec<lb break="no" ed="#P" n="20"/>tamus adventum Patris, sed Filii ad 
+          judican<lb break="no" ed="#P" n="21"/>dum. Ideo enim vocavit Paulus, adventum 
+          glo<lb break="no" ed="#P" n="22"/>ric, ut significaret se loqui de secundo 
+          ad<lb break="no" ed="#P" n="23"/>ventu, de quo Christus dixerat: Cum venerit
+          <lb ed="#P" n="24"/>Filius hominis in sede majestatis suae, etc.,
+          <lb ed="#P" n="25"/>Matt. 25. Denique facit illud ejusdem Pauli
+          <lb ed="#P" n="26"/>Act. 20: Posuit vos Spiritus sanctus regere
+          <lb ed="#P" n="27"/>Ecclesium Dei, quam acquisivit sanguine suoc.
+          <lb ed="#P" n="28"/>Deus ergo ipse est, qui sanguine suo Ecclesiam
+          <lb ed="#P" n="29"/>redemit : ille autem est Filius.
+        </p>
+        <p xml:id="szduep-146247-d1e536">
+          <lb ed="#P" n="30"/>9. Occurritur evasionibus hereticorum. —
+          <lb ed="#P" n="31"/>Ad haec testimonia variis modis conati sunt
+          <lb ed="#P" n="32"/>respondere et antiqui, et novi Ariani. Primo,
+          <lb ed="#P" n="33"/>negando aliqua illorum pertinere ad 
+          Scriptu<lb break="no" ed="#P" n="34"/>ram canonicam. Sed neque hoc dicere de 
+          om<lb break="no" ed="#P" n="35"/>nibus potuerunt, nec de aliquo, sine nova 
+          hae<lb break="no" ed="#P" n="36"/>resi, praeterquam quod hoc modo evertunt
+          <lb ed="#P" n="37"/>omnium auctoritatem, quia non est major
+          <lb ed="#P" n="38"/>ratio admittesdi unum, quam alia. Secundo
+          <lb ed="#P" n="39"/>conati sunt ita interpretari, ut in eis, non sit
+          <lb ed="#P" n="40"/>sermo de Filo, sicut in aliquibus attigimus,
+          <lb ed="#P" n="41"/>sed neque hoc etiam ausi sunt dicere de 
+          om<lb break="no" ed="#P" n="42"/>nibus. Unde etiam Erasmus (qui in hac parte
+          <lb ed="#P" n="43"/>suspectus est) fatetur illa verba Thomae, Joan.
+          <lb ed="#P" n="44"/>20: Domimus meus et Deus meus, ad Christum
+          <lb ed="#P" n="45"/>esse referenda et probare ejus divinitatem. Et
+          <lb ed="#P" n="46"/>praeterea certissimum est, nullum ex dictis
+          <lb ed="#P" n="47"/>testimoniis posse ad aliam personam commode
+          <lb ed="#P" n="48"/>referri. Unde tertio convicti Ariani 
+          concede<lb break="no" ed="#P" n="49"/>bant, Filium vocari in Scriptura Deum et 
+          mag<lb break="no" ed="#P" n="50"/>num, et verum, nihilominus tamen dicebant
+          <lb ed="#P" n="51"/>esse aequivoce, vel analogice Deum et 
+          inferio<lb break="no" ed="#P" n="52"/>rem Patre. Quibus sufficienter respondemus
+          <lb ed="#P" n="53"/>verbis Irenaei, lib. 3, contra haereses, cap. 6:
+          <lb ed="#P" n="54"/>Nunquam Dominus, vel Spiritus sanctus, vel
+          <lb ed="#P" n="55"/>Apostoli ewn, qui non esset Deus, definitive et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>absolute Deum appellassent. Et sane merito:
+          <lb ed="#P" n="57"/>alias nobis occasionem dedissent et admittendi
+          <lb ed="#P" n="58"/>plures Deos, et tribuendi creaturae amorem, et
+          <lb ed="#P" n="59"/>adorationem soli supremo Deo debitam. 
+          Ac<lb break="no" ed="#P" n="60"/>cedit, quod si talis expositio admittatur, nihil
+          <lb ed="#P" n="61"/>possumus ex Scriptura probare: nec de Patre
+          <lb ed="#P" n="62"/>ipso, quod sit verus Deus.
+        </p>
+        <p xml:id="szduep-146247-d1e612">
+          <lb ed="#P" n="63"/>10. Ultra haec vero, tribuuntur in Scriptura
+          <lb ed="#P" n="64"/>Christo Domino illa attributa, quae satis 
+          de<lb break="no" ed="#P" n="65"/>clarant, propriissime vocari Deum summum
+          <lb ed="#P" n="66"/>et per essentiam. Solus enim hic Deus solet in
+          <lb ed="#P" n="67"/>Scriptura Altissimus vocari, juxta id Ps. 82:
+          <lb ed="#P" n="68"/>Tu solus altissimus super omnem terram, et
+          <lb ed="#P" n="69"/>tamen haec appellatio Christo tribuitur Lucae 1.
+          <lb ed="#P" n="70"/>Idem est de illa Reax regum et Dominus 
+          domi<lb break="no" ed="#P" n="71"/>nantium, quae solius summi Dei propria est,
+          <lb ed="#P" n="72"/>ut dicitur 4, ad Tim. 6, et tamen Christus ita
+          <lb ed="#P" n="73"/>appellatur Apoc. 17, et in Epist. Judae vocatur
+          <lb ed="#P" n="74"/>Dominator Dominus. Unde etiam 
+          omnipoten<lb break="no" ed="#P" n="75"/>tia illi tribuitur Joan. 5, et immensitas 
+          Ba<lb break="no" ed="#P" n="76"/>ruch 3, et aeternitas Joan. 1 et 10, Micheae 5,
+          <lb ed="#P" n="77"/>et seepe alias. Ex quo aeternitatis attributo
+          <lb ed="#P" n="78"/>saepe colligunt Patres divinitatem Verbi, vel
+          <lb ed="#P" n="79"/>quia supponunt secundum fidem nullam 
+          crea<lb break="no" ed="#P" n="80"/>turam esse aeternam, vel certe quia loquuntur
+          <lb ed="#P" n="81"/>de aeternitate propria et per essentiam, quae
+          <lb ed="#P" n="82"/>requirit omnimodam immutabilitatem, quae
+          <lb ed="#P" n="83"/>etiam Filio tribuitur ad Hebr. 1, ibi, Tu 
+          au<lb break="no" ed="#P" n="84"/>tem idem ipse es. Ubi etiam dicitur, Filium
+          <lb ed="#P" n="85"/>adorari ab angelis, adoratione utique soli Deo
+          <lb ed="#P" n="86"/>debita, ut ex Ps. 96, etiam colligitur. Alia duo
+          <lb ed="#P" n="87"/>principalia argumenta, quae sumuntur ex 
+          fi<lb break="no" ed="#P" n="88"/>liatione et ex aequalitate, remittimus in propria
+          <lb ed="#P" n="89"/>loca, infra tractanda.
+        </p>
+        <p xml:id="szduep-146247-d1e673">
+          <lb ed="#P" n="90"/>11. Ex conciliis probatio. — Ultimo 
+          adjun<lb break="no" ed="#P" n="91"/>gere possumus definitionem Ecclesiae, quia ita
+          <lb ed="#P" n="92"/>est frequens, ut uno verbo concludi possit.
+          <lb ed="#P" n="93"/>Nam fere omnes Pontifices antiquiores 
+          Conci<lb break="no" ed="#P" n="94"/>lio Niceno in suis Epistolis decretalibus hanc
+          <lb ed="#P" n="95"/>fidem docuerunt. Quam expressius et proprius
+          <lb ed="#P" n="96"/>ac definitis verbis postea tradidit Concilium
+          <lb ed="#P" n="97"/>Nicenum 1. Quod secuta sunt omnia generalia,
+          <lb ed="#P" n="98"/>usque ad Florentinum et Tridentinum, et ex 
+          <lb ed="#P" n="99"/>provincialibus praecipue Toletana, et inter ea
+          <lb ed="#P" n="100"/>maxime sextum, et undecimum, et 
+          Bracha<lb break="no" ed="#P" n="101"/>rense 1, et Hispalense 2. Patres omitto, quia
+          <lb ed="#P" n="102"/>sufficiunt insinuati, et quia passim inveniuntur
+          <lb ed="#P" n="103"/>integra eorum opera ad hanc veritatem 
+          con<lb break="no" ed="#P" n="104"/>firmandam. Ratio autem hic non est alia, 
+          prae<lb break="no" ed="#P" n="105"/>ter eas congruentias, quae in fine libri primi 
+          <lb ed="#P" n="106"/>adductae sunt. Theologica autem ratio optima
+          <lb ed="#P" n="107"/>sumitur ex mysterio Incarnationis. Nam ut 
+          <lb ed="#P" n="108"/>dixit Leo papa, si Redemptor noster non esset 
+          <lb ed="#P" n="109"/>verus Deus, non attulisset remedium, 
+          perfec<lb break="no" ed="#P" n="110"/>tum, videlicet et efficax, imo, ut probatiores 
+          <pb ed="#P" n="581"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>theologi volunt, nec potuisset sibi unire 
+          hy<lb break="no" ed="#P" n="2"/>postatice alienam naturam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

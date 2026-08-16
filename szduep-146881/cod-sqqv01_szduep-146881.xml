@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="581"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-146881"><!-- t3-l2c4 -->
+        <head xml:id="szduep-146881-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-146881-Hd1e103" type="question-title">Respondetur argumentis haereticorum contra veram filii divinitatem</head>
+        <p xml:id="szduep-146881-d1e106">
+          <lb ed="#P" n="3"/>CAPUT IV.
+          <lb ed="#P" n="4"/>RESPONDETUR ARGUMENTIS HAERETICORUM CONTRA
+          <lb ed="#P" n="5"/>VERAM FILII DIVINITATEM.
+        </p>
+        <p xml:id="szduep-146881-d1e115">
+          <lb ed="#P" n="6"/>1. Contra demonstratam veritatem 
+          Catho<lb break="no" ed="#P" n="7"/>licam objiciebant primo Ariani verba illa
+          <lb ed="#P" n="8"/>Joannis 17: Hec est vita aeterna, ut cognoscant
+          <lb ed="#P" n="9"/>te solum Deum verum, et quem misisti, Jesum
+          <lb ed="#P" n="10"/>Christum. et illa 1, ad Tim. 6: Usque ad 
+          ad<lb break="no" ed="#P" n="11"/>ventum Domini nostri Jesu Christi, quem suis
+          <lb ed="#P" n="12"/>temporibus ostendet beatus et solus potens Nex
+          <lb ed="#P" n="13"/>Regum et Dominus Dominantium. Ex quibus
+          <lb ed="#P" n="14"/>verbis colligebant, solam personam Patris esse
+          <lb ed="#P" n="15"/>verum Deum.
+        </p>
+        <p xml:id="szduep-146881-d1e139">
+          <lb ed="#P" n="16"/>2. Particula exclusiva quomodo 
+          interpretan<lb break="no" ed="#P" n="17"/>da.—Ad hanc objectionem respondent imprimis
+          <lb ed="#P" n="18"/>omnes antiqui Patres, illam particulam solus,
+          <lb ed="#P" n="19"/>poni ad excludendos falsos Deos, non vero ad
+          <lb ed="#P" n="20"/>excludendas alias Trinitatis personas. Ita 
+          res<lb break="no" ed="#P" n="21"/>pondent Athanasius, in illa disputatione cum
+          <lb ed="#P" n="22"/>Ario, et Nazianzenus, orat. 4 de Theologia,
+          <lb ed="#P" n="23"/>Basilius, 4, contra Eunomium, Cyprianus, in
+          <lb ed="#P" n="24"/>exhortatione ad martyres, et caeteri omnes.
+          <lb ed="#P" n="25"/>Hoc autem duplici modo potest verificari. Unus
+          <lb ed="#P" n="26"/>est, ut illa vel similia verba non intelligantur
+          <lb ed="#P" n="27"/>de Patre, sed de tota Trinitate. Hunc exponendi
+          <lb ed="#P" n="28"/>modum indicavit Augustinus, lib. 6, de 
+          Trini<lb break="no" ed="#P" n="29"/>tate, c. 9, et quadrat optime in posterius 
+          testi<lb break="no" ed="#P" n="30"/>monium Pauli, tum quia ibi nulla facta erat
+          <lb ed="#P" n="31"/>mentio de Patre: tum etiam quia tota Trinitas
+          <lb ed="#P" n="32"/>suo tempore ostendet Christum in gloria, tota
+          <lb ed="#P" n="33"/>ergo Trinitas est, quae dicitur solus Deus potens.
+          <lb ed="#P" n="34"/>Ad aliud vero testimonium non ita commode
+          <lb ed="#P" n="35"/>aptatur illa expositio, quia illa sunt verba
+          <lb ed="#P" n="36"/>Christi loquentis ad Patrem suum, quae 
+          appel<lb break="no" ed="#P" n="37"/>latio est propria Primae personae, comparatione
+          <lb ed="#P" n="38"/>Ghristi.
+        </p>
+        <p xml:id="szduep-146881-d1e192">
+          <lb ed="#P" n="39"/>3. Alio ergo modo intelliguntur similia 
+          ver<lb break="no" ed="#P" n="40"/>ba de persona Patris: verificantur autem, quia
+          <lb ed="#P" n="41"/>sensus est, illum esse verum atque unicum
+          <lb ed="#P" n="42"/>Deum. Unde est advertendum, illam particulam
+          <lb ed="#P" n="43"/>solum, non esse ibi adverbium, sed nomen, nec
+          <lb ed="#P" n="44"/>conjungi cum subjecto seu pronomine, fe, sed
+          <lb ed="#P" n="45"/>cum nomine, Dewn, et ideo in vulgata latina
+          <lb ed="#P" n="46"/>merito interponitur virgula, in graeco vero 
+          ad<lb break="no" ed="#P" n="47"/>ditur articulus -ov, ut sensus sit: Ut 
+          cognos<lb break="no" ed="#P" n="48"/>ccandt te, illum solum ac verum Deum, et ta 
+          ex<lb break="no" ed="#P" n="49"/>cluduntur tantum falsi dii, ut citati Patres 
+          no<lb break="no" ed="#P" n="50"/>tarunt. Quia licet Filius et Spiritus sanctus non
+          <lb ed="#P" n="51"/>sint Pater, sunt unicus Deus cum Patre: ac
+          <lb ed="#P" n="52"/>proinde sunt ille solus ac verus Deus, qui est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Pater. Addunt subinde iidem Sancti Patres, ibi
+          <lb ed="#P" n="54"/>potius conjungi Filium cum Patre in illa sola
+          <lb ed="#P" n="55"/>ac vera Deitate, cum additur: et quem misisti
+          <lb ed="#P" n="56"/>Jesum Christum. Quod notavit Athanasius,
+          <lb ed="#P" n="57"/>disp. cum Ario in Concilio Niceno, et lib. de
+          <lb ed="#P" n="58"/>Incarnatione Christi, prope finem: insinuat
+          <lb ed="#P" n="59"/>Cyprianus, lib. 2, contra Judaeos, quatenus ex
+          <lb ed="#P" n="60"/>hoc loco probat Christi divinitatem. Et 
+          Ambro<lb break="no" ed="#P" n="61"/>sius, lib. 5, de Fide, cap. 2. Qui adjungit 
+          opti<lb break="no" ed="#P" n="62"/>mam probationem, scilicet, quia Filius est etiam
+          <lb ed="#P" n="63"/>vita aeterna (scilicet objectiva), simul cum 
+          Pa<lb break="no" ed="#P" n="64"/>tre, ut in eodem loco significatur, et ideo 
+          po<lb break="no" ed="#P" n="65"/>tius inde probatur ejus divinitas. (Quod egregie
+          <lb ed="#P" n="66"/>confirmatur ex Epist. 1, Joannis, c. 5, ubi de
+          <lb ed="#P" n="67"/>Filio dicitur: Hic verus Deus et vita eterna.
+        </p>
+        <p xml:id="szduep-146881-d1e260">
+          <lb ed="#P" n="68"/>4. Ultimo addit Augustinus 3, libro contra
+          <lb ed="#P" n="69"/>Maximinum, cap. 13, etiamsi de Patre 
+          dicere<lb break="no" ed="#P" n="70"/>tur, ipsum solum esse Deum, particula, solum,
+          <lb ed="#P" n="71"/>exclusive sumpta, non propterea fore 
+          exclu<lb break="no" ed="#P" n="72"/>dendum Filium aut Spiritum sanctum, quia
+          <lb ed="#P" n="73"/>sub Patre intelligitur Filius, sine quo esse non
+          <lb ed="#P" n="74"/>potest, et consequenter etiam Spiritus, qui est
+          <lb ed="#P" n="75"/>nexus amborum. Insinuans, hic habere locum
+          <lb ed="#P" n="76"/>regulam dialecticorum, exclusivam non 
+          exclu<lb break="no" ed="#P" n="77"/>dere concomitantia. Quod tamen magis 
+          expli<lb break="no" ed="#P" n="78"/>cans D. Thomas, 1 part., quaest. 31, art. 4,
+          <lb ed="#P" n="79"/>dicit, illam locutionem esse veram, si eacludat
+          <lb ed="#P" n="80"/>aliud, non vero, si excludat alium. Unde, quia
+          <lb ed="#P" n="81"/>in rigore videtur magis excludere suppositum
+          <lb ed="#P" n="82"/>quam naturam: addit D. Thomas illam 
+          locu<lb break="no" ed="#P" n="83"/>tionem in illa significatione exclusiva non esse
+          <lb ed="#P" n="84"/>usurpandam : sed, ubi inventa fuerit, pie 
+          ex<lb break="no" ed="#P" n="85"/>plicandam. Quam doctrinam habet etiam 
+          Alen<lb break="no" ed="#P" n="86"/>sis, 1 part., quaest. 65, memb. 3, Scotus, 
+          Du<lb break="no" ed="#P" n="87"/>randus et alii in 1, dist. 21.
+        </p>
+        <p xml:id="szduep-146881-d1e306">
+          <lb ed="#P" n="88"/>5. Particula nemo exponitur.—E juxta haec
+          <lb ed="#P" n="89"/>exponuntur nonnulla alia Scripturae loca 
+          si<lb break="no" ed="#P" n="90"/>milia vel aequivalentia. Primus est Matth. 11:
+          <lb ed="#P" n="91"/>Nemo novit Filium , nisi Pater. Constat enim
+          <lb ed="#P" n="92"/>non excludi Filium a cognitione sui ipsius.
+          <lb ed="#P" n="93"/>Sicut cum additur: NVeque Patrem quis novit,
+          <lb ed="#P" n="94"/>nisi Filius : non negatur, quin Pater seipsum
+          <lb ed="#P" n="95"/>cognoscat, quod explicare non fuit necesse,
+          <lb ed="#P" n="96"/>quia per se notum erat, ut notavit Augustinus,
+          <lb ed="#P" n="97"/>loco proxime citato, et divus Thomas 4, contra
+          <lb ed="#P" n="98"/>Gentes, capite 8. Alius locus, eodem modo 
+          in<lb break="no" ed="#P" n="99"/>telligendus est Matth. 24: De illa hora nemo
+          <lb ed="#P" n="100"/>scit, neque angeli, nisi solus Pater. Sed in hoc
+          <lb ed="#P" n="101"/>testimonio orta est peculiaris difficultas ex
+          <lb ed="#P" n="102"/>Marco, capite 13, quia expresse addidit ilam
+          <lb ed="#P" n="103"/>particulam, neque Filius. Sed Ma ab aliquibus
+          <lb ed="#P" n="104"/>Patribus exponitur de Filio ut homine. At vero
+          <lb ed="#P" n="105"/>etiam Christus ut homo non potest dici nescire,
+          <lb ed="#P" n="106"/>quia ignoret. Oportet ergo exponere, illud 
+          pe<lb break="no" ed="#P" n="107"/>culiariter dictum esse, quia mysterium illud
+          <pb ed="#P" n="582"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ultimi diei, veluti sub secreto sciebat, ut aliis
+          <lb ed="#P" n="2"/>non revelaret. Pater autem ipsi revelaverat, ut
+          <lb ed="#P" n="3"/>late exposui, 3 part., quaest. 10, in 
+          commen<lb break="no" ed="#P" n="4"/>tariis, art. 2. Alius denique locus est Lucae 18:
+          <lb ed="#P" n="5"/>Quid me vocas bonum ? (ait Christus) nemo 
+          bo<lb break="no" ed="#P" n="6"/>nus, nisi solus Deus. Qui facile exponi poterat
+          <lb ed="#P" n="7"/>dicendo, sermonem esse de Deo ut totam 
+          Tri<lb break="no" ed="#P" n="8"/>nitatem includit, et de bono simpliciter et per
+          <lb ed="#P" n="9"/>essentiam, neque excludi Filium ut Deum, sed
+          <lb ed="#P" n="10"/>solum ratione humanitatis. Sancti vero Patres
+          <lb ed="#P" n="11"/>addiderunt, CHRISTUM non negasse se esse
+          <lb ed="#P" n="12"/>bonum: sed reprehendisse illum, qui se 
+          voca<lb break="no" ed="#P" n="13"/>ret bonum, cum non confiteretur Deum, per
+          <lb ed="#P" n="14"/>hoc potius insinuans, se esse verum Deum. Ita
+          <lb ed="#P" n="15"/>D. Athanasius supra, et dialogo 1, de Trinit.
+          <lb ed="#P" n="16"/>contra Anomeos. Et optime Ambrosius in 
+          eum<lb break="no" ed="#P" n="17"/>dem locum Lucae, et lib. de Fide, cap. 1. Ali
+          <lb ed="#P" n="18"/>etiam doctores, Matth. 19, eodem modo 
+          expo<lb break="no" ed="#P" n="19"/>nunt.
+        </p>
+        <p xml:id="szduep-146881-d1e397">
+          <lb ed="#P" n="20"/>6. Quo sensu Pater dicatur major.—
+          Secun<lb break="no" ed="#P" n="21"/>da objectio principalis sumitur ex verbis 
+          Jo<lb break="no" ed="#P" n="22"/>annis 14. Pater major me est. Quae verba etiam
+          <lb ed="#P" n="23"/>de Filio ut Deo intelligunt multi Patres Graeci,
+          <lb ed="#P" n="24"/>Athanasius, oratione 2, contra Arianos, et
+          <lb ed="#P" n="25"/>libro deSynodo Ariminio, Basilius, Nazianzenus
+          <lb ed="#P" n="26"/>et alii. Et ex latinis Hilarius, lib. 5, 6 et 11,
+          <lb ed="#P" n="27"/>de Trinit., qui addit, ita Patrem vocari 
+          majo<lb break="no" ed="#P" n="28"/>rem, ut tamen Filius minor non sit. Unde 
+          si<lb break="no" ed="#P" n="29"/>gnificat, Christum vocari majorem sola 
+          appel<lb break="no" ed="#P" n="30"/>latione et juxta humanam quamdam 
+          existi<lb break="no" ed="#P" n="31"/>mationem, qua esse Patrem videtur esse 
+          cu<lb break="no" ed="#P" n="32"/>jusdam majoris auctoritatis. Damascenus vero
+          <lb ed="#P" n="33"/>1, de Fide, cap. 9, ita correxit locutionem, ut
+          <lb ed="#P" n="34"/>dixerit : Patrem esse majorem, non uatura, vel
+          <lb ed="#P" n="35"/>dignitate, sed tantum origine. Indicans, esse
+          <lb ed="#P" n="36"/>majorem, nihil aliud esse, quam esse priorem
+          <lb ed="#P" n="37"/>origine, quamvis alii conentur aliter exponere,
+          <lb ed="#P" n="38"/>ut melius referam sequenti libro. Haec autem
+          <lb ed="#P" n="39"/>a nobis dicta sint propter auctoritatem 
+          dic<lb break="no" ed="#P" n="40"/>torum Patrum. Nam sensus litteralis est, 
+          Chris<lb break="no" ed="#P" n="41"/>tum Dominum id dixisse ratione suae 
+          huma<lb break="no" ed="#P" n="42"/>nitatis, ut esponunt Ambrosius, lib. 2, de Fide,
+          <lb ed="#P" n="43"/>cap. 4 etlib. 5, cap. S, Augustinus 1, de Trinit.,
+          <lb ed="#P" n="44"/>cap. 7, 11 et 3, contra Maximinum, cap. 24.
+          <lb ed="#P" n="45"/>Idacius, lib. 3, contra Varimandum, et 
+          exposi<lb break="no" ed="#P" n="46"/>tores communiter. Et patet ex verbis 
+          antece<lb break="no" ed="#P" n="47"/>dentibus loquebatur enim Christus de se, ut
+          <lb ed="#P" n="48"/>profecturo ad Patrem: discedebat autem, non
+          <lb ed="#P" n="49"/>in quantum Deus, sed in quantum homo: ergo
+          <lb ed="#P" n="50"/>in illis verbis, quae proxime subjungit, de se,
+          <lb ed="#P" n="51"/>ut homine locutus est. Ac propterea talis 
+          locu<lb break="no" ed="#P" n="52"/>tio non invenitur de Spiritu sancto, quamvis
+          <lb ed="#P" n="53"/>sit posterior origine, quia nunquam 
+          assump<lb break="no" ed="#P" n="54"/>sit naturam creatam.
+        </p>
+        <p xml:id="szduep-146881-d1e475">
+          <lb ed="#P" n="55"/>7. Et juxta hunc modum intelligenda sunt
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>omnia Scriptura loca, in quibus de Christo
+          <lb ed="#P" n="57"/>Domino quaedam praedicantur, quae illum 
+          mi<lb break="no" ed="#P" n="58"/>norem, vel inferiorem indicant, ut esse 
+          obe<lb break="no" ed="#P" n="59"/>dientem, esse subjectum, etc. De quo attributo
+          <lb ed="#P" n="60"/>olim fuit controversia, quia Ariani 
+          contende<lb break="no" ed="#P" n="61"/>bant, Filium ut Deum esse subjectum. Quod
+          <lb ed="#P" n="62"/>etiam admittit Concilium Sirmiense. Sed illud
+          <lb ed="#P" n="63"/>non est authenticum. Quamvis Hilarius, libro
+          <lb ed="#P" n="64"/>de Synodis, illud pie interpretetur, ut 
+          subjec<lb break="no" ed="#P" n="65"/>tio solum significaret concordiam quasi ex 
+          ne<lb break="no" ed="#P" n="66"/>cessitate naturae: ita enim aliquando sumi
+          <lb ed="#P" n="67"/>vocem illam, dixerunt etiam Theophylactus et
+          <lb ed="#P" n="68"/>OEcumenius, 1, ad Corinth. 15, veritas autem
+          <lb ed="#P" n="69"/>est, subjectionem convenire CHRISTO ut 
+          ho<lb break="no" ed="#P" n="70"/>mini, ut latius explicavi, 3 part., quaest. 20,
+          <lb ed="#P" n="71"/>in Commentariis, art. 1 et 2. Cur autem 
+          spe<lb break="no" ed="#P" n="72"/>cialiter dicatur Christus futurus subjectus 
+          Pa<lb break="no" ed="#P" n="73"/>tri post mundi consummationem 1, ad Cor.
+          <lb ed="#P" n="74"/>15, tractavi late 2 tom., 3 partis disputatione
+          <lb ed="#P" n="75"/>ultima, sectione ultima.
+        </p>
+        <p xml:id="szduep-146881-d1e525">
+          <lb ed="#P" n="76"/>8. Tertia objectio sit, quia interdum 
+          secun<lb break="no" ed="#P" n="77"/>da persona dicitur creari in Scriptura 
+          Prover<lb break="no" ed="#P" n="78"/>biorum 8: Dominnus creavit me, etc. Et 
+          Eccle<lb break="no" ed="#P" n="79"/>siast. 24: Qui creavit me, reguievit in 
+          taber<lb break="no" ed="#P" n="80"/>naculo meo. Imo additur, Ab initio, et ante 
+          see<lb break="no" ed="#P" n="81"/>cula creata sum. Quod non potest intelligi de
+          <lb ed="#P" n="82"/>Christo, ut homo est. Et ideo dicitur divina
+          <lb ed="#P" n="83"/>Sapientia, Primogenita omnis creaturae. Quam
+          <lb ed="#P" n="84"/>locutione usurpavit Paulus et tribuit Christo
+          <lb ed="#P" n="85"/>ad Colos. 1.
+        </p>
+        <p xml:id="szduep-146881-d1e550">
+          <lb ed="#P" n="86"/>9. Christus an et quomodo creatus dicatur.
+          <lb ed="#P" n="87"/>— Ex his vero locis, primus non habet 
+          diffi<lb break="no" ed="#P" n="88"/>cultatem juxta vulgatam lectionem: in qua
+          <lb ed="#P" n="89"/>non legitur Dominus creavit me, sed Dominus
+          <lb ed="#P" n="90"/>possedit me. Et eodem modo habet Hebraea:
+          <lb ed="#P" n="91"/>significat autem phrasisilla generationem, ut
+          <lb ed="#P" n="92"/>Genes. 4: Possedi hominem per Dewn. Unde
+          <lb ed="#P" n="93"/>subditur : Ante omnes colles ego parturiebar.
+          <lb ed="#P" n="94"/>Atque ita potest ille locus intelligi de Filio,
+          <lb ed="#P" n="95"/>ut Deus est. Nec refert, quod dicatur 
+          primo<lb break="no" ed="#P" n="96"/>genitus omnis creaturae: nam imprimis illa
+          <lb ed="#P" n="97"/>ipsa voce non dicitur factus, sed genitus : 
+          Pri<lb break="no" ed="#P" n="98"/>o autem dicitur, solum, quia generatio ejus
+          <lb ed="#P" n="99"/>eeternitate antecessit creaturarum 
+          productio<lb break="no" ed="#P" n="100"/>nem, ut exponunt Chrysostomus et 
+          Ambro<lb break="no" ed="#P" n="101"/>sius, ad Colos. 1, addit etiam D. Thomas 4,
+          <lb ed="#P" n="102"/>contra Gentes, cap. 8, generationem illam 
+          so<lb break="no" ed="#P" n="103"/>lere significari nomine creationis, non quia
+          <lb ed="#P" n="104"/>sit ex nihilo, sed ad significandum, esse sine
+          <lb ed="#P" n="105"/>illa mutatione producentis, vel producti. Quod
+          <lb ed="#P" n="106"/>in quadam Synodo Orientali ita explicatum
+          <lb ed="#P" n="107"/>esse refert Hilarius, libro de Synodis. Nam
+          <lb ed="#P" n="108"/>quia generatio illa aeterna non satis explicatur
+          <lb ed="#P" n="109"/>voce generationis, prout est in usu hominum,
+          <lb ed="#P" n="110"/>apud quos et apud omnes creaturas generatio
+          <pb ed="#P" n="583"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fit cum mutatione et imperfectione, ideo 
+          ad<lb break="no" ed="#P" n="2"/>ditur alia vox creationis, ut excludatur illa
+          <lb ed="#P" n="3"/>imperfectio: et ambae simul conjungantur, ut
+          <lb ed="#P" n="4"/>ex utraque sumatur, quod perfectionis est et
+          <lb ed="#P" n="5"/>imperfectiones excludantur, intelligaturque,
+          <lb ed="#P" n="6"/>generationem illam altioris esse rationis.
+        </p>
+        <p xml:id="szduep-146881-d1e624">
+          <lb ed="#P" n="7"/>10. Nihilominus multi Patres illa loca 
+          in<lb break="no" ed="#P" n="8"/>telligunt de Christo ut homine, quia 
+          secun<lb break="no" ed="#P" n="9"/>dum humanitatem creatus est, et ante omnem
+          <lb ed="#P" n="10"/>creaturam dicitur creatus, seu primogenitus,
+          <lb ed="#P" n="11"/>quia in mente Dei fuit primo intentus et 
+          ordi<lb break="no" ed="#P" n="12"/>natus. De qua re dixi late in 1. tom., 3 partis,
+          <lb ed="#P" n="13"/>disp. 5, sect. 2, ubi ex multis Concilis, et 
+          Pa<lb break="no" ed="#P" n="14"/>tribus adverti, Christum ut Deum tantum dici
+          <lb ed="#P" n="15"/>unigenitum, ut hominem autem vocari 
+          primo<lb break="no" ed="#P" n="16"/>genitum creaturae. Quod etiam notavit 
+          Cyril<lb break="no" ed="#P" n="17"/>lus, lib. 1, Thesauri, cap. 4.
+        </p>
+        <p xml:id="szduep-146881-d1e650">
+          <lb ed="#P" n="18"/>11. Constitutiones Apostolice. — Quarto 
+          ob<lb break="no" ed="#P" n="19"/>jicitur, quia Verbum est instrumentum, seu
+          <lb ed="#P" n="20"/>minister Patris ad creandum. Quod probant,
+          <lb ed="#P" n="21"/>quia propterea non dicitur Verbum creare, sed
+          <lb ed="#P" n="22"/>Pater creare per Verbum, Joan. 1, ad Hebr. 1,
+          <lb ed="#P" n="23"/>et ad Colos. 1, et 1, Cor. 8. Nonnulli etiam
+          <lb ed="#P" n="24"/>Patres utuntur illo modo loquendi, ut videre
+          <lb ed="#P" n="25"/>licet in Constitutionibus Apostolicis , lib. 5,
+          <lb ed="#P" n="26"/>cap. 19, et in Clemente Alexandrino, Oratione
+          <lb ed="#P" n="27"/>exhortatoria circa principium, lIrenaeo, lib. 5,
+          <lb ed="#P" n="28"/>Justino, dialogo cum Triphone.
+        </p>
+        <p xml:id="szduep-146881-d1e676">
+          <lb ed="#P" n="29"/>12. Filum esse creatorem. — Respondetur,
+          <lb ed="#P" n="30"/>falsum esse assumptum : creat enim Filius, ut
+          <lb ed="#P" n="31"/>prima, et principalis causa simul cum Patre.
+          <lb ed="#P" n="32"/>Quod satis expresse docet Paulus Hebr. 1, de
+          <lb ed="#P" n="33"/>Verbo exponens illa verba: Et tu Domine in
+          <lb ed="#P" n="34"/>principio terram fundasti. Ft opera manuwum
+          <lb ed="#P" n="35"/>tuarum sunt coli. Quae sine dubio dicta 
+          fue<lb break="no" ed="#P" n="36"/>runt de Deo principalitter creante. Et ideo
+          <lb ed="#P" n="37"/>Joan. 5, dicebat Christus. Quecumque Pater
+          <lb ed="#P" n="38"/>facit, hec et Filius simaliter facit. Ubi 
+          em<lb break="no" ed="#P" n="39"/>phasim habet dictio, similiter. Cyrillus etiam
+          <lb ed="#P" n="40"/>lib. 5, Thesauri hoc colligit ex illo Genes. 1:
+          <lb ed="#P" n="41"/>Faciamus hominem , etc. Cui consonat illud
+          <lb ed="#P" n="42"/>Proverbiorum 8. Cum eo eram cuncta 
+          compo<lb break="no" ed="#P" n="43"/>nens. Tandem Augustinus, Tract. 1, in Joann.,
+          <lb ed="#P" n="44"/>hoc ipsum convincit ex illis verbis : Omnia per
+          <lb ed="#P" n="45"/>ipsum fucta sunt : nam si omnia, ergo ipsum
+          <lb ed="#P" n="46"/>non est factum, quia non potuit fieri per se
+          <lb ed="#P" n="47"/>ipsum. Et ne aliquis putaret, esse excipiendum
+          <lb ed="#P" n="48"/>ipsum Verbum : addit Evangelista: Ft sine
+          <lb ed="#P" n="49"/>ipso factum est nihil. Non est ergo Verbum ex
+          <lb ed="#P" n="50"/>rebus factis, est ergo Deus, non enim datur
+          <lb ed="#P" n="51"/>medium, ut idem Augustinus notavit 1, de
+          <lb ed="#P" n="52"/>Trinitate, cap. 7. Ergo per illud facta sunt
+          <lb ed="#P" n="53"/>omnia, tanquam per Deum, et principalem
+          <lb ed="#P" n="54"/>creatorem.
+        </p>
+        <p xml:id="szduep-146881-d1e735">
+          <lb ed="#P" n="55"/>13. Neque obstat illa particula, Per, nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>simpliciter attributa alicui, significare solet
+          <lb ed="#P" n="57"/>habitudinem causae efficientis principalis, ut 1,
+          <lb ed="#P" n="58"/>Cor. 1 et 9. Per voluntaiem Dei et passim in
+          <lb ed="#P" n="59"/>Scriptura. Attributa vero Filio in ordine ad
+          <lb ed="#P" n="60"/>Patrem hoc modo: Pater per Verbum erat,
+          <lb ed="#P" n="61"/>duobus modis potest exponi. Primus est, 
+          Ver<lb break="no" ed="#P" n="62"/>bum creare per virtutem acceptam a Patre,
+          <lb ed="#P" n="63"/>ac proinde Patrem per Verbum. Non quod 
+          Pa<lb break="no" ed="#P" n="64"/>ter per se non creet, sed quia etiam virtutem
+          <lb ed="#P" n="65"/>creandi Verbo suo communicavit. Atque ita
+          <lb ed="#P" n="66"/>exponunt Athanasius, serm. 3, contra 
+          Aria<lb break="no" ed="#P" n="67"/>nos, et Basilius, lib. de Spiritu sancto, cap. 2;
+          <lb ed="#P" n="68"/>et sequentibus. Secundus est ut intelligatur
+          <lb ed="#P" n="69"/>per appropriationem : nam Deus operatur per
+          <lb ed="#P" n="70"/>sapientiam suam : Sapientia autem Verbo 
+          ap<lb break="no" ed="#P" n="71"/>propriatur. Ita Ambrosius, 4 de Fide, cap. 6.
+          <lb ed="#P" n="72"/>Augustinus, 1 de Trinit., cap. 6. Et ad hos
+          <lb ed="#P" n="73"/>sensus accommodanda est similis locutio, 
+          quan<lb break="no" ed="#P" n="74"/>do in aliquo antiquo auctore, et gravi inventa
+          <lb ed="#P" n="75"/>fuerit.
+        </p>
+        <p xml:id="szduep-146881-d1e785">
+          <lb ed="#P" n="76"/>14. Quid sit Filium accipere a Patre. —
+          <lb ed="#P" n="77"/>Hinc vero sumitur occasio quintae objectionis,
+          <lb ed="#P" n="78"/>quia Filius nihil potest, nisi accipiat 
+          potesta<lb break="no" ed="#P" n="79"/>tem a Patre, neque scit, nisi ab eo discat : ita
+          <lb ed="#P" n="80"/>enim loquitur Scriptura Joan. 5 et 15, 
+          Mat<lb break="no" ed="#P" n="81"/>thaet 11, est ergo indigens, atque imperfectus
+          <lb ed="#P" n="82"/>comparatione Patris. Respondent sancti 
+          doc<lb break="no" ed="#P" n="83"/>tores, Filium accipere potestatem a Patre per
+          <lb ed="#P" n="84"/>aeternam generationem, et discere, in illo nihil
+          <lb ed="#P" n="85"/>aliud esse, quam nasci, quod in eo nullam
+          <lb ed="#P" n="86"/>ponit indigentiam, quia ex aeternitate, et 
+          om<lb break="no" ed="#P" n="87"/>nino necessario totam illam perfectionem 
+          ac<lb break="no" ed="#P" n="88"/>cipit, et id, quod accipit, majus omnibus est,
+          <lb ed="#P" n="89"/>Joann. 10. Quod ita intellexit Ambrosius 3,
+          <lb ed="#P" n="90"/>lib. de Spiritu sancto, cap. 8. Et ideo dicebat
+          <lb ed="#P" n="91"/>ipse Christus Joannes 16 et 7. Omnia esse sibi
+          <lb ed="#P" n="92"/>tradita a Patre, scilicet, paternitate excepta,
+          <lb ed="#P" n="93"/>ut supra notatum est, cum Damasceno, lib. 1,
+          <lb ed="#P" n="94"/>de Fide, cap. 8. Atque ita exposuerunt illa loca
+          <lb ed="#P" n="95"/>Augustinus, Chrysostomus et alii expositores
+          <lb ed="#P" n="96"/>in Joannem, et Augustinus 3, contra 
+          Maximi<lb break="no" ed="#P" n="97"/>num, cap. 24. Unde recte concluditur, in hoc
+          <lb ed="#P" n="98"/>cenere dandi, et accipiendti, non esse beatius
+          <lb ed="#P" n="99"/>dare, quam accipere.
+        </p>
+        <p xml:id="szduep-146881-d1e841">
+          <lb ed="#P" n="100"/>15. Ultima objectio. — Ultimo contra hanc
+          <lb ed="#P" n="101"/>veritatem objectum est, et notatum ab 
+          Aria<lb break="no" ed="#P" n="102"/>nis, quando in Scriptura Pater dicitur Deus,
+          <lb ed="#P" n="103"/>addi in graeco articulum emphaticum, illum
+          <lb ed="#P" n="104"/>vero omitti, quando Filius dicitur DEUS. Quod
+          <lb ed="#P" n="105"/>non videtur alia ratione fieri, nisi ut 
+          signifi<lb break="no" ed="#P" n="106"/>cetur, Patrem esse illum singularem Deum,
+          <lb ed="#P" n="107"/>Filium vero appellari Deum analoga ratione.
+          <lb ed="#P" n="108"/>Assumptum constat ex Joan., 1, et Psalm. 109.
+          <lb ed="#P" n="109"/>Imo etiam observatum est, in his locis Patrem
+          <lb ed="#P" n="110"/>vocari Deum, et Hebraice TTITY Jehova, Filium
+          <pb ed="#P" n="584"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>autem solum appellari Dominum Hebraice
+          <lb ed="#P" n="2"/>TTITY Adonai. Quod etiam notare licet in
+          <lb ed="#P" n="3"/>Paulo fere in omnibus initiis Epistolarum 
+          di<lb break="no" ed="#P" n="4"/>cente : Gratia vobis, et pau a Deo Patre 
+          nos<lb break="no" ed="#P" n="5"/>iro, et Domino Jesu Christo.
+        </p>
+        <p xml:id="szduep-146881-d1e883">
+          <lb ed="#P" n="6"/>16. Respondeo ad priorem partem, falsam
+          <lb ed="#P" n="7"/>esse, et gratis confictam illam 
+          interpretatio<lb break="no" ed="#P" n="8"/>nem. Nam et Pater saepe vocatus Deus sine
+          <lb ed="#P" n="9"/>articulo, ut patet Joan. 1, ibi: Hocerat in
+          <lb ed="#P" n="10"/>principio apud Dewn, et e contrario aliquando
+          <lb ed="#P" n="11"/>cum Filius dicitur Deus, additur articulus, ut
+          <lb ed="#P" n="12"/>ad Romanos 9. Quid est super omnia Deus
+          <lb ed="#P" n="13"/>benedictus. Quod ergo aliquando omittatur,
+          <lb ed="#P" n="14"/>vel voluntarium est, vel ad vitandam 
+          repeti<lb break="no" ed="#P" n="15"/>tionem, vel certe ad summum in eo 
+          signifi<lb break="no" ed="#P" n="16"/>catur ordo originis. Similiter respondetur ad
+          <lb ed="#P" n="17"/>alteram partem etiam nomen Dei, et mn»
+          <lb ed="#P" n="18"/>Jehova tribui Filio, Ps. 23, ibi: Domins 
+          cir<lb break="no" ed="#P" n="19"/>tutum, quod de Christo exponitDionysius, c. 7,
+          <lb ed="#P" n="20"/>de Coelesti hierarchia. Illarum ergo vocum 
+          di<lb break="no" ed="#P" n="21"/>versitas parum refert: nam esse Dominum,
+          <lb ed="#P" n="22"/>scilicet, primum et supremum, non est minus,
+          <lb ed="#P" n="23"/>quam esse Deum. Unde 1, Corinth. 12. 
+          Dioi<lb break="no" ed="#P" n="24"/>siones ministrationum sunt, idem autem 
+          Dosmi<lb break="no" ed="#P" n="25"/>nus, divisiones operationun sunt, idem autem
+          <lb ed="#P" n="26"/>Deus. Paulus vero in citatis locis, cum gratiam
+          <lb ed="#P" n="27"/>Dei Patris deprecatur, totam Trinitatem 
+          invo<lb break="no" ed="#P" n="28"/>cat, quae Deus, et Pater noster est: adjungit
+          <lb ed="#P" n="29"/>vero Christum Deum hominem, quia per 
+          il<lb break="no" ed="#P" n="30"/>lum, et propter illum gratia nobis danda est,
+          <lb ed="#P" n="31"/>eumque etiam ut hominem vocat Dominum,
+          <lb ed="#P" n="32"/>non illo supremo dominio, quod habet, ut est
+          <lb ed="#P" n="33"/>Deus, sed per specialem excellentiae 
+          potesta<lb break="no" ed="#P" n="34"/>tem, ut D. Thomas significavit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

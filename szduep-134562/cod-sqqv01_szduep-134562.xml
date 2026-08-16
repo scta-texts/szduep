@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="531"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-134562"><!-- t3-prae -->
+        <head xml:id="szduep-134562-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-134562-d1e103">
+          <pb ed="#P" n="531"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>DE
+          <lb ed="#P" n="2"/>SANCTISSIMO TRINITATIS MYSTERIO
+          <lb ed="#P" n="3"/>LIBRI DUODECIM.
+          <lb ed="#P" n="4"/>PROOEMIUM.
+        </p>
+        <p xml:id="szduep-134562-d1e119">
+          <lb ed="#P" n="5"/>Cum hoc mysterium supremum omnium sit, quae per fidem revelantur, 
+          existi<lb break="no" ed="#P" n="6"/>mandum non est, eo animo illius disputationem suscipi, ut ejus veritas 
+          demonstre<lb break="no" ed="#P" n="7"/>tur ; id enim impossibile esse, infra ostendemus : sed in regulis fidei, et divina 
+          aucto<lb break="no" ed="#P" n="8"/>ritate veritas hujus mysteri , imprimis fundanda est. Qua stabilita, et confirmato
+          <lb ed="#P" n="9"/>mysterio, aliquam illius congruentem rationem, vel potius declarationem investigare
+          <lb ed="#P" n="10"/>conabimur, et objectionibus infidelium pro viribus sausfacere. Ac tandem ea colligere,
+          <lb ed="#P" n="11"/>quae Theologico more ex principiis revelatis certius, aut verisimilius elici possunt.
+          <lb ed="#P" n="12"/>Atque hoc modo disputarunt de hoc mysterio antiqui Patres copiosissime, ex Graecis
+          <lb ed="#P" n="13"/>praecipue Athanasius fere in omnibus operibus suis, et Gregorius Nazianzenus in 
+          qua<lb break="no" ed="#P" n="14"/>tuor orationibus de Theologia, et Gregorius Nyssenus, quatuor etiam orationibus de
+          <lb ed="#P" n="15"/>hoc mysterio, Chrysostomus, quinque orationibus de visione Isaize, Basilius, libro
+          <lb ed="#P" n="16"/>contra Eunomium, Damascenus, lib. 1, de Fide, et alii multi. Ex Latinis vero primus
+          <lb ed="#P" n="17"/>Tertullianus, libro contra Praxaeam, deinde Hilarius, libris 12 de Trinitate, et libro de
+          <lb ed="#P" n="18"/>Synodis, copiose Augustinus, 15 libris de Trinitate, et saepe alias, Fulgentius, libro ad
+          <lb ed="#P" n="19"/>objectiones Arianorum, Idacius Clarus contra Varimandum, Füchardus de S. Vict. in
+          <lb ed="#P" n="20"/>libris deTrinitate. Disputarunt etiam Scholastici cum Magistro in 1, per priores 35, 
+          dis<lb break="no" ed="#P" n="21"/>tinctiones, commodiori ordine, D. Thomas, cum expositoribus, 1 parte a quaestione 27
+          <lb ed="#P" n="22"/>usque ad 34. Postquam enim de his, quae pertinent ad Divinam unitatem tractavit D.
+          <lb ed="#P" n="23"/>Thomas, convenienti ordine consequenter Trinitatis notitiam dedit, nam ea, quae ad
+          <lb ed="#P" n="24"/>unitatem spectant, et communiora sunt, et cognitu faciliora, ideoque eorum disciplina
+          <lb ed="#P" n="25"/>praecedere debuit, quibus cognitis, minus etiam difficile est de Trinitate disserere.
+        </p>
+        <p xml:id="szduep-134562-d1e167">
+          <lb ed="#P" n="26"/>Nos vero, cum ad praesens integros in primam partem Commentarios in lucem
+          <lb ed="#P" n="27"/>edere non possimus, eo quod aliis gravissimis occupationibus distenti sumus, ea, quae
+          <lb ed="#P" n="28"/>ad unitatem Dei pertinent, in hoc opere supponimus; ex quibus illa omnia, quae 
+          na<lb break="no" ed="#P" n="29"/>turali ratione investigari et attingi possunt, in nostra Metaphysica pro virili elaborare
+          <lb ed="#P" n="30"/>curavimus, multa etiam, quae ad scientiam, voluntatem et providentiam Dei pertinent
+          <lb ed="#P" n="31"/>in alis nostris opusculis tradidimus, de praedestinatione vero et reprobatione in 
+          prae<lb break="no" ed="#P" n="32"/>cedenti tractatu disputatum est. In praesenti ergo solum de his, quae Deo, quatenus
+          <lb ed="#P" n="33"/>Trinus est, conveniunt, dicere intendimus. Et quoniam nunc Commeniatoris officium
+          <lb ed="#P" n="34"/>non assumimus, ordinem quaestionum D. Thomae non omnino sequemur, ne prolixiores
+          <lb ed="#P" n="35"/>quam cupimus, esse cogamur. Brevitati itaque consulentes etiam compendiosiori
+          <lb ed="#P" n="36"/>methodo utemur, doctrinae ordinem, quem in aliis rebus tenere solemus, non 
+          prae<lb break="no" ed="#P" n="37"/>termittentes.
+        </p>
+        <p xml:id="szduep-134562-d1e196">
+          <lb ed="#P" n="38"/>Prius vero, quam disputationem inchoemus, advertendum est, cum in tota 
+          Theo<lb break="no" ed="#P" n="39"/>logia vera sit sententia Augustini, l. 10, de Civ., c. 23. Plulosoplus liberum est,
+          <lb ed="#P" n="40"/>quibus voluerint uti verbis, nobis cutem ad certam reguiam loqui fas est: in hac
+          <pb ed="#P" n="532"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>materia imprimis esse necessarium, quia in nulla periculosius erratur, ut idem 
+          Au<lb break="no" ed="#P" n="2"/>gustinus ait, in principio librorum de Trinitate, ideoque in ea maxime verum habet,
+          <lb ed="#P" n="3"/>quod ex Hieronymo in ore omnium circumfertur : Ex verbis inordinate prolatis 
+          in<lb break="no" ed="#P" n="4"/>curritur heresis. Et ideo tam a sanctis Patribus, quam a Scholasticis non magis
+          <lb ed="#P" n="5"/>in explicando mysterio, quam in docendis loquendi modis elaboratum est, et 
+          unum<lb break="no" ed="#P" n="6"/>quodque verbum, in hoc mysterio usurpandum, diligenter examinatum. Quod olim
+          <lb ed="#P" n="7"/>fuit necessarium, tum, quia nec mysterium, nec significationes vocum ita declaratae
+          <lb ed="#P" n="8"/>erant: tum etiam, quia haeretici sub verbis ambiguis errores suos introducere 
+          cura<lb break="no" ed="#P" n="9"/>bant : nunc autem non est tam necessaria de verborum significationibus prolixa
+          <lb ed="#P" n="10"/>disputatio, non tamen omittemus eam, quae opportuna visa fuerit, praesertim quando
+          <lb ed="#P" n="11"/>voces fuerint proprie Theologicae, et hujus mysterii, ut sunt Trimtas, Notio, 
+          Cir<lb break="no" ed="#P" n="12"/>cuminsessio, Consubstantiahs et Graece homousion. Aliae vero, quae sunt communes
+          <lb ed="#P" n="13"/>Philosophis, ut Persona, suppositum, subsistentia, relatio, et similes supponentur
+          <lb ed="#P" n="14"/>a nobis ex metaphysica. Quomodo vero ad hoc mysterium applicentur, explicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

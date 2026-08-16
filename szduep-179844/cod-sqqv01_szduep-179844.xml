@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="711"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-179844"><!-- t3-l8prae -->
+        <head xml:id="szduep-179844-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-179844-d1e103">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="9"/>LIBER OCTAVUS.
+          <lb ed="#P" n="10"/>DE PRIMA PERSONA DIVINITATIS
+          <lb ed="#P" n="11"/>QUAE EST PATER.
+        </p>
+        <p xml:id="szduep-179844-d1e114">
+          <lb ed="#P" n="12"/>Expeditis omnibus, quae aliquo modo tribus
+          <lb ed="#P" n="13"/>personis communia sunt: solum superest, ut
+          <lb ed="#P" n="14"/>de singulis in particulari dicamus. Dicemus
+          <lb ed="#P" n="15"/>autem de unaquaque illa tantum, quae illi
+          <lb ed="#P" n="16"/>sunt propria. Quia vero haec propria in 
+          rela<lb break="no" ed="#P" n="17"/>tione sunt posita, vix possunt disputatione
+          <lb ed="#P" n="18"/>sejungi, quia relativa sunt simul cognitione,
+          <lb ed="#P" n="19"/>praesertim cum distincte cognoscuntur. 
+          Cura<lb break="no" ed="#P" n="20"/>bimus nihilominus de singulis ita disserere, ut
+          <lb ed="#P" n="21"/>uniuscujusque proprietates per se 
+          intelligan<lb break="no" ed="#P" n="22"/>tur, quamvis exacta omnium cognitio ex 
+          om<lb break="no" ed="#P" n="23"/>nium simul cognitione expectanda sit. In hoc
+          <lb ed="#P" n="24"/>ergo libro de prima persona solum ea 
+          dice<lb break="no" ed="#P" n="25"/>mus, quae possunt aliquo modo intelligi absque
+          <lb ed="#P" n="26"/>secunda: reliqua vero in sequentibus libris
+          <lb ed="#P" n="27"/>consummabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="427"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-108489"><!-- t2-l2c21 -->
+        <head xml:id="szduep-108489-Hd1e101">Caput 21</head>
+        <head xml:id="szduep-108489-Hd1e103" type="question-title">An ex parte christi, vel alicujus puri hominis possit dari causa praedestinationis alterius quoad omnes effectus ejus</head>
+        <p xml:id="szduep-108489-d1e106">
+          <lb ed="#P" n="7"/>CAPUT XXI.
+          <lb ed="#P" n="8"/>AN EX PARTE CHRISTI, VEL ALICUJUS PURI HOMINIS
+          <lb ed="#P" n="9"/>POSSIT DARI CAUSA PRAEDESTINATIONIS ALTERIUS
+          <lb ed="#P" n="10"/>QUOAD OMNES EFFECTUS EJUS.
+        </p>
+        <p xml:id="szduep-108489-d1e117">
+          <lb ed="#P" n="11"/>1. Vidimus neminem posse sibi totam 
+          prae<lb break="no" ed="#P" n="12"/>destinationem mereri, vel impetrare : 
+          reli<lb break="no" ed="#P" n="13"/>quum est, ut videamus, an unus saltem 
+          pos<lb break="no" ed="#P" n="14"/>sit alteri illam mereri. Meritum autem 
+          res<lb break="no" ed="#P" n="15"/>pectu aliorum singulari, et excellenti modo
+          <lb ed="#P" n="16"/>fuit in Christo, et ideo de illo peculiariter 
+          so<lb break="no" ed="#P" n="17"/>let haec questio tractari, et a nobis disputata
+          <lb ed="#P" n="18"/>est in 1. tom., 3. part., disput. 41, sect. 3 et 4,
+          <lb ed="#P" n="19"/>tamen quia etiam unus homo purus potest
+          <lb ed="#P" n="20"/>aliquo modo alteri mereri, de illo etiam hanc
+          <lb ed="#P" n="21"/>attigit quaestionem D. Thomae, dict. quaest.
+          <lb ed="#P" n="22"/>23. art. S8, et ideo utramque partem breviter
+          <lb ed="#P" n="23"/>expediemus. Habet autem haec quaestio 
+          mag<lb break="no" ed="#P" n="24"/>nam connexionem cum aliqua infra tractanda,
+          <lb ed="#P" n="25"/>de modo, quo potest unus mereri alteri 
+          prae<lb break="no" ed="#P" n="26"/>destinationem, etiam ex parte divini actus,
+          <lb ed="#P" n="27"/>vel electionis, quas quaestiones supra 
+          distinxi<lb break="no" ed="#P" n="28"/>mus, licet confundi soleant, quia in revera ad
+          <lb ed="#P" n="29"/>totius materiae comprehensionem non parum
+          <lb ed="#P" n="30"/>conferet, et ideo ad materiae complementum
+          <lb ed="#P" n="31"/>hic etiam illas separamus : tamen in hac 
+          eri<lb break="no" ed="#P" n="32"/>mus breviores, quia tota fere difficultas 
+          prae<lb break="no" ed="#P" n="33"/>sentis quaestionis ex altera pendet, ut 
+          videbi<lb break="no" ed="#P" n="34"/>mus : sed ut hoc clarius constet, et difficultas
+          <lb ed="#P" n="35"/>distinctius tractetur, non erit inutile de 
+          pro<lb break="no" ed="#P" n="36"/>posita quaestione pauca dicere.
+        </p>
+        <p xml:id="szduep-108489-d1e176">
+          <lb ed="#P" n="37"/>2. Christus Dominus meruit electis omnia
+          <lb ed="#P" n="38"/>dona, gratie, que sunt eorum praedestinationi
+          <lb ed="#P" n="39"/>effectus. — Quod ergo ad Christum Dominum
+          <lb ed="#P" n="40"/>attinet, certum est meruisse electis omnia 
+          do<lb break="no" ed="#P" n="41"/>na gratiae , quae sunt effectus praedestinationis
+          <lb ed="#P" n="42"/>eorum. Hoc ad minimum probatur satis ex
+          <lb ed="#P" n="43"/>illis verbis Pauli ad Ephes. 1: Qui 
+          preedestina<lb break="no" ed="#P" n="44"/>vcit nos in adoptionem filiorum per JESUM
+          <lb ed="#P" n="45"/>Christum. Nam ut hoc verum sit, saltem 
+          ne<lb break="no" ed="#P" n="46"/>cesse est, ut media praedestinationis per 
+          Chris<lb break="no" ed="#P" n="47"/>ti meritum nobis conferantur. Quod etiam 
+          si<lb break="no" ed="#P" n="48"/>gnificavit Paulus ibidem, paulo superius, 
+          di<lb break="no" ed="#P" n="49"/>cens : Qui benediait uos in omnà benedictione
+          <lb ed="#P" n="50"/>spirituali in celestibus in Christo. Et paulo
+          <lb ed="#P" n="51"/>inferius significat, etiam ipsam primam 
+          voca<lb break="no" ed="#P" n="52"/>tionem dari in Christo, id est, virtute et meri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tis ejus. In quo (inquit) non sorte vocati sumus,
+          <lb ed="#P" n="54"/>etc. Sorte (inquit per metaphoram) id est, 
+          gra<lb break="no" ed="#P" n="55"/>tuita electione et voluntate Dei vocationem 
+          ac<lb break="no" ed="#P" n="56"/>cepimus, tamen in Christo, id est, propter
+          <lb ed="#P" n="57"/>meritum et virtutem ejus. Quod si vocatio in
+          <lb ed="#P" n="58"/>illo est, consequens necessario est, ut caetera
+          <lb ed="#P" n="59"/>etiam dona ab illosint. Atque ita Concilia 
+          Mile<lb break="no" ed="#P" n="60"/>vitanum, Arausicanum et Tridentinum docent,
+          <lb ed="#P" n="61"/>omnia dona gratiae DEI, quibus homines 
+          prae<lb break="no" ed="#P" n="62"/>veniuntur, vel juvantur ad suam aeternam 
+          sa<lb break="no" ed="#P" n="63"/>lutem consequendam, ab initio justificationis,
+          <lb ed="#P" n="64"/>usque ad consummationem et argumentum
+          <lb ed="#P" n="65"/>ejus, ac perseverantiam in illa, dari nobis per
+          <lb ed="#P" n="66"/>Christum, ideoque illam appellant gratiam
+          <lb ed="#P" n="67"/>Christi, seu gratiam Dei per Christum. Et ita,
+          <lb ed="#P" n="68"/>licet aliquando nonnulli ex antiquis theologis
+          <lb ed="#P" n="69"/>de hac veritate dubitaverint, jam dubitare non
+          <lb ed="#P" n="70"/>licet, est enim res certissima. Cujus ratio a
+          <lb ed="#P" n="71"/>priori sumenda est ex summa perfectione 
+          di<lb break="no" ed="#P" n="72"/>vinae providentiae et excellentia amoris erga
+          <lb ed="#P" n="73"/>homines, et potissime erga filium suum Jesum
+          <lb ed="#P" n="74"/>Christum Dominum nostrum, et ex infinitate
+          <lb ed="#P" n="75"/>meritorum ejus, ut dicto loco latius prosecutus
+          <lb ed="#P" n="76"/>sum.
+        </p>
+        <p xml:id="szduep-108489-d1e268">
+          <lb ed="#P" n="77"/>3. Posita conclusio non solum intelligitur de
+          <lb ed="#P" n="78"/>effectibus gratie, qui in ipsomet praedestinato
+          <lb ed="#P" n="79"/>recipiuntur, sed de effectibus aliorum. — 
+          Pro<lb break="no" ed="#P" n="80"/>batur.—Atque hinc colligitur, non solum esse
+          <lb ed="#P" n="81"/>veram conclusionem positam de effectibus 
+          gra<lb break="no" ed="#P" n="82"/>tiae, qui in ipsomet praedestinato recipiuntur,
+          <lb ed="#P" n="83"/>vel proxime circa illum fiunt, sive positivi sint
+          <lb ed="#P" n="84"/>et interni, ut inspirationes, illuminationes,
+          <lb ed="#P" n="85"/>cooperationes, actus et habitus infusi et 
+          simi<lb break="no" ed="#P" n="86"/>lia, sive sint positivi externi, ut applicationes
+          <lb ed="#P" n="87"/>Sacramentorum, praedicatio verbi Dei, 
+          objec<lb break="no" ed="#P" n="88"/>tum excitans ad bonum praesertim congruo
+          <lb ed="#P" n="89"/>modo et similes: sive sint externi privativi, ut
+          <lb ed="#P" n="90"/>impedire tentationem, auferre occasiones 
+          pra<lb break="no" ed="#P" n="91"/>vas, etc., verum etiam procedere eamdem 
+          ve<lb break="no" ed="#P" n="92"/>ritatem de effectibus gratiae, qui circa alios
+          <lb ed="#P" n="93"/>fiunt, quatenus ad salutem praedestinati 
+          inter<lb break="no" ed="#P" n="94"/>dum multum conferunt, ut mox dicemus. 
+          Pro<lb break="no" ed="#P" n="95"/>batur, quia ille effectus gratiae, qui uni datur,
+          <lb ed="#P" n="96"/>et non solum ipsi, sed etiam alteri prodest,
+          <lb ed="#P" n="97"/>est effectus meritorum Christi, quia in 
+          univer<lb break="no" ed="#P" n="98"/>sum omnia dona gratiae , quae conferuntur 
+          om<lb break="no" ed="#P" n="99"/>nibus hominis, imo et omnibus angelis, sunt
+          <lb ed="#P" n="100"/>ex Christi merito, ut dict. 1, tom. disput. 42,
+          <lb ed="#P" n="101"/>ostendi : ergo etiam gratia, vel auxilium uni
+          <lb ed="#P" n="102"/>collatum , prout prodest alteri, et est effectus
+          <lb ed="#P" n="103"/>praedestinationis ejus, est etiam effectus 
+          meri<lb break="no" ed="#P" n="104"/>torum Christi. Confirmatur, quia beneficium
+          <lb ed="#P" n="105"/>gratiae intrinsece (ut sic dicam) collatum 
+          Ste<lb break="no" ed="#P" n="106"/>phano, ut extrinsece prosit Paulo, est magnum
+          <lb ed="#P" n="107"/>beneficium factum Paulo ad salutem ejus ani-
+          <pb ed="#P" n="428"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mae conferens, ergo comprehenditur sub 
+          ge<lb break="no" ed="#P" n="2"/>nerali regula Pauli: Benedixit vos in omni 
+          be<lb break="no" ed="#P" n="3"/>nedictione spirituali in coelestibus in Christo.
+          <lb ed="#P" n="4"/>Nam illa debet cum eadem universalitate 
+          res<lb break="no" ed="#P" n="5"/>pective intelligi, ut quodcumque donum 
+          gra<lb break="no" ed="#P" n="6"/>tiae, respectu cujuscumque personae induat 
+          ra<lb break="no" ed="#P" n="7"/>tionem beneficii spiritualis ei collati, ex Chris-.
+          <lb ed="#P" n="8"/>ti meritis procedat. Dices, ergo etiam ipsa 
+          In<lb break="no" ed="#P" n="9"/>carnatio erit effectus praedestinationis 
+          homi<lb break="no" ed="#P" n="10"/>num , nam propter nos homines et propter
+          <lb ed="#P" n="11"/>nostram salutem descendit de celis: quod si
+          <lb ed="#P" n="12"/>hoc ita est, jam non erit Christus causa 
+          prae<lb break="no" ed="#P" n="13"/>destinationis nostrae quoad omnes effectus 
+          gra<lb break="no" ed="#P" n="14"/>tiae, qui ex illa nascuntur : quia Christus non
+          <lb ed="#P" n="15"/>est causa suae Incarnationis. Respondetur 
+          ne<lb break="no" ed="#P" n="16"/>sando primam sequelam, quia Incarnatio vel
+          <lb ed="#P" n="17"/>non est per se primo ordinata propter 
+          redemp<lb break="no" ed="#P" n="18"/>tionem , vel salutem aliorum hominum, sed
+          <lb ed="#P" n="19"/>propter sese, et propter eximiam 
+          communica<lb break="no" ed="#P" n="20"/>tionem divinae bonitatis, vel eo modo, quo est
+          <lb ed="#P" n="21"/>ordinata ad hominum salutem, non est 
+          pecu<lb break="no" ed="#P" n="22"/>liariter ex praedestinatione, sed ex generali
+          <lb ed="#P" n="23"/>voluntate redimendi homines, et ita, ut illa sit
+          <lb ed="#P" n="24"/>causa omnium effectuum praedestinationis 
+          sin<lb break="no" ed="#P" n="25"/>gulorum hominum , non est necesse , ut ipsa
+          <lb ed="#P" n="26"/>etiam sit ex meritis Christi Domini, quod ex
+          <lb ed="#P" n="27"/>infra dicendis capite ultimo hujus libri amplius
+          <lb ed="#P" n="28"/>explicabitur.
+        </p>
+        <p xml:id="szduep-108489-d1e403">
+          <lb ed="#P" n="29"/>4. Unus homo potest mereri alteri 
+          preedestina<lb break="no" ed="#P" n="30"/>tionem.— Ultimo dicendum est, unum purum
+          <lb ed="#P" n="31"/>hominem posse aliquo modo mereri alteri
+          <lb ed="#P" n="32"/>praedestinationem ejus, quoad effectum 
+          gra<lb break="no" ed="#P" n="33"/>tiae illius, etiam quoad primum, qui in ipso
+          <lb ed="#P" n="34"/>praedestinato, seu circa illum sit, non tamen
+          <lb ed="#P" n="35"/>pesse aliquem hujusmodi hominem maereri
+          <lb ed="#P" n="36"/>simphiciter totam praedestinationem alterius,
+          <lb ed="#P" n="37"/>quoad omnes ejus effectus ad divinam gratiam
+          <lb ed="#P" n="38"/>pertinentes, neque eo modo, quo Christus illos
+          <lb ed="#P" n="39"/>meruit. Prior pars communis est, eamque 
+          do<lb break="no" ed="#P" n="40"/>cet D. Thomas, dict. quaest. 28, art. S, et 3
+          <lb ed="#P" n="41"/>part., quaest. 4, art. 3, ad 4, et quaest. 6, de
+          <lb ed="#P" n="42"/>Veritat. art. 6, ubi in solut. ad 3, posteriori
+          <lb ed="#P" n="43"/>loco propositum fatetur, posse unum mereri
+          <lb ed="#P" n="44"/>alteri, et gratiam primam et finalem et 
+          nihil<lb break="no" ed="#P" n="45"/>ominus non mereri totam praedestinationem.
+          <lb ed="#P" n="46"/>Et in solut. ad 2, docet, praedestinationem
+          <lb ed="#P" n="47"/>Pauli fuisse hoc modo ad effectum productam
+          <lb ed="#P" n="48"/>per orationem Stephani. Quae fuit etiam 
+          sen<lb break="no" ed="#P" n="49"/>tentia Augustini, quaest. 2, lib. 1, ad 
+          Simpli<lb break="no" ed="#P" n="50"/>cianum, et serm. 1 et 4, de S. Stephano. Ex
+          <lb ed="#P" n="51"/>quo exemplo constat, vocationem Pauli fuisse
+          <lb ed="#P" n="52"/>effectum orationis Stephani. Unde idem 
+          Au<lb break="no" ed="#P" n="53"/>gustinus, de Bono persever., cap. 22, 
+          gene<lb break="no" ed="#P" n="54"/>ratim ait: Si qui sunt nondum vocati, pro eis,
+          <lb ed="#P" n="55"/>ut vocetur oremus, fortasse enim ita praedesti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nati sunt, ut nostris orationibus concedantu.
+          <lb ed="#P" n="57"/>At vocatio solet esse primus praedestinationis
+          <lb ed="#P" n="58"/>effectus, qui in ipsomet praedestinato sit:
+          <lb ed="#P" n="59"/>ergo potest unus esse causa praedestinationis
+          <lb ed="#P" n="60"/>alterius quoad hujusmodi effectum primum.
+          <lb ed="#P" n="61"/>Ratio autem est, quia licet hic effectus 
+          res<lb break="no" ed="#P" n="62"/>pectu ejus, in quo recipitur, sit ille primus,
+          <lb ed="#P" n="63"/>ut in illo gratiam non supponat, et ideo non
+          <lb ed="#P" n="64"/>possit cadere sub meritum ejus, tamen in 
+          al<lb break="no" ed="#P" n="65"/>tero supponit gratiam, et ideo potest cadere
+          <lb ed="#P" n="66"/>sub meritum alterius: nam homo Deo gratus
+          <lb ed="#P" n="67"/>non solum sibi, sed etiam aliis potest mereri,
+          <lb ed="#P" n="68"/>saltem de congruo.
+        </p>
+        <p xml:id="szduep-108489-d1e494">
+          <lb ed="#P" n="69"/>5. Duobus modis aliquis donum gratie 
+          me<lb break="no" ed="#P" n="70"/>reri potest alteri. — Per Beatissimam Virginem
+          <lb ed="#P" n="71"/>beneficia gratiae nobis conceduntur. — Altera
+          <lb ed="#P" n="72"/>vero pars imprimis declaratur, quia duobus
+          <lb ed="#P" n="73"/>modis potest quis mereri alteri aliquod donum
+          <lb ed="#P" n="74"/>gratiae, primo immediate et in se, quomodo
+          <lb ed="#P" n="75"/>dictum est meruisse Stephanum Paulo 
+          voca<lb break="no" ed="#P" n="76"/>tionem: secundo in radice, quomodo idem
+          <lb ed="#P" n="77"/>Stephanus meruit Paulo omnia bona, quae
+          <lb ed="#P" n="78"/>post vocationem operatus est, quia omnia
+          <lb ed="#P" n="79"/>duxerunt originem ex vocatione: non meruit
+          <lb ed="#P" n="80"/>autem Stephanus Paulo omnes spirituales
+          <lb ed="#P" n="81"/>gratias, quas postea in discursu vitae recipit,
+          <lb ed="#P" n="82"/>immediate, ac in seipsis, quia nec pro illis
+          <lb ed="#P" n="83"/>omnibus impetrandis in particulari oravit:
+          <lb ed="#P" n="84"/>nec necesse est, ut DEUS intuitu meritorum
+          <lb ed="#P" n="85"/>Stephani dederit Paulo omnia et singula bona.
+          <lb ed="#P" n="86"/>gratiae, quae illi contulit. Eademque ratio et
+          <lb ed="#P" n="87"/>proportio est de quolibet puro homine 
+          res<lb break="no" ed="#P" n="88"/>pectu alterius, etiamsi Beatissuma Virgine
+          <lb ed="#P" n="89"/>pro aliis orante, aut promerente sermo sit.
+          <lb ed="#P" n="90"/>Nam, licet sancti interdum per 
+          exaggeratio<lb break="no" ed="#P" n="91"/>nem dicant, omnia gratiae beneficia per 
+          Vir<lb break="no" ed="#P" n="92"/>ginis intercessionem nobis concedi, non est
+          <lb ed="#P" n="93"/>tamen de hoc certa lex, ita ut hoc medium
+          <lb ed="#P" n="94"/>sit ex lege necessarium, licet ad omnia et 
+          sin<lb break="no" ed="#P" n="95"/>gula possit esse utilissimum, et DEO 
+          gratissi<lb break="no" ed="#P" n="96"/>mum, quod sancti maxime intendunt.
+        </p>
+        <p xml:id="szduep-108489-d1e557">
+          <lb ed="#P" n="97"/>6. Inter Christum Dominum et purum 
+          ho<lb break="no" ed="#P" n="98"/>inem in causa hominum praedestinationis 
+          dis<lb break="no" ed="#P" n="99"/>crimen. — Secunda differentia constituitur. —
+          <lb ed="#P" n="100"/>Haec ergo est prima differentia inter Christum
+          <lb ed="#P" n="101"/>et purum hominem, quod Christus ex certa
+          <lb ed="#P" n="102"/>et infallibili lege Dei, ita est causa totius 
+          prae<lb break="no" ed="#P" n="103"/>destinationis aliorum hominum, ut omnes et
+          <lb ed="#P" n="104"/>singuli effectus ejus, non solum in radice, sed
+          <lb ed="#P" n="105"/>immediate et in se conferantur intuitu 
+          meri<lb break="no" ed="#P" n="106"/>torum ejus, adeo ut ipsa etiam gloria, quam
+          <lb ed="#P" n="107"/>unusquisque meretur sibi de condigno, detur
+          <lb ed="#P" n="108"/>etiam proxime et immediate, altiorique ratione
+          <lb ed="#P" n="109"/>propter Christi meritum: quod totum in dicto
+          <lb ed="#P" n="110"/>primo tomo ostensum est. At nullus homo
+          <pb ed="#P" n="429"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>purus potest sic mereri alteri omnes 
+          praedes<lb break="no" ed="#P" n="2"/>tinationis effectus, ideoque nullus dicitur 
+          pro<lb break="no" ed="#P" n="3"/>prie mereri alteri simpliciter 
+          praedestinatio<lb break="no" ed="#P" n="4"/>nem. Ac propterea congruentissime dixit D.
+          <lb ed="#P" n="5"/>Thomas posse unius praedestinationem alterius
+          <lb ed="#P" n="6"/>orationibus juvari, non tamen fieri. Alia 
+          dif<lb break="no" ed="#P" n="7"/>ferentia est, quia purus homo non meretur
+          <lb ed="#P" n="8"/>alteri de condigno, nedum de justitia rigorosa,
+          <lb ed="#P" n="9"/>sed tantum de congruo, ut ex 1, 2, quaest. 114,
+          <lb ed="#P" n="10"/>constat, Christus autem non solum de 
+          condi<lb break="no" ed="#P" n="11"/>gno, sed etiam de justitia rigorosa nobis 
+          prae<lb break="no" ed="#P" n="12"/>destinationem meruit, ut in 3 part., quaest. 1,
+          <lb ed="#P" n="13"/>art. 2, et quaest. 19, late ostenditur.
+        </p>
+        <p xml:id="szduep-108489-d1e622">
+          <lb ed="#P" n="14"/>7. Aliud discrimen. — Denique potest alia
+          <lb ed="#P" n="15"/>differentia assignari, quia purus homo, 
+          Ste<lb break="no" ed="#P" n="16"/>phanus, verbi gratia, ita meruit vocationem
+          <lb ed="#P" n="17"/>Pauli praedestinati, ut nihilominus ipsamet
+          <lb ed="#P" n="18"/>oratio, per quam Stephanus id meruit, fuerit
+          <lb ed="#P" n="19"/>effectus praedestinationis Pauli, quatenus 
+          or<lb break="no" ed="#P" n="20"/>dine rationis antecedit in mente DEI ad omnia
+          <lb ed="#P" n="21"/>merita Stephani, ut paulo post videbimus. Et
+          <lb ed="#P" n="22"/>ita licet illa vocatio esse potuerit primus 
+          il<lb break="no" ed="#P" n="23"/>lorum effectuum praedestinationis Pauli, qui
+          <lb ed="#P" n="24"/>in ipso Paulo recipiuntur, non est tamen 
+          pri<lb break="no" ed="#P" n="25"/>mus simpliciter, quia oratio Stephani est prior
+          <lb ed="#P" n="26"/>et illa connumeratur inter effectus 
+          praedesti<lb break="no" ed="#P" n="27"/>nationis Pauli, non eorum, qui in ipso fiunt,
+          <lb ed="#P" n="28"/>sed eorum, qui propter eum peculiariter fiunt.
+          <lb ed="#P" n="29"/>Eadem ratio est de quocumque homine 
+          prae<lb break="no" ed="#P" n="30"/>destinato, ad alium purum hominem 
+          compa<lb break="no" ed="#P" n="31"/>rato. At Christus ita meretur alteri 
+          vocatio<lb break="no" ed="#P" n="32"/>nem congruam, quae est praedestinationis 
+          ef<lb break="no" ed="#P" n="33"/>fectus, ut tamen necesse non sit, ipsum Christi
+          <lb ed="#P" n="34"/>meritum, vel principium, a quo procedit, esse
+          <lb ed="#P" n="35"/>effectum praedestinationis Pauli, vel alterius
+          <lb ed="#P" n="36"/>similis: quia Christi meritum se habet ut 
+          uni<lb break="no" ed="#P" n="37"/>versalior causa, quae ex altiori quadam 
+          prae<lb break="no" ed="#P" n="38"/>destinatione nascitur, ut capite ultimo 
+          am<lb break="no" ed="#P" n="39"/>plius declarabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

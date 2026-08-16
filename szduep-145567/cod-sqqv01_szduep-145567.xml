@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="575"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-145567"><!-- t3-l2c2 -->
+        <head xml:id="szduep-145567-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-145567-Hd1e103" type="question-title">An persona, quae est verus deus, possit esse producta</head>
+        <p xml:id="szduep-145567-d1e106">
+          <lb ed="#P" n="101"/>CAPUT II.
+          <lb ed="#P" n="102"/>AN PERSONA, QUAE EST VERUS DEUS, POSSIT ESSE
+          <lb ed="#P" n="103"/>PRODUCTA.
+        </p>
+        <p xml:id="szduep-145567-d1e115">
+          <lb ed="#P" n="104"/>1. Rationes infidelium. — Haec difficultas
+          <lb ed="#P" n="105"/>communis est Filio et Spiritui sancto, et ideo
+          <lb ed="#P" n="106"/>prius, quam de illorum divinitate in 
+          particu<lb break="no" ed="#P" n="107"/>lari dicamus, illam expedire necesse est, et in-
+          <pb ed="#P" n="576"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ter scholasticos tractat eam specialiter Scotus
+          <lb ed="#P" n="2"/>in 1, dist. 2, quaest. 6. Alii vero in speciali 
+          pa<lb break="no" ed="#P" n="3"/>rum, aut nihil attigerunt, quia de hac re nulla
+          <lb ed="#P" n="4"/>est inter eos controversia. At vero haeretici hoc
+          <lb ed="#P" n="5"/>maxime objiciunt contra divinitatem 
+          persona<lb break="no" ed="#P" n="6"/>rum, praeter personam Patris, quod repugnet,
+          <lb ed="#P" n="7"/>esse Deum, et non habere esse a se, quia Deus
+          <lb ed="#P" n="8"/>est ipsum esse per essentiam, sed repugnat,
+          <lb ed="#P" n="9"/>id quod est a se, esse ab alio, quia illa duo 
+          in<lb break="no" ed="#P" n="10"/>cludunt immediatam contradictionem, ergo
+          <lb ed="#P" n="11"/>non potest esse verus Deus, et esse ab alio, ergo
+          <lb ed="#P" n="12"/>nec esse productum, quia quod est productum,
+          <lb ed="#P" n="13"/>ab alio habet esse. Secundo, quia quod est 
+          pro<lb break="no" ed="#P" n="14"/>ductum est dependens : dependentia autem 
+          in<lb break="no" ed="#P" n="15"/>trinsece dicit imperfectionem , ergo repugnat
+          <lb ed="#P" n="16"/>Deo. Tertio, quia, quod est productum, aut est
+          <lb ed="#P" n="17"/>ex nihilo, aut ex aliquo. Si ex nihilo, erit 
+          crea<lb break="no" ed="#P" n="18"/>tum, quod Deo plane repugnat. Si ex aliquo,
+          <lb ed="#P" n="19"/>erit materiale compositum et imperfectum, tum
+          <lb ed="#P" n="20"/>quiailla particula, ex, non potest intelligi, quam
+          <lb ed="#P" n="21"/>habitudinem dicat ibi, nisi materialem ; tum
+          <lb ed="#P" n="22"/>etiam, quia id, ex quo aliquid producitur, 
+          sup<lb break="no" ed="#P" n="23"/>ponitur productioni, et ut productio locum 
+          ha<lb break="no" ed="#P" n="24"/>beat, necesse est, ut aliquid per illam fiat 
+          prae<lb break="no" ed="#P" n="25"/>ter id, quod supponitur, ut ex utroque constet
+          <lb ed="#P" n="26"/>adaequatus terminus productionis : hoc autem
+          <lb ed="#P" n="27"/>non intelligitur sine compositione et 
+          imperfec<lb break="no" ed="#P" n="28"/>tione. :
+        </p>
+        <p xml:id="szduep-145567-d1e191">
+          <lb ed="#P" n="29"/>2. Assertio fidei. — Nihilominus veritas
+          <lb ed="#P" n="30"/>Catholica est, personam, quae est verus Deus,
+          <lb ed="#P" n="31"/>posse esse productam vere, ac realiter. Ita enim
+          <lb ed="#P" n="32"/>est expressum in Scriptura, praesertim 1,
+          <lb ed="#P" n="33"/>Joan. 5: Ut simus in vero Filio ejus, hic est
+          <lb ed="#P" n="34"/>verus Deus, nam verus Filius non est, nisi vere
+          <lb ed="#P" n="35"/>productus, et ideo de se ipso dicebat Filius:
+          <lb ed="#P" n="36"/>LE go ex Deo processi, Joan. 8, et hoc ipsum 
+          si<lb break="no" ed="#P" n="37"/>gnificatum videtur in verbis illis Genes. 19:
+          <lb ed="#P" n="38"/>Pluit Dominus a Domino, nam in utroque
+          <lb ed="#P" n="39"/>loco est vox significans verum Deum. 
+          Simili<lb break="no" ed="#P" n="40"/>ter colligitur ex illo Psalm. 109: Dixit 
+          Domi<lb break="no" ed="#P" n="41"/>nus Domino meo, et subditur statim : Ex 
+          ute<lb break="no" ed="#P" n="42"/>ro ante luciferum genui te.
+        </p>
+        <p xml:id="szduep-145567-d1e225">
+          <lb ed="#P" n="43"/>3. In quibus locis obiter notari potest, 
+          pro<lb break="no" ed="#P" n="44"/>ducere et produci vere affirmari de personis,
+          <lb ed="#P" n="45"/>quae sunt Deus, non solum quatenus propriis
+          <lb ed="#P" n="46"/>nominibus significantur, sed etiam sub 
+          abso<lb break="no" ed="#P" n="47"/>luta appellatione Dei, et inde sumpta sunt illa
+          <lb ed="#P" n="48"/>verba symboli : Deum de Deo, etc. Quae hanc
+          <lb ed="#P" n="49"/>veritatem confirmant et definiunt. Quam 
+          la<lb break="no" ed="#P" n="50"/>tius confirmat et declarat D. Thomas 1 D.
+          <lb ed="#P" n="51"/>q. 39. Ratio autem est, quia Deus licet de 
+          for<lb break="no" ed="#P" n="52"/>mali significet essentiam et naturam 
+          commu<lb break="no" ed="#P" n="53"/>nem, tamen supponit pro personis, sive 
+          imme<lb break="no" ed="#P" n="54"/>diate, sive mediate, quod ad praesens non 
+          re<lb break="no" ed="#P" n="55"/>fert, et ideo, quod impliciter verum est de per-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sona, affirmari etiam potest de Deo, persona 
+          <lb ed="#P" n="57"/>potest esse productus, vel procedens a Deo.
+        </p>
+        <p xml:id="szduep-145567-d1e262">
+          <lb ed="#P" n="58"/>4. Expenditur ratio pro assertione fidei. —
+          <lb ed="#P" n="59"/>Ad confirmandam autem hanc Catholicam 
+          ve<lb break="no" ed="#P" n="60"/>ritatem adducit plures rationes Scotus, loco 
+          ci<lb break="no" ed="#P" n="61"/>tato, quae omnes eo tendunt, ut probent, posse
+          <lb ed="#P" n="62"/>esse processionem Dei ad intra per 
+          intellec<lb break="no" ed="#P" n="63"/>tum et voluntatem, de quo jam dictum est.
+          <lb ed="#P" n="64"/>Solum ergo in hoc est in praesenti insistendum, 
+          <lb ed="#P" n="65"/>ut vel ostendamus, vel defendamus, posse esse
+          <lb ed="#P" n="66"/>realem processionem sine ulla imperfectione,
+          <lb ed="#P" n="67"/>nam hoc posito, facile erit persuadere talem
+          <lb ed="#P" n="68"/>productionem posse convenire Deo ad intra. 
+          <lb ed="#P" n="69"/>Atque ita facile concludetur, quod per illam
+          <lb ed="#P" n="70"/>producitur, esse verum Deum, quia intra Deum 
+          <lb ed="#P" n="71"/>nihil esse potest, quod non sit Deus. Et ideo
+          <lb ed="#P" n="72"/>Joan., cap. 1, cum dixisset : Et Verbum erat
+          <lb ed="#P" n="73"/>apud Deum, statim subjungit : Et Deus erat
+          <lb ed="#P" n="74"/>Verbum. Quod autem hoc non includat 
+          imper<lb break="no" ed="#P" n="75"/>fectionem magis fide tenetur, quam ratione
+          <lb ed="#P" n="76"/>ostendi possit. Nam, ut productio nullam 
+          in<lb break="no" ed="#P" n="77"/>cludat imperfectionem, necesse est, quod 
+          pro<lb break="no" ed="#P" n="78"/>ductum recipiat idem numero esse, quod est
+          <lb ed="#P" n="79"/>in producente, nam si aliud reciperet, jam
+          <lb ed="#P" n="80"/>esset in producto esse participatum, quod plane 
+          <lb ed="#P" n="81"/>includit imperfectionem. Haec igitur 
+          produc<lb break="no" ed="#P" n="82"/>tio talis esse debet, ut per eam 
+          communice<lb break="no" ed="#P" n="83"/>tur idem esse. Quod autem sit ex principiis
+          <lb ed="#P" n="84"/>fidei ostendemus libro quarto. Nunc autem 
+          so<lb break="no" ed="#P" n="85"/>lum probamus, non repugnare, quia illud esse 
+          <lb ed="#P" n="86"/>est infinitum, et ideo communicabile est 
+          omni<lb break="no" ed="#P" n="87"/>bus personis, cum quibus non habet 
+          oppositio<lb break="no" ed="#P" n="88"/>nem. Supposita igitur hac veritate, quod non
+          <lb ed="#P" n="89"/>repugnet productum recipere eamdem 
+          natu<lb break="no" ed="#P" n="90"/>ram, quae est in producente, facile intelligitur
+          <lb ed="#P" n="91"/>et verum Deum posse esse productum, et 
+          ta<lb break="no" ed="#P" n="92"/>lem productionem nullam includere 
+          imperfec<lb break="no" ed="#P" n="93"/>tionem. Primum patet, quia quicumque habet
+          <lb ed="#P" n="94"/>naturam Divinam, est verus Deus, sive illam
+          <lb ed="#P" n="95"/>habeat a se, sive communicatam ab alio. 
+          Se<lb break="no" ed="#P" n="96"/>cundum patet, quia ipsamet natura divina
+          <lb ed="#P" n="97"/>excludit omnem imperfectionem, quia secum
+          <lb ed="#P" n="98"/>affert omnem perfectionem. Quod facile 
+          pate<lb break="no" ed="#P" n="99"/>bit, discurrendo per eas imperfectiones, quae
+          <lb ed="#P" n="100"/>in argumentis tanguntur et aliis, quae afferri 
+          <lb ed="#P" n="101"/>possunt, et eas excludendo.
+        </p>
+        <p xml:id="szduep-145567-d1e360">
+          <lb ed="#P" n="102"/>5. Satisfit primo argumento. — Prima
+          <lb ed="#P" n="103"/>ergo imperfectio, quae in primo argumento 
+          ob<lb break="no" ed="#P" n="104"/>jiciebatur, erat esse ab alio, quia inde 
+          sequi<lb break="no" ed="#P" n="105"/>tur, non esse a se. Distinguendum autem est 
+          <lb ed="#P" n="106"/>de esse ab alio Deo, vel esse ab alio, qui sit 
+          <lb ed="#P" n="107"/>idem Deus. Primum dicit manifestam 
+          imper<lb break="no" ed="#P" n="108"/>fectionem, quia dicit pluralitatem Deorum et 
+          <lb ed="#P" n="109"/>distinctionem in natura producentis et pro-
+          <pb ed="#P" n="577"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ducti. Unde cum talis distinctio non possit esse
+          <lb ed="#P" n="2"/>cum aequalitate naturae, necesse est, ut sit cum
+          <lb ed="#P" n="3"/>non poterit dici verus productae, quae proinde
+          <lb ed="#P" n="4"/>imperfectione personae Deus et per essentiam,
+          <lb ed="#P" n="5"/>sed ad summum per aliquam eminentem 
+          par<lb break="no" ed="#P" n="6"/>ticipationem , atque adeo per analogiam. 
+          Per<lb break="no" ed="#P" n="7"/>sona ergo procedens in Deo non producitur isto
+          <lb ed="#P" n="8"/>modo, sed ab alio, qui est idem Deus, atque hoc
+          <lb ed="#P" n="9"/>modo nulla est imperfectio. Quo sensu videtur
+          <lb ed="#P" n="10"/>dixisse Hilarius, lib. 9, de Trinitate, post 
+          me<lb break="no" ed="#P" n="11"/>dium: Quamvis Pater major sit (id est, videatur,
+          <lb ed="#P" n="12"/>sic enim expono) auctoritate dantis, tamen 
+          Fi<lb break="no" ed="#P" n="13"/>lius minor non est, cui idem esse communicatur.
+          <lb ed="#P" n="14"/>Et hacratione non pugnantilla duo, scilicet, esse
+          <lb ed="#P" n="15"/>ipsum esse per essentiam, et esse personam 
+          pro<lb break="no" ed="#P" n="16"/>ductam, quia per productionem accipit 
+          ipsum<lb break="no" ed="#P" n="17"/>met esse per essentiam. Et eadem ratione dici
+          <lb ed="#P" n="18"/>potest talis persona esse a se, prout a se 
+          exclu<lb break="no" ed="#P" n="19"/>dit principium extraneum, seu alterius naturae,
+          <lb ed="#P" n="20"/>et prout excludit omnem propriam 
+          causalita<lb break="no" ed="#P" n="21"/>tem, et dependentiam, ut statim dicam. 
+          Acde<lb break="no" ed="#P" n="22"/>nique prout dicit habere naturam, quae 
+          produc<lb break="no" ed="#P" n="23"/>ta non est, quamvis sit communicata personae
+          <lb ed="#P" n="24"/>per productionem ejus. r
+        </p>
+        <p xml:id="szduep-145567-d1e436">
+          <lb ed="#P" n="25"/>6. Ad secundum argumentum. — In secundo
+          <lb ed="#P" n="26"/>argumento adjungebatur alia imperfectio, quia
+          <lb ed="#P" n="27"/>omne productum videtur esse dependens et
+          <lb ed="#P" n="28"/>causatum, quae ex eodem principio excluditur.
+          <lb ed="#P" n="29"/>Unde negamus, illam imperfectionem esse de
+          <lb ed="#P" n="30"/>ratione productionis, ut sic, nam si talis sit
+          <lb ed="#P" n="31"/>productio, ut per ipsam communicetur illud
+          <lb ed="#P" n="32"/>esse, quod causatum non est, nec dependens,
+          <lb ed="#P" n="33"/>neque ipsa productio erit cum vera 
+          dependen<lb break="no" ed="#P" n="34"/>tia. Maxime, cum illud esse intrinsece et 
+          essen<lb break="no" ed="#P" n="35"/>tialiter includatur in persona producta, et in
+          <lb ed="#P" n="36"/>omni ejus proprietate per summam quamdam
+          <lb ed="#P" n="37"/>simmplicitatem, Ex quo etiam fit, ut illa 
+          pro<lb break="no" ed="#P" n="38"/>ductio sit absque vera et propria actione (ut
+          <lb ed="#P" n="39"/>supra dicebam) per simplicem quamdam 
+          pro<lb break="no" ed="#P" n="40"/>cessionem, quae in re non distinguitur a 
+          per<lb break="no" ed="#P" n="41"/>sona producta.
+        </p>
+        <p xml:id="szduep-145567-d1e475">
+          <lb ed="#P" n="42"/>7. Productio ad intra est fine causalitate.—
+          <lb ed="#P" n="43"/>Denique hinc fit, hujusmodi productionem esse
+          <lb ed="#P" n="44"/>absque vera causalitate : quod quidem de 
+          for<lb break="no" ed="#P" n="45"/>mali et materiali causahtate per se notum est.
+          <lb ed="#P" n="46"/>De efficiente vero etiam debet esse certum,
+          <lb ed="#P" n="47"/>alias persona producta esset facta, contra 
+          sym<lb break="no" ed="#P" n="48"/>bolum Athanasii. Item, quia Aristoteles 
+          defini<lb break="no" ed="#P" n="49"/>vit, efficiens esse illud, ad quod aliud sequitur,
+          <lb ed="#P" n="50"/>persona autem producta non est aliud a 
+          produ<lb break="no" ed="#P" n="51"/>cente, ut infra dicemus. Praeterea, ratio 
+          su<lb break="no" ed="#P" n="52"/>menda est ex dicto principio, quia esse, quod
+          <lb ed="#P" n="53"/>per hanc productionem communicatur, non
+          <lb ed="#P" n="54"/>est esse causatum, neque ipsa productio est
+          <lb ed="#P" n="55"/>per propriam actionem, ergo nec per eflticien-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiam, nec per propriam causalitatem 
+          efficien<lb break="no" ed="#P" n="57"/>tem. Et ita etiam concluditur, causalitatem
+          <lb ed="#P" n="58"/>finalem in hoc genere productionis non habere
+          <lb ed="#P" n="59"/>locum. Quod specialiter notavit Cyrillus 
+          Ale<lb break="no" ed="#P" n="60"/>xandrinus, lib. 5, Thesauri, cap. 5, in hoc 
+          con<lb break="no" ed="#P" n="61"/>stituens differentiam inter generationem 
+          aete<lb break="no" ed="#P" n="62"/>rnam et temporalem Verbi divini, quodde 
+          aeter<lb break="no" ed="#P" n="63"/>na quaeri non potest, cur fuerit, sicut potest de
+          <lb ed="#P" n="64"/>temporali. Quia, videlicet illa non est ex 
+          inten<lb break="no" ed="#P" n="65"/>Uone finis, sed ex absoluta necessitate illius 
+          na<lb break="no" ed="#P" n="66"/>turae. Item causa litas finis supponit 
+          cognitio<lb break="no" ed="#P" n="67"/>nem: illaautem generatio non supponit proprie
+          <lb ed="#P" n="68"/>cognitionem, sed est per ipsam primam 
+          cogni<lb break="no" ed="#P" n="69"/>tionem. Productio autem Spiritus sancti, licet
+          <lb ed="#P" n="70"/>cognitionem supponat, nihilominus non est
+          <lb ed="#P" n="71"/>ex intentione finis, sed ex naturali et 
+          neces<lb break="no" ed="#P" n="72"/>sario amore, quo Deus Pater, et Filius se
+          <lb ed="#P" n="73"/>amant, qui primus amor nullam intentionem
+          <lb ed="#P" n="74"/>supponit. Denique propria causalitas finis 
+          sem<lb break="no" ed="#P" n="75"/>per est in ordine ad actionem efticientis, ubi
+          <lb ed="#P" n="76"/>ergo causahtas finis non invenitur, nec 
+          fina<lb break="no" ed="#P" n="77"/>hs intervenire potest. Est ergo haec productio
+          <lb ed="#P" n="78"/>ad intra sine ulla vera causalitate.
+        </p>
+        <p xml:id="szduep-145567-d1e560">
+          <lb ed="#P" n="79"/>8. Exponuntur Patres utentes nomine 
+          cau<lb break="no" ed="#P" n="80"/>se. — Nec movere quemquam debet, quod
+          <lb ed="#P" n="81"/>interdum Patres utuntur nomine causae in hoc
+          <lb ed="#P" n="82"/>mysterio, illud tribuentes Patri respectu Filii,
+          <lb ed="#P" n="83"/>ut videre est in Nazianzeno, orat. 29, Basilio,
+          <lb ed="#P" n="84"/>libris contra Eunomium saepe, et Damasceno,
+          <lb ed="#P" n="85"/>lib. 1, de Fide, cap. 8 et 11, et in aliis Graecis.
+          <lb ed="#P" n="86"/>Et ex Latinis ita etiam loquitur Richardus de
+          <lb ed="#P" n="87"/>S. Vict., lib. 5, de Trinitate, cap. 7. Propter
+          <lb ed="#P" n="88"/>quod Aureolus in 1, dist. 20, censuit, vocem
+          <lb ed="#P" n="89"/>illam causa, etiam juxta proprietatem latini
+          <lb ed="#P" n="90"/>sermonis, posse proprie Deo attribui ad intra.
+          <lb ed="#P" n="91"/>Verumtamen advertendum est, duobus modis
+          <lb ed="#P" n="92"/>solis solere Patres tribuere hanc vocem Deo.
+          <lb ed="#P" n="93"/>Primo in ordine ad attributa essentialia: 
+          quo<lb break="no" ed="#P" n="94"/>modo Augustinus et Hieronymus aliquando
+          <lb ed="#P" n="95"/>dixerunt, Deum sibi esse causam, ut sit, vel ut
+          <lb ed="#P" n="96"/>sapiens sit, et talis locutio intelligenda est 
+          nega<lb break="no" ed="#P" n="97"/>tive, scilicet, Deum non habere ab alio, ut 
+          ta<lb break="no" ed="#P" n="98"/>lis sit, sed ex se talem esse, et ideo non est
+          <lb ed="#P" n="99"/>extendenda illa locutio. Alio modo tribuitur
+          <lb ed="#P" n="100"/>uni personae respectu alterius. Et hoc modo
+          <lb ed="#P" n="101"/>loquuntur saepe Graeci, raro Latini, ut notatur
+          <lb ed="#P" n="102"/>in Concilio Florentino, sessione ultima in 
+          lit<lb break="no" ed="#P" n="103"/>teris unionis, et in eadem sessione idem notat
+          <lb ed="#P" n="104"/>Bessarion in oratione pro unione, capite 
+          ul<lb break="no" ed="#P" n="105"/>timo ubi declarat, Graeco non uti illa voce,
+          <lb ed="#P" n="106"/>prout indicat limitationem, aut dependentiam,
+          <lb ed="#P" n="107"/>sed prout dicit simplicem originem, et capite
+          <lb ed="#P" n="108"/>tertio advertit, Cyrillum, quamvis Graecum,
+          <lb ed="#P" n="109"/>illam vocem non admississe. Igitur nobis non
+          <lb ed="#P" n="110"/>est utendum nomine causae, sed principii, ut
+          <pb ed="#P" n="578"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>notavit optime Hilarius, lib. 9, de Trinitate, et
+          <lb ed="#P" n="2"/>D. Thomas, 1 part., quaest. 33, et consentiunt
+          <lb ed="#P" n="3"/>reliqui scholastici.
+        </p>
+        <p xml:id="szduep-145567-d1e644">
+          <lb ed="#P" n="4"/>9. Productionem ad intra non esse ex nihilo.
+          <lb ed="#P" n="5"/>— In tertio argumento objicitur alia 
+          imperfec<lb break="no" ed="#P" n="6"/>tio quae est, esse ex nihilo, vel ex 
+          composi<lb break="no" ed="#P" n="7"/>tione actus et potentiae. Utrumque autem 
+          ex<lb break="no" ed="#P" n="8"/>cluditur ex eodem principio posito. Nam cum
+          <lb ed="#P" n="9"/>per hujusmodi processionem communicetur
+          <lb ed="#P" n="10"/>persona productae eadem substantia 
+          produ<lb break="no" ed="#P" n="11"/>centis, necesse est, ut persona producta non
+          <lb ed="#P" n="12"/>sit ex nihilo, sed ex substantia producentis. Et
+          <lb ed="#P" n="13"/>ita haec est communis locutio Sanctorum, 
+          Fi<lb break="no" ed="#P" n="14"/>lius est ev substantia Patris, quam 
+          substan<lb break="no" ed="#P" n="15"/>tiam intelligunt, nomine, Uferi significari
+          <lb ed="#P" n="16"/>in illo Psalm. 109: Ex utero ante luciferum
+          <lb ed="#P" n="17"/>genui te. Ut exponit Concilum Hispalense 2.
+          <lb ed="#P" n="18"/>Et Fulgentius ad objectiones Arianorum. Et
+          <lb ed="#P" n="19"/>simili modo loquitur de persona Spiritus
+          <lb ed="#P" n="20"/>sancti Justinus Martyr, in expositione Fidei,
+          <lb ed="#P" n="21"/>Cyrillus autem, in dicto lib. 5, Thesauri, cap. 5,
+          <lb ed="#P" n="22"/>utitur hac locutione, Filius est ab substantia
+          <lb ed="#P" n="23"/>Patris. Sed illa particula ab, est aequivoca, et
+          <lb ed="#P" n="24"/>potest denotare habitudinem efficientis, et ideo
+          <lb ed="#P" n="25"/>non est simpliciter usurpanda, sed pie 
+          expo<lb break="no" ed="#P" n="26"/>nenda, quod D. Thomas, 1 part., quaest 41,
+          <lb ed="#P" n="27"/>etiam censuit de hac locutione, Filius est de
+          <lb ed="#P" n="28"/>substantia Patris, de qua iterum infra 
+          dice<lb break="no" ed="#P" n="29"/>mus. Ita ergo excluditur illa imperfectio, ex
+          <lb ed="#P" n="30"/>nihilo. Nec sequitur alia de compositione, quia
+          <lb ed="#P" n="31"/>illa substantia, ex qua dicitur esse talis 
+          pro<lb break="no" ed="#P" n="32"/>cessio, non se habet, ut potentia, neque ut
+          <lb ed="#P" n="33"/>pars naturae, sed ut purissimus actus, qui est
+          <lb ed="#P" n="34"/>tota natura et essentia rei productae in re ipsa,
+          <lb ed="#P" n="35"/>non distincta a personali ejus proprietate, ut
+          <lb ed="#P" n="36"/>postea videbimus.
+        </p>
+        <p xml:id="szduep-145567-d1e718">
+          <lb ed="#P" n="37"/>10. Atque ex his facile est, excludere ab
+          <lb ed="#P" n="38"/>hoc ordine productionum omnes alias 
+          imper<lb break="no" ed="#P" n="39"/>fectiones, quae inveniuntur in productionibus
+          <lb ed="#P" n="40"/>creaturarum, quales sunt esse cum aliqua 
+          mu<lb break="no" ed="#P" n="41"/>tatione, cum novitate essendi et cum aliqua
+          <lb ed="#P" n="42"/>possibilitate amittendi esse. Nam hae 
+          imper<lb break="no" ed="#P" n="43"/>fectiones et similes oriuntur ex eo, quod per
+          <lb ed="#P" n="44"/>talem productionem imperfectum esse 
+          com<lb break="no" ed="#P" n="45"/>municatur, et consequenter modo imperfecto
+          <lb ed="#P" n="46"/>et cum dependentia. Hllud autem esse, quod
+          <lb ed="#P" n="47"/>per productionem ad intra communicatur in
+          <lb ed="#P" n="48"/>Deo est omnino immutabile, et ideo in 
+          pro<lb break="no" ed="#P" n="49"/>ductione illa nulla potest esse umbra 
+          mutatio<lb break="no" ed="#P" n="50"/>nis, nec novitas, aut finis essendi. Hinc optime
+          <lb ed="#P" n="51"/>Damascenus, lib. 1, de Fide, cap. 8, loquens
+          <lb ed="#P" n="52"/>n particulari de Filii productione dicit: 
+          Zm<lb break="no" ed="#P" n="53"/>puum esse in illa cogitare temporis initium, aut
+          <lb ed="#P" n="54"/>post Patrem Filii substantiam generari, quia
+          <lb ed="#P" n="55"/>ex ipsa Patris substantia astruimus Filii ge-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nerationem. Et eadem ratio est de quacumque
+          <lb ed="#P" n="57"/>processione Dei ad intra. Est igitur de illius
+          <lb ed="#P" n="58"/>ratione, quod sit aeterna et consequenter, quod
+          <lb ed="#P" n="59"/>sit ex absoluta necessitate, quod infra 
+          dispu<lb break="no" ed="#P" n="60"/>tando specialius de actibus notionalibus latius 
+          <lb ed="#P" n="61"/>dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

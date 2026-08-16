@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="377"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-095854"><!-- t2-l2c11 -->
+        <head xml:id="szduep-095854-Hd1e101">Caput 11</head>
+        <head xml:id="szduep-095854-Hd1e103" type="question-title">Proponitur quarta sententia negans posse hominem per vires naturae bonum morale perficere</head>
+        <p xml:id="szduep-095854-d1e106">
+          <lb ed="#P" n="59"/>CAPUT XI.
+          <lb ed="#P" n="60"/>PROPONITUR QUARTA SENTENTIA NEGANS POSSE 
+          HO<lb break="no" ed="#P" n="61"/>MINEM PER VIRES NATURAE BONUM MORALE 
+          PER<lb break="no" ed="#P" n="62"/>FICERE.
+        </p>
+        <p xml:id="szduep-095854-d1e117">
+          <lb ed="#P" n="63"/>1. Alii ergo moderni auctores, imprimis 
+          fa<lb break="no" ed="#P" n="64"/>tentur posse hominem carentem gratia 
+          sancti<lb break="no" ed="#P" n="65"/>ficante, et fide, et omni illustratione vel 
+          inspi<lb break="no" ed="#P" n="66"/>ratione supernaturali, et propria vocatione ad
+          <lb ed="#P" n="67"/>fidem, utentem denique sola naturali ratione
+          <lb ed="#P" n="68"/>et discursu, faciendo, quod in se est, bonum
+          <lb ed="#P" n="69"/>moralem actum perficere, tam ex objecto quam
+          <lb ed="#P" n="70"/>ex omnibus circmstantiis : et nihilominus
+          <lb ed="#P" n="71"/>aiunt,nunquam efficere hominem talem actum,
+          <lb ed="#P" n="72"/>sine aliqua praeveniente gratia gratis data, id
+          <lb ed="#P" n="73"/>est, motione aliqua divina ad aliquod bonum
+          <lb ed="#P" n="74"/>praestandum. Quam dicunt esse veram gratiam
+          <lb ed="#P" n="75"/>per Christum, de qua loquuntur Concilia, cum
+          <lb ed="#P" n="76"/>ad bene operandum gratiam requirunt , ac
+          <lb ed="#P" n="77"/>proinde esse veram et internam Spiritus sancti
+          <lb ed="#P" n="78"/>illuminationem et inspirationem, non quidem
+          <lb ed="#P" n="79"/>ordinis supernaturalis, tamen naturae non 
+          de<lb break="no" ed="#P" n="80"/>bitam, et (in eo sensu) supra naturam est,
+          <lb ed="#P" n="81"/>proinde aiunt esse effectum praedestinationis,
+          <lb ed="#P" n="82"/>quamvis sola gratia sit verus praedestinationis
+          <lb ed="#P" n="83"/>effectus, juxta mentem Augustini, lib. de 
+          Prae<lb break="no" ed="#P" n="84"/>destinat. Sanct., cap. 10, et consequenter non
+          <lb ed="#P" n="85"/>posse esse causam totius praedestinationis ex
+          <lb ed="#P" n="86"/>parte effectuum ejus.
+        </p>
+        <p xml:id="szduep-095854-d1e172">
+          <lb ed="#P" n="87"/>2. Ad declarandum autem hanc sententiam
+          <lb ed="#P" n="88"/>tria jaciuntur fundamenta, ex quibus illa 
+          ne<lb break="no" ed="#P" n="89"/>cessario infertur. Primum est aliqua moralia
+          <lb ed="#P" n="90"/>opera impetrare a Deo aliquam gratiam per
+          <lb ed="#P" n="91"/>Christum, ut patet ex promissionibus quae in
+          <lb ed="#P" n="92"/>Scriptura fiunt eleemosynae, et aliis similibus
+          <lb ed="#P" n="93"/>operibus quae supra allegatae sunt. Secundum
+          <lb ed="#P" n="94"/>est, hoc verum esse distincte de omnibus 
+          mo<lb break="no" ed="#P" n="95"/>ralibus operibus, nam qui affirmant, aliquibus
+          <lb ed="#P" n="96"/>operibus misericordiae, et aliis moralibus 
+          virtu<lb break="no" ed="#P" n="97"/>tum acquisitarum nullum a Deo auxilium 
+          gra<lb break="no" ed="#P" n="98"/>tiae impetrari, immerito inter haec opera 
+          distin<lb break="no" ed="#P" n="99"/>guunt, cum Scriptura non distinguat, sed 
+          in<lb break="no" ed="#P" n="100"/>differenter loquatur. Tertium est, illud opus
+          <lb ed="#P" n="101"/>morale, quod a Deo impetrat aliquod gratiae
+          <lb ed="#P" n="102"/>auxilium, vel ad illud disponit, esse ex auxilio
+          <lb ed="#P" n="103"/>gratiae priori, ut capite septimo a nobis 
+          proba<lb break="no" ed="#P" n="104"/>tum est. Ex his ergo evidenter concluditur,
+          <lb ed="#P" n="105"/>nullum fieri morale opus bonum sine gratia,
+          <lb ed="#P" n="106"/>syllogizando in hunc modum: omne opus 
+          mo<lb break="no" ed="#P" n="107"/>rale, quod ex se impetrat gratiae auxilium, est
+          <pb ed="#P" n="378"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex gratiae auxilio: sed omne opus morale 
+          bo<lb break="no" ed="#P" n="2"/>num, quantum est ex se, impetrat a Deo 
+          ali<lb break="no" ed="#P" n="3"/>quod gratiae auxilium: ergo omne opus morale
+          <lb ed="#P" n="4"/>bonum fit ex gratiae auxilio. Vel e converso,
+          <lb ed="#P" n="5"/>nullum bonum opus morale esse potest, quod
+          <lb ed="#P" n="6"/>non sit impetrativum alicujus gratiae: sed 
+          om<lb break="no" ed="#P" n="7"/>ne opus impetrativum alicujus gratiae 
+          neces<lb break="no" ed="#P" n="8"/>sario esse debet ex gratia: ergo omne opus
+          <lb ed="#P" n="9"/>morale bonum debet necessario esse ex gratia.
+        </p>
+        <p xml:id="szduep-095854-d1e245">
+          <lb ed="#P" n="10"/>3. Praeterea referuntur pro hac sententia
+          <lb ed="#P" n="11"/>graviores ex antiquis theologi, D. Thomas, 1,
+          <lb ed="#P" n="12"/>2. quaest. 109, art. 2, ubi in corpore ait, 
+          natu<lb break="no" ed="#P" n="13"/>ram humanam, nec in statu naturae integrae,
+          <lb ed="#P" n="14"/>nec corruptae, potuisse aliquod bonum morale
+          <lb ed="#P" n="15"/>operari sine auxilio divino, a quo moveatur ad
+          <lb ed="#P" n="16"/>bene agendum. Et, solutione ad 1, ait, omnem
+          <lb ed="#P" n="17"/>deliberationem humanam inchoari debere ab
+          <lb ed="#P" n="18"/>aliquo exteriori principio, quod sit supra 
+          men<lb break="no" ed="#P" n="19"/>tes humanas, quia ante omnem 
+          deliberatio<lb break="no" ed="#P" n="20"/>nem necesse est, ut antecedat aliqua cogitatio
+          <lb ed="#P" n="21"/>intellectus non libera, quae non potest esse,
+          <lb ed="#P" n="22"/>nisi a Deo. Et aiunt, ita intellexisse D. 
+          Tho<lb break="no" ed="#P" n="23"/>mam omnes insignes ejus discipulos et 
+          signa<lb break="no" ed="#P" n="24"/>tim Capreolum 2, d. 29, quaest. 1, art. 1,
+          <lb ed="#P" n="25"/>concl. 4, Dezam Hispalensem 2, d. 28, quaest. 2,
+          <lb ed="#P" n="26"/>art. 3, annot. 2 et 6, Franciscum Rhomaeum ,
+          <lb ed="#P" n="27"/>in lib. de Libertate et necessitate operum, 
+          ve<lb break="no" ed="#P" n="28"/>ritate 14 et 15.
+        </p>
+        <p xml:id="szduep-095854-d1e289">
+          <lb ed="#P" n="29"/>4. Sed quod ad mentem D. Thomae attinet,
+          <lb ed="#P" n="30"/>evidens est, per auxilium divinum nihil aliud
+          <lb ed="#P" n="31"/>intelligere, quam generalem concursum 
+          pri<lb break="no" ed="#P" n="32"/>mae causae. Eodem enim modo dixerat in 
+          arti<lb break="no" ed="#P" n="33"/>culo primo, ad cognitionem cujuscumque veri
+          <lb ed="#P" n="34"/>indigere hominem auxilio divino, eo modo,
+          <lb ed="#P" n="35"/>quo actio cujuscumque agentis creati 
+          depen<lb break="no" ed="#P" n="36"/>det a Deo et ut a dante formam, et ut ab 
+          actua<lb break="no" ed="#P" n="37"/>liter movente, ita enim vocat D. Thomas 
+          ge<lb break="no" ed="#P" n="38"/>neralem concursum primae causae : unde addit,
+          <lb ed="#P" n="39"/>hominem non indigere nova illustratione, nisi
+          <lb ed="#P" n="40"/>ad veritates illas cognoscendas, quae excedunt
+          <lb ed="#P" n="41"/>naturalem ccgnitionem. Et in articulo secundo,
+          <lb ed="#P" n="42"/>ad 3, clare ostendit , de eodem auxilio divino
+          <lb ed="#P" n="43"/>fuisse locutum in utroque articulo. Unde, art. 1,
+          <lb ed="#P" n="44"/>ad 1, ait, omne verum , a quocumque dicatur,
+          <lb ed="#P" n="45"/>esse a Spiritu sancto infundente naturale 
+          lu<lb break="no" ed="#P" n="46"/>men et movente ad intelligendum et 
+          loquen<lb break="no" ed="#P" n="47"/>dum veritatem. Eodem ergo sensu dixit in 
+          so<lb break="no" ed="#P" n="48"/>lutione, ad 1, determinari intellectum 
+          homi<lb break="no" ed="#P" n="49"/>nis ab auctore naturae in prima cogitatione,
+          <lb ed="#P" n="50"/>quae propriam deliberationem antecedit, 
+          scili<lb break="no" ed="#P" n="51"/>cet, per ipsum naturale lumen inditum a Deo,
+          <lb ed="#P" n="52"/>cum communi motione et concursu debito ex
+          <lb ed="#P" n="53"/>generali providentia, ut in illo articulo 
+          ex<lb break="no" ed="#P" n="54"/>presse dicit. Et ita intellexit D. Thomam 
+          Cajeta<lb break="no" ed="#P" n="55"/>nus, ibi, qui bene advertit in articulo primo,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cum quaeritur, an homo possit hoc vel illud 
+          fa<lb break="no" ed="#P" n="57"/>cere sine gratia, intelligi de omni gratia, quee
+          <lb ed="#P" n="58"/>sit supra totum ordinem naturalem. Et in 
+          arti<lb break="no" ed="#P" n="59"/>culo secundo, late tractans hanc quaestionem,
+          <lb ed="#P" n="60"/>tam sententiam illam, quam interpretationem
+          <lb ed="#P" n="61"/>D. Thomae refellit. Idemque videre licet in 
+          re<lb break="no" ed="#P" n="62"/>centioribus illius loci tractatoribus, Medina,
+          <lb ed="#P" n="63"/>Zumele, Valentia.
+        </p>
+        <p xml:id="szduep-095854-d1e370">
+          <lb ed="#P" n="64"/>5. Deinde in eamdem sententiam refertur
+          <lb ed="#P" n="65"/>Alensis, 3 p., q. 69, memb. 1, art. 2, alias
+          <lb ed="#P" n="66"/>q. 61, memb. unic. S Consequenter, ubi 
+          gra<lb break="no" ed="#P" n="67"/>tiam requirit ad bene operandum. Quod aliqui
+          <lb ed="#P" n="68"/>exponunt de collectione bonorum, non de 
+          sin<lb break="no" ed="#P" n="69"/>gulis actibus, id est, ut gratia sit necessaria
+          <lb ed="#P" n="70"/>ad bene operandum sine defectu et sine 
+          ad<lb break="no" ed="#P" n="71"/>mixtione peccatorum contra legem naturae.
+          <lb ed="#P" n="72"/>Constat vero ex titulo articuli primi, ipsum
+          <lb ed="#P" n="73"/>non tractare de necessitate gratiae ad bene
+          <lb ed="#P" n="74"/>operandum, sed de necessitate gratiae ad 
+          salu<lb break="no" ed="#P" n="75"/>tem. Et ita cum in corpore membri illius, in
+          <lb ed="#P" n="76"/>prima parte ejus, varias acceptiones gratiae
+          <lb ed="#P" n="77"/>posuisset, concludit : Cum ergo queritur, an
+          <lb ed="#P" n="78"/>ad consequendam salutem sit necessaria gratia,
+          <lb ed="#P" n="79"/>intentio est de gratia gratum faciente, 
+          secun<lb break="no" ed="#P" n="80"/>dum quam homo efficitur Deo acceptus. Et 
+          sta<lb break="no" ed="#P" n="81"/>tim ponit conclusionem: JVecessariam esse hanc
+          <lb ed="#P" n="82"/>gratiam ad merendum et ad consequendam 
+          vi<lb break="no" ed="#P" n="83"/>tam eternam. At certissimum est, hanc 
+          gra<lb break="no" ed="#P" n="84"/>tiam non esse necessariam ad singula opera
+          <lb ed="#P" n="85"/>moralia, non potest ergo de his loqui. Quia
+          <lb ed="#P" n="86"/>vero ad servandam collective totam legem et
+          <lb ed="#P" n="87"/>honestatem naturae, necessaria est haec gratia
+          <lb ed="#P" n="88"/>sanctificans : ideo quantum est ex hoc 
+          princi<lb break="no" ed="#P" n="89"/>pio, posset illa doctrina intelligi de bono 
+          mo<lb break="no" ed="#P" n="90"/>rali collective : sic enim necessarium est ad
+          <lb ed="#P" n="91"/>salutem : Quia qui àn uno offendit, factus est
+          <lb ed="#P" n="92"/>in omnibus reus. Re tamen vera etiam de 
+          sin<lb break="no" ed="#P" n="93"/>gulis actibus, de quibus Alensis loquitur, vera
+          <lb ed="#P" n="94"/>est resolutio, scilicet de actibus meritorris, 
+          qui<lb break="no" ed="#P" n="95"/>bus vita aeterna comparatur. Et ita in 
+          solutio<lb break="no" ed="#P" n="96"/>ne, ad 1, expresse declarat, hominem non
+          <lb ed="#P" n="97"/>posse facere bonum meritorium sine Deo, et in
+          <lb ed="#P" n="98"/>reliquis solutionibus semper loquitur de actu,
+          <lb ed="#P" n="99"/>quo intenditur aliquid supernaturale, scilicet
+          <lb ed="#P" n="100"/>similitudo ad Deum, etc. Atque eodem modo
+          <lb ed="#P" n="101"/>in secunda parie illius membri, quae incipit,
+          <lb ed="#P" n="102"/>Consequenter, etc., testimonia multa, quae 
+          ad<lb break="no" ed="#P" n="103"/>ducit, plane tractant de necessitate gratiae ad
+          <lb ed="#P" n="104"/>supernaturales actus. Quanquam inferius in
+          <lb ed="#P" n="105"/>resolutione, vers. , Dicendum ergo, generatim
+          <lb ed="#P" n="106"/>concludit, liberum arbitrium non proftcere an
+          <lb ed="#P" n="107"/>bonwum declinando malum, et faciendo bomum,
+          <lb ed="#P" n="108"/>nisi virtute gratie, et ita sine gratia non posse
+          <lb ed="#P" n="109"/>operari bonum et relinquere malum. Ubi 
+          vide<lb break="no" ed="#P" n="110"/>tur loqui collective de bono ad salutem neces-
+          <pb ed="#P" n="379"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sario, non ratione singulorum actuum, sed 
+          ra<lb break="no" ed="#P" n="2"/>tione collectionis, nisi etiam exponatur de
+          <lb ed="#P" n="3"/>bono meritorio vitae aeternae.
+        </p>
+        <p xml:id="szduep-095854-d1e485">
+          <lb ed="#P" n="4"/>6. Praeterea refertur Altisiodorensis, libro 2
+          <lb ed="#P" n="5"/>Summae, tract. 11, cap. 4, quaest. 4, eo quod
+          <lb ed="#P" n="6"/>dicat, sine gratia gratis data nihil boni nos
+          <lb ed="#P" n="7"/>operari posse. Sed observare necesse est, hanc
+          <lb ed="#P" n="8"/>vocem gratiee gratis date, valde ambiguam
+          <lb ed="#P" n="9"/>esse, praecipue apud scholasticos. Nam 
+          frequen<lb break="no" ed="#P" n="10"/>ter significat gratias illas, quae ad aliorum 
+          uti<lb break="no" ed="#P" n="11"/>litatem per se primo ordinantur, non ad 
+          sanc<lb break="no" ed="#P" n="12"/>tificationem recipientis, de quibus loquitur
+          <lb ed="#P" n="13"/>Paulus 1, Corinth. 12, cum inquit: Divisiones
+          <lb ed="#P" n="14"/>gratiarum sunt, etc. Aliquando significat 
+          ac<lb break="no" ed="#P" n="15"/>tualem motionem Spiritus sancti superantem
+          <lb ed="#P" n="16"/>naturam , per quam animas ad se convertit:
+          <lb ed="#P" n="17"/>quomodo loquitur Bonaventura, 2, dist. 28,
+          <lb ed="#P" n="18"/>art. 2, quaest. 1, et alu ibidem, et talis gratia
+          <lb ed="#P" n="19"/>eadem est cum gratia excitante vel adjuvante
+          <lb ed="#P" n="20"/>sine habitu. Alio tandem modo dicitur gratia
+          <lb ed="#P" n="21"/>gratis data, omnis divina influentia vel 
+          coope<lb break="no" ed="#P" n="22"/>ratio, quantumvis sit proportionata et 
+          consen<lb break="no" ed="#P" n="23"/>tanea naturae: quia licet secundum quemdam
+          <lb ed="#P" n="24"/>ordinarium loquendi modum diei soleat debita
+          <lb ed="#P" n="25"/>naturae, nihilominus simpliciter gratis datur.
+          <lb ed="#P" n="26"/>Et hoc tertio modo accipit Altisiodorensis, in
+          <lb ed="#P" n="27"/>citato loco, nomen gratie gratis datee, ut 
+          ipse<lb break="no" ed="#P" n="28"/>met explicuit solvendo argumentum, quod erat
+          <lb ed="#P" n="29"/>de necessitate cooperationis divinae, dicens: S
+          <lb ed="#P" n="30"/>gratia large sunatur pro omni gratis dato a
+          <lb ed="#P" n="31"/>Deo, bene concedimus , quod. liberum arbitrium
+          <lb ed="#P" n="32"/>non possit in opere de genere bonorum sine 
+          gra<lb break="no" ed="#P" n="33"/>tia: unde significat, hoc modo etiam 
+          influen<lb break="no" ed="#P" n="34"/>tiam generalem esse gratiam.
+        </p>
+        <p xml:id="szduep-095854-d1e555">
+          <lb ed="#P" n="35"/>7. Tribuitur etiam haec sententia Gersonii in
+          <lb ed="#P" n="36"/>tractatu de Vita spirituali, lectione prima, qui
+          <lb ed="#P" n="37"/>cadit in Alphabet. 61, littera G., quasi dicat,
+          <lb ed="#P" n="38"/>non posse hominem facere aliquod opus 
+          mo<lb break="no" ed="#P" n="39"/>ralis virtutis sine aliquo auxilio gratiae Dei 
+          in<lb break="no" ed="#P" n="40"/>terius moventis. Verba tamen Gersonii sunt:
+          <lb ed="#P" n="41"/>Nam conformitatem , quam actus liber habet
+          <lb ed="#P" n="42"/>cum prima et summa honestate, id. est 
+          bonita<lb break="no" ed="#P" n="43"/>tem moralem et laudabilem, non potest elicere
+          <lb ed="#P" n="44"/>nuda natura voluntatis , nisi communicata sit
+          <lb ed="#P" n="45"/>ei facultas et gratia in producendo alia quam ea
+          <lb ed="#P" n="46"/>qua, solun vespicit substantiam actus et non
+          <lb ed="#P" n="47"/>ceeteras circunstantias. In quibus verbis 
+          du<lb break="no" ed="#P" n="48"/>plicem gratiam videtur requirere ad actum
+          <lb ed="#P" n="49"/>simpliciter bonum, unam ad substantiam 
+          ac<lb break="no" ed="#P" n="50"/>tus, aliam ad caeteras observandas, ut aperte
+          <lb ed="#P" n="51"/>constat ex verbis illis, nisi communicata gratia
+          <lb ed="#P" n="52"/>alia, quam ea. At vero ad substantiam actus
+          <lb ed="#P" n="53"/>clarum est non requiri propriam gratiam per
+          <lb ed="#P" n="54"/>Christum : signum ergo est hunc etiam 
+          aucto<lb break="no" ed="#P" n="55"/>rem ibi loqui late de gratia ut comprehendit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quamlibet influentiam naturae superadditam,
+          <lb ed="#P" n="57"/>etiamsi sit generalis providentiae naturae suo
+          <lb ed="#P" n="58"/>modo debitae. Quam mentem suam idem 
+          auc<lb break="no" ed="#P" n="59"/>tor in eadem lectione paulo ante verba relata
+          <lb ed="#P" n="60"/>explicuerat dicens : Nolo tamen negare, quin
+          <lb ed="#P" n="61"/>anima, possit in sua vita naturali bene 
+          morali<lb break="no" ed="#P" n="62"/>ter agere. Et infra de homine in puris 
+          natura<lb break="no" ed="#P" n="63"/>libus et absque contagione peccati creato, ait :
+          <lb ed="#P" n="64"/>Neminem dubitasse, quin possit per vires liberi
+          <lb ed="#P" n="65"/>arbitrii bomm honestum cum omnibus 
+          circum<lb break="no" ed="#P" n="66"/>stantiis operari. Alias ( inquit ) miserabilior
+          <lb ed="#P" n="67"/>esset Lomo cunctis animantibus, quee possunt 
+          ef<lb break="no" ed="#P" n="68"/>ficere opera sue nature consentanea , cum solo
+          <lb ed="#P" n="69"/>aualio generalis influentie. De homine vero
+          <lb ed="#P" n="70"/>lapso refert quosdam dixisse, non posse ad 
+          mo<lb break="no" ed="#P" n="71"/>rales actus attingere, quorum sententiam 
+          refu<lb break="no" ed="#P" n="72"/>tat, dicens : Posse illos efficere per vires,
+          <lb ed="#P" n="73"/>quas actu habet. Unde concludit distinguendo
+          <lb ed="#P" n="74"/>de gratia : IVam si sumatur (ait) pro dono 
+          in<lb break="no" ed="#P" n="75"/>dito supra, vel ultra vires et industriam nature,
+          <lb ed="#P" n="76"/>sic non est necessaria gratia ad singula honesta
+          <lb ed="#P" n="77"/>opera - si autem dicatur gratia omne dommn
+          <lb ed="#P" n="78"/>gratis collatum, quomodo ipsum vivere 
+          gratui<lb break="no" ed="#P" n="79"/>tum est, sic potest dici gratia necessaria.
+        </p>
+        <p xml:id="szduep-095854-d1e657">
+          <lb ed="#P" n="80"/>8. Igitur inter scholasticos auctores pauci
+          <lb ed="#P" n="81"/>(ut opinor) invenientur, qui sententiam hanc
+          <lb ed="#P" n="82"/>dicto modo explicatam tueantur. Possunt 
+          ta<lb break="no" ed="#P" n="83"/>men in illius favorem exponi Gregorius et 
+          Ca<lb break="no" ed="#P" n="84"/>preolus in 1, opinione citati : nunquam enim
+          <lb ed="#P" n="85"/>satis explicant, qualis sit illa gratia quam 
+          re<lb break="no" ed="#P" n="86"/>quirunt. Possunt item pro hac sententia citari
+          <lb ed="#P" n="87"/>moderni auctores, qui cum teneant, Deum non
+          <lb ed="#P" n="88"/>praedeterminare voluntatem humanam ad 
+          ac<lb break="no" ed="#P" n="89"/>tus malos, etiam pro materiali , nihilominus
+          <lb ed="#P" n="90"/>tenent praedeterminare illam ad omnes actus
+          <lb ed="#P" n="91"/>morales bonos, et sine hac praedeterminatione
+          <lb ed="#P" n="92"/>nihil posse hominem operari, etiam intra 
+          or<lb break="no" ed="#P" n="93"/>dinem moralium actuum. Nam hi merito 
+          pos<lb break="no" ed="#P" n="94"/>sunt praedeterminationem hanc gratiam 
+          vo<lb break="no" ed="#P" n="95"/>care, cum detur ex liberalitate Dei, et non sit
+          <lb ed="#P" n="96"/>simpliciter debita naturae. Imo multi 
+          existi<lb break="no" ed="#P" n="97"/>mant, Gregorium et Capreolum de hac fuisse
+          <lb ed="#P" n="98"/>locutos, quod certe non constat, ut lib. 2, de
+          <lb ed="#P" n="99"/>Auxiliis, cap. 3 et 6, notavi, ubi etiam 
+          moder<lb break="no" ed="#P" n="100"/>nos auctores hanc sententiam tenentes 
+          indi<lb break="no" ed="#P" n="101"/>cavi, et ostendi probari non posse illam 
+          diffe<lb break="no" ed="#P" n="102"/>rentiam, quam constituunt in hoc inter actus
+          <lb ed="#P" n="103"/>bonos et malos : simpliciter vero quid 
+          sentien<lb break="no" ed="#P" n="104"/>dum sit de illa praedeterminatione ad 
+          quos<lb break="no" ed="#P" n="105"/>cumque actus, in toto illo opere satis diffuse
+          <lb ed="#P" n="106"/>tractatum est.
+        </p>
+        <p xml:id="szduep-095854-d1e719">
+          <lb ed="#P" n="107"/>9. Ut autem fundamentum hujus sententiae
+          <lb ed="#P" n="108"/>hoc ultimo modo explicatae intelligatur, 
+          scien<lb break="no" ed="#P" n="109"/>dum est, hanc gratiam, quae dicitur 
+          necessa<lb break="no" ed="#P" n="110"/>ria ad actus bonos, solum poni per modum
+          <pb ed="#P" n="380"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praeviae excitationis accommodate ad 
+          operan<lb break="no" ed="#P" n="2"/>dum bonum, quae in tantum gratia censetur,
+          <lb ed="#P" n="3"/>in quantum accommodate datur , ut 
+          volunta<lb break="no" ed="#P" n="4"/>tem cum effectu inducat ad bonum actum 
+          per<lb break="no" ed="#P" n="5"/>ficiendum, quia quoad illam congruitatem non
+          <lb ed="#P" n="6"/>est debita naturae, etiamsi illam non elevet ad
+          <lb ed="#P" n="7"/>physice eliciendum, vel operandum aliquid ,
+          <lb ed="#P" n="8"/>quod superet naturales vires activas voluntatis.
+          <lb ed="#P" n="9"/>Quod autem haec excitatio necessaria sit, non
+          <lb ed="#P" n="10"/>putant provenire ex laesione naturae per 
+          origi<lb break="no" ed="#P" n="11"/>nale peccatum, nec ex umproportione, aut
+          <lb ed="#P" n="12"/>excessu actus ad vires naturales voluntatis:
+          <lb ed="#P" n="13"/>sed solum ex dependentia, quam habet 
+          volun<lb break="no" ed="#P" n="14"/>tas in bono operando a cogitatione praevia 
+          in<lb break="no" ed="#P" n="15"/>tellectus et ab indifferentia, quam habet 
+          intel<lb break="no" ed="#P" n="16"/>lectus humanus natura sua, respectu primae
+          <lb ed="#P" n="17"/>cogitationis (voco autem qrimam, omnem 
+          il<lb break="no" ed="#P" n="18"/>lam, quae antecedit liberum usum voluntatis )
+          <lb ed="#P" n="19"/>illa enim non est in hominis potestate cum non
+          <lb ed="#P" n="20"/>possit ad illam se libere applicare, nec aliquid
+          <lb ed="#P" n="21"/>excitativum, intellectui sua voluntate 
+          propo<lb break="no" ed="#P" n="22"/>nere , quia nihil volitum , quin praecognitum.
+          <lb ed="#P" n="23"/>Necessario ergo talis cogitatio est naturalis ,
+          <lb ed="#P" n="24"/>id est, non libera, et ideo proveniens ab 
+          ex<lb break="no" ed="#P" n="25"/>trinseco principio. Quod ergo haec cogitatio
+          <lb ed="#P" n="26"/>talis sit, ut potius excitet ad bonum, quam
+          <lb ed="#P" n="27"/>ad malum, et quod ita excitet ad bonum, sicut
+          <lb ed="#P" n="28"/>voluntati sic affectae, vel per naturalem 
+          incli<lb break="no" ed="#P" n="29"/>nationem, vel per consuetudinem, vel per 
+          con<lb break="no" ed="#P" n="30"/>junctionem ad tale corporis temperamentum,
+          <lb ed="#P" n="31"/>vel quacumque alia occasione conveniens est,
+          <lb ed="#P" n="32"/>ut illam efficaciter excitet et perducat ad opus,
+          <lb ed="#P" n="33"/>non est positum in arbitrio humano, nec casu
+          <lb ed="#P" n="34"/>evenit respectu divinae providentiae : ergo talis
+          <lb ed="#P" n="35"/>cogitatio , ut est a Deo et a speciali providentia
+          <lb ed="#P" n="36"/>ejus , est gratia , quia non est donum naturae
+          <lb ed="#P" n="37"/>debitum, alioqui omnibus secundum legem 
+          or<lb break="no" ed="#P" n="38"/>dinariam daretur. Haec ergo gratia ad omne
+          <lb ed="#P" n="39"/>opus bonum necessaria est.
+        </p>
+        <p xml:id="szduep-095854-d1e819">
+          <lb ed="#P" n="40"/>10. Hoc discursu uti videtur divus Thomas,
+          <lb ed="#P" n="41"/>1, 2. quaest 109, art. 2, ut probet, non posse
+          <lb ed="#P" n="42"/>liberum hominis arbitrium bonum aliquod
+          <lb ed="#P" n="43"/>operari sine motione praevia Dei auctoris ejus.
+          <lb ed="#P" n="44"/>Augustinus etiam ubique inde maxime probat
+          <lb ed="#P" n="45"/>contra Pelagianos, initium omnium bonorum
+          <lb ed="#P" n="46"/>operum esse ex Deo, quia sancta cogitatio non
+          <lb ed="#P" n="47"/>potest a nobis habere originem, sed a Deo.
+          <lb ed="#P" n="48"/>Utiturque ad hoc testimonio Paul 2, Cor. 3:
+          <lb ed="#P" n="49"/>Non sumus sufficienter cogitare aliquid ex 
+          no<lb break="no" ed="#P" n="50"/>bis quasi ex nobis, sed sufficientia nostra ex
+          <lb ed="#P" n="51"/>Deo est. Et ideo putat etiam dictum esse a
+          <lb ed="#P" n="52"/>Christo : S'ine me nihil potestis facere. Quia sine
+          <lb ed="#P" n="53"/>sancta cogitatione nihil boni facere possumus,
+          <lb ed="#P" n="54"/>et sanctam cogitationem habere non possumus,
+          <lb ed="#P" n="55"/>nisi ab ipso. Item illud : Qui cepit bonum opus,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>utique per sanctam cooperationem. Sic fere
+          <lb ed="#P" n="57"/>ratiocinatur Augustinus, libro de 
+          Praedestina<lb break="no" ed="#P" n="58"/>tione Sanctorum, cap. 2 et sequentibus, de
+          <lb ed="#P" n="59"/>Bono persever., cap. 7 et 10, libro de Gratia
+          <lb ed="#P" n="60"/>et libero arbitrio, cap. 8, et lib. 1, ad 
+          Simph<lb break="no" ed="#P" n="61"/>cianum, quaest. 2, circa finem, et lib. 2, contra
+          <lb ed="#P" n="62"/>duas epistolas Pelagian., cap. 8, et lib. 2, de
+          <lb ed="#P" n="63"/>Peccator. merit., cap. 17. Unde epistola 100,
+          <lb ed="#P" n="64"/>inter errores Pelagii ponit, gratiam Dei non
+          <lb ed="#P" n="65"/>ad singulos actus dari. Idem habet epist. 107.
+          <lb ed="#P" n="66"/>Et Hierony mus, epistol. ad Thesiphontem, col.
+          <lb ed="#P" n="67"/>4, sic de Pelagianis inquit : 7ta Dei gratiam
+          <lb ed="#P" n="68"/>ponunt, ut non per singula opera ejus mitaanur
+          <lb ed="#P" n="69"/>et regamur ausilio. Quod saepe ipse reprobat
+          <lb ed="#P" n="70"/>dicens : Nos in singulis operibus indigere Dei
+          <lb ed="#P" n="71"/>aucilio. Prosper in suis Opusculis de hac 
+          ma<lb break="no" ed="#P" n="72"/>teria Augustinum imitatur, praesertim ad 
+          ob<lb break="no" ed="#P" n="73"/>jectiones Gallorum, cap. 9. Item Fulgentius,
+          <lb ed="#P" n="74"/>libro de Incarnatione et grat., cap. 12, et 
+          Pe<lb break="no" ed="#P" n="75"/>trus Diaconus, libro etiam de Incarnatione et
+          <lb ed="#P" n="76"/>grat.. capite sexto et sequentibus. Consonat
+          <lb ed="#P" n="77"/>etiam illud Bernardi de Gratia et libero 
+          arbi<lb break="no" ed="#P" n="78"/>trio, cap. 10: Conatus liberi arbitrii cast sunt
+          <lb ed="#P" n="79"/>ad bonum, si non adjuventur, nulli, si non 
+          eaci<lb break="no" ed="#P" n="80"/>tentur. Atque ita sententia haec simul probata
+          <lb ed="#P" n="81"/>relinquitur ex ratione, Scriptura et Patribus.
+        </p>
+        <p xml:id="szduep-095854-d1e915">
+          <lb ed="#P" n="82"/>11. Potest autem ulterius confirmari ex 
+          Con<lb break="no" ed="#P" n="83"/>ciliorum, ac Pontificum definitionibus. Nam
+          <lb ed="#P" n="84"/>Concilium Arausicanum, cap. 9, sic ait: 
+          Di<lb break="no" ed="#P" n="85"/>vini est muneris , cum et recte cogitamus et
+          <lb ed="#P" n="86"/>pedes nostros a falsitate et injustitia tenemus.
+          <lb ed="#P" n="87"/>Quoties enim bona agimus, Deus in nobis, 
+          at<lb break="no" ed="#P" n="88"/>que nobiscum, ut operemur, operatur. Ubi 
+          eam<lb break="no" ed="#P" n="89"/>dem doctrinam et idem fundamentum ejus
+          <lb ed="#P" n="90"/>significat, et cap. 20: Multa in homine bona
+          <lb ed="#P" n="91"/>sunt , quae non facit homo : mulla vero facit
+          <lb ed="#P" n="92"/>homo bona, quenon preestet Deus ut faciat homo.
+          <lb ed="#P" n="93"/>Et (quod gravissimum est) addit in cap. 292:
+          <lb ed="#P" n="94"/>Nemo habet de suo, nisi mendacum et 
+          pecca<lb break="no" ed="#P" n="95"/>tum. Et cap. 25, post multa Scripturae 
+          testimo<lb break="no" ed="#P" n="96"/>nia, quae ad hoc congerit, concludit : Hoc etiam
+          <lb ed="#P" n="97"/>salubriter confitemur et credimus, quod in omni
+          <lb ed="#P" n="98"/>opere bono nos non incipimus : et alia multa
+          <lb ed="#P" n="99"/>habet similia.
+        </p>
+        <p xml:id="szduep-095854-d1e957">
+          <lb ed="#P" n="100"/>12. His consonánt, quae in epistola prima
+          <lb ed="#P" n="101"/>Caelestini papae ad Episcopos Galliae habentur
+          <lb ed="#P" n="102"/>ex mente, ac sententia Sedis Apostolicae, ubi
+          <lb ed="#P" n="103"/>in capite octavo sic legimus : Quod omnia 
+          stu<lb break="no" ed="#P" n="104"/>dia. omnia opera, ac anerita sanctorum ad Dei
+          <lb ed="#P" n="105"/>gloriam, laudemque referenda sunt, quia nemo
+          <lb ed="#P" n="106"/>aliunde ei placet, nisi ec eo, quod ipse 
+          donave<lb break="no" ed="#P" n="107"/>rit. Et in hujus veritatis confirmationem 
+          affe<lb break="no" ed="#P" n="108"/>runtur verba Zozimi papae in epistola ad 
+          Epis<lb break="no" ed="#P" n="109"/>copos totius orbis: lVos autem instinctu Dei
+          <lb ed="#P" n="110"/>(omnia enim bona ad auctorem suum referenda
+          <pb ed="#P" n="381"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt, unde nascuntur) ad fratrum, et 
+          coepisco<lb break="no" ed="#P" n="2"/>porum mostrorum conscientiam universa 
+          retu<lb break="no" ed="#P" n="3"/>limus. Quam sententiam maxime laudant et
+          <lb ed="#P" n="4"/>commendant Africani Episcopi, ut ibidem 
+          re<lb break="no" ed="#P" n="5"/>fertur: Ideo utique (dicentes) quia 
+          prepara<lb break="no" ed="#P" n="6"/>tur voluntas a Domino et ut boni aliquid agant,
+          <lb ed="#P" n="7"/>paternis inspirationibus suorum ipse tangit
+          <lb ed="#P" n="8"/>corda fidelium. Quotquot enim spiritu Dei 
+          agun<lb break="no" ed="#P" n="9"/>tur, hi filii Dei sunt, ut nec nostrum deesse 
+          sen<lb break="no" ed="#P" n="10"/>tiamus arbitrium, et in bonis quibusque 
+          volunta<lb break="no" ed="#P" n="11"/>tis humane singulis motibus magis illius valere
+          <lb ed="#P" n="12"/>non dubitemus auxilium, et, cap. 9, statim 
+          addi<lb break="no" ed="#P" n="13"/>tur : Quod ita Deus in cordibus hominwm atque in
+          <lb ed="#P" n="14"/>ipso libero operatur arbitrio, vi sancta cogitatio,
+          <lb ed="#P" n="15"/>pium consilium, omnisque motus bone 
+          volunta<lb break="no" ed="#P" n="16"/>tis ev Deo sit ; quia per illum aliquid boni 
+          pos<lb break="no" ed="#P" n="17"/>sumus sine quo nihil possumus : et eadem
+          <lb ed="#P" n="18"/>doctrina habetur in Epistolis Innocentii et
+          <lb ed="#P" n="19"/>Leonis de hac materia. Denique Concilium
+          <lb ed="#P" n="20"/>Tridentinum, sess. 6, capite decimo-sexto :
+          <lb ed="#P" n="21"/>Virtutem CHRISTI (ai) omnia nostra bona
+          <lb ed="#P" n="22"/>opera semper antecedere, comitari et subsegui.
+        </p>
+        <p xml:id="szduep-095854-d1e1035">
+          <lb ed="#P" n="23"/>13. Rationibus stabilitur haec sententia. —
+          <lb ed="#P" n="24"/>Praeter haec omnia, potest haec sententia aliis
+          <lb ed="#P" n="25"/>rationibus confirmari ex iisdem Patrum et
+          <lb ed="#P" n="26"/>Conciliorum definitionibus , sumptis. Prima
+          <lb ed="#P" n="27"/>est, quia Augustinus ubique colligit gratiae
+          <lb ed="#P" n="28"/>necessitatem ex orationis utilitate et 
+          efficaci<lb break="no" ed="#P" n="29"/>tate, quia nemo petit ab alio, quod in sua 
+          ha<lb break="no" ed="#P" n="30"/>bet potestate. Quam argumentandi rationem
+          <lb ed="#P" n="31"/>imitatum est Concilium Arausicanum et alii
+          <lb ed="#P" n="32"/>Patres. At orandum nobis est, ut Deus nos 
+          ad<lb break="no" ed="#P" n="33"/>juvet in singulis operibus, ut ea honeste 
+          facia<lb break="no" ed="#P" n="34"/>mus, ergo ad singula est gratia necessaria.
+          <lb ed="#P" n="35"/>Secundo, quia eadem Concilia tradunt nos non
+          <lb ed="#P" n="36"/>posse vincere ullam tentationem sine gratia
+          <lb ed="#P" n="37"/>Dei : ergo a fortiori non possumus ullum 
+          bo<lb break="no" ed="#P" n="38"/>num facere sine divina gratia, plus enim est
+          <lb ed="#P" n="39"/>facere bonum, quam declinare a malo ; maxime
+          <lb ed="#P" n="40"/>quia nullum est bonum opus, quod per 
+          daemo<lb break="no" ed="#P" n="41"/>nis tentationem, et industriam non possit 
+          im<lb break="no" ed="#P" n="42"/>pediri : ergo ut non impediatur, atque adeo ut
+          <lb ed="#P" n="43"/>fiat, necessaria est gratia. Tertio docent Sancti
+          <lb ed="#P" n="44"/>et Concilia initium gratiae, vel 
+          praedestinatio<lb break="no" ed="#P" n="45"/>nis non esse ex libero arbitrio, ut contra 
+          Se<lb break="no" ed="#P" n="46"/>mipelagianos visum est. At si homo posset per
+          <lb ed="#P" n="47"/>solum liberum arbitrium bonum aliquod opus
+          <lb ed="#P" n="48"/>morale facere, posset subinde per solum 
+          libe<lb break="no" ed="#P" n="49"/>rum arbitrium salutem suam bene operando
+          <lb ed="#P" n="50"/>inchoare, quando ad usum rationis pervenit.
+          <lb ed="#P" n="51"/>Ergo in tali homine vitari non posset, quin
+          <lb ed="#P" n="52"/>gratiae initium esset ex libero arbitrio. 
+          Proba<lb break="no" ed="#P" n="53"/>tur consequentia, tum quia omne bonum 
+          ho<lb break="no" ed="#P" n="54"/>nestum placet Deo et est de se dignum aliquo
+          <lb ed="#P" n="55"/>favore et remuneratione ejus : tum etiam, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ille homo faceret quod ex parte sua posset,
+          <lb ed="#P" n="57"/>ergo saltem excongrua providentia, Deus etiam
+          <lb ed="#P" n="58"/>illius conatum promoveret. l'um denique, quia
+          <lb ed="#P" n="59"/>ille actus bonus posset esse alicujus amoris
+          <lb ed="#P" n="60"/>erga Deum, per cogitationem naturalem ejus,
+          <lb ed="#P" n="61"/>vel desiderium honeste vivendi et fugiendi
+          <lb ed="#P" n="62"/>malum, cum aliqua petitione facta auctori
+          <lb ed="#P" n="63"/>naturae ; quomodo ergo his actibus negari 
+          po<lb break="no" ed="#P" n="64"/>test aliqua congruitas, ut sint initium salutis?
+          <lb ed="#P" n="65"/>51 ergo illi sunt in solo libero arbitrio, 
+          subdi<lb break="no" ed="#P" n="66"/>tur gratia libero arbitrio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

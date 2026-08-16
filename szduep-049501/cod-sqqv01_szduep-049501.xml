@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="194"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-049501"><!-- t1-l3prae -->
+        <head xml:id="szduep-049501-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-049501-d1e103">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="17"/>LIBER TERTIUS.
+          <lb ed="#P" n="18"/>AD PROPRIETATIBUS
+          <lb ed="#P" n="19"/>QUAE POSITIVAM PERFECTIONEM DEO ATTRIBUUNT.
+        </p>
+        <p xml:id="szduep-049501-d1e114">
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="20"/>Ad tria praecipua capita revocari videntur
+          <lb ed="#P" n="21"/>haec affirmativa, seu positiva attributa, 
+          videli<lb break="no" ed="#P" n="22"/>cet, ad Scientiam, Voluntatem et Potentiam.
+          <lb ed="#P" n="23"/>Quorum sufficientia sumi potest ex conditione
+          <lb ed="#P" n="24"/>naturae intellectualis creatae, per cujus 
+          analo<lb break="no" ed="#P" n="25"/>giam, vel comparationem res divinas 
+          explica<lb break="no" ed="#P" n="26"/>mus, ablatis imperfectionibus, et addita in 
+          om<lb break="no" ed="#P" n="27"/>nibus summa excellentia et perfectione. In
+          <lb ed="#P" n="28"/>rebus ergo intellectualibus duas facultates 
+          in<lb break="no" ed="#P" n="29"/>telligimus , quae proprios actus internae vitae
+          <lb ed="#P" n="30"/>eliciant , scilicet , intellectum et voluntatem,
+          <lb ed="#P" n="31"/>quibus additur aliqua potentia, operativa 
+          ex<lb break="no" ed="#P" n="32"/>tra ipsammet substantiam intellectualem. Et
+          <lb ed="#P" n="33"/>praeter has nullam aliam invenimus , quae in
+          <lb ed="#P" n="34"/>suo conceptu formali dicat perfectionem sine
+          <lb ed="#P" n="35"/>imperfectione. Nam licet angelus habeat 
+          po<lb break="no" ed="#P" n="36"/>tentiam ad se movendum,, illa imperfectionem
+          <lb ed="#P" n="37"/>involvit, et licet anima rationalis in corpore
+          <lb ed="#P" n="38"/>alias facultates habeat, nulla earum dicit per-
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="39"/>fectionem simpliciter. Tres autem superiores 
+          <lb ed="#P" n="40"/>in sua ratione formali abstrahi possunt ab 
+          om<lb break="no" ed="#P" n="41"/>ni imperfectione, vel quoad potentias ipsas,vel 
+          <lb ed="#P" n="42"/>quoad actus earum. Et ideo tantum illa tria
+          <lb ed="#P" n="43"/>DEO proprie attribuuntur et significantur per 
+          <lb ed="#P" n="44"/>illa tria, scientia, voluntas et potentia, et ad 
+          <lb ed="#P" n="45"/>haec reducuntur omnia, ut ex discursu hujus 
+          <lb ed="#P" n="46"/>libri constabit. In quo de his attributis 
+          brevi<lb break="no" ed="#P" n="47"/>ter dicemus, quia in aliis nostris operibus
+          <lb ed="#P" n="48"/>multa de illis diximus, quae suis locis 
+          designa<lb break="no" ed="#P" n="49"/>bimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

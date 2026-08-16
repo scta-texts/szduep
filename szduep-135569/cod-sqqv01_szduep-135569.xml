@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="536"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-135569"><!-- t3-l1c2 -->
+        <head xml:id="szduep-135569-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-135569-Hd1e103" type="question-title">In deo esse plures personas</head>
+        <p xml:id="szduep-135569-d1e106">
+          <lb ed="#P" n="28"/>CAPUT II.
+          <lb ed="#P" n="29"/>IN DEO ESSE PLURES PERSONAS
+        </p>
+        <p xml:id="szduep-135569-d1e113">
+          <lb ed="#P" n="30"/>1. Varii errores. — In hoc puncto 
+          convene<lb break="no" ed="#P" n="31"/>runt infideles omnes adversus catholicam 
+          fi<lb break="no" ed="#P" n="32"/>dem. Primo quidem Philosophi Gentiles, et
+          <lb ed="#P" n="33"/>Pagani, qui unum Deum agnoverunt solo 
+          lu<lb break="no" ed="#P" n="34"/>mine rationis ducti, de quibus non est adeo
+          <lb ed="#P" n="35"/>mirandum, cum caruerint lumine fidei. 
+          Secun<lb break="no" ed="#P" n="36"/>do licet veteres Judaei per fidem 
+          supernatura<lb break="no" ed="#P" n="37"/>lem veram divinitatem agnoverint, 
+          nihilomi<lb break="no" ed="#P" n="38"/>nus communiter non agnoverunt personarum
+          <lb ed="#P" n="39"/>Trinitatem, unde nunc ab eis propagati 
+          infi<lb break="no" ed="#P" n="40"/>deles Judaei negant omnino pluralitatem 
+          per<lb break="no" ed="#P" n="41"/>sonarum in Deo, putantque repugnare cum
+          <lb ed="#P" n="42"/>vera fide suis Patribus revelata. Tertio 
+          innu<lb break="no" ed="#P" n="43"/>meri haeretici negarunt pluralitatem 
+          persona<lb break="no" ed="#P" n="44"/>rum in Deo, inprimis Praxaeas apud 
+          Tertullia<lb break="no" ed="#P" n="45"/>num, lib. contra illum, Noetus apud 
+          Epipha<lb break="no" ed="#P" n="46"/>nium, haeres. 57, Hermogenes apud 
+          Augusti<lb break="no" ed="#P" n="47"/>num, haeres. 41. Idem senserunt omnes, qui
+          <lb ed="#P" n="48"/>negarunt realem distinctionem personarum,
+          <lb ed="#P" n="49"/>sed Patrem, Filium et Spiritum Sanctum 
+          dixe<lb break="no" ed="#P" n="50"/>runt esse plura nomina ejusdem personae, ut
+          <lb ed="#P" n="51"/>Sabellanus et sequaces, cum quibus ex professo
+          <lb ed="#P" n="52"/>agendum est libro tertio. Quin potius etiam 
+          Ar<lb break="no" ed="#P" n="53"/>rius ejusque sectatores, qui agnoscunt Patrem,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>Filium, et Spiritum Sanctum esse personas 
+          dis<lb break="no" ed="#P" n="55"/>tnctas, dum negant Filio, et Spiritui Sancto
+          <lb ed="#P" n="56"/>veram divinitatem, plane sentiunt in vero Deo
+          <lb ed="#P" n="57"/>tantum esse posse unam personam. Denique
+          <lb ed="#P" n="58"/>hoc tempore excitarunt hunc errorem 
+          quam<lb break="no" ed="#P" n="59"/>plures, quos late refert Bellarminus, 1. 1, de
+          <lb ed="#P" n="60"/>Christo, et Sanderus. 1. 7, de visib. Monarch.
+        </p>
+        <p xml:id="szduep-135569-d1e185">
+          <lb ed="#P" n="61"/>2. Fundamentum horum errorum explicuit
+          <lb ed="#P" n="62"/>cleganter Tertullianus in principio contra
+          <lb ed="#P" n="63"/>Praxaeam, dicens : Varie diabolus emulatus est
+          <lb ed="#P" n="64"/>veritatem , affectavit illam aliquando 
+          defen<lb break="no" ed="#P" n="65"/>dendo concutere , unicum Dominumn vindicat
+          <lb ed="#P" n="66"/>omnipotentem, mundi conditorem, ut de unico
+          <lb ed="#P" n="67"/>lueresim faciat. Ex unitate igitur Dei, unitatem
+          <lb ed="#P" n="68"/>Divinae personae concludere conati sunt. Ideo
+          <lb ed="#P" n="69"/>enim plures sunt homines, quia sunt plures
+          <lb ed="#P" n="70"/>personae humanae, et sic de caeteris substantiis,
+          <lb ed="#P" n="71"/>si ergo essent plures personae in Deo, etiam
+          <lb ed="#P" n="72"/>essent plures dii : non possunt autem esse 
+          plu<lb break="no" ed="#P" n="73"/>res dii, ergo nec plures personae in Deo. 
+          Con<lb break="no" ed="#P" n="74"/>firmatur, quia omnes rationes, quibus probari
+          <lb ed="#P" n="75"/>solet, Deum esse unum, vel nullius momenti
+          <lb ed="#P" n="76"/>sunt, vel probant divinam personam non posse
+          <lb ed="#P" n="77"/>nisi unam. Ut, verbi gratia, quod si essent
+          <lb ed="#P" n="78"/>plures dii, nullus esset summe perfectus, nam
+          <lb ed="#P" n="79"/>aliquid necessaric deesset uni, ut posset ab
+          <lb ed="#P" n="80"/>alio distingui. Item quia inaliquoconvenirent,
+          <lb ed="#P" n="81"/>et in aliquo distinguerentur, et ita non 
+          pos<lb break="no" ed="#P" n="82"/>sent omni compositione carere. Hae autem 
+          ra<lb break="no" ed="#P" n="83"/>tiones possunt eadem proportione ad plures
+          <lb ed="#P" n="84"/>personas applicari. Tandem, vel persona, quae
+          <lb ed="#P" n="85"/>est in Deo, infinita est in ratione personae, et
+          <lb ed="#P" n="86"/>sic illa erit adaequata suae naturae, et superflua
+          <lb ed="#P" n="87"/>est alia; vel est finita, et sic erit imperfecta,
+          <lb ed="#P" n="88"/>et Deo indigna.
+        </p>
+        <p xml:id="szduep-135569-d1e249">
+          <lb ed="#P" n="89"/>3. Conclusio. — Nihilominus dicendum est,
+          <lb ed="#P" n="90"/>in Deo non esse tantum unam personam, sed
+          <lb ed="#P" n="91"/>plures personas divinas. Haec est assertio 
+          ca<lb break="no" ed="#P" n="92"/>tholicae fidei, esttamen omnino supernaturals,
+          <lb ed="#P" n="93"/>et ideo contra Gentiles et Paganos immediate
+          <lb ed="#P" n="94"/>probari et convinci non potest, quia neque
+          <lb ed="#P" n="95"/>Scripturas divinas admittunt, nec sola ratione
+          <lb ed="#P" n="96"/>convinci possunt, ut in capite ultimo hujus 
+          li<lb break="no" ed="#P" n="97"/>bri latius dicetur. Contra illos ergo prius esset
+          <lb ed="#P" n="98"/>generatim ostendendum, fidem Christianam
+          <lb ed="#P" n="99"/>esse evidenter credibilem et secundum 
+          pruden<lb break="no" ed="#P" n="100"/>tem rationem credendam. Sed hoc spectat ad
+          <lb ed="#P" n="101"/>materiam de fide, ubi sine dubio demonstratur.
+          <lb ed="#P" n="102"/>Deinde in particulari ostendendum est, hoc
+          <lb ed="#P" n="103"/>dogma contineri in doctrina hujus fidei, quod
+          <lb ed="#P" n="104"/>nos statim contra haereticos ostendemus. Ex
+          <lb ed="#P" n="105"/>his autem concluditur illud esse verum, quia
+          <lb ed="#P" n="106"/>in doctrina hujus fidei nihil falsum contineri
+          <lb ed="#P" n="107"/>potest, quia tota nititur in diyina veritate, 
+          cu<lb break="no" ed="#P" n="108"/>jus auctoritas tota rueret, si in uno deciperet,
+          <pb ed="#P" n="537"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praesertim in eo, quod omnium maximum
+          <lb ed="#P" n="2"/>est.
+        </p>
+        <p xml:id="szduep-135569-d1e304">
+          <lb ed="#P" n="3"/>4. Deinde ostendendum esset contra eosdem
+          <lb ed="#P" n="4"/>infideles, hoc mysterium non esse impossibile,
+          <lb ed="#P" n="5"/>quod nonnullis rationibus conatur ostendere
+          <lb ed="#P" n="6"/>Scotus in 1, dist. 2, q. 4, de quibus nonnihil
+          <lb ed="#P" n="7"/>dicam infra in tertio libro. Nunc breviter 
+          cen<lb break="no" ed="#P" n="8"/>seo, illud etiam non posse demonstrari positive,
+          <lb ed="#P" n="9"/>id est, per aliquod medium, quod illud 
+          osten<lb break="no" ed="#P" n="10"/>idat. Tum quia nullum hactenus inventum est
+          <lb ed="#P" n="11"/>nec excogitari potest, ut dicto capite ultimo
+          <lb ed="#P" n="12"/>Ihujus libri probabo latius. Tum etiam, quia si
+          <lb ed="#P" n="13"/>demonstraretur non esse impossibile, 
+          demons<lb break="no" ed="#P" n="14"/>traretur esse possibile: in aeternis autem, ut
+          <lb ed="#P" n="15"/>Aristoteles dixit, idem est, esse et posse: 
+          de<lb break="no" ed="#P" n="16"/>monstraretur ergo, illud esse, quod constat fieri
+          <lb ed="#P" n="17"/>non posse. Negative autem (ut sic dicam) 
+          os<lb break="no" ed="#P" n="18"/>tendi potest, hoc mysterium non probari 
+          im<lb break="no" ed="#P" n="19"/>possibile, quod praestandum est, solvendo 
+          ra<lb break="no" ed="#P" n="20"/>tiones quae contra illud fiunt, quod in discursu
+          <lb ed="#P" n="21"/>materiae commodius faciemus, ne hic omnia
+          <lb ed="#P" n="22"/>confundamus. Potest etiam homo intelligere,
+          <lb ed="#P" n="23"/>se non posse assequi infinitam naturam, 
+          qua<lb break="no" ed="#P" n="24"/>Titer, scilicet, aut quomodo in se sit, ex quo
+          <lb ed="#P" n="25"/>etiam potest facile unusquisque intelligere,
+          <lb ed="#P" n="26"/>difficultates omnes, quae humano ingenio circa
+          <lb ed="#P" n="27"/>hoc mysterium occurrunt, cum ex creaturis et
+          <lb ed="#P" n="28"/>vrebus finitis sumantur, non habere locum in
+          <lb ed="#P" n="29"/>rre infinita, aliunde vero esse consentaneum
+          <lb ed="#P" n="30"/>infinitae naturae, ut intra se foecunditatem 
+          ha<lb break="no" ed="#P" n="31"/>Ibeat, ratione cujus possit esse potentia seu
+          <lb ed="#P" n="32"/>principium, quo una persona aliam producat.
+          <lb ed="#P" n="33"/>b. Contra Judaeos habemus propria 
+          argu<lb break="no" ed="#P" n="34"/>menta, quia Scripturam saltem quoad vetus
+          <lb ed="#P" n="35"/>testamentum admittunt. Contra illos igitur 
+          im<lb break="no" ed="#P" n="36"/>primis probandum esset, verum Messiam a
+          <lb ed="#P" n="37"/>Deo promissum futurum fuisse verum Deum,
+          <lb ed="#P" n="38"/>atque etiam jam esse a Deo missum, quia hinc
+          <lb ed="#P" n="39"/>iaperte convincitur pluralitas personarum in
+          <lb ed="#P" n="40"/>Deo. Nam persona mittens distincta est a missa
+          <lb ed="#P" n="41"/>et utraque est Deus. De illo autem principio
+          <lb ed="#P" n="42"/>dixi multa in tom. 1, de Incarnatione, disp. 1,
+          <lb ed="#P" n="43"/>ubi etiam ostensum est contra eosdem infideles,
+          <lb ed="#P" n="44"/>Messiam promissum jam venisse, et esse 
+          Chris<lb break="no" ed="#P" n="45"/>tum Dominum. Ex quo etiam contra eos 
+          con<lb break="no" ed="#P" n="46"/>vincitur, nihil nos docere potuisse, quod 
+          fal<lb break="no" ed="#P" n="47"/>isum sit, quod autem hanc veritatem nos 
+          do<lb break="no" ed="#P" n="48"/>cuerit, statim contra haereticos ostendemus,
+          <lb ed="#P" n="49"/>atque ita supposito illo fundamento, omnia
+          <lb ed="#P" n="50"/>testimonia novi testamenti, quibus probatur
+          <lb ed="#P" n="51"/>haec veritas, probant etiam contra Judaeos.
+        </p>
+        <p xml:id="szduep-135569-d1e413">
+          <lb ed="#P" n="52"/>6. Praeter haec vero adduci possunt aliqua
+          <lb ed="#P" n="53"/>ex veteri Testamento, ex quibus Patres solent
+          <lb ed="#P" n="54"/>hanc veritatem colligere, ut est principium
+          <lb ed="#P" n="55"/>Geneseos, ubi fit mentio, et Dei creantis et prin-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cipii, in quo creavit: 7n principio creavit Deus,
+          <lb ed="#P" n="57"/>etc. Uhi per principium multi Filium 
+          intelli<lb break="no" ed="#P" n="58"/>gunt, et statim additur Spiritus Domini qui
+          <lb ed="#P" n="59"/>ferebatur super aquas, et in singulari ponitur
+          <lb ed="#P" n="60"/>verbum, creavit, quia omnes sunt unus Deus.
+          <lb ed="#P" n="61"/>Ponderari etiam solet, quod paulo post 
+          sub<lb break="no" ed="#P" n="62"/>jungitur: Faciamus hominem ad imaginem et
+          <lb ed="#P" n="63"/>similitudinem nostram. Quia ibi non loquitur
+          <lb ed="#P" n="64"/>Deus ad angelos, ut quidam haeretici dixerunt,
+          <lb ed="#P" n="65"/>quia neque angeli sunt factores hominis, neque
+          <lb ed="#P" n="66"/>homo est ad imaginem illorum factus. 
+          Lo<lb break="no" ed="#P" n="67"/>quuntur ergo divinae personae inter se, quia
+          <lb ed="#P" n="68"/>nullus artifex omnino solitarius ita secum 
+          lo<lb break="no" ed="#P" n="69"/>quitur, ut argumentantur in eum locum 
+          DBasi<lb break="no" ed="#P" n="70"/>lius, Ambrosius et alii Patres. Sed in his et 
+          si<lb break="no" ed="#P" n="71"/>milibus locis advertendum est, supposita fide,
+          <lb ed="#P" n="72"/>illa esse optima ad explicandam veritatem, et
+          <lb ed="#P" n="73"/>quomodo Deus illam semper insinuaverit. At
+          <lb ed="#P" n="74"/>haec sola non sufficiunt ad convincendum 
+          in<lb break="no" ed="#P" n="75"/>tellectum repugnantem. Unde Theodoretus,
+          <lb ed="#P" n="76"/>lib. 2, ad Graecos, et Abulensis, opusc. de 
+          Tri<lb break="no" ed="#P" n="77"/>nitate, et Lyranus, lib. contra Judaeos 
+          adver<lb break="no" ed="#P" n="78"/>tunt, quamvis mysterium Trinitatis in 
+          testa<lb break="no" ed="#P" n="79"/>mento veteri contineatur, tamen non ita 
+          ex<lb break="no" ed="#P" n="80"/>presse et distincte ut omnino convincat 
+          homi<lb break="no" ed="#P" n="81"/>nem non pie affectum. Negandum vero non
+          <lb ed="#P" n="82"/>est, quin mysterium hoc sufhicienter in veteri
+          <lb ed="#P" n="83"/>testamento contineatur, ad quod ostendendum
+          <lb ed="#P" n="84"/>plura testimonia afferemus in sequentibus, et
+          <lb ed="#P" n="85"/>videri potest Galatinus, lib. 2, de Arcanis 
+          ca<lb break="no" ed="#P" n="86"/>tholicae veritatis.
+        </p>
+        <p xml:id="szduep-135569-d1e494">
+          <lb ed="#P" n="87"/>7. Tertio contra haereticos, quia in 
+          sequen<lb break="no" ed="#P" n="88"/>tibus est in particulari disputandum, sufliciant
+          <lb ed="#P" n="89"/>verba Christi Domini Matth., ult. cap. 
+          Bapti<lb break="no" ed="#P" n="90"/>cantes eos in nomine Patris, et Filii, et 
+          Spiri<lb break="no" ed="#P" n="91"/>tus sancti, de quibus dixit Joannes, 1 canon.,
+          <lb ed="#P" n="92"/>cap. 5. Tres sunt qui testimonium dant in colo,
+          <lb ed="#P" n="93"/>et Christus, Joann. 14. Ad ewn veniemus, etc.
+          <lb ed="#P" n="94"/>Definitiones Conciliorum, et testimonia 
+          Pa<lb break="no" ed="#P" n="95"/>trum omitto, ut paulatim atferantur in 
+          se<lb break="no" ed="#P" n="96"/>quentibus. Deinde ex alio principio fidei potest
+          <lb ed="#P" n="97"/>haec veritas contra haereticos convinci, nam
+          <lb ed="#P" n="98"/>aliqua persona divina incarnata est, et aliqua
+          <lb ed="#P" n="99"/>non est incarnata, ergo sunt plures. 
+          Conse<lb break="no" ed="#P" n="100"/>quentia evidens est. Antecedens vero quoad
+          <lb ed="#P" n="101"/>utramque partem ostenditur in materia de 
+          In<lb break="no" ed="#P" n="102"/>carnatione.
+        </p>
+        <p xml:id="szduep-135569-d1e531">
+          <lb ed="#P" n="103"/>8. Ex hac veritate colligimus, esse in Deo
+          <lb ed="#P" n="104"/>plura supposita, et plures hypostases, 
+          quan<lb break="no" ed="#P" n="105"/>quam de hac locutione sub nomine Aypostasis
+          <lb ed="#P" n="106"/>magna olim fuerit controversia. Nam in 
+          prin<lb break="no" ed="#P" n="107"/>cipio, paulo post haeresim Arii locutio illa
+          <lb ed="#P" n="108"/>suspecta fuit, ut patet ex Hieronymo, 
+          episto<lb break="no" ed="#P" n="109"/>la 56, ad Damasum, et Augustinus, lib. 5, de
+          <lb ed="#P" n="110"/>Trinitate, cap. 8 et 9. Neque solum apud La-
+          <pb ed="#P" n="538"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tinos, sed etiam apud Graecos videtur fuisse
+          <lb ed="#P" n="2"/>haec trepidatio, ut patet ex Athanasio, in 
+          epis<lb break="no" ed="#P" n="3"/>tola ad Cyrillum Alexandrinum, quaeest 16 inter
+          <lb ed="#P" n="4"/>ejus epistolas. Postea vero intellectum est, 
+          vo<lb break="no" ed="#P" n="5"/>cem esse aequivocam, et posse essentiam, et
+          <lb ed="#P" n="6"/>suppositum significare, ideoque permissum est
+          <lb ed="#P" n="7"/>ita loqui in bono sensu, ut patet ex 
+          Nazianze<lb break="no" ed="#P" n="8"/>^no, oratione 21, in fine, et idem habet 
+          ora<lb break="no" ed="#P" n="9"/>tione 32, et Cyrillus, libr. 1, in Joan., cap. 21.
+          <lb ed="#P" n="10"/>Jam vero ex usu Ecclesia, et omnium, tam
+          <lb ed="#P" n="11"/>Latinorum , quam Graecorum usurpatur illa
+          <lb ed="#P" n="12"/>vox ad significandum non naturam, sed 
+          tan<lb break="no" ed="#P" n="13"/>tum suppositum naturae, et ideo illa locutio
+          <lb ed="#P" n="14"/>simphrciter, et sine distinctione admittenda est,
+          <lb ed="#P" n="15"/>et haec neganda. Pater, Filius, et Spiritus 
+          sanc<lb break="no" ed="#P" n="16"/>tus sunt una hypostasis. Hoc constat ex 
+          Basi<lb break="no" ed="#P" n="17"/>lio, Epistola 43, Gregorio Nysseno, libro de
+          <lb ed="#P" n="18"/>Differentia Usiae, et Hypostaseos, Athanasio,
+          <lb ed="#P" n="19"/>libro de Definitionibus, et dialogo de Trinitate,
+          <lb ed="#P" n="20"/>Damasceno, lib. 1, Fide, de cap. 21, et lib. 3,
+          <lb ed="#P" n="21"/>cap. 4, Theodoreto, dialog. Immnutabilis. Et
+          <lb ed="#P" n="22"/>idem nunc constat ex usu omnium 
+          theologo<lb break="no" ed="#P" n="23"/>rum et totius Ecclesiee Latinae, et multi ita 
+          in<lb break="no" ed="#P" n="24"/>teligunt illud Pauli ad Hebraeos. Cum sit
+          <lb ed="#P" n="25"/>splendor glorie, et figura substantie cjus, ubi
+          <lb ed="#P" n="26"/>graece est vox hypostasis loco substantiae.
+        </p>
+        <p xml:id="szduep-135569-d1e612">
+          <lb ed="#P" n="27"/>9. An in Deo sint plures substantiee.—Hinc
+          <lb ed="#P" n="28"/>tamen oritur ditticultas, quae a modernis 
+          theo<lb break="no" ed="#P" n="29"/>logis communiter tractatur, quia ex dictis 
+          se<lb break="no" ed="#P" n="30"/>quetur, in Deo esse plures substantias, tum,
+          <lb ed="#P" n="31"/>quia hypostasis idem est, quod substantia, tum
+          <lb ed="#P" n="32"/>etiam, quia persona definitur, quod 
+          substan<lb break="no" ed="#P" n="33"/>tia. Consequens autem videtur repugnare 
+          de<lb break="no" ed="#P" n="34"/>finitionibus Concilii Lateranensisin c. Firmiter,
+          <lb ed="#P" n="35"/>et c. Damnamnus, et Toletani 6 et 11, in 
+          confes<lb break="no" ed="#P" n="36"/>sionibus fidei, docentibus, in Deo tantum esse
+          <lb ed="#P" n="37"/>unam substantiam.
+        </p>
+        <p xml:id="szduep-135569-d1e639">
+          <lb ed="#P" n="38"/>10. De hac locutione diversa inveniri 
+          viden<lb break="no" ed="#P" n="39"/>tur in antiquis Patribus. Nam Hieronymus,
+          <lb ed="#P" n="40"/>dicta Epistola 56, plures substantias concedere
+          <lb ed="#P" n="41"/>recusat. Et Augustinus, lib. 5, de Trinitate,
+          <lb ed="#P" n="42"/>cap. 9, lib. 7, cap. 4, et Richardus de sancto
+          <lb ed="#P" n="43"/>Victore, lib. 4, cap. 6. Quia substantia dicit 
+          ab<lb break="no" ed="#P" n="44"/>solutum, et absoluta non multiplicantur in
+          <lb ed="#P" n="45"/>Deo. Illam vero locutionem plane admittit 
+          Hi<lb break="no" ed="#P" n="46"/>larius, lib. de Synod., Anselmus, libro de 
+          In<lb break="no" ed="#P" n="47"/>carnatione Verbi, cap. 8, et in Monologio, cap.
+          <lb ed="#P" n="48"/>ult., et Joannes papa, in libro de duabus 
+          natu<lb break="no" ed="#P" n="49"/>ris. Quia plures personae sunt plures res, et
+          <lb ed="#P" n="50"/>non plura accidentia : ergo plures substantiae,
+          <lb ed="#P" n="51"/>imo etiam plures primae substantiae, at vero
+          <lb ed="#P" n="52"/>prima substantia est maxime substantia, teste
+          <lb ed="#P" n="53"/>Aristotele in praedicamentis.
+        </p>
+        <p xml:id="szduep-135569-d1e676">
+          <lb ed="#P" n="54"/>11. Respondeo imprimis, vocem esse 
+          ambi<lb break="no" ed="#P" n="55"/>guam, nam et essentiam, et suppositum signi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ficare potest, juxta Aristotelem 5, 
+          metaphysi<lb break="no" ed="#P" n="57"/>cae, et notavit ad hoc propositum D. Thomas, 1
+          <lb ed="#P" n="58"/>p. q. 27, art. 2, et q. 30, art. 1. Et Joannes 
+          <lb ed="#P" n="59"/>quidem Theologus Latinus in sessione 19 
+          <lb ed="#P" n="60"/>Concilii Florentini. Unde fit, si vox illa 
+          su<lb break="no" ed="#P" n="61"/>matur pro essentia, non esse in Deo plures, 
+          <lb ed="#P" n="62"/>sed unam substantiam, et hoc definiunt dicta
+          <lb ed="#P" n="63"/>Concilia, et infra latius tractabitur. Si vero
+          <lb ed="#P" n="64"/>sumatur pro supposito, admitti posse tres 
+          sub<lb break="no" ed="#P" n="65"/>stantias, et ita loquuntur posteriores Patres.
+          <lb ed="#P" n="66"/>Propter ambiguitatem vero, et quia vox illa
+          <lb ed="#P" n="67"/>simpliciter dicta, juxta communem modum
+          <lb ed="#P" n="68"/>loquendi de hoc mysterio, magis videtur 
+          signi<lb break="no" ed="#P" n="69"/>aequivocationem tollat, ut si dicamus, esse tres
+          <lb ed="#P" n="70"/>substantias incommunicabiles, sive quid simile.
+        </p>
+        <p xml:id="szduep-135569-d1e718">
+          <lb ed="#P" n="71"/>12. Ad argumentum initio positum. — Ad
+          <lb ed="#P" n="72"/>rationem igitur dubitandi in principio positam
+          <lb ed="#P" n="73"/>persona multiplicatur natura, et ideo quot sunt
+          <lb ed="#P" n="74"/>personae humanae, tot sunt homines. In Deo
+          <lb ed="#P" n="75"/>autem non multiplicatur natura, licet 
+          multi<lb break="no" ed="#P" n="76"/>plicetur persona, et ideo quamvis sint plures
+          <lb ed="#P" n="77"/>personae , non sunt plures dii. Ac propterea
+          <lb ed="#P" n="78"/>etiam non est simile de unitate Dei, et de 
+          uni<lb break="no" ed="#P" n="79"/>tate personae, nec rationes naturales, quae 
+          pro<lb break="no" ed="#P" n="80"/>bant unitatem Dei, procedunt contra 
+          plurali<lb break="no" ed="#P" n="81"/>tatem personarum. Quia distinctio naturae non
+          <lb ed="#P" n="82"/>stat cum infinitate, aequalitate, et summo 
+          prin<lb break="no" ed="#P" n="83"/>cipatu omnium, et singulorum habentium Dei
+          <lb ed="#P" n="84"/>veri naturam. Ubi autem natura est una, et
+          <lb ed="#P" n="85"/>unus principatus, summa aequalitas, et 
+          infini<lb break="no" ed="#P" n="86"/>tas uniuscujusque personae. Quo fit, ut non
+          <lb ed="#P" n="87"/>multiplicentur personae in tali natura propter
+          <lb ed="#P" n="88"/>imperfectionem, vel indigentiam, sed propter
+          <lb ed="#P" n="89"/>mirabilem foecunditatem illius infinitae 
+          natu<lb break="no" ed="#P" n="90"/>rae. Et ob eamdem rationem multiplicari 
+          pos<lb break="no" ed="#P" n="91"/>sunt illae personae cum summa simplicitate,
+          <lb ed="#P" n="92"/>quia omnino sunt idem cum natura in qua
+          <lb ed="#P" n="93"/>uniuntur. Quae omnia sigillatim in 
+          sequenti<lb break="no" ed="#P" n="94"/>bus sunt disputanda et explicanda.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

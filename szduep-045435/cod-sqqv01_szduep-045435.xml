@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 30</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 30</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="178"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-045435"><!-- t1-l2c30 -->
+        <head xml:id="szduep-045435-Hd1e101">Caput 30</head>
+        <head xml:id="szduep-045435-Hd1e103" type="question-title">Sit-ne deus omnino invisibilis homini in vita mortali, ita ut pro hoc statu visio clara dei illi communicari non possit</head>
+        <p xml:id="szduep-045435-d1e106">
+          <lb ed="#P" n="47"/>CAPUT XXX.
+          <lb ed="#P" n="48"/>SIT-NE DEUS OMNINO INVISIBILIS HOMINI IN VITA
+          <lb ed="#P" n="49"/>MORTALI, ITA UT PRO HOC STATU VISIO CLARA
+          <lb ed="#P" n="50"/>DEI ILLI COMMUNICARI NON POSSIT.
+        </p>
+        <p xml:id="szduep-045435-d1e117">
+          <lb ed="#P" n="51"/>1. Haec sola quaestio superest ad plenam 
+          de<lb break="no" ed="#P" n="52"/>clarationem hujus attributi et non proponitur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>de comprehensione, quia cum illa in omni
+          <lb ed="#P" n="54"/>statu sit homini impossibilis simpliciter, etiam
+          <lb ed="#P" n="55"/>in ordine ad potentiam absolutam, multo 
+          ma<lb break="no" ed="#P" n="56"/>gis in statu vitae mortalis. De visione autem est
+          <lb ed="#P" n="57"/>peculiaris difficultas, quia interdum dicitur
+          <lb ed="#P" n="58"/>Deus invisibilis in hac vita, Joannes 1: Deum
+          <lb ed="#P" n="59"/>nemo cidit unquam, et idem Joannes 4. Addit
+          <lb ed="#P" n="60"/>vero Paulus 1 Timoth. 6: Quem nemo 
+          homi<lb break="no" ed="#P" n="61"/>num cidit, sed nec videre potest. Nam Exod. 33,
+          <lb ed="#P" n="62"/>ait Deus Moysi : Non videbit me homo et vivet.
+          <lb ed="#P" n="63"/>In contrarium vero est, quia interdum dicitur,
+          <lb ed="#P" n="64"/>mortales homines in Scriptura videre Deum et
+          <lb ed="#P" n="65"/>faciem Dei, ut Augustinus, Ep. 112, a cap. 4,
+          <lb ed="#P" n="66"/>late disputat.
+        </p>
+        <p xml:id="szduep-045435-d1e156">
+          <lb ed="#P" n="67"/>Prima conclusio. —Breviter tamen dicendum
+          <lb ed="#P" n="68"/>imprimis est, non esse absolute impossibile 
+          ho<lb break="no" ed="#P" n="69"/>minem in corpore mortali elevari secundum
+          <lb ed="#P" n="70"/>mentem ad videndum clare Deum. Haec 
+          asser<lb break="no" ed="#P" n="71"/>tio certissima est in theologia. Probatur enim
+          <lb ed="#P" n="72"/>aperte, quia Christi anima conjuncta corpori
+          <lb ed="#P" n="73"/>mortali habuit visionem illam permanentem ,
+          <lb ed="#P" n="74"/>ac perpetuam a primo instanti creationis suae,
+          <lb ed="#P" n="75"/>utlate probatum est in 1 tom., 3 part., disp. 25,
+          <lb ed="#P" n="76"/>sect. 1; ergo posset Deus idem concedere 
+          cui<lb break="no" ed="#P" n="77"/>libet homini mortali, etiam si humanitas ejus
+          <lb ed="#P" n="78"/>non esset Verbo hypostatice unita. Nam illa
+          <lb ed="#P" n="79"/>unio nec physice concurrit ad visionem , nec
+          <lb ed="#P" n="80"/>dat capacitatem physicam illius nec 
+          forma<lb break="no" ed="#P" n="81"/>liter aufert impedimenta illius, sed solum
+          <lb ed="#P" n="82"/>adducit secum quamdam congruentiam, et
+          <lb ed="#P" n="83"/>quasi debitum connaturalitatis, ut ratione illius
+          <lb ed="#P" n="84"/>elevanda fuerit anima sic Deo unita 
+          substan<lb break="no" ed="#P" n="85"/>tialiter, ad summam unionem accidentalem.
+          <lb ed="#P" n="86"/>Ratio vero a priori est, quia in hoc nulla est
+          <lb ed="#P" n="87"/>implicatio contradictionis, quia licet anima
+          <lb ed="#P" n="88"/>unita corpori mortali non possit naturaliter
+          <lb ed="#P" n="89"/>intelligere, nisi per species a phantasmatibus
+          <lb ed="#P" n="90"/>acceptas et cum dependentia ab illis : tamen a
+          <lb ed="#P" n="91"/>Deo elevari potest ad intelligendum per species
+          <lb ed="#P" n="92"/>per se infusas et sine concursu phantasiae:
+          <lb ed="#P" n="93"/>ergo eadem ratione potest elevari ad visionem
+          <lb ed="#P" n="94"/>Dei.
+        </p>
+        <p xml:id="szduep-045435-d1e220">
+          <lb ed="#P" n="95"/>3. Secunda conclusio. — Dico 2, de 
+          com<lb break="no" ed="#P" n="96"/>muni lege et potentia non conceditur 
+          homini<lb break="no" ed="#P" n="97"/>bus mortalibus clara visio Divinae essentiae.
+          <lb ed="#P" n="98"/>Haec assertio est D. Thomae 1 p., q. 12, art. 11
+          <lb ed="#P" n="99"/>et 19, q. 5, art. 3, 2, 2, q. 180, art. 5, estque
+          <lb ed="#P" n="100"/>de fide, illam enim probant testimonia 
+          Scrip<lb break="no" ed="#P" n="101"/>turae in principio adducta, quae in hoc sensu
+          <lb ed="#P" n="102"/>Patres interpretantur , quos paulo inferius 
+          re<lb break="no" ed="#P" n="103"/>feremus, et quos supra retulimus, capite quinto,
+          <lb ed="#P" n="104"/>contra Anomaeos. Nam illi haeretici non solum
+          <lb ed="#P" n="105"/>damnati sunt, quia dicebant, Deum posse 
+          com<lb break="no" ed="#P" n="106"/>prehendi, sed etiam, quia dicebant in hac vita
+          <lb ed="#P" n="107"/>comparari claram Dei cognitionem. Sicut etiam
+          <pb ed="#P" n="179"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Begardi et Beghinae non solum damnati sunt,
+          <lb ed="#P" n="2"/>quia dicebant videri Deum naturaliter , sed
+          <lb ed="#P" n="3"/>etiam, quia in hac vita putabant comparari
+          <lb ed="#P" n="4"/>lege communi illam visionem, ut patet ex 
+          Cle<lb break="no" ed="#P" n="5"/>ment. Ad nostram , de Haeret. Ratio vero a
+          <lb ed="#P" n="6"/>priori est, dispositio divinae providentiae nobis
+          <lb ed="#P" n="7"/>revelata ; et ipsa experientia satis nota. Hujus
+          <lb ed="#P" n="8"/>vero divinae ordinationis duplex est ratio. Una
+          <lb ed="#P" n="9"/>moralis : altera physica.
+        </p>
+        <p xml:id="szduep-045435-d1e275">
+          <lb ed="#P" n="10"/>4. Duplex assignatur ratio. Prior.—
+          Poste<lb break="no" ed="#P" n="11"/>rior ratio. — Prior est, quia tempus hujus 
+          vi<lb break="no" ed="#P" n="12"/>tae est tempus merendi et pugnandi, post hanc
+          <lb ed="#P" n="13"/>autem vitam est status praemii , quod maxime
+          <lb ed="#P" n="14"/>in visione Dei confertur. Unde Paulus aiebat 2,
+          <lb ed="#P" n="15"/>Cor. 5: Duwmn sumus in corpore, perigrinamur
+          <lb ed="#P" n="16"/>a Domino, per fidem enim ambulamus et non
+          <lb ed="#P" n="17"/>per species, et V, Cor. 13: Cum cenerit quod
+          <lb ed="#P" n="18"/>perfectum est, etc., et infra: Fidemus munc
+          <lb ed="#P" n="19"/>per speculum in enigmate, tunc autem facie ad
+          <lb ed="#P" n="20"/>faciem, et 1, Joan. 5 : Cum appuruerit, simales
+          <lb ed="#P" n="21"/>ei erismis. Quasi dicat, non esse hoc in hac
+          <lb ed="#P" n="22"/>vita expectandum, sed in futura. Posterior 
+          ra<lb break="no" ed="#P" n="23"/>tio est , quia status animae in corpore mortali
+          <lb ed="#P" n="24"/>est ineptissimus ad perfectionem illius 
+          visio<lb break="no" ed="#P" n="25"/>nis. Quia in hoc statu nihil potest intelligere
+          <lb ed="#P" n="26"/>anima nostra nisi modo materiali, id est, ad
+          <lb ed="#P" n="27"/>modum rerum corporalium , a quibus 
+          cogni<lb break="no" ed="#P" n="28"/>tionem accipit. Deus autem videri non potest
+          <lb ed="#P" n="29"/>nisi modo purissimo et maxime spirituali. Et
+          <lb ed="#P" n="30"/>hac ratione maxime utitur D. Thomas, 1p.,
+          <lb ed="#P" n="31"/>quaest. 12, art. 11et 3, contra Gentes, cap. 47,
+          <lb ed="#P" n="32"/>et quaest. 12, de Verit. , art. 9; et ex illa 
+          con<lb break="no" ed="#P" n="33"/>cludit, impossibile esse videre Deum in corpore
+          <lb ed="#P" n="34"/>mortali, quod aliqui intelligunt, id est, 
+          cogni<lb break="no" ed="#P" n="35"/>tione accepta per corpus mortale, seu 
+          ministe<lb break="no" ed="#P" n="36"/>rio sensuum. Atque ita aiunt hoc esse 
+          impos<lb break="no" ed="#P" n="37"/>sibile simpliciter. Sed hoc licet verum sit, non
+          <lb ed="#P" n="38"/>est ad rem , quia supponimus, visionem esse
+          <lb ed="#P" n="39"/>supra naturalem modum cognoscendi hominis,
+          <lb ed="#P" n="40"/>et absolute quaeritur, an sit possibilis in hoc
+          <lb ed="#P" n="41"/>statu. Item alias non oporteret, Christum, vel
+          <lb ed="#P" n="42"/>alios excipere, quos D. Thomas excipit. Sensus
+          <lb ed="#P" n="43"/>ergo est, id esse impossibile de lege ordinaria
+          <lb ed="#P" n="44"/>fundata in illa conditione homini naturah.
+        </p>
+        <p xml:id="szduep-045435-d1e353">
+          <lb ed="#P" n="45"/>5. Dubium. — Duphliciter visio animam a
+          <lb ed="#P" n="46"/>corpore abstrahere potest. — Dubitari vero 
+          po<lb break="no" ed="#P" n="47"/>test circa hanc rationem, an illa visio 
+          commu<lb break="no" ed="#P" n="48"/>nicata divinitus anima hominis in corpore
+          <lb ed="#P" n="49"/>mortali, ex natura et vi sua extrahat eam ab
+          <lb ed="#P" n="50"/>hac vita mortali aliquo modo : dico natura
+          <lb ed="#P" n="51"/>sua, quia interveniente Divina potestate et
+          <lb ed="#P" n="52"/>actione certum est, non semper habere illum
+          <lb ed="#P" n="53"/>effectum. Sicut in Christo Domino fuit visio
+          <lb ed="#P" n="54"/>beata toto tempore vitae mortalis, sine 
+          abstrac<lb break="no" ed="#P" n="55"/>tione animae a substantia (ut sic dicam), vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>officio illius vitae. Ideo etiam dixi aliquo modo,
+          <lb ed="#P" n="57"/>quia duobus modis intelligi potest , visionem
+          <lb ed="#P" n="58"/>illam habere vim abstrahendi animam a 
+          cor<lb break="no" ed="#P" n="59"/>pore mortali. Primo separando illam omnino
+          <lb ed="#P" n="60"/>etiam quoad substantialem informationem 
+          ta<lb break="no" ed="#P" n="61"/>lis corporis. Secundo abstrahendo illam ab
+          <lb ed="#P" n="62"/>omni operatione praesertim sensuum, et raptum
+          <lb ed="#P" n="63"/>seu extasim faciendo , ita ut omnino per 
+          visio<lb break="no" ed="#P" n="64"/>nem impediatur , ne aliquid pro tunc sentire
+          <lb ed="#P" n="65"/>vel percipere possit.
+        </p>
+        <p xml:id="szduep-045435-d1e403">
+          <lb ed="#P" n="66"/>6. Priori abstractione est conclusio. —he
+          <lb ed="#P" n="67"/>priori abstractione certum esse judico, ex vi
+          <lb ed="#P" n="68"/>visionis non fieri talem separationem animae a
+          <lb ed="#P" n="69"/>corpore, etiamsi speciali Dei protectione non
+          <lb ed="#P" n="70"/>impediatur visio , ne talem affectum efficiat.
+          <lb ed="#P" n="71"/>Hoc satis probat exemplum Christi Domini.
+          <lb ed="#P" n="72"/>Nec enim putandum est peculiare, ac 
+          conti<lb break="no" ed="#P" n="73"/>nuum miraculum fuisse, quod visio illa 
+          ani<lb break="no" ed="#P" n="74"/>mam Christi a corpore non separaverit. Idem
+          <lb ed="#P" n="75"/>confirmat , quod talis visio sine speciali 
+          mira<lb break="no" ed="#P" n="76"/>culo erit in beatis post resurrectionem, neque
+          <lb ed="#P" n="77"/>oportebit, Deum speciali quadam actione 
+          su<lb break="no" ed="#P" n="78"/>pernaturali aliquid efficere, ut possit illa visio
+          <lb ed="#P" n="79"/>esse in anjma informante corpus. Quod vero
+          <lb ed="#P" n="80"/>illud corpus sit immortale ad hoc parum refert,
+          <lb ed="#P" n="81"/>ut statim dicam. Rhatio ergo a priori est, quia
+          <lb ed="#P" n="82"/>visio illa nec formaliter, neque effective, 
+          repu<lb break="no" ed="#P" n="83"/>gnat physice cum informatione substantiali
+          <lb ed="#P" n="84"/>animae in corpus, ut videtur per se notum.
+        </p>
+        <p xml:id="szduep-045435-d1e447">
+          <lb ed="#P" n="85"/>7. Objectio— Responsum.—bices, non 
+          repug<lb break="no" ed="#P" n="86"/>nare cum informatione per se, repugnare tamen
+          <lb ed="#P" n="87"/>cum corporis mortalitate. Respondeo 
+          impri<lb break="no" ed="#P" n="88"/>mis informationem animae quoad 
+          substantia<lb break="no" ed="#P" n="89"/>lem unionem, ejusdem rationis esse in corpore
+          <lb ed="#P" n="90"/>mortali et immortali. Deinde, dotes gloria,
+          <lb ed="#P" n="91"/>quibus corpus efficitur immortale et quodam
+          <lb ed="#P" n="92"/>modo spirituale, aptiusque ad serviendum 
+          spi<lb break="no" ed="#P" n="93"/>ritui, non manare physice et effective a visione
+          <lb ed="#P" n="94"/>beata, sed solum per quamdam congruentem
+          <lb ed="#P" n="95"/>Dei ordinationem suo modo connaturalem illi
+          <lb ed="#P" n="96"/>statui : et quoad hoc fuisse miraculum in 
+          Chris<lb break="no" ed="#P" n="97"/>to habere illam visionem sine gloria cotporis.
+          <lb ed="#P" n="98"/>Tamen supposito illo miraculo ( quod Deus 
+          sus<lb break="no" ed="#P" n="99"/>pendit gloriam corporis, non obstante visione)
+          <lb ed="#P" n="100"/>dicimus, non esse peculiare miraculum , quod
+          <lb ed="#P" n="101"/>anima illa conservetur corpori unita, cum
+          <lb ed="#P" n="102"/>eadem visione. Quia formaliter non magis 
+          re<lb break="no" ed="#P" n="103"/>pugnat illa visio cum unione ad tale corpus,
+          <lb ed="#P" n="104"/>quam unio hypostatica. Sunt enim res diversi
+          <lb ed="#P" n="105"/>ordinis et in diversis subjectis proximis, unde
+          <lb ed="#P" n="106"/>non habent formalem repugnantiam inter se.
+          <lb ed="#P" n="107"/>Neque unio illa per se est effectiva per 
+          actio<lb break="no" ed="#P" n="108"/>nem aliquam transeuntem , ut possit effective
+          <lb ed="#P" n="109"/>tollere unionem , vel alterare corpus, aut 
+          pri<lb break="no" ed="#P" n="110"/>vare illud dispositionibus necessariis ad unio-
+          <pb ed="#P" n="180"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem cum anima, quibus permanentibus non
+          <lb ed="#P" n="2"/>dissolvitur unio.
+        </p>
+        <p xml:id="szduep-045435-d1e515">
+          <lb ed="#P" n="3"/>8. De alia abstractione est dubium. — De
+          <lb ed="#P" n="4"/>alio puncto est nonnulla major difficultas, nam
+          <lb ed="#P" n="5"/>Augustinus et D. Thomas interdum significant,
+          <lb ed="#P" n="6"/>visionem illam vi sua connaturali ita raptare
+          <lb ed="#P" n="7"/>animam, ut omnino abstrahat illam et 
+          impe<lb break="no" ed="#P" n="8"/>diat ab omni sensuum operatione. Sic ait 
+          Au<lb break="no" ed="#P" n="9"/>gustinus 12, Gen. ad. lit., cap. 27: Neminem
+          <lb ed="#P" n="10"/>cidentem Deun vivere vita ista, qua mortaliter
+          <lb ed="#P" n="11"/>vivitur istis sensibus corporeis. Sed nisi ab
+          <lb ed="#P" n="12"/>hac vita quisque quodain modo moriatur, sive
+          <lb ed="#P" n="13"/>omnino eaiens de corpore, sive ita aversus et
+          <lb ed="#P" n="14"/>alienatus carnalibus sensibus, ut merito nesciat,
+          <lb ed="#P" n="15"/>sicut Apostolus ait , an in corpore, vel eatra
+          <lb ed="#P" n="16"/>corpus sit , cum in illam rapitur et subvelatur
+          <lb ed="#P" n="17"/>visionem. Atque hanc sententiam secutus est
+          <lb ed="#P" n="18"/>D. Thomas 2, 2, q. 175, art. 4, et rationem
+          <lb ed="#P" n="19"/>reddit, quia per visionem tota intentio animae,
+          <lb ed="#P" n="20"/>et intellectus ad Deum avocatur, et ideo non
+          <lb ed="#P" n="21"/>potest simul attendere ad operationes sensuum,
+          <lb ed="#P" n="22"/>unde concludit, esse impossibile stante illa 
+          vi<lb break="no" ed="#P" n="23"/>sione uti sensibus. : :
+        </p>
+        <p xml:id="szduep-045435-d1e564">
+          <lb ed="#P" n="24"/>9. Conclusio. —Sed imprimis certum est,
+          <lb ed="#P" n="25"/>non esse impossibile de potentia absoluta, ut
+          <lb ed="#P" n="26"/>in Christo Domino patet.-Quod exemplum 
+          per<lb break="no" ed="#P" n="27"/>suadere videtur etiam sine speciali miraculo
+          <lb ed="#P" n="28"/>id fieri posse. Nam in Christo nullum aliud 
+          in<lb break="no" ed="#P" n="29"/>tervenisse videtur, praeter suppositionem 
+          glo<lb break="no" ed="#P" n="30"/>riae corporis non obstante visione. Illo autem
+          <lb ed="#P" n="31"/>posito, naturali modo potuit Christus 
+          atten<lb break="no" ed="#P" n="32"/>dere et uti sensibus. Respondet autem divus
+          <lb ed="#P" n="33"/>Thomas ad 2, dispensative factum esse, ut 
+          si<lb break="no" ed="#P" n="34"/>aul esset viator et comprehensor, et ideo non esse
+          <lb ed="#P" n="35"/>de illo similem rationem. At enim illa 
+          dispen<lb break="no" ed="#P" n="36"/>satio solum hoc facit , quod esset gloria 
+          ani<lb break="no" ed="#P" n="37"/>mae, sine gloria corporis, usus vero sensuum
+          <lb ed="#P" n="38"/>postea naturalis fuit, ergo idem esset in 
+          quoli<lb break="no" ed="#P" n="39"/>bet homine, si daretur ei visio sola et suae 
+          na<lb break="no" ed="#P" n="40"/>turae in reliquis relinqueretur.
+        </p>
+        <p xml:id="szduep-045435-d1e603">
+          <lb ed="#P" n="41"/>10. Praeterea si ratio supra adducta efficax
+          <lb ed="#P" n="42"/>esset, etiam in corporibus resurgentium 
+          im<lb break="no" ed="#P" n="43"/>pediretur naturalis vis activa sensuum. Nam
+          <lb ed="#P" n="44"/>quod ibi ait D. Thomas ad 1: 7n illis corporibus
+          <lb ed="#P" n="45"/>futuram redundantium a gloria anime. Verum
+          <lb ed="#P" n="46"/>est quoad dotes gloriae: tamen quoad 
+          natura<lb break="no" ed="#P" n="47"/>lem vim sentiendi eamdem retinebunt et 
+          se<lb break="no" ed="#P" n="48"/>cundum eam connaturaliter operari poterunt,
+          <lb ed="#P" n="49"/>non obstante visione, ergo valde probabile 
+          vi<lb break="no" ed="#P" n="50"/>detur ex vi visionis illius non fieri talem 
+          abs<lb break="no" ed="#P" n="51"/>tractionem a sensibus. Estque urgens ratio,
+          <lb ed="#P" n="52"/>quod visio illa beatifica non umpedit naturales
+          <lb ed="#P" n="53"/>operationes animae, etiam ipsius intellectus ,
+          <lb ed="#P" n="54"/>ut in angelis constat et in anima Christi et
+          <lb ed="#P" n="55"/>in aliis beatis, ergo neque impediet operationes
+          <lb ed="#P" n="56"/>cione Ecclesiae, vel probabili ratione. Denique
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="57"/>sensuum, etiam in corpore mortali, si ineo
+          <lb ed="#P" n="58"/>infundatur illa visio : quia eadem est ratio de
+          <lb ed="#P" n="59"/>illis operationibus et in corpore mortali non
+          <lb ed="#P" n="60"/>est speciale impedimentum, quoad sensuum
+          <lb ed="#P" n="61"/>actiones.
+        </p>
+        <p xml:id="szduep-045435-d1e653">
+          <lb ed="#P" n="62"/>11. Ratio a priori. — Ratio autem a prieri
+          <lb ed="#P" n="63"/>est, quia illa visio non sit per naturalem 
+          vir<lb break="no" ed="#P" n="64"/>tutem animae, sed per lumen glorise, 
+          concur<lb break="no" ed="#P" n="65"/>rente anima per virtutem obedientialem et
+          <lb ed="#P" n="66"/>ideo naturalis virtus ejus semper manet 
+          expe<lb break="no" ed="#P" n="67"/>dita, ut non obstante visione suas naturales
+          <lb ed="#P" n="68"/>actiones exercere possit. Sed de hac re et de
+          <lb ed="#P" n="69"/>extasi in universum dicturi sumus latius t. 1,
+          <lb ed="#P" n="70"/>de Relig., lib. 3, qui est de Orat., mentali
+          <lb ed="#P" n="71"/>cap. 11.
+        </p>
+        <p xml:id="szduep-045435-d1e677">
+          <lb ed="#P" n="72"/>12. Dubium expenditur.—BAhiud hic superest 
+          <lb ed="#P" n="73"/>grave dubium. An in hac lege, quam diximus :
+          <lb ed="#P" n="74"/>esse ordinariam, ut visio Dei non 
+          communice<lb break="no" ed="#P" n="75"/>tur homini mortali, sit aliquando 
+          dispensa<lb break="no" ed="#P" n="76"/>tum. Nam quod Deus dispensare possit dubium
+          <lb ed="#P" n="77"/>non est. Duobus autem modis potest intelligi
+          <lb ed="#P" n="78"/>talis dispensatio. Primo, ut aliquis homo (
+          prae<lb break="no" ed="#P" n="79"/>ter Christum) toto tempore vitae mortalis, vel
+          <lb ed="#P" n="80"/>pro aliqua magna parte ejus, habuerit illam
+          <lb ed="#P" n="81"/>visionem permanenter et immutabiliter. Et in
+          <lb ed="#P" n="82"/>hoc sensu certum est, non esse factam 
+          dispen<lb break="no" ed="#P" n="83"/>sationem, neque oppositum affirmari posse 
+          si<lb break="no" ed="#P" n="84"/>ne magna temeritate et errore. Quia est 
+          con<lb break="no" ed="#P" n="85"/>tra regulam Scripturae et sine ullo 
+          fundamen<lb break="no" ed="#P" n="86"/>to, vel in Scriptura, vel in Patribus, aut tradi-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="87"/>etiam de beata Virgine in 2 tomo ostendimus
+          <lb ed="#P" n="88"/>non habuisse hoc privilegium in hacvita , quis
+          <lb ed="#P" n="89"/>ergo audeat alicui puro homini iud 
+          attri<lb break="no" ed="#P" n="90"/>buere?
+        </p>
+        <p xml:id="szduep-045435-d1e723">
+          <lb ed="#P" n="91"/>13. Alio ergo modo intelligitur illa 
+          dispen<lb break="no" ed="#P" n="92"/>satio de aliqua visione Dei per breve tempus,
+          <lb ed="#P" n="93"/>quasi in transitu et hoc modo creditum est,
+          <lb ed="#P" n="94"/>factas esse aliquas dispensationes. Prima est
+          <lb ed="#P" n="95"/>de Moyse, quam affirmavit Augustinus 12,
+          <lb ed="#P" n="96"/>Gen. ad lit., c. 27 et 28, et epist. 112. c. 12,
+          <lb ed="#P" n="97"/>et secutus est D. Thomas supra, et ante illos
+          <lb ed="#P" n="98"/>videtur fuisse sententia haec Basilii, hom. 1,
+          <lb ed="#P" n="99"/>Exam. Ambrosii, lib. 1, Exam. cap. 2. Quos
+          <lb ed="#P" n="100"/>postea multi secuti sunt, ideoque illa sententia
+          <lb ed="#P" n="101"/>gravis est et probabilis. Ut verum tamen, non
+          <lb ed="#P" n="102"/>video in Scriptura sufficiens illius 
+          fundamen<lb break="no" ed="#P" n="103"/>tum. Nam duo testimonia afferuntur: primum,
+          <lb ed="#P" n="104"/>Exod. 33, ubi Moyses ipse a Domino petiit:
+          <lb ed="#P" n="105"/>Ostende mihi faciem tuam, et iterum, ostende
+          <lb ed="#P" n="106"/>mihi gloriam tuam. In quibus verbis dubium
+          <lb ed="#P" n="107"/>est, quid Moyses petierit. Ego autem 
+          probabi<lb break="no" ed="#P" n="108"/>lissimum credo, petiisse videre ipsam 
+          natu<lb break="no" ed="#P" n="109"/>ram et substantiam Dei, nam hoc est, quod
+          <lb ed="#P" n="110"/>maxime appetere poterat, quia visiones alias
+          <pb ed="#P" n="181"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in figura, vel gloria corporali satis magnas,
+          <lb ed="#P" n="2"/>satisque familiares habebat. At hoc ipsum illi
+          <lb ed="#P" n="3"/>denegavit Deus dicens: JVon poteris videre 
+          fa<lb break="no" ed="#P" n="4"/>ciem meam, unde etiam Augustinus et qui ejus
+          <lb ed="#P" n="5"/>sententiam sequuntur non magnam vim in
+          <lb ed="#P" n="6"/>hoc loco constituunt.
+        </p>
+        <p xml:id="szduep-045435-d1e786">
+          <lb ed="#P" n="7"/>14. Aliud testimonium est, Numer. 12, ubi
+          <lb ed="#P" n="8"/>sic dicit Dominus : S quis fuerit inter vos 
+          pro<lb break="no" ed="#P" n="9"/>pheta Domini, in visione apparebo ei, vel per
+          <lb ed="#P" n="10"/>sommiwn loquar ad illum. At non sic servus meus
+          <lb ed="#P" n="11"/>Moyses, qui in omni domo mea fidelissimus;
+          <lb ed="#P" n="12"/>ore enim ad os loquar ei et palum et non per
+          <lb ed="#P" n="13"/>cnigmata et figuras Deum videt. Sed haec 
+          ver<lb break="no" ed="#P" n="14"/>ba licet magis faveant, non cogunt: nam ad
+          <lb ed="#P" n="15"/>summum ostendunt quamdam majorem 
+          fami<lb break="no" ed="#P" n="16"/>liaritatem Dei cum Moyse, quam cum aliis
+          <lb ed="#P" n="17"/>prophetis et majorem excellentiam 
+          revelatio<lb break="no" ed="#P" n="18"/>num et apparitionum Dei, vel in visione 
+          intel<lb break="no" ed="#P" n="19"/>lectuali, vel in splendore aliquo et claritate
+          <lb ed="#P" n="20"/>sensibili. Et hic sensus videtur verisimilis. Tum
+          <lb ed="#P" n="21"/>quia non est credibile, Moysem vidisse tam 
+          fre<lb break="no" ed="#P" n="22"/>quenter et familariter divinam essentiam,
+          <lb ed="#P" n="23"/>Deus autem ibi loquitur de ordinario modo,
+          <lb ed="#P" n="24"/>quo solebat loqui cum Moyse. Tum etiam, quia
+          <lb ed="#P" n="25"/>fere eadem verba habentur, Exod. 33, cum
+          <lb ed="#P" n="26"/>dicitur : Loquebatur Dominus ad Moysem 
+          fa<lb break="no" ed="#P" n="27"/>cie ad faciem, sicut solet loqui umvcus ad 
+          ama<lb break="no" ed="#P" n="28"/>cum swnn. Et nihilominus ibidem, paulo infra
+          <lb ed="#P" n="29"/>negat illi Deus visionem faciei suae. Imo in fine
+          <lb ed="#P" n="30"/>illius capitis videtur negari illi talis visio pro
+          <lb ed="#P" n="31"/>futuro tempore indefinite, ac simpliciter. Tum
+          <lb ed="#P" n="32"/>denique, quia si nec in monte Sina, neque in
+          <lb ed="#P" n="33"/>tabernaculo, Exod. 23, Moyses vidit divinam
+          <lb ed="#P" n="34"/>essentiam, certe non apparet ex Scriptura, ubi
+          <lb ed="#P" n="35"/>illam videre potuerit.
+        </p>
+        <p xml:id="szduep-045435-d1e852">
+          <lb ed="#P" n="36"/>15. Atque ita de Moyse sentiunt Evaristus
+          <lb ed="#P" n="37"/>papa, epist. 1, Dionysius, de Coelest. Hierar.,
+          <lb ed="#P" n="38"/>cap. 4, et epistol. 1, ad Caium, lrenaeus, lib.
+          <lb ed="#P" n="39"/>4, c. 31, Nazianzenus, orat. 34, Gregorius 18
+          <lb ed="#P" n="40"/>Moral., cap. 28, Orig., 1. Per, cap. 4, et hom.1,
+          <lb ed="#P" n="41"/>in Isaiam, et alii innumeri. Ex quo a fortiori
+          <lb ed="#P" n="42"/>constat, ante Christi Domini adventum nullum
+          <lb ed="#P" n="43"/>hominem vidisse Deum clare, etiam ad 
+          mo<lb break="no" ed="#P" n="44"/>mentum. Estque optima conjectura etiam 
+          con<lb break="no" ed="#P" n="45"/>tra Moysem, quia non expediebat, hominem
+          <lb ed="#P" n="46"/>aliquem ante Christi animam videre Deum,
+          <lb ed="#P" n="47"/>etiam brevi tempore, quod indicavit Joannes,
+          <lb ed="#P" n="48"/>capite primo: Deum nemo vidit unguam ; 
+          uni<lb break="no" ed="#P" n="49"/>genitus Filius qui est in sims Patris, ipse 
+          enar<lb break="no" ed="#P" n="50"/>ravit, unde quoties in veteri testamento 
+          di<lb break="no" ed="#P" n="51"/>cuntur Abraham, Jacob, vel alii vidisse Deum
+          <lb ed="#P" n="52"/>facie ad faciem, certum est, esse sermonem
+          <lb ed="#P" n="53"/>de visione imaginaria, vel sensibili, ut late
+          <lb ed="#P" n="54"/>Augustinus, epist. 112, et D. Thomas 2, 2,
+          <lb ed="#P" n="55"/>quaest. 174.
+        </p>
+        <p xml:id="szduep-045435-d1e898">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>16. Secunda dispensatio est de Paulo, quam
+          <lb ed="#P" n="57"/>etiam affirmant Augustinus et Thomas supra,
+          <lb ed="#P" n="58"/>et Anselmus, 2. Corint. 12, et alii moderni.
+          <lb ed="#P" n="59"/>Illam vero negant Dionysius, dicto capite 
+          quar<lb break="no" ed="#P" n="60"/>to, de Coelest. Hierarch., et Nazianzenus, dicta
+          <lb ed="#P" n="61"/>orat. 34, Tertullianus, contra Praxeam, cap.
+          <lb ed="#P" n="62"/>14, et generaliter Hieronymus, Dialog. 3, contra
+          <lb ed="#P" n="63"/>Pelag., infine, et in cap. 6. Isaiae, Isidorus, lib.
+          <lb ed="#P" n="64"/>1, deSum. bono, cap. 7, Athanasius, quaest. 12,
+          <lb ed="#P" n="65"/>ad Antioc. Et mihi quidem etiam videtur ex
+          <lb ed="#P" n="66"/>sacra Scriptura non colligi.
+        </p>
+        <p xml:id="szduep-045435-d1e927">
+          <lb ed="#P" n="67"/>17. Solum enim afferuntur verba 2, Cor. 12,
+          <lb ed="#P" n="68"/>ubi dicitur: Zaptus est in paradisum et usque
+          <lb ed="#P" n="69"/>ad tertium Calwn et audivisse urcana verba, et
+          <lb ed="#P" n="70"/>similia, quae non cogunt. Primo quia non sunt
+          <lb ed="#P" n="71"/>verba propria, sed metaphorica, variis exposita
+          <lb ed="#P" n="72"/>interpretationibus de Paradiso, de tertio clo
+          <lb ed="#P" n="73"/>et de verbo audiendi. Nam hoc verbum licet
+          <lb ed="#P" n="74"/>interdum sumatur pro clara visione, tamen
+          <lb ed="#P" n="75"/>proprietas vocis non cogit. Item, quia totus
+          <lb ed="#P" n="76"/>ille raptus prout ibi narratur satis proprie 
+          in<lb break="no" ed="#P" n="77"/>telligitur, si Paulus elevatus est, ad intuendam
+          <lb ed="#P" n="78"/>ipsam Christi humanitatem et gloriam et 
+          con<lb break="no" ed="#P" n="79"/>sortium beatorum , ibique intellexit arcana
+          <lb ed="#P" n="80"/>fidei mysteria. Imo verisimile est, raptum illum
+          <lb ed="#P" n="81"/>non fuisse sine cooperatione phantasmatum,
+          <lb ed="#P" n="82"/>inde enim orta est alienatio a sensibus et quod
+          <lb ed="#P" n="83"/>postea nescierit, an in corpore, vel extra 
+          cor<lb break="no" ed="#P" n="84"/>pus tunc fuerit.
+        </p>
+        <p xml:id="szduep-045435-d1e969">
+          <lb ed="#P" n="85"/>18. Tertia dispensatio ab aliquibus creditur
+          <lb ed="#P" n="86"/>facta cum sancto Denedicto, propter quaedam
+          <lb ed="#P" n="87"/>verba Gregorii 2 Dial., cap. 5. Verum illa non
+          <lb ed="#P" n="88"/>admittit D. Thomas 2, 2, quaest. 180, art. 5
+          <lb ed="#P" n="89"/>ad 3 et quodlib. 1, art. 1. Ubi Gregorius 
+          inter<lb break="no" ed="#P" n="90"/>pretatur. Nam revera solum refert quamdam
+          <lb ed="#P" n="91"/>insignem revelationem factam sancto 
+          Bene<lb break="no" ed="#P" n="92"/>dicto. Quare non sunt tam facile hujusmodi
+          <lb ed="#P" n="93"/>dispensationes afferendae, aut extendendae. De
+          <lb ed="#P" n="94"/>beatissima autem Virgine pie credi potest, et
+          <lb ed="#P" n="95"/>quidem si alicui hoc privilegium concessum
+          <lb ed="#P" n="96"/>est, illi maxime datum est, ut in 2, t. 3. part.,
+          <lb ed="#P" n="97"/>dixi, et licet cum aliis contentis in regula non
+          <lb ed="#P" n="98"/>fuerit dispensatum ; ipsa non solet ita sub his
+          <lb ed="#P" n="99"/>generalibus regulis comprehendi, quin ratione
+          <lb ed="#P" n="100"/>suae dignitatis secum afferat sufficientem 
+          ra<lb break="no" ed="#P" n="101"/>tionem dispensationis, vel exemptionis, et ideo
+          <lb ed="#P" n="102"/>pie, ac probabiliter credi potest, gratiam hanc
+          <lb ed="#P" n="103"/>singularem interdum accepisse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

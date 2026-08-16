@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="770"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-194745"><!-- t3-l10c7 -->
+        <head xml:id="szduep-194745-Hd1e101">Caput 7</head>
+        <head xml:id="szduep-194745-Hd1e103" type="question-title">An pater et filius sint unus spirator, unumque spiritus sancti principium</head>
+        <p xml:id="szduep-194745-d1e106">
+          <lb ed="#P" n="86"/>CAPUT VII.
+          <lb ed="#P" n="87"/>AN PATER ET FILIUS SINT UNUS SPIRATOR , 
+          UNUM<lb break="no" ed="#P" n="88"/>QUE SPIRITUS SANCTI PRINCIPIUM.
+        </p>
+        <p xml:id="szduep-194745-d1e115">
+          <lb ed="#P" n="89"/>1. Varie opiniones. — In hoc puncto, quod
+          <lb ed="#P" n="90"/>in hac materia unum ex praecipuis est, temere
+          <lb ed="#P" n="91"/>profecto loquuntur nonnulli scholastici. Nam
+          <lb ed="#P" n="92"/>Durandus, in 1, dist. 29, quaest. 2, et 
+          Grego<lb break="no" ed="#P" n="93"/>rius, dist. 12, quaest. 1, dicunt, in rigore 
+          Pa<lb break="no" ed="#P" n="94"/>irem, et Filium non esse unum principium,
+          <lb ed="#P" n="95"/>sed potius duo, licet propter periculum aliter
+          <lb ed="#P" n="96"/>Patres loquantur ad declarandam unitatem
+          <lb ed="#P" n="97"/>virtutis, quae est in utraque persona, et 
+          unita<lb break="no" ed="#P" n="98"/>tem termini et productionis : Et ideo (inquit
+          <lb ed="#P" n="99"/>Durandus) non absolute dicunt Concilia esse
+          <lb ed="#P" n="100"/>unun principiwn, sed Spiritum sanctum 
+          pro<lb break="no" ed="#P" n="101"/>cedere ab illis, tanquam ab uno principio. 
+          Ga<lb break="no" ed="#P" n="102"/>briel vero et Ochamus, et alii dicunt posse 
+          vo<lb break="no" ed="#P" n="103"/>cari unum, et duo principia, diversis 
+          respec<lb break="no" ed="#P" n="104"/>tibus.
+        </p>
+        <p xml:id="szduep-194745-d1e152">
+          <lb ed="#P" n="105"/>2. Vera resolutio.—Dicendum vero est, 
+          Pa<lb break="no" ed="#P" n="106"/>trem et Filium proprie, ac simpliciter esse
+          <lb ed="#P" n="107"/>unum Spiritus sancti principium et non plura.
+          <pb ed="#P" n="771"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Ita D. Thomas, dictà quaest. 36, art. 4, et 
+          Bo<lb break="no" ed="#P" n="2"/>naventura, Richardus, et fere alii, dist. 12, ubi
+          <lb ed="#P" n="3"/>etiam consentit Scotus. Nam licet dicat 
+          quaes<lb break="no" ed="#P" n="4"/>tionem esse de modo loquendi, non tamen
+          <lb ed="#P" n="5"/>excludit, quin sit fundata in re ipsa, nec 
+          pu<lb break="no" ed="#P" n="6"/>tat esse parvi momenti, cum ex verbis 
+          inordi<lb break="no" ed="#P" n="7"/>narie prolatis incurratur haeresis, et ideo ita
+          <lb ed="#P" n="8"/>loquendum sit de mysteriis fidei, sicut 
+          Conci<lb break="no" ed="#P" n="9"/>lia loquuntur. Haec autem sine dubio est mens
+          <lb ed="#P" n="10"/>Concilii Lugdunensis et Florentini, quae citavi,
+          <lb ed="#P" n="11"/>et illa particula, tanguam, non diminuit, sed
+          <lb ed="#P" n="12"/>explicat veritatem rei, sicut est illa Joannis 1:
+          <lb ed="#P" n="13"/>Quasi unigeniti a Patre. Alias Concilia dicta
+          <lb ed="#P" n="14"/>nec satis explicassent fidem, nec Graecis 
+          satis<lb break="no" ed="#P" n="15"/>fecissent. Et ob eamdem causam non tantum
+          <lb ed="#P" n="16"/>definiunt, esse unum principium, sed etiam
+          <lb ed="#P" n="17"/>negant esse duo. Et eodem modo loquitur
+          <lb ed="#P" n="18"/>Augustinus 5, de Trinitate, cap. 13 et 14,
+          <lb ed="#P" n="19"/>Hilarius, lib. 4, de Trinitate, Anselmus, libro
+          <lb ed="#P" n="20"/>de Processione Spiritus sancti, cap. 10. Ratio
+          <lb ed="#P" n="21"/>est supra late tractata, disputando de unitate
+          <lb ed="#P" n="22"/>personarum in Deitate, ubi ostendimus ad 
+          uni<lb break="no" ed="#P" n="23"/>tatem substantivi sufficere unitatem formae,
+          <lb ed="#P" n="24"/>etiamsi supposita immediata multiplicentur,
+          <lb ed="#P" n="25"/>hic autem principium Spiritus sancti 
+          substan<lb break="no" ed="#P" n="26"/>tivum quid est, et ostendimus, formam, seu
+          <lb ed="#P" n="27"/>virtutem ejus esse unam, ergo principium est
+          <lb ed="#P" n="28"/>unum, licet illa virtus sit in pluribus 
+          sup<lb break="no" ed="#P" n="29"/>positis.
+        </p>
+        <p xml:id="szduep-194745-d1e229">
+          <lb ed="#P" n="30"/>3. Patrem et Filium esse unum spiratorem.
+          <lb ed="#P" n="31"/>—Uhnde fit, idem dicendum esse de uno 
+          Spira<lb break="no" ed="#P" n="32"/>tore, licet D. Thomas, in 1, dist. 11, aliter de
+          <lb ed="#P" n="33"/>illo locutus fuerit, in quam partem etiam 
+          in<lb break="no" ed="#P" n="34"/>clinat Durandáus supra, q. 3, quia de nomine
+          <lb ed="#P" n="35"/>Spiratoris tanquam de adjectivo judicant. 
+          Ta<lb break="no" ed="#P" n="36"/>men D. Thomas sententiam retractavit in 1 p.,
+          <lb ed="#P" n="37"/>quaest. 36, art. 4, ad 7. Et merito, quia juxta
+          <lb ed="#P" n="38"/>communem usum nomen spirator, 
+          substanti<lb break="no" ed="#P" n="39"/>vum est, unde cum de formali unam dicat 
+          for<lb break="no" ed="#P" n="40"/>mam, ab alia sumit unitatem. Nec refert, quod
+          <lb ed="#P" n="41"/>illa forma sit actus spirandi, nam etiam creator
+          <lb ed="#P" n="42"/>dicit de formali actum creandi, et tamen tres
+          <lb ed="#P" n="43"/>personae sunt unus creator. Secus vero est de
+          <lb ed="#P" n="44"/>nomine spirantis, nam haec significat adjective,
+          <lb ed="#P" n="45"/>et ideo Pater et Filius recte dici possunt duo
+          <lb ed="#P" n="46"/>spirantes. Quomodo exponendus est Hilarius
+          <lb ed="#P" n="47"/>cum 2 lib. de Trinitate, dixit: Patrem et Filuum
+          <lb ed="#P" n="48"/>esse auctores Spiritus sancti, ut divus Thomas
+          <lb ed="#P" n="49"/>supra notavit.
+        </p>
+        <p xml:id="szduep-194745-d1e275">
+          <lb ed="#P" n="50"/>4. Dubium. — Prima responsio rejicitur.—
+          <lb ed="#P" n="51"/>Una tamen superest interrogatio seu objectio
+          <lb ed="#P" n="52"/>vulgaris, pro quo supponat, vel quid designari
+          <lb ed="#P" n="53"/>possit sub illo uno principio, vel spiratore, qui
+          <lb ed="#P" n="54"/>de Patre et Filio praedicatur, quia nihil videtur
+          <lb ed="#P" n="55"/>designari posse. Nam sive Patrem, sive Filium
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>designes, falsa erit locutio, quia neutra persona
+          <lb ed="#P" n="57"/>potest de utraque simul praedicari. Propter hoc
+          <lb ed="#P" n="58"/>multi putant necessarium esse dari 
+          subsisten<lb break="no" ed="#P" n="59"/>tem communem in activa spiratione, qui sit
+          <lb ed="#P" n="60"/>hic spirator et unum principium, quod de 
+          Pa<lb break="no" ed="#P" n="61"/>tre et Filio praedicetur. Ita sentiunt Gabriel et
+          <lb ed="#P" n="62"/>alii citati capite quarto. Sed ibi ostensum est,
+          <lb ed="#P" n="63"/>illam sententiam esse falsam. Quod autem non
+          <lb ed="#P" n="64"/>sit necessaria ad veritatem illius locutionis 
+          ex<lb break="no" ed="#P" n="65"/>plicandam, supra libro quarto declaratum est,
+          <lb ed="#P" n="66"/>et patebit ex dicendis.
+        </p>
+        <p xml:id="szduep-194745-d1e317">
+          <lb ed="#P" n="67"/>5. Secunda et tertia responsiones.—Secunda
+          <lb ed="#P" n="68"/>et tertia contradictiones. —Ahi ergo respondent,
+          <lb ed="#P" n="69"/>praedicatum illud habere vim termini collectivi,
+          <lb ed="#P" n="70"/>et ideo supponere pro Patre et Filio simul.
+          <lb ed="#P" n="71"/>Quod videtur docere D. Thomas, dicta q. 36,
+          <lb ed="#P" n="72"/>art. 4, ad argumenta. Et fere in idem redit,
+          <lb ed="#P" n="73"/>quod Cajetanus ibi, et Capreolus, in 1, 
+          distinc<lb break="no" ed="#P" n="74"/>tiones septima et duodecima, quaestione prima,
+          <lb ed="#P" n="75"/>dicunt, praedicatum illud supponere confuse et
+          <lb ed="#P" n="76"/>immobiliter, ratione illius particulae, ef, positae
+          <lb ed="#P" n="77"/>ex parte subjecti, sicut dialectici dicunt de hac
+          <lb ed="#P" n="78"/>propositione, Parisiis et Romee venditur piper.
+          <lb ed="#P" n="79"/>Sed prior responsio difficilis est, quia sequitur,
+          <lb ed="#P" n="80"/>Patrem solum vel Filium solum non posse dici
+          <lb ed="#P" n="81"/>spiratorem vel principium Spiritus sancti, quia
+          <lb ed="#P" n="82"/>terminus collectivus non potest de singulis 
+          per<lb break="no" ed="#P" n="83"/>sonis praedicari. Consequens autem falsum est,
+          <lb ed="#P" n="84"/>ut constat. Posterior etiam responsio in 
+          termi<lb break="no" ed="#P" n="85"/>no singulari locum non habet, Pater autem et
+          <lb ed="#P" n="86"/>Filius sunt hic spirator seu unum principium
+          <lb ed="#P" n="87"/>singulare, imo idem principium, ergo aliquid
+          <lb ed="#P" n="88"/>sub illo termino posito ex parte praedicati 
+          de<lb break="no" ed="#P" n="89"/>signare licebit. Item de Patre et Filio sigillatim
+          <lb ed="#P" n="90"/>praedicatur Spirator, ergo tunc nulla est 
+          sup<lb break="no" ed="#P" n="91"/>positio confusa vel immobils: at idem spirator
+          <lb ed="#P" n="92"/>est, qui de Patre et Filio simul, et de quolibet
+          <lb ed="#P" n="93"/>eorum sigillatim praedicatur, ergo idem sub
+          <lb ed="#P" n="94"/>illo termino designari hcebit.
+        </p>
+        <p xml:id="szduep-194745-d1e380">
+          <lb ed="#P" n="95"/>6. Vera responsio.—Dico ergo, Spiratorem,
+          <lb ed="#P" n="96"/>immediate ac determinate supponere pro 
+          sub<lb break="no" ed="#P" n="97"/>sistente in hac virtute spirandi, ita ut ex parte
+          <lb ed="#P" n="98"/>virtutis dicat singularitatem: ex parte vero
+          <lb ed="#P" n="99"/>subsistentiae, communiter et confuse dicat 
+          sub<lb break="no" ed="#P" n="100"/>sistens in illa virtute cum conditione suflicienti
+          <lb ed="#P" n="101"/>ad spirandum. Et ideo potest de Patre et Filio
+          <lb ed="#P" n="102"/>tam simul quam sigillatim praedicari, quamvis
+          <lb ed="#P" n="103"/>de Patre et Filio simul nulla persona 
+          determi<lb break="no" ed="#P" n="104"/>nate, ut talis est, possit praedicari. Quod non
+          <lb ed="#P" n="105"/>obstat, quia Spirator, ut sic, vel principium
+          <lb ed="#P" n="106"/>Syiritus sancti neutram personam hoc modo
+          <lb ed="#P" n="107"/>significat, sed abstracte ex parte suppositi, id
+          <lb ed="#P" n="108"/>est, personam habentem talem virtutem seu
+          <lb ed="#P" n="109"/>spirationem. Nisi fortasse Spirator sumatur
+          <lb ed="#P" n="110"/>pro illo principio, quod includit non solum to-
+          <pb ed="#P" n="772"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tam virtutem, sed etiam omnem conditionem
+          <lb ed="#P" n="2"/>adaequate necessariam in principio Spiritus
+          <lb ed="#P" n="3"/>sancti, sic enim procederet quod D. Thomas
+          <lb ed="#P" n="4"/>dixit, supponere tunc pro Patre et Filio simul,
+          <lb ed="#P" n="5"/>propter ea, quae in capite praecedenti dicta
+          <lb ed="#P" n="6"/>sunt. 
+        </p>
+        <p xml:id="szduep-194745-d1e435">
+          <lb ed="#P" n="7"/>1. An Pater et Filius sint duo principia. —
+          <lb ed="#P" n="8"/>Alia objectio fieri potest. Quia si Pater et Filius
+          <lb ed="#P" n="9"/>sunt unum principium propter unam virtutem,
+          <lb ed="#P" n="10"/>Pater erit duo principia, scilicet Filii et 
+          Spiri<lb break="no" ed="#P" n="11"/>tus sancti, propter duplicem virtutem et 
+          pro<lb break="no" ed="#P" n="12"/>cessionem. Aliqui respondent, non dici duo
+          <lb ed="#P" n="13"/>principia, ne distinctio realis significari 
+          videa<lb break="no" ed="#P" n="14"/>tur, secundum rationem vero dici posse, sicut
+          <lb ed="#P" n="15"/>sunt duae virtutes. D. Thomas autem, 1 part.,
+          <lb ed="#P" n="16"/>quaest. 36, art. 4, negat simpliciter , Patrem
+          <lb ed="#P" n="17"/>esse duo principia. Et idem absolute negant
+          <lb ed="#P" n="18"/>tam Latini quam Graeci in Concihio Florentino,
+          <lb ed="#P" n="19"/>sessione ultima, et ita mihi sentiendum et 
+          lo<lb break="no" ed="#P" n="20"/>quendum videtur. Unde neganda est illatio,
+          <lb ed="#P" n="21"/>quia licet ad unitatem substantivi sufficiat 
+          uni<lb break="no" ed="#P" n="22"/>tas formae, ad pluralitatem non suffhicit 
+          plurali<lb break="no" ed="#P" n="23"/>tas, nisi etiam multiplicentur supposita. Quia
+          <lb ed="#P" n="24"/>quoties numerantur concreta in plurali, etiam
+          <lb ed="#P" n="25"/>supposita numerantur, ut ex communi modo
+          <lb ed="#P" n="26"/>loquendi constat. Et ratio est, quia unio talium
+          <lb ed="#P" n="27"/>formarum in uno supposito sufficit ad unitatem,
+          <lb ed="#P" n="28"/>in communi denominatione sumpta a talibus
+          <lb ed="#P" n="29"/>formis, sicut est unus artifex, qui plures artes
+          <lb ed="#P" n="30"/>habet, de qua relatius supra, et in materia de
+          <lb ed="#P" n="31"/>Incarnatione dictum est.
+        </p>
+        <p xml:id="szduep-194745-d1e492">
+          <lb ed="#P" n="32"/>8. Objectioni occurritur.—bices, ergo saltem
+          <lb ed="#P" n="33"/>Pater, ut est principium Fili, et Filius, ut est
+          <lb ed="#P" n="34"/>principium Spiritus sancti, erunt duo principia,
+          <lb ed="#P" n="35"/>quia et sunt duo supposita, et per virtutes 
+          pro<lb break="no" ed="#P" n="36"/>ducendi formaliter diversas producunt, et ita
+          <lb ed="#P" n="37"/>ibi et suppositum, et forma multüplicantur,
+          <lb ed="#P" n="38"/>quod satis est ad pluralitatem substantivi. 
+          Con<lb break="no" ed="#P" n="39"/>sequens autem non admittit Anselmus, libro de
+          <lb ed="#P" n="40"/>Processione Spiritus sancti, cap. 10: Nec tamen
+          <lb ed="#P" n="41"/>(ait) duo confitemur principia, unum Patrem ad
+          <lb ed="#P" n="42"/>Filium, alterum Patrem, et Filium ad 
+          Spiri<lb break="no" ed="#P" n="43"/>tum sanctum. Sicut non credimus alium Deum,
+          <lb ed="#P" n="44"/>de quo est Filius, et alium Deum Patrem, et
+          <lb ed="#P" n="45"/>Filium de quo est Spiritus sanctus, quamvis de
+          <lb ed="#P" n="46"/>eodem, Deo, sive de eodem principio suo quisque
+          <lb ed="#P" n="47"/>modo sit. Respondeo, illa non posse dici duo
+          <lb ed="#P" n="48"/>principia actu in re ipsa, tamen virtute esse
+          <lb ed="#P" n="49"/>duo, et ita ratione etiam posse considerari et
+          <lb ed="#P" n="50"/>distingui, ut duo. Probo simul haec omnia ex
+          <lb ed="#P" n="51"/>illa regula, quod substantiva non 
+          multiplican<lb break="no" ed="#P" n="52"/>tur, nisi multiplicatis suppositis et formis: 
+          sup<lb break="no" ed="#P" n="53"/>ponoque Principium substantivum esse, ut est
+          <lb ed="#P" n="54"/>per se clarum. In praesenti ergo licet in 
+          remul<lb break="no" ed="#P" n="55"/>tiplicentur supposita Patris et Filii, tamen vir-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tus generandi et spirandi in re non sunt plures,
+          <lb ed="#P" n="57"/>quia in re non distinguuntur actualiter, nec
+          <lb ed="#P" n="58"/>Filius ut spirator distinguitur in re a Patre, ut
+          <lb ed="#P" n="59"/>Pater est, quia est idem spirator cum illo, et
+          <lb ed="#P" n="60"/>spiratio non distinguitur in re a Paternitate,
+          <lb ed="#P" n="61"/>unde Pater ut Pater non distinguitur in rea
+          <lb ed="#P" n="62"/>Filio ut spiratore, quia non opponitur illi ut
+          <lb ed="#P" n="63"/>sic, et in divinis omnia sunt unum, ubi non
+          <lb ed="#P" n="64"/>obviat relationis oppositio. Ergo Pater et Filius
+          <lb ed="#P" n="65"/>in re non sunt duo principia etiam respectu
+          <lb ed="#P" n="66"/>distinctorum terminorum. Ex his vero 
+          eisdem<lb break="no" ed="#P" n="67"/>que principiis constat esse duo virtute, et 
+          se<lb break="no" ed="#P" n="68"/>cundum rationem, nam ex parte suppositorum
+          <lb ed="#P" n="69"/>est major distinctio, quam necessaria sit ad
+          <lb ed="#P" n="70"/>hanc pluralitatem, et ex parte formae vel 
+          vir<lb break="no" ed="#P" n="71"/>tutis est saltem pluralitas virtualis et rationis.
+        </p>
+        <p xml:id="szduep-194745-d1e584">
+          <lb ed="#P" n="72"/>9. Replica. — Responsio. — Instabis, hoc
+          <lb ed="#P" n="73"/>satis esse, ut absolute dicantur duo principia.
+          <lb ed="#P" n="74"/>Nam, supposita distinctione suppositorum, in
+          <lb ed="#P" n="75"/>caeteris videtur esse eadem ratio de concretis,
+          <lb ed="#P" n="76"/>quae est de abstractis : sed Paternitas et 
+          spira<lb break="no" ed="#P" n="77"/>tio dicuntur simpliciter duae relationes, 
+          quam<lb break="no" ed="#P" n="78"/>vis in re solum virtute et per rationem 
+          distin<lb break="no" ed="#P" n="79"/>guantur, ergo similiter concreta illarum 
+          rela<lb break="no" ed="#P" n="80"/>tionum etiam substantive sumpta, 
+          multiplica<lb break="no" ed="#P" n="81"/>buntur simpliciter , saltem respectu 
+          distincta<lb break="no" ed="#P" n="82"/>rum personarum, Patris et Filii. Respondeo,
+          <lb ed="#P" n="83"/>instantiam hanc solum esse de modo loquendi,
+          <lb ed="#P" n="84"/>de quo dicimus receptum esse illum modum
+          <lb ed="#P" n="85"/>loquendi in abstractis relationum, non vero in
+          <lb ed="#P" n="86"/>concretis, et ideo non esse simpliciter 
+          usurpan<lb break="no" ed="#P" n="87"/>dum sine declaratione. Addo praeterea, nomen
+          <lb ed="#P" n="88"/>principii ( sicut nomen causae) uno modo non
+          <lb ed="#P" n="89"/>dicere de formali relationem secundum esse,
+          <lb ed="#P" n="90"/>sed virtutem agendi, seu principium quo 
+          pro<lb break="no" ed="#P" n="91"/>ducendi, et hoc esse absolutum in divinis 
+          per<lb break="no" ed="#P" n="92"/>sonis quoad formale, et ideo licet connotet 
+          re<lb break="no" ed="#P" n="93"/>lationem, sequi conditionem termini absoluti,
+          <lb ed="#P" n="94"/>qui non multiplicatur simpliciter, nisi 
+          multi<lb break="no" ed="#P" n="95"/>plicata in re forma absoluta. Et hic videtur
+          <lb ed="#P" n="96"/>usus illius vocis Principium, cum Patri et Filio
+          <lb ed="#P" n="97"/>attribuitur. Et ita Anselmus ex unitate formae
+          <lb ed="#P" n="98"/>absolute probat unitatem principii. Quod si
+          <lb ed="#P" n="99"/>Principiwn sumatur, ut formaliter 
+          denomina<lb break="no" ed="#P" n="100"/>tur a relatione, fortasse in bono sensu possent
+          <lb ed="#P" n="101"/>dici duo principia sicut duo relata. Tamen
+          <lb ed="#P" n="102"/>propter ambiguitatem et periculum cavenda
+          <lb ed="#P" n="103"/>est talis locutio sine illo addito, quod sunt duo
+          <lb ed="#P" n="104"/>secundum rationem quoad relationem.
+        </p>
+        <p xml:id="szduep-194745-d1e658">
+          <lb ed="#P" n="105"/>10. Atque hinc tandem intelligitur, 
+          super<lb break="no" ed="#P" n="106"/>vacaneam esse quaestionem huc remissam, an
+          <lb ed="#P" n="107"/>principium dicatur univoce, de Patre et Filio
+          <lb ed="#P" n="108"/>in divinis. Quia ubi non est pluralitas sub 
+          com<lb break="no" ed="#P" n="109"/>muni termino, neque analogia, neque 
+          univo<lb break="no" ed="#P" n="110"/>catio proprie locum habet, sed unitas, eo ta-
+          <pb ed="#P" n="773"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>men modo, quo sunt plura secundum rationem
+          <lb ed="#P" n="2"/>univoce sunt principium, ut ex dictis satis 
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="3"/>constat, et de Persona, et Relatione dictum est
+          <lb ed="#P" n="4"/>supra.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

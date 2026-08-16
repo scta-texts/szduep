@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="649"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-164281"><!-- t3-l4c16 -->
+        <head xml:id="szduep-164281-Hd1e101">Caput 16</head>
+        <head xml:id="szduep-164281-Hd1e103" type="question-title">An divinae personae ex unitate habeant circuminsessionem, id est, mutuam existentiam unius in alia</head>
+        <p xml:id="szduep-164281-d1e106">
+          <lb ed="#P" n="37"/>CAPUT XVI.
+          <lb ed="#P" n="38"/>AN DIVINAE PERSONAE EX UNITATE HABEANT 
+          CIR<lb break="no" ed="#P" n="39"/>CUMINSESSIONEM, ID EST, MUTUAM EXISTENTIAM
+          <lb ed="#P" n="40"/>UNIUS IN ALIA.
+        </p>
+        <p xml:id="szduep-164281-d1e117">
+          <lb ed="#P" n="41"/>1. Resolutio. — Haec est ultima proprietas
+          <lb ed="#P" n="42"/>conveniens divinis personis, quatenus unum
+          <lb ed="#P" n="43"/>sunt, quam theologi circuminsessionem vocant.
+          <lb ed="#P" n="44"/>Habetque fundamentum in verbis illis 
+          Joan<lb break="no" ed="#P" n="45"/>nis, 14cap.: Ego in Patre et Pater in me est.
+          <lb ed="#P" n="46"/>Quae licet de Patre, et Filio tantum dicta sint,
+          <lb ed="#P" n="47"/>tamen eadem ratione de Spiritu sancto vera
+          <lb ed="#P" n="48"/>sunt, ut communiter Patres docent, 
+          Athana<lb break="no" ed="#P" n="49"/>sius in expositione fidei, ubi in hoc sensu dixit
+          <lb ed="#P" n="50"/>Spiritus sanctus semper est in manibus Patris
+          <lb ed="#P" n="51"/>et Filii. Et Damascenus, lib. 1, de Fide, cap. 10,
+          <lb ed="#P" n="52"/>eodem sensu vocat Spiritum sanctum : Insepa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>rabilem, et indigressibilem a Patre et Filio.
+          <lb ed="#P" n="54"/>Et hanc mutuam immanentiam ibidem late,
+          <lb ed="#P" n="55"/>et eleganter exponit. Denique Fulgentius, de
+          <lb ed="#P" n="56"/>Fide ad Petrum, cap. 1: Per hanc (inquit)
+          <lb ed="#P" n="57"/>unitatem naturalem totus Pater in Filio, et
+          <lb ed="#P" n="58"/>Spiritu sancto est, et totus S'piritus sanctus in
+          <lb ed="#P" n="59"/>Patre et Filio.
+        </p>
+        <p xml:id="szduep-164281-d1e163">
+          <lb ed="#P" n="60"/>2. Quae sit adaequata ratio circuninsessionis.
+          <lb ed="#P" n="61"/>— Hac igitur veritate supposita, nonnulla 
+          cir<lb break="no" ed="#P" n="62"/>ca illam declaranda sunt. Primum est, an 
+          ve<lb break="no" ed="#P" n="63"/>ritas et identitas Personarum in essentia sit
+          <lb ed="#P" n="64"/>adaequata ratio hujus mutuae inexistentise.
+          <lb ed="#P" n="65"/>Est autem dubitandi ratio, quia D. Thomas, 1
+          <lb ed="#P" n="66"/>part., quaest. 42, art. 5, sentit, non esse 
+          ad<lb break="no" ed="#P" n="67"/>aequatam. Nam duas alias rationes addit, 
+          sci<lb break="no" ed="#P" n="68"/>licet, relationem mutuam et modum originis.
+          <lb ed="#P" n="69"/>Aureolus vero et Durandus, in 1, dist. 19,
+          <lb ed="#P" n="70"/>sentiunt solam essentiae unitatem esse 
+          ratio<lb break="no" ed="#P" n="71"/>nem adeaequatam circuminsessionis 
+          persona<lb break="no" ed="#P" n="72"/>rum, ideoque duas alias rationes D. Thomae
+          <lb ed="#P" n="73"/>impugnant. Ut autem recte notavit Cajetanus,
+          <lb ed="#P" n="74"/>circa dictum articulum, non impugnant 
+          men<lb break="no" ed="#P" n="75"/>tem divi Thomae et ita facile dissolvit ipse, quae
+          <lb ed="#P" n="76"/>illi objiciunt.
+        </p>
+        <p xml:id="szduep-164281-d1e203">
+          <lb ed="#P" n="77"/>3. Una persona est in alia ratione relationis.
+          <lb ed="#P" n="78"/>—Videtur ergo voluisse D. Thomas ad divinas
+          <lb ed="#P" n="79"/>personas accomodare illos tres modos, quibus
+          <lb ed="#P" n="80"/>ipse dixerat, 1 part., quaest. 8, art. 3, Deum
+          <lb ed="#P" n="81"/>esse in omnibus rebus, scilicet, per 
+          praesen<lb break="no" ed="#P" n="82"/>tiam, potentiam et essentiam, seclusis 
+          imper<lb break="no" ed="#P" n="83"/>fectionibus. Unde quoad primum modum dicit,
+          <lb ed="#P" n="84"/>Divinas personas esse in se invicem: quia 
+          cor<lb break="no" ed="#P" n="85"/>relativae sunt : nam unum relativum non 
+          po<lb break="no" ed="#P" n="86"/>test extra aliud esse, utique quoad cognitionem.
+          <lb ed="#P" n="87"/>De hoc enim genere existentiae aperte 
+          loqui<lb break="no" ed="#P" n="88"/>tur Doctor sanctus in illa ratione. Quam 
+          teti<lb break="no" ed="#P" n="89"/>git etiam Chrysostomus in oratione 9, ex his,
+          <lb ed="#P" n="90"/>quae habentur in fine quinti tomi, ubi ait,
+          <lb ed="#P" n="91"/>hanc inexistentiam non esse intelligendam 
+          cor<lb break="no" ed="#P" n="92"/>poraliter ; sed secundum animi contemplationem,
+          <lb ed="#P" n="93"/>quia nec Filius (inquit) sine Patre , nec Pater
+          <lb ed="#P" n="94"/>sine Filio cognoscitur. Nec videtur haec ratio
+          <lb ed="#P" n="95"/>aliena a contextu serinonis Christi in citato
+          <lb ed="#P" n="96"/>loco Joannis 14. Nam cum Philippus 
+          postulas<lb break="no" ed="#P" n="97"/>set : Ostende nobis Patrem, Christus respondit :
+          <lb ed="#P" n="98"/>Qui videt me videt et Patrem, et immediate
+          <lb ed="#P" n="99"/>quasi pro ratione subdit : Quia ego in Patre et
+          <lb ed="#P" n="100"/>Pater in me est.
+        </p>
+        <p xml:id="szduep-164281-d1e258">
+          <lb ed="#P" n="101"/>4. Persona sunt in se invicem ratione 
+          pro<lb break="no" ed="#P" n="102"/>ductionis. — Ad secundum modum 
+          inexisten<lb break="no" ed="#P" n="103"/>di pertinet altera ratio D. Thomae cum dicit,
+          <lb ed="#P" n="104"/>unam personam esse in alia, verbi gratia,
+          <lb ed="#P" n="105"/>Filium in Patre, quia ab illo productus est per
+          <lb ed="#P" n="106"/>actum immanentem : nam de ratione talis
+          <lb ed="#P" n="107"/>actus est, ut productum ratione productionis
+          <pb ed="#P" n="650"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>maneat in producente. Quam rationem 
+          indi<lb break="no" ed="#P" n="2"/>cavit etiam Damascenus, lib. 1, cap. 9, ubi
+          <lb ed="#P" n="3"/>comparat hanc productionem emanationi lucis
+          <lb ed="#P" n="4"/>ab igne, quia /uc, inquit, ab igne gigmtur, et
+          <lb ed="#P" n="5"/>ab eo non separatur, sed semper in eo est. Quod
+          <lb ed="#P" n="6"/>exemplum intelligendum videtur de 
+          emana<lb break="no" ed="#P" n="7"/>tione lucis inhaerentis igni a substantia ejus,
+          <lb ed="#P" n="8"/>sic enim illa est veluti immanens processio.
+          <lb ed="#P" n="9"/>Quod idemmet Damascenus significavit in 
+          dif<lb break="no" ed="#P" n="10"/>ferentia quam subjungit, nam lux, ait, manet
+          <lb ed="#P" n="11"/>in igne tanquam accidens inheerens illi : 
+          Ver<lb break="no" ed="#P" n="12"/>bwn outem manet in Patre, tanquam subsistens
+          <lb ed="#P" n="13"/>n subsistente ; quod etiam dixit Hilarius, lib. 7,
+          <lb ed="#P" n="14"/>de Trinitate, circa finem.
+        </p>
+        <p xml:id="szduep-164281-d1e310">
+          <lb ed="#P" n="15"/>5. Nec Durandus habuit, quo modo hunc
+          <lb ed="#P" n="16"/>dicendi modum impugnaret, nisi negando 
+          per<lb break="no" ed="#P" n="17"/>sonas procedere per actus immanentes, cujus
+          <lb ed="#P" n="18"/>error in hoc supra refutatus est. Aureolus vero
+          <lb ed="#P" n="19"/>apparentius objicit: quia licet hoc modo 
+          expli<lb break="no" ed="#P" n="20"/>cetur, productam personam esse in 
+          producen<lb break="no" ed="#P" n="21"/>te, non tamen e converso, producentem esse
+          <lb ed="#P" n="22"/>in producta, cum tamen haec debeat esse 
+          cir<lb break="no" ed="#P" n="23"/>cuminsessio. Hoc vero facile etiam solvitur:
+          <lb ed="#P" n="24"/>nam sicut Deus dicitur esse in creaturis, 
+          ra<lb break="no" ed="#P" n="25"/>tione potentiae, quia illas creat et conservat,
+          <lb ed="#P" n="26"/>ita seclusa imperfectione dependentiae, Pater
+          <lb ed="#P" n="27"/>dicitur esse in Filio, quia illum ex aeternitate
+          <lb ed="#P" n="28"/>produxit, et perpetuo generat, ad quod 
+          neces<lb break="no" ed="#P" n="29"/>sarium est, ut sit intime in illo, et ideo dixi,
+          <lb ed="#P" n="30"/>hunc modum existendi esse similem illi, qui
+          <lb ed="#P" n="31"/>est per potentiam, seclusis imperfectionibus.
+        </p>
+        <p xml:id="szduep-164281-d1e349">
+          <lb ed="#P" n="32"/>6. Unitas essentiee est ratio 
+          circuminsessio<lb break="no" ed="#P" n="33"/>nis. Tertia vero, et propria ratio hujus 
+          exis<lb break="no" ed="#P" n="34"/>tentiae est unitas essentiae in personis distinctis.
+          <lb ed="#P" n="35"/>Unde respondendo in forma ad propositam 
+          in<lb break="no" ed="#P" n="36"/>terrogationem, dicendum est, unitatem 
+          natu<lb break="no" ed="#P" n="37"/>rae esse adaequatam rationem, ob quam Divinae
+          <lb ed="#P" n="38"/>personae sunt in se invicem per suam 
+          essen<lb break="no" ed="#P" n="39"/>tiam, licet aliismodis possint dici esse in se
+          <lb ed="#P" n="40"/>invicem, ob alias rationes. Haec posterior pars
+          <lb ed="#P" n="41"/>satis jam declarata est. Prior vero facile 
+          osten<lb break="no" ed="#P" n="42"/>ditur, nam unaquaeque persona est ipsa 
+          essen<lb break="no" ed="#P" n="43"/>tia, et essentia est in omnibus, et singulis 
+          per<lb break="no" ed="#P" n="44"/>sonis, ergo unaquaeque persona est in qualibet
+          <lb ed="#P" n="45"/>alia. Dices, simili argumentandi modo posse
+          <lb ed="#P" n="46"/>concludi, unamquamque personam esse in se
+          <lb ed="#P" n="47"/>ipsa, vel unam personam esse aliam. 
+          Respon<lb break="no" ed="#P" n="48"/>deo, negando similitudinem: nam cum dicitur
+          <lb ed="#P" n="49"/>esse in alia, non solum denotatur unitas 
+          natu<lb break="no" ed="#P" n="50"/>rae, sed praesupponitur etiam distinctio inter
+          <lb ed="#P" n="51"/>ea, quae in se invicem esse dicuntur. Quia non
+          <lb ed="#P" n="52"/>solum consideratione rationis, sed etiam inre
+          <lb ed="#P" n="53"/>ipsa una est in alia. Quae habitudo tollitur, si
+          <lb ed="#P" n="54"/>persona dicatur esse in se. Et multo magis 
+          des<lb break="no" ed="#P" n="55"/>truitur, si dicatur una esse alia, quia per hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non significatur praesentia, vel inexistentia,
+          <lb ed="#P" n="57"/>sed identitas personalis, quae repugnat 
+          mys<lb break="no" ed="#P" n="58"/>terio.
+        </p>
+        <p xml:id="szduep-164281-d1e412">
+          <lb ed="#P" n="59"/>7. Atque hac ratione recte dicit Sabadius ,
+          <lb ed="#P" n="60"/>libro contra Arium, in 4 tom. Biblioth. Per
+          <lb ed="#P" n="61"/>illa verba Christi, Ego in Patre, et Pater in me
+          <lb ed="#P" n="62"/>est, duos errores confutari, Sabelli scilicet, et
+          <lb ed="#P" n="63"/>Arii. Et Gregorius Beticus, libr. de Fide et
+          <lb ed="#P" n="64"/>Trinitate dicit, illa verba audienda esse 
+          secun<lb break="no" ed="#P" n="65"/>dum indifferentium substantie, supposita 
+          scih<lb break="no" ed="#P" n="66"/>cet distinctione personarum. Et eodem modo
+          <lb ed="#P" n="67"/>Trinitatis mysterium confirmat ex illis verbis
+          <lb ed="#P" n="68"/>Irenaeus, lib. 5, cap. 18, sic etiam Hilarius 7,
+          <lb ed="#P" n="69"/>de Trinitate, in fine dicit: Personas divinas
+          <lb ed="#P" n="70"/>esse in se per unitatem et proprietatem naturee.
+          <lb ed="#P" n="71"/>Et eodem modo loquitur Damascenus, lib. 2,
+          <lb ed="#P" n="72"/>cap. 10, dicens: Per hanc circuminsessionem
+          <lb ed="#P" n="73"/>excludi multitudinem Deorum, seu Deitatem. Et
+          <lb ed="#P" n="74"/>in hac ratione maxime persistunt omnes 
+          theo<lb break="no" ed="#P" n="75"/>logi, quae in sequenti dubitatione amplius 
+          con<lb break="no" ed="#P" n="76"/>firmabitur et explicabitur.
+        </p>
+        <p xml:id="szduep-164281-d1e454">
+          <lb ed="#P" n="77"/>8. Dubium. — Quaeritur enim ulterius, an
+          <lb ed="#P" n="78"/>una persona sit in alia secundum se totam, an
+          <lb ed="#P" n="79"/>vero solum ratione essentiae. Ut enim hoc ex
+          <lb ed="#P" n="80"/>corporalibus explicemus, duobus modis potest
+          <lb ed="#P" n="81"/>dici unum corpus esse in alio. Primo, secundum
+          <lb ed="#P" n="82"/>se totum, quod vocatur per se primo, sicut aqua
+          <lb ed="#P" n="83"/>est in vase, vel in loco adaequato. Alio modo
+          <lb ed="#P" n="84"/>tantum secundum partem, vel homo dicitur 
+          es<lb break="no" ed="#P" n="85"/>se ubi habet pedem, licet non habeat ibi totum
+          <lb ed="#P" n="86"/>corpus. Sic ergo inquiritur, an una persona
+          <lb ed="#P" n="87"/>secundum se totam, id est, etiam secundum
+          <lb ed="#P" n="88"/>suam proprietatem, vel tantum per naturam,
+          <lb ed="#P" n="89"/>quasi per partem (nostro loquendi modo)sit in
+          <lb ed="#P" n="90"/>alia. Henricus enim in Summa, artic. 53,quaest.
+          <lb ed="#P" n="91"/>3, et quodlib. 5, quaest. 6, et Durandus, in 1,
+          <lb ed="#P" n="92"/>distin. 19, dicunt, unam personam esse in alia
+          <lb ed="#P" n="93"/>solum posteriori modo. Primo, quia Paternitas,
+          <lb ed="#P" n="94"/>ut sic, non potest esse in Filio, alias Filius 
+          es<lb break="no" ed="#P" n="95"/>set Pater. Secundo, ait Durandus, quia persona
+          <lb ed="#P" n="96"/>ratione suae proprietatis est id, in quo est alia,
+          <lb ed="#P" n="97"/>ergo non potest esse ratio essendi in alia, quia
+          <lb ed="#P" n="98"/>hae habitudines sunt oppositae, et ideo non 
+          po<lb break="no" ed="#P" n="99"/>test eadem relatio esse fundamentum 
+          utrius<lb break="no" ed="#P" n="100"/>que. Tertio, videntur huic sententiae favere
+          <lb ed="#P" n="101"/>Patres, qui totam rationem hujus 
+          circumin<lb break="no" ed="#P" n="102"/>sessionis dicunt esse naturae unitatem.
+        </p>
+        <p xml:id="szduep-164281-d1e514">
+          <lb ed="#P" n="103"/>9. Resolutio. — Probatio ex Patribus. —
+          <lb ed="#P" n="104"/>Nihilominus dicendum est, unam personam
+          <lb ed="#P" n="105"/>per se primo, et secundum se totam esse in
+          <lb ed="#P" n="106"/>alia, iia ut licet unitas essentiae sit vinculum,
+          <lb ed="#P" n="107"/>et quasi proxima ratio istius inexistentiee, non
+          <lb ed="#P" n="108"/>tamen in sola illa sistat, sed ratione ejus etiam
+          <lb ed="#P" n="109"/>relationes ipsae in se invicem exitant. Quae est
+          <lb ed="#P" n="110"/>sententia communior theologorum in 1, dis-
+          <pb ed="#P" n="651"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tinct. 19, praesertim Scoti, quaest. 1, qui fusius
+          <lb ed="#P" n="2"/>hoc tractat contra Henricum. Idem 
+          Bonaven<lb break="no" ed="#P" n="3"/>tura, quaest. 4, Gabriel, quaest. 2, Capreolus,
+          <lb ed="#P" n="4"/>quaest. 1, art. 1, Marsilius, quaest. 22, art. 2,
+          <lb ed="#P" n="5"/>Ferrariensis 4, contra Gentes, cap. 9, 
+          Cajeta<lb break="no" ed="#P" n="6"/>nus, et alii, dicta quaest. 42, art. 5. Et sumitur
+          <lb ed="#P" n="7"/>ex illis verbis Ecclesiae in quoddam hymno. 7n
+          <lb ed="#P" n="8"/>JBatre totus Filius, et totus in Verbo Pater. 
+          Qui<lb break="no" ed="#P" n="9"/>Ibus similia sunt, quae supra citavi ex 
+          Fulgen<lb break="no" ed="#P" n="10"/>Itio, qui etiamaddit. Nulles horum extra 
+          quem<lb break="no" ed="#P" n="11"/>dibet ipsorum est, significans, personas mutuo
+          <lb ed="#P" n="12"/>sese comprehendere, quia nihil est in una,
+          <lb ed="#P" n="13"/>quod si extra aliam, ad quod requiritur totalis
+          <lb ed="#P" n="14"/>inexistentia, modo explicato. Praeterea 
+          Damas<lb break="no" ed="#P" n="15"/>cenus, et Hilarius supra dicunt unam 
+          perso<lb break="no" ed="#P" n="16"/>nam esse in alia, ut quidpiam subsistens in
+          <lb ed="#P" n="17"/>subsistente. Ergo intelligunt non tantum esse
+          <lb ed="#P" n="18"/>secundum naturam, sed etiam per 
+          subsisten<lb break="no" ed="#P" n="19"/>tiam personalem, de hac enim loquuntur. Ad
+          <lb ed="#P" n="20"/>hoc etiam confirmandum induci possunt verba
+          <lb ed="#P" n="21"/>Christi Joan. 14, nam prius dixit: Qui videt
+          <lb ed="#P" n="22"/>me, videt et Patrem, et postea subjungit. Fgo
+          <lb ed="#P" n="23"/>in Paítre, et Pater in me est.: videndo autem
+          <lb ed="#P" n="24"/>unam personam, videtur alia, non solum 
+          quo<lb break="no" ed="#P" n="25"/>ad naturam communem, sed etiam quoad 
+          to<lb break="no" ed="#P" n="26"/>tum esse personale. Sic ergo una persona est
+          <lb ed="#P" n="27"/>in alia.
+        </p>
+        <p xml:id="szduep-164281-d1e597">
+          <lb ed="#P" n="28"/>10. Prima ratio.— Ratione probatur primo
+          <lb ed="#P" n="29"/>ex Scoto, quia si una persona tantum esset in
+          <lb ed="#P" n="30"/>alia ratione essentiae, non aliter una persona
+          <lb ed="#P" n="31"/>esset in alia, quam ipsa essentia sit in persona,
+          <lb ed="#P" n="32"/>neque alia habitudo significaretur per hanc
+          <lb ed="#P" n="33"/>circuminsessionem personarum, quam 
+          exis<lb break="no" ed="#P" n="34"/>tentiae Divinitatis in persona, consequens est
+          <lb ed="#P" n="35"/>falsum: ergo, Pater sequela, quia quando 
+          to<lb break="no" ed="#P" n="36"/>tum solum dicitur esse alicubi, vel in aliquo
+          <lb ed="#P" n="37"/>ratione partis, non aliter convenit toti illa 
+          de<lb break="no" ed="#P" n="38"/>nominatio, quam parti, praeter hoc, quod parti
+          <lb ed="#P" n="39"/>convenit immediate et toti ratione partis : nam
+          <lb ed="#P" n="40"/>in reliquis eadem est ratio. Minor vero patet,
+          <lb ed="#P" n="41"/>tum ex communi modo loquendi Patrum, et
+          <lb ed="#P" n="42"/>theologorum de hac circuminsessione, tum 
+          e<lb break="no" ed="#P" n="43"/>tiam, quia essentia est in persona, ut natura
+          <lb ed="#P" n="44"/>est in supposito : una vero persona est in alia,
+          <lb ed="#P" n="45"/>ut suppositum in supposito, sicut loquuntur
+          <lb ed="#P" n="46"/>Damascenus et Hilarius supra citati.
+        </p>
+        <p xml:id="szduep-164281-d1e641">
+          <lb ed="#P" n="47"/>11. Altera ratio. — Secunda et propria 
+          ra<lb break="no" ed="#P" n="48"/>tio hujus veritatis mihi esse videtur, quia haec
+          <lb ed="#P" n="49"/>inexistentia mutua nihil aliud esse potest, quam
+          <lb ed="#P" n="50"/>intima quaedam praesentia divinarum 
+          persona<lb break="no" ed="#P" n="51"/>rum inter se, hanc vero habent non solum in
+          <lb ed="#P" n="52"/>essentia, sed in propriis etiam relationibus.
+          <lb ed="#P" n="53"/>Priorem propositionem indicavit etiam Scotus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>surpa ad 2 Henrici, et circa finem quoestionis.
+          <lb ed="#P" n="55"/>Quam sic declaro, quia haec mutua inexistentia
+          <lb ed="#P" n="56"/>non est sola identitas in natura, sic enim 
+          di<lb break="no" ed="#P" n="57"/>centur personae esse una natura, non vero una
+          <lb ed="#P" n="58"/>esse in alia. Neque etiam est nova unio realis
+          <lb ed="#P" n="59"/>inter personas praeter unitatem naturae, quia
+          <lb ed="#P" n="60"/>nec talis unio esse posset sine compositione,
+          <lb ed="#P" n="61"/>nec excogitari potest, cur, vel qualis sit. Ergo
+          <lb ed="#P" n="62"/>tantum superest intima praesentia, propter
+          <lb ed="#P" n="63"/>quam dici possint esse invicem in se. Quod
+          <lb ed="#P" n="64"/>autem illam habeant etiam secundum propria,
+          <lb ed="#P" n="65"/>patet, quia etiam in illis habent 
+          immensita<lb break="no" ed="#P" n="66"/>tem, ex qua necessario sequitur, ut sint intime
+          <lb ed="#P" n="67"/>in se invicem etiam secundum proprias 
+          rela<lb break="no" ed="#P" n="68"/>tiones. Unde sicut immensitatem habent 
+          ra<lb break="no" ed="#P" n="69"/>tione essentiae, quam includunt, ita ex eadem
+          <lb ed="#P" n="70"/>radice, ut ex propria et adaequata ratione 
+          ha<lb break="no" ed="#P" n="71"/>bent, ut sint intime in se invicem, etiam 
+          se<lb break="no" ed="#P" n="72"/>cundum proprias relationes.
+        </p>
+        <p xml:id="szduep-164281-d1e702">
+          <lb ed="#P" n="73"/>12. Atque hinc intelligitur primo, cur haec
+          <lb ed="#P" n="74"/>praesentia mutua non addat novam relationem
+          <lb ed="#P" n="75"/>realem ipsis personis (ut tanquam verius 
+          sup<lb break="no" ed="#P" n="76"/>pono). Ratio autem est, quia fundatur in eadem
+          <lb ed="#P" n="77"/>immensitate illarum. Ut omittam alias rationes,
+          <lb ed="#P" n="78"/>quae dari solent, scilicet, quod relatio non 
+          fun<lb break="no" ed="#P" n="79"/>dat relationem: vel quod talis relatio non est
+          <lb ed="#P" n="80"/>realis, nisi ubi modus praescientiae, in quo 
+          fun<lb break="no" ed="#P" n="81"/>datur, accidentalis est, de quo alias. Secundo
+          <lb ed="#P" n="82"/>intelligitur, cur, licet divinae personae inter se
+          <lb ed="#P" n="83"/>habeant relationem originis, quae est 
+          disquipa<lb break="no" ed="#P" n="84"/>rantiae, nihilominus quoad hanc 
+          denominatio<lb break="no" ed="#P" n="85"/>nem mutuae inexistentiae, potius intelligantur
+          <lb ed="#P" n="86"/>habere habitudinem aequiparantiae. Ratio enim
+          <lb ed="#P" n="87"/>est, quia quoad praesentiam et immensitatem
+          <lb ed="#P" n="88"/>ejusdem rationissunt. Unde, si fingeremus, tres
+          <lb ed="#P" n="89"/>personas esse absolutas et ejusdem naturaee,
+          <lb ed="#P" n="90"/>eumdem modum mutuae inexistentiae haberent.
+        </p>
+        <p xml:id="szduep-164281-d1e744">
+          <lb ed="#P" n="91"/>13. Ad argumenta. — Tertio intelligitur
+          <lb ed="#P" n="92"/>quam sint levia fundamenta Henrici et 
+          Du<lb break="no" ed="#P" n="93"/>randi. Nam propter hanc praesentiam personae
+          <lb ed="#P" n="94"/>non amittunt distinctionem: et ideo non 
+          se<lb break="no" ed="#P" n="95"/>quitur, unam esse aliam, quamvis secundum
+          <lb ed="#P" n="96"/>propria una sit in alia. Deinde in hoc genere
+          <lb ed="#P" n="97"/>praesentise nullum est inconveniens, quod 
+          ea<lb break="no" ed="#P" n="98"/>dem relatio sit id, quod est in alia et in quo est
+          <lb ed="#P" n="99"/>alia, quia et est denominatio similis in utroque
+          <lb ed="#P" n="100"/>extremo, et in eis habet fundamentum 
+          proxi<lb break="no" ed="#P" n="101"/>mum ejusdem rationis, imo unum et idem.
+          <lb ed="#P" n="102"/>Et hoc est etiam, quod docent Patres, scilicet,
+          <lb ed="#P" n="103"/>unitatem naturae esse rationem proximam 
+          hu<lb break="no" ed="#P" n="104"/>jus inexistentiae, non vero, quod conveniat soli
+          <lb ed="#P" n="105"/>Deitati: ac non etiam ipsis personis in propriis
+          <lb ed="#P" n="106"/>earum rationibus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

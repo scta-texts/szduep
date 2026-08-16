@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="714"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-180641"><!-- t3-l8c2 -->
+        <head xml:id="szduep-180641-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-180641-Hd1e103" type="question-title">Utrum esse ingenitum sit altera proprietas primae persona</head>
+        <p xml:id="szduep-180641-d1e106">
+          <lb ed="#P" n="64"/>CAPUT II.
+          <lb ed="#P" n="65"/>UTRUM ESSE INGENITUM SIT ALTERA PROPRIETAS
+          <lb ed="#P" n="66"/>PRIMAE PERSONA.
+        </p>
+        <p xml:id="szduep-180641-d1e115">
+          <lb ed="#P" n="67"/>1. Ingeniti appellatio Catholica. — De hac
+          <lb ed="#P" n="68"/>voce. Ingenitus, olim dubitatum fuit, quia
+          <lb ed="#P" n="69"/>haeretici Ariani et sequaces significatione 
+          il<lb break="no" ed="#P" n="70"/>lius abutebantur ad concludendum, diversam
+          <lb ed="#P" n="71"/>esse substantiam Patris et Filii. Quibus 
+          anti<lb break="no" ed="#P" n="72"/>qui Patres imprimis respondebant, se non
+          <lb ed="#P" n="73"/>cogi ad illam vocem admittendam, quia in
+          <lb ed="#P" n="74"/>Seriptura non reperitur Patri attributa. Non
+          <lb ed="#P" n="75"/>quia sentirent, nullam vocem in Sceriptura
+          <lb ed="#P" n="76"/>non inventam, usurpandum esse in hoc 
+          mys<lb break="no" ed="#P" n="77"/>terio. nam potius in hoc ipsi damnabant 
+          Aria<lb break="no" ed="#P" n="78"/>nos, sed ex propriis et quasi ad hominem
+          <lb ed="#P" n="79"/>illes reprehendebant, eo quod illo titulo 
+          vo<lb break="no" ed="#P" n="80"/>cem Consubstantialitatis, non admitterent et
+          <lb ed="#P" n="81"/>ad impugnandam veritatem, novas voces 
+          in<lb break="no" ed="#P" n="82"/>venirent, ut egregie tractat Ambrosius, de 
+          In<lb break="no" ed="#P" n="83"/>carnationis Dominieas Saeramento, cap. 8et
+          <lb ed="#P" n="84"/>9. Athanasius, oration. 2. contra Arianos, et
+          <lb ed="#P" n="85"/>in Epist. de decretis Nicaenae Synodi, et in alia
+          <lb ed="#P" n="86"/>epistola de synodo Ariminensi et Seleuciano.
+          <lb ed="#P" n="87"/>Unde recte Idacius Clarus, lib. contra 
+          Variman<lb break="no" ed="#P" n="88"/>dum, circa principium: Paitrem ingenitum esse,
+          <lb ed="#P" n="89"/>nec prodere possis, nec probare (scilicet, 
+          test<lb break="no" ed="#P" n="90"/>monio Scriptura, in quo habeatur) sed quia
+          <lb ed="#P" n="91"/>id ipsum fides erigit Christiana, absque ulla
+          <lb ed="#P" n="92"/>dubitaiione ingenitus credatur.
+        </p>
+        <p xml:id="szduep-180641-d1e174">
+          <lb ed="#P" n="93"/>2. Ingeniii appellatio quomodo Pairis 
+          pro<lb break="no" ed="#P" n="94"/>pria. — Veritas ergo certa est, Ingenitum esse
+          <lb ed="#P" n="95"/>proprium attributum notionale Pairis. lta 
+          do<lb break="no" ed="#P" n="96"/>cent Concilium Toletanum 6 et 11, et 
+          Conci<lb break="no" ed="#P" n="97"/>lum Vormaciense, in Confessionibus fidei, 
+          Da<lb break="no" ed="#P" n="98"/>masus. in expositione fidei ad Hieronymum,
+          <lb ed="#P" n="99"/>Hilarius 4, de Trinitate. propefinem. etlibro 9,
+          <lb ed="#P" n="100"/>ubi utitur nomine innascibilis, quod est 
+          fre<lb break="no" ed="#P" n="101"/>quentius apud scholasticos. Hem Augustinus,
+          <lb ed="#P" n="102"/>libro quinto. de Trinitate. capite sexto et 
+          sep<lb break="no" ed="#P" n="103"/>umo. et libro 15. capite 6, Bibro enam 
+          octo<lb break="no" ed="#P" n="104"/>sinta trium quaestionum. quaestione secunda.
+          <lb ed="#P" n="105"/>Fulgentius optime. ad 7 objectionem 
+          Ariano<lb break="no" ed="#P" n="106"/>rum, ubi dicit, secundum fidem hoc negari
+          <lb ed="#P" n="107"/>non posse. Idem habet Basilius, libro 1 ei 2,
+          <lb ed="#P" n="108"/>contra Eunomium, ubi etiam, utitur pomine
+          <pb ed="#P" n="715"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>innasciblilis. Idem Athanasius, locis citatis,
+          <lb ed="#P" n="2"/>Cyrillus, in compendiaria fidci expositione, in
+          <lb ed="#P" n="3"/>tomo 4 Bibliothecae, ubi ait: Patrem differre
+          <lb ed="#P" n="4"/>a Filio, quia ille ingenitus, hic autem genitus.
+          <lb ed="#P" n="5"/>Quod etiam habet Anastasius Synaita, in lib. f,
+          <lb ed="#P" n="6"/>de rectis Fidei dogmatibus. Sic etiam 
+          Nazian<lb break="no" ed="#P" n="7"/>zenus, orat. 23, ingenitum vocat proprietatem
+          <lb ed="#P" n="8"/>Patris characteristicam. Idem orat. 36, in
+          <lb ed="#P" n="9"/>sancta lumina, et optime Damascenus, lib. 1,
+          <lb ed="#P" n="10"/>cap. 8, et sequentibus.
+        </p>
+        <p xml:id="szduep-180641-d1e238">
+          <lb ed="#P" n="11"/>3. Farim significationes ingeniti. — Ut 
+          au<lb break="no" ed="#P" n="12"/>tem res declaretur, distinguendae sunt 
+          signi<lb break="no" ed="#P" n="13"/>ficationes hujus vocis, quas Athanasius attigit
+          <lb ed="#P" n="14"/>supra, et nos in superioribus tres insinuavimus.
+          <lb ed="#P" n="15"/>Primo enim ingenitum dicitur quidquid 
+          crea<lb break="no" ed="#P" n="16"/>tum non est et hoc modo usurpabant hanc vocem
+          <lb ed="#P" n="17"/>Ariani; errabant tamen tribuentes illam in
+          <lb ed="#P" n="18"/>hac significatione Patri, ut propriam ejus, ut
+          <lb ed="#P" n="19"/>inde concluderent, Filium esse genitum, id est,
+          <lb ed="#P" n="20"/>factum vel creatum, cum tamen hoc modo
+          <lb ed="#P" n="21"/>vox illa essentialis sit, aeque conveniens Filio,
+          <lb ed="#P" n="22"/>ac Patri, ut praeter dictos sanctos notavit 
+          Epi<lb break="no" ed="#P" n="23"/>phanius, haeres. 13. Secundo accipitur, ut 
+          so<lb break="no" ed="#P" n="24"/>lum negat propriam generationem. Et sic
+          <lb ed="#P" n="25"/>etiam non est propria Patris, sed Spiritui 
+          sanc<lb break="no" ed="#P" n="26"/>to etiam convenit, nam genitus non est, ut
+          <lb ed="#P" n="27"/>in Symbolo Athanasii dicitur. Et ita 
+          usurpa<lb break="no" ed="#P" n="28"/>vit vocem illam aliquando Epiphanius, ut 
+          no<lb break="no" ed="#P" n="29"/>tavit Joannes Theologus, in Concilio 
+          Floren<lb break="no" ed="#P" n="30"/>tino, session. 18, circa principium, eo denique
+          <lb ed="#P" n="31"/>modo videtur etiam loqui Nazianzenus, or. 35,
+          <lb ed="#P" n="32"/>n. 36. Sic etiam Augustinus 5, de Trinitate,
+          <lb ed="#P" n="33"/>capite 6, dicit, ingenitum aliquando. Idem ex
+          <lb ed="#P" n="34"/>Hierony mo notavit Magister in 1, distinct. 13,
+          <lb ed="#P" n="35"/>et D. Thomas, 1 part., quaest. 33, art. 3, ad 2.
+          <lb ed="#P" n="36"/>Tertio ingenitum significat id quod nullo modo
+          <lb ed="#P" n="37"/>nec per creationem, nec per quamlibet aliam
+          <lb ed="#P" n="38"/>productionem realem productum est. Et sic
+          <lb ed="#P" n="39"/>usurpatur in praesenti, ideoque ita Patri 
+          tri<lb break="no" ed="#P" n="40"/>buitur, ut non solum de Filio, sed etiam de
+          <lb ed="#P" n="41"/>Spiritu sancto negetur, ut in dicto Concilio 
+          To<lb break="no" ed="#P" n="42"/>letano 11, expresse declaratur, et notavit etiam
+          <lb ed="#P" n="43"/>Justinus Martyr, in expositione Fidei, Cyrillus
+          <lb ed="#P" n="44"/>Alexandrinus 1, Thesauri, capite secundo et
+          <lb ed="#P" n="45"/>tertio. Et sic etiam dixit Nazianzenus supra,
+          <lb ed="#P" n="46"/>genitum et ingenitum non esse immediate 
+          oppo<lb break="no" ed="#P" n="47"/>sita, quia neutrum de Spiritu sancto dicitur.
+          <lb ed="#P" n="48"/>Quod ideo est, quia non cum proportione 
+          su<lb break="no" ed="#P" n="49"/>muntur : nam genitum juxta communem usum
+          <lb ed="#P" n="50"/>non dicitur de quocumque procedente quovis
+          <lb ed="#P" n="51"/>modo, sed per propriam generationem : 
+          inge<lb break="no" ed="#P" n="52"/>nitum autem dicitur, quod nullo modo 
+          proce<lb break="no" ed="#P" n="53"/>dit, et ita plusnegatur per ingenitum quam per
+          <lb ed="#P" n="54"/>genitum affirmatur, et in hoc sensu neutrum
+          <lb ed="#P" n="55"/>Spiritui sancto convenit.
+        </p>
+        <p xml:id="szduep-180641-d1e338">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>4. Objectioni occurritur. — Dices etiam hoc
+          <lb ed="#P" n="57"/>modo ingenitum, non esse proprium Patris,
+          <lb ed="#P" n="58"/>nam convenit Deitati, seu huic Deo, ut a 
+          per<lb break="no" ed="#P" n="59"/>sonis abstrahit, a nullo enim productus est.
+          <lb ed="#P" n="60"/>Ad hoc vero jam est in superioribus 
+          respon<lb break="no" ed="#P" n="61"/>sum ex D. Thoma, supra ad 2, ingemitum posse
+          <lb ed="#P" n="62"/>sumi negative tantum et sic convenire etiam
+          <lb ed="#P" n="63"/>Deitati, et non esse proprium Patris: alio 
+          au<lb break="no" ed="#P" n="64"/>tem modo sutni privative, non quatenus 
+          pri<lb break="no" ed="#P" n="65"/>vatio dicit catentiam alicujus positivi, quod
+          <lb ed="#P" n="66"/>deberet inesse Patri, sed quod convenire possit
+          <lb ed="#P" n="67"/>illi, non quatenus Pater est, sed quatenus 
+          per<lb break="no" ed="#P" n="68"/>sona divina est. Sic igitur, ingenitum dicit
+          <lb ed="#P" n="69"/>carentiam alicujus proprietatis, quae potest
+          <lb ed="#P" n="70"/>convenire personae divinae, quatenus persona
+          <lb ed="#P" n="71"/>divina est. Aliquando enim privatio dicit 
+          ca<lb break="no" ed="#P" n="72"/>rentiam in subjecto apto, non in individuo,
+          <lb ed="#P" n="73"/>sed in specie, vel genere, atque hoc modo illa
+          <lb ed="#P" n="74"/>privatio est propria Patris. Addere etiam 
+          pos<lb break="no" ed="#P" n="75"/>sumus, quod, licet hic Deus secundum se sit
+          <lb ed="#P" n="76"/>ingenitus, non tamen repugnat illi esse 
+          ali<lb break="no" ed="#P" n="77"/>quam personam genitam : nam hic Deus est
+          <lb ed="#P" n="78"/>Filius et Spiritus sanctus. Pater autem ita est
+          <lb ed="#P" n="79"/>ingenitus, ut nullo modo genitus esse, aut dici
+          <lb ed="#P" n="80"/>possit, atque ita haec notio est propria Patris.
+        </p>
+        <p xml:id="szduep-180641-d1e397">
+          <lb ed="#P" n="81"/>5. Dubium. — Prima opinio. — 
+          Improba<lb break="no" ed="#P" n="82"/>tur. — Dubitant autem ulterius scholastici,
+          <lb ed="#P" n="83"/>an haec vox formaliter dicat negationem, seu
+          <lb ed="#P" n="84"/>privationem tantum, an etiam positivum 
+          ali<lb break="no" ed="#P" n="85"/>quid ? Fuit enim antiqua opinio, quam refert
+          <lb ed="#P" n="86"/>Bonaventura, in 1, distinctione 27, quaest. 1,
+          <lb ed="#P" n="87"/>dicens, ingenitum, significare de formali 
+          rela<lb break="no" ed="#P" n="88"/>tionem quamdam ad genitorem, vel potius ad
+          <lb ed="#P" n="89"/>ingenitorem. Dicebant enim auctores illius 
+          opi<lb break="no" ed="#P" n="90"/>nionis, sicut inter quantitates non solum est
+          <lb ed="#P" n="91"/>relatio realis aequalitatis, sed etiam 
+          inzequali<lb break="no" ed="#P" n="92"/>tatis, ita non solum relationem geniti, sed
+          <lb ed="#P" n="93"/>etiam ingeniti esse realem. Haec vero sententia
+          <lb ed="#P" n="94"/>reprobata est ab omnibus et merito. Quia vel
+          <lb ed="#P" n="95"/>illa relatio est ad non genitorem ut sic, et ita
+          <lb ed="#P" n="96"/>non habet terminum realem, nec est habitudo,
+          <lb ed="#P" n="97"/>sed potius carentia habitudinis, vel intelligitur
+          <lb ed="#P" n="98"/>esse ad aliquam personam, verbi gratia, ad
+          <lb ed="#P" n="99"/>Filium, vel Spiritum sanctum, quatenus ab
+          <lb ed="#P" n="100"/>illis Pater non generatur: et hoc etiam est 
+          fri<lb break="no" ed="#P" n="101"/>volum, tum quia (ut recte ait Augustinus 
+          su<lb break="no" ed="#P" n="102"/>pra) esse ingenitum est prius, et in suo 
+          con<lb break="no" ed="#P" n="103"/>ceptu omnino dependens ad hoc, quod aliquid
+          <lb ed="#P" n="104"/>procedat ab ingenito, tum etiam, quia inter
+          <lb ed="#P" n="105"/>homines unum non esse genitum ab alio non
+          <lb ed="#P" n="106"/>est respectus realis.
+        </p>
+        <p xml:id="szduep-180641-d1e456">
+          <lb ed="#P" n="107"/>6. Ingenitum pricationem dicere. — 
+          Dicen<lb break="no" ed="#P" n="108"/>dum ergo est, de formali significari tantum
+          <lb ed="#P" n="109"/>illa voce privationem omnis originis realis. Ita
+          <lb ed="#P" n="110"/>D. Thomas, d. q. 33, art. 4, et in 1, dist. 28,
+          <pb ed="#P" n="716"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>q. 1,a. l, ad I. Idem tenet Scotus ibi, q. 2, 
+          Ca<lb break="no" ed="#P" n="2"/>preolus, q. 1. art. 1, Cajetanus et Thomistae
+          <lb ed="#P" n="3"/>omnes. Solet autem Bonaventura citari in
+          <lb ed="#P" n="4"/>contrarium, sed immerito, ut patet ex q. 1,2
+          <lb ed="#P" n="5"/>et 3, ubi solum ait : 7ngenitum de formali 
+          di<lb break="no" ed="#P" n="6"/>cere negationem ; fundamentaliter vero aliquid
+          <lb ed="#P" n="7"/>positivum. Quod etiam habet Durandus, ibi
+          <lb ed="#P" n="8"/>q. 1, et alii non negant, nec negare possunt,
+          <lb ed="#P" n="9"/>ut statim dicam.
+        </p>
+        <p xml:id="szduep-180641-d1e491">
+          <lb ed="#P" n="10"/>7. Assertio ergo de significato formali, quod
+          <lb ed="#P" n="11"/>privativum sit, ex dictis evidens est, et 
+          decla<lb break="no" ed="#P" n="12"/>ratur in dicto Concilio Toletano 11, his verbis:
+          <lb ed="#P" n="13"/>Si modun, quo Pater consistit, queras, cum
+          <lb ed="#P" n="14"/>eum a nullo alio ortum videas, ingenitum 
+          ap<lb break="no" ed="#P" n="15"/>pellabis - Sic etiam Basilius 5, contra 
+          Euno<lb break="no" ed="#P" n="16"/>mium, circa finem, ingenitum, inquit, quod 
+          na<lb break="no" ed="#P" n="17"/>tum non sit, demonstrat. Idem expresse habent
+          <lb ed="#P" n="18"/>Epiphanius et Augustinus supra, et ratione
+          <lb ed="#P" n="19"/>constabit ex dicendis, quia non potest aliter
+          <lb ed="#P" n="20"/>haec notio a Paternitate distingui. Quod vero
+          <lb ed="#P" n="21"/>Bonaventura et Durandus, addunt de 
+          funda<lb break="no" ed="#P" n="22"/>mento positivo, negari etiam non potest. Quia
+          <lb ed="#P" n="23"/>haec privatio non solum actum, sed etiam 
+          ca<lb break="no" ed="#P" n="24"/>pacitatem originis negat in tali persona, ut
+          <lb ed="#P" n="25"/>talis est, et ideo necessario et ab intrinseco illi
+          <lb ed="#P" n="26"/>convenit, omnis autem negatio, vel privatio
+          <lb ed="#P" n="27"/>hoc modo rei inconveniens fundamentum 
+          ha<lb break="no" ed="#P" n="28"/>bet in propria ejus perfectione : ergo hoc 
+          fun<lb break="no" ed="#P" n="29"/>damentum etiam reperitur in prima persona
+          <lb ed="#P" n="30"/>respectu talis privationis. Neque in hoc est 
+          dit<lb break="no" ed="#P" n="31"/>ficultas.
+        </p>
+        <p xml:id="szduep-180641-d1e541">
+          <lb ed="#P" n="32"/>8. De fundamento illius privationis. — Sed
+          <lb ed="#P" n="33"/>nonnulla est in explicando, quod sit hoc 
+          fun<lb break="no" ed="#P" n="34"/>damentum. Aliqui enim concludunt, esse 
+          po<lb break="no" ed="#P" n="35"/>sitivam quamdam rationem, seu formalitatem
+          <lb ed="#P" n="36"/>in Patre inventam et distinctam ratione ab
+          <lb ed="#P" n="37"/>essentia, et a Paternitate, quam dicunt 
+          cir<lb break="no" ed="#P" n="38"/>cumscribi a nobis per illam negationem. Ratio
+          <lb ed="#P" n="39"/>est, quia hac vox indicat specialem primae
+          <lb ed="#P" n="40"/>personae dignitatem, ratione distinctam a 
+          di<lb break="no" ed="#P" n="41"/>gnitate Patris, illa autem dignitas non potest
+          <lb ed="#P" n="42"/>consistere in sola negatione, quia negatio ut
+          <lb ed="#P" n="43"/>sic nullam perfectionem importat : ergo 
+          con<lb break="no" ed="#P" n="44"/>sistit in fundamento illius negationis: ergo est
+          <lb ed="#P" n="45"/>aliquid positivum, ratione distinctum a 
+          Pater<lb break="no" ed="#P" n="46"/>nitate et essentia. Major probatur, quia alias
+          <lb ed="#P" n="47"/>innascibilitas non esset notio distincta a 
+          Pa<lb break="no" ed="#P" n="48"/>ternitate. Quod si inquiratur, quid sit illud 
+          po<lb break="no" ed="#P" n="49"/>sitivum, respondent, esse rationem primi 
+          prin<lb break="no" ed="#P" n="50"/>cipii, seu fontalis plenitudinis, ut ait 
+          Bona<lb break="no" ed="#P" n="51"/>ventura supra, et dist. 24 quaest. Confirmatur
+          <lb ed="#P" n="52"/>haec sententia ex Patribus, qui aliquando 
+          di<lb break="no" ed="#P" n="53"/>cunt, ingenitum significare modum existendi
+          <lb ed="#P" n="54"/>primae personae, ut videre licet in Basilio 4,
+          <lb ed="#P" n="55"/>contra Eunomium, c. 2, Nazianzeno, orat. 23,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Damasceno., lib. 1. de Fide, c. 9, Cyrillo, lib. 1,
+          <lb ed="#P" n="57"/>Thesauri, c. 4, modus autem existendi 
+          positi<lb break="no" ed="#P" n="58"/>vum quid sit.
+        </p>
+        <p xml:id="szduep-180641-d1e605">
+          <lb ed="#P" n="59"/>9. Fera sententia. — Longe tamen verior
+          <lb ed="#P" n="60"/>est sententia D. Thomae supra, quam tota ejus
+          <lb ed="#P" n="61"/>schola sequitur. Innascibilitatem formaliter
+          <lb ed="#P" n="62"/>consistere in privatione, pro fundamento 
+          au<lb break="no" ed="#P" n="63"/>tem nihil aliud dicere, nisi Paternitatem, vel
+          <lb ed="#P" n="64"/>ad summam Paternitatem simul cum activa
+          <lb ed="#P" n="65"/>spiratione. Quod sufficienter demonstratur hac
+          <lb ed="#P" n="66"/>ratione. Quia in Patre nihil positivum est, nisi
+          <lb ed="#P" n="67"/>essentia, vel relatio: ingenitum autem, ut sic,
+          <lb ed="#P" n="68"/>non fundatur in sola essentia, quae communis
+          <lb ed="#P" n="69"/>est, etin qua sola non intelligitur innascibilitas
+          <lb ed="#P" n="70"/>per modum privationis, ut dixi. Unde licet 
+          es<lb break="no" ed="#P" n="71"/>sentia possit dici radix innascibilitatissecundum
+          <lb ed="#P" n="72"/>rationem, quia ab illa quasi manat proprietas,
+          <lb ed="#P" n="73"/>ratione cujus persona est innascibilis, juxta
+          <lb ed="#P" n="74"/>dicta, capite praecedenti, non tamen est 
+          pro<lb break="no" ed="#P" n="75"/>prium et quasi formale fundamentum 
+          innas<lb break="no" ed="#P" n="76"/>cibilitatis, ergo necessario debet esse relatio.
+          <lb ed="#P" n="77"/>Secundo declaratur in hunc modum, quia 
+          Pa<lb break="no" ed="#P" n="78"/>ternitas ex intrinseca ratione sua habet, quod
+          <lb ed="#P" n="79"/>sit ante omnem originem, quia constituit 
+          prin<lb break="no" ed="#P" n="80"/>cipium primae originis, ante quam non potest
+          <lb ed="#P" n="81"/>esse origo, ergo ex propria ratione habet 
+          con<lb break="no" ed="#P" n="82"/>stituere personam sine origine ab alia, hoc
+          <lb ed="#P" n="83"/>autem est esse fundamentum innascibiltatis.
+        </p>
+        <p xml:id="szduep-180641-d1e662">
+          <lb ed="#P" n="84"/>10. Satisfit fundamento alterius opinionis
+          <lb ed="#P" n="85"/>et redarguitur.—Cbertio destruendo 
+          fundamen<lb break="no" ed="#P" n="86"/>tum, seu declarationem alterius sententiae.
+          <lb ed="#P" n="87"/>Cum enim dicitur, illud positivum esse 
+          ratio<lb break="no" ed="#P" n="88"/>nem primi principii, duo ibi includuntur. Unum
+          <lb ed="#P" n="89"/>est rauo principii, et hoc sine dubio positivum
+          <lb ed="#P" n="90"/>est, tamen, ut recte dixit Augustinus supra,
+          <lb ed="#P" n="91"/>hoc non explicatur nomine ingeniti, nam licet
+          <lb ed="#P" n="92"/>aliqua persona non esset genitor, nec 
+          princi<lb break="no" ed="#P" n="93"/>pium, posset esse ingenita, si non esset ab alio,
+          <lb ed="#P" n="94"/>quia haec vox significat, quid non sit, non 
+          au<lb break="no" ed="#P" n="95"/>tem quid sit. Deinde, ut addit divus Thomas,
+          <lb ed="#P" n="96"/>etiamsi ingenitum aliquo modo dicat rationem
+          <lb ed="#P" n="97"/>principii, saltem pro fundamento, illa ratio
+          <lb ed="#P" n="98"/>non est distincta a ratione Patris, vel 
+          spirato<lb break="no" ed="#P" n="99"/>ris, vel si sumatur confuse abstrahendo ab
+          <lb ed="#P" n="100"/>utraque, sic non pertinet ad notiones, ut supra
+          <lb ed="#P" n="101"/>tetigi, et iterum dicam capite sequenti. 
+          Alte<lb break="no" ed="#P" n="102"/>rum ibi inclusum est ratio primi, et hoc si 
+          di<lb break="no" ed="#P" n="103"/>cat habitudinem ad secundum, non est aliud
+          <lb ed="#P" n="104"/>in Trinitate quam esse Patrem, si vero dicat
+          <lb ed="#P" n="105"/>habitudinem ad priorem, sic non dicit 
+          positi<lb break="no" ed="#P" n="106"/>vum quid, sed negationem prioris, ergo nihil
+          <lb ed="#P" n="107"/>positivum relinquitur ratione distinctum, quod
+          <lb ed="#P" n="108"/>significari possit pro tali fundamento.
+        </p>
+        <p xml:id="szduep-180641-d1e719">
+          <lb ed="#P" n="109"/>11. Evasio producitur. — Dicunt vero 
+          ali<lb break="no" ed="#P" n="110"/>qui, illud quidem fundamentum esse positi-
+          <pb ed="#P" n="717"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vum et relativum, non ratione reali, sed 
+          ra<lb break="no" ed="#P" n="2"/>tionis. Est tamen improbabilis fuga et non sibi
+          <lb ed="#P" n="3"/>constans. Quia relatio rationis non dicit 
+          majo<lb break="no" ed="#P" n="4"/>rem dignitatem, quam privatio : si ergo 
+          prop<lb break="no" ed="#P" n="5"/>ter dignitatem negant privationem, cur illam
+          <lb ed="#P" n="6"/>ponunt in relatione rationis? Quod si dicant
+          <lb ed="#P" n="7"/>non relationem rationis formahter sumptam,
+          <lb ed="#P" n="8"/>sed fundamentum ejus pertinere ad 
+          dignita<lb break="no" ed="#P" n="9"/>tem, de illo fundamento redibit quaestio ; an
+          <lb ed="#P" n="10"/>sit sola paternitas, vel aliquid aliud reale : hoc
+          <lb ed="#P" n="11"/>enim posterius neque ab eis admittitur; si 
+          au<lb break="no" ed="#P" n="12"/>tem dicatur prius recte concluditur, ingenitum
+          <lb ed="#P" n="13"/>pro fundamehto nihil aliud, praeter 
+          paternita<lb break="no" ed="#P" n="14"/>tem habere. Et praeterea illa relatio rationis,
+          <lb ed="#P" n="15"/>vel est ad alias personas et hoc non, quia 
+          in<lb break="no" ed="#P" n="16"/>genitum, ut sic, concipitur, ut abstrahens a
+          <lb ed="#P" n="17"/>respectu ad personas procedentes, vel est ad
+          <lb ed="#P" n="18"/>personam priorem, et sic relatio illa supponit
+          <lb ed="#P" n="19"/>negationem prioris, tantum abest, ut possit
+          <lb ed="#P" n="20"/>esse fundamentum ejus.
+        </p>
+        <p xml:id="szduep-180641-d1e774">
+          <lb ed="#P" n="21"/>12. Ad rationes. — Ad rationem autem 
+          alte<lb break="no" ed="#P" n="22"/>rius sententiae responsum est libro quinto, 
+          ca<lb break="no" ed="#P" n="23"/>pite ultimo, ubi ostendimus, cur haec privatio
+          <lb ed="#P" n="24"/>constituatur distincta notio, quamvis non 
+          di<lb break="no" ed="#P" n="25"/>cat positivum aliquid a paternitate distinctum.
+          <lb ed="#P" n="26"/>Nihilominus tamen verum est, quod D. 
+          Tho<lb break="no" ed="#P" n="27"/>mas dixit, notionem hanc ad dignitatem 
+          per<lb break="no" ed="#P" n="28"/>tinere, quia per illam negationem explicare
+          <lb ed="#P" n="29"/>intendimus Primae personae dignitatem : 
+          di<lb break="no" ed="#P" n="30"/>cimus autem hanc dignitatem non esse aliam
+          <lb ed="#P" n="31"/>a Paternitate ipsa. Quae nostro modo 
+          conci<lb break="no" ed="#P" n="32"/>piendi, ex vi suae rationis duo includit. Unum
+          <lb ed="#P" n="33"/>est, quod per se, seu a se sit, per immediatam
+          <lb ed="#P" n="34"/>conjunctionem cum essentia, prout 
+          explica<lb break="no" ed="#P" n="35"/>vimus, capite praecedente, et hoc declaramus
+          <lb ed="#P" n="36"/>per hanc negationem. Alterum est, esse 
+          cons<lb break="no" ed="#P" n="37"/>titutivum principii generandi, quod Pater 
+          no<lb break="no" ed="#P" n="38"/>minatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

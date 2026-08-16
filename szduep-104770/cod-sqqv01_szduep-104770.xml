@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="412"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-104770"><!-- t2-l2c18 -->
+        <head xml:id="szduep-104770-Hd1e101">Caput 18</head>
+        <head xml:id="szduep-104770-Hd1e103" type="question-title">Satisfit principali objectioni in capite nono propositae</head>
+        <p xml:id="szduep-104770-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>CAPUT XVII.
+          <lb ed="#P" n="57"/>SATISFIT PRINCIPALI OBJECTIONI IN CAPITE NONO
+          <lb ed="#P" n="58"/>PROPOSITAE.
+        </p>
+        <p xml:id="szduep-104770-d1e117">
+          <lb ed="#P" n="59"/>1. Circa objectionem principalem, in capite
+          <lb ed="#P" n="60"/>nono, propositam cujus occasione haec omnia
+          <lb ed="#P" n="61"/>diximus, multi theologi non censent 
+          inconve<lb break="no" ed="#P" n="62"/>niens concedere, in aliquibus et multis 
+          homi<lb break="no" ed="#P" n="63"/>nibus adultis praecedere aliquod vel aliqua 
+          bo<lb break="no" ed="#P" n="64"/>na opera moralia ante omne internum 
+          auxi<lb break="no" ed="#P" n="65"/>lium praeveniens, quod sit vera et 
+          supernatu<lb break="no" ed="#P" n="66"/>ralis gratia. Nam cum tale opus sit possibile
+          <lb ed="#P" n="67"/>ex sola ratione et libero arbitrio, non habet
+          <lb ed="#P" n="68"/>per se connexionem cum praevenienti auxilio
+          <lb ed="#P" n="69"/>gratiae, ergo nullum est inconveniens, quod
+          <lb ed="#P" n="70"/>de facto praecedat.
+        </p>
+        <p xml:id="szduep-104770-d1e146">
+          <lb ed="#P" n="71"/>2. Atque hinc ulterius multi docuerunt sic
+          <lb ed="#P" n="72"/>facienti quod in se est ad bene operandum 
+          mo<lb break="no" ed="#P" n="73"/>raliter per naturales vires quas tunc solas 
+          ha<lb break="no" ed="#P" n="74"/>bet. Deum conferre suam gratiam non 
+          sancti<lb break="no" ed="#P" n="75"/>ficantem, sed primi auxilii supernaturalis seu
+          <lb ed="#P" n="76"/>vocationis ad fidem. Ita docuit expresse divus
+          <lb ed="#P" n="77"/>Thomas, 2 dist., 5 quaest., art. 1, distinct. 98,
+          <lb ed="#P" n="78"/>quaest. unic. , art. 4, q. 14, de Verit. , art. 11,
+          <lb ed="#P" n="79"/>ad 1, agens de filio infidelium in sylvis 
+          enu<lb break="no" ed="#P" n="80"/>trito, qui perveniens ad usum rationis, ductum
+          <lb ed="#P" n="81"/>rectae rationis sequitur, de quo ait, fore a Deo
+          <lb ed="#P" n="82"/>supernaturaliter illuminandum. Quod 
+          confir<lb break="no" ed="#P" n="83"/>mat, lib. 3, contra Gentes, cap. 159, et 1, 2,
+          <lb ed="#P" n="84"/>quaest. 89, art. 6. Idem sensit Altisiodorensis,
+          <lb ed="#P" n="85"/>lib. 3 Summae, tract. 2, cap. 1, quaest. 5, et
+          <lb ed="#P" n="86"/>lib. 2, tract. 11, cap. 1, q. 4, Alensis, 1 part.,
+          <lb ed="#P" n="87"/>queest. 99, M. 3, art. 1, ad 4, et 9 pari.
+          <lb ed="#P" n="88"/>quaest. 19, M. S, S L, et 3 part., quaest. 69,
+          <lb ed="#P" n="89"/>M. 5, art. 3, ad 5 et 6, Gersonius Alpha.,
+          <lb ed="#P" n="90"/>24. lit. M. et Alpha., 61, ht. G. et in traet.
+          <lb ed="#P" n="91"/>de Vita spirituali , lect. 1. Idem docuerunt
+          <lb ed="#P" n="92"/>communiter theologi in 2, dist. 28, Albertus,
+          <lb ed="#P" n="93"/>art. 1, ad 4, /Egidius, art. 2, S 2, ad 2, 
+          Ruchar<lb break="no" ed="#P" n="94"/>dus, art. 1, quaest. 2, Nicolaus, de Orbeli, art. 2,
+          <lb ed="#P" n="95"/>et dist. 27, Gabriel, 2, dist. 22, quaest. 2. art. 3,
+          <lb ed="#P" n="96"/>dub. 1, etalii quos, capite septimo, retuli. 
+          Idem<lb break="no" ed="#P" n="97"/>que secuti sunt ex modernis Thomistis, Sotus,
+          <lb ed="#P" n="98"/>4, dist. 1, quaest. 2, art. 3, Victorius, helect.
+          <lb ed="#P" n="99"/>de puero veniente ad usum rationis, 3 part.,
+          <lb ed="#P" n="100"/>num. 14, Canon, Relect. de sacram. in gen.,
+          <lb ed="#P" n="101"/>part. 1 et 2, censet probabile Medina, 1, 2,
+          <lb ed="#P" n="102"/>quaest. 89, art. 6, dub. ult., et quaest. 109, art. 6,
+          <lb ed="#P" n="103"/>dub. 3, ad 2 et 3, Viguerius, in Institutioni.,
+          <lb ed="#P" n="104"/>Theol. , cap. 10, S 4, Zumelius, 1, 2, q. 112,
+          <lb ed="#P" n="105"/>art. 3, disp. 5. Idem sequitur Vega, lib. 13, in
+          <lb ed="#P" n="106"/>Trid. , cap. 12, Via 3, Corduba, late lib. 2, de
+          <lb ed="#P" n="107"/>Tgnor. , quaest. 4 tota, et quaest. 5, ad 4. Item
+          <pb ed="#P" n="413"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Driedus, tract. de Concordia, part. 2, cap. ult.,
+          <lb ed="#P" n="2"/>et de Capt. et Redemp. gen. hum., tract.2,c.2,
+          <lb ed="#P" n="3"/>ait pie hoc credi, et in eo non pertinaciter 
+          er<lb break="no" ed="#P" n="4"/>rari. Idem Ruardus, art. 1, S Doctores, 
+          Alber<lb break="no" ed="#P" n="5"/>tus Pighius de libero arbitrio contra Calvinum,
+          <lb ed="#P" n="6"/>folio 99, ubi dicit esse sententiam Patrum,
+          <lb ed="#P" n="7"/>quam multi alii secuti sunt ex his qui contra
+          <lb ed="#P" n="8"/>haereticos hujus temporis scripserunt.
+        </p>
+        <p xml:id="szduep-104770-d1e251">
+          <lb ed="#P" n="9"/>3. Et sane quidquid sit de veritate hujus
+          <lb ed="#P" n="10"/>sententiae, quam nunc defendere et explicare
+          <lb ed="#P" n="11"/>necessarium non est, nobis ad expediendam
+          <lb ed="#P" n="12"/>difficultatem propositam, ut paulo inferius 
+          di<lb break="no" ed="#P" n="13"/>cam , verisimile tamen non est, tot graves
+          <lb ed="#P" n="14"/>theologos in ea doctrina periculose errasse, aut
+          <lb ed="#P" n="15"/>non posse habere sensum ab errore Pelagii
+          <lb ed="#P" n="16"/>omnino alienum. Non dubito ergo quin 
+          sense<lb break="no" ed="#P" n="17"/>rint totam illam gratiam primam, etiamsi 
+          de<lb break="no" ed="#P" n="18"/>tur homini bene operanti moraliter, non dari
+          <lb ed="#P" n="19"/>propter merita vel dispositionem talis operis,
+          <lb ed="#P" n="20"/>sed ex pura gratia Dei, opusque illud bonum
+          <lb ed="#P" n="21"/>ad summum posse deservire, ut dum est, 
+          im<lb break="no" ed="#P" n="22"/>pediat peccatum, quod posset fortasse esse obex
+          <lb ed="#P" n="23"/>divinae illuminationis. Quem sensum in libro
+          <lb ed="#P" n="24"/>tertio de Auxiliis, capite secundo, ita explicui,
+          <lb ed="#P" n="25"/>et a Marco Eremita traditum invenio in verbis
+          <lb ed="#P" n="26"/>quae supra capite octavo citavi, ex libro de 
+          Pa<lb break="no" ed="#P" n="27"/>radiso, capite quinquagesimo tertio. Neque hic
+          <lb ed="#P" n="28"/>sensus excludit alium de faciente quod in se est
+          <lb ed="#P" n="29"/>per auxilium supernaturale. Nam respectu 
+          di<lb break="no" ed="#P" n="30"/>versarum gratiarum in diverso sensu possunt
+          <lb ed="#P" n="31"/>eadem verba proferri. Itaque respectu gratiae
+          <lb ed="#P" n="32"/>justificantis, et ad illam obtinendam necesse
+          <lb ed="#P" n="33"/>est, ut homo faciat, quod potest per praeveniens
+          <lb ed="#P" n="34"/>gratiae auxilium. Vel, quod idem est, homo jam
+          <lb ed="#P" n="35"/>praeventus per auxilium supernaturale, si vult
+          <lb ed="#P" n="36"/>progredi, oportet, ut per receptum auxilium,
+          <lb ed="#P" n="37"/>quod valet, faciat; at vero respectu ipsius 
+          auxi<lb break="no" ed="#P" n="38"/>Iii, si homo nondum est supernaturaliter 
+          prae<lb break="no" ed="#P" n="39"/>ventus, non potest per auxilium operari: ergo
+          <lb ed="#P" n="40"/>de illo in a io sensu dicitur, ut faciat, quod 
+          po<lb break="no" ed="#P" n="41"/>test, procurando non ponere obicem, et ad hoc
+          <lb ed="#P" n="42"/>aliquid boni, prout potest, operando.
+        </p>
+        <p xml:id="szduep-104770-d1e327">
+          <lb ed="#P" n="43"/>4. Ex hac sententia non sequitur dari 
+          cau<lb break="no" ed="#P" n="44"/>sam predestinationis quoad omnes effectus. —
+          <lb ed="#P" n="45"/>Unde constat etiam, si haec sententia 
+          admitta<lb break="no" ed="#P" n="46"/>tur, non sequi dari causam praedestinationis
+          <lb ed="#P" n="47"/>quoad omnes effectus ejus ex parte hominis
+          <lb ed="#P" n="48"/>praedestinati: quia per tale bonum opus non
+          <lb ed="#P" n="49"/>est sibi causa primae gratiae auxiliantis, sed
+          <lb ed="#P" n="50"/>Deus sua libertate illam confert, vel ex illa 
+          vo<lb break="no" ed="#P" n="51"/>luntate, quia vult omnes homines salvare, vel
+          <lb ed="#P" n="52"/>respectu praedestinati, ex illa voluntate qua
+          <lb ed="#P" n="53"/>illum elegit. Quod si dicas, saltem sequi dari
+          <lb ed="#P" n="54"/>causam per accidens, ut est removens 
+          impe<lb break="no" ed="#P" n="55"/>dimentum, sic enim videtur talis homo esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>causa primi auxilii sibi collati; respondetur,
+          <lb ed="#P" n="57"/>neque hoc modo esse causam illius effectus, ut
+          <lb ed="#P" n="58"/>ad praedestinationem pertinet. Tum, quia 
+          prae<lb break="no" ed="#P" n="59"/>destinato datur illa prima illuminatio, non 
+          so<lb break="no" ed="#P" n="60"/>lum ut gratia sufficiens, sed etiam ut efficax et
+          <lb ed="#P" n="61"/>congrua, ad quod nullo modo servit tale opus,
+          <lb ed="#P" n="62"/>etiam per accidens: sed ex divina electione
+          <lb ed="#P" n="63"/>immediate procedit, tum etiam, quia si per 
+          il<lb break="no" ed="#P" n="64"/>lud opus bonum praevenitur talis homo, ne 
+          im<lb break="no" ed="#P" n="65"/>pedimentum ponat vocationi, hoc ipsum est ex
+          <lb ed="#P" n="66"/>praedestinatione, ut infra latius dicam.
+        </p>
+        <p xml:id="szduep-104770-d1e384">
+          <lb ed="#P" n="67"/>5. Non sequi alia incommoda dicta.—Atque
+          <lb ed="#P" n="68"/>ita etiam cessant incommoda, quae ex illa
+          <lb ed="#P" n="69"/>sententia inferebantur. Nam illa sententia non
+          <lb ed="#P" n="70"/>supponit posse hominem innocenter vivere,
+          <lb ed="#P" n="71"/>aut saepius posse bene operari sine gratiae 
+          auxi<lb break="no" ed="#P" n="72"/>lio, quin multo frequentius peccet, nisi 
+          divi<lb break="no" ed="#P" n="73"/>nitus praeveniatur : sed supponit solum, posse
+          <lb ed="#P" n="74"/>aliquid boni facere, quod licet parum sit, 
+          sal<lb break="no" ed="#P" n="75"/>tem potest deservire ad impediendum pro tunc
+          <lb ed="#P" n="76"/>peccatum. Et tunc credit de misericordia Dei,
+          <lb ed="#P" n="77"/>non defuturum tali homini, non propter opus
+          <lb ed="#P" n="78"/>ejus, quod nullam habet proportionem cum
+          <lb ed="#P" n="79"/>gratia, sed quia de se propensus est ad dandum
+          <lb ed="#P" n="80"/>omnibus sufficientia, ac necessaria remedia ad
+          <lb ed="#P" n="81"/>salutem.
+        </p>
+        <p xml:id="szduep-104770-d1e419">
+          <lb ed="#P" n="82"/>6. Responsio ad objectionem preecipuam. —
+          <lb ed="#P" n="83"/>Ultimo vero addo, totam hanc sententiam 
+          no<lb break="no" ed="#P" n="84"/>bis necessariam non esse ad expediendam 
+          dif<lb break="no" ed="#P" n="85"/>ficultatem positam, et ideo nunc nec probamus
+          <lb ed="#P" n="86"/>illam, nec rejicimus: pendet enim ex multis
+          <lb ed="#P" n="87"/>principiis, qua in materia de gratia 
+          cxami<lb break="no" ed="#P" n="88"/>nanda sunt. Dico ergo ex illis verbis Pauli,
+          <lb ed="#P" n="89"/>Deus vult omnes homines salvos fieri, potius
+          <lb ed="#P" n="90"/>sequi probabiliter, omnibus hominibus adultis
+          <lb ed="#P" n="91"/>dare aliquod principium salutis, atque adeo
+          <lb ed="#P" n="92"/>aliquam vocationem. Unde quamvis ante hanc
+          <lb ed="#P" n="93"/>vocationem supernaturalem possit homo 
+          ali<lb break="no" ed="#P" n="94"/>quod bonum opus facere et illud faciat, et 
+          pos<lb break="no" ed="#P" n="95"/>tea vocetur a Deo, non sequitur, quod vocetur
+          <lb ed="#P" n="96"/>propter opus, sed pro generali Dei 
+          benevolen<lb break="no" ed="#P" n="97"/>tia erga bomines et propter Christum. Neque
+          <lb ed="#P" n="98"/>etiam est necesse, ut tale bonum opus 
+          con<lb break="no" ed="#P" n="99"/>currat removendo obicem, quia etiamsi homo
+          <lb ed="#P" n="100"/>maxime peccaret, Deus illuminaret illum ex
+          <lb ed="#P" n="101"/>illa generali voluntate, ut pie credi potest.
+          <lb ed="#P" n="102"/>Nam quia tempus dandi hanc illuminationem
+          <lb ed="#P" n="103"/>primam, non est unum et idem praefixum pro
+          <lb ed="#P" n="104"/>omnibus hominibus, sed Deus dat tempore
+          <lb ed="#P" n="105"/>opportuno, vel a se definito, ideo, sive homo
+          <lb ed="#P" n="106"/>antea operetur bene, sive male, nec 
+          accelera<lb break="no" ed="#P" n="107"/>tur, nec retardatur tempus illud a Deo 
+          praefi<lb break="no" ed="#P" n="108"/>xum, nec in eo praefiniendo habuit Deus 
+          res<lb break="no" ed="#P" n="109"/>pectum ad opus hominis, sed ad ordinem suae
+          <lb ed="#P" n="110"/>sapientiae et consilium suae voluntatis.
+        </p>
+        <p xml:id="szduep-104770-d1e484">
+          <pb ed="#P" n="414"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>7. Nulla est connexio inter causam 
+          prades<lb break="no" ed="#P" n="2"/>tinationis ex parte nostra et potestate arbitrü
+          <lb ed="#P" n="3"/>ad aliquod bonum morale sine gratia. — Atque
+          <lb ed="#P" n="4"/>ita tandem constat, nullam esse connexionem
+          <lb ed="#P" n="5"/>inter has quaetiones, de causa 
+          praedestinatio<lb break="no" ed="#P" n="6"/>nis, ex parte nostra et de potestate arbitrii
+          <lb ed="#P" n="7"/>ad faciendum aliquod bonum opus morale
+          <lb ed="#P" n="8"/>sine gratia. Quia etiam si tale opus fiat ante
+          <lb ed="#P" n="9"/>omne auxilium gratiae supernaturalis, non 
+          po<lb break="no" ed="#P" n="10"/>-test ullo modo fundare gratiam ipsam, nedum
+          <lb ed="#P" n="11"/>praedestinationem ejus. Quod cum sit verum
+          <lb ed="#P" n="12"/>de omni auxilio maxime de congruo et efficaci,
+          <lb ed="#P" n="13"/>quale esse solet illud, quod est 
+          praedestinatio<lb break="no" ed="#P" n="14"/>nis effectus. Quae omnia ex dicendis capite 
+          se<lb break="no" ed="#P" n="15"/>quenti magis confirmabuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

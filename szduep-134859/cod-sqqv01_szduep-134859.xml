@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="533"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-134859"><!-- t3-l1c1 -->
+        <head xml:id="szduep-134859-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-134859-Hd1e103" type="question-title">In deum tam nomen, quam rationem personae vere et proprie convenire</head>
+        <p xml:id="szduep-134859-d1e106">
+          <lb ed="#P" n="32"/>CAPUT I.
+          <lb ed="#P" n="33"/>IN DEUM TAM NOMEN, QUAM RATIONEM PERSONAE
+          <lb ed="#P" n="34"/>VERE ET PROPRIE CONVENIRE.
+        </p>
+        <p xml:id="szduep-134859-d1e115">
+          <lb ed="#P" n="35"/>1. Ratio dubitandi. — De hac Catholica 
+          ve<lb break="no" ed="#P" n="36"/>ritate posset quispiam dubitare, quia vel 
+          per<lb break="no" ed="#P" n="37"/>sona dicit perfectionem simpliciter et absque
+          <lb ed="#P" n="38"/>imperfectione, vel non. Si illam non dicit, non
+          <lb ed="#P" n="39"/>potest Deo attribui secundum proprietatem :
+          <lb ed="#P" n="40"/>nihil enim potest esse in Deo, quod omnino
+          <lb ed="#P" n="41"/>perfectum non sit: Si autem persona dicit ta-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>lem perfectionem, pertinebit ad naturam et
+          <lb ed="#P" n="43"/>essentiam : omnis enim talis perfectio est de
+          <lb ed="#P" n="44"/>essentia Dei. Illud autem dici non potest, 
+          alio<lb break="no" ed="#P" n="45"/>qui persona significabit in Deo essentiam Dei, et
+          <lb ed="#P" n="46"/>consequenter non poterit magis multiplicari
+          <lb ed="#P" n="47"/>in Deo persona, quam essentia. Ergo ratio
+          <lb ed="#P" n="48"/>personae formaliter, et proprie non potest in
+          <lb ed="#P" n="49"/>Deo reperiri. In contrarium est totius 
+          Eccle<lb break="no" ed="#P" n="50"/>siae usus et sensus.
+        </p>
+        <p xml:id="szduep-134859-d1e154">
+          <lb ed="#P" n="51"/>2. Definitio persone. — Personam 
+          signift<lb break="no" ed="#P" n="52"/>care substantiam. — Ad explicandam breviter
+          <lb ed="#P" n="53"/>propositam veritatem , supponenda est ratio
+          <lb ed="#P" n="54"/>personae tradita a Boetio, libro de duabus 
+          na<lb break="no" ed="#P" n="55"/>turis, et explicata a D. Thoma, 1 part., q. 29,
+          <lb ed="#P" n="56"/>art. 1: Persona est rationalis nature individua
+          <lb ed="#P" n="57"/>substantia. Ex qua tria colligenda sunt circa
+          <lb ed="#P" n="58"/>hoc nomen, persona, et circa rem per illud 
+          si<lb break="no" ed="#P" n="59"/>gnificatam. Primum est, personam significare
+          <lb ed="#P" n="60"/>substantiam : In quo graviter erravit 
+          Lauren<lb break="no" ed="#P" n="61"/>tius Valla, lib. 6, elegant., cap. 34, ubi 
+          mul<lb break="no" ed="#P" n="62"/>tis rationibus contra Boetium contendit, 
+          per<lb break="no" ed="#P" n="63"/>sonam non significare substantiam, sed 
+          quali<lb break="no" ed="#P" n="64"/>tatem, quia una et eadem substantia plures
+          <lb ed="#P" n="65"/>dicitur gerere personas. Et inde infert, non
+          <lb ed="#P" n="66"/>magis in Deo esse personam, quam in brutis
+          <lb ed="#P" n="67"/>animantibus. Et fortasse ob hanc causam 
+          an<lb break="no" ed="#P" n="68"/>tiqui Orientales more latinorum timebant tres
+          <lb ed="#P" n="69"/>in Deo ponere personas, ne viderentur cum 
+          Sa<lb break="no" ed="#P" n="70"/>bellio tantum illas distinguere denominatione,
+          <lb ed="#P" n="71"/>aut qualitate, ut refert Gregorius 
+          Nazianze<lb break="no" ed="#P" n="72"/>nus, orat. 21, in Athanasium, circa finem.
+        </p>
+        <p xml:id="szduep-134859-d1e205">
+          <lb ed="#P" n="73"/>3. Erravit tamen graviter Valla, non solum
+          <lb ed="#P" n="74"/>in theologia, sed etiam in sua facultate, nam
+          <lb ed="#P" n="75"/>ex usu etiam latinorum constat, personam 
+          si<lb break="no" ed="#P" n="76"/>gnificare substantiam. Sic enim dixit Cicero,
+          <lb ed="#P" n="77"/>de Oratore, hominum esse innumerabiles 
+          per<lb break="no" ed="#P" n="78"/>sonas, et aliis locis, frequenter ita loquitur, ut
+          <lb ed="#P" n="79"/>in Thesauro, et Nizolio videri potest. Jura etiam
+          <lb ed="#P" n="80"/>civilia, in quibus latina lingua purissima est,
+          <lb ed="#P" n="81"/>saepe utuntur hac voce in hac significatione,
+          <lb ed="#P" n="82"/>imo non in alia, ut videre licet, ff de S'tatu ho-
+          <pb ed="#P" n="534"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>minum, leg. 1 et 2, etin titulo Per quas 
+          per<lb break="no" ed="#P" n="2"/>sonas, etc. De usu autem Patrum statim dicam.
+          <lb ed="#P" n="3"/>In sacra etiam Scriptura cum dicitur Deus non
+          <lb ed="#P" n="4"/>esse acceptor personarum, Actor. 10, nihil
+          <lb ed="#P" n="5"/>aliud significat illa vos, quam homines ipsos.
+        </p>
+        <p xml:id="szduep-134859-d1e244">
+          <lb ed="#P" n="6"/>4. Nec refert, quod aliquando haec vox 
+          qua<lb break="no" ed="#P" n="7"/>litatem, vel conditionem personae significare
+          <lb ed="#P" n="8"/>videatur. Tum, quia forte non tam significat
+          <lb ed="#P" n="9"/>formaliter ipsam conditionem, quam 
+          subjec<lb break="no" ed="#P" n="10"/>tum ejus, ut cum ad explicandam personam
+          <lb ed="#P" n="11"/>alicujus, dicimus esse juvenem, aut senem,
+          <lb ed="#P" n="12"/>hujus, vel ilius faciei, per proprietates 
+          expli<lb break="no" ed="#P" n="13"/>camus suppositum, quod est quasi subjectum
+          <lb ed="#P" n="14"/>earum, et significatur nomine personae. Tum
+          <lb ed="#P" n="15"/>etiam, quia potest illa vox esse aequivoca, vel
+          <lb ed="#P" n="16"/>analoga, ut communius censetur: semper 
+          ta<lb break="no" ed="#P" n="17"/>mem primario significat substantiam, et 
+          reli<lb break="no" ed="#P" n="18"/>qua in ordine ad illam. Nam etiam ille, qui
+          <lb ed="#P" n="19"/>de theatro agit personam, illam dicitur agere,
+          <lb ed="#P" n="20"/>quia aliud verum suppositum repraesentat. 
+          Ita<lb break="no" ed="#P" n="21"/>que in praesenti materia pro substantia 
+          su<lb break="no" ed="#P" n="22"/>mitur, et non quacumque, sed completa: 
+          nul<lb break="no" ed="#P" n="23"/>lus enim partes hominis, caput, aut manus,
+          <lb ed="#P" n="24"/>personam appellavit, et ipsamet Christi 
+          huma<lb break="no" ed="#P" n="25"/>nitas, persona non est, quia in ratione 
+          sub<lb break="no" ed="#P" n="26"/>stantiae non est omnino completa.
+        </p>
+        <p xml:id="szduep-134859-d1e292">
+          <lb ed="#P" n="27"/>5. Objectio Scoti solvitur. —Per quod 
+          solvi<lb break="no" ed="#P" n="28"/>tur objectio Scoti, in 4, dist. 23, quaest. 1,8
+          <lb ed="#P" n="29"/>Ad queestionem, improbantis definitionem 
+          Boe<lb break="no" ed="#P" n="30"/>tii, quia convenit animae rationah separatae
+          <lb ed="#P" n="31"/>cum tamen illa persona non sit. Negamus
+          <lb ed="#P" n="32"/>enim convenire, quia non est substantia 
+          com<lb break="no" ed="#P" n="33"/>pleta, de qua est definitio intelligenda.
+        </p>
+        <p xml:id="szduep-134859-d1e310">
+          <lb ed="#P" n="34"/>6. Personam esse substantium singularem.
+          <lb ed="#P" n="35"/>—Secundo, ex illa definitione habetur, 
+          perso<lb break="no" ed="#P" n="36"/>nam significare substantiam singularem et
+          <lb ed="#P" n="37"/>particularem, quod significatum est per illam
+          <lb ed="#P" n="38"/>particulam individua, quod etiam constat ex
+          <lb ed="#P" n="39"/>usu. Nullus enim, hominem ut sic, abstractum
+          <lb ed="#P" n="40"/>ab individuis personam appellavit, et ideo 
+          di<lb break="no" ed="#P" n="41"/>cimus esse plures personas hominum, quod de
+          <lb ed="#P" n="42"/>natura abstracta dici non posset. Est autem
+          <lb ed="#P" n="43"/>advertendum, in divina natura dari 
+          substan<lb break="no" ed="#P" n="44"/>tiam completam et singularem, quae secundum
+          <lb ed="#P" n="45"/>praecisum conceptum persona non est, scilicet
+          <lb ed="#P" n="46"/>haec Deitas, vel hic Deus, quatenus pro 
+          imme<lb break="no" ed="#P" n="47"/>diato, significato supponit, ut infra dicetur.
+          <lb ed="#P" n="48"/>Propter quod aliquibus visum est, illis verbis
+          <lb ed="#P" n="49"/>Boetii, non satis explicari rationem personae,
+          <lb ed="#P" n="50"/>ut patet ex Richardo de S. Victore, lib. 4, de
+          <lb ed="#P" n="51"/>Trinitate, cap. 18 et 21, et ideo in cap. 23,
+          <lb ed="#P" n="52"/>ipse dixit, personam esse rationis naturee 
+          in<lb break="no" ed="#P" n="53"/>commnunicabilem existentiam. Quam 
+          definitio<lb break="no" ed="#P" n="54"/>nem magis probat Scotus supra, quia juata
+          <lb ed="#P" n="55"/>definitionem Botii (inquit) Deitas esset persona.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Nec discrepat D. Thomas, dicta quaest. 29, art.
+          <lb ed="#P" n="57"/>3 ad 4. Ubi ultimo loco refert, quosdam dixisse
+          <lb ed="#P" n="58"/>definitionem Boetii non competere Deo, seu
+          <lb ed="#P" n="59"/>divinis personis, et per Richardum fuisse 
+          cor<lb break="no" ed="#P" n="60"/>rectam. Sic ergo, Divinitas singularis est et 
+          in<lb break="no" ed="#P" n="61"/>divisa, non tamen persona, quia 
+          communicabi<lb break="no" ed="#P" n="62"/>lis est. Sed licet verum sit particulam illam a
+          <lb ed="#P" n="63"/>Richardo positam clariorem esse, existimo 
+          ta<lb break="no" ed="#P" n="64"/>men Boetium in eadem significatione accepisse
+          <lb ed="#P" n="65"/>vocem individui, sicut e contrario vox illa
+          <lb ed="#P" n="66"/>existentia, qua usus est Richardus, obscurior
+          <lb ed="#P" n="67"/>est et significat rem ipsam per se existentem,
+          <lb ed="#P" n="68"/>quae est substantia, ut ex materia subjecta, et
+          <lb ed="#P" n="69"/>ex contextu manifestum est.
+        </p>
+        <p xml:id="szduep-134859-d1e393">
+          <lb ed="#P" n="70"/>7. Personam specialem perfectionem naturee
+          <lb ed="#P" n="71"/>dicere. — Tertio, habemus ex illa definitione,
+          <lb ed="#P" n="72"/>personam significare specialem dignitatem, et
+          <lb ed="#P" n="73"/>perfectionem ex parte naturae, in qua 
+          subsis<lb break="no" ed="#P" n="74"/>tit, nimirum, quod rationals sit. Unde Cicero
+          <lb ed="#P" n="75"/>de Officiis: JIVobis (inquit) imposuit personamn
+          <lb ed="#P" n="76"/>ipsa natura, magna cum eacellentia 
+          preestan<lb break="no" ed="#P" n="77"/>tiaque ceterorum animantium. At enim, quia
+          <lb ed="#P" n="78"/>rationalis natura imperfectionem videtur 
+          in<lb break="no" ed="#P" n="79"/>volvere, ideo Scotus etiam ex hoc capite 
+          de<lb break="no" ed="#P" n="80"/>finitionem reprehendit, refertque Richardus
+          <lb ed="#P" n="81"/>de sancto Victore mutasse vocem rationalis,
+          <lb ed="#P" n="82"/>in intellectualis. Sed quod ad rem attinet,
+          <lb ed="#P" n="83"/>certum est de ratione persona non esse 
+          im<lb break="no" ed="#P" n="84"/>perfectionem discursus, sed solum quod sit in
+          <lb ed="#P" n="85"/>gradu intellectuali, unde etiam Cicero, de 
+          Na<lb break="no" ed="#P" n="86"/>tura Deorum dixit, in Deo et homine personam
+          <lb ed="#P" n="87"/>considerari. Quod vero spectat ad vocem, 
+          po<lb break="no" ed="#P" n="88"/>test facile rationalis, in eo sensu accipi. Unde
+          <lb ed="#P" n="89"/>etiam Richardus illam retinuit, ut constat ex
+          <lb ed="#P" n="90"/>lib. 4. de Trin., cap. 23 et 24. Et ratio est,
+          <lb ed="#P" n="91"/>quia licet rationale trequentius approprietur
+          <lb ed="#P" n="92"/>homini, tamen etiam solet generalius sumi
+          <lb ed="#P" n="93"/>prout ratio vim intelligendi significare potest,
+          <lb ed="#P" n="94"/>abstrahendo a discursu, ut D. Thomas supra
+          <lb ed="#P" n="95"/>notavit, et 2,2, quaest. 83, art. 10 ad 2.
+        </p>
+        <p xml:id="szduep-134859-d1e452">
+          <lb ed="#P" n="96"/>8. Conclusio. —Ex his ergo concluditur, 
+          in<lb break="no" ed="#P" n="97"/>tenta veritas, nimirum in Deo vere et proprie
+          <lb ed="#P" n="98"/>esse personam secundum perfectissimum, et
+          <lb ed="#P" n="99"/>propriissimum significatum hujus vocis. Hoc
+          <lb ed="#P" n="100"/>de fide tenendum est: nam licet haec vox non
+          <lb ed="#P" n="101"/>tribuatur Deo in Scriptura, tamen res ipsa
+          <lb ed="#P" n="102"/>tribuitur, quam per hanc vocem explicarunt
+          <lb ed="#P" n="103"/>Concilia Lateranense, in cap. Firmiter, et cap.
+          <lb ed="#P" n="104"/>Damnamnais, de Summa Trinitate Toletanum
+          <lb ed="#P" n="105"/>11, in confessione fidei, Hispalense 2, cap. 23,
+          <lb ed="#P" n="106"/>Damasus papa in confessione fidei ad 
+          Pauh<lb break="no" ed="#P" n="107"/>num, idem est usus Patrum, Tertullianus
+          <lb ed="#P" n="108"/>contra Praxeeam, in principio, Hilarius, libro de
+          <lb ed="#P" n="109"/>Synodis saepissime, Hieronytnus, Epist. 57, 
+          Au<lb break="no" ed="#P" n="110"/>gustinus A. de Trin., cap.8 et 9, et lib. 7, cap.4
+          <pb ed="#P" n="535"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et 5, et reliqui Latini. Refert item Nazianzenus
+          <lb ed="#P" n="2"/>supra, Athanasium approbasse hanc vocem, et
+          <lb ed="#P" n="3"/>ita etiam fuisse a Graecis receptam, prout 
+          la<lb break="no" ed="#P" n="4"/>tine legitur in symbolo Athanasii, et ibi Graece
+          <lb ed="#P" n="5"/>respondet vox, prosopon, quae eamdem habet
+          <lb ed="#P" n="6"/>significationem. Ratione declarat veritatem
+          <lb ed="#P" n="7"/>hanc D. Thomas, dicto art. 3, quia persona ad
+          <lb ed="#P" n="8"/>dignitatem et perfectionem spectat. Quidquid
+          <lb ed="#P" n="9"/>autem dignitatis et perfectionis est , Deo est
+          <lb ed="#P" n="10"/>tribuendum.
+        </p>
+        <p xml:id="szduep-134859-d1e514">
+          <lb ed="#P" n="11"/>9. Objectio Cajetani.—Contra quam 
+          ratio<lb break="no" ed="#P" n="12"/>nem objicit Cajetanus, ibi, quia in rebus 
+          crea<lb break="no" ed="#P" n="13"/>tis perfectior est natura communis, quam 
+          sup<lb break="no" ed="#P" n="14"/>positum singulare: ergo ex eis non potest 
+          su<lb break="no" ed="#P" n="15"/>mi argumentum ad divinam personam. 
+          Exis<lb break="no" ed="#P" n="16"/>timo autem imprimis objectionem non 
+          proce<lb break="no" ed="#P" n="17"/>dere contra mentem D. Thomae, quia non 
+          lo<lb break="no" ed="#P" n="18"/>quitur de perfectione suppositi supra naturam,
+          <lb ed="#P" n="19"/>sed de dignitate personae ultra communem 
+          ra<lb break="no" ed="#P" n="20"/>tionem suppositi, quae dignitas non ex parte
+          <lb ed="#P" n="21"/>subsistentiae, sed ex parte naturae 
+          conside<lb break="no" ed="#P" n="22"/>randa est, quod satis colligitur ex solutionibus
+          <lb ed="#P" n="23"/>argumentorum. Videtur ergo D. Thomas 
+          tan<lb break="no" ed="#P" n="24"/>quam manifestum supponere ex quaest. 3, in
+          <lb ed="#P" n="25"/>Deo esse suppositum, et inde concludit esse
+          <lb ed="#P" n="26"/>etiam personam, quia illi non deest dignitas
+          <lb ed="#P" n="27"/>naturae, quam persona requirit.
+        </p>
+        <p xml:id="szduep-134859-d1e553">
+          <lb ed="#P" n="28"/>11. Et haec mihi videtur esse propria ratio
+          <lb ed="#P" n="29"/>hujus veritatis. Nam, quod Deus sit substantia
+          <lb ed="#P" n="30"/>singularis, manifestum est. Quod vero etiam sit
+          <lb ed="#P" n="31"/>in Deo substantia incommunicabilhs, seu 
+          incom<lb break="no" ed="#P" n="32"/>municabilis subsistentia, etiam est naturaliter
+          <lb ed="#P" n="33"/>evidens. Quia necesse est omnem rem 
+          existen<lb break="no" ed="#P" n="34"/>tem habere ultimum terminum et modum suae
+          <lb ed="#P" n="35"/>existentiae. Hic autem terminus in natura 
+          subs<lb break="no" ed="#P" n="36"/>tantiali est incommunicabilis subsistentia, 
+          er<lb break="no" ed="#P" n="37"/>go. Major patet, tum quia id spectat ad 
+          perfec<lb break="no" ed="#P" n="38"/>tionem uniuscujusque natura, maxime, si
+          <lb ed="#P" n="39"/>connaturali modo existat, ut necesse est de
+          <lb ed="#P" n="40"/>divina natura sentire, neque enim potest ab
+          <lb ed="#P" n="41"/>statu sibi connaturali abduci, tum etiam, quia
+          <lb ed="#P" n="42"/>non potest in infinitum procedi. Cum ergo
+          <lb ed="#P" n="43"/>constet, divinam substantiam subsistentem
+          <lb ed="#P" n="44"/>esse, inquiro, an sit incommunicabilis alicui
+          <lb ed="#P" n="45"/>rei subsistenti, vel communicabilis? Si 
+          pri<lb break="no" ed="#P" n="46"/>mum dicatur , illa substantia erit persona,
+          <lb ed="#P" n="47"/>cum sit intellectualis naturae. Si vero dicatur
+          <lb ed="#P" n="48"/>secundum, quaeram ulterius de illa re 
+          subsis<lb break="no" ed="#P" n="49"/>tente, cui divina substantia communicatur, an
+          <lb ed="#P" n="50"/>illa etiam sit communicabils alteri rei 
+          subsis<lb break="no" ed="#P" n="51"/>tenti, et quidquid respondeatur, idem fiet 
+          ar<lb break="no" ed="#P" n="52"/>gumentum, in quo non potest in infinitum
+          <lb ed="#P" n="53"/>procedi: ergo sistendum necessario est in 
+          ali<lb break="no" ed="#P" n="54"/>quo subsistente incommunicabili in tali natura,
+          <lb ed="#P" n="55"/>et hoc est persona.
+        </p>
+        <p xml:id="szduep-134859-d1e616">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>11. Dixi autem semper, hujusmodi rem
+          <lb ed="#P" n="57"/>subsistentem, quae sit personae, debete esse
+          <lb ed="#P" n="58"/>incommunicabilem alicui subsistenti, quia non
+          <lb ed="#P" n="59"/>repugnat personae esse communicabilem 
+          al<lb break="no" ed="#P" n="60"/>teri naturae, saltem supernaturaliter sicut 
+          Ver<lb break="no" ed="#P" n="61"/>bum Divinum communicatum est humanitati.
+          <lb ed="#P" n="62"/>Et ratio est, quia in hac communicatione non
+          <lb ed="#P" n="63"/>terminatur ulterius persona communicata, sed
+          <lb ed="#P" n="64"/>polius ipsa terminat existentiam naturae , cui
+          <lb ed="#P" n="65"/>communicatur, et ideo talis communicatio non
+          <lb ed="#P" n="66"/>repugnat rei incommunicabiliter subsistenti.
+          <lb ed="#P" n="67"/>Repugnat autem ei communicatio repectu 
+          al<lb break="no" ed="#P" n="68"/>terius subsistentiis, vel subsistentiae, quia illa
+          <lb ed="#P" n="69"/>communicatio esset ad ulteriorem terminum,
+          <lb ed="#P" n="70"/>repugnat autem, quod ultimo terminatum est,
+          <lb ed="#P" n="71"/>iterum terminari, quatenus tale est.
+        </p>
+        <p xml:id="szduep-134859-d1e655">
+          <lb ed="#P" n="72"/>12. Ad objectionem Cajetani.—Dbeinde 
+          dici<lb break="no" ed="#P" n="73"/>tur ad objectionem Cajetani, quamvis 
+          perso<lb break="no" ed="#P" n="74"/>nalitas, comparata ad naturam praecise et in
+          <lb ed="#P" n="75"/>abstracto, non sit ita perfecta sicut illa, 
+          nihi<lb break="no" ed="#P" n="76"/>lominus aliquam perfectionem dicere, quia est
+          <lb ed="#P" n="77"/>vere res aliqua, seu modus realis. Unde in
+          <lb ed="#P" n="78"/>creaturis non dubito, quin persona sit 
+          perfec<lb break="no" ed="#P" n="79"/>tior, quam natura, quia includit naturam et
+          <lb ed="#P" n="80"/>addit aliquid. Unde hoc non solutn est verum
+          <lb ed="#P" n="81"/>in rebus spiritualibus, sed etiam in suppositis
+          <lb ed="#P" n="82"/>materialibus (quamvis Cajetanus formidare
+          <lb ed="#P" n="83"/>videatur) ratio enim facta aeque in omnibus
+          <lb ed="#P" n="84"/>concludit. Atque ita etiam ex hoc capite recte
+          <lb ed="#P" n="85"/>procedit D. Thomae ratio. Insurgit tatnen 
+          sta<lb break="no" ed="#P" n="86"/>tim difficultas in principio tacta, quia si 
+          per<lb break="no" ed="#P" n="87"/>sonahtas in Deo perfectionem dicit, erit de
+          <lb ed="#P" n="88"/>essentia Dei. Quam difficultatem quasi 
+          praeve<lb break="no" ed="#P" n="89"/>niens Cajetanus eodem loco, respondet, 
+          per<lb break="no" ed="#P" n="90"/>sonalitatem in Deo nec perfectionem, nec 
+          im<lb break="no" ed="#P" n="91"/>perfectionem dicere, ait tamen pertinere ad
+          <lb ed="#P" n="92"/>perfectionem naturae divinae, ut suum 
+          intrin<lb break="no" ed="#P" n="93"/>secum et connaturalem terminum habeat ,
+          <lb ed="#P" n="94"/>etiamsi ille ex proprio conceptu 
+          perfectio<lb break="no" ed="#P" n="95"/>nem non afferat, et ita accommodat 
+          ratio<lb break="no" ed="#P" n="96"/>nem D. Thomae. Ego vero censeo, 
+          persona<lb break="no" ed="#P" n="97"/>litatem divinam perfectioner dicere ex 
+          pro<lb break="no" ed="#P" n="98"/>prioconceptu, aliquid enim reale est, et aliquod
+          <lb ed="#P" n="99"/>bonum. An vero haec perfectio sit essentialis
+          <lb ed="#P" n="100"/>Deo, et an sit una, vel multiplex, et an 
+          quaeli<lb break="no" ed="#P" n="101"/>bet sit in omnibus personis divinis, nec ne
+          <lb ed="#P" n="102"/>(quae omnia inculcantur in illa ratione 
+          dubi<lb break="no" ed="#P" n="103"/>tandi), pendent ex his, quae paulatim 
+          tractan<lb break="no" ed="#P" n="104"/>da sunt, et ideo melius infra dicentur, cum de
+          <lb ed="#P" n="105"/>relationibus divinis disputabitur.
+        </p>
+        <p xml:id="szduep-134859-d1e731">
+          <lb ed="#P" n="106"/>13. In Deo verum suppositum veramque 
+          hy<lb break="no" ed="#P" n="107"/>postasim essc.—Vandem ex resolutione hujus
+          <lb ed="#P" n="108"/>quaestionis constat, in Deo esse verum 
+          suppo<lb break="no" ed="#P" n="109"/>situm, veramque hypostasim. Hae namque duae
+          <lb ed="#P" n="110"/>voces in usu theologorum idem signiticant, ut
+          <pb ed="#P" n="536"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>magis ex sequenti capite constabit. Utraque
+          <lb ed="#P" n="2"/>vero universalior est, quam persona, omnis
+          <lb ed="#P" n="3"/>enim substantia singularis et 
+          incommunicabi<lb break="no" ed="#P" n="4"/>lis, in quacumque natura subsistat, 
+          supposi<lb break="no" ed="#P" n="5"/>tum est: persona vero addit limitationem ex
+          <lb ed="#P" n="6"/>parte naturae, ut declaravimus. Addit vero D.
+          <lb ed="#P" n="7"/>Thomas, dict. quaest. 29, art. 2, illas duas 
+          vo<lb break="no" ed="#P" n="8"/>cés dicere diversos respectus: nam suppositum
+          <lb ed="#P" n="9"/>dicit respectum ad naturam communem, cui
+          <lb ed="#P" n="10"/>subest: hypostasis vero ad accidentia, quibus
+          <lb ed="#P" n="11"/>substat. Verumtamen hoc posterius non est
+          <lb ed="#P" n="12"/>intelligendum comprehendi in significato 
+          vo<lb break="no" ed="#P" n="13"/>cis, alias Deus non esset hypostasis, quia non
+          <lb ed="#P" n="14"/>substat accidentibus, ergo ad summum potest
+          <lb ed="#P" n="15"/>pertinere ad Etymologiam vocis. Et hoc etiam
+          <lb ed="#P" n="16"/>mihi est incertum, quia omnino eodem modo
+          <lb ed="#P" n="17"/>apud Graecos se habet illa vox, quo apud 
+          La<lb break="no" ed="#P" n="18"/>tinos suppositum. Subjunxit etiam D. 
+          Tho<lb break="no" ed="#P" n="19"/>mas ibi, in Deo esse rem nature, nam per
+          <lb ed="#P" n="20"/>hanc vocem dicit etiam significari suppositum,
+          <lb ed="#P" n="21"/>quia est res singularis, in qua natura 
+          commu<lb break="no" ed="#P" n="22"/>nis existit. Sed haec vox obscurior est, et jam
+          <lb ed="#P" n="23"/>parum usitata. De voce autem, Prama 
+          subs<lb break="no" ed="#P" n="24"/>tuntia, et individuum, quomodo possint Deo 
+          tri<lb break="no" ed="#P" n="25"/>bui, dicam infra, c. 4, et videri possunt, quae in
+          <lb ed="#P" n="26"/>Metaphysica dixi, disp. 5, sect. 1, et disp. 34,
+          <lb ed="#P" n="27"/>sect. 1.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

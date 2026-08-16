@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="85"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-021712"><!-- t1-l2c12 -->
+        <head xml:id="szduep-021712-Hd1e101">Caput 12</head>
+        <head xml:id="szduep-021712-Hd1e103" type="question-title">An videatur deus per speciem creatam</head>
+        <p xml:id="szduep-021712-d1e106">
+          <lb ed="#P" n="78"/>CAPUT XII.
+          <lb ed="#P" n="79"/>AN VIDEATUR DEUS PER SPECIEM CREATAM.
+        </p>
+        <p xml:id="szduep-021712-d1e113">
+          <lb ed="#P" n="80"/>1. Non est sermo de specie naturali, seu
+          <lb ed="#P" n="81"/>connaturali intellectui creato, sic enim certum
+          <lb ed="#P" n="82"/>est, sicut actus visionis supernaturalis est, ita
+          <lb ed="#P" n="83"/>ad illum ejiciendum non posse sufticere 
+          natu<lb break="no" ed="#P" n="84"/>ralem speciem. Quo sensu recte dixit 
+          Capreo<lb break="no" ed="#P" n="85"/>lus in 4, d. 49, q. 4, art. 3 ad 3, Aureoli 
+          con<lb break="no" ed="#P" n="86"/>tra 2. conclusionem, in hoc negotio videndi
+          <lb ed="#P" n="87"/>Deum, nullas partes habere intellectum 
+          agen<lb break="no" ed="#P" n="88"/>tem, cum ad videndum Deum non sit 
+          abstra<lb break="no" ed="#P" n="89"/>henda species aliqua intelligibilis, quod est
+          <lb ed="#P" n="90"/>munus intellectus agentis. Imo etiam in 
+          an<lb break="no" ed="#P" n="91"/>gelis et animabus separatis licet intelligibiles
+          <lb ed="#P" n="92"/>species non acquirant per actionem intellectus
+          <lb ed="#P" n="93"/>agentis, sed a Deo eis donentur, nihilominus
+          <lb ed="#P" n="94"/>nulla in eis potest dari species ordinis 
+          natura<lb break="no" ed="#P" n="95"/>lis, eisve secundum capacitatem naturalem
+          <lb ed="#P" n="96"/>aliquo modo debita, qua Deum videre possint.
+          <lb ed="#P" n="97"/>Quia non magis potest esse debitus actus 
+          pri<lb break="no" ed="#P" n="98"/>mus, quam secundus, cum ejusdem ordinis
+          <lb ed="#P" n="99"/>esse debeant: quod etiam ex dicendis a fortiori
+          <lb ed="#P" n="100"/>constabit. Est ergo difficultas de specie aliqua
+          <lb ed="#P" n="101"/>creata, quae sit supernaturahls, ac divini 
+          ordi<lb break="no" ed="#P" n="102"/>nis, ac subinde per se infusa respectu omnis
+          <lb ed="#P" n="103"/>creaturae possibilis.
+        </p>
+        <p xml:id="szduep-021712-d1e168">
+          <lb ed="#P" n="104"/>2. Prior opinio. — In hac ergo quaestione
+          <lb ed="#P" n="105"/>multi theologi docuerunt visionem claram Dei
+          <lb ed="#P" n="106"/>proxime fieri per creatam speciem Dei, prius
+          <lb ed="#P" n="107"/>natura infusam intellectui beati. Hujus senten-
+          <pb ed="#P" n="86"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiae videtur fuisse Aureolus, ut refert Capreolus
+          <lb ed="#P" n="2"/>4, dist. 49, quaest. 5, art. 2 et supposito, quod
+          <lb ed="#P" n="3"/>visio fiat ab intellectu, eam putat 
+          probabilio<lb break="no" ed="#P" n="4"/>rem Richardus in 3, d. 14, artic. 3, q. 3, et in
+          <lb ed="#P" n="5"/>4. d. 49, art. 3, qu. 1, ubirefert alios etiam hoc
+          <lb ed="#P" n="6"/>sensisse ; quosdam vero dixisse, etiam si detur
+          <lb ed="#P" n="7"/>haec species, simul necessarium esse concursum
+          <lb ed="#P" n="8"/>essentiae divinae, non solum ut primae causae in
+          <lb ed="#P" n="9"/>omni ordine rerum, sed etiam ut objecti actu
+          <lb ed="#P" n="10"/>intelligibilis, quem dicendi modum refert 
+          e<lb break="no" ed="#P" n="11"/>tiam Marsilius in 3, quaestione 10, articulo 
+          se<lb break="no" ed="#P" n="12"/>cundo. Sed eum merito rejiciunt, quia 
+          super<lb break="no" ed="#P" n="13"/>flue multiplicat: principia intelligendi ex parte
+          <lb ed="#P" n="14"/>objecti et auget, ac congerit difficultates 
+          om<lb break="no" ed="#P" n="15"/>nium opinionum sine ulla necessitate. Denique
+          <lb ed="#P" n="16"/>Scotus in 4, d. 49, q. 11, licet expresse non 
+          di<lb break="no" ed="#P" n="17"/>cat : Deum videri per speciem, dicit tamen,
+          <lb ed="#P" n="18"/>rationes, quibus probari solet non dari talem
+          <lb ed="#P" n="19"/>speciem, nihil probare. Duobus autem modis 
+          so<lb break="no" ed="#P" n="20"/>let affirmari, et confirmari haec opinio illa, 
+          pri<lb break="no" ed="#P" n="21"/>mo quia implicat contradictionem, fieri 
+          visio<lb break="no" ed="#P" n="22"/>nem Deisine tali specie; secundoquia licet non
+          <lb ed="#P" n="23"/>implicet, de facto asserendum non est ita fieri.
+        </p>
+        <p xml:id="szduep-021712-d1e234">
+          <lb ed="#P" n="24"/>3. Confirmatur praedicta opinio. — Priori
+          <lb ed="#P" n="25"/>ergo modo probatur haec sententia, quia tota
+          <lb ed="#P" n="26"/>necessitas speciei est, ut constituat intellectum
+          <lb ed="#P" n="27"/>in actu primo ad efficiendam visionem, eamque
+          <lb ed="#P" n="28"/>simul cum illo efficiat, non potest autem Deus
+          <lb ed="#P" n="29"/>supplere per se ipsum hoc munus speciei 
+          intel<lb break="no" ed="#P" n="30"/>ligibilis, ergo. Probatur minor. Primo quia
+          <lb ed="#P" n="31"/>constituere intellectum in actu primo convenit
+          <lb ed="#P" n="32"/>speciei in genere causae formalis, quam Deus
+          <lb ed="#P" n="33"/>supplere non potest, nec per se ipsum potest
+          <lb ed="#P" n="34"/>uniri intellectui, quia non potest illi tribuere
+          <lb ed="#P" n="35"/>esse increatum. Secundo etiam quoad 
+          efticien<lb break="no" ed="#P" n="36"/>tiam non videtur suppleri posse species a Deo
+          <lb ed="#P" n="37"/>per modum objecti intelligibilis, quia oportebit
+          <lb ed="#P" n="38"/>Deum efficerc ad extra immediate per suam
+          <lb ed="#P" n="39"/>substantiam, quatenus est quaedam entitas
+          <lb ed="#P" n="40"/>actu intelligibilis, quia ut efficiat per modum
+          <lb ed="#P" n="41"/>objecti, oportet, ut sicut per suam substantiam
+          <lb ed="#P" n="42"/>immediate terminat actum videndi, ita per
+          <lb ed="#P" n="43"/>eamdem illum efficiat: Hoc autem esse 
+          impos<lb break="no" ed="#P" n="44"/>sibile probatur, quia Deus ad extra nihil 
+          ope<lb break="no" ed="#P" n="45"/>ratur immediate nisi per voluntatem aut 
+          om<lb break="no" ed="#P" n="46"/>nipotentiam suam. Confirmatur quoniam alias
+          <lb ed="#P" n="47"/>efficientia illa non solum esset ab essentia Dei
+          <lb ed="#P" n="48"/>ratione absolutae entitatis, sed etiam a 
+          relatio<lb break="no" ed="#P" n="49"/>nibus divinis secundum proprias rationes 
+          ea<lb break="no" ed="#P" n="50"/>rum, quia illae ut tales, sunt objecta actu 
+          in<lb break="no" ed="#P" n="51"/>telligibilia, intime praesentia intellectui per se
+          <lb ed="#P" n="52"/>ipsa, sed haec est tota ratio, quare essentia Dei
+          <lb ed="#P" n="53"/>dicitur concurrere immediate per modum 
+          ob<lb break="no" ed="#P" n="54"/>jecti actu intelligibilis, ergo idem dicendum
+          <lb ed="#P" n="55"/>erit de relationibus. Consequens autem videtur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>absurdum: tum quia efficientia Trinitatis 
+          in<lb break="no" ed="#P" n="57"/>divisa est, semper ergo agunt personae per id,
+          <lb ed="#P" n="58"/>quod commune est, non per id quod est 
+          pro<lb break="no" ed="#P" n="59"/>prium. alioqui efficientia aliqua conveniret uni
+          <lb ed="#P" n="60"/>personae, quae non esset communis omnibus.
+          <lb ed="#P" n="61"/>Contirmatur, quia jam aliquis effectus creatus
+          <lb ed="#P" n="62"/>per se procederet a Deo, ut Trinus est et ita
+          <lb ed="#P" n="63"/>per illum posset cognosci Trinitas, ut Trinitas
+          <lb ed="#P" n="64"/>est. Denique illa efficientia relationis, ut 
+          rela<lb break="no" ed="#P" n="65"/>tio est vel esset suprema, et independens vel
+          <lb ed="#P" n="66"/>dependens a generali concursu primae causae.
+          <lb ed="#P" n="67"/>Hoc secundum repugnat perfectioni divinae,
+          <lb ed="#P" n="68"/>nec primum etiam dici potest, quia nulla est
+          <lb ed="#P" n="69"/>operatio ad extra, quae per se primo non 
+          pro<lb break="no" ed="#P" n="70"/>cedat et pendeat a Deo, ut Deus est.
+        </p>
+        <p xml:id="szduep-021712-d1e341">
+          <lb ed="#P" n="71"/>4. Effugium. — Hefutatur. — Vicetur 
+          for<lb break="no" ed="#P" n="72"/>tasse, saltem posse Deum, ut supremum agens
+          <lb ed="#P" n="73"/>per se ipsum supplere vicem speciei 
+          intelligi<lb break="no" ed="#P" n="74"/>bilis, quia praecipue est necessaria propter 
+          efti<lb break="no" ed="#P" n="75"/>cientiam, quae efficientia, ut est ab specie non
+          <lb ed="#P" n="76"/>est vitalis et ideo suppleri potest a Deo. Contra
+          <lb ed="#P" n="77"/>hoc vero probatur dicta sententia posteriori
+          <lb ed="#P" n="78"/>modo, nimirum, non esse asserendum, ita de
+          <lb ed="#P" n="79"/>facto fieri, licet non implicet. Quia 
+          connatu<lb break="no" ed="#P" n="80"/>rale non est ipsi visioni, illa autem visio debet
+          <lb ed="#P" n="81"/>fieri connaturali modo quantum ex parte illhus
+          <lb ed="#P" n="82"/>fieri possit, licet respectu hominis fiat 
+          super<lb break="no" ed="#P" n="83"/>naturali modo. Quod autem ille modus non sit
+          <lb ed="#P" n="84"/>connaturalis, patet, quia modus videndi 
+          con<lb break="no" ed="#P" n="85"/>naturalis est per speciem objecti, ut in visu
+          <lb ed="#P" n="86"/>corporali, licet possit Deus facere, ut videat
+          <lb ed="#P" n="87"/>sine specie, tamen modus non esset 
+          connatu<lb break="no" ed="#P" n="88"/>ralis. Quae ratio etiam probare videtur, quod
+          <lb ed="#P" n="89"/>licet daremus non implicare contradictionem.
+          <lb ed="#P" n="90"/>Deum influere in illam visionem per se ipsum,
+          <lb ed="#P" n="91"/>ut objectum actu intelligibile : nihilominus
+          <lb ed="#P" n="92"/>non esset asserendum, nunc ita fieri, quia non
+          <lb ed="#P" n="93"/>esset modus connaturalis, nec consentaneus
+          <lb ed="#P" n="94"/>ordinariae providentiae, quae postulat, ut quae
+          <lb ed="#P" n="95"/>Deus potest facere per intrinseca principia, seu
+          <lb ed="#P" n="96"/>formas seu qualitates, non faciat per se ipsum,
+          <lb ed="#P" n="97"/>sed per formam accommodatam, tanquam per
+          <lb ed="#P" n="98"/>causam secundam seu proximam. Et 
+          confir<lb break="no" ed="#P" n="99"/>matur, quia illa efficientia visionis beatae a
+          <lb ed="#P" n="100"/>Deo, ut ab objecto non est naturalis, id est
+          <lb ed="#P" n="101"/>necessaria, sed voluntaria et libera: ergo non
+          <lb ed="#P" n="102"/>debet esse immediate substantia ejus, quia
+          <lb ed="#P" n="103"/>tunc solum operatur immediate substantia, ut
+          <lb ed="#P" n="104"/>substantia vel tanquam objectum intelligibile,
+          <lb ed="#P" n="105"/>quando operatur naturaliter, quatenus est et
+          <lb ed="#P" n="106"/>non quatenus vult, operatur autem quatenus
+          <lb ed="#P" n="107"/>vult influendo per voluntatem, ergo ut actio
+          <lb ed="#P" n="108"/>fiat connaturali modo, debet Deus per suam
+          <lb ed="#P" n="109"/>voluntatem influere speciem, non vero actum
+          <lb ed="#P" n="110"/>ipsum videndi.
+        </p>
+        <p xml:id="szduep-021712-d1e430">
+          <pb ed="#P" n="87"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5. Contraria sententia est verior.—6See 
+          mu<lb break="no" ed="#P" n="2"/>nera speciei intelligibilis. — Nihilominus 
+          con<lb break="no" ed="#P" n="3"/>traria sententia est expresse D. Thomae et 
+          com<lb break="no" ed="#P" n="4"/>munis Thomistarum, communiorque 
+          theologo<lb break="no" ed="#P" n="5"/>rum, quos sequenti capite commodius referam:
+          <lb ed="#P" n="6"/>eamque censeo omnino veram. Ut tamen illam
+          <lb ed="#P" n="7"/>confirmem et declarem, necessarium indico
+          <lb ed="#P" n="8"/>prius explicare munus, et necessitatem speciei
+          <lb ed="#P" n="9"/>intellhigibilis, et officia quae illi tribuuntur.
+          <lb ed="#P" n="10"/>Nam licet hoc philosophorum sit proprium,
+          <lb ed="#P" n="11"/>tamen hic necessarium est attingere id, quod
+          <lb ed="#P" n="12"/>est praesentis quaestionis fundamentum. 
+          Prae<lb break="no" ed="#P" n="13"/>sertim quia nonnulli theologi circa quaestionem
+          <lb ed="#P" n="14"/>hanc multa dicunt de specie intelligibili. Sex
+          <lb ed="#P" n="15"/>ergo illi tribuuntur. 7nberere intellectui, 
+          con<lb break="no" ed="#P" n="16"/>stituere illum in actu primo seu informare illum,
+          <lb ed="#P" n="17"/>unire objectum potentiee, efficere actum 
+          intelli<lb break="no" ed="#P" n="18"/>gendi, repreesentare objectum , et determinare
+          <lb ed="#P" n="19"/>potentiam ad talem speciem actus.
+        </p>
+        <p xml:id="szduep-021712-d1e478">
+          <lb ed="#P" n="20"/>6. Primum munus. — Circa primum 
+          fre<lb break="no" ed="#P" n="21"/>quenter Thomistae dicunt, inhaerere, per 
+          acci<lb break="no" ed="#P" n="22"/>dens convenire speciei intelligibili, quia 
+          acci<lb break="no" ed="#P" n="23"/>dentarium illi est, quod sit accidens: per se
+          <lb ed="#P" n="24"/>vero solum requirit unionem cum intellectu in
+          <lb ed="#P" n="25"/>esse intelligibih. Sed advertendum est, aliud
+          <lb ed="#P" n="26"/>esse loqui de specie, aliud de objecto 
+          intelligi<lb break="no" ed="#P" n="27"/>bili: nam objecto ut sic accidentarium est
+          <lb ed="#P" n="28"/>conjungi cum potentia, mediante aliqua re
+          <lb ed="#P" n="29"/>inhaerente intellectui, quia de se tale objectum
+          <lb ed="#P" n="30"/>non habet, quod sit accidens et si possit per se
+          <lb ed="#P" n="31"/>conjungi intellectui ad efficiendum actum 
+          in<lb break="no" ed="#P" n="32"/>telligendi, non id faciet medio accidente, sed
+          <lb ed="#P" n="33"/>potius per se melius efticiet, quam per 
+          instru<lb break="no" ed="#P" n="34"/>mentum. At vero species intelligibilis proprie
+          <lb ed="#P" n="35"/>significat aliquid distinctum ab objecto, quod
+          <lb ed="#P" n="36"/>sit veluti semen seu instrumentum ejus, 
+          da<lb break="no" ed="#P" n="37"/>tum potentiae cognoscendi ad supplendam 
+          vi<lb break="no" ed="#P" n="38"/>cem objecti quando ipsum per se non potest
+          <lb ed="#P" n="39"/>adesse potentiae, et per se efficere cum illa. Et
+          <lb ed="#P" n="40"/>hujusmodi species semper est accidens, neque
+          <lb ed="#P" n="41"/>aliter intelligi nec fieri potest et ideo speciei
+          <lb ed="#P" n="42"/>proprie dictae, quatenus ab objecto 
+          distingui<lb break="no" ed="#P" n="43"/>tur per se convenit inhaerere. Quamvis in ipsa
+          <lb ed="#P" n="44"/>specie distingui possit entitas, seu esse ejus
+          <lb ed="#P" n="45"/>et finis, seu efficacia ejus: priori enim modo
+          <lb ed="#P" n="46"/>per se illi convenit inhaerere: posteriori 
+          consi<lb break="no" ed="#P" n="47"/>deratione dici potest per accidens, quia finis
+          <lb ed="#P" n="48"/>speciei est, ut coefficiat cum intellectu, unde
+          <lb ed="#P" n="49"/>si cum sola existentia cum intima praesentia ad
+          <lb ed="#P" n="50"/>intellectum, intelligatur sufficiens ad 
+          efficien<lb break="no" ed="#P" n="51"/>dum, accidentarium est, quod inhaereat. Quo
+          <lb ed="#P" n="52"/>sensu recte Scotus in 1, d. 3, qu. 7, dixit, quod
+          <lb ed="#P" n="53"/>speciei quatenus est, causa partialis, accidit
+          <lb ed="#P" n="54"/>actuare seu inhaerere.
+        </p>
+        <p xml:id="szduep-021712-d1e556">
+          <lb ed="#P" n="55"/>7. Secundum munus.— Circa secundum sci-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>licet, constituere in actu intellectum, 
+          Cajeta<lb break="no" ed="#P" n="57"/>nus, 1 p., q. 12, art. 1, circa finem dicit, 
+          spe<lb break="no" ed="#P" n="58"/>ciem non solum constituere formaliter 
+          in<lb break="no" ed="#P" n="59"/>tellectum in actu primo, sed etiam in actu
+          <lb ed="#P" n="60"/>secundo, non tamen in principium effticiens,
+          <lb ed="#P" n="61"/>sed ut formam informantem non quia ipsa sit
+          <lb ed="#P" n="62"/>actus secundus, sed quia comparatur ad actum
+          <lb ed="#P" n="63"/>secundum, sicut forma ad esse. Additque 
+          divi<lb break="no" ed="#P" n="64"/>nam essentiam eodem modo constituere 
+          intel<lb break="no" ed="#P" n="65"/>lectum formaliter in ordine ad visionem sui
+          <lb ed="#P" n="66"/>et ad illum comparari, sicut formam ad esse,
+          <lb ed="#P" n="67"/>quamvis non informet proprie, sed altiori
+          <lb ed="#P" n="68"/>modo uniatur. Haec vero doctrina est falsa, et
+          <lb ed="#P" n="69"/>intelligi non potest. Suppono enim actum 
+          cog<lb break="no" ed="#P" n="70"/>noscendi esse qualitatem et formam 
+          distinc<lb break="no" ed="#P" n="71"/>tam ab specie: quantum est ex se separabilem
+          <lb ed="#P" n="72"/>ab illa, ita ut possit species conservari cum
+          <lb ed="#P" n="73"/>toto effectu formali, absque actuali cognitione.
+          <lb ed="#P" n="74"/>Quibus suppositis facile est intelligere, 
+          impos<lb break="no" ed="#P" n="75"/>sibile esse actum intelligendi esse ab specie, ut
+          <lb ed="#P" n="76"/>esse forma, quia neque esse, quod dat forma
+          <lb ed="#P" n="77"/>est separabile ab ipsa informante, imo nec est
+          <lb ed="#P" n="78"/>distinctum ab ipsa: nec etiam una qualitas
+          <lb ed="#P" n="79"/>potest esse formalis effectus alterius distinctae.
+          <lb ed="#P" n="80"/>Porro impossibilius est, quod de essentia 
+          di<lb break="no" ed="#P" n="81"/>vina dicitur, quia actus videndi Deum est forma
+          <lb ed="#P" n="82"/>creata, quomodo ergo potest esse formaliter a
+          <lb ed="#P" n="83"/>forma seu natura increata? Item quia si 
+          es<lb break="no" ed="#P" n="84"/>sentia divina aliquo modo potest constituere
+          <lb ed="#P" n="85"/>intellectum in actu formaliter: ergo formalhter
+          <lb ed="#P" n="86"/>debet illi dare aliquod esse, ergo dabit esse
+          <lb ed="#P" n="87"/>increatum, nam forma non dat formaliter aliud
+          <lb ed="#P" n="88"/>esse, nisi quod ipsa est seu quod in se habet.
+          <lb ed="#P" n="89"/>Consequens autem est plane falsum, ut patebit
+          <lb ed="#P" n="90"/>etiam ex dicendis. Dicendum est ergo, speciem
+          <lb ed="#P" n="91"/>non constituere formaliter intellectum in actu
+          <lb ed="#P" n="92"/>secundo, sed proxime in actu primo, solumque
+          <lb ed="#P" n="93"/>comparari ad actum secundum, tanquam 
+          prin<lb break="no" ed="#P" n="94"/>cipium efticiens ejus ut jam ostendimus. Haec
+          <lb ed="#P" n="95"/>autem constitutio intellectus in actu primo
+          <lb ed="#P" n="96"/>potest intelligi, aut per propriam 
+          informatio<lb break="no" ed="#P" n="97"/>nem, et hoc convenit speciei, quatenus 
+          acci<lb break="no" ed="#P" n="98"/>dens est aut per quamcumque aliam unionem
+          <lb ed="#P" n="99"/>seu conjunctionem ad efficiendum, et hoc est
+          <lb ed="#P" n="100"/>per se necessarium in objecto intelligibili seu
+          <lb ed="#P" n="101"/>in specie, quatenus supplet vicem ejus. Atque
+          <lb ed="#P" n="102"/>hinc ortum habuit vulgaris illa distinctio in
+          <lb ed="#P" n="103"/>hac materia de duplici modo actuandi 
+          poten<lb break="no" ed="#P" n="104"/>tiam, in esse reali vel intelligibili, de qua
+          <lb ed="#P" n="105"/>statim dicam.
+        </p>
+        <p xml:id="szduep-021712-d1e671">
+          <lb ed="#P" n="106"/>8. Tertium munus.—Carca tertium de 
+          unio<lb break="no" ed="#P" n="107"/>ne objecti cum potentia, media specie 
+          notan<lb break="no" ed="#P" n="108"/>dum est, quod paulo ante dixi, aliud esse loqui
+          <lb ed="#P" n="109"/>de objecto, aliud de specie: nam objectum per
+          <lb ed="#P" n="110"/>se et secundum se non postulat uniri cum po-
+          <pb ed="#P" n="88"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tentia per modum formae proprie actuantis et
+          <lb ed="#P" n="2"/>informantis illam. Dico autem per se, nam 
+          alh<lb break="no" ed="#P" n="3"/>quando contingit objectum, quod intelligitur
+          <lb ed="#P" n="4"/>esse actum vel habitum ipsius intellectus, qui
+          <lb ed="#P" n="5"/>unitur potentiae proprie, per modum formae.
+          <lb ed="#P" n="6"/>Sed hoc convenit illi quatenus est qualitas
+          <lb ed="#P" n="7"/>mentis non per se, ac praecise quia objectum
+          <lb ed="#P" n="8"/>intelligibile actu est. Unde potest dari aliquod
+          <lb ed="#P" n="9"/>objectum hujusmodi, quod sit substantia, vel
+          <lb ed="#P" n="10"/>res alia extrinseca intellectui, quae ex se non
+          <lb ed="#P" n="11"/>habeat informare intellectum. Quando ergo
+          <lb ed="#P" n="12"/>res potest aliter per se ipsam conjungi 
+          intel<lb break="no" ed="#P" n="13"/>lectui in ratione objecti intelligibilis, non 
+          opor<lb break="no" ed="#P" n="14"/>tet, illam unionem esse per modum formae
+          <lb ed="#P" n="15"/>proprie informantis, sed per modum principii
+          <lb ed="#P" n="16"/>juvantis intellectum ad intelligendum.
+        </p>
+        <p xml:id="szduep-021712-d1e724">
+          <lb ed="#P" n="17"/>9. Atque ita est intelligendus D. Thomas 1
+          <lb ed="#P" n="18"/>p. q. 12. art. 2, ad 3 et 3, contra Gentes, cap.
+          <lb ed="#P" n="19"/>51. Quamvis Cajetanus et Thomistae longe 
+          ali<lb break="no" ed="#P" n="20"/>ter videantur hoc explicare. Distinguunt enim
+          <lb ed="#P" n="21"/>duplicem unionem, seu informationem, seu
+          <lb ed="#P" n="22"/>duplicem actuandi modum, scilicet in esse
+          <lb ed="#P" n="23"/>reali velin esse intelligibili, dicentes objectum
+          <lb ed="#P" n="24"/>ipsum, v. g.,essentiam divinam, si per se 
+          con<lb break="no" ed="#P" n="25"/>jungatur potentiae, quamvis non uniatur illi
+          <lb ed="#P" n="26"/>per modum formae naturalis in esse reali, 
+          ta<lb break="no" ed="#P" n="27"/>men necessario debere uniri in esse 
+          intelligi<lb break="no" ed="#P" n="28"/>bili, ita ut vere constituat intellectum in actu
+          <lb ed="#P" n="29"/>primo per modum formae intelligibilis. Sed
+          <lb ed="#P" n="30"/>interrogo, quae, vel qualis sit unio haec in esse
+          <lb ed="#P" n="31"/>intelligibili: aut enim est vera et formalis, et
+          <lb ed="#P" n="32"/>realis unio, quae ordine naturae antecedit inter
+          <lb ed="#P" n="33"/>potentiam, et objectum ante actum 
+          intelli<lb break="no" ed="#P" n="34"/>cendi vel non. Si dicatur hoc secundum, 
+          tol<lb break="no" ed="#P" n="35"/>litur quaestio, quia si non est realis unio, nihil
+          <lb ed="#P" n="36"/>esse potest praeter id quod diximus: sic enim
+          <lb ed="#P" n="37"/>uniri in esse intelhgibih, nihil aliud erit quam
+          <lb ed="#P" n="38"/>simul conjungi, tandem duo principia 
+          subor<lb break="no" ed="#P" n="39"/>dinata ad efficiendum unum actum 
+          intelli<lb break="no" ed="#P" n="40"/>cendi. ó
+        </p>
+        <p xml:id="szduep-021712-d1e779">
+          <lb ed="#P" n="41"/>10. Si vero dicatur primum, impugnari 
+          po<lb break="no" ed="#P" n="42"/>test, tum quia nova unio realis non est sine
+          <lb ed="#P" n="43"/>novo modo, vel mutatione reali in altero 
+          ex<lb break="no" ed="#P" n="44"/>tremorum, hic vero neque in essentia divina
+          <lb ed="#P" n="45"/>hoc reperiri potest, ut per se constat neque in
+          <lb ed="#P" n="46"/>intellectu, ut ipsi fatentur, nam praeter Ilumen
+          <lb ed="#P" n="47"/>gloriae nulla alia mutatio, vel modus ponitur
+          <lb ed="#P" n="48"/>in intellectu in actu primo et quatenus 
+          ante<lb break="no" ed="#P" n="49"/>cedit visionem, nec facile potest fingi aut 
+          ex<lb break="no" ed="#P" n="50"/>plicari talis modus. Deinde, quia omnis unio
+          <lb ed="#P" n="51"/>realis terminatur ad unum reale compositum,
+          <lb ed="#P" n="52"/>ex intellectu vero, et essentia divina non 
+          com<lb break="no" ed="#P" n="53"/>ponitur unum ens rcale, quia neque una 
+          sub<lb break="no" ed="#P" n="54"/>stantia, neque unum accidens, neque unum
+          <lb ed="#P" n="55"/>aliquod esse, neque divina essentia communi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cat suum esse increatum intellectui, neque e
+          <lb ed="#P" n="57"/>contrario. Denique unio realis inter duo non
+          <lb ed="#P" n="58"/>intelligitur sine aliqua vel causahtate mutua,
+        </p>
+        <p xml:id="szduep-021712-d1e823">
+          <lb ed="#P" n="59"/>vel saltem dependentia reali in existendo, vel
+        </p>
+        <p xml:id="szduep-021712-d1e828">
+          <lb ed="#P" n="60"/>subsistendo: nihil autem horum reperitur 
+          in<lb break="no" ed="#P" n="61"/>ter essentiam divinam et intellectum. Igitur,
+          <lb ed="#P" n="62"/>si contingat objectum per se conjungi 
+          poten<lb break="no" ed="#P" n="63"/>tiae ad causandam intellectionem sui, tota illa
+          <lb ed="#P" n="64"/>conjunctio intelligi debet in ordine ad 
+          efficien<lb break="no" ed="#P" n="65"/>tiam, ergo solum potest ibi intelligi intima
+          <lb ed="#P" n="66"/>propinquitas et indistantia entitatum , inter
+          <lb ed="#P" n="67"/>objectum et potentiam cum subordinatione ad
+          <lb ed="#P" n="68"/>agendum eumdem actum. Et tunc dicitur 
+          con<lb break="no" ed="#P" n="69"/>stitui in actu primo intellectus per ipsum 
+          ob<lb break="no" ed="#P" n="70"/>jectum sibi unitum, non quia proprie objectum
+          <lb ed="#P" n="71"/>actuet, vel informet seu constituat intellectum
+          <lb ed="#P" n="72"/>in aliquo vero, et reali esse, sed solum, quia
+          <lb ed="#P" n="73"/>ita assistit intellectui, ut compleat activitatem
+          <lb ed="#P" n="74"/>ejus et sufficienter illum determinet ad talem
+          <lb ed="#P" n="75"/>actionem. At vero quando objectum unitur
+          <lb ed="#P" n="76"/>potentiae per speciem, ipsa quidem species vere
+          <lb ed="#P" n="77"/>unitur, ut forma informans, objectum vero
+          <lb ed="#P" n="78"/>per illam unitur potentiae tanquam agens per
+          <lb ed="#P" n="79"/>semen suum vel per instrumentum , sicut
+          <lb ed="#P" n="80"/>movens unitur mobili per impetum vel 
+          gene<lb break="no" ed="#P" n="81"/>rans passo per semen, quae unio non est 
+          al<lb break="no" ed="#P" n="82"/>quid distinctum ab ipsa specie, ejusque 
+          effica<lb break="no" ed="#P" n="83"/>citate.
+        </p>
+        <p xml:id="szduep-021712-d1e883">
+          <lb ed="#P" n="84"/>11. Quartum munus.—Circa quartum de 
+          ef<lb break="no" ed="#P" n="85"/>ficacia est longe quaestio inter philosophos:
+          <lb ed="#P" n="86"/>Ego autem suppono id, quod probabilius est
+          <lb ed="#P" n="87"/>speciem dari, ut cum intellectu efliciat 
+          intel<lb break="no" ed="#P" n="88"/>lectionem loco objecti, quia seclusa hac 
+          effi<lb break="no" ed="#P" n="89"/>cientia, nulla probabilis ratio, vel necessitas
+          <lb ed="#P" n="90"/>fingi potest ad ponendas has species. De qua
+          <lb ed="#P" n="91"/>re legi potest D. Thomas supra, 1 p.. qu. 56,
+          <lb ed="#P" n="92"/>art. 1 et 1, contra Gentes, cap. 51, et 
+          sequen<lb break="no" ed="#P" n="93"/>tibus. Scotus in 1, d. 3, q. 7, et in Quodl., q.
+          <lb ed="#P" n="94"/>15, Albus, in Summa de homine, p. 2, traet.
+          <lb ed="#P" n="95"/>de Sensib. et Capreolus in 1, d. 35, q. 1, 
+          con<lb break="no" ed="#P" n="96"/>clus. 1, et ad argumenta contra illam. Et 
+          vide<lb break="no" ed="#P" n="97"/>tur esse sententia Augustinus, l. 9, de 
+          Trinita<lb break="no" ed="#P" n="98"/>te, c. 12, dicente, ab objecto et potentia oriri
+          <lb ed="#P" n="99"/>cognitionem.
+        </p>
+        <p xml:id="szduep-021712-d1e920">
+          <lb ed="#P" n="100"/>12. Quintum munus.—Circa quintum de 
+          re<lb break="no" ed="#P" n="101"/>praesentatione solum nunc dico, hanc 
+          reprae<lb break="no" ed="#P" n="102"/>sentationem non esse ita concipiendam, vel
+          <lb ed="#P" n="103"/>fingendam, ac si in specie ipsa esset similitudo
+          <lb ed="#P" n="104"/>aliqua formalis, vel imago depicta ipsius 
+          ob<lb break="no" ed="#P" n="105"/>jecti. Quia hoc nec potest concipi sine 
+          conve<lb break="no" ed="#P" n="106"/>nientia aliqua et unitate formali, ut de verbo
+          <lb ed="#P" n="107"/>postea dicam, neque hic est ulla necessitas hoc
+          <lb ed="#P" n="108"/>fingendi : tum quia species solum est veluti
+          <lb ed="#P" n="109"/>semen et instrumentum, in quo sufficit 
+          vir<lb break="no" ed="#P" n="110"/>tualis assimulatio : tum etiam quia tota visre-
+          <pb ed="#P" n="89"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praesentandi in specie ponitur propter actum
+          <lb ed="#P" n="2"/>secundum neque aliunde colligi potest, neque
+          <lb ed="#P" n="3"/>nos experimur illam nisi in ipso actusecundo:
+          <lb ed="#P" n="4"/>ergo non est necesse esse majorem 
+          similitudi<lb break="no" ed="#P" n="5"/>nem, vel repraesentationem in specie, quam in
+          <lb ed="#P" n="6"/>ipso actu.Quod optime videtScotus, loco citato,
+          <lb ed="#P" n="7"/>et Ferrarius 1, contra Gentes, cap. 53. Unde
+          <lb ed="#P" n="8"/>quod Paludanus et aliqui Thomistae dicunt,
+          <lb ed="#P" n="9"/>actum non repraesentare, sed supponere 
+          prae<lb break="no" ed="#P" n="10"/>sentiam objecti per speciem factam et tendere
+          <lb ed="#P" n="11"/>in objectum repraesentatum per speciem: non
+          <lb ed="#P" n="12"/>recte dictum est, quia intentionalis 
+          repraesen<lb break="no" ed="#P" n="13"/>tatio, quae potest esse in mente, proprie et 
+          ac<lb break="no" ed="#P" n="14"/>tualiter est in ipso actu, ut ipsa etiam 
+          expe<lb break="no" ed="#P" n="15"/>rientia docet: nam cessante actu nullam 
+          effi<lb break="no" ed="#P" n="16"/>giem, vel idolum objecti experimur in anima,
+          <lb ed="#P" n="17"/>unde si aliquo modo experimur species, 
+          maxi<lb break="no" ed="#P" n="18"/>me est, quia postquam cessamus ab 
+          intelligen<lb break="no" ed="#P" n="19"/>do, possumus iterum actum formare et 
+          reprae<lb break="no" ed="#P" n="20"/>sentare objectum ex vi interni principii 
+          con<lb break="no" ed="#P" n="21"/>servati in animo, quod est signum aliquod,
+          <lb ed="#P" n="22"/>semen ejus relictum esse in mente, quod est
+          <lb ed="#P" n="23"/>principium illius actualis repraesentationis.
+          <lb ed="#P" n="24"/>Haec igitur repraesentatio fit in genere causae
+          <lb ed="#P" n="25"/>formalis per ipsummet actum, species vero 
+          so<lb break="no" ed="#P" n="26"/>lum dicitur repraesentare, quatenus est 
+          prin<lb break="no" ed="#P" n="27"/>ciprum constituens intellectum in actu ad 
+          effi<lb break="no" ed="#P" n="28"/>ciendam hujusmodi actualem 
+          repraesentatio<lb break="no" ed="#P" n="29"/>nem.
+        </p>
+        <p xml:id="szduep-021712-d1e1015">
+          <lb ed="#P" n="30"/>13. Sectum munus speciei intelligibilis. —
+          <lb ed="#P" n="31"/>Circa sextum, quod est determinare potentiam,
+          <lb ed="#P" n="32"/>facile ex dictis intelligitur, hanc 
+          determinatio<lb break="no" ed="#P" n="33"/>nem in actu primo esse, aut per modum 
+          prin<lb break="no" ed="#P" n="34"/>cipii formalis et informantis, si fiat per 
+          pro<lb break="no" ed="#P" n="35"/>priam speciem, aut per modum comprincipii
+          <lb ed="#P" n="36"/>complentis activitatem ad talem speciem 
+          ac<lb break="no" ed="#P" n="37"/>tus et hac ratione quasi specificantis ex parte
+          <lb ed="#P" n="38"/>principii. Non vero proprie ex parte termini,
+          <lb ed="#P" n="39"/>quia species impressa non comparatur per 
+          mo<lb break="no" ed="#P" n="40"/>dum objecti terminativi, in quo fiat visio, ut
+          <lb ed="#P" n="41"/>suppono ex libris de anima. Unde etiam 
+          spe<lb break="no" ed="#P" n="42"/>cies non determinat potentiam in aliquo alio
+          <lb ed="#P" n="43"/>genere causae, ut patet discurrendo per 
+          sin<lb break="no" ed="#P" n="44"/>gula.
+        </p>
+        <p xml:id="szduep-021712-d1e1050">
+          <lb ed="#P" n="45"/>14. Prima conclusio.—His positis, dico 
+          pri<lb break="no" ed="#P" n="46"/>mo : Non implicat contradictionem divinam 
+          es<lb break="no" ed="#P" n="47"/>sentiam per se ipsam, ut objectum intelligibile
+          <lb ed="#P" n="48"/>uniri intellectibus beatorum ad efficiendam
+          <lb ed="#P" n="49"/>immediate visionem beatam, absque 
+          inter<lb break="no" ed="#P" n="50"/>ventu speciel intelligibilis impressae. Haec 
+          as<lb break="no" ed="#P" n="51"/>sertio, ut dixi, est D. Thomae, et communis et
+          <lb ed="#P" n="52"/>in illam inclinat Scotus, 2, d. 3, q. 9. Haec 
+          au<lb break="no" ed="#P" n="53"/>tem assertio non solum est ita intelligenda,
+          <lb ed="#P" n="54"/>ut hoc non repugnet fieri multiplicando 
+          mira<lb break="no" ed="#P" n="55"/>cula et supplendo per omnipotentiam omnem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>efficientiam objecti et speciei, hoc enim 
+          facilli<lb break="no" ed="#P" n="57"/>me ostendi posset, ut ex dicendis patebit, non
+          <lb ed="#P" n="58"/>est tamen satis ad id quod intendimus. 
+          Intelli<lb break="no" ed="#P" n="59"/>gitur ergo assertio, quod hoc non repugnet
+          <lb ed="#P" n="60"/>fieri, servato aliqui connaturali ordine 
+          conci<lb break="no" ed="#P" n="61"/>piendi verbum mentis ex objecto et potentia.
+          <lb ed="#P" n="62"/>Sic ergo probatur haec sententia a D. Thoma,
+          <lb ed="#P" n="63"/>quia divina substantia est objectum maxime
+          <lb ed="#P" n="64"/>intelligibile in actu et in illo ordine est actus
+          <lb ed="#P" n="65"/>purissimus, absque ulla admixtione potentiae,
+          <lb ed="#P" n="66"/>ergo potest per se ipsum uniri intellectui ad
+          <lb ed="#P" n="67"/>intellectionem sui, ergo non est simpliciter 
+          ne<lb break="no" ed="#P" n="68"/>cessaria species creata. Quia haec tantum 
+          re<lb break="no" ed="#P" n="69"/>quiri solet propter absentiam, vel 
+          impoten<lb break="no" ed="#P" n="70"/>tiam objecti intelligibilis. Secundo declaratur.
+          <lb ed="#P" n="71"/>quia nulla est repugnantia, aut enim oriretur
+          <lb ed="#P" n="72"/>ex causalitate formali, quam species, seu 
+          ob<lb break="no" ed="#P" n="73"/>jectum habere debet circa intellectum, 
+          cons<lb break="no" ed="#P" n="74"/>tituendo illam in actu primo: aut ex 
+          causa<lb break="no" ed="#P" n="75"/>litate effectiva, sed ex neutro capite oritur,
+          <lb ed="#P" n="76"/>ergo.
+        </p>
+        <p xml:id="szduep-021712-d1e1124">
+          <lb ed="#P" n="77"/>15. Circa priorem partem multa dicunt 
+          Tho<lb break="no" ed="#P" n="78"/>mistae de unione essentiae divinae cum 
+          intellec<lb break="no" ed="#P" n="79"/>tu in esse intelligibili , ratione cujus potest
+          <lb ed="#P" n="80"/>supplere illud munus speciei absque propria
+          <lb ed="#P" n="81"/>et formali causalitate, per aliud genus 
+          ineffa<lb break="no" ed="#P" n="82"/>bilis unionis: sed, ut supra dixi, hic non potest
+          <lb ed="#P" n="83"/>intelligi alia unio, nisi conjunctio duorum
+          <lb ed="#P" n="84"/>principiorum et sufficiens subordinatio ad 
+          eum<lb break="no" ed="#P" n="85"/>dem actum efficiendum, neque est aliquid quod
+          <lb ed="#P" n="86"/>nos cogat ad aliam unionem asserendam. 
+          Ne<lb break="no" ed="#P" n="87"/>que enim haec ineffabilia mysteria asserenda
+          <lb ed="#P" n="88"/>sunt, sine fundamento cogente. Diximus enim
+          <lb ed="#P" n="89"/>supra actualitatem, seu determinationem 
+          po<lb break="no" ed="#P" n="90"/>tentiae ab objecto per accidens, seu per 
+          occa<lb break="no" ed="#P" n="91"/>sionem, ut sic dicam, fieri per inhaesionem
+          <lb ed="#P" n="92"/>aut veram informationem, quia per se solum
+          <lb ed="#P" n="93"/>requiritur concursus objecti sufficienter 
+          appli<lb break="no" ed="#P" n="94"/>cati. Quod, exemplo videre licet in angelo 
+          co<lb break="no" ed="#P" n="95"/>gnoscente se ipsum, per suam substantiam
+          <lb ed="#P" n="96"/>(quam opinionem nunc suppono ut 
+          probabi<lb break="no" ed="#P" n="97"/>liorem: nec enim omnia exempla probanda
+          <lb ed="#P" n="98"/>ubique sunt, praesertim cum constet saltem
+          <lb ed="#P" n="99"/>esse probabile) ibi ergo substantia angel se
+          <lb ed="#P" n="100"/>intelligentis sufficienter determinat 
+          intellec<lb break="no" ed="#P" n="101"/>tum ejus et dici potest constituere illum in 
+          ac<lb break="no" ed="#P" n="102"/>tu primo ad intelligendum, non formaliter 
+          ac<lb break="no" ed="#P" n="103"/>tuando illum, sed complendo cum illo unum
+          <lb ed="#P" n="104"/>principium proximum totale actionis.
+        </p>
+        <p xml:id="szduep-021712-d1e1187">
+          <lb ed="#P" n="105"/>16. Objectio. — Rejicitur. — Dices, quamvis
+          <lb ed="#P" n="106"/>substantia non inhaereat intellectui angeli, 
+          ta<lb break="no" ed="#P" n="107"/>men intellectus inhaeret substantiae et ex hoc
+          <lb ed="#P" n="108"/>capite intelligi potest inter ea unio sufficiens
+          <lb ed="#P" n="109"/>ad intellectionem: at vero in praesenti nec
+          <lb ed="#P" n="110"/>Deus inest intellectui beati, neque e contrario.
+          <pb ed="#P" n="90"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Respondetur illam inhaesionem non esse 
+          ne<lb break="no" ed="#P" n="2"/>cessariam ad efficientiam ut sic. Sed in 
+          crea<lb break="no" ed="#P" n="3"/>tura fortasse est necessaria aliqua similis 
+          con<lb break="no" ed="#P" n="4"/>junctio, propter imperfectionem ejus uti possint
+          <lb ed="#P" n="5"/>illa duo principia esse subordinata et per sit
+          <lb ed="#P" n="6"/>conjuncta in ordine ad eamdem actionem. At
+          <lb ed="#P" n="7"/>vero Deo tribuendum est id quod est 
+          perfectio<lb break="no" ed="#P" n="8"/>nis in creatura, seclusis imperfectionibus, 
+          con<lb break="no" ed="#P" n="9"/>currere autem ad actum intelligendi per 
+          mo<lb break="no" ed="#P" n="10"/>dum objecti intelligibilis et per se adesse 
+          po<lb break="no" ed="#P" n="11"/>tentiae et subordinare illam sibi in ordine ad
+          <lb ed="#P" n="12"/>eumdem effectum, totum hoc est perfectionis
+          <lb ed="#P" n="13"/>et potest recte intelligi sine imperfectione 
+          in<lb break="no" ed="#P" n="14"/>haerentiae, vel informationis, ergo ex hoc 
+          capi<lb break="no" ed="#P" n="15"/>te hoc non repugnat. Et liane Goct ina 
+          insi<lb break="no" ed="#P" n="16"/>nuavit Cajetanus, 1 part., quaest. 12, art. 2, in
+          <lb ed="#P" n="17"/>quadam prima solutione , quamvis illam non
+          <lb ed="#P" n="18"/>probet, eam tamen videntur sequi Scotus et
+          <lb ed="#P" n="19"/>Ferrarius et illi etiam favet Scotus in 5, dist. 3,
+          <lb ed="#P" n="20"/>quaest. sexta, quamvis eum impugnet 
+          Cajeta<lb break="no" ed="#P" n="21"/>nus, 1 parte, quaest. 79, art. 2.
+        </p>
+        <p xml:id="szduep-021712-d1e1252">
+          <lb ed="#P" n="22"/>17. Opinio Thomistarum. — Refellitur. — 
+          Pri<lb break="no" ed="#P" n="23"/>ma assertio. — Circa secundum caput de 
+          effi<lb break="no" ed="#P" n="24"/>cientia varia etiam dicunt Thomistae: nam 
+          qui<lb break="no" ed="#P" n="25"/>dam eorum licet affirment Deum supplerevicem
+          <lb ed="#P" n="26"/>speciei, nihilominus negant Deum posse 
+          sup<lb break="no" ed="#P" n="27"/>plere et conferre illam efficientiam, quam 
+          so<lb break="no" ed="#P" n="28"/>let dare species intelligibilis, quia in tali 
+          effi<lb break="no" ed="#P" n="29"/>cientia species est veluti instrumentum 
+          intel<lb break="no" ed="#P" n="30"/>lectus, qui illa utitur. At vero essentia Dei non
+          <lb ed="#P" n="31"/>potest hoc modo subjici, seu subordinari 
+          in<lb break="no" ed="#P" n="32"/>tellectui, ut ita dicam, esset enim magna 
+          im<lb break="no" ed="#P" n="33"/>perfectio. Et ideo hi auctores dicunt essentiam
+          <lb ed="#P" n="34"/>divinam supplere vicem speciei, quantum ad
+          <lb ed="#P" n="35"/>unionem objecti cum potentia, non vero 
+          quan<lb break="no" ed="#P" n="36"/>tum ad efficientiam : sed hanc totam tribunt
+          <lb ed="#P" n="37"/>lumini gloriae, quod tamen negant esse 
+          spe<lb break="no" ed="#P" n="38"/>ciem intelbgibilem Dei. Sed hanc doctrinam
+          <lb ed="#P" n="39"/>existimo divo Thomae contrariam et 
+          involven<lb break="no" ed="#P" n="40"/>tem repugnantiam. Primum patet, nam divus
+          <lb ed="#P" n="41"/>Thomas, 1 part., quaestione duodecima, 
+          arti<lb break="no" ed="#P" n="42"/>culo secundo, ad ultimum et tertium, contra
+          <lb ed="#P" n="43"/>Laibus apite 11 et in 4, distinct. 49, quaest.
+          <lb ed="#P" n="44"/>2. art. 2, ad. 8, et in corpore, docet, 
+          esscn<lb break="no" ed="#P" n="45"/>tiam esse, quod beatus intelligit et
+          <lb ed="#P" n="46"/>quo intelligit et supplere totam rationem 
+          spe<lb break="no" ed="#P" n="47"/>ciei, quoad omnem concursum objecti. 
+          Secun<lb break="no" ed="#P" n="48"/>dum patet, quia seclusa efficientia nulla 
+          re<lb break="no" ed="#P" n="49"/>linquitur necessaria unio objecti cum potentia,
+          <lb ed="#P" n="50"/>quae ad intellectionem conferat per modum
+          <lb ed="#P" n="51"/>actus primi. Quia ut ostendimus, unio 
+          forma<lb break="no" ed="#P" n="52"/>lis ibi nulla est, sed tantum potest intelligi
+          <lb ed="#P" n="53"/>conjunctio quaedam in ordine ad eamdem 
+          ac<lb break="no" ed="#P" n="54"/>tionem. Item quia objectum duplicem 
+          habi<lb break="no" ed="#P" n="55"/>tudinem potest habere ad actum, scilicet, prin-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cipii et termini, seclusa autem efficientia, 
+          ex<lb break="no" ed="#P" n="57"/>cluditur habitudo prima et consequenter ra- il
+          <lb ed="#P" n="58"/>tione illius non est necessaria unio, neque
+          <lb ed="#P" n="59"/>quoad hoc est aliquid, in quo objectum 
+          sup<lb break="no" ed="#P" n="60"/>pleat rationem speciei. Habitudo autem 
+          termi<lb break="no" ed="#P" n="61"/>ni, neque convenit speciei intelligibili, ut sic, 
+          <lb ed="#P" n="62"/>neque per se requirit unionem, sed solum quod 
+          <lb ed="#P" n="63"/>objectum in se et prout in se est videatur. 
+          <lb ed="#P" n="64"/>Ergo repugnat dicere, quod essentia divina
+          <lb ed="#P" n="65"/>nihil efficiat ut objectum et quod uniatur pos
+          <lb ed="#P" n="66"/>tentiae ad supplendam vicem speciei.
+        </p>
+        <p xml:id="szduep-021712-d1e1354">
+          <lb ed="#P" n="67"/>18. Praeterea repugnat etiam dicere hanc
+          <lb ed="#P" n="68"/>totam efficientiam convenire lumini et illud
+          <lb ed="#P" n="69"/>non esse speciem, vel saltem habere vicem 
+          e<lb break="no" ed="#P" n="70"/>jus.Nam perspeciem solum intelligimus 
+          quam<lb break="no" ed="#P" n="71"/>dam qualitatem, quae praebet potentiae 
+          activi<lb break="no" ed="#P" n="72"/>tatem quamdam ad actum, necessariam ex
+          <lb ed="#P" n="73"/>parte objecti. Item quia haec activitas objecti
+          <lb ed="#P" n="74"/>necessaria est in actu intelligendi ut sic: ergo
+          <lb ed="#P" n="75"/>etiam in visione beata : ergo si Deus non 
+          prae<lb break="no" ed="#P" n="76"/>bet illam per se ipsum, sed per qualitatem,
+          <lb ed="#P" n="77"/>quam per modum actus primi ad hoc munus
+          <lb ed="#P" n="78"/>substituit, quae qualitas est ipsum lumen , 
+          ne<lb break="no" ed="#P" n="79"/>cesse est fateri, ipsum lumen esse speciem,
+          <lb ed="#P" n="80"/>quia est veluti semen seu instrumentum 
+          ob<lb break="no" ed="#P" n="81"/>jecti ad actum efficiendum: ergo repugnantia
+          <lb ed="#P" n="82"/>est negare speciem creatam et hoc munus 
+          tri<lb break="no" ed="#P" n="83"/>buere lumini.
+        </p>
+        <p xml:id="szduep-021712-d1e1394">
+          <lb ed="#P" n="84"/>19. Alii ergo concedunt, Deum per se 
+          effi<lb break="no" ed="#P" n="85"/>cere hujusmodi actum, non tamen immediate
+          <lb ed="#P" n="86"/>per substantiam suam tanquam objectum actu
+          <lb ed="#P" n="87"/>intelligibile, sed per voluntatem per infinitam
+          <lb ed="#P" n="88"/>potentiam,qua operatur alios effectus.Sed licet
+          <lb ed="#P" n="89"/>verum sit, Deum posse hoc modo supplere 
+          effi<lb break="no" ed="#P" n="90"/>cientiam objecti non solum in intellectu 
+          respec<lb break="no" ed="#P" n="91"/>tu visionis suae, sed etiam respectu aliorum 
+          ob<lb break="no" ed="#P" n="92"/>jectorum, imo etiam in sensibus, quia Deus ut
+          <lb ed="#P" n="93"/>prima causa potest supplere efficientias 
+          causa<lb break="no" ed="#P" n="94"/>rum secundarum, ubi non involvitur specialis
+          <lb ed="#P" n="95"/>repugnantia, quae hic nulla apparet ; 
+          nihilomi<lb break="no" ed="#P" n="96"/>nus hoc in praesenti non sufficit, quia ille 
+          mo<lb break="no" ed="#P" n="97"/>dus operandi Dei et supplendi efficientiam 
+          ob<lb break="no" ed="#P" n="98"/>jecti et miraculosus est, et praeter naturam
+          <lb ed="#P" n="99"/>rerum. Quia ex natura rei objectum esse 
+          de<lb break="no" ed="#P" n="100"/>bet causa proxima actus, per se, vel per 
+          spe<lb break="no" ed="#P" n="101"/>ciem : ergo si Deus ut objectum non posset per
+          <lb ed="#P" n="102"/>se influere, deberet infundere speciem, ut 
+          ac<lb break="no" ed="#P" n="103"/>tus connaturali modo fieret. Sicut infra etiam
+          <lb ed="#P" n="104"/>dicemus, posse Deum ut causam supremam
+          <lb ed="#P" n="105"/>supplere efficientiam luminis, et nihilominus
+          <lb ed="#P" n="106"/>lumen esse necessarium ad connaturalem 
+          mo<lb break="no" ed="#P" n="107"/>dum agendli. :
+        </p>
+        <p xml:id="szduep-021712-d1e1449">
+          <lb ed="#P" n="108"/>20. Resolutio. — Dicendum ergo est praeter
+          <lb ed="#P" n="109"/>concursum Dei ut causae primae, posse etiam
+          <lb ed="#P" n="110"/>influere in actum videndi per modum principii
+          <pb ed="#P" n="91"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>proximi connaturalis illi actui ex parte objecti
+          <lb ed="#P" n="2"/>et hanc efficientiam dari immediate per 
+          subs<lb break="no" ed="#P" n="3"/>tantiam divinam, libere applicatam per 
+          vo<lb break="no" ed="#P" n="4"/>luntatem. Probatur, quia Deus est 
+          perfectissi<lb break="no" ed="#P" n="5"/>mum objectum intelligibile in actu, ergo 
+          con<lb break="no" ed="#P" n="6"/>venit illi quicquid est perfectionis in tali
+          <lb ed="#P" n="7"/>objecto, ergo et posse efficere visionem sui in
+          <lb ed="#P" n="8"/>ratione objecti, nam hoc perfectionis est: et
+          <lb ed="#P" n="9"/>nullam habet admixtam imperfectionem Deo
+          <lb ed="#P" n="10"/>repugnantem. Minor propositio probatur, quia
+          <lb ed="#P" n="11"/>in efficientia, ut sic, nulla est imperfectio et
+          <lb ed="#P" n="12"/>ideo dicitur Deus posse supplere causam 
+          effi<lb break="no" ed="#P" n="13"/>cientem , quia hoc ex perfectione convenit.
+          <lb ed="#P" n="14"/>Nec vero in tali efficientia fingi potest 
+          specia<lb break="no" ed="#P" n="15"/>lis imperfectio. Quae enim afferebatur, quod
+          <lb ed="#P" n="16"/>divina essentia subordinaretur in agendo 
+          in<lb break="no" ed="#P" n="17"/>tellectui creato, nulla est: species enim 
+          intel<lb break="no" ed="#P" n="18"/>ligibilis, quia est accidens intellectus, potest
+          <lb ed="#P" n="19"/>il subordinari: objectum vero ipsum 
+          intelli<lb break="no" ed="#P" n="20"/>gibile, in quo illa virtus efficiendi est altiori
+          <lb ed="#P" n="21"/>modo, non est necesse ut subordinetur 
+          intel<lb break="no" ed="#P" n="22"/>lectui, sed potius potest ipsum objectum 
+          ha<lb break="no" ed="#P" n="23"/>bere subordinatum sibi, sicut angelus 
+          intelli<lb break="no" ed="#P" n="24"/>gens suam substantiam, habet sibi 
+          subordina<lb break="no" ed="#P" n="25"/>tam vim intellectivam. Maxime, quia in 
+          prae<lb break="no" ed="#P" n="26"/>senti Deus, qui videtur, est principalis auctor
+          <lb ed="#P" n="27"/>hujus visionis et utitur intellectu creato 
+          tan<lb break="no" ed="#P" n="28"/>quam instrumento, cui conjungit substantiam
+          <lb ed="#P" n="29"/>suam, tanquam objectum ad efficiendam 
+          vi<lb break="no" ed="#P" n="30"/>sionem.
+        </p>
+        <p xml:id="szduep-021712-d1e1527">
+          <lb ed="#P" n="31"/>21. Secunda conclusio. — Ratio responsum
+          <lb ed="#P" n="32"/>rejicitur. — Secundo dicendum est, videri
+          <lb ed="#P" n="33"/>Deum a beatis sine interventu speciei 
+          intelli<lb break="no" ed="#P" n="34"/>gibilis creatae, Deo ipso proxime per suam 
+          subs<lb break="no" ed="#P" n="35"/>tantiam concurrente. In hoc sequimur 
+          opi<lb break="no" ed="#P" n="36"/>nionem D. Thomae fere communi theologorum
+          <lb ed="#P" n="37"/>consensu jam receptam, nam praeter eos, qui
+          <lb ed="#P" n="38"/>putant, non posse dari talem speciem, quos in
+          <lb ed="#P" n="39"/>sequenti capite referam, eam tenent Alex.
+          <lb ed="#P" n="40"/>Alensis, 1 parte, quaest. 7, numero secundo et
+          <lb ed="#P" n="41"/>2 parte, quaest. 29, num. 1, Paludanus in
+          <lb ed="#P" n="42"/>quarto, dist. 49, quaest. 1, art. 2, et ibidem
+          <lb ed="#P" n="43"/>Thomas de Argentino et Marsilio in 3, quaest.
+          <lb ed="#P" n="44"/>10, art. 2, estque in scholis valde recepta. 
+          Ra<lb break="no" ed="#P" n="45"/>tionem hujus assertionis multi ex eo sumunt,
+          <lb ed="#P" n="46"/>quod putant implicare contradictionem, dari
+          <lb ed="#P" n="47"/>talem speciem creatam Dei, sed hoc habet 
+          du<lb break="no" ed="#P" n="48"/>bitationem tractandam capite sequenti, a qua
+          <lb ed="#P" n="49"/>nunc abstrahendum est. Ratio ergo assertionis
+          <lb ed="#P" n="50"/>sumitur ex praecedenti, quia non oportet 
+          mul<lb break="no" ed="#P" n="51"/>tiplicare principia, quae non sunt necessaria
+          <lb ed="#P" n="52"/>juxta naturas rerum: sed ostensum est, posse
+          <lb ed="#P" n="53"/>Deum videri sine specie concurrente ipso per
+          <lb ed="#P" n="54"/>se tanquam objecto actu intelligibili, quod 
+          sa<lb break="no" ed="#P" n="55"/>tis est, ut visio maxime fiat connaturali modo,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ergo. Secundo, species solum poni solet ad 
+          sup<lb break="no" ed="#P" n="57"/>plendam absentiam, vel impotentiam objecti,
+          <lb ed="#P" n="58"/>hic autem ad neutrum horum est necessaria.
+          <lb ed="#P" n="59"/>hesponderi potest ex Scoto quodlibet 14 et in
+          <lb ed="#P" n="60"/>2. distinct. 3, quaest. 9, etiam dari speciem, ut
+          <lb ed="#P" n="61"/>actus sit in potestate intelligentis. 
+          Responde<lb break="no" ed="#P" n="62"/>tur: si hoc intelligatur de potestate libera,
+          <lb ed="#P" n="63"/>non habere locum in hac visione, quae non 
+          li<lb break="no" ed="#P" n="64"/>bere, sed necessario fit. Si autem intelligatur
+          <lb ed="#P" n="65"/>absolute de potestate activa ; satis habere 
+          in<lb break="no" ed="#P" n="66"/>telligentem in sua potestate talem actum, si ex
+          <lb ed="#P" n="67"/>parte sua habeat sufficientem virtutem 
+          acti<lb break="no" ed="#P" n="68"/>vam et objectum per se satis conjunctum ad
+          <lb ed="#P" n="69"/>agendum ; praesertim in hac visione, in qua
+          <lb ed="#P" n="70"/>principalis virtus est in ipso Deo, qui est 
+          ob<lb break="no" ed="#P" n="71"/>jectum talis visionis, ideoque ex natura rei 
+          ne<lb break="no" ed="#P" n="72"/>cessario manat ab objectis et potentia 
+          suffi<lb break="no" ed="#P" n="73"/>cienter elevata ad operandum, ut infra 
+          dice<lb break="no" ed="#P" n="74"/>mus. Sed urgebis. Nam magis connaturale est,
+          <lb ed="#P" n="75"/>ut principium proximum operandi sit 
+          intrinse<lb break="no" ed="#P" n="76"/>cum et inhaerens ipsi operanti, nam haec est
+          <lb ed="#P" n="77"/>ratio, ob quam ponuntur habitus infusi. 
+          Res<lb break="no" ed="#P" n="78"/>pondetur, hoc esse verum de principio 
+          ope<lb break="no" ed="#P" n="79"/>randi, quod tenet se ex parte operantis, non
+          <lb ed="#P" n="80"/>vero de objecto ipso. Atque ita in praesenti,
+          <lb ed="#P" n="81"/>beatus quatenus efficit visionem, habet 
+          prin<lb break="no" ed="#P" n="82"/>cipium agendi sibi inhaerens, scilicet, 
+          intellec<lb break="no" ed="#P" n="83"/>tum et lumen : objectum vero non est propria
+          <lb ed="#P" n="84"/>ratio agendi, a qua ipsa beatus denominetur
+          <lb ed="#P" n="85"/>agens, seu activus, sed est veluti principium
+          <lb ed="#P" n="86"/>coefficiens et coadjuvans et ideo necesse non
+          <lb ed="#P" n="87"/>est ut uniatur intellectui per aliquid ipsi 
+          in<lb break="no" ed="#P" n="88"/>haerens.
+        </p>
+        <p xml:id="szduep-021712-d1e1657">
+          <lb ed="#P" n="89"/>22. Ad argumentum. —Haec omnia clariora
+          <lb ed="#P" n="90"/>fient respondendo argumentis aliarum 
+          opinio<lb break="no" ed="#P" n="91"/>num.Ad argumenta ergo prioriloco posita 
+          res<lb break="no" ed="#P" n="92"/>ponsum jam est, necessarium non esse, ut 
+          objec<lb break="no" ed="#P" n="93"/>tum intelligibile constituat potentiam in actu
+          <lb ed="#P" n="94"/>primo informando illam, sed per se assistendo
+          <lb ed="#P" n="95"/>et conjungendo se illi, quando est tam 
+          perfec<lb break="no" ed="#P" n="96"/>tum, ut per se id facere possit. Item ostensum
+          <lb ed="#P" n="97"/>est, non repugnare divinae omnipotentiae per se
+          <lb ed="#P" n="98"/>ipsam influere in actum ut objectum actu 
+          intel<lb break="no" ed="#P" n="99"/>ligibile. Quod vero quidam objiciunt, talem 
+          ac<lb break="no" ed="#P" n="100"/>tionem futuram esse naturalem et non 
+          libe<lb break="no" ed="#P" n="101"/>ram, frivolum est, quia illa efficientia 
+          subor<lb break="no" ed="#P" n="102"/>dinata est voluntati divinae , sicut omnis alia
+          <lb ed="#P" n="103"/>effectio ad extra et hoc satis est, ut sit libera,
+          <lb ed="#P" n="104"/>non elicitive (ut more nostro loquamur) sed
+          <lb ed="#P" n="105"/>donominative ad modum actus exterioris : nam
+          <lb ed="#P" n="106"/>etiam creatio est hoc modo libera et non alio.
+        </p>
+        <p xml:id="szduep-021712-d1e1699">
+          <lb ed="#P" n="107"/>23. Dubium. —Quidam dicendi modus. —
+          Re<lb break="no" ed="#P" n="108"/>futatur.— In confirmatione petitur difficultas,
+          <lb ed="#P" n="109"/>an haec efficientia sit tribuenda soli divinae 
+          es<lb break="no" ed="#P" n="110"/>sentiae, vel etiam relationibus ut sic. Alicui
+          <pb ed="#P" n="92"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>videri potest probabile hoc posterius, propter
+          <lb ed="#P" n="2"/>argumentum ibi factum et quia nullum inde
+          <lb ed="#P" n="3"/>videtur sequi inconveniens, quia cum una 
+          per<lb break="no" ed="#P" n="4"/>sona non possit videri sine alia, semper ille 
+          ef<lb break="no" ed="#P" n="5"/>fectus ad extra erit indivisus et communis 
+          om<lb break="no" ed="#P" n="6"/>nibus, quod videtur sufficiens ad salvandum
+          <lb ed="#P" n="7"/>illud axioma : Opera Trinitatis ad extra sunt
+          <lb ed="#P" n="8"/>indivisa. Sed nihilominus non approbo hunc
+          <lb ed="#P" n="9"/>dicendi modum. Nam imprimis constat, solum
+          <lb ed="#P" n="10"/>concursum, divinae essentiae esse sufficientem
+          <lb ed="#P" n="11"/>ad efficiendam visionem omnium personarum,
+          <lb ed="#P" n="12"/>ut patet in ipsismet personis divinis. Nam 
+          Pa<lb break="no" ed="#P" n="13"/>ter, verbi gratia, intuetur omnes personas et
+          <lb ed="#P" n="14"/>tamen relationes Filii et Spiritus sancti non
+          <lb ed="#P" n="15"/>concurrunt ullo modo tanquam ratio, vel 
+          prin<lb break="no" ed="#P" n="16"/>cipium, per quod Pater videat, seu intelligat
+          <lb ed="#P" n="17"/>illas, ut est res certissima, sed sola sua 
+          subs<lb break="no" ed="#P" n="18"/>tantia est Patri sufficiens ratio ad videndum
+          <lb ed="#P" n="19"/>omnia, ergo idem erit respectu visionis 
+          crea<lb break="no" ed="#P" n="20"/>tae. Nam quod haec fiat per efficientiam (quae
+          <lb ed="#P" n="21"/>nulla est circa visionem increatam) nihil 
+          re<lb break="no" ed="#P" n="22"/>fert, quia hoc provenit ex imperfectionis ; et
+          <lb ed="#P" n="23"/>non tollit, quin ipsa substantia divina de se sit
+          <lb ed="#P" n="24"/>sufficiens ad manifestandum omnia. Et ratio
+          <lb ed="#P" n="25"/>est, quia in ipsa essentia virtute et eminenter
+          <lb ed="#P" n="26"/>continentur relationes , tanquam in radice,
+          <lb ed="#P" n="27"/>nostro modo loquendi et ideo ipsa est sufficiens
+          <lb ed="#P" n="28"/>principium ad videndas illas, non est ergo 
+          ne<lb break="no" ed="#P" n="29"/>cessaria efficientia ipsarum relationum per se
+          <lb ed="#P" n="30"/>ipsas , sed solum quatenus includunt 
+          essen<lb break="no" ed="#P" n="31"/>tiam.
+        </p>
+        <p xml:id="szduep-021712-d1e1782">
+          <lb ed="#P" n="32"/>24. Ex quo ulterius infero, hanc 
+          efficien<lb break="no" ed="#P" n="33"/>tiam non esse alio modo possibilem. Primo,
+          <lb ed="#P" n="34"/>propter rationem factam, quia efficientia ad
+          <lb ed="#P" n="35"/>extra est indivisa, quod est verum non solum
+          <lb ed="#P" n="36"/>ratione effectus , quia semper est ab omnibus
+          <lb ed="#P" n="37"/>personis, sed etiam ratione effectionis et 
+          prin<lb break="no" ed="#P" n="38"/>cipii agendi, quod est semper unum et idem
+          <lb ed="#P" n="39"/>in omnibus personis, nam in hoc fundant 
+          om<lb break="no" ed="#P" n="40"/>nes sancti illud axioma. Quia, si relatio esset
+          <lb ed="#P" n="41"/>ratio agendi, quantum est ex parte sua , 
+          pos<lb break="no" ed="#P" n="42"/>set una efficere sine alia. Quod vero non possit
+          <lb ed="#P" n="43"/>videri una persona sine alia, id aliunde 
+          prove<lb break="no" ed="#P" n="44"/>nit. Unde esset quasi per accidens ad ipsam
+          <lb ed="#P" n="45"/>efficientiam , quia quantum est ex parte 
+          effi<lb break="no" ed="#P" n="46"/>cientiae, nihil repugnaret. Secundo, quia 
+          divi<lb break="no" ed="#P" n="47"/>nis relationibus nihil est tribuendum, nisi quod
+          <lb ed="#P" n="48"/>est necessarium et maxime connaturale : non
+          <lb ed="#P" n="49"/>est autem necessaria haec efficientia, ut ostendi,
+          <lb ed="#P" n="50"/>neque etiam est connaturalis, quia proprius et
+          <lb ed="#P" n="51"/>connaturalis modus videndi divinas personas,
+          <lb ed="#P" n="52"/>est per essentiam earum ita ut essentiale et
+          <lb ed="#P" n="53"/>primarium objectum illius visionis sit essentia,
+          <lb ed="#P" n="54"/>relationes vero consequenter cum illa 
+          videan<lb break="no" ed="#P" n="55"/>tur, sicut consequuntur illam. Ergo est etiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>connaturale, ut sola essentia sit principium
+          <lb ed="#P" n="57"/>talis visionis, per quam ipsa primo et 
+          conse<lb break="no" ed="#P" n="58"/>quenter reliqua videntur. Tertio, addi potest.
+          <lb ed="#P" n="59"/>quod relatio, ut relatio non est activa : Item
+          <lb ed="#P" n="60"/>quod substantia praecise, ut talis est, non est
+          <lb ed="#P" n="61"/>ratio agendi, sed conditio et ideo relationes
+          <lb ed="#P" n="62"/>divinae praecise sumptae, quatenus relationes
+          <lb ed="#P" n="63"/>sunt, sunt rationes subsistendi, non efficiendi.
+        </p>
+        <p xml:id="szduep-021712-d1e1857">
+          <lb ed="#P" n="64"/>25. Ad aliam partem argumentorum jam
+          <lb ed="#P" n="65"/>fere responsum est. Negamus enim speciem
+          <lb ed="#P" n="66"/>creatam esse necessariam ut visio illa fiat
+          <lb ed="#P" n="67"/>connaturali modo, quia species non est 
+          neces<lb break="no" ed="#P" n="68"/>saria ex parte intelligentis sed objecti. Quod
+          <lb ed="#P" n="69"/>autem alia objecta concurrant mediante specie,
+          <lb ed="#P" n="70"/>provenit ex eo, quod improportionata sunt,
+          <lb ed="#P" n="71"/>ut per se concurrant. Ubi autem objectum est
+          <lb ed="#P" n="72"/>aptum et sufficienter conjunctum potentiae
+          <lb ed="#P" n="73"/>magis connaturale est, ut per se ipsum efficiat
+          <lb ed="#P" n="74"/>sui cognitionem, ut de angelis dictum est.
+          <lb ed="#P" n="75"/>Unde per hoc non excluditur, quin Deus 
+          effi<lb break="no" ed="#P" n="76"/>ciat illam visionem per causam secundam et
+          <lb ed="#P" n="77"/>per formam illi inditam, necessariam ex parte
+          <lb ed="#P" n="78"/>ejus, ut jam dictum est et in capite quarto 
+          de<lb break="no" ed="#P" n="79"/>cimo, amplius explicabitur. Ad confirmationem
+          <lb ed="#P" n="80"/>vero dicendum est, elicitive (ut sic dicam) esse
+          <lb ed="#P" n="81"/>illam actionem ab essentia Dei quatenus est,
+          <lb ed="#P" n="82"/>imperative autem esse ab eadem, quatenus
+          <lb ed="#P" n="83"/>vult. Et priori ratione habet illa actio, quod
+          <lb ed="#P" n="84"/>si naturalis quoad specificationem , quia 
+          sup<lb break="no" ed="#P" n="85"/>posito, quod vult Deus illo modo diflicere
+          <lb ed="#P" n="86"/>cum tali intellectu, tali lumine disposito, talem
+          <lb ed="#P" n="87"/>sui imaginem expressam in illo et cum illo
+          <lb ed="#P" n="88"/>imprimit. Est autem actio libera quoad 
+          exerci<lb break="no" ed="#P" n="89"/>tium , quia ex libera voluntate pendet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

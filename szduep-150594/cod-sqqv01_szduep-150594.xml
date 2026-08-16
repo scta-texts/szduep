@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="595"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-150594"><!-- t3-l3c5 -->
+        <head xml:id="szduep-150594-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-150594-Hd1e103" type="question-title">Sint ne in divinis personis tres existentie personales realiter distinctae</head>
+        <p xml:id="szduep-150594-d1e106">
+          <lb ed="#P" n="102"/>CAPUT V.
+          <lb ed="#P" n="103"/>SINT NE IN DIVINIS PERSONIS TRES EXISTENTIE
+          <lb ed="#P" n="104"/>PERSONALES REALITER DISTINCTAE.
+        </p>
+        <p xml:id="szduep-150594-d1e115">
+          <lb ed="#P" n="105"/>1. Existentia, vel in substantus idem est
+          <lb ed="#P" n="106"/>cum subsistentia, ut quidam volunt, vel certe
+          <lb ed="#P" n="107"/>proxime et intime conjuncta est illi, et ideo
+          <pb ed="#P" n="596"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>post subsistentias personales de existentiis
+          <lb ed="#P" n="2"/>item personalibus, seu relativis sermonem 
+          in<lb break="no" ed="#P" n="3"/>stituimus. Quamvis enim haec quaestio tractata
+          <lb ed="#P" n="4"/>etiam a nobis sit in primo tomo, tertia parte,
+          <lb ed="#P" n="5"/>disputatione undecima, sectione secunda, 
+          ni<lb break="no" ed="#P" n="6"/>hilominus non potuit hoc loco praetermitti,
+          <lb ed="#P" n="7"/>nam ad intelligendam veram distinctionem
+          <lb ed="#P" n="8"/>realem personarum divinarum est necessaria.
+          <lb ed="#P" n="9"/>Expediemus tamen illam brevius, multa 
+          sup<lb break="no" ed="#P" n="10"/>ponendo, quae ibi tractata sunt et alia, quae de
+          <lb ed="#P" n="11"/>existentia in communi diximus in 
+          Metaphysi<lb break="no" ed="#P" n="12"/>ca, disputatione trigesima prima.
+        </p>
+        <p xml:id="szduep-150594-d1e154">
+          <lb ed="#P" n="13"/>2. Prior sententia negans existentias 
+          relati<lb break="no" ed="#P" n="14"/>cas. — Prima ergo sententia affirmat, esse in
+          <lb ed="#P" n="15"/>Deo unum esse existentiae absolutum et 
+          essen<lb break="no" ed="#P" n="16"/>tiale, et praeter illud nullas dari in Trinitate
+          <lb ed="#P" n="17"/>existentias relativas, seu personales (his enim
+          <lb ed="#P" n="18"/>vocibus, ut aequivalentibus nunc utimur), nec
+          <lb ed="#P" n="19"/>re, nec ratione ab essentia distinctas. Hanc
+          <lb ed="#P" n="20"/>significant Capreolus et Cajetanus, et ex D.
+          <lb ed="#P" n="21"/>Thoma possunt multa in ejus favorem afferri,
+          <lb ed="#P" n="22"/>quae omnia retuli in loco allegato. Ubi 
+          fun<lb break="no" ed="#P" n="23"/>damenta etiam hujus sententiae proposul.
+          <lb ed="#P" n="24"/>Nunc vero duo invenio addita in ejusdem 
+          o<lb break="no" ed="#P" n="25"/>pinionis suasionem, quae hoc loco consideranda
+          <lb ed="#P" n="26"/>sunt. Primum est quasi ab auctoritate 
+          nega<lb break="no" ed="#P" n="27"/>tiva. Quia nullus antiquorum Patrum ita 
+          lo<lb break="no" ed="#P" n="28"/>quens invenitur, ut tria esse personalia, vel
+          <lb ed="#P" n="29"/>tres existentias relativas divinis personis 
+          attri<lb break="no" ed="#P" n="30"/>buat. Nam si quis ita sentire visus est, 
+          maxi<lb break="no" ed="#P" n="31"/>me Richardus de sancto Victore, quem ego
+          <lb ed="#P" n="32"/>in dicto loco ad hoc allegavi; at ille non 
+          lo<lb break="no" ed="#P" n="33"/>quitur de existentia in hac significatione, de
+          <lb ed="#P" n="34"/>qua disputamus, sed nomen abstractum 
+          ezis<lb break="no" ed="#P" n="35"/>tentie, accipit pro concreto, ad significandum
+          <lb ed="#P" n="36"/>ipsum suppositum, ut plane constat ex eodem
+          <lb ed="#P" n="37"/>auctore, libro quarto de Trinitate, et quia hac
+          <lb ed="#P" n="38"/>ratione in definitione personae posuit, quod sit
+          <lb ed="#P" n="39"/>incommunicablilis eaistentia. Unde Joannes
+          <lb ed="#P" n="40"/>theologus latinus, in sess. 19, Concilii 
+          Floren<lb break="no" ed="#P" n="41"/>tini, eodem modo sumpsit existentiam.
+        </p>
+        <p xml:id="szduep-150594-d1e220">
+          <lb ed="#P" n="42"/>3. Ratio prioris sententie. — Alud 
+          funda<lb break="no" ed="#P" n="43"/>mentum ex ratione sumitur. Quia relatio 
+          di<lb break="no" ed="#P" n="44"/>vina solum est quidam modus existentiae 
+          divi<lb break="no" ed="#P" n="45"/>nitatis, ut loquitur Damascenus 1, de Fide,
+          <lb ed="#P" n="46"/>cap. 9, 10 et 11, sed modus existentiae non
+          <lb ed="#P" n="47"/>affert existentiam, ergo relatio divina ut sic,
+          <lb ed="#P" n="48"/>nullam existentiam affert, ergo existentia non
+          <lb ed="#P" n="49"/>multiplicatur in personis, nam illa sola 
+          mul<lb break="no" ed="#P" n="50"/>tiplicantur quae conveniunt personis, ut sic.
+          <lb ed="#P" n="51"/>Minor propositio, in qua est vis argumenti,
+          <lb ed="#P" n="52"/>probatur primo inductione in creaturis: nam
+          <lb ed="#P" n="53"/>accidenti habenti suam existentiam non 
+          ad<lb break="no" ed="#P" n="54"/>ditur nova existentia modo essendi in se, vel
+          <lb ed="#P" n="55"/>in alio, et idem est de humanitate, quatenus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per se existit, nam ille modus per se non addit
+          <lb ed="#P" n="57"/>existentiam. Item de anima rationali ut 
+          ha<lb break="no" ed="#P" n="58"/>bente esse per creationem, nam ex modo 
+          in<lb break="no" ed="#P" n="59"/>formandi non accipit novum esse. Ex qua 
+          in<lb break="no" ed="#P" n="60"/>ductione colligitur, quod una existentia non
+          <lb ed="#P" n="61"/>est modus alterius, neque illi per se additur,-
+          <lb ed="#P" n="62"/>ac proinde etiam sequitur quod relatio divina
+          <lb ed="#P" n="63"/>non addit existentiam relativam divinae 
+          essen<lb break="no" ed="#P" n="64"/>tiae quae ex se propriam et perfectissimam 
+          exis<lb break="no" ed="#P" n="65"/>tentiam habet.
+        </p>
+        <p xml:id="szduep-150594-d1e277">
+          <lb ed="#P" n="66"/>4. Sententia affirmans. —Secunda 
+          senten<lb break="no" ed="#P" n="67"/>tia affirmat, relationem divinam secundum
+          <lb ed="#P" n="68"/>propriam rationem, suam habere 
+          proportio<lb break="no" ed="#P" n="69"/>natam existentiam, atque ita existentiam 
+          re<lb break="no" ed="#P" n="70"/>lationis ratione distingui ab existentia 
+          essen<lb break="no" ed="#P" n="71"/>tiae; existentias autem relativas oppositarum
+          <lb ed="#P" n="72"/>relationum multiplicari et realiter inter se
+          <lb ed="#P" n="73"/>distingui. Quae sententia mihi placuit in 
+          ci<lb break="no" ed="#P" n="74"/>tato loco et nunc etiam maxime probatur, si
+          <lb ed="#P" n="75"/>recte intelligatur, ut ibi explicata est. Nam
+          <lb ed="#P" n="76"/>imprimis ita intelligenda est, ut divinitas non
+          <lb ed="#P" n="77"/>credatur formaliter existere per existentiam
+          <lb ed="#P" n="78"/>relativam, sed per se ipsam, et per suum esse
+          <lb ed="#P" n="79"/>omnino absolutum, est enim ipsum esse per
+          <lb ed="#P" n="80"/>essentiam. Non ergo ad hoc ponitur 
+          existen<lb break="no" ed="#P" n="81"/>tia relativa, sed ut relatio, quatenus relatio
+          <lb ed="#P" n="82"/>est, per illam existat, vel persona etiam 
+          qua<lb break="no" ed="#P" n="83"/>tenus persona relativa est. Unde etiam quoad
+          <lb ed="#P" n="84"/>modum loquendi advertere necesse est, quoties
+          <lb ed="#P" n="85"/>agimus de-divino esse simpliciter et sine
+          <lb ed="#P" n="86"/>addito, illud appellari unum tantum, quia
+          <lb ed="#P" n="87"/>sermo est, de ipso esse per essentiam quod
+          <lb ed="#P" n="88"/>est esse perfectissimum et simpliciter, et ita
+          <lb ed="#P" n="89"/>loquuntur Hieronymus, Augustinus et divus
+          <lb ed="#P" n="90"/>Thomas, cum dicunt, esse unum esse trium
+          <lb ed="#P" n="91"/>personarum, in quo subsistunt, prout retuh
+          <lb ed="#P" n="92"/>citato loco; imo Augustinus, septimo de 
+          Tri<lb break="no" ed="#P" n="93"/>nitate, capite quarto, solum illud esse vocat
+          <lb ed="#P" n="94"/>substantiale, quia substantiam sumit pro 
+          es<lb break="no" ed="#P" n="95"/>sentia. Hic vero specialiter agimus de 
+          existen<lb break="no" ed="#P" n="96"/>tia relationis, et talis est, et ideo semper cum
+          <lb ed="#P" n="97"/>addito loquendum est de his existentiis 
+          rela<lb break="no" ed="#P" n="98"/>tivis, quoties plures esse dicuntur.
+        </p>
+        <p xml:id="szduep-150594-d1e351">
+          <lb ed="#P" n="99"/>5. Hanc ergo sententiam sic expositam 
+          in<lb break="no" ed="#P" n="100"/>dicavit Scotus in 1, distinct. 11, articulo 
+          secun<lb break="no" ed="#P" n="101"/>do, S ultimo, ubi ait, non solum quidditatem,
+          <lb ed="#P" n="102"/>seu rationem formalem relationis distingui
+          <lb ed="#P" n="103"/>ratione ab essentia, sed etiam esse relationis
+          <lb ed="#P" n="104"/>similiter distingui a divina essentia. Ubi 
+          ne<lb break="no" ed="#P" n="105"/>cesse est, Scotum loqui de esse existentiae 
+          re<lb break="no" ed="#P" n="106"/>lationis, alias quomodo illud distingueret, aut
+          <lb ed="#P" n="107"/>cur nominaret tanquam distinctum a ratione
+          <lb ed="#P" n="108"/>quidditativa relationis. Si autem esse existentiae
+          <lb ed="#P" n="109"/>relationis distinguitur ratione ab essentia,
+          <lb ed="#P" n="110"/>profecto relativum est, ac proinde multiph-
+          <pb ed="#P" n="597"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>catur in Deo. Alii vero scholastici antiqui 
+          ni<lb break="no" ed="#P" n="2"/>hil fere de hac re dicunt, solus Alensis, prima
+          <lb ed="#P" n="3"/>parte, quaestione 44, loquitur eodem modo,
+          <lb ed="#P" n="4"/>quo Richardus de sancto Victore, de quo 
+          sta<lb break="no" ed="#P" n="5"/>tim dicam. Richardus etiam de media villa,
+          <lb ed="#P" n="6"/>in 3, distinctione prima, articulo primo,
+          <lb ed="#P" n="7"/>quaestione secunda, ad 1, nonnihil favet. Ex
+          <lb ed="#P" n="8"/>modernis vero expresse hanc sententiam 
+          se<lb break="no" ed="#P" n="9"/>cuti sunt Medina, 3 part., quaest. 17, art. 2
+          <lb ed="#P" n="10"/>dub. 3, et Zumel, 1 part., quaest. 28.
+        </p>
+        <p xml:id="szduep-150594-d1e406">
+          <lb ed="#P" n="11"/>6. Richardi de S. Vict. mens exponitur. —
+          <lb ed="#P" n="12"/>Praeterea Richardus de sancto Victore satis
+          <lb ed="#P" n="13"/>aperte mihi videtur hanc sententiam 
+          do<lb break="no" ed="#P" n="14"/>cuisse in libro quarto, de Trinitate, capite
+          <lb ed="#P" n="15"/>duodecimo et sequentibus. Circa quem 
+          auc<lb break="no" ed="#P" n="16"/>torem, propter id, quod in contrarium 
+          ob<lb break="no" ed="#P" n="17"/>jiciebatur, tria animadvertenda occurrunt.
+          <lb ed="#P" n="18"/>Primum est, negari non posse, quin aliquando
+          <lb ed="#P" n="19"/>accipiat nomen abstractum eaistentie pro
+          <lb ed="#P" n="20"/>concreto, id est, pro re ipsa existente, nam
+          <lb ed="#P" n="21"/>praeter argumentum factum id constat ex 
+          ca<lb break="no" ed="#P" n="22"/>pitibus 18 et 19. Non tamen semper videtur ita
+          <lb ed="#P" n="23"/>loqui, sed etiam etiam pro abstracto, nam,
+          <lb ed="#P" n="24"/>cap. 14, distinguit existentiam a persona, et
+          <lb ed="#P" n="25"/>cap. 16, sciendum esse inquit, existentiam 
+          de<lb break="no" ed="#P" n="26"/>signare substantiale esse, sed aliquando quod
+          <lb ed="#P" n="27"/>sit er communi, aliquando quod ex 
+          incommuni<lb break="no" ed="#P" n="28"/>calili proprietate. Et ex cap. 17, idem satis
+          <lb ed="#P" n="29"/>colligitur. Secundum est, etiamsi ecistentia
+          <lb ed="#P" n="30"/>nomen pro concreto accipiatur, admittendo
+          <lb ed="#P" n="31"/>hoc modo tres existentias, satis concludi, 
+          po<lb break="no" ed="#P" n="32"/>nere etiam tres rationes existendi, quas 
+          voca<lb break="no" ed="#P" n="33"/>mus existentias in abstracto. Assumptum 
+          pro<lb break="no" ed="#P" n="34"/>batur ex illo principio, quod substantiva non
+          <lb ed="#P" n="35"/>multiplicantur, nisi multiplicatis formis, 
+          con<lb break="no" ed="#P" n="36"/>stat autem, existentiam sumptam pro ipso
+          <lb ed="#P" n="37"/>concreto substantive dici, ergo si Richardus
+          <lb ed="#P" n="38"/>per tres existentias intelligit tres existentes,
+          <lb ed="#P" n="39"/>admittit, tres personas divinas esse tres 
+          exis<lb break="no" ed="#P" n="40"/>tentes, substantive, ergo necessario sentit esse
+          <lb ed="#P" n="41"/>in eis tres existentias personales, ratione 
+          qua<lb break="no" ed="#P" n="42"/>rum illud substantivum multiplicatur. 
+          Ter<lb break="no" ed="#P" n="43"/>tium est, RHichardum specialiter considerasse
+          <lb ed="#P" n="44"/>in hoc nomine ezistentie vim quamdam in illa
+          <lb ed="#P" n="45"/>particula, er, propter quam vult ecistentiam
+          <lb ed="#P" n="46"/>significare esse, non qualecumque, sed quod
+          <lb ed="#P" n="47"/>est ex alio, vel ex quo est aliud. Et ob hanc
+          <lb ed="#P" n="48"/>causam potius dicit esse in Deo tres 
+          existen<lb break="no" ed="#P" n="49"/>tias, quam unam, unde ita loquitur, dari in
+          <lb ed="#P" n="50"/>Deo unum esse et tres existentias, quia 
+          exis<lb break="no" ed="#P" n="51"/>tentia indicat peculiarem modum habendi 
+          il<lb break="no" ed="#P" n="52"/>lud esse, qui modus in relatione consistit.
+          <lb ed="#P" n="53"/>Unde nihil aliud videtur explicasse per haec,
+          <lb ed="#P" n="54"/>nisi existentias relativas, quas ratione 
+          distin<lb break="no" ed="#P" n="55"/>guit ab esse communi.
+        </p>
+        <p xml:id="szduep-150594-d1e506">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7. Potest etiam in hujus rei confirmationem
+          <lb ed="#P" n="57"/>afferri Augustinus 5, de Trinitate, cap. 6, et
+          <lb ed="#P" n="58"/>lib. 7, cap. 4, quatenus dicit, Aliud est esse
+          <lb ed="#P" n="59"/>Dewmn, aliud esse Patrem.Quod intelligendum
+          <lb ed="#P" n="60"/>esse secundum distinctionem rationis recte
+          <lb ed="#P" n="61"/>exponit D. Thomas, 1 part., quaest. 28, art. 2.
+          <lb ed="#P" n="62"/>Et illum modum loquendi imitatur Anselmus,
+          <lb ed="#P" n="63"/>lib. de processione Spiritus sancti, in principio,
+          <lb ed="#P" n="64"/>et Magister in 1, distin. 28, S Preeterea , 
+          il<lb break="no" ed="#P" n="65"/>lud autem esse, tam Dei, quam Patris, ut sic,
+          <lb ed="#P" n="66"/>est esse reale et actuale in rerum natura: ergo
+          <lb ed="#P" n="67"/>est esse existentiae : ergo ex sententia 
+          Augus<lb break="no" ed="#P" n="68"/>tini distinguuntur ratione existentia Dei et
+          <lb ed="#P" n="69"/>existentia Patris, ut sic.
+        </p>
+        <p xml:id="szduep-150594-d1e541">
+          <lb ed="#P" n="70"/>S. Ratio pro secunda sententia.—Atque hinc
+          <lb ed="#P" n="71"/>tandem fundatur principalis ratio pro hac
+          <lb ed="#P" n="72"/>sententia, quia existentia nihil aliud est, quam
+          <lb ed="#P" n="73"/>actualis entitas, vel si ita loqui velimus, nihil
+          <lb ed="#P" n="74"/>aliud est, quam actualitas ipsius entitatis, sed
+          <lb ed="#P" n="75"/>tres proprietates personales, ac divinae sunt
+          <lb ed="#P" n="76"/>tres entitates actuales realiter inter se 
+          distinc<lb break="no" ed="#P" n="77"/>tae, et ratione ab entitate essentiae, ergo sunt
+          <lb ed="#P" n="78"/>tres existentiae relativae realiter inter se 
+          dis<lb break="no" ed="#P" n="79"/>Unctae. et ratione ab existentia essentiae. 
+          Majo<lb break="no" ed="#P" n="80"/>rem suppono ex citato loco Metaphysicae. Minor
+          <lb ed="#P" n="81"/>autem constat ex dictis hactenus. Quod enim
+          <lb ed="#P" n="82"/>respondebatur, vel objiciebatur in contrarium,
+          <lb ed="#P" n="83"/>Paternitatem, verbi gratia, esse solum 
+          quem<lb break="no" ed="#P" n="84"/>dam modum essentia, valde frivolum est.
+          <lb ed="#P" n="85"/>Primo, quia licet nostro modo concipiendi 
+          re<lb break="no" ed="#P" n="86"/>latio divina apprehendatur ut modus, vere
+          <lb ed="#P" n="87"/>tamen est entitas perfectissima: nam propria
+          <lb ed="#P" n="88"/>ratio modi, ut distinguitur ab entitate, 
+          imper<lb break="no" ed="#P" n="89"/>fectionem aliquam includit et distinctionem ex
+          <lb ed="#P" n="90"/>natura rei ab eo cujus est modus. Quod etiam
+          <lb ed="#P" n="91"/>est Metaphysica manifestum est. Unde 
+          subsis<lb break="no" ed="#P" n="92"/>tentia personalis Dei ideo potest terminare 
+          a<lb break="no" ed="#P" n="93"/>lienam naturam, quia non est tantum modus,
+          <lb ed="#P" n="94"/>sed vera res et per se entitas.
+        </p>
+        <p xml:id="szduep-150594-d1e599">
+          <lb ed="#P" n="95"/>9. Secundo, quia licet daremus, relationem
+          <lb ed="#P" n="96"/>esse modum in re ipsa, adhuc necessario 
+          ha<lb break="no" ed="#P" n="97"/>bere existentiam propriam sibi 
+          accommoda<lb break="no" ed="#P" n="98"/>tam. Nam in rebus creatis, quanta est 
+          distinc<lb break="no" ed="#P" n="99"/>tio inter rem et modum, tanta est inter 
+          exis<lb break="no" ed="#P" n="100"/>tentiam rei et existentiam modi et inductio,
+          <lb ed="#P" n="101"/>quae in objectione fiebat, potest a nobis in
+          <lb ed="#P" n="102"/>contrarium retorqueri. Nam in supposito 
+          crea<lb break="no" ed="#P" n="103"/>to praeter existentiam naturae, necessario 
+          in<lb break="no" ed="#P" n="104"/>telligere debemus existentiam illius modi, qui
+          <lb ed="#P" n="105"/>terminat talem naturam et constituit 
+          formali<lb break="no" ed="#P" n="106"/>ter suppositum vel personam. Et ideo in 
+          hu<lb break="no" ed="#P" n="107"/>manitate CHRISTI Domini, licet sit existentia
+          <lb ed="#P" n="108"/>naturae creatae, non tamen est completa 
+          exis<lb break="no" ed="#P" n="109"/>tentia personae humanae, sed illa completur
+          <lb ed="#P" n="110"/>per existentiam personalem Verbi divini. Idem
+          <pb ed="#P" n="598"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>intelligendum est de inhaerentia accidentis,
+          <lb ed="#P" n="2"/>quatenus est modus ab ipso accidente 
+          distinc<lb break="no" ed="#P" n="3"/>tus. Idem in motu et aliis modis 
+          accidentah<lb break="no" ed="#P" n="4"/>bus entium. Et ratio generalis est, quia in his
+          <lb ed="#P" n="5"/>omnibus est propria actualitas realis, distincta
+          <lb ed="#P" n="6"/>a re, quam modificat, et quia fieri potest per
+          <lb ed="#P" n="7"/>distinctam efficientiam et influxum realem,
+          <lb ed="#P" n="8"/>ergo qualem habent entitatem distinctam,
+          <lb ed="#P" n="9"/>talem etiam habent actualem existentiam. Et
+          <lb ed="#P" n="10"/>confirmatur. Nam accidentia habent diversam
+          <lb ed="#P" n="11"/>existentiam a substantia, solum quia habent
+          <lb ed="#P" n="12"/>diversam entitatem a substantia, cur ergo non
+          <lb ed="#P" n="13"/>poterat illam habere modi reales, sive 
+          acci<lb break="no" ed="#P" n="14"/>dentales, sive substantiales sint.
+        </p>
+        <p xml:id="szduep-150594-d1e671">
+          <lb ed="#P" n="15"/>10. Evasio praecluditur. — Respondent, in
+          <lb ed="#P" n="16"/>aliis modis realibus, qui non sint modi 
+          exis<lb break="no" ed="#P" n="17"/>tentiae, habere hoc locum, non autem in 
+          mo<lb break="no" ed="#P" n="18"/>dis existentiae, id est, qui modificant rem, vel
+          <lb ed="#P" n="19"/>naturam, quatenus existens est, terminantque
+          <lb ed="#P" n="20"/>existentiam ejus. Quia una existentia non 
+          po<lb break="no" ed="#P" n="21"/>test esse modus alterius existentiae. At hoc nec
+          <lb ed="#P" n="22"/>verum est, nec quidquam refert ad rem 
+          prae<lb break="no" ed="#P" n="23"/>sentem: nam existentia actualis nihil aliud
+          <lb ed="#P" n="24"/>est, quam actualitas uniuscujusque rei in esse
+          <lb ed="#P" n="25"/>entis realis, transcendentaliter sumpti, id est,
+          <lb ed="#P" n="26"/>prout comprehendit propria entia et modos
+          <lb ed="#P" n="27"/>reales entium, ergo sicut potest una forma
+          <lb ed="#P" n="28"/>actu existens esse modus alterius rei 
+          existen<lb break="no" ed="#P" n="29"/>Us, ita una existentia potest esse modusalterius,
+          <lb ed="#P" n="30"/>ut existentia inhaerentiae potest esse modus 
+          ac<lb break="no" ed="#P" n="31"/>cidentalis existentiae, vel existentia 
+          personali<lb break="no" ed="#P" n="32"/>tatis, ut sic, est modus existentiae solius 
+          natu<lb break="no" ed="#P" n="33"/>rae, et sic de aliis. Quod si existentiam ipsam
+          <lb ed="#P" n="34"/>consideremus ut distinctam a proxima entitate,
+          <lb ed="#P" n="35"/>vel modo, et ad illam comparetur tanquam
+          <lb ed="#P" n="36"/>ad essentiam potentialem, cujus est 
+          existen<lb break="no" ed="#P" n="37"/>tia (sive re, sive ratione distinguatur) sic 
+          con<lb break="no" ed="#P" n="38"/>cedi potest, existentiam immediate tantum
+          <lb ed="#P" n="39"/>esse modum essentiae, vel quidditatis, seu
+          <lb ed="#P" n="40"/>formae, cujus est existentia, ipsam vero 
+          for<lb break="no" ed="#P" n="41"/>mam esse modum alterius entis. Atque ita in
+          <lb ed="#P" n="42"/>praesenti, existentia relativa immediate 
+          consi<lb break="no" ed="#P" n="43"/>derari potest tanquam modus ipsius relationis,
+          <lb ed="#P" n="44"/>quam constituit in esse formae et entitatis 
+          ac<lb break="no" ed="#P" n="45"/>tualis, ipsa vero relatio est, quae proxime
+          <lb ed="#P" n="46"/>concipitur ut forma, vel modus naturam 
+          ter<lb break="no" ed="#P" n="47"/>minans, vel constituens personam.
+        </p>
+        <p xml:id="szduep-150594-d1e745">
+          <lb ed="#P" n="48"/>11. Alie confirmationes. — Denique potest
+          <lb ed="#P" n="49"/>hoc fundamentum variis modis explicari et
+          <lb ed="#P" n="50"/>confirmari. Primo, quia essentia et relatio 
+          di<lb break="no" ed="#P" n="51"/>vina concipiuntur a nobis, ut ratione distinctae
+          <lb ed="#P" n="52"/>et utrumque extremum concipitur, ut actuale
+          <lb ed="#P" n="53"/>ens et non ut potentiale tantum: ergo in 
+          u<lb break="no" ed="#P" n="54"/>troque extremo concipimus existentias 
+          ratio<lb break="no" ed="#P" n="55"/>ne distinctas, quia nihil potest concipi ut ac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tuale ens, quin concipiatur ut includens 
+          exi<lb break="no" ed="#P" n="57"/>stentiam. Quod argumentum maxime urget
+          <lb ed="#P" n="58"/>contra eos, qui existimant, essentiam divinam
+          <lb ed="#P" n="59"/>-non includi in conceptu relationis praecise 
+          in<lb break="no" ed="#P" n="60"/>tellectae, quia negari profecto non potest,
+          <lb ed="#P" n="61"/>quin in conceptu relationis aliqua existentia
+          <lb ed="#P" n="62"/>includatur. Verumtamen etiam absolute 
+          pro<lb break="no" ed="#P" n="63"/>cedit ratio, nam esto, relatio includat 
+          essen<lb break="no" ed="#P" n="64"/>tiam, tamen nostro modo intelhgendi illi 
+          ali<lb break="no" ed="#P" n="65"/>quid addit, quod pertineat ad ens actuale, et
+          <lb ed="#P" n="66"/>ideo necesse est, addat etiam existentiam 
+          ra<lb break="no" ed="#P" n="67"/>tione distinctam.
+        </p>
+        <p xml:id="szduep-150594-d1e793">
+          <lb ed="#P" n="68"/>12. Secundo, quia paternitas est veluti 
+          quae<lb break="no" ed="#P" n="69"/>dam forma Patris, ergo dat illi ahquod esse,
+          <lb ed="#P" n="70"/>quod non est esse essentiae, nec potentiale;
+          <lb ed="#P" n="71"/>est ergo actuale et existentiae. Dici potest dari
+          <lb ed="#P" n="72"/>medium, scilicet esse personale, vel esse 
+          rela<lb break="no" ed="#P" n="73"/>tivum. Sed hoc revera non est medium, nam
+          <lb ed="#P" n="74"/>in hoc esse personali, seu relativo potest 
+          con<lb break="no" ed="#P" n="75"/>siderari sola formals ratio quasi quidditativa
+          <lb ed="#P" n="76"/>illius, vel considerari potest, quod sit 
+          quod<lb break="no" ed="#P" n="77"/>dam esse actuale in rerum natura, et hoc modo
+          <lb ed="#P" n="78"/>esse personale est contentum sub esse 
+          exi<lb break="no" ed="#P" n="79"/>stentiae, nam hoc est veluti transcendens 
+          ne<lb break="no" ed="#P" n="80"/>cessario inclusum in omni esse real in actu.
+        </p>
+        <p xml:id="szduep-150594-d1e824">
+          <lb ed="#P" n="81"/>13. Quod potest tertio declarari in Filio (et
+          <lb ed="#P" n="82"/>idem est cum proportione de Spiritu sancto);
+          <lb ed="#P" n="83"/>nam Filius per suam generationem accipit a
+          <lb ed="#P" n="84"/>Patre et esse Dei et esse Filii, inter quae prout
+          <lb ed="#P" n="85"/>ratione distinguuntur, potest haec diversitas
+          <lb ed="#P" n="86"/>considerari. Nam esse Dei non producitur, sed
+          <lb ed="#P" n="87"/>communicatur, supponitur enim in Patre, et
+          <lb ed="#P" n="88"/>idem communicatur Filio, esse autem Filii, ut
+          <lb ed="#P" n="89"/>sic, non supponitur, sed producitur seu 
+          com<lb break="no" ed="#P" n="90"/>producitur cum ipso Filio, ergo necesse est illa
+          <lb ed="#P" n="91"/>duo esse ratione distingui, quandoquidem tam
+          <lb ed="#P" n="92"/>diverso modo esse intelliguntur. Necessarium
+          <lb ed="#P" n="93"/>idem est, utrumque pertinere ad esse 
+          existen<lb break="no" ed="#P" n="94"/>tiae, quod quidem de esse Dei manifestum est,
+          <lb ed="#P" n="95"/>de esse autem Filii probatur, quia omne esse,
+          <lb ed="#P" n="96"/>quod terminat aliquo modo realem et 
+          actua<lb break="no" ed="#P" n="97"/>lem productionem, est esse existentiae realis.
+        </p>
+        <p xml:id="szduep-150594-d1e863">
+          <lb ed="#P" n="98"/>14. Denique existentia, ut sic, etiam in
+          <lb ed="#P" n="99"/>creatura abstrahit ab absoluta et respectiva,
+          <lb ed="#P" n="100"/>falluntur enim, qui putant existentiam 
+          rela<lb break="no" ed="#P" n="101"/>tionis realis ut sic, esse actum quemdam 
+          ab<lb break="no" ed="#P" n="102"/>solutum, etiamsi ipsa forma relativa sit, hoc 
+          e<lb break="no" ed="#P" n="103"/>nim repugnat, quia esse provenit a forma, et
+          <lb ed="#P" n="104"/>est illi proportionatum. Item, quia forma 
+          re<lb break="no" ed="#P" n="105"/>lativa, ut saepe dixi, etiam secundum, esse ad,
+          <lb ed="#P" n="106"/>inest et realiter existit in subjecto, ergo in illo
+          <lb ed="#P" n="107"/>habet suam existentiam sibi accommodatam.
+          <lb ed="#P" n="108"/>Ita ergo de divinis relationibus 
+          philosophan<lb break="no" ed="#P" n="109"/>dum censemus. Et fundamenta contraria 
+          so<lb break="no" ed="#P" n="110"/>luta sunt, et in sequenti capite aliquid addemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

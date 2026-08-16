@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="464"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-117985"><!-- t2-l3c5 -->
+        <head xml:id="szduep-117985-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-117985-Hd1e103" type="question-title">An omnes supernaturales actus quovis modo meritorii, quos praedestinatus facit, sint effectus praedestinationis ejus</head>
+        <p xml:id="szduep-117985-d1e106">
+          <lb ed="#P" n="97"/>CAPUT V.
+          <lb ed="#P" n="98"/>AN OMNES SUPERNATURALES ACTUS QUOVIS MODO
+          <lb ed="#P" n="99"/>MERITORII, QUOS PRAEDESTINATUS FACIT, SINT
+          <lb ed="#P" n="100"/>EFFECTUS PRAEDESTINATIONIS EJUS.
+        </p>
+        <p xml:id="szduep-117985-d1e117">
+          <lb ed="#P" n="101"/>1. Prima opinio .-Ratio.--Prima opinio 
+          abso<lb break="no" ed="#P" n="102"/>lute negat, actus humanos, quantumvis 
+          super<lb break="no" ed="#P" n="103"/>naturales, et utiles sint ad vitam aeternam cum
+          <lb ed="#P" n="104"/>effectu consequendam, esse praedestinationis
+          <lb ed="#P" n="105"/>effectum. Ratio reddi potest, quia illi tantum
+          <lb ed="#P" n="106"/>sunt praedestinationis effectus, qui ex absoluta
+          <lb ed="#P" n="107"/>Dei praefinitione , et praeordinatione prove-
+          <pb ed="#P" n="465"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>niunt : sed actus humani, etiam 
+          supernatura<lb break="no" ed="#P" n="2"/>les non proveniunt ex tali Dei intentione: ergo.
+          <lb ed="#P" n="3"/>Major patet, quia praedestinatio dicit 
+          effica<lb break="no" ed="#P" n="4"/>cem, et infallibilem providentiam, non solum
+          <lb ed="#P" n="5"/>ex praescientia, sed ex praeordinatione divina,
+          <lb ed="#P" n="6"/>ut docet D. Thomas, 1 parte, quaestione 23, 
+          ar<lb break="no" ed="#P" n="7"/>ticulo 7 et 8, et quaestione 6, de Verit., articulo
+          <lb ed="#P" n="8"/>3, et saepe alias : ergo effectus, qui non 
+          perve<lb break="no" ed="#P" n="9"/>niunt ex hujusmodi providentia Dei, non 
+          pos<lb break="no" ed="#P" n="10"/>sunt dici praedestinationis effectus : hujusmodi
+          <lb ed="#P" n="11"/>autem sunt effectus omnes , qui proveniunt
+          <lb ed="#P" n="12"/>sine speciali praefinitione Dei. Jam vero quod
+          <lb ed="#P" n="13"/>tales sint omnes effectus liberi, opinantur
+          <lb ed="#P" n="14"/>multi, quia putant talem praefinitionem 
+          repu<lb break="no" ed="#P" n="15"/>gnare libertati. Unde omnes, qui sententiam
+          <lb ed="#P" n="16"/>illam tuentur, videntur posse pro hac opinione
+          <lb ed="#P" n="17"/>allegari : quamvis revera omnes id asserant.
+        </p>
+        <p xml:id="szduep-117985-d1e176">
+          <lb ed="#P" n="18"/>2. Secunda opinio —Secunda opinio 
+          distin<lb break="no" ed="#P" n="19"/>guit inter actus, qui sunt dispositiones 
+          remo<lb break="no" ed="#P" n="20"/>tae ad justificationem ex una parte, et eos, qui
+          <lb ed="#P" n="21"/>sunt vel ultima dispositio ad gratiam, vel
+          <lb ed="#P" n="22"/>fructus justitiae jam comparatae : et de 
+          priori<lb break="no" ed="#P" n="23"/>bus negat esse praedestinationis effectus, 
+          affir<lb break="no" ed="#P" n="24"/>mat autem de posterioribus. Cujus sententiae
+          <lb ed="#P" n="25"/>videtur fuisse Bonaventura 1, disp. 41, art. 1,
+          <lb ed="#P" n="26"/>quaest. 2, nam solos duos effectus 
+          praedestina<lb break="no" ed="#P" n="27"/>tionis ponit, scilicet justificationem et 
+          glorifi<lb break="no" ed="#P" n="28"/>cationem. Sub justificatione autem videtur
+          <lb ed="#P" n="29"/>comprehendere dispositionem ultimam ad 
+          il<lb break="no" ed="#P" n="30"/>lam et sequentia opera, quibus in adepta 
+          jus<lb break="no" ed="#P" n="31"/>ttia perseveratur et crescitur. Priores vero
+          <lb ed="#P" n="32"/>dispositiones, etiamsi a gratia auxiliante 
+          pro<lb break="no" ed="#P" n="33"/>cedere fateatur, sentit non esse effectum 
+          prae<lb break="no" ed="#P" n="34"/>destinationis quia dicit esse causam ejus: 
+          sal<lb break="no" ed="#P" n="35"/>tem ut meritum de congruo, nam hoc modo
+          <lb ed="#P" n="36"/>potest homo ex gratia auxiliante mereri de
+          <lb ed="#P" n="37"/>congruo justificationem, et caetera omnia, quae
+          <lb ed="#P" n="38"/>illam comittantur, vel consequuntur.
+        </p>
+        <p xml:id="szduep-117985-d1e225">
+          <lb ed="#P" n="39"/>3. Excluditur ab hac opinione D. 
+          Bonaven<lb break="no" ed="#P" n="40"/>tura.— Non invenio tamen expresse in 
+          Bona<lb break="no" ed="#P" n="41"/>ventura, vel alio auctore hanc sententiam, vel
+          <lb ed="#P" n="42"/>fundamentum ejus. Nam difficile est rationem
+          <lb ed="#P" n="43"/>reddere, cur ab hac vita effectus 
+          praedestina<lb break="no" ed="#P" n="44"/>tionis ab ipsa justificatione, prout includit 
+          in<lb break="no" ed="#P" n="45"/>fusionem gratiae habitualis, inchoetur et 
+          om<lb break="no" ed="#P" n="46"/>nes praecedentes gratiae non sint 
+          praedestina<lb break="no" ed="#P" n="47"/>tionis effectus. Nam si quis dixerit, illos 
+          prio<lb break="no" ed="#P" n="48"/>res effectus esse communes reprobis, idem de
+          <lb ed="#P" n="49"/>justificatione ipsa dicemus. Quod si 
+          justifica<lb break="no" ed="#P" n="50"/>tio habet aliquid speciale in praedestinandis,
+          <lb ed="#P" n="51"/>ob quod esse-possit praedestinationis effectus,
+          <lb ed="#P" n="52"/>idem in prioribus, ac remotis dispositionibus
+          <lb ed="#P" n="53"/>considerari facile potest. Quod si dixerit, ad
+          <lb ed="#P" n="54"/>effectus praedestinationis solum pertinere eas
+          <lb ed="#P" n="55"/>gratias, quas solus DEUS facit, sic nec dispo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sitio ultima, nec merita, seu fructus justitiae
+          <lb ed="#P" n="57"/>erunt effectus praedestinationis, quia non solus
+          <lb ed="#P" n="58"/>Deus ea facit, sed nobiscum: quo modo etiam
+          <lb ed="#P" n="59"/>se gerit in dispositionibus remotis. Dicere vero
+          <lb ed="#P" n="60"/>potest aliquis, effectum praedestinationis 
+          de<lb break="no" ed="#P" n="61"/>bere esse ex se permanentem, atque adeo in
+          <lb ed="#P" n="62"/>hac vita debere esse habitualem, aut saltem,
+          <lb ed="#P" n="63"/>qui habitum aliquem, seu argumentum ejus
+          <lb ed="#P" n="64"/>post se relinquat, quod non convenit remotis
+          <lb ed="#P" n="65"/>dispositionibus; sed hoc satis infirmum 
+          fun<lb break="no" ed="#P" n="66"/>damentum est, ut patebit.
+        </p>
+        <p xml:id="szduep-117985-d1e290">
+          <lb ed="#P" n="67"/>4. Tertia opinio. — Hatio. — Tertia opinio
+          <lb ed="#P" n="68"/>aliter distinguit, non inter actus, sed in 
+          con<lb break="no" ed="#P" n="69"/>sideratione cujuscumque actus supernaturalis.
+          <lb ed="#P" n="70"/>Duo enim in illo considerat, scilicet concursum
+          <lb ed="#P" n="71"/>Dei seu influxum gratiae et cooperationem 
+          libe<lb break="no" ed="#P" n="72"/>riarbitrii. Dicit ergo, actus supernaturales 
+          prae<lb break="no" ed="#P" n="73"/>destinatorum, quoad influxum gratiae et Dei,
+          <lb ed="#P" n="74"/>esse effectum praedestinationis : quoad 
+          coope<lb break="no" ed="#P" n="75"/>rationem vero liberi arbitrii non esse, imo
+          <lb ed="#P" n="76"/>inde posse aliquam praedestinationis rationem,
+          <lb ed="#P" n="77"/>vel conditionem assumi. lIta sentit Henricus,
+          <lb ed="#P" n="78"/>quodl. 4, quaest. 19, et quodl. 8, q.5, et priorem
+          <lb ed="#P" n="79"/>quidem partem nune ut veram supponimus, a
+          <lb ed="#P" n="80"/>fortiori enim probabitur ex dicendis. Ratio
+          <lb ed="#P" n="81"/>alterius partis esse potest, quia cooperatio 
+          li<lb break="no" ed="#P" n="82"/>beri arbitrii ut sic non est effectus Dei: ergo
+          <lb ed="#P" n="83"/>nec est effectus praedestinationis. Consequentia
+          <lb ed="#P" n="84"/>ex dict. in primo capite nota est. Antecedens
+          <lb ed="#P" n="85"/>vero patet, quia illa cooperatio ut sic praecise
+          <lb ed="#P" n="86"/>dicit respectum ad liberum, arbitrium, et abillo
+          <lb ed="#P" n="87"/>solo manat. Sicut e contrario influxus gratiae a
+          <lb ed="#P" n="88"/>sola gratia est, et non a libero arbitrio: est
+          <lb ed="#P" n="89"/>enim eadem ratio.
+        </p>
+        <p xml:id="szduep-117985-d1e342">
+          <lb ed="#P" n="90"/>5. Verior opinio. —V era tamen sententia est,
+          <lb ed="#P" n="91"/>omniaoperasupernaturalia electorum, quae cum
+          <lb ed="#P" n="92"/>effectu aliquid conferunt ad consecutionem 
+          vi<lb break="no" ed="#P" n="93"/>tae aeternae , esse effectum praedestinationis,
+          <lb ed="#P" n="94"/>quoad totum id, quod in ejusmodi operibus 
+          in<lb break="no" ed="#P" n="95"/>venitur et sub omni habitudine, sive ad Deum,
+          <lb ed="#P" n="96"/>sive ad aliam priorem gratiam, sive ad liberum
+          <lb ed="#P" n="97"/>arbitrium. Hanc veritatem supponunt caeteri
+          <lb ed="#P" n="98"/>theologi, qui docent, non posse inveniri ex
+          <lb ed="#P" n="99"/>parte hominis praedestinati, rationem aliquam
+          <lb ed="#P" n="100"/>totius praedestinationis quoad omnes ejus 
+          ef<lb break="no" ed="#P" n="101"/>fectus, fundatam in opere procedente a gratia,
+          <lb ed="#P" n="102"/>sub quacumque ratione spectato. Quod inde
+          <lb ed="#P" n="103"/>colligunt, quia omnis talis actus et quidquid
+          <lb ed="#P" n="104"/>in eo est, effectus praedestinauonis existit. 
+          Ra<lb break="no" ed="#P" n="105"/>tione autem probanda est haec veritas 
+          sigilla<lb break="no" ed="#P" n="106"/>tim et per partes.
+        </p>
+        <p xml:id="szduep-117985-d1e381">
+          <lb ed="#P" n="107"/>6. Fulcitur ratione. — Et imprimis, quod
+          <lb ed="#P" n="108"/>non repugnet actum liberum ut sic esse 
+          prae<lb break="no" ed="#P" n="109"/>destinationis effectum, facile probari potest
+          <lb ed="#P" n="110"/>contra primam sententiam. Primo quia non
+          <pb ed="#P" n="466"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>repugnat libertati, tales actus praefiniri a Deo,
+          <lb ed="#P" n="2"/>imo verisimilius est, omnes actus, qui cum
+          <lb ed="#P" n="3"/>effectu conducunt ad vitam aeternam, esse mm
+          <lb ed="#P" n="4"/>se et antecedenter praeordinatos a Deo, 
+          abso<lb break="no" ed="#P" n="5"/>Iuto et efficaci decreto, ut in libris de Auxiliis
+          <lb ed="#P" n="6"/>ostendimus. Secundo, quia quidquid sit de
+          <lb ed="#P" n="7"/>praedestinatione speciali talium actuum in se
+          <lb ed="#P" n="8"/>ipsis, ut sint effectus praedestinationis, satis
+          <lb ed="#P" n="9"/>est, quod sint dona Dei data homini ex 
+          specia<lb break="no" ed="#P" n="10"/>li intentione beatificandi illum, et ut talis 
+          in<lb break="no" ed="#P" n="11"/>tentio efficaciter impleatur. Esto enim vera
+          <lb ed="#P" n="12"/>esset sententia dicentium, ex tali intentione
+          <lb ed="#P" n="13"/>non sequi necessario praedestinationem talis
+          <lb ed="#P" n="14"/>medii in particulari, seu disjunctim hujus, vel
+          <lb ed="#P" n="15"/>illius, ut si unum non successerit, aliud habeat
+          <lb ed="#P" n="16"/>effectum, nihilominus quoties talis actus 
+          fie<lb break="no" ed="#P" n="17"/>ret, esset effectus praedestinationis, quia est
+          <lb ed="#P" n="18"/>effectus illius, intentionis dandi gloriam, 
+          me<lb break="no" ed="#P" n="19"/>diante speciali gratia ab eadem intentione
+          <lb ed="#P" n="20"/>manante, quae tandem efficax est et aliquid
+          <lb ed="#P" n="21"/>confert ad consecutionem vitae aeternae: ergo
+          <lb ed="#P" n="22"/>hoc sufficeret in rigore, ut esset 
+          praedestina<lb break="no" ed="#P" n="23"/>tionis effectus. Unde formaliter loquendo, non
+          <lb ed="#P" n="24"/>dicitur aliquis praedestinationis effectus, quia
+          <lb ed="#P" n="25"/>procedit ex speciali voluntate absoluta, qua
+          <lb ed="#P" n="26"/>ille effectus, vel actus est in particulati 
+          praede<lb break="no" ed="#P" n="27"/>finitus cum omnibus circumstantiis suis, haec
+          <lb ed="#P" n="28"/>enim alia quaestio est de praedestinatione ipsius
+          <lb ed="#P" n="29"/>actus, de qua nunc non agimus, sed de 
+          prae<lb break="no" ed="#P" n="30"/>destinatione hominis. Dicitur ergo 
+          supernatu<lb break="no" ed="#P" n="31"/>ralis actus esse praedestinationis effectus, vel
+          <lb ed="#P" n="32"/>quia media, seu principia necessaria ad illum
+          <lb ed="#P" n="33"/>dantur ex intentione efficaci salvandi 
+          homi<lb break="no" ed="#P" n="34"/>nem, vel certe quia sunt ex tali providentia
+          <lb ed="#P" n="35"/>Dei erga hominem, qua tandem perducitur
+          <lb ed="#P" n="36"/>cum effectu ad ultimam salutem. Haec enim
+          <lb ed="#P" n="37"/>providentia est praedestinatio et ab illa sine
+          <lb ed="#P" n="38"/>dubio procedunt tales actus quoad totum quod
+          <lb ed="#P" n="39"/>in eis est, ut ex sequenti puncto constabit.
+        </p>
+        <p xml:id="szduep-117985-d1e481">
+          <lb ed="#P" n="40"/>7. Secunda assertio. — Dico ergo secundo.
+          <lb ed="#P" n="41"/>Actus supernaturales non solum sunt 
+          effec<lb break="no" ed="#P" n="42"/>tus praedestinationis quantum ad influsum
+          <lb ed="#P" n="43"/>gratiae, seu Dei in ipsos, sed etiam quantum
+          <lb ed="#P" n="44"/>ad cooperationem liberi arbitrii. Probatur,
+          <lb ed="#P" n="45"/>quia illi actus simpliciter sunt dona Dei 
+          se<lb break="no" ed="#P" n="46"/>cundum totum quod in eis est: ergo in
+          <lb ed="#P" n="47"/>praedestinato eodem modo sunt effectus 
+          prae<lb break="no" ed="#P" n="48"/>destinationis ejus. Consequentia est clara,
+          <lb ed="#P" n="49"/>quia haec dona sunt media, per quae salus
+          <lb ed="#P" n="50"/>ita praeparatur praedestinato, ut infallibiliter
+          <lb ed="#P" n="51"/>eam consequatur. Sunt ergo 
+          praedestinatio<lb break="no" ed="#P" n="52"/>nis effectus, juxta definitionem Augustini.
+          <lb ed="#P" n="53"/>Praedestinatio est preescientia et preparatio
+          <lb ed="#P" n="54"/>beneficiorum Dei, quibus certissime liberantur,
+          <lb ed="#P" n="55"/>quicumque liberantur, de Bono persever., capite
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>decimo quarto. Antecedens vero patet ex 
+          eo<lb break="no" ed="#P" n="57"/>dem Augustino passim dicente, cum Deus
+          <lb ed="#P" n="58"/>praemium confert nostris operibus, dona sua
+          <lb ed="#P" n="59"/>remunerare, de Praedestinatione sanctorum,
+          <lb ed="#P" n="60"/>capite vigesimo, de Bono perseverantiae, 
+          capi<lb break="no" ed="#P" n="61"/>te decimo tertio, de Gratia et libero Arbitrio,
+          <lb ed="#P" n="62"/>capitibus 5, 15 et 16. Quem loquendi modum
+          <lb ed="#P" n="63"/>usurpavit etiam Caelestinus papa, Epistola
+          <lb ed="#P" n="64"/>prima, ergo ipsum meritum nostrum est Dei
+          <lb ed="#P" n="65"/>donum: at meritum ut sic, liberam hominis
+          <lb ed="#P" n="66"/>cooperationem includit. Quae ratio procedit
+          <lb ed="#P" n="67"/>tam in merito de condigno, quam de congruo
+          <lb ed="#P" n="68"/>et in quacumque supernatural dispositione
+          <lb ed="#P" n="69"/>libera; omnia enim haec sunt dona Dei, et 
+          li<lb break="no" ed="#P" n="70"/>beram cooperationem includunt.
+        </p>
+        <p xml:id="szduep-117985-d1e553">
+          <lb ed="#P" n="71"/>8. Secundo, ipsamet cooperatio libera 
+          ho<lb break="no" ed="#P" n="72"/>minis est a Deo per se efficaciter intenta, ac
+          <lb ed="#P" n="73"/>praedefinita, et praeparata per 
+          praedestinatio<lb break="no" ed="#P" n="74"/>nem, ergo est effectus gratiae per 
+          praedestina<lb break="no" ed="#P" n="75"/>tionem praeparatae, et accommodatae ad talem
+          <lb ed="#P" n="76"/>cooperationem obtinendam , ergo est effectus
+          <lb ed="#P" n="77"/>praedestinationis. Consequentia est evidens ex
+          <lb ed="#P" n="78"/>dictis in capite primo. Major item est certa,
+          <lb ed="#P" n="79"/>quia Deus simpliciter vult praedestinatum 
+          con<lb break="no" ed="#P" n="80"/>vertere, vel ut credat, vel ut poenitentiam agat :
+          <lb ed="#P" n="81"/>ergo directe vult, et efficaciter intendit 
+          coope<lb break="no" ed="#P" n="82"/>rationem ejus, quia non potest aliter converti,
+          <lb ed="#P" n="83"/>nisi cooperando. Explicatur, nam in his 
+          aeti<lb break="no" ed="#P" n="84"/>bus non solum vult Deus ad illos concurrere,
+          <lb ed="#P" n="85"/>sed simpliciter vult, ut homo illos habeat, et
+          <lb ed="#P" n="86"/>ut velit, et ut ad tale objectum tali modo
+          <lb ed="#P" n="87"/>et tali tempore determinetur, cooperando
+          <lb ed="#P" n="88"/>gratige suae: ipsa ergo cooperatio 
+          praedes<lb break="no" ed="#P" n="89"/>tinati est a Deo intenta, et volita tanquam
+          <lb ed="#P" n="90"/>unum ex necessariis mediis ad finem 
+          praedes<lb break="no" ed="#P" n="91"/>tinationis consequendum. Minor item 
+          certis<lb break="no" ed="#P" n="92"/>sima esse debet, quia haec ipsa cooperatio est
+          <lb ed="#P" n="93"/>effectus gratiae efficacis, quae sine dubio est
+          <lb ed="#P" n="94"/>praedestinationis effectus, ut mox dicemus.
+          <lb ed="#P" n="95"/>Assumptum declaratur primo de causaltate
+          <lb ed="#P" n="96"/>morali, nam Deus per vocationem, et auxilia
+          <lb ed="#P" n="97"/>excitantia trahit hominem moraliter, ut velit
+          <lb ed="#P" n="98"/>et cooperetur, et hoc modo facit, ut velimus
+          <lb ed="#P" n="99"/>et faciamus, ergo ipsamet cooperatio nostra
+          <lb ed="#P" n="100"/>est effectus gratise excitantis, quae ex suo 
+          ge<lb break="no" ed="#P" n="101"/>nere transit in adjuvantem, quando effectus
+          <lb ed="#P" n="102"/>consequitur. De physica vero causalitate 
+          pro<lb break="no" ed="#P" n="103"/>batur, quia illa cooperatio aliquid reale est ad
+          <lb ed="#P" n="104"/>pietatem pertinens, et ad salutem valde 
+          neces<lb break="no" ed="#P" n="105"/>sarium : ergo non potest esse a nobis sine Deo
+          <lb ed="#P" n="106"/>et gratia ejus, juxta illud: S'ine me nihil 
+          potes<lb break="no" ed="#P" n="107"/>tis facere, et illud: Quid habes quod non 
+          acce<lb break="no" ed="#P" n="108"/>pisti. Quae vera sunt etiam secundum realem,
+          <lb ed="#P" n="109"/>et physicam efficientiam. -
+        </p>
+        <p xml:id="szduep-117985-d1e641">
+          <lb ed="#P" n="110"/>9. Fundamentum Henrici rejicitur. — Quo-
+          <pb ed="#P" n="467"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>circa (ut Henrico respondeamus) quamvis 
+          co<lb break="no" ed="#P" n="2"/>operatio illa a voluntate nostra sit, et sub illa
+          <lb ed="#P" n="3"/>voce, ac denominatione tantum dicat 
+          relatio<lb break="no" ed="#P" n="4"/>nem ad nostram voluntatem : nihilominus tota
+          <lb ed="#P" n="5"/>illa relatio, si realis est, et fundamentum ejus
+          <lb ed="#P" n="6"/>est effectus gratiae Dei, et consequenter in 
+          prae<lb break="no" ed="#P" n="7"/>destinatis est praedestinationis effectus. Nam
+          <lb ed="#P" n="8"/>cooperatio illa aliquid est in rerum natura:
+          <lb ed="#P" n="9"/>ergo non potest esse sine Dei influxu: Unde
+          <lb ed="#P" n="10"/>cum sit ad supernaturalem actum, erit ille
+          <lb ed="#P" n="11"/>influxus gratiae. Imo in illa cooperatione 
+          vo<lb break="no" ed="#P" n="12"/>luntas non operatur propria virtute naturali,
+          <lb ed="#P" n="13"/>sed per obedientialem potentiam et tanquam
+          <lb ed="#P" n="14"/>instrumentum liberum, divina virtute 
+          eleva<lb break="no" ed="#P" n="15"/>tum : ergo in illamet cooperatione Deus est
+          <lb ed="#P" n="16"/>principale operans, operatur autem 
+          superna<lb break="no" ed="#P" n="17"/>turalem providentiam cum certa et infallibili
+          <lb ed="#P" n="18"/>consecutione finis: ergo per praedestinationem.
+        </p>
+        <p xml:id="szduep-117985-d1e689">
+          <lb ed="#P" n="19"/>10. Objectio. — Respondetur.—bices, si 
+          co<lb break="no" ed="#P" n="20"/>operatio liberi arbitrii sit per actionem 
+          ipsius<lb break="no" ed="#P" n="21"/>met Dei, ut auctoris, et provisoris 
+          superna<lb break="no" ed="#P" n="22"/>turalis: ergo antecedit ordine causalitatis, et
+          <lb ed="#P" n="23"/>naturae actio Dei ad nostram cooperationem,
+          <lb ed="#P" n="24"/>quod nos non admittimus. Item si illa 
+          coope<lb break="no" ed="#P" n="25"/>ratio est effectus gratiae, ergo absolute verum
+          <lb ed="#P" n="26"/>est dicere, quod Deus facit nostram 
+          cooperatio<lb break="no" ed="#P" n="27"/>nem, ergo facit, ut nos cooperemur, ergo 
+          de<lb break="no" ed="#P" n="28"/>terminat voluntatem nostram ad cooperandum:
+          <lb ed="#P" n="29"/>quae omnia repugnant nostra doctrinae de
+          <lb ed="#P" n="30"/>auxiliis gratiae. Respondetur ad priorem 
+          par<lb break="no" ed="#P" n="31"/>tem distinguendo consequens, habet enim duos
+          <lb ed="#P" n="32"/>sensus, et in altero admittenda est illatio, in
+          <lb ed="#P" n="33"/>altero vero neganda. Itaque (ut alibi diximus)
+          <lb ed="#P" n="34"/>duplex est gratia, quae ad hominis actum 
+          con<lb break="no" ed="#P" n="35"/>currit : una est per modum principii, alia per
+          <lb ed="#P" n="36"/>modum concursus. De priori verum est, Deum
+          <lb ed="#P" n="37"/>per novam actionem efficere nostrammet 
+          co<lb break="no" ed="#P" n="38"/>operationem in nobis, et nobiscum: sic enim
+          <lb ed="#P" n="39"/>per vocationem facit Deus velle nostrum, seu
+          <lb ed="#P" n="40"/>ut velimus, ut saepe dicit Augustinus. Quid
+          <lb ed="#P" n="41"/>enim est facere ut velimus, nisi facere, ut 
+          co<lb break="no" ed="#P" n="42"/>operemur ? Item cooperatio nostra est res 
+          dis<lb break="no" ed="#P" n="43"/>üncta a gratia operante, quae est principium
+          <lb ed="#P" n="44"/>nostri actus, ergo est propriissime effectus ejus,
+          <lb ed="#P" n="45"/>per actionem distinctam ab ipsa operante 
+          gra<lb break="no" ed="#P" n="46"/>tia, per quam Deus operatur in nobis actum
+          <lb ed="#P" n="47"/>liberum. De altera vero gratia dicendum est
+          <lb ed="#P" n="48"/>in re non distingui a nostra cooperatione, sed
+          <lb ed="#P" n="49"/>solum ratione, et denominatione. Unde verum
+          <lb ed="#P" n="50"/>est, illammet cooperationem esse actionem
+          <lb ed="#P" n="51"/>Dei, et hoc sensu fieri per actionem Dei, vel
+          <lb ed="#P" n="52"/>petius esse actionem Dei, eo modo, quo actio
+          <lb ed="#P" n="53"/>fit se ipsa, et quo solet una, et eadem actio esse
+          <lb ed="#P" n="54"/>instrumenti et principalis agentis. Unde in 
+          for<lb break="no" ed="#P" n="55"/>ma respondetur, duplicem actionem interce-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dere in nostris operibus gratiae. Unam 
+          perve<lb break="no" ed="#P" n="57"/>nientem, et de hac verum est, antecedere 
+          or<lb break="no" ed="#P" n="58"/>dine naturae ad nostram cooperationem, 
+          alte<lb break="no" ed="#P" n="59"/>ram cooperantem , et de hac negamus esse
+          <lb ed="#P" n="60"/>priorem natura secundum propriam 
+          causalita<lb break="no" ed="#P" n="61"/>tem , quia non est in re distincta a nostra
+          <lb ed="#P" n="62"/>cooperatione.
+        </p>
+        <p xml:id="szduep-117985-d1e789">
+          <lb ed="#P" n="63"/>11. Ad alteram objectionis pavtem 
+          responda<lb break="no" ed="#P" n="64"/>tur.—Ad alteram partem objectionis, caeteris
+          <lb ed="#P" n="65"/>omnibus concessis, negatur ultima 
+          consequen<lb break="no" ed="#P" n="66"/>tia : quia per gratiam praevenientem, seu quae
+          <lb ed="#P" n="67"/>est principium actus liberi, Deus propriissime
+          <lb ed="#P" n="68"/>facit nostram cooperationem, quando illa sit,
+          <lb ed="#P" n="69"/>et similiter facit, ut cooperemur, non 
+          efficaci<lb break="no" ed="#P" n="70"/>ter praedeterminando, sed inducendo prius, et
+          <lb ed="#P" n="71"/>postea adjuvando. Per concursum autem non
+          <lb ed="#P" n="72"/>tam proprie facit, ut cooperemur, sed facit
+          <lb ed="#P" n="73"/>ipsammet cooperationem modo explicato.Quod
+          <lb ed="#P" n="74"/>satis est, ut illa cooperatio sit effectus 
+          praedes<lb break="no" ed="#P" n="75"/>tinationis, quia non oportet ut eamdem 
+          relatio<lb break="no" ed="#P" n="76"/>nem habeat ad Deum, et ad voluntatem 
+          homi<lb break="no" ed="#P" n="77"/>nis, nec quod eamdem denominationem ab 
+          u<lb break="no" ed="#P" n="78"/>traque recipiat, sed satis est, quod quidquid
+          <lb ed="#P" n="79"/>in illo actu est, sit aliquo modo a gratia per
+          <lb ed="#P" n="80"/>praedestinationem praeparata.
+        </p>
+        <p xml:id="szduep-117985-d1e831">
+          <lb ed="#P" n="81"/>12. Tertia conclusio. — Probatur primo.—
+          <lb ed="#P" n="82"/>Tertio dicendum est, omnem supernaturalem
+          <lb ed="#P" n="83"/>actum, qui cum effectu confert praedestinato,
+          <lb ed="#P" n="84"/>ut aliquam habitualem gratiam consequatur,
+          <lb ed="#P" n="85"/>esse praedestinationis effectum. Probatur 
+          pri<lb break="no" ed="#P" n="86"/>mo, quia verisimilius est, omnem hujusmodi
+          <lb ed="#P" n="87"/>actum saltem in electis esse a Deo specialiter
+          <lb ed="#P" n="88"/>praedefinitum, quae praedefinitio ad 
+          praedesti<lb break="no" ed="#P" n="89"/>nationem pertinet, et ab illa trahit originem
+          <lb ed="#P" n="90"/>cooperatio liberi arbitrii. Secundo, quia 
+          osten<lb break="no" ed="#P" n="91"/>sum est, omnem gratiam habitualem 
+          praedes<lb break="no" ed="#P" n="92"/>tinati permanere in aeternam vitam, ac 
+          pro<lb break="no" ed="#P" n="93"/>inde conferre, vel pertinere aliquo modo ad
+          <lb ed="#P" n="94"/>effectum ultimum praedestinationis: ergo si
+          <lb ed="#P" n="95"/>actus talis est, ut cum effectu conferat ad 
+          ha<lb break="no" ed="#P" n="96"/>bitualem aliquam gratiam obtinendam, 
+          me<lb break="no" ed="#P" n="97"/>diante illa confert ad consecutionem ultimae
+          <lb ed="#P" n="98"/>felicitatis in eo gradu, in quo praedestinata
+          <lb ed="#P" n="99"/>est : ergo hoc est satis, ut sit effectus 
+          praedes<lb break="no" ed="#P" n="100"/>tnationis.
+        </p>
+        <p xml:id="szduep-117985-d1e877">
+          <lb ed="#P" n="101"/>13. Unde constat, omnes actus meritorios
+          <lb ed="#P" n="102"/>de condigno augmenti gratiae esse effectus
+          <lb ed="#P" n="103"/>praedestinationis : quia effectus talium 
+          meri<lb break="no" ed="#P" n="104"/>torum in praedestinatis nunquam frustratur,
+          <lb ed="#P" n="105"/>quia in illis semper impletur illa conditio,
+          <lb ed="#P" n="106"/>quam Concilium posuit, S in gratia 
+          decesse<lb break="no" ed="#P" n="107"/>rint : ac proinde semper illis respondet 
+          effec<lb break="no" ed="#P" n="108"/>tus semperque manent viva in Dei conspectu,
+          <lb ed="#P" n="109"/>nam licet ad tempus mortificentur, 
+          revivis<lb break="no" ed="#P" n="110"/>cunt tandem in perpetuum. Quae ratio probat
+          <pb ed="#P" n="468"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>idem de ultima dispositione ad gratiam, per
+          <lb ed="#P" n="2"/>illam enim saltem de congruo eamdem 
+          gra<lb break="no" ed="#P" n="3"/>tiam meremur, et de condigno gloriam, et ille
+          <lb ed="#P" n="4"/>effectus infallibilis est. Idemque est de 
+          condi<lb break="no" ed="#P" n="5"/>gna receptione Sacramenti, nam illa etiam 
+          ha<lb break="no" ed="#P" n="6"/>bet effectuum gratiae perpetuum.
+        </p>
+        <p xml:id="szduep-117985-d1e919">
+          <lb ed="#P" n="7"/>14. De remotis dispositionibus ad gr s
+          <lb ed="#P" n="8"/>idém dicendum. — Addo insuper, idem 
+          dicen<lb break="no" ed="#P" n="9"/>dum esse de remotis dispositionibus ad 
+          gra<lb break="no" ed="#P" n="10"/>tiam, si tales sint, ut de facto aliquo modo 
+          co<lb break="no" ed="#P" n="11"/>operentur ad gratiae justificantis 
+          consecutio<lb break="no" ed="#P" n="12"/>nem, vel impetrando a Deo majora auxilia,
+          <lb ed="#P" n="13"/>vel minores dispositiones, vel aliquoalio modo
+          <lb ed="#P" n="14"/>praeparando viam, vel dando moralem 
+          occa<lb break="no" ed="#P" n="15"/>sionem, aut consequendi gratiam 
+          justifican<lb break="no" ed="#P" n="16"/>tem, aut proficiendi in illa. Quia non oportet,
+          <lb ed="#P" n="17"/>ut effectus praedestinationis immediate 
+          coope<lb break="no" ed="#P" n="18"/>retur ad ultimum effectum ejus, sed satis est,
+          <lb ed="#P" n="19"/>si immediate et quocumque modo conducat,
+          <lb ed="#P" n="20"/>nam hoc est satis, ut sit medium efticax, et
+          <lb ed="#P" n="21"/>consequenter ab intentione, et providentia 
+          ef<lb break="no" ed="#P" n="22"/>ficaci proveniens et hoc est esse 
+          praedestina<lb break="no" ed="#P" n="23"/>tionis effectum.
+        </p>
+        <p xml:id="szduep-117985-d1e959">
+          <lb ed="#P" n="24"/>15. Unde verisimile est, cum Paulus dixit :
+          <lb ed="#P" n="25"/>Quos praedestinavit, hos et vocavit, et quos 
+          vo<lb break="no" ed="#P" n="26"/>cavit, hos et justificavit, sub vocatione 
+          com<lb break="no" ed="#P" n="27"/>prehendisse omnes dispositiones remotas, sub
+          <lb ed="#P" n="28"/>justificatione omnes proximas cum omnibus
+          <lb ed="#P" n="29"/>meritis, quibus homo in dies magis 
+          justifica<lb break="no" ed="#P" n="30"/>tur. Vel si per vocationem solum intelligamus
+          <lb ed="#P" n="31"/>primam vocationem, quae est initium 
+          justifi<lb break="no" ed="#P" n="32"/>cationis: sub justificatione comprehenduntur
+          <lb ed="#P" n="33"/>omnes actus pietatis ab illa vocatione 
+          manan<lb break="no" ed="#P" n="34"/>tes et parantes viam ad justitiam, illos enim
+          <lb ed="#P" n="35"/>omnes ad justitiam aliquo modo pertinere 
+          Con<lb break="no" ed="#P" n="36"/>cilium Tridentinum, sess. 6, cap. 5, 6 et 7, 
+          sa<lb break="no" ed="#P" n="37"/>tis significavit.
+        </p>
+        <p xml:id="szduep-117985-d1e992">
+          <lb ed="#P" n="38"/>16. Denique hinc verisimile est omnes actus
+          <lb ed="#P" n="39"/>supernaturales, quos praedestinatus in hac vita
+          <lb ed="#P" n="40"/>facit esse praedestinationis effectus, quia vel
+          <lb ed="#P" n="41"/>omnes conducunt aliquo modo ad 
+          beatitudi<lb break="no" ed="#P" n="42"/>nem essentialem obtinendam, secundum 
+          ali<lb break="no" ed="#P" n="43"/>quem gradum ejus, vel certe illis semper 
+          re<lb break="no" ed="#P" n="44"/>spondetin gloria aliquod praemium accidentale,
+          <lb ed="#P" n="45"/>etiamsi fortasse extra statum gratiae facti 
+          fue<lb break="no" ed="#P" n="46"/>rint ; praedestinatio enim non solum est ad 
+          nu<lb break="no" ed="#P" n="47"/>dam gloriam essentialem, sed ut ornatam suis
+          <lb ed="#P" n="48"/>accidentibus, ac proprietatibus, ergo et omnes
+          <lb ed="#P" n="49"/>actus, qui ad gloriam conferunt, sunt 
+          praedes<lb break="no" ed="#P" n="50"/>tinationis effectus, maxime vero qui conducunt
+          <lb ed="#P" n="51"/>ad gloriam essentialem.
+        </p>
+        <p xml:id="szduep-117985-d1e1025">
+          <lb ed="#P" n="52"/>17. Ultima conclusio. — Ultimo dicendum
+          <lb ed="#P" n="53"/>est, interdum bonum actum unius personae
+          <lb ed="#P" n="54"/>esse effectum praedestinationis alterius. Hoc
+          <lb ed="#P" n="55"/>facile constat ex his, quae superiori libro trac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tata sunt. Potestque explicari ex illis verbis
+          <lb ed="#P" n="57"/>Pauli 2, Timoth. 1: Omnia sustineo propter
+          <lb ed="#P" n="58"/>electos, ut et ipsi salutem consequantur. Nam
+          <lb ed="#P" n="59"/>patientia et voluntas, quae Paulo dabatur ad
+          <lb ed="#P" n="60"/>sustinendos illos labores, effectus erant 
+          prae<lb break="no" ed="#P" n="61"/>destinationis eorum, qui illis mediis 
+          proficie<lb break="no" ed="#P" n="62"/>bant et salvabantur. Sic etiam applicatio 
+          Sa<lb break="no" ed="#P" n="63"/>cramenti, quatenus est actio ministri, esse 
+          po<lb break="no" ed="#P" n="64"/>test, et frequenter est effectus 
+          praedestinatio<lb break="no" ed="#P" n="65"/>nis ejus, qui per Sacramentum salvatur, ut
+          <lb ed="#P" n="66"/>per se satis constat. Hoc etiam modo dicunt
+          <lb ed="#P" n="67"/>theologi et tractat divus Thomas, dicta, q. 23,
+          <lb ed="#P" n="68"/>art. 8, praedestinationem juvari precibus 
+          sanc<lb break="no" ed="#P" n="69"/>torum, quia precibus Stephani impetrata est
+          <lb ed="#P" n="70"/>a Deo eflicax vocatio Pauli: illae ergo preces
+          <lb ed="#P" n="71"/>fuerunt effectus praedestinationis Pauli : nam
+          <lb ed="#P" n="72"/>ex intentione salvandi Paulum DEUS 
+          inspira<lb break="no" ed="#P" n="73"/>vit illam, et dedit auxilium ad illam 
+          necessa<lb break="no" ed="#P" n="74"/>rium. Neque obstat, quod etiam fuerit effectus
+          <lb ed="#P" n="75"/>praedestinationis Stephani: quia ex speciali
+          <lb ed="#P" n="76"/>providentia circa utrumque fieri potuit. Et
+          <lb ed="#P" n="77"/>confirmatur, quia illa oratio non fuit causa
+          <lb ed="#P" n="78"/>totius praedestinationis Pauli, ut supra 
+          osten<lb break="no" ed="#P" n="79"/>dimus: ergo necesse est ut fuerit effectus. 
+          Pa<lb break="no" ed="#P" n="80"/>tet consequentia, quia illa non esset effectus
+          <lb ed="#P" n="81"/>si praedestinatio Pauli quoad effectus suos 
+          in<lb break="no" ed="#P" n="82"/>choata fuisset ab ejus vocatione: ergo oratio
+          <lb ed="#P" n="83"/>Stephani fuisset causa primi effectus 
+          praedesti<lb break="no" ed="#P" n="84"/>nationis Pauli: ergo totius. Haec enim 
+          conse<lb break="no" ed="#P" n="85"/>quentia vulgaris est apud theologos, quia ex.
+          <lb ed="#P" n="86"/>primo effectu derivatur secundus, et ex 
+          se<lb break="no" ed="#P" n="87"/>cundo tertius, et sic usque ad ultimum, 
+          quan<lb break="no" ed="#P" n="88"/>do illi inter se habent connexionem causae et
+          <lb ed="#P" n="89"/>effectus, quomodo comparatur vocatio ad 
+          con<lb break="no" ed="#P" n="90"/>versionem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

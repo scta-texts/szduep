@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="679"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-171902"><!-- t3-l6c4 -->
+        <head xml:id="szduep-171902-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-171902-Hd1e103" type="question-title">Sint-ne actus notionales voluntarii, non vero liberi</head>
+        <p xml:id="szduep-171902-d1e106">
+          <lb ed="#P" n="84"/>CAPUT IV.
+          <lb ed="#P" n="85"/>SINT-NE ACTUS NOTIONALES VOLUNTARII, NON VERO
+          <lb ed="#P" n="86"/>LIBERI?
+        </p>
+        <p xml:id="szduep-171902-d1e115">
+          <lb ed="#P" n="87"/>1. Ratio dubitandi esse potest, quia 
+          genera<lb break="no" ed="#P" n="88"/>tio Verbi non est a voluntate, ut dictum est,
+          <lb ed="#P" n="89"/>et antecedit omnem voluntatem, quia est 
+          pri<lb break="no" ed="#P" n="90"/>mus actus intellectus: ergo non potest esse
+          <lb ed="#P" n="91"/>voluntaria : Productio vero Spiritus sancti est
+          <lb ed="#P" n="92"/>primus actus voluntatis, ergo non potest esse
+          <lb ed="#P" n="93"/>voluntarius, cum per nullum alium actum 
+          vo<lb break="no" ed="#P" n="94"/>litus sit.
+        </p>
+        <p xml:id="szduep-171902-d1e135">
+          <lb ed="#P" n="95"/>9. Prima assertio. — Nihilominus dico primo
+          <lb ed="#P" n="96"/>Aterna Filii generatio actus est Patri 
+          volun<lb break="no" ed="#P" n="97"/>tarius. Assertio est certa : quae probatur, quia
+          <lb ed="#P" n="98"/>dupliciter dicitur aliquid voluntarium , uno
+          <lb ed="#P" n="99"/>modo causaliter, et sic non est illa generatio
+          <lb ed="#P" n="100"/>voluntaria, ut probat ratio facta, alio modo
+          <lb ed="#P" n="101"/>objective tantum et ita intelligitur conclusio,
+          <lb ed="#P" n="102"/>quae patet. Quia Pater necessario vult esse : 
+          er<lb break="no" ed="#P" n="103"/>go necessario vult generare: est ergo illa ge
+          <lb ed="#P" n="104"/>neratio voluntaria.
+        </p>
+        <p xml:id="szduep-171902-d1e160">
+          <lb ed="#P" n="105"/>3. Dubium de ordine inter generationem et 
+          co<lb break="no" ed="#P" n="106"/>luntatem ejus. —Dubitant autem theologi, an
+          <lb ed="#P" n="107"/>illa voluntas sit prior, vel posterior ratione ip-
+          <pb ed="#P" n="680"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sa generatione. In quo Scotus, in 1,dist. 6,q. 1,
+          <lb ed="#P" n="2"/>quem secutus est Cajetanus, i p., q. 41, a.2,
+          <lb ed="#P" n="3"/>dicunt, Patrem prius ratione velle generare,
+          <lb ed="#P" n="4"/>quam generet, quamvis illud velle non sit
+          <lb ed="#P" n="5"/>principium g penorandi, Sed quasi desiderium,
+          <lb ed="#P" n="6"/>ait Cajetanus. Fundantur, quia velle generare
+          <lb ed="#P" n="7"/>ex se est essentiale quid et essentia sunt priora
+          <lb ed="#P" n="8"/>notionalibus. Mihi autem contraria sententia
+          <lb ed="#P" n="9"/>verior videtur, quam significant divus Thomas,
+          <lb ed="#P" n="10"/>q. 2, de Potentia, a. 3, ad 2 2, Capreolus, in 1,
+          <lb ed="#P" n="11"/>dist. 6, quaest. 1, Ferrariensis 4, contra Gentes,
+          <lb ed="#P" n="12"/>capite ndecimo, Torres, dicto art. 2, et 
+          Gre<lb break="no" ed="#P" n="13"/>gorius, in 1, distinct. 6. quaest. 1, articulo 3.
+          <lb ed="#P" n="14"/>Qui auctores distincte solum negant 
+          volunta<lb break="no" ed="#P" n="15"/>tem illam esse priorem. Quod autem posterior
+          <lb ed="#P" n="16"/>ratione sit, docuerunt expressius Godfredus,
+          <lb ed="#P" n="17"/>quem Scotus refert, quodlibet 4, quaestione 4,
+          <lb ed="#P" n="18"/>et Henricus, quodlibet 5, q. 4, etin summa, 
+          ar<lb break="no" ed="#P" n="19"/>ticulo 58, q. 2. Ratio vero est, quia voluntas
+          <lb ed="#P" n="20"/>fertur in rem cognitam: ergo Pater prius 
+          ra<lb break="no" ed="#P" n="21"/>tione intelligit generationem, quam illam 
+          ve<lb break="no" ed="#P" n="22"/>lit, ergo etiam prius generat, quam velit 
+          ge<lb break="no" ed="#P" n="23"/>nerare, quia intelligendo generat.
+        </p>
+        <p xml:id="szduep-171902-d1e223">
+          <lb ed="#P" n="24"/>4. Respondere possunt negando 
+          consequen<lb break="no" ed="#P" n="25"/>tam, quia satis est, quod praecedat intelligere
+          <lb ed="#P" n="26"/>essentiale, sed hoc non recte dicitur, primo,
+          <lb ed="#P" n="27"/>quia intelligere essentiale, prout in Patre non
+          <lb ed="#P" n="28"/>est distinctum etiam ratione a notionali, quia
+          <lb ed="#P" n="29"/>ut supra probavi, notionale intelligere ultra
+          <lb ed="#P" n="30"/>essentiale, non addit aliquid absolutum, aut
+          <lb ed="#P" n="31"/>tormaliter pertinens ad rationem intelligendi,
+          <lb ed="#P" n="32"/>sed solum conjunctionem ad Paternitatem,
+          <lb ed="#P" n="33"/>ergo si in Patre praeintelligitur intelligere 
+          es<lb break="no" ed="#P" n="34"/>sentiale, eo ipso praeintelligitur in Patre. 
+          Un<lb break="no" ed="#P" n="35"/>de licet essentialia praecise et abstracte 
+          con<lb break="no" ed="#P" n="36"/>cepta dicantur priora notionalibus, sola illa
+          <lb ed="#P" n="37"/>prioritate, quae dicitur subsistendi 
+          consequen<lb break="no" ed="#P" n="38"/>tia, tamen essentialia concepta jam, ut 
+          con<lb break="no" ed="#P" n="39"/>juncta, et quasi contracta ad aliquam 
+          perso<lb break="no" ed="#P" n="40"/>nam, non sunt priora notionalibus illius 
+          per<lb break="no" ed="#P" n="41"/>sonae.
+        </p>
+        <p xml:id="szduep-171902-d1e265">
+          <lb ed="#P" n="42"/>5. Secundo, est optima ratio, quia Pater non
+          <lb ed="#P" n="43"/>vult generationem voluntate quasi desiderii,
+          <lb ed="#P" n="44"/>sed voluntate complacentiae perfectissima, quae
+          <lb ed="#P" n="45"/>est de bono existente jam, et possessio, talis
+          <lb ed="#P" n="46"/>autem voluntas supponit cognitionem ejusdem
+          <lb ed="#P" n="47"/>boni, etiam ut existentis et possessi, ergo 
+          vo<lb break="no" ed="#P" n="48"/>luntas, qua Patervult, illam generationem 
+          sup<lb break="no" ed="#P" n="49"/>ponit ipsam generationem jam existentem et
+          <lb ed="#P" n="50"/>cognitam a Patre eodem actu, quo generat.
+          <lb ed="#P" n="51"/>Sicut supra dicebam, Patrem producere Filium
+          <lb ed="#P" n="52"/>eodem actu, quo illumintelligit, et nibilominus
+          <lb ed="#P" n="53"/>semper illum intelligere, ut existentem, et 
+          eo<lb break="no" ed="#P" n="54"/>dem modo amat, sic ergo amor ipsiusmet 
+          ge<lb break="no" ed="#P" n="55"/>nerationis est ratione posterior ipsa. Ratio ve-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ro est, quia per donum desiderii non amatur,
+          <lb ed="#P" n="57"/>nisi quod nondum est, vel nondum habetur et
+          <lb ed="#P" n="58"/>ideo in bonis aeternis talis modus amandi 
+          im<lb break="no" ed="#P" n="59"/>perfectus est: est ergo illa generatio 
+          volun<lb break="no" ed="#P" n="60"/>taria voluntate quasi consequente ipsammet
+          <lb ed="#P" n="61"/>generatienem , et hanc vocavit divus Thomas
+          <lb ed="#P" n="62"/>voluntatem concomitantem secundum rem,
+          <lb ed="#P" n="63"/>quamvis sit ratione posterior.
+        </p>
+        <p xml:id="szduep-171902-d1e317">
+          <lb ed="#P" n="64"/>6. Fundamentum autem contrariae 
+          senten<lb break="no" ed="#P" n="65"/>tiae jam solutum est. Et addo insuper, 
+          princi<lb break="no" ed="#P" n="66"/>pium illud : Zssentialia sunt priora 
+          notionali<lb break="no" ed="#P" n="67"/>bus, non habere locum in essentialibus, quae
+          <lb ed="#P" n="68"/>sunt immanentes actus, quales sunt intelligere
+          <lb ed="#P" n="69"/>et velle, si concipiantur, ut determinati ad 
+          ip<lb break="no" ed="#P" n="70"/>sas personas. Quia ut sic, vel sunt actus 
+          notio<lb break="no" ed="#P" n="71"/>nales, vel sumuntur, ut habentes cum illis 
+          in<lb break="no" ed="#P" n="72"/>trinsecam connexionem, et ideo concipi non
+          <lb ed="#P" n="73"/>possunt, ut priores illis. Ob hanc ergo causam
+          <lb ed="#P" n="74"/>velle generare non potest esse prius, quam
+          <lb ed="#P" n="75"/>generare. Nam si illud velle praeconcipiatur
+          <lb ed="#P" n="76"/>in hoc Deo, ut sic, jam non concipitur, ut 
+          de<lb break="no" ed="#P" n="77"/>terminatus ad Patrem, nec in hoc Deo 
+          possu<lb break="no" ed="#P" n="78"/>mus praeconcipere velle generare, cum ille,
+          <lb ed="#P" n="79"/>ut sic, non generat : si autem concipitur in
+          <lb ed="#P" n="80"/>Patre, jam supponitur Pater et consequenter
+          <lb ed="#P" n="81"/>etiam generatio. Ad primam etiam rationem
+          <lb ed="#P" n="82"/>dubitandi in principio positam, ex dictis patet
+          <lb ed="#P" n="83"/>responsio. Quia generatio aeterna non est 
+          vo<lb break="no" ed="#P" n="84"/>luntaria, ut actus elicitus a voluntate, nec ut
+          <lb ed="#P" n="85"/>actus impetratus, sed tantum, ut objectum 
+          vo<lb break="no" ed="#P" n="86"/>litum, et ideo non refert, quod nec a voluntate
+          <lb ed="#P" n="87"/>sit, nec quod antecedat voluntatis actum ordine
+          <lb ed="#P" n="88"/>rationis, nam satis est quod in re simul sit.
+        </p>
+        <p xml:id="szduep-171902-d1e374">
+          <lb ed="#P" n="89"/>7. Secunda assertio. — Dico secundo. 
+          Pro<lb break="no" ed="#P" n="90"/>ductio Spiritus sancti voluntaria etiam est 
+          in<lb break="no" ed="#P" n="91"/>trinsece et per se ipsam. Probatur quia illa
+          <lb ed="#P" n="92"/>productio est a principio intrinseco cum 
+          co<lb break="no" ed="#P" n="93"/>gnitione perfecta, ergo est voluntaria. Item
+          <lb ed="#P" n="94"/>illa est productio amoris, nihil autem ita 
+          vo<lb break="no" ed="#P" n="95"/>luntarium est, sicut amor. Quis enim dicat 
+          Pa<lb break="no" ed="#P" n="96"/>trem et Filium non se voluntarie amare? at
+          <lb ed="#P" n="97"/>amando se, producunt Spiritum sanctum ; ergo
+          <lb ed="#P" n="98"/>voluntarie producunt. Denique quod quis 
+          vo<lb break="no" ed="#P" n="99"/>lens et libens facit, voluntarie facit, at Pater et
+          <lb ed="#P" n="100"/>Filius volentes, et summa voluntate, seu gaudio
+          <lb ed="#P" n="101"/>producunt Spiritum sanctum, ergo voluntarie
+          <lb ed="#P" n="102"/>producunt, est ergo illa productio voluntaria.
+        </p>
+        <p xml:id="szduep-171902-d1e407">
+          <lb ed="#P" n="103"/>8. Velle quomodo sit intrinsece voluntaria.
+          <lb ed="#P" n="104"/>— Dixi autem esse intresece et per se ipsam
+          <lb ed="#P" n="105"/>voluntariam, propter rationem dubitandi 
+          pos<lb break="no" ed="#P" n="106"/>teriori loco propositam. Nam sine dubio illa 
+          di<lb break="no" ed="#P" n="107"/>vina processio per nullum alium actum potest
+          <lb ed="#P" n="108"/>esse voluntaria, ergo si voluntaria est, ut 
+          re<lb break="no" ed="#P" n="109"/>vera est, se ipsa voluntaria esse, necesse est
+          <lb ed="#P" n="110"/>et hoc ipsum est, esse intrinsece voluntariam.
+          <pb ed="#P" n="681"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>In hoc ergo intercedit discrimen inter 
+          genera<lb break="no" ed="#P" n="2"/>tionem et spirationem, quod illa est voluntaria
+          <lb ed="#P" n="3"/>per actum ratione distinctum , haec vero non,
+          <lb ed="#P" n="4"/>sed se ipsa. Ratio autem differentiae est facilis,
+          <lb ed="#P" n="5"/>quam indicavit Cajetanus, in dicta quaestione
+          <lb ed="#P" n="6"/>quadragesima prima, et latius traditur 1, 2
+          <lb ed="#P" n="7"/>quaestione sexta scilicet. Quia actus aliarum
+          <lb ed="#P" n="8"/>facultatum a voluntate, non possunt esse 
+          vo<lb break="no" ed="#P" n="9"/>luntarii se ipsis, quia non sunt ipsum velle, et
+          <lb ed="#P" n="10"/>ideo sunt voluntarii, vel objective tantum, si
+          <lb ed="#P" n="11"/>non sunt a voluntate, vel etiam quasi 
+          effec<lb break="no" ed="#P" n="12"/>tive, si subsint voluntatis imperio, seu 
+          apph<lb break="no" ed="#P" n="13"/>cationi. Actus autem elicitus a voluntate se
+          <lb ed="#P" n="14"/>ipso voluntarius est, quia supposita 
+          cognitio<lb break="no" ed="#P" n="15"/>ne sponte, et libenter ab ipsa voluntate elicitur.
+          <lb ed="#P" n="16"/>Productio autem Spiritus sancti est elicita:
+          <lb ed="#P" n="17"/>seu quasi elicita a voluntate, nam est dilectio
+          <lb ed="#P" n="18"/>quaedam, est ergo per se et intrinsece 
+          volun<lb break="no" ed="#P" n="19"/>taria.
+        </p>
+        <p xml:id="szduep-171902-d1e473">
+          <lb ed="#P" n="20"/>9. Responsio refellitur. — Dicunt vero 
+          ah<lb break="no" ed="#P" n="21"/>qui ipsum velle voluntatis non esse 
+          volunta<lb break="no" ed="#P" n="22"/>rium, ut quod, sed tantum, ut quo, id est, quo
+          <lb ed="#P" n="23"/>alia voluntaria sunt, seu voluntarie fiunt, aut
+          <lb ed="#P" n="24"/>diliguntur : et ideo ipsum velle non dici 
+          pro<lb break="no" ed="#P" n="25"/>prie voluntarium per se ipsum. Quia per hoc
+          <lb ed="#P" n="26"/>significatur, illud esse voluntarium, ut quod ,
+          <lb ed="#P" n="27"/>seu per modum objecti : quod non ita est. 
+          Res<lb break="no" ed="#P" n="28"/>pondeo imprimis generatim loquendo de 
+          amo<lb break="no" ed="#P" n="29"/>re, aut velle, prout commune est creaturis,
+          <lb ed="#P" n="30"/>vere, ac proprie dici voluntarium per se ipsum.
+          <lb ed="#P" n="31"/>Nam qui amat, vult amare, nec aliter amare
+          <lb ed="#P" n="32"/>potest, nisi volendo amare, est ergo atnor 
+          sem<lb break="no" ed="#P" n="33"/>per voluntarius. Et tamen necesse non est, ut
+          <lb ed="#P" n="34"/>quis semper cum amat, velit amare per actum
+          <lb ed="#P" n="35"/>volendi distinctum ab ipso amore. Potest 
+          qui<lb break="no" ed="#P" n="36"/>dem id facere, si velit elicere actum reflexum,
+          <lb ed="#P" n="37"/>non est tamen semper necessarium, alioqui
+          <lb ed="#P" n="38"/>procederetur in infinitum. Ergo semper amor
+          <lb ed="#P" n="39"/>et velle per se ipsum voluntarium est. Et hoc
+          <lb ed="#P" n="40"/>est esse voluntarium per modum actus, quod
+          <lb ed="#P" n="41"/>non est tantum quo, sed etiam quod, imo non
+          <lb ed="#P" n="42"/>posset esse quo, in ratione voluntarii, nisi esset
+          <lb ed="#P" n="43"/>etiam quod. Nam quando voluntas amat 
+          ali<lb break="no" ed="#P" n="44"/>quod objectum, verbi gratia, salutem, cur
+          <lb ed="#P" n="45"/>amor ille est, quo salus denominatur 
+          volun<lb break="no" ed="#P" n="46"/>taria, nisi quia ipse voluntarius est ? Quamvis
+          <lb ed="#P" n="47"/>ergo non se habeat actus amoris, seu 
+          volunta<lb break="no" ed="#P" n="48"/>tis per modum objecti ad quod directe tendit
+          <lb ed="#P" n="49"/>voluntas, nihilominus intrinsece includit 
+          re<lb break="no" ed="#P" n="50"/>flexionem in se ipsum, ratione cujus vere et
+          <lb ed="#P" n="51"/>proprie voluntarius dicitur. Atque hoc maxime
+          <lb ed="#P" n="52"/>confirmatur in amore Dei ad intra, ut ad Deum
+          <lb ed="#P" n="53"/>ipsum terminatur, quia velle Dei est ipsum
+          <lb ed="#P" n="54"/>esse Dei, ergo tam voluntarie Deus vult et
+          <lb ed="#P" n="55"/>amat, sicut voluntarie est. Item quidquid nos-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tra voluntas potest per duos actus, directum et
+          <lb ed="#P" n="57"/>reflesum, habet divina voluntas per unum
+          <lb ed="#P" n="58"/>simplicissimum et perfectissimum actum, at
+          <lb ed="#P" n="59"/>velle nostrum potest nobis esse voluntarium, ut
+          <lb ed="#P" n="60"/>quod, saltem per actum reflexum distinctum,
+          <lb ed="#P" n="61"/>ergo Patri et Filio suum velle est omnimodo
+          <lb ed="#P" n="62"/>voluntarium intrinsece et per se ipsum, ergo
+          <lb ed="#P" n="63"/>processio Spiritus sancti eodem modo 
+          volun<lb break="no" ed="#P" n="64"/>taria est.
+        </p>
+        <p xml:id="szduep-171902-d1e575">
+          <lb ed="#P" n="65"/>10. Dubium excluditur. — Quapropter hic
+          <lb ed="#P" n="66"/>non habet locum dubium de generatione 
+          trac<lb break="no" ed="#P" n="67"/>tatum, quid, scilicet, sit prius, spirare, an velle
+          <lb ed="#P" n="68"/>spirare? quia cum sit omnino idem 
+          simplicis<lb break="no" ed="#P" n="69"/>simus actus, non est ibi prius, vel posterius
+          <lb ed="#P" n="70"/>etiam secundum rationem. Et declaratur, quia
+          <lb ed="#P" n="71"/>non est prius, etiam secundum rationem, 
+          Pa<lb break="no" ed="#P" n="72"/>trem et Filium spirareSpiritum sanctum, quam
+          <lb ed="#P" n="73"/>velle se ad invicem, quia volendo se spirant et
+          <lb ed="#P" n="74"/>spirando se diligunt, ergo eadem ratione non
+          <lb ed="#P" n="75"/>est prius vel spirare, quam spirare, vel e 
+          con<lb break="no" ed="#P" n="76"/>verso, quia sicut Pater volendo se, vel Filium,
+          <lb ed="#P" n="77"/>ita etiam volendo spirare, spirat. Quod si non
+          <lb ed="#P" n="78"/>comparantur actus amandi et spirandi, ut 
+          spi<lb break="no" ed="#P" n="79"/>rare significat velle, sed ut significat 
+          produ<lb break="no" ed="#P" n="80"/>cere per velle: sic negare non possumus, quia
+          <lb ed="#P" n="81"/>prius secundum rationem sit velle, seu amare,
+          <lb ed="#P" n="82"/>quam producere: quatenus comparantur illa
+          <lb ed="#P" n="83"/>duo tanquam principium quo et origo activa
+          <lb ed="#P" n="84"/>Spiritus sancti.
+        </p>
+        <p xml:id="szduep-171902-d1e621">
+          <lb ed="#P" n="85"/>11. Dico tertio. Neuter ex his actibus 
+          notio<lb break="no" ed="#P" n="86"/>nalibus generandi, vel spirandi liber est. Hanc
+          <lb ed="#P" n="87"/>assertionem censeo certam ex dictis in capite
+          <lb ed="#P" n="88"/>praecedenti. Et ita est terminis theologorum,
+          <lb ed="#P" n="89"/>quos ibi retuli conclusione tertia, solusque 
+          Sco<lb break="no" ed="#P" n="90"/>tus aliqua circa illam dubitationem movit. De
+          <lb ed="#P" n="91"/>generatione igitur res est clara, quia quod non
+          <lb ed="#P" n="92"/>est a voluntate, non potest esse liberum, nam
+          <lb ed="#P" n="93"/>de relatione actus liberi est, ut sic aliquo modo
+          <lb ed="#P" n="94"/>active a voluntate, ut ostensum est, ergo. De
+          <lb ed="#P" n="95"/>spiratione autem est propria ratio, quia 
+          re<lb break="no" ed="#P" n="96"/>pugnat eumdem actum, etiamsi a voluntate
+          <lb ed="#P" n="97"/>sit, esse simul liberum et ab intrinseco 
+          neces<lb break="no" ed="#P" n="98"/>sarium, quia hae duae proprietates 
+          contradic<lb break="no" ed="#P" n="99"/>tionem involvunt: liberum enim est, quod ita
+          <lb ed="#P" n="100"/>est a voluntate, ut possit non esse, positis 
+          om<lb break="no" ed="#P" n="101"/>nibus requisitis ad volendum: ut late tractavi,
+          <lb ed="#P" n="102"/>lib. 1, de Auxiliis, a principio, et tradit 
+          Augus<lb break="no" ed="#P" n="103"/>tinus, lib. 3, de libero Arbitrio, capite tertio,
+          <lb ed="#P" n="104"/>Hieronymus, Epist. 146, Damascenus, lib. 2,
+          <lb ed="#P" n="105"/>de Fide, capit. 24 et 25. Necessarium autem est
+          <lb ed="#P" n="106"/>id, quod nulla ratione potest non esse: 
+          osten<lb break="no" ed="#P" n="107"/>sum est autem spirationem esse et 
+          necessa<lb break="no" ed="#P" n="108"/>rium simpliciter et naturalem, quia non est a
+          <lb ed="#P" n="109"/>principio indifferente, sed determinato ad 
+          u<lb break="no" ed="#P" n="110"/>num, non potest ergo esse libera.
+        </p>
+        <p xml:id="szduep-171902-d1e680">
+          <pb ed="#P" n="682"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>12. Neque in hoc potest in re esse 
+          contro<lb break="no" ed="#P" n="2"/>versia inter catholicos. De nominibus vero est
+          <lb ed="#P" n="3"/>aliqua, nam Henricus, in Summ., art. 60,
+          <lb ed="#P" n="4"/>quaestione prima, licet fateatur, Patrem et 
+          Fi<lb break="no" ed="#P" n="5"/>lium se naturaliter et non libere diligere, 
+          ni<lb break="no" ed="#P" n="6"/>hilominus ait, spirationem (quam dicit 
+          comi<lb break="no" ed="#P" n="7"/>tari illum amorem) non esse naturalem, sed
+          <lb ed="#P" n="8"/>liberam, quod prolixe explicat et nihil probat.
+          <lb ed="#P" n="9"/>Inipugnat autem late illam sententiam Scotus
+          <lb ed="#P" n="10"/>statim citandus, et nisi Henricus aequivoce 
+          uta<lb break="no" ed="#P" n="11"/>tur verbis, est plane absurda. Nam si intelligit
+          <lb ed="#P" n="12"/>spirationem non esse tam necessario 
+          conjunc<lb break="no" ed="#P" n="13"/>tam cum illo amore, quam est necessarius
+          <lb ed="#P" n="14"/>ipse amor, errat in fide, ut constat ex 
+          praece<lb break="no" ed="#P" n="15"/>denti capite. Si vero agnoscit aequalem 
+          neces<lb break="no" ed="#P" n="16"/>sitatem, quid est quod spirationem potius
+          <lb ed="#P" n="17"/>vocat liberam, quam amorem? Suspicor, 
+          vo<lb break="no" ed="#P" n="18"/>casse liberam, id est, liberalem et foecundam,
+          <lb ed="#P" n="19"/>hoc enim termino aliquando utitur, quia 
+          foe<lb break="no" ed="#P" n="20"/>cunditas illius productionis concipitur sub 
+          ra<lb break="no" ed="#P" n="21"/>tione spirationis, non vero sub ratione 
+          amo<lb break="no" ed="#P" n="22"/>ris, ut sic. Sed hic est abusus vocis et deinde
+          <lb ed="#P" n="23"/>sine causa propterea negat, spirationem esse
+          <lb ed="#P" n="24"/>naturalem, nam foecunditas ipsa illius amoris
+          <lb ed="#P" n="25"/>naturalis illi est. Unde male etiam vocat 
+          libe<lb break="no" ed="#P" n="26"/>ram, condistinguendo liberum a naturali.
+        </p>
+        <p xml:id="szduep-171902-d1e743">
+          <lb ed="#P" n="27"/>13. Aliter Scotus, in 1, dist. 10, quaest. 1, et
+          <lb ed="#P" n="28"/>quodhlib. 16, art. 2, vult, tam amorem, quam
+          <lb ed="#P" n="29"/>productionem Spiritus sancti vocandam esse
+          <lb ed="#P" n="30"/>actum liberum et non naturalem, quia est ex
+          <lb ed="#P" n="31"/>perfecta cognitione et intrinseca 
+          determinatio<lb break="no" ed="#P" n="32"/>ne voluntatis, se moventis ad objectum 
+          cogni<lb break="no" ed="#P" n="33"/>tum. Sed disputat tantum de nomine, nam
+          <lb ed="#P" n="34"/>libertas aliquando opponitur coactioni, et sic
+          <lb ed="#P" n="35"/>verum est illum actum esse liberum, id est,
+          <lb ed="#P" n="36"/>libenter factum. Proprie vero et magis 
+          abso<lb break="no" ed="#P" n="37"/>lute loquendo libertas opponitur necessitati,
+          <lb ed="#P" n="38"/>ut ex dictis constat, et hoc modo non potuit
+          <lb ed="#P" n="39"/>Scotus asserere illum actum esse liberum, imo
+          <lb ed="#P" n="40"/>expresse fatetur esse necessarium. Non video
+          <lb ed="#P" n="41"/>autem, cur negaverit vocandum esse actum
+          <lb ed="#P" n="42"/>naturalem, quia quod sit ab objecto cognito,
+          <lb ed="#P" n="43"/>non tollit quin etiam sit ex intrinseca 
+          inclina<lb break="no" ed="#P" n="44"/>tione et determinatione voluntatis ad unum,
+          <lb ed="#P" n="45"/>respectu talis objecti. Illa autem determinatio
+          <lb ed="#P" n="46"/>voluntati naturalis est, quia voluntas suam
+          <lb ed="#P" n="47"/>habet naturam, ergo non repugnat, voluntatis
+          <lb ed="#P" n="48"/>actum esse naturalem. Et sumendo liberum
+          <lb ed="#P" n="49"/>solum pro spontaneo, non repugnat, actum
+          <lb ed="#P" n="50"/>esse simul naturalem et liberum illo modo, qui
+          <lb ed="#P" n="51"/>melius dicitur voluntarius. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="210"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-053516"><!-- t1-l3c5 -->
+        <head xml:id="szduep-053516-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-053516-Hd1e103" type="question-title">N in divina scientia practica sint ideae creaturarum omnium, et quot, quarumqumque rerum sunt</head>
+        <p xml:id="szduep-053516-d1e106">
+          <lb ed="#P" n="24"/>CAPUT V.
+          <lb ed="#P" n="25"/>AN IN DIVINA SCIENTIA PRACTICA SINT IDEAE
+          <lb ed="#P" n="26"/>CREATURARUM OMNIUM, ET QUOT,
+          <lb ed="#P" n="27"/>QUARUMQUMQUE RERUM SUNT.
+        </p>
+        <p xml:id="szduep-053516-d1e117">
+          <lb ed="#P" n="28"/>1. Materiam hanc tractat D. Thomas 1 p.,
+          <lb ed="#P" n="29"/>q. 15, per totam, et alii Scholastici in 1, d. 35
+          <lb ed="#P" n="30"/>et 36, et Alensius 1 p., q. 23. Verumtamen ea,
+          <lb ed="#P" n="31"/>quae in hac materia praecipua esse videntur in
+          <lb ed="#P" n="32"/>disp. 15 Metaphysicae, sect. 1, a nobis tractata
+          <lb ed="#P" n="33"/>sunt, quae hic repetenda non sunt, et ideo in
+          <lb ed="#P" n="34"/>hoc capite breviter materiam hanc poterimus
+          <lb ed="#P" n="35"/>expedire, quae necessaria est ad 
+          complemen<lb break="no" ed="#P" n="36"/>tum doctrinae traditae in capite praecedenti, et
+          <lb ed="#P" n="37"/>ideo non est hic omnino praetermissa. Quinque
+          <lb ed="#P" n="38"/>vero praecipaa esse videntur, quae de Ideis 
+          trac<lb break="no" ed="#P" n="39"/>tari solent, videlicet : An sint, ubi sint, quid
+          <lb ed="#P" n="40"/>sint, quarum rerum sint, et quot sint, 
+          possu<lb break="no" ed="#P" n="41"/>musque sextum addere, nimirum, quam 
+          cau<lb break="no" ed="#P" n="42"/>salitatem habeant.
+        </p>
+        <p xml:id="szduep-053516-d1e152">
+          <lb ed="#P" n="43"/>2. Ideas esse. — Prima tria puncta late sunt
+          <lb ed="#P" n="44"/>tractata dicta sectione prima, et ideo hic pro
+          <lb ed="#P" n="45"/>certo statuimus imprimis Ideas esse, quia idea
+          <lb ed="#P" n="46"/>nihil aliud significat , quam exemplar ad cujus
+          <lb ed="#P" n="47"/>imitationes artifex operatur , ostensum autem
+          <lb ed="#P" n="48"/>est, Deum operari, ut supremum artificem,
+          <lb ed="#P" n="49"/>oportet ergo ut suas ideas habeat. Quas proinde
+          <lb ed="#P" n="50"/>oportet esse increatas, aeternas, immutabiles et
+          <lb ed="#P" n="51"/>invisibiles , ut notavit Augustinus, lib. 83,
+          <lb ed="#P" n="52"/>quaest. 46. Quia si ideae divinae essent creatae,
+          <lb ed="#P" n="53"/>finitum procedendum est, vel sistendum est in
+          <lb ed="#P" n="54"/>per alias ideas creari deberent, et sic, vel in 
+          in<lb break="no" ed="#P" n="55"/>increatis, quod si increatae sunt , illae solae sunt
+          <lb ed="#P" n="56"/>ideae divinae, nam quidquid, per illas fit, 
+          ma<lb break="no" ed="#P" n="57"/>gis erit ideatum, quam idea; sunt ergo 
+          increa<lb break="no" ed="#P" n="58"/>tae, ergo immutabiles, aeternae et invisibiles.
+          <lb ed="#P" n="59"/>Unde aliqui existimant de his fuisse locutum
+          <lb ed="#P" n="60"/>Paulum ad Hebraeos 11, cap., cum dixit: Fide
+          <lb ed="#P" n="61"/>intelligimus aptata esse secula verbo Dei, ut
+          <lb ed="#P" n="62"/>ex imvisilalibus, visibila fierent, 1d est, ut res, i
+          <lb ed="#P" n="63"/>quae in suis ideis erant invisibiles, ex illis ut
+          <lb ed="#P" n="64"/>ex exemplaribus fierent visibiles per 
+          crea<lb break="no" ed="#P" n="65"/>tionem. Qui sensus probabilis est, licet non
+          <lb ed="#P" n="66"/>desint alii. Nam Chrysostomus, hom. 22, inad
+          <lb ed="#P" n="67"/>Hebr. exponit : Ez invisibilibus, id est, non
+          <lb ed="#P" n="68"/>entibus , seu ex nihilo , Anselmus autem ibi,
+          <lb ed="#P" n="69"/>cum prius explicuisset illa verba de formatione 
+          <lb ed="#P" n="70"/>orbis ex materia invisibili et informi, prius ex
+          <lb ed="#P" n="71"/>nihilo creata, subjungit : Vel ex invisibilibus
+          <lb ed="#P" n="72"/>facta sunt visibilia, id est, ex intellectuali 
+          mun<lb break="no" ed="#P" n="73"/>do, visibilis, invisibilis enim mundus in 
+          sapien<lb break="no" ed="#P" n="74"/>tia, Dei erat et ad ilhus imitationem factus est
+          <lb ed="#P" n="75"/>iste visibilis. Quam expositionem ibi D. 
+          Tho<lb break="no" ed="#P" n="76"/>mas, lect. 2. locupletat, etsolam illam assignat.
+          <lb ed="#P" n="77"/>Esto vero non habeatur haec assertio expresse
+          <lb ed="#P" n="78"/>in Scriptura, tamen ex his, quae docet fides de
+          <lb ed="#P" n="79"/>modo operationis ad extra, tam evidenter 
+          col<lb break="no" ed="#P" n="80"/>ligitur, tamque communi consensu Patrum et
+          <lb ed="#P" n="81"/>theologorum recepta est, ut in dubium 
+          revo<lb break="no" ed="#P" n="82"/>cari non possit.
+        </p>
+        <p xml:id="szduep-053516-d1e242">
+          <lb ed="#P" n="83"/>3. Ideas divinas esse in Deo ipso. — In 
+          se<lb break="no" ed="#P" n="84"/>cundo puncto certum est , ideas divinas esse
+          <lb ed="#P" n="85"/>in Deo ipso, quod adeo aftirmat Augustinus,
+          <lb ed="#P" n="86"/>l. 83, quaest. 46 , ut dicat : S'ine impietate 
+          ne<lb break="no" ed="#P" n="87"/>gari non posse, etl. 5, Gen. ad hitter. cap. 14, et
+          <lb ed="#P" n="88"/>tract. 1, in Joan. in hunc modum intelhgit
+          <lb ed="#P" n="89"/>verba illa : Quod factum est, in illo vita erat,
+          <lb ed="#P" n="90"/>distinguit enim hanc totam sententiam a
+          <lb ed="#P" n="91"/>praecedentibus et exponit , Omnia que fucta
+          <lb ed="#P" n="92"/>sunt, prout sunt in Deo per ideas, esse 
+          ip<lb break="no" ed="#P" n="93"/>sam citam, et rationem increatam sapientiae
+          <lb ed="#P" n="94"/>Dei, quae est vita per essentiam. Quam 
+          expo<lb break="no" ed="#P" n="95"/>sitionem Beda, Rupertus, divus Thomas et
+          <lb ed="#P" n="96"/>alii sequuntur. Est autem tantum 
+          proba<lb break="no" ed="#P" n="97"/>bilis, nam ile locus aliis modis legitur et
+          <lb ed="#P" n="98"/>exponitur probabiliter. Sequitur vero haec 
+          as<lb break="no" ed="#P" n="99"/>sertio ex priori necessaria illatione, quia extra
+          <lb ed="#P" n="100"/>Deum nihil est increatum , .nvisibile et 
+          aeter<lb break="no" ed="#P" n="101"/>num.
+        </p>
+        <p xml:id="szduep-053516-d1e286">
+          <lb ed="#P" n="102"/>4. Et ita improbatur facile error Platoni
+          <lb ed="#P" n="103"/>attributus de Ideis realibus separatis ab 
+          indi<lb break="no" ed="#P" n="104"/>viduis et in suo proprio et specifico esse 
+          sub<lb break="no" ed="#P" n="105"/>sistentibus. De quo hic plura dicere non est
+          <lb ed="#P" n="106"/>necesse, tum quia et per se omnino 
+          incredibi<lb break="no" ed="#P" n="107"/>lis est et jam est antiquatus : tum etiam quia
+          <pb ed="#P" n="211"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in citato loco Metaphysicae, et indisp. 6, sect. 2,
+          <lb ed="#P" n="2"/>tranctando de universalibus sufficienter haec
+          <lb ed="#P" n="3"/>res expedita est.
+        </p>
+        <p xml:id="szduep-053516-d1e312">
+          <lb ed="#P" n="4"/>5. Error Vuicleffi. — Per hanc etiam 
+          reso<lb break="no" ed="#P" n="5"/>lutionem improbatur facile error tributus 
+          Vui<lb break="no" ed="#P" n="6"/>cleffo et impugnatus a Vualdense, tom. 1,c.5
+          <lb ed="#P" n="7"/>et 8, quatenus dicebat creaturas secundum
+          <lb ed="#P" n="8"/>esse ideale esse aliquid aeternum et distinctum
+          <lb ed="#P" n="9"/>ab esse Dei. Hic enim error intellectus in hoc
+          <lb ed="#P" n="10"/>sensu, quod extra Deum habeant ideae aliquod
+          <lb ed="#P" n="11"/>esse reale verum et aeternum, contra fidem est,
+          <lb ed="#P" n="12"/>et illum sufficienter impugnavi in Metaphysica,
+          <lb ed="#P" n="13"/>disp. 31, sect. 2, valde autem dubito, an illa
+          <lb ed="#P" n="14"/>haeresis in mentem ahcujus venerit. Nam, ut
+          <lb ed="#P" n="15"/>ibidem Vualdensis refert, Vuicleffus potius
+          <lb ed="#P" n="16"/>errabat vocando creaturas DEUM, quia sunt
+          <lb ed="#P" n="17"/>in Deo secundum esse ideale, quod magis 
+          per<lb break="no" ed="#P" n="18"/>unet ad ineptum et erroneum modum 
+          lo<lb break="no" ed="#P" n="19"/>quendi, quam ad rem ipsam : et ideo necesse
+          <lb ed="#P" n="20"/>non est in hoc immorari. Maxime , quia in
+          <lb ed="#P" n="21"/>Concilio Constantiensi, sess. 18, ubi errores
+          <lb ed="#P" n="22"/>Vuicleffi referuntur, nihil de hoc dicitur, et
+          <lb ed="#P" n="23"/>in sess. 15, cum proponuntur errores Joannis
+          <lb ed="#P" n="24"/>Huss , inter alios ponuntur hae propositiones:
+          <lb ed="#P" n="25"/>Quodlibet est Deus , queelibet creatura est Deus,
+          <lb ed="#P" n="26"/>ubique omne ens est, cum omne ens sit Deus.
+          <lb ed="#P" n="27"/>Et postea illarum mentio non fit , cum 
+          refe<lb break="no" ed="#P" n="28"/>runtur articuli damnati. Quia forte non 
+          con<lb break="no" ed="#P" n="29"/>stitit, illas asseruisse, vel quia solum errabat
+          <lb ed="#P" n="30"/>appellando absolute et simpliciter ideas 
+          Divi<lb break="no" ed="#P" n="31"/>nas nominibus creaturarum, cum constet 
+          crea<lb break="no" ed="#P" n="32"/>turas non esse in Deo formaliter, et ideo nec
+          <lb ed="#P" n="33"/>creaturas simphrciter posse vocari Deum , nec
+          <lb ed="#P" n="34"/>Deum creaturas , licet cum addito, creatura
+          <lb ed="#P" n="35"/>secundum esse quod habet in Deo, sit Deus, ut
+          <lb ed="#P" n="36"/>Augustinus et sancti loquuntur, et in sequenti
+          <lb ed="#P" n="37"/>puncto explicabitur.
+        </p>
+        <p xml:id="szduep-053516-d1e388">
+          <lb ed="#P" n="38"/>6. Varice opiniones. —Prima opinio. —Circa
+          <lb ed="#P" n="39"/>tertium punctum, quid sit idea, variae sunt
+          <lb ed="#P" n="40"/>opiniones scholasticorum. Nam quidam dicunt
+          <lb ed="#P" n="41"/>esse ipsas creaturas , quae in tempore fiunt,
+          <lb ed="#P" n="42"/>prout praecedunt ex aeternitate in mente Dei,
+          <lb ed="#P" n="43"/>non formaliter, sed objective.
+        </p>
+        <p xml:id="szduep-053516-d1e404">
+          <lb ed="#P" n="44"/>Secunda opinio. — Alii dixerunt esse 
+          divi<lb break="no" ed="#P" n="45"/>nam essentiam cognitam, ut participabilem a
+          <lb ed="#P" n="46"/>creatura. Alii, esse ipsummet Verbum 
+          divi<lb break="no" ed="#P" n="47"/>num , seu formalem conceptum essentialem ,
+          <lb ed="#P" n="48"/>quem Deus habet de creaturis, ut possibilibus.
+        </p>
+        <p xml:id="szduep-053516-d1e417">
+          <lb ed="#P" n="49"/>Tertia opinio verior est. — Et hanc ultimam
+          <lb ed="#P" n="50"/>sententiam, veram existimo, quam in citato
+          <lb ed="#P" n="51"/>loco late robavi et auctoritate etiam 
+          confir<lb break="no" ed="#P" n="52"/>mavi; eamque aperte docent Augustinus, 
+          An<lb break="no" ed="#P" n="53"/>selmus et D. Thomas, locis proxime citatis. Et
+          <lb ed="#P" n="54"/>ratio breviter est, quia Idea nihil aliud est
+          <lb ed="#P" n="55"/>quam exemplar anificis, cui opus suum facit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>conforme. Deus autem non intuetur extra se
+          <lb ed="#P" n="57"/>aliquid. ut ad illius imitationem operetur, sed
+          <lb ed="#P" n="58"/>in se habet totam rationem efficiendi, sive
+          <lb ed="#P" n="59"/>exemplarem, sive productivam. Item per ideas
+          <lb ed="#P" n="60"/>omnes intelligunt aliquam veram rem , 
+          dis<lb break="no" ed="#P" n="61"/>tinctam ab ea , quae fit, res autem ut 
+          possibi<lb break="no" ed="#P" n="62"/>lis objecta menti Dei, extra Deum non est 
+          ali<lb break="no" ed="#P" n="63"/>quid reale actuale, neque aliquid distinctum
+          <lb ed="#P" n="64"/>vere a creatura, quae fit. Denique creatura ,
+          <lb ed="#P" n="65"/>ut sic obiecta, non potest dici aeterna, 
+          immu<lb break="no" ed="#P" n="66"/>tabilis et alia quae divinis Ideis attribuuntur.
+          <lb ed="#P" n="67"/>Non est ergo idea tantum objective in Deo,
+          <lb ed="#P" n="68"/>sed vere, ac realiter. Rursus per ideam omnes
+          <lb ed="#P" n="69"/>intelligunt formam , quae repraesentet aliquo
+          <lb ed="#P" n="70"/>modo et fit per modum imaginis, hoc autem
+          <lb ed="#P" n="71"/>non convenit proprie essentiae divinae, nisi 
+          ra<lb break="no" ed="#P" n="72"/>tione formalis conceptus, quem habet de 
+          crea<lb break="no" ed="#P" n="73"/>turis, ille ergo conceptus, ut repraesentat 
+          crea<lb break="no" ed="#P" n="74"/>turas factibiles, est idea. An vero necesse sit,
+          <lb ed="#P" n="75"/>ideam esse cognitam proprie, et ut quod, 
+          pa<lb break="no" ed="#P" n="76"/>rum in praesenti refert , nam etiam hoc habet
+          <lb ed="#P" n="77"/>illa formalis cognitio, seu scientia Dei, 
+          quate<lb break="no" ed="#P" n="78"/>nus se ipsam scit perfectissimo modo, ut supra
+          <lb ed="#P" n="79"/>dictum est, et latius in dicto loco Metaphysicae,
+          <lb ed="#P" n="80"/>ubi haec omnia latissime sunt explicata.
+        </p>
+        <p xml:id="szduep-053516-d1e492">
+          <lb ed="#P" n="81"/>7. Corollarium.— Atque hinc constat, ideas
+          <lb ed="#P" n="82"/>propriissime pertinere ad scientiam practicam,
+          <lb ed="#P" n="83"/>quam Deus habet de creaturis. Quia nihil 
+          ma<lb break="no" ed="#P" n="84"/>gis ad scientiam pertinet, quam conceptus ille
+          <lb ed="#P" n="85"/>formalis, qui de re cita formatur, nam per 
+          il<lb break="no" ed="#P" n="86"/>lum formahbter repraesentatur et cognoscitur.
+          <lb ed="#P" n="87"/>Sed in hoc conceptu sunt ideae, vel potius hic
+          <lb ed="#P" n="88"/>conceptus, ut est de tali, vel tali creatura, est
+          <lb ed="#P" n="89"/>idea, ergo idea in divina scientia, vel potius,
+          <lb ed="#P" n="90"/>est ipsa scientia. Rursus illa scientia est de
+          <lb ed="#P" n="91"/>creatura quatenus a Deo fieri potest, et est velut
+          <lb ed="#P" n="92"/>ars, per quam sit, est ergo scientia practica,
+          <lb ed="#P" n="93"/>ergo ideae in scientia Dei sunt, ut habet 
+          ratio<lb break="no" ed="#P" n="94"/>nem artis, seu scientiae practicae factivae.
+        </p>
+        <p xml:id="szduep-053516-d1e525">
+          <lb ed="#P" n="95"/>8. Animadversio. — Solum est observandum
+          <lb ed="#P" n="96"/>circa has voces, 7dea, Ratio et Evemplar, esse
+          <lb ed="#P" n="97"/>in usu illarum aliquam varietatem, quam 
+          dis<lb break="no" ed="#P" n="98"/>tinguit D. Thomas, dicta quaest. 15, art. 3, et
+          <lb ed="#P" n="99"/>significat, ideam esse quasi commune nomen
+          <lb ed="#P" n="100"/>significans eamdem rem, quae et exemplar et
+          <lb ed="#P" n="101"/>ratio esse potest: exemplar, in quantum est
+          <lb ed="#P" n="102"/>ratio factiva alicujus, ratio vero, in quantum
+          <lb ed="#P" n="103"/>est principium formale, quo talis res 
+          cogno<lb break="no" ed="#P" n="104"/>scitur. Addit vero, nomen exemplaris significare
+          <lb ed="#P" n="105"/>habitudinem ad res faciendas, sicut nomen
+          <lb ed="#P" n="106"/>providentiae, vel praedestinationis et ideo 
+          exem<lb break="no" ed="#P" n="107"/>plaria proprie non esse in Deo nisi respectu
+          <lb ed="#P" n="108"/>earum rerum, quas aliquando est effecturus.
+          <lb ed="#P" n="109"/>Rationes vero rerum, tam de rebus aliquando
+          <lb ed="#P" n="110"/>futuris, quam de possibilibus nunquam futuris,
+          <pb ed="#P" n="212"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esse posse. Ac subinde ideam, ut tantum ratio
+          <lb ed="#P" n="2"/>est, esse de utrisque et ita esse posse tam in
+          <lb ed="#P" n="3"/>scientia speculativa, quam in practica, ut vero
+          <lb ed="#P" n="4"/>est exemplar, esse de rebus aliquando futuris.
+          <lb ed="#P" n="5"/>Quod totum pertinet ad usum vocum tantum,
+          <lb ed="#P" n="6"/>in quo fides adhibenda est peritis in arte. 
+          Po<lb break="no" ed="#P" n="7"/>test tamen facile usus esse diversus, vel 
+          esse<lb break="no" ed="#P" n="8"/>mutatus, nam solent etiam vocari exemplaria,
+          <lb ed="#P" n="9"/>quae de se talia sunt, vel ad eorum 
+          imitatio<lb break="no" ed="#P" n="10"/>nem possit aliquid fieri, licet faciendum non
+          <lb ed="#P" n="11"/>sit, sicut supra diximus, scientiam illam esse
+          <lb ed="#P" n="12"/>practicam, in actu primo, quod fortasse vocat
+          <lb ed="#P" n="13"/>D. Thomas, esse practicam virtute, in eodem
+          <lb ed="#P" n="14"/>art. 3 ad 2.
+        </p>
+        <p xml:id="szduep-053516-d1e597">
+          <lb ed="#P" n="15"/>9. In Deo esse ideas rerum omnium.— Carca
+          <lb ed="#P" n="16"/>punctum quartum, scilicet quarum rerum sint
+          <lb ed="#P" n="17"/>ideae, multa disputantur a theologis, quae 
+          om<lb break="no" ed="#P" n="18"/>nia pertinent ad usum vocum, et ideo 
+          brevis<lb break="no" ed="#P" n="19"/>sime perstringenda sunt. Nam loquendo 
+          prac<lb break="no" ed="#P" n="20"/>tice de ideis, seu exemplaribus divinis, prout
+          <lb ed="#P" n="21"/>nunc loquimur, certum imprimis est, habere
+          <lb ed="#P" n="22"/>Deum ideas rerum omnium, quas per se, ac
+          <lb ed="#P" n="23"/>proprie facit, vel facere potest. Probatur, quia
+          <lb ed="#P" n="24"/>omnia operatur per artem suam: ergo maxime
+          <lb ed="#P" n="25"/>illa, quae per se, ac proprie operatur, ergo 
+          il<lb break="no" ed="#P" n="26"/>lorum maxime habet ideas.
+        </p>
+        <p xml:id="szduep-053516-d1e626">
+          <lb ed="#P" n="27"/>10. Ex hoc sequitur primo, habere Deum
+          <lb ed="#P" n="28"/>ideas rerum singularium, scHicet, Petri, Pauli
+          <lb ed="#P" n="29"/>et caeterorum. Ita docet D. Augustinus, Epist.
+          <lb ed="#P" n="30"/>115, in fine, et idem sentit D. Thomas, dicta
+          <lb ed="#P" n="31"/>quaest. 15, art. 2 ad 4, Bonaventura, 
+          RHichar<lb break="no" ed="#P" n="32"/>dus, Zgidius et alii in 1, d. 35 et 36. Ratio
+          <lb ed="#P" n="33"/>vero clara est, quia effectio versatur circa 
+          sin<lb break="no" ed="#P" n="34"/>gularia, ergo oportet, ut singularium dentur
+          <lb ed="#P" n="35"/>ideae. Potest declarari exemplo humani 
+          artifi<lb break="no" ed="#P" n="36"/>cis, quia non depingit talem imaginem, tahs
+          <lb ed="#P" n="37"/>figurae, magnitudinis, coloris, etc., nisi illius
+          <lb ed="#P" n="38"/>habeat propriam et peculiarem ideam, 
+          diver<lb break="no" ed="#P" n="39"/>sam ab idea alterius imaginis. Dices, hoc ad
+          <lb ed="#P" n="40"/>summum habere verum, quando imagines
+          <lb ed="#P" n="41"/>faciendae, sunt dissimiles, at si sint omnino 
+          si<lb break="no" ed="#P" n="42"/>miles, licet differant numero, per idem 
+          exem<lb break="no" ed="#P" n="43"/>plar fieri posse. Respondeo, in humano artifice
+          <lb ed="#P" n="44"/>habere hoc locum, quia operatur per se ad
+          <lb ed="#P" n="45"/>formam similem, non vero ad individuationem,
+          <lb ed="#P" n="46"/>secus vero esse in Deo, qui per se attingit 
+          in<lb break="no" ed="#P" n="47"/>dividua, et hoc est, quod D. Thomas ait, in
+          <lb ed="#P" n="48"/>dicto articulo, solutione ad A4: Providentiam
+          <lb ed="#P" n="49"/>divinum se ertendere ad singularia, et ideo dari
+          <lb ed="#P" n="50"/>illorum ideas. Quapropter sine causa Henricus
+          <lb ed="#P" n="51"/>quodlib. 3, quaest. 1,et quodlib. 7, quaest. 5,
+          <lb ed="#P" n="52"/>negat esse in Deo ideas singularium.
+        </p>
+        <p xml:id="szduep-053516-d1e685">
+          <lb ed="#P" n="53"/>11. Dubium. — Quaeri vero potest, an sint in
+          <lb ed="#P" n="54"/>Deo esse rationum universalium. Nam 
+          Henri<lb break="no" ed="#P" n="55"/>cus supra, tam generum, quam specierum il-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>las esse ponendas putat. At D. Thomas, dicta i
+          <lb ed="#P" n="57"/>solutione ad 4, fatetur de generibus non dari
+          <lb ed="#P" n="58"/>ideas, distinctas ab ideis specierum. Unde de 
+          <lb ed="#P" n="59"/>speciebus videtur eas admittere, imo et Augus- E 
+          <lb ed="#P" n="60"/>tinus, dicta Epist. 115, idem sentit, dum ait:
+          <lb ed="#P" n="61"/>Ailhi videtur, quod ad hominem faciendum 
+          at<lb break="no" ed="#P" n="62"/>tinet, hominis quidem tantum, non meum, vel 1
+          <lb ed="#P" n="63"/>tuam ibi esse rationem. Quantum ad orbem 
+          au<lb break="no" ed="#P" n="64"/>tem temporum, varias hominum vationes in illg
+          <lb ed="#P" n="65"/>sinceritate vivere. Sed certe, qua ratione non
+          <lb ed="#P" n="66"/>ponuntur ideae generum, eadem nec specierum
+          <lb ed="#P" n="67"/>ponendae esse videntur. Primo quidem, quia
+          <lb ed="#P" n="68"/>species non fiunt, nisi in individuis, unde non
+          <lb ed="#P" n="69"/>fiunt nisi per ideas individuorum. Secundo,
+          <lb ed="#P" n="70"/>quia Deus non habet conceptus confusos 
+          objec<lb break="no" ed="#P" n="71"/>torum universalium, sed distinctissime omnia
+          <lb ed="#P" n="72"/>cognoscit, ut sunt. Unde licet negari non 
+          pos<lb break="no" ed="#P" n="73"/>sit, ita cognoscere Deum singularia, ut 
+          cog<lb break="no" ed="#P" n="74"/>noscat etiam virtutem formalem, seu 
+          simili<lb break="no" ed="#P" n="75"/>tudinem specificam, quam inter se habent:
+          <lb ed="#P" n="76"/>nihilominus non intelligimus nos in Deo duos
+          <lb ed="#P" n="77"/>conceptus ratione distinctos, unum speciei,
+          <lb ed="#P" n="78"/>alium individui. Tum quia prior esset confusus
+          <lb ed="#P" n="79"/>et imperfectus, ut in nobis est. Tum etiam quia
+          <lb ed="#P" n="80"/>eadem ratione distinguendi essent conceptus
+          <lb ed="#P" n="81"/>generis et speciei. Concipiendo ergo sipngularia
+          <lb ed="#P" n="82"/>prout in se sunt, in eis videt similitudinem,
+          <lb ed="#P" n="83"/>quam inter se habent, vel integram et 
+          specifi<lb break="no" ed="#P" n="84"/>cam, vel imperfectam et genericam et eodem
+          <lb ed="#P" n="85"/>modo, sicut non producit genera, vel species
+          <lb ed="#P" n="86"/>nisi in individuis, ita per eorum ideas ila
+          <lb ed="#P" n="87"/>producit.
+        </p>
+        <p xml:id="szduep-053516-d1e766">
+          <lb ed="#P" n="88"/>12. Dari in Deo ideas rerum omnium 
+          sin<lb break="no" ed="#P" n="89"/>gulariim substantiarum. — Secundo sequitur
+          <lb ed="#P" n="90"/>ex dictis dari ideam in Deo omnium 
+          singula<lb break="no" ed="#P" n="91"/>rium substantiarum completarum, seu 
+          suppo<lb break="no" ed="#P" n="92"/>sitorum. Hoc etiam constat, quia illa omnia
+          <lb ed="#P" n="93"/>per se fiunt et per se, ac distincte 
+          cognoscun<lb break="no" ed="#P" n="94"/>tur. Tamen de partibus substantiae solet esse
+          <lb ed="#P" n="95"/>controversia ; praesertim de materia prima.
+          <lb ed="#P" n="96"/>Nam D. Thomas supra ad 3, negat dari 
+          pro<lb break="no" ed="#P" n="97"/>priam ideam ejus, quod Cajetanus et alii 
+          se<lb break="no" ed="#P" n="98"/>quuntur. Imo nec proprium conceptum ejus 
+          <lb ed="#P" n="99"/>videntur ponere in Deo, sed cognosci putant
+          <lb ed="#P" n="100"/>conceptu totius, cujus est pars et similiter 
+          pu<lb break="no" ed="#P" n="101"/>tant fieri per deum totius. Fundanturque,
+          <lb ed="#P" n="102"/>quia materia non habet esse, nec actualitatem
+          <lb ed="#P" n="103"/>nisi per formam, unde nec cognosci, nec fieri
+          <lb ed="#P" n="104"/>potest nisi cum illa et per illam, atque adeo,
+          <lb ed="#P" n="105"/>per ideam, vel rationem totius.
+        </p>
+        <p xml:id="szduep-053516-d1e809">
+          <lb ed="#P" n="106"/>13. Ego vero censeo materiam habere
+          <lb ed="#P" n="107"/>suam propriam entitatem et proprium actum
+          <lb ed="#P" n="108"/>entitativum, et proprium esse, et ideo existimo
+          <lb ed="#P" n="109"/>in se distincte et proprio conceptu cognosci,
+          <lb ed="#P" n="110"/>licet cum habitudine trariscendentali et de-
+          <pb ed="#P" n="213"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pendentia, quam habet a forma. Et ita etiam
+          <lb ed="#P" n="2"/>existimo fieri et conservari propria quadam
+          <lb ed="#P" n="3"/>actione creativa et conservativa, licet partiali
+          <lb ed="#P" n="4"/>respectu totius, secundum ordinem naturae;
+          <lb ed="#P" n="5"/>de potentia vero absoluta posse solam produci.
+          <lb ed="#P" n="6"/>Quare placet mihi opinio Alberti, 1 dist. 35,
+          <lb ed="#P" n="7"/>art. 10, ponentis propriam ideam materiae.
+          <lb ed="#P" n="8"/>De accidentibus autem fere idem dici potest.
+          <lb ed="#P" n="9"/>Et de his, quae per se fiunt et adduntur 
+          sub<lb break="no" ed="#P" n="10"/>stantiis jam productis, ita omnino dicere 
+          opor<lb break="no" ed="#P" n="11"/>tet. At vero de his quae non per se fiunt, sed
+          <lb ed="#P" n="12"/>comproducuntur, probabilis est sententia D.
+          <lb ed="#P" n="13"/>Thomae, quod per ideas subjecti fiunt. Nam
+          <lb ed="#P" n="14"/>intelligimus, verbi gratia, habere Deum ideam
+          <lb ed="#P" n="15"/>angeli, prout in re fit cum intellectu et 
+          volun<lb break="no" ed="#P" n="16"/>tate, et per illam eum producere et sic de aliis
+          <lb ed="#P" n="17"/>rebus, de quo solum potest esse dissensio in
+          <lb ed="#P" n="18"/>modo loquendi.
+        </p>
+        <p xml:id="szduep-053516-d1e866">
+          <lb ed="#P" n="19"/>14. Non esse plures ideas in Deo actu inde
+          <lb ed="#P" n="20"/>distinctas.— Circa quintum punctum, scilicet,
+          <lb ed="#P" n="21"/>quot sint ideae, res videtur clara, licet auctores
+          <lb ed="#P" n="22"/>etiam dissentiant in modo loquendi. Certum
+          <lb ed="#P" n="23"/>ergo est, in re non esse plures ideas actu 
+          dis<lb break="no" ed="#P" n="24"/>tunctas, quia in Deo non bhabet locum talis
+          <lb ed="#P" n="25"/>distinctio, in absolutis, ut supra probatum est.
+          <lb ed="#P" n="26"/>Idea vero licet concipiatur a nobis cum respectu
+          <lb ed="#P" n="27"/>rationis ad objectum creatum, in se concipitur,
+          <lb ed="#P" n="28"/>ut forma absoluta, sicut revera est, non sunt
+          <lb ed="#P" n="29"/>ergo in Deo plures ideae in re distinctae actu
+          <lb ed="#P" n="30"/>aliquo modo. Sed sicut Deus unico conceptu
+          <lb ed="#P" n="31"/>omnia intelligit, ita unam habet realem ideam
+          <lb ed="#P" n="32"/>suae insitae arti adaequatam. Nihilominus vero
+          <lb ed="#P" n="33"/>certum est, posse anobis ratione distingui ideas
+          <lb ed="#P" n="34"/>per ordinem ad diversa objecta, sicut revera
+          <lb ed="#P" n="35"/>llas distinguimus, et hoc modo dicuntur esse
+          <lb ed="#P" n="36"/>in Deo plures ideae. Quae, ut sunt rationes 
+          re<lb break="no" ed="#P" n="37"/>rum possibilium, infinitae sunt, vel distingui
+          <lb ed="#P" n="38"/>possunt in infinitum, ut vero sunt exemplaria
+          <lb ed="#P" n="39"/>rerum faciendarum, tot sunt, quot sunt vel
+          <lb ed="#P" n="40"/>erunt, res singulares habentes in Deo proprias
+          <lb ed="#P" n="41"/>ideas. Atque haec est doctrina communis 
+          theo<lb break="no" ed="#P" n="42"/>logorum, D. Thomae, dict., quaest. 15, art. 2,
+          <lb ed="#P" n="43"/>Alensis, 1 p., quaest. 23, m. 4. Bonaventurse,
+          <lb ed="#P" n="44"/>Alberti et Hervaei in 1, d. 35; et idem habet
+          <lb ed="#P" n="45"/>Scotus, d. 36, quaest. 1, et ibi Durandus, quaest.
+          <lb ed="#P" n="46"/>4, Richardus, art. 2, quaest. 3, Capreolus, quaest.
+          <lb ed="#P" n="47"/>1, art. 1, et caeteri omnes.
+        </p>
+        <p xml:id="szduep-053516-d1e931">
+          <lb ed="#P" n="48"/>15. In quo sit difficultas. — Cum ergo haec
+          <lb ed="#P" n="49"/>certa sint, solum de nomine est quaestio, an
+          <lb ed="#P" n="50"/>dicendae sint simpliciter plures ideae, vel una.
+          <lb ed="#P" n="51"/>In quo jam usus obtinuit, ut plures simpliciter
+          <lb ed="#P" n="52"/>dicantur, nam ita loquitur Augustinus, dicta
+          <lb ed="#P" n="53"/>quaest. 4 in l. 83, quaest., et sumitur ex 
+          Diony<lb break="no" ed="#P" n="54"/>sio, cap. 1 et 5, de Divin. nom., et docent
+          <lb ed="#P" n="55"/>D. Thomas et ere alii theologi, uno, vel alio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>excepto, ad modum autem loquendi sufficit
+          <lb ed="#P" n="57"/>communis usus. Nam ex eodem etiam habetur,
+          <lb ed="#P" n="58"/>per illam numerationem, vel pluralitatem non
+          <lb ed="#P" n="59"/>significari pluralitatem rerum, sed rationum
+          <lb ed="#P" n="60"/>objectivarum, quae correspondet nostris 
+          con<lb break="no" ed="#P" n="61"/>ceptibus inadaequatis, quos de illa idea Divina
+          <lb ed="#P" n="62"/>formamus.
+        </p>
+        <p xml:id="szduep-053516-d1e968">
+          <lb ed="#P" n="63"/>16. Sed hinc rursus inquiritur, quae fuerit
+          <lb ed="#P" n="64"/>ratio hujus usus. Quidam existimant per nomen
+          <lb ed="#P" n="65"/>ideae significari de formali relationem rationis
+          <lb ed="#P" n="66"/>divini exemplaris ad res repraesentatas, et quia
+          <lb ed="#P" n="67"/>relationes, ut relationes sunt, multiplicantur
+          <lb ed="#P" n="68"/>ex terminis, ut infra, libro sexto de Trinitate,
+          <lb ed="#P" n="69"/>latius dicemus, ideo ideas vocari simpliciter
+          <lb ed="#P" n="70"/>plures. Sed non videtur nomen ideae significare
+          <lb ed="#P" n="71"/>de formali relationem secundum esse, sed
+          <lb ed="#P" n="72"/>tantum secundum dici, ut aiunt, sicut nomen
+          <lb ed="#P" n="73"/>scientiae, vel similia. Item alias, idea esset ens
+          <lb ed="#P" n="74"/>rationis, ve nomen secundae intentionis, etita
+          <lb ed="#P" n="75"/>non esset in Deo idea ab aeterno, quod falsum
+          <lb ed="#P" n="76"/>est, nam tam aeterna est idea, sicut 
+          praescien<lb break="no" ed="#P" n="77"/>tia, vel praedestinatio, vel decretum liberum
+          <lb ed="#P" n="78"/>Dei, quae omnia involvunt relationem rationis,
+          <lb ed="#P" n="79"/>sed non in formali significato, seu in objecto
+          <lb ed="#P" n="80"/>significationis, sed in modo significandi, idem
+          <lb ed="#P" n="81"/>ergo est de idea.
+        </p>
+        <p xml:id="szduep-053516-d1e1012">
+          <lb ed="#P" n="82"/>17. Videtur ergo mihi, ideam et exemplar
+          <lb ed="#P" n="83"/>esse mensuram ret, cujus est idea, ideoque 
+          si<lb break="no" ed="#P" n="84"/>gnificari et concipi ut adaequatum terminum
+          <lb ed="#P" n="85"/>relationis mensurati seu mensurabilis ad 
+          men<lb break="no" ed="#P" n="86"/>suram suam. Unde, quia creaturae sunt plures
+          <lb ed="#P" n="87"/>simpliciter et unaquaeque suo peculiari modo
+          <lb ed="#P" n="88"/>commensuratur exemplari divino: ideo etiam
+          <lb ed="#P" n="89"/>ideas illarum plures simpliciter nominari. Et
+          <lb ed="#P" n="90"/>ideo etiam potest haec pluralitas intelligi eterna
+          <lb ed="#P" n="91"/>in intellectu divino, ut D. Thomas docet, 
+          quate<lb break="no" ed="#P" n="92"/>nus Deus intelligit suum conceptum, quem de
+          <lb ed="#P" n="93"/>creaturis habet, posse esse adaequatum 
+          termi<lb break="no" ed="#P" n="94"/>num plurium creaturarum, quae respiciunt 
+          ip<lb break="no" ed="#P" n="95"/>sum, ut mensuratae per ipsum. Quapropter, licet
+          <lb ed="#P" n="96"/>Deus non confingat relationem, aut 
+          distinctio<lb break="no" ed="#P" n="97"/>nem rationis, cognoscit nihilominus plures
+          <lb ed="#P" n="98"/>creaturas, ut mensurabiles per suam scientiam
+          <lb ed="#P" n="99"/>practicam, et ibi cognoscit esse fundamentum
+          <lb ed="#P" n="100"/>sufficiens ad illam denominationem, 
+          praeser<lb break="no" ed="#P" n="101"/>tim, quia etiam cognoscit distinctionem 
+          ratio<lb break="no" ed="#P" n="102"/>nis, quam mens humana potest in sua idea
+          <lb ed="#P" n="103"/>concipere.
+        </p>
+        <p xml:id="szduep-053516-d1e1062">
+          <lb ed="#P" n="104"/>18. Denique hinc etiam potest reddi ratio,
+          <lb ed="#P" n="105"/>cur ideae simpliciter dicantur plures, non vero
+          <lb ed="#P" n="106"/>scientia, vel ars divina. Quia scientia et ars
+          <lb ed="#P" n="107"/>non ita significantur per modum mensurae,
+          <lb ed="#P" n="108"/>sicut idea et exemplar. Est etiam optima ratio,
+          <lb ed="#P" n="109"/>quia scientia et ars significantur, ut habitus,
+          <lb ed="#P" n="110"/>qui non multiplicantur ex materialibus objec-
+          <pb ed="#P" n="214"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tis et rebus scitis, sed ex ratione formali
+          <lb ed="#P" n="2"/>sciendi, quae in Deo est una et universalissima.
+          <lb ed="#P" n="3"/>Exemplar vero, seu idea significatur per 
+          mo<lb break="no" ed="#P" n="4"/>dum actualis conceptus adaequati rei cognitae,
+          <lb ed="#P" n="5"/>et per modum imaginis repraesentantis 
+          unam<lb break="no" ed="#P" n="6"/>quamque rem, sicut est, et ideo juxta rerum
+          <lb ed="#P" n="7"/>varietatem multiplicatur. Et haec sufficiunt 
+          pro<lb break="no" ed="#P" n="8"/>loquendi modo.
+        </p>
+        <p xml:id="szduep-053516-d1e1102">
+          <lb ed="#P" n="9"/>19. Circa sextum punctum multa dici 
+          pos<lb break="no" ed="#P" n="10"/>sent, nisi tractata essent in disp. 25 
+          Metaphy<lb break="no" ed="#P" n="11"/>sicae. sect. 2. ubi diximus, causam exemplarem
+          <lb ed="#P" n="12"/>ad efficientem reduci. Nam exemplar est veluti
+          <lb ed="#P" n="13"/>forma, per quam artifex operatur. Unde licet
+          <lb ed="#P" n="14"/>respectu artificis idea sit veluti quaedam forma,
+          <lb ed="#P" n="15"/>quae est illi ratio cognoscendi, tamen in ordine
+          <lb ed="#P" n="16"/>ad effectionem est quasi principium agendi et
+          <lb ed="#P" n="17"/>assimilandi sibi aliquo modo effectum, et ideo
+          <lb ed="#P" n="18"/>sub ea ratione ad causam effticientem pertinet.
+          <lb ed="#P" n="19"/>Quam doctrinam in illa sectione secunda, latius
+          <lb ed="#P" n="20"/>declaravimus et ad divina etiam exemplaria
+          <lb ed="#P" n="21"/>applicuimus ; en vero haec effectio divinarum
+          <lb ed="#P" n="22"/>idearum sit solum per modum directionis 
+          cu<lb break="no" ed="#P" n="23"/>jusdam, eo modo, quo scientia practica, vel ars,
+          <lb ed="#P" n="24"/>solet dirigere potentiam motivam, seu 
+          executi<lb break="no" ed="#P" n="25"/>vam, vel etiam sit per influxum ad extra 
+          physi<lb break="no" ed="#P" n="26"/>cum, ac perse, tractaviin disp. 30 Metaphysicae,
+          <lb ed="#P" n="27"/>sect. ult., et infra, cap. 3, tractando de 
+          omni<lb break="no" ed="#P" n="28"/>potentia aliquid attingam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

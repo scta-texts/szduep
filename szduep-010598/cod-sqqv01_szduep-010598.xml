@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="41"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-010598"><!-- t1-l1c14 -->
+        <head xml:id="szduep-010598-Hd1e101">Caput 14</head>
+        <head xml:id="szduep-010598-Hd1e103" type="question-title">Quomodo possint divina attributa vere de deo enuntiari et deus de illis</head>
+        <p xml:id="szduep-010598-d1e106">
+          <lb ed="#P" n="50"/>CAPUT XIV.
+          <lb ed="#P" n="51"/>QUOMODO POSSINT DIVINA ATTRIBUTA VERE DE DEO
+          <lb ed="#P" n="52"/>ENUNTIARI ET DEUS DE ILLIS.
+        </p>
+        <p xml:id="szduep-010598-d1e115">
+          <lb ed="#P" n="53"/>1. Attributorum multiplem fieri potest com-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>paratio. — Quoniam haec attributa possunt et
+          <lb ed="#P" n="55"/>in concreto et in abstracto concipi, et ita 
+          pos<lb break="no" ed="#P" n="56"/>sunt varie inter se comparari, scilicet concreta
+          <lb ed="#P" n="57"/>ad subjecta, ad concreta praedicata vel abstrata
+          <lb ed="#P" n="58"/>ad abstracta, vel abstracta ad concreta, vel e
+          <lb ed="#P" n="59"/>converso vel etiam comparando abstractum et
+          <lb ed="#P" n="60"/>concretum aliquid aliud, quod de illis dici 
+          pos<lb break="no" ed="#P" n="61"/>sit aut non possit, vel e converso, ideo breviter
+          <lb ed="#P" n="62"/>de his homnibus dicendum est, quia ad 
+          com<lb break="no" ed="#P" n="63"/>plementum hujus materiae est necessarium.
+        </p>
+        <p xml:id="szduep-010598-d1e144">
+          <lb ed="#P" n="64"/>9. In concretis propria attributorum 
+          affir<lb break="no" ed="#P" n="65"/>matio de Deo et inter se potest esse.—Primo 
+          igi<lb break="no" ed="#P" n="66"/>tur manifestum est, in concreto fieri propriam
+          <lb ed="#P" n="67"/>affirmationem attributorum de Deo et inter se,
+          <lb ed="#P" n="68"/>ut Deus est sapiens, justus, sapiens et bomus,
+          <lb ed="#P" n="69"/>hoc per se clarum est. Imo tanta est identitas
+          <lb ed="#P" n="70"/>inter illa extrema, ut potius dubitari possit,
+          <lb ed="#P" n="71"/>an illa sint proprie propositiones vel potius
+          <lb ed="#P" n="72"/>identicae. Quod videtur voluisse insinuare 
+          Di<lb break="no" ed="#P" n="73"/>vus Thomas, 1 par., quaes. 13, cum 
+          interro<lb break="no" ed="#P" n="74"/>gat in art. 12, an possint de Deo formari 
+          affir<lb break="no" ed="#P" n="75"/>mativae propositiones. Et respondet posse, quia
+          <lb ed="#P" n="76"/>non sunt omnino identicae, eo quod termini
+          <lb ed="#P" n="77"/>positi in subjecto et praedicato non sunt 
+          syno<lb break="no" ed="#P" n="78"/>nymi, ut articulo quarto dixerat et ostensum
+          <lb ed="#P" n="79"/>est jam. Nec vero compositio conceptuum vel
+          <lb ed="#P" n="80"/>verborum, quam non facimus cum 
+          enuntia<lb break="no" ed="#P" n="81"/>mus haec, obstat simphcitati Dei, quia non 
+          at<lb break="no" ed="#P" n="82"/>tribuimus Deo modum cognitionis vel 
+          locu<lb break="no" ed="#P" n="83"/>tionis nostrae, sed rem et veritatem cognitam,
+          <lb ed="#P" n="84"/>ut in solutionibus argumentorum ejusdem 
+          ar<lb break="no" ed="#P" n="85"/>ticuli D. Thomas latius declarat.
+        </p>
+        <p xml:id="szduep-010598-d1e195">
+          <lb ed="#P" n="86"/>3. Quando attributa absoluta et positiva de
+          <lb ed="#P" n="87"/>Doeo in abstracto predicantur vera est 
+          proposi<lb break="no" ed="#P" n="88"/>tio.— Secundo dicendum est, etiam 
+          proposi<lb break="no" ed="#P" n="89"/>tiones illas, in quibus attributa absoluta et 
+          po<lb break="no" ed="#P" n="90"/>sitiva de Deo in abstracto praedicantur, esse
+          <lb ed="#P" n="91"/>veras in rigore sermonis. Loquor de absolutis,
+          <lb ed="#P" n="92"/>quia de relationibus consideratio ad tractatum
+          <lb ed="#P" n="93"/>de Trinitate pertinet. Loquor item de positivis,
+          <lb ed="#P" n="94"/>quia negationes, ut immortalitas , infinitas,
+          <lb ed="#P" n="95"/>non proprie dicuntur de Deo, nisi sumantur
+          <lb ed="#P" n="96"/>loco positivorum. Est ergo sermo de his: Deus
+          <lb ed="#P" n="97"/>est sapientia, et similibus. Et sic assertio mihi
+          <lb ed="#P" n="98"/>videtur certa. Primo quia Scriptura passim
+          <lb ed="#P" n="99"/>utitur hoc modo loquendi; vocat enim Deum
+          <lb ed="#P" n="100"/>lucem, sapientiam, vitam, veritatem Joannis
+          <lb ed="#P" n="101"/>decimo quarto , 1 Corint. 1, Proverb. S. 
+          Se<lb break="no" ed="#P" n="102"/>cundo, quia sancti non solum eisdem 
+          locu<lb break="no" ed="#P" n="103"/>tionibus utuntur, sed etiam eas praeferunt 
+          prae<lb break="no" ed="#P" n="104"/>dicationibus concretorum, ita ut melius 
+          dica<lb break="no" ed="#P" n="105"/>tur Deus vita quam vivens ; sapientia quam
+          <lb ed="#P" n="106"/>sapiens. Ita docet Dionysius de Divin. nom.
+          <lb ed="#P" n="107"/>capite quarto et quinto et sequentibus, ubi
+          <lb ed="#P" n="108"/>ait Deum non tam esse bonum et pulchrum,
+          <pb ed="#P" n="42"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sapientem et caetera, quam bonitatem, 
+          pul<lb break="no" ed="#P" n="2"/>chritudinem, sapientiam ; idem sentit 
+          Damas<lb break="no" ed="#P" n="3"/>cenus libro primo, capite quinto. Unde Leo
+          <lb ed="#P" n="4"/>Papa Epistol. 91, alias 93, capite quinto: 
+          JVemo<lb break="no" ed="#P" n="5"/>hominum cveritas (ait) nemo sapientia, nemo
+          <lb ed="#P" n="6"/>justitia est multi participes fiunt veritatis,
+          <lb ed="#P" n="7"/>sapientie et justitie solus autem Deus mlius
+          <lb ed="#P" n="8"/>participationis indigens est, de quo quidquid
+          <lb ed="#P" n="9"/>digne sentitur, non qualitas est sed essentia.
+        </p>
+        <p xml:id="szduep-010598-d1e271">
+          <lb ed="#P" n="10"/>4. Ubi duas rationes indicat harum 
+          locu<lb break="no" ed="#P" n="11"/>tionum in sensu verissimo : una est, quia per
+          <lb ed="#P" n="12"/>illas significatur Deum non esse talem per
+          <lb ed="#P" n="13"/>participationem, sed per se primo et cum 
+          sum<lb break="no" ed="#P" n="14"/>ma perfectione, quod per sola concreta non 
+          si<lb break="no" ed="#P" n="15"/>gnificatur, et hoc significare voluit Bernardus,
+          <lb ed="#P" n="16"/>lib. 5, de Cons., c. 7, cum dixit: JVon est 
+          for<lb break="no" ed="#P" n="17"/>aatus Deus sed forma ; non est uffectus Deus,
+          <lb ed="#P" n="18"/>affectio est. Qui propterea serm. 80, inCant.,
+          <lb ed="#P" n="19"/>refert damnatam esse illam interpretationem
+          <lb ed="#P" n="20"/>Gilberti - Deus est veritas id est, verus. Melius
+          <lb ed="#P" n="21"/>(inquit Bernardus) ecponeret : Deus est verus,
+          <lb ed="#P" n="22"/>id est veritas. Alia vero ratio Leonis est, quia
+          <lb ed="#P" n="23"/>Deus est haec omnia per essentiam suam, quam
+          <lb ed="#P" n="24"/>rationem statim amplius urgebimus. 
+          Augus<lb break="no" ed="#P" n="25"/>tinus etiam b5, de Trinitate, capite 2 et 10, et
+          <lb ed="#P" n="26"/>libro 6, capite 1, et in sequentibus et in l. 7,
+          <lb ed="#P" n="27"/>seepe ita loquitur.
+        </p>
+        <p xml:id="szduep-010598-d1e313">
+          <lb ed="#P" n="28"/>5. Tertio eadem est ratio de hac 
+          proposi<lb break="no" ed="#P" n="29"/>tione: Deus est Deitas, quae de his: Deus est 
+          sa<lb break="no" ed="#P" n="30"/>pientia, justitia, etc. Sed illa propositio : Deus
+          <lb ed="#P" n="31"/>est Deitas, est ita vera, ut dixerit concilio
+          <lb ed="#P" n="32"/>Rhemense in nullo sensu catholico negari 
+          pos<lb break="no" ed="#P" n="33"/>se, ut infra l. 4, de Trin., c. 2et 11, 
+          videbi<lb break="no" ed="#P" n="34"/>mus, ergo. Major late ostenditur a Bernardo
+          <lb ed="#P" n="35"/>supra, et ex Augustino clare colligitur. Et
+          <lb ed="#P" n="36"/>probatur a paritate rationis, quia tam simplex
+          <lb ed="#P" n="37"/>et subsistens est sapientia, sicut Deitas. Quarto
+          <lb ed="#P" n="38"/>est ratio a priori: quia nihil includitur in illo
+          <lb ed="#P" n="39"/>subjecto, quod non contineatur in praedicato,
+          <lb ed="#P" n="40"/>et solus significandi modus non sufficit, ut
+          <lb ed="#P" n="41"/>propositio illa falsa sit, quia ille significandi
+          <lb ed="#P" n="42"/>modus non tribuitur Deo ipsi, id est, non 
+          tri<lb break="no" ed="#P" n="43"/>buitur illi compositio, nec separatio formae a
+          <lb ed="#P" n="44"/>subjecto sed solum res significata.
+        </p>
+        <p xml:id="szduep-010598-d1e352">
+          <lb ed="#P" n="45"/>6. Assertio. — Tertio ergo dicendum est,
+          <lb ed="#P" n="46"/>etiam Deum et attributa ejus in concreto
+          <lb ed="#P" n="47"/>sumpta recte praedicari de abstractis, servando
+          <lb ed="#P" n="48"/>in reliquis proportionem seu debitam 
+          identi<lb break="no" ed="#P" n="49"/>tatem, ut dicendo: Deitas est sapiens, 
+          immor<lb break="no" ed="#P" n="50"/>talis, etc. Est assertio aeque certa ac 
+          praece<lb break="no" ed="#P" n="51"/>dens, quia sequitur per simplicem 
+          conversio<lb break="no" ed="#P" n="52"/>nem. Nam si Deus est Deitas, etiam Deitas est
+          <lb ed="#P" n="53"/>Deus et Deitas est sapiens et sic de aliis. Est
+          <lb ed="#P" n="54"/>autem in praesenti haec consequentia bona et
+          <lb ed="#P" n="55"/>formalis, quia licet respectu nominum perso-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nalium vel notionalium Deus non sit medium
+          <lb ed="#P" n="57"/>sufficiens ad similes illationes faciendas 
+          prop<lb break="no" ed="#P" n="58"/>ter communicabilitatem suam et identitatem
+          <lb ed="#P" n="59"/>ad res oppositas, ut in tractatu de Trinitate 
+          vi<lb break="no" ed="#P" n="60"/>debimus : nihilominus inter absoluta est 
+          me<lb break="no" ed="#P" n="61"/>dium sufficiens, quia habet cum illis 
+          adaequa<lb break="no" ed="#P" n="62"/>tam identitatem , nam omnia absoluta sunt
+          <lb ed="#P" n="63"/>aeque singularia et cum eadem 
+          communicabi<lb break="no" ed="#P" n="64"/>litate reali. Praeterea, hae locutiones sunt 
+          ve<lb break="no" ed="#P" n="65"/>rissimae: Sapientia est Deus et similes, ut supra
+          <lb ed="#P" n="66"/>est ostensum ; ergo quod praedicatur 
+          essentia<lb break="no" ed="#P" n="67"/>liter de Deo, praedicabitur etiam de saptentia:
+          <lb ed="#P" n="68"/>sed Deus essentialiter est sapiens, justus, etc.;
+          <lb ed="#P" n="69"/>ergo haec omnia vere et essentialiter dicuntur
+          <lb ed="#P" n="70"/>de sapientia. Idemque est de omnibus 
+          simih<lb break="no" ed="#P" n="71"/>bus. Neque contra haec invenio argumenta
+          <lb ed="#P" n="72"/>alicujus momenti praeter ea, quae ex sequenti
+          <lb ed="#P" n="73"/>assertione insurgere possunt.
+        </p>
+        <p xml:id="szduep-010598-d1e420">
+          <lb ed="#P" n="74"/>7. Attributa essentialia et positiva de se 
+          in<lb break="no" ed="#P" n="75"/>vicem uffirmari queunt. — Dico ergo quarto :
+          <lb ed="#P" n="76"/>attributa haec essentialia et positiva recte 
+          pos<lb break="no" ed="#P" n="77"/>suntde se invicem affirmari, ut cum dicitur: $
+          a<lb break="no" ed="#P" n="78"/>pientia est justatia, antellectus est voluntas, etc.
+          <lb ed="#P" n="79"/>In haec assertione non facile conveniunt 
+          theo<lb break="no" ed="#P" n="80"/>logi. Nam contrariam sententiam tenere 
+          vide<lb break="no" ed="#P" n="81"/>tur Capreolus 1, d. 8, q. 4, ar. 3, ad 11 
+          Au<lb break="no" ed="#P" n="82"/>reoli contra primam conclusionem. Et quod 
+          mi<lb break="no" ed="#P" n="83"/>rabile est, idem sentit ibi Gregorius, q. 1, cum
+          <lb ed="#P" n="84"/>alias teneat haec attributa nec ratione 
+          distin<lb break="no" ed="#P" n="85"/>gui. Tamen assertio sumitur ex D. Thoma 1
+          <lb ed="#P" n="86"/>part., quaest. 39, articulo 5, in solutionibus
+          <lb ed="#P" n="87"/>argumentorum, et ar. 6 et locis citatis 
+          prae<lb break="no" ed="#P" n="88"/>cedenti capite estque communis Thomistarum,
+          <lb ed="#P" n="89"/>praesertim Torres quaest. 28, 1 par., artic. 2,
+          <lb ed="#P" n="90"/>disp. 2, ubi etiam alii. Et sine dubio est 
+          sen<lb break="no" ed="#P" n="91"/>tentia Augustini, Anselmi et Bernardi, quos
+          <lb ed="#P" n="92"/>c. 12 retuli. Probatur autem facile ex 
+          prae<lb break="no" ed="#P" n="93"/>cedentibus assertionibus , quia Deus est sua
+          <lb ed="#P" n="94"/>sapientia et Deus est sua justitia, ergo 
+          sapien<lb break="no" ed="#P" n="95"/>tia est justitia. Item sapientia est Deus et
+          <lb ed="#P" n="96"/>Deus est Deitas, ergo sapientia est Deitas. 
+          Om<lb break="no" ed="#P" n="97"/>nes enim similes illationes tenent, ex 
+          funda<lb break="no" ed="#P" n="98"/>mento proxime posito. Praeterea idem aperte
+          <lb ed="#P" n="99"/>sequitur ex mutua inclusione attributorum.
+          <lb ed="#P" n="100"/>Nam si Divinitas est de essentiali conceptu 
+          sa<lb break="no" ed="#P" n="101"/>pientiae, verissime dicitur: Sapientia est 
+          Divi<lb break="no" ed="#P" n="102"/>nitas , quia nihil verius de re praedicatur,
+          <lb ed="#P" n="103"/>quam id quod est de essentia ejus. Quae ratio
+          <lb ed="#P" n="104"/>inomnibus locum habet. Et simile, quod multi
+          <lb ed="#P" n="105"/>dialectici dicunt, hanc propositionem esse 
+          ve<lb break="no" ed="#P" n="106"/>ram : humanitas est animalitas, quia 
+          anima<lb break="no" ed="#P" n="107"/>litas est de essentia humanitatis.
+        </p>
+        <p xml:id="szduep-010598-d1e496">
+          <lb ed="#P" n="108"/>8. Aliqui vero, cum negare non possint has
+          <lb ed="#P" n="109"/>locutiones esse communi usu sapientum 
+          re<lb break="no" ed="#P" n="110"/>ceptas, dicunt illas admiti propter identita-
+          <pb ed="#P" n="43"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem rei : in sensu vero non formali atque adeo
+          <lb ed="#P" n="2"/>improprio, quia significatum unius abstracti
+          <lb ed="#P" n="3"/>formaliter non includitur in formah 
+          signifi<lb break="no" ed="#P" n="4"/>cato alterius, licet in se habcant identitatem,
+          <lb ed="#P" n="5"/>quam solum significamus cum dicimus: 
+          Ji<lb break="no" ed="#P" n="6"/>sericordia est justitia. Sed hoc simphrciter
+          <lb ed="#P" n="7"/>falsum est in dicto sensu et ex illo 
+          funda<lb break="no" ed="#P" n="8"/>mento, ut ex dictis constat et ideo simpliciter
+          <lb ed="#P" n="9"/>censeo veras propositiones illas in sensu 
+          for<lb break="no" ed="#P" n="10"/>mali. Tamen in hocmet sensu formali potest
+          <lb ed="#P" n="11"/>esse aliqua aequivocatio, quam distinguere 
+          pos<lb break="no" ed="#P" n="12"/>sumus juxta doctrinam generalem traditam in
+          <lb ed="#P" n="13"/>Metaphysica, disp. 6, sect. 10. Dupliciter ergo
+          <lb ed="#P" n="14"/>intelligi potest hic sensus formalis, primo 
+          con<lb break="no" ed="#P" n="15"/>siderata forma illa, quam nomen illud 
+          abstrac<lb break="no" ed="#P" n="16"/>tum significat secundum suam 
+          simplicissi<lb break="no" ed="#P" n="17"/>mam rationem formalem, quam in re habet.
+          <lb ed="#P" n="18"/>Secundo potest in significato illius vocis 
+          consi<lb break="no" ed="#P" n="19"/>derari solum id quod expresse concipitur, in
+          <lb ed="#P" n="20"/>tali attributo ad modum ultimae differentiae
+          <lb ed="#P" n="21"/>constitutivae illius. Nam, ut supra dixi, licet
+          <lb ed="#P" n="22"/>singula attributa includant quidquid in 
+          om<lb break="no" ed="#P" n="23"/>nibus continetur, tamen in unoquoque 
+          conci<lb break="no" ed="#P" n="24"/>pitur a nobis tota illa perfectio sub speciali
+          <lb ed="#P" n="25"/>aliqua habitudine, quae dici potest quasi 
+          diffe<lb break="no" ed="#P" n="26"/>rentia vel modus ultimate constituens tale 
+          at<lb break="no" ed="#P" n="27"/>tributum. Priori ergo modo verae sunt illae
+          <lb ed="#P" n="28"/>propositiones in sensu formali, quia tota ratio
+          <lb ed="#P" n="29"/>unius attributi includitur in formalitate 
+          alte<lb break="no" ed="#P" n="30"/>rius adaequate et prout in se est. Et revera in
+          <lb ed="#P" n="31"/>omni rigore, hoc solum affirmatur, cum 
+          dici<lb break="no" ed="#P" n="32"/>tur unum esse aliud, quia verbum est solum
+          <lb ed="#P" n="33"/>importat identitatem utriusque extremi in 
+          for<lb break="no" ed="#P" n="34"/>malitate illa, quam adaequate postulant ; seu
+          <lb ed="#P" n="35"/>quod idem est, inclusionem unius in adaequato
+          <lb ed="#P" n="36"/>significato alterius. At vero si quis intendat
+          <lb ed="#P" n="37"/>in secundo modo formalitatis loqui, erit falsa
+          <lb ed="#P" n="38"/>propositio, nam erit sensus, justitiam, v. g.
+          <lb ed="#P" n="39"/>etiam ut a nobis conceptam eadem habitudine
+          <lb ed="#P" n="40"/>et quasi ultima differentia constitui qua 
+          mi<lb break="no" ed="#P" n="41"/>sericordiam, quod verum non est. Tamen hic
+          <lb ed="#P" n="42"/>sensus non est necessarius, nec usitatus et ideo
+          <lb ed="#P" n="43"/>propositiones illae absolute verae sunt in 
+          pro<lb break="no" ed="#P" n="44"/>prio et formah sensu. Hoc vero modo explicui
+          <lb ed="#P" n="45"/>in disp. 6, Metaphysicae, sect. 6, propositionem
+          <lb ed="#P" n="46"/>illam : Hwmanitas est animalitas, et ibi dicta
+          <lb ed="#P" n="47"/>majori ratione hic locum habent, quia major
+          <lb ed="#P" n="48"/>unitas est inter sapientiam et essentiam Dei,
+          <lb ed="#P" n="49"/>majorque mutua inclusio quam inter hamani-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="50"/>tatem et animalitatem.
+        </p>
+        <p xml:id="szduep-010598-d1e621">
+          <lb ed="#P" n="51"/>9. Sed hic occurit difficultas tacta in 
+          prae<lb break="no" ed="#P" n="52"/>cedenti capite quia sequitur quicquid 
+          praedica<lb break="no" ed="#P" n="53"/>tur de uno attributo in abstracto, praedicari in
+          <lb ed="#P" n="54"/>alio, quod falsum esse constat. Propter hoc
+          <lb ed="#P" n="55"/>dico quinto, ea quae actionem vel 
+          productio<lb break="no" ed="#P" n="56"/>nem significant, in rigore possunt de 
+          concre<lb break="no" ed="#P" n="57"/>tis praedicari et non de abstractis et 
+          consequen<lb break="no" ed="#P" n="58"/>ter aliquid dici potest de uno abstracto et non
+          <lb ed="#P" n="59"/>de alio. Prior pars praecipue locum habet in
+          <lb ed="#P" n="60"/>praedicatis notionalibus ; dicitur enim: Deus
+          <lb ed="#P" n="61"/>generat, non deitas, quod pertinet ad 
+          mate<lb break="no" ed="#P" n="62"/>riam de Trinitate et dicetur in lib. 6, in fine.
+          <lb ed="#P" n="63"/>Ratio vero est, quia actiones proprie tribuuntur
+          <lb ed="#P" n="64"/>suppositis, pro quibus concreta supponunt et
+          <lb ed="#P" n="65"/>non abstracta in rigore. At vero in actibus 
+          es<lb break="no" ed="#P" n="66"/>sentialibus, seu quasi essentialibus, ut, 
+          intel<lb break="no" ed="#P" n="67"/>ligit, creat, admittuntur etiam affirmationes
+          <lb ed="#P" n="68"/>de abstractis non propter rigorosam 
+          supposi<lb break="no" ed="#P" n="69"/>tionem et formalem significationem 
+          termino<lb break="no" ed="#P" n="70"/>rum, sed propter summam identitatem, ut
+          <lb ed="#P" n="71"/>Deitas creat, Deitas intelligit.
+        </p>
+        <p xml:id="szduep-010598-d1e669">
+          <lb ed="#P" n="72"/>10. Difficultas. — Enodatur. — Et in his
+          <lb ed="#P" n="73"/>habet locum posterior pars, quia haec locutio
+          <lb ed="#P" n="74"/>admittitur : Justitia punit, et non haec: 
+          Justi<lb break="no" ed="#P" n="75"/>tia miseretur.Et ratio est, quia verba adjectiva,
+          <lb ed="#P" n="76"/>secundum communem modum concipiendi,
+          <lb ed="#P" n="77"/>faciunt sensum formalissimum et illa 
+          contine<lb break="no" ed="#P" n="78"/>ret falsitatem. Quod ita declaro, quia haec 
+          attri<lb break="no" ed="#P" n="79"/>buta censentur specialiter constitui secundum
+          <lb ed="#P" n="80"/>quandam peculiarem habitudinem; unde 
+          quan<lb break="no" ed="#P" n="81"/>do alicui attributo in abstracto tribuitur aliqua
+          <lb ed="#P" n="82"/>actio, censetur illi tribui secundum formalem
+          <lb ed="#P" n="83"/>significationem ejus et ita facit hunc sensum,
+          <lb ed="#P" n="84"/>attributum justitiae , v. g. secunaum 
+          expres<lb break="no" ed="#P" n="85"/>sam et propriam differentiam suam, esse 
+          prin<lb break="no" ed="#P" n="86"/>cipium miserendi, quod falsum est. Et eadem
+          <lb ed="#P" n="87"/>ratione haec est falsa: Pater per voluntatem 
+          pro<lb break="no" ed="#P" n="88"/>ducit filium, aut per intellectum S piritum S 
+          anc<lb break="no" ed="#P" n="89"/>tumn, ut in propria materia latius explicabimus.
+          <lb ed="#P" n="90"/>Nec est bona illatio : Justitia est anisericordia,
+          <lb ed="#P" n="91"/>sed misericordia miseretur, ergo justitia 
+          mase<lb break="no" ed="#P" n="92"/>retur , quia variatur appellatio (ut dialectici
+          <lb ed="#P" n="93"/>dicunt), quia mutatur verbum substantivum
+          <lb ed="#P" n="94"/>in adjectivum et ita variatur formalis sensus.
+          <lb ed="#P" n="95"/>Et de his locutionibus haec nunc suffticiunt,
+          <lb ed="#P" n="96"/>nam in materia de Trinitate saepius de illis
+          <lb ed="#P" n="97"/>dicturi sumus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

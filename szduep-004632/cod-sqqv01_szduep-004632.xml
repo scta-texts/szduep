@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="18"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-004632"><!-- t1-l1c6 -->
+        <head xml:id="szduep-004632-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-004632-Hd1e103" type="question-title">De divina unitate</head>
+        <p xml:id="szduep-004632-d1e106">
+          <lb ed="#P" n="21"/>CAPUT VI.
+          <lb ed="#P" n="22"/>DE DIVINA UNITATE.
+        </p>
+        <p xml:id="szduep-004632-d1e113">
+          <lb ed="#P" n="23"/>1. Quoniam transcendentalia praedicata cum
+          <lb ed="#P" n="24"/>ente convertuntur , et re ipsa nihil aliud 
+          di<lb break="no" ed="#P" n="25"/>cunt quam ipsam rei entitatem sub aliqua
+          <lb ed="#P" n="26"/>negatione , vel connotatione a nobis 
+          concep<lb break="no" ed="#P" n="27"/>tam : ideo theologi omnes, post explicatam
+          <lb ed="#P" n="28"/>Dei essentiam seu entitatem , solent de his
+          <lb ed="#P" n="29"/>transcendentibus praedicatis, prout Deo 
+          accom<lb break="no" ed="#P" n="30"/>modari possunt, disputare, et hac occasione
+          <lb ed="#P" n="31"/>de his transcendentibus absolute et in tota
+          <lb ed="#P" n="32"/>sua latitudine tractant. Quia vero illud 
+          nego<lb break="no" ed="#P" n="33"/>tium proprium est theologiae naturalis, ad
+          <lb ed="#P" n="34"/>eam illud remittimus, illud enim in 
+          disputa<lb break="no" ed="#P" n="35"/>tionibus Metaphysicis pro captu nostro 
+          peregi<lb break="no" ed="#P" n="36"/>mus. De his ergo transcendentibus solum prout
+          <lb ed="#P" n="37"/>ad Deum pertinent, et in fide fundantur in
+          <lb ed="#P" n="38"/>hoc, et duobus sequentibus capitibus dicemus.
+          <lb ed="#P" n="39"/>Nam ex quinque transcendentibus , quae ultra
+          <lb ed="#P" n="40"/>ens solent numerari : Aes et aliguid, nulla 
+          in<lb break="no" ed="#P" n="41"/>digent declaratione; et ita nec D. Thomas in
+          <lb ed="#P" n="42"/>quaestionibus primae partis, nec theologi in 1.
+          <lb ed="#P" n="43"/>de illis disputationem aliquam instituunt, et
+          <lb ed="#P" n="44"/>quia re vera sunt fere synonyma cum ente; et
+          <lb ed="#P" n="45"/>non dicunt rationem formalem ab illo, et a
+          <lb ed="#P" n="46"/>caeteris transcendentibus omnibus distinctam,
+          <lb ed="#P" n="47"/>ut disp. 3 Metaphys., sect. 2, latius dictum
+          <lb ed="#P" n="48"/>est. Ubi propterea conclusimus, tria tantum
+          <lb ed="#P" n="49"/>numerari proprie transcendentia, quae 
+          respec<lb break="no" ed="#P" n="50"/>tu entis se habent ad modum passionum ejus,
+          <lb ed="#P" n="51"/>quarum prima est Unitas, secunda Veritas,
+          <lb ed="#P" n="52"/>tertia Bonitas. De his ergo eodem ordine dice-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>mus, eas ad Deum applicando. Quod etiam
+          <lb ed="#P" n="54"/>possumus facili negotio expedire, quia in 
+          se<lb break="no" ed="#P" n="55"/>cundo tomo Metaphysicae omnia, qua in hac
+          <lb ed="#P" n="56"/>parte de Deo naturaliter cognosci possunt, 
+          co<lb break="no" ed="#P" n="57"/>piose disputavimus.
+        </p>
+        <p xml:id="szduep-004632-d1e194">
+          <lb ed="#P" n="58"/>2. Dupliciter unum de Deo predicatur. —
+          <lb ed="#P" n="59"/>Igitur circa Unum advertendum est, in 
+          dn<lb break="no" ed="#P" n="60"/>plici sensu posse de Deo praedicari, scilieet,
+          <lb ed="#P" n="61"/>aut affirmative tantum, aut exclusive. Priori
+          <lb ed="#P" n="62"/>enim modo de quolibet ente atfirmamus esse
+          <lb ed="#P" n="63"/>unum , etiam. si multa similia entia existant,
+          <lb ed="#P" n="64"/>quia esse unum in hac significatione, non 
+          ne<lb break="no" ed="#P" n="65"/>gat esse alia similia, sed negat divisionem in
+          <lb ed="#P" n="66"/>ipsa re, quae una dicitur, et ponit 
+          distinctio<lb break="no" ed="#P" n="67"/>nem seu divisionem ab aliis. At vero 
+          poste<lb break="no" ed="#P" n="68"/>riori modo, unum excludit consortium 
+          alio<lb break="no" ed="#P" n="69"/>rum similium, sicut ol dicitur esse unus, eitc.
+          <lb ed="#P" n="70"/>Priori ergo modo per se notum est, Deum esse
+          <lb ed="#P" n="71"/>unum ea ratione qua est ens, quia in se 
+          in<lb break="no" ed="#P" n="72"/>divisus est ; alias non esset ens, sed entia. Et
+          <lb ed="#P" n="73"/>ab aliis necessario est distinctus, quia est 
+          pro<lb break="no" ed="#P" n="74"/>prium et particulare ens; alias et omnia
+          <lb ed="#P" n="75"/>essent Deus, et Deus esset lapis, ignis et aliae
+          <lb ed="#P" n="76"/>res creatae, si Deus non esset ens distinctum ab
+          <lb ed="#P" n="77"/>illis. Imo addit D. Thomas, 1. p., q. 11. art. 4.
+          <lb ed="#P" n="78"/>Deum esse maxime unum, quod etiam est
+          <lb ed="#P" n="79"/>evidentissimum ex dictis, quia est in se 
+          maxi<lb break="no" ed="#P" n="80"/>me simplex , ideoque summam divisionem in
+          <lb ed="#P" n="81"/>se habet et a rebus creatis infinite distat;
+          <lb ed="#P" n="82"/>ideoque ab illis maxime divisus, seu distinctus
+          <lb ed="#P" n="83"/>est, secundum entitatem suam. Praeter quod
+          <lb ed="#P" n="84"/>(ut Eugubin. refert l. 3, de Peren. Philosophia,
+          <lb ed="#P" n="85"/>cap. 7) antiqui etiam philosophi vocabant
+          <lb ed="#P" n="86"/>Deum ipsum wnn. Quomodo autem cum hac
+          <lb ed="#P" n="87"/>summa unitate stet Trinitas personarum ,
+          <lb ed="#P" n="88"/>ut vere stat, dicemus infra in proprio tractatu.
+          <lb ed="#P" n="89"/>Haec enim Dei unitas non secundum personas,
+          <lb ed="#P" n="90"/>sed secundum essentiam consideratur, quae in
+          <lb ed="#P" n="91"/>omnibus personis una est et cum eis 
+          identita<lb break="no" ed="#P" n="92"/>tem habet maximam. Ex quo etiam 
+          intelligi<lb break="no" ed="#P" n="93"/>tur, praedicatum hoc addere divinae essentiae,
+          <lb ed="#P" n="94"/>praeter negationem quandam, vel ad summum
+          <lb ed="#P" n="95"/>relationem identitatis ad seipsum, quae 
+          ratio<lb break="no" ed="#P" n="96"/>nis est.
+        </p>
+        <p xml:id="szduep-004632-d1e282">
+          <lb ed="#P" n="97"/>3. Unn etiam exclusive de Deo dicitur. —
+          <lb ed="#P" n="98"/>Ulterius vero addendum est, Deum esse unum
+          <lb ed="#P" n="99"/>etiam exclusive , quia praeter illum nullus est
+          <lb ed="#P" n="100"/>verus Deus nec esse potest. Circa quam 
+          veri<lb break="no" ed="#P" n="101"/>tatem errarunt olim omnes idolorum cultores,
+          <lb ed="#P" n="102"/>et gentes quae deos plures esse crediderunt ,
+          <lb ed="#P" n="103"/>quia non concipiebant verum Deum,, nec 
+          pri<lb break="no" ed="#P" n="104"/>mam causam. et principium omnium. Nec
+          <lb ed="#P" n="105"/>defuerunt haeretici ; qui pluralitatem etiam
+          <lb ed="#P" n="106"/>Deorum introduxerunt, qui videntur posse ad
+          <lb ed="#P" n="107"/>duo capita reduci. Quidam posuerunt duos
+          <pb ed="#P" n="19"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>deos, non tamen aequales omnino , sed unum
+          <lb ed="#P" n="2"/>bonum et alium malum, utrumque vero 
+          fa<lb break="no" ed="#P" n="3"/>ciebant primum principium aliquarum rerum,
+          <lb ed="#P" n="4"/>vel spiritualium vel corporalium, vel 
+          bono<lb break="no" ed="#P" n="5"/>rum vel malorum operum : isti fuerunt 
+          ma<lb break="no" ed="#P" n="6"/>nichaet et cerdoniani, contra quos 
+          disputan<lb break="no" ed="#P" n="7"/>dum est tractando de Deo, ut est causa rerum,
+          <lb ed="#P" n="8"/>et interim videri possunt dicta in primo tomo
+          <lb ed="#P" n="9"/>Metaphysicae disp. 20. Alii haeretici 
+          introduxe<lb break="no" ed="#P" n="10"/>runt plures deos occasione mysterii Trinitatis,
+          <lb ed="#P" n="11"/>multiplicando divinas naturas in tribus 
+          perso<lb break="no" ed="#P" n="12"/>nis. Et quidem Arius, et alii qui naturas illas
+          <lb ed="#P" n="13"/>inaequales posuerunt, non errabant circa 
+          uni<lb break="no" ed="#P" n="14"/>tatem Dei, sed circa Trinitatem personarum ,
+          <lb ed="#P" n="15"/>quia in rigore solam illam, quae supremam
+          <lb ed="#P" n="16"/>habet naturam , ponebant esse verum Deum.
+          <lb ed="#P" n="17"/>Proprie ergo errarunt in hoc articulo, qui 
+          na<lb break="no" ed="#P" n="18"/>turas distinguebant in personis cum 
+          aequah<lb break="no" ed="#P" n="19"/>tate naturarum inter se, ut infra lib. 4.de 
+          Trini<lb break="no" ed="#P" n="20"/>tate in principio referemus, ubi contra hos
+          <lb ed="#P" n="21"/>omnes disseremus.
+        </p>
+        <p xml:id="szduep-004632-d1e358">
+          <lb ed="#P" n="22"/>4. Deum esse unm fides docet. — Est ergo
+          <lb ed="#P" n="23"/>veritas catholica: divinam naturam veram et
+          <lb ed="#P" n="24"/>per essentiam multiplicari non posse, ideoque
+          <lb ed="#P" n="25"/>unum tantum esse Deum. Quam veritatem
+          <lb ed="#P" n="26"/>tam aperte et frequenter repetit Scriptura, ut
+          <lb ed="#P" n="27"/>particularia testimonia referre non videatur
+          <lb ed="#P" n="28"/>necessarium. llla vero sunt praecipua, ubi non
+          <lb ed="#P" n="29"/>solum Deus unus dicitur , sed etiam expresse
+          <lb ed="#P" n="30"/>omnis alius excluditur. Deut. 4: Dominus ipse
+          <lb ed="#P" n="31"/>est Deus, et non est alius preeter eun. 4. Reg.2:
+          <lb ed="#P" n="32"/>Non est sanctus, ut est Dominus, nec enim est
+          <lb ed="#P" n="33"/>alius extrate. Psal. 1: Quis Deus preter Deum
+          <lb ed="#P" n="34"/>nostrum ? Et Psal. 8b: Tu es Deus solus. Sap.
+          <lb ed="#P" n="35"/>12: Non est alius quam tu. Unde quod Deut.
+          <lb ed="#P" n="36"/>6. dicitur: Dominus Deus tuus, Deus unus
+          <lb ed="#P" n="37"/>est , bene a quodam scriba, Christo Domino
+          <lb ed="#P" n="38"/>annuente, explicatum est. Matth. 12: Quia
+          <lb ed="#P" n="39"/>unnus est Deus , et non est alius preeter ewn. Et
+          <lb ed="#P" n="40"/>subdit Evangelista: Fidens Jesus quod 
+          sapien<lb break="no" ed="#P" n="41"/>ter respondisset diat illi, etc.
+        </p>
+        <p xml:id="szduep-004632-d1e404">
+          <lb ed="#P" n="42"/>5. Probatur etiam auctoritate. — Unde 
+          ele<lb break="no" ed="#P" n="43"/>gaanter Dionysius cap. 2. de Divin. nomin. dixit:
+          <lb ed="#P" n="44"/>In omnibus fere sacris libris advertimus 
+          Di<lb break="no" ed="#P" n="45"/>vinitatem sancte preedicari, ut singularem 
+          qui<lb break="no" ed="#P" n="46"/>dem et unicam, ob simplicitatem atque 
+          unita<lb break="no" ed="#P" n="47"/>tem excellentis illus individui ex quo veluti 
+          vivi<lb break="no" ed="#P" n="48"/>fica virtute in unum tendimus. Et Damascenus
+          <lb ed="#P" n="49"/>lib. 1, cap. 5, dixit: Apud eos qui Scripturis
+          <lb ed="#P" n="50"/>credunt Deum esse unum, ewtra controversiam
+          <lb ed="#P" n="51"/>est. Quare necessarium non est, Patres referre.
+          <lb ed="#P" n="52"/>Ex professo vero pro hac veritate contra 
+          paga<lb break="no" ed="#P" n="53"/>nos disputarunt Justinus libro de monarch. et
+          <lb ed="#P" n="54"/>orat. ; Parenetus ad gentes; Athanasius orat.
+          <lb ed="#P" n="55"/>contra Idola ; Tertullianus in Apolog. adversus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gentes; Cyprianus de Idolorum vanit.; 
+          Arno<lb break="no" ed="#P" n="57"/>bius lib. 2. contra gentiles ; Lactanius lib. 1.
+          <lb ed="#P" n="58"/>div. Inst.; et Augustinus l. 4. de Trinit. et
+          <lb ed="#P" n="59"/>contra haereticos Tritheitas, patres omnes 
+          dis<lb break="no" ed="#P" n="60"/>putantes de Trin. Hoc in primis jaciunt 
+          funda<lb break="no" ed="#P" n="61"/>mentum, ut Augustinus notavit l. 1 de Trinit.
+          <lb ed="#P" n="62"/>et suo loco dicemus.
+        </p>
+        <p xml:id="szduep-004632-d1e454">
+          <lb ed="#P" n="63"/>6. Ratione preeterea comprobatur — Ratione
+          <lb ed="#P" n="64"/>naturali, seu Metaphysica , probavimus hanc
+          <lb ed="#P" n="65"/>veritatem in disputatione 30. Metaphysicae 
+          sec<lb break="no" ed="#P" n="66"/>ton. 10, juncta disputatione 29, sect. 2 et 3.
+          <lb ed="#P" n="67"/>Cujus summa est, quia nec possunt dari duo
+          <lb ed="#P" n="68"/>entia prima quae a se sint, sine productione,
+          <lb ed="#P" n="69"/>nec possunt dari duo entia quorum unum ab
+          <lb ed="#P" n="70"/>alio procedat distinctum in natura et 
+          essen<lb break="no" ed="#P" n="71"/>tia, quae sint aequalia in perfectione naturae.
+          <lb ed="#P" n="72"/>Nam ex his principiis evidenter concluditur,
+          <lb ed="#P" n="73"/>Deum non posse esse nisi unum. Quia debet
+          <lb ed="#P" n="74"/>esse ens necessarium et summum, ita ut non
+          <lb ed="#P" n="75"/>possit habere superiorem : nam si habet 
+          supe<lb break="no" ed="#P" n="76"/>riorem et factorem, jam non erit Deus, sed
+          <lb ed="#P" n="77"/>colet illum tanquam Deum, a quo fuerit factus.
+          <lb ed="#P" n="78"/>Quam rationem ex effectibus et supremo 
+          do<lb break="no" ed="#P" n="79"/>minio veri Dei in omnia, late dicto loco 
+          confir<lb break="no" ed="#P" n="80"/>mavimus, praesertim disp. 29. Potestque 
+          dis<lb break="no" ed="#P" n="81"/>cursus ibi factus ad causalitatem finalem 
+          ap<lb break="no" ed="#P" n="82"/>plicari, nam ex ratione ultimi finis recte 
+          colli<lb break="no" ed="#P" n="83"/>gitur, tantum esse posse unum ultimum finem:
+          <lb ed="#P" n="84"/>quia impossibile est duobus dominis servire
+          <lb ed="#P" n="85"/>tanquam supremis dominis, et in duos 
+          termi<lb break="no" ed="#P" n="86"/>nos tendere tanquam ultimos. Deus autem est
+          <lb ed="#P" n="87"/>ultimus finis rerum omnium et praesertim
+          <lb ed="#P" n="88"/>hominum et intellectualium rerum ideoque,
+          <lb ed="#P" n="89"/>Alpha et Omega, principium et finis dicitur
+          <lb ed="#P" n="90"/>Apocalypsis ult. Est ergo unus tantum Deus
+          <lb ed="#P" n="91"/>altissimus, quia omnia propter semetipsum
+          <lb ed="#P" n="92"/>operatus est, ut dicitur Prov. 16. Atque huc
+          <lb ed="#P" n="93"/>spectat quod Deus talis esse debet, ut super
+          <lb ed="#P" n="94"/>omnia diligi debeat, at non potest diligi super
+          <lb ed="#P" n="95"/>omnia nisi unus tantum sit. Nam si sint duo,
+          <lb ed="#P" n="96"/>vel ambo aeque diligendi sunt, et sic neuter
+          <lb ed="#P" n="97"/>super omnia vel non aeque diliguntur, et sic
+          <lb ed="#P" n="98"/>solus ille Deus erit, qui est super omnia 
+          dili<lb break="no" ed="#P" n="99"/>gendus. Ideoque scriba ille, qui cum Christo
+          <lb ed="#P" n="100"/>loquebatur Mar. 12. ad confitendum primum
+          <lb ed="#P" n="101"/>praeceptum : Diliges Dominum Dewn tuum ez
+          <lb ed="#P" n="102"/>toto corde, recte praemisit : IVon esse nisi umum
+          <lb ed="#P" n="103"/>Deum.
+        </p>
+        <p xml:id="szduep-004632-d1e545">
+          <lb ed="#P" n="104"/>7. Neque in hac veritate occurrit difficultas
+          <lb ed="#P" n="105"/>praeter eas, quae ad mysterium Trin. spectant,
+          <lb ed="#P" n="106"/>de quibus suo loco dicemus. Circa rationes a
+          <lb ed="#P" n="107"/>quibus ipsa veritas probatur, disputari posset
+          <lb ed="#P" n="108"/>an sint demonstrationes , et quam sit certum
+          <lb ed="#P" n="109"/>veritatem hanc demonstrari lumine natural.
+          <lb ed="#P" n="110"/>Sed in hoc fere eamdem certitudinem censco
+          <pb ed="#P" n="20"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esse, quae de existentia Dei. Et ita sentiunt
+          <lb ed="#P" n="2"/>graviores theologi cum eadem certitudine. D.
+          <lb ed="#P" n="3"/>Thomas 1. p.. q. 11, art. 3; et 1. contra gentesc.
+          <lb ed="#P" n="4"/>49 : et in 1, dist. 2, ubi Scot. Dur. et alii ; Mars.
+          <lb ed="#P" n="5"/>1. q. 5; Alens. 1. p., q. 13. Unde praecipuos
+          <lb ed="#P" n="6"/>philosophos hanc veritatem cognovisse 
+          osten<lb break="no" ed="#P" n="7"/>dunt Patres supra citati. Et Cyr. 1. contra 
+          Ju<lb break="no" ed="#P" n="8"/>lian. c. 9; Eus. 1. 1. de prapar., c. 9.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

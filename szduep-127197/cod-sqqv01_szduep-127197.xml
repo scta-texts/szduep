@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="501"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-127197"><!-- t2-l5c2 -->
+        <head xml:id="szduep-127197-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-127197-Hd1e103" type="question-title">Sitne praecipue reprobatio actus intellectus, an voluntatis</head>
+        <p xml:id="szduep-127197-d1e106">
+          <lb ed="#P" n="65"/>CAPUT II.
+          <lb ed="#P" n="66"/>SITNE PRAECIPUE REPROBATIO ACTUS INTELLECTUS,
+          <lb ed="#P" n="67"/>AN VOLUNTATIS.
+        </p>
+        <p xml:id="szduep-127197-d1e115">
+          <lb ed="#P" n="68"/>1. Vulgaris reprobationis distinctio in 
+          nega<lb break="no" ed="#P" n="69"/>tivam et positivam. — Quaestio haec non videtur
+          <lb ed="#P" n="70"/>magni momenti, quia magis ad usum vocis,
+          <lb ed="#P" n="71"/>quam ad rem novam pertinere videtur. Tamen,
+          <lb ed="#P" n="72"/>ut sciamus quomodo nobis loquendum sit, 
+          sup<lb break="no" ed="#P" n="73"/>ponenda est quaedam vulgaris distinctio 
+          duph<lb break="no" ed="#P" n="74"/>cis reprobationis, positivae et negativae. De 
+          pc<lb break="no" ed="#P" n="75"/>sitiva procedit praesens quaestio, nam haec sine
+          <lb ed="#P" n="76"/>dubitatione consistit in positivo actu: nam
+          <lb ed="#P" n="77"/>reprobatio negativa in carentia alicujus actus,
+          <lb ed="#P" n="78"/>per se et in rigore salvatur. Quis autem actus
+          <lb ed="#P" n="79"/>ille sit, cujus carentia vocatur negativa 
+          repro<lb break="no" ed="#P" n="80"/>batio, in capite sequenti constabit. Nam ex ibi
+          <lb ed="#P" n="81"/>dicendis facile intelligetur, hanc 
+          reprobatio<lb break="no" ed="#P" n="82"/>nem negativam nihil aliud esse, praeter 
+          caren<lb break="no" ed="#P" n="83"/>tiam divinae electionis seu singularis dilectionis
+          <lb ed="#P" n="84"/>praedestinatorum. Unde etiam facile constabit,
+          <lb ed="#P" n="85"/>sicut electio praedestinatorum est in voluntate,
+          <lb ed="#P" n="86"/>ita reprobationem hanc negativam in 
+          volun<lb break="no" ed="#P" n="87"/>tate ponendam esse: quia privatio et habitus
+          <lb ed="#P" n="88"/>circa idem proxime versantur. Igitur in 
+          prae<lb break="no" ed="#P" n="89"/>senti capite de sola positiva reprobatione 
+          trac<lb break="no" ed="#P" n="90"/>tamus.
+        </p>
+        <p xml:id="szduep-127197-d1e167">
+          <lb ed="#P" n="91"/>2. Aliquorum placitum. — Aliud placitum.
+          <lb ed="#P" n="92"/>— Tertiun placitum. — Hic loquendi modus
+          <lb ed="#P" n="93"/>eligitur. — Dixerunt ergo aliqui, aequaliter
+          <lb ed="#P" n="94"/>ex utroque actu intellectus et voluntatis 
+          con<lb break="no" ed="#P" n="95"/>stare reprobationem, quia sine utroque esse
+          <lb ed="#P" n="96"/>non potest. Alensis, 1 part., quaestione 29,
+          <lb ed="#P" n="97"/>memb. 2, Richardus, in 1, istinct A41, art. 3,
+          <lb ed="#P" n="98"/>quaest. 1, Marsilius, quaest. 41, art. 1, nota 4
+          <lb ed="#P" n="99"/>et 5. Alii praecipue tribuunt reprobationem
+          <lb ed="#P" n="100"/>voluntati, ut Durandus in 1, dist. 40, q. 2, et
+          <lb ed="#P" n="101"/>alii quos referam capite sequenti. Et videtur
+          <lb ed="#P" n="102"/>favere D. Thomas, quaest. 6, de Veritate, art. 1,
+          <lb ed="#P" n="103"/>in fine. Fundamentum statim proponam. Alii
+          <lb ed="#P" n="104"/>vero principalius ponunt reprobationem in 
+          in<lb break="no" ed="#P" n="105"/>tellectu. Quod magis sentit D. Thomas, 1 part.,
+          <lb ed="#P" n="106"/>quaest. 23, art. 2 et 3, et omnes ejus discipul.
+          <lb ed="#P" n="107"/>Et favet usus theologorum, nam fortasse ob
+          <pb ed="#P" n="502"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>hanc causam reprobos, quasi per 
+          antonoma<lb break="no" ed="#P" n="2"/>siam vocant praescitos. Et mihi etiam probatur
+          <lb ed="#P" n="3"/>hic loquendi modus, propter duo. Primum est,
+          <lb ed="#P" n="4"/>quia verbum ipsum reprobandi proprius et
+          <lb ed="#P" n="5"/>principalius dicitur de judicio intellectus : ille
+          <lb ed="#P" n="6"/>enim est, qui primo aliquem reprobat, dum
+          <lb ed="#P" n="7"/>judicat illum parvum et beatitudine indignum.
+          <lb ed="#P" n="8"/>Secundo propter rem ipsam : opinor enim 
+          Di<lb break="no" ed="#P" n="9"/>vinum intellectum habere primarias partes in
+          <lb ed="#P" n="10"/>hocnegotio reprobationis, et voluntatem habere
+          <lb ed="#P" n="11"/>absolutum decretum circa illam, nisi 
+          quodam<lb break="no" ed="#P" n="12"/>modo obligatam, ut sic dicam, a judicio 
+          intel<lb break="no" ed="#P" n="13"/>lectus : merito ergo dicetur reprobatio ad 
+          in<lb break="no" ed="#P" n="14"/>tellectum principaliter pertinere.
+        </p>
+        <p xml:id="szduep-127197-d1e242">
+          <lb ed="#P" n="15"/>3. Objectio.— Sed objiciet aliquis, opposita
+          <lb ed="#P" n="16"/>versantur circa idem: reprobatio autem et
+          <lb ed="#P" n="17"/>praedestinatio sunt opposita: ergo in eadem
+          <lb ed="#P" n="18"/>potentia et eodem ordine collocandae sunt.
+          <lb ed="#P" n="19"/>Item reprobatio est pars providentiae, sicut
+          <lb ed="#P" n="20"/>praedestinatio: vel ergo providentia 
+          principa<lb break="no" ed="#P" n="21"/>liter est in intellectu, vel in voluntate: si 
+          pri<lb break="no" ed="#P" n="22"/>mum, ibi erit etiam reprobatio principaliter,
+          <lb ed="#P" n="23"/>tamen eadem ratione erit etiam 
+          praedestina<lb break="no" ed="#P" n="24"/>tio. Si secundum, utraque etiam erit ponenda
+          <lb ed="#P" n="25"/>principaliter in voluntate: non ergo recte a
+          <lb ed="#P" n="26"/>nobis dividuntur.
+        </p>
+        <p xml:id="szduep-127197-d1e271">
+          <lb ed="#P" n="27"/>4. Diluitur. — Respondeo, notandum esse
+          <lb ed="#P" n="28"/>discrimen inter praedestinationem et 
+          reproba<lb break="no" ed="#P" n="29"/>tionem, et in tota hac materia prae oculis 
+          ha<lb break="no" ed="#P" n="30"/>bendum. Nam in praedestinatione duos ordines
+          <lb ed="#P" n="31"/>distinximus, scilicet intentionis et executionis.
+          <lb ed="#P" n="32"/>Prior dici potest proprie praeparatio finis et
+          <lb ed="#P" n="33"/>mediorum, in qua praeparatione propria ratio
+          <lb ed="#P" n="34"/>praedestinationis posita est. Posterior 
+          veroexe<lb break="no" ed="#P" n="35"/>cutionis ordo magis est conjunctus cum effectu
+          <lb ed="#P" n="36"/>praedestinationis : et potest proprie approbatio
+          <lb ed="#P" n="37"/>appellari, quae ut talis est, incipit a judicio
+          <lb ed="#P" n="38"/>divino praevidente merita , et consummatur
+          <lb ed="#P" n="39"/>in voluntate dandi praemium pro illis. 
+          Repro<lb break="no" ed="#P" n="40"/>batio igitur proprie sumpta pro reprobatione
+          <lb ed="#P" n="41"/>positiva (nam de negativa, si quae est, infra
+          <lb ed="#P" n="42"/>dicetur) opponitur praedestinationi, quatenus
+          <lb ed="#P" n="43"/>approbatio est, non quatenus est praeparatio.
+          <lb ed="#P" n="44"/>Nam in reprobatione non invenitur intentio
+          <lb ed="#P" n="45"/>Dei antecedens, qua velit damnationem ut 
+          fi<lb break="no" ed="#P" n="46"/>nem, in quem dirigat propria media, ut jam
+          <lb ed="#P" n="47"/>ostendemus, sed invenitur judicium de 
+          homi<lb break="no" ed="#P" n="48"/>nis merito malo, ejusque indignitate et 
+          volun<lb break="no" ed="#P" n="49"/>tas retribuendi, quod illi debetur: et ideo non
+          <lb ed="#P" n="50"/>est necesse, si praedestinatio incipit a 
+          volun<lb break="no" ed="#P" n="51"/>tate, quod inde etiam incipit reprobatio 
+          posi<lb break="no" ed="#P" n="52"/>tiva, sed sicut approbatio incipit a judicio,
+          <lb ed="#P" n="53"/>ita etiam reprobatio. Et per hoc responsum
+          <lb ed="#P" n="54"/>est ad principalem difficultatem.
+        </p>
+        <p xml:id="szduep-127197-d1e334">
+          <lb ed="#P" n="55"/>5. Ad confirmationem respondetur. — Ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>confirmationem concedendum est (imo ex 
+          dic<lb break="no" ed="#P" n="57"/>tis sequitur) reprobationem esse partem 
+          pro<lb break="no" ed="#P" n="58"/>videntiae, non proprie subjectivam, sed 
+          objec<lb break="no" ed="#P" n="59"/>tivam, et quasi integralem, ut de 
+          praedestina<lb break="no" ed="#P" n="60"/>tione declaravimus. Quia ad divinam 
+          provi<lb break="no" ed="#P" n="61"/>dentiam pertinet non solum conferre beneficia
+          <lb ed="#P" n="62"/>et praemia bene merentibus, sed etiam 
+          sup<lb break="no" ed="#P" n="63"/>plicia male operantibus: utramque enim est
+          <lb ed="#P" n="64"/>ad perfectam gubernationem necessarium ,
+          <lb ed="#P" n="65"/>quanquam diverso modo. Illud enim prius est
+          <lb ed="#P" n="66"/>per se conveniens et necessarium, posterius
+          <lb ed="#P" n="67"/>vero ex suppositione alicujus mali, quia non
+          <lb ed="#P" n="68"/>est per se, ac simpliciter bonum, sed ad 
+          vindi<lb break="no" ed="#P" n="69"/>candum aliud majus malum. Addit vero divus
+          <lb ed="#P" n="70"/>Thomas, 1 part., q. 23, art. 3, etiam pertinere
+          <lb ed="#P" n="71"/>ad universalem providentiam supremi 
+          guber<lb break="no" ed="#P" n="72"/>natoris dirigentis res in fines suos, 
+          permitte<lb break="no" ed="#P" n="73"/>re, ut aliquae deficiant a suo fine consequendo,
+          <lb ed="#P" n="74"/>quia ad universalem providentiam spectat, 
+          si<lb break="no" ed="#P" n="75"/>nere, ut res operantur modo sibi connaturali,
+          <lb ed="#P" n="76"/>et consequenter, ut impediantur, vel deficiant,
+          <lb ed="#P" n="77"/>si hoc sit naturae earum consentaneum. Cujus
+          <lb ed="#P" n="78"/>permissionis rationes alias postea videbimus.
+        </p>
+        <p xml:id="szduep-127197-d1e391">
+          <lb ed="#P" n="79"/>6. Hinc ergo fit, ut non solum propria 
+          re<lb break="no" ed="#P" n="80"/>probatio positiva ad providentiam pertineat,
+          <lb ed="#P" n="81"/>sed etiam id, quod ad talem reprobationem
+          <lb ed="#P" n="82"/>necessario supponitur, ut est permissio 
+          pec<lb break="no" ed="#P" n="83"/>cati. Sed diverso modo: nam haec providentia
+          <lb ed="#P" n="84"/>permissiva ex suo genere non necessario 
+          fun<lb break="no" ed="#P" n="85"/>datur in aliqua praescientia absoluta 
+          futuro<lb break="no" ed="#P" n="86"/>rum, sed divina voluntate, ut videbimus: 
+          re<lb break="no" ed="#P" n="87"/>probatio autem supponit semper praescientiam
+          <lb ed="#P" n="88"/>absolutam alicujus effectus, cujus Deus non
+          <lb ed="#P" n="89"/>est causa. Et ob hanc rationem, sive 
+          provi<lb break="no" ed="#P" n="90"/>dentia tota principaliter tribuatur intellectui,
+          <lb ed="#P" n="91"/>sive voluntati, tamen haec pars ejus, quae est
+          <lb ed="#P" n="92"/>reprobatio positiva, primarias partes habet in
+          <lb ed="#P" n="93"/>intellectu. Nullum enim est inconveniens,
+          <lb ed="#P" n="94"/>quod respectu alicujus totius, quoad unam 
+          par<lb break="no" ed="#P" n="95"/>tem ejus, unus actus sit principalior, respectu
+          <lb ed="#P" n="96"/>vero alterius partis alius actus sit prior et
+          <lb ed="#P" n="97"/>praecipuus, ut per se manifestum est. Ut 
+          au<lb break="no" ed="#P" n="98"/>tem haec omnia clariora fiant, explicandi in
+          <lb ed="#P" n="99"/>particulari sunt actus voluntatis et intellectus
+          <lb ed="#P" n="100"/>divini, qui in reprobatione interveniunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="749"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-189456"><!-- t3-l9c10 -->
+        <head xml:id="szduep-189456-Hd1e101">Caput 10</head>
+        <head xml:id="szduep-189456-Hd1e103" type="question-title">An verbum sit sapientia patris, qua pater ipse sapiens est</head>
+        <p xml:id="szduep-189456-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>CAPUT X.
+          <lb ed="#P" n="57"/>AN VERBUM SIT SAPIENTIA PATRIS, QUA PATER
+          <lb ed="#P" n="58"/>IPSE SAPIENS EST.
+        </p>
+        <p xml:id="szduep-189456-d1e117">
+          <lb ed="#P" n="59"/>1. Verbum quo sensu dicatur sapientia 
+          Pa<lb break="no" ed="#P" n="60"/>tris. — Quod attinet ad priorem partem 
+          com<lb break="no" ed="#P" n="61"/>munis locutio sanctorum Patrum est, Verbum
+          <lb ed="#P" n="62"/>esse sapientiam Patris. Ita loquitur 
+          Athana<lb break="no" ed="#P" n="63"/>sius, oratione contra Gregales Sabellii, 
+          Nazian<lb break="no" ed="#P" n="64"/>zenus, oratione 1, Apologetica, circa finem, et
+          <lb ed="#P" n="65"/>oratione 33, circa finem, Ambrosius 1, de Fide,
+          <lb ed="#P" n="66"/>cap. 2, Augustinus f, de Trinitate, a principio,
+          <lb ed="#P" n="67"/>Anselmus, in Monologio, cap. 46. Et habet 
+          fun<lb break="no" ed="#P" n="68"/>damentum in Paulo 1, ad Cor. 1. Ubi 
+          CHRIS<lb break="no" ed="#P" n="69"/>TUM vocat Dei virtutem, et Dei sapientiam.
+          <lb ed="#P" n="70"/>Duobus autem modis potest vox, sapientia,
+          <lb ed="#P" n="71"/>sumi in illa locutione. Primo pro sapientia
+          <lb ed="#P" n="72"/>essentiali, et ita videtur sumere Anselmus, 
+          lo<lb break="no" ed="#P" n="73"/>co citato. Nam quia eadem est sapientia Patris
+          <lb ed="#P" n="74"/>et Filii, et Filius est illa Sapientia : ideo dici
+          <lb ed="#P" n="75"/>potest esse sapientia Patris. Advertit autem
+          <lb ed="#P" n="76"/>Anselmus, magis dici Filium sapientiam Patris
+          <lb ed="#P" n="77"/>quam e converso, quia Filius habet illam 
+          sapien<lb break="no" ed="#P" n="78"/>tiam a Patre, et non e contrario. Hic vero 
+          lo<lb break="no" ed="#P" n="79"/>quendi modus non est adeo usitatus, quia et
+          <lb ed="#P" n="80"/>est minus proprius, et aequivocationem potest
+          <lb ed="#P" n="81"/>pati : sicut absolute non dicimus, Verbum esse
+          <lb ed="#P" n="82"/>Deitatem Patris, quamvis sit Deitas, quae est
+          <lb ed="#P" n="83"/>Pater, vel quam accipit a Patre. Posito vero
+          <lb ed="#P" n="84"/>illo sensu, ut vera sit propositio, ita explicanda
+          <lb ed="#P" n="85"/>est, Filius est sapientia Patris, quia est illa
+          <lb ed="#P" n="86"/>sapientia , quae est Pater , et illam habet a
+          <lb ed="#P" n="87"/>Patre.
+        </p>
+        <p xml:id="szduep-189456-d1e182">
+          <lb ed="#P" n="88"/>2. Altero vero modo sumitur nomen 
+          Sapien<lb break="no" ed="#P" n="89"/>lia personaliter pro sapientia genita : quae
+          <lb ed="#P" n="90"/>significatio est etiam usitata, ut Augustinus
+          <lb ed="#P" n="91"/>notat, et in libris sapientiae seepe in hac 
+          signi<lb break="no" ed="#P" n="92"/>ficatione sumitur. Tamen quia vox ipsa in 
+          ri<lb break="no" ed="#P" n="93"/>gore est absoluta et communis, solumque 
+          ap<lb break="no" ed="#P" n="94"/>propriatur Filio, quia ex vi processionis suae
+          <lb ed="#P" n="95"/>formaliter recipit sapientiam a Patre, ideo, ut
+          <lb ed="#P" n="96"/>sit proprium nomen Filii, semper vel 
+          adden<lb break="no" ed="#P" n="97"/>dum est aliquid, quo id significetur, vel ex
+          <lb ed="#P" n="98"/>circumstantia sermonis constare debet, ut 
+          no<lb break="no" ed="#P" n="99"/>tavit Gabriel, in 1, dist. 32, ut cum dicitur 
+          sa<lb break="no" ed="#P" n="100"/>pientia genita, vel sapientia de sapientia, ut
+          <lb ed="#P" n="101"/>Augustinus loquitur. In hac ergo significatione
+          <lb ed="#P" n="102"/>dicitur proprie Verbum sapientia Patris. Est
+          <lb ed="#P" n="103"/>autem ulterius advertendum, per illum 
+          geni<lb break="no" ed="#P" n="104"/>tivum Patris, duplicem habitudinem 
+          signifi<lb break="no" ed="#P" n="105"/>cari posse, scilicet causae formalis vel originis,
+          <lb ed="#P" n="106"/>sic non verbum hominis dici potest sapientia
+          <lb ed="#P" n="107"/>ejus, quia et ab illo procedit, et illum consti-
+          <pb ed="#P" n="750"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tuit formaliter actu sapientem. Respectu ergo
+          <lb ed="#P" n="2"/>Patris significatur solum habitudo originis,
+          <lb ed="#P" n="3"/>non formae : unde recte dixit Athanasius 
+          su<lb break="no" ed="#P" n="4"/>pra :Sapientia Patris est Filius, non ut in 
+          ho<lb break="no" ed="#P" n="5"/>mine, ubi per sapientiam est sapiens, sed ec
+          <lb ed="#P" n="6"/>sapiente sapientia illa ortum habet. Et ratio est
+          <lb ed="#P" n="7"/>clara, quia qui est talis per aliquam formam,
+          <lb ed="#P" n="8"/>aliquid ab illa recipit : Pater autem nullo modo
+          <lb ed="#P" n="9"/>recipit sapientiam a Filio, sed potius illam ipsi
+          <lb ed="#P" n="10"/>communicat.
+        </p>
+        <p xml:id="szduep-189456-d1e255">
+          <lb ed="#P" n="11"/>3. An Pater sit sapiens sapientia genita. —
+          <lb ed="#P" n="12"/>Hinc definienda est illa quaestio an Pater dici
+          <lb ed="#P" n="13"/>possit sapiens sapientia genita. Nam hoc 
+          ali<lb break="no" ed="#P" n="14"/>quando affirmavit Augustinus, lib. 83 quaest.,
+          <lb ed="#P" n="15"/>q. 23. Nihilominus dicendum est, locutionem 
+          il<lb break="no" ed="#P" n="16"/>lam in rigore falsam esse, quam propterea idem
+          <lb ed="#P" n="17"/>Augustinus retractavit 1, Retract., cap. 26,
+          <lb ed="#P" n="18"/>et lib 6 de Trin. cap. 1 et 9 lib. 7, cap.1
+          <lb ed="#P" n="19"/>et 3, et lib. 15, cap. 7, et consentiunt 
+          scholas<lb break="no" ed="#P" n="20"/>tici in 2, dist. 32, et D. Thomas, quaest. 1, 
+          Ca<lb break="no" ed="#P" n="21"/>preolus, quaest. 1, art. 2. Ratio est clara, quia
+          <lb ed="#P" n="22"/>per illam locutionem in rigore significatur 
+          cau<lb break="no" ed="#P" n="23"/>salitas formalis, vel modus ejus, sapientiae 
+          ge<lb break="no" ed="#P" n="24"/>nitae ad constituendum Patrem sapientem:
+          <lb ed="#P" n="25"/>hoc autem falsum est, ut diximus. Et quamvis
+          <lb ed="#P" n="26"/>extendere velimus etiam improprio modo 
+          lo<lb break="no" ed="#P" n="27"/>cutionem illam, ad significandum alium 
+          cau<lb break="no" ed="#P" n="28"/>salitatis modum, semper erit falsa locutio,
+          <lb ed="#P" n="29"/>quia in nullo genere Pater est sapiens aut a
+          <lb ed="#P" n="30"/>sapientia genita, aut per sapientium genitam --
+          <lb ed="#P" n="31"/>per has non duas particulas tantum explicare
+          <lb ed="#P" n="32"/>possimus quamcumque habitudinem illa 
+          locu<lb break="no" ed="#P" n="33"/>tione significatam.
+        </p>
+        <p xml:id="szduep-189456-d1e307">
+          <lb ed="#P" n="34"/>4. Objectio. — Superest vero objectio: nam
+          <lb ed="#P" n="35"/>Pater est sapiens intelligendo: sed intelligit
+          <lb ed="#P" n="36"/>Verbo suo, ergo sapit, seu est sapiens Verbo
+          <lb ed="#P" n="37"/>suo: at Verbum est sapientia genita, ergo est
+          <lb ed="#P" n="38"/>sapiens sapientia genita. Probatur minor, 
+          reli<lb break="no" ed="#P" n="39"/>qua enim clara sunt ex Augustino 15, de 
+          Tri<lb break="no" ed="#P" n="40"/>nitate, dicente cap. 14: Novit omnia Pater in
+          <lb ed="#P" n="41"/>seipso, novit in Filio, sed in seipso tanquam 
+          se<lb break="no" ed="#P" n="42"/>ipsum, in Filio tanquam Verbuwn suwm. 
+          Per<lb break="no" ed="#P" n="43"/>inde autem esse videtur dicere, Patrem 
+          cog<lb break="no" ed="#P" n="44"/>noscere omnia Verbo aut in Verbo. Et 
+          confir<lb break="no" ed="#P" n="45"/>matur: nam Pater est etiam sapiens dicendo,
+          <lb ed="#P" n="46"/>nam in summo Spiritu idem est dicere, quod
+          <lb ed="#P" n="47"/>sapere, ut dixit Anselmus, in Monol., cap. 34,
+          <lb ed="#P" n="48"/>sed Pater dicit omnia Verbo suo, ergo sapit
+          <lb ed="#P" n="49"/>omnia Verbo suo. Tandem confirmatur, quia
+          <lb ed="#P" n="50"/>Filius est sapiens sapientia genita: et Pater
+          <lb ed="#P" n="51"/>non est sapiens alia sapientia, ergo.
+        </p>
+        <p xml:id="szduep-189456-d1e349">
+          <lb ed="#P" n="52"/>5. An Pater intelligat Verbo. — Circa 
+          argu<lb break="no" ed="#P" n="53"/>mentum quidam existimant posse admitti illam
+          <lb ed="#P" n="54"/>locutionem, Pater intelligit Verbo, quia non
+          <lb ed="#P" n="55"/>constituunt differentiam inter haec duo, itelli-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gere Verbo, vel in Verbo. At profectoilla locutio
+          <lb ed="#P" n="57"/>falsa est, ut recte notarunt Scotus et Gabriel
+          <lb ed="#P" n="58"/>supra. Quia nulla habitudo ibi significari 
+          po<lb break="no" ed="#P" n="59"/>test, nisi formalis, quae falso attribuitur Verbo
+          <lb ed="#P" n="60"/>divino respectu Patris, ut convincit 
+          argumen<lb break="no" ed="#P" n="61"/>tum factum. Unde in hoc differt a verbo 
+          hu<lb break="no" ed="#P" n="62"/>mano, ut ex Athanasio notavimus. Per illam
+          <lb ed="#P" n="63"/>autem locutionem intelligit in Verbo, 
+          significa<lb break="no" ed="#P" n="64"/>tur tantum habitudo objecti, quomodo etiam
+          <lb ed="#P" n="65"/>dicuntur Beati videre res in Verbo, et ideo dixit
+          <lb ed="#P" n="66"/>Augustinus, Patrem intelligere in Verbo suo,
+          <lb ed="#P" n="67"/>quia revera est objectum intellectionis 
+          pater<lb break="no" ed="#P" n="68"/>nae, in quo speciali modo omnia 
+          repraesentan<lb break="no" ed="#P" n="69"/>tur.
+        </p>
+        <p xml:id="szduep-189456-d1e393">
+          <lb ed="#P" n="70"/>6. Refellitur. — Circa hanc autem 
+          locutio<lb break="no" ed="#P" n="71"/>nem adverto ulterius, quamvis approprietur
+          <lb ed="#P" n="72"/>Verbo propter specialem modum processionis
+          <lb ed="#P" n="73"/>suae, non tamen esse ita propriam, quin etiam
+          <lb ed="#P" n="74"/>possit Pater omnia cognoscere in Spiritu 
+          sanc<lb break="no" ed="#P" n="75"/>Lo, sicut dicitur etiam omnia cognoscere im se
+          <lb ed="#P" n="76"/>ipso. Et eadem ratione, separando cognitionem
+          <lb ed="#P" n="77"/>a productione non est proprium Patris 
+          cognos<lb break="no" ed="#P" n="78"/>cere omnia in Verbo divino, sed ipsum Verbum
+          <lb ed="#P" n="79"/>etiam in se omnia cognoscit, et Spiritus sanctus
+          <lb ed="#P" n="80"/>similiter. Quorum omnium ratio est, quia 
+          re<lb break="no" ed="#P" n="81"/>praesentatio omnium intelligibilium convenit
+          <lb ed="#P" n="82"/>Verbo ratione essentiae: et ideo sicut essentia
+          <lb ed="#P" n="83"/>est in omnibus personis, ita etiam illa 
+          reprae<lb break="no" ed="#P" n="84"/>sentatio. Solum est discrimen, quod in Verbo
+          <lb ed="#P" n="85"/>est ratione suae processionis formahter: in Patre -
+          <lb ed="#P" n="86"/>autem est sine processione: in Spiritu sancto
+          <lb ed="#P" n="87"/>vero non est ex vi formalis processionis, sed per
+          <lb ed="#P" n="88"/>aliquam communicationem. (Quod autem 
+          om<lb break="no" ed="#P" n="89"/>nia cognoscantur in Verbo, non est propter
+          <lb ed="#P" n="90"/>modum habendi repraesentationem illam, sed
+          <lb ed="#P" n="91"/>propter ipsam repraesentationem, et ideo in
+          <lb ed="#P" n="92"/>qualibet persona omnia cognoscuntur. Nam
+          <lb ed="#P" n="93"/>idem omnino est intelligere Patris et alarum
+          <lb ed="#P" n="94"/>personarum: idem ergo objectum habet in 
+          om<lb break="no" ed="#P" n="95"/>nibus: quidquid ergo una cognoscit in alia,
+          <lb ed="#P" n="96"/>cognoscit etiam altera, et e converso. Quod
+          <lb ed="#P" n="97"/>etiam ex re ipsa patet: nam cognoscere unam
+          <lb ed="#P" n="98"/>personam in alia non potest esse aliud, quam
+          <lb ed="#P" n="99"/>cognoscere unam ex vi cognitionis alterius, vel
+          <lb ed="#P" n="100"/>propter identitatem essentiae, vel propter 
+          con<lb break="no" ed="#P" n="101"/>nexionem relativam, sed hoc totum aeque 
+          cog<lb break="no" ed="#P" n="102"/>noscit Pater in Spiritu sancto sicut in Filio, et
+          <lb ed="#P" n="103"/>singulae personae in caeteris: ergo haec omnia
+          <lb ed="#P" n="104"/>communia sunt, solumque haec intervenit 
+          dif<lb break="no" ed="#P" n="105"/>ferentia, quod connexio correlativa formalior
+          <lb ed="#P" n="106"/>est inter Patrem, verbi gratia, et Filium, quam
+          <lb ed="#P" n="107"/>inter Patrem et Spiritum sanctum, sed hoc 
+          ip<lb break="no" ed="#P" n="108"/>sum ita cognoscit Spiritus sanctus in Filio, 
+          si<lb break="no" ed="#P" n="109"/>cut Pater.
+        </p>
+        <p xml:id="szduep-189456-d1e482">
+          <lb ed="#P" n="110"/>7. Objectio. — Responsio. — Dices, haec omnia
+          <pb ed="#P" n="751"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vera esse de intellectione et repraesentatione
+          <lb ed="#P" n="2"/>essentiali, non autem de notionali, quia 
+          Ver<lb break="no" ed="#P" n="3"/>bum notionaliter soli Patri repraesentat, ergo
+          <lb ed="#P" n="4"/>et e converso solus Pater per notionalem 
+          in<lb break="no" ed="#P" n="5"/>tellectionem intelligit in Verbo suo quodam
+          <lb ed="#P" n="6"/>speciali modo, quo non intelligit in Spiritu
+          <lb ed="#P" n="7"/>sancto. Respondeo, objectionem procedere ex
+          <lb ed="#P" n="8"/>falsa apprehensione, ac si intellectio notionalis
+          <lb ed="#P" n="9"/>diceret proprium actum intelligendi 
+          conve<lb break="no" ed="#P" n="10"/>nientem Patri et non aliis personis, quod 
+          fal<lb break="no" ed="#P" n="11"/>sum esse supra libro primo ostendi, et in 
+          prae<lb break="no" ed="#P" n="12"/>senti patet. Quia alas Pater haberet aliquam
+          <lb ed="#P" n="13"/>sapientiam, quam non habet Filius, quia 
+          om<lb break="no" ed="#P" n="14"/>nis intellectio divina sapientia est. Praeter quam
+          <lb ed="#P" n="15"/>quod nec intelligi neque explicari potest, quis
+          <lb ed="#P" n="16"/>modus sit ille, quo Pater intelligit, et non 
+          Fi<lb break="no" ed="#P" n="17"/>lius. Non ergo differunt in modo intelligendi,
+          <lb ed="#P" n="18"/>sed in modo habendi intellectionem, quia Pater
+          <lb ed="#P" n="19"/>a se, Filius a Patre: et intelligere notionaliter
+          <lb ed="#P" n="20"/>nihil aliud addit, nisi habere illud intelligere
+          <lb ed="#P" n="21"/>a se: et ideo posse producere intelligendo.
+          <lb ed="#P" n="22"/>Idem cum eadems proportione dicendum est
+          <lb ed="#P" n="23"/>de repraesentatione Verbi, unde repraesentare
+          <lb ed="#P" n="24"/>notionaliter, non est repraesentare soli Patri,
+          <lb ed="#P" n="25"/>sed est repraesentare a solo Patre, at 
+          reprae<lb break="no" ed="#P" n="26"/>sentatio illa a Patre accepta omnibus 
+          innotes<lb break="no" ed="#P" n="27"/>cere potest, qui habuerint virtutem 
+          intelligen<lb break="no" ed="#P" n="28"/>di illam. Quod plane sentit Cyrillus 
+          Alexan<lb break="no" ed="#P" n="29"/>drinus 1, Thesauri, cap. 1, cum dixit, Patrem
+          <lb ed="#P" n="30"/>in Verbo tanquam in imagine repraesentari :
+          <lb ed="#P" n="31"/>et ideo dixisse Verbum: Qui videt me, videt et
+          <lb ed="#P" n="32"/>Patrem, quod non de solo Patre, sed de 
+          omni<lb break="no" ed="#P" n="33"/>bus dixit : illud enim relativum Qui, 
+          universa<lb break="no" ed="#P" n="34"/>le est et indifferens. Quam sententiam habet
+          <lb ed="#P" n="35"/>etiam Ambrosius, l. 5, Exameron, et 1 de Fide,
+          <lb ed="#P" n="36"/>cap. 4, Bernardus, serm. 8, in Cant., et 
+          Ru<lb break="no" ed="#P" n="37"/>pertus 2, de Trinitat., cap. 2.
+        </p>
+        <p xml:id="szduep-189456-d1e571">
+          <lb ed="#P" n="38"/>8. Varie locutiones emplicantur. — 
+          Soltvi<lb break="no" ed="#P" n="39"/>tur prima confirmatio. — Circa primam 
+          con<lb break="no" ed="#P" n="40"/>firmationem breviter advertendum est, tres
+          <lb ed="#P" n="41"/>esse voces, quibus significamus actum 
+          in<lb break="no" ed="#P" n="42"/>telligendi paternum, vel processionem, quae
+          <lb ed="#P" n="43"/>per illum est, scilicet generare , intelligere ,
+          <lb ed="#P" n="44"/>dicere. Inter quas haec est differentia , quod
+          <lb ed="#P" n="45"/>verbum generundi solum dicit habitudinem
+          <lb ed="#P" n="46"/>ad terminum productum, non autem ad 
+          ob<lb break="no" ed="#P" n="47"/>jectum : unde fit, ut nec reflecti possit supra
+          <lb ed="#P" n="48"/>ipsum generantem, nec construi cum termino
+          <lb ed="#P" n="49"/>in causa significante modum causalitatis, sed
+          <lb ed="#P" n="50"/>purum terminum, et ideo non dicimus, Pater
+          <lb ed="#P" n="51"/>generat se, nec , generat Verbo , sed tantum,
+          <lb ed="#P" n="52"/>generat Verbum. Vox autem Zntelligendi, non
+          <lb ed="#P" n="53"/>dicit habitudinem ad terminum productum,
+          <lb ed="#P" n="54"/>ut recte dixit divus Thomas, q. 34, art. 1, sed
+          <lb ed="#P" n="55"/>dicit tantum actum formalem intelligentis cum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>habitudine ad objectum, et ideo potest reflecti
+          <lb ed="#P" n="57"/>supra ipsum Patrem, intelligit enim se. Potest
+          <lb ed="#P" n="58"/>etiam conjungi cum 'ilio in casu etiam 
+          signi<lb break="no" ed="#P" n="59"/>ficante objectum, nam etiam Pater intelligit
+          <lb ed="#P" n="60"/>Filiun. Non tamen potest cum illo construi in
+          <lb ed="#P" n="61"/>casu significante causalitatem, quia deberet
+          <lb ed="#P" n="62"/>significare causalitatem formalem, seu 
+          origi<lb break="no" ed="#P" n="63"/>nem: neutro autem modo Pater intelligit 
+          Ver<lb break="no" ed="#P" n="64"/>Do : quidquid sit de creaturis. Verbum autem
+          <lb ed="#P" n="65"/>dicere , respectum ad terminum productum 
+          di<lb break="no" ed="#P" n="66"/>cit, et ideo propriissime dicimus Patrem dicere
+          <lb ed="#P" n="67"/>Verbum suum. Tamen haec vox non sistit in
+          <lb ed="#P" n="68"/>solo termino producto : nam dicit illum, 
+          qua<lb break="no" ed="#P" n="69"/>tenus est repraesentativus, et ideo etiam 
+          con<lb break="no" ed="#P" n="70"/>struitur cum rebus dictis in casu significante
+          <lb ed="#P" n="71"/>objectum, vel quasi objectum, et ideo 
+          reflec<lb break="no" ed="#P" n="72"/>Utur supra ipsum dicentem, ut Pater dicit se,
+          <lb ed="#P" n="73"/>quia in Verbo suo repraesentatur et eadem 
+          ra<lb break="no" ed="#P" n="74"/>tione, dicit Verbum suum, non tantum ut rem
+          <lb ed="#P" n="75"/>productam, sed etiam ut rem dictam. Ac 
+          deni<lb break="no" ed="#P" n="76"/>que construitur cum ipso termino etiam in
+          <lb ed="#P" n="77"/>casu significante causalitatem : nam Pater 
+          di<lb break="no" ed="#P" n="78"/>cit Verbo, quia tunc non significatur aliqua
+          <lb ed="#P" n="79"/>causalitas formalis Verbi circa Patrem, sed sola
+          <lb ed="#P" n="80"/>repraesentatio et habitudo signi, quae est in
+          <lb ed="#P" n="81"/>Verbo ad res dictas. Ad confirmationem ergo
+          <lb ed="#P" n="82"/>neganda est consequentia, nam licet 
+          intelli<lb break="no" ed="#P" n="83"/>gere et dicere in re sint idem , ratione tamen
+          <lb ed="#P" n="84"/>et modo significandi differunt.
+        </p>
+        <p xml:id="szduep-189456-d1e679">
+          <lb ed="#P" n="85"/>9. Ad secundam confirmattonem. — In 
+          secun<lb break="no" ed="#P" n="86"/>da confirmatione petitur, quid sentiendum sit
+          <lb ed="#P" n="87"/>de hislocutionibus, Filius est sapiens, sapientia
+          <lb ed="#P" n="88"/>gentia,vel, Pater ingenita. De quibus multa apud
+          <lb ed="#P" n="89"/>D. Thomam, Capreolum, Durandum, Gabriel,
+          <lb ed="#P" n="90"/>et alios in 1, dist. 32. Ego breviter censeo,
+          <lb ed="#P" n="91"/>priorem locutionem in proprio et formali 
+          sen<lb break="no" ed="#P" n="92"/>su esse falsam, nam Filius est sapiens 
+          sapien<lb break="no" ed="#P" n="93"/>tia essentiali, quae genita non est: sicut non
+          <lb ed="#P" n="94"/>potest dici, Filius est Deus, Deitate genita, sed
+          <lb ed="#P" n="95"/>potius, ingenita, sumendo illam vocem 
+          nega<lb break="no" ed="#P" n="96"/>tive. Nam si sumatur privitate, etiam dici non
+          <lb ed="#P" n="97"/>potest, Sapiens sapientia ingenita, quia in 
+          ri<lb break="no" ed="#P" n="98"/>gore significatur habitudo formalis, et illo 
+          mo<lb break="no" ed="#P" n="99"/>do sapientia ingenita est Pater, Filius autem
+          <lb ed="#P" n="100"/>non est sapiens per Patrem formaliter, sed a
+          <lb ed="#P" n="101"/>Patre. Quia vero ipse Filius est sua essentia, et
+          <lb ed="#P" n="102"/>e converso sapientia essentialis est ipse Filius,
+          <lb ed="#P" n="103"/>ideo materialiter dici potest Filius esse sapiens
+          <lb ed="#P" n="104"/>sapientia , quae est sapientia genita , 
+          quomo<lb break="no" ed="#P" n="105"/>do etiam dici posset sapiens sapientia, quae est
+          <lb ed="#P" n="106"/>sapientia ingenita, melius est tamen vitare has
+          <lb ed="#P" n="107"/>locutiones propter ambiguitatem et 
+          improprie<lb break="no" ed="#P" n="108"/>tatem. Et eadem proporuone sentiendum est
+          <lb ed="#P" n="109"/>de Patre, est enim sapiens sapientia ingenita
+          <lb ed="#P" n="110"/>negative, id est sua essentia, non tamen pro-
+          <pb ed="#P" n="752"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prie privative, nisi materialiter et identice,
+          <lb ed="#P" n="2"/>ut in Filio satis explicatum est. Ad 
+          confirma<lb break="no" ed="#P" n="3"/>tionem ergo dico satis hinc constare, 
+          quomo<lb break="no" ed="#P" n="4"/>do Pater et Filius eadem sapientia sapiens sit.
+          <lb ed="#P" n="5"/>10. Alia nomina secundae personee. — 
+          Tan<lb break="no" ed="#P" n="6"/>dem ex his, quae de quatuor nominibus 
+          secun<lb break="no" ed="#P" n="7"/>dae personae diximus, facile est, omnia nomina,
+          <lb ed="#P" n="8"/>quae in Scriptura Christo Domino attribuuntur,
+          <lb ed="#P" n="9"/>interpretari. Quaedam enim sunt propria, ut
+          <lb ed="#P" n="10"/>Verbum, Filius; alia metaphorica, ut vapor,
+          <lb ed="#P" n="11"/>speculum, candor, Sap. 1, figura, splendor, ad
+          <lb ed="#P" n="12"/>Hebr. 1, et similia, quae ad propria 
+          revocan<lb break="no" ed="#P" n="13"/>da sunt, ut constat. Rursus propria quaedam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="14"/>sunt personalia, ut Imago, Verbum : quaedam
+          <lb ed="#P" n="15"/>essentialia, ut Deus . et ex his, quaedam 
+          appro<lb break="no" ed="#P" n="16"/>priantur Verbo, ut Sapientia modo explicato,
+          <lb ed="#P" n="17"/>ad quam revocatur Veritas et similia. Denique
+          <lb ed="#P" n="18"/>tam metaphorica, quam propria, quaedam 
+          tri<lb break="no" ed="#P" n="19"/>buuntur Christo ut Deo, sicut ea, quae 
+          dixi<lb break="no" ed="#P" n="20"/>mus: alia Christo ut homini, ut esse hominem,
+          <lb ed="#P" n="21"/>Pastorem, Caput et alia, quae in libro de 
+          Incar<lb break="no" ed="#P" n="22"/>natione explicata sunt, et de illis videri possunt,
+          <lb ed="#P" n="23"/>quae nomine Augustini dicuntur, in libro de
+          <lb ed="#P" n="24"/>Incarnatione Verbi, a capite 10, ad 15, in
+          <lb ed="#P" n="25"/>tom. 4, et quae notat Hilarius, libro de Unitate
+          <lb ed="#P" n="26"/>Patris et Filii, in fine.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

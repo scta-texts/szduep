@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="692"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-175054"><!-- t3-l7c2 -->
+        <head xml:id="szduep-175054-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-175054-Hd1e103" type="question-title">Quot sint personarum proprietates et quomodo a personis distinguantur</head>
+        <p xml:id="szduep-175054-d1e106">
+          <lb ed="#P" n="43"/>CAPUT II.
+          <lb ed="#P" n="44"/>QUOT SINT PERSONARUM PROPRIETATES ET QUOMODO
+          <lb ed="#P" n="45"/>A PERSONIS DISTINGUANTUR.
+        </p>
+        <p xml:id="szduep-175054-d1e115">
+          <lb ed="#P" n="46"/>1. Proprietas incommunicabilis. —Suppono
+          <lb ed="#P" n="47"/>imprimis, hoc loco non appellari proprietatem
+          <lb ed="#P" n="48"/>omnem relationem, vel conditionem, non 
+          com<lb break="no" ed="#P" n="49"/>munem omnibus personis, sed illam tantum,
+          <lb ed="#P" n="50"/>quae ita convenit uni personae, ut nulli alteri
+          <lb ed="#P" n="51"/>conveniat. Nam, ut recte dixit Joannes 
+          Theo<lb break="no" ed="#P" n="52"/>logus, in Concilio Florentino, sessione 18:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Proprietas communicabilis non est, alias non
+          <lb ed="#P" n="54"/>est proprietas Et iterum : Substantia cum 
+          per<lb break="no" ed="#P" n="55"/>sonis communicat, proprietates vero nequaquam
+          <lb ed="#P" n="56"/>communicabiles sunt. Atque hac ratione 
+          exclu<lb break="no" ed="#P" n="57"/>ditur spiratio activa a numero proprietatum,
+          <lb ed="#P" n="58"/>quia communicabilis est Patri et Filio. 
+          Quam<lb break="no" ed="#P" n="59"/>vis enim in quadam Dialectica significatione
+          <lb ed="#P" n="60"/>posset dici proprium, quod alicui semper et
+          <lb ed="#P" n="61"/>ab intrinseco convenit, licet non conveniat soli:
+          <lb ed="#P" n="62"/>hic tamem non hoc modo sumitur proprium,
+          <lb ed="#P" n="63"/>sed ut distinguitur contra commune. Et ideo
+          <lb ed="#P" n="64"/>non dicemus esse proprium Patris procedere
+          <lb ed="#P" n="65"/>Spiritum sanctum, quia hoc est Filio 
+          com<lb break="no" ed="#P" n="66"/>mune. Ita ergo non dicitur proprietas, nisi
+          <lb ed="#P" n="67"/>quae incommunicabilis est et ita uni personae
+          <lb ed="#P" n="68"/>convenit, ut aliis convenire repugnet. hatio
+          <lb ed="#P" n="69"/>vero nominis reddi potest, quia hae 
+          proprieta<lb break="no" ed="#P" n="70"/>tes abstrahuntur et designantur ad declaranda
+          <lb ed="#P" n="71"/>constitutiva propria personarum : haec autem
+          <lb ed="#P" n="72"/>debent esse ita propria, ut nulli alteri sint
+          <lb ed="#P" n="73"/>communia.
+        </p>
+        <p xml:id="szduep-175054-d1e180">
+          <lb ed="#P" n="74"/>2. Proprietas positiva. — Secundo 
+          adver<lb break="no" ed="#P" n="75"/>tendum est, si ad rationem proprietatis nihil
+          <lb ed="#P" n="76"/>aliud consideretur, nisi haec conditio 
+          singula<lb break="no" ed="#P" n="77"/>ritatis, seu incommunicabilitatis, clarum esse,
+          <lb ed="#P" n="78"/>innascibilitatem sub numero proprietatum
+          <lb ed="#P" n="79"/>comprehendi: quia ita convenit Patri, ut alteri
+          <lb ed="#P" n="80"/>personae convenire non possit, ut in 
+          superio<lb break="no" ed="#P" n="81"/>ribus declaratum est. Atque in hoc sensu 
+          di<lb break="no" ed="#P" n="82"/>cunt aliqui, proprietates personarum 
+          divina<lb break="no" ed="#P" n="83"/>rum esse quatuor, quod interdum significare
+          <lb ed="#P" n="84"/>videtur aliqui ex Patribus superiori capite re
+          <lb ed="#P" n="85"/>latis. Nihilominus vero addimus, ad rationem
+          <lb ed="#P" n="86"/>proprietatis pertinere, ut formahter sit forma
+          <lb ed="#P" n="87"/>positiva alicui personae omnino propria, et ex
+          <lb ed="#P" n="88"/>hac parte includi innascibilitatem a numero
+          <lb ed="#P" n="89"/>proprietatum. Quia, ut supra dixi, de formali
+          <lb ed="#P" n="90"/>tantum dicit negationem, licet ratione 
+          funda<lb break="no" ed="#P" n="91"/>menti dicat aliquam formam positivam, quae
+          <lb ed="#P" n="92"/>non est distincta ab omnibus aliis 
+          proprietati<lb break="no" ed="#P" n="93"/>bus, quia in sola Paternitate fundatur, ut 
+          su<lb break="no" ed="#P" n="94"/>pra indicavimus, et libro sequenti, latius 
+          dice<lb break="no" ed="#P" n="95"/>mus, et sentit plane Augustinus 5, de 
+          Trini<lb break="no" ed="#P" n="96"/>tate, a capite quinto usque ad octavum. Et
+          <lb ed="#P" n="97"/>Basilius, Epistola quadragesima-tertia. Itaque
+          <lb ed="#P" n="98"/>(ut quaestio de vocabulo tollatur) in hac 
+          signi<lb break="no" ed="#P" n="99"/>ficatione nunc nomen proprietatis concipimus,
+          <lb ed="#P" n="100"/>ut idem sit, quod nomen personalitatis. Ratio
+          <lb ed="#P" n="101"/>autem nominis est, quia proprietas hic 
+          voca<lb break="no" ed="#P" n="102"/>tur forma constituens personam, eamque 
+          per<lb break="no" ed="#P" n="103"/>sonaliter distinguens , persona autem non
+          <lb ed="#P" n="104"/>constituitur negatione, sed forma positiva. Et
+          <lb ed="#P" n="105"/>hac ratione innascibilitas inter notiones 
+          nume<lb break="no" ed="#P" n="106"/>ratur, quia cognitioni nostrae deservit, nos
+          <lb ed="#P" n="107"/>enim simplicia per negationes facilius concipi-
+          <pb ed="#P" n="693"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mus, in numero vero proprietatum non 
+          com<lb break="no" ed="#P" n="2"/>prehenditur, quia per se et formaliter ad 
+          con<lb break="no" ed="#P" n="3"/>stitutionem personae non spectat.
+        </p>
+        <p xml:id="szduep-175054-d1e268">
+          <lb ed="#P" n="4"/>3. Proprietates tantum tres. — Ex his ergo
+          <lb ed="#P" n="5"/>concluditur, tres tantum esse in Deo 
+          proprie<lb break="no" ed="#P" n="6"/>tates personales. Sic dixit Richardus de Sancto
+          <lb ed="#P" n="7"/>Victore, libro primo de Trinitate, capite 
+          de<lb break="no" ed="#P" n="8"/>cimo octavo. In illa Trinitate tot procul dubio
+          <lb ed="#P" n="9"/>sunt proprietates, quot sunt personae. Sic
+          <lb ed="#P" n="10"/>etiam intelligendum est , quod dixit Basilius,
+          <lb ed="#P" n="11"/>Epistola 43 : Filius in proprietate sua mihil
+          <lb ed="#P" n="12"/>cum Patre et Spritu sancto habet commune.
+          <lb ed="#P" n="13"/>Sic etiam libro tertio, capite tertio, 
+          ostendi<lb break="no" ed="#P" n="14"/>mus, esse in Deo tres personalitates, quia non
+          <lb ed="#P" n="15"/>possent personae tres dici et esse, nisi tres 
+          ha<lb break="no" ed="#P" n="16"/>berent personalitates, quia substantia non
+          <lb ed="#P" n="17"/>multiplicantur in Deo, nisi multiplicata forma,
+          <lb ed="#P" n="18"/>quam nomen de formali significat : idem ergo
+          <lb ed="#P" n="19"/>est de proprietatibus, quae idem prorsus sunt,
+          <lb ed="#P" n="20"/>quod personalitates, solaque voce 
+          distinguun<lb break="no" ed="#P" n="21"/>tur. Atque ob eamdem rationem, sicut 
+          perso<lb break="no" ed="#P" n="22"/>nae sunt tres realiter distinctae, ita et tres 
+          pro<lb break="no" ed="#P" n="23"/>prietates realiter inter se distingui necesse est,
+          <lb ed="#P" n="24"/>Ssicut ibidem de personalitatibus et postea de
+          <lb ed="#P" n="25"/>relationibus ostensum est. Quare omnia, quae
+          <lb ed="#P" n="26"/>de perfectione, existentia, ac subsistentia ,
+          <lb ed="#P" n="27"/>trium personarum personalitatum, ac 
+          relatio<lb break="no" ed="#P" n="28"/>num diximus, de his proprietatibus dicta esse
+          <lb ed="#P" n="29"/>intelligendum est , quia sunt adaequate idem
+          <lb ed="#P" n="30"/>cum relationibus, ut paulo inferius 
+          ostende<lb break="no" ed="#P" n="31"/>mus. Imo sub ratione proprietatis formalius
+          <lb ed="#P" n="32"/>significantur, ut subsistentiae personales sunt,
+          <lb ed="#P" n="33"/>et perfectiones reales. Denique, quod hae 
+          pro<lb break="no" ed="#P" n="34"/>prietates non sint plures, quam tres, probatur
+          <lb ed="#P" n="35"/>facile, quia non sunt plures personae. Item quia
+          <lb ed="#P" n="36"/>non sunt, nisi quatuor relationes et una non
+          <lb ed="#P" n="37"/>est proprietas.
+        </p>
+        <p xml:id="szduep-175054-d1e344">
+          <lb ed="#P" n="38"/>4. Objectio. — Dices, plura, quam tria,
+          <lb ed="#P" n="39"/>sunt propria praedicata concreta, quae de 
+          per<lb break="no" ed="#P" n="40"/>sonis dicuntur, ergo etiam Proprietates in 
+          ab<lb break="no" ed="#P" n="41"/>stracto erunt plures, quam tres. Patet 
+          conse<lb break="no" ed="#P" n="42"/>quentia, quia a quolibet concreto potest suum
+          <lb ed="#P" n="43"/>abstractum cum proportione abstrahi. 
+          Antece<lb break="no" ed="#P" n="44"/>dens vero probatur, quia generans genitum,
+          <lb ed="#P" n="45"/>spiratum, sunt praedicata propria singularum
+          <lb ed="#P" n="46"/>personarum : Item Filius dicitur etiam 
+          ver<lb break="no" ed="#P" n="47"/>bum, imago, sapientia, et Spiritus sanctus 
+          di<lb break="no" ed="#P" n="48"/>citur donum, et amor.
+        </p>
+        <p xml:id="szduep-175054-d1e370">
+          <lb ed="#P" n="49"/>5. Responsio. — Respondeo primo, non
+          <lb ed="#P" n="50"/>oportere, ut omnia praedicata propria 
+          forma<lb break="no" ed="#P" n="51"/>liter sint de sumpta a proprietatibus, nam 
+          ah<lb break="no" ed="#P" n="52"/>qua sumuntur ab originibus, ut nomen geniti,
+          <lb ed="#P" n="53"/>genitoris, et spirati : Origines autem 
+          proprie<lb break="no" ed="#P" n="54"/>tates non sunt, ut infra dicemus. Quia licet
+          <lb ed="#P" n="55"/>incommunicabilitate conveniant cum proprie-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatibus, differunt, quia non significantur per
+          <lb ed="#P" n="57"/>modum formae, seu per modum viae, et 
+          ten<lb break="no" ed="#P" n="58"/>dentiae, proprietas autem concipienda est, ad
+          <lb ed="#P" n="59"/>modum formae, ut diximus. Unde secundo
+          <lb ed="#P" n="60"/>dici potest, omnia illa praedicata propria 
+          re<lb break="no" ed="#P" n="61"/>duci ad tres dictas proprietates. Quia nomina
+          <lb ed="#P" n="62"/>originum reducuntur ad nomina relationum,
+          <lb ed="#P" n="63"/>sicut via reducitur ad terminum , vel 
+          princi<lb break="no" ed="#P" n="64"/>pium. Quomodo dixit Augustinus 9, de 
+          Trini<lb break="no" ed="#P" n="65"/>tate, capite 6 : dem esse F'ilium, et genitum,
+          <lb ed="#P" n="66"/>et utrumque dici ad aliquid. Alia autem 
+          nomi<lb break="no" ed="#P" n="67"/>na personalia unius personae propria, unam,
+          <lb ed="#P" n="68"/>et eamdem proprietatem important , ut in 
+          se<lb break="no" ed="#P" n="69"/>cunda persona esse Verbum, et Imaginem,
+          <lb ed="#P" n="70"/>non aliam relationem realem dicunt, nisi 
+          rela<lb break="no" ed="#P" n="71"/>tionem Filii, ut suis locis ostendemus. Nomen
+          <lb ed="#P" n="72"/>autem Sapientie , vel appropriatum est, et
+          <lb ed="#P" n="73"/>non proprium , vel si sumatur pro sapientia
+          <lb ed="#P" n="74"/>genita coincidit cum nomine Verbi. Idemque
+          <lb ed="#P" n="75"/>cum proportione est de nomine Amoris, 
+          res<lb break="no" ed="#P" n="76"/>pectu tertiae personae : nomen item Doni, 
+          so<lb break="no" ed="#P" n="77"/>lum addit denominationem, seu respectum 
+          ra<lb break="no" ed="#P" n="78"/>tionis, ut suo loco etiam videbimus.
+        </p>
+        <p xml:id="szduep-175054-d1e440">
+          <lb ed="#P" n="79"/>6. Proprietas idem cum persona. — Ultimo
+          <lb ed="#P" n="80"/>addendum est, Proprietates has non aliter
+          <lb ed="#P" n="81"/>distingui a personis, quarum sunt 
+          proprieta<lb break="no" ed="#P" n="82"/>tes, quam propriae relationes ab eisdem 
+          per<lb break="no" ed="#P" n="83"/>sonis distinguuntur, ac proinde ratione 
+          tan<lb break="no" ed="#P" n="84"/>tum distingui, cum virtuali fundamento in re.
+          <lb ed="#P" n="85"/>Conclusio est D. Thomae, 1. part., quaest. 29,
+          <lb ed="#P" n="86"/>art. 4, quaest. 30, art. 1, quaest. 40, 1, et 
+          theo<lb break="no" ed="#P" n="87"/>logorum communiter. Eamque his verbis 
+          de<lb break="no" ed="#P" n="88"/>claravit Bernardus, lib. 5, de Considerat.,
+          <lb ed="#P" n="89"/>cap. 8: Personarum proprietates non aliud,
+          <lb ed="#P" n="90"/>quam personas esse, fides Catholica confitetur ;
+          <lb ed="#P" n="91"/>sumiturque ex illo Patrum principio. 7n Deo
+          <lb ed="#P" n="92"/>non distingui quo est, et quod est, quod est
+          <lb ed="#P" n="93"/>Boetii, lib. 1, de Trinitate, et lib. de 
+          Hebdo<lb break="no" ed="#P" n="94"/>madibus, Gregorius, lib. 9, Moralium, cap. 2,
+          <lb ed="#P" n="95"/>lib. 18, cap. 34, Augustinus 6, de Trinitate,
+          <lb ed="#P" n="96"/>cap. 6, et sequentibus. Omnia etiam, quae 
+          su<lb break="no" ed="#P" n="97"/>pra de relationibus disimus, idem de 
+          proprie<lb break="no" ed="#P" n="98"/>tatibus probant, nam juxta sanam doctrinam
+          <lb ed="#P" n="99"/>infra tradendam, in personis divinis non sunt
+          <lb ed="#P" n="100"/>aliae proprietates , praeter relationes. Adde,
+          <lb ed="#P" n="101"/>quod licet aliquo modo distinguerentur inter
+          <lb ed="#P" n="102"/>se, quoad identitatem cum personis semper
+          <lb ed="#P" n="103"/>haberet locum ratio , quae sumitur ex summa
+          <lb ed="#P" n="104"/>simplicitate Dei , et cujescumque personae 
+          di<lb break="no" ed="#P" n="105"/>vinae. Aliunde vero esset major ratio de 
+          pro<lb break="no" ed="#P" n="106"/>prietatibus, quam de relationibus, quia essent
+          <lb ed="#P" n="107"/>(ut ita dicam) propinquiores, et intimiores 
+          per<lb break="no" ed="#P" n="108"/>sonis, quam ipse relationes. Sunt ergo 
+          proprie<lb break="no" ed="#P" n="109"/>tates re ipsa ipsaemet personae, sine 
+          distinc<lb break="no" ed="#P" n="110"/>tione actuali, quae in re sit. Distinguuntur au-
+          <pb ed="#P" n="694"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem ratione ex modo concipiendi nostro 
+          eo<lb break="no" ed="#P" n="2"/>dem modo, quo relationes ut supra explicatum
+          <lb ed="#P" n="3"/>est, et ex sequentibus amplius constabit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

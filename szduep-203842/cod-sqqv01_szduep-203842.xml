@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="807"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-203842"><!-- t3-l12c5 -->
+        <head xml:id="szduep-203842-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-203842-Hd1e103" type="question-title">De invisibili missione divinarum personarum, et omnibus, quae ad illam pertinent</head>
+        <p xml:id="szduep-203842-d1e106">
+          <lb ed="#P" n="38"/>CAPUT V.
+          <lb ed="#P" n="39"/>DE INVISIBILI MISSIONE DIVINARUM PERSONARUM,
+          <lb ed="#P" n="40"/>ET OMNIBUS, QUAE AD ILLAM PERTINENT.
+        </p>
+        <p xml:id="szduep-203842-d1e115">
+          <lb ed="#P" n="41"/>1. Unum est, quod praecipue hic declarari
+          <lb ed="#P" n="42"/>potest, et ex quo caetera pendent, scilicet, 
+          se<lb break="no" ed="#P" n="43"/>cundum quam actionem, vel effectum Dei haec
+          <lb ed="#P" n="44"/>missio fiat, quo declarato, melius intelligitur,
+          <lb ed="#P" n="45"/>quomodo persona ipsa mitti dicatur, et 
+          quae<lb break="no" ed="#P" n="46"/>nam mittatur, et ad quam personam , seu ad
+          <lb ed="#P" n="47"/>quem locum mittatur. Significatur enim haec
+          <lb ed="#P" n="48"/>missio per modum cujusdam motus, cujus 
+          co<lb break="no" ed="#P" n="49"/>gnitio potissima pendet ex termino, ad quem
+          <lb ed="#P" n="50"/>tendit, unde et CHRISTO Domino dicebat 
+          Tho<lb break="no" ed="#P" n="51"/>mas : Domine, nescimus quo vadis, et quomodo
+          <lb ed="#P" n="52"/>possumnus viam scire ? In praesenti autem effec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tus ille, secundum quem attenditur haec 
+          mis<lb break="no" ed="#P" n="54"/>sio, est quasi terminus ad quem hujus 
+          missio<lb break="no" ed="#P" n="55"/>nis, et ideo tota illius cognitio ex illo pendet:
+          <lb ed="#P" n="56"/>Conveniunt autem theologi , missionem hanc
+          <lb ed="#P" n="57"/>fieri secundum dona gratiae, et tantum 
+          se<lb break="no" ed="#P" n="58"/>cundum illa, cujus rationem superius in 
+          se<lb break="no" ed="#P" n="59"/>cunda divisione, et in explicanda descriptione
+          <lb ed="#P" n="60"/>hujus missionis insinuavimus. Quia debet haec
+          <lb ed="#P" n="61"/>missio fieri per aliqua dona, et non fit per
+          <lb ed="#P" n="62"/>dona naturae, ergo fit per dona gratiae.
+        </p>
+        <p xml:id="szduep-203842-d1e167">
+          <lb ed="#P" n="63"/>2. Varii errores.— Primus.— Hujus erroris
+          <lb ed="#P" n="64"/>fundamentum. — Alius error. — Postremus
+          <lb ed="#P" n="65"/>error. — In hac autem veritate explicanda
+          <lb ed="#P" n="66"/>varii errores, falsaeque opiniones cavendae
+          <lb ed="#P" n="67"/>sunt. Primus error est eorum,qui dixerunt per
+          <lb ed="#P" n="68"/>dona gratiae non dari revera personam ipsam
+          <lb ed="#P" n="69"/>divinam, sed solum dona creata, ac subinde
+          <lb ed="#P" n="70"/>solum dici dari, aut venire tunc Deum ad 
+          ho<lb break="no" ed="#P" n="71"/>minem justum , quia datur per 
+          participatio<lb break="no" ed="#P" n="72"/>nem specialem divinae naturae, quae est gratia.
+          <lb ed="#P" n="73"/>Fundamentum esse potuit, quia non potest
+          <lb ed="#P" n="74"/>Deus existere in creatura, nisi per essentiam,
+          <lb ed="#P" n="75"/>praesentiam, et potentiam (seclusa hypostatica
+          <lb ed="#P" n="76"/>unione) his autem modis existebat Deus in
+          <lb ed="#P" n="77"/>anima prius, quam illi gratiam infundat. Et
+          <lb ed="#P" n="78"/>quoniam illam infundit, etiam in illa est per
+          <lb ed="#P" n="79"/>essentiam , praesentiam et potentiam , sicut
+          <lb ed="#P" n="80"/>quoniam illuminat aerem, etiam est eisdem
+          <lb ed="#P" n="81"/>modis in lIumine producto, nec propterea dici
+          <lb ed="#P" n="82"/>potest substantia ipsa Dei dari aeri de novo.
+          <lb ed="#P" n="83"/>Unde juxta hanc sententiam, non solum haec
+          <lb ed="#P" n="84"/>missio fit per dona gratiae , sed omnino nihil
+          <lb ed="#P" n="85"/>aliud est , quam productio talium effectuum.
+          <lb ed="#P" n="86"/>Alii vero censuerunt, per hanc missionem dari
+          <lb ed="#P" n="87"/>personam Spiritus sancti solam, non vero alias
+          <lb ed="#P" n="88"/>personas, ut S. Bonaventura refsert, et 
+          impu<lb break="no" ed="#P" n="89"/>gnat, in 1, dist. 17. Movebantur fortassis, quia
+          <lb ed="#P" n="90"/>haec missio passiva peculiariter attribuitur in
+          <lb ed="#P" n="91"/>sacra Scriptura Spiritui sancto. Alii tandem
+          <lb ed="#P" n="92"/>dixerunt, hanc missionem fieri de facto 
+          secun<lb break="no" ed="#P" n="93"/>dum dona gratiae, de absoluta vero potentia
+          <lb ed="#P" n="94"/>Dei non esse necessaria talia dona ad hanc
+          <lb ed="#P" n="95"/>missionem. Quia non sunt simpliciter 
+          necessa<lb break="no" ed="#P" n="96"/>ria ad justificationem hominis , nam posset
+          <lb ed="#P" n="97"/>per extrinsecam Dei benevolentiam justificari,
+          <lb ed="#P" n="98"/>et ad gloriam acceptari sine reali mutatione
+          <lb ed="#P" n="99"/>sui, ergo eodem modo posset ad hominem
+          <lb ed="#P" n="100"/>mitti Spiritus sanctus sine his donis creatis.
+          <lb ed="#P" n="101"/>Ita sensit Gregorius, in 1, d. 14. q. 1.concl. 3.
+        </p>
+        <p xml:id="szduep-203842-d1e255">
+          <lb ed="#P" n="102"/>3. Resolutio. — Dicendum vero est primo,
+          <lb ed="#P" n="103"/>non posse fieri, nec intelligi specialem 
+          missio<lb break="no" ed="#P" n="104"/>nem Spiritus sancti ad animam hominis sine
+          <lb ed="#P" n="105"/>reali mutatione facta in ipso homine. Haec 
+          as<lb break="no" ed="#P" n="106"/>sertio non pertinet ad dogmata fidei : est 
+          ta<lb break="no" ed="#P" n="107"/>men probabilissima et vera, quam contra Gre-
+          <pb ed="#P" n="808"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>corium tradit Capreolus, in dicta dist. 24, ad
+          <lb ed="#P" n="2"/>argumenta Gregorii contra 4 conclusionem.
+          <lb ed="#P" n="3"/>Ratio est jam tradita capite preecedenti. Quia
+          <lb ed="#P" n="4"/>divina persona non potest donari, aut mitti
+          <lb ed="#P" n="5"/>per extrinsecam denominationem suam, ergo
+          <lb ed="#P" n="6"/>per extrinsecam. Ergo, si de novo potest talis
+          <lb ed="#P" n="7"/>denominatio divinae personae attribui, necesse
+          <lb ed="#P" n="8"/>est, ut ex aliqua reali mutatione circa 
+          creatu<lb break="no" ed="#P" n="9"/>ram facta resultet. Unde parum in praesenti
+          <lb ed="#P" n="10"/>urget argumentum Gregorii, quod sic habet.
+          <lb ed="#P" n="11"/>Res donabilis potest donari sine quocumque
+          <lb ed="#P" n="12"/>alio dono extrinseco, sed Spiritus sanctus est
+          <lb ed="#P" n="13"/>donabils, et gratia creata est illi extrinseca:
+          <lb ed="#P" n="14"/>ergo potest donari sine illa. Major enim 
+          pro<lb break="no" ed="#P" n="15"/>positio habet fortasse verum in re, quae per
+          <lb ed="#P" n="16"/>intrinsecam mutationem donatur, non vero
+          <lb ed="#P" n="17"/>in ea, quae solum per extrinsecam, quia ad 
+          ta<lb break="no" ed="#P" n="18"/>lem denominationem forma aliqua necessaria
+          <lb ed="#P" n="19"/>est. Unde licet gratia sit extrinseca Spiritui
+          <lb ed="#P" n="20"/>sancto secundum se, non tamen ut actuale
+          <lb ed="#P" n="21"/>donum est. Sicut humanitas, et unio creata in
+          <lb ed="#P" n="22"/>illa existens extra Verbum omnino sunt, 
+          ni<lb break="no" ed="#P" n="23"/>hilominus tamen non potest Verbum mitti
+          <lb ed="#P" n="24"/>illo genere missionis, sine illa reali unione, a
+          <lb ed="#P" n="25"/>qua unitum , et datum denominetur. Sicut
+          <lb ed="#P" n="26"/>ergo ibi est necessaria substantialis unio, ita
+          <lb ed="#P" n="27"/>hic accidentalis, quae per mutationem 
+          creatu<lb break="no" ed="#P" n="28"/>rae fit.
+        </p>
+        <p xml:id="szduep-203842-d1e336">
+          <lb ed="#P" n="29"/>4. Nec vero sufficit extrinseca benevolentia,
+          <lb ed="#P" n="30"/>aut acceptatio Dei : Non quidem quia non 
+          pos<lb break="no" ed="#P" n="31"/>sit Deus de potentia absoluta hoc modo 
+          remit<lb break="no" ed="#P" n="32"/>tere peccatum, tum quia contrarium est satis
+          <lb ed="#P" n="33"/>probabile, tum etiam quia reduci potest 
+          argu<lb break="no" ed="#P" n="34"/>mentum ad hominem creatum sine culpa 
+          ori<lb break="no" ed="#P" n="35"/>ginali, et donis gratiae inhaerentis, quem Deus
+          <lb ed="#P" n="36"/>acceptet ad gloriam per solumextrinsecum 
+          be<lb break="no" ed="#P" n="37"/>neplacitum, quod nemo negat, posse Deum 
+          fa<lb break="no" ed="#P" n="38"/>cere per decretum aeternum, quo acceptet 
+          ta<lb break="no" ed="#P" n="39"/>lem hominem pro tali tempore, et anteriori.
+          <lb ed="#P" n="40"/>Dico ergo, illam acceptationem etiam sic 
+          con<lb break="no" ed="#P" n="41"/>sideratam non sufficere, ut Spiritus sanctus
+          <lb ed="#P" n="42"/>dicatur mitti ex eo tempore, quo ille homo 
+          de<lb break="no" ed="#P" n="43"/>nominatur acceptus ad gloriam, quia Spiritus
+          <lb ed="#P" n="44"/>sanctus non incipit esse in illo novo, et real
+          <lb ed="#P" n="45"/>modo ex tunc, sed ad summum est illa veluti
+          <lb ed="#P" n="46"/>quaedam promissio, quod Spiritus sanctus 
+          mit<lb break="no" ed="#P" n="47"/>tetur ad talem hominem, quando ei conferetur
+          <lb ed="#P" n="48"/>gloria, et ita est potius acceptatio ad 
+          missio<lb break="no" ed="#P" n="49"/>nem, quam missio. Sicut autem non potest 
+          ta<lb break="no" ed="#P" n="50"/>lis homo elevari ad beatitudinem sine aliqua
+          <lb ed="#P" n="51"/>mutatione reali, qualis erit saltem ipsa visio
+          <lb ed="#P" n="52"/>Dei, ita nec Spiritus sanctus potest mitti ad
+          <lb ed="#P" n="53"/>illum sine reali mutatione ejus, ad quem 
+          mit<lb break="no" ed="#P" n="54"/>titur. Idlemque dicendum erit, etiamsi 
+          intelli<lb break="no" ed="#P" n="55"/>gamus remitti peccatum per extrinsecam con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>donationem, quia per solam condonationem
+          <lb ed="#P" n="57"/>ut sic, non recipit homo Spiritum 
+          inhabitan<lb break="no" ed="#P" n="58"/>tem, nisi etiam dona realiter sanctificantia 
+          re<lb break="no" ed="#P" n="59"/>cipiat. Quia per solam illam negationem quasi
+          <lb ed="#P" n="60"/>moralem non intelligitur Spiritus sanctus 
+          pe<lb break="no" ed="#P" n="61"/>culiari modo existens realiter in tali homine.
+          <lb ed="#P" n="62"/>Imo ex vi solius condonationis posset homo 
+          re<lb break="no" ed="#P" n="63"/>duci ad statum in puris naturalibus, et nullo
+          <lb ed="#P" n="64"/>modo esse supernaturaliter justus.
+        </p>
+        <p xml:id="szduep-203842-d1e419">
+          <lb ed="#P" n="65"/>5. Secunda assertio. — Dico secundo. Missio
+          <lb ed="#P" n="66"/>invisibilis propria, et perfecta non fit sine 
+          gra<lb break="no" ed="#P" n="67"/>ta sanctificante, quae includit charitatem, et
+          <lb ed="#P" n="68"/>fidem, ac spem vivam cum aliis virtutibus, et
+          <lb ed="#P" n="69"/>donis per se comitantibus gratiam. Haec 
+          asser<lb break="no" ed="#P" n="70"/>tio est D. Thomae, dict. q. 43, art. 3, et in re
+          <lb ed="#P" n="71"/>communis theologorum, licet in modo 
+          loquen<lb break="no" ed="#P" n="72"/>di sit aliqua varietas, ut statim adnotabo. 
+          Pro<lb break="no" ed="#P" n="73"/>batur, quia est necessaria realis mutatio, quae
+          <lb ed="#P" n="74"/>superet ordinem, et debitum naturae, ut 
+          os<lb break="no" ed="#P" n="75"/>tensum est, ergo debet esse mutatio per 
+          gra<lb break="no" ed="#P" n="76"/>tiam, sed haec non est perfecta, nisi fiat per
+          <lb ed="#P" n="77"/>gratiam sanctificantem, ergo haec necessaria
+          <lb ed="#P" n="78"/>est. Declaratur discursus. Quia imprimis hic
+          <lb ed="#P" n="79"/>non agimus de missione per gratiam unionis,
+          <lb ed="#P" n="80"/>quia missio, quae secundum illam fit, visibilis
+          <lb ed="#P" n="81"/>est, ut supra dixi. Sub gratia vero 
+          compre<lb break="no" ed="#P" n="82"/>hendimus mutationem per gloriam, nam illa
+          <lb ed="#P" n="83"/>supponit missionem factam per gratiam vise,
+          <lb ed="#P" n="84"/>et si aliquid ei additur in termino viae, est 
+          qua<lb break="no" ed="#P" n="85"/>si consummatio praecedentis, et ita etiam illud
+          <lb ed="#P" n="86"/>est vera gratia, et consequenter, si ibi sit
+          <lb ed="#P" n="87"/>missio, per gratiam sit. Nam gratia Dei vita
+          <lb ed="#P" n="88"/>eterna : non enim nunc rigorose 
+          considera<lb break="no" ed="#P" n="89"/>mus gratiam, ut gratis datur, sed, ut elevat
+          <lb ed="#P" n="90"/>hominem ad peculiarem statum 
+          supernatura<lb break="no" ed="#P" n="91"/>lem. Loquimur vero hic de gratia viatoris,
+          <lb ed="#P" n="92"/>quae in fide fundatur : idem vero a fortiori 
+          in<lb break="no" ed="#P" n="93"/>telligendum est, si visionem habeat 
+          conjunc<lb break="no" ed="#P" n="94"/>tam. S1 ergo detur homini gratia sanctificans
+          <lb ed="#P" n="95"/>(sive cum illa detur gloria, sive non detur)
+          <lb ed="#P" n="96"/>certum est, illam sufficere ad hanc divinam
+          <lb ed="#P" n="97"/>missionem, quia qui hanc gratiam recipit,
+          <lb ed="#P" n="98"/>mandata Dei servat, et de illo scriptum est,
+          <lb ed="#P" n="99"/>Ad eum veniemus, et mansionem apud eun 
+          fa<lb break="no" ed="#P" n="100"/>ciemus. Joan. 14. Item cum hac gratia 
+          con<lb break="no" ed="#P" n="101"/>juncta est charitas, de qua dicitur Rom. 5:
+          <lb ed="#P" n="102"/>Charitas diffusa est in cordibus nostris per
+          <lb ed="#P" n="103"/>Spiritum sanctum, qui datus est nobis. Et 1,
+          <lb ed="#P" n="104"/>Joan. 4: Qui manet in charitate, in Deo manet,
+          <lb ed="#P" n="105"/>et Deus in eo. Quomodo autem per haec dona
+          <lb ed="#P" n="106"/>fiat missio, mox explicabimus.
+        </p>
+        <p xml:id="szduep-203842-d1e513">
+          <lb ed="#P" n="107"/>6. An gratia sanctificans, sit necessaria ad
+          <lb ed="#P" n="108"/>missionem. — Quod autem gratia ipsa 
+          sanctifi<lb break="no" ed="#P" n="109"/>cans sit necessaria ad hanc missionem, non
+          <lb ed="#P" n="110"/>omnes admittunt. Nam Cajetanus, dieto art. 3,
+          <pb ed="#P" n="809"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>docet, mitti etiam personam Filli per donum
+          <lb ed="#P" n="2"/>fidei informis. Alii dixerunt, Spiritum sanctum
+          <lb ed="#P" n="3"/>mitti per inspirationes divinas, quae tempore
+          <lb ed="#P" n="4"/>antecedunt gratiam sanctificantem. Alii 
+          dixe<lb break="no" ed="#P" n="5"/>runt, etiam per gratiam gratis datam mitti
+          <lb ed="#P" n="6"/>Spiritum sanctum. Cum enim CHRISTUS dixit
+          <lb ed="#P" n="7"/>Matthaei 20: Accipite Spiritum sanctum, 
+          prae<lb break="no" ed="#P" n="8"/>cipue dedit illum ad potestatem remittendi
+          <lb ed="#P" n="9"/>peccata, quae per se non sanctificat habentem,
+          <lb ed="#P" n="10"/>sed est ad modum gratiae gratis datae, et cum
+          <lb ed="#P" n="11"/>Christus dedit Apostolis potestatem ejiciendi
+          <lb ed="#P" n="12"/>daemonia, et curandi infirmos, etc. Luc. 12.
+          <lb ed="#P" n="13"/>Spiritum sanctum eis dedissetestatur Leo papa,
+          <lb ed="#P" n="14"/>serm. 2. Pentecostes. Unde Bonaventura, in 1,
+          <lb ed="#P" n="15"/>d. 15, 2 parte illius, art. 1, q. 1, dicit per haec
+          <lb ed="#P" n="16"/>dona dari Spiritum sanctum secundum quid.
+        </p>
+        <p xml:id="szduep-203842-d1e563">
+          <lb ed="#P" n="17"/>7. Resolutio. — Nihilominus dicendum est,
+          <lb ed="#P" n="18"/>proprium donum sanctificantis gratiae 
+          neces<lb break="no" ed="#P" n="19"/>sarium esse, ut Spiritus sanctus detur et 
+          sim<lb break="no" ed="#P" n="20"/>pliciter mittatur. Ita docet D. Thomas, dicta
+          <lb ed="#P" n="21"/>q. 43, art. 3, et 1 part., q. 8, a. 3, et Alensis,
+          <lb ed="#P" n="22"/>1 part., q. 73, memb. 4, art. 2 et 3, 
+          Donaven<lb break="no" ed="#P" n="23"/>tura supra, quatenus ait, simpliciter fieri hanc
+          <lb ed="#P" n="24"/>missionem secundum donum gratiae gratum
+          <lb ed="#P" n="25"/>facientis, quod etiam sentit in 1, dist. 14, a. 2,
+          <lb ed="#P" n="26"/>q. 1, et ibi communiter theologi. Et licet 
+          for<lb break="no" ed="#P" n="27"/>tasse sit quaestio de modo loquendi, hic est 
+          ma<lb break="no" ed="#P" n="28"/>gis consentaneus modo loquendi Scripturae et
+          <lb ed="#P" n="29"/>Patrum. Nam Spiritus sanctus proprie dicitur
+          <lb ed="#P" n="30"/>mitti, quando nobis datur, ut in nobis sit et
+          <lb ed="#P" n="31"/>inhabitet, juxta Verbum Christi Joan. 14: Ego
+          <lb ed="#P" n="32"/>rogabo Patrem et aluum Paracletum dabit vobis,
+          <lb ed="#P" n="33"/>ut maneat voliscum in etermm. Et infra: Ad
+          <lb ed="#P" n="34"/>eum veniemnus et mansionem apud eum faciemus.
+          <lb ed="#P" n="35"/>At Spiritus sanctus non inhabitat, nec manet,
+          <lb ed="#P" n="36"/>nisi in justis et sanctificatis per gratiam juxta
+          <lb ed="#P" n="37"/>modum loquendi Scripturae. Sapientiae enim 1,
+          <lb ed="#P" n="38"/>dicitur quod Spiritus sanctus disciplina 
+          ejfu<lb break="no" ed="#P" n="39"/>giet fictum. Et ibidem dicitur : In malevolaum
+          <lb ed="#P" n="40"/>animam non introibit sapientia, nec habitabit
+          <lb ed="#P" n="41"/>in corpore subdito peccatis. Et cap. 7, de eadem
+          <lb ed="#P" n="42"/>divina sapientia dicitur: Infinitus lhesaurus
+          <lb ed="#P" n="43"/>est hominibus, quo qui usi sunt, participes
+          <lb ed="#P" n="44"/>facti sunt amicitiee Dei. Et infra loquens aperte
+          <lb ed="#P" n="45"/>de eadem sapientia increata subjungit sapiens:
+          <lb ed="#P" n="46"/>Cum sit una, omnia potest et in se permanens
+          <lb ed="#P" n="47"/>omnia innovat, et per notiones in animas 
+          sanc<lb break="no" ed="#P" n="48"/>tas se transfert, et amicos Dei constituit. 
+          Prae<lb break="no" ed="#P" n="49"/>terea de divino Spiritu ait Paulus 1, Cor. 3:
+          <lb ed="#P" n="50"/>Nescitis quia templum Dei estis et Spiritus Dei
+          <lb ed="#P" n="51"/>habitat in vobis, scilicet, quando estis jusii et
+          <lb ed="#P" n="52"/>sancti, unde subjungit : Sà quis autem templum
+          <lb ed="#P" n="53"/>Dei violaverit, disperdet illun Deus. Templum
+          <lb ed="#P" n="54"/>enim Dei sanctum est, quod estis vos. Sanctitas
+          <lb ed="#P" n="55"/>autem Templi hujus in gratia consistit, ergo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per hanc Spiritus sanctus habitat in illo, et illa
+          <lb ed="#P" n="57"/>ablata, discedit, ac proinde per eamdem 
+          gra<lb break="no" ed="#P" n="58"/>tiam, mittitur in animam. Unde, cap. 6, 
+          ite<lb break="no" ed="#P" n="59"/>rum ait Paulus: Nescitis, quoniam corpora
+          <lb ed="#P" n="60"/>vestra membra sunt Christi ? tollens ergo 
+          mem<lb break="no" ed="#P" n="61"/>bra Christi facium membra meretricis ? Et 
+          ite<lb break="no" ed="#P" n="62"/>rum An nescitis, quoniam membra vestra 
+          tem<lb break="no" ed="#P" n="63"/>plum sunt Spiritus sancti qui in volis est quem
+          <lb ed="#P" n="64"/>habetis a, Deo, et non estis vestri ? Et supra 
+          dixe<lb break="no" ed="#P" n="65"/>rat : Qui adheret Deo, unus Spiritus est cum
+          <lb ed="#P" n="66"/>eo. Quae omnia demonstrant, tunc haberc 
+          ho<lb break="no" ed="#P" n="67"/>minem Spiritum sanctum, quando illi adhaeret
+          <lb ed="#P" n="68"/>per amorem, et quando ipsum praefert omnibus
+          <lb ed="#P" n="69"/>rebus, ut ea ratione homo dicatur esse totus
+          <lb ed="#P" n="70"/>Spiritus sancti, potius quam sui juris, et quod
+          <lb ed="#P" n="71"/>Spiritum sanctum amittit, cum peccat. Ita
+          <lb ed="#P" n="72"/>etiam loquuntur Patres, quos jamjam 
+          refere<lb break="no" ed="#P" n="73"/>mus. Ratio vero ex dictis facile colligi potest,
+          <lb ed="#P" n="74"/>et ex sequenti assertione clarius percipietur,
+          <lb ed="#P" n="75"/>et quid de aliis sententiis sentiendum sit, 
+          in<lb break="no" ed="#P" n="76"/>telligetur.
+        </p>
+        <p xml:id="szduep-203842-d1e698">
+          <lb ed="#P" n="77"/>8. Tertia conclusio. — Dico ergo tertio.
+          <lb ed="#P" n="78"/>Quando Deus infundit animae dona gratiae 
+          sanc<lb break="no" ed="#P" n="79"/>tificantis, non solum creata Dona, sed ipsaemet
+          <lb ed="#P" n="80"/>divinae personae homini dantur, et animam ejus
+          <lb ed="#P" n="81"/>inhabitare incipiunt, et ideo talium donorum
+          <lb ed="#P" n="82"/>interventu Spiritus sanctus invisibiliter 
+          mitti<lb break="no" ed="#P" n="83"/>tur. Ita docent doctores scholastici, adeoque
+          <lb ed="#P" n="84"/>certam reputant hanc veritatem, ut D. 
+          Tho<lb break="no" ed="#P" n="85"/>mas, 1 p., q. 43, art. 3, argumento 1, errorem
+          <lb ed="#P" n="86"/>appellaverit sententiam dicentium, non dari
+          <lb ed="#P" n="87"/>Spiritum sanctum, sed ejus dona. Idem sensit
+          <lb ed="#P" n="88"/>Alensis, 1 part., quaest. 73, memb. 4, art. 1,
+          <lb ed="#P" n="89"/>et alii theologi, in 1, dist. 14 et 15. Estque
+          <lb ed="#P" n="90"/>communis sententia Patrum. Videri potest
+          <lb ed="#P" n="91"/>Leo, sermone 2, Pentecostes, Ambrosius, l. 1,
+          <lb ed="#P" n="92"/>de Spiritu sancto, c. 4 et 5, Augustinus 5, de
+          <lb ed="#P" n="93"/>Trin., c. 26, et tract. 32 et 74, in Joan. Ratio
+          <lb ed="#P" n="94"/>praecipua est, quia ita loquitur expresse 
+          Scrip<lb break="no" ed="#P" n="95"/>tura, ut patet ex testimoniis praecedenti 
+          con<lb break="no" ed="#P" n="96"/>clusione citatis. Praesertim sunt optima verba
+          <lb ed="#P" n="97"/>illa Pauli 1, Corint. 6: Membra vestra templum
+          <lb ed="#P" n="98"/>sunt Spiritus sancti, qui in vobis est, quem 
+          ha<lb break="no" ed="#P" n="99"/>betis a Deo. Quae non possunt intelligi, de 
+          do<lb break="no" ed="#P" n="100"/>nis creatis, tum quia de ipsa persona Spiritus
+          <lb ed="#P" n="101"/>sancti sermo est, tum etiam quia templum soli
+          <lb ed="#P" n="102"/>Deo dicatur, non donis creatis, quae accidentia
+          <lb ed="#P" n="103"/>quaedam sunt : unde ex hujusmodi locis solent
+          <lb ed="#P" n="104"/>Patres communiter Spiritus sancti divinitatem
+          <lb ed="#P" n="105"/>probare. Est etiam insigne testimonium illud
+          <lb ed="#P" n="106"/>ad Rom. 5: CAaritas Dei diffusa est in 
+          cordi<lb break="no" ed="#P" n="107"/>bus nostris per Spiritum sanctum, qui datus
+          <lb ed="#P" n="108"/>est nobis. Ibi enim donum charitatis creatum
+          <lb ed="#P" n="109"/>ab Spiritu sancto distinguitur, diciturque esse
+          <lb ed="#P" n="110"/>effectum Spiritus sancti nobis dati. Et 1, Joan-
+          <pb ed="#P" n="810"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nis 4, dicitur : Qui manet in Charitate, in Deo
+          <lb ed="#P" n="2"/>manet, et Deus in eo. Qui ergo in charitate 
+          ma<lb break="no" ed="#P" n="3"/>net, non solum habet donum creatum, sed illo
+          <lb ed="#P" n="4"/>mediante ita Deo conjungitur, ut vere Deus
+          <lb ed="#P" n="5"/>sit in eo, juxta illud Joannis 14: Ad eum 
+          ve<lb break="no" ed="#P" n="6"/>niemus, etc. Et illud: Apud vos manebit et in
+          <lb ed="#P" n="7"/>cobis erit : Hae igitur et similes locutiones 
+          fre<lb break="no" ed="#P" n="8"/>quenter in Scriptura repetitae verificari non
+          <lb ed="#P" n="9"/>possunt per solam infusionem gratiae creatae :
+          <lb ed="#P" n="10"/>ergo oportet fateri aliquo modo magis proprio
+          <lb ed="#P" n="11"/>ipsammet personam divinam mitti.
+        </p>
+        <p xml:id="szduep-203842-d1e803">
+          <lb ed="#P" n="12"/>9. Dubium.— Responsum.—bDifficultas vero
+          <lb ed="#P" n="13"/>est in explicando, quis possit esse iste modus,
+          <lb ed="#P" n="14"/>quo persona ipsa divina dari dicatur ultra 
+          do<lb break="no" ed="#P" n="15"/>na sua. Quia quod attinet ad realem et 
+          inti<lb break="no" ed="#P" n="16"/>mam existentiam in anima, certum est, neque
+          <lb ed="#P" n="17"/>acquiri, quia persona divina non movetur et
+          <lb ed="#P" n="18"/>anima supponitur praeexistens, neque etiam
+          <lb ed="#P" n="19"/>augeri ex parte Dei, propter eamdem 
+          immu<lb break="no" ed="#P" n="20"/>tabilitatem, neque ex parte animae, quia illa
+          <lb ed="#P" n="21"/>indivisibilis est, et toti Deo est totaliter, et 
+          in<lb break="no" ed="#P" n="22"/>time praesens secundum essentiam, nec in eo
+          <lb ed="#P" n="23"/>modo praesentiae, vel existentiae Dei in re 
+          ali<lb break="no" ed="#P" n="24"/>qua potest dari magis, vel minus. Quo 
+          suppo<lb break="no" ed="#P" n="25"/>sito solum videtur adjungi major, vel minor
+          <lb ed="#P" n="26"/>effectus Dei in anima, quod totum videtur 
+          per<lb break="no" ed="#P" n="27"/>tinere ad dona creata et eorum infusionem,
+          <lb ed="#P" n="28"/>non vero ad peculiarem donationem ipsiusmet
+          <lb ed="#P" n="29"/>personae increatae. Ad hoc respondet D. 
+          Tho<lb break="no" ed="#P" n="30"/>mas, 1 p., q. 8, a. 3, et q. 43, a. 3, dari 
+          mo<lb break="no" ed="#P" n="31"/>dum specialem, quo Deus est in creatura 
+          ra<lb break="no" ed="#P" n="32"/>tionali, sicut cognitum in cognoscente et sicut
+          <lb ed="#P" n="33"/>amatum in amante. Nam creatura rationalis
+          <lb ed="#P" n="34"/>attingit ad Deum ipsum per hanc operationem
+          <lb ed="#P" n="35"/>cognitionis et amoris, et ideo dicitur Deus esse
+          <lb ed="#P" n="36"/>in ipsa, et habitare in ea tanquam in templo
+          <lb ed="#P" n="37"/>suo. Intelligit autem D. Thomas Deum esse
+          <lb ed="#P" n="38"/>hoc modo in homine per cognitionem et 
+          amo<lb break="no" ed="#P" n="39"/>rem, non sigillatim, sed simul et conjunctim,
+          <lb ed="#P" n="40"/>et ita concludit esse per gratiam, per quam
+          <lb ed="#P" n="41"/>homo perfecte cognoscit et amat Deum, 
+          reci<lb break="no" ed="#P" n="42"/>pitque potestatem fruendi Deo in se 
+          existen<lb break="no" ed="#P" n="43"/>tem, quantum in hac vita potest, per quod
+          <lb ed="#P" n="44"/>disponitur ad perfecte fruendum in alia.
+        </p>
+        <p xml:id="szduep-203842-d1e877">
+          <lb ed="#P" n="45"/>10. Inde insurgit difficultas. — Sed adhuc
+          <lb ed="#P" n="46"/>superest difficultas, quia objectum cognitum
+          <lb ed="#P" n="47"/>et amatum duplici ratione dicitur esse in 
+          a<lb break="no" ed="#P" n="48"/>mante, et cognoscente : uno modo secundum
+          <lb ed="#P" n="49"/>esse repraesentativum, quod habet in Verbo,
+          <lb ed="#P" n="50"/>quo cognoscitur et per modum cujusdam 
+          im<lb break="no" ed="#P" n="51"/>pulsus per amorem. Alio modo tantum 
+          objec<lb break="no" ed="#P" n="52"/>üve. Si ergo sit sermo de priori modo, Deum
+          <lb ed="#P" n="53"/>esse in anima ut objectum cognitum et 
+          ama<lb break="no" ed="#P" n="54"/>tum. nihil aliud est, quam fieri in homine vel
+          <lb ed="#P" n="55"/>conceptum quemdam supernaturali modo re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praesantantem Deum, ratione cujus dicitur Deus
+          <lb ed="#P" n="57"/>esse intra hominem, sicut cognitum in 
+          cognos<lb break="no" ed="#P" n="58"/>cente, vel fieri in voluntate hominis 
+          superna<lb break="no" ed="#P" n="59"/>turalem quemdam impetum amoris in Deum,
+          <lb ed="#P" n="60"/>ratione cujus et homo ipse dicitur esse in Deo
+          <lb ed="#P" n="61"/>tanquam in termino suae inclinationis et Deus
+          <lb ed="#P" n="62"/>in eo tanquam trahens ipsum. At vero totum
+          <lb ed="#P" n="63"/>hoc non excedit existentiam Dei in homine per
+          <lb ed="#P" n="64"/>dona creata cognitionis et amoris, nam ab illis
+          <lb ed="#P" n="65"/>extrinsece denominatur Deus sic existens in
+          <lb ed="#P" n="66"/>homine. Nam quod in homine vere et realiter
+          <lb ed="#P" n="67"/>existit, non est aliud, quam conceptus mentis
+          <lb ed="#P" n="68"/>et impulsus voluntatis. Si vero sit sermo de
+          <lb ed="#P" n="69"/>alio modo existendi solum ut objectum 
+          cogni<lb break="no" ed="#P" n="70"/>tum et amatum, sic multo evidentius est, illam
+          <lb ed="#P" n="71"/>esse denominationem extrinsecam, quae non
+          <lb ed="#P" n="72"/>requirit vi sua existentiam Dei intra hominem.
+          <lb ed="#P" n="73"/>Sic enim etiam objectum longissime distans
+          <lb ed="#P" n="74"/>esse potest in me tanquam cognitum et 
+          ama<lb break="no" ed="#P" n="75"/>tum. Et si Deus per immensitatem suam non
+          <lb ed="#P" n="76"/>esset intra hominem, sed in coelo tantum et in
+          <lb ed="#P" n="77"/>homine fieret cognitio et amor Dei: esset Deus
+          <lb ed="#P" n="78"/>in homine ut cognitum in cognoscente et 
+          ama<lb break="no" ed="#P" n="79"/>tum in amante. Et tunc non esset illa ratio
+          <lb ed="#P" n="80"/>sufficiens, ut diceretur Deus ipse, quoad suam
+          <lb ed="#P" n="81"/>personam et substantiam dari homini. Imo
+          <lb ed="#P" n="82"/>etiam homo in puris naturalibus existens, si
+          <lb ed="#P" n="83"/>ejus cognitionem et amorem naturalem 
+          acqui<lb break="no" ed="#P" n="84"/>reret, diceretur habere Deum ut objectum 
+          cog<lb break="no" ed="#P" n="85"/>nitum et amatum, et tamen non propterea 
+          di<lb break="no" ed="#P" n="86"/>ceretur Deus ipse quoad substantiam suam dari
+          <lb ed="#P" n="87"/>se tali homini, aut esse in illo proprio et 
+          spe<lb break="no" ed="#P" n="88"/>ciali modo.
+        </p>
+        <p xml:id="szduep-203842-d1e977">
+          <lb ed="#P" n="89"/>11. Opinio quorumdam.—Propter haec 
+          mo<lb break="no" ed="#P" n="90"/>derni aliqui concedunt, hunc modum existendi
+          <lb ed="#P" n="91"/>Dei in creatura rationali, non esse talem, ut ex
+          <lb ed="#P" n="92"/>vi illius Deus sit realiter et per essentiam in
+          <lb ed="#P" n="93"/>illa, quia solum cognitione, et affectu actuali,
+          <lb ed="#P" n="94"/>vel habituali in illo esse dicitur. Quod si 
+          infe<lb break="no" ed="#P" n="95"/>ratur secundum-hunc modum non dari 
+          perso<lb break="no" ed="#P" n="96"/>nam Spiritus sancti, sed dona ejus; respondent,
+          <lb ed="#P" n="97"/>dari Spiritum sanctum solum, quia ibi, ubi
+          <lb ed="#P" n="98"/>antea erat per immensitatem effectus gratiae
+          <lb ed="#P" n="99"/>operatur. At profecto hoc non trancendit 
+          mo<lb break="no" ed="#P" n="100"/>dum existendi Dei in creatura per potentiam,
+          <lb ed="#P" n="101"/>qui modus quasi extensive augetur per novum
+          <lb ed="#P" n="102"/>effectum : et per extrinsecam denominationem
+          <lb ed="#P" n="103"/>ab illo. Unde non fit, Deum incipere esse novo
+          <lb ed="#P" n="104"/>modo in anima, qui sit distinctus ab illis 
+          tri<lb break="no" ed="#P" n="105"/>bus. Nec videtur sufficere, ut Deus ipse venire
+          <lb ed="#P" n="106"/>aut mitti dicatur, cum ex vi talis modi non
+          <lb ed="#P" n="107"/>constituatur ibi Dei substantia praesens, nec
+          <lb ed="#P" n="108"/>novo titulo ibi ad sit, secundum suammet 
+          per<lb break="no" ed="#P" n="109"/>sonam. Denique, si ad missionem satis esset
+          <lb ed="#P" n="110"/>ille novus effectus, posset Deus«mitti ad crea-
+          <pb ed="#P" n="811"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>turas irrationales, etiam sine unione 
+          hyposta<lb break="no" ed="#P" n="2"/>tica et ad peccatores, et ad Daemones aliquid
+          <lb ed="#P" n="3"/>miraculosum in eis operando.
+        </p>
+        <p xml:id="szduep-203842-d1e1038">
+          <lb ed="#P" n="4"/>12. Videtur igitur mihi satis probabiliter et
+          <lb ed="#P" n="5"/>pie sentire, qui dicunt, talia esse dona gratiae
+          <lb ed="#P" n="6"/>gratum facientis, ut vi sua, vel quasi 
+          connatu<lb break="no" ed="#P" n="7"/>rali jure postulent intimam, realem, ac 
+          perso<lb break="no" ed="#P" n="8"/>nalem praesentiam Dei in anima per talia dona
+          <lb ed="#P" n="9"/>sanctificata. Quod per hanc conditionalem 
+          op<lb break="no" ed="#P" n="10"/>time declaratur. Quia si per impossibile 
+          finga<lb break="no" ed="#P" n="11"/>mus Spiritum sanctum non esse alias realiter
+          <lb ed="#P" n="12"/>praesentem intra animam eo ipso quod anima
+          <lb ed="#P" n="13"/>talibus donis afficeretur, ipsemet Spiritus 
+          sanc<lb break="no" ed="#P" n="14"/>tus veniret ad illam per praesentiam 
+          persona<lb break="no" ed="#P" n="15"/>lem, et in ea esset, et maneret, quamdiu 
+          gra<lb break="no" ed="#P" n="16"/>tia in illa duraret. Atque hac ratione, licet
+          <lb ed="#P" n="17"/>nunc alias habeat illam praesentiam ratione
+          <lb ed="#P" n="18"/>suae immensitatis, et potentiae, merito dicitur
+          <lb ed="#P" n="19"/>nunc habere illam speciali titulo, ratione 
+          gra<lb break="no" ed="#P" n="20"/>tiae, et charitatis, et ideo merito dicitur venire,
+          <lb ed="#P" n="21"/>vel mitti ad animam mediantibus his donis.
+          <lb ed="#P" n="22"/>Sic enim intelligimus missionem Verbi divini
+          <lb ed="#P" n="23"/>ad humanitatem, quam assumpsit, quia licet
+          <lb ed="#P" n="24"/>fingeremus, Verbum non esse per 
+          immensita<lb break="no" ed="#P" n="25"/>tem praesens illi humanitati, eo ipso, quod illi
+          <lb ed="#P" n="26"/>hypostatice uniretur, ex vi unionis, et ad illam
+          <lb ed="#P" n="27"/>terminandam oporteret fieri intime praesens,
+          <lb ed="#P" n="28"/>et ideo ratione unionis dicitur nunc esse in illa
+          <lb ed="#P" n="29"/>humanitate realiter, et intime speciali modo.
+          <lb ed="#P" n="30"/>Ad hunc ergo modum dicimus Spiritum 
+          sanc<lb break="no" ed="#P" n="31"/>tum dari animae, et speciali modo esse in illa
+          <lb ed="#P" n="32"/>intime, ac realiterratione gratiae sanctificantis.
+          <lb ed="#P" n="33"/>Hoc autem intelligitur evidentius in exemplo
+          <lb ed="#P" n="34"/>adducto, quia illa unio realis, ac physica est,
+          <lb ed="#P" n="35"/>ac ita substantialis, ut ex illa unum per se 
+          con<lb break="no" ed="#P" n="36"/>surgat, quod intelligi non potest sine mutua,
+          <lb ed="#P" n="37"/>ac intima praesentia eorum, quae uniuntur. At
+          <lb ed="#P" n="38"/>in hac unione per gratiam non intercedit tam
+          <lb ed="#P" n="39"/>evidens ratio, nam est magis unio affectiva,
+          <lb ed="#P" n="40"/>quae accidentalis dici solet, quia mediis 
+          acci<lb break="no" ed="#P" n="41"/>dentibus fit.
+        </p>
+        <p xml:id="szduep-203842-d1e1123">
+          <lb ed="#P" n="42"/>13. Nihilominus reddi potest sufficiens ratio
+          <lb ed="#P" n="43"/>moralis, quae rem hanc satis declaret. Nam per
+          <lb ed="#P" n="44"/>gratiam, et charitatem perfectissima quaedam
+          <lb ed="#P" n="45"/>amicitia inter Deum, et hominem constituitur.
+          <lb ed="#P" n="46"/>Amicitia vero ex se petit unionem inter 
+          ami<lb break="no" ed="#P" n="47"/>cos, non solum per conformitatem affectuum,
+          <lb ed="#P" n="48"/>sed etiam per inseparabilem praesentiam, et
+          <lb ed="#P" n="49"/>conjunctionem, quoad fieri possit. Unde 
+          ami<lb break="no" ed="#P" n="50"/>citia perfectissima et maxime spiritualis, ac 
+          di<lb break="no" ed="#P" n="51"/>vina suo jure, ac debito postulat intimam Dei
+          <lb ed="#P" n="52"/>praesentiam in homine ; quem sibi hoc modo
+          <lb ed="#P" n="53"/>amicam constituit per realem existentiam 
+          in<lb break="no" ed="#P" n="54"/>tra ipsum ex vi talis amicitiae, ita ut, 
+          quam<lb break="no" ed="#P" n="55"/>vis alio titulo ibi non esset, hic sufficeret. Quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vero haec unio ita est amicitiae, ut tamen non
+          <lb ed="#P" n="57"/>sit omnino inter aequales, sed cum debita 
+          pro<lb break="no" ed="#P" n="58"/>portione, ideo ex vi illius manet Deus in 
+          ho<lb break="no" ed="#P" n="59"/>mine, ut protector, et rector ejus, cujus Deus
+          <lb ed="#P" n="60"/>curam gerit, non solum titulo generalis 
+          pro<lb break="no" ed="#P" n="61"/>videntiae suae, sed peculiari titulo amicitiae.
+          <lb ed="#P" n="62"/>Denique quia in hac amicitia semper habenda
+          <lb ed="#P" n="63"/>est ratio divinae majestatis, ideo ita ex vi illius
+          <lb ed="#P" n="64"/>manet Spiritus sanctus in homine ut in amico,
+          <lb ed="#P" n="65"/>cui intime unitur, ut simul maneat ibi 
+          tan<lb break="no" ed="#P" n="66"/>quam amicus summa reverentia et 
+          veneratio<lb break="no" ed="#P" n="67"/>ne colendus, ideoque manet etiam ibi praesens
+          <lb ed="#P" n="68"/>tanquam in templo vivo, quod ipse sibi ornat,
+          <lb ed="#P" n="69"/>et praeparat per dona creata, ut in illo, et ab
+          <lb ed="#P" n="70"/>illo adoretur. Atque hunc certe praesentiae et
+          <lb ed="#P" n="71"/>inhabitationis modum indicant sacrae litterae
+          <lb ed="#P" n="72"/>in locis citatis.
+        </p>
+        <p xml:id="szduep-203842-d1e1195">
+          <lb ed="#P" n="73"/>14. Nec est alienus ab explicatione D. 
+          Tho<lb break="no" ed="#P" n="74"/>mas, sed quaedam declaratio illius. Nam per
+          <lb ed="#P" n="75"/>gratiam et charitatem manet Deus in anima
+          <lb ed="#P" n="76"/>ut objectum cognitum et amatum, non 
+          utcum<lb break="no" ed="#P" n="77"/>que, sed per modum amuici intime dilecti, qui
+          <lb ed="#P" n="78"/>non utcumque objective dicitur esse in amante?
+          <lb ed="#P" n="79"/>sed tanquam bonum intime praesens et intra
+          <lb ed="#P" n="80"/>ipsum amantem existens, ut eum peculiariter
+          <lb ed="#P" n="81"/>custodiat, et regat, et ab eo in corde suo 
+          cola<lb break="no" ed="#P" n="82"/>tur, et adoretur. Quod potest etiam declarari
+          <lb ed="#P" n="83"/>exemplo Beatorum: nam ex vi luminis 
+          glo<lb break="no" ed="#P" n="84"/>riae habent Deum peculiari modo suis 
+          menti<lb break="no" ed="#P" n="85"/>bus praesentem in ratione objecti visibilis 
+          inti<lb break="no" ed="#P" n="86"/>me quodam modo unitam ipsis Beatis, ut per
+          <lb ed="#P" n="87"/>se ipsum, et absque alio medio videatur. Ubi
+          <lb ed="#P" n="88"/>Iumen gloriae non facit quidem per se ipsum
+          <lb ed="#P" n="89"/>novam unionem physicam inter intellectum et
+          <lb ed="#P" n="90"/>Deum, ut eo modo dicatur illum facere 
+          prae<lb break="no" ed="#P" n="91"/>sentem, tamen est talis dispositio, quae natura
+          <lb ed="#P" n="92"/>sua postulat talem praesentiam, etiam praecisa
+          <lb ed="#P" n="93"/>consideratione immensitatis, cur ergo non 
+          po<lb break="no" ed="#P" n="94"/>terit gratia, et charitas esse similis dispositio
+          <lb ed="#P" n="95"/>alio titulo jam declarato ? Denique declaratur,
+          <lb ed="#P" n="96"/>et confirmatur amplius ex doctrina Dionysii,
+          <lb ed="#P" n="97"/>c. 4, de Div. nom., explicata a D. Thoma, 1,
+          <lb ed="#P" n="98"/>2, q. 98, art. 1, dicente, amorem duplicem
+          <lb ed="#P" n="99"/>efficere unionem, realem et effectivam, et 
+          prio<lb break="no" ed="#P" n="100"/>rem dicit esse, cum amatum praesentialiter
+          <lb ed="#P" n="101"/>adest amanti : Et hanc (inquit) facit amor 
+          ef<lb break="no" ed="#P" n="102"/>fective, quia movet ad desiderandwn, et 
+          quee<lb break="no" ed="#P" n="103"/>rendum presentium amati quasi sibi 
+          conve<lb break="no" ed="#P" n="104"/>nientis : Affertque Augustinum, lib.8, de Trin.,
+          <lb ed="#P" n="105"/>cap. 10, dicentem : Quod amor est velut 
+          junc<lb break="no" ed="#P" n="106"/>tura duo aliqua copulans, vel copulare 
+          appe<lb break="no" ed="#P" n="107"/>tens. Et exponit D. Thomas quod dicit copulans
+          <lb ed="#P" n="108"/>referri ad unitatem affectus, quod dicit 
+          copu<lb break="no" ed="#P" n="109"/>lare appetens, pertinere ad unionem realem.
+          <lb ed="#P" n="110"/>Quia ergo Deus perfecte amat, quos sanctifi-
+          <pb ed="#P" n="812"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cat et quia quod intendit, assequi potest, ideo
+          <lb ed="#P" n="2"/>ex vi talis amoris animae unitur secundum
+          <lb ed="#P" n="3"/>prasentiam realem.
+        </p>
+        <p xml:id="szduep-203842-d1e1292">
+          <lb ed="#P" n="4"/>15. Atque ita intelligitur optime propria 
+          ra<lb break="no" ed="#P" n="5"/>tio, ob quam persona Spiritus sancti non 
+          da<lb break="no" ed="#P" n="6"/>tur, nisi per haec dona divina, quae includunt
+          <lb ed="#P" n="7"/>gratiam sanctificantem et charitatem. Ratio
+          <lb ed="#P" n="8"/>autem est, quia sine his donis non contrahitur
+          <lb ed="#P" n="9"/>vera, et realis amicitia inter Deum et 
+          homi<lb break="no" ed="#P" n="10"/>nem. Ex quo etiam facile patet, quid de alus
+          <lb ed="#P" n="11"/>sententiis supra relatis sentiendum sit, nam
+          <lb ed="#P" n="12"/>uno verbo dicendum est, in illis omnibus 
+          mo<lb break="no" ed="#P" n="13"/>dis non dari peculiari modo personam Spiritus
+          <lb ed="#P" n="14"/>sancti, sed dari aliquod speciale donum ejus,
+          <lb ed="#P" n="15"/>ut fides, inspiratio, vel gratia gratis data. Et
+          <lb ed="#P" n="16"/>quia haec dona sunt ordinis superioris ultra
+          <lb ed="#P" n="17"/>natura ordinem, ideo potest dici Deus, vel
+          <lb ed="#P" n="18"/>Spiritus sanctus esse peculiari modo in homine
+          <lb ed="#P" n="19"/>ratione illorum, qui tamen modus non 
+          exce<lb break="no" ed="#P" n="20"/>dit modum existendi per potentiam, sed intra
+          <lb ed="#P" n="21"/>illum dicit quamdam majorem perfectionem.
+          <lb ed="#P" n="22"/>Sic etiam dicitur interdum Deus esse peculiari
+          <lb ed="#P" n="23"/>modo in aliquo, ut eum illuminet, vel dirigat,
+          <lb ed="#P" n="24"/>ut in Propheta, et sic etiam dicitur assistere
+          <lb ed="#P" n="25"/>pontifici, vel Concilio in definiendis rebusfidei,
+          <lb ed="#P" n="26"/>vel seriptori sacro, ut canonice scribat, vel
+          <lb ed="#P" n="27"/>principi, ut regat. Tamen haec omnia solum 
+          in<lb break="no" ed="#P" n="28"/>telliguntur secundum peculiarem respectum
+          <lb ed="#P" n="29"/>divinae providentiae: unde in tantum 
+          requi<lb break="no" ed="#P" n="30"/>runt realem praesentiam DEI, in quantum
+          <lb ed="#P" n="31"/>DEUS non separatur a rebus, quibus providet,
+          <lb ed="#P" n="32"/>vel quatenus operari non potest, nisi ubi est.
+          <lb ed="#P" n="33"/>Et ita continentur sub illis modis existendi
+          <lb ed="#P" n="34"/>DEI in rebus per essentiam, praesentiam et 
+          po<lb break="no" ed="#P" n="35"/>tentiam, non tamen attingunt peculiarem 
+          il<lb break="no" ed="#P" n="36"/>Ium modum et titulum, quo Spiritus sanctus est
+          <lb ed="#P" n="37"/>in justis ratione gratiae et charitatis.
+        </p>
+        <p xml:id="szduep-203842-d1e1368">
+          <lb ed="#P" n="38"/>16. Objectio. — Prima opinio. — Secunda
+          <lb ed="#P" n="39"/>opinio.—Superest vero objectio, nam sequitur
+          <lb ed="#P" n="40"/>ex dictis, Spiritum sanctum proprienon mitti,
+          <lb ed="#P" n="41"/>nisi cum gratia significans primo infunditur,
+          <lb ed="#P" n="42"/>non vero quando postea per intensionem 
+          au<lb break="no" ed="#P" n="43"/>getur. Consequens videtur contra D. Thomam,
+          <lb ed="#P" n="44"/>dicta quaest 43, art. 6, ad secundum, ergo.
+          <lb ed="#P" n="45"/>Sequela probatur, quia postquam Spiritus
+          <lb ed="#P" n="46"/>sanctus Jam est in anima per gratiam, licet
+          <lb ed="#P" n="47"/>postea gratia augeatur, non incipit esse novo
+          <lb ed="#P" n="48"/>modo in illa, ergo non mittitur ad illam, quia
+          <lb ed="#P" n="49"/>nemo mittitur, nisi ubi non erat, vel saltem
+          <lb ed="#P" n="50"/>non erat illo modo, quo recipit esse per 
+          mis<lb break="no" ed="#P" n="51"/>sionem. Circa hoc varie loquuntur theologi.
+          <lb ed="#P" n="52"/>Quidam negant absolute, Spiritum sanctum
+          <lb ed="#P" n="53"/>mitti invisibiliter ad hominem jam 
+          justifica<lb break="no" ed="#P" n="54"/>tum, quantumvis in gratia, vel in donis 
+          gra<lb break="no" ed="#P" n="55"/>tiae intensive, aut extensive crescat. Tribuitur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>D. Thomae, in dicto articulo sexto, eo, quod in
+          <lb ed="#P" n="57"/>fine corporis dixerit, ad missionem 
+          invisibi<lb break="no" ed="#P" n="58"/>lem requiri innovationem quamdam per 
+          gra<lb break="no" ed="#P" n="59"/>tiam. Sed immerito hoc illi tribuitur, nam 
+          e<lb break="no" ed="#P" n="60"/>tiam in argumento gratiae est quaedam in 
+          no<lb break="no" ed="#P" n="61"/>vatio, ut ipse ad secundum explicuit. Alii (ut
+          <lb ed="#P" n="62"/>divus Bonaventura refert) dixerunt, cum gratia
+          <lb ed="#P" n="63"/>imperceptibiliter augetur, non fieri novam
+          <lb ed="#P" n="64"/>missionem ; si autem augeatur, perceptibiliter
+          <lb ed="#P" n="65"/>fieri. Verba tamen haec ambigua sunt, nam si
+          <lb ed="#P" n="66"/>dicatur augeri perceptibiliter, id est, sub 
+          si<lb break="no" ed="#P" n="67"/>gno aliquo visibihi, ut factum est in die 
+          Pente<lb break="no" ed="#P" n="68"/>costes, sic non est ad rem, quia tractamus de
+          <lb ed="#P" n="69"/>missione invisibili, et ita omne augmentum
+          <lb ed="#P" n="70"/>gratiae imperceptibile est. Si veroaugmentum
+          <lb ed="#P" n="71"/>dicatur imperceptibile, quia sensim et 
+          paula<lb break="no" ed="#P" n="72"/>tim fit, et notabiliter non immutat modum
+          <lb ed="#P" n="73"/>operandi, perceptibile autem dicatur, quando
+          <lb ed="#P" n="74"/>est adeo extraordinarium et excellens, ut per
+          <lb ed="#P" n="75"/>effectus possit aliquo modo percipi. Sic certa
+          <lb ed="#P" n="76"/>distinctio illa valde accidentaria videtur ad 
+          ra<lb break="no" ed="#P" n="77"/>tionem missionis.Unde ipse Bonaventura, in1,
+          <lb ed="#P" n="78"/>dist. 15, quaest. ult. sentit, per nullum 
+          aug<lb break="no" ed="#P" n="79"/>mentum, quod sit tantum intensivum gratiae,
+          <lb ed="#P" n="80"/>mitti divinam personam, propter rationem jam
+          <lb ed="#P" n="81"/>factam, quod non incipit ibi esse novo modo,
+          <lb ed="#P" n="82"/>per augmentum quasi extensivum, quo 
+          exten<lb break="no" ed="#P" n="83"/>ditur gratia ad novum operandi modum per
+          <lb ed="#P" n="84"/>novum donum, verbi gratia, linguarum, vel
+          <lb ed="#P" n="85"/>per novum auxilium, ut in augmento, quod
+          <lb ed="#P" n="86"/>fit per Sacramentum Confirmationis, tunc fieri
+          <lb ed="#P" n="87"/>missionem, quia jam est ibi Spiritus sanctus
+          <lb ed="#P" n="88"/>novo modo. Quam opinionem docuit prius
+          <lb ed="#P" n="89"/>Alensis, 1 part., quaest. 713, memb. 4, art. 3,
+          <lb ed="#P" n="90"/>in corpore, licet in solutione, ad 2, non 
+          videa<lb break="no" ed="#P" n="91"/>tur omnino in ea persistere. Ait enim, 
+          duph<lb break="no" ed="#P" n="92"/>cem esse sanctificationem animae: primam,
+          <lb ed="#P" n="93"/>quae est per infusionem gratiae et secundam,
+          <lb ed="#P" n="94"/>quae est per augmentum, et per utramque 
+          fie<lb break="no" ed="#P" n="95"/>ri missionem, licet magis proprie per primam.
+          <lb ed="#P" n="96"/>Et utrumque censet probabile Corduba, libro
+          <lb ed="#P" n="97"/>primo, quaestionarii, q. 41, in fine.
+        </p>
+        <p xml:id="szduep-203842-d1e1503">
+          <lb ed="#P" n="98"/>17. Opinio D. Thomae. — Resolutio. — Divus
+          <lb ed="#P" n="99"/>Thomas vero, in dicto art. 6, ad 2, absolute
+          <lb ed="#P" n="100"/>docet, secundum profectum virtutis, aut 
+          aug<lb break="no" ed="#P" n="101"/>mentum gratiae fieri missionem invisibilem,
+          <lb ed="#P" n="102"/>praecipue vero attendi quoad augmentum,
+          <lb ed="#P" n="103"/>quando aliquis proficit in aliquem novum
+          <lb ed="#P" n="104"/>statum gratiae, ut in gratiam miraculorum,
+          <lb ed="#P" n="105"/>aut prophetiae, aut ex fervore charitatis 
+          ag<lb break="no" ed="#P" n="106"/>greditur insigne opus virtutis ut martyrii,
+          <lb ed="#P" n="107"/>abrenunciationis saeculi. Imo, quod difficilius
+          <lb ed="#P" n="108"/>mihi est, addit in solutione, ad 3, etiam in
+          <lb ed="#P" n="109"/>Beatis fieri novas missiones invisibiles, praeter
+          <lb ed="#P" n="110"/>eam, quae in principio beatjtudinis facta est,
+          <pb ed="#P" n="813"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>per novas relationes. Quia licet gratia eis non
+          <lb ed="#P" n="2"/>intendatur, recipit quoddam augmentum
+          <lb ed="#P" n="3"/>quasi ostensivum. Mihi vero placet imprimis
+          <lb ed="#P" n="4"/>per omne augmentum gratie sanctificantis
+          <lb ed="#P" n="5"/>fieri missionem. Quia majoris momenti est,
+          <lb ed="#P" n="6"/>magisque pertinet ad unionem cum Deo hoc
+          <lb ed="#P" n="7"/>augmentum, quam omne augmentum 
+          exten<lb break="no" ed="#P" n="8"/>sivum, si non includat intensivam ipsiusmet
+          <lb ed="#P" n="9"/>sanctificantis gratiae. Et ita sentit Durandus,
+          <lb ed="#P" n="10"/>in 1, dist. 5, quaest. 4, in fine, cum ait, 
+          mis<lb break="no" ed="#P" n="11"/>sionem fieri per dona gratuita vel augmentum
+          <lb ed="#P" n="12"/>eorum. Nec objectio in contrarium (scilicet
+          <lb ed="#P" n="13"/>quod persona divina jam antea ibi erat) urget:
+          <lb ed="#P" n="14"/>quia sicut ille homo novum accipit gratiae
+          <lb ed="#P" n="15"/>gradum, ita persona divina incipit esse ibi
+          <lb ed="#P" n="16"/>novo modo magis perfecto, tum etiam quia
+          <lb ed="#P" n="17"/>quilibet gradus gratiae est de se sufficiens, ut
+          <lb ed="#P" n="18"/>secum afferat divinam personam, unde, quod
+          <lb ed="#P" n="19"/>antea sit, est quasi per accidens.
+        </p>
+        <p xml:id="szduep-203842-d1e1579">
+          <lb ed="#P" n="20"/>18. Deinde assero, quando gratia ita 
+          auge<lb break="no" ed="#P" n="21"/>tur extensive ad peculiares effectus, et actus,
+          <lb ed="#P" n="22"/>sive ejusdem gratiae sanctificantis, sive gratis
+          <lb ed="#P" n="23"/>datae, aut specialis potestatis supernaturalis.
+          <lb ed="#P" n="24"/>ut specialiter sanctificetur persona in ordine
+          <lb ed="#P" n="25"/>ad tales actus, tunc ad illam fit propriissime
+          <lb ed="#P" n="26"/>missio, etiamsi prius facta fuerit. Sic facta
+          <lb ed="#P" n="27"/>missio ad Apostolos et octavo die post 
+          resur<lb break="no" ed="#P" n="28"/>rectionem, Joannes 20, et in die Pentecostes, ut
+          <lb ed="#P" n="29"/>bene exponit Leo, papa, sermone 2, 
+          Pentecos<lb break="no" ed="#P" n="30"/>tes. Sic etiam fieri existimo per Sacramenta,
+          <lb ed="#P" n="31"/>quae sanctificant hominem in ordine ad 
+          pecu<lb break="no" ed="#P" n="32"/>liares actus, dando simul specialia auxilia, et
+          <lb ed="#P" n="33"/>gratias sacramentales. Tandem vero existimo
+          <lb ed="#P" n="34"/>solam collationem novi doni gratiae gratis
+          <lb ed="#P" n="35"/>date, vel auxilii praevenientis sine augmento
+          <lb ed="#P" n="36"/>gratise sanctificantis, non sufficere ad propriam
+          <lb ed="#P" n="37"/>missionem personae divinae. Nam, ut supra
+          <lb ed="#P" n="38"/>dictum est, haec dona de se non sufficiunt ad
+          <lb ed="#P" n="39"/>propriam missionem, ergo licet dentur 
+          ho<lb break="no" ed="#P" n="40"/>mini justo, non sufficiunt, quia non afferunt
+          <lb ed="#P" n="41"/>novum titulum de se sufficientem ad specialem
+          <lb ed="#P" n="42"/>praesentiam personae divinae praeter eam, quae
+          <lb ed="#P" n="43"/>est per potentiam. Unde in beatis probabile
+          <lb ed="#P" n="44"/>existimo, non fieri novas missiones, sicut non
+          <lb ed="#P" n="45"/>sit gratiae sanctificantis augmentum. Maxime,
+          <lb ed="#P" n="46"/>quia ille revelationes sunt quasi connaturales
+          <lb ed="#P" n="47"/>illi statui, et ex vi illius singularis praesentiae,
+          <lb ed="#P" n="48"/>et existentiee, quam Deus habet in beatis, 
+          con<lb break="no" ed="#P" n="49"/>feruntur. Unde ego dicerem, DEUM 
+          existen<lb break="no" ed="#P" n="50"/>tem in beato operari in illo convenienter ad
+          <lb ed="#P" n="51"/>praesentiam, quam in illo habet, et ex vi 
+          prio<lb break="no" ed="#P" n="52"/>ris missionis, potius quam de novo ad illum
+          <lb ed="#P" n="53"/>mitti.
+        </p>
+        <p xml:id="szduep-203842-d1e1655">
+          <lb ed="#P" n="54"/>19. Atque hinc tandem intelligitur, in hac
+          <lb ed="#P" n="55"/>missione invisibili nunquam mitti unam per-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sonam sine alia es his, quae mitti possunt.
+          <lb ed="#P" n="57"/>Ita D. Thomas, dicta quaest. 43, art. 5 et 7,
+          <lb ed="#P" n="58"/>Bonaventura supra, et late Corduba, dicta
+          <lb ed="#P" n="59"/>quaest. 41. Ratione ita declaratur, quia non
+          <lb ed="#P" n="60"/>mittuntur per illa dona, nisi ut connexa sunt
+          <lb ed="#P" n="61"/>cum gratia sanctificante, et sic non separantur.
+          <lb ed="#P" n="62"/>Secundo, quia quodlibet donum est ab utraque
+          <lb ed="#P" n="63"/>persona, et ratione illius utraque est novo
+          <lb ed="#P" n="64"/>modo in creatura, et alioqui utraque est 
+          pro<lb break="no" ed="#P" n="65"/>cedens, ergo utraque mittitur, et cum illis 
+          Pa<lb break="no" ed="#P" n="66"/>ter venit juxta illud Joannis 14: Ad eum 
+          venic<lb break="no" ed="#P" n="67"/>muts, etc., licet non mittatur, quia non 
+          proce<lb break="no" ed="#P" n="68"/>dit. Denique per hanc missionem non fit unio
+          <lb ed="#P" n="69"/>hypostatica alicujus divinae personae cum 
+          ani<lb break="no" ed="#P" n="70"/>ma, ut de fide constat, unio autem per 
+          gra<lb break="no" ed="#P" n="71"/>uam communis necessario est, tum in 
+          efficien<lb break="no" ed="#P" n="72"/>tia, tum quia est participatio divinae naturae,
+          <lb ed="#P" n="73"/>et ita primario convenit ratione essentiae. At
+          <lb ed="#P" n="74"/>vero Alensis supra, memb. 2, art. 3, existimat
+          <lb ed="#P" n="75"/>posse Filium sine Spiritu sancto mitti, ete
+          <lb ed="#P" n="76"/>contrario, quia effectus potest uni, et non 
+          al<lb break="no" ed="#P" n="77"/>teri appropriari. Dicitur enim Filius 
+          speciali<lb break="no" ed="#P" n="78"/>ter mitti secundum dona intellectus; Spiritus
+          <lb ed="#P" n="79"/>sanctus secundum dona voluntatis ex 
+          Augus<lb break="no" ed="#P" n="80"/>tino, 4, de Trinitate, cap. 20, et 21. Recte vero
+          <lb ed="#P" n="81"/>repondet D. Thomas utraque dona est 
+          neces<lb break="no" ed="#P" n="82"/>sario connexa cum gratia gratum faciente, et
+          <lb ed="#P" n="83"/>ideo missionem etiam utriusque personae esse
+          <lb ed="#P" n="84"/>necessario conjunctam. Non negamus tamen,
+          <lb ed="#P" n="85"/>quin per antonomasiam illa missio, in qua
+          <lb ed="#P" n="86"/>majora dona amoris communicantur, 
+          specia<lb break="no" ed="#P" n="87"/>liter tribuitur Spiritui sancto, et illa Verbo,
+          <lb ed="#P" n="88"/>quae in donis sapientiae praeeminet.
+        </p>
+        <p xml:id="szduep-203842-d1e1736">
+          <lb ed="#P" n="89"/>20. Corollarium.—Ultimo constat ex dictis
+          <lb ed="#P" n="90"/>missionem hanc solum fieri ad creaturam 
+          ra<lb break="no" ed="#P" n="91"/>tionalem, quia sola illa est capax gratiee, et
+          <lb ed="#P" n="92"/>fruitionis Dei. Quae ratio concludit, etiam ad
+          <lb ed="#P" n="93"/>angelos factam esse hanc missionem, ut late
+          <lb ed="#P" n="94"/>Alensis supra, et ad Patres, et Justos, qui 
+          fue<lb break="no" ed="#P" n="95"/>runt ante Christum Dominum, ut docet etiam
+          <lb ed="#P" n="96"/>D. Thomas, et expresse Leo papa, sermone 2,
+          <lb ed="#P" n="97"/>Pentecostes, cap. 3, et Augustinus, 4, de Trin.,
+          <lb ed="#P" n="98"/>cap. 20, et Hieronymus, epist. 9, ad Edibiam.
+          <lb ed="#P" n="99"/>Qui omnes exponunt illa verba Joann. 7:
+          <lb ed="#P" n="100"/>Nondum erat Spiritus datus, quia nondum
+          <lb ed="#P" n="101"/>erat Jesus glorificatus, intelligi de missione
+          <lb ed="#P" n="102"/>speciali, et visibili facta in die Pentecostes,
+          <lb ed="#P" n="103"/>non vero de invisibili, quae omni tempore a
+          <lb ed="#P" n="104"/>creatione mundi ad angelos et homines facta
+          <lb ed="#P" n="105"/>est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

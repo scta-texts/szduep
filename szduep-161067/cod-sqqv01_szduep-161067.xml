@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="636"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-161067"><!-- t3-l4c10 -->
+        <head xml:id="szduep-161067-Hd1e101">Caput 10</head>
+        <head xml:id="szduep-161067-Hd1e103" type="question-title">Quomodo una et eadem omnipotentia sit in omnibus et singulis personis</head>
+        <p xml:id="szduep-161067-d1e106">
+          <lb ed="#P" n="100"/>CAPUT X.
+          <lb ed="#P" n="101"/>QUOMODO UNA ET EADEM OMNIPOTENTIA SIT IN
+          <lb ed="#P" n="102"/>OMNIBUS ET SINGULIS PERSONIS.
+        </p>
+        <p xml:id="szduep-161067-d1e115">
+          <lb ed="#P" n="103"/>1. Ratio difficultatis. — Ratio difficultatis
+          <lb ed="#P" n="104"/>est, quia Pater potest generare, et non Filius,
+          <lb ed="#P" n="105"/>et Filius spirare, et non Spiritus sanctus ergo
+          <lb ed="#P" n="106"/>plus potest Pater, quam Filius, etc. Augetur
+          <lb ed="#P" n="107"/>difficultas , quia posse generare pertinet ad
+          <pb ed="#P" n="637"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnipotentiam Patris. Unde Fulgentius, ad 5,
+          <lb ed="#P" n="2"/>objectionem Arianorum sic ait: Genitori (quod
+          <lb ed="#P" n="3"/>nefas est) potentia naturalis adimitur, si Filio
+          <lb ed="#P" n="4"/>paternae substantie equaltas denegatur. 
+          Diffi<lb break="no" ed="#P" n="5"/>cilius Augustinus, lib. 3, contra Maximinum,
+          <lb ed="#P" n="6"/>sic argumentatur : Si Pater potuit generare
+          <lb ed="#P" n="7"/>Filium equalem et noluit, fuit invadus : si 
+          vo<lb break="no" ed="#P" n="8"/>luit et non potuit, ubi est omnipotentia Dei
+          <lb ed="#P" n="9"/>Patris? Ergo si Filius non potuit, ubi est 
+          om<lb break="no" ed="#P" n="10"/>nipotentia Dei Filii? velsi alia est 
+          omnipoten<lb break="no" ed="#P" n="11"/>tia Dei Patris, et alia omnipotentia Dei, ut sic,
+          <lb ed="#P" n="12"/>jam sequitur in aliquo attributo omnipctentiae
+          <lb ed="#P" n="13"/>Dei non convenire omnes personas.
+        </p>
+        <p xml:id="szduep-161067-d1e161">
+          <lb ed="#P" n="14"/>2. Prima responsio. — In hac difficulta:e
+          <lb ed="#P" n="15"/>solvenda variant theologi, tresque invenio
+          <lb ed="#P" n="16"/>modos respondendi. Primus negat, ad 
+          produc<lb break="no" ed="#P" n="17"/>tiones ad intra esse veram potentiam in Deo,
+          <lb ed="#P" n="18"/>et ideo licet Filius non possit generare, negant
+          <lb ed="#P" n="19"/>sequi, deesse illi aliquam potentiam. Ita 
+          Au<lb break="no" ed="#P" n="20"/>reolus et Gregorius, in 1, distin. 7. Sed de
+          <lb ed="#P" n="21"/>fundamento hujus responsionis dicendum est
+          <lb ed="#P" n="22"/>ex professo infra libro sexto. Nam cum in Deo
+          <lb ed="#P" n="23"/>ad intra fit vera productio realis, vix potest
+          <lb ed="#P" n="24"/>intelligi, quin sit etiam principium quo 
+          produ<lb break="no" ed="#P" n="25"/>cendi, quod potentiam productivam 
+          appella<lb break="no" ed="#P" n="26"/>mus.
+        </p>
+        <p xml:id="szduep-161067-d1e193">
+          <lb ed="#P" n="27"/>3. Secunda responsio. — Secunda ergo 
+          res<lb break="no" ed="#P" n="28"/>ponsio, non solum admittit hanc potentiam
+          <lb ed="#P" n="29"/>ad intra, sed etiam concedit, illam pertinere
+          <lb ed="#P" n="30"/>ad omnipotentiam. Ita sentit Marsilius, in 1,
+          <lb ed="#P" n="31"/>quaest. 23, /Egidius et Argentinus Torres, 1
+          <lb ed="#P" n="32"/>part., quaest. 41, art 6. Quorum ratio est,
+          <lb ed="#P" n="33"/>quia illa potentia productiva ad intra est 
+          ma<lb break="no" ed="#P" n="34"/>xime perfecta, ergo maxime pertinet ad 
+          omni<lb break="no" ed="#P" n="35"/>potentiam. Ad difficultatem autem 
+          respon<lb break="no" ed="#P" n="36"/>dent, hanc potentiam non esse Filio, vel 
+          Spi<lb break="no" ed="#P" n="37"/>ritui sancto, quantum absolutum, quod 
+          inclu<lb break="no" ed="#P" n="38"/>dit, sed solum quoad conditionem relativam.
+          <lb ed="#P" n="39"/>Quae responsio, quoad hanc posteriorem 
+          par<lb break="no" ed="#P" n="40"/>tem recte explicatam, vera est: et necessaria,
+          <lb ed="#P" n="41"/>ut statim dicam. Quoad priorem vero mihi
+          <lb ed="#P" n="42"/>non probatur, quia omnipotentia Dei habet
+          <lb ed="#P" n="43"/>pro objecto adaequato ens creabile, ut recte
+          <lb ed="#P" n="44"/>docet D. Thomas et declarat Cajetanus, 1
+          <lb ed="#P" n="45"/>part., quaest. 25, art. 3, et Scotus, in 1, distinct.
+          <lb ed="#P" n="46"/>31, et Major, distinct. 41, Durandus in 1, 
+          dis<lb break="no" ed="#P" n="47"/>tinct., 10, quaest. 1. Et declaratur ita, quia 
+          dis<lb break="no" ed="#P" n="48"/>tinguendo in Deo potentias secundum 
+          ratio<lb break="no" ed="#P" n="49"/>nem, ex actibus distinguendae sunt. Productio
+          <lb ed="#P" n="50"/>autem , quam Deus facit ad extra, est longe
+          <lb ed="#P" n="51"/>diversae rationis a productionibus ad intra:
+          <lb ed="#P" n="52"/>ergo potentia adaequata productioni ad extra
+          <lb ed="#P" n="53"/>est diversae rationis a potentia productiva ad
+          <lb ed="#P" n="54"/>intra : at vere omnipotentia dicit potentiam
+          <lb ed="#P" n="55"/>adaequatam productionibus ad extra, ergo.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Declaratur minor, quia illa distributio, quam
+          <lb ed="#P" n="57"/>indicat particula omni, non est ita sumenda,
+          <lb ed="#P" n="58"/>ut cadat in ipsam potentiam, ac si diceretur
+          <lb ed="#P" n="59"/>omnis potentia, sed ita, ut cadat in objectum
+          <lb ed="#P" n="60"/>potentiae, ita ut sit ad omne possibile, et 
+          facti<lb break="no" ed="#P" n="61"/>bile : Sub ac ergo omnipotentia non includitur
+          <lb ed="#P" n="62"/>potentia productiva ad intra.
+        </p>
+        <p xml:id="szduep-161067-d1e276">
+          <lb ed="#P" n="63"/>4. Vera responsio de omnipotentia. — Ex
+          <lb ed="#P" n="64"/>hoc ergo principio facile expeditur difficultas,
+          <lb ed="#P" n="65"/>in ea forma, qua proposita est. Nego enim
+          <lb ed="#P" n="66"/>productionem ad intra esse actum 
+          omnipoten<lb break="no" ed="#P" n="67"/>Uae, et ideo nihil obstat, quominus Filius, et
+          <lb ed="#P" n="68"/>Spiritus sanctus sit aequae omnipotens, ac 
+          Pa<lb break="no" ed="#P" n="69"/>ter, non solum, quia aequalem habent 
+          essen<lb break="no" ed="#P" n="70"/>tiam , quae est ipsa omnipotentia, sed etiam,
+          <lb ed="#P" n="71"/>quia in quolibet eorum est conditio necessaria
+          <lb ed="#P" n="72"/>ad actiones omnes talis potentiae. Est enim
+          <lb ed="#P" n="73"/>considerandum , hujusmodi potentiam , ut
+          <lb ed="#P" n="74"/>exerceat suum actum, vel non indigere 
+          rela<lb break="no" ed="#P" n="75"/>tione, etiam ut conditione necessaria, vel
+          <lb ed="#P" n="76"/>certe non determinata relatione. Duplici enim
+          <lb ed="#P" n="77"/>de causa potest haec conditio esse necessaria.
+          <lb ed="#P" n="78"/>Primo, ut producens possit distingui a 
+          produ<lb break="no" ed="#P" n="79"/>cente : et propter hoc necessaria non est 
+          re<lb break="no" ed="#P" n="80"/>latio respectu actionum ad extra : quia Deus
+          <lb ed="#P" n="81"/>per suum esse absolutum sufficienter 
+          distin<lb break="no" ed="#P" n="82"/>guitur ab omni re producibili per talem 
+          poten<lb break="no" ed="#P" n="83"/>tiam. Secundo potest esse necessaria ad 
+          subsis<lb break="no" ed="#P" n="84"/>tendum : et hoc modo si divinitas ipsa ex se
+          <lb ed="#P" n="85"/>subsistens est praecisis relationibus, etiam non
+          <lb ed="#P" n="86"/>indiget illis ad actiones ad extra, per se, et ex
+          <lb ed="#P" n="87"/>vi illarum. Si autem demus, non esse 
+          subsis<lb break="no" ed="#P" n="88"/>tentem, nisi per relationes, erit quidem 
+          neces<lb break="no" ed="#P" n="89"/>saria relatio, nulla tamen determinate , sed
+          <lb ed="#P" n="90"/>quaelibet sufficiet.
+        </p>
+        <p xml:id="szduep-161067-d1e339">
+          <lb ed="#P" n="91"/>5. Actiones Trinitatis ad eatra cur indivise.
+          <lb ed="#P" n="92"/>— Ob hanc ergo causam necessarium est, ut
+          <lb ed="#P" n="93"/>omnes personae habeant hanc omnipotentiam
+          <lb ed="#P" n="94"/>plene, et absolute, id est, quoad omnes 
+          actio<lb break="no" ed="#P" n="95"/>nes ejus. Et in hoc fundatur illud axioma,
+          <lb ed="#P" n="96"/>quod actiones ad extra sunt indivisae. Quod est
+          <lb ed="#P" n="97"/>frequens in Patribus, et Conciliis, praesertim
+          <lb ed="#P" n="98"/>Toletano 6 et 11, supra citatis. In hoc etiam
+          <lb ed="#P" n="99"/>fundatur, quod trium personarum unum est
+          <lb ed="#P" n="100"/>regnum, una dominatio, quia ratione 
+          omni<lb break="no" ed="#P" n="101"/>potentiae illis convenit. Quomodo dixit 
+          Ful<lb break="no" ed="#P" n="102"/>gentius ad Ferrand., quaest. 4. qualiter
+          <lb ed="#P" n="103"/>regnat, etc., et de Fide ad Petrum, capit. 1.
+          <lb ed="#P" n="104"/>Una aliam non superat potestate, et cap. 13.
+          <lb ed="#P" n="105"/>In eo (inquit) intelligitur omnipotens Deus,
+          <lb ed="#P" n="106"/>quod omnem creaturam de nihilo produsit. 
+          Om<lb break="no" ed="#P" n="107"/>nipotentia ergo est potentia faciendi, potentia
+          <lb ed="#P" n="108"/>autem generativa, vel spirativa est potentia
+          <lb ed="#P" n="109"/>communicandi idem esse increatum, quod non
+          <lb ed="#P" n="110"/>est facere, sed producere. Unde haec potentia
+          <pb ed="#P" n="638"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad intra formaliter pertinet ad intellectum, et
+          <lb ed="#P" n="2"/>voluntatem partitione accommoda: illa vero
+          <lb ed="#P" n="3"/>omnipotentia ad extra est potentia ratione
+          <lb ed="#P" n="4"/>distincta, subordinata intellectui, ut dirigenti,
+          <lb ed="#P" n="5"/>et voluntati libera, ut applicanti. Denique 
+          ra<lb break="no" ed="#P" n="6"/>tione hujus omnipotentiae sic intellectae, dixit
+          <lb ed="#P" n="7"/>Athanasius: JVon tres omnipotentes, sed unus
+          <lb ed="#P" n="8"/>omnipotens, non tres Domini, sed unus est Do-
+        </p>
+        <p xml:id="szduep-161067-d1e407">
+          <lb ed="#P" n="9"/>6. Replica de potentia generandi. —Quamvis
+          <lb ed="#P" n="10"/>autem hoc modo satisfactum sit difficultati,
+          <lb ed="#P" n="11"/>quatenus ex absoluta omnipotentia 
+          sumeba<lb break="no" ed="#P" n="12"/>tur, non tamen satisfactum est testimonio 
+          Au<lb break="no" ed="#P" n="13"/>gustini, nec difficultati, quae obiter notata est
+          <lb ed="#P" n="14"/>ex potentia productiva ad intra : Esto enim sit
+          <lb ed="#P" n="15"/>diversae rationis ab omnipotentia, tamen 
+          ali<lb break="no" ed="#P" n="16"/>qua potentia est: ergo erit in una persona 
+          ali<lb break="no" ed="#P" n="17"/>qua potentia, quae non est in alia, ergo non
+          <lb ed="#P" n="18"/>sunt aeque omnipotentes saltem quatenus illa
+          <lb ed="#P" n="19"/>distributio sumi potest ex parte potentiarum.
+        </p>
+        <p xml:id="szduep-161067-d1e433">
+          <lb ed="#P" n="20"/>7. Responsio. — Respondeo tamen breviter
+          <lb ed="#P" n="21"/>negando consequentiam. Est autem 
+          supponen<lb break="no" ed="#P" n="22"/>dum, ex dicendis libro sexto, potentiam 
+          produc<lb break="no" ed="#P" n="23"/>tivam ad intra, quantum ad principium 
+          for<lb break="no" ed="#P" n="24"/>male, seu per se productionis, esse quid 
+          abso<lb break="no" ed="#P" n="25"/>lutum, connotare autem aliquam relationem,
+          <lb ed="#P" n="26"/>ut conditionem necessariam ad hoc, ut persona
+          <lb ed="#P" n="27"/>habens tale absolutum producere possit, cujus
+          <lb ed="#P" n="28"/>rationem ibi trademus. Hinc ergo dicimus,
+          <lb ed="#P" n="29"/>potentiam generandi, quantum ad id, quod
+          <lb ed="#P" n="30"/>habet rationem potentiae in Filio esse, 
+          solum<lb break="no" ed="#P" n="31"/>que illi de esse relationem Paternitatis, quae
+          <lb ed="#P" n="32"/>est conditio necessaria, ut talis potentia exeat
+          <lb ed="#P" n="33"/>in actum, ut sic dicam. Et ideo nihil, quod
+          <lb ed="#P" n="34"/>spectet ad veram rationem potentiae, minus
+          <lb ed="#P" n="35"/>esse in Filio, quam in Patre.
+        </p>
+        <p xml:id="szduep-161067-d1e470">
+          <lb ed="#P" n="36"/>8. Objectio. — Solutio. — Dices, hoc ipsum,
+          <lb ed="#P" n="37"/>scilicet, habere potentiam cum conditione 
+          re<lb break="no" ed="#P" n="38"/>quisita ad agendum, vel sine illa multum 
+          re<lb break="no" ed="#P" n="39"/>ferre, ut quis dicatur habere perfectam 
+          potes<lb break="no" ed="#P" n="40"/>tatem, vel minus perfectam: ergo hoc satis
+          <lb ed="#P" n="41"/>est, ut sit inaequalitas potestatis in personis:
+          <lb ed="#P" n="42"/>hespondeo. Si conditio illa pertineat ad 
+          abso<lb break="no" ed="#P" n="43"/>lutam rei perfectionem, ita est. Si autem sit
+          <lb ed="#P" n="44"/>conditio relativa, seu antecessio originis, nihil
+          <lb ed="#P" n="45"/>minuit de absoluta perfectione potestatis. Ita
+          <lb ed="#P" n="46"/>vero est in proposito. Pater enim solum 
+          prae<lb break="no" ed="#P" n="47"/>venit Filium origine, quia ex se habet 
+          intel<lb break="no" ed="#P" n="48"/>lectionem illam, per quam Filius productus
+          <lb ed="#P" n="49"/>est, totam vero illam communicat Filio, et ita
+          <lb ed="#P" n="50"/>in Filio est totum id, quod est ratio, seu 
+          prin<lb break="no" ed="#P" n="51"/>cipium quo producendi ipsum, ipse vero non
+          <lb ed="#P" n="52"/>potest per illud principium generare, solum
+          <lb ed="#P" n="53"/>quia jam invenit adaequatum ejus terminum
+          <lb ed="#P" n="54"/>productum. Et idem est cum proportione de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>Spiritu sancto. Ac per hoc satisfit 
+          objectioni<lb break="no" ed="#P" n="56"/>bus Aureoli, Durandi, et aliorum in hac 
+          ma<lb break="no" ed="#P" n="57"/>teria. Existimoque hanc esse communem 
+          res<lb break="no" ed="#P" n="58"/>ponsionem, praesertim D. Thomae, licet 
+          diver<lb break="no" ed="#P" n="59"/>sis verbis ab illo tradatur. llle enim, prima
+          <lb ed="#P" n="60"/>parte, q. 42, art. 6, ad 3, quem Ferrariensis, 4,
+          <lb ed="#P" n="61"/>contra Gentes, cap. 13, et alu Thomistae 
+          imi<lb break="no" ed="#P" n="62"/>tantur, respondet , eamdem potentiam esse
+          <lb ed="#P" n="63"/>in Patre, ut generet, in Filio ut generetur,
+          <lb ed="#P" n="64"/>quod facile potest trahi ad sensum dictum.
+        </p>
+        <p xml:id="szduep-161067-d1e539">
+          <lb ed="#P" n="65"/>9. Alii, ut AEgidius et Argentinus 
+          respon<lb break="no" ed="#P" n="66"/>dent, Potentiam solum esse ad id, quod non
+          <lb ed="#P" n="67"/>implicat contradictionem, et respectu Patris
+          <lb ed="#P" n="68"/>non implicare contradictionem generare, et
+          <lb ed="#P" n="69"/>ideo si generare non posset, foret impotentia
+          <lb ed="#P" n="70"/>in illo, respectu autem filii implicare 
+          contra<lb break="no" ed="#P" n="71"/>dictionem, et ideo non esse impotentiam 
+          etiam<lb break="no" ed="#P" n="72"/>si generare non possit. Quia realiter eamdem
+          <lb ed="#P" n="73"/>potentiam habet, solumque ex parte objecti
+          <lb ed="#P" n="74"/>est repugnantia. Contra quam solutionem se
+          <lb ed="#P" n="75"/>offert replica, quia omnipotentia simpliciter
+          <lb ed="#P" n="76"/>non respicit id solum, quod non implicat 
+          con<lb break="no" ed="#P" n="77"/>tradictionem per comparationem ad ipsum
+          <lb ed="#P" n="78"/>agens, sed quod in se et per se spectatum non
+          <lb ed="#P" n="79"/>implicat, ut recte D. Thomas, 1 part., quaest.
+          <lb ed="#P" n="80"/>25, art. 3. Ergo cum generare Filium in se
+          <lb ed="#P" n="81"/>spectatum non implicet contradictionem, 
+          res<lb break="no" ed="#P" n="82"/>pectu illius actus, ut sic, debet accipi summa
+          <lb ed="#P" n="83"/>potentia et non comparatione hujus, vel illius
+          <lb ed="#P" n="84"/>personae: ergo posse producere hoc, quod 
+          se<lb break="no" ed="#P" n="85"/>cundum se non implicat contradictionem, 
+          in<lb break="no" ed="#P" n="86"/>dicabit potentiam. Ergo simpliciter, erit 
+          ma<lb break="no" ed="#P" n="87"/>jor potentia Patris, quam Filii. Sed hoc non
+          <lb ed="#P" n="88"/>cogit. Advertere enim oportet, quod in Deo,
+          <lb ed="#P" n="89"/>posse generare secundum Filium, absolute 
+          im<lb break="no" ed="#P" n="90"/>plicat contradictionem, respectu cujuscumque
+          <lb ed="#P" n="91"/>personae: et ideo quod Deus possit generare
+          <lb ed="#P" n="92"/>unicum Filium non implicat absolute, quod
+          <lb ed="#P" n="93"/>autem implicet respectu Filii, solum est 
+          prop<lb break="no" ed="#P" n="94"/>ter relationem originis, quia supponitur jam
+          <lb ed="#P" n="95"/>productus. Re tamen vera in se habet ipse 
+          to<lb break="no" ed="#P" n="96"/>tam illam potentiam, quae est principium 
+          pro<lb break="no" ed="#P" n="97"/>ducendi ipsummet Filium, et ita haec responsio
+          <lb ed="#P" n="98"/>revolvitur in nostram.
+        </p>
+        <p xml:id="szduep-161067-d1e615">
+          <lb ed="#P" n="99"/>10. Ad Augustinum ergo respondetur, usum
+          <lb ed="#P" n="100"/>fuisse nomine omnipotentiae late, ut 
+          compre<lb break="no" ed="#P" n="101"/>hendit personam productivam ad intra, 
+          ideo<lb break="no" ed="#P" n="102"/>que dixisse, contra omnipotentiam Dei Patris
+          <lb ed="#P" n="103"/>esse non posse generare, quia cum illi non
+          <lb ed="#P" n="104"/>desit conditio necessaria, si non posset, 
+          neces<lb break="no" ed="#P" n="105"/>sario esset ex defectu potestatis. Non omittam
+          <lb ed="#P" n="106"/>autem advertere, rationem Augustini per se,
+          <lb ed="#P" n="107"/>et in vi rationis spectatam, non concludere,
+          <lb ed="#P" n="108"/>quia si infidelis diceret generationem Fili
+          <lb ed="#P" n="109"/>aequalis in DEO implicare contradictionem,
+          <pb ed="#P" n="639"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>facile, ac consequenter negaret, esse contra
+          <lb ed="#P" n="2"/>omnipotentiam non posse generare. 
+          Augusti<lb break="no" ed="#P" n="3"/>nus ergo procedit, supposita fide, quam quoad
+          <lb ed="#P" n="4"/>hanc partem, haereticus ille, contra quem 
+          ar<lb break="no" ed="#P" n="5"/>gumentabatur, non videtur negasse, ut 
+          colli<lb break="no" ed="#P" n="6"/>gitur ex eodem libro, cap. 14, et notavit etiam
+          <lb ed="#P" n="7"/>Scotus in 1, dist. 20.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

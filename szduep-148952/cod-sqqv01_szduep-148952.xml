@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="589"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-148952"><!-- t3-l3c2 -->
+        <head xml:id="szduep-148952-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-148952-Hd1e103" type="question-title">Satisfit objectionibus haereticorum contra veram trium divinarum personarum, realemque distinctionem</head>
+        <p xml:id="szduep-148952-d1e106">
+          <lb ed="#P" n="61"/>CAPUT II.
+          <lb ed="#P" n="62"/>SATISFIT OBJECTIONIBUS HAERETICORUM CONTRA 
+          VE<lb break="no" ed="#P" n="63"/>RAM TRIUM DIVINARUM PERSONARUM, REALEMQUE
+          <lb ed="#P" n="64"/>DISTINCTIONEM.
+        </p>
+        <p xml:id="szduep-148952-d1e117">
+          <lb ed="#P" n="65"/>1. Praeter dictum generale fundamentum,
+          <lb ed="#P" n="66"/>contra eamdem veritatem objiciunt haeretici
+          <lb ed="#P" n="67"/>illud Matthaei 11: Omnia mihi tradita sunt a
+          <lb ed="#P" n="68"/>Patre moeo, et illud Joan. 16. Omnia, quae Pater
+          <lb ed="#P" n="69"/>habet, mea sunt, et cap. IT. Omnia tua, mea
+          <lb ed="#P" n="70"/>sunt, etc. Si enim quidquid habet Pater, habet
+          <lb ed="#P" n="71"/>Filius, nihil relinquitur, in quopossint realiter
+          <lb ed="#P" n="72"/>distingui. Ratione item sic possumus 
+          argumen<lb break="no" ed="#P" n="73"/>tari, quia vel distinctio pertinet ad 
+          perfectio<lb break="no" ed="#P" n="74"/>nem, vel non. Si non pertinet, non est, cur
+          <lb ed="#P" n="75"/>ponatur intra Deum: si pertinet, ergo erit in
+          <lb ed="#P" n="76"/>Deo summa distinctio, quia quidquid 
+          perfec<lb break="no" ed="#P" n="77"/>tionis in ipso est, summo modo est, summa
+          <lb ed="#P" n="78"/>autem distinctio realis non admittit 
+          identita<lb break="no" ed="#P" n="79"/>tem realem, quia distinctio in negatione 
+          iden<lb break="no" ed="#P" n="80"/>titatis posita est. Haec autem distinctio admitti
+          <lb ed="#P" n="81"/>non potest in Deo, ergo neque absolute 
+          dis<lb break="no" ed="#P" n="82"/>tinctio realis.
+        </p>
+        <p xml:id="szduep-148952-d1e159">
+          <lb ed="#P" n="83"/>2. Quomodo Filius habeat omnia, quee Pater.
+          <lb ed="#P" n="84"/>— Primum testimonium facile posset exponi
+          <lb ed="#P" n="85"/>de Christo, ut homine et de potestate 
+          excellen<lb break="no" ed="#P" n="86"/>tiae, et supremo quodam dominio illi concesso
+          <lb ed="#P" n="87"/>in omnem creaturam, juxta illud Matth. ult.:
+          <lb ed="#P" n="88"/>Data est mihi omnis potestas in calo et in
+          <lb ed="#P" n="89"/>terra. Sic ergo cum Christus DEUS homo dicit
+          <lb ed="#P" n="90"/>omnia esse sibi tradita a Patre, particula, 
+          om<lb break="no" ed="#P" n="91"/>nia, declarari potest de omnibus bonis, 
+          quo<lb break="no" ed="#P" n="92"/>rum Deus est proprie Dominus, quae sunt bona
+          <lb ed="#P" n="93"/>externa potius, quam interna, seu existentia
+          <lb ed="#P" n="94"/>intra ipsum Deum. Quam expositionem 
+          indi<lb break="no" ed="#P" n="95"/>cant Chrysostomus, Hieronymus, et Beda ibi,
+          <lb ed="#P" n="96"/>et Irenaeus, lib. 4, c. 37, Tertullianus 4, 
+          con<lb break="no" ed="#P" n="97"/>tra Marcionem. Verumtamem in locis Joannis
+          <lb ed="#P" n="98"/>videtur esse sermo de communicatione 
+          divini<lb break="no" ed="#P" n="99"/>tatis, et ita ex illis locis probant divinitatem
+          <lb ed="#P" n="100"/>Filii ; Athanasius, oratione 2, contra Arianos
+          <lb ed="#P" n="101"/>et Nazianzenus, oratione 5, theologiae. Et ideo
+          <lb ed="#P" n="102"/>Damascenus, lib. 1, de Fide, cap. 9 et 
+          sequen<lb break="no" ed="#P" n="103"/>tibus, sub intelligendam dicit exceptionem,
+          <lb ed="#P" n="104"/>scilicet Patrem dedisse omnia Fiho, preeter 
+          in<lb break="no" ed="#P" n="105"/>nascendi proprietalem. Quae expositio habetur
+          <lb ed="#P" n="106"/>etiam in Concilio Florentino, sessione 18, et
+          <lb ed="#P" n="107"/>sessione 25, in litteris unionis. Et ex ipsis ver-
+          <pb ed="#P" n="590"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bis est manifesta. Quia eo ipso, quod Filius 
+          di<lb break="no" ed="#P" n="2"/>citur accipere a Patre, significatur distinctus,
+          <lb ed="#P" n="3"/>cum ergo dicitur accipere omnia, ita 
+          intelli<lb break="no" ed="#P" n="4"/>gendum est, ut non destruatur ipsum accipere,
+          <lb ed="#P" n="5"/>destrueretur autem , si tolleretur distinctio:
+          <lb ed="#P" n="6"/>recte ergo intelligitur de omnibus, praeter 
+          per<lb break="no" ed="#P" n="7"/>sonalem proprietatem, in qua sola est 
+          distinc<lb break="no" ed="#P" n="8"/>tio. Dici etiam potest Pater, dedisse omnia
+          <lb ed="#P" n="9"/>Filio, quia illi dedit divinitatem, in qua 
+          om<lb break="no" ed="#P" n="10"/>nia, vel formalter, vel eminenter continentur.
+        </p>
+        <p xml:id="szduep-148952-d1e243">
+          <lb ed="#P" n="11"/>3. Dubium.—Hinc vero dubitatio orta est 
+          in<lb break="no" ed="#P" n="12"/>ter scholasticos, an dicendum sit, Patrem 
+          dedis<lb break="no" ed="#P" n="13"/>se Filio omnem suam entitatem, vel potius 
+          ali<lb break="no" ed="#P" n="14"/>quam non dedisse. Aliqui enim hoc posteriori
+          <lb ed="#P" n="15"/>modo loquuntur, ut Torres, lib. de Trinitate,
+          <lb ed="#P" n="16"/>q. 39, art. 2, quem aliqui moderni sequuntur.
+          <lb ed="#P" n="17"/>Quia paternitas est aliqua entitas, hanc non
+          <lb ed="#P" n="18"/>communicat Pater Filio, ergo, etc. Alii vero
+          <lb ed="#P" n="19"/>nolunt ita loqui, sed aiunt, Patrem 
+          communi<lb break="no" ed="#P" n="20"/>casse Filio omnem entitatem, non tamen omni
+          <lb ed="#P" n="21"/>modo, quo illam habet. Nam in Patre solum
+          <lb ed="#P" n="22"/>est una entitas, ergo non potest quamdam
+          <lb ed="#P" n="23"/>communicare et alteram non. Tamen illamet
+          <lb ed="#P" n="24"/>entitas in Patre habet modum essendi 
+          absolu<lb break="no" ed="#P" n="25"/>tum et respectivum , communicatur autem
+          <lb ed="#P" n="26"/>priori modo, non posteriori.
+        </p>
+        <p xml:id="szduep-148952-d1e280">
+          <lb ed="#P" n="27"/>4. Resolutio. — Ego vero sentio,illud signum,
+          <lb ed="#P" n="28"/>omnem, accipi posse, vel ut distribuens vel quasi
+          <lb ed="#P" n="29"/>signum totaltatis, ut sic dicam, ut idem sit, 
+          om<lb break="no" ed="#P" n="30"/>nem, quod, totam. Priori modo valde improprie
+          <lb ed="#P" n="31"/>hic sumitur, quia ubi non est pluralitas, non
+          <lb ed="#P" n="32"/>est distributio, certum est autem in Patre non
+          <lb ed="#P" n="33"/>esse plures entitates. Et ideo in illo sensu non
+          <lb ed="#P" n="34"/>oporteret quaestioni respondere, sed potius non
+          <lb ed="#P" n="35"/>admittere illam. Si vero propter solam 
+          dis<lb break="no" ed="#P" n="36"/>tinctionem rationis ita loqui velimus, sicut 
+          di<lb break="no" ed="#P" n="37"/>cimus omnia attributa, omnes ideas, vel 
+          per<lb break="no" ed="#P" n="38"/>fectiones Dei: sic vera est particularis 
+          nega<lb break="no" ed="#P" n="39"/>tiva, scilicet Patrem non communicare Filio
+          <lb ed="#P" n="40"/>omnem entitatem suam, quia revera 
+          pater<lb break="no" ed="#P" n="41"/>nitas non tantum est modus, sed vera entitas.
+          <lb ed="#P" n="42"/>At vero si loquamur de tota entitate, 
+          conce<lb break="no" ed="#P" n="43"/>dendum est, Patrem totam suam entitatem
+          <lb ed="#P" n="44"/>communicare, alioqui communicaret partem,
+          <lb ed="#P" n="45"/>quod repugnat indivisibili entitati, ut in 
+          si<lb break="no" ed="#P" n="46"/>mili dixit Concilium Lateranense in capite
+          <lb ed="#P" n="47"/>Damnamus, de summa Trinitate et de Fide
+          <lb ed="#P" n="48"/>catholica. Sic autem optime dicitur, non 
+          com<lb break="no" ed="#P" n="49"/>municare omni modo, quod nos dicere 
+          possu<lb break="no" ed="#P" n="50"/>mus non totaliter, quia non communicat illam
+          <lb ed="#P" n="51"/>modo relativo opposito filiationi.
+        </p>
+        <p xml:id="szduep-148952-d1e337">
+          <lb ed="#P" n="52"/>5. Distinctio dicat ne perfectionem, am 
+          umn<lb break="no" ed="#P" n="53"/>perfectionem. — Ad rationem respondeo, 
+          dis<lb break="no" ed="#P" n="54"/>tinctionem, ut sic, non dicere formaliter 
+          per<lb break="no" ed="#P" n="55"/>fectionem, quia in negatione consistit, suppo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nere tamen illam et hac ratione intra Deum
+          <lb ed="#P" n="57"/>inveniri, quia et perfectio foecunditatis, et 
+          quid<lb break="no" ed="#P" n="58"/>quid perfectionis sine imperfectione esse 
+          po<lb break="no" ed="#P" n="59"/>test in re absoluta et respectiva, intra ipsum '
+          <lb ed="#P" n="60"/>reperitur. Cum autem quaeritur, an illa sit
+          <lb ed="#P" n="61"/>summa distinctio, sub distinctione respondere
+          <lb ed="#P" n="62"/>possumus, esse summam intensive, non 
+          exien<lb break="no" ed="#P" n="63"/>sive. Hoc secundum probat ratio facta, quia
+          <lb ed="#P" n="64"/>non est illa talis distinctio, quae excludat 
+          om<lb break="no" ed="#P" n="65"/>nem identitatem, quia hoc non ad 
+          perfectio<lb break="no" ed="#P" n="66"/>nem, sed ad limitationem et imperfectionem
+          <lb ed="#P" n="67"/>naturae pertineret. Primum autem patet, quia
+          <lb ed="#P" n="68"/>inter personas divinas est maxima oppositio,
+          <lb ed="#P" n="69"/>majorque repugnantia et una sit alia, quam
+          <lb ed="#P" n="70"/>possit esse inter res creatas distinctas. :
+        </p>
+        <p xml:id="szduep-148952-d1e383">
+          <lb ed="#P" n="71"/>6. Atque huc spectat, quod dixit Bernardus,
+          <lb ed="#P" n="72"/>libro 5, de Consideratione, cap. 8: Dicamus
+          <lb ed="#P" n="73"/>tres, non ad prajudicium unitatis, dicamus
+          <lb ed="#P" n="74"/>unwn, non ad confusionem Trinitatis. Et nos
+          <lb ed="#P" n="75"/>addere possumus. Dicamus realiter distinctos 
+          <lb ed="#P" n="76"/>sine praejudicio identitatis, sic etiam 
+          Sophro<lb break="no" ed="#P" n="77"/>nius in epist. quae habetur in 6 Synod., Act. 
+          <lb ed="#P" n="78"/>11, inquit: IVegue unum, quod eatra unun est,
+          <lb ed="#P" n="79"/>lria recipit , neque tria secundum quod trian
+          <lb ed="#P" n="80"/>sunt, unum admittit, id est, neque unitas Dei
+          <lb ed="#P" n="81"/>admittit talia tria, quae non sint illud unum,
+          <lb ed="#P" n="82"/>neque Trinitas personarum admittit unitatem
+          <lb ed="#P" n="83"/>in persona. Sic etiam intelligendum est, quod
+          <lb ed="#P" n="84"/>dixit Joannes Theologus Latinus in Concilio
+          <lb ed="#P" n="85"/>Florentino, sessione decima sexta, circa 
+          fi<lb break="no" ed="#P" n="86"/>nem : Quamvis tres sint hyrpotases re ipsa 
+          dif<lb break="no" ed="#P" n="87"/>ferentes, unicum Deum et opificem credimus.
+          <lb ed="#P" n="88"/>Ita denique exponendus est Damascenus, lib. 1,
+          <lb ed="#P" n="89"/>de Fide, cap. 11, ubi videtur constituere 
+          dit<lb break="no" ed="#P" n="90"/>ferentiam inter personas creatas et divinas,
+          <lb ed="#P" n="91"/>quod illae in re distinguuntur, hae vero 
+          intel<lb break="no" ed="#P" n="92"/>ligentia et ratione. Quem locum ita exponit
+          <lb ed="#P" n="93"/>D. Thomas, in 1, distinct. 2, art. 4, et d. 25,
+          <lb ed="#P" n="94"/>quaest. unica, art. 4, ut ratione intelligat, id
+          <lb ed="#P" n="95"/>est, relatione. Damascenus autem aperte de
+          <lb ed="#P" n="96"/>intelligentia loquitur, non tamen dicit per 
+          so<lb break="no" ed="#P" n="97"/>lam illam personas distingui, sed processiones
+          <lb ed="#P" n="98"/>et reali proprietate. Differentiam autem inter
+          <lb ed="#P" n="99"/>personas creatas et divinas in hoc ponit, quod
+          <lb ed="#P" n="100"/>distinctio personarum in creatis est cum 
+          ex<lb break="no" ed="#P" n="101"/>clusione omnis identitatis. Unde fit, ut et loco
+          <lb ed="#P" n="102"/>et tempore personae separari possint, atque ^
+          <lb ed="#P" n="103"/>adeo ut earum distinctio possit (ut ita dieam)
+          <lb ed="#P" n="104"/>oculis videri, personae autem divinae ita 
+          dis<lb break="no" ed="#P" n="105"/>Uünguuntur, ut alias unum sint et 
+          insepara<lb break="no" ed="#P" n="106"/>biles: et ideo dicit earum distinctionem sola
+          <lb ed="#P" n="107"/>intelligentia percipi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

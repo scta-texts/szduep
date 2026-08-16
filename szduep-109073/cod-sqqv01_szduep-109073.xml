@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 22</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 22</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="429"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-109073"><!-- t2-l2c22 -->
+        <head xml:id="szduep-109073-Hd1e101">Caput 22</head>
+        <head xml:id="szduep-109073-Hd1e103" type="question-title">Possit-ne dari causa praedestinationis ex parte actus divinae voluntatis</head>
+        <p xml:id="szduep-109073-d1e106">
+          <lb ed="#P" n="40"/>CAPUT XXII.
+          <lb ed="#P" n="41"/>POSSIT-NE DARI CAUSA PRAEDESTINATIONIS EX PARTE
+          <lb ed="#P" n="42"/>ACTUS DIVINAE VOLUNTATIS.
+        </p>
+        <p xml:id="szduep-109073-d1e115">
+          <lb ed="#P" n="43"/>1. Proprie non datur causa praedestinationis
+          <lb ed="#P" n="44"/>divine. — In actu libero Dei duo considerari
+          <lb ed="#P" n="45"/>possunt.—Hactenus dictum est de causis 
+          prae<lb break="no" ed="#P" n="46"/>destinationis quoad ejus effectus, nunc 
+          viden<lb break="no" ed="#P" n="47"/>dum est, an possit praedestinatio habere 
+          cau<lb break="no" ed="#P" n="48"/>sam aliquam, vel rationem ex parte ipsiusmet
+          <lb ed="#P" n="49"/>actus manentis in Deo, quod si potest illam
+          <lb ed="#P" n="50"/>habere, deinceps inquiremus, quaenam sit illa.
+          <lb ed="#P" n="51"/>In hoc ergo certum imprimis est, si proprie et
+          <lb ed="#P" n="52"/>in rigore loquamur de causa realiter influente,
+          <lb ed="#P" n="53"/>non posse dari causam divinae praedestinatio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>nis, quia nec reprobationis, nec alicujus divini
+          <lb ed="#P" n="55"/>actus dari potest: et ratio est, quia actus 
+          di<lb break="no" ed="#P" n="56"/>vinae voluntatis increatus est, immutabilis et
+          <lb ed="#P" n="57"/>aeternus, et ideo nullam veram et realem 
+          cau<lb break="no" ed="#P" n="58"/>sam habere potest, etiam aeternam, nedum
+          <lb ed="#P" n="59"/>temporalem. Atque hoc est, quod D. Thomas
+          <lb ed="#P" n="60"/>et omnes theologi supponunt tanquam 
+          mani<lb break="no" ed="#P" n="61"/>festum in hac materia. Tamen loquendo latius
+          <lb ed="#P" n="62"/>de causa, prout dicit quamcumque rationem,
+          <lb ed="#P" n="63"/>vel conditionem objectivam, sic locum habet
+          <lb ed="#P" n="64"/>quaestio haec circa praedestinationem ex parte
+          <lb ed="#P" n="65"/>actus divini. Nam consistit praedestinatio in
+          <lb ed="#P" n="66"/>actibus praescientiae et voluntatis liberae Dei, ut
+          <lb ed="#P" n="67"/>supra visum est. In libero autem Dei actu duo
+          <lb ed="#P" n="68"/>considerare possumus, unum est existentia
+          <lb ed="#P" n="69"/>illus actus quoad totum suum esse reale, et
+          <lb ed="#P" n="70"/>sub hac ratione hic non consideratur, nec 
+          ha<lb break="no" ed="#P" n="71"/>bet locum quaedam quaestio, quia talis actus ut
+          <lb ed="#P" n="72"/>sic, non est liber, sed necessarius, et ita 
+          nul<lb break="no" ed="#P" n="73"/>lam potest habere causam, vel rationem ex
+          <lb ed="#P" n="74"/>parte creaturae libere operantis. Alio vero
+          <lb ed="#P" n="75"/>modo spectatur ille actus, ut libere terminatus
+          <lb ed="#P" n="76"/>ad effectum creatum et quoad hanc 
+          determi<lb break="no" ed="#P" n="77"/>nationem (quidquid illa sit) locum habet 
+          quaes<lb break="no" ed="#P" n="78"/>tio, an habeat rationem aliquam objectivam,
+          <lb ed="#P" n="79"/>vel motivam ex parte hominis.
+        </p>
+        <p xml:id="szduep-109073-d1e200">
+          <lb ed="#P" n="80"/>2. Dubii ratio. — Nam quod possit illam
+          <lb ed="#P" n="81"/>habere videtur probari. Primo in praescientia
+          <lb ed="#P" n="82"/>futurorum, nam praescit illa DEUS, quia futura
+          <lb ed="#P" n="83"/>sunt, ut communiter Patres loquuntur, quos
+          <lb ed="#P" n="84"/>retuli lib. 1, de Auxiliis, c. 13, et lib. 3, c. 5.
+          <lb ed="#P" n="85"/>Ergo ipsa futuritio, seu veritas talis 
+          proposi<lb break="no" ed="#P" n="86"/>tionis de futuro est ratio objectiva, ob quam
+          <lb ed="#P" n="87"/>scientia divina terminatur ad talem effectum,
+          <lb ed="#P" n="88"/>quod si res sit futura in praedefinitione divinae
+          <lb ed="#P" n="89"/>voluntatis, tunc ipsa voluntas est ratio 
+          objec<lb break="no" ed="#P" n="90"/>tiva divinae scientiae. Quo sensu dictum est ab
+          <lb ed="#P" n="91"/>Hilario, lib. 9, de Trinit. Deum praescire 
+          futu<lb break="no" ed="#P" n="92"/>ra, quia vult illa, ut latius adnotavi, et 
+          expo<lb break="no" ed="#P" n="93"/>sui, lib. 1, de Scientia futur., c. 5. Atque hoc
+          <lb ed="#P" n="94"/>maxime contendit Augustinus in hac materia,
+          <lb ed="#P" n="95"/>cujus sensum perceperat Prosper, quanquam
+          <lb ed="#P" n="96"/>ut ab ipso amplius confirmaretur, ab eodem
+          <lb ed="#P" n="97"/>Augustino interrogat in epistola ad eumdem,
+          <lb ed="#P" n="98"/>tom. 7, ante lib. de Praedestinatione 
+          Sancto<lb break="no" ed="#P" n="99"/>rum, circa finem : An per scientiam stet 
+          pro<lb break="no" ed="#P" n="100"/>positum (ut Massilienses dicebant) an vero 
+          Prae<lb break="no" ed="#P" n="101"/>scientia sit subniva proposito, ut ipse 
+          sentie<lb break="no" ed="#P" n="102"/>bat. Augustinus autem hanc posteriorem 
+          sen<lb break="no" ed="#P" n="103"/>tentiam confirmat, toto libro de Praedestinat.
+          <lb ed="#P" n="104"/>Sanctor., praesertim c. 9 et 10, et lib. de Dono
+          <lb ed="#P" n="105"/>persever., praesertim c. 18 et 19, et Epistola
+          <lb ed="#P" n="106"/>105 et 106, et saepe alias. Idemque sensit 
+          Hi<lb break="no" ed="#P" n="107"/>larius in Epistola ad Augustinum. Non sentiunt
+          <lb ed="#P" n="108"/>autem esse necessarium, ut semper praescien-
+          <pb ed="#P" n="430"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tia in praefinitione fundetur, sed solum 
+          inter<lb break="no" ed="#P" n="2"/>dum et maxime in praedestinatis in illa 
+          fun<lb break="no" ed="#P" n="3"/>dari. Nam ex eisdem Patribus constat, posse
+          <lb ed="#P" n="4"/>interdum praescientiam esse de his, quae 
+          prae<lb break="no" ed="#P" n="5"/>destinata non sunt, si cum sola permissione
+          <lb ed="#P" n="6"/>futura sint, ut docuit idem Augustinus, libro
+          <lb ed="#P" n="7"/>de Praedest. Sanct., c. 10, et lib. 5, de Civit.,
+          <lb ed="#P" n="8"/>c. 9, 10 et 11.
+        </p>
+        <p xml:id="szduep-109073-d1e288">
+          <lb ed="#P" n="9"/>3. Rationes. — Rursus ex parte voluntatis
+          <lb ed="#P" n="10"/>potest dari ratio objectiva liberae 
+          determina<lb break="no" ed="#P" n="11"/>tionis Dei: de qua re multa aliis locis dixi,
+          <lb ed="#P" n="12"/>praesertim, 3 part., tom. 1, circa quaest. 19,
+          <lb ed="#P" n="13"/>et Relect. 1, et tractatur etiam 1 part., q. 19,
+          <lb ed="#P" n="14"/>art. 5. Quia tamen est necessarium 
+          fundamen<lb break="no" ed="#P" n="15"/>tum hujus materia,, breviter confirmandum
+          <lb ed="#P" n="16"/>et explicandum est. Ita ergo sentit D. Thomas
+          <lb ed="#P" n="17"/>hic art. 5, ad 3, et 1, contra Gentes, cap. 82,
+          <lb ed="#P" n="18"/>ad 4 rationem, et cap. 86, ubi Ferrarius, et in
+          <lb ed="#P" n="19"/>cap. S7. Item Capreolus, in 1, d. 41, q. 1,
+          <lb ed="#P" n="20"/>art. 2, ad finem, ubi Durandus, q. 2, num. 5,
+          <lb ed="#P" n="21"/>ait, unam volitionem liberam Dei esse 
+          ratio<lb break="no" ed="#P" n="22"/>nem alterius, nostro modo intelligendi, sicut
+          <lb ed="#P" n="23"/>unum attributum est ratio alterius, et idem
+          <lb ed="#P" n="24"/>sensit ibi Gabriel, quaest. unic., in princip., et
+          <lb ed="#P" n="25"/>Gregorius, quaest. 1, artic., Marsilius, in 1,
+          <lb ed="#P" n="26"/>quaest. 41, art. 1, Alensis, 1 part , quaest. 28,
+          <lb ed="#P" n="27"/>memb. 3, art. 3, et ratione declaratur, quia
+          <lb ed="#P" n="28"/>Deus vult unum objectum ut finem, et aliud
+          <lb ed="#P" n="29"/>ut medium ad illud : ergo illud quod est finis,
+          <lb ed="#P" n="30"/>est ratio volendi aliud. Item Deus vult aliquid
+          <lb ed="#P" n="31"/>supposita aliqua conditione ex parte creaturae,
+          <lb ed="#P" n="32"/>quod non vellet, illa non supposita, ergo illa
+          <lb ed="#P" n="33"/>conditio est aliquo modo ratio objectiva talis
+          <lb ed="#P" n="34"/>voluntatis. Antecedens declaratur in 
+          natura<lb break="no" ed="#P" n="35"/>libus : quando enim DEUS creat animam 
+          ra<lb break="no" ed="#P" n="36"/>tionalem in hominis generatione, non creat
+          <lb ed="#P" n="37"/>illam, nisi quatenus corpus jam perfecte 
+          dis<lb break="no" ed="#P" n="38"/>positum illam requirit, et suo jure exigit: ergo
+          <lb ed="#P" n="39"/>illa corporis dispositio est ratio objectiva, 
+          in<lb break="no" ed="#P" n="40"/>clinans voluntatem Dei, ut hic, et nunc velit
+          <lb ed="#P" n="41"/>animam creare. Evidentius autem id constat
+          <lb ed="#P" n="42"/>moralibus, vult enim Deus dare, quod petitur,
+          <lb ed="#P" n="43"/>quia petitur in vi promissionis ab ipso factae:
+          <lb ed="#P" n="44"/>vult etiam conferre praemium ratione 
+          merito<lb break="no" ed="#P" n="45"/>rum : illa ergo objective determinant 
+          volunta<lb break="no" ed="#P" n="46"/>tem Dei ad praemium conferendum. Id quod
+          <lb ed="#P" n="47"/>clarius est in redditione poenarum, quas DEUS
+          <lb ed="#P" n="48"/>non vult ex se, sed nobis provocatus, ut ait
+          <lb ed="#P" n="49"/>Damascenus, lib. 2. de Fide, cap. 29 et 30.
+          <lb ed="#P" n="50"/>Ergo demerita hominis determinant objective
+          <lb ed="#P" n="51"/>voluntatem Dei, ut velit illa punire. 
+          Deter<lb break="no" ed="#P" n="52"/>minare autem dicimus, non inferendo 
+          necessi<lb break="no" ed="#P" n="53"/>tatem, sed quantum est ex se movendo, et 
+          in<lb break="no" ed="#P" n="54"/>clinando , ut D. Thomas loquitur 1, contra
+          <lb ed="#P" n="55"/>Gent., cap. 82.
+        </p>
+        <p xml:id="szduep-109073-d1e392">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>4. Effugium. — Rejicitur. — Responderi
+          <lb ed="#P" n="57"/>solet ad haec, et similia argumenta, recte 
+          pro<lb break="no" ed="#P" n="58"/>bare, unum effectum voluntatis esse causam
+          <lb ed="#P" n="59"/>alterius, non vero esse objectivam rationem
+          <lb ed="#P" n="60"/>divinae voluntatis, quae uno simplicissimo actu
+          <lb ed="#P" n="61"/>vult unum esse propter aliud, aut esse 
+          dispo<lb break="no" ed="#P" n="62"/>sitionem ad aliud, etc. Sed boc nulla ratione
+          <lb ed="#P" n="63"/>satisfacere potest, quia haec causalitas unius
+          <lb ed="#P" n="64"/>effectus respectu alterius non est, nisi media
+          <lb ed="#P" n="65"/>voluntate divina, inclinando illam ad talem 
+          ef<lb break="no" ed="#P" n="66"/>fectum, ut verbi gratia, oratio est causa 
+          effec<lb break="no" ed="#P" n="67"/>tus postulati, non quia per se, et immediate
+          <lb ed="#P" n="68"/>efficiat illum, ut per se constat: sed quia 
+          in<lb break="no" ed="#P" n="69"/>clinat divinam voluntatem ad illum 
+          facien<lb break="no" ed="#P" n="70"/>dum, quod Scriptura aliquando explicavit his
+          <lb ed="#P" n="71"/>verbis, Obediente DEO voci hominis. Et ex 
+          hu<lb break="no" ed="#P" n="72"/>manis intelligi potest, nam qui ab ablo petit
+          <lb ed="#P" n="73"/>eleemosynam, in tantum est causa 
+          eleemosy<lb break="no" ed="#P" n="74"/>nae : in quantum inclinat voluntatem alterius,
+          <lb ed="#P" n="75"/>nec potest talis causalitas aliter intelligi. Et ita
+          <lb ed="#P" n="76"/>etiam explicat D. Thomas 2, 2, quaest. 83,
+          <lb ed="#P" n="77"/>art. 1. Idemque fere est in omni causalitate
+          <lb ed="#P" n="78"/>morali, qualis est in merito, vel demerito et
+          <lb ed="#P" n="79"/>etiam in dispositione morali : ergo si Deus vult
+          <lb ed="#P" n="80"/>causalitatem illorum effectuum inter se, vult
+          <lb ed="#P" n="81"/>etiam, ut in uno eorum, verbi gratia, in 
+          me<lb break="no" ed="#P" n="82"/>rito, sit sufficiens ratio, ob quam voluntas 
+          e<lb break="no" ed="#P" n="83"/>jus determinetur, saltem ordine excutionis, ad
+          <lb ed="#P" n="84"/>volendum alium effectum.
+        </p>
+        <p xml:id="szduep-109073-d1e460">
+          <lb ed="#P" n="85"/>5. Ratio a priori. — Ratio autem a priori
+          <lb ed="#P" n="86"/>est, quia non solum non repugnat divinae per- -
+          <lb ed="#P" n="87"/>fectioni, verum etiam est maxime 
+          consenta<lb break="no" ed="#P" n="88"/>neum et necessarium ad infinitam 
+          perfectio<lb break="no" ed="#P" n="89"/>nem ejus. Prior pars constat primo, exemplo
+          <lb ed="#P" n="90"/>scientiae, in qua hoc invenitur sine ulla 
+          im<lb break="no" ed="#P" n="91"/>perfectione : Secundo, quia unico 
+          simplicissi<lb break="no" ed="#P" n="92"/>mo actu potest Deus haec omnia velle sub 
+          qua<lb break="no" ed="#P" n="93"/>cumque ratione in ipsis rebus inventa et 
+          con<lb break="no" ed="#P" n="94"/>formi divinae sapientiae. Unde etiam patet 
+          al<lb break="no" ed="#P" n="95"/>tera pars, quia ad perfectionem DEI spectat
+          <lb ed="#P" n="96"/>regulare (ut nostro modo loquamur) suos actus
+          <lb ed="#P" n="97"/>liberos per suam divinam sapientiam, ut recte
+          <lb ed="#P" n="98"/>dixit D. Thomas, 1 part., quaest. 21, art. 3.
+          <lb ed="#P" n="99"/>Pertinet etiam ad perfectionem Dei, justitiam
+          <lb ed="#P" n="100"/>distributivam, aut punitivam, fidelitatem, 
+          mi<lb break="no" ed="#P" n="101"/>sericordiam , liberalitatem et similes virtutes
+          <lb ed="#P" n="102"/>in suis liberis actibus exercere. Haec autem 
+          fie<lb break="no" ed="#P" n="103"/>ri non possunt, nisi consideratis in objectis
+          <lb ed="#P" n="104"/>variis conditionibus et rationibus eorum, quae
+          <lb ed="#P" n="105"/>hunc vel illum modum voluntatis postulent, et
+          <lb ed="#P" n="106"/>hoc ipsum significamus dicendo , in objectis
+          <lb ed="#P" n="107"/>ipsis reperiri aliquas rationes divinarum 
+          vo<lb break="no" ed="#P" n="108"/>luntatum. Neque in hac veritate aliquam 
+          diffi<lb break="no" ed="#P" n="109"/>cultatem invenio : nam haec non est vera 
+          cau<lb break="no" ed="#P" n="110"/>salitas, ut repugnet DEO, sed est conditio
+          <pb ed="#P" n="431"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praesupposita ex parte objecti, quae nihil 
+          re<lb break="no" ed="#P" n="2"/>pugnat, quia talis conditio non supponitur
+          <lb ed="#P" n="3"/>absolute al omnem DEI voluntatem, sed ex
+          <lb ed="#P" n="4"/>una supponitur ad aliam ratione distinctam.
+        </p>
+        <p xml:id="szduep-109073-d1e532">
+          <lb ed="#P" n="5"/>6. Ex dictis collectio. — In divina voluntate
+          <lb ed="#P" n="6"/>vexequente potest dari causa preedestinationis.—
+          <lb ed="#P" n="7"/>Quee maneant sub controversia. —Ex his ergo
+          <lb ed="#P" n="8"/>principiis in praesenti materia concludimus,
+          <lb ed="#P" n="9"/>necessarium esse inquirere, an divinae 
+          praedes<lb break="no" ed="#P" n="10"/>tnationis ex parte divinae voluntatis, vel 
+          prae<lb break="no" ed="#P" n="11"/>scientiae, ut terminatae ad praedestinationis 
+          ef<lb break="no" ed="#P" n="12"/>fectus, detur aliqua causa, quae sit ratio 
+          objec<lb break="no" ed="#P" n="13"/>tiva ex parte hominis. In qua quaestione omnes
+          <lb ed="#P" n="14"/>theologi videntur sentire ; in ordine ad 
+          divi<lb break="no" ed="#P" n="15"/>nam voluntatem exequentem, saepe posse dari
+          <lb ed="#P" n="16"/>rationem praedestinationis , quia potest dari
+          <lb ed="#P" n="17"/>causa aliquorum effectuum praedestinationis ,
+          <lb ed="#P" n="18"/>qui non fiunt, nisi per divinam voluntatem,
+          <lb ed="#P" n="19"/>ut ad ipsos terminatam ; ergo illa eadem causa
+          <lb ed="#P" n="20"/>gloriae, vel gratiae, id est, meritum gloriae, vel
+          <lb ed="#P" n="21"/>dispositio ad gratiam erit ratio voluntatis 
+          di<lb break="no" ed="#P" n="22"/>vinae, prout determinatur ad illas praestandas.
+          <lb ed="#P" n="23"/>Atque hoc sensu dixit Augustinus, lib. 1, ad
+          <lb ed="#P" n="24"/>sumplicianum, quaest. 2, aliquam electionem
+          <lb ed="#P" n="25"/>eeternam ad gloriam esse ex praescientia 
+          me<lb break="no" ed="#P" n="26"/>ritorum. Sic etiam dispositio ultima ad 
+          gra<lb break="no" ed="#P" n="27"/>tiam a DEO praevisa fuit ratio, ob quam ab
+          <lb ed="#P" n="28"/>aeterno decreverit gratiam justificantem 
+          infun<lb break="no" ed="#P" n="29"/>dere, et sic de aliis mediis, quae possunt habere
+          <lb ed="#P" n="30"/>hujusmodi rationem. Duo vero manent sub
+          <lb ed="#P" n="31"/>controversia. Unum est, an in omnibus mediis
+          <lb ed="#P" n="32"/>praedestinationis possit inveniri aliqua 
+          hujus<lb break="no" ed="#P" n="33"/>modi ratio divinae voluntatis. Aliud est, an in
+          <lb ed="#P" n="34"/>illismet effectibus, in quibus invenitur, sit haec
+          <lb ed="#P" n="35"/>prima ratio praedestinationis eorum, vel potius
+          <lb ed="#P" n="36"/>haec ipsamet causa proveniat ex alia priori
+          <lb ed="#P" n="37"/>praedestinatione talium effectuum : quae duo
+          <lb ed="#P" n="38"/>in sequentibus tractanda sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

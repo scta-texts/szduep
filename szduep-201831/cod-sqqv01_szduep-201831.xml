@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="799"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-201831"><!-- t3-l12c3 -->
+        <head xml:id="szduep-201831-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-201831-Hd1e103" type="question-title">Quaenam persona possit aliam mittere</head>
+        <p xml:id="szduep-201831-d1e106">
+          <lb ed="#P" n="52"/>CAPUT III.
+          <lb ed="#P" n="53"/>QUAENAM PERSONA POSSIT ALIAM MITTERE.
+        </p>
+        <p xml:id="szduep-201831-d1e113">
+          <lb ed="#P" n="54"/>1. Resolutio. — Resolutio est facilis ex 
+          dic<lb break="no" ed="#P" n="55"/>tis. Dico ergo primum. Omnis persona 
+          produ<lb break="no" ed="#P" n="56"/>cens potest etiam mittere, atque illa sola, et
+          <lb ed="#P" n="57"/>ita Pater et Filius possunt mittere, Spiritus
+          <lb ed="#P" n="58"/>sanctus autem non potest mittere. Probantur
+          <lb ed="#P" n="59"/>omnia ex illo principio, quod missio divinae
+          <lb ed="#P" n="60"/>personae includit processionem, per quam 
+          per<lb break="no" ed="#P" n="61"/>sona missa accipit virtutem et auctoritatem
+          <lb ed="#P" n="62"/>operandi, seu faciendi id, ad quod mittitur.
+          <lb ed="#P" n="63"/>Unde argumentor in hunc modum. Omnis 
+          per<lb break="no" ed="#P" n="64"/>sona divina producens aliam, dat illi virtutem
+          <lb ed="#P" n="65"/>et inclinationem eundi aliquo eo modo, quo
+          <lb ed="#P" n="66"/>ire potest, scilicet, per operationem, vel aliam
+          <lb ed="#P" n="67"/>unionem ad aliquam creaturam, ergo potest
+          <lb ed="#P" n="68"/>mittere illam. E contrario vero persona, quae
+          <lb ed="#P" n="69"/>non producit, non dat hujusmodi virtutem,
+          <lb ed="#P" n="70"/>vel auctoritatem alicui personae, ergo nullam
+          <lb ed="#P" n="71"/>potest mittere.
+        </p>
+        <p xml:id="szduep-201831-d1e155">
+          <lb ed="#P" n="72"/>2. Potest vero hic objici: nam sequitur 
+          e<lb break="no" ed="#P" n="73"/>tiam homines posse mittere personas divinas
+          <lb ed="#P" n="74"/>imprimendo eis (ut ita loquar) affectum 
+          ve<lb break="no" ed="#P" n="75"/>niendi, licet facultatem non tribuant, quod
+          <lb ed="#P" n="76"/>non semper necessarium est, ut unus alium
+          <lb ed="#P" n="77"/>mittat, sed primum sufficit, ut inter homines
+          <lb ed="#P" n="78"/>constat. Sequela probatur, quia per 
+          operatio<lb break="no" ed="#P" n="79"/>nem saltem potest voluntatem ejus inclinare,
+          <lb ed="#P" n="80"/>ut veniat, quin potius etiam ipsum Patrem
+          <lb ed="#P" n="81"/>posset hoc modo mittere. Alio item modo 
+          pos<lb break="no" ed="#P" n="82"/>set dici de ministro, quod mittat Spiritum
+          <lb ed="#P" n="83"/>sanctum, cum absolvit, vel cum confirmat,
+          <lb ed="#P" n="84"/>quia dat illum, non autem dat, nisi quatenus
+          <lb ed="#P" n="85"/>exhibendo talem actum, movet Spiritum 
+          sanc<lb break="no" ed="#P" n="86"/>tum, ut veniat. Quamvis enim voluntas 
+          Spi<lb break="no" ed="#P" n="87"/>ritus sancti non possit habere propriam 
+          cau<lb break="no" ed="#P" n="88"/>sam, talem potest habere rationem, quatenus
+          <lb ed="#P" n="89"/>ex praevisione alicujus effectus, vel actus 
+          de<lb break="no" ed="#P" n="90"/>terminatur ad aliquid volendum, vel 
+          facien<lb break="no" ed="#P" n="91"/>dum. Et quia ex promissione Christi est 
+          infal<lb break="no" ed="#P" n="92"/>libile, ut exercente sacerdote talem actum, 
+          de<lb break="no" ed="#P" n="93"/>tur Spiritus sanctus juxta illud Act. 8: Cum
+          <lb ed="#P" n="94"/>videret autem Simon, quia per impositionem
+          <lb ed="#P" n="95"/>manus Apostolis daretur Spiritus sanctus. Si
+          <lb ed="#P" n="96"/>ergo per actionem hominis datur Spiritus 
+          sanc<lb break="no" ed="#P" n="97"/>tus, ergo talis homo dat Spiritum sanctum,
+          <lb ed="#P" n="98"/>item Episcopus, cum alium sacris ordinibus
+          <lb ed="#P" n="99"/>initiat, dicit in persona Christi. Accipite 
+          Spi<lb break="no" ed="#P" n="100"/>ritum sanctum, verba autem sacramentalia 
+          ef<lb break="no" ed="#P" n="101"/>ficiunt, quod significant : ergo homo dat 
+          Spi<lb break="no" ed="#P" n="102"/>ritum sanctum, ergo mittit illum, quia facit
+          <lb ed="#P" n="103"/>illum venire ad homines, et hoc est mittere,
+          <pb ed="#P" n="800"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>unde etiam concludi potest, quod homo mittat
+          <lb ed="#P" n="2"/>Trinitatem.
+        </p>
+        <p xml:id="szduep-201831-d1e237">
+          <lb ed="#P" n="3"/>3. Hoc argumentum tetigit D. Thomas, 1
+          <lb ed="#P" n="4"/>p-. q. 43, art. 8, argumento tertio, et 
+          respon<lb break="no" ed="#P" n="5"/>det, homines non mittere, vel dare Spiritum
+          <lb ed="#P" n="6"/>sanctum : quia nec sunt principium personae
+          <lb ed="#P" n="7"/>Spiritus sancti, nec effectus gratiee possunt
+          <lb ed="#P" n="8"/>causare. Sed contra hanc secundam partem
+          <lb ed="#P" n="9"/>facit, quod sacerdos vere absolvit, et remittit
+          <lb ed="#P" n="10"/>peccata, et confert gratiam, ut diximus, 3
+          <lb ed="#P" n="11"/>p-» q. 04, art. 1, causat ergo illam. Item alii
+          <lb ed="#P" n="12"/>homines, et si gratiam proprie causare non
+          <lb ed="#P" n="13"/>possint, possunt eam impetrare, et 
+          consequen<lb break="no" ed="#P" n="14"/>ter movere, et inducere Deum, ut gratiam
+          <lb ed="#P" n="15"/>conferat quod est aliquo modo illam causare
+          <lb ed="#P" n="16"/>juxta doctrinam ejusdem D. Thomae 2, q. 83,
+          <lb ed="#P" n="17"/>art. 1. Eo igitur modo, quo potest homo esse
+          <lb ed="#P" n="18"/>causa gratiae, poterit etiam mittere divinam
+          <lb ed="#P" n="19"/>personam. Nam consulens alicui, ut eat, 
+          mit<lb break="no" ed="#P" n="20"/>tit illum, cur non etiam rogans? Dicendum
+          <lb ed="#P" n="21"/>vero est , D. Thomas loqui de causa propria ,
+          <lb ed="#P" n="22"/>et principali, nam, ut aliquis dicatur dare
+          <lb ed="#P" n="23"/>Spiritum sanctum, oportet, ut illo modo sit
+          <lb ed="#P" n="24"/>causa gratiae. Quia dare importat quamdam
+          <lb ed="#P" n="25"/>auctoritatem in dante circa rem, quam datur,
+          <lb ed="#P" n="26"/>ut sit sua aliquo modo, vel per identitatem,
+          <lb ed="#P" n="27"/>vel per originem, nemo autem potest hanc
+          <lb ed="#P" n="28"/>habitudinem habere ad Spiritum sanctum,
+          <lb ed="#P" n="29"/>nisi, qui etiam sit causa simpliciter, ac 
+          prin<lb break="no" ed="#P" n="30"/>cipalis gratiae. Homo autem non potest hoc
+          <lb ed="#P" n="31"/>modo esse causa gratiae, ut constat. Et ideo,
+          <lb ed="#P" n="32"/>licet deprecative, vel ministerialiter ad illam
+          <lb ed="#P" n="33"/>cooperetur aliquo modo, non propterea dici
+          <lb ed="#P" n="34"/>potest mittere divinam personam. Imo neque
+          <lb ed="#P" n="35"/>inter homines omnis, qui rogat alterum , ut
+          <lb ed="#P" n="36"/>eat aliquo, dici potest illum mittere, sed, qui
+          <lb ed="#P" n="37"/>rogat cum aliqua auctoritate , cujus preces
+          <lb ed="#P" n="38"/>eequivalent jussioni, ut sunt preces parentis,
+          <lb ed="#P" n="39"/>aut principis. At qui orat, ut inferior, et cum
+          <lb ed="#P" n="40"/>submissione, ut homo orat ad Deum, cum 
+          pe<lb break="no" ed="#P" n="41"/>tit, ut ad se, vel alium veniat, licet id 
+          obti<lb break="no" ed="#P" n="42"/>neat, non propterea potest dici mittere Deum,
+          <lb ed="#P" n="43"/>quin potius Deus prius illi immisit spiritum
+          <lb ed="#P" n="44"/>precum, ut illo medio adventum suum ad 
+          ip<lb break="no" ed="#P" n="45"/>sum disponeret.
+        </p>
+        <p xml:id="szduep-201831-d1e333">
+          <lb ed="#P" n="46"/>4. Minister Sacramenti solum se habet ut
+          <lb ed="#P" n="47"/>applicans instrumentum. — Et simili ratione
+          <lb ed="#P" n="48"/>Minister Sacramenti nullo modo dici potest
+          <lb ed="#P" n="49"/>mittere Spiritum sanctum, non solum quia 
+          il<lb break="no" ed="#P" n="50"/>lum non dat, sed etiam quia solum se habet
+          <lb ed="#P" n="51"/>ut applicans instrumentum, quo DEUS efficit
+          <lb ed="#P" n="52"/>per gratiam, per quam venit in animam. Nam
+          <lb ed="#P" n="53"/>in effectione gratiae nullam aliam actionem
+          <lb ed="#P" n="54"/>habet Minister Sacramenti , nisi effectionem
+          <lb ed="#P" n="55"/>ipsius Sacramenti, quod est proximum Dei
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>instrumentum ad gratiam efficiendam. Unde
+          <lb ed="#P" n="57"/>licet ad praesentiam Sacramenti quasi 
+          movea<lb break="no" ed="#P" n="58"/>tur Deus ad veniendum in hominem, non
+          <lb ed="#P" n="59"/>propterea Minister Sacramenti mittit Deum
+          <lb ed="#P" n="60"/>in animam, sed in vi promissionis suae ipse
+          <lb ed="#P" n="61"/>Deus venit. Sicut qui praesentat alicui 
+          Chiro<lb break="no" ed="#P" n="62"/>graphum, quo promisit aliquo ire, non 
+          prop<lb break="no" ed="#P" n="63"/>terea mittit illum. Denique etiam verbum 
+          mit<lb break="no" ed="#P" n="64"/>tendi importat quamdam auctoritatem in 
+          per<lb break="no" ed="#P" n="65"/>sonam missam, quam minister Sacramenti
+          <lb ed="#P" n="66"/>non habet. Inde potius ipse mittitur a Spiritu
+          <lb ed="#P" n="67"/>sancto, ut suum adventum disponat alio medio
+          <lb ed="#P" n="68"/>ab ipso praeparato.
+        </p>
+        <p xml:id="szduep-201831-d1e388">
+          <lb ed="#P" n="69"/>5. Secunda conclusio. —Secundo dicendum
+          <lb ed="#P" n="70"/>est, non quamlibet personam producentem
+          <lb ed="#P" n="71"/>posse mittere quamlibet, sed solum eam, quam
+          <lb ed="#P" n="72"/>producit, quia respectu alterius non habet eam
+          <lb ed="#P" n="73"/>auctoritatem vel habitudinem, quam verbum
+          <lb ed="#P" n="74"/>mittendi importat, unde fit, Patrem posse 
+          mit<lb break="no" ed="#P" n="75"/>tere duas personas, Filium unam, Spiritum
+          <lb ed="#P" n="76"/>sanctum nullam: atque ita in sacra Scriptura
+          <lb ed="#P" n="77"/>de Patre et Filio utrumque legitur respective,
+          <lb ed="#P" n="78"/>de Spiritu sancto non legitur, quod aliquam
+          <lb ed="#P" n="79"/>personam mittat. Haec omnia constant ex 
+          hac<lb break="no" ed="#P" n="80"/>tenus dictis: estque doctrina Athanasii, epistola
+          <lb ed="#P" n="81"/>ad Serapionem, circa finem: et eamdem 
+          sup<lb break="no" ed="#P" n="82"/>ponunt omnes, qui probant, Spiritum sanctum
+          <lb ed="#P" n="83"/>procedere a Filio ex eo, quod ab illo mittitur,
+          <lb ed="#P" n="84"/>quos supra retuli. Adde, non solum non posse
+          <lb ed="#P" n="85"/>unam personam mittere illam, quam non 
+          pro<lb break="no" ed="#P" n="86"/>ducit, verum etiam nec dare illam; quod ex
+          <lb ed="#P" n="87"/>sententia Patrum Graecorum notavit D. 
+          Tho<lb break="no" ed="#P" n="88"/>mas, opusc. 1, contra errores Graecorum. Et
+          <lb ed="#P" n="89"/>ratio est, quia verbum dandi requirit, ut 
+          per<lb break="no" ed="#P" n="90"/>sona, quae datur, sit aliquo modo dantis, quod
+          <lb ed="#P" n="91"/>in persona divina esse non potest, nisi vel per
+          <lb ed="#P" n="92"/>identitatem cum dat se, vel per originem cum
+          <lb ed="#P" n="93"/>dat aliam.
+        </p>
+        <p xml:id="szduep-201831-d1e445">
+          <lb ed="#P" n="94"/>6. Objectio. — Prima expositio refellitur. —
+          <lb ed="#P" n="95"/>Germana espositio. — Hic vero objici posset,
+          <lb ed="#P" n="96"/>quia Filius dicitur mittere se. Sed hoc 
+          expedi<lb break="no" ed="#P" n="97"/>tum jam est in capite superiori. Aliter ergo
+          <lb ed="#P" n="98"/>objicitur ex loco Isaiae 48: Et tunc Dominus
+          <lb ed="#P" n="99"/>misit me et spiritus ejus. Fuit quidem 
+          Hebraeo<lb break="no" ed="#P" n="100"/>rum expositio, illud pronomen e 
+          intelligen<lb break="no" ed="#P" n="101"/>dum esse de ipsomet propheta lsaia, qui de se
+          <lb ed="#P" n="102"/>ipso ibi loquebatur et dicebat, se esse missum
+          <lb ed="#P" n="103"/>a Deo, et spiritu ejus ad prophetandum, et 
+          lo<lb break="no" ed="#P" n="104"/>quendum, quam expositionem aliqui Catholici
+          <lb ed="#P" n="105"/>sequuntur. Fuit etiam expositio Cyrill, verba
+          <lb ed="#P" n="106"/>illa de Rege Cyro esse intelligenda. 
+          Nihilomi<lb break="no" ed="#P" n="107"/>nus tamen communis expositio Patrum est,
+          <lb ed="#P" n="108"/>sermonem ibi esse de Christo, ipsumque esse,
+          <lb ed="#P" n="109"/>qui per os prophetae dicit : Dominus misit me
+          <lb ed="#P" n="110"/>et spiritus ejus. Ita Hieronymus, ibi et Ambro
+          <pb ed="#P" n="801"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sius, lib. 2, de Spiritu sancto, cap. 1, 
+          Chrysos<lb break="no" ed="#P" n="2"/>tomus, homil. de sancto et adorando Spiritu,
+          <lb ed="#P" n="3"/>Augustinus 2, de Trin., c. 5 et 15, Eusebius,
+          <lb ed="#P" n="4"/>l. 5, de Demonstrat., c. 6, Anastasius Synaita,
+          <lb ed="#P" n="5"/>libro de rectis Fidei dogmatibus. Ac tandem
+          <lb ed="#P" n="6"/>ita etiam exposuit Concilium Toletanum 11,
+          <lb ed="#P" n="7"/>in Confessione fidei. Ergo juxta hanc 
+          exposi<lb break="no" ed="#P" n="8"/>tionem invenitur jam in Scriptura, Spiritum
+          <lb ed="#P" n="9"/>sanctum etiam mittere.
+        </p>
+        <p xml:id="szduep-201831-d1e508">
+          <lb ed="#P" n="10"/>7. Expositio auctoris. — Respondeo, admissa
+          <lb ed="#P" n="11"/>illa expositione, Christum Dominum ibi 
+          intro<lb break="no" ed="#P" n="12"/>duci loquentem ut hominem, et sic merito
+          <lb ed="#P" n="13"/>dicere se esse missum a Spiritu sancto, quia
+          <lb ed="#P" n="14"/>Spiritus sanctus illum sanctificavit, et unxit
+          <lb ed="#P" n="15"/>oleo divinitatis, quando in Virginem 
+          super<lb break="no" ed="#P" n="16"/>venit, et illud, quod ea ea natum est sanctum
+          <lb ed="#P" n="17"/>(Luc 1) de purissimis ejus sanguinibus 
+          forma<lb break="no" ed="#P" n="18"/>vit, et ad redimendos, et illuminandos 
+          homi<lb break="no" ed="#P" n="19"/>nes misit, juxta illud Isaiae 61: Spiritus 
+          Do<lb break="no" ed="#P" n="20"/>mini super me, eo quod unverit me, ad 
+          evangeli<lb break="no" ed="#P" n="21"/>candun pauperibus misit me. Sicut ergo 
+          Ver<lb break="no" ed="#P" n="22"/>bum ut homo a Spiritu sancto procedit, quia
+          <lb ed="#P" n="23"/>de Spiritu sancto est, juxta illud Matth. 1:
+          <lb ed="#P" n="24"/>Quod in ea natum est, de Spiritu sancto est,
+          <lb ed="#P" n="25"/>ita etiam ab eo missum est. Illa tamen missio
+          <lb ed="#P" n="26"/>non est, de qua nunc loquimur, ut saepe dixi,
+          <lb ed="#P" n="27"/>quia illa non cadit in divinam personam, ut
+          <lb ed="#P" n="28"/>divina est, cum non fiat sine mutatione aliqua
+          <lb ed="#P" n="29"/>ejus, qui mittitur: nos autem loquimur de
+          <lb ed="#P" n="30"/>missione divinae personae, ut divina est. Et sic
+          <lb ed="#P" n="31"/>nunquam legitur in Scriptura, quod Spiritus
+          <lb ed="#P" n="32"/>sanctus aliquam personam mittat. Unde 
+          Hie<lb break="no" ed="#P" n="33"/>ronymus in lIsaiam 4A8, ita exponit priorem
+          <lb ed="#P" n="34"/>locum: Ego juata fragilitatem carnis 
+          assump<lb break="no" ed="#P" n="35"/>tc dico, quod Dominus Deus aniserit me, et 
+          spi<lb break="no" ed="#P" n="36"/>ritus ejus.
+        </p>
+        <p xml:id="szduep-201831-d1e569">
+          <lb ed="#P" n="37"/>8. D. Thomas eaponit Augustinun. — At
+          <lb ed="#P" n="38"/>vero licet haec pro Scripturae testimonio 
+          satis<lb break="no" ed="#P" n="39"/>faeiant, nihilominus D. Thomas, dicta q. 43,
+          <lb ed="#P" n="40"/>art. 8, aliter intellexit Augustinum, quod (
+          sci<lb break="no" ed="#P" n="41"/>licet) docuerit, Verbum ut Verbum missum
+          <lb ed="#P" n="42"/>esse a Spiritu sancto: imo etiam tribuit 
+          Au<lb break="no" ed="#P" n="43"/>gustino, quod dixerit : /psum etiam Spiritum
+          <lb ed="#P" n="44"/>sanctum mitti a se, et a Filio. In quo Spiritu
+          <lb ed="#P" n="45"/>sancto non possumus distinguere locutionem
+          <lb ed="#P" n="46"/>illam secundum diversas naturas, quia illas
+          <lb ed="#P" n="47"/>non habet. Et propterea D. Thomas in 
+          Augus<lb break="no" ed="#P" n="48"/>tini gratiam distinguit Verbum mittendi. Quia
+          <lb ed="#P" n="49"/>interdum denotat personam mnuttentem ut
+          <lb ed="#P" n="50"/>principium personae missae, et sic verum est
+          <lb ed="#P" n="51"/>nullam personam mittere aliam, ut divinam,
+          <lb ed="#P" n="52"/>nisi, quae producit illam: aliquando autem
+          <lb ed="#P" n="53"/>verbum mittendi, solum significat personam
+          <lb ed="#P" n="54"/>mittentem ut principium illius effectus, 
+          secun<lb break="no" ed="#P" n="55"/>dum quem fit missio, et hoc modo (ait divus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Thomas) tota Trinitas mittit personam 
+          mis<lb break="no" ed="#P" n="57"/>sam. Quae doctrina colligi potest ex 
+          Augusti<lb break="no" ed="#P" n="58"/>no, dicto cap. 5, secundi libri de Trin., 
+          qua<lb break="no" ed="#P" n="59"/>tenus de Filio ait, eo esse missum, quo factus
+          <lb ed="#P" n="60"/>est em muliere, et inde infert, proinde müitti a
+          <lb ed="#P" n="61"/>Patre sine Spiritu sancto non potuit. Et 
+          in<lb break="no" ed="#P" n="62"/>ferius adjungit, etiam a se ipso missum esse
+          <lb ed="#P" n="63"/>ilium, quia ille conceptus, et partus operatio
+          <lb ed="#P" n="64"/>Trinitatis est. Ergo missionem vocat 
+          produc<lb break="no" ed="#P" n="65"/>tionem effectus secundum quem attenditur
+          <lb ed="#P" n="66"/>missio. Unde in fine capitis aperte subjungit
+          <lb ed="#P" n="67"/>de missione Spiritus sancti. Hec operatio 
+          vi<lb break="no" ed="#P" n="68"/>sibiliter evpressa, et oculis oblata mortalibus,
+          <lb ed="#P" n="69"/>missio Spiritus sancti dicta est.
+        </p>
+        <p xml:id="szduep-201831-d1e646">
+          <lb ed="#P" n="70"/>9. Rejicitur explicatio Verbi mittendi 
+          signi<lb break="no" ed="#P" n="71"/>ficationis. — In hac D. Thomae distinctione, et
+          <lb ed="#P" n="72"/>doctrina nihil est, quod de re ipsa dubitemus.
+          <lb ed="#P" n="73"/>Sed quod attinet ad significationes verbi 
+          mit<lb break="no" ed="#P" n="74"/>lendi, non video sufficientem causam illas 
+          mul<lb break="no" ed="#P" n="75"/>tplicandi, nam revera non potest praescindi
+          <lb ed="#P" n="76"/>ab habitudine ad personam mittentem. Et 
+          alio<lb break="no" ed="#P" n="77"/>qui per illam distinctionem multum 
+          enervan<lb break="no" ed="#P" n="78"/>tur illa testimonia, in quibus dicitur Filius
+          <lb ed="#P" n="79"/>mittere Spiritum sanctum, quatenus ex eis
+          <lb ed="#P" n="80"/>probant Patres processionem Spiritus sancti a
+          <lb ed="#P" n="81"/>Filio, nam per illam distinctionem eludi 
+          pos<lb break="no" ed="#P" n="82"/>sent. Quamobrem censeo distinctionem illam
+          <lb ed="#P" n="83"/>non esse in usu Scripturae admittendam, vel
+          <lb ed="#P" n="84"/>quia semper verbum müittendi involvit 
+          distinc<lb break="no" ed="#P" n="85"/>tionem, et aliquam processionem realem missi
+          <lb ed="#P" n="86"/>a mittente, vel quia alia significatio impropria
+          <lb ed="#P" n="87"/>est, et Scriptura cum proprietate est 
+          intelli<lb break="no" ed="#P" n="88"/>genda, ubi aliud non constat. In Augustino
+          <lb ed="#P" n="89"/>autem facilius posset admitti, tamen etiam non
+          <lb ed="#P" n="90"/>censeo necessarium. Quia imprimis nunquam
+          <lb ed="#P" n="91"/>apud illum legi, quod Spiritus sanctus se 
+          ip<lb break="no" ed="#P" n="92"/>sum mittat : dicit quidem 15, de Trin., c. 19,
+          <lb ed="#P" n="93"/>quod Spiritus sanctus se ipsum dat, aut 
+          do<lb break="no" ed="#P" n="94"/>nat. Sed hoc longe diversum est, ut de Patre
+          <lb ed="#P" n="95"/>supra diximus. Unde cum Augustinus ait,
+          <lb ed="#P" n="96"/>operationem visibilem esse missionem, non
+          <lb ed="#P" n="97"/>addit exclusivam, quod sit sola illa, sed ita
+          <lb ed="#P" n="98"/>loquitur, quia per illam operationem 
+          comple<lb break="no" ed="#P" n="99"/>tur missio.
+        </p>
+        <p xml:id="szduep-201831-d1e714">
+          <lb ed="#P" n="100"/>10. Alioqui vero saepe docet Augustinus,
+          <lb ed="#P" n="101"/>eisdem locis, processionem involvi in missione,
+          <lb ed="#P" n="102"/>ut supra retuli. Unde 4, de Trinitate, cap. 20,
+          <lb ed="#P" n="103"/>ait, eatenus Filium mitti a Patre : Quatenus
+          <lb ed="#P" n="104"/>Filius à Patre est, et non Pater a Filio. 
+          Idem<lb break="no" ed="#P" n="105"/>que docet de Spiritu sancto respectu Patris et
+          <lb ed="#P" n="106"/>Filii. Unde, quod ait, Filium mitüi ab Spiritu
+          <lb ed="#P" n="107"/>sancto, optime de Christo homine, et secundum
+          <lb ed="#P" n="108"/>humanitatem intelligitur. Ait enim in 
+          princi<lb break="no" ed="#P" n="109"/>pio ejusdem cap. 20, quarti lib. de Trinit.,
+          <lb ed="#P" n="110"/>Patrem mittere Filium: Non quis alle major
+          <pb ed="#P" n="802"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, hic minor, sed quia ille Pater, hic Filius,
+          <lb ed="#P" n="2"/>ille a quo est, qui mittitur: ille qui est ab eo,
+          <lb ed="#P" n="3"/>qui mittit. Et subdit statim, secundum hoc jam
+          <lb ed="#P" n="4"/>gotest intelligi, non ideo tantum dici missus
+          <lb ed="#P" n="5"/>Filius : quia Verbwn caro factum est, sed ideo
+          <lb ed="#P" n="6"/>missus, ut Verbum caro fieret. Et per 
+          preesen<lb break="no" ed="#P" n="7"/>tium corporalem illa, quee scripta sunt, 
+          opera<lb break="no" ed="#P" n="8"/>retur, id est, ut non tantum homo missus 
+          intel<lb break="no" ed="#P" n="9"/>ligatur, quod Verbum caro factum est, sed esse
+          <lb ed="#P" n="10"/>Verbwm missum, ut homo fieret, etc. In quibus
+          <lb ed="#P" n="11"/>verbis expendo, in missione Verbi, ut Verbum
+          <lb ed="#P" n="12"/>est, importari secundum Augustinum 
+          proces<lb break="no" ed="#P" n="13"/>sionem aeternam a Patre, et ita non posse
+          <lb ed="#P" n="14"/>missionem Verbi alteri, quam Patri attribui,
+          <lb ed="#P" n="15"/>solamque missionem Verbi, ut hominis, 
+          attri<lb break="no" ed="#P" n="16"/>bui, aliis personis, non quia per verbum 
+          mit<lb break="no" ed="#P" n="17"/>tendi non importetur habitudo ad principium
+          <lb ed="#P" n="18"/>personae missae, sed quia Christus, ut homo
+          <lb ed="#P" n="19"/>non a solo Patre, sed etiam ab aliis personis
+          <lb ed="#P" n="20"/>produeitur, et causatur. Nec ex lib. 9, de 
+          Tri<lb break="no" ed="#P" n="21"/>nit., cap. 5, aliud colligi potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

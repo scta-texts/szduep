@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 22</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 22</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="128"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-032553"><!-- t1-l2c22 -->
+        <head xml:id="szduep-032553-Hd1e101">Caput 22</head>
+        <head xml:id="szduep-032553-Hd1e103" type="question-title">An videntes divinam essentiam necessario videant omnia attributa, quae in ea formaliter sunt, ita ut ex hac parte non possint visiones esse inaequales in objecto</head>
+        <p xml:id="szduep-032553-d1e106">
+          <pb ed="#P" n="128"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT XXII.
+          <lb ed="#P" n="2"/>AN VIDENTES DIVINAM ESSENTIAM NECESSARIO
+          <lb ed="#P" n="3"/>VIDEANT OMNIA ATTRIBUTA, QUAE IN EA 
+          FOR<lb break="no" ed="#P" n="4"/>MALITER SUNT, ITA UT EX HAC PARTE
+          <lb ed="#P" n="5"/>NON POSSINT VISIONES ESSE 
+          INAE<lb break="no" ed="#P" n="6"/>QUALES IN OBJECTO.
+        </p>
+        <p xml:id="szduep-032553-d1e126">
+          <lb ed="#P" n="7"/>1. Visiones ejusdem objecti dupliciter sunt
+          <lb ed="#P" n="8"/>inequales. — Visiones ejusdem objecti et 
+          spe<lb break="no" ed="#P" n="9"/>ciei, duobus modis possunt intelligi inaequales
+          <lb ed="#P" n="10"/>quasi accidentaliter , videlicet, formaliter et
+          <lb ed="#P" n="11"/>objective, id est, vel in suis entitatibus, quia
+          <lb ed="#P" n="12"/>una est intensior, vel clarior accidentaliter, seu
+          <lb ed="#P" n="13"/>individualiter, vel quia in ipso objecto aliquid
+          <lb ed="#P" n="14"/>amplius una repraesentat, quam alia. Prior
+          <lb ed="#P" n="15"/>inaequalitas est omnino necessaria, si 
+          suppo<lb break="no" ed="#P" n="16"/>nantur visiones esse ejusdem objecti et speciei,
+          <lb ed="#P" n="17"/>ut in praesenti supponuntur, et alio qui etiam
+          <lb ed="#P" n="18"/>supponuntur esse inaequales. Quia vel illae 
+          vi<lb break="no" ed="#P" n="19"/>siones habent inaequalitatem in objecto, vel
+          <lb ed="#P" n="20"/>non habent, si non habent, ergo necesse est,
+          <lb ed="#P" n="21"/>ut saltem in suis entitatibus illam habeant ,
+          <lb ed="#P" n="22"/>si vero in objecto illam habent, multo magis
+          <lb ed="#P" n="23"/>necesse est, ut in entitatibus suis aliquam
+          <lb ed="#P" n="24"/>habeant. Quia visio ex perfectione sua 
+          re<lb break="no" ed="#P" n="25"/>praesentat objectum, ergo si in objecto 
+          al<lb break="no" ed="#P" n="26"/>quid amplius repraesentat, ex perfectione 
+          pe<lb break="no" ed="#P" n="27"/>culiari id habet, unde etiam in se perfectior
+          <lb ed="#P" n="28"/>est , caeteris paribus. Itaque supponimus 
+          vi<lb break="no" ed="#P" n="29"/>siones beatificas esse inaquales formaliter.
+          <lb ed="#P" n="30"/>Primo in intensione , quae solet esse prima
+          <lb ed="#P" n="31"/>inaequalitas in qualitatibus ejusdem rationis
+          <lb ed="#P" n="32"/>et sic etiam lumina gloria inaequalia sunt,
+          <lb ed="#P" n="33"/>sicut in via sunt inaequales gratiae et 
+          ha<lb break="no" ed="#P" n="34"/>bitus infusi. Secundo hinc habent ut sint
+          <lb ed="#P" n="35"/>inaequales visiones in claritate 
+          repraesentatio<lb break="no" ed="#P" n="36"/>nis, quia lumen intensius clarius etiam est.
+          <lb ed="#P" n="37"/>Difficultas ergo tota est de inaequalitate 
+          objec<lb break="no" ed="#P" n="38"/>tiva : potest autem tractari et de possibili et de
+          <lb ed="#P" n="39"/>facto et de utroque dicemus, discurrendo per
+          <lb ed="#P" n="40"/>omnia, quae in Deo sunt, sive formaliter, sive
+          <lb ed="#P" n="41"/>eminenter, sive necessario, sive libere, 
+          abso<lb break="no" ed="#P" n="42"/>lute , sive relative. Et paulatim hoc modo
+          <lb ed="#P" n="43"/>explicabimus effectum formalem illius visionis.
+          <lb ed="#P" n="44"/>Ac tandem reddemus rationem, cur illa visio
+          <lb ed="#P" n="45"/>Dei non sit comprehensio. In hoc ergo capite
+          <lb ed="#P" n="46"/>solum agimus de his, quae sunt in divina 
+          essen<lb break="no" ed="#P" n="47"/>tia absolute, ac necessario, quae solent dici 
+          at<lb break="no" ed="#P" n="48"/>tributa Dei, ut Deus est. Et licet res videatur
+          <lb ed="#P" n="49"/>ex supra dictis clara, nihilominus excogitati
+          <lb ed="#P" n="50"/>sunt varii modi opinandi.
+        </p>
+        <p xml:id="szduep-032553-d1e224">
+          <lb ed="#P" n="51"/>2. Primus modus dicendi. — Primus est, non
+          <lb ed="#P" n="52"/>solum de facto non videre beatos omnia haec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>attributa, sed neque etiam videri posse omnia
+          <lb ed="#P" n="54"/>simul ab intellectu creato. Quam sententiam
+          <lb ed="#P" n="55"/>videtur indicasse Ochamus in 4. q. 13, 
+          quate<lb break="no" ed="#P" n="56"/>nus dicit, solum Deum posse videre in se 
+          om<lb break="no" ed="#P" n="57"/>nia praedicata, quae sibi conveniunt : alios
+          <lb ed="#P" n="58"/>autem beatos non videre omnia, sed fortasse
+          <lb ed="#P" n="59"/>loquitur de praedicatis respectivis ad creaturas
+          <lb ed="#P" n="60"/>in speciali ut esse posse causam hujus et illius 
+          <lb ed="#P" n="61"/>rei: non vero de propriis praedicatis 
+          essentiali<lb break="no" ed="#P" n="62"/>bus. Praeterea favet Richardus in 3, d. 14, art. 1,
+          <lb ed="#P" n="63"/>q. 4, ad ult., ait enim virtutem divinam esse
+          <lb ed="#P" n="64"/>simplicem et infinitam et quatenus simplex est,
+          <lb ed="#P" n="65"/>totam videri, quatenus vero est infinita, aliquid
+          <lb ed="#P" n="66"/>de illius profunditate latere omnem intellectum
+          <lb ed="#P" n="67"/>creatum. Atque idem significat Bonaventura 
+          ibi<lb break="no" ed="#P" n="68"/>dem art. 1, quaest. 2. Ferrarius 3, contra 
+          Gen<lb break="no" ed="#P" n="69"/>tes, c. 16, circa finem dicit, beatos non videre
+          <lb ed="#P" n="70"/>distincte omnes divinas perfectiones, quae sunt
+          <lb ed="#P" n="71"/>infinitae , licet videant simplicem essentiam
+          <lb ed="#P" n="72"/>omnes illas perfectiones continentem.
+        </p>
+        <p xml:id="szduep-032553-d1e277">
+          <lb ed="#P" n="73"/>3. Potest autem probari haec sententia, quia
+          <lb ed="#P" n="74"/>haec attributa sunt infinita, cum Deus sit 
+          infi<lb break="no" ed="#P" n="75"/>nite perfectus ; ergo non possunt omnia simul
+          <lb ed="#P" n="76"/>et distincte videri una finita visione, quia 
+          vide<lb break="no" ed="#P" n="77"/>tur hoc superare omnes vires finitas. Ut patet
+          <lb ed="#P" n="78"/>utendo vulgari argumento, nam ad videndum
+          <lb ed="#P" n="79"/>unam ex his perfectionibus requiritur aliqua
+          <lb ed="#P" n="80"/>virtus, ergo ad videndas duas est necessaria
+          <lb ed="#P" n="81"/>major virtus, ejusdem ordinis, ergo ad 
+          viden<lb break="no" ed="#P" n="82"/>das simul omnes et infinitas erit necessaria
+          <lb ed="#P" n="83"/>infinita virtus. L
+        </p>
+        <p xml:id="szduep-032553-d1e303">
+          <lb ed="#P" n="84"/>4. Secundus modus. — Secundus modus 
+          di<lb break="no" ed="#P" n="85"/>cendi est, omnia quidem attributa videri a 
+          quo<lb break="no" ed="#P" n="86"/>libet vidente Deum, non tamen omnem modum
+          <lb ed="#P" n="87"/>uniuscujusque attributi, non solum quod ex
+          <lb ed="#P" n="88"/>parte videntis non omnimodo videatur, hoc
+          <lb ed="#P" n="89"/>enim non faceret inaequalitatem ex parte 
+          ob<lb break="no" ed="#P" n="90"/>jecti, sed quod non omnem modum, quem in
+          <lb ed="#P" n="91"/>objecto attributa habent, videant omnes 
+          viden<lb break="no" ed="#P" n="92"/>tes talia attributa. Hanc sententiam indicare
+          <lb ed="#P" n="93"/>videtur Ferrarius d. cap. 56. dum ait, beatos
+          <lb ed="#P" n="94"/>videre infinitatem Dei, sed non totam. Quia
+          <lb ed="#P" n="95"/>non potest virtus creata intueri totam 
+          infini<lb break="no" ed="#P" n="96"/>tatem intensivam Dei, quia videtur ad hoc
+          <lb ed="#P" n="97"/>necessaria infinita attentio, et efficacia: et 
+          sua<lb break="no" ed="#P" n="98"/>detur primo, quia ex hac penetratione 
+          infini<lb break="no" ed="#P" n="99"/>tatis Dei sequeretur comprehensio ejus ; nam,
+          <lb ed="#P" n="100"/>ut ait Augustinus 12. de Civit., c. 12, illud
+          <lb ed="#P" n="101"/>com prehenditur aliqua scientia, quod scientis
+          <lb ed="#P" n="102"/>apprehensione finitur, qui autem videret 
+          to<lb break="no" ed="#P" n="103"/>tam infinitatem Dei, finiret illam, ut sic dicam,
+          <lb ed="#P" n="104"/>non quia illam finitam conspiceret, sed quia
+          <lb ed="#P" n="105"/>totam illam absque termino exhauriret. 
+          Se<lb break="no" ed="#P" n="106"/>cundo, quia cum, qui sic videret Deum, nihil
+          <lb ed="#P" n="107"/>Dei lateret, quia videret totam Dei infinitatem :
+          <pb ed="#P" n="129"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illud autem comprehenditur, quod ita videtur,
+          <lb ed="#P" n="2"/>ut nihil ejus lateat, ut Augustinus ait, epist.
+          <lb ed="#P" n="3"/>112. cap. 8. Tertio declaratur in attributo 
+          im<lb break="no" ed="#P" n="4"/>mensitatis, immensitas enim Dei est quidam
+          <lb ed="#P" n="5"/>modus praesentiae divinae substantie , 
+          ratio<lb break="no" ed="#P" n="6"/>ne cujus est quasi infinite diffusa, et praesens
+          <lb ed="#P" n="7"/>de se infinitis spaciis, quae nos imaginamur,
+          <lb ed="#P" n="8"/>non quia illa aliquid sint, sed quia nos hae 
+          co<lb break="no" ed="#P" n="9"/>gitatione utimur ad explicandum hunc modum
+          <lb ed="#P" n="10"/>existendi divinae substantiaee. Jam igitur 
+          im<lb break="no" ed="#P" n="11"/>possibile videtur intellectum creatum uno 
+          in<lb break="no" ed="#P" n="12"/>tuitu finito concipere clare et distincte totam
+          <lb ed="#P" n="13"/>hanc immensitatem Dei et praedictum modum
+          <lb ed="#P" n="14"/>existendi infinitum, propter rationes factas,
+          <lb ed="#P" n="15"/>quia et hoc esset comprehendere immensitatem,
+          <lb ed="#P" n="16"/>et quia ad talem intuitum videtur necessaria
+          <lb ed="#P" n="17"/>infinita vis et attentio. Unde Henricus, in 
+          Sum<lb break="no" ed="#P" n="18"/>ma, art.15, quaest. 9, dixit, Deumsibisoli notum
+          <lb ed="#P" n="19"/>esse secundum rationem immensitatis, non
+          <lb ed="#P" n="20"/>autem creaturis etiam beatis.
+        </p>
+        <p xml:id="szduep-032553-d1e405">
+          <lb ed="#P" n="21"/>5. Quarto in attributo omnipotentiae, vel
+          <lb ed="#P" n="22"/>scientiae potest hoc explicari variis modis.
+          <lb ed="#P" n="23"/>Primo, quia sub illo conceptu confuso 
+          omni<lb break="no" ed="#P" n="24"/>potentiae comprehenditur potentia creandi,
+          <lb ed="#P" n="25"/>potentia transsubstantiandi, et aliae similes 
+          infi<lb break="no" ed="#P" n="26"/>nitae, quae in Deo formalitter sunt, et non 
+          pos<lb break="no" ed="#P" n="27"/>sunt omnes videri distincte a beato, ergo.
+          <lb ed="#P" n="28"/>Praeterea est simile argumentum de eminentia
+          <lb ed="#P" n="29"/>creaturarum, nam licet creaturae sint in Deo
+          <lb ed="#P" n="30"/>eminenter, tamen illa eminentia, in qua 
+          con<lb break="no" ed="#P" n="31"/>tinetur creatura, in Deo est formaliter, et est
+          <lb ed="#P" n="32"/>attributum ejus, et tamen qui videt Deum, non
+          <lb ed="#P" n="33"/>potest videre has omnes eminentias, quia non
+          <lb ed="#P" n="34"/>potest videre omnes creaturas. Denique potest
+          <lb ed="#P" n="35"/>fieri idem argumentum de ideis, quae sunt in
+          <lb ed="#P" n="36"/>scientia Dei formaliter et tamen non omnes
+          <lb ed="#P" n="37"/>vidari possunt a vidente Deum.
+        </p>
+        <p xml:id="szduep-032553-d1e444">
+          <lb ed="#P" n="38"/>6. Tertius modus. — Tertia opinio esse potest,
+          <lb ed="#P" n="39"/>beatos de facto videre omnia haec attributa
+          <lb ed="#P" n="40"/>propter perfectionem beatitudinis, non tamen
+          <lb ed="#P" n="41"/>hoc esse necessarium ex vi visionis Dei, sed
+          <lb ed="#P" n="42"/>absolute posse videri essentiam sine attributis.
+          <lb ed="#P" n="43"/>Haec opinio attribuitur Scoto: nam hlcet in
+          <lb ed="#P" n="44"/>terminis nunquam eam asseruerit, sequitur ex
+          <lb ed="#P" n="45"/>duobus principiis ejus. Unum est, haec attributa
+          <lb ed="#P" n="46"/>distingui formaliter ab essentia, aliud est,
+          <lb ed="#P" n="47"/>hanc distinctionem formalem sufficere,ut unum
+          <lb ed="#P" n="48"/>possit sine alio videri, ut patebit sequenti 
+          ca<lb break="no" ed="#P" n="49"/>pite. Haec opinio juvari potest ex argumentis
+          <lb ed="#P" n="50"/>factis, praesertim ultimo.
+        </p>
+        <p xml:id="szduep-032553-d1e475">
+          <lb ed="#P" n="51"/>7. Quartus modus. — Quarta opinio, licet
+          <lb ed="#P" n="52"/>neget posse videri divinam essentiam, quin
+          <lb ed="#P" n="53"/>videantur ejus attributa, nihilominus supposita
+          <lb ed="#P" n="54"/>visione, per quam omnia videantur, ait per
+          <lb ed="#P" n="55"/>alium actum posse videri unum attributum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sine alio. Haec videtur fuisse opinio Capreoli
+          <lb ed="#P" n="57"/>in 1, d. 17, n. 2, art. 3 ad 8, Durandi contra
+          <lb ed="#P" n="58"/>primam conclusionem, ubi docet, beatum 
+          ha<lb break="no" ed="#P" n="59"/>bere unum verbum adaequatum, quo videt
+          <lb ed="#P" n="60"/>divinam substantiam et omnia ejus attributa,
+          <lb ed="#P" n="61"/>et addit formare etiam beatum verba, quae
+          <lb ed="#P" n="62"/>inadaequata vocat, per quae concipit unum 
+          at<lb break="no" ed="#P" n="63"/>tributum sine aliis, eaque ratione distinguit ,
+          <lb ed="#P" n="64"/>significatque per haec verba non minus clare,
+          <lb ed="#P" n="65"/>ac perfecte videri singula attributa, quam per
+          <lb ed="#P" n="66"/>adaequatum verbum, seu visionem divinae 
+          subs<lb break="no" ed="#P" n="67"/>tantiae. A qua sententia non dissentit Ferrarius
+          <lb ed="#P" n="68"/>1, contra Gentes, c. 53, nec Cajetanus 1. p., q.
+          <lb ed="#P" n="69"/>21.art. 1, dub. 3, et multi Thomistae admittunt
+          <lb ed="#P" n="70"/>haec verba inadaequata, quamvis nec de 
+          adae<lb break="no" ed="#P" n="71"/>quatis inter se consentiant, nec satis declarent,
+          <lb ed="#P" n="72"/>quomodo videantur attributa per illa 
+          inadae<lb break="no" ed="#P" n="73"/>quata verba, nec rationem ponendi illa.
+        </p>
+        <p xml:id="szduep-032553-d1e530">
+          <lb ed="#P" n="74"/>8. Prima assertio.—Dicendum nihilominus
+          <lb ed="#P" n="75"/>est, omnes videntes Deum videre et perspicere
+          <lb ed="#P" n="76"/>omnia attributa et omnem essentialem 
+          perfec<lb break="no" ed="#P" n="77"/>tionem Dei formaliter in ipso existentem, 
+          ne<lb break="no" ed="#P" n="78"/>que aliter fieri posse, etiam de potentia 
+          abso<lb break="no" ed="#P" n="79"/>Iuta, supposita clara Dei visione, prout in se
+          <lb ed="#P" n="80"/>est. Haec est communis sententia theologorum,
+          <lb ed="#P" n="81"/>D. Thomae, 1 part., quaest. 12, art. 7,4d0 2, ubi
+          <lb ed="#P" n="82"/>dicit: Beatos non comprehendere Deum, non
+          <lb ed="#P" n="83"/>quia non videant quidquid in eo est, sed quia
+          <lb ed="#P" n="84"/>non perfecte vident. Et in solutione ad 3, 
+          ex<lb break="no" ed="#P" n="85"/>plicat, hanc perfectionem non esse 
+          consideran<lb break="no" ed="#P" n="86"/>dam ex parte objecti, sed ex modo videndi,
+          <lb ed="#P" n="87"/>nam objectum totum videtur, et omnis modus,
+          <lb ed="#P" n="88"/>qui in ipso est, scilicet, quod infinite sit 
+          co<lb break="no" ed="#P" n="89"/>gnoscibilis, quamvis non infinite videatur. Sic
+          <lb ed="#P" n="90"/>Bonaventura in 3, dist. 14, art. 1, quaest. 2
+          <lb ed="#P" n="91"/>et 4, d. 49, art. 1, q.6; Richardus, art. 2, quaest.
+          <lb ed="#P" n="92"/>8; Durandus, quaest. 2, n. 28; Major; quaest. 2,
+          <lb ed="#P" n="93"/>Cajetanus, Paludanus et Sotus, qui latius hoc
+          <lb ed="#P" n="94"/>disputat, alii enim fere sinedisputatione 
+          idsup<lb break="no" ed="#P" n="95"/>ponunt. Item, Henricus, quodlibet 13, quaest.
+          <lb ed="#P" n="96"/>1. Ratio est, quia illa visione videtur Deus,
+          <lb ed="#P" n="97"/>prout in se est, juxta illud : Tunc cognoscam,
+          <lb ed="#P" n="98"/>sicut et cognitus sum : videbitur ergo Deus in
+          <lb ed="#P" n="99"/>sua entitate et natura, conceptu proprio, et ut
+          <lb ed="#P" n="100"/>ita dicam, individuali ipsius Dei ; nam hoc est
+          <lb ed="#P" n="101"/>videre Deum prout in se est; ergo necesse est
+          <lb ed="#P" n="102"/>videre in Deo totam illam perfectionem, quae
+          <lb ed="#P" n="103"/>formaliter et essentialiter includitur in esse
+          <lb ed="#P" n="104"/>Dei, ut Deus est, seu quae nostro modo 
+          intelli<lb break="no" ed="#P" n="105"/>gendi constituit ipsum in esse Dei: hujusmodi
+          <lb ed="#P" n="106"/>autem est omnis perfectio simpliciter simplex
+          <lb ed="#P" n="107"/>in ipso formaliter existens, nam ut supra 
+          dice<lb break="no" ed="#P" n="108"/>bamus, omnis perfectio hujusmodi essentialiter
+          <lb ed="#P" n="109"/>praedicatur de Deo. Quare, sicut impossibile est
+          <lb ed="#P" n="110"/>videre clare, et intuitive naturam hominis, ut
+          <pb ed="#P" n="130"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>humana est, non videndo essentialia praedicata
+          <lb ed="#P" n="2"/>ejus usque ad ultimam differentiam, aut videre
+          <lb ed="#P" n="3"/>individuam naturam Petri, ut haec est, non
+          <lb ed="#P" n="4"/>videndo propriam entitatem, et individuam 
+          dit<lb break="no" ed="#P" n="5"/>ferentiam ejus, ita est impossibile videre 
+          divi<lb break="no" ed="#P" n="6"/>nitatem, ut divinitas est, non videndo omnem
+          <lb ed="#P" n="7"/>hanc perfectionem essentialem ejus, secundum
+          <lb ed="#P" n="8"/>modum individualem et proprium ejus. Quia
+          <lb ed="#P" n="9"/>divinitas essentialiter est hujusmodi perfectio,
+          <lb ed="#P" n="10"/>et essentialiter est haec entitas, et hoc 
+          indivi<lb break="no" ed="#P" n="11"/>duum. Imo tantum est hoc impossibilius in
+          <lb ed="#P" n="12"/>divinitate, quanto ipsa est simplicior. et in re
+          <lb ed="#P" n="13"/>ipsa omnis haec perfectio omnino, et adaequate
+          <lb ed="#P" n="14"/>est eadem res simplicissima.
+        </p>
+        <p xml:id="szduep-032553-d1e648">
+          <lb ed="#P" n="15"/>9. Unde propter hanc causam omnia haec
+          <lb ed="#P" n="16"/>attributa sunt de essentia objecti nostrae 
+          beati<lb break="no" ed="#P" n="17"/>tudinis. Et propter eam intelligi non potest,
+          <lb ed="#P" n="18"/>quod alicui communicetur essentialiter divina
+          <lb ed="#P" n="19"/>natura, quin communicentur omnia haec 
+          at<lb break="no" ed="#P" n="20"/>tributa. Et ideo cum Pater communicat 
+          divini<lb break="no" ed="#P" n="21"/>tatem Filio, necessario communicat 
+          omnipo<lb break="no" ed="#P" n="22"/>tentiam et caetera omnia, ut infra suo loco 
+          vi<lb break="no" ed="#P" n="23"/>debimus, neque aliud posset mente concipi. Sic
+          <lb ed="#P" n="24"/>igitur nec intelligi potest quod videatur illa
+          <lb ed="#P" n="25"/>natura essentialiter ac proprie, ut est in se, et
+          <lb ed="#P" n="26"/>quod non videatur in illa omnis haec perfectio.
+          <lb ed="#P" n="27"/>Confirmatur tandem, quia vel viso Deo necesse
+          <lb ed="#P" n="28"/>est videreinillo aliquod attributum hujusmodi,
+          <lb ed="#P" n="29"/>vel nullum: hoc secundum non potest cogitari,
+          <lb ed="#P" n="30"/>quia si nullum attributum Dei videtur, nihil de
+          <lb ed="#P" n="31"/>Deo videtur. Quomodo ergo videretur Deus?
+          <lb ed="#P" n="32"/>Necesse est ergo primum dicere, non est autem
+          <lb ed="#P" n="33"/>major ratio de uno quam de alio, nam omnia
+          <lb ed="#P" n="34"/>aeeque sunt de essentia Dei, et quolibet ablato
+          <lb ed="#P" n="35"/>non intelligetur essentia Dei constituta, prout
+          <lb ed="#P" n="36"/>in se est, sed solum secundum aliquem 
+          con<lb break="no" ed="#P" n="37"/>ceptum communem substantiae, aut spiritus, vel
+          <lb ed="#P" n="38"/>aliquid hujusmodi, vel secundum conceptum
+          <lb ed="#P" n="39"/>negativum et improprium, qui est valde 
+          alie<lb break="no" ed="#P" n="40"/>nus a visione facial.
+        </p>
+        <p xml:id="szduep-032553-d1e707">
+          <lb ed="#P" n="41"/>10. Secunda assertio. — Dico secundo. Non
+          <lb ed="#P" n="42"/>oportet ut qui videt Deum, videat divina 
+          attri<lb break="no" ed="#P" n="43"/>buta per modum plurium, sed ut vere sunt una
+          <lb ed="#P" n="44"/>simplex perfectio absoluta, formaliter continens
+          <lb ed="#P" n="45"/>omnes perfectiones quas nos multis attributis
+          <lb ed="#P" n="46"/>significamus. Hanc conclusionem constituo, ut
+          <lb ed="#P" n="47"/>intelligatur, quanta sit certitudo primae 
+          asser<lb break="no" ed="#P" n="48"/>tionis positae, et ut commodius solvantur 
+          ar<lb break="no" ed="#P" n="49"/>gumenta. Advertendum est igitur ex Durando
+          <lb ed="#P" n="50"/>in 1, dist. 35, quaest. 2, cumasseritur, haec 
+          attri<lb break="no" ed="#P" n="51"/>buta Dei distincte videri, variis modis id posse
+          <lb ed="#P" n="52"/>intelligi. Primo ut distinctio opponatur unitati
+          <lb ed="#P" n="53"/>et teneat se ex parte actus cognoscendi, seu 
+          vi<lb break="no" ed="#P" n="54"/>dendi, et hoc modo distincte videre attributa,
+          <lb ed="#P" n="55"/>idem erit quod distinctis actibus illa concipere,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et hoc modo certum est non videri distinete
+          <lb ed="#P" n="57"/>attributa divina a beato, imo nec posse sic vi
+          <lb ed="#P" n="58"/>deri visione propria rei prout in se est. Quia
+          <lb ed="#P" n="59"/>hujusmodi visio est proportionata rei visae, res
+          <lb ed="#P" n="60"/>autem in qua sunt omnia haec attributa, est
+          <lb ed="#P" n="61"/>una simplicissime, ergo non potest illo modo
+          <lb ed="#P" n="62"/>distincte videri. Quod etiam patet ex prima
+          <lb ed="#P" n="63"/>assertione, nam si videtur divina 
+          omnipoten<lb break="no" ed="#P" n="64"/>tia prout in se est, videtur divina essentia illo
+          <lb ed="#P" n="65"/>eodem actu, quia includitur essentialiter in 
+          di<lb break="no" ed="#P" n="66"/>vina omnipotentia, ergo necesse est ut odenm
+          <lb ed="#P" n="67"/>illo actu videantur divina attributa.
+        </p>
+        <p xml:id="szduep-032553-d1e770">
+          <lb ed="#P" n="68"/>11. Secundo potest cognitio distincta dici ex :
+          <lb ed="#P" n="69"/>parte rei visae, ita tamen ut distinctio etiam
+          <lb ed="#P" n="70"/>opponatur unitati, et hoc modo cognoscere
+          <lb ed="#P" n="71"/>plura distincte, erit cognoscere illa ut distincta,
+          <lb ed="#P" n="72"/>et in hoc etiam sensu non videntur divina 
+          at<lb break="no" ed="#P" n="73"/>tributa distincte. Et quidem si sit sermo de 
+          ac<lb break="no" ed="#P" n="74"/>tuali distinctione quae sit a parte rei, hoc est
+          <lb ed="#P" n="75"/>certissimum, quia ex parte rei nulla est 
+          distinc<lb break="no" ed="#P" n="76"/>tio talis inter illa, ergo non possunt videri ut
+          <lb ed="#P" n="77"/>sic distincta, alias viderentur aliter quam sunt.
+          <lb ed="#P" n="78"/>S1 vero sit sermo de distinctione rationis, 
+          intel<lb break="no" ed="#P" n="79"/>ligi quidem potest quod videns Deum tam clare
+          <lb ed="#P" n="80"/>videat attributa Dei, et cum tot respectibus ad
+          <lb ed="#P" n="81"/>creaturas, ut videat illa, quatenus ratione 
+          dis<lb break="no" ed="#P" n="82"/>tinguibilia per inferiorem intellectum abstracte
+          <lb ed="#P" n="83"/>illa concipientem , nam etiam Deus ipse 
+          com<lb break="no" ed="#P" n="84"/>prehendens sua attributa hoc cognoscit, ut 
+          su<lb break="no" ed="#P" n="85"/>pra dictum est in fine libri primi, ergo et 
+          infe<lb break="no" ed="#P" n="86"/>rior intellectus potest hoc videre per visionem
+          <lb ed="#P" n="87"/>beatam. Non est tamen necessarium ut qui 
+          vi<lb break="no" ed="#P" n="88"/>det Deum, cognoscat ita distincte baec attributa,
+          <lb ed="#P" n="89"/>quia nec comprehendit ipsa, nec necesse est ut
+          <lb ed="#P" n="90"/>videat illa cum omni habitudine ad creaturas.
+          <lb ed="#P" n="91"/>Potest ergo simpliciter videre, nulla 
+          compara<lb break="no" ed="#P" n="92"/>tione facta ad res creatas, per quam 
+          compara<lb break="no" ed="#P" n="93"/>tionem cognoscat attributa ut ratione 
+          distin<lb break="no" ed="#P" n="94"/>guibilia ab intellectu illa abstracte cognoscente.
+        </p>
+        <p xml:id="szduep-032553-d1e831">
+          <lb ed="#P" n="95"/>12. Tertio, possunt haec attributa videri 
+          dis<lb break="no" ed="#P" n="96"/>tincte, ita ut distinctio non opponatur unitati,
+          <lb ed="#P" n="97"/>aut actus, aut objecti, sed improprie et confuse 
+          <lb ed="#P" n="98"/>cognitioni, ita ut illud dicatur distincte 
+          cog<lb break="no" ed="#P" n="99"/>nosci, quod proprio conceptu et non communi
+          <lb ed="#P" n="100"/>tantum cognoscitur. Et hoc modo dicimus 
+          at<lb break="no" ed="#P" n="101"/>tributa Dei videri distincte, licet simplicissime,
+          <lb ed="#P" n="102"/>quia videntur, proutin se sunt, in 
+          seautemtan<lb break="no" ed="#P" n="103"/>tum est una simplicissima Dei perfectio 
+          essentia<lb break="no" ed="#P" n="104"/>lis et absoluta, quae in se formaliter continet haec 
+          <lb ed="#P" n="105"/>omnia quae permodum plurium nos concipimus 
+          <lb ed="#P" n="106"/>et significamus, ergo hoc modo videntur 
+          dis<lb break="no" ed="#P" n="107"/>tincte haec attr ibuta, et nullus alius modus 
+          dis<lb break="no" ed="#P" n="108"/>tinctae cognitionis est simpliciter necessarius.
+        </p>
+        <p xml:id="szduep-032553-d1e864">
+          <lb ed="#P" n="109"/>13. Objectio. — Responsio. — Dices: haec 
+          at<lb break="no" ed="#P" n="110"/>tributa ex se distinguuntur, saltem fundamen-
+          <pb ed="#P" n="131"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>taliter seu virtualiter: ergo necesse est ut haec
+          <lb ed="#P" n="2"/>saltem distinctio in eis videatur. Respondetur
+          <lb ed="#P" n="3"/>hac in re nullam esse distinctionem, sed esse
+          <lb ed="#P" n="4"/>potius simplicissimam ac eminentem unitatem,
+          <lb ed="#P" n="5"/>quae solum per denominationem extrinsecam
+          <lb ed="#P" n="6"/>vocatur distinctio virtualis, quatenus inferior
+          <lb ed="#P" n="7"/>intellectus potest illam per plures conceptus
+          <lb ed="#P" n="8"/>abstractivos distinguere. Et ideo qui videt
+          <lb ed="#P" n="9"/>Deum, necessario videt illam eminentem 
+          uni<lb break="no" ed="#P" n="10"/>tatem: non est tamen necesse ut comparet 
+          il<lb break="no" ed="#P" n="11"/>lam ad inferiorem intellectum, vel ad plures
+          <lb ed="#P" n="12"/>conceptus, quos de ilia formare potest, et ideo
+          <lb ed="#P" n="13"/>non est necesse ut videat illam sub ea 
+          denomi<lb break="no" ed="#P" n="14"/>natione virtualis distinctionis.
+        </p>
+        <p xml:id="szduep-032553-d1e906">
+          <lb ed="#P" n="15"/>14. Atque hinc facile intelligitur quam sit
+          <lb ed="#P" n="16"/>certum beatos videre nunc de facto in verbo
+          <lb ed="#P" n="17"/>omnia haec attributa. Quidam enim moderni
+          <lb ed="#P" n="18"/>expositores D. Thomae, 1. parte, quaestione
+          <lb ed="#P" n="19"/>duodecima , articulo septimo, dicunt, si sit
+          <lb ed="#P" n="20"/>sermo de attributis quae in via cognoscuntur de
+          <lb ed="#P" n="21"/>Deo per vires naturales, vel supernaturales, de
+          <lb ed="#P" n="22"/>fide esse omnia illa videri de facto in Verbo; si
+          <lb ed="#P" n="23"/>autem sit sermo de omnibus possibilibus, non
+          <lb ed="#P" n="24"/>esse certum beatum videre in verbo omnia 
+          at<lb break="no" ed="#P" n="25"/>tributa, quae de Deocognosci possunt aut videri.
+          <lb ed="#P" n="26"/>Quae doctrina nec habet fundamentum, nec
+          <lb ed="#P" n="27"/>convenienti distinctione utitur. Quia si sermo
+          <lb ed="#P" n="28"/>sit de cognitione clara et distincta modo 
+          ex<lb break="no" ed="#P" n="29"/>plicato, non est minus certum, videri in Deo
+          <lb ed="#P" n="30"/>omnia attributa possibilia, quam eaquaenos de
+          <lb ed="#P" n="31"/>facto distinguimus in via, quia utrumque 
+          ne<lb break="no" ed="#P" n="32"/>cessario colligitur ex uno principio de fide et
+          <lb ed="#P" n="33"/>alio evidenti, scilicet, quod videtur Deus prout
+          <lb ed="#P" n="34"/>in se est, et quod haec omnia attributa sunt una
+          <lb ed="#P" n="35"/>simplieissima Dei perfectio et essentia. Si vero
+          <lb ed="#P" n="36"/>sermo sit de cognitione distincta quovis alio
+          <lb ed="#P" n="37"/>modo explicato, non est cur sit de fide beatum
+          <lb ed="#P" n="38"/>videntem Deum videre ea attributa quae nos in
+          <lb ed="#P" n="39"/>via distinguimus, quam alia, si forte cogitari
+          <lb ed="#P" n="40"/>possunt, ut ratione distincta, quia non est 
+          ma<lb break="no" ed="#P" n="41"/>gis revelatum unum quam aliud, nec magis
+          <lb ed="#P" n="42"/>necessario sequitur ex principiis fidei. 
+          Praeser<lb break="no" ed="#P" n="43"/>tim quia, ut infra videbimus, non est de fide
+          <lb ed="#P" n="44"/>certum, beatos per ipsam visionem beatam 
+          vi<lb break="no" ed="#P" n="45"/>dere aliquos effectus creatos, ergo neque etiam
+          <lb ed="#P" n="46"/>potest esse certum videre attributa Dei, videndo
+          <lb ed="#P" n="47"/>simul, quomodo ratione distingui possint in
+          <lb ed="#P" n="48"/>ordine ad effectus, vel actiones varias ab 
+          intel<lb break="no" ed="#P" n="49"/>lectu abstracte concipiente illa. Quin potius nec
+          <lb ed="#P" n="50"/>est de fide certum videre beatum 
+          omnipoten<lb break="no" ed="#P" n="51"/>tiam, distincte concipiendo illam cum 
+          habitu<lb break="no" ed="#P" n="52"/>dine transcendentali ad creaturas possibiles,
+          <lb ed="#P" n="53"/>aut misericordiam cum habitudine ad miseriam
+          <lb ed="#P" n="54"/>sublevandam, aut justitiam cum habitudine ad
+          <lb ed="#P" n="55"/>aequitatem faciendam, quia ad has cognitiones
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>necesse est, ut illi termini, seu objecta clare
+          <lb ed="#P" n="57"/>videantur eadem visione beata, quod tamen
+          <lb ed="#P" n="58"/>non est de fide revelatum, sed solum quod 
+          vi<lb break="no" ed="#P" n="59"/>deatur Deus, prout in seest. Est autem 
+          proba<lb break="no" ed="#P" n="60"/>bilius beatos videre distincte has omnes 
+          ratio<lb break="no" ed="#P" n="61"/>nes creaturarum, ut infra dicemus; atque ita
+          <lb ed="#P" n="62"/>est etiam probabilius videre haec omnia 
+          attri<lb break="no" ed="#P" n="63"/>buta sub his propriis habitudinibus. Quo sensu
+          <lb ed="#P" n="64"/>etiam est valde probabile videre eodem modo
+          <lb ed="#P" n="65"/>omnia attributa possibilia, quia fortasse non
+          <lb ed="#P" n="66"/>sunt plura, quam quee a nobis cognoscuntur, si
+          <lb ed="#P" n="67"/>de propriis attributis loquamur. Nam si sit
+          <lb ed="#P" n="68"/>sermo de omnibus praedicatis analogis quae de
+          <lb ed="#P" n="69"/>Deo per ordinem ad creaturam concipi possunt,
+          <lb ed="#P" n="70"/>apprehendo varias convenientias inter Deum et
+          <lb ed="#P" n="71"/>creaturas, facile intelligi potest dari processum
+          <lb ed="#P" n="72"/>ininfinitum in hujusmodi praedicatis, praesertim
+          <lb ed="#P" n="73"/>in ordine ad creaturas possibiles. Et forte hoc
+          <lb ed="#P" n="74"/>sensu locuti sunt qui dixerunt beatum non 
+          vi<lb break="no" ed="#P" n="75"/>dere omnia praedicata quae de Deo dici possunt.
+        </p>
+        <p xml:id="szduep-032553-d1e1044">
+          <lb ed="#P" n="76"/>15. Prima opinio falsitatis improbabilitatis -
+          <lb ed="#P" n="77"/>que arguitur. — Ex his facile est judicium ferre
+          <lb ed="#P" n="78"/>de aliis opinionibus, quod breviter faciemus ad
+          <lb ed="#P" n="79"/>earum fundamenta respondendo. Prima ergo
+          <lb ed="#P" n="80"/>opinio, ut a nobis est proposita, omnino falsa
+          <lb ed="#P" n="81"/>et improbabilis est, nec existimo ab auctoribus
+          <lb ed="#P" n="82"/>ibi citatis in eo sensu esse traditam, sed solum
+          <lb ed="#P" n="83"/>docuisse beatos non comprehendere haec 
+          attri<lb break="no" ed="#P" n="84"/>buta. Ad fundamentum autem illius opinionis
+          <lb ed="#P" n="85"/>negatur proprie attributa Dei esse infinita,
+          <lb ed="#P" n="86"/>quia prout in se sunt, tantum sunt una 
+          sim<lb break="no" ed="#P" n="87"/>plicissima perfectio: prout autem a nobis 
+          con<lb break="no" ed="#P" n="88"/>cipiuntur et distinguuntur, sunt in numero 
+          fi<lb break="no" ed="#P" n="89"/>nito. Secundo dicitur, etiam si concedamus,
+          <lb ed="#P" n="90"/>dari infinita attributa ratione distincta aut 
+          dis<lb break="no" ed="#P" n="91"/>tinguibilia, non esse necessariam infinitam 
+          vi<lb break="no" ed="#P" n="92"/>sionem ad videnda omnia illa uno 
+          simplicis<lb break="no" ed="#P" n="93"/>simoactu, proutin se unum sunt. Nec 
+          argumen<lb break="no" ed="#P" n="94"/>tum factum est alicujus momenti, quia non
+          <lb ed="#P" n="95"/>requiritur major virtus ad videndum unum ex
+          <lb ed="#P" n="96"/>his attributis quam ad videnda omnia; quia
+          <lb ed="#P" n="97"/>necesse est ut, visa essentia Dei, videantur 
+          om<lb break="no" ed="#P" n="98"/>nia, et non possunt aliter videri quam videndo
+          <lb ed="#P" n="99"/>essentiam, ad quam videndam non est 
+          neces<lb break="no" ed="#P" n="100"/>saria virtus infinita, sed virtus altioris ac divini
+          <lb ed="#P" n="101"/>ordinis. Praesertim, quia non est necesse ut qui
+          <lb ed="#P" n="102"/>videt haec attributa, videat omnes effectus, vel
+          <lb ed="#P" n="103"/>conceptus creatos, in ordine ad quos possunt
+          <lb ed="#P" n="104"/>ratione distingui, ut dictum est.
+        </p>
+        <p xml:id="szduep-032553-d1e1109">
+          <lb ed="#P" n="105"/>16. Secunda sententia falsitatis et 
+          improba<lb break="no" ed="#P" n="106"/>bilitatis arguitur. — Secunda sententia plane
+          <lb ed="#P" n="107"/>falsa est et improbabilis, et contra D. Thomam
+          <lb ed="#P" n="108"/>aliosque auctores citatos, et contra omnes in 4,
+          <lb ed="#P" n="109"/>dist. 49 et 50 (ubi specialiter Scotus, quaest. 5)
+          <lb ed="#P" n="110"/>dicentes beatos non esse inaequaies in beatitu-
+          <pb ed="#P" n="132"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dine objectiva, sed in formali. Ex dictis etiam
+          <lb ed="#P" n="2"/>evidenter refutatur illa sententia, quia vel ille
+          <lb ed="#P" n="3"/>modus, quem unus beatus videt, re vera est in
+          <lb ed="#P" n="4"/>Deo vel non: si non est in Deo, non pertinet ad
+          <lb ed="#P" n="5"/>visionem Dei, alias non videretur Deus prout
+          <lb ed="#P" n="6"/>est, sed potius deciperetur qui eum sic videret,
+          <lb ed="#P" n="7"/>ut ait Augustinus, lib. 83, q. 32. Si vero modus
+          <lb ed="#P" n="8"/>ille est in Deo, non magis potest non videri,
+          <lb ed="#P" n="9"/>viso Deo, quam unum attributum sine alo.
+          <lb ed="#P" n="10"/>Imo difficilius et impossibilius est partiri unuum
+          <lb ed="#P" n="11"/>attributum (ut sic dicam) in visione clara,
+          <lb ed="#P" n="12"/>quam videre unum sine alio. Unde 
+          inintelligi<lb break="no" ed="#P" n="13"/>bile plane est,quod Ferrarius supra dicit, beatos
+          <lb ed="#P" n="14"/>videre infinitatem Dei intensivam, quia vident
+          <lb ed="#P" n="15"/>perfectionem Dei esse infinitam, non tamen
+          <lb ed="#P" n="16"/>cognoscere distincte illam infinitatem : Quia
+          <lb ed="#P" n="17"/>hoc, inquit, esset particulariter cognoscere 
+          om<lb break="no" ed="#P" n="18"/>nes gradus perfectionis in ipsa conjunctos, qua
+          <lb ed="#P" n="19"/>infiniti sunt, secundum quod unus ab alio 
+          for<lb break="no" ed="#P" n="20"/>maliter distingwitur, quod est impossibile sine
+          <lb ed="#P" n="21"/>distinctione. Hoc, inquam, inintelligibile est,
+          <lb ed="#P" n="22"/>quia in divina infinitate nulli sunt gradus 
+          pro<lb break="no" ed="#P" n="23"/>prie ac formaliter distincti, sed est una 
+          sim<lb break="no" ed="#P" n="24"/>plicissima perfectio summa et infinita sine ulla
+          <lb ed="#P" n="25"/>distinctione quam in se habeat, licet per 
+          com<lb break="no" ed="#P" n="26"/>parationem ad creaturas dicatur continere 
+          in<lb break="no" ed="#P" n="27"/>finitos gradus perfectionis qui in creaturis 
+          dis<lb break="no" ed="#P" n="28"/>tingui possunt.
+        </p>
+        <p xml:id="szduep-032553-d1e1190">
+          <lb ed="#P" n="29"/>17. Tertia assertio. — Deinde non recte 
+          di<lb break="no" ed="#P" n="30"/>citur beatos videre infinitatem solum quoad an
+          <lb ed="#P" n="31"/>est, non etiam quoad quid est, nam vident clare
+          <lb ed="#P" n="32"/>quid sit Deus, ut supra ostensum est, et tradit
+          <lb ed="#P" n="33"/>divus Thomas in 4, dist. 49, quaest. 2, art. 3
+          <lb ed="#P" n="34"/>ad 5, et quaest. 8, de Veritate, art. 1 ad S8, et
+          <lb ed="#P" n="35"/>art. 2 ad 4. Non potest autem videri quid sit
+          <lb ed="#P" n="36"/>Deus, nisi etiam videatur quid sit infinitas ejus,
+          <lb ed="#P" n="37"/>quia haec infinitas nihil aliud est quam ipsamet
+          <lb ed="#P" n="38"/>positiva perfectio essentialis Dei, cujus 
+          excel<lb break="no" ed="#P" n="39"/>lentiam per negationemillam nos significamus.
+          <lb ed="#P" n="40"/>Quinimo cum e uuitos Dei nihil aud sit nisi
+          <lb ed="#P" n="41"/>quantitas perfectionis essentialis ipsius Dei, 
+          in<lb break="no" ed="#P" n="42"/>telligi non potest hanc infinitatem in se per se
+          <lb ed="#P" n="43"/>ac sine ullo medio videri, quod sit et non quid
+          <lb ed="#P" n="44"/>sit. Quia non potest videri haec infinitas esse in
+          <lb ed="#P" n="45"/>Deo, nisi videndo positive qualis et quanta sit
+          <lb ed="#P" n="46"/>perfectio essentialis. Dei; necesse est ergo 
+          vi<lb break="no" ed="#P" n="47"/>dere essentialem rationem illius perfectionis
+          <lb ed="#P" n="48"/>prout in se est, et hoc ipsum est cognoscere 
+          il<lb break="no" ed="#P" n="49"/>lam quoad quid est. Dicendum est ergo beatos
+          <lb ed="#P" n="50"/>videre quidditative et entitative infinitam Dei
+          <lb ed="#P" n="51"/>perfectionem ; imo hoc per se primo pertinere
+          <lb ed="#P" n="52"/>ad corum beatitudinem, quia satiari non 
+          pos<lb break="no" ed="#P" n="53"/>sunt nisi infinito bono, quatenus tale est, ut 
+          rec<lb break="no" ed="#P" n="54"/>te Scotus in 3, dist. 14, quaest. 1 ad secundam,
+          <lb ed="#P" n="55"/>contra AEgidium et alios. Idemque est de quo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>libet alio attributo, nam quodlibet attributum
+          <lb ed="#P" n="57"/>totum videtur, viso Deo, alias non videretur
+          <lb ed="#P" n="58"/>Deus, quia tota sapientia Dei est Deus, et de 
+          <lb ed="#P" n="59"/>essentia Dei, et sic de aliis. Praesertim quod in
+          <lb ed="#P" n="60"/>simplicissimo attributo nec est totum, nec pars,
+          <lb ed="#P" n="61"/>nec gradus aut modus distinctus.
+        </p>
+        <p xml:id="szduep-032553-d1e1266">
+          <lb ed="#P" n="62"/>18. Ad primum ergo argumentum illius 
+          opi<lb break="no" ed="#P" n="63"/>nionis respondetur, ad hujusmodi visionem 
+          in<lb break="no" ed="#P" n="64"/>finitatis Dei non esse necessariam virtutem 
+          in<lb break="no" ed="#P" n="65"/>finitam, sed lumen alterius ordinis. Quia beati
+          <lb ed="#P" n="66"/>licet infinitum videant, non tamen infinite, et
+          <lb ed="#P" n="67"/>eadem ratione non sequitur illam visionem esse
+          <lb ed="#P" n="68"/>comprehensivam, quia comprehensio aliquid
+          <lb ed="#P" n="69"/>addit ultra quidditativam cognitionem, ut D.
+          <lb ed="#P" n="70"/>Thomas explicuit, 1 p., q. 12, art. 7, et infra
+          <lb ed="#P" n="71"/>latius dicturi sumus.
+        </p>
+        <p xml:id="szduep-032553-d1e1290">
+          <lb ed="#P" n="72"/>19. Ad tertium similiter respondet D. 
+          Tho<lb break="no" ed="#P" n="73"/>mas, q. 8, deVeritate, art.2, ad 6, dicens beatum
+          <lb ed="#P" n="74"/>videre immensitatem Dei, sed non immense,
+          <lb ed="#P" n="75"/>quia licet totam videat immensitatem, sed non
+          <lb ed="#P" n="76"/>totaliter. Idemque sentit Scotus 1, dist. 22, q.
+          <lb ed="#P" n="77"/>1, neque aliud voluit Henricus nisi 
+          immensi<lb break="no" ed="#P" n="78"/>tatem Dei a nullo, nisi ab ipso Deo 
+          compre<lb break="no" ed="#P" n="79"/>hendi. Potest autem videri sine 
+          comprehen<lb break="no" ed="#P" n="80"/>sione. Quod ita declarari potest. Nam licet Deus
+          <lb ed="#P" n="81"/>talem habeat existentiae, seu praesentiae modum,
+          <lb ed="#P" n="82"/>ut ex vili illius, sine ulla sui mutatione, possit
+          <lb ed="#P" n="83"/>esse intime praesens in omnibus rebus et 
+          cor<lb break="no" ed="#P" n="84"/>poribus, non solum quae facta sunt, sed etiam
+          <lb ed="#P" n="85"/>quae fieri possunt; nihilominus illa Dei 
+          prae<lb break="no" ed="#P" n="86"/>sentia est in se prorsus indivisibilis, et tota est
+          <lb ed="#P" n="87"/>in omnibus rebus, et tota in qualibet et in 
+          quo<lb break="no" ed="#P" n="88"/>libet puncto, quia in re ipsa nullo modo 
+          dis<lb break="no" ed="#P" n="89"/>tinguitur a substantia Dei. Unde fit ut beati
+          <lb ed="#P" n="90"/>videntes Deum et realem praesentiam et 
+          exis<lb break="no" ed="#P" n="91"/>tentiam ejus, necessario videant totam Dei 
+          im<lb break="no" ed="#P" n="92"/>mensitatem, etiamsi fortasse illam non videant
+          <lb ed="#P" n="93"/>quasi infinite diffusam, et sub hoc comparativo
+          <lb ed="#P" n="94"/>conceptu, scilicet quatenus de se apta est, ut
+          <lb ed="#P" n="95"/>sit intime praesens infinitis spatiis realibus, si
+          <lb ed="#P" n="96"/>fiant absque sui mutatione ; quia, ut in secunda
+          <lb ed="#P" n="97"/>conclusione dixi, non est necesse ut videntes 
+          <lb ed="#P" n="98"/>Deum distincte cognoscant omnes hujusniodi
+          <lb ed="#P" n="99"/>habitudines et veluti comparationes. Quod si
+          <lb ed="#P" n="100"/>hoc verum est, multum juvare potest ad 
+          in<lb break="no" ed="#P" n="101"/>telligendum quomodo licet beati videant Dei
+          <lb ed="#P" n="102"/>immensitatem, non tamen illam 
+          comprehen<lb break="no" ed="#P" n="103"/>dant; non est tamen illud certum, nam 
+          for<lb break="no" ed="#P" n="104"/>tasse vident beati substantiam Dei et modum
+          <lb ed="#P" n="105"/>existendi ejus cum infinita praesentia, quatenus
+          <lb ed="#P" n="106"/>nostro modo intelligendi est quasi extensa et
+          <lb ed="#P" n="107"/>infinite diffusa, nam ad hoc suflicere potest
+          <lb ed="#P" n="108"/>supernaturalis illa visio, ex hoc solum quod est
+          <lb ed="#P" n="109"/>altioris ordinis, quamvis infinita non sit. Ad
+          <lb ed="#P" n="110"/>quartum de omnipotentia dicendum est latius
+          <pb ed="#P" n="133"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in sequentibus, solum enim probat videntem
+          <lb ed="#P" n="2"/>Deum non videre omnia quae sunt in Deo 
+          dis<lb break="no" ed="#P" n="3"/>tinctissime, et secundum omnes habitudines
+          <lb ed="#P" n="4"/>quibus cognosci possunt. Quomodo autem 
+          in<lb break="no" ed="#P" n="5"/>telligendum sit, pendet ex his quae dicenda sunt
+          <lb ed="#P" n="6"/>de cognitione creaturarum in Deo.
+        </p>
+        <p xml:id="szduep-032553-d1e1394">
+          <lb ed="#P" n="7"/>20. De tertia opinione nihil est, quod 
+          dica<lb break="no" ed="#P" n="8"/>mus ; nam fundamentum ejus de formali 
+          dis<lb break="no" ed="#P" n="9"/>tinctione attributorum satis in superioribus
+          <lb ed="#P" n="10"/>improbatum est: intellectum de actuali 
+          dis<lb break="no" ed="#P" n="11"/>tinctione, quae in re sit. Si autem quovis alio
+          <lb ed="#P" n="12"/>modo explicetur, de distinctione 
+          fundamenta<lb break="no" ed="#P" n="13"/>li, virtuali, aut rationis ratiocinatae, non potest
+          <lb ed="#P" n="14"/>illa sola sufficere, ut unum sine alio videatur:
+          <lb ed="#P" n="15"/>in his praesertim, quae sunt adaequate idem et
+          <lb ed="#P" n="16"/>essentialiter mutuo se includunt, ut de 
+          attri<lb break="no" ed="#P" n="17"/>butis supra ostensum est.
+        </p>
+        <p xml:id="szduep-032553-d1e1421">
+          <lb ed="#P" n="18"/>21. Tandem in quarta opinione non satis
+          <lb ed="#P" n="19"/>intelligo, quid auctores ejus induxerit ad 
+          fin<lb break="no" ed="#P" n="20"/>gendailla verba inadaequata attributorum Dei,
+          <lb ed="#P" n="21"/>aut qualia esse intelligant ; nam aut per illa
+          <lb ed="#P" n="22"/>concipiuntur tantum abstractive haec attributa,
+          <lb ed="#P" n="23"/>et hoc modo possibile est illa praecise 
+          conci<lb break="no" ed="#P" n="24"/>pere, sed hujusmodi conceptus non essent 
+          pro<lb break="no" ed="#P" n="25"/>prii, sed connotativi, aut negativi, aut aliquid
+          <lb ed="#P" n="26"/>hujusmodi, qui et sine visione Dei haberi 
+          pos<lb break="no" ed="#P" n="27"/>sunt et ad illam impertinenter se habent. Non
+          <lb ed="#P" n="28"/>possunt enim illa verba inadaequata 
+          subintel<lb break="no" ed="#P" n="29"/>lecta talia esse, ut per ea non minus clare 
+          vi<lb break="no" ed="#P" n="30"/>deantur ipsa Dei attributa, quam per visionem
+          <lb ed="#P" n="31"/>adaequatam essentiae Dei. Ergo loqui oportet
+          <lb ed="#P" n="32"/>de conceptu proprio, quo videtur 
+          unumquod<lb break="no" ed="#P" n="33"/>que attributum intuitive, prout in se est. At in
+          <lb ed="#P" n="34"/>hoc sensu impossibile est tale verbum esse 
+          in<lb break="no" ed="#P" n="35"/>adaequatum respectu essentiae, quia ut 
+          proba<lb break="no" ed="#P" n="36"/>tum est, viso attributo quolibet , necesse est
+          <lb ed="#P" n="37"/>videre, essentiam et omnia alia in eo 
+          essentia<lb break="no" ed="#P" n="38"/>liter et per omnimodam identitatem et 
+          simpli<lb break="no" ed="#P" n="39"/>citatem inclusa. Ac praeterea impertinens est
+          <lb ed="#P" n="40"/>hujusmodi verba multiplicare, quia lumen 
+          glo<lb break="no" ed="#P" n="41"/>riee et species, quae illi correspondet ad 
+          viden<lb break="no" ed="#P" n="42"/>dum Deum, quae non est alia, quam ipsa 
+          es<lb break="no" ed="#P" n="43"/>sentia Dei, unum actum adaequatum et 
+          pro<lb break="no" ed="#P" n="44"/>prium habent circa tale objectum , per quem
+          <lb ed="#P" n="45"/>perfecte videtur, quantum per tale lumen 
+          vi<lb break="no" ed="#P" n="46"/>deri potest, ergo sine causa finguntur alii 
+          ac<lb break="no" ed="#P" n="47"/>tus inadaequati circa idem objectum 
+          immedia<lb break="no" ed="#P" n="48"/>te et in se, illos enim necesse esset, ab eodem
+          <lb ed="#P" n="49"/>lumine et per eamdem speciem intelligibilem
+          <lb ed="#P" n="50"/>fieri. Alioqui eadem ratione posset quis 
+          finge<lb break="no" ed="#P" n="51"/>re, simul elicere beatum plures visiones Dei
+          <lb ed="#P" n="52"/>suo lumini adaequatas. Igitur unum 
+          attribu<lb break="no" ed="#P" n="53"/>tum sine alio, nec per verbum adaequatum,
+          <lb ed="#P" n="54"/>nec per inadaequatum videtur aut videri 
+          po<lb break="no" ed="#P" n="55"/>test, si prout in se est, videatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

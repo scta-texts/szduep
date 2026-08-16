@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="586"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-148251"><!-- t3-l2c6 -->
+        <head xml:id="szduep-148251-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-148251-Hd1e103" type="question-title">Respondetur argumentis contra divinitatem spiritus sancti</head>
+        <p xml:id="szduep-148251-d1e106">
+          <lb ed="#P" n="37"/>CAPUT VI.
+          <lb ed="#P" n="38"/>RESPONDETUR ARGUMENTIS CONTRA DIVINITATEM
+          <lb ed="#P" n="39"/>SPIRITUS SANCTI.
+        </p>
+        <p xml:id="szduep-148251-d1e115">
+          <lb ed="#P" n="40"/>1. Locus Joan. 1, emponitur. — Primum
+          <lb ed="#P" n="41"/>omnium inferebant haereteci ex verbis illis
+          <lb ed="#P" n="42"/>Joannis 1: Omnia per ipsum facta sunt. Ergo
+          <lb ed="#P" n="43"/>etiam Spiritus sanctus factus est per Verbum,
+          <lb ed="#P" n="44"/>est ergo creatura et non Deus. Prima 
+          conse<lb break="no" ed="#P" n="45"/>quentia patet ex universali distributione. Et
+          <lb ed="#P" n="46"/>urgeri contra nos potest, quia supra diximus,
+          <lb ed="#P" n="47"/>si Verbum esset factum, sub illa distributione
+          <lb ed="#P" n="48"/>fuisset comprehendendum. Respondeo, idem
+          <lb ed="#P" n="49"/>etiam nos hunc dicerede Spiritu sancto, nam si
+          <lb ed="#P" n="50"/>factus esset, utique factus esset per Verbum, 
+          ta<lb break="no" ed="#P" n="51"/>men quia factus non est, in illa distributione
+          <lb ed="#P" n="52"/>non comprehenditur : Sicut etiam non compre-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>henditur Pater, ut recte notarunt Nazianzenus
+          <lb ed="#P" n="54"/>orat. 5, Theologiae, et Epiphanius in Anchorato
+          <lb ed="#P" n="55"/>Gravesque expositores probabiliter putant, a
+          <lb ed="#P" n="56"/>hoc declárandum additum esse ab Evangelis
+          <lb ed="#P" n="57"/>ta, quod factum est, ita ut haec verba conjun 
+          <lb ed="#P" n="58"/>gantur praecedentibus, non sequentibus et sen
+          <lb ed="#P" n="59"/>sus sit. Nihil eorum, quae facta sunt, sine ips
+          <lb ed="#P" n="60"/>factum est. Veruntamen etiamsi sequamur vul
+          <lb ed="#P" n="61"/>garem lectionem, et ibi sistamus, S'ine ips
+          <lb ed="#P" n="62"/>factum est nihil, ex proprietate sermonis con
+          <lb ed="#P" n="63"/>stat, ibi tantum esse sermonem de rebus fac
+          <lb ed="#P" n="64"/>tis.
+        </p>
+        <p xml:id="szduep-148251-d1e174">
+          <lb ed="#P" n="65"/>2. Locus ad Romanos 8. — Secunda objectiones
+          <lb ed="#P" n="66"/>ex illo ad Rom. 8: Spiritus postulat pro nobi 
+          <lb ed="#P" n="67"/>gematibus inenarrabilibus. Est tamen futili
+          <lb ed="#P" n="68"/>objectio : nam perse notum est, Spiritum sanc
+          <lb ed="#P" n="69"/>tum non esse in se capacem gemitus et doloris 
+          <lb ed="#P" n="70"/>nam ut minimum, cogitari debet plene bea
+          <lb ed="#P" n="71"/>tus. Duplex ergo est expositio. Prima, ut ib 
+          <lb ed="#P" n="72"/>non sit sermo de persona Spiritus sancti, sec
+          <lb ed="#P" n="73"/>de spiritu hominis moto ab Spiritu sancto
+          <lb ed="#P" n="74"/>vel de spiritu orationis et compunctionis al 
+          <lb ed="#P" n="75"/>Spiritu sancto immisso. Haec est Chysostomi
+          <lb ed="#P" n="76"/>homil. 14, ad Roman. et aliorum. Secund:
+          <lb ed="#P" n="77"/>est, ut Spiritus sanctus dicatur postulare, qui
+          <lb ed="#P" n="78"/>facit, nos postulare: haec enim phrasis 
+          fre<lb break="no" ed="#P" n="79"/>quens est in Scriptura, ut Augustinus ait, 
+          e<lb break="no" ed="#P" n="80"/>pist. 112, et contra Maximinum, ubi supra, eit
+          <lb ed="#P" n="81"/>Nazianzenus, orat. 36, num. 54 et 
+          sequent<lb break="no" ed="#P" n="82"/>bus. Quae duae expositiones, si recte 
+          expen<lb break="no" ed="#P" n="83"/>dantur, eamdem rem declarant, verbis 
+          diver<lb break="no" ed="#P" n="84"/>sis. 
+        </p>
+        <p xml:id="szduep-148251-d1e221">
+          <lb ed="#P" n="85"/>3. De nomine Spiritus sancti. Tertia 
+          objec<lb break="no" ed="#P" n="86"/>tio est, non tam contra veritatem Catholicam,
+          <lb ed="#P" n="87"/>quam contra probationum firmitatem. Quia hoc
+          <lb ed="#P" n="88"/>nomen Spiritus sanctus, de Patre etiam et
+          <lb ed="#P" n="89"/>Filio dici potest, ut notarunt Hilarius, libr. 7,
+          <lb ed="#P" n="90"/>de Trinitate, ad medium, et Augustinus 5, de
+          <lb ed="#P" n="91"/>Trinitate, cap. 11, et lib. 15, cap. 19, et 
+          Ansel<lb break="no" ed="#P" n="92"/>mus, lib. de Incarnatione Verbi, cap. 3, ergo
+          <lb ed="#P" n="93"/>ex testimoniis adductis non possumus probare,
+          <lb ed="#P" n="94"/>aliquam personam distinctam a Patre et Filio
+          <lb ed="#P" n="95"/>esse Deum : nam potuerunt omnia de Patre et
+          <lb ed="#P" n="96"/>Filio exponi. Respondeo (ex D. Thoma, 1 p.,
+          <lb ed="#P" n="97"/>q. 36, art. 1), quamvis in vi duarum dictionum
+          <lb ed="#P" n="98"/>Pater et Filius, possint dici Spiritus sanctus,
+          <lb ed="#P" n="99"/>quia uterque est Spiritus, et est sanctus, tamen
+          <lb ed="#P" n="100"/>illa vox, quatenus usurpata est ut una dictio,
+          <lb ed="#P" n="101"/>propria est Spiritus sancti et hoc modo 
+          usur<lb break="no" ed="#P" n="102"/>patur in locis allegatis, quod constat ex 
+          com<lb break="no" ed="#P" n="103"/>munt et perpetua intelligentia Ecclesiae. Et 
+          <lb ed="#P" n="104"/>maxime patet, ubi tres personae distincte 
+          nu<lb break="no" ed="#P" n="105"/>merantur, ut Matth. ult. et 1, Joan. 5 et tertia 
+          <lb ed="#P" n="106"/>vocatur Spiritus, et distinguitur a reliquis. 
+          At<lb break="no" ed="#P" n="107"/>que eidem tribuuntur in aliis locis omnia illa
+          <pb ed="#P" n="587"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>attributa, quae attulimus. In quibus est etiam
+          <lb ed="#P" n="2"/>bservandum, multa esse communia Patri et
+          <lb ed="#P" n="3"/>ilio, quae per appropriationem specialiter 
+          di<lb break="no" ed="#P" n="4"/>untur de Spiritu sancto, quod etiam ejus 
+          di<lb break="no" ed="#P" n="5"/>initatem ostendit.
+        </p>
+        <p xml:id="szduep-148251-d1e289">
+          <lb ed="#P" n="6"/>4. Ultima objectio solvitur. — Libet , 
+          ulti<lb break="no" ed="#P" n="7"/>nam objectionem adjungere , ne quis 
+          for<lb break="no" ed="#P" n="8"/>asse legens Surium tomo sexto in vita 
+          sanc<lb break="no" ed="#P" n="9"/>se Caeciliae offendat, considerans illa verba,
+          <lb ed="#P" n="10"/>ue ex Simone Metaphrastes refert, dicta esse
+          <lb ed="#P" n="11"/>Sancta Caecilia. Deus ex se prius quam 
+          om<lb break="no" ed="#P" n="12"/>da faceret, genuit Filium et produait em sua
+          <lb ed="#P" n="13"/>ubstantia Spiritum sanctum, Filum, ut 
+          fa<lb break="no" ed="#P" n="14"/>eret omnia, Spiritum sanctum, ut owficaret
+          <lb ed="#P" n="15"/>unnia : universa autem, que facta sunt, 
+          con<lb break="no" ed="#P" n="16"/>truat Filius, et omnia, quee constructa 
+          fue<lb break="no" ed="#P" n="17"/>runt ex Paítre, procedens Spiritus sanctus 
+          ani<lb break="no" ed="#P" n="18"/>mavit. Fateor enim, in illis verbis multa esse
+          <lb ed="#P" n="19"/>improprie dicta, nec cogi nos ad credendum,
+          <lb ed="#P" n="20"/>illo modo dicta esse a sancta Caecilia. IHlla enim
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="21"/>quae in humanis historiis per modum dialogi
+          <lb ed="#P" n="22"/>referuntur, facile ab auctore historiae 
+          mutan<lb break="no" ed="#P" n="23"/>tur et suo captui accomodantur. Igitur illa 
+          par<lb break="no" ed="#P" n="24"/>ticula ut bis repetita impropria est, quia 
+          in<lb break="no" ed="#P" n="25"/>dicat causam finalem : debet ergo exponi per
+          <lb ed="#P" n="26"/>modum copulationis, seu conjunctionis, id est,
+          <lb ed="#P" n="27"/>produxit illum cum tali virtute. Illa etiam 
+          par<lb break="no" ed="#P" n="28"/>titio actionum faciendi et viviftcandi, 
+          consti<lb break="no" ed="#P" n="29"/>tuendi, et animandi, per appropriationem 
+          ex<lb break="no" ed="#P" n="30"/>ponenda est, non per proprietatem. Denique
+          <lb ed="#P" n="31"/>verbum illud animavit , non potest intelligi
+          <lb ed="#P" n="32"/>formahter, sed ad summum effective et 
+          ad<lb break="no" ed="#P" n="33"/>huc debet exponi cum amplitudine et per 
+          me<lb break="no" ed="#P" n="34"/>taphoram, id est, fovit, seu conservavit, 
+          pro<lb break="no" ed="#P" n="35"/>prie enim non omnia, quae facta sunt, 
+          animan<lb break="no" ed="#P" n="36"/>tia sunt, ut animari proprie potuerint. 
+          Dicun<lb break="no" ed="#P" n="37"/>tur ergo animari, id est, formari, vel adjuvari
+          <lb ed="#P" n="38"/>per virtutem activam Spiritus sancti, quae 
+          com<lb break="no" ed="#P" n="39"/>munis etiam est Paitri et Filio. Unde hoc etiam
+          <lb ed="#P" n="40"/>per appropriationem Spiritui sancto tribuitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="22"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-005686"><!-- t1-l1c8 -->
+        <head xml:id="szduep-005686-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-005686-Hd1e103" type="question-title">De bonitate divini esse</head>
+        <p xml:id="szduep-005686-d1e106">
+          <lb ed="#P" n="29"/>CAPUT VIII.
+          <lb ed="#P" n="30"/>DE BONITATE DIVINI ESSE.
+        </p>
+        <p xml:id="szduep-005686-d1e113">
+          <lb ed="#P" n="31"/>4. Multipliciter Deus bonus appellatur. —
+          <lb ed="#P" n="32"/>Variis modis solent res bona denominari, et
+          <lb ed="#P" n="33"/>omnibus illis secundum generales et formales
+          <lb ed="#P" n="34"/>rationes earupa, seu quatenus ad perfectionem
+          <lb ed="#P" n="35"/>spectant et excludunt imperfectionem, Deus
+          <lb ed="#P" n="36"/>bonus est, altiori modo, et majori excellentia,
+          <lb ed="#P" n="37"/>quam res ulla creata possit bona vocari. Quae
+          <lb ed="#P" n="38"/>doctrina recte intellecta catholica, ut opinor,
+          <lb ed="#P" n="39"/>est, et omnino certa, ut constabit ex his quae
+          <lb ed="#P" n="40"/>divina Scriptura de divina bonitate tradit, quod
+          <lb ed="#P" n="41"/>fiet distinctius descendendo ad singulas 
+          deno<lb break="no" ed="#P" n="42"/>minationes.
+        </p>
+        <p xml:id="szduep-005686-d1e142">
+          <lb ed="#P" n="43"/>2. In primis res bona uuncupatur, quia per 
+          fec<lb break="no" ed="#P" n="44"/>a.—Primo igitur dicitur res bona, quia in suo
+          <lb ed="#P" n="45"/>esse perfecta est, i.e. quia habet omnia quae ad
+          <lb ed="#P" n="46"/>complementum sui esse requiruntur, juxta 
+          des<lb break="no" ed="#P" n="47"/>criptionem Aristotelis 5. Metaphysic. dicentis:
+          <lb ed="#P" n="48"/>Per fectum csse, cui nibil deest. Et hoc modo est
+          <lb ed="#P" n="49"/>evidens ratione naturali, Deum esse bonum
+          <lb ed="#P" n="50"/>et perfectum, ut in Metaphysica, disp. 30, sect.
+          <lb ed="#P" n="51"/>1 ostendimus, et statim probabitur ex 
+          Scriptu<lb break="no" ed="#P" n="52"/>ris et ex principiis fidei jam positis evidenter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>colligitur. Ostensum est enim, Deum esse ens
+          <lb ed="#P" n="54"/>-necessarium et suum esse simplicissimum, ac
+          <lb ed="#P" n="55"/>denique esse eadem necessitate verum Deum;
+          <lb ed="#P" n="56"/>habet ergo necessario totum id, quod in re ipsa
+          <lb ed="#P" n="57"/>necessarium est ad verum esse per essentiam,
+          <lb ed="#P" n="58"/>nec potest illa perfectione privari, quia 
+          neces<lb break="no" ed="#P" n="59"/>sario est, nec parte ejus. quia partes non habet,
+          <lb ed="#P" n="60"/>nec augeri potest nec minui. Ergo necessarium
+          <lb ed="#P" n="61"/>est perfectum ens et perfectus Deus.
+        </p>
+        <p xml:id="szduep-005686-d1e189">
+          <lb ed="#P" n="62"/>3. Deus hoc modo per antonomasiam bonus
+          <lb ed="#P" n="63"/>dicitur. — Addendum praeterea est, Deum in
+          <lb ed="#P" n="64"/>hoc genere bonitatis esse singulari modo 
+          bo<lb break="no" ed="#P" n="65"/>num, ratione cujus singularitatis et 
+          excellen<lb break="no" ed="#P" n="66"/>tiae per antonomasiam dicitur bonus et solus
+          <lb ed="#P" n="67"/>bonus. Hoc probat illud Matthaei decimo nono,
+          <lb ed="#P" n="68"/>et Luc. 18: IVemo bonus nisi solus Deus. em
+          <lb ed="#P" n="69"/>hac de causa dicitur in Scriptura, Deum non
+          <lb ed="#P" n="70"/>habere similem, Isai. 44: Qui similis mei?
+          <lb ed="#P" n="71"/>Et cap. 46: Cui assimilastis me et 
+          adeguas<lb break="no" ed="#P" n="72"/>tis me? et fecistis similem ? Psalm. 34: 
+          Domi<lb break="no" ed="#P" n="73"/>ne, quis similis tibi ? Hac etiam ratione sepe
+          <lb ed="#P" n="74"/>in Scriptura vocatur Deus, Alfissimus, eic.
+          <lb ed="#P" n="75"/>Haec autem singularis excellentia Dei consistit
+          <lb ed="#P" n="76"/>in hoc, quod ipse solus habet, quod sit bonus
+          <lb ed="#P" n="77"/>per essentiam, ut docet D. Thomas diet. art. 3.
+          <lb ed="#P" n="78"/>Quod exphcat distinguendo in creaturis tres
+          <lb ed="#P" n="79"/>gradus perfectionis entitativae, superadditae per
+          <lb ed="#P" n="80"/>accidentia et consummatae per 
+          consequutio<lb break="no" ed="#P" n="81"/>nem ultimi finis, quas omnes habet Deus per
+          <lb ed="#P" n="82"/>essentiam. suam, et non aliqua creatura.
+        </p>
+        <p xml:id="szduep-005686-d1e237">
+          <lb ed="#P" n="83"/>4. Patet discurrendo per singulas : nam
+          <lb ed="#P" n="84"/>Denus, cum sit suum esse essentialiter, habet
+          <lb ed="#P" n="85"/>perfectionem suae entitatis, quod non est in
+          <lb ed="#P" n="86"/>aliqua creatura, quia nulla est suum esse. Quae
+          <lb ed="#P" n="87"/>differentia aliquibus videtur difficilis , quia
+          <lb ed="#P" n="88"/>etiam creatura habet perfectionem essentialem
+          <lb ed="#P" n="89"/>per suam essentiam : et licet non semper actu
+          <lb ed="#P" n="90"/>existat, tamen semper est verum dicere, esse
+          <lb ed="#P" n="91"/>essentialiter bonam; nam sicut haec propositio
+          <lb ed="#P" n="92"/>est aeternae veritatis : Homo est risibilis, ta et
+          <lb ed="#P" n="93"/>haec : Ens est bommm, leo est tantee perfectionis
+          <lb ed="#P" n="94"/>essentialis. Sed quidquid sit de quaestione 
+          Me<lb break="no" ed="#P" n="95"/>taphysica, an essentie, dum non existunt,
+          <lb ed="#P" n="96"/>possint simpliciter dici bonae, quam in 
+          Meta<lb break="no" ed="#P" n="97"/>physica, disputat. 10, tractavimus: in praesenti
+          <lb ed="#P" n="98"/>differentia intenta, et clara est, quod bonitas
+          <lb ed="#P" n="99"/>Dei essentialiter habet, ut sit actualis et realis
+          <lb ed="#P" n="100"/>bonitas, et hoc modo habet illam Deus ex vi
+          <lb ed="#P" n="101"/>suae essentiae et non aliunde ; creaturae vero
+          <lb ed="#P" n="102"/>non habent illam hoc modo, sed oportet ut ab
+          <lb ed="#P" n="103"/>alio illam recipiant ; nam et ipsammet 
+          essen<lb break="no" ed="#P" n="104"/>tiam actu non habent a se, nisi ab alio illam
+          <lb ed="#P" n="105"/>recipiant.
+        </p>
+        <p xml:id="szduep-005686-d1e289">
+          <lb ed="#P" n="106"/>5. Quocirca, licet demus illam 
+          propositio<lb break="no" ed="#P" n="107"/>nem : Essentia creature est boua, esse perpe-
+          <pb ed="#P" n="23"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tuae veritatis, si copula astrahat ab actual
+          <lb ed="#P" n="2"/>existentia ut in rigore potest : nihilominus 
+          ve<lb break="no" ed="#P" n="3"/>rum non est, bonitatem essentialem creaturae
+          <lb ed="#P" n="4"/>esse aeternam aut esse simpliciter ex vi suae
+          <lb ed="#P" n="5"/>essentiae, sicut vere dicitur de bonitate divinae
+          <lb ed="#P" n="6"/>essentise, et ideo singulari modo dicitur et est
+          <lb ed="#P" n="7"/>bona per essentiam. Postquam autem creatura
+          <lb ed="#P" n="8"/>producta est et existentiam habet, nemo 
+          du<lb break="no" ed="#P" n="9"/>bitare potest, quin essentia in se et per se 
+          ha<lb break="no" ed="#P" n="10"/>beat aliquam bonitatem, scilicet essentialem.
+          <lb ed="#P" n="11"/>Quia vel non est res distincta a sua existentia,
+          <lb ed="#P" n="12"/>vel licet sit (quod non credimus), nihilominus
+          <lb ed="#P" n="13"/>entitas essentiae actu existens aliquid est, et
+          <lb ed="#P" n="14"/>perfectionem essentialem habet per seipsam,
+          <lb ed="#P" n="15"/>secundum quam distinguitur ab alia essentia
+          <lb ed="#P" n="16"/>creata , et magis vel minus perfecta est quam
+          <lb ed="#P" n="17"/>illa. Omnis item talis essentia est natura a
+          <lb ed="#P" n="18"/>Deo creata, ergo et bona ; nam omnis creatura
+          <lb ed="#P" n="19"/>bona est, 1. ad Timoth. quarto, et omnis natura
+          <lb ed="#P" n="20"/>creata, ut sic, est participatio divinae naturae et
+          <lb ed="#P" n="21"/>bonitatis ejus, ut Augustinus docet contra 
+          Ma<lb break="no" ed="#P" n="22"/>nichaeos libro de Nat. boni, cap. 1. Non potest
+          <lb ed="#P" n="23"/>igitur hoc in dubium vocari, nec Divus 
+          Tho<lb break="no" ed="#P" n="24"/>mas contrarium docere voluit, sed solum 
+          es<lb break="no" ed="#P" n="25"/>sentiam creatam non habere ex se hanc ipsam
+          <lb ed="#P" n="26"/>bonitatem actualiter, sed ex Deo.
+        </p>
+        <p xml:id="szduep-005686-d1e357">
+          <lb ed="#P" n="27"/>6. Bonitas creaturis accidentaliter 
+          conve<lb break="no" ed="#P" n="28"/>niens Deo essentialiter competit. — Praeterea
+          <lb ed="#P" n="29"/>quoad bonitatem, quae solet creatis naturis
+          <lb ed="#P" n="30"/>addi per accidentia, Deus etiam est singulari
+          <lb ed="#P" n="31"/>modo bonus per essentiam, quia Dei essentia
+          <lb ed="#P" n="32"/>non perficitur per accidentia, sed quidquid 
+          per<lb break="no" ed="#P" n="33"/>fectionis convenire potest alicui naturae per 
+          ac<lb break="no" ed="#P" n="34"/>cidentia, ei convenit essentialiter, quod 
+          non<lb break="no" ed="#P" n="35"/>dum a nobis demonstratum est, in sequentibus
+          <lb ed="#P" n="36"/>vero capitulis demonstrabitur. Unde ex hac
+          <lb ed="#P" n="37"/>parte etiam habet Deus, ut non possit non 
+          ha<lb break="no" ed="#P" n="38"/>bere omnem hanc perfectionem sine ullo 
+          de<lb break="no" ed="#P" n="39"/>fectu, quia eadem necessitate illi convenit, qua
+          <lb ed="#P" n="40"/>propria essentia et proprium esse.
+        </p>
+        <p xml:id="szduep-005686-d1e390">
+          <lb ed="#P" n="41"/>7. Dubium. — Resolvitur. — Solum posset
+          <lb ed="#P" n="42"/>hic dubitari de quibusdam perftectionibus 
+          ex<lb break="no" ed="#P" n="43"/>trinsecis, quae licet per extrinsecam 
+          denomi<lb break="no" ed="#P" n="44"/>nationem conveniant Deo, aliquod bonum ejus
+          <lb ed="#P" n="45"/>esse videntur, ut esse creatorem et se actu
+          <lb ed="#P" n="46"/>communicare aliis, sic enim aliqui putant 
+          ac<lb break="no" ed="#P" n="47"/>tionem transeuntem esse aliquam perfectionem
+          <lb ed="#P" n="48"/>agentis. Item esse Dominum rerum omnium,
+          <lb ed="#P" n="49"/>item habere gloriam et honorem in 
+          rational<lb break="no" ed="#P" n="50"/>bus creaturis. Sed ad hoc negandum est, haec
+          <lb ed="#P" n="51"/>omnia extrinseca addere Deo aliquam 
+          bonita<lb break="no" ed="#P" n="52"/>tem vel perfectionem. Quia in universum 
+          de<lb break="no" ed="#P" n="53"/>nommnatio extrinseca non est perfectio 
+          forma<lb break="no" ed="#P" n="54"/>lis rei sic denominatae : nec res extrinseca esse
+          <lb ed="#P" n="55"/>potest bonitas formaliter perficiens aliam, ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sumitur ex eodem D. Thoma dicta q. 9, art. 4.
+          <lb ed="#P" n="57"/>Unde a fortiori sumitur argumentum: nam
+          <lb ed="#P" n="58"/>creaturae non possunt dici bonae a bonitate quae
+          <lb ed="#P" n="59"/>est in Deo, ut a forma denominante, sed ut ab
+          <lb ed="#P" n="60"/>efficiente vel fine : ergo multo minus poterit
+          <lb ed="#P" n="61"/>bonitas existens in creatura formaliter perficere
+          <lb ed="#P" n="62"/>Deum, aut eum bonum denominare. Nulla est
+          <lb ed="#P" n="63"/>ergo in Deo bonitas accidentalis, sed tota est
+          <lb ed="#P" n="64"/>per essentiam.
+        </p>
+        <p xml:id="szduep-005686-d1e447">
+          <lb ed="#P" n="65"/>8. Deus quomodo contineat bonitatem, quee
+          <lb ed="#P" n="66"/>in assecutione finis potest inveniri. — Tandem
+          <lb ed="#P" n="67"/>de perfectione, quae est in adeptione finis, ait
+          <lb ed="#P" n="68"/>D. Thomas dicto art. 3, Deum non ordinari ad
+          <lb ed="#P" n="69"/>alium ut ad ultimum finem, et ideo non 
+          in<lb break="no" ed="#P" n="70"/>digere hac perfectione, neque esse capacem
+          <lb ed="#P" n="71"/>ejus, quia supponit imperfectionem. 
+          Adden<lb break="no" ed="#P" n="72"/>dum vero est ex eodem D. Thoma 1. p., q. 26,
+          <lb ed="#P" n="73"/>per totam, et ex his que diximus disp. 30 
+          Me<lb break="no" ed="#P" n="74"/>taphys., sect. 14, in fine. Quod sicut Deus 
+          di<lb break="no" ed="#P" n="75"/>citur esse a se quatenus non est ab alio, ita
+          <lb ed="#P" n="76"/>dicitur quiescere in se, quia non habet extra
+          <lb ed="#P" n="77"/>se finem, sed sibimet est illud bonum, quod in
+          <lb ed="#P" n="78"/>ultimo fine esse potest, seclusis 
+          imperfectioni<lb break="no" ed="#P" n="79"/>bus. Et ita etiam quoad hanc partem habet
+          <lb ed="#P" n="80"/>necessario omnem bonitatem et pertectionem,
+          <lb ed="#P" n="81"/>quae in adeptione ultimi finis esse potest. Quia
+          <lb ed="#P" n="82"/>semper ac necessario beatus est, et in se solo
+          <lb ed="#P" n="83"/>omnem sufficientiam ac beatitudinem habet,
+          <lb ed="#P" n="84"/>eaque perfruitur per suammet essentiam, 
+          in<lb break="no" ed="#P" n="85"/>telligendo scilicet et amando se, quod per
+          <lb ed="#P" n="86"/>suammet essentiam habet, ut videbimus, et
+          <lb ed="#P" n="87"/>ideo etiam quoad hanc partem per essentiam
+          <lb ed="#P" n="88"/>bonus est.
+        </p>
+        <p xml:id="szduep-005686-d1e503">
+          <lb ed="#P" n="89"/>9. Debita compositio partium creutwris 
+          bo<lb break="no" ed="#P" n="90"/>nitas est.— Nullo modo ad bonitatem De 
+          ve<lb break="no" ed="#P" n="91"/>quiritur. — Praeter has vero bonitates 
+          conside<lb break="no" ed="#P" n="92"/>rari solet in creaturis alia quae consurgit ex
+          <lb ed="#P" n="93"/>integritate partium integralium cum debito
+          <lb ed="#P" n="94"/>modo et ordine. Ad quam etam reducitur
+          <lb ed="#P" n="95"/>pulchritudo corporalis, quae illam integritatem
+          <lb ed="#P" n="96"/>requirit, cum aliqua perfectione accidentah
+          <lb ed="#P" n="97"/>conjunctam. Verumtamen tota haec bonitas 
+          for<lb break="no" ed="#P" n="98"/>maliter sumpta est imperfectissim ordins,
+          <lb ed="#P" n="99"/>est enim propria corporalium et materialium
+          <lb ed="#P" n="100"/>rerum : et ideo illam Divus Thomas 
+          praeter<lb break="no" ed="#P" n="101"/>misit, quia non potest requiri ad bonitatem
+          <lb ed="#P" n="102"/>Dei, cum neque ad perfectionem entis, ut sic,
+          <lb ed="#P" n="103"/>necessaria sit. Positive ergo (ut sic dicam) non
+          <lb ed="#P" n="104"/>potest haec bonitas Deo attribui, sed solum 
+          se<lb break="no" ed="#P" n="105"/>cundum negationem, quia nimirum nulla ilh
+          <lb ed="#P" n="106"/>deest integritas quae ad perfectionem 
+          neces<lb break="no" ed="#P" n="107"/>saria sit. Item secundum quandam 
+          eminen<lb break="no" ed="#P" n="108"/>tiam, quia in simplicissima essentia sua habet
+          <lb ed="#P" n="109"/>totam perfectionem suam. Ac denique 
+          secun<lb break="no" ed="#P" n="110"/>dum rationem potest in illo considerar consti-
+          <pb ed="#P" n="24"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tutio ex variis praedicatis, quae nos concipimus
+          <lb ed="#P" n="2"/>et illi tribuimus, et in his etiam habet 
+          neces<lb break="no" ed="#P" n="3"/>sario et per suam essentiam omne 
+          comple<lb break="no" ed="#P" n="4"/>mentum entitatis suae. In qua habet, non 
+          cor<lb break="no" ed="#P" n="5"/>poralem pulchritudinem sed spiritualem, 
+          infi<lb break="no" ed="#P" n="6"/>nitam et omnem nostram cognitionem 
+          supe<lb break="no" ed="#P" n="7"/>rantem.
+        </p>
+        <p xml:id="szduep-005686-d1e573">
+          <lb ed="#P" n="8"/>10. Denique in substantiis creatis potest
+          <lb ed="#P" n="9"/>considerari perfectio propria personae, ut sic,
+          <lb ed="#P" n="10"/>quam intelligitur addere ultra perfectionem
+          <lb ed="#P" n="11"/>essentiae seu naturae. Et hujus etiam non 
+          me<lb break="no" ed="#P" n="12"/>minit D. Thomas, vel quia jam ostenderat
+          <lb ed="#P" n="13"/>quaest. 3, art. 3, Deum esse naturam suam,
+          <lb ed="#P" n="14"/>vel certe quia haec consideratio ad mysterium
+          <lb ed="#P" n="15"/>Trinitatis potius quam unitatis Dei spectat :
+          <lb ed="#P" n="16"/>ubi propterea de illa dicemus latius. Nunc 
+          ve<lb break="no" ed="#P" n="17"/>ro dicimus perfectionem subsistendi, quae in
+          <lb ed="#P" n="18"/>supposito considerari potest, Deo etiam per
+          <lb ed="#P" n="19"/>essentiam suam convenire. Perfectionem 
+          au<lb break="no" ed="#P" n="20"/>tem incommunicabiliter subsistendi, quae 
+          ma<lb break="no" ed="#P" n="21"/>gis propria est suppositi, ut sic, qualiscumque
+          <lb ed="#P" n="22"/>illa sit, Deo non deesse, eique necessitate 
+          na<lb break="no" ed="#P" n="23"/>turali convenire, et per suam essentiam 
+          sal<lb break="no" ed="#P" n="24"/>tem identice illam habere, et hoc satis esse,
+          <lb ed="#P" n="25"/>ut etiam quoad hanc partem dicatur Deus de
+          <lb ed="#P" n="26"/>se bonus, et perfectus per essentiam suam.
+        </p>
+        <p xml:id="szduep-005686-d1e617">
+          <lb ed="#P" n="27"/>11. — Creatura respectu Dei bona est 
+          secun<lb break="no" ed="#P" n="28"/>dum quid. — Sic Deus perfectus est, ut omnis
+          <lb ed="#P" n="29"/>perfectio, qua talis ei conveniat. —Ultimo addo
+          <lb ed="#P" n="30"/>in hoc puncto, creaturam etiamsi in suo 
+          ge<lb break="no" ed="#P" n="31"/>nere habeat omnem integritatem et 
+          perfec<lb break="no" ed="#P" n="32"/>tionem, et ideo bona possit dici absolute, 
+          nihi<lb break="no" ed="#P" n="33"/>lominus comparatione Dei esse bonam 
+          se<lb break="no" ed="#P" n="34"/>cundum quid, solum autem Deum dici posse
+          <lb ed="#P" n="35"/>simpliciter bonum. Nam creatura dici potest
+          <lb ed="#P" n="36"/>bona ad summum quia habet omnem 
+          perfec<lb break="no" ed="#P" n="37"/>tionem sibi debitam , vel secundum naturam
+          <lb ed="#P" n="38"/>suam, vel etiam secundum omnem capacitatem
+          <lb ed="#P" n="39"/>suam, vt est sub ordinatione divina. At Deus
+          <lb ed="#P" n="40"/>ita habet omnem perfectionem sibi debitam,
+          <lb ed="#P" n="41"/>ut omnis omnino perfectio quatenus perfectio
+          <lb ed="#P" n="42"/>est, illi sit debita et necessario ei conveniat, et
+          <lb ed="#P" n="43"/>peressentiam suam. Hoc significavit Deus Exod.
+          <lb ed="#P" n="44"/>33, cum se appellavit omne bomum , dicens
+          <lb ed="#P" n="45"/>Moysi: Egoostendam tibi omne bommm ; quo loco
+          <lb ed="#P" n="46"/>ad hoc propositum utitur Divus Thomas 1.
+          <lb ed="#P" n="47"/>contra gentes, capit. 48. Item multi ita legunt
+          <lb ed="#P" n="48"/>et interpretantur verba Joannis 1: Quod 
+          fac<lb break="no" ed="#P" n="49"/>twn est in ipso vita erat, quod sentit 
+          Augusti<lb break="no" ed="#P" n="50"/>nus ibi. Quae sententia est probabilis, licet
+          <lb ed="#P" n="51"/>lectio et interpretatio dubia sint. Clarius 
+          vi<lb break="no" ed="#P" n="52"/>detur illud ad Romanos undecimo : Zz ipso,
+          <lb ed="#P" n="53"/>et in ipso et per ipsum sunt omnia. Sed neque
+          <lb ed="#P" n="54"/>hic locus probat, nisi mediante aliqua 
+          illatio<lb break="no" ed="#P" n="55"/>ne ; nam particula in habitudinem causae di-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cit. dicuntur enim omnia esse in Deo, quia ab
+          <lb ed="#P" n="57"/>ipso pendent ipsumque respiciunt ut 
+          conser<lb break="no" ed="#P" n="58"/>vatorem suum ; vel in ipsum, ut in finem 
+          ten<lb break="no" ed="#P" n="59"/>dunt, sicut ad Coloss. primo : 7n ipso condita
+          <lb ed="#P" n="60"/>sunt universa , et omnia in ipso constant. Et
+          <lb ed="#P" n="61"/>Actorum decimo septimo : 7n ipso civimus,
+          <lb ed="#P" n="62"/>mocemur et sumus. Quia tamen non potest Deus
+          <lb ed="#P" n="63"/>omnia continere sua potentia, nisi in suo esse
+          <lb ed="#P" n="64"/>aliquo modo omnem perfectionem praehabeat,
+          <lb ed="#P" n="65"/>ideo ex illa particula 7n ipso hic etiam sensus
+          <lb ed="#P" n="66"/>obfirmari potest. Sic enim argumentatur 
+          Da<lb break="no" ed="#P" n="67"/>vid Psalmo nonagesimo tertio : Qui plantavit
+          <lb ed="#P" n="68"/>awrem non audiet ? aut qui finait oculum non
+          <lb ed="#P" n="69"/>considerat ? Unde etiam est illud Psalmi 49:
+          <lb ed="#P" n="70"/>Pulchritudo agri anecum est , et alia infra 
+          affe<lb break="no" ed="#P" n="71"/>remus tractantes de scientia Dei et de ejus 
+          in<lb break="no" ed="#P" n="72"/>finitate. Videri etiam possunt dicta dist. 30
+          <lb ed="#P" n="73"/>Metaph., sect. 1, ubi ratione hoc etiam 
+          proba<lb break="no" ed="#P" n="74"/>tum est, tum explicatum ex vulgari 
+          distinc<lb break="no" ed="#P" n="75"/>tione duplicis perfectionis simpheiter et non
+          <lb ed="#P" n="76"/>simpliciter. Tum ex duplici modo continendi
+          <lb ed="#P" n="77"/>aliquid formahter, vel eminenter, ut 
+          intelli<lb break="no" ed="#P" n="78"/>gatur Deus habere formaliter omnem 
+          perfec<lb break="no" ed="#P" n="79"/>tionem simpliciter, reliquas eminenter. De qua
+          <lb ed="#P" n="80"/>re aliquid etiam attingemus infra in tractatu
+          <lb ed="#P" n="81"/>de Trinitate, propter perfectiones relativas.
+        </p>
+        <p xml:id="szduep-005686-d1e741">
+          <lb ed="#P" n="82"/>12. Ens bonum dicitur , quia est alicua
+          <lb ed="#P" n="83"/>conveniens, vel sibi ipsi.—Hoc modo Deus
+          <lb ed="#P" n="84"/>summe bonus est. — Secundo modo dicitur 
+          ali<lb break="no" ed="#P" n="85"/>quod ens bonum, quia conveniens est alicui
+          <lb ed="#P" n="86"/>ac proinde est appetibile. Hoc autem ipsum
+          <lb ed="#P" n="87"/>intelligi potest duobus modis. Primo, 
+          quate<lb break="no" ed="#P" n="88"/>nus unumquodque habet perfectionem sibi
+          <lb ed="#P" n="89"/>convenientem et amabilem, quae 
+          convenien<lb break="no" ed="#P" n="90"/>tia, si per modum relationis consideretur, 
+          so<lb break="no" ed="#P" n="91"/>lum est per considerationem nostram, tamen
+          <lb ed="#P" n="92"/>ut in re habet virtuale fundamentum, solet
+          <lb ed="#P" n="93"/>vocari bonitas transcendentalis juxta 
+          probabi<lb break="no" ed="#P" n="94"/>lem opinionem, de qua disputat. 10 
+          Metaphy<lb break="no" ed="#P" n="95"/>sicae. Hoc ergo modo per se notum et 
+          evi<lb break="no" ed="#P" n="96"/>dentissimum est, Deum esse summe bonum:
+          <lb ed="#P" n="97"/>habet enim perfectionem sibi maxime 
+          conye<lb break="no" ed="#P" n="98"/>nientem et amabilem a se ; unde se 
+          necessa<lb break="no" ed="#P" n="99"/>rio amat, ut postea videbimus. Estque ex 
+          dic<lb break="no" ed="#P" n="100"/>tis satis probatum. Alio vero modo dicitur
+          <lb ed="#P" n="101"/>una res bona respectu alterius, quia est illi
+          <lb ed="#P" n="102"/>conveniens. Et hoc modo videri potest hanc
+          <lb ed="#P" n="103"/>boni appellationem non cadere in Deum, quia
+          <lb ed="#P" n="104"/>sic non dicitur bonum, nisi quod potest esse
+          <lb ed="#P" n="105"/>forma vel pars alterius. Atque ita haec boni
+          <lb ed="#P" n="106"/>appellatio videtur claudere imperfectionem Deo
+          <lb ed="#P" n="107"/>repugnantem.
+        </p>
+        <p xml:id="szduep-005686-d1e800">
+          <lb ed="#P" n="108"/>13. Deus omnium creaturarum summuwn
+          <lb ed="#P" n="109"/>bomum est, non tamen eodem modo.— Dicendum
+          <lb ed="#P" n="110"/>nihilominus est, Deum etiam hoc modo esse
+          <pb ed="#P" n="25"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>summum bonum creaturarum omnium, 
+          quam<lb break="no" ed="#P" n="2"/>vis non omnium eodem modo. Haec assertio
+          <lb ed="#P" n="3"/>ex sacra Scriptura colligitur Psalm. 71: Quam
+          <lb ed="#P" n="4"/>bonus Israel Deus his; qui recto sunt corde
+          <lb ed="#P" n="5"/>Threnor. 3: Bonus est Dominus sperantibus
+          <lb ed="#P" n="6"/>in eum, anime querenti illun. Quanquam his
+          <lb ed="#P" n="7"/>locis boni appellatio videatur latius sumi pro
+          <lb ed="#P" n="8"/>liberali atque benefico: nam Deus plura et
+          <lb ed="#P" n="9"/>majora beneficia confert his qui recto sunt
+          <lb ed="#P" n="10"/>corde et illum quaerunt. Verumtamen si 
+          res<lb break="no" ed="#P" n="11"/>pectu illorum dicitur Deus bonus per 
+          antono<lb break="no" ed="#P" n="12"/>masiam, certe his omnibus quibus beneficia
+          <lb ed="#P" n="13"/>confert bonus est et conveniens ipsis, saltem
+          <lb ed="#P" n="14"/>ut causa boni. Praeterea declaratur ex illo,
+          <lb ed="#P" n="15"/>Ego sum a, et o, principium et finis; nam 
+          di<lb break="no" ed="#P" n="16"/>vina bonitas est fons unde omnia alia 
+          bonita<lb break="no" ed="#P" n="17"/>tem participant, et a qua omnia in sua 
+          boni<lb break="no" ed="#P" n="18"/>tate pendent ; ergo ut sic omnibus est valde
+          <lb ed="#P" n="19"/>conveniens, imo necessaria bonitas Dei. 
+          At<lb break="no" ed="#P" n="20"/>que hoc modo dixit Dionysius capite quarto:
+          <lb ed="#P" n="21"/>Dewn esse omnium bonwm, sicut ex quo omnaa
+          <lb ed="#P" n="22"/>subsistunt. Sumilter est Deus finis ultimus 
+          om<lb break="no" ed="#P" n="23"/>nium ; at finis est bonum ejus, qui ordinatur
+          <lb ed="#P" n="24"/>ad finem.
+        </p>
+        <p xml:id="szduep-005686-d1e865">
+          <lb ed="#P" n="25"/>14. Hinc ergo patet ultima pars assertionis ;
+          <lb ed="#P" n="26"/>nam Deus peculian modo est bonum 
+          conve<lb break="no" ed="#P" n="27"/>niens creaturis intellectualibus, tanquam 
+          ob<lb break="no" ed="#P" n="28"/>jectiva beatitudo illorum, ut tradit D. Thomas
+          <lb ed="#P" n="29"/>1. p., quaest. 26, articulo tertio, et latius 1. 2.
+          <lb ed="#P" n="30"/>quaestion. 2 et 3 et in 2. 2. quaest. 17 docet,
+          <lb ed="#P" n="31"/>Deum esse bonum amatum et speratum a
+          <lb ed="#P" n="32"/>creatura intellectuali, quod ibi omnes docent
+          <lb ed="#P" n="33"/>contra Durandum. Est ergo Deus illo speciali
+          <lb ed="#P" n="34"/>modo bonus, respectu intellectualis naturae,
+          <lb ed="#P" n="35"/>id est, valde conveniens creaturis 
+          intellectua<lb break="no" ed="#P" n="36"/>libus, ut beatae esse possint. Aliae vero 
+          infe<lb break="no" ed="#P" n="37"/>riores creaturae, licet non possint ita frui bono
+          <lb ed="#P" n="38"/>illo, in illius similitudinem tendunt prout 
+          pos<lb break="no" ed="#P" n="39"/>sunt, et ideo suo modo illum ut suum finem
+          <lb ed="#P" n="40"/>et bonum appetunt, sicut D. Thomas dixit dicta
+          <lb ed="#P" n="41"/>quaest. 6, art. 1. Est ergo Deus omnium 
+          bo<lb break="no" ed="#P" n="42"/>num, licet non eodem modo.
+        </p>
+        <p xml:id="szduep-005686-d1e908">
+          <lb ed="#P" n="43"/>15. Ad difficultatem ergo in contrarium
+          <lb ed="#P" n="44"/>respondetur, unam rem non tantum esse 
+          con<lb break="no" ed="#P" n="45"/>venientem alteri per modum formae aut 
+          ma<lb break="no" ed="#P" n="46"/>teriae seu pattis, sed etiam per modum 
+          objec<lb break="no" ed="#P" n="47"/>ti, ut imago recte depicta censetur bonum
+          <lb ed="#P" n="48"/>quoddam ei conveniens, qui in ea videnda 
+          de<lb break="no" ed="#P" n="49"/>lectatur. Item per modum amici: inter eos
+          <lb ed="#P" n="50"/>enim qui sunt intellectualis naturae , amicitia
+          <lb ed="#P" n="51"/>est magnum bonum, et unus amicus est bonum
+          <lb ed="#P" n="52"/>alterius, propter se amabile. Quia aenico fideli
+          <lb ed="#P" n="53"/>mulla est comparatio, sub qua ratione Deus est
+          <lb ed="#P" n="54"/>excellentissimo modo bonum hominis. Item
+          <lb ed="#P" n="55"/>per modum efficientis causae, licet enim causa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>efficiens, ut sic per se ipsam non perficiat 
+          ho<lb break="no" ed="#P" n="57"/>minem et ideo videatur denominari bona
+          <lb ed="#P" n="58"/>quasi per extrinsecam denominationem ab
+          <lb ed="#P" n="59"/>effectu suo, sicut etiam denominatur mala, si
+          <lb ed="#P" n="60"/>aliquid disconveniens efficiat : nihilominus
+          <lb ed="#P" n="61"/>etiam virtus ipsa et potentia, quae est in Deo
+          <lb ed="#P" n="62"/>est simpliciter bonum hominis, quia valde 
+          con<lb break="no" ed="#P" n="63"/>veniens homini est, ut tahlis virtus et potentia
+          <lb ed="#P" n="64"/>sit in rerum natura, et intime sit in ipso 
+          ho<lb break="no" ed="#P" n="65"/>mine conferens et conservans esse et omne
+          <lb ed="#P" n="66"/>aliud bonum ejus. Unde etiam hac ratione 
+          ho<lb break="no" ed="#P" n="67"/>mo (et suo modo omnis res alia) unitur Deo
+          <lb ed="#P" n="68"/>tanquam supremo bono suo.
+        </p>
+        <p xml:id="szduep-005686-d1e969">
+          <lb ed="#P" n="69"/>16. Res intellectuales bonee dicuntur bonitate
+          <lb ed="#P" n="70"/>morali aut actuali.— Hic modus bonitatis 
+          ec<lb break="no" ed="#P" n="71"/>cellentius Deo convenit. — Tertio modo 
+          deno<lb break="no" ed="#P" n="72"/>minantur peculariter res intellectuales bonae
+          <lb ed="#P" n="73"/>bonitate morali vel actuali, quia opera bona
+          <lb ed="#P" n="74"/>moralia exercent, vel habitu, vel aptitudine
+          <lb ed="#P" n="75"/>retinent, quatenus sunt dispositae et propensae
+          <lb ed="#P" n="76"/>ad illud bonum exercendum. Et sic etiam 
+          al<lb break="no" ed="#P" n="77"/>tiori et excellentiori modo est Deus summe
+          <lb ed="#P" n="78"/>bonus, quia est summe rectus in omnibus 
+          ope<lb break="no" ed="#P" n="79"/>ribus suis. Quia rectitudinem habet ita 
+          conna<lb break="no" ed="#P" n="80"/>turalem et intrinsecam, ut sit regula omnis
+          <lb ed="#P" n="81"/>bonitatis, nec possit aliquid praeter rectam 
+          ra<lb break="no" ed="#P" n="82"/>tionem operari. Unde est illud Psal. 144: 
+          F<lb break="no" ed="#P" n="83"/>delis Dominus in omnibus verbis suis, et 
+          sanc<lb break="no" ed="#P" n="84"/>tus in omnibus operibus suis ; et terum :Justus
+          <lb ed="#P" n="85"/>Dominus in omnibus ciis suis, et sanctus, etc.
+          <lb ed="#P" n="86"/>Et hoc sensu videtur appellari Deus bonus ,
+          <lb ed="#P" n="87"/>Psalm. 118. cum dicitur : Bonus est tu, et in
+          <lb ed="#P" n="88"/>bonitate tua doce me justificationes tuas. tem
+          <lb ed="#P" n="89"/>Psalm. 105, 106, 117 et 135: Confitemini
+          <lb ed="#P" n="90"/>Domino , quoniam bonus, utique in omnibus
+          <lb ed="#P" n="91"/>operibus suis, quae sunt plena misericordia
+          <lb ed="#P" n="92"/>et bonitate, ut ibi describuntur. Et licet 
+          res<lb break="no" ed="#P" n="93"/>pectu creaturarum illa sint beneficia Dei, per
+          <lb ed="#P" n="94"/>quae consequuntur quidquid boni in eo 
+          ge<lb break="no" ed="#P" n="95"/>nere habent, tamen ut sunt actiones liberae
+          <lb ed="#P" n="96"/>Dei habent bonitatem moralem, seu ab illa
+          <lb ed="#P" n="97"/>quae in Deo est proficiscuntur. Est autem illa
+          <lb ed="#P" n="98"/>bonitas in Deo, considerata in actu primo 
+          nos<lb break="no" ed="#P" n="99"/>tro modo loquendi, sola naturahs rectitudo
+          <lb ed="#P" n="100"/>voluntatis ejus, in actu vero secundo est 
+          vo<lb break="no" ed="#P" n="101"/>luntas libera benefaciendi aliis ; nam prout se
+          <lb ed="#P" n="102"/>ipsum amat, non est ibi propria bonitas 
+          mo<lb break="no" ed="#P" n="103"/>ralis, quia in eo actu, ut sic, non est libertas.
+        </p>
+        <p xml:id="szduep-005686-d1e1047">
+          <lb ed="#P" n="104"/>17. Sanctitas Dei. —Solet autem haec 
+          bo<lb break="no" ed="#P" n="105"/>nitas, quando est excellens in hominibus vel
+          <lb ed="#P" n="106"/>angelis sanctitas appelari. Quae vox interdum
+          <lb ed="#P" n="107"/>in nobis significat ipsam virtutem religionis, ut
+          <lb ed="#P" n="108"/>vult D. Thomas 2. 2, q. 81, art. 1. Hoc autem
+          <lb ed="#P" n="109"/>modo non potest Deo proprie convenire, quia
+          <lb ed="#P" n="110"/>Deus non habet superiorem quem colat, vel
+          <pb ed="#P" n="26"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cui adhaereat, ut ultimo fini. Tamen hac 
+          im<lb break="no" ed="#P" n="2"/>perfectio non est de ratione sanctitatis, ut sic,
+          <lb ed="#P" n="3"/>sed significat perfectam munditiam, cum firma
+          <lb ed="#P" n="4"/>adhaesione ad summum bonum. Hoc autem
+          <lb ed="#P" n="5"/>summum bonum respectu creaturarum est 
+          fi<lb break="no" ed="#P" n="6"/>nis ultimus , respectu vero Dei est ipsemet
+          <lb ed="#P" n="7"/>Deus, qui in se ipso quiescit et per se beatus
+          <lb ed="#P" n="8"/>est. et ita vere et proprie est Deus sanctus, ut
+          <lb ed="#P" n="9"/>in citatis testimoniis et passim in scriptura
+          <lb ed="#P" n="10"/>appellatur. Imo continue ab angelis 
+          procla<lb break="no" ed="#P" n="11"/>matur sanctus, sanctus, sanctus, lsai. 6. et
+          <lb ed="#P" n="12"/>per antenomasiam ipse solus dicitur sanctus.
+          <lb ed="#P" n="13"/>1. Regum. 2: Non est sanctus ut est Dominus,
+          <lb ed="#P" n="14"/>negue enim est aliud eztra te, eic. Quia nullus
+          <lb ed="#P" n="15"/>ita adhaeret suo bono per adhaesionem (ut ita
+          <lb ed="#P" n="16"/>dicam) essentialem , sicut Deus. Neque potest
+          <lb ed="#P" n="17"/>esse creatura ita munda et incapax ommnis 
+          ma<lb break="no" ed="#P" n="18"/>culae moralis, sicut ipse. Est ergo omnibus 
+          mo<lb break="no" ed="#P" n="19"/>dis bonus et sanctus.
+        </p>
+        <p xml:id="szduep-005686-d1e1110">
+          <lb ed="#P" n="20"/>18. Annotatio.—Vandem vero advertere 
+          ne<lb break="no" ed="#P" n="21"/>cesse est, hane tertiam bonitatem non esse 
+          il<lb break="no" ed="#P" n="22"/>lam quae transcendentalis est, ut per se 
+          cons<lb break="no" ed="#P" n="23"/>tat, nec esse unum peculiaare attributum Dei,
+          <lb ed="#P" n="24"/>sed comprehendere varia, scilicet, omnia illa
+          <lb ed="#P" n="25"/>quae specialem aliquam virtutem seu actum
+          <lb ed="#P" n="26"/>voluntatis divinae indicant, ut charitatem, 
+          mi<lb break="no" ed="#P" n="27"/>sericordiam, justitiam et similes, de quibus
+          <lb ed="#P" n="28"/>postea dieemus. Bonitas ergo transcendentalis
+          <lb ed="#P" n="29"/>in Deo est vel prima, vel secunda, quae a nobis
+          <lb ed="#P" n="30"/>explicatae sunt, vel utraque simul juxta 
+          va<lb break="no" ed="#P" n="31"/>rios modos explicandi bonitatem 
+          transcenden<lb break="no" ed="#P" n="32"/>talem, de quibus in disputat. 10 Metapbysieae
+          <lb ed="#P" n="33"/>diximus. Praecipue vero solet denominari Deus
+          <lb ed="#P" n="34"/>bonus ex plenitudine omnis perfectionis, et
+          <lb ed="#P" n="35"/>quatenus ex plenitudine ejus propensus est ad
+          <lb ed="#P" n="36"/>se diffundendum et communicandum alis,
+          <lb ed="#P" n="37"/>quibus bonns esse potest. Quomodo videtur de
+          <lb ed="#P" n="38"/>bonitate Dei praecipue agere Dionysius c. 4de
+          <lb ed="#P" n="39"/>Div. nom. Sic autem clarum est, bonitatem
+          <lb ed="#P" n="40"/>nihil addere essentise Dei secundum rem, sed
+          <lb ed="#P" n="41"/>solum secundum quandam connotationem et
+          <lb ed="#P" n="42"/>habitudinem rationis nostro modo concipiendi,
+          <lb ed="#P" n="43"/>non quod relatio rationis sit bonitas, sed 
+          fun<lb break="no" ed="#P" n="44"/>damentum ejus, ut dicto loco declaravi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

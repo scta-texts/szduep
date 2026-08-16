@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="287"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-073060"><!-- t2-l1c13 -->
+        <head xml:id="szduep-073060-Hd1e101">Caput 13</head>
+        <head xml:id="szduep-073060-Hd1e103" type="question-title">Quomodo divina voluntas praeparavit media, quibus electi infallibiliter salvantur</head>
+        <p xml:id="szduep-073060-d1e106">
+          <lb ed="#P" n="39"/>CAPUT XII.
+          <lb ed="#P" n="40"/>QUOMODO DIVINA VOLUNTAS PRAEPARAVIT MEDIA,
+          <lb ed="#P" n="41"/>QUIBUS ELECTI INFALLIBILITER SALVANTUR.
+        </p>
+        <p xml:id="szduep-073060-d1e115">
+          <lb ed="#P" n="42"/>1. Duplex genus mediorum, que DEUS
+          <lb ed="#P" n="43"/>praeparat electis. — Media communia sunt
+          <lb ed="#P" n="44"/>priora et primo definita. — Diximus de 
+          volun<lb break="no" ed="#P" n="45"/>tate divina, quatenus versatur circa finem 
+          prae<lb break="no" ed="#P" n="46"/>destinationis : nunc breviter explicandum est,
+          <lb ed="#P" n="47"/>quo modo, seu quibus actibus disponat viam
+          <lb ed="#P" n="48"/>et media, quibus in illum terminum 
+          infallibi<lb break="no" ed="#P" n="49"/>dHiter tenditur. In quo primum distinguere 
+          pos<lb break="no" ed="#P" n="50"/>sumus duplicia media hujus divinae 
+          providen<lb break="no" ed="#P" n="51"/>tiae. Quaedam sunt communia, praeparata pro
+          <lb ed="#P" n="52"/>tota communitate. Hujusmodi censeri possunt
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>in angelis omnes gratiae et auxilia illis data in
+          <lb ed="#P" n="54"/>instanti suae creationis, per quae (juxta 
+          proba<lb break="no" ed="#P" n="55"/>hilem sententiam) ita praeventi sunt, ut pro
+          <lb ed="#P" n="56"/>illo instanti omnino non peccarent, atque ita
+          <lb ed="#P" n="57"/>excitati, ut infallibiliter converterentur in
+          <lb ed="#P" n="58"/>Deum et se ad gratiam disponerent, 
+          sanctifi<lb break="no" ed="#P" n="59"/>carentur et primam gloriam mererentur. In
+          <lb ed="#P" n="60"/>hominibus vero sunt in lege gratiae talia media,
+          <lb ed="#P" n="61"/>baptismus et alia Sacramenta, praedicatio 
+          Evan<lb break="no" ed="#P" n="62"/>gelii cum praeparatione divini auxilii interni
+          <lb ed="#P" n="63"/>et necessarii ad fidem obtinendam. Atque haec
+          <lb ed="#P" n="64"/>et similia media dici possunt primo definita et
+          <lb ed="#P" n="65"/>decreta pro singulis aetatibus, quia haec, quae
+          <lb ed="#P" n="66"/>universalia sunt, quodam modo sunt priora et
+          <lb ed="#P" n="67"/>quando finis intenditur communitati, primo
+          <lb ed="#P" n="68"/>videntur occurrere media, quae pro tota 
+          com<lb break="no" ed="#P" n="69"/>munitate providentur. Et praeterea, haec 
+          com<lb break="no" ed="#P" n="70"/>munia quodam modo includuntur in 
+          particu<lb break="no" ed="#P" n="71"/>laribus mediis, nam regulariter justificationes
+          <lb ed="#P" n="72"/>fiunt per applicationem mediorum 
+          commu<lb break="no" ed="#P" n="73"/>nium ad particulares personas. Denique (ut
+          <lb ed="#P" n="74"/>hoc obiter advertam) in hoc ordine mediorum
+          <lb ed="#P" n="75"/>constitui potest originalis justitia, data toti 
+          hu<lb break="no" ed="#P" n="76"/>manae naturae in primo parente ante lapsum:
+          <lb ed="#P" n="77"/>nam per illam coepit Deus disponere salutem
+          <lb ed="#P" n="78"/>electorum, quanto in ipso erat.
+        </p>
+        <p xml:id="szduep-073060-d1e200">
+          <lb ed="#P" n="79"/>2. Objectio. — Solutio. — Dices, haec et 
+          si<lb break="no" ed="#P" n="80"/>milia media potius pertinere ad generalem
+          <lb ed="#P" n="81"/>providentiam gratiae, quam ad 
+          praedestinatio<lb break="no" ed="#P" n="82"/>nem, quia non fundatur peculiari electione 
+          ef<lb break="no" ed="#P" n="83"/>ficaci aliquorum hominum, sed in generali
+          <lb ed="#P" n="84"/>voluntate salvandi omnes. Unde talia media
+          <lb ed="#P" n="85"/>omnibus communia sunt. Respondeo, haec non
+          <lb ed="#P" n="86"/>esse repugnantia, nam ita sunt aliqua propter
+          <lb ed="#P" n="87"/>praedestinatos provisa, ut alius etiam prodesse
+          <lb ed="#P" n="88"/>possint. Et ita, licet salus praedestinatorum non
+          <lb ed="#P" n="89"/>sit (ut ita dicam) finis adaquatus talium 
+          me<lb break="no" ed="#P" n="90"/>diorum, est tamen finis principalis, atque hoc
+          <lb ed="#P" n="91"/>satis est, ut inter media praedestinationis haec
+          <lb ed="#P" n="92"/>computentur et singulari modo dicantur esse
+          <lb ed="#P" n="93"/>propter electos. Sicut Paulus dicebat, se 
+          susti<lb break="no" ed="#P" n="94"/>nere labores propter electos, quamvis re ipsa
+          <lb ed="#P" n="95"/>pro omnibus laboraret : neque de his medis
+          <lb ed="#P" n="96"/>plura videntur necessaria.
+        </p>
+        <p xml:id="szduep-073060-d1e243">
+          <lb ed="#P" n="97"/>3. Media particularia queedam fiunt a solo
+          <lb ed="#P" n="98"/>Deo queedam vero cum cooperatione libera 
+          vo<lb break="no" ed="#P" n="99"/>luntatis.—Queestio est de mediis, quae fiunt cum
+          <lb ed="#P" n="100"/>cooperatione. — Rursus circa media 
+          particula<lb break="no" ed="#P" n="101"/>ria advertendum est, duos esse ordines 
+          illo<lb break="no" ed="#P" n="102"/>rum : Quaedam fiunt a solo Deo sine 
+          coopera<lb break="no" ed="#P" n="103"/>tione liberi arbitrii, ut sunt prima vocatio et
+          <lb ed="#P" n="104"/>alia auxilia praevenientia, quae Deus 
+          homini<lb break="no" ed="#P" n="105"/>bus confert, absque ullo merito, vel 
+          disposi<lb break="no" ed="#P" n="106"/>tione illorum. Et ad hunc ordinem pertinent
+          <lb ed="#P" n="107"/>quidam effectus singularis providentie Dei
+          <pb ed="#P" n="288"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>circa suos electos, ut sunt, auferre aliquam 
+          oc<lb break="no" ed="#P" n="2"/>casionem peccandi, vel offerre aliquam bene
+          <lb ed="#P" n="3"/>merendi, etc. Et de toto hoc ordine mediorum
+          <lb ed="#P" n="4"/>nulla est difficultas, quin potuerit Deus illa
+          <lb ed="#P" n="5"/>praeparare sua gratuita voluntate efficaci : quo
+          <lb ed="#P" n="6"/>modo autem et quo ordine id praestiterit, 
+          pa<lb break="no" ed="#P" n="7"/>tebit ex dicendis. Alius est igitur ordo 
+          parti<lb break="no" ed="#P" n="8"/>cularium mediorum, quae includunt liberam
+          <lb ed="#P" n="9"/>cooperationem voluntatis, ut sunt actus 
+          hu<lb break="no" ed="#P" n="10"/>mani supernaturales, sub quibus comprehendo
+          <lb ed="#P" n="11"/>omnes effectus, quae ab illis pendent, ut est
+          <lb ed="#P" n="12"/>remissio peccati in adulto et similia. Et de his
+          <lb ed="#P" n="13"/>est magna controversia inter theologos, quo
+          <lb ed="#P" n="14"/>modo per praedestinationem praeparentur.
+        </p>
+        <p xml:id="szduep-073060-d1e304">
+          <lb ed="#P" n="15"/>4. Prima opinio. — Fundamentum lnjus
+          <lb ed="#P" n="16"/>sententia. — Prima sententia est, ex vi divinae
+          <lb ed="#P" n="17"/>voluntatis disponentis media ante 
+          praescien<lb break="no" ed="#P" n="18"/>tiam eorum, ut absolute futurorum, solum
+          <lb ed="#P" n="19"/>praeparari haec media confusa quadam 
+          ratio<lb break="no" ed="#P" n="20"/>ne et sola voluntate inefficaci, absque 
+          praefini<lb break="no" ed="#P" n="21"/>tione talium actuum in particulari. Quam 
+          sen<lb break="no" ed="#P" n="22"/>tentiam indicasse videtur D. Thomam, q. 6,de
+          <lb ed="#P" n="23"/>Verit., art. 3. Dicit enim certitudinem 
+          praedes<lb break="no" ed="#P" n="24"/>tinationis in hoc consistere, quod Deus tot 
+          prae<lb break="no" ed="#P" n="25"/>parat adminicula praedestinato, ut vel non 
+          ca<lb break="no" ed="#P" n="26"/>dat : vel si ceciderit, resurgat : non ergo 
+          prae<lb break="no" ed="#P" n="27"/>finit Deus certum medium, sed unum, vel
+          <lb ed="#P" n="28"/>aliud, ut tandem aliquod habeat effectum. 
+          Hu<lb break="no" ed="#P" n="29"/>jus autem sententiae potissimum motivum esse
+          <lb ed="#P" n="30"/>sidetur, ut hoc modo possit conciliari libertas
+          <lb ed="#P" n="31"/>cum preaedestinatione. Potestque hoc 
+          experien<lb break="no" ed="#P" n="32"/>tia confirmari, quia non omnis vocatio, aut
+          <lb ed="#P" n="33"/>gratia praeveniens, data praedestinato, habet
+          <lb ed="#P" n="34"/>in illo effectum : ergo non procedit ex 
+          inten<lb break="no" ed="#P" n="35"/>Uone efficaci conversionis, seu consensus ejus.
+        </p>
+        <p xml:id="szduep-073060-d1e352">
+          <lb ed="#P" n="36"/>5. Rejicitur prima opinio. — Haec vero 
+          sen<lb break="no" ed="#P" n="37"/>tentia supra rejecta est. Quia imprimis 
+          vide<lb break="no" ed="#P" n="38"/>tur procedere tollendo scientiam 
+          conditiona<lb break="no" ed="#P" n="39"/>tam, qua Deus ante voluntatem dandi 
+          voca<lb break="no" ed="#P" n="40"/>tionem praenovit, an illa futura esset congrua,
+          <lb ed="#P" n="41"/>nec ne, id est an voluntas hominis sit illi 
+          con<lb break="no" ed="#P" n="42"/>sensura, si ei detur : nam si haec scientia 
+          sup<lb break="no" ed="#P" n="43"/>ponatur, ut supponi debet frustra tribuitur Deo
+          <lb ed="#P" n="44"/>ille modus providendi media confuso modo
+          <lb ed="#P" n="45"/>et sub illa distinctione, ut si unum non 
+          ha<lb break="no" ed="#P" n="46"/>buerit effectum, applicetur aliud. Non enim
+          <lb ed="#P" n="47"/>ita operatur, nisi qui ignorat efficaciam primi
+          <lb ed="#P" n="48"/>medii : propter quod etiam (ut supra dixi) hic
+          <lb ed="#P" n="49"/>modus providentiae non est consentaneus 
+          di<lb break="no" ed="#P" n="50"/>vinae perfectioni, ad quam spectat, ut ex certa
+          <lb ed="#P" n="51"/>scientia, distincte et in particulari omnia 
+          dis<lb break="no" ed="#P" n="52"/>ponat, juxta uniuscujusque rei dignitatem et
+          <lb ed="#P" n="53"/>capacitatem.
+        </p>
+        <p xml:id="szduep-073060-d1e394">
+          <lb ed="#P" n="54"/>6. Respondetur ad fundamentum opinionis.
+          <lb ed="#P" n="55"/>— Neque etiam est hoc necessarium ad liber-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem, ut in sequentibus late dicendum est
+          <lb ed="#P" n="57"/>in superioribus est tactum : ubi etiam citatu
+          <lb ed="#P" n="58"/>locum D. Thomae exposuimus. Et aperte
+          <lb ed="#P" n="59"/>sensit idem D. Thomas 1, 2, q. 112, art.
+          <lb ed="#P" n="60"/>dicens : S ex intentione Dei est, ut homo vo
+          <lb ed="#P" n="61"/>tus consentiat , infallibiliter esse consensur
+          <lb ed="#P" n="62"/>quamis libere. Denique, in negotio Ange
+          <lb ed="#P" n="63"/>rum aperte constat, non habere locum i
+          <lb ed="#P" n="64"/>providentiae modum : nam in secundo instant
+          <lb ed="#P" n="65"/>in quo via omnium Angelorum terminata est,
+          <lb ed="#P" n="66"/>ita fuit praeparata voluntas electorum, ut 
+          om<lb break="no" ed="#P" n="67"/>nino non caderent : nam si caderent , non 
+          re<lb break="no" ed="#P" n="68"/>ritum necessarium ad illum gradum gloriae,
+          <lb ed="#P" n="69"/>ad quem electi erant, comparandum. 1
+        </p>
+        <p xml:id="szduep-073060-d1e433">
+          <lb ed="#P" n="70"/>7. Secunda opinio. — Est ergo secunda 
+          sen<lb break="no" ed="#P" n="71"/>tentia dicens, Deum sua voluntate absoluta
+          <lb ed="#P" n="72"/>disponere media et certa, quibus unusquisque
+          <lb ed="#P" n="73"/>electus infallibiliter consequatur salutem et in
+          <lb ed="#P" n="74"/>particulari, id est, designando talia media et
+          <lb ed="#P" n="75"/>tales actus. Addit vero haec opinio, omnino 
+          si<lb break="no" ed="#P" n="76"/>mul fuisse praeordinata : ita ut nec secundum
+          <lb ed="#P" n="77"/>rationem sit unum prius definitum a Deo quam
+          <lb ed="#P" n="78"/>aliud , praesertim quando media pendent ex
+          <lb ed="#P" n="79"/>libera voluntate nostra.
+        </p>
+        <p xml:id="szduep-073060-d1e457">
+          <lb ed="#P" n="80"/>Tertia opinio non satisfacit difficultati el
+          <lb ed="#P" n="81"/>modo loquendi Augustini. — Media heec 
+          ordi<lb break="no" ed="#P" n="82"/>nem sercant in propinquitate ad gloriam. —
+          <lb ed="#P" n="83"/>Quae opinio similis est illi, quam primo loco
+          <lb ed="#P" n="84"/>retuli supra capite octavo, idemque de illa est
+          <lb ed="#P" n="85"/>sentiendum, fugit enim difficultatem, non 
+          de<lb break="no" ed="#P" n="86"/>clarat. Repugnatque modo loquendi Augustini
+          <lb ed="#P" n="87"/>et fere omnium dicentium, Deum vocare 
+          ho<lb break="no" ed="#P" n="88"/>minem ut credat; et quia vult dare fidem,
+          <lb ed="#P" n="89"/>velle etiam dare talem vocationem , ut 
+          signa<lb break="no" ed="#P" n="90"/>tim videri potest apud Augustinum, de Bono
+          <lb ed="#P" n="91"/>perseveran., cap. 14. Ratio etiam manifesta.
+          <lb ed="#P" n="92"/>est, quia haec media non sunt aeque propinqua
+          <lb ed="#P" n="93"/>fini ultimo, sed inter se ordinem servant, quem
+          <lb ed="#P" n="94"/>insinuavit Paulus ad Romanos 8. Nam 
+          justifi<lb break="no" ed="#P" n="95"/>catio propinquior est glorificationi, quam 
+          vo<lb break="no" ed="#P" n="96"/>catio et vocatio justificationi : et similiter 
+          qui<lb break="no" ed="#P" n="97"/>libet actus libet, qui est dispositio ad gratiam,
+          <lb ed="#P" n="98"/>propinquior illi est, quam excitatio, qua homo
+          <lb ed="#P" n="99"/>vocatur ad actum liberum : ergo sicut ad haec
+          <lb ed="#P" n="100"/>omnia media praecedit intentio ultimi termini,
+          <lb ed="#P" n="101"/>ita inter ipsa media praecedit intentio ultimi
+          <lb ed="#P" n="102"/>termini, ita inter ipsa media praecedit 
+          volun<lb break="no" ed="#P" n="103"/>tas illius quod propinquius est fini : nam
+          <lb ed="#P" n="104"/>propter illud cligitur aliud medium, quod 
+          re<lb break="no" ed="#P" n="105"/>motius est; et ideo posterius in ordine 
+          inten<lb break="no" ed="#P" n="106"/>tionis, licet fit prius in ordine executionis.
+          <lb ed="#P" n="107"/>Quod breviter declaratur in negotio bonorum
+          <lb ed="#P" n="108"/>angelorum : nam quia electi fuerunt ad 
+          tan<lb break="no" ed="#P" n="109"/>tam gloriam, ideo etiam ordinati sunt , ut in 
+          <pb ed="#P" n="289"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tota sua via ad tantam gratiam pervenirent, et
+          <lb ed="#P" n="2"/>hac de causa voluit Deus, ut talem, vel tales
+          <lb ed="#P" n="3"/>actus meritorios haberent, et propter illos 
+          ta<lb break="no" ed="#P" n="4"/>lem modum illuminationis et inspirationis eis
+          <lb ed="#P" n="5"/>praeparavit, nam illi etiam vocati sunt 
+          vocatio<lb break="no" ed="#P" n="6"/>ne congrua, quae est ex proposito, ut 
+          Augusti<lb break="no" ed="#P" n="7"/>nus loquitur. Denique non potest alio modo
+          <lb ed="#P" n="8"/>intelligi, gratiam efficacem, ut efficax est, 
+          in<lb break="no" ed="#P" n="9"/>tra latitudinem praevenientis gratiae, esse a
+          <lb ed="#P" n="10"/>Deo per se intentam, sed solum dici efficacem
+          <lb ed="#P" n="11"/>ex effectu, scilicet, quia factum est, quod 
+          ta<lb break="no" ed="#P" n="12"/>men falsum esse nunc suppono.
+        </p>
+        <p xml:id="szduep-073060-d1e556">
+          <lb ed="#P" n="13"/>8. Tertia opinio. — Propter hoc est tertia
+          <lb ed="#P" n="14"/>sententia, quia licet cum praecedentibus 
+          con<lb break="no" ed="#P" n="15"/>veniat in hoc, quod Deus non praeparat actus
+          <lb ed="#P" n="16"/>liberos absoluta voluntate , donec illos 
+          praevi<lb break="no" ed="#P" n="17"/>deat absolute futuros; tamen ad vitanda 
+          ali<lb break="no" ed="#P" n="18"/>qua incommoda ex dictis, praesertim ultimum,
+          <lb ed="#P" n="19"/>distinguit in divina voluntate varios actus
+          <lb ed="#P" n="20"/>circa haec media. Unde auctores hujus 
+          opinio<lb break="no" ed="#P" n="21"/>nis dicunt primo, habere Deum quamdam 
+          vo<lb break="no" ed="#P" n="22"/>luntatem absolutam et universalem dandi huic
+          <lb ed="#P" n="23"/>homini omnia auxilia praevenientia illi 
+          neces<lb break="no" ed="#P" n="24"/>saria et accommodata, ut per illa infallibiliter
+          <lb ed="#P" n="25"/>consequatur gloriam in tali discursu vitae, et
+          <lb ed="#P" n="26"/>hanc voluntatem dicunt, versari circa gratiam
+          <lb ed="#P" n="27"/>efficacem, ut efficax est, in ratione 
+          praevenien<lb break="no" ed="#P" n="28"/>tis. Postea vere dicunt, disposuisse Deum in
+          <lb ed="#P" n="29"/>particulari talia auxilia in ordine ad tales
+          <lb ed="#P" n="30"/>actus liberos, ita tamen, ut licet praecedat
+          <lb ed="#P" n="31"/>intentio talium actuum, illa non sit efficax et
+          <lb ed="#P" n="32"/>absoluta , sed tantum per simplicem 
+          compla<lb break="no" ed="#P" n="33"/>centiam, includentem virtualem conditionem.
+          <lb ed="#P" n="34"/>Et hoc ultimum solum asseritur, ut libertas
+          <lb ed="#P" n="35"/>hominis conservetur illaesa.
+        </p>
+        <p xml:id="szduep-073060-d1e608">
+          <lb ed="#P" n="36"/>9. Refellitur Voluntas Dei absoluta circa ac
+          <lb ed="#P" n="37"/>tum in particulari non repugnat libertati. —
+          <lb ed="#P" n="38"/>Destructo autem hoc fundamento, fuit facile
+          <lb ed="#P" n="39"/>tota haec sententia. Satis autem (ut existimo)
+          <lb ed="#P" n="40"/>in superioribus ostensum est, intentionem Dei
+          <lb ed="#P" n="41"/>absolutam circa actum liberum (etiam in 
+          par<lb break="no" ed="#P" n="42"/>ticulari et cum omnibus circumstantiis ejus)
+          <lb ed="#P" n="43"/>non tollere libertatem, quia illa intentio per
+          <lb ed="#P" n="44"/>se non immutat, nec determinat physice 
+          vo<lb break="no" ed="#P" n="45"/>luntatem humanam, sed applicat media, quae
+          <lb ed="#P" n="46"/>Deus novit esse congrua libertati, ut in 
+          se<lb break="no" ed="#P" n="47"/>quentibus latius attingendum est. Ergo si 
+          ve<lb break="no" ed="#P" n="48"/>rum est (ut revera est) secundum rationem
+          <lb ed="#P" n="49"/>praecedere in voluntate divina intentionem
+          <lb ed="#P" n="50"/>talis actus, non est, cur sit inefficax, maxime
+          <lb ed="#P" n="51"/>cum ex illa intentione proxime et infallibihter
+          <lb ed="#P" n="52"/>oriatur applicatio vocationis seu auxilii 
+          effica<lb break="no" ed="#P" n="53"/>cis, ut efficax est. Hoc autem posito 
+          funda<lb break="no" ed="#P" n="54"/>mento, primus actus voluntatis, quem haec 
+          sen<lb break="no" ed="#P" n="55"/>tentia fingit, superfluus est: quia si intelligatur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illa volitio esse de aliquo objecto universali et
+          <lb ed="#P" n="57"/>confuso, non est conveniens Deo, qui (ut dixi)
+          <lb ed="#P" n="58"/>distincte omnia novit et disponit: neque est ad
+          <lb ed="#P" n="59"/>aliquem finem necessarius: cum suffticiat 
+          vo<lb break="no" ed="#P" n="60"/>luntas circa singula auxilia. Si vero talis actus
+          <lb ed="#P" n="61"/>intelligitur versari circa collectionem seu 
+          mul<lb break="no" ed="#P" n="62"/>titudinem talium auxiliorum in particulari, ille
+          <lb ed="#P" n="63"/>actus, licet secundum rem unus sit, tamen 
+          dis<lb break="no" ed="#P" n="64"/>tinguitur ratione ex diversitate objectorum, ac
+          <lb ed="#P" n="65"/>proinde non est distinctus ab illis voluntatibus,
+          <lb ed="#P" n="66"/>quibus dicitur Deus in particulari disponere et
+          <lb ed="#P" n="67"/>velle dare haec auxilia. Unde necesse est, ut
+          <lb ed="#P" n="68"/>etiam talis actus, quatenus circa praevenientia
+          <lb ed="#P" n="69"/>auxilia versatur, supponat intentionem illorum
+          <lb ed="#P" n="70"/>actuum voluntatis humanae, propter quos illa
+          <lb ed="#P" n="71"/>auxilia praeparantur. Accedit denique, quod
+          <lb ed="#P" n="72"/>nulla est ratio ordinis inter illum actum 
+          uni<lb break="no" ed="#P" n="73"/>versalem et alios particulares, cum objecta 
+          eo<lb break="no" ed="#P" n="74"/>rum inter se non comparentur ut fines et 
+          me<lb break="no" ed="#P" n="75"/>dium, neque alium ordinem causalitatis 
+          ha<lb break="no" ed="#P" n="76"/>beant.
+        </p>
+        <p xml:id="szduep-073060-d1e702">
+          <lb ed="#P" n="77"/>10. Conclusio. Deus preparat etiam media
+          <lb ed="#P" n="78"/>quae a libertate pendent absoluta voluntate. —
+          <lb ed="#P" n="79"/>Dicendum ergo est, Deum per absolutum 
+          ac<lb break="no" ed="#P" n="80"/>tum voluntatis suae praeparare praedestinatis
+          <lb ed="#P" n="81"/>etiam illa media, quae ab ipsis libere 
+          exercen<lb break="no" ed="#P" n="82"/>da sunt, vel comparanda. Haec est sententia
+          <lb ed="#P" n="83"/>D. Augustini, libro de Praedest. Sanct., 
+          praeser<lb break="no" ed="#P" n="84"/>tm cap. 10, et de Bono perseverantise, cap. 9 et
+          <lb ed="#P" n="85"/>seq., et sine dubio est D. Thoma, 1, 2, ubi
+          <lb ed="#P" n="86"/>supra, et 1 part., quaest. 23. Eamque late 
+          pro<lb break="no" ed="#P" n="87"/>bavi, lib. 3de Auxiliis, cap.17. Summa omnium
+          <lb ed="#P" n="88"/>est, quia hic modus providentiae non repugnat
+          <lb ed="#P" n="89"/>libertati, ut patet ex dictis. Estque valde 
+          con<lb break="no" ed="#P" n="90"/>sentaneus perfectioni divina providentiae et
+          <lb ed="#P" n="91"/>speciali amori, quo prosequitur praedestinatos:
+          <lb ed="#P" n="92"/>ergo non est, cur negetur. Deinde, quia qui
+          <lb ed="#P" n="93"/>intendit efficaciter aliquem finem, prius 
+          se<lb break="no" ed="#P" n="94"/>cundum rationem intendit medium 
+          propin<lb break="no" ed="#P" n="95"/>quius illi fini, quam remotius : ostendimus
+          <lb ed="#P" n="96"/>autem, DEUM efficaciter intendere 
+          praedesti<lb break="no" ed="#P" n="97"/>natis finem, ultimum gloriae, cui fini 
+          propin<lb break="no" ed="#P" n="98"/>quiora sunt media, quae humana libertate fiunt
+          <lb ed="#P" n="99"/>cum divina gratia, qualia sunt actus meritorii
+          <lb ed="#P" n="100"/>et dispositiones proximae ad justitiam, quam
+          <lb ed="#P" n="101"/>illa, quibus solus Deus hominem excitat. 
+          Er<lb break="no" ed="#P" n="102"/>go illa media vult Deus efficaciter 
+          praedesti<lb break="no" ed="#P" n="103"/>natis prius secundum rationem, quam velit
+          <lb ed="#P" n="104"/>dare illis vocationem, vel alia auxilia 
+          antece<lb break="no" ed="#P" n="105"/>dentia, quae remotiora sunt. Unde confirmatur
+          <lb ed="#P" n="106"/>tandem, quia ita comparatur actus charitatis
+          <lb ed="#P" n="107"/>ad auxilium excitans, quo Deus efficaciter 
+          mo<lb break="no" ed="#P" n="108"/>vet ad talem actum, sicut comparatur 
+          prae<lb break="no" ed="#P" n="109"/>mium gloriae ad ipsum actum charitatis : ergo
+          <lb ed="#P" n="110"/>sicut praecedit intentio gloriae ad praescientiam
+          <pb ed="#P" n="290"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>actus charitatis, vel meritorii : ita praecedit
+          <lb ed="#P" n="2"/>in Deo intentio dandi homini actum charitatis
+          <lb ed="#P" n="3"/>ad voluntatem, seu praescientiam absolutam
+          <lb ed="#P" n="4"/>vocationis congruae, quae propter talem actum
+          <lb ed="#P" n="5"/>datur. Neque contra hoc occurrit nova 
+          difficul<lb break="no" ed="#P" n="6"/>tas, cui satisfacere necesse sit. ;
+        </p>
+        <p xml:id="szduep-073060-d1e796">
+          <lb ed="#P" n="7"/>11. Actus bonos independentes a peccato Deus
+          <lb ed="#P" n="8"/>absolute vult. — Actus bonos dependentes a 
+          pec<lb break="no" ed="#P" n="9"/>cato non cult Deus absolute, nisi post 
+          scien<lb break="no" ed="#P" n="10"/>tiam peccati. —Solum adverto, inter hos actus
+          <lb ed="#P" n="11"/>liberos, quosdam esse omnino independentes
+          <lb ed="#P" n="12"/>a peccato, quia neque illud supponunt 
+          neces<lb break="no" ed="#P" n="13"/>sario, neque includunt intrinsecum 
+          respec<lb break="no" ed="#P" n="14"/>tum ad illud, ut sunt actus fidei, spei, amoris,
+          <lb ed="#P" n="15"/>etc., alios vero esse, qui necessario supponunt
+          <lb ed="#P" n="16"/>peccatum, ut est proprius actus poenitentiae.
+          <lb ed="#P" n="17"/>In prioribus ergo actibus procedit absolute et
+          <lb ed="#P" n="18"/>sine limitatione sententia posita, quia illos 
+          ac<lb break="no" ed="#P" n="19"/>tus per se primo Deus intendit, et ex se, 
+          vo<lb break="no" ed="#P" n="20"/>luntate antecedente, simulque efficaci, (juxta
+          <lb ed="#P" n="21"/>sensum Chrysostomi et Damasceni alibi 
+          decla<lb break="no" ed="#P" n="22"/>ratum) illos vult et intendit, quia sunt omnino
+          <lb ed="#P" n="23"/>boni et nullum malum supponunt. 
+          Posterio<lb break="no" ed="#P" n="24"/>res vero actus non intendit Deus voluntate 
+          ab<lb break="no" ed="#P" n="25"/>soluta, donec habeat absolutam praescientiam
+          <lb ed="#P" n="26"/>peccati futuri, quia nec formaliter, nec 
+          virtu<lb break="no" ed="#P" n="27"/>te potest Deus velle peccatum: vellet autem
+          <lb ed="#P" n="28"/>(saltem virtualiter) si absolute praefiniret 
+          ac<lb break="no" ed="#P" n="29"/>tum intrinsece respicientem peccatum, non
+          <lb ed="#P" n="30"/>supposito ipso peccato, ut latius declarabo 
+          in<lb break="no" ed="#P" n="31"/>fra, de effectibus praedestinationis tractando.
+        </p>
+        <p xml:id="szduep-073060-d1e853">
+          <lb ed="#P" n="32"/>12. Actus contritionis prius ratione 
+          preft<lb break="no" ed="#P" n="33"/>nitur, quam medunn ad illum. — Quamwis 
+          au<lb break="no" ed="#P" n="34"/>tem hoc ita sit, nihilominus etiam in his 
+          ac<lb break="no" ed="#P" n="35"/>tibus, seu mediis verum habet sententia 
+          posi<lb break="no" ed="#P" n="36"/>ta, servata proportione. Nam licet Deus non
+          <lb ed="#P" n="37"/>velit absolute actum contritionis, verbi gratia,
+          <lb ed="#P" n="38"/>donec videat peccatum, propter quod 
+          tollen<lb break="no" ed="#P" n="39"/>dum, est necessarius; nihilominus prius 
+          se<lb break="no" ed="#P" n="40"/>cundum rationem praefinit, et intendit 
+          praedes<lb break="no" ed="#P" n="41"/>tinato actuns contritionis, quam velit illi dare
+          <lb ed="#P" n="42"/>auxilium efficax, vel aliud medium per 
+          seor<lb break="no" ed="#P" n="43"/>dinatum ad illum actum. Nam peccatum non
+          <lb ed="#P" n="44"/>est medium ordinatum ad contritionem, sed
+          <lb ed="#P" n="45"/>est materia et occasio inducens necessitatem
+          <lb ed="#P" n="46"/>ejus: media autem ad contritionem sunt illa,
+          <lb ed="#P" n="47"/>quae per se ordinantur d efficiendam 
+          contri<lb break="no" ed="#P" n="48"/>uonem. Et ideo supponitur quidem 
+          prasescien<lb break="no" ed="#P" n="49"/>Ua peccati, et ante illam praecedit voluntas
+          <lb ed="#P" n="50"/>permittendi illud, non vero supponitur 
+          volun<lb break="no" ed="#P" n="51"/>tas talium mediorum, sed haec , nostro modo
+          <lb ed="#P" n="52"/>intelligendi , consequitur ex intentione talis
+          <lb ed="#P" n="53"/>finis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

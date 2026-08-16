@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="802"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-202524"><!-- t3-l12c4 -->
+        <head xml:id="szduep-202524-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-202524-Hd1e103" type="question-title">An quaedam vissio divinae personae sit invisibilis, et alia visibilis, et de utriusque ratione et modo</head>
+        <p xml:id="szduep-202524-d1e106">
+          <lb ed="#P" n="22"/>CAPUT IV
+          <lb ed="#P" n="23"/>AN QUAEDAM VISSIO DIVINAE PERSONAE SIT INVISIBILIS,
+          <lb ed="#P" n="24"/>ET ALIA VISIBILIS, ET DE UTRIUSQUE RATIONE ET
+          <lb ed="#P" n="25"/>MODO
+        </p>
+        <p xml:id="szduep-202524-d1e117">
+          <lb ed="#P" n="26"/>1. Triplici modo dicitur missio divina. —
+          <lb ed="#P" n="27"/>Tribus modis potest dici haec divina missio;
+          <lb ed="#P" n="28"/>primo ex parte personae missae, et 
+          consequen<lb break="no" ed="#P" n="29"/>ter etiam mittentis, et sic quaedam est missio
+          <lb ed="#P" n="30"/>Filii, alia Spiritus sancti, illa est a solo Patre,
+          <lb ed="#P" n="31"/>haec a Patre et Filio, quae satis patent ex 
+          dic<lb break="no" ed="#P" n="32"/>tis. Quomodo autem vel distinguantur, vel 
+          con<lb break="no" ed="#P" n="33"/>jungantur hae missiones, ex dicendis patebit.
+        </p>
+        <p xml:id="szduep-202524-d1e137">
+          <lb ed="#P" n="34"/>2. Missio dividitur. — Secundo dividi 
+          po<lb break="no" ed="#P" n="35"/>test missio ex parte effectus, seu termini, ad
+          <lb ed="#P" n="36"/>quem tendit, et sic posset accipi divisio, quam
+          <lb ed="#P" n="37"/>insinuat Durandus in 1, d. 14, q. 3, ubi ait,
+          <lb ed="#P" n="38"/>missionem aliquando fieri secundum dona 
+          na<lb break="no" ed="#P" n="39"/>turae : aliquando per dona gratiae, interdum
+          <lb ed="#P" n="40"/>per dona gloriae, et primam dicit esse 
+          imper<lb break="no" ed="#P" n="41"/>fectam, secundam perfectam, tertiam 
+          perfec<lb break="no" ed="#P" n="42"/>tissimam. Verumtamen D. Thomas, Alensis,
+          <lb ed="#P" n="43"/>et caeteri scholastici cum Magistro non 
+          admit<lb break="no" ed="#P" n="44"/>tunt, missionem fieri secundum dona 
+          natura<lb break="no" ed="#P" n="45"/>lia, quia Scriptura nunquam ita loquitur, sed
+          <lb ed="#P" n="46"/>solum dicit, personam divinam mitt in ordine
+          <lb ed="#P" n="47"/>ad aliquem effectum superantem naturae 
+          ordi<lb break="no" ed="#P" n="48"/>nem et pertinentem ad ordinem gratiae, in his
+          <lb ed="#P" n="49"/>autem divinis rebus servare debemus phrasim
+          <lb ed="#P" n="50"/>Scripturae. Ratio etiam reddi potest ex D. 
+          Tho<lb break="no" ed="#P" n="51"/>ma, dicta q. 43, art. 3, et eadem 1 p., q. S,
+          <lb ed="#P" n="52"/>art. 3. Quia per dona naturae Deus tantum di-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>citur esse in rebus tribus modis : Per 
+          essen<lb break="no" ed="#P" n="54"/>tiam, presentiam et potentium : non dicitur
+          <lb ed="#P" n="55"/>autem persona mitti, nisi quando incipit esse
+          <lb ed="#P" n="56"/>noyo quodam modo, qui solum est per gratiam.
+        </p>
+        <p xml:id="szduep-202524-d1e193">
+          <lb ed="#P" n="57"/>3. Quod ita explicari potest, nam per 
+          pri<lb break="no" ed="#P" n="58"/>mam rerum creationem non dicuntur 
+          perso<lb break="no" ed="#P" n="59"/>nae proprie mitti, quamvis incipiant esse in
+          <lb ed="#P" n="60"/>rebus, quae antea non erant, quia missio 
+          pro<lb break="no" ed="#P" n="61"/>prie dicitur in ordine ad rem praeexistentem.
+          <lb ed="#P" n="62"/>Et consequenter non dicuntur etiam mitti per
+          <lb ed="#P" n="63"/>conservationem, vel gubernationem 
+          pertinen<lb break="no" ed="#P" n="64"/>tem ad ordinem naturae, quia haec sunt veluti
+          <lb ed="#P" n="65"/>debita ex vi prioris actionis, et ideo ratione
+          <lb ed="#P" n="66"/>illarum non censetur Deus existere novo modo
+          <lb ed="#P" n="67"/>in rebus. Illud ergo primum membrum a 
+          Du<lb break="no" ed="#P" n="68"/>rando positum rejiciendum est. Alia vero duo
+          <lb ed="#P" n="69"/>sub una missione per gratiam sanctificantem
+          <lb ed="#P" n="70"/>a D. Thoma comprehenduntur, nec immerito,
+          <lb ed="#P" n="71"/>quia gloria est gratia consummata. Quomodo
+          <lb ed="#P" n="72"/>autem sub hac generali ratione aliae 
+          particu<lb break="no" ed="#P" n="73"/>lares missiones comprehendantur, ex dicendis
+          <lb ed="#P" n="74"/>constabit, ubi etiam explicabitur aliud 
+          mem<lb break="no" ed="#P" n="75"/>brum, quod ibi addi posset de missione per
+          <lb ed="#P" n="76"/>gratiam unionis.
+        </p>
+        <p xml:id="szduep-202524-d1e239">
+          <lb ed="#P" n="77"/>4. Alia divisio. — Tertio ergo, ac 
+          principa<lb break="no" ed="#P" n="78"/>liter dividitur missio ex parte modi in 
+          invisi<lb break="no" ed="#P" n="79"/>bilem, et visibilem, invisibilis dicitur, quae 
+          in<lb break="no" ed="#P" n="80"/>terno et spirituali modo sit : visibilis autem
+          <lb ed="#P" n="81"/>quando ad sensibilem terminum fit, vel per
+          <lb ed="#P" n="82"/>aliquod sensibile signum manifestatur 
+          utruni<lb break="no" ed="#P" n="83"/>que autem missionis modum ex Scriptura 
+          col<lb break="no" ed="#P" n="84"/>ligimus. Nam de invisibili recte intelhgitur
+          <lb ed="#P" n="85"/>illud ad Rom. 5: Charitas Dei diffusa est in
+          <lb ed="#P" n="86"/>cordibus nostris, per Spiritum sanctum, qui
+          <lb ed="#P" n="87"/>datus est nobis. Nam cum Spiritus sanctus 
+          da<lb break="no" ed="#P" n="88"/>tur, etiam mittitur : sicut autem infusio 
+          cha<lb break="no" ed="#P" n="89"/>ritatis invisibilis est, ita etiam missio, quae
+          <lb ed="#P" n="90"/>cum illa fit. De visibili autem missione est 
+          il<lb break="no" ed="#P" n="91"/>lIud ad Galatas 4: Misit Deus Filum swuwmn
+          <lb ed="#P" n="92"/>factum ex muliere, e similia.
+        </p>
+        <p xml:id="szduep-202524-d1e276">
+          <lb ed="#P" n="93"/>5. Duplex dubium occurrit. — Ad 
+          explican<lb break="no" ed="#P" n="94"/>dam autem utriusque missionis rationem duo
+          <lb ed="#P" n="95"/>dubia prius discutienda sunt. Primum est, an
+          <lb ed="#P" n="96"/>haec duo membra sint ita inter se 
+          condistinc<lb break="no" ed="#P" n="97"/>ta, ut neutrum aliud in se includat, vel 
+          po<lb break="no" ed="#P" n="98"/>tius distinguantur tanquam includens et 
+          in<lb break="no" ed="#P" n="99"/>clusum. Quidam enim existimant, distingui
+          <lb ed="#P" n="100"/>hoc posteriori modo ; quia invisibilis missio!
+          <lb ed="#P" n="101"/>est illa, quae fit per effectus invisibiles et 
+          exte<lb break="no" ed="#P" n="102"/>rius nullo modo apparet, ut quando impletui
+          <lb ed="#P" n="103"/>illud : Qui diligit me, mandata mea servabit ev
+          <lb ed="#P" n="104"/>ad eum veniemus : nam ille adventus 
+          invisibi<lb break="no" ed="#P" n="105"/>liter omnino fit, nunquam autem veniunt 
+          per<lb break="no" ed="#P" n="106"/>sonae omnes, quin procedenses mittantur. Vi
+          <lb ed="#P" n="107"/>sibilis autem missio fit, quando interna et in-
+          <pb ed="#P" n="803"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>visibilis missio ita fit, ut per aliqua exteriora
+          <lb ed="#P" n="2"/>signa demonstretur, sicut ad Apostolos facta
+          <lb ed="#P" n="3"/>est in die Pentecostes. Ratio reddi potest, quia
+          <lb ed="#P" n="4"/>visibilis missio fit ad demonstrandam 
+          invisi<lb break="no" ed="#P" n="5"/>bilem, ut hominibus innotescat : ergo visibilis
+          <lb ed="#P" n="6"/>missio includit invisibilem et quasi 
+          componi<lb break="no" ed="#P" n="7"/>tur ex invisibil effectu, et signo visibili, sicut
+          <lb ed="#P" n="8"/>homo ex anima et corpore.
+        </p>
+        <p xml:id="szduep-202524-d1e333">
+          <lb ed="#P" n="9"/>6. Resolutio. — Effugium. — Rejicitur. —
+          <lb ed="#P" n="10"/>Dicendum vero est, has duas missiones esse
+          <lb ed="#P" n="11"/>condistinctas et per se loquendo necessarium
+          <lb ed="#P" n="12"/>non esse, ut simul invisibilis missio fiat, 
+          quo<lb break="no" ed="#P" n="13"/>ues fit visibilis. Probatur inductione prius in
+          <lb ed="#P" n="14"/>praecipua missione visibili Verbi divini, deinde
+          <lb ed="#P" n="15"/>in missionibus Spiritus sancti. Primum igitur
+          <lb ed="#P" n="16"/>in Filii Dei Incarnatione visibilis ejus missio
+          <lb ed="#P" n="17"/>facta est sine ulla invisibili. Respondent aliqui,
+          <lb ed="#P" n="18"/>tunc in eodem momento factam esse 
+          invisibi<lb break="no" ed="#P" n="19"/>lem missionem ad Virginem, per insignia 
+          Spi<lb break="no" ed="#P" n="20"/>ritus sancti dona. At hoc extrinsecum est ad
+          <lb ed="#P" n="21"/>ilam missionem, nam illa missio invisibilis
+          <lb ed="#P" n="22"/>ad Virginem, nec fuit significata per 
+          visibi<lb break="no" ed="#P" n="23"/>lem Verbi missionem, nec fuit terminus illius.
+          <lb ed="#P" n="24"/>Facilius dici posset, in illa missione visibili 
+          di<lb break="no" ed="#P" n="25"/>vini Verbi missum esse invisibiliter Spiritum
+          <lb ed="#P" n="26"/>sanctum ad animam Christi per gratiam 
+          sanc<lb break="no" ed="#P" n="27"/>üficantem. Sed haec missio invisibilis non 
+          ma<lb break="no" ed="#P" n="28"/>nifestatur per se per illam visibilem, neque
+          <lb ed="#P" n="29"/>includitur in illa, tanquam per se et 
+          intrin<lb break="no" ed="#P" n="30"/>sece componens illam. Et licet ad illam 
+          con<lb break="no" ed="#P" n="31"/>sequatur aliquo modo, inde non fit, non esse
+          <lb ed="#P" n="32"/>condistinctas modo declarato.
+        </p>
+        <p xml:id="szduep-202524-d1e388">
+          <lb ed="#P" n="33"/>7. Alius modus respondendi. — Aliter vero
+          <lb ed="#P" n="34"/>dici posset, ipsam Verbi conjunctionem ad
+          <lb ed="#P" n="35"/>humanitatem intrinsece esse invisibilem 
+          mis<lb break="no" ed="#P" n="36"/>sionem, quatenus est illius humanitatis 
+          altis<lb break="no" ed="#P" n="37"/>sima sanctificatio. Sed oportet advertere illam
+          <lb ed="#P" n="38"/>sanctificationem CHRISTI hominis per 
+          unio<lb break="no" ed="#P" n="39"/>nem humanitatis ad Verbum et assumptionem
+          <lb ed="#P" n="40"/>hypostaticam ejusdem humanitatis, non 
+          cons<lb break="no" ed="#P" n="41"/>tituere duas missiones, unam invisibilem, aliam
+          <lb ed="#P" n="42"/>visibilem ejusdem Verbi. Quia illi non sunt
+          <lb ed="#P" n="43"/>duo modi existendi Verbi in humanitate, sed
+          <lb ed="#P" n="44"/>est unica simplex unio, quae ratione a nobis
+          <lb ed="#P" n="45"/>distinguitur, quatenus est suppositatio et 
+          qua<lb break="no" ed="#P" n="46"/>tenus est sanctificatio : quae distinctio non 
+          sa<lb break="no" ed="#P" n="47"/>tis est ad multiplicandam missionem, quae 
+          so<lb break="no" ed="#P" n="48"/>Ium attenditur secundum novum modum 
+          exis<lb break="no" ed="#P" n="49"/>tendi Dei in creatura. In quo etiam 
+          conside<lb break="no" ed="#P" n="50"/>randum est, quod illa missio non dicitur 
+          visi<lb break="no" ed="#P" n="51"/>bilis, quia versetur circa signum visibile 
+          re<lb break="no" ed="#P" n="52"/>praesentans aliquid invisibile. Actio enim, per
+          <lb ed="#P" n="53"/>quam sit illa missio, non est tantum 
+          reprae<lb break="no" ed="#P" n="54"/>sentativa (ut sic dicam) nec etiam est 
+          visibi<lb break="no" ed="#P" n="55"/>lis in se, vel in formalissimo termino suo (ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ita loquar) sed est unitiva et sanctificativa per
+          <lb ed="#P" n="57"/>actionem valde internam, spiritualem et 
+          di<lb break="no" ed="#P" n="58"/>vinam. Quia vero terminatur ad personam
+          <lb ed="#P" n="59"/>compositam visibilem ratione assumptae 
+          na<lb break="no" ed="#P" n="60"/>turae, licet verbum ad eam missum sit 
+          invisi<lb break="no" ed="#P" n="61"/>bile, ideo illa missio visibilis est. Unde per
+          <lb ed="#P" n="62"/>illam non tantum anima, sed etiam caro illa
+          <lb ed="#P" n="63"/>visibilis sanctificata est, licet sanctificatio 
+          fue<lb break="no" ed="#P" n="64"/>rit invisibilis.
+        </p>
+        <p xml:id="szduep-202524-d1e462">
+          <lb ed="#P" n="65"/>8. Refellitur. — Alio tandem modo potest
+          <lb ed="#P" n="66"/>cogitari, quod ibi fuerit conjuncta missio 
+          invi<lb break="no" ed="#P" n="67"/>sibilis cum visibili, quatenus tota Trinitas
+          <lb ed="#P" n="68"/>unionem illam operata est. Nam licet sola 
+          per<lb break="no" ed="#P" n="69"/>sona Verbi illam terminaverit, et ideo solum
+          <lb ed="#P" n="70"/>Verbum caro factum sit : tamen omnes 
+          per<lb break="no" ed="#P" n="71"/>sonae illam effecerunt, et ea ratione peculiari
+          <lb ed="#P" n="72"/>modo esse caeperunt in illa humanitate. Quia
+          <lb ed="#P" n="73"/>Deus peculiari modo est, ubi peculiariter 
+          ope<lb break="no" ed="#P" n="74"/>ratur. Unde ad Beatam Virginem dictum est :
+          <lb ed="#P" n="75"/>Spiritus sanctus superveniet in te, etc. Recte
+          <lb ed="#P" n="76"/>ergo dicitur missus ad humanitatem Verbo
+          <lb ed="#P" n="77"/>uniendam, quae missio invisibilis dici potest.
+          <lb ed="#P" n="78"/>Et cum Spiritu sancto venit Pater, licet non
+          <lb ed="#P" n="79"/>missus, venit etiam Filius a Patre missus, non
+          <lb ed="#P" n="80"/>solum ut terminus, sed etiam ut effector illius
+          <lb ed="#P" n="81"/>unionis. Sed hoc etiam solum declarat, 
+          inve<lb break="no" ed="#P" n="82"/>niri ibi duplicem rationem missionis, scilicet,
+          <lb ed="#P" n="83"/>termmnationem et efficientiam, unam propriam
+          <lb ed="#P" n="84"/>Filii, ratione cujus singulariter, ac proprie 
+          di<lb break="no" ed="#P" n="85"/>citur missus, ut in ea humanitate subsistit :
+          <lb ed="#P" n="86"/>aliam communem per singularem efficientiam
+          <lb ed="#P" n="87"/>ratione cujus vere dici potest tota Trinitas
+          <lb ed="#P" n="88"/>peculiari modo esse in illa humanitate ut 
+          omit<lb break="no" ed="#P" n="89"/>tam etiam per quamdam concomitantiam ibi
+          <lb ed="#P" n="90"/>adesse, licet illi non uniatur personaliter, ut
+          <lb ed="#P" n="91"/>in primo tomo de Incarnatione, et in 3 de 
+          Eu<lb break="no" ed="#P" n="92"/>charistia diximus. Tamen inde non fit, unam
+          <lb ed="#P" n="93"/>ex illis missionibus formaliter comppni ex alia,
+          <lb ed="#P" n="94"/>vel fieri visibilem per aliam, imo si attente
+          <lb ed="#P" n="95"/>considerentur, ambae sunt visibiles in suo 
+          ge<lb break="no" ed="#P" n="96"/>nere. Propria enim missio Verbi visibilis est,
+          <lb ed="#P" n="97"/>quia per illam consttuitur visibilis persona
+          <lb ed="#P" n="98"/>sub humanitate. Altera vero, quae est per 
+          effi<lb break="no" ed="#P" n="99"/>cientiam, visibilis etiam est, quia fit per 
+          actio<lb break="no" ed="#P" n="100"/>nem terminatam ad rem sensibilem, nempe
+          <lb ed="#P" n="101"/>hunc hominem Deum, et quia ratione illius
+          <lb ed="#P" n="102"/>peculiari modo habitat Trinitas in humanitate
+          <lb ed="#P" n="103"/>et in ejus corpore sensibili.
+        </p>
+        <p xml:id="szduep-202524-d1e550">
+          <lb ed="#P" n="104"/>9. Missiones visibiles.—Aliquorum 
+          vespon<lb break="no" ed="#P" n="105"/>sum. — Refutatur.—vNenio nunc ad missiones
+          <lb ed="#P" n="106"/>visibiles Spiritus sancti. Inter quas una ex
+          <lb ed="#P" n="107"/>praecipuis fuit in die Baptismatis CHRISTI 
+          Do<lb break="no" ed="#P" n="108"/>mini , quando Spiritus sanctus in ipsum 
+          des<lb break="no" ed="#P" n="109"/>cendit in specie columbae, nam ille descensus
+          <lb ed="#P" n="110"/>Spiritus sancti non fuit sine missione ipsius a
+          <pb ed="#P" n="804"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Patre et Filio, et tamen nulla missio 
+          invisibi<lb break="no" ed="#P" n="2"/>lis tunc facta est, quia nullum gratiae effectum
+          <lb ed="#P" n="3"/>operatus est tunc Spiritus sanctus in Christo
+          <lb ed="#P" n="4"/>Domino, quia nullum gratie augmentum
+          <lb ed="#P" n="5"/>recipere potuit. Respondent aliqui, eo tempore,
+          <lb ed="#P" n="6"/>quo Spiritus sanctus visibiliter descendit supra
+          <lb ed="#P" n="7"/>Christum, invisibiliter descendisse in Joannem,
+          <lb ed="#P" n="8"/>quem in eo actu, et mysterio in gratia 
+          cre<lb break="no" ed="#P" n="9"/>vissé credendum est. At hoc extrinsecum et
+          <lb ed="#P" n="10"/>accidentarium est, quia nec illa sanctificatio
+          <lb ed="#P" n="11"/>invisibilis Joannis per visibilem illam 
+          signifi<lb break="no" ed="#P" n="12"/>cata est, nec Spiritus sanctus dicitur 
+          descen<lb break="no" ed="#P" n="13"/>disse ad ipsum, sed ad Christum, neque etiam
+          <lb ed="#P" n="14"/>est, cur dicamus, fuisse specialem 
+          sanctifica<lb break="no" ed="#P" n="15"/>tionem, quasi ex opere operato, sed solum
+          <lb ed="#P" n="16"/>eam, quam per novos actus vivae fidei, et 
+          con<lb break="no" ed="#P" n="17"/>fessionis ejus, praedicando, et confitendo 
+          Chris<lb break="no" ed="#P" n="18"/>tum, tunc meruit. Quomodo etiam multi ex
+          <lb ed="#P" n="19"/>his, qui tunc aderant, potuerunt credere, et
+          <lb ed="#P" n="20"/>sanctificari, et verisimile etiam est, ad multos
+          <lb ed="#P" n="21"/>alios descendisse tunc Spiritum sanctum 
+          invi<lb break="no" ed="#P" n="22"/>sibiliter. Omnia tamen illa sunt accidentaria,
+          <lb ed="#P" n="23"/>et extrinseca ad illam missionem invisibilem.
+        </p>
+        <p xml:id="szduep-202524-d1e622">
+          <lb ed="#P" n="24"/>10. Alius modus respondendi difficultati. —
+          <lb ed="#P" n="25"/>Refellitur. — Aliter dici posset, quamvis tunc
+          <lb ed="#P" n="26"/>non descenderit Spiritus sanctus invisibiliter
+          <lb ed="#P" n="27"/>in Christi animam per dona gratiae habitualis,
+          <lb ed="#P" n="28"/>descendisse per dona gratiae actualis, excitando
+          <lb ed="#P" n="29"/>illam sanctissimam animam ad mirificos, et
+          <lb ed="#P" n="30"/>insignes actus charitatis Dei, et hominum, e
+          <lb ed="#P" n="31"/>ad illum insignem humilitatis actum. Hanc
+          <lb ed="#P" n="32"/>enim interpam motionem ipsemet Christus 
+          il<lb break="no" ed="#P" n="33"/>lis verbis significavit, cum ad Joannem dixit:
+          <lb ed="#P" n="34"/>Sine modo: sic enim decet nos implere omnem
+          <lb ed="#P" n="35"/>justitiam. At, licet verum sit, exercuisse tunc
+          <lb ed="#P" n="36"/>Christum ut hominem viatorem novos, et 
+          spe<lb break="no" ed="#P" n="37"/>ciales actus virtutum, non est, cur dicamus,
+          <lb ed="#P" n="38"/>descendissg tunc Spiritum sanctum novo, aut
+          <lb ed="#P" n="39"/>peculiari modo invisibiliter in ipsum. Quia 
+          il<lb break="no" ed="#P" n="40"/>los actus operapatur Christus ex habitibus
+          <lb ed="#P" n="41"/>perfectissimis, quos habebat sine ullo illorum
+          <lb ed="#P" n="42"/>augmento, et ad illos sese poterat excitare ex
+          <lb ed="#P" n="43"/>interna, et connaturali sibi virtute, et ex 
+          per<lb break="no" ed="#P" n="44"/>petua consideratione supernaturalium rerum,
+          <lb ed="#P" n="45"/>qua nunquam carebat, non solum per 
+          scien<lb break="no" ed="#P" n="46"/>tiam beatam, sed etiam per infusam, solumque
+          <lb ed="#P" n="47"/>indigebat actuali concursu supernaturali 
+          Spi<lb break="no" ed="#P" n="48"/>ritus sancti ad illos praestandos. Propter solum
+          <lb ed="#P" n="49"/>autem illum concursum non fit nova missio 
+          in<lb break="no" ed="#P" n="50"/>visibilis, quia est debitus ratione prioris 
+          gra<lb break="no" ed="#P" n="51"/>tise, et Christo erat speciali titulo, connaturalis
+          <lb ed="#P" n="52"/>ratione unionis. Alioqui dicendum esset, 
+          Spi<lb break="no" ed="#P" n="53"/>ritum sanctum missum fuisse ad Christi 
+          ani<lb break="no" ed="#P" n="54"/>mam invisibiliter fere continue per totam 
+          vi<lb break="no" ed="#P" n="55"/>tam, quia nunquam cessavit ad his virtutum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>operibus insignibus, ad quae semper recipiebat
+          <lb ed="#P" n="57"/>Spiritus sancti auxilium, saltem quantum ad
+          <lb ed="#P" n="58"/>actualem concursum. Nulla ergo singularis
+          <lb ed="#P" n="59"/>missio invisibilis facta est ad Christum in 
+          bap<lb break="no" ed="#P" n="60"/>tismate. :
+        </p>
+        <p xml:id="szduep-202524-d1e707">
+          <lb ed="#P" n="61"/>11. Respondendi difficultati divi Thome
+          <lb ed="#P" n="62"/>modus assignatur. — Unde tandem divus 
+          Tho<lb break="no" ed="#P" n="63"/>mas docet, non esse quidem necessarium, ut
+          <lb ed="#P" n="64"/>eomet tempore, quo missio visibilis Spiritus
+          <lb ed="#P" n="65"/>sancti fit, fiat etiam invisibilis, sed quod, vel
+          <lb ed="#P" n="66"/>tunc fiat, vel saltem praecesserit, et tunc per
+          <lb ed="#P" n="67"/>visibilem missionem indicatur, atque ita 
+          fac<lb break="no" ed="#P" n="68"/>tum esse in illa missione Spiritus sancti, quia
+          <lb ed="#P" n="69"/>columba illa descendens super Christum, et
+          <lb ed="#P" n="70"/>supra illum aliquantulum perseverans, 
+          signi<lb break="no" ed="#P" n="71"/>ficavit descensum invisibilem Spiritus sancti
+          <lb ed="#P" n="72"/>in animan Christi, quae tempore conceptionis
+          <lb ed="#P" n="73"/>ejus praecessit, et perseveranter, atque 
+          immo<lb break="no" ed="#P" n="74"/>biliter facta est. Quod etiam significatum est
+          <lb ed="#P" n="75"/>per illa verba, quae tunc audita sunt : Hic est
+          <lb ed="#P" n="76"/>Filius meus dilectus, in quo mihi bene 
+          compla<lb break="no" ed="#P" n="77"/>cui. Ostendunt enim non tunc incepisse 
+          com<lb break="no" ed="#P" n="78"/>placere, sed a principio complacuisse, licet
+          <lb ed="#P" n="79"/>tunc id fuerit specialiter significatum. Quae
+          <lb ed="#P" n="80"/>doctrina verissima est, tamen ex ea recte 
+          con<lb break="no" ed="#P" n="81"/>cluditur, invisibilem missionem tantum 
+          com<lb break="no" ed="#P" n="82"/>parari ad visibilem, ut objectum ejus, seu 
+          tan<lb break="no" ed="#P" n="83"/>quam signatum ad signum, ac subinde esse
+          <lb ed="#P" n="84"/>illas duas missiones condistinctas inter se, 
+          si<lb break="no" ed="#P" n="85"/>cut exemplar, et imago. Imo etiam esse 
+          tem<lb break="no" ed="#P" n="86"/>pore separabiles, quandoquidem prius 
+          invisi<lb break="no" ed="#P" n="87"/>bilis facta esse supponitur, et postea notificatur
+          <lb ed="#P" n="88"/>per aliam visibilem. Non est ergo una pars 
+          al<lb break="no" ed="#P" n="89"/>terius, nec necessario una in alia includitur.
+          <lb ed="#P" n="90"/>Et ita probata relinquitur assertio posita. Et
+          <lb ed="#P" n="91"/>ratio ejus reddi potest ex proxime dictis, quia
+          <lb ed="#P" n="92"/>hae duae missiones comparantur sufficienter ut
+          <lb ed="#P" n="93"/>res, et signum rei, quae inter se 
+          condistinguun<lb break="no" ed="#P" n="94"/>tur, licet signum dicat habitudinem ad rem
+          <lb ed="#P" n="95"/>signatam.
+        </p>
+        <p xml:id="szduep-202524-d1e785">
+          <lb ed="#P" n="96"/>12. Oritur dubium. — MHinc vero nascitur
+          <lb ed="#P" n="97"/>secundum dubium, quia sequitur, divisionem
+          <lb ed="#P" n="98"/>illam sufficientem non esse, dari enim potest
+          <lb ed="#P" n="99"/>tertium membrum missionis quasi compositae
+          <lb ed="#P" n="100"/>ex visibili, et invisibih. Erit ergo quaedam
+          <lb ed="#P" n="101"/>missio pure invisibilis, alia pure visibilis, alia
+          <lb ed="#P" n="102"/>composita ex utraque. Probatur, quia negari
+          <lb ed="#P" n="103"/>non potest, dari aliquas missiones visibiles,
+          <lb ed="#P" n="104"/>quae intrinsece, ac per se involvunt invisibiles.
+          <lb ed="#P" n="105"/>Ut fuit imprimis missio Spiritus sancti in die
+          <lb ed="#P" n="106"/>Pentecostes ad Apostolos : tunc enim, et ipsi
+          <lb ed="#P" n="107"/>sunt repleti gratia invisibili, et est de fide
+          <lb ed="#P" n="108"/>certum, quia propterea dictum est de 
+          Aposto<lb break="no" ed="#P" n="109"/>lis, Act. 2: Repleti sunt omnes Spiritu.sancto,
+          <lb ed="#P" n="110"/>et missio illa invisibilis visibili signo manifes-
+          <pb ed="#P" n="805"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tata est. Unde non solum concomitanter 
+          con<lb break="no" ed="#P" n="2"/>currerunt ibi duae missiones visibilis, et 
+          invi<lb break="no" ed="#P" n="3"/>sibilis, ut supra de missione Verbi per 
+          Incar<lb break="no" ed="#P" n="4"/>nationem dicebamus, sed ffer se sunt ita 
+          con<lb break="no" ed="#P" n="5"/>nexae, ut unam quasi compositam efficiant.
+          <lb ed="#P" n="6"/>Nam per signum illud visibile indicatur 
+          Spiri<lb break="no" ed="#P" n="7"/>tus sanctus, ut descendens ad actualem 
+          sanc<lb break="no" ed="#P" n="8"/>tificationem invisibilem praestandam , quae
+          <lb ed="#P" n="9"/>tunc fit in eo, ad quem tunc visibiliter 
+          mitti<lb break="no" ed="#P" n="10"/>tur : et ideo ad veritatem et complementum
+          <lb ed="#P" n="11"/>illius missionis duo requiruntur, scilicet, 
+          in<lb break="no" ed="#P" n="12"/>terna sanctificatio, et exterior illius 
+          significa<lb break="no" ed="#P" n="13"/>tio : est ergo una quasi composita. Idem 
+          vide<lb break="no" ed="#P" n="14"/>re licet in missione visibil Spiritus sancti,
+          <lb ed="#P" n="15"/>quando Christus, Joan. 20, insufflavit in 
+          Apos<lb break="no" ed="#P" n="16"/>tolos, dicens : Accipite Spiritum sanctum,
+          <lb ed="#P" n="17"/>tunc enim sub specie illius flati visibilis 
+          mis<lb break="no" ed="#P" n="18"/>sus est Spiritus sanctus invisibiliter ad 
+          Aposto<lb break="no" ed="#P" n="19"/>lorum animas, et ideo unica fuit missio ex
+          <lb ed="#P" n="20"/>utraque composita.
+        </p>
+        <p xml:id="szduep-202524-d1e868">
+          <lb ed="#P" n="21"/>13. Responsum. — Respondeo, omnino 
+          ve<lb break="no" ed="#P" n="22"/>rum, et certum esse dari aliquas missiones 
+          visi<lb break="no" ed="#P" n="23"/>biles, quae sine interna sanctificatione non sunt,
+          <lb ed="#P" n="24"/>et consequenter nec sine Spirituali, et inüima
+          <lb ed="#P" n="25"/>Spiritus sancti missione, nam hoc convincunt
+          <lb ed="#P" n="26"/>adducta exempla. Et ratio est, quia Deus 
+          po<lb break="no" ed="#P" n="27"/>test descendere prout voluerit, talis autem
+          <lb ed="#P" n="28"/>missionis modus possibilis est, et valde 
+          perfec<lb break="no" ed="#P" n="29"/>tus, imo fortasse nunquam aliter Spiritus
+          <lb ed="#P" n="30"/>sanctus missus est, excepta duntaxat missione
+          <lb ed="#P" n="31"/>visibili ad Christum in ejus baptismo, propter
+          <lb ed="#P" n="32"/>singularem rationem in Christo inventam.
+          <lb ed="#P" n="33"/>Nam ad illum missus est Spiritus sanctus ut
+          <lb ed="#P" n="34"/>ad sanctificatorem, et ex se sanctum per 
+          natu<lb break="no" ed="#P" n="35"/>ram, et personalem dignitatem, ad alios vero
+          <lb ed="#P" n="36"/>homines mittitur ut ad indigentes actuali
+          <lb ed="#P" n="37"/>sanctificatione, quae interdum ad communem
+          <lb ed="#P" n="38"/>profectum ordinatur, et ideo cum fit, peculiari
+          <lb ed="#P" n="39"/>signo visibili manifestatur. Unde etiam verum
+          <lb ed="#P" n="40"/>censeo, in hoc genere missionis visibilis, 
+          uni<lb break="no" ed="#P" n="41"/>cam tantum fieri missionem includentem 
+          in<lb break="no" ed="#P" n="42"/>ternam missionem cum externa illius 
+          demons<lb break="no" ed="#P" n="43"/>tratione, et ex hac duplici ratione quasi 
+          com<lb break="no" ed="#P" n="44"/>poni unam missionem. Quia totum illud fit
+          <lb ed="#P" n="45"/>per modum unius actionis, et cum quadam
+          <lb ed="#P" n="46"/>connexione illarum partium inter se, ut in
+          <lb ed="#P" n="47"/>ratione dubitandi declaratum est.
+        </p>
+        <p xml:id="szduep-202524-d1e929">
+          <lb ed="#P" n="48"/>14. Divisionem esse sufficientem probatur.
+          <lb ed="#P" n="49"/>— Nihilominus hinc non fit, divisionem esse
+          <lb ed="#P" n="50"/>diminutam. Primo quidem, quia interna illa
+          <lb ed="#P" n="51"/>missio, quae fit in hac visibili missione eo ipso,
+          <lb ed="#P" n="52"/>quod fit ut per se conjuncta cum tali signo
+          <lb ed="#P" n="53"/>visibili, et per modum unius, jam non est
+          <lb ed="#P" n="54"/>omnino invisibilis , sed visibilis saltem per 
+          a<lb break="no" ed="#P" n="55"/>liud. Sicut de contritione dici solet in Sacra-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mento Poaenitentiae, ut conjunctam signo 
+          sen<lb break="no" ed="#P" n="57"/>sibili esse aliquo modo sensibilem, et ita esse
+          <lb ed="#P" n="58"/>partem Sacramenti, et Christus Dominus, licet
+          <lb ed="#P" n="59"/>sit in Eucharistia per se invisibilis, 
+          nihilomi<lb break="no" ed="#P" n="60"/>nus ut conjunctus visibilius speciebus 
+          Sacra<lb break="no" ed="#P" n="61"/>mentum aliquo modo sensibile. Secundo, quia
+          <lb ed="#P" n="62"/>substantia, verbi gratia, sufficienter dividitur
+          <lb ed="#P" n="63"/>in immaterialem, et materialem, etiamsi homo
+          <lb ed="#P" n="64"/>ex anima immateriali , et corpore materiali
+          <lb ed="#P" n="65"/>constet, quia nihilominus illa composita 
+          sub<lb break="no" ed="#P" n="66"/>stantia materialis est, et corporea. Sicut supra
+          <lb ed="#P" n="67"/>etiam dicebamus, missionem personae divinae
+          <lb ed="#P" n="68"/>simpliciter esse temporalem, quia licet 
+          inclu<lb break="no" ed="#P" n="69"/>dat aeternam processionem , tamen non 
+          signi<lb break="no" ed="#P" n="70"/>cat illam secundum se, nec pro illa sola 
+          sup<lb break="no" ed="#P" n="71"/>ponit, sed ut componit unum quid cum 
+          tem<lb break="no" ed="#P" n="72"/>porali actione, quod compositum temporale
+          <lb ed="#P" n="73"/>est. Ita ergo haec missio simpliciter visibilis
+          <lb ed="#P" n="74"/>est, quia per signum visibile quasi 
+          consum<lb break="no" ed="#P" n="75"/>matur, et constituitur, etiamsi includat totum
+          <lb ed="#P" n="76"/>id, quod pura missio invisibilis continet, imo
+          <lb ed="#P" n="77"/>saepe cum majori etiam perfectione, et 
+          ex<lb break="no" ed="#P" n="78"/>cellentia.
+        </p>
+        <p xml:id="szduep-202524-d1e1002">
+          <lb ed="#P" n="79"/>15. Corollarium. — Potest autem ex dictis
+          <lb ed="#P" n="80"/>omnibus colligi, et ratio utriusque membri, et
+          <lb ed="#P" n="81"/>differentia eorum inter se, et subdivisio 
+          alte<lb break="no" ed="#P" n="82"/>rius membri. Primum patet, quia de ratione
+          <lb ed="#P" n="83"/>missionis invisibilis duo sunt, unum positivum,
+          <lb ed="#P" n="84"/>alterum negativum, ut nomen ipsum prae se
+          <lb ed="#P" n="85"/>fert. Positivum est aliquis specialis Dei effectus,
+          <lb ed="#P" n="86"/>ratione cujus dicitur DEUS speciali modo esse
+          <lb ed="#P" n="87"/>de novo in creatura, ad quam mittitur. Et 
+          ra<lb break="no" ed="#P" n="88"/>tio hujus est, quia missio, descensus, adventus,
+          <lb ed="#P" n="89"/>et similia verba dicunt ordinem ad terminum
+          <lb ed="#P" n="90"/>quasi localem de novo acquirendum et 
+          obti<lb break="no" ed="#P" n="91"/>nendum. Deus autem non potest incipere esse
+          <lb ed="#P" n="92"/>de novo alicui per sui mutationem, nec etiam
+          <lb ed="#P" n="93"/>potest esse novo modo, ubi antea non erat, per
+          <lb ed="#P" n="94"/>modum novum, quem in se acquirat, quia per
+          <lb ed="#P" n="95"/>hoc etiam mutaretur: ergo solum possunt 
+          om<lb break="no" ed="#P" n="96"/>nia illa dici de DEO per mutationem creaturae,
+          <lb ed="#P" n="97"/>ergo ad omnem missionem divinae personae
+          <lb ed="#P" n="98"/>(nam de visibili etiam probat haec ratio) 
+          ne<lb break="no" ed="#P" n="99"/>cessarium est, ut Deus incipiat esse novo 
+          mo<lb break="no" ed="#P" n="100"/>do in creatura per mutationem creaturae. Quia
+          <lb ed="#P" n="101"/>alias impossibile est intelligere, unde 
+          denomi<lb break="no" ed="#P" n="102"/>netur DEUS quasi de novo ibi existens, aut cur
+          <lb ed="#P" n="103"/>nunc dicatur Spiritus sanctus mitti potius
+          <lb ed="#P" n="104"/>quam antea, ergo necesse est, ut aliqua realis
+          <lb ed="#P" n="105"/>actio intercedat, per quam fiat aliquid, in quo
+          <lb ed="#P" n="106"/>talis denominatio fundetur. Quid autem illud
+          <lb ed="#P" n="107"/>sit, et quomodo fundet hanc denominationem,
+          <lb ed="#P" n="108"/>in capite sequenti explicabimus. Alterum 
+          ne<lb break="no" ed="#P" n="109"/>cessarium ad missionem invisibilem est, ut ille
+          <lb ed="#P" n="110"/>novus modus existendi Dei in creatura, neque
+          <pb ed="#P" n="806"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sensibilem terminum habeat, nec sensibih 
+          ah<lb break="no" ed="#P" n="2"/>quo signo manifestetur. Hoc constat ex ipso
+          <lb ed="#P" n="3"/>nomine Jfissio invisibilis. Et quia non potest
+          <lb ed="#P" n="4"/>in alio sufficienter distingui a visibili. Et quia
+          <lb ed="#P" n="5"/>per se notum est, posse missionem divinae 
+          per<lb break="no" ed="#P" n="6"/>sonae separari a tali signo, cum ipsa persona
+          <lb ed="#P" n="7"/>invisibilis sit, et per invisibilem effectum 
+          pos<lb break="no" ed="#P" n="8"/>sit novo modo alicubi esse. Neque in hac 
+          pos<lb break="no" ed="#P" n="9"/>terióri parte est ulla difficultas. Circa priorem
+          <lb ed="#P" n="10"/>vero dubitant aliqui, quia Deus potest 
+          sancti<lb break="no" ed="#P" n="11"/>ficare hominem de novo per beneplacitum suae
+          <lb ed="#P" n="12"/>voluntatis sine reali mutatione hominis, ergo
+          <lb ed="#P" n="13"/>potest fieri missio Spiritus sancti invisibilis sine
+          <lb ed="#P" n="14"/>reali effectu vel actione Dei, sed de hoc dicam
+          <lb ed="#P" n="15"/>commodius capite sequenti.
+        </p>
+        <p xml:id="szduep-202524-d1e1111">
+          <lb ed="#P" n="16"/>16. Quod sit de ratione missionis visibilis.—
+          <lb ed="#P" n="17"/>De ratione autem missionis visibilis est, ut 
+          ali<lb break="no" ed="#P" n="18"/>qua divina persona procedens, novo modo 
+          vi<lb break="no" ed="#P" n="19"/>sibil ac sensibili incipiat esse in creatura, cum
+          <lb ed="#P" n="20"/>aliqua habitudine ad sanctificationem 
+          rationa<lb break="no" ed="#P" n="21"/>lis naturse. Hanc ultimam particulam addo, ut
+          <lb ed="#P" n="22"/>significemus missionem visibilem divinae 
+          per<lb break="no" ed="#P" n="23"/>sonae proprie non fieri, nisi in ordine ad 
+          sanc<lb break="no" ed="#P" n="24"/>ficationem, ut in sequenti capite explicabo.
+          <lb ed="#P" n="25"/>Missio enim visibilis, aut per se sanctificativa
+          <lb ed="#P" n="26"/>est, aut semper fit cum habitudine ad 
+          invisi<lb break="no" ed="#P" n="27"/>bilem, seu ad illam, quatenus sanctificativa est,
+          <lb ed="#P" n="28"/>manifestandam, ut constat ex dubio 
+          praeee<lb break="no" ed="#P" n="29"/>denti, et ex dictis circa secundam Durandi 
+          di<lb break="no" ed="#P" n="30"/>visionem intelligi etiam potest. Quia per 
+          crea<lb break="no" ed="#P" n="31"/>tionem, conservationem et gubernationem 
+          re<lb break="no" ed="#P" n="32"/>rum corporaum et sensibilium, incepit Deus
+          <lb ed="#P" n="33"/>esse in illis modo aliquo sensibili; invisibilis
+          <lb ed="#P" n="34"/>enim ejus praesentia per ea, quae facta sunt,
+          <lb ed="#P" n="35"/>conspici quodammodo potest, et tamen per 
+          il<lb break="no" ed="#P" n="36"/>lum praesentiae modum non dicitur persona
+          <lb ed="#P" n="37"/>divina mitti, ut dictum est, ergo ad missionem
+          <lb ed="#P" n="38"/>etiam visibilem necessaria saltem est habitudo
+          <lb ed="#P" n="39"/>aliqua ad superiorem modum existendi Dei in
+          <lb ed="#P" n="40"/>creatura per illius sanctificationem. Hac ergo
+          <lb ed="#P" n="41"/>parte supposita, aliae clarae sunt. Quia etiam ad
+          <lb ed="#P" n="42"/>hanc missionem necessaria est actio personae
+          <lb ed="#P" n="43"/>missae et mittentis, in qua fundetur illa 
+          deno<lb break="no" ed="#P" n="44"/>minatio vel perventio ad talem terminum: ille
+          <lb ed="#P" n="45"/>autem modus debet esse aliquo modo visibilis,
+          <lb ed="#P" n="46"/>ut per hoc distinguatur haec missio ab 
+          invisi<lb break="no" ed="#P" n="47"/>bili. Recte ergo ita explicatur ratio visibilis
+          <lb ed="#P" n="48"/>missionis, et ex utriusque ratione satis constat
+          <lb ed="#P" n="49"/>differentia inter illas, et quomodo adaequate 
+          di<lb break="no" ed="#P" n="50"/>vidant missionem, nam distinguuntur per 
+          dif<lb break="no" ed="#P" n="51"/>ferentias quasi contradictorias et immediate
+          <lb ed="#P" n="52"/>oppositas.
+        </p>
+        <p xml:id="szduep-202524-d1e1194">
+          <lb ed="#P" n="53"/>17. Colligitur subdivisio missionis visibilis.
+          <lb ed="#P" n="54"/>—Tandem ex dictis colligere licet 
+          subdivisio<lb break="no" ed="#P" n="55"/>nem visibilis missionis. Nam invisibilis secun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dum propriam rationem non ultra dividitur,
+          <lb ed="#P" n="57"/>quia sanctificatio, secundum quam sit talis
+          <lb ed="#P" n="58"/>missio, ejusdem rationis in omnibus est, licet
+          <lb ed="#P" n="59"/>secundum quamdam appropriationem 
+          subdi<lb break="no" ed="#P" n="60"/>vidi possit, ut capite sequenti declarabo. At
+          <lb ed="#P" n="61"/>visibilis missio multiplex esse potest pro 
+          ra<lb break="no" ed="#P" n="62"/>tione terminorum aut signorum sensibilium,
+          <lb ed="#P" n="63"/>sub quibus fit. Duae autem partitiones, quae ex
+          <lb ed="#P" n="64"/>dictis subinferuntur, peculiariter notandae sunt.
+          <lb ed="#P" n="65"/>Una est, quia quaedam missio visibilis est 
+          sub<lb break="no" ed="#P" n="66"/>stantialiter (ut sic dicam) seu in essendo, 
+          al<lb break="no" ed="#P" n="67"/>tera est sensibilis in significando et 
+          repraesen<lb break="no" ed="#P" n="68"/>tando. Prius membrum pono propter 
+          missio<lb break="no" ed="#P" n="69"/>nem Verbi per Incarnationem, nam illa non
+          <lb ed="#P" n="70"/>est per se ordinata ad significandum vel 
+          reprae<lb break="no" ed="#P" n="71"/>sentandum, sed ad essendum: Unde Verbum
+          <lb ed="#P" n="72"/>non est missum, quia repraesentatum per 
+          hu<lb break="no" ed="#P" n="73"/>manitatem, sed quia est illi realiter, 
+          substan<lb break="no" ed="#P" n="74"/>tialiter ac personaliter unitum; et ideo dixi,
+          <lb ed="#P" n="75"/>illam missionem esse visibilem substantialiter,
+          <lb ed="#P" n="76"/>aliae vero sunt visibiles tantum repraesentative.
+          <lb ed="#P" n="77"/>Unde etiam est alia differentia notanda inter
+          <lb ed="#P" n="78"/>illas, quod in priori intervenit non solum 
+          ef<lb break="no" ed="#P" n="79"/>fectio, sed etiam realis unio et terminatio 
+          Ver<lb break="no" ed="#P" n="80"/>bi ad humanitatem, et humanitatis ad Verbum,
+          <lb ed="#P" n="81"/>ratione cujus dicitur visibiliter missum 
+          singu<lb break="no" ed="#P" n="82"/>lari modo, absque alia repraesentatione. In alis
+          <lb ed="#P" n="83"/>vero missionibus, praeter effectionem aliquam
+          <lb ed="#P" n="84"/>solum intervenit peculiaris repraesentatio 
+          sen<lb break="no" ed="#P" n="85"/>sibilis personae missae, ut postea videbimus.
+          <lb ed="#P" n="86"/>Recte igitur dividitur visibilis missio, ut aliqua
+          <lb ed="#P" n="87"/>talis sit, quia terminatur ad personam divinam,
+          <lb ed="#P" n="88"/>quam quodammodo facit realiter sensibilem et
+          <lb ed="#P" n="89"/>visibilem, juxta illud, Verbum caro factum est,
+          <lb ed="#P" n="90"/>et illud, Quod audivimus et vidimus, et mamus
+          <lb ed="#P" n="91"/>nostra conirectaverunt de Verbo vite, altera
+          <lb ed="#P" n="92"/>vero sit visibilis in repraesentando visibiliter
+          <lb ed="#P" n="93"/>divinam personam, ut venientem ab alio ad
+          <lb ed="#P" n="94"/>hominem sanctificandum.
+        </p>
+        <p xml:id="szduep-202524-d1e1290">
+          <lb ed="#P" n="95"/>18. Haec vero posterior missio visibilis, quam
+          <lb ed="#P" n="96"/>repraesentativam appellare possumus, ulterius
+          <lb ed="#P" n="97"/>dividitur, quia quaedam est pure 
+          repraesenta<lb break="no" ed="#P" n="98"/>tiva seu notificativa missionis invisibilis jam
+          <lb ed="#P" n="99"/>factae, altera vero esse videtur non solum 
+          re<lb break="no" ed="#P" n="100"/>praesentativa, sed etiam effectiva internae 
+          sanc<lb break="no" ed="#P" n="101"/>tificationis et missionis, vel saltem ita illam
+          <lb ed="#P" n="102"/>repraesentat, ut tunc fieri indicet. Nam utroque
+          <lb ed="#P" n="103"/>modo fieri potest, et ita posset fortasse 
+          poste<lb break="no" ed="#P" n="104"/>rius illud membrum in duo subdividi. Nam
+          <lb ed="#P" n="105"/>visibilis missio, quae praesentem et actualem
+          <lb ed="#P" n="106"/>sanctificationem indicat. per hoc distinguitur
+          <lb ed="#P" n="107"/>a priori membro, in quo sanctificatio antea jam
+          <lb ed="#P" n="108"/>facta, nunc per visibilem missionem 
+          notifica<lb break="no" ed="#P" n="109"/>tur. Et rursus prior missio interdum ita fit, ut
+          <lb ed="#P" n="110"/>per sensibilem ostendatur tantum internus ef-
+          <pb ed="#P" n="807"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fectus, ut videtur accidisse in die Pentecostes,
+          <lb ed="#P" n="2"/>interdum veronon solum significatur, sed etiam
+          <lb ed="#P" n="3"/>fit visibili signo, ut fortasse contingit, quando
+          <lb ed="#P" n="4"/>Christus insufflando dedit Spiritum sanctum
+          <lb ed="#P" n="5"/>Apostolis, Joan. 20. De quibus omnibus, et de
+          <lb ed="#P" n="6"/>signo visibili necessario ad missionem visibilem
+          <lb ed="#P" n="7"/>repraesentativam in capite sexto dicemus.
+        </p>
+        <p xml:id="szduep-202524-d1e1347">
+          <lb ed="#P" n="8"/>19. Dubium. — Enodatur. —Hic vero 
+          inter<lb break="no" ed="#P" n="9"/>rogare potest aliquis, an visibilis missio pure
+          <lb ed="#P" n="10"/>repraesentativa possit fieri in ordine ad futuram
+          <lb ed="#P" n="11"/>repraesentationem, sicut fit ad praeteritam 
+          no<lb break="no" ed="#P" n="12"/>tificandam. Item an fieri possit in ordine ad
+          <lb ed="#P" n="13"/>sanctificationem prius factam, quae jam non
+          <lb ed="#P" n="14"/>perseverat, an vero oporteat, ut duret ac 
+          con<lb break="no" ed="#P" n="15"/>servetur eo tempore, quo sit visibilis missio.
+          <lb ed="#P" n="16"/>Respondeo breviter incipiendo a posteriori 
+          in<lb break="no" ed="#P" n="17"/>terrogatione, necessarium esse, ut perseveret,
+          <lb ed="#P" n="18"/>ut in exemplo hujus missionis patet, quod 
+          uni<lb break="no" ed="#P" n="19"/>cum habemus in descensu Spiritus sancti in
+          <lb ed="#P" n="20"/>specie Columbae super Christum baptizatum.
+          <lb ed="#P" n="21"/>Et ex illo colligi potest ratio generalis, quia
+          <lb ed="#P" n="22"/>necesse est, ut per hanc missionem ostendatur
+          <lb ed="#P" n="23"/>persona, ad quam fit missio, ut facta, et in qua
+          <lb ed="#P" n="24"/>Spiritus sanctus inhabitat. Nam dona Dei sunt
+          <lb ed="#P" n="25"/>sine poenitentia. Unde si prius facta est missio
+          <lb ed="#P" n="26"/>invisibilis Spiritus sancti ad talem Personam,
+          <lb ed="#P" n="27"/>in qua nunc non perseverat, id esse non 
+          po<lb break="no" ed="#P" n="28"/>test, nisi propter iniquitatem talis personae,
+          <lb ed="#P" n="29"/>quae jam indigna est, ut ad eam fiat missio 
+          vi<lb break="no" ed="#P" n="30"/>sibilis Spiritus sancti. Et ideo non fit missio ad
+          <lb ed="#P" n="31"/>repraesentandam sanctificationem factam, nisi
+          <lb ed="#P" n="32"/>ut perseverantem. Atque eadem ratione non
+          <lb ed="#P" n="33"/>fit proprie ad repraesentandam futuram 
+          signi<lb break="no" ed="#P" n="34"/>ficationem, quia per eum modum sancta effecta
+          <lb ed="#P" n="35"/>est persona, ad quam oportet talem missionem
+          <lb ed="#P" n="36"/>fieri, quae omnia ex dicendis capite sexto 
+          ma<lb break="no" ed="#P" n="37"/>gis elucescent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

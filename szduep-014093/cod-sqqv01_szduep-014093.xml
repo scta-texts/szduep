@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="55"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-014093"><!-- t1-l2c4 -->
+        <head xml:id="szduep-014093-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-014093-Hd1e103" type="question-title">De dei aeternitate, quatenus illi propria est</head>
+        <p xml:id="szduep-014093-d1e106">
+          <lb ed="#P" n="93"/>CAPUT IV.
+          <lb ed="#P" n="94"/>DE DEI AETERNITATE, QUATENUS ILLI PROPRIA EST.
+        </p>
+        <p xml:id="szduep-014093-d1e113">
+          <lb ed="#P" n="95"/>1. De hac materia copiose disputavi in 
+          dis<lb break="no" ed="#P" n="96"/>putatione 50 Metaphysicae, fere per totam, et
+          <lb ed="#P" n="97"/>ideo posset hic omnino omitti, praesertim quia
+          <lb ed="#P" n="98"/>aeternitas fere nihil addit immutabilitati, ita
+          <lb ed="#P" n="99"/>ut difficile sit illa duo attributa distinguere:
+          <lb ed="#P" n="100"/>nihilominus tamen ad doctrina 
+          complemen<lb break="no" ed="#P" n="101"/>tum, ad brevem summam redigemus ea quae
+          <lb ed="#P" n="102"/>ad doctrinam de Deo pertinent circa hoc 
+          attri<lb break="no" ed="#P" n="103"/>butum, eaque theologice confirmabimus et 
+          de<lb break="no" ed="#P" n="104"/>clarabimus. De durationibus autem rerum
+          <lb ed="#P" n="105"/>creatarum, quod hoc loco solet copiose 
+          dispu<lb break="no" ed="#P" n="106"/>tari, nihil dicemus, sed in citatum locum 
+          re<lb break="no" ed="#P" n="107"/>mittimus lectorem.
+        </p>
+        <p xml:id="szduep-014093-d1e144">
+          <pb ed="#P" n="56"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Deum esse aeternum de fide est. — Primo
+          <lb ed="#P" n="2"/>ergo sit de fide certum, Deum esse aeternum.
+          <lb ed="#P" n="3"/>Hoc constat ex tota Scriptura. lsaiae 41: Deus
+          <lb ed="#P" n="4"/>sempiternus Dominus ; Romanorum 16: 
+          Secun<lb break="no" ed="#P" n="5"/>dum praeeceptum eterni Dei ; Proverbiorum 
+          oc<lb break="no" ed="#P" n="6"/>tavo cap.: Ab aeterno ordinata sum ; 
+          Ecclesias<lb break="no" ed="#P" n="7"/>tici decimo octavo Qui cicit in etermum ;
+          <lb ed="#P" n="8"/>creavit omnia.Nam licet nomen aeternitatis 
+          in<lb break="no" ed="#P" n="9"/>terdum extendatur ad durationes creatas 
+          ali<lb break="no" ed="#P" n="10"/>quo modo immutabiles natura sua vel 
+          diutur<lb break="no" ed="#P" n="11"/>nas et multorum saeculorum, aut nullum 
+          cer<lb break="no" ed="#P" n="12"/>tum habentes finem, ut notavit late Dionysius
+          <lb ed="#P" n="13"/>de Divinis nominib. ; Augustinus quaestion. 31,
+          <lb ed="#P" n="14"/>in Genesin. et 43, in Exod.; et Gregorius 16
+          <lb ed="#P" n="15"/>Moral.. capit. 21, et ex communi phrasi 
+          Scrip<lb break="no" ed="#P" n="16"/>turae constat, sic enim beatitudinem vocat 
+          ci<lb break="no" ed="#P" n="17"/>tam eternan, etc. : nihilominus cuni de Deo 
+          di<lb break="no" ed="#P" n="18"/>citur aeternum, proprissime dicitur, quia non
+          <lb ed="#P" n="19"/>potest de ipso dici per participationem ; unde
+          <lb ed="#P" n="20"/>necesse est, ut per essentiam et 
+          excellentissi<lb break="no" ed="#P" n="21"/>mo modo dicatur. Et hoc modo definitur haec
+          <lb ed="#P" n="22"/>veritas in capit. PFirmiter seepe citato. Et 
+          tra<lb break="no" ed="#P" n="23"/>dunt Patres polo inferius referendi. Ratio 
+          ve<lb break="no" ed="#P" n="24"/>ro est evidens ex attributo immutabiltatis,
+          <lb ed="#P" n="25"/>supposita significatione aeternitatis. Est enim
+          <lb ed="#P" n="26"/>eeternitas duratio quaedam realis: duratio 
+          au<lb break="no" ed="#P" n="27"/>tem est permanentia existentiae seu existentia
+          <lb ed="#P" n="28"/>ipsa non destructa sed perseverans: aeternitas
+          <lb ed="#P" n="29"/>ergo est existentia quaedam perseverans. 
+          Ad<lb break="no" ed="#P" n="30"/>dit vero ultra communem daurationem, ut 
+          im<lb break="no" ed="#P" n="31"/>mutabihlter seu necessario perseveret ; unde
+          <lb ed="#P" n="32"/>fit ut in se nullam habeat, nec possit habere
+          <lb ed="#P" n="33"/>successionem et per hoc ratio aeternitatis 
+          com<lb break="no" ed="#P" n="34"/>pletur. Deus autem habet permanentiam 
+          im<lb break="no" ed="#P" n="35"/>mutabilem in suo esse; habet ergo durationem
+          <lb ed="#P" n="36"/>necessariam sine ulla successione, est ergo
+          <lb ed="#P" n="37"/>eeternus vel potius ipsa aeternitas per 
+          essen<lb break="no" ed="#P" n="38"/>tiam. Àn vero aeternitas praeter haec, quae ad
+          <lb ed="#P" n="39"/>rem pertinent, dicat respectum aliquem 
+          ra<lb break="no" ed="#P" n="40"/>tionis vel negationem et quomodo in hac 
+          ne<lb break="no" ed="#P" n="41"/>gationem differat ab immutabiltate, non sunt
+          <lb ed="#P" n="42"/>res magni momenti, pro earumque dignitate
+          <lb ed="#P" n="43"/>existimo, in dicto loco suflicienter esse 
+          trac<lb break="no" ed="#P" n="44"/>tata.
+        </p>
+        <p xml:id="szduep-014093-d1e247">
+          <lb ed="#P" n="45"/>3. Per eternitatem Dei omnia durant quee 
+          in<lb break="no" ed="#P" n="46"/>tra eum sunt. —Addendum vero hic occurit (licet
+          <lb ed="#P" n="47"/>ibi etiam non sit omnino praetermissum) 
+          dera<lb break="no" ed="#P" n="48"/>tione divinae aeternitatis esse, ut per cam (
+          nos<lb break="no" ed="#P" n="49"/>tro modo loquendi) durent omnia, quae intra
+          <lb ed="#P" n="50"/>Deum sunt. Itaque non alia duratione durat
+          <lb ed="#P" n="51"/>substantia Dei, alia operatio ejus ad intra seu
+          <lb ed="#P" n="52"/>actus immanens, qui per modum operationis a
+          <lb ed="#P" n="53"/>nobis concipitur, nec etiam processiones quae
+          <lb ed="#P" n="54"/>illi, ut trinus est, conveniunt ; sed omnia quae
+          <lb ed="#P" n="55"/>intraDeum sunt eadem aeternitate mensurantur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>seu durant. Hoc enim requiritur ad 
+          aeternita<lb break="no" ed="#P" n="57"/>tem simpliciter. Ouia de ratione rei 
+          simplici<lb break="no" ed="#P" n="58"/>ter aeternae est, ut nulla intra eam sit variatio
+          <lb ed="#P" n="59"/>seu successio.Qua ratione recte Cyrillus 
+          Hicro<lb break="no" ed="#P" n="60"/>solymitanus Catechesi sexta, Demm vocat
+          <lb ed="#P" n="61"/>seinper ecistentem et sibi perpetuo similem :
+          <lb ed="#P" n="62"/>Iicet autem in his, quae intra Deum sunt 
+          ipsi<lb break="no" ed="#P" n="63"/>que necessario conveniunt, hoc satis clarum
+          <lb ed="#P" n="64"/>sit, in actibus hberis nonnullam difficultatem
+          <lb ed="#P" n="65"/>habet. Nam illi non videntur propria 
+          aeterni<lb break="no" ed="#P" n="66"/>tate mensurari, seu durare. Quia de ratione
+          <lb ed="#P" n="67"/>rei simpheiter aeternae est, ut sit simpliciter
+          <lb ed="#P" n="68"/>necessaria et non tantum ex suppositione ; 
+          ac<lb break="no" ed="#P" n="69"/>tus autem liber Dei, prout talis est, licet ex
+          <lb ed="#P" n="70"/>suppositione quod semel sit, necessario duret,
+          <lb ed="#P" n="71"/>tamen simpliciter non ex necessitate est 
+          se<lb break="no" ed="#P" n="72"/>cuudum determinationem liberam : quomodo
+          <lb ed="#P" n="73"/>ergo potest aeternitate simpliciter mensurari
+          <lb ed="#P" n="74"/>seu durare? Ad hoc vero dicendum est, de 
+          ra<lb break="no" ed="#P" n="75"/>tione aeternitatis esse, ut quatenus talis 
+          dura<lb break="no" ed="#P" n="76"/>tio est, sit simpliciter necessaria et quod sit
+          <lb ed="#P" n="77"/>duratio rei simpliciter necessarise, quoad 
+          to<lb break="no" ed="#P" n="78"/>tam entitatem ejus; et hoc modo etiam actus
+          <lb ed="#P" n="79"/>liber Dei est necessarius, quoad totam suam
+          <lb ed="#P" n="80"/>relationem , licet non sit necessarius quoad
+          <lb ed="#P" n="81"/>determinationem ad tale objectum. Quia vero
+          <lb ed="#P" n="82"/>etiam illamet determinatio libera eo modo
+          <lb ed="#P" n="83"/>quo est, aeterna est, ut infra de praescientia
+          <lb ed="#P" n="84"/>et praedestinatione ostendemus, ideo 
+          adden<lb break="no" ed="#P" n="85"/>dum est de ratione aeterni actus esse, ut in
+          <lb ed="#P" n="86"/>nullo respectu seu determinatione sua possit
+          <lb ed="#P" n="87"/>habere varietatem, nec principium aut finem,
+          <lb ed="#P" n="88"/>etiam si determinatio illa nihil reale addat in
+          <lb ed="#P" n="89"/>ipso. Quia non posset habere varietatem in
+          <lb ed="#P" n="90"/>tali respectu sine imperfectione vel variatione,
+          <lb ed="#P" n="91"/>ut capite praecedenti dicebamus.
+        </p>
+        <p xml:id="szduep-014093-d1e354">
+          <lb ed="#P" n="92"/>4. Potestque ulterius explicari ex 
+          differen<lb break="no" ed="#P" n="93"/>tia inter actum Dei immanentem et 
+          ac<lb break="no" ed="#P" n="94"/>tionem transeuntem. Nam in actione Dei 
+          tran<lb break="no" ed="#P" n="95"/>seunte, potest esse initium et finis; in actu
+          <lb ed="#P" n="96"/>vero immanente etiam ut terminato libere,
+          <lb ed="#P" n="97"/>seu contingenter ad creaturam non posset esse
+          <lb ed="#P" n="98"/>initium et finis. Ratio vero est, quia actio
+          <lb ed="#P" n="99"/>transiens ut sic est in creatura et ponit 
+          muta<lb break="no" ed="#P" n="100"/>tionem in illa et relationem ad Deum, ex qua
+          <lb ed="#P" n="101"/>Deus denominatur extrinsece creator, 
+          Domi<lb break="no" ed="#P" n="102"/>nus vel aliquid simile. Unde talis dominatio
+          <lb ed="#P" n="103"/>pendet a creatura ut actu existente, et ideo 
+          mi<lb break="no" ed="#P" n="104"/>rum non est, quod ex ea parte possit incipere
+          <lb ed="#P" n="105"/>et desinere absque ulla varietate vel 
+          imper<lb break="no" ed="#P" n="106"/>fectione ex parte Dei. At vero actus immanens
+          <lb ed="#P" n="107"/>est in Deo ipso, cumque dehominat scientem
+          <lb ed="#P" n="108"/>aut volentem, quae est denominatio 
+          intrinse<lb break="no" ed="#P" n="109"/>ca et per se non pendet ab actual existentia
+          <lb ed="#P" n="110"/>creaturae: nam scientia Dei non sumitur ex
+          <pb ed="#P" n="57"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rebus, ut ab illarum existentia pendeat; nec
+          <lb ed="#P" n="2"/>voluntas Dei pendet ab existentia creaturae,
+          <lb ed="#P" n="3"/>etiam quoad determinationem suam, sed 
+          po<lb break="no" ed="#P" n="4"/>tius existentia creaturae pendet a voluntate
+          <lb ed="#P" n="5"/>Dei ; et ideo non posset esse variatio seu 
+          ini<lb break="no" ed="#P" n="6"/>tium et finis in tali denominatione Dei, nisi ex
+          <lb ed="#P" n="7"/>parte Dei esset aliqua imperfectio et variatio.
+          <lb ed="#P" n="8"/>5. Cujus rei ratio, ut in Metaphysica dixi,
+          <lb ed="#P" n="9"/>aliter in actu scientiae, aliter in voluntate 
+          red<lb break="no" ed="#P" n="10"/>denda est ; nam scientia naturaliter 
+          repraesen<lb break="no" ed="#P" n="11"/>tat omnia repraesentabilia per illam , si ex
+          <lb ed="#P" n="12"/>parte scientis non desit attentio vel aliquid 
+          si<lb break="no" ed="#P" n="13"/>mile. Et ideo necesse est ut scientia Dei,
+          <lb ed="#P" n="14"/>etiam de veritatibus contingentibus, semper
+          <lb ed="#P" n="15"/>repraesentet Deo res futuras independenter ab
+          <lb ed="#P" n="16"/>actuali existentia earum. Nam si inciperet 
+          re<lb break="no" ed="#P" n="17"/>praesentare Deo rem existentem, quando illa
+          <lb ed="#P" n="18"/>inciperet actu existereet ex aeternitate non 
+          re<lb break="no" ed="#P" n="19"/>praesentaret illam, jam illa scientia esset ex se
+          <lb ed="#P" n="20"/>insufficiens ad repraesentandam rem futuram
+          <lb ed="#P" n="21"/>et veritates de futuro : haec autem est magna
+          <lb ed="#P" n="22"/>imperfectio. Ex qua recte colligeretur illam
+          <lb ed="#P" n="23"/>scientiam non esse infinitam, quia non 
+          re<lb break="no" ed="#P" n="24"/>praesentat omnem possibilem veritatem et quia
+          <lb ed="#P" n="25"/>admitteret in habente illam, ignorantiam 
+          ah<lb break="no" ed="#P" n="26"/>cujus veritatis, scilicet futurae. Ac subinde,
+          <lb ed="#P" n="27"/>quando postea repraesentaret rem praesentem,
+          <lb ed="#P" n="28"/>merito censeretur id facere cum sui mutatione
+          <lb ed="#P" n="29"/>et variatione , quia mutatio in objecto tunc
+          <lb ed="#P" n="30"/>non sufficeret sine nova repraesentatione ex
+          <lb ed="#P" n="31"/>parte illius, vel nova attentione ex parte 
+          scien<lb break="no" ed="#P" n="32"/>tis. Quia jam supponitur illa scientia prout ab
+          <lb ed="#P" n="33"/>aeterno existit esse insufliciens ad 
+          repraesen<lb break="no" ed="#P" n="34"/>tandam omnem veritatem, quae est in objecto;
+          <lb ed="#P" n="35"/>ergo qua ratione non repraesentat futuram,
+          <lb ed="#P" n="36"/>non repraesentabit praesentem, sine sui 
+          muta<lb break="no" ed="#P" n="37"/>tione. Quae ratio procedit in omni actu finito
+          <lb ed="#P" n="38"/>et imperfecto, qualis ille esset. Oportet ergo
+          <lb ed="#P" n="39"/>fateri, scientiam illam repraesentare Deo rem
+          <lb ed="#P" n="40"/>futuram independenter ab actuah existentia
+          <lb ed="#P" n="41"/>ejus. Ex quo optime infertur, semper ac 
+          per<lb break="no" ed="#P" n="42"/>petuo eodem modo repraesentare, nec posse in
+          <lb ed="#P" n="43"/>hoc habere varietatem nisi ex parte sua illam
+          <lb ed="#P" n="44"/>habeat, quia ex parte objecti illam habere non
+          <lb ed="#P" n="45"/>potest , cum ab ejus actuali existentia non
+          <lb ed="#P" n="46"/>pendeat.
+        </p>
+        <p xml:id="szduep-014093-d1e502">
+          <lb ed="#P" n="47"/>6. Effugium. — Refutatur. —De voluntate
+          <lb ed="#P" n="48"/>aliter dicendum est, illam non supponere 
+          pro<lb break="no" ed="#P" n="49"/>prie rem esse futuram, sed potius Dei 
+          volunta<lb break="no" ed="#P" n="50"/>tem, cum libera determinatione supponi u
+          <lb ed="#P" n="51"/>res sit futura. Tamen hinc etiam colligitur,
+          <lb ed="#P" n="52"/>quidquid futurum est in tempore ex libera Dei
+          <lb ed="#P" n="53"/>determinatione esse futurum, ac proinde sicut
+          <lb ed="#P" n="54"/>futuritio illa aeterna est, ita voluntatem Dei
+          <lb ed="#P" n="55"/>liberam esse aeternam nec posse aliter esse,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>si habenda est , quia res creata non potest ex
+          <lb ed="#P" n="57"/>alio principio esse futura. Dices, si fingamus
+          <lb ed="#P" n="58"/>Deum posse in tempore incipere aliquid velle
+          <lb ed="#P" n="59"/>quod ab aeterno non voluit, consequenter 
+          di<lb break="no" ed="#P" n="60"/>citur, hanc propositionem de futuro: Deus hoc
+          <lb ed="#P" n="61"/>volet, esse ab aeterno veram et ratione illius
+          <lb ed="#P" n="62"/>etiam esse ab aeterno talem rem creatam esse
+          <lb ed="#P" n="63"/>futuram, qui Deus voliturus est illam. Sed 
+          con<lb break="no" ed="#P" n="64"/>tra; nam hinc sequitur, in Deo ipso secundum
+          <lb ed="#P" n="65"/>se esse futurum et praesens priusquam in 
+          crea<lb break="no" ed="#P" n="66"/>tura, quae est varietas aeternitati repugnans.
+          <lb ed="#P" n="67"/>Quia si in Deo est futurum aliquid et non per
+          <lb ed="#P" n="68"/>denominationem a creatura, intelligi rion 
+          po<lb break="no" ed="#P" n="69"/>test quin sit per variationem aliquam in 
+          ip<lb break="no" ed="#P" n="70"/>so Deo. Item si veritas illa: Deus est 
+          habitu<lb break="no" ed="#P" n="71"/>rus in tempore talem determinationem 
+          volunta<lb break="no" ed="#P" n="72"/>tis suce, aeterna est; ergo scitur ab ipso Deo
+          <lb ed="#P" n="73"/>eeterno; ergo etiam ipsa determinatio, si 
+          haben<lb break="no" ed="#P" n="74"/>da est, habetur ab aeterno, quia ex parte 
+          crea<lb break="no" ed="#P" n="75"/>turae nihil expectari potest ut habeatur ; ex
+          <lb ed="#P" n="76"/>parte autem Dei etiam id intelligi non potest,
+          <lb ed="#P" n="77"/>nisi intelligatur quasi suspendere ab aeterno
+          <lb ed="#P" n="78"/>illam suam determinationem liberam, ut 
+          po<lb break="no" ed="#P" n="79"/>nat illam in tempore; quod per se est indignum
+          <lb ed="#P" n="80"/>Deo, et intelligi non potest sine variatione 
+          in<lb break="no" ed="#P" n="81"/>trinseca in ipso Deo, cum inde nulla resultet
+          <lb ed="#P" n="82"/>varietas in objecto creato nec in veritate ejus,
+          <lb ed="#P" n="83"/>ut cognoscibili.
+        </p>
+        <p xml:id="szduep-014093-d1e587">
+          <lb ed="#P" n="84"/>7. Quomodo in aeternitate vera sit omnia esse
+          <lb ed="#P" n="85"/>simul. — Atque hine etiam intelligitur, 
+          quo<lb break="no" ed="#P" n="86"/>modo verum sit in aeternitate omnia esse simul,
+          <lb ed="#P" n="87"/>et in ea non esse praeteritum neque futurum,
+          <lb ed="#P" n="88"/>ut est frequens in Patribus: Dionysius lib. 12,
+          <lb ed="#P" n="89"/>de Civitate 6 et 10, de divin; Augustinus lib. 12,
+          <lb ed="#P" n="90"/>de Civitate, capite 15 et Concion. 2, in Psalm.
+          <lb ed="#P" n="91"/>101, circa id : n generatione et generatione 
+          an<lb break="no" ed="#P" n="92"/>mui tui, et 5, de Trinitate, capite primo et 
+          se<lb break="no" ed="#P" n="93"/>cundo ; Gregorius, 16 Moralium, capit. 21;
+          <lb ed="#P" n="94"/>Boetius, libro 5, deconsolation, pros. 6; ubi
+          <lb ed="#P" n="95"/>in definitione aeternitatis ponit, quod sit tota
+          <lb ed="#P" n="96"/>simul , docentque omnes theologi in 1, 
+          dis<lb break="no" ed="#P" n="97"/>tinctione nona et decima nona, et divus 
+          Tho<lb break="no" ed="#P" n="98"/>mas, 1 parte, quaestione decima. Sensus autem
+          <lb ed="#P" n="99"/>est duratione illam, quae est vera aeternitas,
+          <lb ed="#P" n="100"/>in se et in sua formali ratione et entitate 
+          ta<lb break="no" ed="#P" n="101"/>lem esse, ut nec incipere, nec desinere, nec
+          <lb ed="#P" n="102"/>augeri, nec minui possit. Et hoc est esse 
+          to<lb break="no" ed="#P" n="103"/>tam simul. Et hinc etiam est, ut abilla 
+          secun<lb break="no" ed="#P" n="104"/>dum se nihil possit denominari praeteritum
+          <lb ed="#P" n="105"/>vel futurum, imo etiam, ut tales 
+          denomina<lb break="no" ed="#P" n="106"/>tiones non cedant in rem ipsam seternam, vel
+          <lb ed="#P" n="107"/>aliquem modum, aut actum ejus, ex vi suae
+          <lb ed="#P" n="108"/>durationis et eeternitatis, quae omnia clara
+          <lb ed="#P" n="109"/>sunt. Cum his vero stat imprimis, ut 
+          aeterni<lb break="no" ed="#P" n="110"/>tas possit coexistere durationi, quae non est
+          <pb ed="#P" n="58"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tota simul, sed successive durat, ut est 
+          tem<lb break="no" ed="#P" n="2"/>pus. Ut de facto aeternitas Dei coexistit motui
+          <lb ed="#P" n="3"/>coeli. Ratio vero est, quia non omnes res 
+          du<lb break="no" ed="#P" n="4"/>rant per ipsam formalem aeternitatem , sed
+          <lb ed="#P" n="5"/>tantum res illa quae vere aeterna est: et ideo
+          <lb ed="#P" n="6"/>illi soli repugnat successio aliqua in suo esse,
+          <lb ed="#P" n="7"/>vel in his quae sibi intrinseca sunt, ab ahis
+          <lb ed="#P" n="8"/>autem rebus non excludit successionem.
+          <lb ed="#P" n="9"/>Coexistentia autem cum illis necessario 
+          sequi<lb break="no" ed="#P" n="10"/>tur ex vi ipsius aeternitatis, supposita existentia
+          <lb ed="#P" n="11"/>aliarum rerum. Unde ulterius sit, ut in hac
+          <lb ed="#P" n="12"/>coexistentia possit esse successio et varietas,
+          <lb ed="#P" n="13"/>quia nunc Deus coexistit uni rei et postea 
+          de<lb break="no" ed="#P" n="14"/>sinit illi coexistere, et incipit coexistere alteri,
+          <lb ed="#P" n="15"/>prout res ipsae succedunt. Quia haec successio
+          <lb ed="#P" n="16"/>non est in Deo, sed in aliis rebus, et 
+          denomi<lb break="no" ed="#P" n="17"/>natio inde resultans in Deum extrinseca est.
+          <lb ed="#P" n="18"/>Sicut in existentia Dei in rebus contingit:
+          <lb ed="#P" n="19"/>quia nunc Deus est in rebus actu existentibus
+          <lb ed="#P" n="20"/>et desinit esse in illis, si corrumpantur et 
+          in<lb break="no" ed="#P" n="21"/>cipiet esse in aliis de novo genitis, quia haec
+          <lb ed="#P" n="22"/>omnia solum ponunt in Deo extrinsecam 
+          de<lb break="no" ed="#P" n="23"/>nominationem, ut capite secupdo declaratum
+          <lb ed="#P" n="24"/>est. Tandem secundum hanc denominationem
+          <lb ed="#P" n="25"/>interdum tribuitur Deo praeteritum et 
+          futu<lb break="no" ed="#P" n="26"/>rum per coexistentiam ad nostrum tempus,
+          <lb ed="#P" n="27"/>non secundum se, ut per se satis pater.
+        </p>
+        <p xml:id="szduep-014093-d1e711">
+          <lb ed="#P" n="28"/>8. AEternitas Dei communicari non potest.
+          <lb ed="#P" n="29"/>—CVltimo ex dictis constat, aeternitatem esse
+          <lb ed="#P" n="30"/>ita propriam Dei, ut non possit communicari
+          <lb ed="#P" n="31"/>creaturae, quod intelligitur de propria 
+          aeterni<lb break="no" ed="#P" n="32"/>tate simpliciter. Quomodo dixit Augustinus,
+          <lb ed="#P" n="33"/>vel Fulgentius de Fide ad Petrum, capite sexto:
+          <lb ed="#P" n="34"/>Firmissime tene et nullatenus dubites, solum
+          <lb ed="#P" n="35"/>Dewn verum, ctermun et incommunicabilem
+          <lb ed="#P" n="36"/>655€. Quod significavit David Psalmo 101, 
+          di<lb break="no" ed="#P" n="37"/>cens: Tu in principio, Domine, terram fundasti,
+          <lb ed="#P" n="38"/>et opera manvaum tuarum sunt cali ; ipsi 
+          peri<lb break="no" ed="#P" n="39"/>bunt, tu autem permanes; et infra: Tu autem
+          <lb ed="#P" n="40"/>idem ipse es et anni tui non deficient. Quae verba
+          <lb ed="#P" n="41"/>optime declarant permanentiam aeternitatis.
+          <lb ed="#P" n="42"/>Unde Paulus ad Hebraeos 1. Hinc probat 
+          divi<lb break="no" ed="#P" n="43"/>nitatem Verbi divini, quia est hoc modo 
+          ae<lb break="no" ed="#P" n="44"/>ternum, quod nec angeli, nec creatura ulla
+          <lb ed="#P" n="45"/>habere potest. Ratio vero est clara, quia 
+          per<lb break="no" ed="#P" n="46"/>manentia in esse ab intrinseco necessaria, est
+          <lb ed="#P" n="47"/>ita propria Dei, ut nulli creaturae communicari
+          <lb ed="#P" n="48"/>possit. Unde nulla est possibilis creatura, quae
+          <lb ed="#P" n="49"/>duplicem successionem in se non admittat:
+          <lb ed="#P" n="50"/>una est in ipso esse substantiali, quatenus 
+          po<lb break="no" ed="#P" n="51"/>test succedere post non esse, et postquam est,
+          <lb ed="#P" n="52"/>potest ei succedere non esse, saltem de potentia
+          <lb ed="#P" n="53"/>Dei. Alia est, quia vel in accidentibus, vel in
+          <lb ed="#P" n="54"/>actibus, vel in praesentia locali, potest habere
+          <lb ed="#P" n="55"/>durationem successivam, quia in illis admittit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>successionem, quia admittit mutationem, ut
+          <lb ed="#P" n="57"/>supra ostensum est. Jam vero occurrebat 
+          oc<lb break="no" ed="#P" n="58"/>casio dicendi de his durationibus creaturarum,
+          <lb ed="#P" n="59"/>ut magis nota esset differentia inter 
+          aeternita<lb break="no" ed="#P" n="60"/>tem per essentiam et omnes illas, et ut 
+          intel<lb break="no" ed="#P" n="61"/>ligeretur an saltem aliqua duratio creata 
+          pos<lb break="no" ed="#P" n="62"/>sit dici aeternitas per specialem participationem;
+          <lb ed="#P" n="63"/>sed haec fuse tractata sunt dicta disputat. 50
+          <lb ed="#P" n="64"/>Metaphysieae, et ideo de divina aeternitate ita
+          <lb ed="#P" n="65"/>sufficiant.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

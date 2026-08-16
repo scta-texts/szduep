@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="719"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-181841"><!-- t3-l9c1 -->
+        <head xml:id="szduep-181841-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-181841-Hd1e103" type="question-title">Sit-ne secunda trinitatis persona, verus filius, ac verbum patris</head>
+        <p xml:id="szduep-181841-d1e106">
+          <lb ed="#P" n="50"/>CAPUT I.
+          <lb ed="#P" n="51"/>SIT-NE SECUNDA TRINITATIS PERSONA, VERUS FILIUS,
+          <lb ed="#P" n="52"/>AC VERBUM PATRIS.
+        </p>
+        <p xml:id="szduep-181841-d1e115">
+          <lb ed="#P" n="53"/>1. Haec duo non possunt disputatione 
+          sepa<lb break="no" ed="#P" n="54"/>rari, quia vix possumus utrumque probare,
+          <lb ed="#P" n="55"/>nisi ostendendo per utramque vocem eamdem
+          <pb ed="#P" n="720"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>personam significari, hic vero solum 
+          supponi<lb break="no" ed="#P" n="2"/>mus illam personam esse Verbum, 
+          proprieta<lb break="no" ed="#P" n="3"/>tem autem et rationem ejus postea 
+          proseque<lb break="no" ed="#P" n="4"/>mur. De ratione vero Filii brevius hic potest
+          <lb ed="#P" n="5"/>tota res expediri. Multi ergo antiqui haeretici
+          <lb ed="#P" n="6"/>negarunt, Verbum esse proprie Filium, vel
+          <lb ed="#P" n="7"/>quia faciebant illud creaturam, vel quia nomen
+          <lb ed="#P" n="8"/>Verbi attribuebant divinitati, nomen autem
+          <lb ed="#P" n="9"/>Filii humanitati, seu Christo ut homini, vel
+          <lb ed="#P" n="10"/>Filium et Christum in persona distinguendo,
+          <lb ed="#P" n="11"/>vel etiam tantum ex parte naturae. De quibus
+          <lb ed="#P" n="12"/>erroribus videri potest Athanasius in oratione
+          <lb ed="#P" n="13"/>circa illud, Deum de Deo, et epistola de 
+          Decre<lb break="no" ed="#P" n="14"/>tis Nicaenae Synodi, ubi Paulo Samosateno et
+          <lb ed="#P" n="15"/>Arianis hos tribuit errores. Basilius Eunomio
+          <lb ed="#P" n="16"/>tribuit libro 1, contra illum, et de Valentino,
+          <lb ed="#P" n="17"/>varia figmenta refert lrenaeus, lib. 1, contra
+          <lb ed="#P" n="18"/>ipsum, cap. 1, et Tertullianus, lib. 2, contra
+          <lb ed="#P" n="19"/>eumdem, Theodoretus, lib. 1, haereticarum .
+          <lb ed="#P" n="20"/>fabularum, capite de Filio. Sed inutile censeo
+          <lb ed="#P" n="21"/>circa hos errores latius immorari. Quid vero
+          <lb ed="#P" n="22"/>ex Scriptura possent objicere, dicam infra.
+        </p>
+        <p xml:id="szduep-181841-d1e176">
+          <lb ed="#P" n="23"/>2. Prima assertio.—Probatio prima.—bico
+          <lb ed="#P" n="24"/>ergo primo. Processio Verbi divini est vera
+          <lb ed="#P" n="25"/>et propria generatio. Est conclusio de Fide,
+          <lb ed="#P" n="26"/>quam ex Novo Testamento in sequent latius
+          <lb ed="#P" n="27"/>confirmabo. Nunc solum utor testimonio Pauli
+          <lb ed="#P" n="28"/>ad Hebraeos, 1 cap., probantis Christi 
+          Divini<lb break="no" ed="#P" n="29"/>tatem ex illo Psalmi 2: Filius meus es tu, ego
+          <lb ed="#P" n="30"/>hodie genwi te, loquitur enim de aeterna 
+          gene<lb break="no" ed="#P" n="31"/>ratione: alias nonrecte ostenderet veram Christi
+          <lb ed="#P" n="32"/>divinitatem. Sunt autem, qui existiment, loqui
+          <lb ed="#P" n="33"/>2aulum de Filiatione naturali, non vero de
+          <lb ed="#P" n="34"/>aeterna generatione. Sed difficile est in eodem
+          <lb ed="#P" n="35"/>testimonio haec duo separare, nam ut recte
+          <lb ed="#P" n="36"/>dixit Anselmus ad objectiones Arianorum, in
+          <lb ed="#P" n="37"/>secunda : Quis Filium dicat et genitum nesciat?
+          <lb ed="#P" n="38"/>quis Patrem valeat credere, quem won considerat
+          <lb ed="#P" n="39"/>gennisse? Vtaque si Psalmista loquitur de 
+          Filia<lb break="no" ed="#P" n="40"/>tione naturali, et ita exponitur a Paulo, 
+          cre<lb break="no" ed="#P" n="41"/>dendum etiam est loqui de generatione aeterna.
+          <lb ed="#P" n="42"/>Atque ita intelligunt Augustinus et Ruffinus
+          <lb ed="#P" n="43"/>in Psal. 2, Chrysostomus et Graeci in Paulum
+          <lb ed="#P" n="44"/>ad Hebraeos 1, Augustinus etiam in Enchir.
+          <lb ed="#P" n="45"/>c. 49, et Athanasius, orat. 5, contra Arianos,
+          <lb ed="#P" n="46"/>Tertullianus, contra Praxaeam, c. 7. Verum
+          <lb ed="#P" n="47"/>est, sanctos Patres aliis etiam modis exponere
+          <lb ed="#P" n="48"/>locum illum, qui ita admitti possunt, ut 
+          prae<lb break="no" ed="#P" n="49"/>dictus sensus non excludatur, de quo videri
+          <lb ed="#P" n="50"/>possunt, quae de hoc testimonio in tomo primo
+          <lb ed="#P" n="51"/>et secundo disserui, et quae tractat Ribera ad
+          <lb ed="#P" n="52"/>Hebraeos.
+        </p>
+        <p xml:id="szduep-181841-d1e245">
+          <lb ed="#P" n="53"/>3. Secunda et tertia probationes.— Probatio
+          <lb ed="#P" n="54"/>alia.—Simile testimonium est Psalm. 109: Ez
+          <lb ed="#P" n="55"/>utero ante luciferum genwi te, ubi particula
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Ante luciferum, significat eternitatem 
+          gene<lb break="no" ed="#P" n="57"/>rationis, particula, ex utero, 
+          consubstantialita<lb break="no" ed="#P" n="58"/>tem: nam ad indicandum generationem illam
+          <lb ed="#P" n="59"/>esse ex solo Patre, ponitur per metaphoram 
+          <lb ed="#P" n="60"/>illa vox, quae Matri potius attribui solet. 
+          Su<lb break="no" ed="#P" n="61"/>mitur ex Cyrillo, dialogo 2, de Trinitate, et
+          <lb ed="#P" n="62"/>Athanasio, Oratione Quod Christus sit Deus,
+          <lb ed="#P" n="63"/>Ambrosio 4, de Fide, c. 4. Aliud testimonium
+          <lb ed="#P" n="64"/>est Isaiae 53: Generationem ejus quis rail
+          <lb ed="#P" n="65"/>Quod licet varios etiam habeat sensus, hic 
+          ex<lb break="no" ed="#P" n="66"/>cludendus non. est, quem Patres communiter
+          <lb ed="#P" n="67"/>amplectuntur, Clemens, Epist. 1, Justinus, in
+          <lb ed="#P" n="68"/>Dialogo contra Triphonem, Basilius 1, contra
+          <lb ed="#P" n="69"/>Eunomium, Chrysostomus, homil. 1, de 
+          In<lb break="no" ed="#P" n="70"/>comprehensibili Dei natura, Augustinus, lib. 1,
+          <lb ed="#P" n="71"/>de Symbolo ad Cathecumenos, c. 3, Eusebius,
+          <lb ed="#P" n="72"/>lib. 1, de Praeparatione Evangelica, cap. 8, et
+          <lb ed="#P" n="73"/>Cyrillus, dialogo 2. de Trinitate. Communiter 
+          <lb ed="#P" n="74"/>etiam exponuntur de hac generatione varia
+          <lb ed="#P" n="75"/>loca ex libris Sapientiae, praesertim Proverb. 8,
+          <lb ed="#P" n="76"/>et Ecclesiast. 24. Denique in Symbolo 
+          Athana<lb break="no" ed="#P" n="77"/>sii, et in Symbolo Apostolorum ita definitum 
+          <lb ed="#P" n="78"/>est, Genitum, non factum, et ideo necesse non 
+          <lb ed="#P" n="79"/>est plura Ecclesiae vel Patrum testimonia 
+          af<lb break="no" ed="#P" n="80"/>ferre.
+        </p>
+        <p xml:id="szduep-181841-d1e310">
+          <lb ed="#P" n="81"/>4. Ratione confirmat veritatem hanc divus 
+          <lb ed="#P" n="82"/>Thomas, 1 p., q. 21, art. 2, advertendo, 
+          gene<lb break="no" ed="#P" n="83"/>rationem duobus modis a philosophis sumi.
+          <lb ed="#P" n="84"/>Primo pro omni productione substantiae ex
+          <lb ed="#P" n="85"/>praejacente materia , quomodo communis est 
+          <lb ed="#P" n="86"/>inanimatis, et viventibus, et univoca, ac 
+          ae<lb break="no" ed="#P" n="87"/>quivocae productioni, quomodo fere utitur illa 
+          <lb ed="#P" n="88"/>voce Aristoteles in libris physicorum et de 
+          ge<lb break="no" ed="#P" n="89"/>neratione. Alio modo sumitur specialiter pro
+          <lb ed="#P" n="90"/>nativitate, seu conceptione viventium , quo
+          <lb ed="#P" n="91"/>modo in praesenti sumenda est. Nam divinum
+          <lb ed="#P" n="92"/>Verbum est perfectissime vivens. Sic autem
+          <lb ed="#P" n="93"/>sumpta generatio definitur, ut sit processio 
+          <lb ed="#P" n="94"/>viventis a vivente conjuncto in similitudinem
+          <lb ed="#P" n="95"/>naturae. Ubi duae particulae indigent 
+          exposi<lb break="no" ed="#P" n="96"/>tione. Prior est illa conjuncto, per quam 
+          si<lb break="no" ed="#P" n="97"/>gnificatur, generationem viventis debere esse
+          <lb ed="#P" n="98"/>aliquo modo de substantia ipsiusmet 
+          gene<lb break="no" ed="#P" n="99"/>rantis. Inanimata enim generant ex materia
+          <lb ed="#P" n="100"/>extrinseca, viventia vero ex se ipsis, quia 
+          ge<lb break="no" ed="#P" n="101"/>nerant vitali modo: actio autem vitalis 
+          sem<lb break="no" ed="#P" n="102"/>per est aliquo modo circa ipsum operans. Sic
+          <lb ed="#P" n="103"/>ergo vivens producitur ex vivente conjuncto,
+          <lb ed="#P" n="104"/>quia ex substantia, vel aliqua parte 
+          substan<lb break="no" ed="#P" n="105"/>tiae ejus generatur. Altera particula est in 
+          si<lb break="no" ed="#P" n="106"/>militudinem nature, de qua solet quaeri, an
+          <lb ed="#P" n="107"/>debeat esse similitudo specifica, vel sufficiat
+          <lb ed="#P" n="108"/>generica. Nam ingeneratione quorumdam 
+          vi<lb break="no" ed="#P" n="109"/>ventium haec posterior tantum invenitur. Sed
+          <lb ed="#P" n="110"/>quaestionem hanc philosophis omitto, iilud no-
+          <pb ed="#P" n="721"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bis sufficit, hanc generationem tunc fore 
+          per<lb break="no" ed="#P" n="2"/>fectam et maxime naturalem, quando fuerit
+          <lb ed="#P" n="3"/>in perfecta similitudine. Quocirca si talis esse
+          <lb ed="#P" n="4"/>possit, ut ad unitatem etiam naturae 
+          perve<lb break="no" ed="#P" n="5"/>niat, illa erit perfectissima. Addunt vero 
+          expo<lb break="no" ed="#P" n="6"/>sitores divi Thomae huic definitioni aliam 
+          par<lb break="no" ed="#P" n="7"/>ticulam, scilicet, eax vi processionis, quam ipse
+          <lb ed="#P" n="8"/>divus Thomas, dicta quaestione 27, articulo 4,
+          <lb ed="#P" n="9"/>et quaestione 35, articulo 2 et 4, contra Gentes,
+          <lb ed="#P" n="10"/>cap. 11, indicavit, fortasse vero illam expresse
+          <lb ed="#P" n="11"/>non addidit, quia in ipsa definitione 
+          subintel<lb break="no" ed="#P" n="12"/>ligi poterat. Nam processio, quae est 
+          genera<lb break="no" ed="#P" n="13"/>ratio, debet formaliter tendere ad 
+          similitudi<lb break="no" ed="#P" n="14"/>nem, quia tendit ad communicationem 
+          natu<lb break="no" ed="#P" n="15"/>rae et essentiae, ut talis est. Atque definitionem
+          <lb ed="#P" n="16"/>sic expositam amplectuntur theologi in prima,
+          <lb ed="#P" n="17"/>dist. 13. Indicavit etiam Ehas Cretensis in 
+          ora<lb break="no" ed="#P" n="18"/>tionem primam Nazianzeni, S Cum contra,
+          <lb ed="#P" n="19"/>dicens : G'eneratio propria est cum ea 
+          generan<lb break="no" ed="#P" n="20"/>lis essentia id quod gignitur, quantum ad 
+          essen<lb break="no" ed="#P" n="21"/>tiam, genitori simile producitur.
+        </p>
+        <p xml:id="szduep-181841-d1e427">
+          <lb ed="#P" n="22"/>5. Hinc ergo concluditur ratio. Nam 
+          pro<lb break="no" ed="#P" n="23"/>ductio Verbi aeterni est processio viventis a
+          <lb ed="#P" n="24"/>vivente, maxime conjuncto, tum, quia est per
+          <lb ed="#P" n="25"/>actum immanentem, tum etiam, quaa est de
+          <lb ed="#P" n="26"/>substantia ejus, ut in superioribus ostensum
+          <lb ed="#P" n="27"/>est : est etiam non solum in similitudinem, sed
+          <lb ed="#P" n="28"/>etiam in identitatem naturae, ut supra etiam
+          <lb ed="#P" n="29"/>demonstratum est. Eamque similitudinem ex
+          <lb ed="#P" n="30"/>yi sua confert : ergo nihil deest illi processioni
+          <lb ed="#P" n="31"/>ad propriissimam generationem. Antecedens
+          <lb ed="#P" n="32"/>quoad priores partes notum est ex dictis in 
+          su<lb break="no" ed="#P" n="33"/>perioribus, quoad ultimam vero in libro 
+          se<lb break="no" ed="#P" n="34"/>quenti tractandum est latius. Nunc satis est
+          <lb ed="#P" n="35"/>brevis declaratio, quia quoad hanc partem 
+          nul<lb break="no" ed="#P" n="36"/>la est inter Catholicos difficultas. Probatur 
+          er<lb break="no" ed="#P" n="37"/>go, quia per illam processionem formaliter
+          <lb ed="#P" n="38"/>communicatur secundae personae natura 
+          divi<lb break="no" ed="#P" n="39"/>na, ut intellectualis est, et ut tenet supremam
+          <lb ed="#P" n="40"/>excellentiam in illo gradu, quia 
+          communica<lb break="no" ed="#P" n="41"/>tur, ut est ipsum intelligere per essentiam, ut
+          <lb ed="#P" n="42"/>constat ex dictis in libro primo, et in 
+          sequen<lb break="no" ed="#P" n="43"/>tibus capitibus latius dicetur, sed perfecta et
+          <lb ed="#P" n="44"/>formalis assimilatio geniti consistit in 
+          recep<lb break="no" ed="#P" n="45"/>one ejusdem natura, secundum proprium
+          <lb ed="#P" n="46"/>gradum specialem ejus, ut per se constat, ergo
+          <lb ed="#P" n="47"/>in hac processione est assimilatio ad 
+          genera<lb break="no" ed="#P" n="48"/>tionem suffticientissima.
+        </p>
+        <p xml:id="szduep-181841-d1e488">
+          <lb ed="#P" n="49"/>6. Dico secundo. Secunda Trinitatis persona
+          <lb ed="#P" n="50"/>est vere, ac proprie Filius. Hoc assertum 
+          se<lb break="no" ed="#P" n="51"/>quitur ex praecedenti, estque de fide certum et
+          <lb ed="#P" n="52"/>in Scriptura expressum. Primo in dicto loco
+          <lb ed="#P" n="53"/>Psal. 2: Filius meus es tu, explicato ad 
+          He<lb break="no" ed="#P" n="54"/>braeos 1. Et ita etiam intelligitur a Patribus 
+          il<lb break="no" ed="#P" n="55"/>lud Proverb. 36: Quod est nomen ejus, et quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nomen Filii ejus, si nosti ? Ubi videri potest
+          <lb ed="#P" n="57"/>Jansenius, in Evangelio est frequens haec 
+          ve<lb break="no" ed="#P" n="58"/>ritas, Matthaei 3, 16 et 17, Marci 14, et alia
+          <lb ed="#P" n="59"/>statim referam. Definitiones autem 
+          ettestimo<lb break="no" ed="#P" n="60"/>nia Patrum notissima sunt. Ratio etiam est
+          <lb ed="#P" n="61"/>evidens ex dictis, quia Filius nihil alud est,
+          <lb ed="#P" n="62"/>quam vivens productum a vivente per 
+          pro<lb break="no" ed="#P" n="63"/>priam generationem, ostensum est autem 
+          Ver<lb break="no" ed="#P" n="64"/>bum produci per veram generationem, ergo.
+        </p>
+        <p xml:id="szduep-181841-d1e527">
+          <lb ed="#P" n="65"/>7. Dico tertio. Verbum divinum et Filius Dei
+          <lb ed="#P" n="66"/>idem sunt, et quoad personam, et quoad 
+          natu<lb break="no" ed="#P" n="67"/>ram. Est de fide, quam contra praedictos 
+          erro<lb break="no" ed="#P" n="68"/>res ostendunt Patres in principio citati, et 
+          Ire<lb break="no" ed="#P" n="69"/>naeus etiam lib. 2, c. Aetlib. 4, c. 37, Athanasius,
+          <lb ed="#P" n="70"/>Epist. ad Epictetum, etoratione 2, contra 
+          Aria<lb break="no" ed="#P" n="71"/>nos, Ambrosius, l. 1, de Fide, c. 2, et l. 4, c. 3,
+          <lb ed="#P" n="72"/>Augustinus 7, de Trinitate, cap. 2 et seq. Et
+          <lb ed="#P" n="73"/>convincitur ex Joanne 1, ubi idem, qui prius
+          <lb ed="#P" n="74"/>dicitur Verbum, postea dicitur Caro factum, ac
+          <lb ed="#P" n="75"/>tandem vocatur Unigenitus, vidimus gloriam
+          <lb ed="#P" n="76"/>ejus gloriam quasi unigeniti a Patre. Idem
+          <lb ed="#P" n="77"/>constat ex Matthaei ultimo juncto testimonio 1,
+          <lb ed="#P" n="78"/>Joan. 5. Nam eadem secunda persona 
+          Trini<lb break="no" ed="#P" n="79"/>tatis, quae in priori loco vocatur F'ilius, in 
+          pos<lb break="no" ed="#P" n="80"/>teriori appellatur Verbum. Imo in eodem loco
+          <lb ed="#P" n="81"/>Joannis vocatur etiam verus Filius, ut simus
+          <lb ed="#P" n="82"/>in vero Filio ejus. :
+        </p>
+        <p xml:id="szduep-181841-d1e569">
+          <lb ed="#P" n="83"/>8. Ratio etiam est evidens, ex principiis 
+          fi<lb break="no" ed="#P" n="84"/>dei, quoad priorem quidem partem, quia si
+          <lb ed="#P" n="85"/>non essent una persona, vel quatuor essent
+          <lb ed="#P" n="86"/>personae Trinitatis, vel Verbum, aut Filius 
+          ex<lb break="no" ed="#P" n="87"/>cludendus esset a numero divinarum 
+          persona<lb break="no" ed="#P" n="88"/>rum : utrumque autem est aperte contra 
+          fi<lb break="no" ed="#P" n="89"/>dem.Quoad alteram vero partem probatur,quia
+          <lb ed="#P" n="90"/>si Filius Dei non esset Filius secundum 
+          divi<lb break="no" ed="#P" n="91"/>nam naturam, non esset verus, et naturalis
+          <lb ed="#P" n="92"/>Filius, et consequenter nec Deus esset Pater
+          <lb ed="#P" n="93"/>ab aeterno, quae sunt aperte contra fidem: 
+          Ver<lb break="no" ed="#P" n="94"/>bum ergo etiam in natura sua Filius est. Quod
+          <lb ed="#P" n="95"/>etiam ex dictis de secundae personae 
+          processio<lb break="no" ed="#P" n="96"/>ne facile ostendi potest, quia illa processio 
+          ta<lb break="no" ed="#P" n="97"/>lis est, ut Pater intelligens communicet 
+          perso<lb break="no" ed="#P" n="98"/>nae, quam producit, suum proprium 
+          intellige<lb break="no" ed="#P" n="99"/>re, quod est substantiale et essentiale esse 
+          ip<lb break="no" ed="#P" n="100"/>sius Patris : ergo illa productio Verbi simul est
+          <lb ed="#P" n="101"/>etiam perfectissima generatio, quia est 
+          com<lb break="no" ed="#P" n="102"/>municatio ejusdem vitae substantialis et 
+          essen<lb break="no" ed="#P" n="103"/>tialis, ergo Verbum est Filius.
+        </p>
+        <p xml:id="szduep-181841-d1e618">
+          <lb ed="#P" n="104"/>9. Sed objici possunt nonnulla Scripturae
+          <lb ed="#P" n="105"/>testimonia, in quibus Verbum a Filio 
+          distin<lb break="no" ed="#P" n="106"/>gui videtur Actor. 10. Verbum misit filüs
+          <lb ed="#P" n="107"/>Israel Hvangelizans per J esum Christum : sunt
+          <lb ed="#P" n="108"/>ergo distincta, Verbum et Christus, et ad 
+          He<lb break="no" ed="#P" n="109"/>braeos 1, dicitur de Filio, Portansque omnia
+          <lb ed="#P" n="110"/>Verbo virtutis sue, et Apocal. 1: Testimonium
+          <pb ed="#P" n="722"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>perhibuit Verbo Dei et testimonium Jesu 
+          Chris<lb break="no" ed="#P" n="2"/>ti: Confirmatur etiam ratione, quia alas hae
+          <lb ed="#P" n="3"/>voces Verbum et Filius essent synonymae:
+          <lb ed="#P" n="4"/>quod falsum est, quia diversas important 
+          ha<lb break="no" ed="#P" n="5"/>bitudines. -
+        </p>
+        <p xml:id="szduep-181841-d1e651">
+          <lb ed="#P" n="6"/>10. Ad primum testimonium Athanasius,
+          <lb ed="#P" n="7"/>oratione in illud dictum Deum de Deo, 
+          conce<lb break="no" ed="#P" n="8"/>dit, ibi esse sermonem de Verbo divino et 
+          ne<lb break="no" ed="#P" n="9"/>gat consequentiam. Quia interdum in 
+          Scriptu<lb break="no" ed="#P" n="10"/>ra sit repetitio ejusdem personae per proprium
+          <lb ed="#P" n="11"/>ejus nomen, ut 1, Corinth. 1: Zspectantes
+          <lb ed="#P" n="12"/>beatam spem et adventum Domini nostri Jesu
+          <lb ed="#P" n="13"/>Christi, qui et confirmabit vos inculpabiles 
+          us<lb break="no" ed="#P" n="14"/>que in diem Domini nostri Jesu Christi, quam
+          <lb ed="#P" n="15"/>expositionem late etiam prosequitur in libro
+          <lb ed="#P" n="16"/>contra Samosatos. Et confirmatur, quia statim
+          <lb ed="#P" n="17"/>de eodem Christo ibi subjungitur, ZTic est 
+          om<lb break="no" ed="#P" n="18"/>nium Dominus. Secundo vero responderi 
+          po<lb break="no" ed="#P" n="19"/>test, ibi non esse sermonem de Verbo Divino,
+          <lb ed="#P" n="20"/>sed de verbo evangelico, quod Deus 
+          annun<lb break="no" ed="#P" n="21"/>tiari voluit hominibus per Jesum Christum.
+          <lb ed="#P" n="22"/>Ita Theophylactus, et significanter etiam 
+          Glos<lb break="no" ed="#P" n="23"/>sa, Carthusius, et Cajetanus.
+        </p>
+        <p xml:id="szduep-181841-d1e693">
+          <lb ed="#P" n="24"/>11. In secundo autem testimonio, quamvis
+          <lb ed="#P" n="25"/>Basilius, libro de Spiritu sancto, cap. 11, per
+          <lb ed="#P" n="26"/>Verbum ibi Spiritum sanctum intelligat, 
+          ta<lb break="no" ed="#P" n="27"/>men et improprie utitur illa voce, et expositio
+          <lb ed="#P" n="28"/>necessaria non est. Nam si per Verbum ibi 
+          Ver<lb break="no" ed="#P" n="29"/>bum divinum intelligamus, intransitive 
+          expo<lb break="no" ed="#P" n="30"/>nendum est Verbum virtutis sue, id est, quod
+          <lb ed="#P" n="31"/>est virtus sua, ut voluit ibi D. Thomas, lect.2.
+          <lb ed="#P" n="32"/>Probabilius autem videtur ibi Verbwmn non pro
+          <lb ed="#P" n="33"/>Filio, sed pro imperio sumptum esse, nam illo
+          <lb ed="#P" n="34"/>Verbo dixit, et facta sunt et eodem omnia 
+          con<lb break="no" ed="#P" n="35"/>tinet. Unde ibi non est vox Aoyocu, sed prnua,
+          <lb ed="#P" n="36"/>quae sermonem significat, non divinam 
+          perso<lb break="no" ed="#P" n="37"/>nam. Atque ita exponunt Chrysostomus et
+          <lb ed="#P" n="38"/>Graeci, consentitque D. Thomas, 1 part., q. 34,
+          <lb ed="#P" n="39"/>art. 9, ad 5.
+        </p>
+        <p xml:id="szduep-181841-d1e730">
+          <lb ed="#P" n="40"/>12. Et utraque expositio potest ad tertium
+          <lb ed="#P" n="41"/>testimonium accommodari. Probabilius autem
+          <lb ed="#P" n="42"/>videtur ibi esse sermonem de Verbo divino,
+          <lb ed="#P" n="43"/>quia ibi est vox logos, et cum articulo, quia
+          <lb ed="#P" n="44"/>emphasim habet, et quia huic Verbo maxime
+          <lb ed="#P" n="45"/>praebuit testimonium Joannes, et quia 
+          sequen<lb break="no" ed="#P" n="46"/>tia verba non discrepant, sed potius 
+          confir<lb break="no" ed="#P" n="47"/>mant veritatem. Nam hoc testimonium Jesu
+          <lb ed="#P" n="48"/>Christi , quia nimirum Verbum, et Christus
+          <lb ed="#P" n="49"/>idem sunt, quod in prima canonica, cap. 1,
+          <lb ed="#P" n="50"/>idem Joannes diserte satis explicuit, dicens in
+          <lb ed="#P" n="51"/>principio : Quod fuit ab initio, quod 
+          audivi<lb break="no" ed="#P" n="52"/>mus, quod, vidimus de Verbo vite, et infra:
+          <lb ed="#P" n="53"/>Quod vidimus, et audivimus, annuntiamus 
+          vo<lb break="no" ed="#P" n="54"/>Dis, ut societas nostra sit cum Patre, et cum
+          <lb ed="#P" n="55"/>Filio ejus JESU Christo. Cum ergo nobis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Dei Filius, et Verbum, et Jesus Christus 
+          praedi<lb break="no" ed="#P" n="57"/>catur, eadem persona annunuiatur.
+        </p>
+        <p xml:id="szduep-181841-d1e774">
+          <lb ed="#P" n="58"/>13. Ad confirmationem absolute negatur
+          <lb ed="#P" n="59"/>sequela. Significant quidem illae voces eamdem
+          <lb ed="#P" n="60"/>rem, eamdemque personam, atque adeo 
+          eam<lb break="no" ed="#P" n="61"/>dem relationem, quo sensu dixit Augustinus T,
+          <lb ed="#P" n="62"/>de Trinit., cap. 2. Fodem quippe Verbum, quo
+          <lb ed="#P" n="63"/>Filius, et eodem Filius, quo Verbum. 
+          Nihilomi<lb break="no" ed="#P" n="64"/>nus tamen sub diverso conceptu illam 
+          perso<lb break="no" ed="#P" n="65"/>nam significat. Quod intelligi potest ex eo,
+          <lb ed="#P" n="66"/>quod illae voces abstracte sumptae, communes
+          <lb ed="#P" n="67"/>sunt Deo, et creaturis, et nomen Filius res
+          <lb ed="#P" n="68"/>creatas longe diversas sub se comprehendit
+          <lb ed="#P" n="69"/>quam nomen Verbum. Ergo applicatae secundae
+          <lb ed="#P" n="70"/>personae Trinitatis, sub diversa ratione illam
+          <lb ed="#P" n="71"/>significant. Unde verbum dicit respectum ad
+          <lb ed="#P" n="72"/>creaturas, seu res distinctas, quem non dicit
+          <lb ed="#P" n="73"/>Filius, ut sic: Filius ergo solum dicit 
+          proces<lb break="no" ed="#P" n="74"/>sionem in similitudine naturae : Verbum 
+          au<lb break="no" ed="#P" n="75"/>tem explicat processionem intellectualem, et
+          <lb ed="#P" n="76"/>ideo dixit Ambrosius, lib. 1, de Fide, cap. 2:
+          <lb ed="#P" n="77"/>Verbwm dicitur, quia immaculatum, Filius quia
+          <lb ed="#P" n="78"/>genitus, et Athanasius, orat. 9, contra Arianos:
+          <lb ed="#P" n="79"/>Nomoen Filii (dicit) identitatem substantiee 
+          sig<lb break="no" ed="#P" n="80"/>nificare nomen Verbi, quod non sit materialiter
+          <lb ed="#P" n="81"/>genitum, idem fere Dasilius, homilia in Joan.
+          <lb ed="#P" n="82"/>prima, et ex dicendis capite sequenti hoc fiet
+          <lb ed="#P" n="83"/>manifestius.
+        </p>
+        <p xml:id="szduep-181841-d1e833">
+          <lb ed="#P" n="84"/>14. Ex dictis intelligitur, filiationem, 
+          gene<lb break="no" ed="#P" n="85"/>rationem, et paternitatem (quod supra in hunc
+          <lb ed="#P" n="86"/>locum remisi) longe diverso modo in divino
+          <lb ed="#P" n="87"/>Verbo, et aeterno Patre, quam in creaturis 
+          in<lb break="no" ed="#P" n="88"/>veniri. Nam in Deo est generatio omnino 
+          im<lb break="no" ed="#P" n="89"/>materialis, immutabilis, aeterna, sine 
+          substan<lb break="no" ed="#P" n="90"/>tiae divisione, ac denique sine aliis 
+          imperfec<lb break="no" ed="#P" n="91"/>tionibus, quae in creata generatione 
+          inveniun<lb break="no" ed="#P" n="92"/>tur, ideoque sicut alia nomina communia Deo,
+          <lb ed="#P" n="93"/>et creaturis, analoga sunt, ita etiam haec. Quod
+          <lb ed="#P" n="94"/>non solum verum est de filiatione illa, et 
+          pa<lb break="no" ed="#P" n="95"/>ternitate, quae inter homines esse potest, sed
+          <lb ed="#P" n="96"/>etiam de Filiatione, quae esse potest hominis ad
+          <lb ed="#P" n="97"/>Deum. Quia haec etiam est per participationem
+          <lb ed="#P" n="98"/>tantum, vel adoptionem, atque adeo impropria,
+          <lb ed="#P" n="99"/>et metaphorica, ut latius dixi in3 part., q. 23.
+          <lb ed="#P" n="100"/>Unde etiam e contrario, hoc nomen Pater 
+          dic<lb break="no" ed="#P" n="101"/>tum de Deo notionaliter, vel essentialiter, 
+          ana<lb break="no" ed="#P" n="102"/>logum est, et prius, ac proprius convenit, 
+          qua<lb break="no" ed="#P" n="103"/>tenus notionale est, ut ex dictis satis constat.
+          <lb ed="#P" n="104"/>Nec refert, quod quatenus essentiale est, est
+          <lb ed="#P" n="105"/>commune tribus personis, nam dicit 
+          relatio<lb break="no" ed="#P" n="106"/>nem ad creaturas, quae autem hujusmodi sunt,
+          <lb ed="#P" n="107"/>etiam si sint communia, posteriora sunt 
+          no<lb break="no" ed="#P" n="108"/>tionalibus. Quae omnia clara sunt ex dictis,
+          <lb ed="#P" n="109"/>et ex his, quae ass D. Thomas, 1 p., q. 33,
+          <lb ed="#P" n="110"/>art. 3.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

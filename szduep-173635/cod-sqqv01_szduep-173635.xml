@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="686"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-173635"><!-- t3-l6c7 -->
+        <head xml:id="szduep-173635-Hd1e101">Caput 7</head>
+        <head xml:id="szduep-173635-Hd1e103" type="question-title">Quomodo notionales actus de deo, divina essentia, potentia, aut relatione, praedicari possest</head>
+        <p xml:id="szduep-173635-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>CAPUT VII.
+          <lb ed="#P" n="53"/>QUOMODO NOTIONALES ACTUS DE DEO, DIVINA 
+          ES<lb break="no" ed="#P" n="54"/>SENTIA, POTENTIA, AUT RELATIONE, 
+          PRAEDI<lb ed="#P" n="55" break="no"/>CARI POSSEST.
+        </p>
+        <p xml:id="szduep-173635-d1e119">
+          <lb ed="#P" n="56"/>1. Quamvis de loquendi modo in hac 
+          ma<lb break="no" ed="#P" n="57"/>teria nonnulla obiter in superioribus tacta sint,
+          <lb ed="#P" n="58"/>ad complementum doctrinae aliqua hoc loco
+          <lb ed="#P" n="59"/>addere necesse est. Multa enim de his 
+          locu<lb break="no" ed="#P" n="60"/>tionibus scribunt theologi, praesertim D. 
+          Tho<lb break="no" ed="#P" n="61"/>mas t. part. quaest. 39 et 41, quae omnia 
+          bre<lb break="no" ed="#P" n="62"/>viter quinque regulis comprehendi possunt.
+        </p>
+        <p xml:id="szduep-173635-d1e137">
+          <lb ed="#P" n="63"/>2. Prima regula. — Prima regula est, Actus
+          <lb ed="#P" n="64"/>notionales propriissime, ac verissime 
+          praedi<lb break="no" ed="#P" n="65"/>cantur de singulis personis, propriis 
+          nomini<lb break="no" ed="#P" n="66"/>bus significatis in concreto, respective, seu
+          <lb ed="#P" n="67"/>distributione accommodata, ut Pater generat,
+          <lb ed="#P" n="68"/>F ilius generatur. Et sub eadem regula 
+          com<lb break="no" ed="#P" n="69"/>prehenditur haec locutio, Spirator spirat, vel
+          <lb ed="#P" n="70"/>Pater etiam, aut Filius spirat. Totum hoc est
+          <lb ed="#P" n="71"/>de fide, et ita clarum, ut non egeat nova 
+          pro<lb break="no" ed="#P" n="72"/>batione. Solum oportet observare, ut si 
+          ter<lb break="no" ed="#P" n="73"/>minus notionalis actus in praedicatione 
+          expri<lb break="no" ed="#P" n="74"/>matur, cum debita proportione explicetur. Ut
+          <lb ed="#P" n="75"/>si Pater dicitur generare, solum addamus 
+          Fi<lb break="no" ed="#P" n="76"/>lium, vel alium aequivalentem terminum, quia
+          <lb ed="#P" n="77"/>ille actus solum illum terminum respicit, et sic
+          <lb ed="#P" n="78"/>de aliis. Propter quod, haec est falsa locutio,
+          <lb ed="#P" n="79"/>Pater genuit se, quia illud relativum eamdem
+          <lb ed="#P" n="80"/>personam , quae praecessit , refert. Augustinus
+          <lb ed="#P" n="81"/>autem, Epistola 66, dixit: Pater genuit 
+          alte<lb break="no" ed="#P" n="82"/>rim se. Cum vero dixit, alterum , 
+          distinctio<lb break="no" ed="#P" n="83"/>nem personarum satis significavit . illud vero
+          <lb ed="#P" n="84"/>se non in omni rigore, et proprietate, sed 
+          me<lb break="no" ed="#P" n="85"/>taphorice sumpsit. ad significandam summam
+          <lb ed="#P" n="86"/>similitudinem id est, genuit alterum sibi 
+          simi<lb break="no" ed="#P" n="87"/>lem. Nam, et sic communiter loquimur, et ita
+          <lb ed="#P" n="88"/>etiam exposuit D. Thomas, dict. q. 39. art. 4.
+          <lb ed="#P" n="89"/>Quod vero idem Augustinus, dixit 3, contra
+          <lb ed="#P" n="90"/>Maxim. , cap. 6: Pater genuit, quod ipse est,
+          <lb ed="#P" n="91"/>alium sensum habet, ut statim exponam.
+        </p>
+        <p xml:id="szduep-173635-d1e203">
+          <lb ed="#P" n="92"/>3. Secunda regula. — Secunda regula est :
+          <lb ed="#P" n="93"/>Actus notionales non praedicantur de 
+          proprie<lb break="no" ed="#P" n="94"/>tatibus in abstracto significatis, id est, nom 
+          di<lb break="no" ed="#P" n="95"/>cimus : Paternitas generat, etc. lta docet divus
+          <lb ed="#P" n="96"/>Thomas, quaest. 32, art. 2, ad 2, ubi 
+          Cajeta<lb break="no" ed="#P" n="97"/>nus, Torres et alii. Ratio reddi potest, quia 
+          ae<lb break="no" ed="#P" n="98"/>tiones sunt suppositorum et non formarum in
+          <lb ed="#P" n="99"/>abstracto. Responderi autem potest, quod 
+          in<lb break="no" ed="#P" n="100"/>terdum tribuuntur formis subsistentibus, 
+          prop<lb break="no" ed="#P" n="101"/>ter carum simplicitatem et identitatem cum 
+          per<lb break="no" ed="#P" n="102"/>sonis, sic enim dicimus: Deitaus creat. Sed
+          <lb ed="#P" n="103"/>observandum hic est, quod supra notavi, has
+          <pb ed="#P" n="687"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>locutiones, quae propter identitatem 
+          admittun<lb break="no" ed="#P" n="2"/>tur, non esse extendendas cum aliquo 
+          absur<lb break="no" ed="#P" n="3"/>do, vel contra communem usum. Verba ergo
+          <lb ed="#P" n="4"/>significantia actionem reddunt sensum 
+          forma<lb break="no" ed="#P" n="5"/>lem, quando attribuuntur formis in abstracto,
+          <lb ed="#P" n="6"/>et ideo actus attribui potest formae, quae est
+          <lb ed="#P" n="7"/>principium formale ejus, non vero alteri. Sic
+          <lb ed="#P" n="8"/>dicere possumus, justitiam punire, non vero
+          <lb ed="#P" n="9"/>parcere, aut miscreri : dicimus ctiam, Patrem
+          <lb ed="#P" n="10"/>producere Filium intellectu, non autem 
+          volun<lb break="no" ed="#P" n="11"/>tate. Proprietas autem personalis cst 
+          princi<lb break="no" ed="#P" n="12"/>pium formale actuum notionalium, ut 
+          osten<lb break="no" ed="#P" n="13"/>sum est, et ideo illie praedicationes non 
+          admit<lb break="no" ed="#P" n="14"/>tuntur, neque usurpantur. Qua propter nihil
+          <lb ed="#P" n="15"/>valet haec collectio: Pateruitas est Pater et
+          <lb ed="#P" n="16"/>Pater generat : ergo Pateruitas gemerat, 
+          va<lb break="no" ed="#P" n="17"/>riatur enim, (ut Logici aiunt) appellatio, 
+          sen<lb break="no" ed="#P" n="18"/>sus identicus mutatur in formalem. Verbum
+          <lb ed="#P" n="19"/>enim substantivum, est (juxta communcm 
+          mo<lb break="no" ed="#P" n="20"/>dum significandi et loquendi) facile usurpatur
+          <lb ed="#P" n="21"/>in sensu identico, quando inter praedicatum,
+          <lb ed="#P" n="22"/>et subjectum in re non ecst distinctio: et ideo
+          <lb ed="#P" n="23"/>hae propositiones admittuntur : Palternitas est
+          <lb ed="#P" n="24"/>Deus,est Pater, ctc. Verhum autem adjectivum
+          <lb ed="#P" n="25"/>significans actionem facit sensum formalem, et
+          <lb ed="#P" n="26"/>ideo hae non admittuntur : Palternitas 
+          intel<lb break="no" ed="#P" n="27"/>ligit auL creat, etc. Quae omnia maxime 
+          ni<lb break="no" ed="#P" n="28"/>tuntur communi modo significandi et loquendi
+          <lb ed="#P" n="29"/>sapientum.
+        </p>
+        <p xml:id="szduep-173635-d1e299">
+          <lb ed="#P" n="30"/>4. Tertia regula. — Tertia regula est. 
+          Ac<lb break="no" ed="#P" n="31"/>tus notionales recte praedicantur de Deo 
+          si<lb break="no" ed="#P" n="32"/>gnificato per omnia essentialia in concreto
+          <lb ed="#P" n="33"/>sumpta, ut Daeus generat, etc. Quod est de
+          <lb ed="#P" n="34"/>fide : et ita in hoc consentiunt omnes theologi,
+          <lb ed="#P" n="35"/>D. Thomas, dict. quaest. 39, art. 4, ubi 
+          om<lb break="no" ed="#P" n="36"/>nes interpretes, idem D. Thomas, 
+          Bonaven<lb break="no" ed="#P" n="37"/>tura, Scotus, et alii cum Magistro in 1, d. 4.
+          <lb ed="#P" n="38"/>Et sumitur ex Scriptura, nam, Matth. 16,
+          <lb ed="#P" n="39"/>Christus dicitur Filius Dei vivi. Item ex 
+          Sym<lb break="no" ed="#P" n="40"/>bolo, ubi Filius dicitur Deus de Deo. Quam 
+          lo<lb break="no" ed="#P" n="41"/>cutionem et etiam de Spiritu sancto veram
+          <lb ed="#P" n="42"/>esse, ostendit late Anselmus, libro de 
+          proces<lb break="no" ed="#P" n="43"/>sione Spiritus sancti, cap. 5 et 7. Ratio vero
+          <lb ed="#P" n="44"/>est, quia nomen concretum, licet formaliter
+          <lb ed="#P" n="45"/>significet naturam communem , ex vi modi
+          <lb ed="#P" n="46"/>significandi , aptum est supponere pro 
+          perso<lb break="no" ed="#P" n="47"/>na, ut patet in his praedicationibus , homo
+          <lb ed="#P" n="48"/>serilit, aut generat - et ratio est, quia tale 
+          no<lb break="no" ed="#P" n="49"/>men significat naturam ut per se stantem, et
+          <lb ed="#P" n="50"/>ut est in suo supposito. Ergo in hac 
+          proposi<lb break="no" ed="#P" n="51"/>tione, Deus generat, subjectum recte 
+          suppo<lb break="no" ed="#P" n="52"/>nit pro persona Patris, ergo est vera locutio,
+          <lb ed="#P" n="53"/>nam ad veritatem talis locutionis affirmativae
+          <lb ed="#P" n="54"/>sufficit, ut praedicatum conveniat uni 
+          suppo<lb break="no" ed="#P" n="55"/>sito talis naturae.
+        </p>
+        <p xml:id="szduep-173635-d1e358">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>5. An his Deus generet. — Dubitant autem
+          <lb ed="#P" n="57"/>theologi, an possint illud subjectum supponere
+          <lb ed="#P" n="58"/>pro hboc Deo, ut sic, ita ut de illo verificetur
+          <lb ed="#P" n="59"/>praedicatum, et tota propositio. Nam 
+          Cajeta<lb break="no" ed="#P" n="60"/>nus, in dicto articulo, partem affirmativam 
+          se<lb break="no" ed="#P" n="61"/>quitur, quia sicut tenet, Deitatem, ut 
+          subsis<lb break="no" ed="#P" n="62"/>lentem ex se, ac praecisis per rationem 
+          perao<lb break="no" ed="#P" n="63"/>nalitatibus, esse hunc Deum, ita putat in illa
+          <lb ed="#P" n="64"/>propositione Deus gemerat, subjectum 
+          suppo<lb break="no" ed="#P" n="65"/>nere pro hoc Peo abstrahendo secundum 
+          ra<lb break="no" ed="#P" n="66"/>tioncm a personis. Torres vero ibidem hanc
+          <lb ed="#P" n="67"/>sententiam acriter impugnat. Ut autem illam
+          <lb ed="#P" n="68"/>impugnet, pro fundamento sumit, Deum ex
+          <lb ed="#P" n="69"/>se, ac semper supponere immediate pro 
+          perso<lb break="no" ed="#P" n="70"/>nis. Quod quidem fundamentum, nec 
+          neces<lb break="no" ed="#P" n="71"/>sarium, nec verum est : nam verissimum eet,
+          <lb ed="#P" n="72"/>Deum ex se, ratione subsistentise essentialis
+          <lb ed="#P" n="73"/>habere pro quo immediate supponat, 
+          abstra<lb break="no" ed="#P" n="74"/>hendo ratione a personis, atque adeo si 
+          ter<lb break="no" ed="#P" n="75"/>minus Deus aliunde non restringatur ita 
+          sup<lb break="no" ed="#P" n="76"/>ponerc, ut supra etiam tactum est.
+        </p>
+        <p xml:id="szduep-173635-d1e408">
+          <lb ed="#P" n="77"/>6. Resolutio. — Nihilominus in illa 
+          proposi<lb break="no" ed="#P" n="78"/>tione dicendum est, non posee ita supponere
+          <lb ed="#P" n="79"/>subjectum illud, ut de hoc Deo sic sumpto 
+          prae<lb break="no" ed="#P" n="80"/>dicatum verificetur. Ratio est clara, quia hic
+          <lb ed="#P" n="81"/>Deus, ut abstrahens a personis, non potest
+          <lb ed="#P" n="82"/>esse principium, quod, actuum notionalium,
+          <lb ed="#P" n="83"/>quia hic Deus non distinguitur realiter ab ulla
+          <lb ed="#P" n="84"/>persona : ergo ut sic non potest realiter 
+          pro<lb break="no" ed="#P" n="85"/>ducerc. Si vero hic Deus non ita abstrahatur,
+          <lb ed="#P" n="86"/>sed indefinite sumatur pro Divinitate, ut 
+          sub<lb break="no" ed="#P" n="87"/>sistente, sive immediate in se, sive 
+          incommn<lb break="no" ed="#P" n="88"/>nicabiliter in persona, sic verificatur illa 
+          pro<lb break="no" ed="#P" n="89"/>positio de hoc Deo, non tamen ratione 
+          subsis<lb break="no" ed="#P" n="90"/>tentis communis, sed solum ratione Patris.
+          <lb ed="#P" n="91"/>Quia ut dicebam, ad veritatem propositionis
+          <lb ed="#P" n="92"/>indefinitae satis est, ut praedicatum de uno 
+          sin<lb break="no" ed="#P" n="93"/>gulari verificetur, talis vero est, vel eamdem
+          <lb ed="#P" n="94"/>rationem habet illa propositio Deus generat,
+          <lb ed="#P" n="95"/>si in ea subjectum illo modo supponat.
+        </p>
+        <p xml:id="szduep-173635-d1e452">
+          <lb ed="#P" n="96"/>7. In hae Deus generat quomodo Deus 
+          sup<lb break="no" ed="#P" n="97"/>ponat. — Dubitari autem ulterius solet, an 
+          ve<lb break="no" ed="#P" n="98"/>rum sit ita supponere indefinite, vel potius
+          <lb ed="#P" n="99"/>definite, ac determinate pro sola persona 
+          Pa<lb break="no" ed="#P" n="100"/>tris. Nam Durandus, et alii statim citandi 
+          vo<lb break="no" ed="#P" n="101"/>lunt, ibi Deum supponere indefinite pro 
+          om<lb break="no" ed="#P" n="102"/>nibus personis, verificari autem de una. Quod
+          <lb ed="#P" n="103"/>satis est ad veritatem propositionis indefinitae,
+          <lb ed="#P" n="104"/>seu particularis. Quamvis enim Deus sit 
+          ter<lb break="no" ed="#P" n="105"/>minus singularis ex parte natura, imitatur
+          <lb ed="#P" n="106"/>terminos communes ex parte personarum.
+          <lb ed="#P" n="107"/>D. Thomas autem, dicto art. 4, vuit, in illa
+          <lb ed="#P" n="108"/>propositione subjectum restringi a praedicato
+          <lb ed="#P" n="109"/>et determinari, ut solum supponat pro persona
+          <lb ed="#P" n="110"/>Patris, quia illa soli potest convenire, gene-
+          <pb ed="#P" n="688"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rare. Unde in hae, Deus spirat, supponit pro
+          <lb ed="#P" n="2"/>solis personis Patris, et Filii. Quae sententia
+          <lb ed="#P" n="3"/>mnihi probatur, quia semper loquimur de Deo,
+          <lb ed="#P" n="4"/>ut de re omnino singulari, et certa, quoad
+          <lb ed="#P" n="5"/>praedicatum, quod de illo affirmamus. Potest
+          <lb ed="#P" n="6"/>etiam reddi ratio, quia quando de communi
+          <lb ed="#P" n="7"/>termino praedicatur aliquid, quod solum potest
+          <lb ed="#P" n="8"/>convenire communi naturae, ut sic, subjectum
+          <lb ed="#P" n="9"/>restringitur a praedicato ad supponendum 
+          tan<lb break="no" ed="#P" n="10"/>tum pro illa, ut in hac Homo est species, et in
+          <lb ed="#P" n="11"/>hac Deus communis tribus personis, ergo, ete
+          <lb ed="#P" n="12"/>contrario, quando praedicatur aliquid de 
+          ter<lb break="no" ed="#P" n="13"/>mino communi , quod tantum ratione unius
+          <lb ed="#P" n="14"/>personae potest illi convenire, subjectum illud
+          <lb ed="#P" n="15"/>dcterminatur an supponendum pro illa 
+          per<lb break="no" ed="#P" n="16"/>sona. Quia ergo generare solum ratione unius
+          <lb ed="#P" n="17"/>personae potest convenire Deo, ideo 
+          determi<lb break="no" ed="#P" n="18"/>natur subjectum ad supponendum pro illa.
+        </p>
+        <p xml:id="szduep-173635-d1e530">
+          <lb ed="#P" n="19"/>8. Dices: in hac locutione, ZHomo scribit,
+          <lb ed="#P" n="20"/>non restringitur praedicatum ad supponendum
+          <lb ed="#P" n="21"/>pro solis personis scribentibus, sed indifferenter
+          <lb ed="#P" n="22"/>supponit pro omnibus, licet verificetur de solis
+          <lb ed="#P" n="23"/>scribentibus ; ergo similiter in praesenti. 
+          Res<lb break="no" ed="#P" n="24"/>pondetur negando consequentiam, quia in
+          <lb ed="#P" n="25"/>exemplo adducto, praedicatum ex se est 
+          indif<lb break="no" ed="#P" n="26"/>ferens, et potest convenire omnibus 
+          homini<lb break="no" ed="#P" n="27"/>bus : et ideo non restringit suppositionem.
+          <lb ed="#P" n="28"/>Nam illa descriptio suppositionis, quam 
+          ali<lb break="no" ed="#P" n="29"/>qui dialectici tradunt, scilicet, est acceptio 
+          ter<lb break="no" ed="#P" n="30"/>mini pro re, de qua verificatur, ut bona sit,
+          <lb ed="#P" n="31"/>intelligi debet secundum aptitudinem, id est,
+          <lb ed="#P" n="32"/>erificari potest, et ideo in hac locutione, 
+          Ho<lb break="no" ed="#P" n="33"/>mo currit, subjectum non supponit pro 
+          ho<lb break="no" ed="#P" n="34"/>mine in communi, quia praedicatum illi 
+          con<lb break="no" ed="#P" n="35"/>venire non potest. In praesenti autem 
+          praedica<lb break="no" ed="#P" n="36"/>tum notionale, ut generare, non solum de
+          <lb ed="#P" n="37"/>facto convenit soli Patri, sed etiam soli illi
+          <lb ed="#P" n="38"/>convenire potest, et ideo non relinquit 
+          indit<lb break="no" ed="#P" n="39"/>ferentem suppositionem, sed restrictam.
+        </p>
+        <p xml:id="szduep-173635-d1e579">
+          <lb ed="#P" n="40"/>9. Nota. — Ultimo in hac regula 
+          observan<lb break="no" ed="#P" n="41"/>dum est, ut si in tali praedicatione terminus
+          <lb ed="#P" n="42"/>exprimatur, id fiat debito modo (sicut in primo
+          <lb ed="#P" n="43"/>adnotavi) ita ut, si terminus per nomen 
+          perso<lb break="no" ed="#P" n="44"/>nale exprimatur, actus tribuatur illi personae,
+          <lb ed="#P" n="45"/>cul convenit, ut, Deus generat Verbum aut
+          <lb ed="#P" n="46"/>Filium. Si autem exprimatur per terminum
+          <lb ed="#P" n="47"/>essentialem, nihil addatur ex parte praedicati,
+          <lb ed="#P" n="48"/>quod suppositionem distrahat. Nam haec est
+          <lb ed="#P" n="49"/>vera locutio: Deus genwit Deum, hae vero sunt
+          <lb ed="#P" n="50"/>falsee: Deus genuit se Deum, et Deus genuit
+          <lb ed="#P" n="51"/>alium Deum. Quia prior confundit personas,
+          <lb ed="#P" n="52"/>posterior distinguit naturas, ut recte docuerunt
+          <lb ed="#P" n="53"/>Hugo de sancto Vict., in Sum. sententiarum,
+          <lb ed="#P" n="54"/>tract. 1, cap. 11, D. Thomas et alii theologi
+          <lb ed="#P" n="55"/>supra citati, et Marsilius, in 1, quaest. 8. Neque
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illae duae propositiones sunt immediate 
+          oppo<lb break="no" ed="#P" n="57"/>sitae, quia potest esse alia persona, licet non sit
+          <lb ed="#P" n="58"/>alius Deus. Hoc autem modo fieri potest 
+          praedi<lb break="no" ed="#P" n="59"/>catio: Deus genuwit alaum qua est Deus, vel, 
+          a<lb break="no" ed="#P" n="60"/>lium qui est idem Deus. Existimo etiam 
+          simpli<lb break="no" ed="#P" n="61"/>citer dici posse: Deus genuit eundem Deum,
+          <lb ed="#P" n="62"/>quia solum denotatur identitas naturae et non
+          <lb ed="#P" n="63"/>excluditur distinctio personae, quam verbum,
+          <lb ed="#P" n="64"/>genuit, includit. Et in hoc sensu censeo dixisse
+          <lb ed="#P" n="65"/>Augustinum supra: Patrem genuisse quod est
+          <lb ed="#P" n="66"/>ipse. Plura de similibus locutionibus legi 
+          pos<lb break="no" ed="#P" n="67"/>sunt in D. Thoma, dicto art. 4, Alensi, 1p.,
+          <lb ed="#P" n="68"/>quaest. 50, memb. 3, Marsilio in 1, quaest. 8,
+          <lb ed="#P" n="69"/>et supra citatis auctoribus.
+        </p>
+        <p xml:id="szduep-173635-d1e649">
+          <lb ed="#P" n="70"/>10. Quarta regula.—Quarta regula sit. 
+          Ac<lb break="no" ed="#P" n="71"/>tus notionales proprie et in rigore non 
+          praedi<lb break="no" ed="#P" n="72"/>cantur de Deo, ut significato in abstracto per
+          <lb ed="#P" n="73"/>terminum essentialem. Itaque haec est falsa 
+          lo<lb break="no" ed="#P" n="74"/>cutio: Essentia vel Divinitas generat. 
+          Conclu<lb break="no" ed="#P" n="75"/>sio est de fide, definita in capite Damnamus,
+          <lb ed="#P" n="76"/>de summa Trinitate. Consentiunt scholastici,
+          <lb ed="#P" n="77"/>D. Thomas, quaest. 36, art. 5, Bonaventura,
+          <lb ed="#P" n="78"/>Scotus et reliqui, in 1, d. 5, Marsilius, q. 9.
+          <lb ed="#P" n="79"/>Ratio est, quia generans et genitum 
+          distin<lb break="no" ed="#P" n="80"/>guuntur realiter, ut in creaturis manifestum
+          <lb ed="#P" n="81"/>est, et in divinis etiam haec oppositio originis
+          <lb ed="#P" n="82"/>est, quae affert distinctionem realem: ergo si
+          <lb ed="#P" n="83"/>essentia generaret vel spiraret, produceret 
+          ali<lb break="no" ed="#P" n="84"/>quid realiter distinctum a se, ergo dicendo 
+          es<lb break="no" ed="#P" n="85"/>sentia generat, significatur, producere rem a
+          <lb ed="#P" n="86"/>se realiter distinctam: hoc autem repugnat
+          <lb ed="#P" n="87"/>divinitati personae productae: ergo. Deinde 
+          ad<lb break="no" ed="#P" n="88"/>di potest ratio ex Metaphysica sumpta; quia
+          <lb ed="#P" n="89"/>actiones sunt suppositorum, non naturarum,
+          <lb ed="#P" n="90"/>haec autem nomina abstracta significant 
+          prae<lb break="no" ed="#P" n="91"/>cise naturam, ut talis est, et ideo ex modo 
+          lo<lb break="no" ed="#P" n="92"/>quendi habent supponere pro supposito, ergo
+          <lb ed="#P" n="93"/>non potest illis actio tribui.
+        </p>
+        <p xml:id="szduep-173635-d1e704">
+          <lb ed="#P" n="94"/>11. Objectio. — Responsio. — Sed contra, quia
+          <lb ed="#P" n="95"/>haec est vera locutio: Omnipotentia creat. 
+          Su<lb break="no" ed="#P" n="96"/>pra etiam dictum est, actionem posse 
+          praedi<lb break="no" ed="#P" n="97"/>cari de forma abstracta in Deo, quando illa est
+          <lb ed="#P" n="98"/>principium formale actionis: sed essentia est
+          <lb ed="#P" n="99"/>principium formale generandi: ergo ex hoc
+          <lb ed="#P" n="100"/>capite potest praedicari: aliunde vero propter
+          <lb ed="#P" n="101"/>summam identitatem trahitur aliquando 
+          abs<lb break="no" ed="#P" n="102"/>tractum ad supponendum pro supposito, ut in
+          <lb ed="#P" n="103"/>hac, Deitas creat, ergo. Respondeo primo, non
+          <lb ed="#P" n="104"/>esse similem rationem, quia inter 
+          omnipoten<lb break="no" ed="#P" n="105"/>tiam et terminum creationis potest esse realis
+          <lb ed="#P" n="106"/>distinctio, quae esse non potest inter essentiam
+          <lb ed="#P" n="107"/>et genitum. Unde omnipotentia vel Deitas ad
+          <lb ed="#P" n="108"/>creandum nihil per se requirit, praeter id quod
+          <lb ed="#P" n="109"/>in ea essentialiter includitur, ex quo patet
+          <lb ed="#P" n="110"/>responsio ad posteriorem partem. Nam essen-
+          <pb ed="#P" n="689"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tia, licet sit principium formale generationis,
+          <lb ed="#P" n="2"/>requirit tamen modum existendi in Patre. Et
+          <lb ed="#P" n="3"/>ideo de illa simpliciter sumpta non praedicatur
+          <lb ed="#P" n="4"/>generatio, neque in sensu formali, neque etiam
+          <lb ed="#P" n="5"/>identico, quia hic sensus cum sit improprius,
+          <lb ed="#P" n="6"/>non est usurpandus, quando alias sequitur 
+          ab<lb break="no" ed="#P" n="7"/>surdum, et ex vi praedicationis denotatur 
+          ali<lb break="no" ed="#P" n="8"/>quid repugnans mysterio, ut supra dictum est.
+        </p>
+        <p xml:id="szduep-173635-d1e765">
+          <lb ed="#P" n="9"/>12. Altera objectio. — Ex qua doctrina 
+          sol<lb break="no" ed="#P" n="10"/>venda est alia objectio, quae ex locutionibus
+          <lb ed="#P" n="11"/>Ecclesiae et Patrum fieri potest. Nam in 
+          Sym<lb break="no" ed="#P" n="12"/>bolo dicitur Filius Lumen de lumine, et in 
+          hym<lb break="no" ed="#P" n="13"/>nis Ecclesiae dicitur Lux de luce, qui sunt 
+          ter<lb break="no" ed="#P" n="14"/>mini abstracti. Et Augustinus 6, de Trinitate,
+          <lb ed="#P" n="15"/>capite 2, et libro 7, capite 1, et libro 15, 
+          ca<lb break="no" ed="#P" n="16"/>pite 14, Filium vocat, Sapientiam de 
+          sapien<lb break="no" ed="#P" n="17"/>tia, Hssentiam de essentia, Consilium de 
+          consi<lb break="no" ed="#P" n="18"/>lio, Voluntatem de voluntate. Quem imitatur
+          <lb ed="#P" n="19"/>Concilium Toletanum 15, item Gregorius 
+          Nys<lb break="no" ed="#P" n="20"/>senus, lib. de differentia Naturae, et hyp. vocat
+          <lb ed="#P" n="21"/>gloriam de gloria, Hilarius, in lib. de Synodis
+          <lb ed="#P" n="22"/>circa Concilium Sardicum , num. 26: 
+          Uni<lb break="no" ed="#P" n="23"/>genitum ec innascibilà essentia natum. Seepe
+          <lb ed="#P" n="24"/>etiam dicitur Filius, esse de Paétris essentia,
+          <lb ed="#P" n="25"/>et essentia dicitur communicari Filio vel 
+          per<lb break="no" ed="#P" n="26"/>sonae.
+        </p>
+        <p xml:id="szduep-173635-d1e807">
+          <lb ed="#P" n="27"/>13. Responsio. — Respondeo, quia in Deo
+          <lb ed="#P" n="28"/>ipsa abstracta per se subsistunt, ideo saepe 
+          ac<lb break="no" ed="#P" n="29"/>cipi pro concretis, ac subinde pro personis
+          <lb ed="#P" n="30"/>subsistentibus, sicque dici, Lua de luce, 
+          Sa<lb break="no" ed="#P" n="31"/>pientia de sapientia, etc. Aliquando vero 
+          Au<lb break="no" ed="#P" n="32"/>gustinus ita loquitur, solum ad significandam
+          <lb ed="#P" n="33"/>unitatem essentiae et voluntatis, etc. Unde 
+          sen<lb break="no" ed="#P" n="34"/>sus est, Filium vel Spiritum sanctum esse suum
+          <lb ed="#P" n="35"/>consilium, suamque voluntatem a Patre, qui
+          <lb ed="#P" n="36"/>est etiam suum consilium et sua voluntas, et
+          <lb ed="#P" n="37"/>ita se explicuit dictum Concilium Toletanum.
+          <lb ed="#P" n="38"/>Hilarius vero non intelligit, unigenitum esse
+          <lb ed="#P" n="39"/>ex essentia, ut ex principio quod, sed ut ex
+          <lb ed="#P" n="40"/>forma et natura vel principio quo. Et sic etiam
+          <lb ed="#P" n="41"/>dicuntur personae productae esse de essentia
+          <lb ed="#P" n="42"/>producentis, nam duplex ibi importatur 
+          res<lb break="no" ed="#P" n="43"/>pectus, unus realis, qui est ad personam 
+          pro<lb break="no" ed="#P" n="44"/>ducentem, alius vero rationis ad formam, de
+          <lb ed="#P" n="45"/>qua producuntur, ut significarunt D. Thomas,
+          <lb ed="#P" n="46"/>quaest. 41, art. 3, Donaventura et ali, dist. 5,
+          <lb ed="#P" n="47"/>et supra tactum est. Idemque est de verbo,
+          <lb ed="#P" n="48"/>communicandi, nam si sumatur active, essentia
+          <lb ed="#P" n="49"/>non se communicat, sed persona communicat
+          <lb ed="#P" n="50"/>essentiam: si autem sumatur quasi formaliter,
+          <lb ed="#P" n="51"/>essentia communicatur omnibus, quia in hoc
+          <lb ed="#P" n="52"/>non importatur respectus originis nec realis.
+        </p>
+        <p xml:id="szduep-173635-d1e866">
+          <lb ed="#P" n="53"/>14. Quinta regula. — Quinta regula est. 
+          Quo<lb break="no" ed="#P" n="54"/>ties actus notionalis vere praedicatur de Deo sub
+          <lb ed="#P" n="55"/>aliquo nomine, non potest de eodem vere ne-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gari. Haec regula est manifesta, quando 
+          termi<lb break="no" ed="#P" n="57"/>nus positus ex parte subjecti personalis est, quia
+          <lb ed="#P" n="58"/>tunc est clara contradictio, ut Pater generat,
+          <lb ed="#P" n="59"/>Pater non generat. Quando vero terminus 
+          posi<lb break="no" ed="#P" n="60"/>tus in subjecto est essentialis, negant regulam
+          <lb ed="#P" n="61"/>positam Aureolus, Durandus, Gregorius et 
+          Ga<lb break="no" ed="#P" n="62"/>briel in 1, d. 4, et Marsilius, quaest. 8. Nam licet
+          <lb ed="#P" n="63"/>haec sit vera, Deus generat, putant etiam hanc
+          <lb ed="#P" n="64"/>esse veram, Deus non generat : quia illae duae
+          <lb ed="#P" n="65"/>non contradictoriae, sed subcontrariae sunt. Nam
+          <lb ed="#P" n="66"/>Deus, quoad suppositionem pro personis habet
+          <lb ed="#P" n="67"/>vim termini communis. Unde sicut affirmativa
+          <lb ed="#P" n="68"/>suflicienter verificatur de una persona, ita etiam
+          <lb ed="#P" n="69"/>negativa.
+        </p>
+        <p xml:id="szduep-173635-d1e909">
+          <lb ed="#P" n="70"/>15. Nihilominus regula posita verissima est,
+          <lb ed="#P" n="71"/>quae sumitur ex D. Thoma, dicto art. 4, ad 3,
+          <lb ed="#P" n="72"/>et in 1, dist. 4, quaest. 1, art. 2, ubi 
+          consen<lb break="no" ed="#P" n="73"/>tiunt Bonaventura et Scotus et fere alii, 
+          Sco<lb break="no" ed="#P" n="74"/>tus etiam, d. 7, quaest. 1, et omnes Thomistae.
+          <lb ed="#P" n="75"/>Fundamentum est, quia illa est vera 
+          contra<lb break="no" ed="#P" n="76"/>dictio, quam variis modis ipsi exponunt: 
+          du<lb break="no" ed="#P" n="77"/>pliciter autem juxta supra dicta explicari 
+          po<lb break="no" ed="#P" n="78"/>test. Primo quia in affirmativa locutione 
+          sub<lb break="no" ed="#P" n="79"/>jectum restringitur a praedicato ad 
+          supponen<lb break="no" ed="#P" n="80"/>dum pro solo patre, ut probavi: ergo pro
+          <lb ed="#P" n="81"/>eodem supponit in negativa, quia juxta 
+          regu<lb break="no" ed="#P" n="82"/>las dialecticorum, termini in affirmativa, et
+          <lb ed="#P" n="83"/>negativa propositione servant eamdem 
+          suppo<lb break="no" ed="#P" n="84"/>sitionem, quia praedicatum est idem, ut patet
+          <lb ed="#P" n="85"/>in his: Homo est species, et homo non est 
+          spe<lb break="no" ed="#P" n="86"/>cies. Et hic dicendi modus habet 
+          fundamen<lb break="no" ed="#P" n="87"/>tum in D. Thoma supra, ubi Torres ilium 
+          se<lb break="no" ed="#P" n="88"/>quitur cum Capreolo, in 1, d. 4, quaest. 1, et
+          <lb ed="#P" n="89"/>favet Damascenus, lib. 3, de Fide, cap. 4, et
+          <lb ed="#P" n="90"/>Nizetas, lib. 3, Thesauri, cap. 33.
+        </p>
+        <p xml:id="szduep-173635-d1e957">
+          <lb ed="#P" n="91"/>16. Secundo erit etiam vera contradictio,
+          <lb ed="#P" n="92"/>licet demus, in affirmativa locutione 
+          supposi<lb break="no" ed="#P" n="93"/>tionem non esse restrictam, sed indefinitam
+          <lb ed="#P" n="94"/>pro hoc Deo, qui est in tribus personis. Nam
+          <lb ed="#P" n="95"/>ut aliquid de illo affirmetur, satis est, quod in
+          <lb ed="#P" n="96"/>una persona illi conveniat : ut autem negetur,
+          <lb ed="#P" n="97"/>necesse est, ut in nulla persona ei conveniat.
+          <lb ed="#P" n="98"/>Quia quoties de re singulari, et individua 
+          ali<lb break="no" ed="#P" n="99"/>quid simpliciter negatur, sit sensus 
+          distributi<lb break="no" ed="#P" n="100"/>vus, quia ille terminus non est capax alterius
+          <lb ed="#P" n="101"/>propriae distributionis, et ideo simplex, et 
+          ab<lb break="no" ed="#P" n="102"/>soluta negatio illi aequivalet. Ac propterea de
+          <lb ed="#P" n="103"/>Petro existente in pluribus locis, si in uno
+          <lb ed="#P" n="104"/>scribit, etiamsi in aliis non scribat, vere 
+          dici<lb break="no" ed="#P" n="105"/>tur, Petrus scribit, quia ibi nullum est 
+          distri<lb break="no" ed="#P" n="106"/>butionis signum. At in eodem casu falsum erit
+          <lb ed="#P" n="107"/>dicere, Petrus non scribit. Item haec est falsa,
+          <lb ed="#P" n="108"/>et haeretica : Deus non est unitus carni, id est,
+          <lb ed="#P" n="109"/>non est factus homo, solum quia in una 
+          per<lb break="no" ed="#P" n="110"/>sona est unitus : Item haec est falsa: Deus non
+          <pb ed="#P" n="690"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est Pater, ut constat ex communi sensu 
+          om<lb break="no" ed="#P" n="2"/>nium. Praeterea Durandus fatetur, hanc esse
+          <lb ed="#P" n="3"/>falsam : IVon Deus generat, at vero respectu
+          <lb ed="#P" n="4"/>termini singularis impertinens est, quod ne-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>gatio antecedat, vel sequatur, cum ille 
+          termi<lb break="no" ed="#P" n="6"/>nus non sit capax distributionis. Est ergo ibi
+          <lb ed="#P" n="7"/>vera contradictio : ergo si affirmativa est vera,
+          <lb ed="#P" n="8"/>negativa est falsa, quae fuit regula proposita.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

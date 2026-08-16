@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="562"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-142413"><!-- t3-l1c10 -->
+        <head xml:id="szduep-142413-Hd1e101">Caput 10</head>
+        <head xml:id="szduep-142413-Hd1e103" type="question-title">In deo esse tres personas, et non plures</head>
+        <p xml:id="szduep-142413-d1e106">
+          <lb ed="#P" n="103"/>CAPUT X.
+          <lb ed="#P" n="104"/>IN DEO ESSE TRES PERSONAS, ET NON PLURES.
+        </p>
+        <p xml:id="szduep-142413-d1e113">
+          <lb ed="#P" n="105"/>1. Probatur ex veteri Testamento. — MHaee
+          <lb ed="#P" n="106"/>est conclusio in discursu totius libri intenta,
+          <lb ed="#P" n="107"/>estque veritas Catholica; insinuata olim in 
+          <pb ed="#P" n="563"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>veteri Testamento. Nam licet Epiphanius in
+          <lb ed="#P" n="2"/>Ancorato dicat, dualitatem personarum, 
+          scili<lb break="no" ed="#P" n="3"/>cet, Patris et Filii a Prophetis esse 
+          praedica<lb break="no" ed="#P" n="4"/>tam, Trinitatem vero in Evangelio esse 
+          decla<lb break="no" ed="#P" n="5"/>ratam : nihilominus sancti intelligunt, 
+          nume<lb break="no" ed="#P" n="6"/>rum trium personarum insinuatum esse in
+          <lb ed="#P" n="7"/>verbis Isaiae 6: Sanctus, sanctus , sanctus,
+          <lb ed="#P" n="8"/>JDominus Deus ecercituum. Et similia verba
+          <lb ed="#P" n="9"/>habentur Apocalypsis 4, et in confessionem
+          <lb ed="#P" n="10"/>hujus mysterii illa usurpat Ecclesia in 
+          mys<lb break="no" ed="#P" n="11"/>teriis Missae et in illo celebri et antiquo 
+          tri<lb break="no" ed="#P" n="12"/>sagio: Sanctus Deus, sanctus fortis, sanctus
+          <lb ed="#P" n="13"/>et immortalis, de quo peculiare opus 
+          Damas<lb break="no" ed="#P" n="14"/>cenus scripsit. Similiter quoties in veteri 
+          Tes<lb break="no" ed="#P" n="15"/>tamento Deus tripliciter nominatur, hoc 
+          mys<lb break="no" ed="#P" n="16"/>terium indicari creditur, ut Deuter. 6: 
+          Do<lb break="no" ed="#P" n="17"/>aminus Deus noster Deus wnus est, et Psalm.
+          <lb ed="#P" n="18"/>61 : Benedicat nos Deus, Deus noster, 
+          benedi<lb break="no" ed="#P" n="19"/>cat nos Deus, et adverti solet in voce, qua
+          <lb ed="#P" n="20"/>secundo loco nominatur Deus, addi 
+          particu<lb break="no" ed="#P" n="21"/>lam Noster, ad indicandum mysterium 
+          incar<lb break="no" ed="#P" n="22"/>nationis. De quibus et aliis locis mutta 
+          Galati<lb break="no" ed="#P" n="23"/>nus a principio libri secundi, ubi refert, 
+          anti<lb break="no" ed="#P" n="24"/>quissimos interpretes Hebraeos intellexisse, in
+          <lb ed="#P" n="25"/>his locis latere mysterium hoc.
+        </p>
+        <p xml:id="szduep-142413-d1e181">
+          <lb ed="#P" n="26"/>2. Ha novo testamento.—Expressius docetur
+          <lb ed="#P" n="27"/>haec veritas in novo Testamento, Matthaei, 
+          ulti<lb break="no" ed="#P" n="28"/>mo cap. Paptizantes eos in nomine Patris et 
+          Fi<lb break="no" ed="#P" n="29"/>lii et Spiritus sancti. Nam ut sancti advertunt
+          <lb ed="#P" n="30"/>et latius sequenti libro dicemus, si non omnes
+          <lb ed="#P" n="31"/>ilae personae essent divinae, non 
+          proponeren<lb break="no" ed="#P" n="32"/>tur aequaliter in prima fidei professione, et si
+          <lb ed="#P" n="33"/>essent plures, aliae non omitterentur. Deinde
+          <lb ed="#P" n="34"/>Joannis 14 et sequentibus, multis verbis docet
+          <lb ed="#P" n="35"/>Christus hoc mysterium : ut illis, Ego rogabo
+          <lb ed="#P" n="36"/>JPatrem, et alium Paracletum dabit volis, item
+          <lb ed="#P" n="37"/>1, Joan. 5, est locus expressus: Tres sunt
+          <lb ed="#P" n="38"/>quai testimonium dant in Caelo. Nam illa 
+          praeci<lb break="no" ed="#P" n="39"/>sa numeratio habet vim exclusivae et satis 
+          os<lb break="no" ed="#P" n="40"/>tendit, eos, qui numerantur, esse distinctos.
+          <lb ed="#P" n="41"/>BEt ideo haeretici conati sunt verba illa 
+          expun<lb break="no" ed="#P" n="42"/>GBere a textu sacro: de fide tamen certum est
+          <lb ed="#P" n="43"/>esse canonica. Quod ex traditione late 
+          confir<lb break="no" ed="#P" n="44"/>mat Bellarminus, lib. 1, de Christo, cap. 6,
+          <lb ed="#P" n="45"/>nobis autem nunc auctoritas Concilii Tridentini
+          <lb ed="#P" n="46"/>sufficit.
+        </p>
+        <p xml:id="szduep-142413-d1e230">
+          <lb ed="#P" n="47"/>3. Ex Conciliis.—Tandem definita est haec
+          <lb ed="#P" n="48"/>veritas a multis Conciliis post Nicaenum, quae
+          <lb ed="#P" n="49"/>infra referemus, cum traditione Pontificum et
+          <lb ed="#P" n="50"/>Sanctorum. Nunc sufticiat Dionysius, libro de
+          <lb ed="#P" n="51"/>Divinis nominibus, cap. 1, ubi Trinitatem 
+          vo<lb break="no" ed="#P" n="52"/>icat Unitatem ter subsistentem, eamque in Deo
+          <lb ed="#P" n="53"/>esse dicit, propter divinee feecunditatis in 
+          tri<lb break="no" ed="#P" n="54"/>bus personis eampressionem. Idem optime in c.
+          <lb ed="#P" n="55"/>3, de Mystic. theologia, Martialis, Epistola 1,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cap. 10, Justinus Martyr, in expositione Fidei,
+          <lb ed="#P" n="57"/>Anasthasius Synaita, in libro 1, de rectis fidei
+          <lb ed="#P" n="58"/>Dogmatibus, in tom. 1 Bibliothecae. 
+          Trinita<lb break="no" ed="#P" n="59"/>tem, inquit, dico, non essentiarum, sed 
+          perso<lb break="no" ed="#P" n="60"/>narun, Nazianzenus, orat. 32, ante medium,
+          <lb ed="#P" n="61"/>sic nominat personas : Principii empers 
+          Prin<lb break="no" ed="#P" n="62"/>cipium, et id, quod est cum principio.
+        </p>
+        <p xml:id="szduep-142413-d1e269">
+          <lb ed="#P" n="63"/>4. Ratio assertionis. — Ratio ex dictis clara
+          <lb ed="#P" n="64"/>est. Nam in Deo est tantum una persona 
+          im<lb break="no" ed="#P" n="65"/>producta, et sunt tantum duae personae 
+          produc<lb break="no" ed="#P" n="66"/>tae, quia sunt tantum duae processiones, ergo
+          <lb ed="#P" n="67"/>sunt in Deo tres personae et non plures. Aliter
+          <lb ed="#P" n="68"/>probavit hanc veritatem D. Thomas, 1 part.,
+          <lb ed="#P" n="69"/>quaest. 30, art. 2, ubi Cajetanus laborat circa
+          <lb ed="#P" n="70"/>discursum D. Thomae, et revera non satis 
+          ex<lb break="no" ed="#P" n="71"/>pedit omnia, quae ibi proponit, praesertim 
+          du<lb break="no" ed="#P" n="72"/>bium primum. Breviter tamen, supponit ibi
+          <lb ed="#P" n="73"/>D. Thomas personas distingui per 
+          oppositio<lb break="no" ed="#P" n="74"/>nem relativam et non aliter: sub relativa 
+          au<lb break="no" ed="#P" n="75"/>tem oppositione includit etiam oppositionem
+          <lb ed="#P" n="76"/>originis, ut recte Cajetanus advertit. Ex hoc
+          <lb ed="#P" n="77"/>ergo principio concludit ex prima processione
+          <lb ed="#P" n="78"/>optime colligi duas personas in Deo, qui 
+          oppo<lb break="no" ed="#P" n="79"/>nuntur origine. Rursus tacite subsumit nullam
+          <lb ed="#P" n="80"/>illarum personarum posse procedere per 
+          vo<lb break="no" ed="#P" n="81"/>luntatem, eo quod processio voluntatis sit 
+          pos<lb break="no" ed="#P" n="82"/>terior processione intellectus. Unde concludit,
+          <lb ed="#P" n="83"/>processionem passivam, ut est relatio, debere
+          <lb ed="#P" n="84"/>necessario distingui a duabus primis personis,
+          <lb ed="#P" n="85"/>et consequenter tertiam personam constituere,
+          <lb ed="#P" n="86"/>ultra quas non est alia, quia spiratio activa,
+          <lb ed="#P" n="87"/>cum non opponatur Patri aut Filio, ab eis non
+          <lb ed="#P" n="88"/>distinguitur.
+        </p>
+        <p xml:id="szduep-142413-d1e328">
+          <lb ed="#P" n="89"/>5. Ostensiones Raymundi refelluntur.—
+          bLon<lb break="no" ed="#P" n="90"/>ge aliter colligebat hunc numerum 
+          persona<lb break="no" ed="#P" n="91"/>rum RHaymundus Lullus ex sola summa 
+          per<lb break="no" ed="#P" n="92"/>fectione divinae bonitatis et distinctionis in Deo
+          <lb ed="#P" n="93"/>inventae, hoc modo. In divina bonitate 
+          prop<lb break="no" ed="#P" n="94"/>ter summam perfectionem est unus tantum
+          <lb ed="#P" n="95"/>actus bonificandi, et unus bonificans, et unus
+          <lb ed="#P" n="96"/>bonificabilis, ergo sunt tres personae et non
+          <lb ed="#P" n="97"/>plures. Item in perfectissima rerum 
+          distinctio<lb break="no" ed="#P" n="98"/>ne tantum est unum distinctum, et unum 
+          dis<lb break="no" ed="#P" n="99"/>tinguibile, et unum distinguere per spirare et
+          <lb ed="#P" n="100"/>amare, ergo tres personae. At hae collectiones
+          <lb ed="#P" n="101"/>ridiculae sunt et potius inde concluditur, 
+          tan<lb break="no" ed="#P" n="102"/>tum esse duas personas. Nam si persona 
+          produ<lb break="no" ed="#P" n="103"/>cens dicitur bonificans, et producta dicitur 
+          bo<lb break="no" ed="#P" n="104"/>nificata, et illae sunt unicae, tantum sunt duae
+          <lb ed="#P" n="105"/>personae, nam actus bonificandi non est 
+          perso<lb break="no" ed="#P" n="106"/>na, sed origo vel activa, vel passiva, quae non
+          <lb ed="#P" n="107"/>distinguitur in re a persona, quae per illam
+          <lb ed="#P" n="108"/>producit, vel producitur. Praeterea, si personaee
+          <lb ed="#P" n="109"/>sunt plures, impossibile est, distinctivum esse
+          <lb ed="#P" n="110"/>tantum unum, quia oportet esse plures pro-
+          <pb ed="#P" n="564"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prietates distinctivas personarum, et similiter
+          <lb ed="#P" n="2"/>impossibile est, esse unicum distinguibile, quia
+          <lb ed="#P" n="3"/>quadlibet persona distinguibilis est ab ala.
+          <lb ed="#P" n="4"/>Quod si distinctivum active sumitur pro 
+          per<lb break="no" ed="#P" n="5"/>sona producente et distinguibile passive, 
+          scili<lb break="no" ed="#P" n="6"/>cet, pro producibili, profecto si hae sunt 
+          uni<lb break="no" ed="#P" n="7"/>cae, duae tantum sunt personae, quia 
+          distin<lb break="no" ed="#P" n="8"/>guere non est persona, nec est veluti actio 
+          ali<lb break="no" ed="#P" n="9"/>cujus personae, sed actus formalis 
+          proprieta<lb break="no" ed="#P" n="10"/>tum constituentium personas. Unde non est
+          <lb ed="#P" n="11"/>res ab illis distincta : nec tertia persona potest
+          <lb ed="#P" n="12"/>distinguere duas priores, quas supponit 
+          distinc<lb break="no" ed="#P" n="13"/>tas. Denique si non solus Pater, sed etiam 
+          Fi<lb break="no" ed="#P" n="14"/>lius producit intra Deum, quomodo ibi tantum
+          <lb ed="#P" n="15"/>est unum distinctivum in dicto sensu? Et si
+          <lb ed="#P" n="16"/>pon solus Filius, sed etiam Spiritus sanctus
+          <lb ed="#P" n="17"/>producitur, quomodo est tantum unum 
+          distin<lb break="no" ed="#P" n="18"/>guibile ? Illa ergo deductio et fundatur in errore
+          <lb ed="#P" n="19"/>unius processionis et plures alios involvit.
+        </p>
+        <p xml:id="szduep-142413-d1e424">
+          <lb ed="#P" n="20"/>6. Objectionibus occuritur. — Objectiones
+          <lb ed="#P" n="21"/>graviores contra Catholicam veritatem 
+          propo<lb break="no" ed="#P" n="22"/>nam tribus libris sequentibus. Nunc solum
+          <lb ed="#P" n="23"/>objicio, quia omnis numerus videtur Deo 
+          re<lb break="no" ed="#P" n="24"/>pugnare, quoniam numerus intrinsece 
+          inclu<lb break="no" ed="#P" n="25"/>dit compositionem, habet enim numerus 
+          uni<lb break="no" ed="#P" n="26"/>tatem aliquam et non simplicem, ergo 
+          compo<lb break="no" ed="#P" n="27"/>sitam. Unde in omni numero est invenire 
+          to<lb break="no" ed="#P" n="28"/>tum et partem, quae tamen non possunt intra
+          <lb ed="#P" n="29"/>Deum reperiri. Atque hine etiam fit, ut omnis
+          <lb ed="#P" n="30"/>numerus sit major et perfectior qualibet 
+          uni<lb break="no" ed="#P" n="31"/>tate, et inferiori numero : quae omnia Deo 
+          re<lb break="no" ed="#P" n="32"/>pugnant.
+        </p>
+        <p xml:id="szduep-142413-d1e455">
+          <lb ed="#P" n="33"/>7. Occasione hujus objectionis tractant hic
+          <lb ed="#P" n="34"/>theologi, quid addat numerus supra res 
+          nume<lb break="no" ed="#P" n="35"/>ratas et quam habeat unitatem. Sed haec in
+          <lb ed="#P" n="36"/>metaphysica tractantur. Ex qua ego suppono
+          <lb ed="#P" n="37"/>primo, unum supra entitatem solum addere
+          <lb ed="#P" n="38"/>negationem,. seu indivisionem. Deinde sumo
+          <lb ed="#P" n="39"/>numerum, praesertim transcendentalem, ultra
+          <lb ed="#P" n="40"/>unitates nihil addere, nisi negationem, quod
+          <lb ed="#P" n="41"/>una non sit alia, quod etiam supponere 
+          vide<lb break="no" ed="#P" n="42"/>tur D. Thomas, d. quaest. 30, art. 3. Unde 
+          fa<lb break="no" ed="#P" n="43"/>cile intelligitur non sequi compositionem ex
+          <lb ed="#P" n="44"/>hoc numero, nam si personae considerentur ,
+          <lb ed="#P" n="45"/>ut sunt unum in essentia, non sunt illud unum
+          <lb ed="#P" n="46"/>per compositionem, sed per summam 
+          identita<lb break="no" ed="#P" n="47"/>tem personarum cum essentia, ut infra 
+          expli<lb break="no" ed="#P" n="48"/>caturi sumus. Si vero considerentur personae,
+          <lb ed="#P" n="49"/>ut distinctae sunt, sic una non componit cum
+          <lb ed="#P" n="50"/>alia, nec numerus ille est aliquod compositum
+          <lb ed="#P" n="51"/>per modum unius, sed solum plures res 
+          sim<lb break="no" ed="#P" n="52"/>plices.
+        </p>
+        <p xml:id="szduep-142413-d1e501">
+          <lb ed="#P" n="53"/>8. Sit ne in Trinitate totum et pars. — Ad
+          <lb ed="#P" n="54"/>illud vero de toto et parte, respondet D. 
+          Tho<lb break="no" ed="#P" n="55"/>mas, dict. quaest. 30, art. 4, ad 4, numerum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bifariam considerari, scilicet , abstracte et
+          <lb ed="#P" n="57"/>prout est in rebus numeratis. Et priori modo
+          <lb ed="#P" n="58"/>considerari in eo totum et partem, illud autem
+          <lb ed="#P" n="59"/>non esse inconveniens, quia numerus sic 
+          ab<lb break="no" ed="#P" n="60"/>stractus solum est per intellectum. Posteriori
+          <lb ed="#P" n="61"/>autem modo (inquit) in rebus creatis 
+          nume<lb break="no" ed="#P" n="62"/>rum et unitatem comparari, ut totum et 
+          par<lb break="no" ed="#P" n="63"/>tem, quia numerus est major qualibet unitate :
+          <lb ed="#P" n="64"/>in Deo autem non ita comparari, quia non est
+          <lb ed="#P" n="65"/>major tota Trinitas, quam quaelibet persona.
+          <lb ed="#P" n="66"/>Quae responsio habet difficultatem, quia quod
+          <lb ed="#P" n="67"/>est de ratione numeri secundum se, convenire
+          <lb ed="#P" n="68"/>debet cuilibet numero contracto tanquam 
+          su<lb break="no" ed="#P" n="69"/>perius inferiori. Item, quia si sit sermo de 
+          ma<lb break="no" ed="#P" n="70"/>joritate (ut ita dicam ) extensiva, quae potius
+          <lb ed="#P" n="71"/>est pluralitas, etiam tres personae divinae sunt
+          <lb ed="#P" n="72"/>plures, quam una, vel duae. Si autem sit 
+          ser<lb break="no" ed="#P" n="73"/>mo de majoritate intensiva, haec nihil refert 
+          <lb ed="#P" n="74"/>ad rationem numeri. Atque ita respondet 
+          Ga<lb break="no" ed="#P" n="75"/>briel, in 1, d. 24, q. 2, art. 3, dub. 4, estque
+          <lb ed="#P" n="76"/>clara et sufficiens responsio.
+        </p>
+        <p xml:id="szduep-142413-d1e559">
+          <lb ed="#P" n="77"/>9. Nec D. Thomas aliquid in re ipsa 
+          diver<lb break="no" ed="#P" n="78"/>sum docere voluit, sed corrigere modum 
+          lo<lb break="no" ed="#P" n="79"/>quendi, scilicet, ut in hoc numero absolute non
+          <lb ed="#P" n="80"/>concedamus totum et partem, quia illud vel
+          <lb ed="#P" n="81"/>indicat compositionem, vel excessum 
+          perfec<lb break="no" ed="#P" n="82"/>uonis respectu partis. Unde consequenter etiam
+          <lb ed="#P" n="83"/>docet, non esse hic simpliciter admittendum
+          <lb ed="#P" n="84"/>majus et minus, in quo excedit hic numerus 
+          <lb ed="#P" n="85"/>omnes creatos. Sed cum addito potest dici 
+          ma<lb break="no" ed="#P" n="86"/>jor numerus. Est denique alia excellentia in 
+          <lb ed="#P" n="87"/>hoc numero, quod non excludit omnem 
+          unita<lb break="no" ed="#P" n="88"/>tem et identitatem rerum numeratarum, 
+          prop<lb break="no" ed="#P" n="89"/>ter quod dicitur de Deo in Concilio Toletano 
+          <lb ed="#P" n="90"/>11, in Confessione fidei, quod nec recedit a 
+          nu<lb break="no" ed="#P" n="91"/>mero, nec comprehenditur numero. Ex 
+          Bernar<lb break="no" ed="#P" n="92"/>dus, lib. 5, de Consideratione, circa medium, 
+          <lb ed="#P" n="93"/>vocat hunc numerum absque numero: Sed 
+          ha<lb break="no" ed="#P" n="94"/>bes (inquit) qid numeres, et quid non numeres, 
+          <lb ed="#P" n="95"/>substantia una est, persone tres sunt. Aique 
+          <lb ed="#P" n="96"/>hoc etiam modo intelligendus est Boetius, de
+          <lb ed="#P" n="97"/>Trinitate, cum ait: Atgue hoc vere uwum est, in 
+          <lb ed="#P" n="98"/>quo nullus est mtmerus, scihicet, qui non 
+          admit<lb break="no" ed="#P" n="99"/>tat naturae unitatem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

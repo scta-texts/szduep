@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="116"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-029608"><!-- t1-l2c19 -->
+        <head xml:id="szduep-029608-Hd1e101">Caput 19</head>
+        <head xml:id="szduep-029608-Hd1e103" type="question-title">Sit-ne dei visio ejusdem speciei essentialis in omnibus beatis, ita ut deus uno tantum modo visibilis sit</head>
+        <p xml:id="szduep-029608-d1e106">
+          <lb ed="#P" n="58"/>CAPUT XIX.
+          <lb ed="#P" n="59"/>SIT-NE DEI VISIO EJUSDEM SPECIEI ESSENTIALIS
+          <lb ed="#P" n="60"/>IN OMNIBUS BEATIS, ITA UT DEUS UNO
+          <lb ed="#P" n="61"/>TANTUM MODO VISIBILIS SIT.
+        </p>
+        <p xml:id="szduep-029608-d1e117">
+          <lb ed="#P" n="62"/>1. Haec quaestio, ad declarandam amplius
+          <lb ed="#P" n="63"/>perfectionem illius visionis et hoc attributum
+          <lb ed="#P" n="64"/>invisibilitatis DEI conferre potest. Supponimus
+          <lb ed="#P" n="65"/>autem visionem illam et ratione objecti 
+          exce<lb break="no" ed="#P" n="66"/>dere in perfectione essentiali omnes 
+          cognitio<lb break="no" ed="#P" n="67"/>nes aliarum rerum extra Deum et ratione modi
+          <lb ed="#P" n="68"/>essentialiter differre ab omni cognitione Dei,
+          <lb ed="#P" n="69"/>qua non videtur Deus, prout est in se, eamque
+          <lb ed="#P" n="70"/>superare. Quae duo et per se nota sunt et ex
+          <lb ed="#P" n="71"/>discursu capitis fient notiora. Inquirimus ergo,
+          <lb ed="#P" n="72"/>an in illa visione sit essentialis diversitas.
+        </p>
+        <p xml:id="szduep-029608-d1e143">
+          <lb ed="#P" n="73"/>2. Prima opinio. — Primus dicendi modus
+          <lb ed="#P" n="74"/>esse potest, esse in illa visione specificam 
+          di<lb break="no" ed="#P" n="75"/>versitatem, ita ut omnis beatus, qui 
+          perfectio<lb break="no" ed="#P" n="76"/>rem habet beatitudinem, habeat etiam 
+          visio<lb break="no" ed="#P" n="77"/>nem essentialiter perfectiorem. Primo quidem,
+          <lb ed="#P" n="78"/>quia unus videns Deum, est essentialiter 
+          bea<lb break="no" ed="#P" n="79"/>tior alio, sed essentia beatitudinis est in 
+          vi<lb break="no" ed="#P" n="80"/>sione, ergo oportet, ut is, qui beatior est,
+          <lb ed="#P" n="81"/>dhabeat visionem essentialiter perfectiorem ,
+          <lb ed="#P" n="82"/>alioqui non esset essentialiter beatior , sed
+          <lb ed="#P" n="83"/>accidentahter.
+        </p>
+        <p xml:id="szduep-029608-d1e170">
+          <lb ed="#P" n="84"/>Secundo possumus argumentari, quia 
+          vi<lb break="no" ed="#P" n="85"/>siones non eodem modo manifestant Deum,
+          <lb ed="#P" n="86"/>sed quaedam ostendit ipsum cum habitudine
+          <lb ed="#P" n="87"/>ad plures creaturas, quam alia, quae 
+          diver<lb break="no" ed="#P" n="88"/>sitas non potest oriri nisi ex specifica 
+          distinc<lb break="no" ed="#P" n="89"/>Uone, ut videtur, ergo. Probatur minor, quia
+          <lb ed="#P" n="90"/>visio est imago quaedam rei cognita, sive
+          <lb ed="#P" n="91"/>illa sit Deus, sive creatura, sed non videtur
+          <lb ed="#P" n="92"/>posse intelligi, quod duae res omnino ejusdem
+          <lb ed="#P" n="93"/>speciei, et in se indivisibilis in entitatibus suis,
+          <lb ed="#P" n="94"/>sint imagines rerum diversarum, cum ratio
+          <lb ed="#P" n="95"/>imaginis sumatur ex ordine ad rem 
+          repraesen<lb break="no" ed="#P" n="96"/>tatam, ergo. Nec refert, si dicatur, Deum 
+          re<lb break="no" ed="#P" n="97"/>praesentari primario et creaturam secundario;
+          <lb ed="#P" n="98"/>quia quidquid de hoc sit, nihilominus illa 
+          in<lb break="no" ed="#P" n="99"/>divisibilis entitas visionis immediate 
+          reprae<lb break="no" ed="#P" n="100"/>sentat creaturam in se ipsa, etiamsi illi hoc
+          <lb ed="#P" n="101"/>conveniat ratione alterius objecti et ideo 
+          dica<lb break="no" ed="#P" n="102"/>tur secundario convenire.
+        </p>
+        <p xml:id="szduep-029608-d1e214">
+          <lb ed="#P" n="103"/>3. Tertio saltem in intellectibus specie 
+          di<lb break="no" ed="#P" n="104"/>versis erit illa visio specie diversa, id est, in
+          <lb ed="#P" n="105"/>angelis erit visio alterius speciei, quam in 
+          ho<lb break="no" ed="#P" n="106"/>minibus et similiter m angelis inter se juxta
+          <lb ed="#P" n="107"/>specificam diversitatem eorum, ut opinatur
+          <lb ed="#P" n="108"/>Major in 4., distinct. 48., quaest. 11. Et ratio ejus
+          <pb ed="#P" n="117"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, quia a potentiis specie distinctis necesse
+          <lb ed="#P" n="2"/>est, prodire actus specie diversos. Quam 
+          opi<lb break="no" ed="#P" n="3"/>nionem probabilem existimat Paludanus ibi,
+          <lb ed="#P" n="4"/>quest. 5, licet affirmare non audeat. Quod si
+          <lb ed="#P" n="5"/>inferas, consequenter dicendum esse, 
+          intellec<lb break="no" ed="#P" n="6"/>tum nobiliorem in specie elicere visionem
+          <lb ed="#P" n="7"/>specifice perfectiorem, Major concedit 
+          seque<lb break="no" ed="#P" n="8"/>lam, et videtur loqui consequenter, quia si non
+          <lb ed="#P" n="9"/>obstante specifica diversitate intellectuum ,
+          <lb ed="#P" n="10"/>posset inferior intellectus elevari ad eliciendam
+          <lb ed="#P" n="11"/>visionem essentialiter perfectiorem, ergo et
+          <lb ed="#P" n="12"/>ad eliciendam aeque perfectam, atque adeo
+          <lb ed="#P" n="13"/>ejusdem speciei, ergo ex diversitate specifica
+          <lb ed="#P" n="14"/>intellectuum non posset colligi diversitas 
+          spe<lb break="no" ed="#P" n="15"/>cifica visionum, quod est destruere ipsius 
+          sen<lb break="no" ed="#P" n="16"/>tentiam. Loquitur ergo consequenter et ita
+          <lb ed="#P" n="17"/>etiam docet, infimum angelum habere 
+          visio<lb break="no" ed="#P" n="18"/>nem Dei essentialiter perfectiorem, quam 
+          ani<lb break="no" ed="#P" n="19"/>mam Christi. Quod si ulterius inferas, esse
+          <lb ed="#P" n="20"/>etiam magis beatum talem angelum: negat
+          <lb ed="#P" n="21"/>sequelam, quia ille excessus, inquit, in 
+          speci<lb break="no" ed="#P" n="22"/>fica perfectione potest compensari per plures
+          <lb ed="#P" n="23"/>gradus intentionis et claritatis in inferiori
+          <lb ed="#P" n="24"/>specie. Imo sunt, qui dicant, specificam 
+          visio<lb break="no" ed="#P" n="25"/>num diversitatem, seu inaequalitem nihil 
+          re<lb break="no" ed="#P" n="26"/>ferre ad diversitatem beatitudinis, quia licet
+          <lb ed="#P" n="27"/>visiones in ratione visionis differant specie, in
+          <lb ed="#P" n="28"/>ratione beatidudinis erunt ejusdem speciei,
+          <lb ed="#P" n="29"/>quia quod beatificat, est Deus clare visus, et
+          <lb ed="#P" n="30"/>hoc ejusdem rationis est in omnibus; etiam si
+          <lb ed="#P" n="31"/>entitates visionum inter se specie differant in
+          <lb ed="#P" n="32"/>genere entis. Atque eadem ratione sola 
+          inae<lb break="no" ed="#P" n="33"/>qualitas in specie visionis non sufficiet facere
+          <lb ed="#P" n="34"/>magis beatum, sed hoc aliunde sumendum erit
+          <lb ed="#P" n="35"/>ex parte objecti visi.
+        </p>
+        <p xml:id="szduep-029608-d1e310">
+          <lb ed="#P" n="36"/>4. Prima conclusio. —Dicendum primo, de
+          <lb ed="#P" n="37"/>facto in omnibus beatis visionem beatificam
+          <lb ed="#P" n="38"/>esse ejusdem speciei essentialis, atque adeo
+          <lb ed="#P" n="39"/>illam visionem esse actum cognitionis summe
+          <lb ed="#P" n="40"/>perfectum, qui esse potest in intellectu creato
+          <lb ed="#P" n="41"/>secundum legem ordinariam. Haec est 
+          commu<lb break="no" ed="#P" n="42"/>nis sententia theologorum quam supponit D.
+          <lb ed="#P" n="43"/>Thomas, 1 part., quaest. 12, ubi generatim 
+          lo<lb break="no" ed="#P" n="44"/>quitur de intellectu creato, angelico et humano,
+          <lb ed="#P" n="45"/>et art. 5, censet lumen gloriae esse idem in
+          <lb ed="#P" n="46"/>omnibus et art. 6, addit, inaequalitatem visionis
+          <lb ed="#P" n="47"/>sumi ex majori, vel minori intentione luminis.
+          <lb ed="#P" n="48"/>Expressius hoc docuit Durandus in 2, distinct.
+          <lb ed="#P" n="49"/>23, quaest. 2, et in 3, distinct. 14, quaest. 1, et
+          <lb ed="#P" n="50"/>in 4, distinct. 49, qu. 6; Marsilius in 3, qu. 10,
+          <lb ed="#P" n="51"/>artic. 9; Sotus in A4, distinct. 49, quaest. 3,
+          <lb ed="#P" n="52"/>artic. 2. Et ratio theologica est, quia homines
+          <lb ed="#P" n="53"/>dicuntur in beatitudine futuri aequales angelis,
+          <lb ed="#P" n="54"/>Matth. 22. Quod patres et expositores 
+          intelli<lb break="no" ed="#P" n="55"/>gunt praecipue dictum esse ratione visionis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>beatae ; erunt ergo in hac aequales et non in
+          <lb ed="#P" n="57"/>gradu, vel claritate, ut infra videbimus ; ergo
+          <lb ed="#P" n="58"/>in ratione saltem specifica et essentiali. Quod
+          <lb ed="#P" n="59"/>bene confirmat Durandus, quia gratia est 
+          ejus<lb break="no" ed="#P" n="60"/>dem speciei in angelis et hominibus et 
+          simili<lb break="no" ed="#P" n="61"/>ter charitas per se infusa, ut constat ex 1. part.,
+          <lb ed="#P" n="62"/>quaest. 62, et ex materia de Gratia. Et ex 
+          Au<lb break="no" ed="#P" n="63"/>gustino, libro de Correctione et Gratia, cap. 11
+          <lb ed="#P" n="64"/>et 12, de Civitate cap. 9. Anselmus, lib. de Casu
+          <lb ed="#P" n="65"/>Diab., cap. 1 et ferre per totum librum.
+        </p>
+        <p xml:id="szduep-029608-d1e380">
+          <lb ed="#P" n="66"/>5. Prima vatio. — Et adjungi potest ratio,
+          <lb ed="#P" n="67"/>quia gratia et participatio divinae naturae 
+          al<lb break="no" ed="#P" n="68"/>tioris ordinis, unde a solo Deo infunditur et
+          <lb ed="#P" n="69"/>ad illam creatura intellectualis solum est in
+          <lb ed="#P" n="70"/>potentia obedientiali, non ergo est, unde in
+          <lb ed="#P" n="71"/>gratia sanctificante reperiatur diversitas 
+          spe<lb break="no" ed="#P" n="72"/>cifica, ergo neque in visione beata ; nam illa
+          <lb ed="#P" n="73"/>visio, natura sua, est actus proportionatus tali
+          <lb ed="#P" n="74"/>gratiae et ultimus finis, ac beatitudo 
+          connatu<lb break="no" ed="#P" n="75"/>ralis illi. Et hanc rationem attigit D. Thomas,
+          <lb ed="#P" n="76"/>quaest. 9, de Verit. art. 1 ad 17, ubi concludit,
+          <lb ed="#P" n="77"/>lumen gloriae esse ejusdem speciei in angelis et
+          <lb ed="#P" n="78"/>hominibus.
+        </p>
+        <p xml:id="szduep-029608-d1e411">
+          <lb ed="#P" n="79"/>6. Secunda ratio.-— Declaratur secundo hoc
+          <lb ed="#P" n="80"/>modo, quia de hominibus inter se nullus 
+          un<lb break="no" ed="#P" n="81"/>quam theologorum dubitavit, quin visiones
+          <lb ed="#P" n="82"/>beatificae in eis sint ejusdem speciei, quia 
+          om<lb break="no" ed="#P" n="83"/>nes homines sunt ejusdem naturae specificae ; 
+          er<lb break="no" ed="#P" n="84"/>go ordinantur ad finem et beatitudinem 
+          ejus<lb break="no" ed="#P" n="85"/>dem speciei: et ita Scriptura sacra semper 
+          pro<lb break="no" ed="#P" n="86"/>mittit omnibus idem praemium per eamdem
+          <lb ed="#P" n="87"/>beatitudinem, quod saltem necesse est intelligi
+          <lb ed="#P" n="88"/>de identitate specifica et essentiali beatitudinis;
+          <lb ed="#P" n="89"/>ergo et visionis. Nam hic non est sermo de
+          <lb ed="#P" n="90"/>beatitudine objectiva, quae non tantum est
+          <lb ed="#P" n="91"/>una specie, sed una numero secundum fidem.
+          <lb ed="#P" n="92"/>Loquimur ergo de beatitudine formali, quae
+          <lb ed="#P" n="93"/>est ipsa visio Dei, quatenus attingit Deum, qui
+          <lb ed="#P" n="94"/>est beatitudo objectiva, ergo si visio est specie
+          <lb ed="#P" n="95"/>diversa, forma beatificans, ut sic, erit specie
+          <lb ed="#P" n="96"/>diversa ; ergo si in visione, ut visio est, datur
+          <lb ed="#P" n="97"/>diversitas specifica, etiam in formali 
+          beatitu<lb break="no" ed="#P" n="98"/>dine necessario danda est et qui habuerit 
+          per<lb break="no" ed="#P" n="99"/>fectiorem visionem in specie, erit sine dubio
+          <lb ed="#P" n="100"/>perfectiori modo beatus essentialiter, praesertim
+          <lb ed="#P" n="101"/>si caetera sint paria. Ergo te converso, si tota
+          <lb ed="#P" n="102"/>humana natura de se ordinatur ad eamdem
+          <lb ed="#P" n="103"/>beatitudinem formalem, essentialiter 
+          aequa<lb break="no" ed="#P" n="104"/>lem, necesse est, ut ordinetur ad visionem
+          <lb ed="#P" n="105"/>ejusdem rationis. Sicut quia elevata est ad
+          <lb ed="#P" n="106"/>justitiam et sanctitatem ejusdem ordinis et
+          <lb ed="#P" n="107"/>rationis, necesse est, ut in tota humana natura
+          <lb ed="#P" n="108"/>gratia formaliter justificans sit ejusdem 
+          ratio<lb break="no" ed="#P" n="109"/>nis, quamvis in ea esse possit latitudo et 
+          gra<lb break="no" ed="#P" n="110"/>duum inaequalitas.
+        </p>
+        <p xml:id="szduep-029608-d1e483">
+          <pb ed="#P" n="118"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>7. Rursus, si naturam angelicam, vel inter se,
+          <lb ed="#P" n="2"/>vel cum humana comparemus, nulla est 
+          ratio<lb break="no" ed="#P" n="3"/>fingendi in illa diversitatem specificam visionis,
+          <lb ed="#P" n="4"/>quia si aliqua esset, maxime quia intellectus
+          <lb ed="#P" n="5"/>specie differunt in his naturis, sed hoc nullius
+          <lb ed="#P" n="6"/>momenti est, ergo. Probatur Minor primo, quia
+          <lb ed="#P" n="7"/>a principiis specie differentibus possunt 
+          inter<lb break="no" ed="#P" n="8"/>dum esse effectus, vel actiones ejusdem 
+          spe<lb break="no" ed="#P" n="9"/>ciei, si non operentur, quatenus diversa sunt,
+          <lb ed="#P" n="10"/>sed quatenus in aliqua ratione conveniunt. Et
+          <lb ed="#P" n="11"/>hoc speciali ratione locum habet in his 
+          intel<lb break="no" ed="#P" n="12"/>lectibus respectu talis visionis, quia non 
+          con<lb break="no" ed="#P" n="13"/>currunt ad illam propria virtute naturali, sed
+          <lb ed="#P" n="14"/>prout elevati, et quatenus per potentiam 
+          obe<lb break="no" ed="#P" n="15"/>dientialem capaces sunt illhus visionis. Propter
+          <lb ed="#P" n="16"/>quam causam (ut infra dicam), naturalis 
+          per<lb break="no" ed="#P" n="17"/>fectio intellectus nihil confert ad majorem, vel
+          <lb ed="#P" n="18"/>minorem perfectionem illius visionis; ergo
+          <lb ed="#P" n="19"/>multo minus diversitas specifica in natura facit
+          <lb ed="#P" n="20"/>diversitatem specificam in visione.
+        </p>
+        <p xml:id="szduep-029608-d1e534">
+          <lb ed="#P" n="21"/>8. Tertia ratio. — Tertio ostendi potest a
+          <lb ed="#P" n="22"/>posteriori, quia sequitur, quemlibet angelum
+          <lb ed="#P" n="23"/>habere perfectiorem visionem essentialiter 
+          quo<lb break="no" ed="#P" n="24"/>libet homine et consequenter esse beatiorem,
+          <lb ed="#P" n="25"/>quod est erroneum, ut ait D. Thomas, 1p.,
+          <lb ed="#P" n="26"/>qu. 198, art. 8, et in 2, distinct. 9, q. 1, art. 8,
+          <lb ed="#P" n="27"/>et 3, contra Gentes, c. 53 et 51. Patet sequela,
+          <lb ed="#P" n="28"/>quia major excellentia specifica non potest
+          <lb ed="#P" n="29"/>satis compensari quacumque perfectione 
+          in<lb break="no" ed="#P" n="30"/>tensiva in inferiori specie. Licet enim in ordine
+          <lb ed="#P" n="31"/>ad effectum extrinsecum, vel utilitates 
+          huma<lb break="no" ed="#P" n="32"/>nas, interdum multitudo, vel intentio in re,
+          <lb ed="#P" n="33"/>vel forma inferioris rationis censeatur 
+          aequi<lb break="no" ed="#P" n="34"/>valere perfectiori forme melioris in specie,
+          <lb ed="#P" n="35"/>tamen in ordine ad proprium et connaturalem
+          <lb ed="#P" n="36"/>forme effectum, nunquam accidentalis 
+          perfec<lb break="no" ed="#P" n="37"/>tio potest cum essentiali comparari. Sed visio
+          <lb ed="#P" n="38"/>illa formaliter et natura sua facit beatum, et
+          <lb ed="#P" n="39"/>manifestat Deum clare, prout in se est ; ergo
+          <lb ed="#P" n="40"/>quae fuerit essentialiter perfectior, conferet
+          <lb ed="#P" n="41"/>talem effectum perfectiorem simpliciter. Sicut
+          <lb ed="#P" n="42"/>intellectio naturalis angelica ejusdem objecti
+          <lb ed="#P" n="43"/>semper est perfectior intellectione naturali 
+          hu<lb break="no" ed="#P" n="44"/>mana, quantumvis supponatur haec intentione
+          <lb ed="#P" n="45"/>illam superare.
+        </p>
+        <p xml:id="szduep-029608-d1e591">
+          <lb ed="#P" n="46"/>9. Philosophica ratio. — Unde concludi 
+          po<lb break="no" ed="#P" n="47"/>test philosophica ratio, quia nullum est 
+          prin<lb break="no" ed="#P" n="48"/>cipium diversitatis specificae in illa visione;
+          <lb ed="#P" n="49"/>nam visio illa (sicut et alii actus animae) sumit
+          <lb ed="#P" n="50"/>speciem ab objecto et modo attingendi illud,
+          <lb ed="#P" n="51"/>sed objectum specificans est omnino idem, 
+          sci<lb break="no" ed="#P" n="52"/>licet Deus prout inse est, qui codem modo 
+          con<lb break="no" ed="#P" n="53"/>jungitur per essentiam suam omnibus beatis, ut
+          <lb ed="#P" n="54"/>ab cis videatur et ceodem modo per se ipsum
+          <lb ed="#P" n="55"/>immediate terminat omnium visiones, ergo.
+        </p>
+        <p xml:id="szduep-029608-d1e615">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>10. Secunda conclusio. —Objectio. —
+          Respon<lb break="no" ed="#P" n="57"/>sum. — Hinc dico secundo, probabile esse, in
+          <lb ed="#P" n="58"/>illa visione non posse esse specificam 
+          diversi<lb break="no" ed="#P" n="59"/>tatem, etiam de potentia absoluta, licet hoc
+          <lb ed="#P" n="60"/>non sit certum. Priorem partem insinuat 
+          Ca<lb break="no" ed="#P" n="61"/>jetanus, 3 p., quaest. 10, art. 4, ubi de lumine
+          <lb ed="#P" n="62"/>loquitur, est autem eadem ratio. Nimirum quia
+          <lb ed="#P" n="63"/>nullum est, neque excogitari potest principium
+          <lb ed="#P" n="64"/>specifice diversitatis in tali visione; nam in 
+          ob<lb break="no" ed="#P" n="65"/>jecto et modo attingendi illud, est quaedam
+          <lb ed="#P" n="66"/>participatio illius visionis, qua Deus se ipsum
+          <lb ed="#P" n="67"/>videt, perfectissimi ordinis, qui a nobis potest
+          <lb ed="#P" n="68"/>intelligi. Dices: sicut visio creata et increata
+          <lb ed="#P" n="69"/>Dei essentialiter differunt se ipsis, per entitates
+          <lb ed="#P" n="70"/>suas, ita fieri posse duas visiones creatas Dei,
+          <lb ed="#P" n="71"/>quae specie differant, non ratione objecti, sed
+          <lb ed="#P" n="72"/>absolute per suas entitates. Respondetur, non
+          <lb ed="#P" n="73"/>esse simile, quod adducitur, quia visio increata
+          <lb ed="#P" n="74"/>non habet specificationem ab objecto et differt
+          <lb ed="#P" n="75"/>plus quam genere, cum sit substantia et actus
+          <lb ed="#P" n="76"/>purissimus.
+        </p>
+        <p xml:id="szduep-029608-d1e665">
+          <lb ed="#P" n="77"/>11. Deinde ille respondendi modus 
+          confir<lb break="no" ed="#P" n="78"/>mat alteram partem assertionis, scilicet rem
+          <lb ed="#P" n="79"/>hanc esse incertam. Tum quia illa responsio
+          <lb ed="#P" n="80"/>non potest evidenter refutari, tum etiam quia
+          <lb ed="#P" n="81"/>fortasse divina virtus plus in hoc potest, quam
+          <lb ed="#P" n="82"/>nos possumus intelligere, praesertim cum hic
+          <lb ed="#P" n="83"/>non appareat evidens implicatio 
+          contradictio<lb break="no" ed="#P" n="84"/>nis. Tamen si nobis loquendum est juxta 
+          mo<lb break="no" ed="#P" n="85"/>dum, quointelligimusspecificari et diversificari
+          <lb ed="#P" n="86"/>actus animae, non invenimus, unde posset oriri
+          <lb ed="#P" n="87"/>in illa visione diversitas essentialis, nam cum
+          <lb ed="#P" n="88"/>ex natura sua respiciat objectum, sicut ali
+          <lb ed="#P" n="89"/>actus intelligendi, non videtur posse per 
+          en<lb break="no" ed="#P" n="90"/>titatem suam differre specifice , nisi in 
+          ob<lb break="no" ed="#P" n="91"/>jecto, vel habitudine ab illud intelligatur 
+          ali<lb break="no" ed="#P" n="92"/>qua diversitas: haec autem nulla est in objecto
+          <lb ed="#P" n="93"/>primario, objectum autem secundarium non
+          <lb ed="#P" n="94"/>dat actui speciem, ut dicemus, ergo.
+        </p>
+        <p xml:id="szduep-029608-d1e707">
+          <lb ed="#P" n="95"/>12. Ad argumenta. — Unde ad primum 
+          ar<lb break="no" ed="#P" n="96"/>gumentum de inaequalitate beatitudinis 
+          res<lb break="no" ed="#P" n="97"/>pondetur, esse aequivocationem in termino.
+          <lb ed="#P" n="98"/>Erit enim inaequalitas in beatitudine essentiali
+          <lb ed="#P" n="99"/>(ut capite sequenti dicemus), id est in forma,
+          <lb ed="#P" n="100"/>qua essentialiter beatificamur, ipsa vero 
+          inae<lb break="no" ed="#P" n="101"/>qualitas non erit essentialis, sed intensiva, vel
+          <lb ed="#P" n="102"/>individualis. Sicut in via est inaequalitas in
+          <lb ed="#P" n="103"/>gratia essentiali, non tamen est inaequalitas
+          <lb ed="#P" n="104"/>essentialis. Ad secundum argumentum de 
+          re<lb break="no" ed="#P" n="105"/>praesentatione creaturarum in Deo respondetur
+          <lb ed="#P" n="106"/>argumentum fore alicujus momenti, si 
+          reprae<lb break="no" ed="#P" n="107"/>sentatio et similitudo visionis esset per 
+          forma<lb break="no" ed="#P" n="108"/>lem convenientiam et unitatem cum re 
+          re<lb break="no" ed="#P" n="109"/>praesentata. At vero cum illa tantum sit 
+          simi<lb break="no" ed="#P" n="110"/>litudo repraesentationis, nulla est difficultas,
+          <pb ed="#P" n="119"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia illa visio tantum repraesentat intentionali
+          <lb ed="#P" n="2"/>modo, et extenditur ad creaturas ex vi primarii
+          <lb ed="#P" n="3"/>objecti perfectius cogniti, a quo sumit speciem
+          <lb ed="#P" n="4"/>suam et ideo non sequitur, inter illas visiones
+          <lb ed="#P" n="5"/>esse differentiam specificam, sed gradualem,
+          <lb ed="#P" n="6"/>vel individualem, ut ex dicendis in 
+          sequenti<lb break="no" ed="#P" n="7"/>bus capitibus constabit.
+        </p>
+        <p xml:id="szduep-029608-d1e764">
+          <lb ed="#P" n="8"/>13. Ad tertium respondetur, sententiam
+          <lb ed="#P" n="9"/>Majoris falsam esse et fundamentum ejus de
+          <lb ed="#P" n="10"/>naturali diversitate specifica intellectuum parvi
+          <lb ed="#P" n="11"/>momenti esse, ut ostensum est. Quod etiam
+          <lb ed="#P" n="12"/>ait, quemlibet angelum habere visionem Dei
+          <lb ed="#P" n="13"/>perfectiorem essentialiter, quam sit visio 
+          ani<lb break="no" ed="#P" n="14"/>mae Christi, ab omni veritate et pietate alienum
+          <lb ed="#P" n="15"/>est, ut in tom. 1, 3 p., disp. 26, diximus. 
+          Distinc<lb break="no" ed="#P" n="16"/>tio autem illa de visione in ratione visionis,
+          <lb ed="#P" n="17"/>vel beatitudinis satisfacere non potest, tum
+          <lb ed="#P" n="18"/>quia Christi anima non solum excedit angelos
+          <lb ed="#P" n="19"/>in visione, ut beatitudo est, sed etiam, ut
+          <lb ed="#P" n="20"/>scientia est: tum etiam quia in ratione 
+          beati<lb break="no" ed="#P" n="21"/>tudinis non posset excessus ille essentialis per
+          <lb ed="#P" n="22"/>accidentales perfectiones compensari: tum 
+          de<lb break="no" ed="#P" n="23"/>nique , quia distinctio illa impertinens est,
+          <lb ed="#P" n="24"/>cum in tali beatitudine essentialiter 
+          includa<lb break="no" ed="#P" n="25"/>tur ratio visionis. Est etiam valde absurdum
+          <lb ed="#P" n="26"/>dicere, perfectionem beatitudinis non attendi
+          <lb ed="#P" n="27"/>ex perfectione visionis, sed ex solo objecto,
+          <lb ed="#P" n="28"/>quia objectum non facit formaliter beatum,
+          <lb ed="#P" n="29"/>sed visio. Item quia vel est sermo de re, quae
+          <lb ed="#P" n="30"/>est objectum secundum se spectata. Et sic ex
+          <lb ed="#P" n="31"/>illo dogmate sequeretur, omnes beatos esse
+          <lb ed="#P" n="32"/>aequales, ut beati sunt : quod est contra fidem,
+          <lb ed="#P" n="33"/>ut capite sequenti ostendemus, vel est sermo
+          <lb ed="#P" n="34"/>de re illa ut visa et sic necessario includit 
+          vi<lb break="no" ed="#P" n="35"/>sionem, nec potest in ea dari magis et minus,
+          <lb ed="#P" n="36"/>nisi ratione visionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

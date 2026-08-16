@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="373"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-094901"><!-- t2-l2c10 -->
+        <head xml:id="szduep-094901-Hd1e101">Caput 10</head>
+        <head xml:id="szduep-094901-Hd1e103" type="question-title">Tractantur tres modi asserendi bonum opus morale, quod non possit esse nisi ex praedestinatione, seu gratia</head>
+        <p xml:id="szduep-094901-d1e106">
+          <lb ed="#P" n="91"/>CAPUT X.
+          <lb ed="#P" n="92"/>TRACTANTUR TRES MODI ASSERENDI BONUM OPUS
+          <lb ed="#P" n="93"/>MORALE, QUOD NON POSSIT ESSE NISI EX 
+          PRAE<lb break="no" ed="#P" n="94"/>DESTINATIONE, SEU GRATIA.
+        </p>
+        <p xml:id="szduep-094901-d1e117">
+          <lb ed="#P" n="95"/>1. Disputant theologi ex professo in materia
+          <lb ed="#P" n="96"/>de gratia, an possit homo sine auxilio gratiae
+          <lb ed="#P" n="97"/>et per vires liberi arbitrii facere aliquod opus
+          <lb ed="#P" n="98"/>morale, honestum simpliciter, id est, ex 
+          ob<lb break="no" ed="#P" n="99"/>jecto, et circumstantiis. Non potuimns tamen
+          <lb ed="#P" n="100"/>effugere, quin hoc loco exacte illud principrum
+          <lb ed="#P" n="101"/>examinemus : quia nonnulli hoc tempore 
+          do<lb break="no" ed="#P" n="102"/>cuisse videntur, esse tam necessariam 
+          con<lb break="no" ed="#P" n="103"/>nexionem inter praedestinationem gratuitam,
+          <lb ed="#P" n="104"/>et necessitatem gratiae ad omne tale opus, ut
+          <lb ed="#P" n="105"/>non possit defendi, praedestinationem non 
+          ha<lb break="no" ed="#P" n="106"/>bere causam ex parte nostra quoad 
+          collectio<lb break="no" ed="#P" n="107"/>nem suorum effectuum, nisi simul defendamus
+          <pb ed="#P" n="374"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bonum opus morale non posse fieri absque
+          <lb ed="#P" n="2"/>gratia. Quod nobis durum, ac difficile visum
+          <lb ed="#P" n="3"/>est, quia verum non pendet ex falso, nec 
+          cer<lb break="no" ed="#P" n="4"/>tum ex incerto: ideoque principium illud 
+          di<lb break="no" ed="#P" n="5"/>ligenter examinandum hic est.
+        </p>
+        <p xml:id="szduep-094901-d1e163">
+          <lb ed="#P" n="6"/>2. Primus dicendi modus est. — Hic modus 
+          ex<lb break="no" ed="#P" n="7"/>ploditur tanquam haereticus. — Variis ergo 
+          mo<lb break="no" ed="#P" n="8"/>dis assertum est, vel excogitari potest, 
+          homi<lb break="no" ed="#P" n="9"/>nem naturae viribus absque gratia non posse
+          <lb ed="#P" n="10"/>bonum aliquod operari. Primus est, id 
+          intel<lb break="no" ed="#P" n="11"/>ligendo de gratia significante, quod multi ex
+          <lb ed="#P" n="12"/>haereticis hujus temporis asseruerunt, cum 
+          Lu<lb break="no" ed="#P" n="13"/>thero, art. 36. Hic vero sensus haereticus est,
+          <lb ed="#P" n="14"/>quia ex illo sequitur, omnes peccatores, etiamsi
+          <lb ed="#P" n="15"/>fidem habeant, et Christiani sint, in omnibus
+          <lb ed="#P" n="16"/>operibus suis peccare, quia sine gratia 
+          sancti<lb break="no" ed="#P" n="17"/>ficante operantur. Consequens autem 
+          absur<lb break="no" ed="#P" n="18"/>dissimum est, et haereticum, alias etiam in
+          <lb ed="#P" n="19"/>ipso actu fidei mortuse, vel timoris, vel 
+          attri<lb break="no" ed="#P" n="20"/>tionis peccator peccaret : quod damnatum est
+          <lb ed="#P" n="21"/>in Concilio Tridentino, sess. 6, can. 7. Et est
+          <lb ed="#P" n="22"/>per se evidens, quia gratia sanctificans cum
+          <lb ed="#P" n="23"/>suis habitibus, in actu primo dumtaxat 
+          ma<lb break="no" ed="#P" n="24"/>nentibus, sine actuali influxu, non est 
+          circum<lb break="no" ed="#P" n="25"/>stantia necessaria ad moralem honestatem 
+          o<lb break="no" ed="#P" n="26"/>peris : ergo sine illis fieri potest bonum opus,
+          <lb ed="#P" n="27"/>undequaque bonum et honestum, esto in 
+          mo<lb break="no" ed="#P" n="28"/>do, vel in omnibus proprietatibus non fiat tam
+          <lb ed="#P" n="29"/>perfectum, quantum fieri possit: nam haec
+          <lb ed="#P" n="30"/>perfectio non est necessaria ad bonitatem 
+          sim<lb break="no" ed="#P" n="31"/>pliciter operis, de qua nunc tractamus.
+        </p>
+        <p xml:id="szduep-094901-d1e223">
+          <lb ed="#P" n="32"/>3. Secundus dicendi modus. — Relinquitur
+          <lb ed="#P" n="33"/>lueec sententia tum quia haeretica, tum quia sine
+          <lb ed="#P" n="34"/>fundamento profertur. — Secundus modus 
+          di<lb break="no" ed="#P" n="35"/>cendi fuit eorum, qui fidem necessariam esse
+          <lb ed="#P" n="36"/>putabant ad moralem honestatem cujuscumque
+          <lb ed="#P" n="37"/>operis humani. Ita intelligentes illud Pauli ad
+          <lb ed="#P" n="38"/>hRom. 14. Omne quod non est ex fide, peccatum
+          <lb ed="#P" n="39"/>est. Et illud ad Hebr. 20: S'ine fide impossibile
+          <lb ed="#P" n="40"/>st placere Deo : quia omne bonum opus placet
+          <lb ed="#P" n="41"/>Deo. Quam sententiam docent etiam nostri
+          <lb ed="#P" n="42"/>temporis haeretici, in illius confirmationem
+          <lb ed="#P" n="43"/>multa Augustini testimonia congerentes, quae
+          <lb ed="#P" n="44"/>hoc loco tractare non licet, quia haec res 
+          prae<lb break="no" ed="#P" n="45"/>senti instituto non deservit et in materia de
+          <lb ed="#P" n="46"/>fide ex professo tractatur. Relinquenda ergo
+          <lb ed="#P" n="47"/>est haec sententia ut haeretica et sine ullo 
+          fun<lb break="no" ed="#P" n="48"/>damento. Ex illa enim sequitur, omnia opera
+          <lb ed="#P" n="49"/>infidelium necessario esse peccata : quod fides
+          <lb ed="#P" n="50"/>non admittit. Nam Christus Dominus, Matth.
+          <lb ed="#P" n="51"/>5; supponit ethnicos habere naturalem amorem
+          <lb ed="#P" n="52"/>bonum. Nonne (inquit) et Ethnici hoc faciunt?
+          <lb ed="#P" n="53"/>Quod si quis dicat, facere quidem Ethniticos
+          <lb ed="#P" n="54"/>id, quod secundum substantiam bonum est,
+          <lb ed="#P" n="55"/>non tamen cum omnibus circumstantiis neces-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sariis ut bene fiat : certe hoc Christus Dominus
+          <lb ed="#P" n="57"/>non limitavit, sed absolute fatetur posse 
+          eth<lb break="no" ed="#P" n="58"/>nicum facere bonum quod natura ipsa dictat:
+          <lb ed="#P" n="59"/>at non solum dictat agendum esse bonum
+          <lb ed="#P" n="60"/>quoad substantiam, sed etiam bene quoad 
+          cir<lb break="no" ed="#P" n="61"/>cumstantias, ergo hoc etiam interdum 
+          ethni<lb break="no" ed="#P" n="62"/>cus faciet. Nec enim fides infusa et 
+          superna<lb break="no" ed="#P" n="63"/>turalis est circumstantia necessaria ad moralem
+          <lb ed="#P" n="64"/>honestatem naturalis operis cum sint res 
+          di<lb break="no" ed="#P" n="65"/>versorum ordinum. Item alias si infidelis 
+          an<lb break="no" ed="#P" n="66"/>tequam credat, aliquid faciat in ordine ad 
+          au<lb break="no" ed="#P" n="67"/>diendam fidem, vel ad examinandam 
+          credibi<lb break="no" ed="#P" n="68"/>litatem ejus, aut ad obtinendum lumen ejus,
+          <lb ed="#P" n="69"/>totum illud peccatum esset, quod est 
+          absur<lb break="no" ed="#P" n="70"/>dissimum et plane comprehensum in 
+          damna<lb break="no" ed="#P" n="71"/>tione Concilii Tridentini, sess. 6, canon 7.
+          <lb ed="#P" n="72"/>Quamquam ergo fides sit necessaria, ut opera
+          <lb ed="#P" n="73"/>bona Deo placeant in ordine ad vitam 
+          aeter<lb break="no" ed="#P" n="74"/>nam , quoad summum habetur in secundo
+          <lb ed="#P" n="75"/>Pauli testimonio: non tamen ad naturalem
+          <lb ed="#P" n="76"/>bonitatem, seu moralitatem honestam, ad
+          <lb ed="#P" n="77"/>quam satis est, quod opus sit consentaneum
+          <lb ed="#P" n="78"/>dictamini rationis rectae naturalis : atque adeo
+          <lb ed="#P" n="79"/>ut sit ex conscientia. Atque ita sumpsit Paulus
+          <lb ed="#P" n="80"/>fidem, cum in alio loco dixit, omne, quod non
+          <lb ed="#P" n="81"/>est ex fide, esse peccatum, id est, omne, quod
+          <lb ed="#P" n="82"/>contra conscientiam sit, esse peccatum, ut ex
+          <lb ed="#P" n="83"/>contextu et ex communi sententia est 
+          proba<lb break="no" ed="#P" n="84"/>bilius: licet ille locus alas habeat expositiones.
+        </p>
+        <p xml:id="szduep-094901-d1e343">
+          <lb ed="#P" n="85"/>4. Tertius modus dicendi. — Rejicitur 
+          dic<lb break="no" ed="#P" n="86"/>tus modus dicendi. — Tertius ergo modus 
+          po<lb break="no" ed="#P" n="87"/>nendi necessitatem gratiae ad singula opera
+          <lb ed="#P" n="88"/>moraliter bona fuit eorum, qui per gratiam
+          <lb ed="#P" n="89"/>intelligunt, non habituale aliquod donum,
+          <lb ed="#P" n="90"/>sed motionem aliquam Spiritus sancti, quae
+          <lb ed="#P" n="91"/>hominibus etiam credentibus interdum 
+          da<lb break="no" ed="#P" n="92"/>tur: estque nihilominus vera gratia interior
+          <lb ed="#P" n="93"/>et supernaturahs ordinis, per quam Deus 
+          spe<lb break="no" ed="#P" n="94"/>cialiter praemovet et inducit hominem ad bene
+          <lb ed="#P" n="95"/>moraliter operandum. Quae videtur fuisse 
+          opi<lb break="no" ed="#P" n="96"/>nio Gregorii in 2, dist. 28, quaest. 1, art. 1,
+          <lb ed="#P" n="97"/>concl. 2, quem ibi sequitur Capreolus, art. 3.
+          <lb ed="#P" n="98"/>Quanquam ipsi non satis clare explicent, 
+          qua<lb break="no" ed="#P" n="99"/>lis sit illa gratia, quam ad singula opera 
+          mo<lb break="no" ed="#P" n="100"/>ralia requirunt. Fundamenta vero eorum in
+          <lb ed="#P" n="101"/>quarta opinione afferam, quia generalia sunt
+          <lb ed="#P" n="102"/>et applicari possunt ad quemcumque modum
+          <lb ed="#P" n="103"/>gratiae, quae ad talia opera exigatur. Haec ergo
+          <lb ed="#P" n="104"/>opinio in hoc sensu antiquata et ab omnibus
+          <lb ed="#P" n="105"/>relicta videtur et contra illam facient multa
+          <lb ed="#P" n="106"/>ex his, quae contra ultimam opinionem dicam.
+        </p>
+        <p xml:id="szduep-094901-d1e393">
+          <lb ed="#P" n="107"/>5. Nunc solum inquiro ab his auctoribus, an
+          <lb ed="#P" n="108"/>existiment actum bonum moraliter esse per se,
+          <lb ed="#P" n="109"/>et ex intrinseca sua natura supra naturales 
+          vi<lb break="no" ed="#P" n="110"/>res arbitrii humani, nec ne. Ptimum dicere est
+          <pb ed="#P" n="375"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>per se incredibile et repugnantiam involvens.
+          <lb ed="#P" n="2"/>Primo, quia nec in objecto, neque in 
+          substan<lb break="no" ed="#P" n="3"/>tia sua, nec in modo talis actus aliquid 
+          inveni<lb break="no" ed="#P" n="4"/>tur, quod naturales vires voluntatis humanae
+          <lb ed="#P" n="5"/>superet. Nam objectum debitis circumstantiis
+          <lb ed="#P" n="6"/>atfectum cognoscibile est per rationem 
+          natu<lb break="no" ed="#P" n="7"/>ralem, alioqui non est bonum illud de quo
+          <lb ed="#P" n="8"/>tractamus : actus autem voluntatis, qui solum
+          <lb ed="#P" n="9"/>tendit in objectum, ut conforme naturali 
+          ra<lb break="no" ed="#P" n="10"/>tioni. ex illo capite non potest habere 
+          sub<lb break="no" ed="#P" n="11"/>stantiam, seu entitatem superantem 
+          capacita<lb break="no" ed="#P" n="12"/>tem naturalem humanae naturae. Cur enim,
+          <lb ed="#P" n="13"/>aut unde illam haberet? Neque etiam postulat
+          <lb ed="#P" n="14"/>modum et intensionem, vel aliam similem
+          <lb ed="#P" n="15"/>conditionem superantem naturalem vim 
+          acti<lb break="no" ed="#P" n="16"/>vam voluntatis, quia nunquam ratio naturalis
+          <lb ed="#P" n="17"/>hoc petit, ut per se evidens est.
+        </p>
+        <p xml:id="szduep-094901-d1e445">
+          <lb ed="#P" n="18"/>6. Secundo, quia alias non potest talis actus
+          <lb ed="#P" n="19"/>cadere sub praeceptum homini connaturale,
+          <lb ed="#P" n="20"/>quia nulli naturae praecipi potest, ex vi naturae,
+          <lb ed="#P" n="21"/>quod supra vires naturales ejusdem naturae est.
+          <lb ed="#P" n="22"/>Nec satis est, quod talis actus per gratiam sit
+          <lb ed="#P" n="23"/>possibilis, quia natura nihil dictat de gratia
+          <lb ed="#P" n="24"/>supernaturah, unde non obligat ad 
+          quaeren<lb break="no" ed="#P" n="25"/>dam illam, maxime si natura ipsa praecise, ac
+          <lb ed="#P" n="26"/>nude spectetur, ut considerari debet ad 
+          obli<lb break="no" ed="#P" n="27"/>gationem, quae ex illa nascitur. Ad certum est,
+          <lb ed="#P" n="28"/>hos actus cadere sub naturalem legem, non
+          <lb ed="#P" n="29"/>solum secundum substantiam, sed etiam 
+          se<lb break="no" ed="#P" n="30"/>eundum debitas circumstantias, alias illos ita
+          <lb ed="#P" n="31"/>praetermittere, per se et ex natura rei non
+          <lb ed="#P" n="32"/>esset peccatum, ergo.
+        </p>
+        <p xml:id="szduep-094901-d1e480">
+          <lb ed="#P" n="33"/>7. Tertio, quia sequitur, in nullo statu, etiam
+          <lb ed="#P" n="34"/>integrae naturae potuisse hominem operari 
+          alh<lb break="no" ed="#P" n="35"/>quod bonum opus morale sine hac gratia vera
+          <lb ed="#P" n="36"/>et supernaturali : quia naturales vires 
+          intrin<lb break="no" ed="#P" n="37"/>secae voluntati, et per se illi convenientes, per
+          <lb ed="#P" n="38"/>se et in omni statu sunt eaedem: unde si actus
+          <lb ed="#P" n="39"/>ipse ex se etiam et ex vi solius honestatis 
+          mo<lb break="no" ed="#P" n="40"/>ralis excedit illas, in omni statu excedit. 
+          Con<lb break="no" ed="#P" n="41"/>sequens autem est contra communem 
+          doctri<lb break="no" ed="#P" n="42"/>nam Conciliorum, Augustini et omnium, qui
+          <lb ed="#P" n="43"/>illum secuti sunt, qui omnem infirmitatem,
+          <lb ed="#P" n="44"/>vel impotentiam humanae naturae circa bonum
+          <lb ed="#P" n="45"/>morale operandum quatenus consentaneum
+          <lb ed="#P" n="46"/>est soli rationi naturali, dicunt esse oórtam ex
+          <lb ed="#P" n="47"/>lapsu totius naturae, nec reddi potest 
+          proba<lb break="no" ed="#P" n="48"/>bilis ratio alterius originis.
+        </p>
+        <p xml:id="szduep-094901-d1e517">
+          <lb ed="#P" n="49"/>8. Imo nec intelligi potest, qualis, vel ad
+          <lb ed="#P" n="50"/>quid sit illa supernaturalis motio: nam si est
+          <lb ed="#P" n="51"/>illuminatio ex parte intellectus, non debet
+          <lb ed="#P" n="52"/>proponere rem supernaturalem (ut sic dicam)
+          <lb ed="#P" n="53"/>nec rationem operandi supernaturalem : 
+          neu<lb break="no" ed="#P" n="54"/>trum enim horum necessarium est ad 
+          hones<lb break="no" ed="#P" n="55"/>tum actum, de quo tractamus. Si vero illa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>motio sit inspiratio supernaturalis proxime
+          <lb ed="#P" n="57"/>indita voluntati, haec imprimis nunquam 
+          ha<lb break="no" ed="#P" n="58"/>bet locum, nisi supposita illuminatione. Unde
+          <lb ed="#P" n="59"/>si illuminatio supernaturalis necessaria non
+          <lb ed="#P" n="60"/>est, nec etiam inspiratio. Ac deinde, motio
+          <lb ed="#P" n="61"/>similis solum est necessaria ad sublevandam
+          <lb ed="#P" n="62"/>et juvandam voluntatem: ubi effectus superat
+          <lb ed="#P" n="63"/>vires ejus : ostensum autem est hunc effectum
+          <lb ed="#P" n="64"/>non superare, per se loquendo, naturales vires
+          <lb ed="#P" n="65"/>voluntatis: ergo. Denique, signum apertum
+          <lb ed="#P" n="66"/>est, quia habitus correspondens tali actui, non
+          <lb ed="#P" n="67"/>est per se infusus, sed acquisitus: motio autem
+          <lb ed="#P" n="68"/>illa solet esse proportionata habitui et ejusdem
+          <lb ed="#P" n="69"/>ordinis , ac fortasse supplere vicem ejus,
+          <lb ed="#P" n="70"/>quando ille deest : unde sicut habitus 
+          acquisi<lb break="no" ed="#P" n="71"/>tus non est simpliciter necessarius ad talem
+          <lb ed="#P" n="72"/>operationem, sed juvat ad facilius operandum:
+          <lb ed="#P" n="73"/>ita nec talis motio potest esse simpliciter 
+          ne<lb break="no" ed="#P" n="74"/>cessaria, sed ad summum ad facilitatem 
+          juva<lb break="no" ed="#P" n="75"/>bit : loquimur enim de singulis actibus, nam
+          <lb ed="#P" n="76"/>de collectione aliud est.
+        </p>
+        <p xml:id="szduep-094901-d1e583">
+          <lb ed="#P" n="77"/>9. Quod si tandem dicatur, hanc 
+          necessita<lb break="no" ed="#P" n="78"/>tem gratiae, vel impossibilitatem habendi hunc
+          <lb ed="#P" n="79"/>actum per solas naturales vires, non esse per
+          <lb ed="#P" n="80"/>se ex sola comparatione voluntatis, et talis 
+          ac<lb break="no" ed="#P" n="81"/>tus inter se et improportione inter ea 
+          inven<lb break="no" ed="#P" n="82"/>tae : sed oriri ex conjunctione voluntatis cum
+          <lb ed="#P" n="83"/>appetitu inferiori et ex peccati fomite, aliisque
+          <lb ed="#P" n="84"/>extrinsecis impedimentis, praesertim 
+          instiga<lb break="no" ed="#P" n="85"/>tione daemonum. Contra hoc est, quia ex hoc
+          <lb ed="#P" n="86"/>capite recte quidem probatur necessariam esse
+          <lb ed="#P" n="87"/>gratiam ad praestanda longo tempore bona
+          <lb ed="#P" n="88"/>opera moralia sine admistione peccati: non
+          <lb ed="#P" n="89"/>tamen probatur de singulis actibus et 
+          momen<lb break="no" ed="#P" n="90"/>us. Quia rebellio illa appetitus nec in omnibus
+          <lb ed="#P" n="91"/>actibus, nec in omnibus opportunitatibus, vel
+          <lb ed="#P" n="92"/>in omnibus personis seu complexionibus aeque
+          <lb ed="#P" n="93"/>reperitur. Nam in benefaciendo amicis et 
+          co<lb break="no" ed="#P" n="94"/>gnatis, ac parentibus sensualitas non repugnat,
+          <lb ed="#P" n="95"/>nec semper inclinat ad modum aliquem 
+          exce<lb break="no" ed="#P" n="96"/>dentem rationis limitem, in omnibus et 
+          singu<lb break="no" ed="#P" n="97"/>lis beneficientiae actibus. Idem est de 
+          honora<lb break="no" ed="#P" n="98"/>tione parentum, de subventione pauperis,
+          <lb ed="#P" n="99"/>praesertim si persona sit natura sua propensa
+          <lb ed="#P" n="100"/>ad liberalitatem et compassionem. Et sic de
+          <lb ed="#P" n="101"/>aliis. Idem fere est de extrinsecis 
+          impedimen<lb break="no" ed="#P" n="102"/>tis, quia non semper in omni actu et pro omni
+          <lb ed="#P" n="103"/>tempore occurrunt. Et praeterea propter haec
+          <lb ed="#P" n="104"/>extrinseca impedimenta, satis etiam esset 
+          ex<lb break="no" ed="#P" n="105"/>trinseca custodia et protectio Dei per se, vel
+          <lb ed="#P" n="106"/>per angelos, sine propria gratia interna per
+          <lb ed="#P" n="107"/>motionem Spiritus sancti, de qua nunc agimus.
+          <lb ed="#P" n="108"/>Idemque est de instigatione daemonum, de
+          <lb ed="#P" n="109"/>qua in sequentibus plura dicemus.
+        </p>
+        <p xml:id="szduep-094901-d1e657">
+          <lb ed="#P" n="110"/>10. Contra dicta objicitur. — Una vero oc-
+          <pb ed="#P" n="376"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>currit objectio hujus sententiae propria, quae
+          <lb ed="#P" n="2"/>magis contra vim rationum factarum, quam
+          <lb ed="#P" n="3"/>contra assertionem fieri potest. Quia nimirum
+          <lb ed="#P" n="4"/>si rationes sunt validae, ad omnes et singulos
+          <lb ed="#P" n="5"/>actus morales naturae consentaneos, sine ulla
+          <lb ed="#P" n="6"/>exceptione applicari possent, ac proinde 
+          pro<lb break="no" ed="#P" n="7"/>barent, etiam amorem super omnia Dei, ut
+          <lb ed="#P" n="8"/>auctorem naturae, posse haberi sine interna et
+          <lb ed="#P" n="9"/>supernaturali gratia, aeque perfecte et 
+          effica<lb break="no" ed="#P" n="10"/>citer, ac posset haberi in statu naturae integrae.
+          <lb ed="#P" n="11"/>Consequens videtur non solum contra D. 
+          Tho<lb break="no" ed="#P" n="12"/>mam, sed etiam contra communem doctrinam,
+          <lb ed="#P" n="13"/>et non desunt viri docti, qui errores Pelagii
+          <lb ed="#P" n="14"/>pertinere putent: ergo. Sequela videtur clara
+          <lb ed="#P" n="15"/>applicando rationes factas, quod facile 
+          unus<lb break="no" ed="#P" n="16"/>quisque potest praestare: et ideo in eo non 
+          im<lb break="no" ed="#P" n="17"/>moror.
+        </p>
+        <p xml:id="szduep-094901-d1e703">
+          <lb ed="#P" n="18"/>11. Objectioni satisfit.—In statu innocentie
+          <lb ed="#P" n="19"/>poterat homo observare legem naturce. — Haec
+          <lb ed="#P" n="20"/>veroobjectiotangit novam materiam prolixam,
+          <lb ed="#P" n="21"/>et ab hoc loco alienam, et ideo illam non 
+          per<lb break="no" ed="#P" n="22"/>sequar: sed duo breviter dicam. Unum est,
+          <lb ed="#P" n="23"/>differentiam certam quoad hanc partem inter
+          <lb ed="#P" n="24"/>hominem lapsum, et in statu integrae naturae
+          <lb ed="#P" n="25"/>in hoc positam esse, quod ante lapsum 
+          potuis<lb break="no" ed="#P" n="26"/>set homo in statu innocentiae observare totam
+          <lb ed="#P" n="27"/>legem naturae longo tempore per solas vires
+          <lb ed="#P" n="28"/>naturae: nunc autem in natura corrupta non
+          <lb ed="#P" n="29"/>potest. Quia ergo amor Dei super omnia 
+          inclu<lb break="no" ed="#P" n="30"/>dit formale vel virtuale propositum servandi
+          <lb ed="#P" n="31"/>totam legem naturae, et nunquam peccandi
+          <lb ed="#P" n="32"/>contra illam, necesse est ut etiam in potestate
+          <lb ed="#P" n="33"/>habendi hunc perfectum amorem, sit aliqua
+          <lb ed="#P" n="34"/>differentia inter illos duos status. Ex hac ergo
+          <lb ed="#P" n="35"/>parte, respondendo ad objectionem negatur
+          <lb ed="#P" n="36"/>sequela, quoad illam partem, eque perfecte et
+          <lb ed="#P" n="37"/>efficaciter. Quia licet verum sit, actum talis
+          <lb ed="#P" n="38"/>amoris, quoad suam entitatem et speciem, non
+          <lb ed="#P" n="39"/>excedere naturales vires voluntatis humanae
+          <lb ed="#P" n="40"/>per se etiam spectatae, et ideo non repugnare,
+          <lb ed="#P" n="41"/>fieri pro aliquo instanti, aut brevi tempcre per
+          <lb ed="#P" n="42"/>naturales vires voluntatis, nihilominus non 
+          se<lb break="no" ed="#P" n="43"/>quitur, quod possit fieri aeque perfecte et 
+          con<lb break="no" ed="#P" n="44"/>stanter, quia perfectio illius actus quoad 
+          efti<lb break="no" ed="#P" n="45"/>caciam ejus pendet extrinsece ex statu hominis,
+          <lb ed="#P" n="46"/>nam ex illo pendet possibilhitas implendi totum
+          <lb ed="#P" n="47"/>id, quod ille actus includit: quod in alis 
+          acti<lb break="no" ed="#P" n="48"/>bus honestis inferiorum virtutum non 
+          inveni<lb break="no" ed="#P" n="49"/>tur. Erit ergo talis actus in natura corrupta
+          <lb ed="#P" n="50"/>minus efficax, vel potius inefficax, quia per se
+          <lb ed="#P" n="51"/>et sine gratia non erit potens ad implenda 
+          om<lb break="no" ed="#P" n="52"/>nia praecepta legis naturae longo tempore, quam
+          <lb ed="#P" n="53"/>perfectionem haberet in natura integra.
+        </p>
+        <p xml:id="szduep-094901-d1e784">
+          <lb ed="#P" n="54"/>12. Potest autem haec ipsa imperfectio 
+          duo<lb break="no" ed="#P" n="55"/>bus modis intelligi. Primo quod voluntas nunc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>eliciens talem actum, non potest esse constans,
+          <lb ed="#P" n="57"/>diuve perseverans in proposito, quod talis 
+          ac<lb break="no" ed="#P" n="58"/>tus includit , quia actualis ipsa dilectio parvo
+          <lb ed="#P" n="59"/>tempore durat, et illa transacta non relinquit
+          <lb ed="#P" n="60"/>vim sufficientem ad continendam voluntatem
+          <lb ed="#P" n="61"/>in officio, bene et honeste operando, ad quod
+          <lb ed="#P" n="62"/>tamen suffiiceret similis dilectio in natura 
+          in<lb break="no" ed="#P" n="63"/>tegra. At si quis recte consideret, haec 
+          differen<lb break="no" ed="#P" n="64"/>tia non est in aliqua perfectione intrinseca 
+          ip<lb break="no" ed="#P" n="65"/>sorum actuum, sed in duratione, vel 
+          perseve<lb break="no" ed="#P" n="66"/>rantia, aut efficacia, quae in uno est major
+          <lb ed="#P" n="67"/>quam in alio, non quia unus actus perfectior
+          <lb ed="#P" n="68"/>sit alio, sed quia unus invenit in subjecto 
+          ma<lb break="no" ed="#P" n="69"/>jorem resistentiam quam alius. Ut, verbi 
+          gra<lb break="no" ed="#P" n="70"/>tia, calor ut sex in aqua, vel in ferro existens
+          <lb ed="#P" n="71"/>non differunt in perfectione vel intensione 
+          in<lb break="no" ed="#P" n="72"/>trinseca, et tamen in aqua minus durabit, 
+          mi<lb break="no" ed="#P" n="73"/>noremque efficaciam habebit propter majorem
+          <lb ed="#P" n="74"/>subjecti repugnantiam et contrariam 
+          activita<lb break="no" ed="#P" n="75"/>tem: ita ergo continget in illis duobus actibus,
+          <lb ed="#P" n="76"/>si sola differentia declarata inter eos invenitur.
+          <lb ed="#P" n="77"/>Et non caret hoc probabilitate: quia vero plus
+          <lb ed="#P" n="78"/>videatur intendere divus Thomas cum de hac
+          <lb ed="#P" n="79"/>materia loquitur, potest addi alius modus 
+          ex<lb break="no" ed="#P" n="80"/>plicandi imperfectionem illius actus.
+        </p>
+        <p xml:id="szduep-094901-d1e847">
+          <lb ed="#P" n="81"/>13. In statu nature lapsae voluntas humana
+          <lb ed="#P" n="82"/>absolute et efficaciter in amore naturali Dei
+          <lb ed="#P" n="83"/>suas vires emercere non potest. — Ex praedicta
+          <lb ed="#P" n="84"/>ergo differentia quae est ex parte subjectorum,
+          <lb ed="#P" n="85"/>provenit, ut in statu naturae lapsae, non possit
+          <lb ed="#P" n="86"/>voluntas humana ita absolute et efficaciter suas
+          <lb ed="#P" n="87"/>vires exercere in hoc amore naturali Dei, sicut
+          <lb ed="#P" n="88"/>posset in natura integra. Et ratio est, quia, 
+          si<lb break="no" ed="#P" n="89"/>cut nihil volitum, quin praecognitum, ita juxta
+          <lb ed="#P" n="90"/>mensuram et modum naturals judicii, quo 
+          ah<lb break="no" ed="#P" n="91"/>quid proponitur, ut possibile, vel amabile, 
+          po<lb break="no" ed="#P" n="92"/>test voluntas prorumpere suis naturalibus 
+          vi<lb break="no" ed="#P" n="93"/>ribus in naturalem amorem naturalis objecti
+          <lb ed="#P" n="94"/>sibi propositi. In statu ergo innocentiae, cum
+          <lb ed="#P" n="95"/>natura esset sana et integra, proponebatur 
+          ob<lb break="no" ed="#P" n="96"/>servantia naturalis legis absolute et simpheciter,
+          <lb ed="#P" n="97"/>ac quocumque tempore non solum ut 
+          possibi<lb break="no" ed="#P" n="98"/>lis, sed etiam ut facilis, et ideo poterat etiam
+          <lb ed="#P" n="99"/>voluntas facile elicere naturalem amorem Dei
+          <lb ed="#P" n="100"/>perfectum et obedientialem, cum absoluto 
+          af<lb break="no" ed="#P" n="101"/>fectu, et proposito placendi illi in omnibus,
+          <lb ed="#P" n="102"/>sine limitatione temporis et nulla adhibita 
+          con<lb break="no" ed="#P" n="103"/>ditione. Neque ad hoc refert, quod illa sanitas
+          <lb ed="#P" n="104"/>non esset naturae debita, sed per donum gratis
+          <lb ed="#P" n="105"/>datum illi esset collata: quia donum illud non
+          <lb ed="#P" n="106"/>erat principium hujus amoris, sed solum 
+          con<lb break="no" ed="#P" n="107"/>ditio sine qua non, et auferens impedimenta
+          <lb ed="#P" n="108"/>illuus amoris, quibus ablatis, voluntas suis 
+          vi<lb break="no" ed="#P" n="109"/>ribus illum exercere potest, parumque refert
+          <lb ed="#P" n="110"/>quod impedita sint per naturam, vel mira-
+          <pb ed="#P" n="377"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>culum ablata. At vero in natura corrupta 
+          ob<lb break="no" ed="#P" n="2"/>servantia illa mandatorum diuturna et constans
+          <lb ed="#P" n="3"/>proponitur ut impossibilis per vires naturae in
+          <lb ed="#P" n="4"/>tali statu constitutae. et ideo non potest 
+          volun<lb break="no" ed="#P" n="5"/>tas per se sola, absoluto et omnino efficaci 
+          af<lb break="no" ed="#P" n="6"/>fectu illam velle et proponere, et ideo nec tam
+          <lb ed="#P" n="7"/>absolute et perfecte potest Deum amare, sicut
+          <lb ed="#P" n="8"/>antea poterat, sed semper includit conditionem
+          <lb ed="#P" n="9"/>tacite vel expresse, amandi et obediendi 
+          quan<lb break="no" ed="#P" n="10"/>tum potuerit, ut in simili latius explicavi in
+          <lb ed="#P" n="11"/>tomo quarto de Poenitentia, disputatione tertia.
+        </p>
+        <p xml:id="szduep-094901-d1e943">
+          <lb ed="#P" n="12"/>14. Objicitur. — Exploditur objectio. — Per
+          <lb ed="#P" n="13"/>gratium non restituitur homo in eam nature
+          <lb ed="#P" n="14"/>integritatem qua in statu innocentie fruebatur.
+          <lb ed="#P" n="15"/>— Dices, saltem sanata semel natura per 
+          gra<lb break="no" ed="#P" n="16"/>tiam habitualem, poterit nunc homo jam 
+          jus<lb break="no" ed="#P" n="17"/>tificatus diligere Deum super omnia amore
+          <lb ed="#P" n="18"/>naturali, ut finem naturalem, ita ut gratia non
+          <lb ed="#P" n="19"/>sit principium talis amoris, sed conditio sine
+          <lb ed="#P" n="20"/>qua non, de qua jam diximus, quod licet 
+          su<lb break="no" ed="#P" n="21"/>pernaturalis sit, non impedit, quominus 
+          pos<lb break="no" ed="#P" n="22"/>tea actus sit naturalis et viribus naturae fiat:
+          <lb ed="#P" n="23"/>quia semel ablato impedimento, voluntas per
+          <lb ed="#P" n="24"/>solas naturae vires operatur. Respondetur, 
+          for<lb break="no" ed="#P" n="25"/>tasse non defuturum, qui hoc concedat, quia
+          <lb ed="#P" n="26"/>in homine justo cessat impedimentum peccati
+          <lb ed="#P" n="27"/>et conversionis ad creaturam, quae difficilem
+          <lb ed="#P" n="28"/>reddebant hunc Dei amorem : et quia jam 
+          ta<lb break="no" ed="#P" n="29"/>lis amor esset aliquo modo ex gratia et 
+          cha<lb break="no" ed="#P" n="30"/>ritate; mihi tamen id non probatur. Unde
+          <lb ed="#P" n="31"/>respondeo negando sequelam. Et ratio reddi
+          <lb ed="#P" n="32"/>potest, quia licet per gratiam sanetur anima,
+          <lb ed="#P" n="33"/>quantum ad mortem culpae, non tamen 
+          resti<lb break="no" ed="#P" n="34"/>tuitur homo in eam naturae integritatem, quam
+          <lb ed="#P" n="35"/>in statu innocentiae habuit : possibilitas autem
+          <lb ed="#P" n="36"/>servandi mandata per vires liberi arbitrii in
+          <lb ed="#P" n="37"/>illo statu, non oriebatur ex sola carentia 
+          cul<lb break="no" ed="#P" n="38"/>pae, sed magna ex parte ex carentia fomitis et
+          <lb ed="#P" n="39"/>debita subordinatione potentiarum : et ideo
+          <lb ed="#P" n="40"/>non est quoad hoc aequalis ratio utriusque 
+          sta<lb break="no" ed="#P" n="41"/>tus. Atque hinc etiam fit, ut in statu naturae
+          <lb ed="#P" n="42"/>lapsae non possit homo justus diu servare 
+          to<lb break="no" ed="#P" n="43"/>tam legem naturalem, sine novo et speciali
+          <lb ed="#P" n="44"/>auxilio gratiae. Ex quo ulterius sequitur, ut
+          <lb ed="#P" n="45"/>non possit diligere Deum, ut auctorem 
+          natu<lb break="no" ed="#P" n="46"/>rae super omnia, actu omnino absoluto et 
+          effi<lb break="no" ed="#P" n="47"/>caci, nisi nitatur in ipse auxilii sibi necessarii
+          <lb ed="#P" n="48"/>ad observandam totam legem naturae. Sicut
+          <lb ed="#P" n="49"/>autem auxilium illud supernaturale est, ita
+          <lb ed="#P" n="50"/>spes certa de illo obtinendo, quantum est ex
+          <lb ed="#P" n="51"/>parte Dei, non potest haberi, nisi supposita
+          <lb ed="#P" n="52"/>fide et cum auxilio gratiae. Et simili ratione
+          <lb ed="#P" n="53"/>amor, qui in his principiis aliquo modo niti
+          <lb ed="#P" n="54"/>debet, non potest sine gratia perfici. Qualis 
+          au<lb break="no" ed="#P" n="55"/>tem sit haec gratia, pendet ex alia quaestione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de observatione mandatorum, quae hic 
+          trac<lb break="no" ed="#P" n="57"/>tanda non est. Et ideo de hac tertia sententia,
+          <lb ed="#P" n="58"/>haec nunc sufficiunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

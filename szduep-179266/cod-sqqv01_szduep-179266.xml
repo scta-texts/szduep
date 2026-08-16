@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="708"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-179266"><!-- t3-l7c8 -->
+        <head xml:id="szduep-179266-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-179266-Hd1e103" type="question-title">Utrum persona in communi et maxime in divinis significet de formali relationem vel absolutlum</head>
+        <p xml:id="szduep-179266-d1e106">
+          <lb ed="#P" n="75"/>CAPUT VIII.
+          <lb ed="#P" n="76"/>UTRUM PERSONA IN COMMUNI ET MAXIME IN 
+          DIVI<lb break="no" ed="#P" n="77"/>NIS SIGNIFICET DE FORMALI RELATIONEM VEL
+          <lb ed="#P" n="78"/>ABSOLUTLUM.
+        </p>
+        <p xml:id="szduep-179266-d1e117">
+          <lb ed="#P" n="79"/>1. Prima suppositio.—Hoc disputavit divus
+          <lb ed="#P" n="80"/>Thomas fere in principio hujus materiae, 1 
+          par<lb break="no" ed="#P" n="81"/>te. quaestione 29. articulo 4 et in 1, 
+          distinctio<lb break="no" ed="#P" n="82"/>ne 23 et 26, (ubi alii doctores) et quaestione 
+          no<lb break="no" ed="#P" n="83"/>na de Potentia, articulo quarto. Ego vero statim
+          <lb ed="#P" n="84"/>in libro primo illam attigi, et remisi in hunc
+          <lb ed="#P" n="85"/>locum., quia sine his, quae dicta sunt, intelligi
+          <lb ed="#P" n="86"/>non poterat. Fuerunt autem de hac quaestione
+          <lb ed="#P" n="87"/>multae opiniones, quas divus Thomas refert, et
+          <lb ed="#P" n="88"/>illas omitto, quia sine illis melius, et clarius
+          <lb ed="#P" n="89"/>res explicabitur. Suppono ergo. personam de
+          <lb ed="#P" n="90"/>formali dicere positivum aliquid et non tantum
+          <lb ed="#P" n="91"/>privativum: licet Scotus et Gabriel. in 1, dist.
+          <lb ed="#P" n="92"/>23. aliud senserint.
+        </p>
+        <p xml:id="szduep-179266-d1e150">
+          <lb ed="#P" n="93"/>Secunda suppositio.—Suppono etiam, 
+          positi<lb break="no" ed="#P" n="94"/>vumilludreale esse, quamvis communitatis ejus
+          <lb ed="#P" n="95"/>rauonis sit contra Durandum, in 1, dist. 23,
+          <lb ed="#P" n="96"/>quaestione 1. et Henricus, quodlib. 5, quaest. 6.
+          <lb ed="#P" n="97"/>Utrumque autem videtur mihi evidens ex 
+          dic<lb break="no" ed="#P" n="98"/>tis. quod attinet ad personas divinas, 
+          supposi<lb break="no" ed="#P" n="99"/>to fidei mysterio. Ostensum est enim, personas
+          <lb ed="#P" n="100"/>divinas constitui proprietatibus positivis et 
+          rea<lb break="no" ed="#P" n="101"/>libus, qua sunt personalitates ipsarum : ergo
+          <lb ed="#P" n="102"/>ratio personae in qualibet earum, positiva est.
+          <lb ed="#P" n="103"/>et realis. Quod etiam plane confirmat 
+          Incar<lb break="no" ed="#P" n="104"/>nationis mysterium, in quo per realem et 
+          po<lb break="no" ed="#P" n="105"/>sitivam actionem unica persona composita
+          <lb ed="#P" n="106"/>consurgit. Ut omittam alia, quae de persona,
+          <lb ed="#P" n="107"/>vel supposito in communi in Metaphysica 
+          dis<lb break="no" ed="#P" n="108"/>putavi.
+        </p>
+        <p xml:id="szduep-179266-d1e188">
+          <pb ed="#P" n="709"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Tertia suppositio. Tertio suppono, 
+          per<lb break="no" ed="#P" n="2"/>sonam generatim sumptam, adaequate et in
+          <lb ed="#P" n="3"/>recto, (ut aiunt) significare quid constitutum
+          <lb ed="#P" n="4"/>ex natura rationali et subsistentia 
+          incommuni<lb break="no" ed="#P" n="5"/>cabili, quod satis constat ex supra dictis de 
+          de<lb break="no" ed="#P" n="6"/>finitione personae. Quo sensu dicunt theologi
+          <lb ed="#P" n="7"/>communiter, personam in Deo significare 
+          sub<lb break="no" ed="#P" n="8"/>stantiam, ut patet ex divo Thoma, quaest. 9,
+          <lb ed="#P" n="9"/>de Potentia, articulo 4, Alensi, 1 part., q. 56,
+          <lb ed="#P" n="10"/>membr. 2, Marsilio 1, quaestione 26, art. 2,
+          <lb ed="#P" n="11"/>Bonaventura, in 1, distinctione 25, articulo 1,
+          <lb ed="#P" n="12"/>quaestione 1, Capreolo, quaestione 1, art. 1,
+          <lb ed="#P" n="13"/>conclusione 2, Gabriele, q. 1, art. 2. Cum enim
+          <lb ed="#P" n="14"/>id dicunt, non sumunt substantiam pro 
+          essen<lb break="no" ed="#P" n="15"/>tia, sed pro subsistente incommunicabili, nec
+          <lb ed="#P" n="16"/>loquuntur de solo significato formali, sed de
+          <lb ed="#P" n="17"/>adaequato, in quo et natura et personalitas 
+          in<lb break="no" ed="#P" n="18"/>cluduntur, quia, ut dixi, persona ex utraque
+          <lb ed="#P" n="19"/>constat.
+        </p>
+        <p xml:id="szduep-179266-d1e236">
+          <lb ed="#P" n="20"/>3. Dubium expeditur.—Vnde inquiri potest,
+          <lb ed="#P" n="21"/>quae illarum formalius significetur nomine 
+          per<lb break="no" ed="#P" n="22"/>sonae : in quo certum mihi videtur, (quidquid
+          <lb ed="#P" n="23"/>alii sentiant) formalius personalitatem 
+          pertinc<lb break="no" ed="#P" n="24"/>re ad rationem personae. Ratio est, quia 
+          perso<lb break="no" ed="#P" n="25"/>nalitas est, ut propria forma complens 
+          perso<lb break="no" ed="#P" n="26"/>nam : natura vero se habet, ut quid 
+          indiffe<lb break="no" ed="#P" n="27"/>rens, seu terminabile per personalitatem. Et
+          <lb ed="#P" n="28"/>ideo simpliciter in Deo sunt tres personae, quia
+          <lb ed="#P" n="29"/>forma, per illud nomen substantivum 
+          forma<lb break="no" ed="#P" n="30"/>liter significata, multiplicatur : sicut e 
+          contra<lb break="no" ed="#P" n="31"/>rio persona Christi Domini unica est propter
+          <lb ed="#P" n="32"/>unicam personalitatem, et in rebus creatis 
+          cla<lb break="no" ed="#P" n="33"/>rum est, formam suppositi, ut sic, esse 
+          perso<lb break="no" ed="#P" n="34"/>nalitatem ipsam. Imo dicunt aliqui, personam
+          <lb ed="#P" n="35"/>in recto significare ipsam personalitatem, 
+          na<lb break="no" ed="#P" n="36"/>turam vero in obliquo, quia ita definitur, Est
+          <lb ed="#P" n="37"/>substantialis nature individua substantia. 
+          Pro<lb break="no" ed="#P" n="38"/>prie vero neutram videtur significare in recto,
+          <lb ed="#P" n="39"/>sed ipsum tantum suppositum, quod sic etiam
+          <lb ed="#P" n="40"/>posset definiri, Est substantia constans 
+          intel<lb break="no" ed="#P" n="41"/>lectuali natura et personalitate. Ubi utraque
+          <lb ed="#P" n="42"/>cadit in obliquo, sed natura, ut quid 
+          determi<lb break="no" ed="#P" n="43"/>nabile, personalitas, ut ultimus terminus et
+          <lb ed="#P" n="44"/>quasi forma.
+        </p>
+        <p xml:id="szduep-179266-d1e293">
+          <lb ed="#P" n="45"/>4. Quarta suppositio — Prima opinio de 
+          si<lb break="no" ed="#P" n="46"/>gnaficata persona.—CQuarto suppono, si 
+          loqua<lb break="no" ed="#P" n="47"/>mur de persona in communi, ut abstrahit a
+          <lb ed="#P" n="48"/>creata et increata, non posse de formali 
+          signi<lb break="no" ed="#P" n="49"/>ficare relationem, cum constet, personas 
+          crea<lb break="no" ed="#P" n="50"/>tas non constitui relationibus in suo esse 
+          per<lb break="no" ed="#P" n="51"/>sonali. Unde dicunt aliqui, potius significare
+          <lb ed="#P" n="52"/>absolutum de formali, quod sentit Torres, 1 p.,
+          <lb ed="#P" n="53"/>quaest. 29, art. 4, citans Augustinum 7, de 
+          Tri<lb break="no" ed="#P" n="54"/>nitate, capite sexto. Et putat esse sententiam
+          <lb ed="#P" n="55"/>divi Thomae ibi, ad primum. Et confirmari po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>test ex Durando in 1, distinctione vigesima.
+          <lb ed="#P" n="57"/>tertia, quaestione prima, quia persona non 
+          po<lb break="no" ed="#P" n="58"/>test formaliter significare aliquid abstrahena
+          <lb ed="#P" n="59"/>ab absoluto et relativo: ergo si non significat
+          <lb ed="#P" n="60"/>relationem de formal, significat absolutum,
+          <lb ed="#P" n="61"/>Consequentia est evidens, quia non potest 
+          co<lb break="no" ed="#P" n="62"/>gitari aliud membrum. Anteccdens vero patet,
+          <lb ed="#P" n="63"/>quia absolutum distinguitur a relativo, quasi
+          <lb ed="#P" n="64"/>per immediatam privationem habitudinis ad
+          <lb ed="#P" n="65"/>alterum, nam co ipso, quod aliquid non habet
+          <lb ed="#P" n="66"/>suum esse ad alterum, absolutum est, sed 
+          om<lb break="no" ed="#P" n="67"/>nis conceptus eo ipso, quod abstrahit vel 
+          prae<lb break="no" ed="#P" n="68"/>scindit a relativo, non habet suum esse ad 
+          al<lb break="no" ed="#P" n="69"/>terum, ergo est quid absolutum, ergo 
+          repu<lb break="no" ed="#P" n="70"/>gnat, dari conceptum abstractum ab absoluto
+          <lb ed="#P" n="71"/>et respectivo.
+        </p>
+        <p xml:id="szduep-179266-d1e356">
+          <lb ed="#P" n="72"/>5. Verumtamen haec sententia probari non
+          <lb ed="#P" n="73"/>potest, quia sub persona in illa communitate
+          <lb ed="#P" n="74"/>concepta comprehenduntur personae divinae,
+          <lb ed="#P" n="75"/>et illae absolutae non sunt, nec per absolutas
+          <lb ed="#P" n="76"/>formas constituuntur, ergo non potest persona
+          <lb ed="#P" n="77"/>ut sic, absolutum dc formali significare, quia
+          <lb ed="#P" n="78"/>non potest in conceptu communi includi 
+          ali<lb break="no" ed="#P" n="79"/>quid repugnans particulari.
+        </p>
+        <p xml:id="szduep-179266-d1e376">
+          <lb ed="#P" n="80"/>6. Secunda opinio. —Vera sententia. —
+          Prop<lb break="no" ed="#P" n="81"/>ter argumentum autem factum existimant 
+          ali<lb break="no" ed="#P" n="82"/>qui, personam sic abstractam non habere unum
+          <lb ed="#P" n="83"/>conceptum communem, sed immediate 
+          signi<lb break="no" ed="#P" n="84"/>ficare personam creatam et increatam: atque
+          <lb ed="#P" n="85"/>adeo absolutum et relativum, quasi sub 
+          dis<lb break="no" ed="#P" n="86"/>junctione et per quamdam analogiam 
+          propor<lb break="no" ed="#P" n="87"/>tionalitatis. Nunquam tamen hunc modum
+          <lb ed="#P" n="88"/>concipiendi et dicendi concipere , ac proinde,
+          <lb ed="#P" n="89"/>nec probare potui. Unde, sicut ens, vel 
+          sub<lb break="no" ed="#P" n="90"/>stantia in conceptu communi abstrahere 
+          pos<lb break="no" ed="#P" n="91"/>sunt a creata et increata, ut alibi latius 
+          osten<lb break="no" ed="#P" n="92"/>di: ita etiam persona, quia nulla est 
+          differen<lb break="no" ed="#P" n="93"/>tiae ratio. Nec difficultas posita magni est 
+          mo<lb break="no" ed="#P" n="94"/>menti, negatur enim antecedens, nam ens
+          <lb ed="#P" n="95"/>accidens et similia transcendentia abstrahunt
+          <lb ed="#P" n="96"/>ab absoluto et respectivo.
+        </p>
+        <p xml:id="szduep-179266-d1e415">
+          <lb ed="#P" n="97"/>7. Ad argumentum autem negatur, 
+          absolu<lb break="no" ed="#P" n="98"/>tum constitui per solam carentiam respectus,
+          <lb ed="#P" n="99"/>sed per differentiam, vel modum positivum,
+          <lb ed="#P" n="100"/>cui repugnat habere suum esse in habitudine
+          <lb ed="#P" n="101"/>ad terminum. Quando autem conceptus aliquis
+          <lb ed="#P" n="102"/>abstrahit ab absoluto et respectivo , quamvis
+          <lb ed="#P" n="103"/>forma, seu differentia, aut modus constitutivus
+          <lb ed="#P" n="104"/>illius conceptus non includat habitudinem ad
+          <lb ed="#P" n="105"/>alterum, tamen ita est indifferens, ut per talem
+          <lb ed="#P" n="106"/>modum contrahi possit, qui intrinsece mcludat
+          <lb ed="#P" n="107"/>habitudinem ad alterum, et ratione illius, 
+          to<lb break="no" ed="#P" n="108"/>tum esse illius rei sic in particulari constitutae,
+          <lb ed="#P" n="109"/>in habitudine ad alterum consistat, et ideo 
+          ta<lb break="no" ed="#P" n="110"/>lis conceptus communis absolutus non est, sed
+          <pb ed="#P" n="710"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>abstractus. Ita ergo persona in illa 
+          communi<lb break="no" ed="#P" n="2"/>tate sumpta de formali nihil aliud significat,
+          <lb ed="#P" n="3"/>quam subsistentiam communicabilem naturae
+          <lb ed="#P" n="4"/>rationalis, quae ratio abstrahit ab absoluta et
+          <lb ed="#P" n="5"/>respectiva, modo explicato.
+        </p>
+        <p xml:id="szduep-179266-d1e464">
+          <lb ed="#P" n="6"/>8. Variae opiniones de significato formali 
+          per<lb break="no" ed="#P" n="7"/>sonee in Deo. — Superest ultimo loco 
+          dicen<lb break="no" ed="#P" n="8"/>dum de persona increata, solum ut dicit 
+          con<lb break="no" ed="#P" n="9"/>ceptum communem tribus personis. De qua
+          <lb ed="#P" n="10"/>sunt diversee opiniones. Nam quidam 
+          respi<lb break="no" ed="#P" n="11"/>cientes ad modum significandi illius vocis,
+          <lb ed="#P" n="12"/>dicunt, formaliter significare absolutum, 
+          ma<lb break="no" ed="#P" n="13"/>terialiter autem relationem. Et creditur fuisse
+          <lb ed="#P" n="14"/>sententia D. Thomae, locis supra citatis, 
+          maxi<lb break="no" ed="#P" n="15"/>me quaest. 9, de Potentia, art. 4, Alensis, 
+          Bo<lb break="no" ed="#P" n="16"/>naventura, Marsilius et Gabriel, locis paulo
+          <lb ed="#P" n="17"/>ante citatis : imo et Augustinus, dicto lib. de
+          <lb ed="#P" n="18"/>Trin., cap. 6. Et confirmatur argumento 
+          su<lb break="no" ed="#P" n="19"/>pra facto, quia persona, ut sic, non dicitur
+          <lb ed="#P" n="20"/>esse alicujus persona. Item, quia si in Deo
+          <lb ed="#P" n="21"/>esset (per impossibile) persona absoluta, non
+          <lb ed="#P" n="22"/>minus significaretur illa voce, et conciperetur
+          <lb ed="#P" n="23"/>illo conceptu, quam nunc tres personae 
+          divi<lb break="no" ed="#P" n="24"/>nae : ergo signum est, ex vi illius conceptus
+          <lb ed="#P" n="25"/>non importari formaliter relationem. Alii vero
+          <lb ed="#P" n="26"/>attendentes ad rem significantem, existimant,
+          <lb ed="#P" n="27"/>hanc vocem formaliter significare relationem
+          <lb ed="#P" n="28"/>in Deo : ita sensit Cajetanus, d. quaest. 29,
+          <lb ed="#P" n="29"/>art. 4, creditque esse sententiam D. Thomae
+          <lb ed="#P" n="30"/>ibi, et priorem ibidem retractasse. Ratio ejus
+          <lb ed="#P" n="31"/>est, quia persona de formali significat 
+          perso<lb break="no" ed="#P" n="32"/>nolitatem, sed personalitas Dei est relatio:
+          <lb ed="#P" n="33"/>ergo significat formaliter relationem.
+        </p>
+        <p xml:id="szduep-179266-d1e527">
+          <lb ed="#P" n="34"/>9. Resolutio. —Ego vero censeo, suppositis,
+          <lb ed="#P" n="35"/>quae de constitutione personarum dicta sunt,
+          <lb ed="#P" n="36"/>hic non posse esse quaestionem nisi de modo
+          <lb ed="#P" n="37"/>loquendi, et opinor esse ortam ex 
+          aequivoca<lb break="no" ed="#P" n="38"/>tione illius termini Formaliter, nam in 
+          prae<lb break="no" ed="#P" n="39"/>senti accipi potest, vel comparando 
+          relatio<lb break="no" ed="#P" n="40"/>nem ad naturam, seu essentiam Dei. Quo sensu
+          <lb ed="#P" n="41"/>manifestum est ex dictis, personam significare
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="42"/>de formali relationem, ut probat ratio 
+          proxi<lb break="no" ed="#P" n="43"/>me facta pro Cajetani opinione. Vel potest 
+          su<lb break="no" ed="#P" n="44"/>mi per comparationem ad diversos conceptus
+          <lb ed="#P" n="45"/>ejusdem relationis, scilicet proprium et 
+          ulti<lb break="no" ed="#P" n="46"/>mum (qui merito dici potest formalis, quia est
+          <lb ed="#P" n="47"/>de relatione ut relatio est) et confusum ac 
+          ge<lb break="no" ed="#P" n="48"/>neralem, qui e converso dici potest materialis.
+          <lb ed="#P" n="49"/>Et sic etiam constat, personam in Deo non
+          <lb ed="#P" n="50"/>significare formaliter relationem, sed 
+          materia<lb break="no" ed="#P" n="51"/>liter, quia tantum illam significat sub ratione
+          <lb ed="#P" n="52"/>formae hypostaticae talis naturae.
+        </p>
+        <p xml:id="szduep-179266-d1e573">
+          <lb ed="#P" n="53"/>10. Quod explicabitur recte distinguendo
+          <lb ed="#P" n="54"/>duplicem determinationem personalitatis, seu
+          <lb ed="#P" n="55"/>formae hypostaticae generatim sumptae, ut est
+          <lb ed="#P" n="56"/>quid commune ad personalitatem divinam.
+          <lb ed="#P" n="57"/>Una determinatio est per modum intrinsecum
+          <lb ed="#P" n="58"/>ipsius personalitatis, et haec est formalis, alia
+          <lb ed="#P" n="59"/>per solam habitudinem ad talem naturam, et
+          <lb ed="#P" n="60"/>haec est materialis. Prior explicatur hac voce,
+          <lb ed="#P" n="61"/>Personalitas relativa : posterior vero per hanc,
+          <lb ed="#P" n="62"/>Personalitas divina. Quae duae voces aeque 
+          com<lb break="no" ed="#P" n="63"/>munes sunt quoad rem ipsam, et eamdem 
+          for<lb break="no" ed="#P" n="64"/>mam significant, non tamen synonymae, quia
+          <lb ed="#P" n="65"/>sub diversis conceptibus seu habitudinibus
+          <lb ed="#P" n="66"/>eamdem rem significant. Et ideo Personalitas
+          <lb ed="#P" n="67"/>relativa formahter significat relationem, et si
+          <lb ed="#P" n="68"/>in rebus creatis inveniretur aliqua 
+          personali<lb break="no" ed="#P" n="69"/>tas relativa, comprehenderetur sub illa voce,
+          <lb ed="#P" n="70"/>et sub conceptu illi correspondente, quantum
+          <lb ed="#P" n="71"/>est ex formalitate sua. Personalitas autem 
+          di<lb break="no" ed="#P" n="72"/>vina, licet de facto non comprehendat sub se
+          <lb ed="#P" n="73"/>nisi tres relationes, tamen si per impossibile
+          <lb ed="#P" n="74"/>esset in divinitate personalitas absoluta, sub
+          <lb ed="#P" n="75"/>illa voce et conceptu ejus comprehenderetur,
+          <lb ed="#P" n="76"/>et ideo merito dicitur significare relationem
+          <lb ed="#P" n="77"/>materialiter. Neque in hoc invenio 
+          difficulta<lb break="no" ed="#P" n="78"/>tem alicujus momenti. Neque existimo D. 
+          Tho<lb break="no" ed="#P" n="79"/>mam, in et alibi, aliud vel diversa sensisse,
+          <lb ed="#P" n="80"/>sed rem eamdem variis modis et vocibus 
+          ex<lb break="no" ed="#P" n="81"/>plicasse : omnia vero inter se consonant, si illa
+          <lb ed="#P" n="82"/>distinctio terminorum prae oculis habeatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

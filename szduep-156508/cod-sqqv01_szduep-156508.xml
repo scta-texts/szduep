@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="619"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-156508"><!-- t3-l4c1 -->
+        <head xml:id="szduep-156508-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-156508-Hd1e103" type="question-title">Tres personas esse unius, et ejusdem essentiae ac naturae</head>
+        <p xml:id="szduep-156508-d1e106">
+          <lb ed="#P" n="13"/>CAPUT I.
+          <lb ed="#P" n="14"/>TRES PERSONAS ESSE UNIUS, ET EJUSDEM 
+          ESSEN<lb break="no" ed="#P" n="15"/>TIAE AC NATURAE.
+        </p>
+        <p xml:id="szduep-156508-d1e115">
+          <lb ed="#P" n="16"/>1. Varii errores. — Nonnnlli ex haereticis
+          <lb ed="#P" n="17"/>dixerunt in Trinitate esse plures Deitates,
+          <lb ed="#P" n="18"/>atque ita in re asserebant esse plures Deos. Ita
+          <lb ed="#P" n="19"/>refert de Peratis Theodoretus, libro primo,
+          <lb ed="#P" n="20"/>haereticarum Fabularum, cap. 19, et de Joanne
+          <lb ed="#P" n="21"/>Grammatico refert Nicephorus, lib. 10, Hist.,
+          <lb ed="#P" n="22"/>cap. 4, 6 et 48. Anselmus etiam, libro de
+          <lb ed="#P" n="23"/>Incarnatione Verbi, cap. 1, indicat, hunc
+          <lb ed="#P" n="24"/>errorem suo tempore in Gallia pullulasse.
+          <lb ed="#P" n="25"/>Denique Athanasius , in Dialogo 3, de 
+          Trini<lb break="no" ed="#P" n="26"/>tate, refert, quosdam Arianos concessisse, 
+          Pa<lb break="no" ed="#P" n="27"/>trem et Filium esse distinctos Deos. 
+          Verumta<lb break="no" ed="#P" n="28"/>men illi aequivoce, vel cum analogia utebantur
+          <lb ed="#P" n="29"/>nomine Dei, solumque Patrem concedebant
+          <lb ed="#P" n="30"/>esse supremum Deum. Nos autem 
+          supponi<lb break="no" ed="#P" n="31"/>mus, verum Deum esse tantum ünum, quo
+          <lb ed="#P" n="32"/>nihil est frequentius in Scriptura, et omnibus
+          <lb ed="#P" n="33"/>Conciliis et Patribus. Imo, et ratione naturali
+          <lb ed="#P" n="34"/>est evidens. Et probatur in principio primae
+          <lb ed="#P" n="35"/>partis, et in Metaphysica, et ideo de hoc 
+          fun<lb break="no" ed="#P" n="36"/>damento quantum ad rem spectat, nihil hic
+          <lb ed="#P" n="37"/>amplius dicendum est.
+        </p>
+        <p xml:id="szduep-156508-d1e165">
+          <lb ed="#P" n="38"/>2. Prima assertio. —Ex illo vero deducitur
+          <lb ed="#P" n="39"/>primo, in Patre, Filio et Spiritu sancto esse
+          <lb ed="#P" n="40"/>unam numero Deitatem. Quae res etiam de
+          <lb ed="#P" n="41"/>fide est: et sub eisdem fere verbis habetur in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="42"/>6 Synodo, Actio. 11. Et in eodem sensu 
+          defi<lb break="no" ed="#P" n="43"/>nitur in capite Damnavus, de summa Trinitate
+          <lb ed="#P" n="44"/>et fide Catholica, Patrem communicare F'ilio
+          <lb ed="#P" n="45"/>totam substantiam suam, id est, eamdem 
+          na<lb break="no" ed="#P" n="46"/>turam et divinitatem, ut ibidem exponitur et
+          <lb ed="#P" n="47"/>probatur ex illo Joan. 10: Quod dedit mihi
+          <lb ed="#P" n="48"/>Pater, majyus omnibus est. Et ibidem ait 
+          Chris<lb break="no" ed="#P" n="49"/>tus: Fgo et Pater unum sumus. Unde Damasus
+          <lb ed="#P" n="50"/>papa in expositione fidei ad Paulinum: $7 quis
+          <lb ed="#P" n="51"/>(ait) non confitetur Patris, Filii et Spiritus
+          <lb ed="#P" n="52"/>sancti unam divinitatem, potestatem et 
+          majes<lb break="no" ed="#P" n="53"/>tatem, anathema sit. Ratio vero est, quia in
+          <lb ed="#P" n="54"/>divinis multiplicantur personae: si ergo 
+          multi<lb break="no" ed="#P" n="55"/>plicarentur deitates , multiplicarentur etiam
+          <lb ed="#P" n="56"/>dii, quod est contra primum fidei 
+          fundamen<lb break="no" ed="#P" n="57"/>tum positum. Sequela patet, quia ad 
+          multipli<lb break="no" ed="#P" n="58"/>cationem substantivi, nihil amplius requiri
+          <lb ed="#P" n="59"/>potest quam multiplicatio personarum et 
+          na<lb break="no" ed="#P" n="60"/>turarum: ideo enim Petrus et Paulus et 
+          Fran<lb break="no" ed="#P" n="61"/>ciscus sunt tres homines, quia sunt tres 
+          per<lb break="no" ed="#P" n="62"/>sonae, et habent distinctas humanitates.
+        </p>
+        <p xml:id="szduep-156508-d1e225">
+          <lb ed="#P" n="63"/>3. Secunda assertio. — Secundo, ex dictis
+          <lb ed="#P" n="64"/>concluditur, tres personas Trinitatis esse unius
+          <lb ed="#P" n="65"/>essentiae et naturae. Ita docet D. Thomas, prima
+          <lb ed="#P" n="66"/>parte, quaest. 29, art. 2, et habetur illa 
+          forma<lb break="no" ed="#P" n="67"/>lis locutio in 6 Synodo, Actio. 4 et 11. Ubi tres
+          <lb ed="#P" n="68"/>personae dicuntur unius substantiae et 
+          opera<lb break="no" ed="#P" n="69"/>tionis. Sic etiam Concilia Toletana 6 et 11:
+          <lb ed="#P" n="70"/>Confitemur (aiunt) Trinitatem unius essentie,
+          <lb ed="#P" n="71"/>virtutis, majestatis ac natura. Va etiam 
+          loqui<lb break="no" ed="#P" n="72"/>tur Augustinus 3, contra Maximinum, cap. 14.
+          <lb ed="#P" n="73"/>Dicet vero aliquis (ut rationem locutionis 
+          ex<lb break="no" ed="#P" n="74"/>plicemus ). Una divinitas dicitur esse trium
+          <lb ed="#P" n="75"/>personarum : ergo e contrario tres personae
+          <lb ed="#P" n="76"/>nonrecte dicuntur unius divinitatis. Respondet
+          <lb ed="#P" n="77"/>D. Thomass, dicto art. 2, ad 4, naturam vel 
+          es<lb break="no" ed="#P" n="78"/>sentiam in abstracto significari, ut formam, et
+          <lb ed="#P" n="79"/>ideo dici posse esse in persona vel personis,
+          <lb ed="#P" n="80"/>quia forma est in illo, quod formahter 
+          consti<lb break="no" ed="#P" n="81"/>tuit: e contrario vero (ait) personas non dici
+          <lb ed="#P" n="82"/>absolute esse naturae, sed adjecta proprietate
+          <pb ed="#P" n="620"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliqua, per quam significatur, personas 
+          con<lb break="no" ed="#P" n="2"/>venire ratione talis naturae. Sicut dicimus 
+          Pe<lb break="no" ed="#P" n="3"/>trum et Paulum esse naturae rationalis, non
+          <lb ed="#P" n="4"/>vero naturae, sine alio addito: et sic etiam 
+          per<lb break="no" ed="#P" n="5"/>sonae divinae non dicuntur essentiae, sed 
+          ejus<lb break="no" ed="#P" n="6"/>dem essentiae vel unius naturae per quod nihil
+          <lb ed="#P" n="7"/>aliud explicatur, quam personas illas convenire
+          <lb ed="#P" n="8"/>in eadem numero natura: et ita constat ratio
+          <lb ed="#P" n="9"/>illius locutionis. Addit vero ibidem D. Thomas,
+          <lb ed="#P" n="10"/>ad 5, non ita posse dici tres personas esse ex
+          <lb ed="#P" n="11"/>eadem essentia, quia particula ea indicat 
+          ha<lb break="no" ed="#P" n="12"/>bitudinem effticientis, et ita innuit 
+          distinctio<lb break="no" ed="#P" n="13"/>nem potius quam unitatem. De quo ex 
+          pro<lb break="no" ed="#P" n="14"/>fesso tractabitur infra libro septimo.
+        </p>
+        <p xml:id="szduep-156508-d1e306">
+          <lb ed="#P" n="15"/>4. Ultimo observare oportet, haec omnia 
+          in<lb break="no" ed="#P" n="16"/>telligenda esse de unitate vera et reali et, ut
+          <lb ed="#P" n="17"/>more nostro loquamur, individual illius 
+          na<lb break="no" ed="#P" n="18"/>turae, nam hanc requirit unitas Dei. Ad hanc
+          <lb ed="#P" n="19"/>ergo fidem uno verbo comprehendendam, et
+          <lb ed="#P" n="20"/>ut haeretici cogerentur sine tergiversatione 
+          il<lb break="no" ed="#P" n="21"/>lam confiteri, Patres Concilii Niceni amplexi
+          <lb ed="#P" n="22"/>sunt vocem illam homousion, qua tam Arius
+          <lb ed="#P" n="23"/>quam Sabellius damnantur, quia per illam, et
+          <lb ed="#P" n="24"/>unitas substantiae et distinctio personarum 
+          in<lb break="no" ed="#P" n="25"/>dicatur, ut declaravit Epiphanius in 
+          Ancho<lb break="no" ed="#P" n="26"/>rato, et Hilarius, libro de Synodis, Ambrosius,
+          <lb ed="#P" n="27"/>lib. 3, de Fide, c. 7. Et ideo Marianus Victor,
+          <lb ed="#P" n="28"/>libris contra Arianos et speciali opusc. de hac
+          <lb ed="#P" n="29"/>voce dicit, illam fuisse inventam divinitus. Et
+          <lb ed="#P" n="30"/>eamdem magna veneratione recipiunt alii 
+          Pa<lb break="no" ed="#P" n="31"/>tres, Augustinus, Epist. 174et 178, et Basilius
+          <lb ed="#P" n="32"/>in epistola quadam ad ancillas Dei, Fulgentius,
+          <lb ed="#P" n="33"/>contra Arianos, ad septimam objectionem.
+          <lb ed="#P" n="34"/>Eamdem recipit Isidorus, lib. 7, Etymolog.,
+          <lb ed="#P" n="35"/>cap. 2. Ac denique tota Ecclesia Latina loco
+          <lb ed="#P" n="36"/>illius vocis posuit in symbolo vocem 
+          consub<lb break="no" ed="#P" n="37"/>stantialis, quae eamdem habet vim. Contra 
+          il<lb break="no" ed="#P" n="38"/>lam autem vocem objiciebant Ariani, quod in
+          <lb ed="#P" n="39"/>Scriptura non inveniretur. Respondent autem
+          <lb ed="#P" n="40"/>iidem Patres: Primum, parum hocreferre, cum
+          <lb ed="#P" n="41"/>res ipsa in Scriptura inveniatur, et vox sit 
+          uti<lb break="no" ed="#P" n="42"/>lis et accommodata ad illam declarandam 
+          ve<lb break="no" ed="#P" n="43"/>ritatem. Deinde Ambrosius et alii eam ex 
+          Scrip<lb break="no" ed="#P" n="44"/>tura elicere conantur, praesertim ex illis verbis
+          <lb ed="#P" n="45"/>Christi: Ego et Pater unum sumus.
+        </p>
+        <p xml:id="szduep-156508-d1e376">
+          <lb ed="#P" n="46"/>5. Objiciebant praeterea haeretici, vocis 
+          no<lb break="no" ed="#P" n="47"/>vitatem, sed si ne ullo fundamento, quia ad
+          <lb ed="#P" n="48"/>nova mysteria explicanda, necessariae sunt 
+          no<lb break="no" ed="#P" n="49"/>vae voces. Eo vel maxime, quod illa haeresis
+          <lb ed="#P" n="50"/>nova erat : et ideo specialis urgebat 
+          necessi<lb break="no" ed="#P" n="51"/>tas, novum nomen imponendo, quo illa 
+          con<lb break="no" ed="#P" n="52"/>futaretur, et veritas fidei brevius, et clarius
+          <lb ed="#P" n="53"/>explicaretur. Quod in aliis etiam mysteriis 
+          ac<lb break="no" ed="#P" n="54"/>cidisse videmus : sic enim nomen 
+          Transubsan<lb break="no" ed="#P" n="55"/>tiationis, et similia inventa sunt. Addit Atha-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nasius, in lib. de decretis Nicenae Synodi et in
+          <lb ed="#P" n="57"/>lib. de Synodis Arimini et Seleuciae 
+          congrega<lb break="no" ed="#P" n="58"/>tis, et in epistola de sententia Dionysii 
+          Alexan<lb break="no" ed="#P" n="59"/>drini illam vocem non fuisse inventam a 
+          Con<lb break="no" ed="#P" n="60"/>cilio Niceno, sed prius fuisse usurpatam a 
+          dic<lb break="no" ed="#P" n="61"/>to Dionysio Alexandrino in Apologia ad 
+          Dio<lb break="no" ed="#P" n="62"/>nysium Romanum, et receptam ab eodem
+          <lb ed="#P" n="63"/>Dionysio papa in rescripto ad alterum 
+          Diony<lb break="no" ed="#P" n="64"/>sium, et ab aliis antiquis, quos ibi refert. Imo
+          <lb ed="#P" n="65"/>Theodoretus, lib. 1, Hist., cap. 12 et 13, ait:
+          <lb ed="#P" n="66"/>Eusebium Caesariensem (alioqui Arianum) eam
+          <lb ed="#P" n="67"/>vocem probasse. Denique Ambrosius, dicto 
+          h<lb break="no" ed="#P" n="68"/>bro 3, de Fide, capite 7, dicit, prius Arianos
+          <lb ed="#P" n="69"/>tanquam inconveniens intulisse , sequi ex
+          <lb ed="#P" n="70"/>doctrina fidei personas esse homousion, quod
+          <lb ed="#P" n="71"/>tune Concilium Nicenum concessit, et illam
+          <lb ed="#P" n="72"/>vocem arripuit ad confundendos eosdem 
+          haere<lb break="no" ed="#P" n="73"/>ticos. Quam etiam vocem, (ut hoc obiterdicam),
+          <lb ed="#P" n="74"/>Constantinus Imperator recepit et approbavit,
+          <lb ed="#P" n="75"/>ut aperte refert Marianus Victor, qui tempore
+          <lb ed="#P" n="76"/>Constantii vixit. Unde immerito aliqui 
+          contra<lb break="no" ed="#P" n="77"/>riam notam Constantino inurunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

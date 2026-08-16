@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="414"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-105196"><!-- t2-l2c19 -->
+        <head xml:id="szduep-105196-Hd1e101">Caput 19</head>
+        <head xml:id="szduep-105196-Hd1e103" type="question-title">Bonum opus morale ordinis naturalis, seu virtutis acquisitae non posse esse causam propriam praedestinationis quoad aliquem effectum ejus, etiam si ex aliqua gratia extrinseca proficiscatur</head>
+        <p xml:id="szduep-105196-d1e106">
+          <lb ed="#P" n="16"/>CAPUT XIX.
+          <lb ed="#P" n="17"/>BONUM OPUS MORALE ORDINIS NATURALIS, SEU
+          <lb ed="#P" n="18"/>VIRTUTIS ACQUISITAE NON POSSE ESSE CAUSAM
+          <lb ed="#P" n="19"/>PROPRIAM PRAEDESTINATIONIS QUOAD ALIQUEM
+          <lb ed="#P" n="20"/>EFFECTUM EJUS, ETIAM SI EX ALIQUA GRATIA
+          <lb ed="#P" n="21"/>EXTRINSECA PROFICISCATUR.
+        </p>
+        <p xml:id="szduep-105196-d1e122">
+          <lb ed="#P" n="22"/>1. Hactenus dictum est de operibus bonis
+          <lb ed="#P" n="23"/>quatenus a libero arbitrio, absque gratia 
+          ali<lb break="no" ed="#P" n="24"/>quo modo fieri possunt: jam dicendum est de
+          <lb ed="#P" n="25"/>operibus ex gratia factis. Quoniam vero gratia
+          <lb ed="#P" n="26"/>non solum necessaria est ad supernaturalia
+          <lb ed="#P" n="27"/>opera: sed etiam juvat ad moralia et 
+          natura<lb break="no" ed="#P" n="28"/>lia honeste perficienda, ideo in hoc capite
+          <lb ed="#P" n="29"/>dicemus de operibus moralibus, ac 
+          naturali<lb break="no" ed="#P" n="30"/>bus procedentibus aliquo modo a gratia, et
+          <lb ed="#P" n="31"/>postea de supernaturalibus actibus, simulque
+          <lb ed="#P" n="32"/>magis declarabimus et contirmabimus 
+          non<lb break="no" ed="#P" n="33"/>nulla, quae in superioribus dicta sunt. 
+          Suppo<lb break="no" ed="#P" n="34"/>no autem, sermonem esse de causa non 
+          omni<lb break="no" ed="#P" n="35"/>no impropria et per accidens, sed aliquo
+          <lb ed="#P" n="36"/>modo perse et morali, quahs est dispositio 
+          pro<lb break="no" ed="#P" n="37"/>portionata, vel meritum aliquale, saltem de
+          <lb ed="#P" n="38"/>congruo, vel impetratorium. Suppono deinde,
+          <lb ed="#P" n="39"/>duobus modis posse opus virtutis acquisitae
+          <lb ed="#P" n="40"/>esse ex gratia. Uno modo, quia fit ex aliqua
+          <lb ed="#P" n="41"/>speciali providentia et impulsu Dei quo 
+          exci<lb break="no" ed="#P" n="42"/>tatur, vel juvatur homo ad illud opus 
+          facien<lb break="no" ed="#P" n="43"/>dum, non tamen redundat inde in ipso opere
+          <lb ed="#P" n="44"/>aliquid supernaturale, nec physicum, quoad
+          <lb ed="#P" n="45"/>substantiam ejus, nec intrinsecum ac reale et
+          <lb ed="#P" n="46"/>inhaerens aliquo modo ipsi actui : nec etiam
+          <lb ed="#P" n="47"/>morale, quoad aliquam relationem in 
+          super<lb break="no" ed="#P" n="48"/>naturalem finem. Sed tantum moraliter 
+          juva<lb break="no" ed="#P" n="49"/>tur homo, ut opus ipsum intra suum ordinem,
+          <lb ed="#P" n="50"/>cum debitis circumstantiis, circa objectum 
+          ra<lb break="no" ed="#P" n="51"/>Uoni naturali consentaneum, perficiat. Alio
+          <lb ed="#P" n="52"/>modo potest homo elevari per gratiam ad fa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ciendum tale opus cum aliqua 
+          supernaturali<lb break="no" ed="#P" n="54"/>tate, quae in ipso opere resultet, saltem 
+          mora<lb break="no" ed="#P" n="55"/>liter.
+        </p>
+        <p xml:id="szduep-105196-d1e200">
+          <lb ed="#P" n="56"/>2. Prima assertio.—Opus morale factum ea
+          <lb ed="#P" n="57"/>gratia, licet in sua specie ordinis naturalis sit,
+          <lb ed="#P" n="58"/>potest esse causa alicujus effectus 
+          praedestina<lb break="no" ed="#P" n="59"/>tionis.—Ratione fulcitur.—Prior pars.—bico
+          <lb ed="#P" n="60"/>ergo primo, quando opus morale ita fit ex
+          <lb ed="#P" n="61"/>gratia, ut licet in sua specie maneat naturalis
+          <lb ed="#P" n="62"/>ordinis, aliquem supernaturalem modum in
+          <lb ed="#P" n="63"/>se recipiat, potest esse causa alicujus effectus
+          <lb ed="#P" n="64"/>praedestinationis, non vero totius 
+          praedestina<lb break="no" ed="#P" n="65"/>tionis, quoad effectus ejus. Haec posterior pars
+          <lb ed="#P" n="66"/>a fortiori patebit ex his, quae de 
+          supernatura<lb break="no" ed="#P" n="67"/>Iibus actibus dicemus. Nunc breviter 
+          ostendi<lb break="no" ed="#P" n="68"/>tur, quia tale opus supponit gratiam aliquam
+          <lb ed="#P" n="69"/>efficacem, et accommodatam fini 
+          praedestina<lb break="no" ed="#P" n="70"/>tionis: ergo supponit aliquem 
+          praedestinatio<lb break="no" ed="#P" n="71"/>nis effectum , ergo non potest esse causa 
+          to<lb break="no" ed="#P" n="72"/>tius praedestinationis. Consequentiam nune ut
+          <lb ed="#P" n="73"/>claram suppono. Antecedens vero probo, quia
+          <lb ed="#P" n="74"/>illud opus non potest tali modo fieri, nisi
+          <lb ed="#P" n="75"/>praecedat illuminatio aliqua fidei, et intentio
+          <lb ed="#P" n="76"/>supernaturalis dirigens, et elevans actum 
+          il<lb break="no" ed="#P" n="77"/>lum aliquo modo ad supernaturalem ordinem,
+          <lb ed="#P" n="78"/>nullus enim alius intrinsecus modus 
+          superna<lb break="no" ed="#P" n="79"/>turalis in tali actu excogitari potest.
+        </p>
+        <p xml:id="szduep-105196-d1e256">
+          <lb ed="#P" n="80"/>3. Posterior ostenditur. — Altera vero pars,
+          <lb ed="#P" n="81"/>nimirum, actum illum sic factum posse esse
+          <lb ed="#P" n="82"/>causam praedestinationis quoad aliquos 
+          effec<lb break="no" ed="#P" n="83"/>tus ejus, probari potest primo ex illis 
+          Serip<lb break="no" ed="#P" n="84"/>turae locis in quibus opera moralia, 
+          prae<lb break="no" ed="#P" n="85"/>sertim misericordiae , dicuntur valde utilia
+          <lb ed="#P" n="86"/>ad impetrandum remissionem peccatorum ,
+          <lb ed="#P" n="87"/>Daniel, 4, Tobiae 4, Lucae 6. Si dimiseritis,
+          <lb ed="#P" n="88"/>dimittetur vobis. Quae quidem, et similia 
+          sal<lb break="no" ed="#P" n="89"/>tem verum habent de his operibus, quatenus
+          <lb ed="#P" n="90"/>aliquo supernaturali modo fiunt. Unde, si fiant
+          <lb ed="#P" n="91"/>in gratia sanctificante, et charitate, et ex aliquo
+          <lb ed="#P" n="92"/>motivo ac relatione supernaturah, merentur
+          <lb ed="#P" n="93"/>etiam de condigno aliquos effectus 
+          praedesti<lb break="no" ed="#P" n="94"/>nationis. Si vero solum fiant ex gratia 
+          auxi<lb break="no" ed="#P" n="95"/>liante, ac fide, merentur solum de congruo
+          <lb ed="#P" n="96"/>seu impetrando, aut per modum proportionatae
+          <lb ed="#P" n="97"/>dispositionis, aliquam ulteriorem gratiam, quae
+          <lb ed="#P" n="98"/>potest ad effectus praedestinationis pertinere.
+          <lb ed="#P" n="99"/>Neque hoc est contra gratuitam 
+          praedestinatio<lb break="no" ed="#P" n="100"/>nem, quia jam illa est gratia pro gratia et origo
+          <lb ed="#P" n="101"/>totius causalitatis est gratia vera, 
+          supernatu<lb break="no" ed="#P" n="102"/>ralis, ut supponimus. Neque in assertione hac
+          <lb ed="#P" n="103"/>est ulla difficultas. Solum relinquitur 
+          exph<lb break="no" ed="#P" n="104"/>candum, qualem oporteat esse gratiam illam,
+          <lb ed="#P" n="105"/>vel supernaturalem modum talis actus, ut
+          <lb ed="#P" n="106"/>possit hanc causalitatem participare: hoc 
+          au<lb break="no" ed="#P" n="107"/>tem ex sequente assertione patebit. 
+        </p>
+        <p xml:id="szduep-105196-d1e319">
+          <pb ed="#P" n="415"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>4. Secunda assertio. — Opus morale a libero
+          <lb ed="#P" n="2"/>arbitrio et per solas vires naturales preestitum
+          <lb ed="#P" n="3"/>causa preedestinationis quoad aliquem 
+          superna<lb break="no" ed="#P" n="4"/>turalem effectumn esse neguit. — Dico ergo 
+          se<lb break="no" ed="#P" n="5"/>cundo. Si opus morale prout fit a libero 
+          arbi<lb break="no" ed="#P" n="6"/>trio, solum id habet, quod per vires naturales
+          <lb ed="#P" n="7"/>fieri potest, nullumque modum 
+          supernatura<lb break="no" ed="#P" n="8"/>lem, physicum, vel moralem recipit ex aliquo
+          <lb ed="#P" n="9"/>supernaturalis gratiae dono, non potest esse
+          <lb ed="#P" n="10"/>causa praedestinationis quoad aliquem 
+          super<lb break="no" ed="#P" n="11"/>naturalem effectum ejus : atque adeo nec 
+          pri<lb break="no" ed="#P" n="12"/>mae gratiae supernaturalis, seu vocationis et
+          <lb ed="#P" n="13"/>divinae illuminationis, aut inspirationis. Haec
+          <lb ed="#P" n="14"/>assertio declarat magis controversiam 
+          praece<lb break="no" ed="#P" n="15"/>dentibus capitulis tractatam, de bono opere
+          <lb ed="#P" n="16"/>morali, an possit fieri sine gratia, necne et in
+          <lb ed="#P" n="17"/>quo sit diversitas in re, in quo vero magis in
+          <lb ed="#P" n="18"/>verbis consistat. Nam eos, qui putant opus
+          <lb ed="#P" n="19"/>morale non fieri bene sine gratia : et per 
+          gra<lb break="no" ed="#P" n="20"/>tiam intelligunt solam cogitationem naturalem
+          <lb ed="#P" n="21"/>congruam et postea huic operi tribuunt 
+          meri<lb break="no" ed="#P" n="22"/>tum primae vocationis et illuminationis 
+          super<lb break="no" ed="#P" n="23"/>naturalis, vereor tantum verbis recedere a
+          <lb ed="#P" n="24"/>Massiliensibus, vocantes gratiam, quam illi
+          <lb ed="#P" n="25"/>naturale beneficium et fortasse congruentius
+          <lb ed="#P" n="26"/>vocabant : in re vero in sententiam inclinare,
+          <lb ed="#P" n="27"/>dum aiunt, opus eleemosynae, verbi gratia,
+          <lb ed="#P" n="28"/>factum sine fide et ex puro motivo naturali esse
+          <lb ed="#P" n="29"/>meritorium de congruo, impetratorium et 
+          dis<lb break="no" ed="#P" n="30"/>positivum, vocationis supernaturalis, solum
+          <lb ed="#P" n="31"/>quia fit ex illo dono gratuito Dei, quo homini
+          <lb ed="#P" n="32"/>offert congruam occasionem et concursum ad
+          <lb ed="#P" n="33"/>tale opus faciendum.
+        </p>
+        <p xml:id="szduep-105196-d1e397">
+          <lb ed="#P" n="34"/>5. Contra hanc ergo opinionem probo 
+          as<lb break="no" ed="#P" n="35"/>sertionem positam, incipiendo a testimonio
+          <lb ed="#P" n="36"/>Concilii Tridentini, in sessione sexta, 
+          asseren<lb break="no" ed="#P" n="37"/>tis , Eaordium justificationis sumi ex divina
+          <lb ed="#P" n="38"/>cocatione, nullis preecedentibus meritis. 
+          Exph<lb break="no" ed="#P" n="39"/>cat autem, tum in capite quinto, tum clarius
+          <lb ed="#P" n="40"/>in sexto, vocationem illam esse, qua homo 
+          ex<lb break="no" ed="#P" n="41"/>citatur ad credendum vera esse, que Deus 
+          reve<lb break="no" ed="#P" n="42"/>lavit, et ad caetera supernaturalia, quae inde
+          <lb ed="#P" n="43"/>sequuntur. Idemque significavit Paulus 2, ad
+          <lb ed="#P" n="44"/>Thimoth. 1, dicens: Vocavit nos vocatione sua
+          <lb ed="#P" n="45"/>sancta, non secundum opera nostra ; dum enim
+          <lb ed="#P" n="46"/>illam vocationem sanctam appellat, quasi per
+          <lb ed="#P" n="47"/>antonomasiam, eamque a nostris operibus 
+          dis<lb break="no" ed="#P" n="48"/>unguit, plane sentit esse donum 
+          supernatura<lb break="no" ed="#P" n="49"/>le, et ad supernaturalia objecta hominem 
+          ele<lb break="no" ed="#P" n="50"/>vare. Quam vocationem nomine £ractionis et 
+          in<lb break="no" ed="#P" n="51"/>ternee doctrine, significavit CHRISTUS, Joa. 6,
+          <lb ed="#P" n="52"/>ut ibi Augustinus exponit, de Praedestinatione
+          <lb ed="#P" n="53"/>sanctorum, cap. 8, ubi ait: Valde remotam
+          <lb ed="#P" n="54"/>e55e a sensibus illam scholam, in qua Pater 
+          al<lb break="no" ed="#P" n="55"/>ler docet. Non ergo pertinet ad illam scholam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>naturalis cognitio honesta, quae ex objectis
+          <lb ed="#P" n="57"/>sensibilibus naturaliter excitatur : ergo illa 
+          co<lb break="no" ed="#P" n="58"/>gitatio non pertinet ad vocationem: ergo nec
+          <lb ed="#P" n="59"/>potest esse meritum, aut radix ejus. Ergo ante
+          <lb ed="#P" n="60"/>veram vocationem nullum est ejus meritum,
+          <lb ed="#P" n="61"/>quacumque ratione perfici cogitetur. Et 
+          simi<lb break="no" ed="#P" n="62"/>liter ante dictum exordium, nullum est 
+          exor<lb break="no" ed="#P" n="63"/>dium ; esset autem, si illud opus morale sic
+          <lb ed="#P" n="64"/>factum esset meritorium vocationis: imo 
+          po<lb break="no" ed="#P" n="65"/>tius occasio, vel cogitatio ad faciendum tale
+          <lb ed="#P" n="66"/>opus dicenda esset exordium justificationis.
+          <lb ed="#P" n="67"/>Et hoc ipsum confirmant omnes definitiones
+          <lb ed="#P" n="68"/>factae in Concilio Arausicano: nam in eis 
+          sem<lb break="no" ed="#P" n="69"/>per requiritur gratia pertinens ad 
+          supernatu<lb break="no" ed="#P" n="70"/>ralem ordinem et elevans hominem ad 
+          ope<lb break="no" ed="#P" n="71"/>randum in illo, quod in capitibus 
+          praecedenti<lb break="no" ed="#P" n="72"/>bus latius declaravi, et statim amplius, 
+          pon<lb break="no" ed="#P" n="73"/>derando illam particulam, sicut oportet.
+        </p>
+        <p xml:id="szduep-105196-d1e488">
+          <lb ed="#P" n="74"/>6. Nunc confirmatur testimonio Augustini
+          <lb ed="#P" n="75"/>(cujus doctrinam sine dubio secutum est illud
+          <lb ed="#P" n="76"/>Concilium) nam 1, ad Simplic., quaestione 
+          se<lb break="no" ed="#P" n="77"/>cunda : Ut ostendat (inquit) hominem bene 
+          ope<lb break="no" ed="#P" n="78"/>rari non posse, nisi per fidem perceperit 
+          gra<lb break="no" ed="#P" n="79"/>tiam : incipit autem homo percipere gratiam,
+          <lb ed="#P" n="80"/>ez quo incipit Deo credere. Ergo illa cogitatio,
+          <lb ed="#P" n="81"/>quae ponitur antecedere primam vocationem
+          <lb ed="#P" n="82"/>ad fidem, non est illa, quam Sancti Patres 
+          re<lb break="no" ed="#P" n="83"/>quirunt ad meritum coram Deo, respectu 
+          su<lb break="no" ed="#P" n="84"/>pernaturalium donorum. Et ideo Augustinus
+          <lb ed="#P" n="85"/>eodem loco docet, Cornelium jam habuisse 
+          fi<lb break="no" ed="#P" n="86"/>dem, quando per orationes et eleemosynas
+          <lb ed="#P" n="87"/>meruit obtinere a Deo Evangelicam notitiam.
+          <lb ed="#P" n="88"/>Quia illis (inquit) digmum se prebuit, cui 
+          an<lb break="no" ed="#P" n="89"/>gelus mitteretur, et idem docet de 
+          Praedestina<lb break="no" ed="#P" n="90"/>tione Sanctorum, cap. 7, et quaest. S4, in 
+          Le<lb break="no" ed="#P" n="91"/>viticum. Idem habet Bernardus , sermone 78,
+          <lb ed="#P" n="92"/>in Cant., circa finem, et Hugo deS. Victor, in
+          <lb ed="#P" n="93"/>epistol., ad Rom.. quaest. 266, et optime divus
+          <lb ed="#P" n="94"/>Thomas 2, quaest. 10, art. 4, in fine, ubi hoc
+          <lb ed="#P" n="95"/>confirmat testimonio supra a nobis adducto,
+          <lb ed="#P" n="96"/>quia sine fide impossibile est placere DEO:
+          <lb ed="#P" n="97"/>Cornelius autem per illa opera placuit DEO, et
+          <lb ed="#P" n="98"/>ideo vocatur religiosus, ac timens Dewn: ergo
+          <lb ed="#P" n="99"/>illa opera procedebant ex fide. Quod 
+          testimo<lb break="no" ed="#P" n="100"/>nium et ratio aeque probant opera quae non
+          <lb ed="#P" n="101"/>procedunt ex fide, non posse ita placere Deo,
+          <lb ed="#P" n="102"/>ut sint apta ad obtinendum ab eo vocationem
+          <lb ed="#P" n="103"/>ad fidem. Unde Augustinus, lib. 3, 
+          Hypogno<lb break="no" ed="#P" n="104"/>sticon, post medium in eodem sensu dicit : 7n
+          <lb ed="#P" n="105"/>homine non credente nulla esse opera bona: de
+          <lb ed="#P" n="106"/>qua re multa in superioribus adduximus. Et
+          <lb ed="#P" n="107"/>eodem modo loquitur frequenter Prosper 
+          con<lb break="no" ed="#P" n="108"/>tra Collatorem, et Fulgentius ad iionimum,
+          <lb ed="#P" n="109"/>sic etiam dixit Nazianzenus, oratione 13, 
+          ali<lb break="no" ed="#P" n="110"/>quantulum ab initio: Sicut fides sine chari-
+          <pb ed="#P" n="416"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tate mortua est, ita omnem actionem sine fide
+          <lb ed="#P" n="2"/>esse infructuosam.
+        </p>
+        <p xml:id="szduep-105196-d1e579">
+          <lb ed="#P" n="3"/>7. Ratione probatur. — Tandem utor hac 
+          ra<lb break="no" ed="#P" n="4"/>tione, quia si opus non est in se melius, neque
+          <lb ed="#P" n="5"/>alterius conditionis moralis ex parte ipsius 
+          ho<lb break="no" ed="#P" n="6"/>minis, vel gratiae illi inhaerentis, non est magis,
+          <lb ed="#P" n="7"/>vel minus meritorium, neque etiam magis
+          <lb ed="#P" n="8"/>disponit ad supernaturalia dona, eo quod 
+          pro<lb break="no" ed="#P" n="9"/>cedat a principio extrinseco specialiter 
+          auxi<lb break="no" ed="#P" n="10"/>LHante, vel tantum generaliter concurrente:
+          <lb ed="#P" n="11"/>ita vero est in praesenti, ut supponimus : nam
+          <lb ed="#P" n="12"/>actus moralis honestus, et natura sua pertinens
+          <lb ed="#P" n="13"/>ad virtutem acquisitam, non est in se 
+          morah<lb break="no" ed="#P" n="14"/>ter melior, propterea quod fiat ex speciali
+          <lb ed="#P" n="15"/>Dei providentia : neque explicari potest, in
+          <lb ed="#P" n="16"/>quo consistat illa major bonitas. Major 
+          pro<lb break="no" ed="#P" n="17"/>batur, quia habitudo ad causam extrinsecam
+          <lb ed="#P" n="18"/>per se sola non reddit meliorem effectum:
+          <lb ed="#P" n="19"/>ergo actus ille propter solam habitudinem ad
+          <lb ed="#P" n="20"/>tale auxilium, non est in se physice, aut 
+          mora<lb break="no" ed="#P" n="21"/>liter melior, ergo nec magis proportionatus ad
+          <lb ed="#P" n="22"/>meritum, vel dispositionem. Item, quia si ex
+          <lb ed="#P" n="23"/>parte hominis operantis res haec consideretur,
+          <lb ed="#P" n="24"/>quodammodo plus agit : plusque (ut ita dicam)
+          <lb ed="#P" n="25"/>de suo ponit, qui cum minori auxilio opus
+          <lb ed="#P" n="26"/>seque bonum praestat : ergo verisimile non est
+          <lb ed="#P" n="27"/>alium plus mereri apud Deum, eo quod majori
+          <lb ed="#P" n="28"/>auxilio, non tamen melius operetur.
+        </p>
+        <p xml:id="szduep-105196-d1e638">
+          <lb ed="#P" n="29"/>8. Aditus objectioni preecluditur. — Denique
+          <lb ed="#P" n="30"/>ad hoc expendo illam particulam Conciliorum,
+          <lb ed="#P" n="31"/>sicut oportet, quia per illam significatur 
+          ali<lb break="no" ed="#P" n="32"/>qua conditio, vel perfectio actus, ratione 
+          cu<lb break="no" ed="#P" n="33"/>jus gratia est necessaria. Nam, cum Concilia
+          <lb ed="#P" n="34"/>dicunt : S quis diwerit, posse aliquem poenitere
+          <lb ed="#P" n="35"/>sicut oportet, etc., non intelligunt, sicut 
+          opor<lb break="no" ed="#P" n="36"/>tel, id est, supernaturali modo tantum ex parte
+          <lb ed="#P" n="37"/>Dei operantis, alioqui esset negatio quaedam ,
+          <lb ed="#P" n="38"/>nam perinde esset, ac si diceretur, si quis 
+          dixe<lb break="no" ed="#P" n="39"/>rit, posse aliquem poenitere ex speciali auxilio,
+          <lb ed="#P" n="40"/>sine gratia, anathema sit. Indicant ergo, in
+          <lb ed="#P" n="41"/>ipso actu esse necessariam aliquam 
+          proprieta<lb break="no" ed="#P" n="42"/>tem, vel perfectionem, ratione cujus excitans
+          <lb ed="#P" n="43"/>et adjuvans gratia necessariae sunt. Et eamdem
+          <lb ed="#P" n="44"/>perfectionem requirunt, ut actus sit meritorius;
+          <lb ed="#P" n="45"/>vel dispositivus, ad gratiam : ergo si actus in
+          <lb ed="#P" n="46"/>se non est melior, parum refert ad praedictos
+          <lb ed="#P" n="47"/>effectus, quod ex aliquo auxilio speciali 
+          proce<lb break="no" ed="#P" n="48"/>dat. Et hac ratione alibi probavi, verum 
+          ac<lb break="no" ed="#P" n="49"/>tum poenitentiae debere esse in se 
+          supernatu<lb break="no" ed="#P" n="50"/>ralem, sive sit contritio, sive vera attritio. Et
+          <lb ed="#P" n="51"/>idem est de caeteris.
+        </p>
+        <p xml:id="szduep-105196-d1e691">
+          <lb ed="#P" n="52"/>9. Retunditur effugium. — Respondebitur
+          <lb ed="#P" n="53"/>fortasse, opus bonum morale nunquam fieri
+          <lb ed="#P" n="54"/>posse sine cogitatione congrua. At hoc nihil
+          <lb ed="#P" n="55"/>est, tum quia ostensum est, illam cogitatio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nem non esse veram gratiam: satisque 
+          absur<lb break="no" ed="#P" n="57"/>dum mihi videtur in illa sola appellatione
+          <lb ed="#P" n="58"/>fundare totam disputationem et doctrinam
+          <lb ed="#P" n="59"/>Concili Arausicani et Augustini contra 
+          Massi<lb break="no" ed="#P" n="60"/>lienses. Tum etiam quia illa congruitas non
+          <lb ed="#P" n="61"/>addit semper majorem perfectionem, aut 
+          vir<lb break="no" ed="#P" n="62"/>tutem agendi in illa cogitatione, sed solam
+          <lb ed="#P" n="63"/>habitudinem ad futurum effectum praevisum
+          <lb ed="#P" n="64"/>a Deo et fortasse specialiter provisum et 
+          inten<lb break="no" ed="#P" n="65"/>tum : quod quidem non satis est ad majorem
+          <lb ed="#P" n="66"/>bonitatem, vel valorem moralem actus. Ergo,
+          <lb ed="#P" n="67"/>si actus secundum se non habet proportionem
+          <lb ed="#P" n="68"/>ad tale meritum, nec etiam illam habebit eo
+          <lb ed="#P" n="69"/>quod procedat a cogitatione sic congrua. Et
+          <lb ed="#P" n="70"/>praeterea urgeo illam particulam, sicut oportet,
+          <lb ed="#P" n="71"/>nam juxta illam opinionem nihil aliud 
+          signi<lb break="no" ed="#P" n="72"/>ficaret, quam bene moraliter : hoc autem est
+          <lb ed="#P" n="73"/>contra mentem Conciliorum : nam per se 
+          no<lb break="no" ed="#P" n="74"/>tum erat, ad mala opera non esse gratiam 
+          ne<lb break="no" ed="#P" n="75"/>cessariam : ergo, cum dicunt illam esse 
+          neces<lb break="no" ed="#P" n="76"/>sariam ad bene operandum sicut oportet , 
+          dis<lb break="no" ed="#P" n="77"/>tinguunt specialia quaedam bona opera, quae
+          <lb ed="#P" n="78"/>talem habent modum, ut omnino gratiam 
+          re<lb break="no" ed="#P" n="79"/>quirant, et in eo distinguuntur ab aliis bonis
+          <lb ed="#P" n="80"/>communibus.
+        </p>
+        <p xml:id="szduep-105196-d1e759">
+          <lb ed="#P" n="81"/>10. Responsum. — Refellitur.—bici vero 
+          ad<lb break="no" ed="#P" n="82"/>huc potest, esse alia opera moralia heroica,
+          <lb ed="#P" n="83"/>quae nunquam fiunt fine auxilio gratiae : item
+          <lb ed="#P" n="84"/>perseverantiam in his operibus requirere 
+          sem<lb break="no" ed="#P" n="85"/>per speciale auxilium, ut fiant sine admixtione
+          <lb ed="#P" n="86"/>peccati. De his ergo credi potest mereri, vel
+          <lb ed="#P" n="87"/>disponere ad auxilium gratiae. Et cessat ratio
+          <lb ed="#P" n="88"/>facta, quia nunquam potest solum liberum
+          <lb ed="#P" n="89"/>arbitrium aliquid simile, et aeque perfectum
+          <lb ed="#P" n="90"/>facere. Respondeo, idem cum proportione 
+          di<lb break="no" ed="#P" n="91"/>cendum esse in his eventibus. Quia si opus
+          <lb ed="#P" n="92"/>morale insigne, et difficile procedit a vera, et
+          <lb ed="#P" n="93"/>supernaturali gratia, jam non pertinet ad
+          <lb ed="#P" n="94"/>hanc posteriorem assertionem, sedad priorem,
+          <lb ed="#P" n="95"/>et ideo objectio non est ad rem. Si vero non
+          <lb ed="#P" n="96"/>sit ex vera gratia supernaturali, sed ex aliqua
+          <lb ed="#P" n="97"/>majori providentia qua juvetur moraliter, vel
+          <lb ed="#P" n="98"/>custodiatur hominis lapsi infirmitas, certe opus
+          <lb ed="#P" n="99"/>non erit valde insigne, neque heroicum in
+          <lb ed="#P" n="100"/>absoluto genere virtutis. Et qualecumque sit,
+          <lb ed="#P" n="101"/>nihil id refert, ut actus sit meritorius 
+          super<lb break="no" ed="#P" n="102"/>naturalis gratiae. Unde in angelo, vel in 
+          ho<lb break="no" ed="#P" n="103"/>mine in natura integra posset esse tale opus
+          <lb ed="#P" n="104"/>sine ulla difficultate, vel speciali adjutorio, et
+          <lb ed="#P" n="105"/>tamen non esset ullo modo meritorium primae
+          <lb ed="#P" n="106"/>gratiae, quia illa semper, et in omnibus retinet
+          <lb ed="#P" n="107"/>rationem gratiae, neque opere naturae potest
+          <lb ed="#P" n="108"/>obtineri. idemque est de continuatione talium
+          <lb ed="#P" n="109"/>operum. Nam imprimis homini carent fide,
+          <lb ed="#P" n="110"/>nunquam datur gratia ad perseverandum sine
+          <pb ed="#P" n="417"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>novo lapsu, etiam in his operibus. Et licet 
+          da<lb break="no" ed="#P" n="2"/>retur aliquod auxilium proportionatum, illud
+          <lb ed="#P" n="3"/>non sufficeret ad merendum auxilium 
+          supe<lb break="no" ed="#P" n="4"/>rioris ordinis. Quia illud auxilium et fidem
+          <lb ed="#P" n="5"/>nonsupponit, et licet late possit dici gratia, non
+          <lb ed="#P" n="6"/>tamen gratiae sanctificantis, ut dixit D. 
+          Tho<lb break="no" ed="#P" n="7"/>mas 2, 2, quaest. 136, art. 3, ad 2.
+        </p>
+        <p xml:id="szduep-105196-d1e846">
+          <lb ed="#P" n="8"/>11. Homo ante fidem non potest aliquam
+          <lb ed="#P" n="9"/>veram gratium promereri.—bAtque ex his 
+          con<lb break="no" ed="#P" n="10"/>cluditur, non solum ante fidem non posse 
+          ho<lb break="no" ed="#P" n="11"/>minem veram aliquam gratiam aliquo modo
+          <lb ed="#P" n="12"/>promereri, sed etiam idem dicendum esse de
+          <lb ed="#P" n="13"/>homine jam fideli praeparante se ad veram
+          <lb ed="#P" n="14"/>poenitentiam, cum sit in statu peccati. Nam
+          <lb ed="#P" n="15"/>etiam in illo ad hoc valere non possunt per
+          <lb ed="#P" n="16"/>se et directe opera solius liberi arbitrii, si ex
+          <lb ed="#P" n="17"/>fide, et supernaturali gratia nullo modo 
+          pro<lb break="no" ed="#P" n="18"/>cedant. Priorem partem probant omnia 
+          hacte<lb break="no" ed="#P" n="19"/>nus adducta, quae confirmantur hac ratione.
+          <lb ed="#P" n="20"/>Quia si homo ante fidem posset per bonum
+          <lb ed="#P" n="21"/>opus procedens ab alio priori beneficio Dei
+          <lb ed="#P" n="22"/>mereri supernaturalia dona, ergo posset 
+          me<lb break="no" ed="#P" n="23"/>reri ipsam fidei praedicationem, et 
+          revelatio<lb break="no" ed="#P" n="24"/>nem, quod nec Pelagiani ausi sunt dicere.
+          <lb ed="#P" n="25"/>Item supposita praedicatione externa, posset
+          <lb ed="#P" n="26"/>homo per imperfectum desiderium fidei, vel
+          <lb ed="#P" n="27"/>salutis, aut per naturalem fidem imperfectam,
+          <lb ed="#P" n="28"/>et similes motus, quos per liberum arbitrium
+          <lb ed="#P" n="29"/>habere potest, mereri gratiam internam ad
+          <lb ed="#P" n="30"/>credendum sicut oportet : quod etiam in 
+          Se<lb break="no" ed="#P" n="31"/>mipelagianis damnatum est. Quod autem id
+          <lb ed="#P" n="32"/>sequatur, patet, quia illi actus sunt boni, et
+          <lb ed="#P" n="33"/>procedunt ex honesta cogitatione, quae multo
+          <lb ed="#P" n="34"/>magis dici potest procedere ex aliqua gratia,
+          <lb ed="#P" n="35"/>et consequenter esse gratia, quam honesta 
+          co<lb break="no" ed="#P" n="36"/>gitatio moralis ab objectis naturalibus excitata.
+          <lb ed="#P" n="37"/>S1 ergo opus bonum morale, alias naturale,
+          <lb ed="#P" n="38"/>potest esse meritorium supernaturalis gratiae,
+          <lb ed="#P" n="39"/>eo quod ab illa cogitatione procedat, cur non
+          <lb ed="#P" n="40"/>magis illi actus naturales circa objecta 
+          super<lb break="no" ed="#P" n="41"/>naturalia materialiter sumpta, esse poterunt
+          <lb ed="#P" n="42"/>meritum altioris gratiae internae?
+        </p>
+        <p xml:id="szduep-105196-d1e924">
+          <lb ed="#P" n="43"/>12. Jam ergo de homine fideli servata 
+          pro<lb break="no" ed="#P" n="44"/>portione probatur assertio. Quia ibi fides 
+          pe<lb break="no" ed="#P" n="45"/>rinde se habet, ac si non esset, cum nihll 
+          in<lb break="no" ed="#P" n="46"/>fluat. Item, quia principium illud generale
+          <lb ed="#P" n="47"/>aeque in his operibus procedit , nimirum sine
+          <lb ed="#P" n="48"/>divina gratia supernaturali nullum opus fieri
+          <lb ed="#P" n="49"/>posse, quod per se conferat ad vitam aeternam:
+          <lb ed="#P" n="50"/>multum autem confert illud, quod est causa
+          <lb ed="#P" n="51"/>obtinendi supernaturalem vocationem ad 
+          poe<lb break="no" ed="#P" n="52"/>nitentiam. Deinde, talia opera non sunt 
+          eftica<lb break="no" ed="#P" n="53"/>ciora ad meritum de congruo in peccatore 
+          fi<lb break="no" ed="#P" n="54"/>deli, quem sint ad meritum de condigno in
+          <lb ed="#P" n="55"/>homine justo: sed in homine justo non sunt
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>meritoria de condigno gratiae sanctificantis, aut
+          <lb ed="#P" n="57"/>vitae aeternae, ut est magis recepta doctrina, quae
+          <lb ed="#P" n="58"/>requirit ad meritum, ut opus ipsum aliquo
+          <lb ed="#P" n="59"/>modo ex fide, et gratia procedat. Cui favet
+          <lb ed="#P" n="60"/>multum Concilium Tridentinum, sess. 6, cap.
+          <lb ed="#P" n="61"/>16, ergo. Tandem, homo habens fidem, et
+          <lb ed="#P" n="62"/>nullo modo ex illa operans, quodammodo
+          <lb ed="#P" n="63"/>minus facit quod in se est, quam Gentilis bene
+          <lb ed="#P" n="64"/>operans sine fide: ergo non est cur per talia
+          <lb ed="#P" n="65"/>opera supernaturalem gratiam mereatur. 
+          Quo<lb break="no" ed="#P" n="66"/>circa, quando in Scriptura dicuntur haec opera,
+          <lb ed="#P" n="67"/>valere apud Deum ad mercerem aliquam 
+          su<lb break="no" ed="#P" n="68"/>pernaturalem, vel remissionem peccatorum:
+          <lb ed="#P" n="69"/>semper additur aliquid, quo significetur, talia
+          <lb ed="#P" n="70"/>opera debere fieri ex fide, vel motivo 
+          super<lb break="no" ed="#P" n="71"/>naturah, ut supra notavi. Unde recte colligit
+          <lb ed="#P" n="72"/>Clemens Alex., lib. 4. Strom. meritum operis
+          <lb ed="#P" n="73"/>ex modo, et ratione operandi pendere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="776"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-196011"><!-- t3-l11c2 -->
+        <head xml:id="szduep-196011-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-196011-Hd1e103" type="question-title">Ex quarum rerum amore spiritus sanctus procedat</head>
+        <p xml:id="szduep-196011-d1e106">
+          <lb ed="#P" n="14"/>CAPUT I.
+          <lb ed="#P" n="15"/>EX QUARUM RERUM AMORE SPIRITUS SANCTUS
+          <lb ed="#P" n="16"/>PROCEDAT.
+        </p>
+        <p xml:id="szduep-196011-d1e115">
+          <lb ed="#P" n="17"/>1. Exponitur titulus. — Sicut in 
+          superiori<lb break="no" ed="#P" n="18"/>bus exposuimus, ex quarum rerum cognitione
+          <lb ed="#P" n="19"/>Filius procedat, ita hic oportet cum 
+          propor<lb break="no" ed="#P" n="20"/>tone declarare, ex quarum rerum amore 
+          Spi<lb break="no" ed="#P" n="21"/>ritus sanctus procedat. seu quarum rerum amor
+          <lb ed="#P" n="22"/>sit principium, quo producitur Spiritus sanctus.
+          <lb ed="#P" n="23"/>Cum enim necessario esse debeat amor 
+          alicu<lb break="no" ed="#P" n="24"/>jus objecti, quod per illum ametur et Spiritus
+          <lb ed="#P" n="25"/>sanctus procedat per amorem, necesse est,
+          <lb ed="#P" n="26"/>amorem illum esse alicujus objecti. Cumque
+          <lb ed="#P" n="27"/>actus, qui versatur circa aliquod objectum, non
+          <lb ed="#P" n="28"/>possit sine illo exacte cognosci ad 
+          intelligen<lb break="no" ed="#P" n="29"/>dum melius, quomodo Spiritus sanctus 
+          pro<lb break="no" ed="#P" n="30"/>ducatur per amorem, declarare oportet, 
+          qua<lb break="no" ed="#P" n="31"/>rum rerum ille amor sit. Amant autem 
+          Pa<lb break="no" ed="#P" n="32"/>ter, et Filius et divinitatem suam, et suas
+          <lb ed="#P" n="33"/>personas, et personam Spiritus sancti, et suam
+          <lb ed="#P" n="34"/>relationem ad Spiritum sanctum, et 
+          creatu<lb break="no" ed="#P" n="35"/>ras : de his ergo omnibus breviter dicendum
+          <lb ed="#P" n="36"/>est.
+        </p>
+        <p xml:id="szduep-196011-d1e161">
+          <lb ed="#P" n="37"/>2. Prima assertio. — Dico primo : Pater,
+          <lb ed="#P" n="38"/>et Filius diligendo divinitatem suam 
+          produ<lb break="no" ed="#P" n="39"/>cunt Spiritum sanctum. Est certa, et 
+          commu<lb break="no" ed="#P" n="40"/>nis assertio, et probatur primo ex proportione.
+          <lb ed="#P" n="41"/>amoris ad intellectionem, nam Pater amando
+          <lb ed="#P" n="42"/>suam essentiam producit Verbum, ergo et
+          <lb ed="#P" n="43"/>amando eamdem, producit Spiritum sanctum.
+          <lb ed="#P" n="44"/>Patet consequentia, quia sicut Verbum ibi non
+          <lb ed="#P" n="45"/>producitur ex indigentia intelligentis, sed ex
+          <lb ed="#P" n="46"/>foecunditate, ita et amor. Non est autem 
+          mi<lb break="no" ed="#P" n="47"/>nus foecundus amor divinitatis in sua quasi
+          <lb ed="#P" n="48"/>specie, quam intellectio ejusdem divinitatis
+          <lb ed="#P" n="49"/>in sua. Praeterea amor ille est foecundus, 
+          qua<lb break="no" ed="#P" n="50"/>tenus est simpliciter infinitus etiam in genere
+          <lb ed="#P" n="51"/>entis, hoc autem habet ex eo, quod est amor
+          <lb ed="#P" n="52"/>totalis (ut ita dicam) adaequatus divinitati,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ergo divinitas non solum est amata per illum
+          <lb ed="#P" n="54"/>amorem ut foecundum, sed etiam est quasi
+          <lb ed="#P" n="55"/>primarium et essentiale objectum illius, 
+          neces<lb break="no" ed="#P" n="56"/>sariumque omnino ad foecunditatem ejus. Unde
+          <lb ed="#P" n="57"/>obiter intelliges, quantum errent, qui amorem
+          <lb ed="#P" n="58"/>illum ut foecundum et productivum ut quo 
+          dis<lb break="no" ed="#P" n="59"/>tinguunt ab amore essentiali, in ratione 
+          amo<lb break="no" ed="#P" n="60"/>ris, quia non distinguuntur illi amores etiam
+          <lb ed="#P" n="61"/>ratione in objecto primario et essentiali, neque
+          <lb ed="#P" n="62"/>in adaequatione ad illud : quomodo ergo 
+          dis<lb break="no" ed="#P" n="63"/>tingui possunt in ratione amoris? Est ergo
+          <lb ed="#P" n="64"/>amor ille foecundus ipsemet essentialis, seu per
+          <lb ed="#P" n="65"/>essentiam, ut antecedit originem, cujus ipse
+          <lb ed="#P" n="66"/>est principium quo, estque notionalis, ut est in
+          <lb ed="#P" n="67"/>aliqua persona, quae possit esse principium
+          <lb ed="#P" n="68"/>quod talis originis, seu productionis. Unde
+          <lb ed="#P" n="69"/>etiam addo, hoc objectum et adaequationem
+          <lb ed="#P" n="70"/>ad illud, sufficere ut dictus amor habeat suam
+          <lb ed="#P" n="71"/>foecunditatem, quia illa est summa et 
+          infini<lb break="no" ed="#P" n="72"/>ta perfectio, a qua provenit haec foecunditas ,
+          <lb ed="#P" n="73"/>unde, si necesse est ut attingat etiam alia 
+          ob<lb break="no" ed="#P" n="74"/>jecta re, vel ratione distincta, solum est in
+          <lb ed="#P" n="75"/>quantum cum adaequata dilectione tahs objecti
+          <lb ed="#P" n="76"/>habent necessariam connexionem.
+        </p>
+        <p xml:id="szduep-196011-d1e253">
+          <lb ed="#P" n="77"/>3. Secunda assertio. — Dico ergo secundo,
+          <lb ed="#P" n="78"/>Pater, et Filius producunt Spiritum sanctum
+          <lb ed="#P" n="79"/>se ipsos diligendo, id est, unusquisque illorum
+          <lb ed="#P" n="80"/>diligendo se et alium, producit Spiritum 
+          sanc<lb break="no" ed="#P" n="81"/>tum. Fortasse Scotus non admitteret hanc 
+          as<lb break="no" ed="#P" n="82"/>sertionem, nam similem videtur de Verbo 
+          ne<lb break="no" ed="#P" n="83"/>gasse et solet argumentum sumere a 
+          produc<lb break="no" ed="#P" n="84"/>tione Spiritus sancti ad productionem Verbi.
+          <lb ed="#P" n="85"/>Sed in hoc non loquitur aperte, et dum ita
+          <lb ed="#P" n="86"/>argumentatur , de creaturarum amore 
+          loqui<lb break="no" ed="#P" n="87"/>tur. Quidquid vero ille senserit, conclusionem
+          <lb ed="#P" n="88"/>ut certam supponunt theologi, qui quaerunt,
+          <lb ed="#P" n="89"/>an Pater, et Filius diligant se Spiritu sancto,
+          <lb ed="#P" n="90"/>ut sequenti capite tractabimus. Unde omnes
+          <lb ed="#P" n="91"/>locutiones Patrum , quas ibi 
+          commemorabi<lb break="no" ed="#P" n="92"/>mus, ad minus continent hanc sententiam :
+          <lb ed="#P" n="93"/>Pater, et Filius diligendo se invicem producunt
+          <lb ed="#P" n="94"/>Spiritum sanctum. Ratione patet facile, quia
+          <lb ed="#P" n="95"/>imprimis unaquaeque illarum personarum 
+          pro<lb break="no" ed="#P" n="96"/>ducit Spiritum sanctum diligendo se ipsam,
+          <lb ed="#P" n="97"/>unaquaeque enim persona maxime naturahter
+          <lb ed="#P" n="98"/>diligit se, illa autem personae producunt 
+          Spi<lb break="no" ed="#P" n="99"/>ritum sanctum per dilectionem sibi maxime
+          <lb ed="#P" n="100"/>naturalem et omnino 'primam (ut sic dicam),
+          <lb ed="#P" n="101"/>id est, per dilectionem, quae est in tali persona,
+          <lb ed="#P" n="102"/>in primo signo originis, in quo dilectio 
+          essen<lb break="no" ed="#P" n="103"/>tialis intelligitur esse in illa, eo autemipso, quo
+          <lb ed="#P" n="104"/>divina essentia, et consequenter essentialis 
+          di<lb break="no" ed="#P" n="105"/>lectio intelligitur esse in Patre, intelligitur se
+          <lb ed="#P" n="106"/>ipsum amare, quia hoc est illi maxime 
+          connatu<lb break="no" ed="#P" n="107"/>rale, idemque est cum proportione de Filio. Ne-
+          <pb ed="#P" n="777"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>que ulla ratio prioritatis etiam secundum 
+          ratio<lb break="no" ed="#P" n="2"/>nem potest in hoc excogitari, ergo non potest
+          <lb ed="#P" n="3"/>intelligi, Patrem, vel Filium producere aliquid
+          <lb ed="#P" n="4"/>per illam dilectionem, quin id producat 
+          unus<lb break="no" ed="#P" n="5"/>quisque illorum diligendo se. Et hinc colligitur,
+          <lb ed="#P" n="6"/>etiamunumquemque illorum diligendo alterum
+          <lb ed="#P" n="7"/>producere Spiritum sanctum, quia dilectio sui
+          <lb ed="#P" n="8"/>est necessario connexa cum dilectione sui 
+          corre<lb break="no" ed="#P" n="9"/>lativi, cum sine illo non possit consistere. Unde
+          <lb ed="#P" n="10"/>etiam quoad haec possunt dici correlativa esse
+          <lb ed="#P" n="11"/>simul dilectione. Quomodo enim potest Pater
+          <lb ed="#P" n="12"/>velle esse Pater, nisi velit habere Filium, ete
+          <lb ed="#P" n="13"/>converso ? Deinde est etiam optima ratio, quia
+          <lb ed="#P" n="14"/>illa dilectio foecunda debet perfectissima in
+          <lb ed="#P" n="15"/>omni ratione : ergo includit perfectissimam
+          <lb ed="#P" n="16"/>rationem amicitiae, quae includit nexum et 
+          re<lb break="no" ed="#P" n="17"/>damationem : ergo Pater, et Filius se mutuo
+          <lb ed="#P" n="18"/>diligendo producunt Spiritum sanctum. Aliam
+          <lb ed="#P" n="19"/>rationem adjiciemus capite sequenti.
+        </p>
+        <p xml:id="szduep-196011-d1e368">
+          <lb ed="#P" n="20"/>4. Tertia assertio. — Dico tertio: Pater et
+          <lb ed="#P" n="21"/>Filius producunt Spiritum sanctum diligendo
+          <lb ed="#P" n="22"/>ipsum, atque ita Spiritus sanctus etiam ex sui
+          <lb ed="#P" n="23"/>dilectione procedit. Non possunt hanc 
+          asser<lb break="no" ed="#P" n="24"/>tionem admittere, qui negant, Patrem 
+          produ<lb break="no" ed="#P" n="25"/>cere Verbum ex cognitione Spiritus sancti,
+          <lb ed="#P" n="26"/>tum quia est aequalis ratio, tum etiam quia
+          <lb ed="#P" n="27"/>juxta illam sententiam Spiritus sanctus prius
+          <lb ed="#P" n="28"/>ratione producitur, quam cognoscatur, ergo
+          <lb ed="#P" n="29"/>-prius etiam ratione producetur, quam ametur,
+          <lb ed="#P" n="30"/>quia non amatur, nisi cognitus, ergo non 
+          pro<lb break="no" ed="#P" n="31"/>ducetur ex amore sui. At fundamentum illud
+          <lb ed="#P" n="32"/>falsum est, et ex hoc inconvenienti falsum esse
+          <lb ed="#P" n="33"/>comprobatur, nam assertio posita communis
+          <lb ed="#P" n="34"/>est Patrum et theologorum, quos referam 
+          ca<lb break="no" ed="#P" n="35"/>pite sequenti, nam in eo sensu, in quo docent,
+          <lb ed="#P" n="36"/>Patrem et Filium diligere se Spiritu sancto,
+          <lb ed="#P" n="37"/>docent etiam Patrem, et Filium diligere se, et
+          <lb ed="#P" n="38"/>Spiritum sanctum Spiritu sancto, signatimque
+          <lb ed="#P" n="39"/>Bernardus, sermone tertio Pentecostes, dixit:
+          <lb ed="#P" n="40"/>Spiritum sanctum procedere tanquam 
+          firmis<lb break="no" ed="#P" n="41"/>simum vinculum Trinitatis. Ratio sumi potest
+          <lb ed="#P" n="42"/>ex adaequatione illius amoris cum divina 
+          na<lb break="no" ed="#P" n="43"/>tura : dici enim potest suo modo 
+          comprehen<lb break="no" ed="#P" n="44"/>sivus, non est autem hujusmodi, nisi Pater et
+          <lb ed="#P" n="45"/>Filius per illum amarent omnem 
+          perfectio<lb break="no" ed="#P" n="46"/>nem illius naturae. Una autem perfectio illius
+          <lb ed="#P" n="47"/>naturae est, esse in tribus suppositis, non 
+          po<lb break="no" ed="#P" n="48"/>test autem hoc modo amari, nisi amentur 
+          e<lb break="no" ed="#P" n="49"/>tiam ipsa supposita, habet ergo illa dilectio
+          <lb ed="#P" n="50"/>hac ratione intrinsecam connexionem cum 
+          per<lb break="no" ed="#P" n="51"/>sona Spiritus sancti, ita ut non possit per 
+          il<lb break="no" ed="#P" n="52"/>lam diligi perfecte Divinitas, nisi etiam 
+          dili<lb break="no" ed="#P" n="53"/>gatur Spiritus sanctus. At Pater et Filius 
+          pro<lb break="no" ed="#P" n="54"/>ducunt Spiritum sanctum diligendo 
+          perfectis<lb break="no" ed="#P" n="55"/>sime et omnino adaequate suam divinitatem:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ergo et diligendo Spiritum sanctum. Aliam
+          <lb ed="#P" n="57"/>rationem statim subjiciam.
+        </p>
+        <p xml:id="szduep-196011-d1e455">
+          <lb ed="#P" n="58"/>5. Quarta assertio. — Dico quarto : Patrem
+          <lb ed="#P" n="59"/>et Filium producere Spiritum sanctum 
+          dili<lb break="no" ed="#P" n="60"/>gendo etiam suam spirationem activam. 
+          Pro<lb break="no" ed="#P" n="61"/>batur ex praecedenti assertione, cum principio
+          <lb ed="#P" n="62"/>supra posito, quod relativa sunt simul 
+          dilec<lb break="no" ed="#P" n="63"/>tione : si ergo Pater et Filius producunt Spiri
+          <lb ed="#P" n="64"/>tum sanctum diligendo ipsum, etiam 
+          produ<lb break="no" ed="#P" n="65"/>cunt illum diligendo se ipsos, ut spirantes
+          <lb ed="#P" n="66"/>ipsum, atque adeo ut habentes ad ipsum 
+          rea<lb break="no" ed="#P" n="67"/>lem respectum. Secundo hoc pertinet ad 
+          per<lb break="no" ed="#P" n="68"/>fectam dilectionem, quia ipsa, se ipsos diligunt.
+          <lb ed="#P" n="69"/>Tertio pertinet ad perfectum vinculum et 
+          con<lb break="no" ed="#P" n="70"/>nexionem divinarum personarum. Quarto 
+          per<lb break="no" ed="#P" n="71"/>üunet ad comprehensivum, seu totalem 
+          amo<lb break="no" ed="#P" n="72"/>rem divinitatis, non enim totaliter amaretur,
+          <lb ed="#P" n="73"/>nisi omnia, quae in ipsa formaliter sunt, simul
+          <lb ed="#P" n="74"/>amarentur. At Pater et Filius producunt 
+          Spi<lb break="no" ed="#P" n="75"/>ritum sanctum ex amore perfectissimo 
+          divini<lb break="no" ed="#P" n="76"/>tatis, ergo et ex amore relationum omnium
+          <lb ed="#P" n="77"/>realium, quae in ipsa sunt.
+        </p>
+        <p xml:id="szduep-196011-d1e501">
+          <lb ed="#P" n="78"/>6. Objectio.— Prima responsio. — Rejicitur.
+          <lb ed="#P" n="79"/>— Vera solutio. — Hic vero occurrit iterum
+          <lb ed="#P" n="80"/>objectio in superioribus tacta, quomodo possit
+          <lb ed="#P" n="81"/>Spiritus sanctus, vel spiratio amari per 
+          eam<lb break="no" ed="#P" n="82"/>dem dilectionem, qua producitur, quia esse
+          <lb ed="#P" n="83"/>supponitur ad amari, et Spiritus sanctus non
+          <lb ed="#P" n="84"/>intelligitur esse, nisi postquam jam est 
+          pro<lb break="no" ed="#P" n="85"/>ductus. Propter hoc fortasse aliquis cogitet,
+          <lb ed="#P" n="86"/>amorem illum notionalem erga Spiritum 
+          sanc<lb break="no" ed="#P" n="87"/>tum non esse per modum complacentiae in
+          <lb ed="#P" n="88"/>bono praesenti, et jam existenti, sed per 
+          mo<lb break="no" ed="#P" n="89"/>dum complacentiae in bono praesenti et jam
+          <lb ed="#P" n="90"/>existenti, sed per modum desideri futuri
+          <lb ed="#P" n="91"/>boni, quia licet haec non possint attribui
+          <lb ed="#P" n="92"/>Deo secundum ordinem durationis, 
+          secun<lb break="no" ed="#P" n="93"/>dum ordinem originis non videntur posse
+          <lb ed="#P" n="94"/>negari, quia in eo signo praeciso, in quo Pater
+          <lb ed="#P" n="95"/>Filium producit, nondum intelligitur 
+          Spiri<lb break="no" ed="#P" n="96"/>tus sanctus existens, ergo debet concipi, ut
+          <lb ed="#P" n="97"/>futurus in alio signo originis, ergo non 
+          po<lb break="no" ed="#P" n="98"/>test pro eo signo diligi, ut jam existens,
+          <lb ed="#P" n="99"/>sed ut futurus. At haec cogitatio aliena est a
+          <lb ed="#P" n="100"/>divina perfectione, quia rei omnino 
+          necessa<lb break="no" ed="#P" n="101"/>rise, et ab intrinseco, repugnat futuritio, 
+          quo<lb break="no" ed="#P" n="102"/>cumque modo cogitetur, quia si talis res vere
+          <lb ed="#P" n="103"/>cogitatur, ut ens actu per essentiam cogitar
+          <lb ed="#P" n="104"/>debet, et ordo originis non debet concipi per
+          <lb ed="#P" n="105"/>signa, in quorum uno persona sit tantum 
+          fu<lb break="no" ed="#P" n="106"/>tura, et in alio jam existat, quia non est 
+          prio<lb break="no" ed="#P" n="107"/>ritas in quo, sed a quo. Dico ergo amorem 
+          il<lb break="no" ed="#P" n="108"/>Ium non esse per modum desiderii, aut 
+          volun<lb break="no" ed="#P" n="109"/>tatis futuri boni, sed per modum 
+          complacen<lb break="no" ed="#P" n="110"/>tiae, et benevolentiae boni praesentis in re, licet
+          <pb ed="#P" n="778"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>per ipsammet dilectionem accipiat esse, quo
+          <lb ed="#P" n="2"/>praesens constituitur. Cujus rei vestigium in
+          <lb ed="#P" n="3"/>nostro amore habemus, nam producendo 
+          il<lb break="no" ed="#P" n="4"/>lum, amamus non solum objectum, sed etiam
+          <lb ed="#P" n="5"/>amorem ipsum, qui nobis per se ipsum 
+          volun<lb break="no" ed="#P" n="6"/>tarius est, ut supra dicebamus. Quamvis hie
+          <lb ed="#P" n="7"/>modus amandi amorem in nobis non sit tam
+          <lb ed="#P" n="8"/>expressus, et formalis (ut sic dicam) quam est
+          <lb ed="#P" n="9"/>amor Patris, et Filii ad Spiritum sanctum, quo
+          <lb ed="#P" n="10"/>illum producunt, quia est longe perfectior, et
+          <lb ed="#P" n="11"/>immaterialior, et ex cognitione clariori 
+          pro<lb break="no" ed="#P" n="12"/>cedit.
+        </p>
+        <p xml:id="szduep-196011-d1e605">
+          <lb ed="#P" n="13"/>7. Quinta assertio. — Ultimo dicendum est,
+          <lb ed="#P" n="14"/>Spiritum sanctum non procedere ex amore
+          <lb ed="#P" n="15"/>creaturarum in se ipsis, sed tantum secundum
+          <lb ed="#P" n="16"/>eminentiam, quam habent in Deo. Declaratur,
+          <lb ed="#P" n="17"/>nam tribus modis possunt a nobis concipi
+          <lb ed="#P" n="18"/>creaturae, ut existentes in mente Dei ex 
+          aeter<lb break="no" ed="#P" n="19"/>nitate. Primo, ut sunt aliquo modo in Deo
+          <lb ed="#P" n="20"/>ipso secundum existentiam realem, actualem,
+          <lb ed="#P" n="21"/>et aeternam, et hoc modo non sunt aliud, quam
+          <lb ed="#P" n="22"/>ipsa creatrix essentia, quatenus eminenter
+          <lb ed="#P" n="23"/>continet creaturas. Secundo modo 
+          consideran<lb break="no" ed="#P" n="24"/>tur creaturae, ut sunt ex se possibiles, quia 
+          in<lb break="no" ed="#P" n="25"/>telliguntur esse tales essentiae; quibus non
+          <lb ed="#P" n="26"/>repugnat, habere existentiam. Tertio 
+          conside<lb break="no" ed="#P" n="27"/>rantur ut futurae in aliqua differentia temporis
+          <lb ed="#P" n="28"/>secundum existentiam realem, quam habent
+          <lb ed="#P" n="29"/>objective praesentem in mente Dei. Si 
+          loqua<lb break="no" ed="#P" n="30"/>mur de illis primo modo consideraüs, nullum
+          <lb ed="#P" n="31"/>est dubium, quin Spiritus sanctus procedat ex
+          <lb ed="#P" n="32"/>amore creaturarum, ut habentium tale esse.
+          <lb ed="#P" n="33"/>Quia hoc modo Deum amare creaturas, non
+          <lb ed="#P" n="34"/>est aliud, quam amare se, et essentiam suam,
+          <lb ed="#P" n="35"/>quia creaturae, ut sic spectatae non habent esse
+          <lb ed="#P" n="36"/>creatum, sed increatum: et amare creaturas
+          <lb ed="#P" n="37"/>sic consideratas non est aliud, quam amare
+          <lb ed="#P" n="38"/>eminentias creaturarum, vel rationes earum,
+          <lb ed="#P" n="39"/>quae sunt in essentia, et mente Dei. Haec autem
+          <lb ed="#P" n="40"/>omnia necessario amat Deus diligendo se, et
+          <lb ed="#P" n="41"/>consequenter etiam Pater, et Filius, cum 
+          pro<lb break="no" ed="#P" n="42"/>ducunt Spiritum sanctum.
+        </p>
+        <p xml:id="szduep-196011-d1e673">
+          <lb ed="#P" n="43"/>8. Spiritus sanctus non procedit ex amore
+          <lb ed="#P" n="44"/>creaturarun ecistentium.—be creaturis autem
+          <lb ed="#P" n="45"/>tertio modo spectatis, quidquid aliqui 
+          moder<lb break="no" ed="#P" n="46"/>ni contendant, dicimus, Spiritum sanctum non
+          <lb ed="#P" n="47"/>procedere ex amore creaturarum. Quae fuit
+          <lb ed="#P" n="48"/>sententia Scoti, in primo, distinctione 31, quam
+          <lb ed="#P" n="49"/>Cajetanus, prima parte, quaestione 34, articulo
+          <lb ed="#P" n="50"/>tertio, et ibi al communiter sequuntur. 
+          De<lb break="no" ed="#P" n="51"/>claraturque in hunc modum, quia non 
+          intelli<lb break="no" ed="#P" n="52"/>gitur Deus amare hoc modo creaturas, donec
+          <lb ed="#P" n="53"/>actus amoris Dei necessarius terminatus sit 
+          li<lb break="no" ed="#P" n="54"/>bere ad amandam creaturam aliquam, sed non
+          <lb ed="#P" n="55"/>habet ille actus talem terminationem liberam,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>donec actu sit in tribus personis, ergo non 
+          po<lb break="no" ed="#P" n="57"/>test processio tertiae personae esse ex tali amore
+          <lb ed="#P" n="58"/>Dei, ut sic jam terminato ad creaturas, ergo
+          <lb ed="#P" n="59"/>non potest esse ex amore creaturarum, ut 
+          fu<lb break="no" ed="#P" n="60"/>turarum, seu secundum reales, et actuales
+          <lb ed="#P" n="61"/>existentias earum. Major evidens est, quia nec
+          <lb ed="#P" n="62"/>potest aliter distingui amor Dei erga creaturas
+          <lb ed="#P" n="63"/>futuras ab amore earumdem, ut tantum 
+          pos<lb break="no" ed="#P" n="64"/>sibiles sunt: neque etiam amor Dei erga 
+          crea<lb break="no" ed="#P" n="65"/>turas in se, et ad extra existentes potest in
+          <lb ed="#P" n="66"/>alio consistere, cum non addat Deo realitatem
+          <lb ed="#P" n="67"/>aliquam. Minor probatur, tum quia 
+          termina<lb break="no" ed="#P" n="68"/>tio illa est libera, et naturalia in Trinitate sunt
+          <lb ed="#P" n="69"/>priora liberis, tum etiam quia illa libera 
+          ter<lb break="no" ed="#P" n="70"/>minatio eo modo, quo est, est communis 
+          Spi<lb break="no" ed="#P" n="71"/>ritui sancto cum aliis personis, nam sicut 
+          ope<lb break="no" ed="#P" n="72"/>ra ad extra sunt indivisa, ita et libera decreta,
+          <lb ed="#P" n="73"/>ut supra dictum est. Consequentiae vero sunt
+          <lb ed="#P" n="74"/>evidentes, quia non supponit terminum 
+          ori<lb break="no" ed="#P" n="75"/>ginis, et est ab illo eo modo, quo esse potest,
+          <lb ed="#P" n="76"/>non potest esse ipsamet origo, vel quasi 
+          prin<lb break="no" ed="#P" n="77"/>cipium ejus. Et confirmatur ratione supra
+          <lb ed="#P" n="78"/>facta de Filio. Quia Pater, et Filius omnino
+          <lb ed="#P" n="79"/>necessario producunt Spiritum sanctum, ergo
+          <lb ed="#P" n="80"/>non producunt, nisi ex amore illarum rerum,
+          <lb ed="#P" n="81"/>quas necessario amant: at creaturas illo modo
+          <lb ed="#P" n="82"/>perfectas non necessario amant, ergo non 
+          pro<lb break="no" ed="#P" n="83"/>ducunt ex illo amore Spiritum sanctum. 
+          Res<lb break="no" ed="#P" n="84"/>pondent aliqui, satis esse, quod eodem actu,
+          <lb ed="#P" n="85"/>quo libere amant creaturas, producant 
+          Spiri<lb break="no" ed="#P" n="86"/>tum sanctum. Sed hoc non est ad rem, quia
+          <lb ed="#P" n="87"/>sic quasi materialiter tantum sumitur ille
+          <lb ed="#P" n="88"/>amor, et nullus dubitat, quin illomet actu 
+          a<lb break="no" ed="#P" n="89"/>moris, quo necessario producunt Spiritum
+          <lb ed="#P" n="90"/>sanctum nulla reali additione ibi facta, 
+          dili<lb break="no" ed="#P" n="91"/>gantur creaturae liberae: sed quod inquirimus,
+          <lb ed="#P" n="92"/>est, an ille actus intelligatur terminari ad
+          <lb ed="#P" n="93"/>creaturas futuras, cum Pater, et Filius per
+          <lb ed="#P" n="94"/>illum producunt Spiritum sanctum, et sic 
+          con<lb break="no" ed="#P" n="95"/>vincit ratio factá, non posse Spiritum sanctum
+          <lb ed="#P" n="96"/>produci per illum, ut sic terminatum, cum
+          <lb ed="#P" n="97"/>terminatio illa libera sit.
+        </p>
+        <p xml:id="szduep-196011-d1e798">
+          <lb ed="#P" n="98"/>9. An sit Spiritus sanclus ex amore rerum
+          <lb ed="#P" n="99"/>possibilium.—be creaturis autem tertio modo
+          <lb ed="#P" n="100"/>consideratis est nonnulla controversia, quia
+          <lb ed="#P" n="101"/>divus Thomas, quaest. 31, art. 2, ad 3, 
+          aequi<lb break="no" ed="#P" n="102"/>parat Verbum, et Spiritum sanctum in hoc,
+          <lb ed="#P" n="103"/>quod procedunt, cum respectu rationis ad
+          <lb ed="#P" n="104"/>creaturas, ergo oportet intelligi de creaturis
+          <lb ed="#P" n="105"/>possibilibus, saltem illo secundo modo 
+          spec<lb break="no" ed="#P" n="106"/>tatis, nam ad creaturas, ut futuras non habet
+          <lb ed="#P" n="107"/>Spiritus sanctus respectum necessarium. Unde
+          <lb ed="#P" n="108"/>Cajetanus, quaest. 34, art. 3, ad 1, Scoti, quoad
+          <lb ed="#P" n="109"/>hoc dicit esse eamdem rationem de amore
+          <lb ed="#P" n="110"/>creaturarum, et de cognitione necessaria illa-
+          <pb ed="#P" n="779"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rum in Deo. Ratione potest probari, quia 
+          si<lb break="no" ed="#P" n="2"/>cut Pater necessario intelligit creaturas, ut
+          <lb ed="#P" n="3"/>possibiles comprehendendo suam essentiam,
+          <lb ed="#P" n="4"/>ita Pater, et Filius necessario diligunt 
+          creatu<lb break="no" ed="#P" n="5"/>ras, ut possibiles diligendo se, quia diligunt
+          <lb ed="#P" n="6"/>omnipotentiam suam quae sine creaturis in
+          <lb ed="#P" n="7"/>esse possibili esse non potest. Praeterea Deus
+          <lb ed="#P" n="8"/>cognoscendo se, et creaturas possibiles 
+          neces<lb break="no" ed="#P" n="9"/>sario complacet in illis, ergo ex illo amore
+          <lb ed="#P" n="10"/>complacentiae creaturarum producitur Spiritus
+          <lb ed="#P" n="11"/>sanctus. In contrarium vero est, quia Deus 
+          ni<lb break="no" ed="#P" n="12"/>hil extra se amat necessario, quod secus est de
+          <lb ed="#P" n="13"/>cognitione, quia per scientiam trahitur res ad
+          <lb ed="#P" n="14"/>scientem, et cognoscitur, prout in illo est,
+          <lb ed="#P" n="15"/>amor vero fertur ad rem amatam in se, Deus
+          <lb ed="#P" n="16"/>autem non fertur ex necessitate ad aliquid
+          <lb ed="#P" n="17"/>extra se. Item divus Thomas, 1 part., quaest.
+          <lb ed="#P" n="18"/>20, art. 2, plane sentit, Deum non amare, nisi
+          <lb ed="#P" n="19"/>existentia, quia amor Dei dat esse, et ita 
+          in<lb break="no" ed="#P" n="20"/>fundit bonitatem in rebus, quia sine esse nulla
+          <lb ed="#P" n="21"/>est bonitas, ut ipsemet divus Thomas docet, 1
+          <lb ed="#P" n="22"/>part., quaest. 6, art. 3. Unde quaest. 14, art. 9,
+          <lb ed="#P" n="23"/>ad 3, hanc differentiam videtur constituere
+          <lb ed="#P" n="24"/>inter voluntatem, et scientiam Dei quod 
+          scien<lb break="no" ed="#P" n="25"/>tia non est tantum de rebus futuris, sed etiam
+          <lb ed="#P" n="26"/>de possibilibus: voluntas vero, quia est 
+          proxi<lb break="no" ed="#P" n="27"/>mior causa rerum, non est proprie, nisi de his
+          <lb ed="#P" n="28"/>quae aliquando futurae sunt. Ergo sentit, circa
+          <lb ed="#P" n="29"/>res possibiles non dari in Deo voluntatis actum
+          <lb ed="#P" n="30"/>necessarium. Ratio autem est, quia amare est
+          <lb ed="#P" n="31"/>velle alicui bonum, Deus autem nullum bonum
+          <lb ed="#P" n="32"/>vult creaturis possibilibus, ut sic, ergo.
+        </p>
+        <p xml:id="szduep-196011-d1e902">
+          <lb ed="#P" n="33"/>10. Haec controversia (ut in Metaphysica
+          <lb ed="#P" n="34"/>tetigi) est fortasse de modo loquendi et 
+          prae<lb break="no" ed="#P" n="35"/>senti instituto non multum refert, quia satis
+          <lb ed="#P" n="36"/>est dicere, Patrem et Filium non producere
+          <lb ed="#P" n="37"/>Spiritum sanctum per amorem liberum, si
+          <lb ed="#P" n="38"/>autem aliquem habeat necessarium circa 
+          crea<lb break="no" ed="#P" n="39"/>turas, ex illo etiam producere. Mihi vero nunc
+          <lb ed="#P" n="40"/>placet, constituendam esse in hoc aliquam 
+          dit<lb break="no" ed="#P" n="41"/>ferentiam inter scientiam et voluntatem. Quia
+          <lb ed="#P" n="42"/>per scientiam revera repraesentantur creaturae
+          <lb ed="#P" n="43"/>secundum suas proprias essentias et naturas,
+          <lb ed="#P" n="44"/>quatenus concipiuntur distinctae essentialiter
+          <lb ed="#P" n="45"/>ab essentia creatoris et ut sic, terminant 
+          ob<lb break="no" ed="#P" n="46"/>jective ipsam scientiam simplicis intelligentiae
+          <lb ed="#P" n="47"/>Dei, et ex tali scientia ut sic terminata 
+          intelli<lb break="no" ed="#P" n="48"/>gitur procedere Verbum divinum, quod etiam
+          <lb ed="#P" n="49"/>necessario repraesentat omnes creaturas 
+          possi<lb break="no" ed="#P" n="50"/>biles, etiam ut condistinctas essentialiter a
+          <lb ed="#P" n="51"/>Deo, et in hoc sensu in se ipsis. Amor vero,
+          <lb ed="#P" n="52"/>quo Deus necessario se amat, non ita 
+          termina<lb break="no" ed="#P" n="53"/>tur ad creaturas secundum se, sed solum ut
+          <lb ed="#P" n="54"/>sunt in Deo, et ut denominantur possibiles ab
+          <lb ed="#P" n="55"/>omnipotentia Dei, quod totum vere non est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>aliud, quam amare id, quod est in Deo. Et
+          <lb ed="#P" n="57"/>ideo theologi, licet distinguant scientiam Dei
+          <lb ed="#P" n="58"/>de creaturis, in scientiam simplicis 
+          intelligen<lb break="no" ed="#P" n="59"/>tiae et visionis, amorem creaturarum nunquam
+          <lb ed="#P" n="60"/>proportionali modo distinxerunt. Hac ergo 
+          ra<lb break="no" ed="#P" n="61"/>tione dixi, Spiritum sanctum non procedere ex
+          <lb ed="#P" n="62"/>amore creaturarum in se ipsis, sed tantum 
+          se<lb break="no" ed="#P" n="63"/>cundum esse, quod habent in Deo. Quid autem
+          <lb ed="#P" n="64"/>voluerit divus Thomas in citato loco, quaestione
+          <lb ed="#P" n="65"/>trigesima septima, dicemus in fine sequentis
+          <lb ed="#P" n="66"/>capitis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

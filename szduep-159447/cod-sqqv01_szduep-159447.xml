@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="630"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-159447"><!-- t3-l4c6 -->
+        <head xml:id="szduep-159447-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-159447-Hd1e103" type="question-title">Satisfit fundamentis contrariae sententiae et eorum occasione nonnulla dubia expediuntur</head>
+        <p xml:id="szduep-159447-d1e106">
+          <lb ed="#P" n="70"/>CAPUT VI.
+          <lb ed="#P" n="71"/>SATISFIT FUNDAMENTIS CONTRARIAE SENTENTIAE ET
+          <lb ed="#P" n="72"/>EORUM OCCASIONE NONNULLA DUBIA 
+          EXPEDIUN<lb break="no" ed="#P" n="73"/>TUR.
+        </p>
+        <p xml:id="szduep-159447-d1e117">
+          <lb ed="#P" n="74"/>1. Fundamentum contrariae sententiae fere
+          <lb ed="#P" n="75"/>solutum jam est. Sumebatur enim ex 
+          identi<lb break="no" ed="#P" n="76"/>tate relationum, ac personarum cum essentia,
+          <lb ed="#P" n="77"/>inferendo ex illa mutuam inclusionem 
+          essen<lb break="no" ed="#P" n="78"/>tialem. Quae illatio necessaria non est, ut ex
+          <lb ed="#P" n="79"/>creaturis etiam intelligi potest, juxta 
+          recep<lb break="no" ed="#P" n="80"/>tum loquendi, et sentiendi modum. 
+          Humani<lb break="no" ed="#P" n="81"/>tas enim, ut sic, non distinguitur in re ab hac
+          <lb ed="#P" n="82"/>humanitate, nec species ab individuo et 
+          nihil<lb break="no" ed="#P" n="83"/>ominus differentia individualis non est de 
+          es<lb break="no" ed="#P" n="84"/>sentia humanitatis, seu speciei. Quo exemplo
+          <lb ed="#P" n="85"/>utuntur sancti, maxime Graeci ad hoc 
+          mys<lb break="no" ed="#P" n="86"/>terium explicandum. Dicunt enim illud esse
+          <lb ed="#P" n="87"/>essentiale, quod est commune, quod vero est
+          <lb ed="#P" n="88"/>particulare, non esse essentiale, comparant
+          <lb ed="#P" n="89"/>autem proprietates relativas differentiis 
+          in<lb break="no" ed="#P" n="90"/>dividuantibus. Maxime autem hoc potest
+          <lb ed="#P" n="91"/>habere locum in Deo, propter infinitatem
+          <lb ed="#P" n="92"/>divina naturae: sicut ab infinitate habet
+          <lb ed="#P" n="93"/>illa natura, ut sic realiter communis tribus
+          <lb ed="#P" n="94"/>relationibus: Ita etiam habet, quod in illis
+          <lb ed="#P" n="95"/>intime includatur: Quia tamen secundum
+          <lb ed="#P" n="96"/>se est simpliciter infinita, quod formaliter
+          <lb ed="#P" n="97"/>non habet a relationibus: ideo secundum
+          <lb ed="#P" n="98"/>se est perfecta et completa essentia absque
+          <lb ed="#P" n="99"/>formalitate relationum, solumque illas 
+          requi<lb break="no" ed="#P" n="100"/>rit ad particularem modum subsistenti. Ita
+          <lb ed="#P" n="101"/>ergo potest esse identitas in re, sine 
+          inclu<lb break="no" ed="#P" n="102"/>sione essentiali mutua. Neque in hoc est 
+          ea<lb break="no" ed="#P" n="103"/>dem ratio de absolutis attributis et 
+          relationi<lb break="no" ed="#P" n="104"/>bus: nam attributa sunt ibidem adaequate,
+          <lb ed="#P" n="105"/>et convertibiliter cum essentia: relationes 
+          ina<lb break="no" ed="#P" n="106"/>daequate. Item, attributa dicunt perfectionem
+          <lb ed="#P" n="107"/>formaliter necessariam ad summam perfectio-
+          <pb ed="#P" n="631"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem intensivam entis: non sic autem 
+          rela<lb break="no" ed="#P" n="2"/>tiones. Propter quod ego existimo attributa ita
+          <lb ed="#P" n="3"/>comparari ad essentiam, ut et sint de conceptu
+          <lb ed="#P" n="4"/>essentiali ejus, et ipsam etiam essentialiter
+          <lb ed="#P" n="5"/>includant, non esse autem idem de 
+          relationi<lb break="no" ed="#P" n="6"/>bus.
+        </p>
+        <p xml:id="szduep-159447-d1e211">
+          <lb ed="#P" n="7"/>2. Deus est Pater qualiter praedicatio sit.—
+          <lb ed="#P" n="8"/>In confirmatione prima illius opinionis petitur
+          <lb ed="#P" n="9"/>dubium. Qualis praedicatio sit haec. Deus est
+          <lb ed="#P" n="10"/>Pater. Quod tractant D. Thomas, 1 part.,
+          <lb ed="#P" n="11"/>quaest. 39, art. 5 et 6, et Boetius, et 
+          Augusti<lb break="no" ed="#P" n="12"/>nus, citatis locis. Et quidem immprimis nullus
+          <lb ed="#P" n="13"/>catholicus dubitat, quin vera sit. Deinde 
+          cer<lb break="no" ed="#P" n="14"/>tum est, non esse praedicationem accidentalem
+          <lb ed="#P" n="15"/>quoad rem, quae praedicatur, quia est vera
+          <lb ed="#P" n="16"/>substantia, seu substantialis modus, ut 
+          loqui<lb break="no" ed="#P" n="17"/>tur Cajetanus, 1 part.. quaest. 30, art. 4. Quoad
+          <lb ed="#P" n="18"/>modum vero praedicationis, aliqui vocant illam
+          <lb ed="#P" n="19"/>accidentalem, quia est veluti inferioris de 
+          su<lb break="no" ed="#P" n="20"/>periori. D. Thomas, autem hoc non admittit,
+          <lb ed="#P" n="21"/>quia in DEO, inquit, non est superius et 
+          infe<lb break="no" ed="#P" n="22"/>rius : sed id, quod videtur esse commune, 
+          sin<lb break="no" ed="#P" n="23"/>gulare est et ejus communitas est realis: Id
+          <lb ed="#P" n="24"/>autem, quod videtur esse inferius, esse 
+          proprie<lb break="no" ed="#P" n="25"/>tas intrinseca, quamvis inadequata illius rei
+          <lb ed="#P" n="26"/>communis. Dicit ergo D. Thomas 
+          Propositio<lb break="no" ed="#P" n="27"/>nem illa esse per se. Quod Cajetanus et 
+          Tho<lb break="no" ed="#P" n="28"/>mistae, cum addito exponunt, esse per 
+          identi<lb break="no" ed="#P" n="29"/>ce et insinuat D. Thomas dicens esse per 
+          iden<lb break="no" ed="#P" n="30"/>Litatem. Haec autem responsio erit absolute
+          <lb ed="#P" n="31"/>vera, si in subjecto non DEUS in concreto,
+          <lb ed="#P" n="32"/>sed Deitas in abstracto ponatur, scilicet, 
+          Dei<lb break="no" ed="#P" n="33"/>tas est Pater. Quia (ut D. Thomas dixit in art.
+          <lb ed="#P" n="34"/>5), Deitas ex modo significandi non supponit
+          <lb ed="#P" n="35"/>pro persona, et ideo ex vi formals 
+          praedicatio<lb break="no" ed="#P" n="36"/>nis non praedicantur de se, sed solum propter
+          <lb ed="#P" n="37"/>summam identitatem. At vero Deus in 
+          con<lb break="no" ed="#P" n="38"/>creto per se habet posse supponere pro 
+          perso<lb break="no" ed="#P" n="39"/>na, quia significat Deitatem, ut in habente.
+          <lb ed="#P" n="40"/>Unde, quia Pater habet Deitatem formaliter et
+          <lb ed="#P" n="41"/>ex vi enuntiationis, potest praedicari de Deo.
+          <lb ed="#P" n="42"/>Non tamen praedicatur per se in primo modo
+          <lb ed="#P" n="43"/>ab Aristotele posito, quia praedicatum non est
+          <lb ed="#P" n="44"/>de essentia subjecti: potest autem dici 
+          praedi<lb break="no" ed="#P" n="45"/>cari per se in secundo modo, quia subjectum
+          <lb ed="#P" n="46"/>de essentia praedicati, ut infra ostendam et
+          <lb ed="#P" n="47"/>quia proprietas illa, quam formaliter 
+          signifi<lb break="no" ed="#P" n="48"/>cat Pater, est per se et necessario conjuncta
+          <lb ed="#P" n="49"/>cum Deitate, ut ex vi foecunditatis et 
+          pertec<lb break="no" ed="#P" n="50"/>tionis ejus.
+        </p>
+        <p xml:id="szduep-159447-d1e310">
+          <lb ed="#P" n="51"/>3. Deus est Trinitas qualis.—Dbe altera vero
+          <lb ed="#P" n="52"/>propositione DEUS est Trinitas. Gilbertus,
+          <lb ed="#P" n="53"/>(ut D. Thomas, dicto art. 6, ad primam refert)
+          <lb ed="#P" n="54"/>negabat illam esse veram, quia Deus solum
+          <lb ed="#P" n="55"/>personaliter ei quasi divisim supp omit pro per-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sonis : nulla autem personarum est Trinitas.
+          <lb ed="#P" n="57"/>Sed certum, ac de fide censeo, illam 
+          proposi<lb break="no" ed="#P" n="58"/>tionem esse veram. Tum, quia haec est vera,
+          <lb ed="#P" n="59"/>Trinitas est DEUS : ergo et altera est vera
+          <lb ed="#P" n="60"/>per simplicem conversionem. Tum etiam, quia
+          <lb ed="#P" n="61"/>Deus non tantum est Pater, vel Filius et 
+          Spi<lb break="no" ed="#P" n="62"/>ritus sanctus sigillatim, ac divisim, sed ctiam
+          <lb ed="#P" n="63"/>simul et conjunctim. Et oppositum 
+          fundamen<lb break="no" ed="#P" n="64"/>tum nullius momenti est, quia Deus, vel potest
+          <lb ed="#P" n="65"/>ibi supponere pro hoc Deo communiter 
+          subsis<lb break="no" ed="#P" n="66"/>tente, ut infra dicemus, vel collective pro 
+          tri<lb break="no" ed="#P" n="67"/>bus personis, juxta exigentiam praedicari. De
+          <lb ed="#P" n="68"/>qualitate autem illius propositionis idem 
+          dicen<lb break="no" ed="#P" n="69"/>dum est, quod de praecedenti: est enim per se
+          <lb ed="#P" n="70"/>secundo modo propter easdem rationes. Quod
+          <lb ed="#P" n="71"/>significant Cajetanus, dicto art. 4, et Scotus
+          <lb ed="#P" n="72"/>1, distnct. 23, quaet. 1, quatenus asserunt, in
+          <lb ed="#P" n="73"/>Trinitate nihil de Deo communiter dici, nec de
+          <lb ed="#P" n="74"/>omnibus personis (extra Deitatem) nisi ad 
+          mo<lb break="no" ed="#P" n="75"/>dum proprii. Dices, ergo etiam haec locutio
+          <lb ed="#P" n="76"/>erit vera, DEUS, in quautun Deus, est 
+          Tri<lb break="no" ed="#P" n="77"/>nitas. Respondeo, habere posse verum sensum,
+          <lb ed="#P" n="78"/>si dictio illa, 7n quantum, non designet, vel
+          <lb ed="#P" n="79"/>reduplicet immediatam rationem formalem,
+          <lb ed="#P" n="80"/>per quam convenit praedicatum, sed quasi 
+          ra<lb break="no" ed="#P" n="81"/>dicelem nostro modo concipiendi : sicut haec
+          <lb ed="#P" n="82"/>est vera, homo, in quantum homo, est visibilis.
+          <lb ed="#P" n="83"/>At si reduplicet rationem formalem, non erit
+          <lb ed="#P" n="84"/>vera, quia Trinitas non est de formali et 
+          essen<lb break="no" ed="#P" n="85"/>tiali conceptu Dei, alioqui quaelibet persona
+          <lb ed="#P" n="86"/>esset Trinitas, quia quaelibet est verus Deus.
+        </p>
+        <p xml:id="szduep-159447-d1e393">
+          <lb ed="#P" n="87"/>4. An Paternitas sit essentialis Patri.—
+          <lb ed="#P" n="88"/>In altera confirmatione petitur aliud dubium,
+          <lb ed="#P" n="89"/>an Paternitas sit de essentia Patris et 
+          conse<lb break="no" ed="#P" n="90"/>quenter, an haec sit essentialis et per se primo,
+          <lb ed="#P" n="91"/>Pater est Pater, vel Pater est persona divina.
+          <lb ed="#P" n="92"/>Respondeo ad priorem partem, aliud esse 
+          lo<lb break="no" ed="#P" n="93"/>qui de essentia Patris simpliciter, aliud de
+          <lb ed="#P" n="94"/>quidditate, seu ratione formali ejus, quatenus
+          <lb ed="#P" n="95"/>Pater est. Priori modo, paternitas non est de
+          <lb ed="#P" n="96"/>essentia Patris, tam secundum principia 
+          phi<lb break="no" ed="#P" n="97"/>losophiae et Metaphysicae, quam secundum 
+          ve<lb break="no" ed="#P" n="98"/>ram theologiam. Essentia enim personae, vel
+          <lb ed="#P" n="99"/>suppositi substantialis est illa natura, quae est
+          <lb ed="#P" n="100"/>principium operationum : nam ab illa habet
+          <lb ed="#P" n="101"/>res suum esse simpliciter, personalitas autem
+          <lb ed="#P" n="102"/>non est essentia, sed modus essentiae. At vero
+          <lb ed="#P" n="103"/>Pater dicit substantiale suppositum et 
+          Pater<lb break="no" ed="#P" n="104"/>nitas non est natura ejus, nec principium 
+          ope<lb break="no" ed="#P" n="105"/>rationum, sed modus substantialis ejus: non
+          <lb ed="#P" n="106"/>est ergo essentia ejus. Quod recte confirmat
+          <lb ed="#P" n="107"/>theologicum argumentum tactum, quia eadem
+          <lb ed="#P" n="108"/>est essentia trium personarum.
+        </p>
+        <p xml:id="szduep-159447-d1e443">
+          <lb ed="#P" n="109"/>5. Quomodo esse Patrem dicatur de prima
+          <lb ed="#P" n="110"/>perscua.—nde de illa propositione, 4uc per-
+          <pb ed="#P" n="632"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sona, est Pater, seu est divina persona, 
+          qui<lb break="no" ed="#P" n="2"/>dam dicunt esse accidentalem, sicut haec 
+          Pe<lb break="no" ed="#P" n="3"/>trus est individuum . sed hoc non recte dicitur,
+          <lb ed="#P" n="4"/>etiam secundum modum praedicationis, ut ex
+          <lb ed="#P" n="5"/>dictis constat et ex ipso etiam exemplo. Nam
+          <lb ed="#P" n="6"/>loquendo de individuo secundum rem et non
+          <lb ed="#P" n="7"/>secundum rationem, intrinsece convenit Petro
+          <lb ed="#P" n="8"/>et non accidentaliter esse tale individuum.
+          <lb ed="#P" n="9"/>Cajetanus ergo, dicta quaest. 30, art. 4, sentit,
+          <lb ed="#P" n="10"/>illam propositionem esse per se primo et 
+          es<lb break="no" ed="#P" n="11"/>sentialem : Quia licet Paternitas non sit de
+          <lb ed="#P" n="12"/>essentia Patris absolute sumpti, est tamen de
+          <lb ed="#P" n="13"/>essentia Patris, ut Pater est. Quod maxime 
+          vi<lb break="no" ed="#P" n="14"/>detur confirmari: quia Pater dicit totum id,
+          <lb ed="#P" n="15"/>quod est in prima persona: ergo dicit 
+          essen<lb break="no" ed="#P" n="16"/>tiam ejus. Quae sententia probabilis est. Mihi
+          <lb ed="#P" n="17"/>tamen videtur proprius dici, propositionem 
+          il<lb break="no" ed="#P" n="18"/>lam, Pater est. Pater, esse identicam, et ideo
+          <lb ed="#P" n="19"/>includere, et essentiale, et non essentiale, seu
+          <lb ed="#P" n="20"/>personale et ex hoc posteriori capite non esse
+          <lb ed="#P" n="21"/>proprie essentialem. Illam vero propositionem,
+          <lb ed="#P" n="22"/>Pater est persona divina, simpliciter loquendo
+          <lb ed="#P" n="23"/>magis pertinere ad secundum modum dicendi
+          <lb ed="#P" n="24"/>per se, quam ad primum, ut sentit Scotus,
+          <lb ed="#P" n="25"/>dicta distinct. 23, et dist. etiam 26, 8 Tertia
+          <lb ed="#P" n="26"/>opinio. Quia in eo formaliter praedicatur ratio
+          <lb ed="#P" n="27"/>personae, et haec non est de essentia subjecti:
+          <lb ed="#P" n="28"/>Non nego tamen, quin, si formaliter 
+          commu<lb break="no" ed="#P" n="29"/>nis ratio personae ad talem personam 
+          compa<lb break="no" ed="#P" n="30"/>retur, habeat modum praedicationis essentialis,
+          <lb ed="#P" n="31"/>quae non sumitur semper ex absoluta essentia
+          <lb ed="#P" n="32"/>rei, sed ex quacumque ratione formali et 
+          quid<lb break="no" ed="#P" n="33"/>ditativa communi, ad sua inferiora formaliter
+          <lb ed="#P" n="34"/>comparata.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

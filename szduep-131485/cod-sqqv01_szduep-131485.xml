@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="518"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-131485"><!-- t2-l5c8 -->
+        <head xml:id="szduep-131485-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-131485-Hd1e103" type="question-title">Utrum reprobatio tollat aliquo modo reprobi libertatem</head>
+        <p xml:id="szduep-131485-d1e106">
+          <lb ed="#P" n="31"/>CAPUT VII.
+          <lb ed="#P" n="32"/>UTRUM REPROBATIO TOLLAT ALIQUO MODO REPROBI
+          <lb ed="#P" n="33"/>LIBERTATEM.
+        </p>
+        <p xml:id="szduep-131485-d1e115">
+          <lb ed="#P" n="34"/>1. In hac quaestione de solis adultis habetur 
+          ser<lb break="no" ed="#P" n="35"/>mo. — Quaestio habet tantum locum in adultis,
+          <lb ed="#P" n="36"/>ut per se constat, quia parvuli non sunt capaces
+          <lb ed="#P" n="37"/>libertatis. Et quantum ad rem attinet, nullam
+          <lb ed="#P" n="38"/>habet difficultatem , suppositis quae diximus.
+          <lb ed="#P" n="39"/>Aut enim agimus de libertate quoad 
+          potesta<lb break="no" ed="#P" n="40"/>tem operandi bonum, vel quoad potestatem 
+          vi<lb break="no" ed="#P" n="41"/>tandi malum, aut etiam committendi illud,
+          <lb ed="#P" n="42"/>vel omittendi necessarium bonum. De 
+          potes<lb break="no" ed="#P" n="43"/>tate committendi malum, vel non operandi
+          <lb ed="#P" n="44"/>bonum, nulla est disputatio : nam hujusmodi
+          <lb ed="#P" n="45"/>actus sine dubio reperiuntur in reprobis: ergo
+          <lb ed="#P" n="46"/>et potestas ad illos. Unde potius quaeri potest,
+          <lb ed="#P" n="47"/>quomodo quoad hos actus non sit necessitas.
+        </p>
+        <p xml:id="szduep-131485-d1e148">
+          <lb ed="#P" n="48"/>2. Igitur quoad aliam potestatem operandi
+          <lb ed="#P" n="49"/>bonum et cavendi malum, quod non sit ablata
+          <lb ed="#P" n="50"/>per reprobationem positivam, probatur aperte
+          <lb ed="#P" n="51"/>ex dictis : quia haec reprobatio supponit 
+          ma<lb break="no" ed="#P" n="52"/>lum usum illius potestatis, quia supponit cul-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>pam praevisam : ergo impossibile est, ut tollat
+          <lb ed="#P" n="54"/>potestatem ad talem usum, alias se ipsam 
+          de<lb break="no" ed="#P" n="55"/>strueret. Item quoad hoc eadem ratio est de
+          <lb ed="#P" n="56"/>hac reprobatione et de praescientia Dei, quia
+          <lb ed="#P" n="57"/>haec reprobatio supponit praescientiam 
+          absolu<lb break="no" ed="#P" n="58"/>tam futuri eventus : praescientia autem non
+          <lb ed="#P" n="59"/>tollit libertatem vel potestatem ullam , quia
+          <lb ed="#P" n="60"/>supponit effectum futurum et illum videt, sicut
+          <lb ed="#P" n="61"/>futurus est. Ergo similiter, etc. Denique haec
+          <lb ed="#P" n="62"/>reprobatio non habet in hac vita aliquem 
+          ef<lb break="no" ed="#P" n="63"/>fectum in ipso homine in ordine ad actus 
+          hu<lb break="no" ed="#P" n="64"/>manos ejus, ut supra ostensum est : ergo non
+          <lb ed="#P" n="65"/>potest dare vel auferre potestatem, neque 
+          im<lb break="no" ed="#P" n="66"/>mutare liberum modum operandi in hae vita.
+        </p>
+        <p xml:id="szduep-131485-d1e195">
+          <lb ed="#P" n="67"/>3. Idem facile potest demonstrari de 
+          repro<lb break="no" ed="#P" n="68"/>batione negativa, seu negatione 
+          praedestina<lb break="no" ed="#P" n="69"/>tionis : quia propter illam non privatur homo
+          <lb ed="#P" n="70"/>auxilio sufficiente ad operandum bonum, et
+          <lb ed="#P" n="71"/>vitandum malum, ut in praecedentibus 
+          osten<lb break="no" ed="#P" n="72"/>sum est: ergo ex parte gratiae non tollitur 
+          li<lb break="no" ed="#P" n="73"/>bertas ad non peccandum. Deinde, per 
+          volun<lb break="no" ed="#P" n="74"/>tatem non eligendi vel non dandi vocationem
+          <lb ed="#P" n="75"/>congruam, Deus nihil positivum operatur in
+          <lb ed="#P" n="76"/>voluntate humana, quia vohtio Dei solum est
+          <lb ed="#P" n="77"/>de quadam negatione : ergo ex vi illius non
+          <lb ed="#P" n="78"/>mutatur naturalis modus agendi voluntatis 
+          hu<lb break="no" ed="#P" n="79"/>manae : ergo nec necessitatur, nec 
+          determina<lb break="no" ed="#P" n="80"/>tur ad non operandum bonum, vel ad 
+          operan<lb break="no" ed="#P" n="81"/>dum malum. Manet ergo integra libertas, non
+          <lb ed="#P" n="82"/>obstante reprobatione. Hic vero occurrebat 
+          pro<lb break="no" ed="#P" n="83"/>lixa disputatio cum his, qui docent, physicam
+          <lb ed="#P" n="84"/>praedestinationem voluntatis humanae a solo
+          <lb ed="#P" n="85"/>Deo factam, necessariam esse ad opera 
+          pecca<lb break="no" ed="#P" n="86"/>torum. Sed de illa controversia nihil in hoe
+          <lb ed="#P" n="87"/>opere tractandum duxi, videantur dicta in 
+          h<lb break="no" ed="#P" n="88"/>bro secundo de Auxilis.
+        </p>
+        <p xml:id="szduep-131485-d1e245">
+          <lb ed="#P" n="89"/>4. Cum ergo haec, qua ad rem spectant,
+          <lb ed="#P" n="90"/>vera sint, in modo loquendi superest 
+          difficul<lb break="no" ed="#P" n="91"/>tas, an absolute verum sit, esse in potestate
+          <lb ed="#P" n="92"/>hominis, qui damnatur, non solum non 
+          dam<lb break="no" ed="#P" n="93"/>nari, sed etiam non reprobari, imo et non 
+          <lb ed="#P" n="94"/>carere praedestinatione. Nam pars affirmativa
+          <lb ed="#P" n="95"/>videtur aperte ex dictis sequi. Et, ut 
+          intelliga<lb break="no" ed="#P" n="96"/>tur difficultas, sumi debet verbum illud, 
+          Po<lb break="no" ed="#P" n="97"/>test, non tantum in sensu diviso, sed etiam in
+          <lb ed="#P" n="98"/>composito. Quoad hoc tamen est differentia 
+          <lb ed="#P" n="99"/>inter reprobationem affirmativam et 
+          negati<lb break="no" ed="#P" n="100"/>vam : nam in positiva supponitur absoluta
+          <lb ed="#P" n="101"/>praescientia futuri eventus, scilicet, 
+          perseve<lb break="no" ed="#P" n="102"/>rantiae in peccato usque ad mortem : et 
+          conse<lb break="no" ed="#P" n="103"/>quenter etiam includitur absoluta voluntas 
+          <lb ed="#P" n="104"/>Dei damnandi hominem : et ideo in hac 
+          repro<lb break="no" ed="#P" n="105"/>batione manifestum est, factá illa suppositione,
+          <lb ed="#P" n="106"/>non posse cum illa componi contrarium 
+          even<lb break="no" ed="#P" n="107"/>tum. Hinc ergo fit, in sensu composito ex parte 
+          <pb ed="#P" n="519"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>objecti sumpto, ut supra declaravi, illas 
+          locu<lb break="no" ed="#P" n="2"/>tiones esse falsas, idque sine praejudicio 
+          liber<lb break="no" ed="#P" n="3"/>tatis : quia suppositio, quae ponitur, est omnino
+          <lb ed="#P" n="4"/>consequens et nullo modo antecedens, et ita a
+          <lb ed="#P" n="5"/>subjecto ipso nullam tollit libertatem.
+        </p>
+        <p xml:id="szduep-131485-d1e304">
+          <lb ed="#P" n="6"/>5. Idem probatur de negatica. vero in
+          <lb ed="#P" n="7"/>reprobatione negativa secus esse videtur, quia
+          <lb ed="#P" n="8"/>illa nec supponit praescientiam absolutam 
+          fu<lb break="no" ed="#P" n="9"/>turi eventus, neque etiam voluntatem 
+          absolu<lb break="no" ed="#P" n="10"/>tam damnandi hominem : ergo ex vi hujus
+          <lb ed="#P" n="11"/>reprobationis non repugnat, neque implicat
+          <lb ed="#P" n="12"/>contradictionem, quod cum illa simul 
+          pona<lb break="no" ed="#P" n="13"/>tur, in re ipsa futura salus hominis, cum hoc
+          <lb ed="#P" n="14"/>nec sit contra praescientiam DEI, nec contra
+          <lb ed="#P" n="15"/>divinam voluntatem : ergo loquendo de hac
+          <lb ed="#P" n="16"/>reprobatione, admittendae sunt omnes illae 
+          locu<lb break="no" ed="#P" n="17"/>tiones, etiam in sensu composito, et 
+          composi<lb break="no" ed="#P" n="18"/>tionem ponendo in objecto. (uod si hoc 
+          admit<lb break="no" ed="#P" n="19"/>tatur, sequitur ulterius, in potestate hominis
+          <lb ed="#P" n="20"/>non praedestinati esse, facere, ut sit 
+          praedes<lb break="no" ed="#P" n="21"/>tinatus, juxta illud quod referri solet ex 
+          Au<lb break="no" ed="#P" n="22"/>gustino (sed apud illum non reperitur). S non
+          <lb ed="#P" n="23"/>est praedestinatus, fac ut praedestineris. Est
+          <lb ed="#P" n="24"/>enim consecutio evidens : quia si in potestate
+          <lb ed="#P" n="25"/>hominis est, non esse reprobatum, ergo et
+          <lb ed="#P" n="26"/>esse praedestinatum positive. quia haec duo
+          <lb ed="#P" n="27"/>immediate opponuntur et carentia 
+          reprobatio<lb break="no" ed="#P" n="28"/>nis non tollitur, nisi ponendo 
+          praedestinatio<lb break="no" ed="#P" n="29"/>nem. Consequens autem repugnat his quae in
+          <lb ed="#P" n="30"/>superioribus dicta sunt. Quia si est in 
+          homi<lb break="no" ed="#P" n="31"/>nis potestate facere ut praedestinetur : ergo
+          <lb ed="#P" n="32"/>est in ejus voluntate, ut in simili 
+          argumenta<lb break="no" ed="#P" n="33"/>tur Augustinus, 1 Retract., cap. 21, et saepe
+          <lb ed="#P" n="34"/>alias : ergo homo per voluntatem suam potest
+          <lb ed="#P" n="35"/>dare causam suae praedestinationi. Ideo enim
+          <lb ed="#P" n="36"/>potest aliquo modo dare suae justificationi et
+          <lb ed="#P" n="37"/>glorificationi causam, quia per potestatem et
+          <lb ed="#P" n="38"/>voluntatem suam cum auxilio divinae gratiae
+          <lb ed="#P" n="39"/>potest aliquid facere, quo justificetur et 
+          glori<lb break="no" ed="#P" n="40"/>ficetur : ergo si potest aliquid facere, quo 
+          prae<lb break="no" ed="#P" n="41"/>destinetur, poterit esse causa suae 
+          praedestina<lb break="no" ed="#P" n="42"/>tionis, cujus contrarium dictum est.
+        </p>
+        <p xml:id="szduep-131485-d1e387">
+          <lb ed="#P" n="43"/>6. De his locutionibus varii modi dicendi. —
+          <lb ed="#P" n="44"/>De his locutionibus disputant inter se moderni
+          <lb ed="#P" n="45"/>theologi, et aliqui existimant, omnino 
+          negan<lb break="no" ed="#P" n="46"/>das esse propter rationem factam, et quia 
+          dic<lb break="no" ed="#P" n="47"/>tum est a nobis, reprobationem negativam
+          <lb ed="#P" n="48"/>non habere causam ex parte hominis, sed 
+          pen<lb break="no" ed="#P" n="49"/>dere ex sola libera voluntate Dei : id autem,
+          <lb ed="#P" n="50"/>quod hujusmodi est, non est in potestate 
+          homi<lb break="no" ed="#P" n="51"/>nis constitutum. Alii vero existimant, 
+          neces<lb break="no" ed="#P" n="52"/>sarium esse admittere illas locutiones, quia
+          <lb ed="#P" n="53"/>alias perditio hominis non esset ultimate in
+          <lb ed="#P" n="54"/>ipsum resolvenda, sed in Deum, qui illum non
+          <lb ed="#P" n="55"/>praedestinayit, ac perinde esset non praedesti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nari a Deo, et reprobari, quia aeque 
+          impossi<lb break="no" ed="#P" n="57"/>bilis fieret salus posita, non praedestinatione
+          <lb ed="#P" n="58"/>ac reprobatione positiva. Nec putant hinc 
+          se<lb break="no" ed="#P" n="59"/>qui, posse dari causam praedestinationis totius,
+          <lb ed="#P" n="60"/>quia semper supponitur praeveniens auxilium
+          <lb ed="#P" n="61"/>ex parte Dei, ut dicere possimus, esse in 
+          po<lb break="no" ed="#P" n="62"/>testate talis hominis non carere 
+          praedestina<lb break="no" ed="#P" n="63"/>tione. Sed solum sequitur, esse in potestate
+          <lb ed="#P" n="64"/>hominis facere, ut tale auxilium ad 
+          praedesti<lb break="no" ed="#P" n="65"/>nationem pertineat, et effectum ejus 
+          consequa<lb break="no" ed="#P" n="66"/>tur. Hoc autem omnino verum us auctoribus
+          <lb ed="#P" n="67"/>videtur, quia in potestate hominis est facere,
+          <lb ed="#P" n="68"/>ut illud auxilium sit efficax, quia in postestate
+          <lb ed="#P" n="69"/>hominis est , ut habeat effectum vel non 
+          ha<lb break="no" ed="#P" n="70"/>beat : si autem sit efficax, erit auxilium 
+          prae<lb break="no" ed="#P" n="71"/>destinationis : ergo est in potestate hominis
+          <lb ed="#P" n="72"/>facere, ut tale sit
+        </p>
+        <p xml:id="szduep-131485-d1e457">
+          <lb ed="#P" n="73"/>7. Haec posterior sententia recte et 
+          conse<lb break="no" ed="#P" n="74"/>quenter defenditur ab his auctoribus, qui
+          <lb ed="#P" n="75"/>praescientiam conditionatam non admittunt;
+          <lb ed="#P" n="76"/>et inter eos illam maxime secutus est Ca. 
+          eri<lb break="no" ed="#P" n="77"/>nus. Qui consequenter asseruit, plures non
+          <lb ed="#P" n="78"/>praeelectos, neque ex determinata intentione
+          <lb ed="#P" n="79"/>Dei, ita efficaciter vocatos, ut infallibiliter 
+          con<lb break="no" ed="#P" n="80"/>verterentur, de facto converti et salvari. 
+          Ve<lb break="no" ed="#P" n="81"/>rum tamen haec sententia multa supponit, quae
+          <lb ed="#P" n="82"/>a nobis nullo modo probari possunt. Unum
+          <lb ed="#P" n="83"/>est, non dari preescientiam certam futurorum
+          <lb ed="#P" n="84"/>sub conditione. Aliud est, salvari de facto 
+          ali<lb break="no" ed="#P" n="85"/>quos homines non praeelectos ad gloriam ante
+          <lb ed="#P" n="86"/>praescientiam absolutam futurorum operum.
+          <lb ed="#P" n="87"/>Tertium est, non praedefinire Deum absolute et
+          <lb ed="#P" n="88"/>in particulari conversionem, et 
+          perseveran<lb break="no" ed="#P" n="89"/>tiam eorum, qui salvandi sunt, ante absolutam
+          <lb ed="#P" n="90"/>praescientiam ejus. Nisi enim haec omnia 
+          sup<lb break="no" ed="#P" n="91"/>ponantur , seu contraria ut vera recipiantur,
+          <lb ed="#P" n="92"/>repugnantiam involvit illa sententia ut 
+          ratio<lb break="no" ed="#P" n="93"/>nes factae ostendunt.
+        </p>
+        <p xml:id="szduep-131485-d1e505">
+          <lb ed="#P" n="94"/>8. Conclusio. — Dico ergo, non esse in 
+          po<lb break="no" ed="#P" n="95"/>testate hominis, cum non electione divina, seu
+          <lb ed="#P" n="96"/>cum non praedestinatione, aut (quod idem est)
+          <lb ed="#P" n="97"/>cum reprobatione negativa, actu ponere seu
+          <lb ed="#P" n="98"/>componere suam aeternam salutem. Haec 
+          re<lb break="no" ed="#P" n="99"/>solutio facile constabit explicando magis 
+          fun<lb break="no" ed="#P" n="100"/>damentum prioris opinionis, et alterius 
+          funda<lb break="no" ed="#P" n="101"/>mento satisfaciendo. Ut ergo ratio illius 
+          sen<lb break="no" ed="#P" n="102"/>tentiae comprehendatur , est prae oculis 
+          ha<lb break="no" ed="#P" n="103"/>benda illa distinctio de reprobatione positiva
+          <lb ed="#P" n="104"/>et negativa. Quia non reprobari positive 
+          eo<lb break="no" ed="#P" n="105"/>dem modo est in potestate hominis, quo non
+          <lb ed="#P" n="106"/>condemnari, vel salvari, quia jam ostendimus,
+          <lb ed="#P" n="107"/>in hac materia optimum argumentum sumi
+          <lb ed="#P" n="108"/>ab ipsa damnatione ad reprobationem 
+          positi<lb break="no" ed="#P" n="109"/>vam, quia haec non opponitur immediate 
+          prae<lb break="no" ed="#P" n="110"/>destinationi, sed approbationi, seu glorifica-
+          <pb ed="#P" n="520"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tioni. At vero reprobatio negativa immediate
+          <lb ed="#P" n="2"/>opponitur praedestinationi , et ideo non magis
+          <lb ed="#P" n="3"/>potest esse in libera potestate hominis una,
+          <lb ed="#P" n="4"/>quam alia. Ex quo aperte sequitur, facta 
+          sup<lb break="no" ed="#P" n="5"/>positione non praedestinationis , non posse 
+          si<lb break="no" ed="#P" n="6"/>mul cum illa componi salutem hominis, quae
+          <lb ed="#P" n="7"/>solis praedestinatis contingit.
+        </p>
+        <p xml:id="szduep-131485-d1e565">
+          <lb ed="#P" n="8"/>9. Difficultati satisfit. — Ad difficultatem
+          <lb ed="#P" n="9"/>autem positam respondetur, quamvis non 
+          sup<lb break="no" ed="#P" n="10"/>ponatur absoluta scientia in Deo, neque etiam
+          <lb ed="#P" n="11"/>decretum expellendi a Regno hujusmodi 
+          per<lb break="no" ed="#P" n="12"/>sonas, supponi tamen scientiam 
+          conditiona<lb break="no" ed="#P" n="13"/>tam, quae adjuncta voluntate permittendi
+          <lb ed="#P" n="14"/>lapsum, seu non dandi tale auxilium, quod
+          <lb ed="#P" n="15"/>futurum esse congruum praescitur, transit in
+          <lb ed="#P" n="16"/>absolutam, et hoc satis est, ut effectus sit in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="17"/>fallibilis. Neque inde sequitur, Deum ex se, et
+          <lb ed="#P" n="18"/>ex voluntate sua reprobare hujusmodi homines
+          <lb ed="#P" n="19"/>positiva reprobatione, sed solum sequitur, ex
+          <lb ed="#P" n="20"/>se non praedestinare, et velle permittere 
+          cul<lb break="no" ed="#P" n="21"/>pam, quod verum est nullumque habet 
+          incon<lb break="no" ed="#P" n="22"/>veniens. Denique parum refert, quod sit in
+          <lb ed="#P" n="23"/>potestate hominis actu operari cum auxilio
+          <lb ed="#P" n="24"/>justificante Dei, et quod si id faciat, auxiium
+          <lb ed="#P" n="25"/>jam erit congruum et efficax. Nam cum Deus
+          <lb ed="#P" n="26"/>praeviderit hominem non fuisse usurum tali
+          <lb ed="#P" n="27"/>potestate, simul cum illa potestate est 
+          infalli<lb break="no" ed="#P" n="28"/>bile tale auxilium non futurum congruum,
+          <lb ed="#P" n="29"/>nec efficax. Non est autem in hominis 
+          potes<lb break="no" ed="#P" n="30"/>tate facere. ut Deus sibi praeparet illud 
+          auxi<lb break="no" ed="#P" n="31"/>lium, quod novit futurum esse congruum, sed
+          <lb ed="#P" n="32"/>hoc omnino pendet ex libera Dei voluntate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

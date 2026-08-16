@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="111"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-028358"><!-- t1-l2c17 -->
+        <head xml:id="szduep-028358-Hd1e101">Caput 17</head>
+        <head xml:id="szduep-028358-Hd1e103" type="question-title">An visio dei sit connaturalis intellectui lumine gloriae informato</head>
+        <p xml:id="szduep-028358-d1e106">
+          <lb ed="#P" n="78"/>CAPUT XVII.
+          <lb ed="#P" n="79"/>AN VISIO DEI SIT CONNATURALIS INTELLECTUI
+          <lb ed="#P" n="80"/>LUMINE GLORIAE INFORMATO.
+        </p>
+        <p xml:id="szduep-028358-d1e115">
+          <lb ed="#P" n="81"/>1. Duplici modo dicitur actio naturalis. —
+          <lb ed="#P" n="82"/>Quoniam ratio ponendi lumen gloriae 
+          praeci<lb break="no" ed="#P" n="83"/>pue sumpta videtur ex connaturalitate 
+          actio<lb break="no" ed="#P" n="84"/>nis et modi operandi, ideo principium hoc 
+          am<lb break="no" ed="#P" n="85"/>plius declarare necesse est, simulque aliam
+          <lb ed="#P" n="86"/>proprietatem illius visionis exponemus. 
+          Duo<lb break="no" ed="#P" n="87"/>bus enim modis dici potest actio naturalis. Uno
+          <lb ed="#P" n="88"/>modo, quatenus naturalis actio distinguitur a
+          <lb ed="#P" n="89"/>supernaturali : altero modo, quatenus 
+          distin<lb break="no" ed="#P" n="90"/>guitur a libera et idem est, quod necessaria
+          <lb ed="#P" n="91"/>actio et de utroque sensu dicendum est 
+          bre<lb break="no" ed="#P" n="92"/>viter.
+        </p>
+        <p xml:id="szduep-028358-d1e144">
+          <lb ed="#P" n="93"/>9. Cajetani opinio. —Circa priorem partem
+          <lb ed="#P" n="94"/>Thomistae dissentiunt inter se, Cajetanus, 1 p.,
+          <lb ed="#P" n="95"/>quaest. 12, art. 5, dicit intellectui illuminato
+          <lb ed="#P" n="96"/>non esse supernaturale, sed naturale videre
+          <lb ed="#P" n="97"/>Deum, atque idem fere docet Ferrarius 3, 
+          con<lb break="no" ed="#P" n="98"/>tra Gentes, cap. 54. Addit vero limitationem
+          <lb ed="#P" n="99"/>nimirum esse naturalem intellectui non 
+          sim<lb break="no" ed="#P" n="100"/>pliciter, sed quatenus informato lumine, 
+          si<lb break="no" ed="#P" n="101"/>cut aquae simpliciter non est naturale 
+          cale<lb break="no" ed="#P" n="102"/>facere, tamen aquae calidae, ut informatae 
+          ca<lb break="no" ed="#P" n="103"/>lore, naturale est calefacere. Et ratio est, quia
+          <lb ed="#P" n="104"/>intellectus ut illuminatus jam habet 
+          princi<lb break="no" ed="#P" n="105"/>pium connaturale illius actionis : nam lumen
+          <lb ed="#P" n="106"/>est principium connaturale visionis beatificae.
+          <lb ed="#P" n="107"/>Confirmatur, nam praecipua ratio ponendi lu-
+          <pb ed="#P" n="112"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>men est, ut actus sit connaturalis operanti.
+        </p>
+        <p xml:id="szduep-028358-d1e187">
+          <lb ed="#P" n="2"/>3. Fera assertio. — Nihilominus Sotus in
+          <lb ed="#P" n="3"/>4. d. 49., q. 2, art. 4. negat visionem esse
+          <lb ed="#P" n="4"/>dicendam naturalem etiam respectu beati 
+          ha<lb break="no" ed="#P" n="5"/>bentis lumen gloriae, quia illa visio in se et 
+          ab<lb break="no" ed="#P" n="6"/>solute est supernaturalis. Scotus etiam et 
+          Du<lb break="no" ed="#P" n="7"/>randus citati, cap. 15., inconveniens reputant,
+          <lb ed="#P" n="8"/>quod illa visio sit naturalis intellectui, 
+          quali<lb break="no" ed="#P" n="9"/>bet in eo supposita perfectione per modum
+          <lb ed="#P" n="10"/>actus primi, ipsi enim ex hoc principio 
+          impu<lb break="no" ed="#P" n="11"/>gnant lumen gloriae, quia non potest 
+          intellec<lb break="no" ed="#P" n="12"/>tus cum lumine habere magis connaturalem
+          <lb ed="#P" n="13"/>ordinem ad visionem, quam secundum se. Sed
+          <lb ed="#P" n="14"/>licet in hoc faveant huic sententiae, in alio 
+          fa<lb break="no" ed="#P" n="15"/>vent priori, in eo scilicet, quod posito lumine
+          <lb ed="#P" n="16"/>existimant sequi, actum debere esse 
+          natura<lb break="no" ed="#P" n="17"/>lem, licet hoc reputent inconveniens.
+        </p>
+        <p xml:id="szduep-028358-d1e224">
+          <lb ed="#P" n="18"/>4. Verumtamen resolutio facilis est ex his,
+          <lb ed="#P" n="19"/>quae diximus, et ideo breviter respondetur,
+          <lb ed="#P" n="20"/>aliud esse loqui de illa visione absolute et
+          <lb ed="#P" n="21"/>secundum se, aliud respective seu comparative.
+          <lb ed="#P" n="22"/>Priori modo constat ex dictis, visionem illam
+          <lb ed="#P" n="23"/>esse absolute supernaturalem actum, sive fiat
+          <lb ed="#P" n="24"/>per lumen, sive non, quia est talis ex vi suae
+          <lb ed="#P" n="25"/>est substantiae et naturae, quam semper obtinet
+          <lb ed="#P" n="26"/>eamdem. Item quia semper est talis, ut nulli
+          <lb ed="#P" n="27"/>substantiae creatae possit esse connaturalis et
+          <lb ed="#P" n="28"/>hoc est esse simpliciter et absolute 
+          superna<lb break="no" ed="#P" n="29"/>turalem. Posteriori autem modo potest illa
+          <lb ed="#P" n="30"/>visio comparari vel ad lumen, vel ad 
+          intellec<lb break="no" ed="#P" n="31"/>tum, vel ad totum compositum, scilicet 
+          intel<lb break="no" ed="#P" n="32"/>lectum informatum lumine, vel simpliciter ad
+          <lb ed="#P" n="33"/>hominem, vel angelum. Respectu luminis 
+          con<lb break="no" ed="#P" n="34"/>naturalis est visio, ut patet ex dictis, et hoc
+          <lb ed="#P" n="35"/>probant fundamenta primae sententiae. 
+          hes<lb break="no" ed="#P" n="36"/>pectu vero intellectus semper est visio 
+          super<lb break="no" ed="#P" n="37"/>naturalis, etiam si in illo supponatur lumen
+          <lb ed="#P" n="38"/>et sive comparatio fiat ad intellectum ut 
+          prin<lb break="no" ed="#P" n="39"/>cipium agens, sive ut recipiens. Primum patet,
+          <lb ed="#P" n="40"/>quia dictum est, intellectum , etiam quando
+          <lb ed="#P" n="41"/>cum lumine concurrit , operari ultra 
+          natura<lb break="no" ed="#P" n="42"/>lem virtutem, per potentiam obedientialem 
+          ac<lb break="no" ed="#P" n="43"/>tivam et instrumentum Dei, in quo differt haec
+          <lb ed="#P" n="44"/>actio a calefactione procedente ab aqua calida,
+          <lb ed="#P" n="45"/>quia tota est a calore, ut principio connaturali.
+          <lb ed="#P" n="46"/>Secundo probatur ex parte principii passivi,
+          <lb ed="#P" n="47"/>nam (ut dictum est) visio fit et educitur de
+          <lb ed="#P" n="48"/>sola potentia obedientiali intellectus. At vero
+          <lb ed="#P" n="49"/>si comparatio fiat cum toto composito: vix
+          <lb ed="#P" n="50"/>potest simpliciter responderi , sed sub 
+          distinc<lb break="no" ed="#P" n="51"/>tione : nam illud compositum mixtum est, seu
+          <lb ed="#P" n="52"/>constans ex re naturali et supernaturali. 
+          Pla<lb break="no" ed="#P" n="53"/>cet tamen modus respondendi Cajetani , quod
+          <lb ed="#P" n="54"/>ratione luminis ille actus dicatur 
+          connatura<lb break="no" ed="#P" n="55"/>lis, quia lumen est veluti ultima forma consti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tuens intellectum in actu primo et ratione 
+          il<lb break="no" ed="#P" n="57"/>lius formae debitum est, ipsi intellectui, ut
+          <lb ed="#P" n="58"/>elevetur ad modum agendi et recipiendi 
+          neces<lb break="no" ed="#P" n="59"/>sarium ad hujusmodi actum et ideo 
+          intellec<lb break="no" ed="#P" n="60"/>tul sic elevato simpliciter est connaturalis ille
+          <lb ed="#P" n="61"/>actus. Homini autem vel angelo simpliciter
+          <lb ed="#P" n="62"/>est dicendus supernaturalis, quia comparatur
+          <lb ed="#P" n="63"/>ad substantiam, cui absolute est 
+          supernatura<lb break="no" ed="#P" n="64"/>lis, quia est supra omne debitum illius.
+        </p>
+        <p xml:id="szduep-028358-d1e331">
+          <lb ed="#P" n="65"/>5. Circa posteriorem sensum, ille actus 
+          intel<lb break="no" ed="#P" n="66"/>lectus dicitur naturalis, qui non pendet a 
+          vo<lb break="no" ed="#P" n="67"/>Iuntate, vel quoad specificationem, vel quoad
+          <lb ed="#P" n="68"/>exercitium, sed naturaliter manat, positis 
+          prin<lb break="no" ed="#P" n="69"/>cipiis ejus. Et quidem de specificatione nulla
+          <lb ed="#P" n="70"/>potest esse quaestio; nam cum ille actus sit 
+          cla<lb break="no" ed="#P" n="71"/>rus et evidens, non potest aliter esse quam sit,
+          <lb ed="#P" n="72"/>unde clarum est in illo esse necessitatem quoad
+          <lb ed="#P" n="73"/>specificationem. Tamen de necessitate quoad
+          <lb ed="#P" n="74"/>exercitium videtur esse posse aliqua ratio 
+          du<lb break="no" ed="#P" n="75"/>bitandi. Quia intellectus natura sua pendet a
+          <lb ed="#P" n="76"/>voluntate in agendo, saltem quoad 
+          applicatio<lb break="no" ed="#P" n="77"/>nem et exercitium, sed in illa visione nulla 
+          in<lb break="no" ed="#P" n="78"/>tercedit specialis ratio, ob quam hic naturalis
+          <lb ed="#P" n="79"/>ordo mutetur, ergo. Confirmatur, quia 
+          intel<lb break="no" ed="#P" n="80"/>lectus non concurrit ad illum actum per 
+          facul<lb break="no" ed="#P" n="81"/>tatem naturalem, ut naturalis est, ergo ex parte
+          <lb ed="#P" n="82"/>intellectus et naturae ejus, non potest actus ille
+          <lb ed="#P" n="83"/>habere necessitatem: nec vero ex parte Dei, qui
+          <lb ed="#P" n="84"/>est principale agens elevans intellectum, quia
+          <lb ed="#P" n="85"/>Deus secundum se libere agit, et quando elevat
+          <lb ed="#P" n="86"/>causam secundam ad agendum, accommodat
+          <lb ed="#P" n="87"/>se naturae ejus. 
+        </p>
+        <p xml:id="szduep-028358-d1e383">
+          <lb ed="#P" n="88"/>6. Assertio D. Thomae. — Nihilominus 
+          di<lb break="no" ed="#P" n="89"/>cendum est, illam visionem esse naturalem, id
+          <lb ed="#P" n="90"/>est, necessariam, etiam quoad exercitium. 
+          Su<lb break="no" ed="#P" n="91"/>mitur ex D. Thoma, 1 part., quaest. 10, artic. 5,
+          <lb ed="#P" n="92"/>ad 1, ubi ait illam visionem mensurari 
+          aeterni<lb break="no" ed="#P" n="93"/>tate participata, quia est immutabilis ab 
+          in<lb break="no" ed="#P" n="94"/>trinseco. Quod ibi Cajetanus et omnes 
+          Thomis<lb break="no" ed="#P" n="95"/>tae sequuntur, et in 1, 2, quaest. 5, art. 4. Nec
+          <lb ed="#P" n="96"/>dissentiunt alii theologi, qui communiter 
+          do<lb break="no" ed="#P" n="97"/>cent visionem illam mensurari vel aeternitate,
+          <lb ed="#P" n="98"/>vel aevo. Est etiam valde consentaneum illi 
+          vi<lb break="no" ed="#P" n="99"/>sioni, ut beatitudo perfecta est, quia beatitudo
+          <lb ed="#P" n="100"/>perfecta debet esse immutabilis. Potestque a
+          <lb ed="#P" n="101"/>fortiori suaderi ex voluntate, quia charitate 
+          in<lb break="no" ed="#P" n="102"/>formata necessario amat Deum clare visum,
+          <lb ed="#P" n="103"/>ergo multo magis intellectusinformatus lumine
+          <lb ed="#P" n="104"/>necessitatur ad videndum. Probatur 
+          consequen<lb break="no" ed="#P" n="105"/>tia, quia non minori impetu naturae fertur 
+          in<lb break="no" ed="#P" n="106"/>tellectus in objectum et finem suum quam 
+          vo<lb break="no" ed="#P" n="107"/>Iuntas in suum, et alioqui intellectus non est
+          <lb ed="#P" n="108"/>potentia formaliter libera sicut voluntas.
+        </p>
+        <p xml:id="szduep-028358-d1e431">
+          <lb ed="#P" n="109"/>7. Secundo sic potest declarari, quia 
+          intel<lb break="no" ed="#P" n="110"/>lectus in primo actu suo non pendet a volun-
+          <pb ed="#P" n="113"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tate, quia voluntas necessario supponit 
+          objec<lb break="no" ed="#P" n="2"/>tum cognitum et ideo primus actus intellectus
+          <lb ed="#P" n="3"/>semper est naturalis, vel per se, si talis actus
+          <lb ed="#P" n="4"/>ex natura sua et per se sit primus, vel ex 
+          acci<lb break="no" ed="#P" n="5"/>denti, si tantum per accidens hic et nunc sit
+          <lb ed="#P" n="6"/>primus. At vero illa visio, per se et natura sua,
+          <lb ed="#P" n="7"/>est in suo ordine primus actus, et ideo cum 
+          pri<lb break="no" ed="#P" n="8"/>mum elicitur, non potest pendere ab 
+          applica<lb break="no" ed="#P" n="9"/>tione voluntatis, volentis videre DEUM, quia
+          <lb ed="#P" n="10"/>illa visio per se nihil supponit, quod excitet 
+          vo<lb break="no" ed="#P" n="11"/>luntatem ad hujusmodi actum; ergo signum est
+          <lb ed="#P" n="12"/>intellectum informatum lumine, ex se, esse 
+          de<lb break="no" ed="#P" n="13"/>terminatum ad talem actum, et ideo non 
+          pen<lb break="no" ed="#P" n="14"/>dere ex applicatione voluntatis. Exemplum
+          <lb ed="#P" n="15"/>item esse potest in angelo cognoscente se 
+          ip<lb break="no" ed="#P" n="16"/>sum; namquiaille actus, natura sua, est primus
+          <lb ed="#P" n="17"/>in illo ordine, est etiam quasi fundamentum
+          <lb ed="#P" n="18"/>omnium aliorum, imo etiam omnium actuum
+          <lb ed="#P" n="19"/>voluntatis angelicae, et ideo est ab intrinseco
+          <lb ed="#P" n="20"/>necessarius et independens a voluntate angeli,
+          <lb ed="#P" n="21"/>ut est communuior opinio in prima parte, quaest.
+          <lb ed="#P" n="22"/>58. Ad eumdem ergo modum comparatur visio
+          <lb ed="#P" n="23"/>Dei ad beatos seu ad gratiam perfecto modo
+          <lb ed="#P" n="24"/>operantem.
+        </p>
+        <p xml:id="szduep-028358-d1e494">
+          <lb ed="#P" n="25"/>8. Unde etiam potest ultimo declarari, quia
+          <lb ed="#P" n="26"/>lumen intellectuale naturaliter determinatur
+          <lb ed="#P" n="27"/>ad suum primarium et connaturale objectum
+          <lb ed="#P" n="28"/>et maxime proprium, et ideo quilibet angelus
+          <lb ed="#P" n="29"/>naturaliter intuetur se et DEUS primario ac
+          <lb ed="#P" n="30"/>per se necessario videt se ipsum, lumen autem
+          <lb ed="#P" n="31"/>gloriae habet pro objecto maxime connaturali,
+          <lb ed="#P" n="32"/>et primario essentiam Dei, naturaliter ergo 
+          de<lb break="no" ed="#P" n="33"/>terminatur ad visionem ejus, et in hoc 
+          assimila<lb break="no" ed="#P" n="34"/>tur lumini divino per essentiam, cujus est 
+          altis<lb break="no" ed="#P" n="35"/>sima participatio. Ex quibus expedita est ratio
+          <lb ed="#P" n="36"/>dubitandi, quia neque omnis actus intellectus
+          <lb ed="#P" n="37"/>pendet ab applicatione voluntatis, neque 
+          ne<lb break="no" ed="#P" n="38"/>cesse est ut Deus elevet intellectum ad hunc
+          <lb ed="#P" n="39"/>actum cum dependentia a voluntate, sed juxta
+          <lb ed="#P" n="40"/>exigentiam et naturam talis luminis, quod in
+          <lb ed="#P" n="41"/>hoc multum differt a lumine fidei, quod est
+          <lb ed="#P" n="42"/>obscurum et a pia affectione pendens.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

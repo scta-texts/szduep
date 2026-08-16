@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="48"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-012300"><!-- t1-l2c2 -->
+        <head xml:id="szduep-012300-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-012300-Hd1e103" type="question-title">De immensitate dei ejusque existentia in omnibus rebus seu locis</head>
+        <p xml:id="szduep-012300-d1e106">
+          <lb ed="#P" n="81"/>CAPUT II
+          <lb ed="#P" n="82"/>DE IMMENSITATE DEI EJUSQUE EXISTENTIA IN 
+          OMNI<lb break="no" ed="#P" n="83"/>BUS REBUS SEU LOCIS.
+        </p>
+        <p xml:id="szduep-012300-d1e115">
+          <lb ed="#P" n="84"/>1. Deum esse immensum , fide tenendum est.
+          <lb ed="#P" n="85"/>— Aliqui confundunt hoc attributum cum 
+          pra<lb break="no" ed="#P" n="86"/>cedenti. Contrarium verius est. — Deum esse
+          <lb ed="#P" n="87"/>immeensum sub his expressis ac formalibus
+          <lb ed="#P" n="88"/>verbis catholica fides docet, in cap. Firmiter,
+          <lb ed="#P" n="89"/>de summa Trinitate et fide catholica et in 
+          sym<lb break="no" ed="#P" n="90"/>bolo Athanasii : Immensus pater, etc. Quia in
+          <lb ed="#P" n="91"/>Scriptura sacra eodem modo continetur, 
+          Ba<lb break="no" ed="#P" n="92"/>ruch 3: Immensus est et non habet finem. Psalm.
+          <lb ed="#P" n="93"/>138: S ascendero in calum, tu illic es, si 
+          des<lb break="no" ed="#P" n="94"/>cendero in infernun, ades. Et tamen additur 2
+          <lb ed="#P" n="95"/>Paralip. 16: Celum et Celi Coelorum non te
+          <lb ed="#P" n="96"/>capiunt. Eamdem veritatem docent sancti 
+          Pa<lb break="no" ed="#P" n="97"/>tres; nam licet non omnes utantur illa voce 
+          im<lb break="no" ed="#P" n="98"/>mensitatis, rem ipsam declarant per hoc quod
+          <lb ed="#P" n="99"/>Deus totus ubique est et ita est in universis
+          <lb ed="#P" n="100"/>rebus, ut ab eis nec circumscribatur nec 
+          con<lb break="no" ed="#P" n="101"/>tineatur, ut patet ex Damasceno libro primo,
+          <lb ed="#P" n="102"/>capite octavo, ubi etiam vocat Deum- 
+          immen<lb break="no" ed="#P" n="103"/>sa vi preeditun ; et Basilius homilia in 
+          princi<lb break="no" ed="#P" n="104"/>pium Evangelii Joannis; et Eucherius libro de
+          <lb ed="#P" n="105"/>spiritualibus formis, capite primo: Desus (
+          in<lb break="no" ed="#P" n="106"/>quit ) ubique totus et immensus , et alii statim
+          <pb ed="#P" n="49"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>referendi. Sunt autem aliqui theologi, qui
+          <lb ed="#P" n="2"/>hoc attributum confundant cum praecedenti ,
+          <lb ed="#P" n="3"/>quod significat Bonaventura, 1, distinctione
+          <lb ed="#P" n="4"/>43 , articulo primo, quaestione secunda et 
+          AI<lb break="no" ed="#P" n="5"/>bertus, ibi, articulo secundo. Sed revera sunt
+          <lb ed="#P" n="6"/>attributa ratione distincta , nam licet ex 
+          infi<lb break="no" ed="#P" n="7"/>nitate recte inferatur immensitas, tamen 
+          im<lb break="no" ed="#P" n="8"/>mensitas non dicit eamdem negationem quam
+          <lb ed="#P" n="9"/>infinitas. Nam infinitas negat terminum in
+          <lb ed="#P" n="10"/>perfectione essentiali, ut supra explicavimus;
+          <lb ed="#P" n="11"/>immensitas vero negat terminum in 
+          substan<lb break="no" ed="#P" n="12"/>tiali praesentialitate, ut sic dicam, seu negat
+          <lb ed="#P" n="13"/>terminum loci, ut more nostro loquamur.
+          <lb ed="#P" n="14"/>Deinde per negationem infinitatis declaratur
+          <lb ed="#P" n="15"/>universe excellentia perfectionis essentialis
+          <lb ed="#P" n="16"/>Dei; perimmensitatem vero declaratur talis
+          <lb ed="#P" n="17"/>modus existendi divinae essentiae et naturae, ut
+          <lb ed="#P" n="18"/>quantum est ex se et eodem modo permanens,
+          <lb ed="#P" n="19"/>possit esse intime praesens omnibus rebus et
+          <lb ed="#P" n="20"/>corporibus, non solum praesentibus sed etiam
+          <lb ed="#P" n="21"/>possibilibus, etiamsi in infinitum in 
+          multitu<lb break="no" ed="#P" n="22"/>dine et magnitudine augeantur. Quod sensu
+          <lb ed="#P" n="23"/>recte potest intelligi illud Psalmi 144: Zt 
+          ma<lb break="no" ed="#P" n="24"/>gnitudinis ejus non est finis. Nam lcet de
+          <lb ed="#P" n="25"/>quantitate perfectionis recte intelligatur, etiam
+          <lb ed="#P" n="26"/>de hae magnitudine immensitatis verissime 
+          di<lb break="no" ed="#P" n="27"/>crtur et sub illa haec continetur.
+        </p>
+        <p xml:id="szduep-012300-d1e230">
+          <lb ed="#P" n="28"/>2. Immensitatem dicere perfectionem per se
+          <lb ed="#P" n="29"/>notum est. — Unde immensitas sic declarata,
+          <lb ed="#P" n="30"/>quantum ad positivum fundamentum illius
+          <lb ed="#P" n="31"/>negationis, magnam perfectionem dicit, ut
+          <lb ed="#P" n="32"/>per se notum videtur et inductione declarari
+          <lb ed="#P" n="33"/>potest. Nam in rebus corporeis et quantis
+          <lb ed="#P" n="34"/>posse esse alicubi praesentes , perfectio aliqua
+          <lb ed="#P" n="35"/>est essetque major, si possent simul adesse
+          <lb ed="#P" n="36"/>multis locis, sed non sunt capaces tantae 
+          perfec<lb break="no" ed="#P" n="37"/>tionis. In rebus autem spiritualibus major 
+          per<lb break="no" ed="#P" n="38"/>fectio est, posse adesse alicubi sine 
+          commen<lb break="no" ed="#P" n="39"/>suratione quantitativa, id est, exhibendo 
+          par<lb break="no" ed="#P" n="40"/>tem sui parti loci et totam substantiam toti
+          <lb ed="#P" n="41"/>loco, sed totam substantiam exhibendo 
+          praesen<lb break="no" ed="#P" n="42"/>tem toti spatio et cuilibet parti ejus. Et quo
+          <lb ed="#P" n="43"/>substantia spiritualis perfectior est , eo 
+          majo<lb break="no" ed="#P" n="44"/>rem quamdam sphaeram habere potest in hac
+          <lb ed="#P" n="45"/>praesentialitate et hoc plane ad perfectionem
+          <lb ed="#P" n="46"/>spectat. Ergo habere ex se infinitam 
+          quam<lb break="no" ed="#P" n="47"/>dam praesentialitatem, maxima perfectio est;
+          <lb ed="#P" n="48"/>ergo haec debita est divinae substantiae infinite
+          <lb ed="#P" n="49"/>et summe spirituali, quia talis perfectio de se
+          <lb ed="#P" n="50"/>nullam includit imperfectionem. Unde 
+          ulte<lb break="no" ed="#P" n="51"/>rius, quia omnis perfectio in Deo esse debet
+          <lb ed="#P" n="52"/>per modum actus absque potentialitate , ideo
+          <lb ed="#P" n="53"/>non solum habet in substantia sua 
+          aptitudi<lb break="no" ed="#P" n="54"/>nem ad hanc praesentiam, sed ex parte sua
+          <lb ed="#P" n="55"/>actu illam habet semper ac necessario, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hoc etiam pertinet ad immutabilitatem suam.
+          <lb ed="#P" n="57"/>Dico autem semper ex parte sua, quia 
+          praesen<lb break="no" ed="#P" n="58"/>tia videtur dicere relationem ad aliam rem,
+          <lb ed="#P" n="59"/>cui altera dicitur esse praesens et talem 
+          prae<lb break="no" ed="#P" n="60"/>sentiam Deus non habet necessario ad rem
+          <lb ed="#P" n="61"/>aliam extra se, quia nulla alia res necessario
+          <lb ed="#P" n="62"/>est. Ex parte ergo termini non est necessaria
+          <lb ed="#P" n="63"/>Deo semper talis praesentia , tamen ex parte
+          <lb ed="#P" n="64"/>fundamenti (ut ita rem explicemus) semper,
+          <lb ed="#P" n="65"/>ac necessario est ex parte Dei tale 
+          fundamen<lb break="no" ed="#P" n="66"/>tum, quia hoc pertiuet ad excellentiam ejus.
+          <lb ed="#P" n="67"/>Atque in hunc modum explicata immensitate,
+          <lb ed="#P" n="68"/>facile est, illam demonstrare vel a priori ex
+          <lb ed="#P" n="69"/>infinitate Dei et ex summa ejus perfectione ,
+          <lb ed="#P" n="70"/>quia haec est perfectio absoluta et sine 
+          im<lb break="no" ed="#P" n="71"/>perfectione, vel etiam a posteriori ex effectibus
+          <lb ed="#P" n="72"/>Dei, non tantum quos de facto operatus est,
+          <lb ed="#P" n="73"/>sed quos in infinitum operari potest sine ulla
+          <lb ed="#P" n="74"/>sui mutatione. Quae omnia latus prosecuti 
+          su<lb break="no" ed="#P" n="75"/>mus disputatione trigesima Metaphysicae, 
+          sec<lb break="no" ed="#P" n="76"/>tone septima, et ideo satis est illa summatim
+          <lb ed="#P" n="77"/>hic proponere.
+        </p>
+        <p xml:id="szduep-012300-d1e344">
+          <lb ed="#P" n="78"/>3. Ea boc attributo oritur ubiquitas Dei. —
+          <lb ed="#P" n="79"/>Ex hoc vero attributo sic explicato colligitur
+          <lb ed="#P" n="80"/>primo ubiquitas Dei, seu Deum esse ubique et
+          <lb ed="#P" n="81"/>in omnibus rebus. Quod etiam de fide certum
+          <lb ed="#P" n="82"/>est, ut notavit Chrysostomus Concil. 5, in ad
+          <lb ed="#P" n="83"/>Colossenses secundo: Deus in Ceelo sursum et
+          <lb ed="#P" n="84"/>in terra deorsum , per quae duo extrema 
+          com<lb break="no" ed="#P" n="85"/>prehenduntur omnia media, sicut Jeremiae
+          <lb ed="#P" n="86"/>vigesimo tertio : Celumn et terram ego impleo.
+          <lb ed="#P" n="87"/>Et Esaiae sexagesimo sexto : Colun sedes mea
+          <lb ed="#P" n="88"/>est et terra scabellum pedum meorum. Loquitur
+          <lb ed="#P" n="89"/>enim Scriptura hominibus more humano et
+          <lb ed="#P" n="90"/>ita, ut describat Deum replentem omnia, 
+          uti<lb break="no" ed="#P" n="91"/>tur metaphora illa humanae positionis, ac si
+          <lb ed="#P" n="92"/>haberet pedes in terra et caput in coelo et 
+          cor<lb break="no" ed="#P" n="93"/>pore suo caetera repleret. Hanc etiam 
+          verita<lb break="no" ed="#P" n="94"/>tem docere voluit Christus Joannis quarto,
+          <lb ed="#P" n="95"/>quando Samaritanae interroganti de loco 
+          ora<lb break="no" ed="#P" n="96"/>tionis, respondit : Deum spiritum esse, et in
+          <lb ed="#P" n="97"/>spiritu et veritate debere adorari. Quae 
+          adora<lb break="no" ed="#P" n="98"/>tio in spiritu inter alia hoc continet, quod non
+          <lb ed="#P" n="99"/>est ad certum locum definita, sed ubique fieri
+          <lb ed="#P" n="100"/>potest, quia ubique Deus est. Atque ita 
+          intel<lb break="no" ed="#P" n="101"/>lexerunt haec loca et veritatem hanc sancti
+          <lb ed="#P" n="102"/>Patres, quorum aliquos in citato loco 
+          Meta<lb break="no" ed="#P" n="103"/>physicae retuli. Et praeterea Dionysius , capite
+          <lb ed="#P" n="104"/>quinto de divinis nominibus de Deo inquit:
+          <lb ed="#P" n="105"/>Quue sunt omnia et ante habet, et subsistere 
+          fa<lb break="no" ed="#P" n="106"/>cit omnibus , et ubique presens. Athanasius
+          <lb ed="#P" n="107"/>libro, quod perfectum hominem assumpserit
+          <lb ed="#P" n="108"/>Deus, ad Liberium: Deus (inquit) spiritus est
+          <lb ed="#P" n="109"/>loco incomprehensibilis, neque uspiam est regio
+          <lb ed="#P" n="110"/>ubi non eaistat. Unde ratio, contra Idol. post
+          <pb ed="#P" n="50"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>medium ait: Notum est omnibus, Deum esse
+          <lb ed="#P" n="2"/>ubique. Basilius oratione in principio 
+          Evan<lb break="no" ed="#P" n="3"/>gelii Joannis : Totum (ait) quodcumque noveris
+          <lb ed="#P" n="4"/>et quocumque spiritu tuo penetraveris , Deo
+          <lb ed="#P" n="5"/>plenwm invenies. Idem habet Gregorius 
+          Nysse<lb break="no" ed="#P" n="6"/>nus Oratione in id : Faciamus hominem , et
+          <lb ed="#P" n="7"/>caetera. Chrysostomus homilia decima 
+          sep<lb break="no" ed="#P" n="8"/>tima , in Genes. : IVon ambulat Deus, absit;
+          <lb ed="#P" n="9"/>quomodo enim ambularet , qui ubigue preesens
+          <lb ed="#P" n="10"/>et omnia implet? ldem Cyrillus libro primo,
+          <lb ed="#P" n="11"/>in Joannem, capite nono et libro Thesauri,
+          <lb ed="#P" n="12"/>capite septimo, ait Deum replere et penetrare
+          <lb ed="#P" n="13"/>omnia. Cyprianus de Idol. vanitate post multa
+          <lb ed="#P" n="14"/>concludit : Ergo Deus unus est et ubique totus
+          <lb ed="#P" n="15"/>diffusus ; quee verba notanda sunt. Hilarius
+          <lb ed="#P" n="16"/>primo, de Trinitate : Nullus sine Deo , neque
+          <lb ed="#P" n="17"/>ullus non in Deo locus est. Hem libro secundo,
+          <lb ed="#P" n="18"/>Deus ubique est. Idem Augustinus libro quinto
+          <lb ed="#P" n="19"/>de Trinitate capite primo: 7ntelligamus Deum
+          <lb ed="#P" n="20"/>sine situ presentem. Et hbro septimo de 
+          Civi<lb break="no" ed="#P" n="21"/>tate, capite trigesimo. Et optime Origenes
+          <lb ed="#P" n="22"/>homilia duodecima in Genesim et libro primo
+          <lb ed="#P" n="23"/>in Joannem , Anastasius Synaita libro 
+          secun<lb break="no" ed="#P" n="24"/>do, de rectis fidei dogmatibus : Deus, inquit,
+          <lb ed="#P" n="25"/>essentia cum sit, que sunt omnia divina sua
+          <lb ed="#P" n="26"/>adimplet essentia, estque in omnibus quee sunt.
+        </p>
+        <p xml:id="szduep-012300-d1e479">
+          <lb ed="#P" n="27"/>4. Triplici modi est Deus in rebus. — Haec
+          <lb ed="#P" n="28"/>autem veritas sequitur evidenter ex attributo
+          <lb ed="#P" n="29"/>immensitatis, advertendo per hanc 
+          ubiquita<lb break="no" ed="#P" n="30"/>tem seu existentiam in rebus non addi Deo
+          <lb ed="#P" n="31"/>aliquam perfectionem vel modum realem, sed
+          <lb ed="#P" n="32"/>solum concomitantiam quamdam alterius rei
+          <lb ed="#P" n="33"/>vel aliarum rerum existentium , quae eo ipso,
+          <lb ed="#P" n="34"/>quod sunt, intra se habent divinam 
+          substan<lb break="no" ed="#P" n="35"/>tiam praesentem , id est, omnino indistantem
+          <lb ed="#P" n="36"/>ab ipsis : hoc enim significamus, cum dicimus
+          <lb ed="#P" n="37"/>DEUM esse in ipsis. Ad quod magis 
+          explican<lb break="no" ed="#P" n="38"/>dum distinguunt theologi tres modo existendi
+          <lb ed="#P" n="39"/>DEI in rebus, per praesentiam, per potentiam
+          <lb ed="#P" n="40"/>et per essentiam, insinuatos a Gregorio 
+          homi<lb break="no" ed="#P" n="41"/>lia octayo in Ezechielem et declaratos optime
+          <lb ed="#P" n="42"/>a divo Thoma quaestione octava , articulo 
+          ter<lb break="no" ed="#P" n="43"/>tio, magistrorum expositoribus in primo, 
+          dis<lb break="no" ed="#P" n="44"/>ünctione trigesima septima. Quibus locis inter
+          <lb ed="#P" n="45"/>scholasticos longa disputatio fit de 
+          significa<lb break="no" ed="#P" n="46"/>tione illorum verborum. Sed in re clara et in
+          <lb ed="#P" n="47"/>qua solum esse potest quaestio de significatione
+          <lb ed="#P" n="48"/>vocis, non oportet contendere, sed meliorem
+          <lb ed="#P" n="49"/>magisque usitatam eligere significationem.
+          <lb ed="#P" n="50"/>Igitur preesentia in communi usu dicitur in
+          <lb ed="#P" n="51"/>ordine ad intuitionem et potissime dicitur de
+          <lb ed="#P" n="52"/>objecto praesenti : tamen inde etiam persona ,
+          <lb ed="#P" n="53"/>quae alteram rem intuetur, dicitur illi esse
+          <lb ed="#P" n="54"/>praesens, atque hoc modo dicitur esse DEUS
+          <lb ed="#P" n="55"/>per praesentiam in omnibus rebus, inspiciendo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et intuendo omnia clarissime, juxta illud ad
+          <lb ed="#P" n="57"/>Hebraeos quarto : Non est ulla creatura 
+          invisi<lb break="no" ed="#P" n="58"/>bilis in conspectu ejus, omnia autem nuda et
+          <lb ed="#P" n="59"/>aperta sunt oculis ejus. Jeremise vigesimo 
+          quar<lb break="no" ed="#P" n="60"/>to : Si occultabitur vir in absconditis e ego non
+          <lb ed="#P" n="61"/>videbo eun ? Haec vero praesentia non ad 
+          prae<lb break="no" ed="#P" n="62"/>sens attributum, sed ad scientiam Dei spectat,
+          <lb ed="#P" n="63"/>intelligereturque esse in Deo, etiamsi in coelo
+          <lb ed="#P" n="64"/>tantum esset , atque inde omnia videret, 
+          pro<lb break="no" ed="#P" n="65"/>prieque dicitur ratione scientiae visionis , quae
+          <lb ed="#P" n="66"/>ad res ut existentes terminatur et ideo non 
+          se<lb break="no" ed="#P" n="67"/>quitur, ut Durandus objicit , DEUM esse in 
+          re<lb break="no" ed="#P" n="68"/>bus per potentiam, quatenus virtute sua et 
+          ac<lb break="no" ed="#P" n="69"/>tione omnia continet, et conservat et cum
+          <lb ed="#P" n="70"/>omnibus actu operatur, juxta illud ad Hebraeos
+          <lb ed="#P" n="71"/>primo : Portansque omnia verbo virtutis sue ;
+          <lb ed="#P" n="72"/>et Actuum decimoseptimo : 7n ipso enim 
+          vivi<lb break="no" ed="#P" n="73"/>mus, movemur et sumus. Et hic etiam modus
+          <lb ed="#P" n="74"/>directe et per se non spectat ad praesens 
+          attri<lb break="no" ed="#P" n="75"/>butum, sed ad Dei omnipotentiam, 
+          providen<lb break="no" ed="#P" n="76"/>tiam, gubernationem ac creationem. Dico 
+          au<lb break="no" ed="#P" n="77"/>tem directe et per se, nam consequenter vel
+          <lb ed="#P" n="78"/>per illationem pertinere fortasse potest, ut 
+          sta<lb break="no" ed="#P" n="79"/>tim dicam. Tertio ergo modo dicitur DEUS esse
+          <lb ed="#P" n="80"/>inrebus creatis per essentiam, id est, per 
+          indis<lb break="no" ed="#P" n="81"/>tantiam essentiae suae ab omnibus rebuscreatis,
+          <lb ed="#P" n="82"/>quae vocatur praesentia substantialis in 
+          omni<lb break="no" ed="#P" n="83"/>bus illis et de hac est proprie in praesenti sermo.
+        </p>
+        <p xml:id="szduep-012300-d1e607">
+          <lb ed="#P" n="84"/>Et hanc dico evidenter inferri ex immensitate,
+          <lb ed="#P" n="85"/>quia Deus per immensitatem suam intelligitur
+          <lb ed="#P" n="86"/>esse ita dispositus et quasi diffusus (nostro
+          <lb ed="#P" n="87"/>more loquendi ) ad existendum per essentiam
+          <lb ed="#P" n="88"/>seu substantialem praesentiam in quacumque
+          <lb ed="#P" n="89"/>re, ut nihil ex parte illius ad illam desit; ac
+          <lb ed="#P" n="90"/>proinde eo ipso, quod aliquid aliud creatur
+          <lb ed="#P" n="91"/>seu est, necessario est realis a substantia DEI
+          <lb ed="#P" n="92"/>et substantia DEI ab ipso: hoc autem est esse
+          <lb ed="#P" n="93"/>DEUM in tali re per essentiam. Unde si per 
+          im<lb break="no" ed="#P" n="94"/>possibile posset aliqua res existere sine 
+          effi<lb break="no" ed="#P" n="95"/>cientia DEI, nihilominus DEUS esset in illa
+          <lb ed="#P" n="96"/>per essentiam suam eo ipso quod alaa res
+          <lb ed="#P" n="97"/>esset, quia non posset talis entitas non habere
+          <lb ed="#P" n="98"/>intra se intime entitatem Dei. Et ita clare 
+          cerni<lb break="no" ed="#P" n="99"/>tur distinctio inter hunc modum praesentiae per
+          <lb ed="#P" n="100"/>essentiam ab aliis duobus. Primum ex his 
+          mo<lb break="no" ed="#P" n="101"/>dis significavit supra Gregorius cum dixit:
+          <lb ed="#P" n="102"/>Deus ubique praesens est. Secundum dicens:
+          <lb ed="#P" n="103"/>Omnia tangit et vivificat. Tertium cum ait:
+          <lb ed="#P" n="104"/>Incircumscriptus est et ubique totus. Quae 
+          mul<lb break="no" ed="#P" n="105"/>tis aliis verbis declarat. Sunt autem alii duo
+          <lb ed="#P" n="106"/>singulares modi, quibus DEUS dicitur esse vel
+          <lb ed="#P" n="107"/>in sanctis per gratiam sanctificantem vel in
+          <lb ed="#P" n="108"/>Christi humanitate per gratiam 
+          sanctifican<lb break="no" ed="#P" n="109"/>tem, vel in Christi humanitate per gratiam
+          <lb ed="#P" n="110"/>unionis suae, qui non pertinent ad praesens at-
+          <pb ed="#P" n="51"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tributum et hic ultimus longum requirit 
+          trac<lb break="no" ed="#P" n="2"/>tatum, de quo in primo tomo, tertia parte 
+          dic<lb break="no" ed="#P" n="3"/>tum est. De altero vero nonnihil dicemus infra
+          <lb ed="#P" n="4"/>libro duodecimo, de Trinitate, explicando 
+          invi<lb break="no" ed="#P" n="5"/>sibilem Spiritus sancti missionem.
+        </p>
+        <p xml:id="szduep-012300-d1e683">
+          <lb ed="#P" n="6"/>5. Proprie convenit Deo esse ubique ev 
+          neces<lb break="no" ed="#P" n="7"/>sitate. — Ex dictis intelligere licet hoc 
+          praedi<lb break="no" ed="#P" n="8"/>catum essendi in rebus seu ubique proprie et
+          <lb ed="#P" n="9"/>actualiter non convenire Deo ex necessitate,
+          <lb ed="#P" n="10"/>sed dependenter a libertate sua; in quo 
+          mul<lb break="no" ed="#P" n="11"/>tum differt ab attributo immensitatis. Nam
+          <lb ed="#P" n="12"/>hoc convenit Deo omnino necessario, 
+          immuta<lb break="no" ed="#P" n="13"/>biliter et ab aeterno : nam semper Deus tam
+          <lb ed="#P" n="14"/>immensus fuit, sicut nunc est et licet nihil
+          <lb ed="#P" n="15"/>extra se produceret, immensus semper esset,
+          <lb ed="#P" n="16"/>quia illa perfectio et intrinsecus modus 
+          essen<lb break="no" ed="#P" n="17"/>di divinae substantiae, quam immensitas 
+          sup<lb break="no" ed="#P" n="18"/>ponit et in qua negat terminum, absoluta
+          <lb ed="#P" n="19"/>perfectio Dei est, nullo modo pendens ex
+          <lb ed="#P" n="20"/>creatura. At vero esse in rebus actualiter et 
+          si<lb break="no" ed="#P" n="21"/>militer esse ubique connotant aliquam rem
+          <lb ed="#P" n="22"/>extra Deum actualiter existentem, in qua Deus
+          <lb ed="#P" n="23"/>dicatur existere. Hoc autem simpliciter 
+          neces<lb break="no" ed="#P" n="24"/>sarium non est, sed liberum Deo, ut 
+          supponi<lb break="no" ed="#P" n="25"/>mus; et ideo praedicatum illud non est ex 
+          attri<lb break="no" ed="#P" n="26"/>butis, quae Deo necessario conveniunt 
+          neces<lb break="no" ed="#P" n="27"/>sitate absoluta , sed tantum conditionata, quia
+          <lb ed="#P" n="28"/>si alia res sit, necesse est ut Deus sit in illa
+          <lb ed="#P" n="29"/>ratione suae immensitatis. Et ideo tale 
+          praedi<lb break="no" ed="#P" n="30"/>catum ex tempore incepit convenire Deo, quia
+          <lb ed="#P" n="31"/>( ut supponimus) nihil extra ipsum ab aeterno
+          <lb ed="#P" n="32"/>realiter extitit. Neque hinc sequitur mutatio
+          <lb ed="#P" n="33"/>aliqua vel additio, quae in Deo fiat sed tantum
+          <lb ed="#P" n="34"/>in creatura, quia Deum esse in creatura ultra
+          <lb ed="#P" n="35"/>immensitatem ejus nihil intrinsecum in eo
+          <lb ed="#P" n="36"/>ponit, sed solam denominationem extrinsecam,
+          <lb ed="#P" n="37"/>ortam ex coexistentia creaturarum cum ipso,
+          <lb ed="#P" n="38"/>seu ex relatione creaturarum ad ipsum, cui ex
+          <lb ed="#P" n="39"/>parte Dei nulla relatio realis ad creaturam 
+          cor<lb break="no" ed="#P" n="40"/>respondet, quia Deus non est capax talium 
+          rela<lb break="no" ed="#P" n="41"/>tionum, ut nunc etiam supponimus et in capite
+          <lb ed="#P" n="42"/>sequenti et in ultimo hujus libri aliquid de
+          <lb ed="#P" n="43"/>hoc dicemus, nam generale est ad omnia,
+          <lb ed="#P" n="44"/>quae ex tempore de Deo dicuntur.
+        </p>
+        <p xml:id="szduep-012300-d1e770">
+          <lb ed="#P" n="45"/>6. Existentia Dei actualis ex actione ad 
+          ea<lb break="no" ed="#P" n="46"/>tra pendet. Hinc etiam intelligitur hanc 
+          exis<lb break="no" ed="#P" n="47"/>tentiam Dei in creaturis, licet fundamentaliter
+          <lb ed="#P" n="48"/>supponat immensitatem, tamen ut actualiter
+          <lb ed="#P" n="49"/>sit, pendere ex actione Dei ad extra quam 
+          ne<lb break="no" ed="#P" n="50"/>cessario supponit. Hoc patet primo, quia hoc
+          <lb ed="#P" n="51"/>praedicatum essendi in rebus et liberum et
+          <lb ed="#P" n="52"/>temporale est ; ergo est tale ab actione Dei 
+          h<lb break="no" ed="#P" n="53"/>bera et temporali ; ergo ab actione Dei 
+          tran<lb break="no" ed="#P" n="54"/>seunte, seu ut habente actu terminum ad 
+          ex<lb break="no" ed="#P" n="55"/>tra, quae non est nisi actio ad extra. Patet
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>utraque consequentia, quia nihil habet esse
+          <lb ed="#P" n="57"/>Iiberum, nisi vel quatenus actio libera est vel
+          <lb ed="#P" n="58"/>quatenus ab actione libera pendet et in ea 
+          ah<lb break="no" ed="#P" n="59"/>quo modo fundatur. Actio autem libera et
+          <lb ed="#P" n="60"/>temporalis non est in Deo nisi actio ad extra;
+          <lb ed="#P" n="61"/>nam actus, immanentes ut sic, etiam si liberi
+          <lb ed="#P" n="62"/>sint, ab aeterno sunt, etiam secundum suam
+          <lb ed="#P" n="63"/>terminationem liberam ; ergo cum hoc 
+          praedi<lb break="no" ed="#P" n="64"/>catum non solum sit suo modo liberum sed
+          <lb ed="#P" n="65"/>etiam temporale, omnino pendet ex actione
+          <lb ed="#P" n="66"/>Dei ad extra. Unde licet supra dixerimus, si
+          <lb ed="#P" n="67"/>res aliqua extra Deum habere posset 
+          existen<lb break="no" ed="#P" n="68"/>tiam sine actione Del, necessario futurum
+          <lb ed="#P" n="69"/>fuisse Deum in illa per essentiam ex vi 
+          immen<lb break="no" ed="#P" n="70"/>sitatis, hoc solum verum est ex hypothesi: 
+          ta<lb break="no" ed="#P" n="71"/>men quia illa hypothesis est impossibilis 
+          sim<lb break="no" ed="#P" n="72"/>pliciter, quia nulla res extra Deum potest 
+          ha<lb break="no" ed="#P" n="73"/>bere existentiam sine effectione Dei, ideo 
+          ab<lb break="no" ed="#P" n="74"/>solute supponenda est ilia actio, ut Deus sit
+          <lb ed="#P" n="75"/>in rebus.
+        </p>
+        <p xml:id="szduep-012300-d1e842">
+          <lb ed="#P" n="76"/>7. Dubium. — MHic vero statim suboritur
+          <lb ed="#P" n="77"/>quaestio, an ex actione Dei in rebus colligatur
+          <lb ed="#P" n="78"/>bene existentia Dei in illis vel potius ex 
+          prae<lb break="no" ed="#P" n="79"/>sentia colligenda sit actio. Sed hanc 
+          quaestio<lb break="no" ed="#P" n="80"/>nem late tractavi in citato loco Metaphysicae
+          <lb ed="#P" n="81"/>et ideo illam omitto, licet soleat disputari 
+          in<lb break="no" ed="#P" n="82"/>ter D. Thomam et Scotum in 1 parte, 
+          quaes<lb break="no" ed="#P" n="83"/>tione octava. Nam D. Thomas illa ratione 
+          uti<lb break="no" ed="#P" n="84"/>tur, quae non placet Scoto. Est autem ratio
+          <lb ed="#P" n="85"/>satis philosophica et consentanea Scripturis, ut
+          <lb ed="#P" n="86"/>ibi dictum est. Sive illatio nitatur in hoc quod
+          <lb ed="#P" n="87"/>nulla causa agit in distans, sive ( quod facilius
+          <lb ed="#P" n="88"/>est) in hoc quod causa perfectissimo agens
+          <lb ed="#P" n="89"/>modo, perfecte etiam adest suo effectui 
+          illum<lb break="no" ed="#P" n="90"/>que secum conjunctum habet, ut illi perfecte
+          <lb ed="#P" n="91"/>dominetur. Potest autem hoc modo ex actione
+          <lb ed="#P" n="92"/>Dei inferri a posteriori immensitas ipsius, quia
+          <lb ed="#P" n="93"/>sicut agit in hoc universum, quod creavit,
+          <lb ed="#P" n="94"/>posset agere in aliud duplo majus et sic in 
+          in<lb break="no" ed="#P" n="95"/>tinitum et in plures alios mundos sine termino
+          <lb ed="#P" n="96"/>et sine sui mutatione. Actualis vero praesentia
+          <lb ed="#P" n="97"/>substantialis ad omnes res existentes colligitur
+          <lb ed="#P" n="98"/>a priori ex immensitate ; necessarium vero est
+          <lb ed="#P" n="99"/>adjungere actionem, ut per eam possint 
+          crea<lb break="no" ed="#P" n="100"/>turae habere existensiam et ita compleantur,
+          <lb ed="#P" n="101"/>quae conditiones necessariae ad illam 
+          denomi<lb break="no" ed="#P" n="102"/>nationem, duae sunt tanquam fundamentum
+          <lb ed="#P" n="103"/>et terminus, unde consurgit relatio et 
+          deno<lb break="no" ed="#P" n="104"/>minatio. Nam fundamentum ponitur ex vi
+          <lb ed="#P" n="105"/>immensitatis , terminus ponitur per actionem
+          <lb ed="#P" n="106"/>Dei. Ex sola vero actione a posteriori infertur,
+          <lb ed="#P" n="107"/>supponi in Deo quicquid necessarium est ad
+          <lb ed="#P" n="108"/>illam praesentiam : quandoquidem posito 
+          ter<lb break="no" ed="#P" n="109"/>mino illius denominationis per actionem, non
+          <lb ed="#P" n="110"/>potest deesse denominatio seu praesentia. Ft
+          <pb ed="#P" n="52"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ita est facilis ratio, non est tamen evidentior,
+          <lb ed="#P" n="2"/>quam sit illud principium, in quo fundatur.
+          <lb ed="#P" n="3"/>Reliqua in citato loco videri possunt.
+        </p>
+        <p xml:id="szduep-012300-d1e932">
+          <lb ed="#P" n="4"/>8. Ita Deum esse in rebus, ut non finiatur
+          <lb ed="#P" n="5"/>ab illis. — Ultimo addendum est et sequitur
+          <lb ed="#P" n="6"/>etiam ex dictis, Deum ita esse nunc ubique, id
+          <lb ed="#P" n="7"/>est, in omnibus rebus existentibus, ut non 
+          de<lb break="no" ed="#P" n="8"/>finiatur nec circumscribatur illis. Hoc etiam
+          <lb ed="#P" n="9"/>est certissimum et absolute loquendo videtur
+          <lb ed="#P" n="10"/>de fide : nam hac ratione dicitur in Scriptura
+          <lb ed="#P" n="11"/>Deus non capi locis creatis, nec solis illis 
+          con<lb break="no" ed="#P" n="12"/>tineri, 3. Regum octavo: Si Cehun et Cali
+          <lb ed="#P" n="13"/>Calorun te capere non possunt ; et Job., 
+          un<lb break="no" ed="#P" n="14"/>decimo, ea ratione dicitur Deus Ecelsior Coelo,
+          <lb ed="#P" n="15"/>profundior inferno et longior terra ; et 
+          eccle<lb break="no" ed="#P" n="16"/>sia dicit Beatissimae Virgini Dei genitric :
+          <lb ed="#P" n="17"/>Quem caeeli capere non poterant, et cetera. Va
+          <lb ed="#P" n="18"/>etiam frequenter loquuntur sancti, et hoc 
+          sen<lb break="no" ed="#P" n="19"/>su negant posse Deum circumscribi ; 
+          loquun<lb break="no" ed="#P" n="20"/>tur enim non solum de propria 
+          circumscrip<lb break="no" ed="#P" n="21"/>tione ccrporali et cum extensione quantitatis,
+          <lb ed="#P" n="22"/>nam eo ipso quod Deus corporeus non esi,
+          <lb ed="#P" n="23"/>constat non esse capacem talis 
+          circumsceriptio<lb break="no" ed="#P" n="24"/>nis ; sed nomine circumscriptionis intelligunt
+          <lb ed="#P" n="25"/>quacummque inclusionem et definitionem, ad
+          <lb ed="#P" n="26"/>finitum spacium seu locum, extra quem res
+          <lb ed="#P" n="27"/>non sit. Quomodo etiam angeli dicuntur 
+          cir<lb break="no" ed="#P" n="28"/>cumscribi vel (ad tollendam aequivocationem)
+          <lb ed="#P" n="29"/>definiri loco. Sic dixit Basilius homil. in 
+          prin<lb break="no" ed="#P" n="30"/>cipium Evangelii Joannis : Deuwn non contineri
+          <lb ed="#P" n="31"/>loco, nec in circumsepto aliquo, aut in 
+          circum<lb break="no" ed="#P" n="32"/>scriptione certa deprehendi, et subdit rationem:
+          <lb ed="#P" n="33"/>Quia infinitus est. Sic dixit Chrysostomus 
+          ho<lb break="no" ed="#P" n="34"/>milia 4, m Joannis, hicet Deus inpumeros 
+          mun<lb break="no" ed="#P" n="35"/>dos crearet sine sui mutatione sufficientem
+          <lb ed="#P" n="36"/>esse ad gubernandos omnes, eodem utique
+          <lb ed="#P" n="37"/>modo et eum eadem praesentia, cum qua in
+          <lb ed="#P" n="38"/>hoc existit. Sic etiam dixit Athenagoras in 
+          le<lb break="no" ed="#P" n="39"/>cationem pro Christian. : Deus ita mundum
+          <lb ed="#P" n="40"/>excedit, ut ampleat undequaque quicquid supra
+          <lb ed="#P" n="41"/>ipswm est, nec locum ullum se vacuwm relinquat.
+          <lb ed="#P" n="42"/>Sic etiam dixit Theodorus serm. 2, de 
+          Provi<lb break="no" ed="#P" n="43"/>dentia: Omnia item complectitur ipse a nullo
+          <lb ed="#P" n="44"/>circunscriptus ; et Prudentius in Hymno de S.
+          <lb ed="#P" n="45"/>ttomano, de Deo eleganter dixit : Deus 
+          peren<lb break="no" ed="#P" n="46"/>nis, res imestimalilis, extraque et intus veptet,
+          <lb ed="#P" n="47"/>ac superfluit. Augustinus etiam late hoc docet
+          <lb ed="#P" n="48"/>11, de Civit.. Significat etiam Boetius lib. 1,
+          <lb ed="#P" n="49"/>de Trinitate ; in hoc enim sensu ait: Omnem
+          <lb ed="#P" n="50"/>locum adesse Deo, cum uullus locus sufficiens sit
+          <lb ed="#P" n="51"/>ad ipsum capiendum ; et Gregorius, 2. Moral.
+          <lb ed="#P" n="52"/>cap. 7: Demn (ait) ita manere intra omnia, u
+          <lb ed="#P" n="53"/>sit extra omnia, etc. Denique ex divina 
+          immen<lb break="no" ed="#P" n="54"/>state hoc evidenter sequitur. Quia Deus non
+          <lb ed="#P" n="55"/>ita clauditur in hoc universo, quin de se sit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sufficiens ad existendum in alio duplo et triplo 
+          <lb ed="#P" n="57"/>majoris magnitudinis sine ullo termino. Hic
+          <lb ed="#P" n="58"/>vero cccurrebat statim quaestio, an dicendus
+          <lb ed="#P" n="59"/>sit Deus esse extra hoc universum vel in 
+          spa<lb break="no" ed="#P" n="60"/>ciis imaginariis, sed eam late tractavi in dicto
+          <lb ed="#P" n="61"/>loco Metaphysiee neque nunc novi aliquid
+          <lb ed="#P" n="62"/>occurrit addendum.
+        </p>
+        <p xml:id="szduep-012300-d1e1065">
+          <lb ed="#P" n="63"/>9. Objectioni occurritur. — Contra veritatem 
+          <lb ed="#P" n="64"/>catholicam nihil occurrit objiciendum, quo
+          <lb ed="#P" n="65"/>difficultatem magnam habeat. Nam illud, quod
+          <lb ed="#P" n="66"/>mens nostra non satis concipit, quomodo 
+          pos<lb break="no" ed="#P" n="67"/>sit una indivisibilis et simplicissima res esse 
+          <lb ed="#P" n="68"/>tota in tam magna mole vel infinito spacio et
+          <lb ed="#P" n="69"/>tota in singulis partibus et punctis ejus; hoe,
+          <lb ed="#P" n="70"/>inquam, suo modo commune est omnibus 
+          re<lb break="no" ed="#P" n="71"/>bus spiritualibus et animae nostrae; et licet non
+          <lb ed="#P" n="72"/>satis intelligatur, quia non concipimus 
+          spiri<lb break="no" ed="#P" n="73"/>tualia prout in se sunt, ex effectibus ipsis 
+          ne<lb break="no" ed="#P" n="74"/>cessarium esse cognoscitur et non invenitur 
+          <lb ed="#P" n="75"/>in illa proprietate repugnantia. Multo ergo
+          <lb ed="#P" n="76"/>majori ratione intelligimus illam proprietatem 
+          <lb ed="#P" n="77"/>convenire divina substantiae modo altiori et
+          <lb ed="#P" n="78"/>proportionato illi, ac proinde sine limitatione, 
+          <lb ed="#P" n="79"/>quod per immensitatem intelligimus. Unde
+          <lb ed="#P" n="80"/>quod aliunde objici potest, quia videtur ille
+          <lb ed="#P" n="81"/>modus diffusionis et quasi extensionis repu-]
+          <lb ed="#P" n="82"/>gnare divinae substantiae propter 
+          simplicita<lb break="no" ed="#P" n="83"/>tem ejus, tam in entitate sua quam in omni
+          <lb ed="#P" n="84"/>modo illius, quia modus ille praesentiae vide-]
+          <lb ed="#P" n="85"/>tur habere aliquem modum extensionis, etiam
+          <lb ed="#P" n="86"/>in spiritualibus rebus. Hoc, inquam, in dicta
+          <lb ed="#P" n="87"/>sectione 7, in fine ejus expeditum est, dicendo 
+          <lb ed="#P" n="88"/>hanc substantialem praesentiam Dei omnino
+          <lb ed="#P" n="89"/>indivisibilem esse, non solum in se, sed etiam
+          <lb ed="#P" n="90"/>prout correspondet partibus spaci vel rei, in
+          <lb ed="#P" n="91"/>qua esse intelligitur et in hoc supetare omnem
+          <lb ed="#P" n="92"/>praesentiam spiritualis creaturee cum quadam
+          <lb ed="#P" n="93"/>excellentia incommunicabih omni creaturae.
+          <lb ed="#P" n="94"/>ut nos credimus. Denique quod aliqui 
+          admi<lb break="no" ed="#P" n="95"/>rantur, quomodo possit sine indecentia 
+          intel<lb break="no" ed="#P" n="96"/>ligi substantia Dei realiter praesens locis 
+          im<lb break="no" ed="#P" n="97"/>mundissimis; hoc sane valde populare est;
+          <lb ed="#P" n="98"/>cum enim nullum commercium in hoe sit inter
+          <lb ed="#P" n="99"/>corpus et spiritum et Deus ipse per se faciat
+          <lb ed="#P" n="100"/>vel conservet, quicquid entitatis est in hujus
+          <lb ed="#P" n="101"/>modi rebus, in eis est et decentissimo et di
+          <lb ed="#P" n="102"/>gnissimo modo, sine umbra imperfectionis 
+          <lb ed="#P" n="103"/>De qua re legi potest Augustinus libro de Nat,
+          <lb ed="#P" n="104"/>boni, cap. 39, et libro de Agon. Christ. c. 18,
+          <lb ed="#P" n="105"/>et Hugo Vict. lib. 1 de Sacram., par. 3, cap. 17]
+          <lb ed="#P" n="106"/>Magist. cum Doctoribus in 1, dist. 17. 
+        </p>
+        <p xml:id="szduep-012300-d1e1163">
+          <lb ed="#P" n="107"/>10. Objectio. — Tandem contra probatione
+          <lb ed="#P" n="108"/>ex Scriptura objici potest, quia in eis videtu
+          <lb ed="#P" n="109"/>esse sermo de existentia Dei in rebus per prae
+          <lb ed="#P" n="110"/>sentiam cognitionis et hoc modo dicitur esst
+          <pb ed="#P" n="53"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ubique, nec est locus, ubi alius modus expresse
+          <lb ed="#P" n="2"/>asseratur. Nam in Psalm. 138, prius dicitur:
+          <lb ed="#P" n="3"/>Hcce, Domine , tu cognovisti omnia novissima
+          <lb ed="#P" n="4"/>et antiqua, etc., et confortata est scientia tua ea
+          <lb ed="#P" n="5"/>mc ; et postea subjungitur : Quo àibo a spiritu
+          <lb ed="#P" n="6"/>tuo, etc., et tandem concluditur : S'i descendero
+          <lb ed="#P" n="7"/>in infermtm, ades. Quod optime intelligitur per
+          <lb ed="#P" n="8"/>praesentiam et intuitionem ac scientiam, hoc
+          <lb ed="#P" n="9"/>enim crat assumptum quod proposuerat. Item
+          <lb ed="#P" n="10"/>Jeremius, 32, prius dicitur : $ occultabitur
+          <lb ed="#P" n="11"/>vir in abscondito et ego non videbo eum, dicit
+          <lb ed="#P" n="12"/>Dominus; et statim subjungitur : Nwnquid non
+          <lb ed="#P" n="13"/>caelum et terram ego impleo? dicit Dominus. Et
+          <lb ed="#P" n="14"/>similiter Sapient. i, dicitur: Menum illius 
+          tes<lb break="no" ed="#P" n="15"/>tis est Deus et cordis illius scrutator est verus;
+          <lb ed="#P" n="16"/>et tunc subditur : Quoniam spiritus Domini
+          <lb ed="#P" n="17"/>repleoit orbem terrarun, etc. ; intelligit ergo
+          <lb ed="#P" n="18"/>per praesentiam replere. Sic etiam Job, 11,
+          <lb ed="#P" n="19"/>postquam altitudinem, profunditatem et 
+          longi<lb break="no" ed="#P" n="20"/>tudinem Dei descripserat, subjungit : /pse enim
+          <lb ed="#P" n="21"/>novit hominum vanitatem et videns iniquitatem
+          <lb ed="#P" n="22"/>nonne considerat ^ Ac denique Actor, 17, 
+          dici<lb break="no" ed="#P" n="23"/>tur, eum non longe esse ab unoquoque 
+          nos<lb break="no" ed="#P" n="24"/>trum, ratione providentiae suee, quod ad 
+          prae<lb break="no" ed="#P" n="25"/>sentiam etiam cognitionis pertinet. Aliunde
+          <lb ed="#P" n="26"/>vero in alius locis dicitur Deus specialiter esse
+          <lb ed="#P" n="27"/>in.coelo, ut Ps. 113: Calwn coli Domino, 
+          ter<lb break="no" ed="#P" n="28"/>ram autem dedit Fliis homimtmn, cum 
+          simih<lb break="no" ed="#P" n="29"/>bus. Addi etiam hic possunt Patres, qui 
+          inter<lb break="no" ed="#P" n="30"/>dum dicunt: Deuwn musquam essc, ut patet ex
+          <lb ed="#P" n="31"/>Chrysostomo , Athanasio et Damasceno, ubi
+          <lb ed="#P" n="32"/>supra, et Augustino, lib. de essentia Divinit.
+          <lb ed="#P" n="33"/>in principio et lib. 83, q. q. 20, Bernardo,
+          <lb ed="#P" n="34"/>lib. 5, de Consid., Anselmo in Monol. c. 22
+          <lb ed="#P" n="35"/>et 23.
+        </p>
+        <p xml:id="szduep-012300-d1e1254">
+          <lb ed="#P" n="36"/>11. Resolutio. — Dicendum vero est, etiamsi
+          <lb ed="#P" n="37"/>sacra Scriptura expresse doceat existentiam
+          <lb ed="#P" n="38"/>Dei in omnibus rebus per praesentiam et 
+          po<lb break="no" ed="#P" n="39"/>tentiam, tamen etiam expresse docere 
+          existen<lb break="no" ed="#P" n="40"/>tiam per realem praesentiam, neque hanc posse
+          <lb ed="#P" n="41"/>excludi a vero testimoniorum omnium sensu.
+          <lb ed="#P" n="42"/>Primo, propter communem sensum et Patrum
+          <lb ed="#P" n="43"/>traditionem. Secundo propter verborum 
+          pro<lb break="no" ed="#P" n="44"/>prietatem, nam ratione solius praesentiae 
+          co<lb break="no" ed="#P" n="45"/>gnitionis non potest Deus de se dicere: Caelwn
+          <lb ed="#P" n="46"/>et terram ego impleo et similia, quia verbum
+          <lb ed="#P" n="47"/>replendi non significat cognitionem, nisi a 
+          pro<lb break="no" ed="#P" n="48"/>pria significatione multum extrahatur: quod
+          <lb ed="#P" n="49"/>fieri non potest , praesertim quia in ipsismet
+          <lb ed="#P" n="50"/>Scripturae locis distinguitur replere a 
+          cognos<lb break="no" ed="#P" n="51"/>cere seu videre, ut ex uno aliud probetur seu
+          <lb ed="#P" n="52"/>inferatur. Unde videtur Spiritus sanctus 
+          ser<lb break="no" ed="#P" n="53"/>monem seu rationem hominibus 
+          accommo<lb break="no" ed="#P" n="54"/>dasse ; et quia nos solemus ea videre a quibus
+          <lb ed="#P" n="55"/>non distamus secundum realem praesentiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>seu propinquitatem, ideo ad declarandum 
+          quo<lb break="no" ed="#P" n="57"/>modo Deus intucatur omnia, etiam si in 
+          abdi<lb break="no" ed="#P" n="58"/>tissimis locis fieri videantur, id declarat et
+          <lb ed="#P" n="59"/>probat, quia Deus secundum substantiam suam
+          <lb ed="#P" n="60"/>omnia replet et ubique est : et ita 
+          intelligun<lb break="no" ed="#P" n="61"/>tur optime omnia loca. Quod autem interdum
+          <lb ed="#P" n="62"/>dicitur Deus esse in coelo, nihil obstat, quia
+          <lb ed="#P" n="63"/>illud per quamcam excellentiam et singularem
+          <lb ed="#P" n="64"/>rationem dictum intelligitur ; vel quia ibi 
+          ex<lb break="no" ed="#P" n="65"/>cellentiora opera facit et seipsum sanctis 
+          ma<lb break="no" ed="#P" n="66"/>nifestat, vel quia ibi specialiter regnat, colitur
+          <lb ed="#P" n="67"/>et adoratur, propter quod dicitur coelum 
+          spe<lb break="no" ed="#P" n="68"/>cialiter esse sedes et thronus Dei. Ne autem
+          <lb ed="#P" n="69"/>putetur non esse in terra, haec dicitur 
+          scabel<lb break="no" ed="#P" n="70"/>lum pedum ejus, Matthaeo 5 et aliis locis
+          <lb ed="#P" n="71"/>supra citatis, in quibus Patres ita exponunt.
+          <lb ed="#P" n="72"/>Ubi autem Patres dicunt Deum nullibi esse,
+          <lb ed="#P" n="73"/>intelligunt nullibi esse ut in loco adaequato,
+          <lb ed="#P" n="74"/>quo circumscribatur vel definiatur. Vel etiam
+          <lb ed="#P" n="75"/>docent Deum non ita esse in rebus, ut eas 
+          re<lb break="no" ed="#P" n="76"/>quirat ad suum naturalem existendi modum,
+          <lb ed="#P" n="77"/>nec ahliquid vel aliquem modum intrinsecu
+          <lb ed="#P" n="78"/>ab eis accipiat, sed potius res ipsas foveat et
+          <lb ed="#P" n="79"/>conservet, qua ratione interdum Deum ipsum
+          <lb ed="#P" n="80"/>vocant locum aliarum rerum, ut est apud 
+          Theo<lb break="no" ed="#P" n="81"/>philum Antiochenum lib. 2, ad Autholycum
+          <lb ed="#P" n="82"/>in tom. 5, Bibhothecae, et videri possunt de hoc
+          <lb ed="#P" n="83"/>puncto dicta in illa sect. 7 Metaph., dub. ult.
+          <lb ed="#P" n="84"/>19. Quaestio. — Inquirit ultimo in hac 
+          ma<lb break="no" ed="#P" n="85"/>teria divus Thomas 1 p., q. S, art. ultimo,
+          <lb ed="#P" n="86"/>an sit Dei proprium esse ubique; et 
+          respon<lb break="no" ed="#P" n="87"/>det affirmando quod aliqui interpretantur
+          <lb ed="#P" n="88"/>esse verum, rebus ut nunc existentibus, quia
+          <lb ed="#P" n="89"/>si tantum esset unum corpus, illud vere 
+          dice<lb break="no" ed="#P" n="90"/>retur esse ubique, id est, in omni loco reali,
+          <lb ed="#P" n="91"/>quia non esset alius locus realis, nisi quem ille
+          <lb ed="#P" n="92"/>occuparet. Dico vero esse ubique, esse aliquo
+          <lb ed="#P" n="93"/>modo Dei proprium et incommunicabile, etiam
+          <lb ed="#P" n="94"/>de potentia Dei absoluta. Quatenus Deo 
+          repu<lb break="no" ed="#P" n="95"/>gnat ut sit aliquid in rerum natura, in quo
+          <lb ed="#P" n="96"/>ipse non sit ; quod non repugnat, nec 
+          repu<lb break="no" ed="#P" n="97"/>gnare potest ulli creaturae, quia illud proxime
+          <lb ed="#P" n="98"/>nascitur ex immensitate et ita loquitur clare
+          <lb ed="#P" n="99"/>D. Thomas et Patres supra citati et 
+          Damasce<lb break="no" ed="#P" n="100"/>nus lib. 1, c. 26 et 17, et Ambrosius, lib. 1, de
+          <lb ed="#P" n="101"/>Spiritu sancto, cap. 7. ÀAn vero sit aliqua 
+          crea<lb break="no" ed="#P" n="102"/>tura possibihs, quae actu sit praesens in toto
+          <lb ed="#P" n="103"/>hoc mundo corporeo, illud probabihter 
+          dispu<lb break="no" ed="#P" n="104"/>tari potest, ut latius dicitur in materia de 
+          an<lb break="no" ed="#P" n="105"/>gelis. Nam de corpore ego puto probabilius
+          <lb ed="#P" n="106"/>dici non posse, esse ubique saltem modo 
+          quan<lb break="no" ed="#P" n="107"/>titativo, quia eo ipso quod non est totum ubi
+          <lb ed="#P" n="108"/>est una pars, non est ubique. De creatura vero
+          <lb ed="#P" n="109"/>spirituali secundum suum naturalem modum
+          <lb ed="#P" n="110"/>existendi, vel de corporea existenti in loco per
+          <pb ed="#P" n="54"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>modum substantiae, ut est corpus Christi 
+          Do<lb break="no" ed="#P" n="2"/>mini in sacrosancta Eucharistia, alia ratio est.
+          <lb ed="#P" n="3"/>De qua re aliqua dixi in 1 tom., 3 p., disput.
+          <lb ed="#P" n="4"/>31, sect. 4.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

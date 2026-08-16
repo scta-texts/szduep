@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="468"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-119002"><!-- t2-l3c6 -->
+        <head xml:id="szduep-119002-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-119002-Hd1e103" type="question-title">Quae vocatio et praevenientia auxilia sint praedestinationis effectus</head>
+        <p xml:id="szduep-119002-d1e106">
+          <lb ed="#P" n="91"/>CAPUT VI.
+          <lb ed="#P" n="92"/>QUAE VOCATIO ET PRAEVENIENTIA AUXILIA SINT
+          <lb ed="#P" n="93"/>PRAEDESTINATIONIS EFFECTUS.
+        </p>
+        <p xml:id="szduep-119002-d1e115">
+          <lb ed="#P" n="94"/>1. Ratio dubii. — Vocationem esse 
+          praedesti<lb break="no" ed="#P" n="95"/>nationis effectum satis aperte docuit Paulus ad
+          <lb ed="#P" n="96"/>Romanos 8, dicens: Quos autem praedestinavit,
+          <lb ed="#P" n="97"/>hos et vocavit. Difficultas ergo solum est, de
+          <lb ed="#P" n="98"/>qua vocatione sit sermo et quid sub vocatione
+          <lb ed="#P" n="99"/>comprehendatur. Ratio dubitandi in priori
+          <lb ed="#P" n="100"/>puncto est, quia duplex est vocatio, una 
+          effi<lb break="no" ed="#P" n="101"/>cax seu congrua: altera inefficax. Utraque 
+          au<lb break="no" ed="#P" n="102"/>tem illarum habet locum in praedestinato et in 
+          <lb ed="#P" n="103"/>reprobo. Cum ergo constet, neutram 
+          vocatio<lb break="no" ed="#P" n="104"/>nem esse in reprobo praedestinationis effectum, 
+          <lb ed="#P" n="105"/>videndum est, cur in praedestinato sit 
+          praedes<lb break="no" ed="#P" n="106"/>tinationis effectus, et an hoc sit verum de omni 
+          <lb ed="#P" n="107"/>vocatione, vel de sola efficaci, et an de omni
+          <lb ed="#P" n="108"/>efficaci, vel tantum de aliqua.
+        </p>
+        <p xml:id="szduep-119002-d1e150">
+          <pb ed="#P" n="469"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Et quidem apud Augustinum saepe 
+          inve<lb break="no" ed="#P" n="2"/>pis illam vocationem quae est ec proposito,
+          <lb ed="#P" n="3"/>esse praedestinationis effectum, ut videre licet,
+          <lb ed="#P" n="4"/>lib. 2, contra duas Epist. Pelag. cap. 10, et de
+          <lb ed="#P" n="5"/>Pradest. Sanct., cap. 16 et 17, et lib. 1, ad
+          <lb ed="#P" n="6"/>Simplician. queest. 29. Eumque imitantur 
+          Pros<lb break="no" ed="#P" n="7"/>per in libris de Vocatione gentium, et 
+          Fulgen<lb break="no" ed="#P" n="8"/>tius, libro 1 ad Monimm, Ansclnüs inad
+          <lb ed="#P" n="9"/>Roman. 8, sumiturque ex verbis illis ejusdem
+          <lb ed="#P" n="10"/>capitis: Diligentibus Dewn omnia cooperantur
+          <lb ed="#P" n="11"/>in bonum, his qui secundum propositum vocati
+          <lb ed="#P" n="12"/>sunt sancti. Intelliguntur enim haec verba, non
+          <lb ed="#P" n="13"/>de proposito hominis, sed Dei, ut alibi latius
+          <lb ed="#P" n="14"/>dictum est: et clarius explicuit idem Apostolus
+          <lb ed="#P" n="15"/>2. Timoth. 1: Vocavit nos vocatione sua sancta,
+          <lb ed="#P" n="16"/>non secundum merita nostra, sed secundum 
+          pro<lb break="no" ed="#P" n="17"/>positum suum et gratiam.
+        </p>
+        <p xml:id="szduep-119002-d1e195">
+          <lb ed="#P" n="18"/>3. Vera expositio. —Quid autem sit hoc 
+          pro<lb break="no" ed="#P" n="19"/>positum Dei, nunquam satis Augustinus 
+          decla<lb break="no" ed="#P" n="20"/>ravit. Potest enim esse propositum dandi 
+          glo<lb break="no" ed="#P" n="21"/>riam, vel dandi proximum effectum vocationis,
+          <lb ed="#P" n="22"/>ut fidem, vel poenitentiam, etc., vel solum 
+          dan<lb break="no" ed="#P" n="23"/>di talem vocationem, quam Deus per 
+          condi<lb break="no" ed="#P" n="24"/>tionatam praescientiam praeviderat fore 
+          con<lb break="no" ed="#P" n="25"/>gruam, si daretur. Et ideo variae sunt de hoc
+          <lb ed="#P" n="26"/>opiniones , quae in superioribus tactae sunt.
+          <lb ed="#P" n="27"/>Mihi tamen probabilius multo est, ex mente
+          <lb ed="#P" n="28"/>Augustini, citatis locis, intelligendum hoc esse
+          <lb ed="#P" n="29"/>de proposito electionis seu dilectionis ad 
+          glo<lb break="no" ed="#P" n="30"/>riam. Vult enim Augustinus illam vocationem
+          <lb ed="#P" n="31"/>ex proposito esse propriam praedestinatorum:
+          <lb ed="#P" n="32"/>quod non potest esse verum, nisi ex tali 
+          pro<lb break="no" ed="#P" n="33"/>posito procedat. Nam propositum dandi 
+          voca<lb break="no" ed="#P" n="34"/>tionem, quae ad proximum actum suum futura
+          <lb ed="#P" n="35"/>est congrua et efficax, commune est reprobis:
+          <lb ed="#P" n="36"/>saepe enim Deusillos vocat isto modo, et certum
+          <lb ed="#P" n="37"/>est non vocare illos sine praescientia, nec sine
+          <lb ed="#P" n="38"/>illo proposito: similiter propositum de ipso
+          <lb ed="#P" n="39"/>actu libero, propter quem datur vocatio, in
+          <lb ed="#P" n="40"/>reprobis locum habet: nam licet aliquis non sit
+          <lb ed="#P" n="41"/>efficaciter ad gloriam praeordinatus, saepe est
+          <lb ed="#P" n="42"/>destinatus efficaciter ad temporalem justitiam
+          <lb ed="#P" n="43"/>et ad fidem, et ita saepe vocatur ex proposito
+          <lb ed="#P" n="44"/>Dei efficaci, ut credat, vel poenitentiam agat.
+          <lb ed="#P" n="45"/>Credibile enim est, quando Deus vocavit Judam
+          <lb ed="#P" n="46"/>ad Apostolatum, vocasse illum congruo modo
+          <lb ed="#P" n="47"/>ex proposito, ut consentiret et fieret cum 
+          ef<lb break="no" ed="#P" n="48"/>fectu Christi discipulus, esto non esset effectus
+          <lb ed="#P" n="49"/>ad perseverandum in illo statu. Sola ergo 
+          vo<lb break="no" ed="#P" n="50"/>catio ex proposito efficaci gloriae seu gratiase
+          <lb ed="#P" n="51"/>finalis (quod perinde est) est proprius 
+          praedes<lb break="no" ed="#P" n="52"/>tinationis effectus.
+        </p>
+        <p xml:id="szduep-119002-d1e273">
+          <lb ed="#P" n="53"/>4. Omnis vocatio praedestinati, quae in ordine
+          <lb ed="#P" n="54"/>ad. aliquem actum seu consensum est efficax
+          <lb ed="#P" n="55"/>praedestinationis ejus. — Atque hinc ulterius
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sequitur, omnem vocationem proeedestinati ,
+          <lb ed="#P" n="57"/>quae in ordine ad aliquem actum seu 
+          consen<lb break="no" ed="#P" n="58"/>sum proximum efficax est, esse effectum 
+          prae<lb break="no" ed="#P" n="59"/>destinationis ejus. Probatur, quia talis vocatio
+          <lb ed="#P" n="60"/>semper est ex proposito, non tantum effectus
+          <lb ed="#P" n="61"/>proximi vocationis, sed etiam effectus ultimi
+          <lb ed="#P" n="62"/>totius praedestinationis, id est, proposito 
+          elec<lb break="no" ed="#P" n="63"/>tionis ad gloriam. Quia ille consensus propter
+          <lb ed="#P" n="64"/>quem detur talis vocatio efficax, est etiam 
+          ef<lb break="no" ed="#P" n="65"/>ficaciter praefinitus propter gloriam. 
+          Confir<lb break="no" ed="#P" n="66"/>matur, quia talis vocatio semper cum effectu
+          <lb ed="#P" n="67"/>confert saltem mediate ad effectum gloriae
+          <lb ed="#P" n="68"/>consequendum: at hoc satis est, ut sit effectus
+          <lb ed="#P" n="69"/>praedestinationis, sicut jam declaratum est.
+          <lb ed="#P" n="70"/>Assumptum patet, quia omnis bonus actus
+          <lb ed="#P" n="71"/>praedestinati, praesertim procedens ex speciali
+          <lb ed="#P" n="72"/>vocatione supernaturali, semper habet aliquem
+          <lb ed="#P" n="73"/>fructum in vitam aeternam, vel per modum
+          <lb ed="#P" n="74"/>meriti , vel per modum dispositionis proximae
+          <lb ed="#P" n="75"/>vel remotae, ut jam explicatum est. Atque hoc
+          <lb ed="#P" n="76"/>confirmat illud Pauli ad Roman. 8: 
+          Diligenti<lb break="no" ed="#P" n="77"/>bus Dewun omnia cooperantur in bonum, his qui
+          <lb ed="#P" n="78"/>secundumn propositum vocati sunt sancti. Nam
+          <lb ed="#P" n="79"/>si haec sententia Pauli extenditur ad alia 
+          infe<lb break="no" ed="#P" n="80"/>riora bona, imo etiam ad mala, ut multi 
+          sen<lb break="no" ed="#P" n="81"/>tiunt, multo certius habebit locum in omnibus
+          <lb ed="#P" n="82"/>supernaturalibus actibus qui ex vocatione 
+          pro<lb break="no" ed="#P" n="83"/>cedunt, ac subinde in omni vocatione efficaci
+          <lb ed="#P" n="84"/>ad aliquem actum supernaturalem.
+        </p>
+        <p xml:id="szduep-119002-d1e347">
+          <lb ed="#P" n="85"/>5. Probabilis opinio.— Flecti vocantur sepe
+          <lb ed="#P" n="86"/>inefficaciter —Inefficae vocatio in 
+          predestina<lb break="no" ed="#P" n="87"/>tis est effectus praedestinationis.—Probutur.—
+          <lb ed="#P" n="88"/>Addo vero praeterea, probabile esse, omnem 
+          su<lb break="no" ed="#P" n="89"/>pernaturalem vocationem praedestinati, etiam
+          <lb ed="#P" n="90"/>si reipsa non sit efficax in ordine ad 
+          obtinen<lb break="no" ed="#P" n="91"/>dum consensum seu actum, ad quem homo
+          <lb ed="#P" n="92"/>vocatur , esse praedestinationis effectum. Hoc
+          <lb ed="#P" n="93"/>videri potest difficile, quia Augustinus solam
+          <lb ed="#P" n="94"/>efficacem et congruam vocationem videtur 
+          po<lb break="no" ed="#P" n="95"/>nere praedestinationis effectum. Hoc videri
+          <lb ed="#P" n="96"/>potest difficile, quia Augustinus solam 
+          effti<lb break="no" ed="#P" n="97"/>cacem , et congruam vocationem videtur 
+          po<lb break="no" ed="#P" n="98"/>nere praedestinationis effectum. Sed imprimis
+          <lb ed="#P" n="99"/>certum est, electos et praedestinatos saepe 
+          vo<lb break="no" ed="#P" n="100"/>cari inefficaciter : ut, verbi gratia, Paulus
+          <lb ed="#P" n="101"/>priusquam vocaretur vocatione illa 
+          efficacissi<lb break="no" ed="#P" n="102"/>ma et congrua, saepe forte vocatus fuerat 
+          com<lb break="no" ed="#P" n="103"/>muni et sufficiente vocatione: idem credibile
+          <lb ed="#P" n="104"/>est de multis Judaeis qui Christum 
+          praedican<lb break="no" ed="#P" n="105"/>tem et vocantem audierunt, eique resisterunt,
+          <lb ed="#P" n="106"/>et postea per Apostolos conversi sunt et salvati,
+          <lb ed="#P" n="107"/>quia praedestinati erant. Et in nobis quotidie
+          <lb ed="#P" n="108"/>contingit vocare nos Deum ad perfectionem
+          <lb ed="#P" n="109"/>vel statum religionis, et saepius resistere, 
+          tan<lb break="no" ed="#P" n="110"/>dem vero consentire, vel alteri vocationi simili,
+          <pb ed="#P" n="470"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel saltem alicui, quae ad salutem aeternam
+          <lb ed="#P" n="2"/>consequendam sufficit. Est ergo in 
+          praedesti<lb break="no" ed="#P" n="3"/>natis saepe inefficax vocatio. Quod autem 
+          nihil<lb break="no" ed="#P" n="4"/>ominus talis vocatio sit effectus 
+          praedestinatio<lb break="no" ed="#P" n="5"/>nis, ostenditur primo, quia talis vocatio 
+          pro<lb break="no" ed="#P" n="6"/>cedit etiam ex intentione efficaci dandi gloriam,
+          <lb ed="#P" n="7"/>atque adeo ex proposito: ergo est effectus 
+          prae<lb break="no" ed="#P" n="8"/>destinationis. Consequentia patet ex dictis:
+          <lb ed="#P" n="9"/>quia electio ad gloriam est fons et origo totius
+          <lb ed="#P" n="10"/>praedestinationis.
+        </p>
+        <p xml:id="szduep-119002-d1e432">
+          <lb ed="#P" n="11"/>6. Antecedens vero patet, ex quadam 
+          doc<lb break="no" ed="#P" n="12"/>trina supra adducta ex D. Thoma, quod Deus
+          <lb ed="#P" n="13"/>seepe vocat praedestinatum, ut non cadat, non
+          <lb ed="#P" n="14"/>absolute et determinate, sed quasi sub 
+          condi<lb break="no" ed="#P" n="15"/>tione, vel disjunctim, ut non cadat, vel si 
+          ce<lb break="no" ed="#P" n="16"/>ciderit, ut resurgat. Nam juxta hanc doctrinam,
+          <lb ed="#P" n="17"/>etiam tunc quando vocatio ad non cadendum
+          <lb ed="#P" n="18"/>non est omnino efficax et congrua, datur ex
+          <lb ed="#P" n="19"/>proposito praedestinationis , quia datur ex 
+          in<lb break="no" ed="#P" n="20"/>tentione ultimi etfectus ejus, quantum est ex
+          <lb ed="#P" n="21"/>parte Dei, et cum animo supplendi defectum,
+          <lb ed="#P" n="22"/>si ex parte hominis positum fuerit 
+          impedimen<lb break="no" ed="#P" n="23"/>tum. Sicut in humana providentia, quando ex
+          <lb ed="#P" n="24"/>intentione efficaci salutis sumo medicinam, si
+          <lb ed="#P" n="25"/>forte prosit, quamvis non certo sciam esse 
+          pro<lb break="no" ed="#P" n="26"/>futuram, et licet cum effectu non prosit, 
+          nihil<lb break="no" ed="#P" n="27"/>ominus sumptio illius, effectus est talis 
+          inten<lb break="no" ed="#P" n="28"/>tionis. Deus autem licet non ignoret, an talis
+          <lb ed="#P" n="29"/>vocatio habitura sit effectum, sed praesciat fore
+          <lb ed="#P" n="30"/>impediendam a praedestinato, nihilominus ex
+          <lb ed="#P" n="31"/>parte sua dat illa ex absoluta intentione 
+          sal<lb break="no" ed="#P" n="32"/>vandi illum, cupiens quantum est in se, 
+          inten<lb break="no" ed="#P" n="33"/>tionem illam mandari executioni per talem
+          <lb ed="#P" n="34"/>vocationem.
+        </p>
+        <p xml:id="szduep-119002-d1e487">
+          <lb ed="#P" n="35"/>7. Argumentum efficax. — Accedit praeterea (et
+          <lb ed="#P" n="36"/>est efficax argumentum) quod talis vocatio in
+          <lb ed="#P" n="37"/>praedestinato nunquam est sine aliquo fructu
+          <lb ed="#P" n="38"/>in ordine ad cónsecutionem vitae aeternae : et
+          <lb ed="#P" n="39"/>hoc satis est, ut sit praedestinationis effectus.
+          <lb ed="#P" n="40"/>Antecedens declaratur, quia licet illa vocatio
+          <lb ed="#P" n="41"/>non obtineat suum proximum finem, seu 
+          ef<lb break="no" ed="#P" n="42"/>fectum , ut supponitur : nihilominus potest
+          <lb ed="#P" n="43"/>aliquo modo parare viam, ut illa vocatio,
+          <lb ed="#P" n="44"/>quam nunc praedestinatus contemnit, postea
+          <lb ed="#P" n="45"/>in memoriam redacta per aliam vocationem
+          <lb ed="#P" n="46"/>congruam, sit incentivum humilitatis, 
+          grati<lb break="no" ed="#P" n="47"/>tudinis, vel alterius boni similis, quod illo
+          <lb ed="#P" n="48"/>modo efticaciter comparatur, et permanet in
+          <lb ed="#P" n="49"/>vitam aeternam. His ergo, et similibus modis,
+          <lb ed="#P" n="50"/>etiam vocationesillae, quae videntur inefficaces,
+          <lb ed="#P" n="51"/>cooperantur in bonum aeternum his, qui 
+          se<lb break="no" ed="#P" n="52"/>cundum propositum vocati sunt sancti, ac
+          <lb ed="#P" n="53"/>proinde sunt praedestinationis effectus. Jam
+          <lb ed="#P" n="54"/>vero talis vocatio sic considerata potest dici
+          <lb ed="#P" n="55"/>aliquo modo congrua, et efficax, quia licet
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non habet congruitatem in ordine ad 
+          proxi<lb break="no" ed="#P" n="57"/>mum actum, propter quem data est: respectu
+          <lb ed="#P" n="58"/>alterius fructus, quem tandem obtinet, congrua
+          <lb ed="#P" n="59"/>est, et suo modo efficax : et sub ea ratione
+          <lb ed="#P" n="60"/>comprehendi potest sub vocatione exproposito.
+        </p>
+        <p xml:id="szduep-119002-d1e548">
+          <lb ed="#P" n="61"/>8. Ultima resolutio. — Unde ultimo 
+          conclu<lb break="no" ed="#P" n="62"/>do, omnia auxilia praevenientia et excitantia,
+          <lb ed="#P" n="63"/>quae datur praedestinatis, quantumvis 
+          commu<lb break="no" ed="#P" n="64"/>nia, et sufficientia tantum videantur, esse 
+          ef<lb break="no" ed="#P" n="65"/>fectus praedestinationis, et electionis eorum.
+          <lb ed="#P" n="66"/>Probatur, quia haec auxilia sunt divinae 
+          illu<lb break="no" ed="#P" n="67"/>minationis, in quibus divina vocatio posita
+          <lb ed="#P" n="68"/>est, ut Tridentinum Concilium, sess. 6, cap. 4,
+          <lb ed="#P" n="69"/>5 et 7, declarat : si ergo talia auxilia sunt 
+          et<lb break="no" ed="#P" n="70"/>ficacia, pertinent ad vocationem congruam, si
+          <lb ed="#P" n="71"/>vero inefficacia, saltem pertinent ad 
+          vocatio<lb break="no" ed="#P" n="72"/>nem in electis esse effectum praedestinationis :
+          <lb ed="#P" n="73"/>ergo idem est censendum de omnibus diectis
+          <lb ed="#P" n="74"/>auxiliis. Imo non solum de internis auxiliis,
+          <lb ed="#P" n="75"/>sed etiam de externis idem dicendum est, ut
+          <lb ed="#P" n="76"/>de praedicatione Evangeli, de externis signis,
+          <lb ed="#P" n="77"/>miraculis, exemplis, et applicatione bonorum
+          <lb ed="#P" n="78"/>objectorum, et alia quacumque divina 
+          custo<lb break="no" ed="#P" n="79"/>dia. Nam licet sine interno spiritu gratiae haec
+          <lb ed="#P" n="80"/>non sufficiant, ut contra Pelagium late tractat
+          <lb ed="#P" n="81"/>Augustinus, libro de Gratia Christi, et Epist.
+          <lb ed="#P" n="82"/>90 et 95, et definit Concilium Milevitanum,
+          <lb ed="#P" n="83"/>cap. 4, nihilominus sunt supernaturalia 
+          bene<lb break="no" ed="#P" n="84"/>ficia , et necessaria in suo ordine ad pietatis -
+          <lb ed="#P" n="85"/>opera : ideoque quando sic dantur, ut prosint
+          <lb ed="#P" n="86"/>cum effectu ad salutem, ex praedestinatione
+          <lb ed="#P" n="87"/>sunt, juxta regulam Augustini de Bono 
+          per<lb break="no" ed="#P" n="88"/>sev., cap. 14. Praeterea, licet haec non semper
+          <lb ed="#P" n="89"/>proxime, seu statim prosint, tandem aliquo
+          <lb ed="#P" n="90"/>modo fructificant in praedestinatis, quibus 
+          om<lb break="no" ed="#P" n="91"/>nia cooperantur in bonum, et ideo verisimile
+          <lb ed="#P" n="92"/>est ista omnia esse in illis ex speciali 
+          provi<lb break="no" ed="#P" n="93"/>dentia praedestinationis , ac proinde esse 
+          ef<lb break="no" ed="#P" n="94"/>fectus illus.
+        </p>
+        <p xml:id="szduep-119002-d1e625">
+          <lb ed="#P" n="95"/>9. Objectio. — Responsum.— Dices, non esse
+          <lb ed="#P" n="96"/>necessarium, ut omnia haec beneficia habeant
+          <lb ed="#P" n="97"/>semper aliquem modum efficacis 
+          cooperatio<lb break="no" ed="#P" n="98"/>nis in ordine consecutionem vitae aeternae,
+          <lb ed="#P" n="99"/>etiam in praedestinatis. Cur enim non poterit
+          <lb ed="#P" n="100"/>esse in praedestinato aliqua vocatio, vel 
+          exci<lb break="no" ed="#P" n="101"/>tatio, quae nec tunc cum datur, habeat aliquem
+          <lb ed="#P" n="102"/>effectum liberum et bonum, nec etiam postea
+          <lb ed="#P" n="103"/>ad illum cooperetur, sed ita transeat, et 
+          obh<lb break="no" ed="#P" n="104"/>vioni tradatur, ac si nunquam fuisset ? Nulla
+          <lb ed="#P" n="105"/>enim ratione efficaci videtur posse oppositum
+          <lb ed="#P" n="106"/>probari. Respondeo concedendo, nos non 
+          pos<lb break="no" ed="#P" n="107"/>se certo demonstrare omnia haec auxilia 
+          prae<lb break="no" ed="#P" n="108"/>venientia, quae praedestinatis dantur, esse 
+          ef<lb break="no" ed="#P" n="109"/>fectus praedestinationis , proprie et in rigore
+          <lb ed="#P" n="110"/>sumptae : quia non est impossibile, ut aliqua
+          <pb ed="#P" n="471"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>proveniant ex sola generali providentia 
+          gra<lb break="no" ed="#P" n="2"/>tiae, si nullo modo sint efficacia, id est, cum
+          <lb ed="#P" n="3"/>effectu conducentia ad fructum vitae aeternae,
+          <lb ed="#P" n="4"/>quod in aliquibus non repugnat ut probat 
+          ob<lb break="no" ed="#P" n="5"/>jectio facta. Dicimus vero non esse incredibile,
+          <lb ed="#P" n="6"/>omnia haec auxilia esse aliquo modo utilia
+          <lb ed="#P" n="7"/>praedestinatis ad vitam aeternam, non solum
+          <lb ed="#P" n="8"/>de se, quod est clarum, sed etiam cum effectu,
+          <lb ed="#P" n="9"/>quia hoc est facile Deo, et est consentaneum
+          <lb ed="#P" n="10"/>dilectioni, et providentiae ejus erga 
+          praedesti<lb break="no" ed="#P" n="11"/>natos, consonatque illi sententiae Pauh: 
+          Dili<lb break="no" ed="#P" n="12"/>gentibus Deun omnia cooperantur in bomum.
+          <lb ed="#P" n="13"/>Unde saltem videtur certam regulariter, et
+          <lb ed="#P" n="14"/>ordinarie hoc ita esse , ac proinde simphciter
+          <lb ed="#P" n="15"/>statul posse generalem regulam, haec auxilia
+          <lb ed="#P" n="16"/>esse effectus praedestinationis, sive haec regula
+          <lb ed="#P" n="17"/>interdum patiatur raram aliquam 
+          exceptio<lb break="no" ed="#P" n="18"/>nem, sive non, quod est incertum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

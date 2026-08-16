@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="237"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-060414"><!-- t2-l1c2 -->
+        <head xml:id="szduep-060414-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-060414-Hd1e103" type="question-title">Sit ne praedestinatio actus immanens ex aeternitate deo conveniens</head>
+        <p xml:id="szduep-060414-d1e106">
+          <lb ed="#P" n="102"/>CAPUT II.
+          <lb ed="#P" n="103"/>SIT NE PRAEDESTINATIO ACTUS IMMANENS EX 
+          AETER<lb break="no" ed="#P" n="104"/>NITATE DEO CONVENIENS.
+        </p>
+        <p xml:id="szduep-060414-d1e115">
+          <lb ed="#P" n="105"/>1. Ratio dubitandi esse potest, quia 
+          praedes<lb break="no" ed="#P" n="106"/>tinatio definitur ab Augustino, quod sit, 
+          Pre<lb break="no" ed="#P" n="107"/>scientia et preparatio beneficiorum Dei, etc., de
+          <pb ed="#P" n="238"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bono perseverant, capite decimoquarto. Et
+          <lb ed="#P" n="2"/>quamvis praescientia sit aeterna, tamen 
+          prae<lb break="no" ed="#P" n="3"/>paratio, per quam ratio praedestinationis 
+          com<lb break="no" ed="#P" n="4"/>pletur, videtur esse temporalis erit. Minor
+          <lb ed="#P" n="5"/>quoad posteriorem partem probatur, quia 
+          arti<lb break="no" ed="#P" n="6"/>fex, qui deliberat de aedificio faciendo, non
+          <lb ed="#P" n="7"/>dicitur praeparare ad aedificium faciendum,
+          <lb ed="#P" n="8"/>donec materiam ex qua conficiendum est, 
+          con<lb break="no" ed="#P" n="9"/>gregare incipiat, et Rex non dicitur praeparare
+          <lb ed="#P" n="10"/>ad bellum, donec pecuniam congreget, arma
+          <lb ed="#P" n="11"/>emat, convocet milites; ergo similiter Deus
+          <lb ed="#P" n="12"/>non dicitur praeparare hominibus beneficia,
+          <lb ed="#P" n="13"/>donec illa conferre incipiat ; ergo praeparatio,
+          <lb ed="#P" n="14"/>ac proinde etiam praedestinatio non dicit 
+          ac<lb break="no" ed="#P" n="15"/>tum solum, immanentem et aeternum, sed 
+          in<lb break="no" ed="#P" n="16"/>volvit etiam aeternam et temporalem.
+        </p>
+        <p xml:id="szduep-060414-d1e163">
+          <lb ed="#P" n="17"/>2. Prima assertio. — Dicendum vero est
+          <lb ed="#P" n="18"/>primo. Praedestinationem esse actum 
+          imma<lb break="no" ed="#P" n="19"/>nentem in Deo, quem praedestinantem 
+          de<lb break="no" ed="#P" n="20"/>nominat intrinsece, rem autem circa quam
+          <lb ed="#P" n="21"/>versatus extrinsece, denominat praedestinatam.
+          <lb ed="#P" n="22"/>Haec assertio est divi Thomae, dicta quaetione
+          <lb ed="#P" n="23"/>vigesima tertia, articulo secundo, ubi in hoc
+          <lb ed="#P" n="24"/>sensu defendit praedestinationem nihil ponere
+          <lb ed="#P" n="25"/>in praedestinatis, sed in praedestinante. Et 
+          qui<lb break="no" ed="#P" n="26"/>dem quoad priorem partem spectat, intelligit
+          <lb ed="#P" n="27"/>nihil ponere in praedestinatis formaliter, quia
+          <lb ed="#P" n="28"/>non est forma illorum, eis inhaerens: effective
+          <lb ed="#P" n="29"/>autem aliquid ponit in illis, ut infra constabit
+          <lb ed="#P" n="30"/>declarando praedestinationis effectus. 
+          Relinqui<lb break="no" ed="#P" n="31"/>tur ergo, praedestinationem esse intrinsece in
+          <lb ed="#P" n="32"/>ipso Deo praedestinante : nam in aliquo esse
+          <lb ed="#P" n="33"/>debet intrinsece, ergo cum non sit in re 
+          prae<lb break="no" ed="#P" n="34"/>destinata, necesse est, ut sit in Deo. Dices, 
+          prae<lb break="no" ed="#P" n="35"/>destinationem dicere de formali respectum
+          <lb ed="#P" n="36"/>rationis, quia nec in Deo, nec in alio est 
+          intrin<lb break="no" ed="#P" n="37"/>sece. Respondeo, praedestinationem in se 
+          ali<lb break="no" ed="#P" n="38"/>quid esse reale, licet a nobis concipi, aut 
+          ex<lb break="no" ed="#P" n="39"/>plicari non possit, nisi per modum respectus
+          <lb ed="#P" n="40"/>rationis. Nam vere et in re Deus praedestinat
+          <lb ed="#P" n="41"/>et praedestinatio ipsa est vera causa realis 
+          plu<lb break="no" ed="#P" n="42"/>rium effectuum. Denique, quoad hoc eadem
+          <lb ed="#P" n="43"/>est ratio praedestinationis, quae est voluntatis
+          <lb ed="#P" n="44"/>et praescientiae Dei, prout circa creaturas 
+          ver<lb break="no" ed="#P" n="45"/>santur. Unde etiam constat, praedestinationem
+          <lb ed="#P" n="46"/>non posse esse in Deo, nisi actum 
+          immanen<lb break="no" ed="#P" n="47"/>tem, ut notavit divus Thomas, dicto articulo
+          <lb ed="#P" n="48"/>ad primum : tum quia praedestinatio non 
+          si<lb break="no" ed="#P" n="49"/>gnificat aliquid per modum actus primi, sed
+          <lb ed="#P" n="50"/>per modum actus ultimi et vitalis, sicut 
+          prae<lb break="no" ed="#P" n="51"/>scientia, electio et hujusmodi, ut ex ipsa vocis
+          <lb ed="#P" n="52"/>significatione et omnium sensu constat: tum
+          <lb ed="#P" n="53"/>etiam quia (ut statim dicam) praedestinatio
+          <lb ed="#P" n="54"/>dicit quid liberum: nihil autem denominatur
+          <lb ed="#P" n="55"/>liberum in Deo, nisi id, quod illi convenit per
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modum actus immanentis: reliqua enim 
+          attri<lb break="no" ed="#P" n="57"/>buta omnia ex necessitate illi conveniunt.
+        </p>
+        <p xml:id="szduep-060414-d1e258">
+          <lb ed="#P" n="58"/>3. Secunda assertio. — Secundo dicendum
+          <lb ed="#P" n="59"/>est, Praedestinationem esse actum aeternum et
+          <lb ed="#P" n="60"/>secundum totam rationem suam ex aeternitate
+          <lb ed="#P" n="61"/>convenire Deo. Est res certa, colligiturque ex
+          <lb ed="#P" n="62"/>illo ad Ephesios primo. legit nos in ipso ante
+          <lb ed="#P" n="63"/>muwndi constitutionem, et subdit inferius: Qui
+          <lb ed="#P" n="64"/>pradestinavit nos, utique tunc, quando nos
+          <lb ed="#P" n="65"/>elegit. Unde subdit inferius: Praedestinati
+          <lb ed="#P" n="66"/>secundum propositum ejus, qui operatur omnia
+          <lb ed="#P" n="67"/>secudum consilium voluntatis sue ; et ad hoc
+          <lb ed="#P" n="68"/>ipsum alludit Paulus ad Romanos, octavo, 
+          di<lb break="no" ed="#P" n="69"/>cens: Nam quos praescivit et preedestinavit,
+          <lb ed="#P" n="70"/>etc., et hos praedestinatos, statim vocat electos,
+          <lb ed="#P" n="71"/>dicens: Quis accusabit adversus electos Dei?
+          <lb ed="#P" n="72"/>Est ergo aeque aeterna praedestinatio, ac 
+          prae<lb break="no" ed="#P" n="73"/>scientia, vel electio. Et sic etiam primae Corinth.
+          <lb ed="#P" n="74"/>secundo. Sapientia incarnata dicitur, 
+          preedes<lb break="no" ed="#P" n="75"/>tinata ante secula in gloriam nostram. Quibus 
+          <lb ed="#P" n="76"/>locis omnes Patres agnoscunt, 
+          praedestinatio<lb break="no" ed="#P" n="77"/>nem esse aeternam, et Augustinus, de 
+          praedes<lb break="no" ed="#P" n="78"/>tinatione Sanctorum, capite decimo, et de Bono
+          <lb ed="#P" n="79"/>perseverantiae capite decimo, quarto. 
+          Fulgen<lb break="no" ed="#P" n="80"/>tius, libro primo, ad Monim., cap. 12 et 13.
+        </p>
+        <p xml:id="szduep-060414-d1e310">
+          <lb ed="#P" n="81"/>4. Ratio assertionis. — Ratione vere 
+          decla<lb break="no" ed="#P" n="82"/>ratur ex dictis, capite primo. Quia illa particula
+          <lb ed="#P" n="83"/>Pree, significat antecessionem divinae 
+          praedes<lb break="no" ed="#P" n="84"/>tinationis ad effectum ejus, qui est transmissio
+          <lb ed="#P" n="85"/>in gloriam, quae, mediante gratia, in tempore
+          <lb ed="#P" n="86"/>sit. Illa autem antecessio non potest esse per
+          <lb ed="#P" n="87"/>durationem finitam, sed per aeternitatem, 
+          cu<lb break="no" ed="#P" n="88"/>jus ratio est, quia nihil potest convenire Deo
+          <lb ed="#P" n="89"/>ex tempore; praeter denominationes 
+          extrinse<lb break="no" ed="#P" n="90"/>cas, seu revelationes rationis provenientes ex
+          <lb ed="#P" n="91"/>actuali effectione, seu existentia creaturarum;
+          <lb ed="#P" n="92"/>praedestinatio autem non dicit hujusmodi 
+          de<lb break="no" ed="#P" n="93"/>nominationem , cum antecedat existentiam
+          <lb ed="#P" n="94"/>effectus creati, ad quem dicit habitudinem:
+          <lb ed="#P" n="95"/>ergo necesse est, ut conveniat Deo ante 
+          tem<lb break="no" ed="#P" n="96"/>poris initium. Alioqui mutaretur Deus, si nunc
+          <lb ed="#P" n="97"/>praedestinaret et non antea, cum praedestinare
+          <lb ed="#P" n="98"/>illi non conveniat ex mutatione creaturae.
+        </p>
+        <p xml:id="szduep-060414-d1e352">
+          <lb ed="#P" n="99"/>5. Objectio.—Bifuriam objectioni occuritur.
+          <lb ed="#P" n="100"/>— Dices, Praedestinatio est pars 
+          providen<lb break="no" ed="#P" n="101"/>tiae: at providentia non est aeterna, sed 
+          tem<lb break="no" ed="#P" n="102"/>poralis, quod patet, quia providentia est 
+          pos<lb break="no" ed="#P" n="103"/>terior creatione, quia rebus jam creatis 
+          con<lb break="no" ed="#P" n="104"/>sulit, ut dixit Nemesius, in libro de Opificio
+          <lb ed="#P" n="105"/>hominis, capite quadragesimo secundo, creatio
+          <lb ed="#P" n="106"/>autem temporalis est, ergo. Respondeo primo,
+          <lb ed="#P" n="107"/>quidquid sit de providentia, quatenus procurat
+          <lb ed="#P" n="108"/>bonum rebus jam existentibus ; nihilominus
+          <lb ed="#P" n="109"/>praedestinationem ratione illius antecessionis,
+          <lb ed="#P" n="110"/>quam particula Prae indicat, abstrahere ab
+          <pb ed="#P" n="239"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>existentia rerum, quae praedestinantur, ut 
+          op<lb break="no" ed="#P" n="2"/>time dixit D. Thomas, articulo 2, ad 2, ac 
+          pro<lb break="no" ed="#P" n="3"/>inde esse aeternam. Secundo dicitur, etiam
+          <lb ed="#P" n="4"/>providentiam formaliter sumptam aeternam
+          <lb ed="#P" n="5"/>esse, ut idem D. Thomas, docuit, quaest. 22,
+          <lb ed="#P" n="6"/>art. 1, ad 2. Nam, licet executio providentiae
+          <lb ed="#P" n="7"/>temporalis sit, ad quam videtur Nemesius 
+          res<lb break="no" ed="#P" n="8"/>pexisse, tamen voluntas et ratio existens in
+          <lb ed="#P" n="9"/>mente Dei, per quam in tempore omnia 
+          gu<lb break="no" ed="#P" n="10"/>bernat, aeterna est, et illa vocatur roideuiia.
+        </p>
+        <p xml:id="szduep-060414-d1e407">
+          <lb ed="#P" n="11"/>6. Qualis preeparatio sit preedestinatio. —
+          <lb ed="#P" n="12"/>Ad rationem ergo dubitandi in principio 
+          po<lb break="no" ed="#P" n="13"/>sitam, respondetur, eamdem aequivocationem
+          <lb ed="#P" n="14"/>esse in verbo Praeparandi, est enim 
+          praepara<lb break="no" ed="#P" n="15"/>tio quaedam exterior, qualis esse solet, vel 
+          dis<lb break="no" ed="#P" n="16"/>positio aliqua materiae, vel saltem ipsiusmet
+          <lb ed="#P" n="17"/>mnateriae remotae congregatio, ut solet esse in
+          <lb ed="#P" n="18"/>humana praeparatione ad aedificium aliquod ; et
+          <lb ed="#P" n="19"/>talis praeparatio quatenus in aliquo Dei opere
+          <lb ed="#P" n="20"/>intelligi potest, temporalis est, ut probat ratio
+          <lb ed="#P" n="21"/>facta.Potestque exemplum adhiberi in creatione
+          <lb ed="#P" n="22"/>hominis, nam ante illam Deus quodam modo
+          <lb ed="#P" n="23"/>praeparavit materiam , formando corpus de
+          <lb ed="#P" n="24"/>Iimo terrae, quae praeparatio non minus 
+          tem<lb break="no" ed="#P" n="25"/>poralis fuit, quam ipsa creatio. Alia est 
+          prae<lb break="no" ed="#P" n="26"/>paratio mere interna in mente gubernatoris,
+          <lb ed="#P" n="27"/>seu provisoris, ut dicitur homo esse paratus
+          <lb ed="#P" n="28"/>ad respondendum , quando mente praevidit
+          <lb ed="#P" n="29"/>difficultates et praevenit responsiones earum,
+          <lb ed="#P" n="30"/>dicitur etiam quis paratus ad dandum, quando
+          <lb ed="#P" n="31"/>propositum voluntatis habet dandi tali 
+          tem<lb break="no" ed="#P" n="32"/>pore. Hoc ergo posteriori modo dicitur 
+          prae<lb break="no" ed="#P" n="33"/>destinatio, praeparatio in mente et voluntate
+          <lb ed="#P" n="34"/>Dei, nam et praenovit omnia media, per quae
+          <lb ed="#P" n="35"/>potest salvare electos suos et per voluntatis
+          <lb ed="#P" n="36"/>suae propositum illa eis praeparavit et talis
+          <lb ed="#P" n="37"/>praeparatio aeterna est. In idem redit quod D.
+          <lb ed="#P" n="38"/>Thomas dixit, d. art. 2, ad tertium, duplicem
+          <lb ed="#P" n="39"/>esse praeparationem, aliam patientis, aliam
+          <lb ed="#P" n="40"/>agentis, illamque esse aliquid in materia, quae
+          <lb ed="#P" n="41"/>praeparatur, et ideo esse temporalem, hanc vero
+          <lb ed="#P" n="42"/>esse tantum in ipso agente: et in agente per
+          <lb ed="#P" n="43"/>intellectum, et voluntatem solum esse 
+          praecon<lb break="no" ed="#P" n="44"/>ceptam rationem agendorum, vel voluntatis
+          <lb ed="#P" n="45"/>propositum ad agendum, et ideo hujusmodi
+          <lb ed="#P" n="46"/>praeparationem in Deo esse aeternam, 
+          talem<lb break="no" ed="#P" n="47"/>que esse praedestinationem.
+        </p>
+        <p xml:id="szduep-060414-d1e490">
+          <lb ed="#P" n="48"/>7. Addit vero Alensuis , dicta quaest. 9283
+          <lb ed="#P" n="49"/>Mem. 1, art. 3, differentiam inter Deum et
+          <lb ed="#P" n="50"/>creata agentia; quod agentia creata indigent
+          <lb ed="#P" n="51"/>aliqua externa materia ad agendum: et ideo
+          <lb ed="#P" n="52"/>tunc maxime dicuntur praeparari ad opus,
+          <lb ed="#P" n="53"/>quando materiam aliquo modo praeparant, vel
+          <lb ed="#P" n="54"/>disponunt saltem remote. Ad Deus non indiget
+          <lb ed="#P" n="55"/>ad agendum externa materia, sed sola sua
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>potentia, per quam est in sufficienti actu
+          <lb ed="#P" n="57"/>primo, et habet ex se omniarequisita ad 
+          agen<lb break="no" ed="#P" n="58"/>dum si velit, et ideo non indiget alia 
+          praepara<lb break="no" ed="#P" n="59"/>tione, praeterquam suae voluntatis proposito,
+          <lb ed="#P" n="60"/>ac deliberatione, quae aeterna est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

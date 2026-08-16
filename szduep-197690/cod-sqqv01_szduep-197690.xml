@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="782"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-197690"><!-- t3-l11c4 -->
+        <head xml:id="szduep-197690-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-197690-Hd1e103" type="question-title">Utrum spiritus sanctus ex vi sua processionis proprie ac personaliter habeat esse donum</head>
+        <p xml:id="szduep-197690-d1e106">
+          <lb ed="#P" n="78"/>CAPUT IV.
+          <lb ed="#P" n="79"/>UTRUM SPIRITUS SANCTUS EX VI SUA 
+          PROCESSIO<lb break="no" ed="#P" n="80"/>NIS PROPRIE AC PERSONALITER HABEAT ESSE
+          <lb ed="#P" n="81"/>DONUM.
+        </p>
+        <p xml:id="szduep-197690-d1e117">
+          <lb ed="#P" n="82"/>1. Prima opinio.—be hac re multa scribunt
+          <lb ed="#P" n="83"/>D. Thomas et ejus interpretes, 1 parte, q. 38,
+          <lb ed="#P" n="84"/>et scholastici, in 1, dist. 18, praesertim 
+          Bona<lb break="no" ed="#P" n="85"/>ventura, Scotus, Durandus, Gabriel, et 
+          Capreo<lb break="no" ed="#P" n="86"/>lus, Marsilius, in quaest. 21, inter quos 
+          Duran<lb break="no" ed="#P" n="87"/>dus praecipue negat, hoc nomen Donum esse
+          <lb ed="#P" n="88"/>proprium Spiritus sancti, sed appropriatum.
+          <lb ed="#P" n="89"/>Ille vero semper procedit ex illo falso errore,
+          <lb ed="#P" n="90"/>quod hae processiones personarum non sunt
+          <lb ed="#P" n="91"/>proprie per intellectum et voluntatem, nam
+          <lb ed="#P" n="92"/>inde consequenter negat quidquid proprie 
+          tri<lb break="no" ed="#P" n="93"/>buitur unicuique personae procedenti ratione
+          <lb ed="#P" n="94"/>suae processionis, ut est intellectus vel 
+          volun<lb break="no" ed="#P" n="95"/>tatis, inter quae numeratur hoc nomen Donmum.
+        </p>
+        <p xml:id="szduep-197690-d1e150">
+          <lb ed="#P" n="96"/>2. Vera sententia. — Reliqui ergo theologi
+          <lb ed="#P" n="97"/>conveniunt, Spiritum sanctum ex vi suae 
+          ori<lb break="no" ed="#P" n="98"/>ginis procedere ut Donum : atque ita hanc 
+          ap<lb break="no" ed="#P" n="99"/>pellationem in aliquo sensu esse illi propriam,
+          <lb ed="#P" n="100"/>et personalem. Sumpserunt autem hoc ex 
+          Au<lb break="no" ed="#P" n="101"/>gustino, qui saepe dicit, nomen Doni 
+          importa<lb break="no" ed="#P" n="102"/>re relationem, et originem Spiritus sancti, et
+          <lb ed="#P" n="103"/>eo esse Donum, quo Spiritum, et a Filio 
+          distin<lb break="no" ed="#P" n="104"/>gui, quod Filius procedit, ut natus, Spiritus
+          <lb ed="#P" n="105"/>ut datus, id est, dabilis, seu donabilis, ut 
+          in<lb break="no" ed="#P" n="106"/>fra dicam. Sumuntur vero hae locutiones ex
+          <lb ed="#P" n="107"/>libro 4, de Trinit., cap. 20, et libr. 5, cap. 11,
+          <lb ed="#P" n="108"/>usque ad 15, et libr. 15, cap. 19, et habent
+          <pb ed="#P" n="783"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fundamentum in illo Act. 2: Accipietis 
+          Do<lb break="no" ed="#P" n="2"/>num. Spiritus sancti, et cap. 8: Pecunia tua
+          <lb ed="#P" n="3"/>tecum sit in perditione, quia Donum Dei 
+          exis<lb break="no" ed="#P" n="4"/>timasti pecunia possideri. In modo autem 
+          ex<lb break="no" ed="#P" n="5"/>plicandi hanc denominationem, variant inter
+          <lb ed="#P" n="6"/>se dicti theologi, sed mihi non videtur res 
+          di<lb break="no" ed="#P" n="7"/>gna, ut in ea permultum opere collocetur,
+          <lb ed="#P" n="8"/>quam ideo breviter exponam.
+        </p>
+        <p xml:id="szduep-197690-d1e203">
+          <lb ed="#P" n="9"/>3. Conditiones Doni.—Advertendum est 
+          er<lb break="no" ed="#P" n="10"/>go ex divo Thoma, et Cajetano, in nomine
+          <lb ed="#P" n="11"/>Doni tria includi, scilicet, rem, quae donum
+          <lb ed="#P" n="12"/>denominatur, relationem ad eum, a quo 
+          dona<lb break="no" ed="#P" n="13"/>tur, vel donari potest, et relationem ad eum,
+          <lb ed="#P" n="14"/>cui donari potest. Donatio autem ipsa, ut 
+          Aris<lb break="no" ed="#P" n="15"/>toteles dixit 4, Topicorum, capite 4, est 
+          gra<lb break="no" ed="#P" n="16"/>tuita, et liberalis, seu ut ipse loquitur, est 
+          da<lb break="no" ed="#P" n="17"/>tio arredibilis : illud enim proprie donatur,
+          <lb ed="#P" n="18"/>quod liberaliter tribuitur, et non propter 
+          re<lb break="no" ed="#P" n="19"/>compensationem. Deinde est advertendum,
+          <lb ed="#P" n="20"/>haec omnia posse in Deum convenire. Nam 
+          im<lb break="no" ed="#P" n="21"/>primis ipse maxime donare potest, imo, ut
+          <lb ed="#P" n="22"/>dixit divus Thomas, ipse solus est proprie, et
+          <lb ed="#P" n="23"/>perfecte liberalis, quia non propter suum, sed
+          <lb ed="#P" n="24"/>propter aliorum commodum donat. Maxime
+          <lb ed="#P" n="25"/>vero exercet donationem liberam et gratuitam
+          <lb ed="#P" n="26"/>circa creaturam rationalem, ut dixit 
+          Augusti<lb break="no" ed="#P" n="27"/>nus 4, contra Julianum, capite tertio, quia
+          <lb ed="#P" n="28"/>creatura irrationalis non est proprie capax
+          <lb ed="#P" n="29"/>gratiae, aut liberalitatis, sicut etiam non est
+          <lb ed="#P" n="30"/>capax recompensationis, aut gratitudinis. Est
+          <lb ed="#P" n="31"/>item Deus aptus donari, ita enim Scriptura 
+          lo<lb break="no" ed="#P" n="32"/>quitur quod Deus dat se ipsum nobis: Ad eum
+          <lb ed="#P" n="33"/>veniemus, et mansionem apud ewn faciemus,
+          <lb ed="#P" n="34"/>Joannis, decimo quarto, capite tertio, sic Deus
+          <lb ed="#P" n="35"/>dilevit mundum, ut Filium suum unigenitum
+          <lb ed="#P" n="36"/>daret, et cap. 4, si scires donum Doei, et quis
+          <lb ed="#P" n="37"/>est qui loquitur tecum. Ad Romanos, quinto,
+          <lb ed="#P" n="38"/>sed non sicul dilectum, ita et donum. Ratio
+          <lb ed="#P" n="39"/>vero est, quia in hac appellatione nulla 
+          inclu<lb break="no" ed="#P" n="40"/>ditur imperfectio, non enim dicitur Deus alicui
+          <lb ed="#P" n="41"/>donari, quia sub dominio ejus constituatur,
+          <lb ed="#P" n="42"/>vel imperfecto modo possideatur, sed ut in eo
+          <lb ed="#P" n="43"/>sit novo, et speciali modo, et praecipue ut 
+          spi<lb break="no" ed="#P" n="44"/>rituali vinculo teneatur. Sic dicitur Deus 
+          do<lb break="no" ed="#P" n="45"/>nari homini justo, quia in eo incipit esse 
+          spe<lb break="no" ed="#P" n="46"/>ciali modo tanquam in templo, et amico suo,
+          <lb ed="#P" n="47"/>ut objectum intimae cognitionis et amoris. Et
+          <lb ed="#P" n="48"/>ita etiam hujusmodi donatio nullam in Deo
+          <lb ed="#P" n="49"/>dicit mutationem, sed denominationem a 
+          mu<lb break="no" ed="#P" n="50"/>tatione, quae in creatura fit. Unde praeterea
+          <lb ed="#P" n="51"/>intelligitur, respectu Dei dari aliquid, seu 
+          ali<lb break="no" ed="#P" n="52"/>quem, cui ipse donari possit, scilicet, 
+          creatu<lb break="no" ed="#P" n="53"/>ram rationalem, quae est capax donationis 
+          gra<lb break="no" ed="#P" n="54"/>tuitae, ut dixi, et est etiam capax Dei omnibus
+          <lb ed="#P" n="55"/>modis explicatis.
+        </p>
+        <p xml:id="szduep-197690-d1e307">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>4. Deus est proprie domum. — Ex his ergo
+          <lb ed="#P" n="57"/>recte concluditur, hoc nomen Domun proprie,
+          <lb ed="#P" n="58"/>et sine metaphora Deo convenire. Convenit 
+          e<lb break="no" ed="#P" n="59"/>nim non ex tempore, sed ex aeternitate. Non
+          <lb ed="#P" n="60"/>quia intra Deum ipsum donetur, ut sensisse
+          <lb ed="#P" n="61"/>videntur Scotus, et Gabriel supra, dicentes,
+          <lb ed="#P" n="62"/>Patrem donare Filio Spiritum sanctum, ete
+          <lb ed="#P" n="63"/>converso. Quibus favet Hilarius, libro octavo,
+          <lb ed="#P" n="64"/>de Trinitate, circa medium, dum ait: 
+          Zssen<lb break="no" ed="#P" n="65"/>tiam Divinam esse Domun, quod Pater dat 
+          Fi<lb break="no" ed="#P" n="66"/>lio, quod non rejicit D. Thomas, dicta quaest.
+          <lb ed="#P" n="67"/>38, articulo 2, ad 1. Nihilominus tamen illa
+          <lb ed="#P" n="68"/>non videtur propria significatio, quia ut ex
+          <lb ed="#P" n="69"/>Aristotele dixi, et ex communi etiam modo 
+          lo<lb break="no" ed="#P" n="70"/>quendi , donatio dicit liberam largitionem,
+          <lb ed="#P" n="71"/>non naturalem, et necessariam 
+          communica<lb break="no" ed="#P" n="72"/>tionem : at vero intra Deum omnis 
+          communi<lb break="no" ed="#P" n="73"/>catio naturalis , et necessaria est. Nec Pater
+          <lb ed="#P" n="74"/>dat Filio naturam ex amore, quod ad rationem
+          <lb ed="#P" n="75"/>doni proprie sumpti necessarium est, licet
+          <lb ed="#P" n="76"/>communicet illam cum amore, seu voluntate
+          <lb ed="#P" n="77"/>concomitante, ut supra explicatum est. 
+          Pro<lb break="no" ed="#P" n="78"/>prie igitur est Deus ex aeternitate donum 
+          res<lb break="no" ed="#P" n="79"/>pectu creaturam rationalium, quia quantum
+          <lb ed="#P" n="80"/>est ex se, donabilis eis semper fuit, donum
+          <lb ed="#P" n="81"/>autem (ut notavit Augustinus 5, de Trinit.,
+          <lb ed="#P" n="82"/>cap. 15, et ex illo D. Thomas supra) non dicit,
+          <lb ed="#P" n="83"/>quod actu donetur, sed quod sit aptum donari:
+          <lb ed="#P" n="84"/>et ideo, licet Deus in tempore donetur, ex
+          <lb ed="#P" n="85"/>eeternitate est donum. Quod maxime habet
+          <lb ed="#P" n="86"/>(ut Cajetanus ex D. Thoma supra notavit) 
+          qua<lb break="no" ed="#P" n="87"/>tenus supernaturaliter communicabilis est,
+          <lb ed="#P" n="88"/>quia donum est supra facultatem ejus cui 
+          do<lb break="no" ed="#P" n="89"/>hatur, et ex libera omnino voluntate 
+          con<lb break="no" ed="#P" n="90"/>fertur.
+        </p>
+        <p xml:id="szduep-197690-d1e388">
+          <lb ed="#P" n="91"/>5. Donum tripliciter de Deo dicitur. — 
+          Do<lb break="no" ed="#P" n="92"/>mum quo modo essentiale. — Domun quo modo
+          <lb ed="#P" n="93"/>notionale commune Filio. — Secundo, 
+          respon<lb break="no" ed="#P" n="94"/>dendo simul ad quaestionem, colligo ex dictis,
+          <lb ed="#P" n="95"/>donum tribus modis de Deo dici posse. Primo
+          <lb ed="#P" n="96"/>essentialiter, seu absolute. Secundo 
+          notional<lb break="no" ed="#P" n="97"/>ter notione communi, saltem secundum 
+          ratio<lb break="no" ed="#P" n="98"/>nem. Tertio proprie, ac personaliter. Primo
+          <lb ed="#P" n="99"/>ergo modo dicitur de omnibus personis: 
+          se<lb break="no" ed="#P" n="100"/>cundo modo dc Filio, et Spiritu sancto : tertio
+          <lb ed="#P" n="101"/>vero modo de solo Spiritu sancto : Explico 
+          sin<lb break="no" ed="#P" n="102"/>gula breviter, nam imprimis ratio doni quo ad
+          <lb ed="#P" n="103"/>rem donabilem, et quoad respectum rationis ad
+          <lb ed="#P" n="104"/>eum, cui donari potest, communis est 
+          omni<lb break="no" ed="#P" n="105"/>bus personis, nam ipsa divinitas est, quae 
+          pri<lb break="no" ed="#P" n="106"/>matio communicatur per gratiam 
+          sanctifican<lb break="no" ed="#P" n="107"/>tem, vel per gloriam : consequenter autem
+          <lb ed="#P" n="108"/>omnes personae. Quoad respectum vero ad
+          <lb ed="#P" n="109"/>eum, qui donare potest, advertit D. Thomas,
+          <lb ed="#P" n="110"/>dicto art. 1, ad 1, aliquando solum importare
+          <pb ed="#P" n="784"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nomine doni respectum identitatis, nam potest
+          <lb ed="#P" n="2"/>aliquis donare seipsum, est ergo donabilis a se,
+          <lb ed="#P" n="3"/>quia est idem sibi, et quasi sui juris : hoc ergo
+          <lb ed="#P" n="4"/>modo donum commune est omnibus personis
+          <lb ed="#P" n="5"/>juxta illud, Ad eum veniemus. Sic ergo etiam
+          <lb ed="#P" n="6"/>Pater donat se ipsum, et quamvis 
+          intelligere<lb break="no" ed="#P" n="7"/>mus in Deo esse unam tantum personam, 
+          pos<lb break="no" ed="#P" n="8"/>set Deus esse donum. Aliquando vero 
+          do<lb break="no" ed="#P" n="9"/>num dicit respectum ad donantem reipsa
+          <lb ed="#P" n="10"/>distinctum, quia vel est possessio ejus, vel
+          <lb ed="#P" n="11"/>habet aliquam aliam sufticientem 
+          habitudi<lb break="no" ed="#P" n="12"/>nem ad ipsum. At vero intra Deum una
+          <lb ed="#P" n="13"/>persona dicitur esse alterius solum 
+          ratio<lb break="no" ed="#P" n="14"/>ne originis , propter hunc ergo respectum
+          <lb ed="#P" n="15"/>persona procedens donari potest ab alia, a qua
+          <lb ed="#P" n="16"/>procedit , sicut potest ab alia mitti, ut infra
+          <lb ed="#P" n="17"/>dicemus. Hinc ergo nascitur secunda 
+          signifi<lb break="no" ed="#P" n="18"/>catio, quam notionalem vocavimus, quia 
+          ori<lb break="no" ed="#P" n="19"/>ginem passivam denotat in ipso dono, et ideo
+          <lb ed="#P" n="20"/>non potest Patri convenire, est autem 
+          commu<lb break="no" ed="#P" n="21"/>nis Filio, et Spiritui sancto non secundum
+          <lb ed="#P" n="22"/>rem, quia non denotat in illis aliquam unam
+          <lb ed="#P" n="23"/>relationem realem, sed secundum rationem,
+          <lb ed="#P" n="24"/>quia in hoc conveniunt, quod uterque est 
+          alte<lb break="no" ed="#P" n="25"/>rius per originem.
+        </p>
+        <p xml:id="szduep-197690-d1e492">
+          <lb ed="#P" n="26"/>6. Donum quo modo personale solius 
+          Spiri<lb break="no" ed="#P" n="27"/>tus sancti. — Ad explicandam autem tertiam
+          <lb ed="#P" n="28"/>significationem, quam praecipue inquirimus,
+          <lb ed="#P" n="29"/>addendum est, primam rationem donandi
+          <lb ed="#P" n="30"/>aliquid liberali illa, et perfecta donatione, de
+          <lb ed="#P" n="31"/>qua loquimur, esse amorem, quia haec donatio
+          <lb ed="#P" n="32"/>solum est ad benefaciendum alteri ex voluntate
+          <lb ed="#P" n="33"/>libera. Quando ergo res aliqua non solum 
+          do<lb break="no" ed="#P" n="34"/>nabilis est, sed etiam intrinsece includit 
+          amo<lb break="no" ed="#P" n="35"/>rem, singulari modo includit rationem doni.
+          <lb ed="#P" n="36"/>Hoc ergo modo convenit Spiritui sancto ex vi
+          <lb ed="#P" n="37"/>suae processionis, ut donum sit, quia non 
+          so<lb break="no" ed="#P" n="38"/>lum procedit ut res, quae donari potest a 
+          pro<lb break="no" ed="#P" n="39"/>ducente, quod etiam habet Filius, sed etiam
+          <lb ed="#P" n="40"/>procedit ut amor; et ideo intrinsece, ac 
+          for<lb break="no" ed="#P" n="41"/>maliter includit rationem donandi. Nec refert,
+          <lb ed="#P" n="42"/>quod Pater etiam, et Filius includant in suo
+          <lb ed="#P" n="43"/>esse amorem: quia Pater includit sine proces
+          <lb ed="#P" n="44"/>sione, Filius non ex vi processionis formaliter,
+          <lb ed="#P" n="45"/>sed concomitanter, ut supra explicatum est: at
+          <lb ed="#P" n="46"/>vero Spiritus sanctus includit formalissime, et
+          <lb ed="#P" n="47"/>ex vi processionis suae. Propterea ergo merito
+          <lb ed="#P" n="48"/>dixit Augustinus, Spiritum sanctum procedere,
+          <lb ed="#P" n="49"/>ut datum non actu, sed aptitudine, quod est
+          <lb ed="#P" n="50"/>procedere ut donum. In hoc ergo sensu haec
+          <lb ed="#P" n="51"/>vox personalis, et propria est.
+        </p>
+        <p xml:id="szduep-197690-d1e551">
+          <lb ed="#P" n="52"/>7. Spiritus sanctus an sit donwm ratione
+          <lb ed="#P" n="53"/>sue proprietatis. — Ex quibus tandem facile
+          <lb ed="#P" n="54"/>intelligitur, an haec doni appellatio conveniat
+          <lb ed="#P" n="55"/>Spiritui sancto ratione suae proprietatis, vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ratione essentiae. Quod alii multi disputant.
+          <lb ed="#P" n="57"/>hesolutio tamen est, ratione utriusque simul
+          <lb ed="#P" n="58"/>aliquo modo convenire. Nam si in dono 
+          con<lb break="no" ed="#P" n="59"/>sideretur respectus ad donantem, manifeste
+          <lb ed="#P" n="60"/>convenit Spiritui sancto per proprietatem
+          <lb ed="#P" n="61"/>suam, ut recte docet D. Thomas, in 1, d. 18,
+          <lb ed="#P" n="62"/>art. 4, et Augustinus 5, de Trinit. cap. 11.
+          <lb ed="#P" n="63"/>Neque hoc ullus theologorum negat, nec 
+          ne<lb break="no" ed="#P" n="64"/>gare potest, quia illa est habitudo originis. Et
+          <lb ed="#P" n="65"/>ideo licet nomen doni hoc modo personale
+          <lb ed="#P" n="66"/>sit, non multiplicant ex hac parte proprietates
+          <lb ed="#P" n="67"/>Spiritus sancti, quia eadem omnino relatio
+          <lb ed="#P" n="68"/>importatur per hoc nomen, licet sub diversa
+          <lb ed="#P" n="69"/>consideratione. Si autem in dono consideretur
+          <lb ed="#P" n="70"/>ratio donandi, quae est amor, haec convenit
+          <lb ed="#P" n="71"/>Spiritui sancto formaliter per essentiam, non
+          <lb ed="#P" n="72"/>secundum se, et nude spectatam, sed ut 
+          accep<lb break="no" ed="#P" n="73"/>tam per voluntatem. Atque ita connotat etiam
+          <lb ed="#P" n="74"/>relationem talem, ut conditionem necessariam
+          <lb ed="#P" n="75"/>ad habendum illum amorem ex vi 
+          processio<lb break="no" ed="#P" n="76"/>nis. Quod eadem proportione explicandum
+          <lb ed="#P" n="77"/>est, qua similem quaestionem de Verbo 
+          termi<lb break="no" ed="#P" n="78"/>nabimus. Et ita etiam constat, quomodo 
+          Spi<lb break="no" ed="#P" n="79"/>ritus sanctus dicat ad creaturas relationem
+          <lb ed="#P" n="80"/>donabilis, quae rationis est, et ideo non 
+          mul<lb break="no" ed="#P" n="81"/>tiphcantur proprietates. Et per hanc 
+          relatio<lb break="no" ed="#P" n="82"/>nem ad creaturas explicatur illa, quam D.
+          <lb ed="#P" n="83"/>Thomas posuit, et explicuimus, in fine capitis
+          <lb ed="#P" n="84"/>praecedentis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

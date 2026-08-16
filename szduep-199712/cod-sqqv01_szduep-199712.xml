@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="790"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-199712"><!-- t3-l11c6 -->
+        <head xml:id="szduep-199712-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-199712-Hd1e103" type="question-title">Cur spiritus sanctus non procedat, ut patris et fili imago</head>
+        <p xml:id="szduep-199712-d1e106">
+          <lb ed="#P" n="68"/>CAPUT VI.
+          <lb ed="#P" n="69"/>CUR SPIRITUS SANCTUS NON PROCEDAT, UT PATRIS
+          <lb ed="#P" n="70"/>ET FILI IMAGO.
+        </p>
+        <p xml:id="szduep-199712-d1e115">
+          <lb ed="#P" n="71"/>1. Ratio dubitandi. — Ratio dubitandi est,
+          <lb ed="#P" n="72"/>quia Spiritus sanctus procedit a Patre, et 
+          Fi<lb break="no" ed="#P" n="73"/>lio, et est atque similis illis, ac Filius Patri,
+          <lb ed="#P" n="74"/>quia similitudo haec attenditur ex unitate 
+          na<lb break="no" ed="#P" n="75"/>turae, in qua tam sunt unum Pater, et Filius,
+          <lb ed="#P" n="76"/>et Spiritus sanctus, sicut Filius, et Pater; ergo
+          <lb ed="#P" n="77"/>tota.ratio imaginis superius assignata in 
+          Spi<lb break="no" ed="#P" n="78"/>ritum sanctum convenit. Propter quam 
+          ratio<lb break="no" ed="#P" n="79"/>nem Patres Graeci, ut D. Thomas notavit, 
+          ab<lb break="no" ed="#P" n="80"/>solute vocant Spiritum sanctum imaginem 
+          Fi<lb break="no" ed="#P" n="81"/>Iii, ut patet ex Athanasio, epistola ad 
+          Sera<lb break="no" ed="#P" n="82"/>pionem Episcopum, post medium, Basilio,1l.5,
+          <lb ed="#P" n="83"/>contra Eumonium, cap. 12, et lib. de Spiritu
+          <lb ed="#P" n="84"/>sancto, Damasceno, lib. 1, de Fide, cap. 18, et
+          <lb ed="#P" n="85"/>(quod amplius est) Gregorio Nysseno, in vita
+          <lb ed="#P" n="86"/>Gregorii Thaumaturgi refert, hunc Gregorium
+          <lb ed="#P" n="87"/>ex divina revelatione accepisse quoddam 
+          sym<lb break="no" ed="#P" n="88"/>bolum fidei, quod per traditionem perpetuam
+          <lb ed="#P" n="89"/>in ejus Ecclesia retentum est : in quo Spiritus
+          <lb ed="#P" n="90"/>sanctus vocatur imago Filii. Et ex scholasticis
+          <lb ed="#P" n="91"/>Aureolus, in 1, dist. 27, quaest. 2, in hanc 
+          sen<lb break="no" ed="#P" n="92"/>tentiam inclinat, et Durandus ibidem, eo 
+          mo<lb break="no" ed="#P" n="93"/>do in quo imago esse potest in divinis 
+          perso<lb break="no" ed="#P" n="94"/>nis, dicit, aeque proprie convenire Spiritui
+          <lb ed="#P" n="95"/>sancto quam per accommodationem 
+          approprie<lb break="no" ed="#P" n="96"/>tur Filio.
+        </p>
+        <p xml:id="szduep-199712-d1e174">
+          <lb ed="#P" n="97"/>9. Assertio vera.—Nihilominus dicendum est,
+          <lb ed="#P" n="98"/>Spiritum sanctum non esse imaginem Patris,
+          <lb ed="#P" n="99"/>aut Filii, ac proinde in Trinitate solum 
+          divi<lb break="no" ed="#P" n="100"/>num Verbum esse proprie imaginem. Ita 
+          do<lb break="no" ed="#P" n="101"/>cet D. Thomas, dict. quaest. 35, art. 2, et 
+          con<lb break="no" ed="#P" n="102"/>sentiunt reliqui scholastici citati in superiori
+          <lb ed="#P" n="103"/>libro, capite ultimo. Patres etiam, quos ibidem
+          <lb ed="#P" n="104"/>retuli, prassertim Augustinus et Ambrosius,
+          <lb ed="#P" n="105"/>imo et Athanasius in illis prioribus locis ita
+          <lb ed="#P" n="106"/>loquuntur. Idem sensit Anselmus, in Monologio,
+          <lb ed="#P" n="107"/>cap. 37, et sequentibus, Rupertus, lib. 2, de
+          <pb ed="#P" n="791"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Trin., cap. 2, et Richardus de S. Victore, lib.
+          <lb ed="#P" n="2"/>6, de Trin., cap. 19.
+        </p>
+        <p xml:id="szduep-199712-d1e210">
+          <lb ed="#P" n="3"/>3. Haec vero assertio non est tam certa, 
+          si<lb break="no" ed="#P" n="4"/>cut altera capitis praecedentis, nam illa nititur
+          <lb ed="#P" n="5"/>testimoniis positivis Scripturae, hic vero solum
+          <lb ed="#P" n="6"/>habemus ex Scriptura argumentum 
+          negati<lb break="no" ed="#P" n="7"/>vum. Nam Fihus saepius vocatur imago, at
+          <lb ed="#P" n="8"/>Spiritus sanctus nunquam, ergo signum est,
+          <lb ed="#P" n="9"/>illud esse proprium Filii. Quod argumentum
+          <lb ed="#P" n="10"/>licet absolute non sit efficas, tamen quando
+          <lb ed="#P" n="11"/>prior affirmatio est frequens, et alterius 
+          nul<lb break="no" ed="#P" n="12"/>lum indicium datur, est magna conjectura,
+          <lb ed="#P" n="13"/>maxime accedente interpretatione Patrum.
+          <lb ed="#P" n="14"/>Addere etiam possumus positivum 
+          argumen<lb break="no" ed="#P" n="15"/>tum ex Scriptura sumptum, media assertione
+          <lb ed="#P" n="16"/>capitis praecedentis, quia si Spiritus sanctus est
+          <lb ed="#P" n="17"/>propria imago, vix intelligi potest, cur non
+          <lb ed="#P" n="18"/>sit etiam Filius: constat autem ex Scriptura,
+          <lb ed="#P" n="19"/>Spiritum sanctum non esse secundum Filium,
+          <lb ed="#P" n="20"/>ergo nec imago est.
+        </p>
+        <p xml:id="szduep-199712-d1e252">
+          <lb ed="#P" n="21"/>4. Primo ratio. — Rationem autem hujus
+          <lb ed="#P" n="22"/>veritatis reddere, et solvere dubium 
+          proposi<lb break="no" ed="#P" n="23"/>tum difficile est. Richardus igitur de S. Victore
+          <lb ed="#P" n="24"/>supra , quem D. Bonaventura imitatur, ait,
+          <lb ed="#P" n="25"/>Spiritum sanctum non esse imaginem, quia
+          <lb ed="#P" n="26"/>non procedit ita similis Patri, sicut Verbum,
+          <lb ed="#P" n="27"/>nam Verbum procedit a Patre cum virtute
+          <lb ed="#P" n="28"/>producendi ad intra, non autem Spiritus 
+          sanc<lb break="no" ed="#P" n="29"/>tus. Hanc vero rationem merito refellit 
+          sanc<lb break="no" ed="#P" n="30"/>tus Thomas, quia similitudo inter divinas 
+          per<lb break="no" ed="#P" n="31"/>sonas non est attendenda secundum 
+          proprie<lb break="no" ed="#P" n="32"/>tates notionales, alioqui nec Verbum ipsum
+          <lb ed="#P" n="33"/>esset perfecta imago Patris, quia in relatione
+          <lb ed="#P" n="34"/>Filiationis non procedit illi similis, neque 
+          ac<lb break="no" ed="#P" n="35"/>cipit a Patre virtutem generandi, virtus autem
+          <lb ed="#P" n="36"/>spirandi notionem involvit, ergo, quod sub ea
+          <lb ed="#P" n="37"/>ratione Spiritus sanctus non accipiat illam,
+          <lb ed="#P" n="38"/>non excludit ab illo perfectam similitudinem,
+          <lb ed="#P" n="39"/>ergo nec rationem imaginis; et confirmo hoc
+          <lb ed="#P" n="40"/>amplius : nam in virtute spirandi duo 
+          inclu<lb break="no" ed="#P" n="41"/>duntur, unum formaliter, quod est essentia,
+          <lb ed="#P" n="42"/>et voluntas divina, et quoad hoc ita 
+          communi<lb break="no" ed="#P" n="43"/>catur Spiritui sancto sicut Filio; aliud de 
+          con<lb break="no" ed="#P" n="44"/>notato, quod est proprietas aliqua prior 
+          ori<lb break="no" ed="#P" n="45"/>gine Spiritu sancto, et hanc quidem accipit
+          <lb ed="#P" n="46"/>Filius, non tamen omnino similem proprietati
+          <lb ed="#P" n="47"/>Patris, sed solum quoad illam proprietatem
+          <lb ed="#P" n="48"/>originis, nam talis proprietas in Filio est 
+          Fi<lb break="no" ed="#P" n="49"/>Hiatio, et in Patre Paternitas, ut supra dixi,
+          <lb ed="#P" n="50"/>quia relatio spirationis activae non pertinet ad
+          <lb ed="#P" n="51"/>virtutem spirandi, sed consequitur 
+          productio<lb break="no" ed="#P" n="52"/>nem Spiritus sancti, ergo etiam in illa virtute
+          <lb ed="#P" n="53"/>non est inter Patrem, et Filium specialis 
+          simi<lb break="no" ed="#P" n="54"/>litudo, quae ad rationem imaginis quidquam
+          <lb ed="#P" n="55"/>conferat. 
+        </p>
+        <p xml:id="szduep-199712-d1e330">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>5. Secunda ratio. — Aliter ergo Rupertus
+          <lb ed="#P" n="57"/>supra respondet Filium esse imaginem, 
+          Spiri<lb break="no" ed="#P" n="58"/>tum sanctum autem esse solum similitudinem,
+          <lb ed="#P" n="59"/>quia imago unius est, similitedo vero potest
+          <lb ed="#P" n="60"/>esse plurium : Filius autem procedit ab uno,
+          <lb ed="#P" n="61"/>Spiritus sanctus a duobus. In qua ratione 
+          vi<lb break="no" ed="#P" n="62"/>detur Rupertus insinuare, imaginem praeter
+          <lb ed="#P" n="63"/>similitudinem dicere imitationem, quae unius
+          <lb ed="#P" n="64"/>tantum esse videtur et non plurium. Sed 
+          ad<lb break="no" ed="#P" n="65"/>vertere oportet, Spiritum sanctum procedere
+          <lb ed="#P" n="66"/>a Patre et Filio, ut ab uno principio; et ita
+          <lb ed="#P" n="67"/>esse similem illis, non ut sunt duo, sed ut sunt
+          <lb ed="#P" n="68"/>unum, hoc autem modo repugnat, imaginem
+          <lb ed="#P" n="69"/>esse plurium materialiter (ut sic dicam) 
+          forma<lb break="no" ed="#P" n="70"/>liter autem, quatenus unum sunt. Nam etiam
+          <lb ed="#P" n="71"/>in creaturis, si ponamus duos homines omnino
+          <lb ed="#P" n="72"/>similes in facie, posset optime depingi una
+          <lb ed="#P" n="73"/>imago ex intentione repraesentandi utrumque,
+          <lb ed="#P" n="74"/>quae vere esset utriusque imago artificialis,
+          <lb ed="#P" n="75"/>quia utrique esset similis et ab utroque 
+          proce<lb break="no" ed="#P" n="76"/>deret, ut ab objecto cognito: ergo similiter,
+          <lb ed="#P" n="77"/>in praesenti cum majori unitate et perfectione.
+        </p>
+        <p xml:id="szduep-199712-d1e382">
+          <lb ed="#P" n="78"/>6. Tertia ratio. —Tertio ergo respondet D.
+          <lb ed="#P" n="79"/>Thomas, Filium esse imaginem, quia non 
+          so<lb break="no" ed="#P" n="80"/>lum in re procedit similis, sed etiam 
+          formali<lb break="no" ed="#P" n="81"/>ter ex modo processionis suae, quia nimirum
+          <lb ed="#P" n="82"/>procedit per intellectum, qui per se tendit ad
+          <lb ed="#P" n="83"/>assimilationem : Spiritus sanctus autem, 
+          li<lb break="no" ed="#P" n="84"/>cet in re sit similis, quod negari hon potest,
+          <lb ed="#P" n="85"/>non tamen procedit formaliter et ex vi 
+          proces<lb break="no" ed="#P" n="86"/>sionis suae tanquam similis, quia procedit, ut
+          <lb ed="#P" n="87"/>amor. Atque ita interpretatur Patres Graecos,
+          <lb ed="#P" n="88"/>nam sumpserunt imaginem pro perfecta 
+          simi<lb break="no" ed="#P" n="89"/>litudine, quae est latior et minus propria 
+          signi<lb break="no" ed="#P" n="90"/>ficatio illius vocis, nam ad proprietatem et
+          <lb ed="#P" n="91"/>rigorem imaginis necesse est, ut for aliter
+          <lb ed="#P" n="92"/>procedat tanquam similis, quod supra in 
+          de<lb break="no" ed="#P" n="93"/>scriptione imaginis insinuavi, dicens, debere
+          <lb ed="#P" n="94"/>esse similem ez vi processionis. Hanc rationem
+          <lb ed="#P" n="95"/>late defendunt et declarant Cajetanus, d., q. 35,
+          <lb ed="#P" n="96"/>et q. 27, art. 2, Capreolus, in 4, dist. 27, q. 2,
+          <lb ed="#P" n="97"/>Ferrariensis 4, contra Gentes, cap. 11, et fere
+          <lb ed="#P" n="98"/>alii recentiores Thomistae. In summa vero 
+          so<lb break="no" ed="#P" n="99"/>lum dicunt, per actum intelligendi, ut sic,
+          <lb ed="#P" n="100"/>produci similitudinem rei cognitae, et ideo 
+          Ver<lb break="no" ed="#P" n="101"/>bum divinum considerata formali ratione sua
+          <lb ed="#P" n="102"/>processionis ex vi illius producere simile, et 
+          con<lb break="no" ed="#P" n="103"/>sequenter esse imaginem, per actum vero 
+          amo<lb break="no" ed="#P" n="104"/>ris, ut sic, non produci similitudinem, sed 
+          pro<lb break="no" ed="#P" n="105"/>duci inclinationem ad objectum, atque ita
+          <lb ed="#P" n="106"/>Spiritum sanctum qui per amorem producitur
+          <lb ed="#P" n="107"/>ex modo processionis suae non habere 
+          simili<lb break="no" ed="#P" n="108"/>tudinem, et ideo non esse imaginem.
+        </p>
+        <p xml:id="szduep-199712-d1e452">
+          <lb ed="#P" n="109"/>7. Prima difficultas. — Responsio. — Tres
+          <lb ed="#P" n="110"/>vero difficultates supersunt circa hanc ratio-
+          <pb ed="#P" n="792"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem. Prima est, quia non apparet ratio, ob
+          <lb ed="#P" n="2"/>quam ad imaginem necessarium sit, quod cum
+          <lb ed="#P" n="3"/>tanta formalitate recipiat similitudinem ; satis
+          <lb ed="#P" n="4"/>enim videtur, quod re ipsa fiat perfecte 
+          simi<lb break="no" ed="#P" n="5"/>lis. Nam in artificiali imagine, verbi gratia,
+          <lb ed="#P" n="6"/>vel sigillo, quamviscasu, et praeter intentionem
+          <lb ed="#P" n="7"/>accidat, quod figura imprimatur, si in re ipsa
+          <lb ed="#P" n="8"/>perfecta existit, existimatur vera et propria
+          <lb ed="#P" n="9"/>imago. Ad hoc autem facile dicitur, 
+          conditio<lb break="no" ed="#P" n="10"/>nem illam et per se esse valde probabilem, et
+          <lb ed="#P" n="11"/>ex doctrina Augustini, et communi conceptione
+          <lb ed="#P" n="12"/>imaginis non obscure colligi. Quia imago 
+          de<lb break="no" ed="#P" n="13"/>bet esse ad imitationem prototypi et ab illo
+          <lb ed="#P" n="14"/>aliquo modo derivari, et ideo necesse est, ut
+          <lb ed="#P" n="15"/>vel ex intentione agentis, vel ex natura et 
+          mo<lb break="no" ed="#P" n="16"/>do actionis fiat ad imitandum exemplar. Cum
+          <lb ed="#P" n="17"/>autem in naturali imagine non sit necessaria
+          <lb ed="#P" n="18"/>specialis intentio agentis, superest, ut imitatio
+          <lb ed="#P" n="19"/>et similitudo debeat esse ex natura actiouis,
+          <lb ed="#P" n="20"/>et hoc est esse ex vi processionis. Et in 
+          exem<lb break="no" ed="#P" n="21"/>plis adductis semper hoc salvatur, nam, licet
+          <lb ed="#P" n="22"/>videatur figura casu fieri respectu intentionis
+          <lb ed="#P" n="23"/>proximi agentis, tamen ratione habita ad 
+          ip<lb break="no" ed="#P" n="24"/>sam actionem, semper fit ex vi et intentione
+          <lb ed="#P" n="25"/>illius, alioqui non est propria imago. In 
+          prae<lb break="no" ed="#P" n="26"/>senti autem materia divinarum productionum
+          <lb ed="#P" n="27"/>non est attendenda ratio ex intentione 
+          produ<lb break="no" ed="#P" n="28"/>centis, quia nulla procedit, sed sunt ex 
+          foecun<lb break="no" ed="#P" n="29"/>ditate, et quasi propensione talis naturae, 
+          ideo<lb break="no" ed="#P" n="30"/>que merito semper consideratur formalis ratio
+          <lb ed="#P" n="31"/>et vis processionis.
+        </p>
+        <p xml:id="szduep-199712-d1e530">
+          <lb ed="#P" n="32"/>8. Secunda et tertia difficultates. — 
+          Secun<lb break="no" ed="#P" n="33"/>da et gravior difficultas est supra tacta, 
+          quo<lb break="no" ed="#P" n="34"/>modo verum sit, Verbum divinum ex vi 
+          pro<lb break="no" ed="#P" n="35"/>cessionis esse simile propria similitudine et
+          <lb ed="#P" n="36"/>substantiali, secundum quam diximus esse
+          <lb ed="#P" n="37"/>imaginem, nam per intellectionem, ut 
+          intel<lb break="no" ed="#P" n="38"/>lectio est, non procedit hujusmodi similitudo,
+          <lb ed="#P" n="39"/>sed solum intentionalis, ut patet in omni alia
+          <lb ed="#P" n="40"/>intellectione, ergo est manifesta aequivocatio
+          <lb ed="#P" n="41"/>in ratione illa. Quod si forte dicatur, sicut 
+          su<lb break="no" ed="#P" n="42"/>pra etiam insinuavi, in illa intellectione divina
+          <lb ed="#P" n="43"/>similitudinem intentionalem esse 
+          substantia<lb break="no" ed="#P" n="44"/>lem, et ita coincidere in Deo illa duo, tunc 
+          in<lb break="no" ed="#P" n="45"/>surgit tertia difficultas, quia hoc modo etiam
+          <lb ed="#P" n="46"/>Spiritus sanctus erit similis ex vi processionis,
+          <lb ed="#P" n="47"/>quia, licet amor communi ratione sua non dicat
+          <lb ed="#P" n="48"/>similitudinem, sed inclinationem, tamen amor
+          <lb ed="#P" n="49"/>divinus necessario dicit substantialem 
+          inclina<lb break="no" ed="#P" n="50"/>tionem, et ita illa etiam duo, inclinatio et 
+          simili<lb break="no" ed="#P" n="51"/>tudo ibi coincidunt, Quia Deus charitas est, 
+          uti<lb break="no" ed="#P" n="52"/>que substantialiter, ergo Spiritussanctus 
+          proce<lb break="no" ed="#P" n="53"/>dens utcharitas formalissime procedit ut similis.
+        </p>
+        <p xml:id="szduep-199712-d1e581">
+          <lb ed="#P" n="54"/>9. Quarta ratio. — hanc 
+          difficulta<lb break="no" ed="#P" n="55"/>tem Torres, q. 27, art. 2, in 4 p. Commenta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rii, recedit in hoc a Thomistis, et a D. Thoma
+          <lb ed="#P" n="57"/>fateturque etiam Spiritum sanctum ex vi suae
+          <lb ed="#P" n="58"/>processionis procedere similem, unde 
+          conse<lb break="no" ed="#P" n="59"/>quenter negat ad rationem imaginis sufficere
+          <lb ed="#P" n="60"/>similitudinem ex vi processionis, sed praeterea
+          <lb ed="#P" n="61"/>necessarium esse dicit, ut imago procedat 
+          si<lb break="no" ed="#P" n="62"/>milis ad repraesentandum, et ideo Verbum esse
+          <lb ed="#P" n="63"/>imaginem, quia et simile, et ad 
+          repraesentan<lb break="no" ed="#P" n="64"/>dum procedit, nam proprium Verbi est 
+          reprae<lb break="no" ed="#P" n="65"/>sentare, Spiritum sanctum autem non esse
+          <lb ed="#P" n="66"/>imaginem, quia, licet procedat similis ex vi
+          <lb ed="#P" n="67"/>processionis suae, non tamen ad 
+          repraesentan<lb break="no" ed="#P" n="68"/>dum, cum Verbum non sit.
+        </p>
+        <p xml:id="szduep-199712-d1e618">
+          <lb ed="#P" n="69"/>10. Improbatur. — Hanc vero rationem 
+          ne<lb break="no" ed="#P" n="70"/>que intelligere, nec probare possum, non enim
+          <lb ed="#P" n="71"/>intelligo, quid sit illud repraesentare, quod
+          <lb ed="#P" n="72"/>praeter formalem similitudinem in imagine
+          <lb ed="#P" n="73"/>postulatur. Aut enim est illa propria 
+          repraesen<lb break="no" ed="#P" n="74"/>tatio, quae formaliter fit per actum 
+          intelligen<lb break="no" ed="#P" n="75"/>di, aut aliqua alia: primum dici non potest,
+          <lb ed="#P" n="76"/>secundum invenietur in omni re perfecte simili
+          <lb ed="#P" n="77"/>ex vi processionis, quamvis Verbum non sit,
+          <lb ed="#P" n="78"/>ergo illud repraesentare nihil est, quod ad rem
+          <lb ed="#P" n="79"/>praesentem conferat, neque ex defectu illius
+          <lb ed="#P" n="80"/>potest Spiritus sanctus excludi a ratione 
+          ima<lb break="no" ed="#P" n="81"/>ginis. Minor quoad priorem partem patet 
+          evi<lb break="no" ed="#P" n="82"/>denter in Filio alicujus hominis, ille enim est
+          <lb ed="#P" n="83"/>propria imago, ut Torres fatetur et non habet
+          <lb ed="#P" n="84"/>repraesentationem illam per modum Verbi, aut
+          <lb ed="#P" n="85"/>actus intelligendi, non est ergo haec necessaria
+          <lb ed="#P" n="86"/>ad imaginem naturalem. Unde licet divinum
+          <lb ed="#P" n="87"/>Verbum illam habeat, ad summum inde 
+          con<lb break="no" ed="#P" n="88"/>cludi poterit, esse imaginem speciali modo et
+          <lb ed="#P" n="89"/>ratione, non tamen poterit excludi, quin 
+          Spi<lb break="no" ed="#P" n="90"/>ritus sanctus sit imago tam perfecta, quam esse
+          <lb ed="#P" n="91"/>solet quaelibet imago naturalis, quae 
+          intentio<lb break="no" ed="#P" n="92"/>nalis, seu intellectualis non sit.
+        </p>
+        <p xml:id="szduep-199712-d1e673">
+          <lb ed="#P" n="93"/>11. Eo vel maxime, quod Hcet Spiritus 
+          sanc<lb break="no" ed="#P" n="94"/>tus non procedat per modum Verbi, in re ipsa
+          <lb ed="#P" n="95"/>habet totam repraesentationem intellectualem,
+          <lb ed="#P" n="96"/>quam habet Verbum, quia habet idem 
+          intelli<lb break="no" ed="#P" n="97"/>gere cum Patre et Verbo: imo ad perfectam
+          <lb ed="#P" n="98"/>similitudinem cum illis eam requirit, quia est
+          <lb ed="#P" n="99"/>per substantiam et essentiam eorum, ergo si
+          <lb ed="#P" n="100"/>ex vi processionis habet similitudinem 
+          perfec<lb break="no" ed="#P" n="101"/>tam, etiam ex vi processionis habet hane 
+          re<lb break="no" ed="#P" n="102"/>praesentationem. Unde aliquando a Basilio 
+          vo<lb break="no" ed="#P" n="103"/>catur Spiritus sanctus Verbum Filii, contra
+          <lb ed="#P" n="104"/>Eunomium, cap. 10. Ergo juxta illam 
+          senten<lb break="no" ed="#P" n="105"/>tiam nihil deest Spiritui sancto, quominus
+          <lb ed="#P" n="106"/>imago sit. Altera vero minoris pars probatur,
+          <lb ed="#P" n="107"/>petendo aliud genus repraesentationis, nullum
+          <lb ed="#P" n="108"/>enim aliud ego intelligo, nisi repraesentationem
+          <lb ed="#P" n="109"/>quasi objectivam, quatenus in re una cognita,
+          <lb ed="#P" n="110"/>alia cognoscitur, hanc vero habet imago natu-
+          <pb ed="#P" n="793"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ralis ex eo praecise, quod procedit cum 
+          per<lb break="no" ed="#P" n="2"/>fecta similitudine. Quod patet eodem exemplo
+          <lb ed="#P" n="3"/>filii humani, nam ille procedit ut similis ad 
+          re<lb break="no" ed="#P" n="4"/>praesentandum, ut etiam adversarii fatentur:
+          <lb ed="#P" n="5"/>in eo autem nullum aliud genus 
+          repraesenta<lb break="no" ed="#P" n="6"/>tionis ex vi processionis ejus intelligi potest,
+          <lb ed="#P" n="7"/>ergo si Spiritus sanctus procedit ex vi suae 
+          ori<lb break="no" ed="#P" n="8"/>ginis perfecte similis, procedit etiam ad 
+          reprae<lb break="no" ed="#P" n="9"/>sentandum, hac repraesentatione objectiva, 
+          er<lb break="no" ed="#P" n="10"/>go erit imago.
+        </p>
+        <p xml:id="szduep-199712-d1e741">
+          <lb ed="#P" n="11"/>12. Occurritur objectioni.—Sed dicunt, non
+          <lb ed="#P" n="12"/>omne, quod procedit simile ex vi processionis,
+          <lb ed="#P" n="13"/>repraesentare suum principium, nam ignis 
+          pro<lb break="no" ed="#P" n="14"/>cedit similis ab igne, et tamen non repraesentat
+          <lb ed="#P" n="15"/>illum, neque est imago ejus, quia non est 
+          si<lb break="no" ed="#P" n="16"/>milior illi, quam aliis. Verumtamen non est de
+          <lb ed="#P" n="17"/>ratione imaginis, quod sit similior suo 
+          princi<lb break="no" ed="#P" n="18"/>pio, quam aliis : nam unus homo potest esse
+          <lb ed="#P" n="19"/>aeque similis, vel similior fratri suo, quam 
+          pa<lb break="no" ed="#P" n="20"/>tri, et tamen est imago patris, et non fratris.
+          <lb ed="#P" n="21"/>Unde, ut imago repraesentet suum principium
+          <lb ed="#P" n="22"/>in particulari, non sola similitudo, sed 
+          proces<lb break="no" ed="#P" n="23"/>sio attendenda est, et ex hac parte ignis 
+          pro<lb break="no" ed="#P" n="24"/>ductus magis repraesentat eum, a quo 
+          produc<lb break="no" ed="#P" n="25"/>tus est, quam alios. Et praeterea, quamvis 
+          de<lb break="no" ed="#P" n="26"/>mus, rationem imaginis juxta communem 
+          u<lb break="no" ed="#P" n="27"/>sum non attribui rebus homogeneis, loquendo
+          <lb ed="#P" n="28"/>de imagine naturali propter illam causam,
+          <lb ed="#P" n="29"/>quod ex natura rei omnes sunt aque similes,
+          <lb ed="#P" n="30"/>nihilominus in rebus viventibus, et perfectis,
+          <lb ed="#P" n="31"/>nihil invenitur procedens perfecte simile suo
+          <lb ed="#P" n="32"/>principio ex vi processionis, quod non sit 
+          ima<lb break="no" ed="#P" n="33"/>go ejus. Si ergo Spiritus sanctus ita procedit,
+          <lb ed="#P" n="34"/>cum sit vivens perfectissimum, erit imago, vel
+          <lb ed="#P" n="35"/>declarandum est, quid illi desit.
+        </p>
+        <p xml:id="szduep-199712-d1e798">
+          <lb ed="#P" n="36"/>13. Respondent tandem, Spiritum sanctum
+          <lb ed="#P" n="37"/>nulli 'repraesentare Patrem, et Filium, non 
+          e<lb break="no" ed="#P" n="38"/>nim ipsis, quia illi non cognoscunt se in 
+          Spi<lb break="no" ed="#P" n="39"/>ritu sancto. Eademque ratio est de aliis. Sed
+          <lb ed="#P" n="40"/>hoc etiam non evacuat difficultatem, nam
+          <lb ed="#P" n="41"/>imago non ideo imago est, quia actu 
+          reprae<lb break="no" ed="#P" n="42"/>sentat, sed potius ideo actu repraesentat,
+          <lb ed="#P" n="43"/>quantum est ex se, quia imago est. Quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="44"/>si nullus sit, qui aliqua imagine utatur (ut sic
+          <lb ed="#P" n="45"/>dicam) ad repraesentandum, neque ullus, qui
+          <lb ed="#P" n="46"/>in illa cognoscat : id extrinsecum est ad 
+          ratio<lb break="no" ed="#P" n="47"/>nem imaginis, nec illam aufert, quia non est
+          <lb ed="#P" n="48"/>de ratione imaginis, quod actu repreesentet,
+          <lb ed="#P" n="49"/>sed quod sit repraesentativa, quamvis fortasse
+          <lb ed="#P" n="50"/>nulli actu repraesentet, quia vel accipit 
+          cogni<lb break="no" ed="#P" n="51"/>tionem ab illo, quae repraesentat, ut de Spiritu
+          <lb ed="#P" n="52"/>sancto dicere aliquis posset, vel nullus 
+          asse<lb break="no" ed="#P" n="53"/>quitur perfectionem ejus, quod in creaturis
+          <lb ed="#P" n="54"/>etiam respectu imaginis creatae accidere potest.
+          <lb ed="#P" n="55"/>Addo, fortasse verius esse etiam Spiritum 
+          sanc<lb break="no" ed="#P" n="56"/>tum objective repraesentare suum principium,
+          <lb ed="#P" n="57"/>quia sicut, qui videt Filium, videt et Patrem,
+          <lb ed="#P" n="58"/>ita qui videt Spiritum sanctum, videt 
+          Spirato<lb break="no" ed="#P" n="59"/>rem, et ita Pater, et Filius vident se non 
+          tan<lb break="no" ed="#P" n="60"/>tum in se, sed etiam in Spiritu sancto non
+          <lb ed="#P" n="61"/>tanquam in termino producto per cognitionem,
+          <lb ed="#P" n="62"/>quod est proprium Verbi, sed tanquam in 
+          quo<lb break="no" ed="#P" n="63"/>dam suo correlativo, et in objecto omnino 
+          si<lb break="no" ed="#P" n="64"/>mili in natura, et in tota intellectuali 
+          reprae<lb break="no" ed="#P" n="65"/>sentatione.
+        </p>
+        <p xml:id="szduep-199712-d1e868">
+          <lb ed="#P" n="66"/>14. Defenditur ratio. — Ratio igitur 
+          discri<lb break="no" ed="#P" n="67"/>minis quoad hoc inter Verbum, et Spiritum
+          <lb ed="#P" n="68"/>sanctum ex formalitate processionis sumenda
+          <lb ed="#P" n="69"/>est, ut in simili dictum est capite praecedenti,
+          <lb ed="#P" n="70"/>et seepe in superioribus tractando de propriis
+          <lb ed="#P" n="71"/>attributis secundae personae insinuatum est.
+          <lb ed="#P" n="72"/>Est ergo ratio, quia Verbo ex vi, et modo 
+          pro<lb break="no" ed="#P" n="73"/>cessionis suae communicatur divina natura,
+          <lb ed="#P" n="74"/>ut intellectualis est, atque adeo secundum 
+          pro<lb break="no" ed="#P" n="75"/>priam rationem essentialem, secundum quam
+          <lb ed="#P" n="76"/>attendi debet naturalis similitudo in Deo: at
+          <lb ed="#P" n="77"/>vero Spiritui sancto communicatur essentia
+          <lb ed="#P" n="78"/>divina solum sub ratione amoris, quae non ita
+          <lb ed="#P" n="79"/>formaliter, ae per se primo constituit 
+          essen<lb break="no" ed="#P" n="80"/>tiam Dei, propter quod non procedit similis in
+          <lb ed="#P" n="81"/>natura ex vi, et formalitate processionis suae.
+          <lb ed="#P" n="82"/>Quam rationem declaravi late capite 
+          praece<lb break="no" ed="#P" n="83"/>denti. Nam in hoc eadem ratio est de naturali
+          <lb ed="#P" n="84"/>imagine inter viventes, quae est de filiatione.
+          <lb ed="#P" n="85"/>Et ita ex ibi dictis objectiones superius factae
+          <lb ed="#P" n="86"/>solutae sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

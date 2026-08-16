@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="732"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-185015"><!-- t3-l9c5 -->
+        <head xml:id="szduep-185015-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-185015-Hd1e103" type="question-title">Resolvuntur nonnulla dubia, quae ex doctrina superioris capitis oriuntur</head>
+        <p xml:id="szduep-185015-d1e106">
+          <lb ed="#P" n="21"/>CAPUT V.
+          <lb ed="#P" n="22"/>RESOLVUNTUR NONNULLA DUBIA, QUAE EX DOCTRINA
+          <lb ed="#P" n="23"/>SUPERIORIS CAPITIS ORIUNTUR.
+        </p>
+        <p xml:id="szduep-185015-d1e115">
+          <lb ed="#P" n="24"/>1. Primum dubium. — Ex dictis in superiori
+          <lb ed="#P" n="25"/>capite nonnulla dubia deducuntur, ex quorum
+          <lb ed="#P" n="26"/>resolutione solutio etiam rationum aliarum 
+          o<lb break="no" ed="#P" n="27"/>pinionum patebit. Primum est, an dicendum
+          <lb ed="#P" n="28"/>sit, Verbum procedere ex cognitione 
+          persona<lb break="no" ed="#P" n="29"/>rum tanquam ex objecto primario vel 
+          secun<lb break="no" ed="#P" n="30"/>dario. Ratio autem dubitandi est, quia non 
+          vi<lb break="no" ed="#P" n="31"/>detur dici posse, objectum primarium, quia
+          <lb ed="#P" n="32"/>illa intellectio necessario terminatur prius 
+          ob<lb break="no" ed="#P" n="33"/>jective ad divinitatem, quam ad relationes,
+          <lb ed="#P" n="34"/>quia essentia est ratio cognoscendi relationes.
+          <lb ed="#P" n="35"/>Unde intellectio illa, prout essentialis 
+          praein<lb break="no" ed="#P" n="36"/>telligitur relationibus, ut saepe dictum est, ergo
+          <lb ed="#P" n="37"/>ut sic terminatur solum ad divinitatem in 
+          ra<lb break="no" ed="#P" n="38"/>tione objecti cogniti, ergo primarium objectum
+          <lb ed="#P" n="39"/>ejus est sola divinitas. Dictum est autem in
+          <lb ed="#P" n="40"/>superioribus, per eamdem essentialem 
+          intel<lb break="no" ed="#P" n="41"/>lectionem, prout est in Patre, produci Verbum,
+          <lb ed="#P" n="42"/>ergo producitur Verbum ex cognitione solius
+          <lb ed="#P" n="43"/>essentiae, ut primarii objecti, Personarum 
+          au<lb break="no" ed="#P" n="44"/>tem ut secundarii. Quod si hanc partem 
+          tuea<lb break="no" ed="#P" n="45"/>mur, videmur reincidere in Scoti opinionem,
+          <lb ed="#P" n="46"/>quod Verbum non per se, sed concomitanter
+          <lb ed="#P" n="47"/>procedat ex cognitione personarum. Quid enim
+          <lb ed="#P" n="48"/>est secundario, nisi concomitanter et quasi 
+          ac<lb break="no" ed="#P" n="49"/>cidentario?
+        </p>
+        <p xml:id="szduep-185015-d1e174">
+          <lb ed="#P" n="50"/>2. Explicatur dubium. — Respondeo, 
+          inter<lb break="no" ed="#P" n="51"/>rogationem hanc non pertinere specialiter ad
+          <lb ed="#P" n="52"/>productionem Verbi divini, ut productio est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>sed ad actum intelligendi Dei, ut actus 
+          intelli<lb break="no" ed="#P" n="54"/>gendi est, eo enim modo, quo actus ille in ra-]
+          <lb ed="#P" n="55"/>Uone cognitionis attingit personas, ut 
+          reprae<lb break="no" ed="#P" n="56"/>sentatas et cognitas per illum: eodem modo 
+          <lb ed="#P" n="57"/>est ratio prodücendi Verbum, adjuncta 
+          condi<lb break="no" ed="#P" n="58"/>tone necessaria ex parte paternitatis. De ipso 
+          <lb ed="#P" n="59"/>vero actu intelligendo ut sic, dicendum est,
+          <lb ed="#P" n="60"/>non concomitanter, sed per se, et quasi unico
+          <lb ed="#P" n="61"/>simplicissimo intuitu attingere essentiam et]
+          <lb ed="#P" n="62"/>relationes. Concomitantia enim esset, si in illo 
+          <lb ed="#P" n="63"/>actu intelligeremus duos ratione distinctos cum
+          <lb ed="#P" n="64"/>fundamento in re, per duas habitudines, unam
+          <lb ed="#P" n="65"/>ad essentiam, et alteram ad personas: ita ut
+          <lb ed="#P" n="66"/>unus formaliter in alio non iucludatur 
+          secun<lb break="no" ed="#P" n="67"/>dum nostros conceptus, sed per se unusquisque
+          <lb ed="#P" n="68"/>constituatur in ordine ad suum objectum, licet
+          <lb ed="#P" n="69"/>unus intelligatur resultare ex altero, et hac
+          <lb ed="#P" n="70"/>ratione actus ille, ut in se est, dicatur primario
+          <lb ed="#P" n="71"/>terminari ad essentiam, et secundario ad 
+          re<lb break="no" ed="#P" n="72"/>lationes. At hic modus concomitantiae verus
+          <lb ed="#P" n="73"/>non est, quia essentia Dei ita est in re ipsa
+          <lb ed="#P" n="74"/>connexa cum relationibus, non solum in 
+          ra<lb break="no" ed="#P" n="75"/>tione entis per simplicissimam identitatem, sed
+          <lb ed="#P" n="76"/>etiam in ratione objecti intelligibilis, per 
+          es<lb break="no" ed="#P" n="77"/>sentialem ordinem ad illas relationes, ut non
+          <lb ed="#P" n="78"/>possit, prout est, in se videri, nedum 
+          compre<lb break="no" ed="#P" n="79"/>hendi, quia actus ille, quo videtur et 
+          compre<lb break="no" ed="#P" n="80"/>henditur, attingendo ipsam Deitatem, eodem
+          <lb ed="#P" n="81"/>quasi intuitu, et respectu attingit etiam 
+          perso<lb break="no" ed="#P" n="82"/>nas; et hoc satis est, ut non tantum 
+          concomi<lb break="no" ed="#P" n="83"/>tanter, sed etiam per se, ac formahiter et 
+          essen<lb break="no" ed="#P" n="84"/>tialiter illa inteilectio, eo ipso, quod est 
+          cogni<lb break="no" ed="#P" n="85"/>tio essentiae, sit etiam cognitio personarum.
+          <lb ed="#P" n="86"/>Quamvis enim fortasse verum sit, divinitatem
+          <lb ed="#P" n="87"/>Ipsam esse rationem atüngendi et cognoscendi
+          <lb ed="#P" n="88"/>personas, non tamen per actum ratione 
+          distinc<lb break="no" ed="#P" n="89"/>tum, sed eodem omnino.
+        </p>
+        <p xml:id="szduep-185015-d1e266">
+          <lb ed="#P" n="90"/>3. Unde licet concedamus, illum actum 
+          in<lb break="no" ed="#P" n="91"/>telligendi ut essentialem prius ratione esse in
+          <lb ed="#P" n="92"/>hoc DEO, quam in personis: ninilominus 
+          di<lb break="no" ed="#P" n="93"/>cendu est, nunc Deum per illum actum 
+          co<lb break="no" ed="#P" n="94"/>gnoscere non tantum divinitatem et 
+          substan<lb break="no" ed="#P" n="95"/>tiam essentialem, sed etiam personalem, quia
+          <lb ed="#P" n="96"/>per iillum perftecie comprehendit, et intuetur
+          <lb ed="#P" n="97"/>suam naturam, prout in se est. Quod si nos
+          <lb ed="#P" n="98"/>praescindimus ilium actum in hoc D£O ut 
+          ter<lb break="no" ed="#P" n="99"/>minatum objective ad eumdem Deum, sic 
+          prae<lb break="no" ed="#P" n="100"/>cisum et abstractum a personis: non est quia
+          <lb ed="#P" n="101"/>inteiligimus, eumdem actum etiam, ut 
+          exis<lb break="no" ed="#P" n="102"/>tentem in hoc Deo non attingere 
+          personalita<lb break="no" ed="#P" n="103"/>tes objective. Sic enim esset abstractio 
+          nega<lb break="no" ed="#P" n="104"/>tiva, et in ea esset falsitas, et mendacium, 
+          so<lb break="no" ed="#P" n="105"/>lum ergo ex parte nostra praescindere 
+          possu<lb break="no" ed="#P" n="106"/>mus, considerando unum et non considerando
+          <lb ed="#P" n="107"/>aliud, quia illud, quod sic,abstrahimus, non
+          <pb ed="#P" n="733"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prout in se est, sed confuse tantum 
+          cognosci<lb break="no" ed="#P" n="2"/>mus per illum actum. Quocirca licet 
+          persona<lb break="no" ed="#P" n="3"/>litates non sint de essentia divinitatis, ut supra
+          <lb ed="#P" n="4"/>diximus : nihilominus est de essentia 
+          intellec<lb break="no" ed="#P" n="5"/>tionis essentialis Dei, attingere personalitates
+          <lb ed="#P" n="6"/>in ratione objecti cogniti, quia de essentia ejus
+          <lb ed="#P" n="7"/>est, esse comprehensionem Divinitatis, 
+          com<lb break="no" ed="#P" n="8"/>prehensio autem totum hoc complectitur. 
+          Di<lb break="no" ed="#P" n="9"/>ces. Qui fieri potest, ut personae videantur per
+          <lb ed="#P" n="10"/>intellectionem essentialem prius ratione, quam
+          <lb ed="#P" n="11"/>poducantur , et consequenter prius ratione,
+          <lb ed="#P" n="12"/>quam existant ?Respondetur,quia visio illa nec
+          <lb ed="#P" n="13"/>sumitur ab illo cbjecto quasi secundario,sed ex
+          <lb ed="#P" n="14"/>vi essentiae haberi potest, nec ex parte 
+          termi<lb break="no" ed="#P" n="15"/>ni supponitur necessario actualis existentia
+          <lb ed="#P" n="16"/>ad visionem intuitivam pro ommi signo 
+          ratio<lb break="no" ed="#P" n="17"/>nis, sed potest esse prior existentia visionis,
+          <lb ed="#P" n="18"/>quam rei visae. Nam si Deus potest intueri 
+          fu<lb break="no" ed="#P" n="19"/>turas creaturas prius duratione, imo 
+          seternita<lb break="no" ed="#P" n="20"/>te, quam ipsae existant, cur non poterit Deus
+          <lb ed="#P" n="21"/>ut sic, videre personas prius ratione, vel 
+          ori<lb break="no" ed="#P" n="22"/>gine, quam producantur? totumque hoc ex
+          <lb ed="#P" n="23"/>tertio dubio fiet clarius.
+        </p>
+        <p xml:id="szduep-185015-d1e362">
+          <lb ed="#P" n="24"/>4. Resolutio dubii. — Juxta hanc ergo 
+          doc<lb break="no" ed="#P" n="25"/>trinam formaliter respondendo ad dubium 
+          pro<lb break="no" ed="#P" n="26"/>positum, sub distinctione dicendum est, si 
+          il<lb break="no" ed="#P" n="27"/>lud primanio et secundario, sumantur ex parte
+          <lb ed="#P" n="28"/>actus, sic Verbum primario et per se produci
+          <lb ed="#P" n="29"/>per cognitionem personarum, quia ille actus
+          <lb ed="#P" n="30"/>intelligendi, quo producitur, essentiahter, ac
+          <lb ed="#P" n="31"/>subinde per se primo habet, quod sit cognitio,
+          <lb ed="#P" n="32"/>non tantum essentiae, sed etiam personarum.
+          <lb ed="#P" n="33"/>Et ita constat non concomitanter, sed per se,
+          <lb ed="#P" n="34"/>ac formaliter procedere Verbum ex cognitione
+          <lb ed="#P" n="35"/>personarum. Si vero illa voces sumantur ex
+          <lb ed="#P" n="36"/>parte objecti, sic non est inconveniens 
+          conce<lb break="no" ed="#P" n="37"/>dere, relationes non ita primario pertinere ad
+          <lb ed="#P" n="38"/>objectum illus intellectionis, sicut 
+          divinita<lb break="no" ed="#P" n="39"/>tem ipsam, quod bene suadet illa ratio, quia
+          <lb ed="#P" n="40"/>divinitas est quasi medium et ratio attingendi
+          <lb ed="#P" n="41"/>relationes. Sicut enim ad ipsum esse Dei non
+          <lb ed="#P" n="42"/>aeque primo, nec ita essentialiter comparantur
+          <lb ed="#P" n="43"/>relationes, sicut essentia, hcet esse DEI 
+          sim<lb break="no" ed="#P" n="44"/>plicissimum sit, ita ex parte objecti non aeque
+          <lb ed="#P" n="45"/>primo comparantur essentia, et relationes ad
+          <lb ed="#P" n="46"/>intellectionem Dei, licet illa simplicissima sit.
+          <lb ed="#P" n="47"/>Quamvis autem hoc modo dicamus, Verbum
+          <lb ed="#P" n="48"/>procedere ex cognitione personarum, tanquam
+          <lb ed="#P" n="49"/>ex cognitione objecti aliquo modo secundarit,
+          <lb ed="#P" n="50"/>non indebene infertur, concomitanter tantum,
+          <lb ed="#P" n="51"/>et non per se produci ex cognitione 
+          persona<lb break="no" ed="#P" n="52"/>rum. Quia concomitantia dicit pluralitatem
+          <lb ed="#P" n="53"/>actuum sese concomitantium cum proportione,
+          <lb ed="#P" n="54"/>id est, vel secundum rem, vel secundum 
+          ratio<lb break="no" ed="#P" n="55"/>nem. Hic autem non sunt plures actus, ut de-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>claratum est, sed pluralitas est in objectis, et
+          <lb ed="#P" n="57"/>in eis non est sola concomitantia, sed ordo per
+          <lb ed="#P" n="58"/>se, quatenus unum est ratio cognoscendi 
+          a<lb break="no" ed="#P" n="59"/>liud, quod sine illo cognosci non potest 
+          ex<lb break="no" ed="#P" n="60"/>trinseca ratione, et quasi habitudine sua, et
+          <lb ed="#P" n="61"/>non solum propter identitatem, aut 
+          concomi<lb break="no" ed="#P" n="62"/>tantiam ex parte actus, ut satis declaratum
+          <lb ed="#P" n="63"/>est, et in sequentibus necessarium erit fere 
+          si<lb break="no" ed="#P" n="64"/>milia attingere.
+        </p>
+        <p xml:id="szduep-185015-d1e456">
+          <lb ed="#P" n="65"/>5. Secundum dubium.—Secundum dubium
+          <lb ed="#P" n="66"/>est, an possit dici, Verbum esse principium
+          <lb ed="#P" n="67"/>suae processionis et similiter, an Spiritus 
+          sanc<lb break="no" ed="#P" n="68"/>tus dici possit principium productionis Verbi.
+          <lb ed="#P" n="69"/>Et dubitandi ratio est, quia objectum 
+          cogni<lb break="no" ed="#P" n="70"/>tum solet esse principium cognitionis et 
+          ter<lb break="no" ed="#P" n="71"/>mini ejus. Diximus autem, Verbum et 
+          Spiri<lb break="no" ed="#P" n="72"/>tum sanctum esse objectum cognitum per
+          <lb ed="#P" n="73"/>eam cognitionem, per quam producitur 
+          Ver<lb break="no" ed="#P" n="74"/>bum, sunt ergo principium ejus. At hoc plane
+          <lb ed="#P" n="75"/>absurdum est, ut recte dicebat Scotus, quia
+          <lb ed="#P" n="76"/>nec una persona potest esse principium sui 
+          ip<lb break="no" ed="#P" n="77"/>sius, nec persona procedens potest esse 
+          prin<lb break="no" ed="#P" n="78"/>cipium personae producentis ipsam.
+        </p>
+        <p xml:id="szduep-185015-d1e489">
+          <lb ed="#P" n="79"/>6. Resolutio. — Dico ergo nullo modo id 
+          ad<lb break="no" ed="#P" n="80"/>mittendum esse , ut ratio proxime facta 
+          evi<lb break="no" ed="#P" n="81"/>denter probat. Neque id sequitur ex superiori
+          <lb ed="#P" n="82"/>doctrina. Quia vel est sermode principio quod,
+          <lb ed="#P" n="83"/>vel quo. De priori clarum est, objectum 
+          cogni<lb break="no" ed="#P" n="84"/>tum non semper esse principium quod 
+          cogni<lb break="no" ed="#P" n="85"/>tionis, vel termini per illam producti, nam in
+          <lb ed="#P" n="86"/>visione beatifica Deus est objectum cognitum,
+          <lb ed="#P" n="87"/>et tamen non est principium, quod proxime
+          <lb ed="#P" n="88"/>producit illam visionem, sed beatus et in 
+          mul<lb break="no" ed="#P" n="89"/>tis aliis fieri potest inductio. Et ratio est, quia
+          <lb ed="#P" n="90"/>de ratione objecti cogniti, ut sic, ad summum
+          <lb ed="#P" n="91"/>est, quod sit aliquo modo ratio cognoscendi,
+          <lb ed="#P" n="92"/>vel producendi, non vero quod sit ipsum 
+          co<lb break="no" ed="#P" n="93"/>gnoscens, vel producens per cognitionem. Si
+          <lb ed="#P" n="94"/>vero sit sermo de principio quo, dicendum
+          <lb ed="#P" n="95"/>est, tunc solum rem cognitam esse principium
+          <lb ed="#P" n="96"/>quo cognitionis, aut Verbi, quando vel per se
+          <lb ed="#P" n="97"/>ipsam unitur cognoscenti in ratione speciel
+          <lb ed="#P" n="98"/>intelligibilis, vel quando est principium 
+          spe<lb break="no" ed="#P" n="99"/>ciei intelligibilis, vel illius rei, quae vicem 
+          e<lb break="no" ed="#P" n="100"/>jus gerit, quod alias dici solet, quando non 
+          s0<lb break="no" ed="#P" n="101"/>lum est objectum terminativum, sed etiam 
+          mo<lb break="no" ed="#P" n="102"/>tivum, seu quando cognoscens cognitionem
+          <lb ed="#P" n="103"/>accipit a re cognita : nam si ex se illam 
+          ha<lb break="no" ed="#P" n="104"/>beat, non oportet, ut res cognita sit 
+          princi<lb break="no" ed="#P" n="105"/>pium cognitionis ejus, et consequenter nec
+          <lb ed="#P" n="106"/>Verbi ejus. Ita vero se habet aeternus Pater
+          <lb ed="#P" n="107"/>respectu Verbi et Spiritus sancti: non enim
+          <lb ed="#P" n="108"/>ab eis accipit cognitionem, nec virtutem, aut
+          <lb ed="#P" n="109"/>quasi speciem ad cognoscendum, nec filiatio,
+          <lb ed="#P" n="110"/>aut processio per sese quasi uniuntur Patri,
+          <pb ed="#P" n="734"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ut sint illi ratio cognoscendi personas Filii et
+          <lb ed="#P" n="2"/>Spiritus sancti, ut tales sunt, sed ipse Pater
+          <lb ed="#P" n="3"/>ex vi suae divinitatis totum hor habet, et ideo
+          <lb ed="#P" n="4"/>ad ejus cognitionem non comparantur, ut 
+          ob<lb break="no" ed="#P" n="5"/>jectum motivum, sed tantum ut 
+          terminati<lb break="no" ed="#P" n="6"/>vum. Ac propterea nullo modo sunt 
+          princi<lb break="no" ed="#P" n="7"/>pium Verbi, etiamsi Verbum ex illorum 
+          co<lb break="no" ed="#P" n="8"/>gnitione procedat.
+        </p>
+        <p xml:id="szduep-185015-d1e583">
+          <lb ed="#P" n="9"/>7. Illatio de paternitate quomodo ad 
+          produc<lb break="no" ed="#P" n="10"/>tionem Filii concurrat. — Ex quo obiter 
+          infe<lb break="no" ed="#P" n="11"/>ro, etiam in ipso Patre paternitatem non 
+          con<lb break="no" ed="#P" n="12"/>currere, nostro modo intelligendi, per modum
+          <lb ed="#P" n="13"/>objecti motivi, seu speciel ntelligibilis ad eam
+          <lb ed="#P" n="14"/>cognitionem, per quam producitur Verbum,
+          <lb ed="#P" n="15"/>etiam ut est ipsiusmet Patris cognitio. 
+          Proba<lb break="no" ed="#P" n="16"/>tur. Quia tota virtus et tota quasi species ad
+          <lb ed="#P" n="17"/>illam cognitionem est sola divinitas ut sic,
+          <lb ed="#P" n="18"/>non ergo Paternitas. Antecedens patet, quia
+          <lb ed="#P" n="19"/>Filius eadem omnino cognitione cognoscit 
+          Pa<lb break="no" ed="#P" n="20"/>trem, qua Pater seipsum et eodem intellectu:
+          <lb ed="#P" n="21"/>ergo eadem quasi specie intelligibili: Filius
+          <lb ed="#P" n="22"/>autem ex vi suae divinitatis Patrem cognoscit,
+          <lb ed="#P" n="23"/>et idem estdeSpiritu sancto. Neque enim fingi
+          <lb ed="#P" n="24"/>aut intelligi potest, quod Paternitas, quae ab
+          <lb ed="#P" n="25"/>illis realiter distinguitur, illis deserviat per
+          <lb ed="#P" n="26"/>modum speciei intelligibilis. Ratio vero est,
+          <lb ed="#P" n="27"/>quia divinitas eminenter continet perfectiones
+          <lb ed="#P" n="28"/>omnium relationum, ut supra dixi, et ideo
+          <lb ed="#P" n="29"/>per se est sufficiens ratio cognoscendi illas. 
+          De<lb break="no" ed="#P" n="30"/>nique quia etiam respectu Patris propria 
+          re<lb break="no" ed="#P" n="31"/>latio seu Paternitas est veluti secundarium 
+          ob<lb break="no" ed="#P" n="32"/>jectum respectu cognitionissuae essentiae: nam
+          <lb ed="#P" n="33"/>ex comprehensione hujus illam etiam 
+          conse<lb break="no" ed="#P" n="34"/>quenter cognoscit. Quando autem aliquid hoc
+          <lb ed="#P" n="35"/>modo cognoscitur, principium cognoscendi
+          <lb ed="#P" n="36"/>primarium objectum est sufficiens ratio 
+          co<lb break="no" ed="#P" n="37"/>gnoscendi secundarium. Atque ita in praesenti
+          <lb ed="#P" n="38"/>sola divinitas est sufficiens ratio 
+          comprehen<lb break="no" ed="#P" n="39"/>sionis suae, quae secundum rationem potest
+          <lb ed="#P" n="40"/>prius intelligi in hoc Deo ut praeciso a 
+          perso<lb break="no" ed="#P" n="41"/>nis: nam omnis perfectio essentialis in eo 
+          prae<lb break="no" ed="#P" n="42"/>intelligi potest. Et, ut supra dicebam, per 
+          il<lb break="no" ed="#P" n="43"/>lam intellectionem, ut sic, cognoscuntur 
+          rela<lb break="no" ed="#P" n="44"/>tiones, quamvis ipsae relationes nullo modo,
+          <lb ed="#P" n="45"/>etiam secundum rationem sint principia talis
+          <lb ed="#P" n="46"/>cognitionis, sed solum res cognitae. Quocirca,
+          <lb ed="#P" n="47"/>cum Paternitas possit dupliciter considerari,
+          <lb ed="#P" n="48"/>scilicet , et ut proprietas constituens talem
+          <lb ed="#P" n="49"/>personam, et ut quoddam objectum 
+          cogni<lb break="no" ed="#P" n="50"/>tum : priori modo concurrit aliquo modo ut
+          <lb ed="#P" n="51"/>principium ad productionem Verbi, id est,
+          <lb ed="#P" n="52"/>tanquam conditio necessaria, quae in tali 
+          per<lb break="no" ed="#P" n="53"/>sona supponi debet : posteriori autem modo
+          <lb ed="#P" n="54"/>non concurrit ut principium, sed solum ut
+          <lb ed="#P" n="55"/>terminus secundario cognitus.
+        </p>
+        <p xml:id="szduep-185015-d1e687">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7. Tertium dubium. — Tertium dubium est,
+          <lb ed="#P" n="57"/>an Verbum procedat ex cognitione intuitiva
+          <lb ed="#P" n="58"/>personarum. Cujus resolutio respectu Patris
+          <lb ed="#P" n="59"/>clara est: ille enim supponitur existens, et ideo
+          <lb ed="#P" n="60"/>non est dubium, quin respectu illius sit 
+          intui<lb break="no" ed="#P" n="61"/>tiva cognitio. Idem non difficile intelligi potest
+          <lb ed="#P" n="62"/>respectu Verbi, quia actus, quo producitur, 
+          si<lb break="no" ed="#P" n="63"/>mul terminatur ad illud ut existens, tam in
+          <lb ed="#P" n="64"/>ratione productionis, quam in ratione 
+          cogni<lb break="no" ed="#P" n="65"/>tionis ejus, quod a fortiori etiam patebit ex
+          <lb ed="#P" n="66"/>dicendis. Tota ergo difficultas versatur circa
+          <lb ed="#P" n="67"/>personam Spiritus sancti, quia, cum Verbum
+          <lb ed="#P" n="68"/>producitur, nondum tertia persona intelligitur
+          <lb ed="#P" n="69"/>producta: ergo nec existens: ergo neque ut
+          <lb ed="#P" n="70"/>objectum intuitivae cognitionis.
+        </p>
+        <p xml:id="szduep-185015-d1e725">
+          <lb ed="#P" n="71"/>8. Productio Verbi est em visione sutuifien
+          <lb ed="#P" n="72"/>Spiritus Sancti.—Atque ita censent aliqui, in
+          <lb ed="#P" n="73"/>eo signo cognitionem Spiritus sancti esse 
+          abs<lb break="no" ed="#P" n="74"/>tractivam. Sed mihi nullo modo probatur, quia
+          <lb ed="#P" n="75"/>cognitio abstractiva, aut in objecto supponit
+          <lb ed="#P" n="76"/>imperfectionem, aut in cognoscente: si enim
+          <lb ed="#P" n="77"/>res cognita talis sit, ut de se abstrahat ab 
+          ac<lb break="no" ed="#P" n="78"/>tuali existentia, et possit esse tantum 
+          possibi<lb break="no" ed="#P" n="79"/>lis, tunc poterit quidem abstractive cognosci
+          <lb ed="#P" n="80"/>etiam a perfectissimo intelligente, quomodo
+          <lb ed="#P" n="81"/>Deus habet scientiam abstractivam rerum 
+          pos<lb break="no" ed="#P" n="82"/>sibilium. Tunc autem supponitur imperfectio
+          <lb ed="#P" n="83"/>in re cognita, quae non potest attribul personae
+          <lb ed="#P" n="84"/>Spiritus sancti: nam essentialiter est actu 
+          exis<lb break="no" ed="#P" n="85"/>tens, et tam necessario sicut Pater. Si autem
+          <lb ed="#P" n="86"/>res de se non abstrahit ab actuali existentia,
+          <lb ed="#P" n="87"/>sed illam necessario includit, non potest 
+          abs<lb break="no" ed="#P" n="88"/>tractive cognosci, nisi imperfecte cognoscatur,
+          <lb ed="#P" n="89"/>quia plane non cognoscitur, sicut est et sicut
+          <lb ed="#P" n="90"/>meretur, quod Patri aeterno attribui non 
+          po<lb break="no" ed="#P" n="91"/>test. Nam in quocumque signo perfectissime et
+          <lb ed="#P" n="92"/>comprehensive cognoscit personam Spiritus
+          <lb ed="#P" n="93"/>sancti: ergo cognoscit illam sicut est: ergo
+          <lb ed="#P" n="94"/>cognoscit illam ut necessario existentem actu,
+          <lb ed="#P" n="95"/>ergo intuitive. Confirmatur a posteriori, nam
+          <lb ed="#P" n="96"/>cognitio intuitiva potest esse prior etiam 
+          dura<lb break="no" ed="#P" n="97"/>tione, quam existentia rei cognitae: habet enim
+          <lb ed="#P" n="98"/>Deus ex aeternitate cognitionem intuitivam
+          <lb ed="#P" n="99"/>creaturarum , quia videt illas, prout futurae
+          <lb ed="#P" n="100"/>sunt, etiamsi nondum existant. Quid ergo 
+          mi<lb break="no" ed="#P" n="101"/>rum, quod possit esse prior origine. Maxime
+          <lb ed="#P" n="102"/>cum supra ostensum sit, prioritatem originis
+          <lb ed="#P" n="103"/>esse cum simultate cognitionis seu rationis. Sic
+          <lb ed="#P" n="104"/>ergo simul intuetur Pater et Verbum et 
+          Spiri<lb break="no" ed="#P" n="105"/>tus sanctus, quamvis in illo signo intueatur
+          <lb ed="#P" n="106"/>Verbum, ut productum a se, Spiritum sanctum
+          <lb ed="#P" n="107"/>autem ut a se et Verbo.
+        </p>
+        <p xml:id="szduep-185015-d1e808">
+          <lb ed="#P" n="108"/>9. Dicunt vero aliqui: esto verum sit, 
+          Pa<lb break="no" ed="#P" n="109"/>trem intuitive cognoscere Spiritum sanctum,
+          <lb ed="#P" n="110"/>tamen in illo signo non cognoscere illum ut
+          <pb ed="#P" n="735"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>productum, sed ut producendum, neque ut
+          <lb ed="#P" n="2"/>existentem, sed ut futurum. Verumtamen 
+          ne<lb break="no" ed="#P" n="3"/>que hic modus loquendi absolute placet, quia
+          <lb ed="#P" n="4"/>in illo objecto non est propria futuritio, sed
+          <lb ed="#P" n="5"/>necessaria praesentia. Dici tamen potest, a 
+          no<lb break="no" ed="#P" n="6"/>bis pro illo signo apprehendi instar futuri, quia
+          <lb ed="#P" n="7"/>amperfecte cognoscimus et apprehendimus illa
+          <lb ed="#P" n="8"/>signa, ac si in uno signo esset cognitio, in quo
+          <lb ed="#P" n="9"/>nondum est existentia objecti, quod revera ita
+          <lb ed="#P" n="10"/>non est, quia prioritas originis non est 
+          priori<lb break="no" ed="#P" n="11"/>tas in quo, sed a quo, et ut saepe dixi, non 
+          ex<lb break="no" ed="#P" n="12"/>cludit facultatem omnimodam in existentia et
+          <lb ed="#P" n="13"/>cognitione. Cum ergo Pater producit Verbum
+          <lb ed="#P" n="14"/>suum ex cognitione ejusdem Verbi, et Spiritus
+          <lb ed="#P" n="15"/>sanctus illos intuitive cognoscit, quia videt illos
+          <lb ed="#P" n="16"/>ut entia simphciter necessaria, ac proinde ut
+          <lb ed="#P" n="17"/>existentia simul in ipsa aeternitate, licet cum
+          <lb ed="#P" n="18"/>habitudine originis, quae non obstat intuitivae
+          <lb ed="#P" n="19"/>cognitioni.
+        </p>
+        <p xml:id="szduep-185015-d1e863">
+          <lb ed="#P" n="20"/>10. Quartum ac praecipuum dubium tactum
+          <lb ed="#P" n="21"/>in argumentis superioris capitis erat, an 
+          se<lb break="no" ed="#P" n="22"/>quatur, Verbum divinum esse imaginem vel
+          <lb ed="#P" n="23"/>sui ipstus, vel Spiritus sanctus. Sed hoc dubium
+          <lb ed="#P" n="24"/>supponit multa dicenda in capite septimo, et
+          <lb ed="#P" n="25"/>ideo postea melius tractabitur. Nunc breviter
+          <lb ed="#P" n="26"/>dicimus, neutrum illorum sequi, quod ibi 
+          os<lb break="no" ed="#P" n="27"/>tendemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

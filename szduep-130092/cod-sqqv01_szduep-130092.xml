@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="512"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-130092"><!-- t2-l5c6 -->
+        <head xml:id="szduep-130092-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-130092-Hd1e103" type="question-title">Detur ne causa ex parte hominis positivae reprobationis ejus</head>
+        <p xml:id="szduep-130092-d1e106">
+          <lb ed="#P" n="90"/>CAPUT VI.
+          <lb ed="#P" n="91"/>DETUR NE CAUSA EX PARTE HOMINIS POSITIVAE
+          <lb ed="#P" n="92"/>REPROBATIONIS EJUS.
+        </p>
+        <p xml:id="szduep-130092-d1e115">
+          <lb ed="#P" n="93"/>1. Prior sententia. — Qui ponunt in Deo
+          <lb ed="#P" n="94"/>positivam voluntatem excludendi a Regno
+          <lb ed="#P" n="95"/>coelesti omnes reprobos ante praevisa illorum
+          <lb ed="#P" n="96"/>mala merita futura, consequenter aiunt non
+          <lb ed="#P" n="97"/>dari causam reprobationis positivae ex parte
+          <lb ed="#P" n="98"/>talium hominum, quia reprobatio haec in illa
+          <lb ed="#P" n="99"/>voluntate maxime consistit. Atque ita 
+          intelli<lb break="no" ed="#P" n="100"/>gunt multi primam opinionem capite superiori
+          <lb ed="#P" n="101"/>relatam. Verumtamen hujus sententiae 
+          funda<lb break="no" ed="#P" n="102"/>mentum ibi satis explosum est, sententiaque
+          <lb ed="#P" n="103"/>illa sic explicata nullo modo probanda est.
+        </p>
+        <p xml:id="szduep-130092-d1e141">
+          <lb ed="#P" n="104"/>2. Prima conclusio. — Dico ergo primo, 
+          re<lb break="no" ed="#P" n="105"/>probationis positivae dari causam ex parte 
+          re<lb break="no" ed="#P" n="106"/>probi. In hoc habet verum secunda sententia
+          <lb ed="#P" n="107"/>posita, capite praecedenti, quam Scotus, et alii
+          <pb ed="#P" n="513"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sequuntur. Estque manifesta sententia 
+          Augus<lb break="no" ed="#P" n="2"/>tini, Epist. 105 et 106; et libro 3, contra 
+          Ju<lb break="no" ed="#P" n="3"/>lianum, capite 8, de Bono persever., cap. 8 et
+          <lb ed="#P" n="4"/>14, et saepe alias, Prosperi, resp. 3 et 7, ad
+          <lb ed="#P" n="5"/>Gallos, et resp. 11, ad Vincent., Fulgentii,
+          <lb ed="#P" n="6"/>lib. 1, ad Monimum, cap. 13 et sequentibus,
+          <lb ed="#P" n="7"/>qui docent, Deum neminem praedestinasse ad
+          <lb ed="#P" n="8"/>malum aeternae poenae nisi propter culpam.
+          <lb ed="#P" n="9"/>Quod etiam habet Concilium Valentinum sub
+          <lb ed="#P" n="10"/>Lothario, cap. 3. Huc etiam spectat doctrina
+          <lb ed="#P" n="11"/>Damascent saepe allata, lib, 2, de Fide, cap.
+          <lb ed="#P" n="12"/>29. Deum ex se non velle malum hominibus,
+          <lb ed="#P" n="13"/>sed ab ipsis provocatum. Colligitur etiam ex
+          <lb ed="#P" n="14"/>omnibus Scripturis, quae docent, Deum 
+          nemi<lb break="no" ed="#P" n="15"/>nem condemnare, nisi propter peccatum ejus.
+          <lb ed="#P" n="16"/>Quamvis enim supra diximus, in 
+          praedestina<lb break="no" ed="#P" n="17"/>uone, vel electione ad gloriam non esse 
+          bo<lb break="no" ed="#P" n="18"/>nam illationem a causa praemii ad causam
+          <lb ed="#P" n="19"/>praedestinationis, vel electionis, nihilominus
+          <lb ed="#P" n="20"/>hic optima est a causa poenae aeternae ad 
+          cau<lb break="no" ed="#P" n="21"/>sam reprobationis ad talem poenam.
+        </p>
+        <p xml:id="szduep-130092-d1e203">
+          <lb ed="#P" n="22"/>3. Ratione corroboratur. — Et ratio est,
+          <lb ed="#P" n="23"/>quia Deus praeparat praemium ex misericordia,
+          <lb ed="#P" n="24"/>et confert ex justitia: poenam autem non 
+          po<lb break="no" ed="#P" n="25"/>test praeparare ex misericordia : et ideo neque
+          <lb ed="#P" n="26"/>illam praeparat ex se voluntate absoluta. 
+          So<lb break="no" ed="#P" n="27"/>lum ergo praeparat per justam 
+          condemnatio<lb break="no" ed="#P" n="28"/>nem: et in hac praeparatione consummatur
+          <lb ed="#P" n="29"/>reprobatio positiva : ergo sicut datur causa
+          <lb ed="#P" n="30"/>condemnationis, ita etiam reprobationis. Quod
+          <lb ed="#P" n="31"/>tandem manifestum est in actibus, in quibus
+          <lb ed="#P" n="32"/>supra diximus positam esse reprobationem
+          <lb ed="#P" n="33"/>Ahanc : nam praescientia absoluta futuri peccati
+          <lb ed="#P" n="34"/>supponit ex parte objecti illud esse futurum.
+          <lb ed="#P" n="35"/>BSententia item finalis, quae profertur contra
+          <lb ed="#P" n="36"/>reprobum, in ejus demeritis fundatur. Et inde
+          <lb ed="#P" n="37"/>tandem consequitur voluntas illa absoluta 
+          pri<lb break="no" ed="#P" n="38"/>yandi illum Regno et puniendi. Ergo omnes
+          <lb ed="#P" n="39"/>illi actus, in quibus consistere potest positiva
+          <lb ed="#P" n="40"/>reprobatio, hahont fundamentum ex parte 
+          ho<lb break="no" ed="#P" n="41"/>minis reprobandi.
+        </p>
+        <p xml:id="szduep-130092-d1e249">
+          <lb ed="#P" n="42"/>4. Secunda conclusio.—bico secundo 
+          Pecca<lb break="no" ed="#P" n="43"/>tum originale non est adaequate causa 
+          reproba<lb break="no" ed="#P" n="44"/>onis eorum omnium, qui de facto damnantur.
+          <lb ed="#P" n="45"/>Haec assertio est evidentissima in angelis 
+          ma<lb break="no" ed="#P" n="46"/>lis, qui reprobati sunt absque originali 
+          pecca<lb break="no" ed="#P" n="47"/>to. Deinde, mihi etiam certa est in illis 
+          om<lb break="no" ed="#P" n="48"/>nibus hominibus, quibus peccatum originale
+          <lb ed="#P" n="49"/>in hac vita remissum est. Nam quod est 
+          cau<lb break="no" ed="#P" n="50"/>sa reprobationis, est etiam causa aeternae 
+          poe<lb break="no" ed="#P" n="51"/>nae : et e converso quod non est causa aeternae
+          <lb ed="#P" n="52"/>poenae, non est causa reprobationis, sed 
+          pecca<lb break="no" ed="#P" n="53"/>tum originale, quod in hac vita remittitur,
+          <lb ed="#P" n="54"/>non est causa aeternae poenae, ergo nec est
+          <lb ed="#P" n="55"/>causa reprobationis illorum hominum, quibus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>interdum remittitur. Minor certissima est,
+          <lb ed="#P" n="57"/>quia remisso originali peccato, remittitur 
+          ae<lb break="no" ed="#P" n="58"/>terna poena ei debita : semel autem remissa
+          <lb ed="#P" n="59"/>tali culpa et poena, nunquam amplius redit,
+          <lb ed="#P" n="60"/>quia dona Dei sunt sine poenitentia, ergo 
+          pec<lb break="no" ed="#P" n="61"/>catum originale semel remissum non punitur
+          <lb ed="#P" n="62"/>aeterna paena : ergo non est causa seternae
+          <lb ed="#P" n="63"/>poenae. Major autem principalis argumenti ex
+          <lb ed="#P" n="64"/>dictis facile constat, quia quoad hoc eadem
+          <lb ed="#P" n="65"/>est ratio reprobationis, quae est 
+          condemnatio<lb break="no" ed="#P" n="66"/>nis : quia reprobatio non sit a Deo, nisi per
+          <lb ed="#P" n="67"/>modum condemnationis , est enim actus 
+          vin<lb break="no" ed="#P" n="68"/>dicativae justitiae, habens pro intrinseco 
+          ter<lb break="no" ed="#P" n="69"/>mino, et quasi objecto aeternam damnationem.
+          <lb ed="#P" n="70"/>Quamvis enim Deus habeat alios actus 
+          vindi<lb break="no" ed="#P" n="71"/>cativae justitiae circa peccata, volendo in 
+          vin<lb break="no" ed="#P" n="72"/>dictam illorum alias infligere poenas : tamen
+          <lb ed="#P" n="73"/>donec absolute velit seternam poenam, non 
+          re<lb break="no" ed="#P" n="74"/>probat hominem : hanc autem poenam nemini
+          <lb ed="#P" n="75"/>velle potest propter originale peccatum, quod
+          <lb ed="#P" n="76"/>ei remisit, seu remissurus est.
+        </p>
+        <p xml:id="szduep-130092-d1e330">
+          <lb ed="#P" n="77"/>5. Effugium. — Precluditur. — Atque haec
+          <lb ed="#P" n="78"/>ratio non solum probat, peccatum originale
+          <lb ed="#P" n="79"/>non esse adaequatam causam positivae 
+          reproba<lb break="no" ed="#P" n="80"/>tionis eorum hominum , quibus ipsum 
+          remit<lb break="no" ed="#P" n="81"/>titur, verum etiam neque partialem, neque
+          <lb ed="#P" n="82"/>omnino esse causam talis reprobationis. 
+          Pro<lb break="no" ed="#P" n="83"/>batur applicando eumdem discursum cum 
+          pro<lb break="no" ed="#P" n="84"/>portione , quia illi homines nullo modo 
+          dam<lb break="no" ed="#P" n="85"/>nantur propter peccatum originale , etiam ut
+          <lb ed="#P" n="86"/>partialem causam, ergo nec reprobantur, quia
+          <lb ed="#P" n="87"/>in hoc negotio eadem est ratio reprobationis,
+          <lb ed="#P" n="88"/>quae damnationis, ut declaratum est. 
+          Respon<lb break="no" ed="#P" n="89"/>deri potest, originale peccatum etiamsi 
+          remit<lb break="no" ed="#P" n="90"/>tendum sit, esse fontem et radicem omnium
+          <lb ed="#P" n="91"/>peceatorum , quae postea committuntur ; iiem
+          <lb ed="#P" n="92"/>esse causam motivam , ob quam Deus juste
+          <lb ed="#P" n="93"/>vult non dare illis hominibus congrua auxilia
+          <lb ed="#P" n="94"/>ad non committenda talia peccata, vel ad non
+          <lb ed="#P" n="95"/>perseverandum in illis usque ad mortem. In
+          <lb ed="#P" n="96"/>qua voluntate perseverat Deus, etiamsi 
+          remit<lb break="no" ed="#P" n="97"/>tat originale peccatum. Ad hoc vero 
+          respon<lb break="no" ed="#P" n="98"/>detur, etiamsi totum concedatur, non sequi,
+          <lb ed="#P" n="99"/>originale peccatum esse propriam causam 
+          par<lb break="no" ed="#P" n="100"/>tialem reprobationis, quando ipsum 
+          remitti<lb break="no" ed="#P" n="101"/>tur , sed ad summum esse quamdam 
+          occasio<lb break="no" ed="#P" n="102"/>nem remotam , et removentem prohibens.
+          <lb ed="#P" n="103"/>Nam illa negatio auxilii congrui non est causa
+          <lb ed="#P" n="104"/>peccati : ergo neque est causa reprobationis,
+          <lb ed="#P" n="105"/>cujus peccatum est propria ergo nec
+          <lb ed="#P" n="106"/>peccatum originale remissum dici potest causa
+          <lb ed="#P" n="107"/>reprobationis, etiamsi fuerit causa illius 
+          nega<lb break="no" ed="#P" n="108"/>tionis auxili.
+        </p>
+        <p xml:id="szduep-130092-d1e402">
+          <lb ed="#P" n="109"/>6. Tertia assertio. — Dico tertio. In 
+          paru<lb break="no" ed="#P" n="110"/>lis, quibus peccatum originale nunquam re-
+          <pb ed="#P" n="514"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>missum est, causam positivae reprobationis
+          <lb ed="#P" n="2"/>esse ipsum originale peccatum, non quatenus
+          <lb ed="#P" n="3"/>praecise contractum, sed quatenus durans et
+          <lb ed="#P" n="4"/>perseverans usque ad mortem, et sub ea 
+          con<lb break="no" ed="#P" n="5"/>ditione a DEO praevisum. Prior pars clara est,
+          <lb ed="#P" n="6"/>quia eadem est causa ex parte hominis 
+          repro<lb break="no" ed="#P" n="7"/>bi, suae reprobationis, quae est suae 
+          damnatio<lb break="no" ed="#P" n="8"/>nis, ut saepe dictum est : sed in his parvulis
+          <lb ed="#P" n="9"/>tota causa damnationis eorum est originale
+          <lb ed="#P" n="10"/>peccatum : ergo idem est causa reprobationis.
+          <lb ed="#P" n="11"/>Et inde probatur facile altera pars, quia 
+          pec<lb break="no" ed="#P" n="12"/>catum non est causa damnationis, nisi sub ea
+          <lb ed="#P" n="13"/>conditione, si usque ad mortem perseveret, quae
+          <lb ed="#P" n="14"/>includitur in illa conditionali sententia a
+          <lb ed="#P" n="15"/>Christo lata: Nisi quis renatus fuerit ev aqua
+          <lb ed="#P" n="16"/>et Spiritu sancto , non potest introire in 
+          re<lb break="no" ed="#P" n="17"/>gmun Dei : Ergo simuliter peccatum originale
+          <lb ed="#P" n="18"/>non est causa reprobationis, nisi supposita
+          <lb ed="#P" n="19"/>illa conditione praevisa, scilicet quod 
+          perseve<lb break="no" ed="#P" n="20"/>raturum sit usque ad mortem. Jam enim seepe
+          <lb ed="#P" n="21"/>dictum est, quoad hoc eamdem esse rationem
+          <lb ed="#P" n="22"/>de causa reprobationis , et condemnationis.
+          <lb ed="#P" n="23"/>Quod de peccatis actualibus statim 
+          confirma<lb break="no" ed="#P" n="24"/>himus. .
+        </p>
+        <p xml:id="szduep-130092-d1e465">
+          <lb ed="#P" n="25"/>7. Aliquorum sententia non probatur.—Nec
+          <lb ed="#P" n="26"/>probanda est illorum sentenüa, qui ab hac
+          <lb ed="#P" n="27"/>generali regula quosdam par rulos excipiunt :
+          <lb ed="#P" n="28"/>quia illa exceptio nulla probabih ratione 
+          fun<lb break="no" ed="#P" n="29"/>data est : et ratio facta aeque de omnibus 
+          pro<lb break="no" ed="#P" n="30"/>cedit. Nam, ut supra visum est, Deus non 
+          ha<lb break="no" ed="#P" n="31"/>buit absolutam voluntatem excludendi 
+          ah<lb break="no" ed="#P" n="32"/>quem parvulum a Regno ex vi solius 
+          pecca<lb break="no" ed="#P" n="33"/>ti originalis, donec praevidit, ex aliis 
+          generah<lb break="no" ed="#P" n="34"/>bus, et ordinariis causis eventurum, ut in eo
+          <lb ed="#P" n="35"/>peccato, et absque applicatione remedii 
+          more<lb break="no" ed="#P" n="36"/>rentur, ipso permittente, quod Deus 
+          permit<lb break="no" ed="#P" n="37"/>tere decrevit ex sua generali providentia, ac
+          <lb ed="#P" n="38"/>libera. voluntate : quae permissio pertinet 
+          po<lb break="no" ed="#P" n="39"/>tius ad reprobationem negativam . quam ad
+          <lb ed="#P" n="40"/>positivam. At posttive nunquam Deus voluit
+          <lb ed="#P" n="41"/>antecedenter , ut sic dicam, et ex se non 
+          ap<lb break="no" ed="#P" n="42"/>plicare alicui parvulo tale remedium , aut 
+          in<lb break="no" ed="#P" n="43"/>fantem illum perseverare in originah peccato
+          <lb ed="#P" n="44"/>usque ad mortem, et ideo nec reprobare 
+          posi<lb break="no" ed="#P" n="45"/>tive ullum voluit, donec praevidit 
+          perseveran<lb break="no" ed="#P" n="46"/>tiam ejus in originali peccato, ut dictum est.
+          <lb ed="#P" n="47"/>Unde potest assertio ampliari ad adultos, in
+          <lb ed="#P" n="48"/>quibus peccatum originale est interdum causa
+          <lb ed="#P" n="49"/>reprobationis, saltem partialis, quatenus in
+          <lb ed="#P" n="50"/>illo peccato simul cum aliis usque ad mortem
+          <lb ed="#P" n="51"/>perseverant, et non alias: quia, ut dixi, si
+          <lb ed="#P" n="52"/>ante mortem remittatur, nullo modo erit 
+          pro<lb break="no" ed="#P" n="53"/>pria causa, etiamsi propter alia peccata quis
+          <lb ed="#P" n="54"/>reprobetur.
+        </p>
+        <p xml:id="szduep-130092-d1e533">
+          <lb ed="#P" n="55"/>8. Ultima assertio. — Ultimo ergo dico, in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>adultis causam reprobationis esse peecatum
+          <lb ed="#P" n="57"/>finale, sive unum, sive multiplex, sive 
+          origi<lb break="no" ed="#P" n="58"/>nale, sive actuale mortale, sive utrumque 
+          si<lb break="no" ed="#P" n="59"/>mul, si usque ad mortem non remittuntur.
+          <lb ed="#P" n="60"/>Ita docent auctores supra citati, et specialiter
+          <lb ed="#P" n="61"/>videri possunt Bellarminus, lib. 2, de Gratia,
+          <lb ed="#P" n="62"/>et libero Arbitrio, cap. 16, Horantius, lib. 5
+          <lb ed="#P" n="63"/>locorum Catholicorum, cap. 9, qui dicunt,
+          <lb ed="#P" n="64"/>hanc esse Augustini sententiam. hatio vero
+          <lb ed="#P" n="65"/>est eadem, quia eadem est causa reprobationis
+          <lb ed="#P" n="66"/>positivae, quae est causa damnationis : adulti
+          <lb ed="#P" n="67"/>autem non condemnantur propter peccata 
+          ori<lb break="no" ed="#P" n="68"/>ginalia, vel actualia, nisi impleta illa 
+          condi<lb break="no" ed="#P" n="69"/>tione: S in illis usque ad aortem perseverent;
+          <lb ed="#P" n="70"/>quae sub illa continetür: Jisi panitentiam 
+          ege<lb break="no" ed="#P" n="71"/>ritis, omnes simul peribitis. Nam sicut merita
+          <lb ed="#P" n="72"/>non sunt in effectu causa glorificationis, nisi
+          <lb ed="#P" n="73"/>sub illa conditione a Concilio Tridentino 
+          po<lb break="no" ed="#P" n="74"/>sita, Si in gratia decesserit : ta neque ullum
+          <lb ed="#P" n="75"/>peccatum est causa perditionis adulti, nisi sub
+          <lb ed="#P" n="76"/>dicta conditione durationis ejus usque ad 
+          mor<lb break="no" ed="#P" n="77"/>tem : ergo sub eadem est causa reprobationis,
+          <lb ed="#P" n="78"/>et non alias. Sicut autem causa adaequata 
+          con<lb break="no" ed="#P" n="79"/>demnationis consurgit ex toto cumulo 
+          pecca<lb break="no" ed="#P" n="80"/>torum, quae ante mortem non remittuntur, ita
+          <lb ed="#P" n="81"/>etiam causa roprobationis omnia illa 
+          complec<lb break="no" ed="#P" n="82"/>titur, et ille cumulus nomine finalis peccati
+          <lb ed="#P" n="83"/>significatur. Et sicut de parvulis dicebamus,
+          <lb ed="#P" n="84"/>ita multo majori ratione de adulüs dicendum
+          <lb ed="#P" n="85"/>est, non posse Deum velle ex se 
+          perseveran<lb break="no" ed="#P" n="86"/>tiam hominis adulti in statu peccati mortalis
+          <lb ed="#P" n="87"/>usque ad mortem, quia hoc esset ex se velle
+          <lb ed="#P" n="88"/>malum culpae, ut recte significavit 
+          Augusti<lb break="no" ed="#P" n="89"/>nus, de Correptione et Gratia, cap. 13. et
+          <lb ed="#P" n="90"/>Prosper ad objectiones Gallorum, responsione
+          <lb ed="#P" n="91"/>2. Praevidet ergo Deus statum adulü in peccato
+          <lb ed="#P" n="92"/>usque ad mortem, et tunc reprobat illum, 
+          at<lb break="no" ed="#P" n="93"/>que hoc modo peccatum finale est causa 
+          re<lb break="no" ed="#P" n="94"/>probationis.
+        </p>
+        <p xml:id="szduep-130092-d1e625">
+          <lb ed="#P" n="95"/>9. Dilucidantur verba Pauli. — Neque 
+          con<lb break="no" ed="#P" n="96"/>tra doctrinam hanc urgent verba illa Pauli,
+          <lb ed="#P" n="97"/>Antequam quidguam boni, aut mali egissent,
+          <lb ed="#P" n="98"/>etc., quia, ut dixi, sufficienter explicantur de
+          <lb ed="#P" n="99"/>negativa reprobatione , seu non 
+          praedestina<lb break="no" ed="#P" n="100"/>tione. Instant vero aliqui urgendo illa verba,
+          <lb ed="#P" n="101"/>Fecit quedam vasa in honorem, et quadam in 
+          <lb ed="#P" n="102"/>contumeliam. Nam haec videntur significarel
+          <lb ed="#P" n="103"/>ordinationem positivam. Et ideo Augustinus,
+          <lb ed="#P" n="104"/>epistol. 106, putat necessario supponere 
+          cul<lb break="no" ed="#P" n="105"/>pam saltem originalem. Sed revera illa satis
+          <lb ed="#P" n="106"/>non est in hominibus, ut ostendi, et in ange 
+          <lb ed="#P" n="107"/>lis non habet locum. Igitur illa etiam verb
+          <lb ed="#P" n="108"/>necessario intelligenda sunt negative, vel per 
+          <lb ed="#P" n="109"/>missive, id est, fecit vasa in contumeliam, sci4
+          <lb ed="#P" n="110"/>licet, non fecit in eum honorem, ad quem alia
+          <pb ed="#P" n="515"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praeparavit, vel fecit vasa, quae praescivit suis
+          <lb ed="#P" n="2"/>operibus futura esse in contumeliam, idque
+          <lb ed="#P" n="3"/>Iibere permisit. Solet enim Scriptura loqui de
+          <lb ed="#P" n="4"/>permissione tanquam de positiva actione, vel
+          <lb ed="#P" n="5"/>praecepto, ad declarandum certitudinem ejus,
+          <lb ed="#P" n="6"/>et omnino pendere ex divina voluntate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

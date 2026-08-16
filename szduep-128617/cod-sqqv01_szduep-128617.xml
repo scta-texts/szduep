@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="507"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-128617"><!-- t2-l5c4 -->
+        <head xml:id="szduep-128617-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-128617-Hd1e103" type="question-title">Qui actus divini intellectus, vel voluntatis in reprobatione interveniant</head>
+        <p xml:id="szduep-128617-d1e106">
+          <lb ed="#P" n="10"/>CAPUT IV.
+          <lb ed="#P" n="11"/>QUI ACTUS DIVINI INTELLECTUS, VEL VOLUNTATIS
+          <lb ed="#P" n="12"/>IN REPROBATIONE INTERVENIANT.
+        </p>
+        <p xml:id="szduep-128617-d1e115">
+          <lb ed="#P" n="13"/>1. Terminus reprobationis est aliquod malum.
+          <lb ed="#P" n="14"/>— Duplex malum, scilicet, culpae et poenae. — Duo
+          <lb ed="#P" n="15"/>certa stabiliuntur. — Reprobationis terminus
+          <lb ed="#P" n="16"/>est aliquod malum hominis, qui reprobatur:
+          <lb ed="#P" n="17"/>nam inter alia in hoc distinguitur reprobatio
+          <lb ed="#P" n="18"/>a praedestinatione, quod illa in bonum, haec in
+          <lb ed="#P" n="19"/>malum terminatur. Sicut autem praedestinatio
+          <lb ed="#P" n="20"/>proprie sumpta solum est ad supernaturale 
+          bo<lb break="no" ed="#P" n="21"/>num, ita reprobatio dicitur in ordine ad 
+          ma<lb break="no" ed="#P" n="22"/>lum illi oppositum : et ideo utraque censetur
+          <lb ed="#P" n="23"/>pertinere ad ordinem providentiae 
+          supernatu<lb break="no" ed="#P" n="24"/>ralis : praedestinatio quidem ut perficiens, et
+          <lb ed="#P" n="25"/>quasi complens illum ordinem, reprobatio vero
+          <lb ed="#P" n="26"/>nt deficiens ab illo in objecto, seu termino suo.
+          <lb ed="#P" n="27"/>Quo fit, ut hic solum agendum sit de actibus
+          <lb ed="#P" n="28"/>intellectus et voluntatis DEI, qui versantur
+          <lb ed="#P" n="29"/>circa malum ipsius reprobi: nam de actibus,
+          <lb ed="#P" n="30"/>per quos vult illi bonum, jam dictum est libro
+          <lb ed="#P" n="31"/>praecedente. Duplex autem est hoc malum, 
+          sci<lb break="no" ed="#P" n="32"/>licet, culpae et poenae, de quibus duo tanquam
+          <lb ed="#P" n="33"/>certa supponenda sunt. Primum est, ante 
+          om<lb break="no" ed="#P" n="34"/>nem actum voluntatis divinae antecedere 
+          prae<lb break="no" ed="#P" n="35"/>scientiam utriusque mali, et ut possibilis, et ut
+          <lb ed="#P" n="36"/>futuri sub conditione. Praescit enim Deus 
+          om<lb break="no" ed="#P" n="37"/>nem culpam, quam reprobus commissurus est,
+          <lb ed="#P" n="38"/>si in hac, vel illa occasione libertati suae 
+          per<lb break="no" ed="#P" n="39"/>mittatur absque alia specialiori gratia, et 
+          con<lb break="no" ed="#P" n="40"/>sequenter etiam praescit durationem illius 
+          cul<lb break="no" ed="#P" n="41"/>pae, et poenam ex illa consequendam, si talis
+          <lb ed="#P" n="42"/>etiam conditio permittatur. Tamen haec tota
+          <lb ed="#P" n="43"/>praescientia non pertinet intrinsece ad 
+          repro<lb break="no" ed="#P" n="44"/>bationem, nam similem habet Deus de multis
+          <lb ed="#P" n="45"/>praedestinatis, solum ergo ad totam 
+          providen<lb break="no" ed="#P" n="46"/>tiam supponitur.
+        </p>
+        <p xml:id="szduep-128617-d1e191">
+          <lb ed="#P" n="47"/>2. Alterum, quod ut certum proponitur. —
+          <lb ed="#P" n="48"/>In quo sita sit difficultas. — Secundo est 
+          cer<lb break="no" ed="#P" n="49"/>tum, voluntatem divinam circa illa duo mala,
+          <lb ed="#P" n="50"/>culpae et poenae, ita se habere, ut malum 
+          cul<lb break="no" ed="#P" n="51"/>pae per se et directe nullo modo velit, quia hoc
+          <lb ed="#P" n="52"/>pugnat cum bonitate ejus, quod est de fide
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>certum, ut latius tractavi in lib. 29, de Auxiliis.
+          <lb ed="#P" n="54"/>Malum autem poenae directe vult Deus, non
+          <lb ed="#P" n="55"/>tamen ex se illud vult, sed ex ratione justitiae,
+          <lb ed="#P" n="56"/>supposita culpa, ut saepe dictum est. Quamvis
+          <lb ed="#P" n="57"/>autem Deus non velit malum culpae, permittit
+          <lb ed="#P" n="58"/>tamen illud. Videndum ergo superest, quos
+          <lb ed="#P" n="59"/>actus voluntatis habeat Deus, tam circa mala
+          <lb ed="#P" n="60"/>poenae, quam circa mala culpae, quae in 
+          repro<lb break="no" ed="#P" n="61"/>bis futura sunt.
+        </p>
+        <p xml:id="szduep-128617-d1e229">
+          <lb ed="#P" n="62"/>3. Opinio Aureoli. — Potest autem hoc loco
+          <lb ed="#P" n="63"/>imprimis referri opinio Aureoli in 1, d. 41,
+          <lb ed="#P" n="64"/>art. 3, dicentis, Deum non habere aliquem
+          <lb ed="#P" n="65"/>proprium actum voluntatis suae circa malum
+          <lb ed="#P" n="66"/>reprobi, sed quidquid Deo attribuitur tanquam
+          <lb ed="#P" n="67"/>volenti, vel noienti tale malum, solum per
+          <lb ed="#P" n="68"/>metaphoram tribui : quia ita se habet in 
+          exte<lb break="no" ed="#P" n="69"/>rioribus effectibus, ac si vellet illud. Quod ex
+          <lb ed="#P" n="70"/>parte secutus est Durandus, in 4, d. 17, q. 7,
+          <lb ed="#P" n="71"/>dicens, in Deo non esse propriam displicentiam
+          <lb ed="#P" n="72"/>peccati, neque iram contra peccatorem. Et 
+          vi<lb break="no" ed="#P" n="73"/>dentur fundari, quia hi actus circa malum 
+          in<lb break="no" ed="#P" n="74"/>cludunt imperfectionem. Verumtamen, licet
+          <lb ed="#P" n="75"/>de quibusdam actibus in specie dubitari 
+          pos<lb break="no" ed="#P" n="76"/>sit, an secundum proprietatem in Deo 
+          inve<lb break="no" ed="#P" n="77"/>niatur, ut sunt, verbi gratia, odium, aut ira,
+          <lb ed="#P" n="78"/>de quibus infra aliquid attingemus, tamen de
+          <lb ed="#P" n="79"/>actu voluntatis absolute negari non potest,
+          <lb ed="#P" n="80"/>quin Deus proprie et sine metaphora habeat
+          <lb ed="#P" n="81"/>aliquem actum voluntatis circa reprobum.
+          <lb ed="#P" n="82"/>Nam ut minimum habet voluntatem efficacem
+          <lb ed="#P" n="83"/>et absolutam privandi illum beatitudine et
+          <lb ed="#P" n="84"/>puniendi aeterna poena, saltem post praevisa
+          <lb ed="#P" n="85"/>ejus peccata, quia hic effectus causatur a Deo
+          <lb ed="#P" n="86"/>in tempore: ergo voluit illum ex aeternitate.
+          <lb ed="#P" n="87"/>Item ille actus nullam omnino includit 
+          imper<lb break="no" ed="#P" n="88"/>fectionem, sed potius habet perfectionem 
+          jus<lb break="no" ed="#P" n="89"/>titiae vindicativae. De hoc ergo actu dubitari
+          <lb ed="#P" n="90"/>non potest. An vero habeat etiam alios, et quo
+          <lb ed="#P" n="91"/>ordine rationis, dicendum jam est.
+        </p>
+        <p xml:id="szduep-128617-d1e297">
+          <lb ed="#P" n="92"/>4. Secunda opinio. — Fundamentum 
+          stabi<lb break="no" ed="#P" n="93"/>litur. — Est igitur secunda opinio Scoti in 1,
+          <lb ed="#P" n="94"/>dist. 4, circa finem, dicentis, Deum in primo
+          <lb ed="#P" n="95"/>et secundo signo, in quo voluit praedestinatis
+          <lb ed="#P" n="96"/>et gloriam ut finem et gratiam efficacem ut
+          <lb ed="#P" n="97"/>medium, circa reprobos mere negative se 
+          ha<lb break="no" ed="#P" n="98"/>buisse. Ubi consequenter significat, nullum
+          <lb ed="#P" n="99"/>actum positivum voluntatis circa illos 
+          ha<lb break="no" ed="#P" n="100"/>buisse, donec praeviso peccato, voluit illos 
+          pu<lb break="no" ed="#P" n="101"/>nire. Et hoc sensu distinguit duas 
+          reprobatio<lb break="no" ed="#P" n="102"/>nes, negativam, quae antecedit praescientiam
+          <lb ed="#P" n="103"/>peccati et positivam, quae subsequitur. 
+          Funda<lb break="no" ed="#P" n="104"/>mentum illius est : quia Deus in primo signo,
+          <lb ed="#P" n="105"/>verbi gratia, non habuit voluntatem dandi 
+          re<lb break="no" ed="#P" n="106"/>probis gloriam, alias essent electi : nec etiam
+          <lb ed="#P" n="107"/>voluit illos privare gloria, quia hoc non vult
+          <pb ed="#P" n="508"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex se, ut supra probatum est: ergo mere 
+          ne<lb break="no" ed="#P" n="2"/>gative se habuit. Neque hoc censetur 
+          inconve<lb break="no" ed="#P" n="3"/>niens in uno signo aeternitatis. Quando enim
+          <lb ed="#P" n="4"/>dicitur divina voluntas, non manere quasi 
+          sus<lb break="no" ed="#P" n="5"/>pensa, ita ut nihil statuat de aliquibus 
+          effec<lb break="no" ed="#P" n="6"/>tibus, an sint vel non sint futuri, 
+          intelligen<lb break="no" ed="#P" n="7"/>dum, id est, secundumrealem durationem 
+          aeter<lb break="no" ed="#P" n="8"/>nitatis. Hoc autem modo in praesenti non
+          <lb ed="#P" n="9"/>manet suspensa Det voluntas: quia in 
+          poste<lb break="no" ed="#P" n="10"/>riori signo ex aeternitate habuit voluntatem
+          <lb ed="#P" n="11"/>non dandi beatitudinem his hominibus, in
+          <lb ed="#P" n="12"/>priori autem signo praescindere ab utroque
+          <lb ed="#P" n="13"/>actu, non est inconveniens. Hanc opinionem
+          <lb ed="#P" n="14"/>Scoti aliqui moderni impugnant, existimo
+          <lb ed="#P" n="15"/>etiam in vero sensu fuisse locutum.
+        </p>
+        <p xml:id="szduep-128617-d1e371">
+          <lb ed="#P" n="16"/>5. Scoti sententia explanatur.—Et imprimis
+          <lb ed="#P" n="17"/>ibi non negat, in illo primo signo habuisse
+          <lb ed="#P" n="18"/>Deum circa reprobos voluntatem illam 
+          ante<lb break="no" ed="#P" n="19"/>cedentem et simplicem salvandi illos, quam
+          <lb ed="#P" n="20"/>alis locis admittit, ut supra vidimus: sed 
+          so<lb break="no" ed="#P" n="21"/>lum agit de voluntate efficaci dandi, vel 
+          tol<lb break="no" ed="#P" n="22"/>lendi gloriam, et quoad hanc convincit ratio
+          <lb ed="#P" n="23"/>facta, neutram habuisse Deum circa reprobos
+          <lb ed="#P" n="24"/>in illo signo. Secundo probabilius censeo,
+          <lb ed="#P" n="25"/>DEUM in illo signo ita non elegisse reprobos
+          <lb ed="#P" n="26"/>ad gloriam, ut positivum actum voluntatis 
+          ha<lb break="no" ed="#P" n="27"/>buerit non eligendi illos, seu volendi non 
+          eli<lb break="no" ed="#P" n="28"/>gere: quod non latuit Scotum. Nam in 1, d.
+          <lb ed="#P" n="29"/>F, expresse ponit hunc actum sub 
+          probabih<lb break="no" ed="#P" n="30"/>tate: vocat tamen illum reflexum. Unde cum
+          <lb ed="#P" n="31"/>alibi ait, negative se habuisse Deum, intelligit
+          <lb ed="#P" n="32"/>quoad actus directos, tamen haec ipsa 
+          nega<lb break="no" ed="#P" n="33"/>tio volita est per actum reflexum. Ratio 
+          hu<lb break="no" ed="#P" n="34"/>jus est, quia licet voluntas possit non velle
+          <lb ed="#P" n="35"/>hoc, aut illud, per solam suspensionem actus,
+          <lb ed="#P" n="36"/>ut in nobis philosophi admittunt, tamen tunc
+          <lb ed="#P" n="37"/>illa omissio seu carentia actus est tantum 
+          vir<lb break="no" ed="#P" n="38"/>tute, seu interpretative voluntaria, quia 
+          scili<lb break="no" ed="#P" n="39"/>cet voluntas potest velle et non vult cum 
+          ad<lb break="no" ed="#P" n="40"/>vertentia. Si autem accedat voluntas positiva
+          <lb ed="#P" n="41"/>non agendi, vel non eligendi, jam illa omissio
+          <lb ed="#P" n="42"/>erit directe et formaliter voluntaria. At hic
+          <lb ed="#P" n="43"/>modus agendi, vel non agendi ex se perfectior
+          <lb ed="#P" n="44"/>est. Ergo probabilius est ita se gerere Deum in
+          <lb ed="#P" n="45"/>non eligendis reprobis. Maxime, quia illo actu
+          <lb ed="#P" n="46"/>infinito voluntatis suae potest Deus formaliter
+          <lb ed="#P" n="47"/>et expresse hanc negationem velle, sine ulla
+          <lb ed="#P" n="48"/>mutatione, vel additione, sed eodem modo,
+          <lb ed="#P" n="49"/>quo vult caetera.
+        </p>
+        <p xml:id="szduep-128617-d1e447">
+          <lb ed="#P" n="50"/>6. Tertio dicendum est, non praeparasse
+          <lb ed="#P" n="51"/>Deum his hominibus illam specialem 
+          providen<lb break="no" ed="#P" n="52"/>tiam gratiae, quam praedestinatis confert, ac
+          <lb ed="#P" n="53"/>proinde ante praescientiam absolutam 
+          futuro<lb break="no" ed="#P" n="54"/>rum peccatorum actualium non elegisse illos
+          <lb ed="#P" n="55"/>ad gratiam congruam, et hanc ipsam negatio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nem actu positivo voluisse. Probatur quia
+          <lb ed="#P" n="57"/>quod Deus in tempore non donat, in 
+          aeterni<lb break="no" ed="#P" n="58"/>tate non praeparat: his autem hominibus non
+          <lb ed="#P" n="59"/>dat in tempore hanc specialem providentiam, 
+          <lb ed="#P" n="60"/>ut supponimus, ergo neque illam ex 
+          aeterni<lb break="no" ed="#P" n="61"/>tate praeparavit. Rursus, quod Deus in 
+          tem<lb break="no" ed="#P" n="62"/>pore non facit, ab aeterno voluit non facere,
+          <lb ed="#P" n="63"/>non solum per carentiam actus, sed etiam per
+          <lb ed="#P" n="64"/>directum voluntarium, ex ratione supra facta: 
+          <lb ed="#P" n="65"/>ergo hanc etiam voluntatem habuit Deus circa 
+          <lb ed="#P" n="66"/>hos homines. At haec voluntas non supponit 
+          <lb ed="#P" n="67"/>necessario culpam ex parte hominis, quia non
+          <lb ed="#P" n="68"/>est voluntas puniens, sed cujusdam generalis
+          <lb ed="#P" n="69"/>providentiae gratiae: ergo non est necesse, ut 
+          <lb ed="#P" n="70"/>supponat praescientiam absolutam futurorum, 
+          <lb ed="#P" n="71"/>ergo habuit illam Deus in illo priori signo
+          <lb ed="#P" n="72"/>post voluntatem non praeeligendi eosdem 
+          ho<lb break="no" ed="#P" n="73"/>mines ad gloriam.
+        </p>
+        <p xml:id="szduep-128617-d1e504">
+          <lb ed="#P" n="74"/>7. Aliquorum placitum. — Hoeec sententia
+          <lb ed="#P" n="75"/>censetur probabilis.—Ahiqui tamen existimant, 
+          <lb ed="#P" n="76"/>non habuisse Deum hanc voluntatem, donec
+          <lb ed="#P" n="77"/>praevidit peccatum Adae, quod est probabile,
+          <lb ed="#P" n="78"/>maxime propter sententiam Augustini, de qua
+          <lb ed="#P" n="79"/>infra. Non est tamen fundanda haec sententia
+          <lb ed="#P" n="80"/>in hoc, quod peccatum sit ratio, vel conditio
+          <lb ed="#P" n="81"/>necessaria ad talem voluntatem: nam in 
+          an<lb break="no" ed="#P" n="82"/>gelis non praedestinatis habuit Deus similem 
+          <lb ed="#P" n="83"/>voluntatem, absque praecognitione alicujus
+          <lb ed="#P" n="84"/>peccati. Sufficiens ergo ratio ad hanc 
+          vo<lb break="no" ed="#P" n="85"/>luntatem est, quod Deus nulli debet gratiam
+          <lb ed="#P" n="86"/>suam et potest eam distribuere prout voluerit.
+          <lb ed="#P" n="87"/>Nec sola voluntas finis obligabat ad majorem
+          <lb ed="#P" n="88"/>gratiam conferendam, ut ex dictis in superiori
+          <lb ed="#P" n="89"/>libro constat. Supposita ergo illa sententia,
+          <lb ed="#P" n="90"/>ratio ejus sumenda est ex modo providentiae,
+          <lb ed="#P" n="91"/>quam Deus habere voluit cum hominibus. Nam
+          <lb ed="#P" n="92"/>ante praevisum originale peccatum, in 
+          provi<lb break="no" ed="#P" n="93"/>dentia gratiae ordinaria nullum fecit discrimen,
+          <lb ed="#P" n="94"/>sed omnibus sufhicienter providit per justitiam
+          <lb ed="#P" n="95"/>originalem, ejus tamen amissione praevisa,
+          <lb ed="#P" n="96"/>electis ad gloriam voluit dare specialem 
+          gra<lb break="no" ed="#P" n="97"/>tiam congruam: aliis vero eam noluit 
+          praepa<lb break="no" ed="#P" n="98"/>rare.
+        </p>
+        <p xml:id="szduep-128617-d1e561">
+          <lb ed="#P" n="99"/>8. Quoddam notatu dignum. — Est tamen in
+          <lb ed="#P" n="100"/>hoc caute observandum, cum dicimus voluisse
+          <lb ed="#P" n="101"/>Deum non dare congruam gratiam, non esse
+          <lb ed="#P" n="102"/>intelligendum, directe voluisse, ut illa gratia,
+          <lb ed="#P" n="103"/>quam dat, non sit congrua, quia hoc vel ad
+          <lb ed="#P" n="104"/>culpam hominis pertinet, scilicet ad malum
+          <lb ed="#P" n="105"/>usum gratiae et resistentiam liberi arbitri,
+          <lb ed="#P" n="106"/>vel certe in parvulis (extendendo ad illos 
+          lo<lb break="no" ed="#P" n="107"/>cutionem) pertinet ad impedimentum salutis:
+          <lb ed="#P" n="108"/>neutrum autem Deus directe vult, aut 
+          inten<lb break="no" ed="#P" n="109"/>dit, ut supra dictum est. Duo ergo 
+          includun<lb break="no" ed="#P" n="110"/>tur in illa voluntate. Unum est: quod licet
+          <pb ed="#P" n="509"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Deus praevideat alias gratias futuras esse 
+          con<lb break="no" ed="#P" n="2"/>gruas his hominibus, si eis darentur, 
+          nihil<lb break="no" ed="#P" n="3"/>oninus eas dare non vult, quia eas non debet
+          <lb ed="#P" n="4"/>et secundum communem providentiae modum,
+          <lb ed="#P" n="5"/>quem immutare non vult, non se offert 
+          occa<lb break="no" ed="#P" n="6"/>sio illas tribuendi. Aliud est, quod praevidet
+          <lb ed="#P" n="7"/>Deus gratias ordinario cursu, ut tali modo
+          <lb ed="#P" n="8"/>conferendas illis hominibus, non esse futuras
+          <lb ed="#P" n="9"/>illis congruas, et nihilominus illas tantum dare
+          <lb ed="#P" n="10"/>yult et reliquum defectum permittit. Atque in
+          <lb ed="#P" n="11"/>his actibus continetur reprobatio, quae dici
+          <lb ed="#P" n="12"/>solet negativa et commode diceretur non 
+          prae<lb break="no" ed="#P" n="13"/>dlestinatio, quia per eam Deus nondum 
+          exclu<lb break="no" ed="#P" n="14"/>dit hominem, sed tantum illum non 
+          specia<lb break="no" ed="#P" n="15"/>liter eligit ad gloriam, vel gratiam.
+        </p>
+        <p xml:id="szduep-128617-d1e627">
+          <lb ed="#P" n="16"/>9. Explicatur locus Pauli. — De hac 
+          repro<lb break="no" ed="#P" n="17"/>batione intelligendus est locus Pauli, quem
+          <lb ed="#P" n="18"/>supra in hunc locum remisi ad Rom. 9. Esau
+          <lb ed="#P" n="19"/>autem odio habui. Nam ibi odium non 
+          signifi<lb break="no" ed="#P" n="20"/>cat proprium et formale odium, de quo dicitur
+          <lb ed="#P" n="21"/>Sapient. 10. Nihil odisti eorum, quee fecisti:
+          <lb ed="#P" n="22"/>quia hoc modo impossibile est, ut Deus odio
+          <lb ed="#P" n="23"/>habeat suam creaturam, praesertim antequam
+          <lb ed="#P" n="24"/>aliquid mali culpae in ea praevideat, ut in eo
+          <lb ed="#P" n="25"/>loco Pauli supponitur, juxta expositionem 
+          su<lb break="no" ed="#P" n="26"/>perius datam. In illis ergo verbis odium nihil
+          <lb ed="#P" n="27"/>aliud significat, quam voluntariam carentiam
+          <lb ed="#P" n="28"/>illius amoris specialis, quo Deus prosecutus
+          <lb ed="#P" n="29"/>est Jacob et praedestinatos. Hoc enim solet haec
+          <lb ed="#P" n="30"/>vox saepe significare in Scriptura Luc. 14. Qui
+          <lb ed="#P" n="31"/>non odit patrem suwm aut matrem, etc. id est,
+          <lb ed="#P" n="32"/>qui non illos minus amat, quam me. Sicut
+          <lb ed="#P" n="33"/>etiam Deus dicitur obdurare, solum quia non
+          <lb ed="#P" n="34"/>specialiter miseretur, ut dixit Augustinus 1,
+          <lb ed="#P" n="35"/>ad Simplic., quaest. 2. Verum est, Augustinum
+          <lb ed="#P" n="36"/>aliquando exponere illum locum de odio 
+          vin<lb break="no" ed="#P" n="37"/>dicativae justitiae propter peccatum originale,
+          <lb ed="#P" n="38"/>quod dicit fuisse praevisum in Jacob et Esau:
+          <lb ed="#P" n="39"/>quia Paulus solum dicit: Antequam quidquam
+          <lb ed="#P" n="40"/>boni, aut mali egissent, non antequam 
+          quid<lb break="no" ed="#P" n="41"/>quamn mali contracissent. Quae expositio est
+          <lb ed="#P" n="42"/>probabilis, sed non necessaria, ut latius 
+          vide<lb break="no" ed="#P" n="43"/>bimus capite septimo.
+        </p>
+        <p xml:id="szduep-128617-d1e690">
+          <lb ed="#P" n="44"/>10. Difficultas manet in verbis Pauli. —
+          <lb ed="#P" n="45"/>diespondetur.—Sed adhuc manet difficultas in
+          <lb ed="#P" n="46"/>aliis verbis Pauli supra etiam relictis: 7» hoc
+          <lb ed="#P" n="47"/>excitavi te, ut ostendam potentiam meam. Vt,
+          <lb ed="#P" n="48"/>si Deus volens ostendere iram, etc. Nam ex his
+          <lb ed="#P" n="49"/>videtur colligi, ante dictam reprobationem
+          <lb ed="#P" n="50"/>negativam, habuisse Deum intentionem 
+          al<lb break="no" ed="#P" n="51"/>eujus mali circa hos homines. Respondetur
+          <lb ed="#P" n="52"/>nihilominus Deum non habuisse talem 
+          inten<lb break="no" ed="#P" n="53"/>tionem, neque hanc colligi ex verbis Pauli,
+          <lb ed="#P" n="54"/>sed potius oppositum, ut patet ex illis verbis.
+          <lb ed="#P" n="55"/>Sustinut in multa patientia vasa ire. Prius
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ergo supponit, homines se fecisse vasa 
+          iniqui<lb break="no" ed="#P" n="57"/>tatis: et Deum expectasse illos. Ubi etiam 
+          ad<lb break="no" ed="#P" n="58"/>jungendum est illud ad Rom. 2. 7gnoras, quia
+          <lb ed="#P" n="59"/>benignitas Dei ad penitentiam te adducit. Non
+          <lb ed="#P" n="60"/>ergo sustinuit, ut puniret, sed ut parceret:
+          <lb ed="#P" n="61"/>videns autem homines impoenitentia sua 
+          the<lb break="no" ed="#P" n="62"/>saurizare sibi iram, tandem voluit illos punire.
+          <lb ed="#P" n="63"/>Unde illa particula, ut, in eo loco non 
+          signifi<lb break="no" ed="#P" n="64"/>cat causam finalem, sed solam consecutionem
+          <lb ed="#P" n="65"/>posito alio. Quod est frequens in Scriptura,
+          <lb ed="#P" n="66"/>quando circumstantia loci et materiae id 
+          pos<lb break="no" ed="#P" n="67"/>tulat, Joan. 10. Ut qui vident, ceeci fiant. Et
+          <lb ed="#P" n="68"/>Isaiae 6, ac Luc. 8, ut videntes non videant, etc.
+          <lb ed="#P" n="69"/>Et haec est expositio communis Patrum ad
+          <lb ed="#P" n="70"/>dicta loca Pauli.
+        </p>
+        <p xml:id="szduep-128617-d1e753">
+          <lb ed="#P" n="71"/>11. Ultimo, post dictam reprobationem 
+          ne<lb break="no" ed="#P" n="72"/>gativam subsecuta est ordine rationis 
+          repro<lb break="no" ed="#P" n="73"/>batio positiva, quae in tribus actibus contineri
+          <lb ed="#P" n="74"/>videtur. Primus est absolute praescientiae, qua
+          <lb ed="#P" n="75"/>Deus praevidit peccatum illud, vel peccata 
+          fu<lb break="no" ed="#P" n="76"/>tura in talibus hominibus usque ad finem 
+          vi<lb break="no" ed="#P" n="77"/>tae, de qua nihil novum addendüm occurrit.
+          <lb ed="#P" n="78"/>Secundus actus est etiam intellectus et 
+          con<lb break="no" ed="#P" n="79"/>sistit in judicio practico, et quasi sententia Dei
+          <lb ed="#P" n="80"/>finali, qua decernit Deus, hunc hominem esse
+          <lb ed="#P" n="81"/>dignum, qui excludatur a Regno et puniatur
+          <lb ed="#P" n="82"/>eeterna poena condigna. Nam stantibus legibus
+          <lb ed="#P" n="83"/>divinae justitiae et posita praedicta praescientia,
+          <lb ed="#P" n="84"/>naturaliter sequitur hoc judicium, quod etiam
+          <lb ed="#P" n="85"/>necessarium est, ut voluntas recte velle possit.
+          <lb ed="#P" n="86"/>Et in hoc actu ponunt aliqui reprobationem
+          <lb ed="#P" n="87"/>positivam, quia secundum legem ordinariam
+          <lb ed="#P" n="88"/>ex vi illius homo infallibiliter damnabitur et
+          <lb ed="#P" n="89"/>est probabile. Tamen, quia effectus Dei non
+          <lb ed="#P" n="90"/>est simpliciter futurus, donec Deus illum velit,
+          <lb ed="#P" n="91"/>et quia non obstante illo judicio, posset Deus
+          <lb ed="#P" n="92"/>de potentia absoluta non punire hominem:
+          <lb ed="#P" n="93"/>ideo ad complementum reprobationis 
+          neces<lb break="no" ed="#P" n="94"/>sarius est tertius actus, qui est voluntas 
+          abso<lb break="no" ed="#P" n="95"/>luta damnandi reprobum, qui est potissimus
+          <lb ed="#P" n="96"/>actus vindicativae justitiae.
+        </p>
+        <p xml:id="szduep-128617-d1e812">
+          <lb ed="#P" n="97"/>12. Dubium. — Opinio. — Alia opinio. —
+          <lb ed="#P" n="98"/>Hligitur opinio.—be hac autem voluntate dubi
+          <lb ed="#P" n="99"/>tari solet, an sit verum et proprium odium Dei
+          <lb ed="#P" n="100"/>circa tales homines. D. Thomas 1, contra 
+          Gen<lb break="no" ed="#P" n="101"/>tes, cap. 99, generaliter credit non esse odium
+          <lb ed="#P" n="102"/>proprium, sed metaphoricum. Alii vero 
+          con<lb break="no" ed="#P" n="103"/>tendunt esse proprium odium, quia est 
+          volun<lb break="no" ed="#P" n="104"/>tas mali, ut vere malum est talis poenae. 
+          Exis<lb break="no" ed="#P" n="105"/>timo tamen rem pertinere ad modum loquendi.
+          <lb ed="#P" n="106"/>Placetque quod D. Thomas, ait. 1, p. q. 20,
+          <lb ed="#P" n="107"/>art. 2, illud non esse odium hominis, quia non
+          <lb ed="#P" n="108"/>est ex displicentia ipsius hominis, vel natura
+          <lb ed="#P" n="109"/>ejus, esse tamen odium peccatoris, ut peccator
+          <lb ed="#P" n="110"/>est, ex contraria ratione.
+        </p>
+        <p xml:id="szduep-128617-d1e845">
+          <pb ed="#P" n="510"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>13. Aliud dubium. — Placet posterior modus
+          <lb ed="#P" n="2"/>loquendi. — Simili modo dubitari solet, cum
+          <lb ed="#P" n="3"/>Paulus vocet saepe hunc actum iram Dei, an
+          <lb ed="#P" n="4"/>illa appellatio propria sit, vel metaphorica.
+          <lb ed="#P" n="5"/>Nam Lactantius, libro de Ira Dei, ex professo
+          <lb ed="#P" n="6"/>contendit, Deum habere veram et propriam
+          <lb ed="#P" n="7"/>iram in peccatores. Quia ira nihil ahud est,
+          <lb ed="#P" n="8"/>quam appetitus vindictae ob laesionem, vel 
+          in<lb break="no" ed="#P" n="9"/>juriam ab alio illatam. Divus Thomas autem
+          <lb ed="#P" n="10"/>1 p. q. 20, art. 1, ad 4, dicit, iram non 
+          pro<lb break="no" ed="#P" n="11"/>prie Deoattribui, quia supponit tristitiam, juxta
+          <lb ed="#P" n="12"/>illud Aristoteles 2, Rhetoricor, cap. 2 et 4:
+          <lb ed="#P" n="13"/>Qui irascitur, dolet. Et haec sententia est magis
+          <lb ed="#P" n="14"/>recepta : quia ira etiam in nobis non fit sine
+          <lb ed="#P" n="15"/>aliqua animi commotione. Differentia vero
+          <lb ed="#P" n="16"/>etiam est in vocis significatione. Quia tamen
+          <lb ed="#P" n="17"/>haec accipienda est ex communi usu, ideo 
+          pla<lb break="no" ed="#P" n="18"/>cet posterior locutio. Dummodo admittamus,
+          <lb ed="#P" n="19"/>iram non ita duci metaphorice de Deo, sicut
+          <lb ed="#P" n="20"/>tristitiam, poenitentiam et similes. Nam 
+          tris<lb break="no" ed="#P" n="21"/>titia neque est in Deo, nec significat actum,
+          <lb ed="#P" n="22"/>qui in Deo sit, sed effectum aliquem similem
+          <lb ed="#P" n="23"/>illi, qui in nobis oriri solet ex tristitia. Per
+          <lb ed="#P" n="24"/>iram vero significamus aliquem proprium 
+          ac<lb break="no" ed="#P" n="25"/>tum DEI habentem convenientiam analogam
+          <lb ed="#P" n="26"/>cum ira hominis in eo, quod est intrinsecum
+          <lb ed="#P" n="27"/>illi, scilicet, in appetitu vindictae. Solumque
+          <lb ed="#P" n="28"/>differt, quod in Deo non habet illam causam,
+          <lb ed="#P" n="29"/>quam habet in nobis, scilicet tristitiam : et
+          <lb ed="#P" n="30"/>quia ex vi illius vocis significatur ille actus
+          <lb ed="#P" n="31"/>sub denominatione a tali causa, ideo quantum
+          <lb ed="#P" n="32"/>ad hoc dicitur actus ille non esse propria ira,
+          <lb ed="#P" n="33"/>sed propria vindicta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

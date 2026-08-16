@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="15"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-004038"><!-- t1-l1c5 -->
+        <head xml:id="szduep-004038-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-004038-Hd1e103" type="question-title">Sit ne deus ita simplex, ut in compositionem venire non possit.</head>
+        <p xml:id="szduep-004038-d1e106">
+          <lb ed="#P" n="100"/>CAPUT V.
+          <lb ed="#P" n="101"/>SIT NE DEUS ITA SIMPLEX, UT IN COMPOSITIONEM
+          <lb ed="#P" n="102"/>VENIRE NON POSSIT.
+        </p>
+        <p xml:id="szduep-004038-d1e115">
+          <lb ed="#P" n="103"/>1. Sensus questionis aperitur. — Error -
+          <lb ed="#P" n="104"/>Deum animam universi constituentium. — Non
+          <lb ed="#P" n="105"/>tractamus de compositione cum accidentibus,
+          <lb ed="#P" n="106"/>nam de hoc postea dicemus, ostendemusque in
+          <lb ed="#P" n="107"/>Deo non esse accidentia, ac subinde nec com-
+          <pb ed="#P" n="16"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>positionem cum illis. Proponitur ergo haec
+          <lb ed="#P" n="2"/>quaestio praecipue propter infideles, qui 
+          dixe<lb break="no" ed="#P" n="3"/>runt Deum esse animam aut formam mundi,
+          <lb ed="#P" n="4"/>ut retuli dicta disputatione trigesima, sect. 4,
+          <lb ed="#P" n="5"/>num. 14, ubi aliquos gentiles et haereticos 
+          ci<lb break="no" ed="#P" n="6"/>tavi. Quibus addi possunt gnostici asserentes
+          <lb ed="#P" n="7"/>animarum substantias esse Dei naturam, quos
+          <lb ed="#P" n="8"/>secuti sunt priscilianistae dicentes , animam
+          <lb ed="#P" n="9"/>hominis esse ejusdem substantiae et naturae,
+          <lb ed="#P" n="10"/>cujus est Deus, ut Augustinus refert libro de
+          <lb ed="#P" n="11"/>haeres., haeres. 6 et 70.
+        </p>
+        <p xml:id="szduep-004038-d1e157">
+          <lb ed="#P" n="12"/>2. Quid de hoc errore senserit Concilium 
+          La<lb break="no" ed="#P" n="13"/>teranense et Leo primus. — bDe hujusmodi 
+          au<lb break="no" ed="#P" n="14"/>tem errore dixit recte Concilium Lateranense
+          <lb ed="#P" n="15"/>in cap. Damnamus, damnans Almericum: JVon
+          <lb ed="#P" n="16"/>tam continere doctrinam luereticam quam 
+          insa<lb break="no" ed="#P" n="17"/>nam. Leo autem Primus, Epistol. 91, alias 93, ad
+          <lb ed="#P" n="18"/>Torivium cap. 5, agens specialiter contra 
+          pris<lb break="no" ed="#P" n="19"/>cilianistas, vocat illam doctrinam impiam, et ex
+          <lb ed="#P" n="20"/>philosophorum quorumdüm et nanicheorum 
+          opi<lb break="no" ed="#P" n="21"/>nione manantem, quam catholica fides damnat,
+          <lb ed="#P" n="22"/>sciens nullam tam sublimen tamque precipuam
+          <lb ed="#P" n="23"/>esse facturam, cui Deus ipse natura sit , id est:
+          <lb ed="#P" n="24"/>cujus Deus sit essentia, vel tota, vel essentialis
+          <lb ed="#P" n="25"/>pars, hoc enim totum proprie natura vocatur,
+          <lb ed="#P" n="26"/>ut ex Aristotele habetur 2. Phys. et 5. 
+          Meta<lb break="no" ed="#P" n="27"/>phys. Augustinus vero supra vocat, Talia 
+          dog<lb break="no" ed="#P" n="28"/>mata fabulosissimis plena fi gmentis. Sacra ergo
+          <lb ed="#P" n="29"/>doctrina hujusmodi fabulas detestatur.Quamvis
+          <lb ed="#P" n="30"/>enim in sScriptura non sint testimonia, quae
+          <lb ed="#P" n="31"/>contra hos errores expresse et in particulari
+          <lb ed="#P" n="32"/>loquantur, tamen in generali tam excelsum
+          <lb ed="#P" n="33"/>et superiorem rebus omnibus creatis praedicat
+          <lb ed="#P" n="34"/>Deum, ut evidens sit illam imperfectionem 
+          in<lb break="no" ed="#P" n="35"/>formandi corpora vel componendi essentiam
+          <lb ed="#P" n="36"/>creatam Deo repugnare.
+        </p>
+        <p xml:id="szduep-004038-d1e215">
+          <lb ed="#P" n="37"/>3. Impugnatur hic error. — Solet autem
+          <lb ed="#P" n="38"/>hic error hoc modo impugnari, quia si Deus
+          <lb ed="#P" n="39"/>esset forma corporis, totum compositum esset
+          <lb ed="#P" n="40"/>perfectius Deo , quia totum melius est sua
+          <lb ed="#P" n="41"/>parte; sed constat nihil posse esse perfectius
+          <lb ed="#P" n="42"/>Deo, ergo. Ad hanc vero rationem dici posset,
+          <lb ed="#P" n="43"/>compositum esse perfectius extensive, non 
+          in<lb break="no" ed="#P" n="44"/>tensive ipsa forma, quando forma est perfecta,
+          <lb ed="#P" n="45"/>et eminenter continet ipsam materiam. Sicut
+          <lb ed="#P" n="46"/>Christus, ut homo , non est perfectior 
+          inten<lb break="no" ed="#P" n="47"/>sive quam Verbum, licet extensive dicit possit
+          <lb ed="#P" n="48"/>perfectior. Contra hoc vero induci potest 
+          pri<lb break="no" ed="#P" n="49"/>ma ratio Divi Thomae 1. part., quaest. 3, art.8.
+          <lb ed="#P" n="50"/>Quia si Deus eminenter continet omnia , est
+          <lb ed="#P" n="51"/>causa efliciens omnium ; non ergo potest esse
+          <lb ed="#P" n="52"/>forma, quia forma et efficiens non coincidunt
+          <lb ed="#P" n="53"/>in idem numero.
+        </p>
+        <p xml:id="szduep-004038-d1e254">
+          <lb ed="#P" n="54"/>4. Bifariunm intelli gi potest Deum 
+          compo<lb break="no" ed="#P" n="55"/>nere alium substantiam. — Ut autem haec ve-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ritas et ratio ejus evidentior fiat et 
+          distinc<lb break="no" ed="#P" n="57"/>tius intelligatur doctrina fidei, notare oportet,
+          <lb ed="#P" n="58"/>duobus modis posse intelligi Deum informare
+          <lb ed="#P" n="59"/>materiam, vel componere aliam substantiam:
+          <lb ed="#P" n="60"/>auno modo connaturaliter, alio modo 
+          liberali<lb break="no" ed="#P" n="61"/>ter (ut sic dicam) ex gratia et absoluta 
+          po<lb break="no" ed="#P" n="62"/>tentia. Sicut de unione hypostatica dicimus,
+          <lb ed="#P" n="63"/>licet Deus connaturaliter nullius naturae sit
+          <lb ed="#P" n="64"/>hypostasis , nihilominus ex gratia et 
+          digna<lb break="no" ed="#P" n="65"/>tione fieri potuisse. Hoc ergo est in fide 
+          cer<lb break="no" ed="#P" n="66"/>tissimum et inratione evidentissimum, Deum
+          <lb ed="#P" n="67"/>non posse esse connaturalem formam vel 
+          par<lb break="no" ed="#P" n="68"/>tem alicujus essentiae. Hoc enim convincitur
+          <lb ed="#P" n="69"/>ex excellentia perfectionis Dei ; nam esse hoc
+          <lb ed="#P" n="70"/>modo partem substantiae est magna 
+          imperfec<lb break="no" ed="#P" n="71"/>tio. Quia talis pars incompleta substantia est,
+          <lb ed="#P" n="72"/>quoniam ex sua natura ordinatur ad 
+          compo<lb break="no" ed="#P" n="73"/>nendum aliud; at substantia incompleta , ut
+          <lb ed="#P" n="74"/>ipsum nomen prae se fert, imperfecta est; Deus
+          <lb ed="#P" n="75"/>autem esse debet optima et perfectissima 
+          sub<lb break="no" ed="#P" n="76"/>stantia. Praeterea substantia, quae ex sua 
+          na<lb break="no" ed="#P" n="77"/>tura ex pars, non habet statum connaturalem
+          <lb ed="#P" n="78"/>nisi componendo aliud et comprehenditur in
+          <lb ed="#P" n="79"/>illo toto, cujus est pars ita, ut non sit extra
+          <lb ed="#P" n="80"/>illud, pendet etiam aliquo modo in suis 
+          ope<lb break="no" ed="#P" n="81"/>rationibus ab illo toto vel ab alia parte. Haec
+          <lb ed="#P" n="82"/>autem omnia magnae imperfectionis sunt. 
+          Prae<lb break="no" ed="#P" n="83"/>terea ad hoc est optima tertia ratio D. Thomae
+          <lb ed="#P" n="84"/>supra, quod nulla substantia natura sua 
+          par<lb break="no" ed="#P" n="85"/>tialis potest esse primum ens, quia vel est ens
+          <lb ed="#P" n="86"/>potentiale, vel per participationem.
+        </p>
+        <p xml:id="szduep-004038-d1e330">
+          <lb ed="#P" n="87"/>5. Denique ad hoc probandum est optima
+          <lb ed="#P" n="88"/>illa ratio, quod totum est perfectius sua parte.
+          <lb ed="#P" n="89"/>Unde si Deus esset forma connaturalis alicujus
+          <lb ed="#P" n="90"/>corporis vel materiae aut potentiae receptivae,
+          <lb ed="#P" n="91"/>quacunque ratione illa fingatur, potius ipsum
+          <lb ed="#P" n="92"/>compositum esset Deus quam talis forma. 
+          In<lb break="no" ed="#P" n="93"/>terrogo enim, an altera pars componens sit
+          <lb ed="#P" n="94"/>ex se, vel ex Deo; si ex se, ex se etiam 
+          habe<lb break="no" ed="#P" n="95"/>bit perfectionem quae non esset in alia parte,
+          <lb ed="#P" n="96"/>nec formaliter, ut supponitur, nec eminenter,
+          <lb ed="#P" n="97"/>quia non potest ab illa fieri, cum sit tam ex se
+          <lb ed="#P" n="98"/>ens sicut illa. Si autem dicatur, Deum esse
+          <lb ed="#P" n="99"/>quidem formam natura sua postulantem 
+          ah<lb break="no" ed="#P" n="100"/>quam potentian, quam informet, et 
+          nihilomi<lb break="no" ed="#P" n="101"/>nus -habere vim ad fabricandum sibi corpus
+          <lb ed="#P" n="102"/>seu potentiam, cui uniatur propria etiam 
+          vir<lb break="no" ed="#P" n="103"/>tute, et ideo continere in se totam illam 
+          per<lb break="no" ed="#P" n="104"/>fectionem eminenter, nec esse minus 
+          perfec<lb break="no" ed="#P" n="105"/>tum quam ipsum compositum.
+        </p>
+        <p xml:id="szduep-004038-d1e374">
+          <lb ed="#P" n="106"/>6. Contra hoc est, quia vel illa damnatio
+          <lb ed="#P" n="107"/>sceu fabricatio proprii corporis est voluntaria
+          <lb ed="#P" n="108"/>et libera, et sic posset simpliciter non esse , et
+          <lb ed="#P" n="109"/>Deus posset carere suo naturali corpore , et
+          <lb ed="#P" n="110"/>esse in praeternaturali statu. Vel est naturalis
+          <pb ed="#P" n="17"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et necessaria operatio et dimanatio ; et hoc est
+          <lb ed="#P" n="2"/>in primis contra perfectionem Dei, quod aliquid
+          <lb ed="#P" n="3"/>distinctum realiter ab ipso Deo, ut sic, ab 
+          eo<lb break="no" ed="#P" n="4"/>dem necessario emanet. Esset etiam magna
+          <lb ed="#P" n="5"/>indigentia non posse habere connaturalem
+          <lb ed="#P" n="6"/>statum sine re distincta omnino, vere facta
+          <lb ed="#P" n="7"/>ac fabricata. Et (quod caput est ) intelligi non
+          <lb ed="#P" n="8"/>potest quod substantia, quae formaliter non
+          <lb ed="#P" n="9"/>esset substantia completa, eminenter contineat
+          <lb ed="#P" n="10"/>totam perfectionem substantie completae et
+          <lb ed="#P" n="11"/>omnino perfectae. Quia in conceptu substantiae
+          <lb ed="#P" n="12"/>completae, ut sic, nulla involvitur imperfectio
+          <lb ed="#P" n="13"/>nec repugnantia cum aliqua majori 
+          perfectio<lb break="no" ed="#P" n="14"/>ne ; ergo si Deus ob suam perfectionem 
+          conti<lb break="no" ed="#P" n="15"/>net hanc perfectionem , debet continere illam
+          <lb ed="#P" n="16"/>formaliter ; vel.si formaliter non continet ,
+          <lb ed="#P" n="17"/>multo minus poterit eminenter continere. Sic
+          <lb ed="#P" n="18"/>ergo fit, ut substantia sic componens aliam
+          <lb ed="#P" n="19"/>non possit non esse minus perfecta quam 
+          com<lb break="no" ed="#P" n="20"/>positum. Imo etiam hinc sequitur, in 
+          hujus<lb break="no" ed="#P" n="21"/>modi compositione, nunquam posse unam 
+          par<lb break="no" ed="#P" n="22"/>tem habere effective suum esse ab alia,
+          <lb ed="#P" n="23"/>quod alias dixit D. Thomas formale 
+          princi<lb break="no" ed="#P" n="24"/>pium, et efficiens non coincidere in idem 
+          nu<lb break="no" ed="#P" n="25"/>mero. -
+        </p>
+        <p xml:id="szduep-004038-d1e446">
+          <lb ed="#P" n="26"/>7. At vero de communicatione voluntaria ,
+          <lb ed="#P" n="27"/>non ex indigentia, sed ex dignatione, dubitari
+          <lb ed="#P" n="28"/>petest, an sit de fide et an sit etiam evidens,
+          <lb ed="#P" n="29"/>Deum non posse uniri alicui, vel corpori , vel
+          <lb ed="#P" n="30"/>rei, ut partem formalem. Sed quia hoc non
+          <lb ed="#P" n="31"/>tam pertinet ad substantiam Dei explhicandam,
+          <lb ed="#P" n="32"/>quod nunc agimus, quam ad explicanda opera
+          <lb ed="#P" n="33"/>Dei possibilia vel facta: ideo quaestio illa
+          <lb ed="#P" n="34"/>omittenda est in materiam de Incarnatione,
+          <lb ed="#P" n="35"/>ubi ex professo tractatur. Et breviter dicendum
+          <lb ed="#P" n="36"/>est , Deum de facto non esse formam alicujus
+          <lb ed="#P" n="37"/>corporis nec alicujus rei, secundum propriam
+          <lb ed="#P" n="38"/>rationem formae. Nam quod verbum non 
+          fue<lb break="no" ed="#P" n="39"/>rit factum propria forma humanitatis per 
+          In<lb break="no" ed="#P" n="40"/>carnationem , vera fides docet , ut 1 tom., 3
+          <lb ed="#P" n="41"/>p. disp.7, sect. 2 et disput. 15, sect. 2, dixi.
+          <lb ed="#P" n="42"/>Quod vero non sit propria forma alicujus 
+          alte<lb break="no" ed="#P" n="43"/>rius corporis contra dictos errores ostendunt
+          <lb ed="#P" n="44"/>citati Patres. Et constat tum a fortiori ex
+          <lb ed="#P" n="45"/>Christi humanitate , quia in nulla re creata
+          <lb ed="#P" n="46"/>tam intime est Deus, sicut in illa natura , tum
+          <lb ed="#P" n="47"/>etiam quia nulla res creata est substantialiter
+          <lb ed="#P" n="48"/>unita Deo (extra Christi humanitatem) ; alias,
+          <lb ed="#P" n="49"/>vel unam naturam vel unam personam 
+          face<lb break="no" ed="#P" n="50"/>ret cum Deo, utrumque autem contra fidem
+          <lb ed="#P" n="51"/>est. Tum denique, quia non est tribuendum
+          <lb ed="#P" n="52"/>Deo, quod ipse non revelavit in re tam aliena
+          <lb ed="#P" n="53"/>et extranea a natura et substantia ejus.
+        </p>
+        <p xml:id="szduep-004038-d1e509">
+          <lb ed="#P" n="54"/>8. Deus uniri nequit extra quam 
+          hgposta<lb break="no" ed="#P" n="55"/>tice. — Addendum subinde est, fieri nullo mo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>do posse , ut Deus in compositionem alicujus
+          <lb ed="#P" n="57"/>veniat extra unionem hypostaticam. Hanc
+          <lb ed="#P" n="58"/>generalem regulam (omissa pro nunc 
+          excep<lb break="no" ed="#P" n="59"/>tione ) censeo valde consentaneam doctrinae
+          <lb ed="#P" n="60"/>fidei, et evidenti demonstratione ostendi posse.
+          <lb ed="#P" n="61"/>Duobus enim modis potest intelligi Deus 
+          sub<lb break="no" ed="#P" n="62"/>stantialiter uniri creaturae, scilicet, per modum
+          <lb ed="#P" n="63"/>materiae seu potentiae receptivae, vel per 
+          mo<lb break="no" ed="#P" n="64"/>dum formae et actus; seclusa enim unione
+          <lb ed="#P" n="65"/>hypostatica , alius modus cogitari non potest.
+          <lb ed="#P" n="66"/>At per modum materiae seu potentiae 
+          recepti<lb break="no" ed="#P" n="67"/>vae uniri non potest, quia est imperfectissimus
+          <lb ed="#P" n="68"/>modus unionis, et quia cum Deus sit actus 
+          pu<lb break="no" ed="#P" n="69"/>rissimus. non est in eo potentia receptiva.
+          <lb ed="#P" n="70"/>Unde antiqua quaedam sententia, quod Deus
+          <lb ed="#P" n="71"/>sit materia rerum omnium, quam D. Thomas
+          <lb ed="#P" n="72"/>refert dicta quest. 3, art. S8, et tribuit 
+          cui<lb break="no" ed="#P" n="73"/>dam David de Dinando, stultissima ab eodem
+          <lb ed="#P" n="74"/>doctore sancto vocatur , et manifestam 
+          conti<lb break="no" ed="#P" n="75"/>nens falsitatem. Quod ex altero membro a
+          <lb ed="#P" n="76"/>fortiori confirmabitur, quod ergo nec per
+          <lb ed="#P" n="77"/>modum substantiahs formae possit Deus uniri
+          <lb ed="#P" n="78"/>naturae creatae, probatur primo, quia nulla
+          <lb ed="#P" n="79"/>substantia completa in natura sua potest esse
+          <lb ed="#P" n="80"/>forma alterius, vere informans ; sed Deus est
+          <lb ed="#P" n="81"/>substantia completissima in sua natura, ut 
+          os<lb break="no" ed="#P" n="82"/>tensum est, ergo. Secundo, quia si Deus non
+          <lb ed="#P" n="83"/>est forma connaturalis, ut fieret forma deberet
+          <lb ed="#P" n="84"/>mutari, quia forma separata non unitur 
+          mate<lb break="no" ed="#P" n="85"/>riae, nisi per aliquam sui mutationem. Tertio,
+          <lb ed="#P" n="86"/>quia forma substantialis constituit rei 
+          essen<lb break="no" ed="#P" n="87"/>tiam; repugnat autem, Deum formahter 
+          con<lb break="no" ed="#P" n="88"/>stituere novam aliquam et temporalem 
+          essen<lb break="no" ed="#P" n="89"/>tiam, quae possit esse et non esse, esset enim
+          <lb ed="#P" n="90"/>creata essentia, quam constitui ex increata
+          <lb ed="#P" n="91"/>forma ininteiligibile est.
+        </p>
+        <p xml:id="szduep-004038-d1e597">
+          <lb ed="#P" n="92"/>9. Deus uniri nequit substantialiter vei 
+          crea<lb break="no" ed="#P" n="93"/>te. — Nullo ergo modo potest Deus uniri 
+          sub<lb break="no" ed="#P" n="94"/>stantialiter rei creatae, quia praeter modos 
+          com<lb break="no" ed="#P" n="95"/>positionis jam exclusos solum superest aut
+          <lb ed="#P" n="96"/>compositio ex esse et essentia, aut ex natura
+          <lb ed="#P" n="97"/>et supposito. De priori ergo censeo im possibile,
+          <lb ed="#P" n="98"/>inter divinum esse et naturam creatam 
+          inter<lb break="no" ed="#P" n="99"/>cedere talem compositionem, quia nulla res
+          <lb ed="#P" n="100"/>potest existere per formalem actum realiter a
+          <lb ed="#P" n="101"/>se distinctum. Non defuerunt autem multi
+          <lb ed="#P" n="102"/>scholastici , qui oppositum dixerunt ; illi vero
+          <lb ed="#P" n="103"/>putarunt, illam unionem non esse aliam 
+          prae<lb break="no" ed="#P" n="104"/>ter hypostaticam, vel necessario esse cum illa
+          <lb ed="#P" n="105"/>conjunctam ; sed decepti sunt, ut in primo
+          <lb ed="#P" n="106"/>tomo de Incarnatione tractavi, ubi hoc habet
+          <lb ed="#P" n="107"/>locum ad. q. D. Thom.
+        </p>
+        <p xml:id="szduep-004038-d1e634">
+          <lb ed="#P" n="108"/>10. Quam ob rem Deus uniri possit 
+          hypo<lb break="no" ed="#P" n="109"/>statice et non aliter. — De unione vero 
+          hypo<lb break="no" ed="#P" n="110"/>statica fit exceptio, propter mysterium incar-
+          <pb ed="#P" n="18"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nationis, quod sine reali compositione factum
+          <lb ed="#P" n="2"/>non est, ut in eodem primo tomo, disp. 7, est
+          <lb ed="#P" n="3"/>ostensum. Ratio autem exceptionis (
+          suppo<lb break="no" ed="#P" n="4"/>sita veritate mysterii, et doctrina fidei) reddi
+          <lb ed="#P" n="5"/>potest. Quia sola unio hypostatica non suppo--
+          <lb ed="#P" n="6"/>nit imperfectionem ex parte suppositi ad
+          <lb ed="#P" n="7"/>quod fit, nec secum affert illi aliquam 
+          imper<lb break="no" ed="#P" n="8"/>fectionem. Primum patet, quia haec unio 
+          op<lb break="no" ed="#P" n="9"/>time fit in supposito, quod sit substantia 
+          com<lb break="no" ed="#P" n="10"/>pleta et integra; imo ad illam unionem tale
+          <lb ed="#P" n="11"/>suppositum maxime necessarium est. 
+          Secun<lb break="no" ed="#P" n="12"/>dum patet, quia fit sine mutatione Dei ipsius
+          <lb ed="#P" n="13"/>per unionem alterius ad ipsum ; et ideo haec
+          <lb ed="#P" n="14"/>unio potest fieri ad Deum ex parte personae
+          <lb ed="#P" n="15"/>seu subsistentiae, non vero ex parte natura,
+          <lb ed="#P" n="16"/>quia natura divina non potest alteri seu 
+          ex<lb break="no" ed="#P" n="17"/>traneae hypostasi uniri, quia id fieri non 
+          pos<lb break="no" ed="#P" n="18"/>set sine illius mutatione et aliis 
+          imperfectio<lb break="no" ed="#P" n="19"/>nibus, sed de hac re latius in proprio loco 
+          dic<lb break="no" ed="#P" n="20"/>tum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

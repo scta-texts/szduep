@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="381"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-096892"><!-- t2-l2c12 -->
+        <head xml:id="szduep-096892-Hd1e101">Caput 12</head>
+        <head xml:id="szduep-096892-Hd1e103" type="question-title">Vera sententia, scilicet, hominem per rationem et liberum arbitrium posse aliquod bonum opus morale honeste perficere, ex scripturis probatur</head>
+        <p xml:id="szduep-096892-d1e106">
+          <lb ed="#P" n="67"/>CAPUT XII.
+          <lb ed="#P" n="68"/>VERA SENTENTIA, SCILICET, HOMINEM PER 
+          RATIO<lb break="no" ed="#P" n="69"/>NEM ET LIBERUM ARBITRIUM POSSE ALIQUOD 
+          BO<lb break="no" ed="#P" n="70"/>NUM OPUS MORALE HONESTE PERFICERE, EX
+          <lb ed="#P" n="71"/>SCRIPTURIS PROBATUR.
+        </p>
+        <p xml:id="szduep-096892-d1e119">
+          <lb ed="#P" n="72"/>1. At vero communis et recepta sententia
+          <lb ed="#P" n="73"/>est, hominem etiam in statu naturae lapsae et
+          <lb ed="#P" n="74"/>in peccato, vel infidelitate habitualiter 
+          exis<lb break="no" ed="#P" n="75"/>tentem, posse facere aliquod bonum opus 
+          mo<lb break="no" ed="#P" n="76"/>rale virtutis acquisitae cum debitis 
+          circumstan<lb break="no" ed="#P" n="77"/>tiis, sine vero, ac proprio auxilio gratiae. Quia
+          <lb ed="#P" n="78"/>licet non possit longo tempore haec bona 
+          fa<lb break="no" ed="#P" n="79"/>cere sine lapsu, tamen unum, vel aliud 
+          regu<lb break="no" ed="#P" n="80"/>lariter facere potest. Haec est clara sententia
+          <lb ed="#P" n="81"/>D. Thomae 1, 2, quaest. 109. art. 2, quam(ut
+          <lb ed="#P" n="82"/>supra dixi) Cajetanus ita intellexit, et post
+          <lb ed="#P" n="83"/>illum reliqui Scriptores. Idem aperte docet
+          <lb ed="#P" n="84"/>D. Thomas 2, 2, quaest. 10, art. 4, ubi 
+          trac<lb break="no" ed="#P" n="85"/>tans quaestionem, an omnia opera infidelium
+          <lb ed="#P" n="86"/>sint peccata, inquit : Manifestum est, quod 
+          in<lb break="no" ed="#P" n="87"/>fideles non possunt operari bona opera quee sint
+          <lb ed="#P" n="88"/>ex gratia, scilicet opera meritoria, tamen bona
+          <lb ed="#P" n="89"/>opera, ad quee sufficit bonun nature, 
+          aliquali<lb break="no" ed="#P" n="90"/>ter operari possunt. Quud autem aliqualiter,
+          <lb ed="#P" n="91"/>intelligit, id est, sine ulla morali malitia et
+          <lb ed="#P" n="92"/>modo naturali, qui ad meritum non sufficit.
+          <lb ed="#P" n="93"/>Qui sensus patet, nam inde infert, non omnia
+          <lb ed="#P" n="94"/>opera infidelium esse peccata : quod non recte
+          <lb ed="#P" n="95"/>inferret, nisi intelligeret, posse infideles per
+          <lb ed="#P" n="96"/>bonum naturae illa opera bona bene moraliter
+          <lb ed="#P" n="97"/>facere : si enim non fierent bene, jam essent
+          <lb ed="#P" n="98"/>peccata. Maxime in sententia ejusdem sancti
+          <lb ed="#P" n="99"/>doctoris, qui non agnoscit opus aliquod 
+          indif<lb break="no" ed="#P" n="100"/>ferens in individuo. Et ideo statim declarat,
+          <lb ed="#P" n="101"/>posse infidelem bono fine, et bona intentione
+          <lb ed="#P" n="102"/>operari, non operando ex infidelitate ut sic,
+          <lb ed="#P" n="103"/>sed ex pura, et recta ratione naturali, ut in
+          <lb ed="#P" n="104"/>solutione , ad 2, declarat. Unde inter 
+          disci<lb break="no" ed="#P" n="105"/>pulos D. Thomae haec est communis, et 
+          indu<lb break="no" ed="#P" n="106"/>bitata sententia.
+        </p>
+        <p xml:id="szduep-096892-d1e197">
+          <lb ed="#P" n="107"/>2. Quam etiam Bonaventura, d. 28, plane
+          <lb ed="#P" n="108"/>sequitur. Nam licet videatur gratiam requi-
+          <pb ed="#P" n="382"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rere : tamen late loquitur in sensu supra 
+          ex<lb break="no" ed="#P" n="2"/>plicato, ut patet ex art. 1, q. 2, ubi esem
+          <lb ed="#P" n="3"/>plum ponit de praecepto honorandi parentes,
+          <lb ed="#P" n="4"/>quod dicit, posse quoad substantiam impleri
+          <lb ed="#P" n="5"/>per naturalem pietatem, et devotionem, et
+          <lb ed="#P" n="6"/>hanc vocat gratiam gratis datam. Idem fere,
+          <lb ed="#P" n="7"/>art. 2, q. 1, et in q. 2. dicit, posse hominem
+          <lb ed="#P" n="8"/>vincere aliquam tentationem, licet non omnes;
+          <lb ed="#P" n="9"/>sine ulla gratia : et q. 3, de homine in puris
+          <lb ed="#P" n="10"/>naturalibus dicit , posse perficere aliquod 
+          bo<lb break="no" ed="#P" n="11"/>num opus morale fine ulla gratia : ubi videtur
+          <lb ed="#P" n="12"/>strictius sumere gratiam pro dono vel auxilio
+          <lb ed="#P" n="13"/>supernaturali. At vero in fine quaestionis 
+          di<lb break="no" ed="#P" n="14"/>serte explicat, quod si alicubi dicitur, non
+          <lb ed="#P" n="15"/>posse hominem operari aliquod bonum opus
+          <lb ed="#P" n="16"/>morale sine gratia, sub gratia debet 
+          compre<lb break="no" ed="#P" n="17"/>hendi communis influentia, quae gratis a Deo
+          <lb ed="#P" n="18"/>datur. Imo, quod gravius est, ita exponit 
+          ver<lb break="no" ed="#P" n="19"/>ba illa Joannis 15: Sine me nilal potestis 
+          fa<lb break="no" ed="#P" n="20"/>cere. Quod non probo, affero tamen illud, 
+          quo<lb break="no" ed="#P" n="21"/>niam declarat illius auctoris sententiam. Pro
+          <lb ed="#P" n="22"/>qua referri etiam solet Alensis, 3 p., 
+          quaestio<lb break="no" ed="#P" n="23"/>ne 61, sed ille nunquam satis declarat mentem
+          <lb ed="#P" n="24"/>suam, quamvis huic parti faveat potius, quam
+          <lb ed="#P" n="25"/>oppositae in memb. 1 et 7. Clarius eam 
+          docue<lb break="no" ed="#P" n="26"/>runt, Altisiodorensis et Joan. Gersonius, locis
+          <lb ed="#P" n="27"/>supra citatis. Et adhuc expressius, in aliudque
+          <lb ed="#P" n="28"/>extremum declinantes, Scotus, Durandus, 
+          Ga<lb break="no" ed="#P" n="29"/>briel et qui eos imitantur, ut supra visum est.
+          <lb ed="#P" n="30"/>Est etiam inter modernos scriptores multum
+          <lb ed="#P" n="31"/>probata haec sententia, praesertim contra 
+          hae<lb break="no" ed="#P" n="32"/>reticos hujus temporis, qui liberum arbitrium
+          <lb ed="#P" n="33"/>in natura lapsa dicunt esse rem de solo titulo,
+          <lb ed="#P" n="34"/>et ita servum peccati, ut sine gratia nihil
+          <lb ed="#P" n="35"/>aliud facere possit, ut videre licet in Driedo,
+          <lb ed="#P" n="36"/>de Captivitate, et Redemp. gener. human.,
+          <lb ed="#P" n="37"/>tract. 4, cap. 2. p. 2. Ruardius, art. 7, 
+          con<lb break="no" ed="#P" n="38"/>tra Lutherum hoffensius, art. 36. 
+          Bellarmi<lb break="no" ed="#P" n="39"/>nus, libr. 5, de Gratia et libero Arbitrio, cap.
+          <lb ed="#P" n="40"/>9 et 3.
+        </p>
+        <p xml:id="szduep-096892-d1e296">
+          <lb ed="#P" n="41"/>3. Expositio Augustini. — Non admittitur
+          <lb ed="#P" n="42"/>dicta expositio.—Probatur communiter ab his
+          <lb ed="#P" n="43"/>auctoribus haec sententia ex illo Pauli ad 
+          Ro<lb break="no" ed="#P" n="44"/>man. 2: Gentes, quee legem non habent, 
+          naturali<lb break="no" ed="#P" n="45"/>ler ea que legis sunt, faciunt.Solet vero hic 
+          lo<lb break="no" ed="#P" n="46"/>cus ab Augustino intelligi de gentibus jam per
+          <lb ed="#P" n="47"/>tidem Christi illuminatis, quae dicuntur 
+          natu<lb break="no" ed="#P" n="48"/>raliter facere ea, quae legis sunt, non quia sine
+          <lb ed="#P" n="49"/>gratia ea faciant, sed quia sanata jam natura
+          <lb ed="#P" n="50"/>per gratiam, naturalter faciat ea, quae sunt
+          <lb ed="#P" n="51"/>legis naturalis, id est, ea, quae sunt naturae
+          <lb ed="#P" n="52"/>consentanea, operatur, quamvis non sine 
+          ad<lb break="no" ed="#P" n="53"/>jutorio gratiae. Ita fere habet Augustinus, libro
+          <lb ed="#P" n="54"/>de Spiritu et littera, cap. 26 et 27, quem 
+          se<lb break="no" ed="#P" n="55"/>cutus est Fulgentius, de Incarnatione et gra-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tia, capite 16, et D. Thomas 1, 2, quaest. 106,
+          <lb ed="#P" n="57"/>rtic. 4, ad 1, sed nec ipse Augustinus in 
+          il<lb break="no" ed="#P" n="58"/>la expositione omnino haret , aliam enim
+          <lb ed="#P" n="59"/>statim subjungit, quam mox videbimus : nec
+          <lb ed="#P" n="60"/>videtur certe consentanea contextui , neque
+          <lb ed="#P" n="61"/>verbis. Primo, quia Paulus non loquitur de
+          <lb ed="#P" n="62"/>gentibus jam illuminatis per Christi 
+          Evange<lb break="no" ed="#P" n="63"/>lium, sed absolute et secundum se, prout ante
+          <lb ed="#P" n="64"/>Christi adventum erant, et futurae erant quasi
+          <lb ed="#P" n="65"/>materia circa quam, Evangelicae 
+          praedicatio<lb break="no" ed="#P" n="66"/>nis, seu terra, in qua seminandum erat 
+          Evan<lb break="no" ed="#P" n="67"/>gelii verbum. Sicut loquitur etiam de Judaeis,
+          <lb ed="#P" n="68"/>non jam credentibus in Christum, sed ut 
+          pro<lb break="no" ed="#P" n="69"/>fitentibus suam legem. Hoc enim modo dicit
+          <lb ed="#P" n="70"/>de utrisque. Tribulatio, et angustia in omnem
+          <lb ed="#P" n="71"/>animam hominis operantis malum, Jude 
+          pri<lb break="no" ed="#P" n="72"/>muwn et Graci, id est, Gentiles (heec enim duo
+          <lb ed="#P" n="73"/>verba aequivalent ibi apud Paulum, ut bene
+          <lb ed="#P" n="74"/>idem Augustinus animadvertit). Idem denique
+          <lb ed="#P" n="75"/>est Gentilis, quod vivens in praeputio, sine
+          <lb ed="#P" n="76"/>jugo scriptae legis. Et hoc modo dixerat 
+          Pau<lb break="no" ed="#P" n="77"/>lus, capite primo, ad Romanos: Sepe proposui
+          <lb ed="#P" n="78"/>venire ad vos, ut aliquem fructum habeam in
+          <lb ed="#P" n="79"/>vobis, sicut et in ceteris gentibus. Ubx gentes
+          <lb ed="#P" n="80"/>vocat omnes viventes in praeputio, in quibus
+          <lb ed="#P" n="81"/>fructificabat.
+        </p>
+        <p xml:id="szduep-096892-d1e390">
+          <lb ed="#P" n="82"/>4. Imo in Scriptura Sacra vix invenietur
+          <lb ed="#P" n="83"/>vox illa, Gentes, pro Christianis sumi, sed pro
+          <lb ed="#P" n="84"/>idololatris incircumcisis, 1, Corinth. 10. Que
+          <lb ed="#P" n="85"/>gentes ummolant. Et c. 12. Cum gentes essetis,
+          <lb ed="#P" n="86"/>ad simulacra muta, etc. Expressius a 
+          Chris<lb break="no" ed="#P" n="87"/>tianis condistiguuntur simul cum Judaeis
+          <lb ed="#P" n="88"/>1, Cor. 1. Judeis quidem scandalum, Gentibus
+          <lb ed="#P" n="89"/>autem stultitiam - ipsis autem votatis Judans,
+          <lb ed="#P" n="90"/>atque Gentibus, Christum Dei virtutem, et Dei
+          <lb ed="#P" n="91"/>sapientiam. Nomina ergo Gentium, et 
+          Judeeo<lb break="no" ed="#P" n="92"/>rum absolute a Paulo posita, non sunt nomina
+          <lb ed="#P" n="93"/>hominum jam vocatorum ad fidem, seu 
+          Chris<lb break="no" ed="#P" n="94"/>tianorum, sed duorum populorum, de quibus
+          <lb ed="#P" n="95"/>docere ipse intendit in illa Epistola ad 
+          Roma<lb break="no" ed="#P" n="96"/>nos indifferenter posse per fidem Christi vivam
+          <lb ed="#P" n="97"/>justificari. Atque hoc confirmant verba , quae
+          <lb ed="#P" n="98"/>proxime subjungit Apostolus in eodem capite
+          <lb ed="#P" n="99"/>secundo ad Romanos : Gloria, et honor, et paa
+          <lb ed="#P" n="100"/>omni operanti bonum, Judeo primun, et Greeco,
+          <lb ed="#P" n="101"/>non enim est acceptio personarum apud Deum.
+          <lb ed="#P" n="102"/>Loquitur ergo Judaeis et Graecis secundum se,
+          <lb ed="#P" n="103"/>quatenus omnes vocari possunt ad fidem, et
+          <lb ed="#P" n="104"/>omnibus potest prodesse, si illam acceptent.
+          <lb ed="#P" n="105"/>Cum ergo comparat Gentes, et Judaeos in modo
+          <lb ed="#P" n="106"/>peccandi, sine lege, vel cum illa, non agit de
+          <lb ed="#P" n="107"/>Gentibus, vel Judaeis Christianis, sed 
+          secun<lb break="no" ed="#P" n="108"/>dum se, et absque fide Christi : ergo eodem
+          <lb ed="#P" n="109"/>modo loquitur de Gentibus, cum ait : Gentes
+          <lb ed="#P" n="110"/>que legem non habent, naturaliter ea quae legis
+          <pb ed="#P" n="383"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt, faciunt - tum quia univoce illa voce 
+          uti<lb break="no" ed="#P" n="2"/>tur, tum etiam, quia hoc affert, ut ostendat,
+          <lb ed="#P" n="3"/>non sine causa imputari Gentibus ad culpam
+          <lb ed="#P" n="4"/>ea peccata, quae, capite primo, retulerat, cum
+          <lb ed="#P" n="5"/>haberent legem naturaliter inditam.
+        </p>
+        <p xml:id="szduep-096892-d1e471">
+          <lb ed="#P" n="6"/>5. Objectio. — At dicere potest aliquis, esto,
+          <lb ed="#P" n="7"/>non loquatur Paulus de gentibus conversis ad
+          <lb ed="#P" n="8"/>fidem Christi, sed prout erant in statu legis
+          <lb ed="#P" n="9"/>naturae ; tamen cum illis attribuit, quod 
+          ob<lb break="no" ed="#P" n="10"/>servant legem, non loqui de infidelibus et 
+          ido<lb break="no" ed="#P" n="11"/>lolatris, sed de fidelibus, qui in eo statu justi
+          <lb ed="#P" n="12"/>esse poterant. Gentium enim nomen 
+          indiffe<lb break="no" ed="#P" n="13"/>rens est ad justos, et peccatores: et licet 
+          fre<lb break="no" ed="#P" n="14"/>quentius essent pravi, et idololatrae, et ideo
+          <lb ed="#P" n="15"/>hujusmodi prava opera illis tribuantur : 
+          nihil<lb break="no" ed="#P" n="16"/>ominus aliqui esse poterant justi, et 
+          observa<lb break="no" ed="#P" n="17"/>tores legis naturalis: de his ergo videtur 
+          lo<lb break="no" ed="#P" n="18"/>qui Paulus in illo loco, quia de illis dicit, guod
+          <lb ed="#P" n="19"/>factores legis justificabuntur : et quod ilis
+          <lb ed="#P" n="20"/>etiam fuit gloria, et pac operantibus bonum.
+          <lb ed="#P" n="21"/>Unde necesse est, ut loquatur de lege naturae,
+          <lb ed="#P" n="22"/>non prout dictatur per solum naturale lumen
+          <lb ed="#P" n="23"/>intellectus, sed prout dictabatur etiam in illo
+          <lb ed="#P" n="24"/>statu per lumen fidei, quia non poterat alio
+          <lb ed="#P" n="25"/>modo sufticere ad gloriam, et pacem, vel 
+          jus<lb break="no" ed="#P" n="26"/>titiam obtinendam. Cum ergo Paulus ait, 
+          hu<lb break="no" ed="#P" n="27"/>jusmodi gentes naturaliter, que legis sunt,
+          <lb ed="#P" n="28"/>facere, non dici naturaliter, ut excludat 
+          spi<lb break="no" ed="#P" n="29"/>ritum fidei, vel auxilium gratiae, sed ut 
+          exclu<lb break="no" ed="#P" n="30"/>dat legem scriptam , ad eum modum , quo
+          <lb ed="#P" n="31"/>ile status dicitur legis natura , non quia
+          <lb ed="#P" n="32"/>esset solius naturae sine gratia, et fide, sed
+          <lb ed="#P" n="33"/>quia non habebat alia praecepta, quae natura
+          <lb ed="#P" n="34"/>dictabat : natura (inquam ) non nuda , sed
+          <lb ed="#P" n="35"/>ordinata ad Deum per gratiam : sic ergo 
+          na<lb break="no" ed="#P" n="36"/>turaliter servabatur illa lex, id est, natura
+          <lb ed="#P" n="37"/>duce eodem modo, non pura, sed lumine fidei
+          <lb ed="#P" n="38"/>affecta.
+        </p>
+        <p xml:id="szduep-096892-d1e545">
+          <lb ed="#P" n="39"/>6. Rejicitur objectio. — Sed quanquam 
+          doc<lb break="no" ed="#P" n="40"/>trina haec in se vera sit, non tamen existimo
+          <lb ed="#P" n="41"/>fuisse illo loco a Paulo intentam. Primo, quia
+          <lb ed="#P" n="42"/>vox illa naturaliter, in rigore videtur 
+          exclu<lb break="no" ed="#P" n="43"/>dere vires superantes naturam. Quis enim
+          <lb ed="#P" n="44"/>Catholicus audeat dicere, Job, et alios justos
+          <lb ed="#P" n="45"/>illius temporis non circumcisos , naturaliter
+          <lb ed="#P" n="46"/>credidisse, et Deum super omnia dilexisse?
+          <lb ed="#P" n="47"/>Praesertim, cum communi usu, et secundum
+          <lb ed="#P" n="48"/>phrasim etiam communem Scripturae, id 
+          di<lb break="no" ed="#P" n="49"/>catur naturaliter fieri, quod fit ex ipsa 
+          incli<lb break="no" ed="#P" n="50"/>natione et efficacia naturae. Secundo, quia
+          <lb ed="#P" n="51"/>tractare de gentibus fidelibus , et 
+          operanti<lb break="no" ed="#P" n="52"/>bus ex fide, non pertinebat ad institutum
+          <lb ed="#P" n="53"/>Iuuli i in loco. Nam potius considerat ibi, tam
+          <lb ed="#P" n="54"/>gentes, quam Judaeos, ut operantes Libus suis,
+          <lb ed="#P" n="55"/>sine adminiculo fidei, et gratiae : ut eos insuf-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ficientes et debilissimos fuisse ostendat ad 
+          ho<lb break="no" ed="#P" n="57"/>neste, et sancte vivendum. Quod in primo 
+          ca<lb break="no" ed="#P" n="58"/>pite, ex multitudine, et acerbitate vitiorum,
+          <lb ed="#P" n="59"/>in quibus Gentes versabantur : et in secundo
+          <lb ed="#P" n="60"/>capite, ex similibus moribus Judaeorum 
+          de<lb break="no" ed="#P" n="61"/>monstrat. Ne tamen videretur gentes 
+          imme<lb break="no" ed="#P" n="62"/>rito accusare, cum legem non haberent, de
+          <lb ed="#P" n="63"/>illis subjungit, suum modum legis naturalis
+          <lb ed="#P" n="64"/>habuisse, quam naturaliter interdum 
+          serva<lb break="no" ed="#P" n="65"/>bant. Loquitur ergo de illis, non considerando
+          <lb ed="#P" n="66"/>in illis fidem, nec gratiam, sed solam naturam.
+          <lb ed="#P" n="67"/>Unde, licet verum sit, indifferenter loqui de
+          <lb ed="#P" n="68"/>gentibus, sive justis, sive iniquis, sive 
+          fideli<lb break="no" ed="#P" n="69"/>bus, sive infidelibus, non tamen considerat ,
+          <lb ed="#P" n="70"/>in his, qui fideles erant, vim fidei, vel gratiae,
+          <lb ed="#P" n="71"/>sed solius naturalis luminis et rationis. Eo vel
+          <lb ed="#P" n="72"/>maxime, quod illi gentiles, qui fideles erant,
+          <lb ed="#P" n="73"/>quatenus spiritu fidei ducebantur, non tam ad
+          <lb ed="#P" n="74"/>legem naturae, quam ad legem gratiae 
+          perti<lb break="no" ed="#P" n="75"/>nebant, ut Patres tradunt, et in materia de
+          <lb ed="#P" n="76"/>legibus docuimus.
+        </p>
+        <p xml:id="szduep-096892-d1e632">
+          <lb ed="#P" n="77"/>7. Vera expositio loci Pauli est Augustini.
+          <lb ed="#P" n="78"/>— Verus ergo sensus verborum Pauli est,
+          <lb ed="#P" n="79"/>quem Augustinus, dict. cap. 28, secundo loco
+          <lb ed="#P" n="80"/>ponit, dicens: /n Gentibus etiam idololatris 
+          que<lb break="no" ed="#P" n="81"/>dam facta inventa esse, et legi, vel audiri, quee
+          <lb ed="#P" n="82"/>non solum vituperare non possumus, verum
+          <lb ed="#P" n="83"/>etiam merito laudamus. Et quamnvis si 
+          discu<lb break="no" ed="#P" n="84"/>Liatur, quo fine fiant, vir inveniantur in eis
+          <lb ed="#P" n="85"/>opera laude digna. Verumtamen (ait) non usque
+          <lb ed="#P" n="86"/>adeo in anima humana imago Dei terrenorum
+          <lb ed="#P" n="87"/>affectun labe detrita est, ut nulla in ea veluti
+          <lb ed="#P" n="88"/>lineamenta extrema remanserint, unde merito
+          <lb ed="#P" n="89"/>dici possit, etium in ipsa impietate vitee suee
+          <lb ed="#P" n="90"/>facere aliqua legis, vel sapere, etc., ac proinde
+          <lb ed="#P" n="91"/>posse naturaliter, quae legis sunt, facere,
+          <lb ed="#P" n="92"/>quoad aliqua moralia opera simpliciter 
+          hones<lb break="no" ed="#P" n="93"/>ta : quia non omnino deletum est, quod ibi per
+          <lb ed="#P" n="94"/>naginem Dei, cum crearentur, empressum est.
+          <lb ed="#P" n="95"/>Verum est tamen, eumdem Augustinum, l. 4,
+          <lb ed="#P" n="96"/>contra Julianum, cap. 3, hanc ipsam 
+          admit<lb break="no" ed="#P" n="97"/>tentes interpretationem addere, quando Gentes
+          <lb ed="#P" n="98"/>naturaliter faciunt quae legis sunt, si absque
+          <lb ed="#P" n="99"/>fide operentur, non bene facere, quia non bono
+          <lb ed="#P" n="100"/>fine faciunt. At profecto, licet non fortasse 
+          fre<lb break="no" ed="#P" n="101"/>quentius accidat, non est in singulis operibus
+          <lb ed="#P" n="102"/>necessarium : quia fides infusa non est 
+          neces<lb break="no" ed="#P" n="103"/>saria ad operandum ex honesto fine: nam 
+          sa<lb break="no" ed="#P" n="104"/>tis est velle ipsum externum opus , propter
+          <lb ed="#P" n="105"/>honestatem , et conformitatem , quam habet
+          <lb ed="#P" n="106"/>cum recta ratione , nullam pravam 
+          intentio<lb break="no" ed="#P" n="107"/>nem adhibendo, quod homini liberum est.
+          <lb ed="#P" n="108"/>Imo etiam circa Deum ut finem naturae potest
+          <lb ed="#P" n="109"/>naturaliter aliqua bona intentio concipi, 
+          ve<lb break="no" ed="#P" n="110"/>ram ejus adorationem, et cultum, vel quid si-
+          <pb ed="#P" n="384"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mile prout rationi naturali consentaneum est,
+          <lb ed="#P" n="2"/>intentendo. Denique, non potest quis simpliciter
+          <lb ed="#P" n="3"/>dici, facere naturalem legem, quod Paulus ait,
+          <lb ed="#P" n="4"/>si in ipsomet opere, quo videtur illam 
+          imple<lb break="no" ed="#P" n="5"/>re, eamdem violat. Potest ergo homo ex 
+          sen<lb break="no" ed="#P" n="6"/>tentia Pauli naturaliter, id est, sine gratia 
+          ali<lb break="no" ed="#P" n="7"/>quod bonum facere simpliciter, consentaneum
+          <lb ed="#P" n="8"/>legi naturae. Quam expositionem ibi 
+          tradide<lb break="no" ed="#P" n="9"/>runt Origenes, Chrysostomus, et omnes Graeci,
+          <lb ed="#P" n="10"/>Hieronymus, et D. Thomas ibidem, ubi etiam
+          <lb ed="#P" n="11"/>Cajetanus, Soto. Idem indicant Hieronymus,
+          <lb ed="#P" n="12"/>epist. 151, ad Algas., q. 8, et Cyprianus, lib. 3,
+          <lb ed="#P" n="13"/>ad Quirin., cap. 99.
+        </p>
+        <p xml:id="szduep-096892-d1e741">
+          <lb ed="#P" n="14"/>8. Objicitur. — Dices, ergo quod ibidem ait
+          <lb ed="#P" n="15"/>Paulus : Gloria, honor, et paz omnà operanti
+          <lb ed="#P" n="16"/>bomun, intellhigitur etiam de servante 
+          natura<lb break="no" ed="#P" n="17"/>liter legem naturae. Item quod ait, factores
+          <lb ed="#P" n="18"/>legis justificabuntur, verum est etiam de 
+          gen<lb break="no" ed="#P" n="19"/>tibus, qui naturaliter legem naturae servarunt:
+          <lb ed="#P" n="20"/>hoc autem est contra illud ejusdem Pauli 
+          tes<lb break="no" ed="#P" n="21"/>timonium : 5i ezx lege justitie : ergo gratis
+          <lb ed="#P" n="22"/>Christus mortuus est. Nam ut Augustinus 
+          ar<lb break="no" ed="#P" n="23"/>gumentatur, epist. 196. Si ez natura justitia,
+          <lb ed="#P" n="24"/>gratis Christus mortuus est.
+        </p>
+        <p xml:id="szduep-096892-d1e768">
+          <lb ed="#P" n="25"/>9. Explicatur prina pars objectionis. —Circa
+          <lb ed="#P" n="26"/>prius testimonium, ut ejus proprius sensus 
+          in<lb break="no" ed="#P" n="27"/>telligatur, consideranda sunt verba proxime
+          <lb ed="#P" n="28"/>praecedentia, in quibus longe diverso modo
+          <lb ed="#P" n="29"/>loquitur Paulus, et talem modum bonum 
+          ope<lb break="no" ed="#P" n="30"/>randi exigit ad meritum vitae aeternae, ut 
+          sa<lb break="no" ed="#P" n="31"/>tis constet, sine gratia impleri non posse. Sic
+          <lb ed="#P" n="32"/>enim inquit : Zis quidem qui secundum 
+          patien<lb break="no" ed="#P" n="33"/>tiam boni operis gloriam, et honorem et 
+          incor<lb break="no" ed="#P" n="34"/>ruptionem queerunt, vitam ceternam. Ubi 
+          im<lb break="no" ed="#P" n="35"/>primis non utcumque bonum opus, scd omnino
+          <lb ed="#P" n="36"/>patientiam boni operis postulat. In quo verbo
+          <lb ed="#P" n="37"/>duo includi opinor; unum est, perseverantia
+          <lb ed="#P" n="38"/>in bene operando, quae sine magna patientia,
+          <lb ed="#P" n="39"/>et tolerantia non exercetur, juxta illud Lucae, 8:
+          <lb ed="#P" n="40"/>Audientes verbum retinent, et fructum afferunt
+          <lb ed="#P" n="41"/>in patientia, Aliud est, integritas (ut sic dicam)
+          <lb ed="#P" n="42"/>in bene operando quoad totam collectionem
+          <lb ed="#P" n="43"/>praeceptorum , et observantiam eorum. Nam,
+          <lb ed="#P" n="44"/>cum offendens in uno, fiat omnium reus, non
+          <lb ed="#P" n="45"/>potest dici quaerere gloriam secundum 
+          patien<lb break="no" ed="#P" n="46"/>tiam boni operis, qui unum, vel aliud 
+          praecep<lb break="no" ed="#P" n="47"/>tum interdum observat , sed solum, qui 
+          om<lb break="no" ed="#P" n="48"/>nium observationi patientissime incumbit: nec
+          <lb ed="#P" n="49"/>enim sine magna patientia, et constantia id
+          <lb ed="#P" n="50"/>fieri potest. Et fortasse ob hanc causam aiebat
+          <lb ed="#P" n="51"/>Paulus: Patientia vobis necessaria est, ut 
+          vo<lb break="no" ed="#P" n="52"/>luntatem Dei facientes, reportetis promissiones.
+          <lb ed="#P" n="53"/>Heb. 10. Constat autem haec duo non posse
+          <lb ed="#P" n="54"/>sine gratia praestari. Praeter haec vero 
+          adjun<lb break="no" ed="#P" n="55"/>git Paulus intentionem plane supernaturalem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in bene operando, scilicet, querendi gloriam,
+          <lb ed="#P" n="57"/>utique apud Deum, et honorem verum scilicet,
+          <lb ed="#P" n="58"/>et stabilem, et incorruptionem, vel hujus 
+          vi<lb break="no" ed="#P" n="59"/>tae, quae in puritate morum consistit, et 1 Pet. 3,
+          <lb ed="#P" n="60"/>incorruptibilitas spiritus vocatur: sicut e 
+          con<lb break="no" ed="#P" n="61"/>trario vitae turpitudo corruptio appellatur 
+          Ge<lb break="no" ed="#P" n="62"/>nesis 6, vel alterius vitae, quam Christus docuit,
+          <lb ed="#P" n="63"/>et promisit, ut idem Paulus dicit, 2. Tim. 1.
+          <lb ed="#P" n="64"/>Cum ergo proxime subdit : Gloria, honor, et
+          <lb ed="#P" n="65"/>pac omni operanti bonum, intelligit eo modo
+          <lb ed="#P" n="66"/>quo declaraverat, quare non loquitur de 
+          ope<lb break="no" ed="#P" n="67"/>rante bonum per solas vires naturae, sed per
+          <lb ed="#P" n="68"/>fidem, et gratiam, sine quibus nulli est 
+          po<lb break="no" ed="#P" n="69"/>testas sic bene operandi.
+        </p>
+        <p xml:id="szduep-096892-d1e870">
+          <lb ed="#P" n="70"/>10. Secus vero est de verbis illis, quae infra
+          <lb ed="#P" n="71"/>subjungit, et nunc tractamus : Gentes quae 
+          le<lb break="no" ed="#P" n="72"/>gem non habent, naturaliter ea, quee legis sunt,
+          <lb ed="#P" n="73"/>faciunt; tum quia haec non conjunguntur 
+          prio<lb break="no" ed="#P" n="74"/>ribus, sed ad propositum longe diversum dicta
+          <lb ed="#P" n="75"/>sunt : tum etiam, quia non sunt similia, nam
+          <lb ed="#P" n="76"/>in his nihil de patientia, vel perseverantia in
+          <lb ed="#P" n="77"/>observatione legis, nihilve de intentione 
+          quae<lb break="no" ed="#P" n="78"/>rendi gloriam, sicut in prioribus dicitur. Tum
+          <lb ed="#P" n="79"/>denique, quia in his est sermo de solis gentü-
+          <lb ed="#P" n="80"/>bus, ibi vel de Judaeis jam illuminatis per 
+          fi<lb break="no" ed="#P" n="81"/>dem, vel generatim de omnibus bene 
+          operan<lb break="no" ed="#P" n="82"/>tibus tali modo, qui modus plane gratiam 
+          re<lb break="no" ed="#P" n="83"/>quirit. Unde in priori loco non est addita
+          <lb ed="#P" n="84"/>vox, naturaliter, quae in his verbis posita est.
+        </p>
+        <p xml:id="szduep-096892-d1e905">
+          <lb ed="#P" n="85"/>11. Altera dicte objectionis pars enercatur.
+          <lb ed="#P" n="86"/>— Circa alteram objectionis partem sumptam
+          <lb ed="#P" n="87"/>ex illis verbis: Non enim auditores legis justi
+          <lb ed="#P" n="88"/>sunt apud Deun, sed factores legis 
+          justifica<lb break="no" ed="#P" n="89"/>buntur, considerandum est. Quod hcet 
+          proxi<lb break="no" ed="#P" n="90"/>me post haec verba sequantur alia, quae 
+          trac<lb break="no" ed="#P" n="91"/>tamus : Cum enim gentes, que legem non 
+          ha<lb break="no" ed="#P" n="92"/>bent, naturaliter ea, que legis sunt, fuciunt,
+          <lb ed="#P" n="93"/>nihilominus per haec verba non redditur ratio
+          <lb ed="#P" n="94"/>prioris sententiae, factores legis 
+          justificabun<lb break="no" ed="#P" n="95"/>tur, se soium adducuntur ad removendam 
+          ta<lb break="no" ed="#P" n="96"/>citam objectionem, et ostendendum, Gentes
+          <lb ed="#P" n="97"/>non caruisse lege, quamvis illam exterius
+          <lb ed="#P" n="98"/>scriptam non receperint; ut patet ex 
+          sequen<lb break="no" ed="#P" n="99"/>tibus verbis, ejusmodi legem non habentes, ipsi
+          <lb ed="#P" n="100"/>sunt lev, quài ostendunt opus legis scriptum in
+          <lb ed="#P" n="101"/>cordibus suis. Cum ergo Paulus, ait, factorem
+          <lb ed="#P" n="102"/>legis justificari, loquitur de illo, qui totam
+          <lb ed="#P" n="103"/>legem facit integre, et plene, hoc enim et vox
+          <lb ed="#P" n="104"/>ipsa absolute, et simpliciter prolata, factor
+          <lb ed="#P" n="105"/>legis, indicat. Quis enim observatorem legis
+          <lb ed="#P" n="106"/>appelet eum, qui interdum secundum legem
+          <lb ed="#P" n="107"/>operatur : frequenter vero iliam violat? Et res
+          <lb ed="#P" n="108"/>ipsa prae se fert hunc sensum, quia qui in uno
+          <lb ed="#P" n="109"/>offendit, factus est omnium reus, et ideo 
+          jus<lb break="no" ed="#P" n="110"/>tificari non potest, nisi qui totius legis obser-
+          <pb ed="#P" n="385"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vator sit. Constat autem, nullum esse posse
+          <lb ed="#P" n="2"/>hoc modo factorem legis per solas vires 
+          na<lb break="no" ed="#P" n="3"/>turae, sed indigere fide, et gratia Dei. At cum
+          <lb ed="#P" n="4"/>infra Paulus ait, gentes naturaliter facere quae
+          <lb ed="#P" n="5"/>legis sunt, indefinite loquitur, et non dicit 
+          fa<lb break="no" ed="#P" n="6"/>cere omnia, nec dicit per illa opera justificari,
+          <lb ed="#P" n="7"/>sed solum affert signum naturalis legis 
+          cordi<lb break="no" ed="#P" n="8"/>bus insitae, ad quod sufficit, quod in uno vel
+          <lb ed="#P" n="9"/>alio actu aliquando lumen suum, et bonam
+          <lb ed="#P" n="10"/>naturae propensionem ostendat.
+        </p>
+        <p xml:id="szduep-096892-d1e990">
+          <lb ed="#P" n="11"/>12. Urgetur amplius. — Respondetur. — 
+          Di<lb break="no" ed="#P" n="12"/>ces, Ergo, in eodem contextu ambigue loquitur
+          <lb ed="#P" n="13"/>Paulus de Gentibus, nunc de infidelibus, nunc
+          <lb ed="#P" n="14"/>de credentibus, nunc de operantibus per vires
+          <lb ed="#P" n="15"/>naturae, nunc de operantibus ex fide et gratia:
+          <lb ed="#P" n="16"/>quod videtur inconveniens , quia hoc modo
+          <lb ed="#P" n="17"/>incerta redditur tota sententia. Respondeo, 
+          lo<lb break="no" ed="#P" n="18"/>qui quidem Paulum indifferenter de Gentibus,
+          <lb ed="#P" n="19"/>etiam ante Christi adventum existentibus, sive
+          <lb ed="#P" n="20"/>notitiam fidei haberent, sive non, prout sub
+          <lb ed="#P" n="21"/>nomine Preeputii, solet de illis loqui. Et de
+          <lb ed="#P" n="22"/>ilis affirmat fuisse apud Deum capaces 
+          justi<lb break="no" ed="#P" n="23"/>tiae et meriti, ac praemii aeterni, non minus
+          <lb ed="#P" n="24"/>quam Judeos: si alioqui praecepta servarent
+          <lb ed="#P" n="25"/>eo modo, quo oportebat. Quis autem hic 
+          mo<lb break="no" ed="#P" n="26"/>dus fuerit et per quas vires id fieri posset, in
+          <lb ed="#P" n="27"/>eo capite non explicat, sed in sequentibus:
+          <lb ed="#P" n="28"/>quia ibi solum agebat de discrimine inter 
+          Ju<lb break="no" ed="#P" n="29"/>daeos et Gentes, in beneficio legis scriptae a
+          <lb ed="#P" n="30"/>Deo recepto, solumque ostendebat, nec 
+          bene<lb break="no" ed="#P" n="31"/>ficium illud fuisse per se sufficiens ad justitiam,
+          <lb ed="#P" n="32"/>nec necessarium : quia et sine illo poterant
+          <lb ed="#P" n="33"/>gentes justificari, et cum illo damnati sunt
+          <lb ed="#P" n="34"/>quamplures Judaeorum, vel quia legem ipsam
+          <lb ed="#P" n="35"/>non servabant, vel quia existimabant opera
+          <lb ed="#P" n="36"/>legis per se et sine spiritu fidei facta, fuisse
+          <lb ed="#P" n="37"/>sufficientia ad veram justitiam. Et ita nulla est
+          <lb ed="#P" n="38"/>ambiguitas in usu dictorum verborum : quia
+          <lb ed="#P" n="39"/>inter Gentes eo generali nomine 
+          comprehen<lb break="no" ed="#P" n="40"/>sas quidam esse poterant operantes per fidem,
+          <lb ed="#P" n="41"/>alii per solum naturale lumen : et iidem 
+          ha<lb break="no" ed="#P" n="42"/>bentes fidem, poterant nunc operari ex illa,
+          <lb ed="#P" n="43"/>nunc vero solum naturahter ex dictamine 
+          ra<lb break="no" ed="#P" n="44"/>tonis : sicut nunc etiam fidelibus Christianis
+          <lb ed="#P" n="45"/>contingit. Unde Paulus interdum eos admonet,
+          <lb ed="#P" n="46"/>ut attendant quid natura ipsa eos doceat, prima
+          <lb ed="#P" n="47"/>Corinth. , capite 11: Nonne ipsa natura 
+          do<lb break="no" ed="#P" n="48"/>cet vos ? Et similiter inter Judaeos, qui de lege
+          <lb ed="#P" n="49"/>gloriabantur , quidam esse poterant 
+          observa<lb break="no" ed="#P" n="50"/>tores ejus ex spiritu fidei, alii solum 
+          professo<lb break="no" ed="#P" n="51"/>res, vel ex humana praesumptione , vel ex 
+          er<lb break="no" ed="#P" n="52"/>rore, ut nunc revera sunt Judeaei. Igitur sine
+          <lb ed="#P" n="53"/>ulla verborum aequivocatione potuit recte 
+          Pau<lb break="no" ed="#P" n="54"/>lus, cum dixit : Factores legis justificari, 
+          in<lb break="no" ed="#P" n="55"/>telligere de his, qui vero spiritu fidei servant
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>legem , seu de his, qui totam legem integre et
+          <lb ed="#P" n="57"/>patienter observant, quod in idem redit, quia
+          <lb ed="#P" n="58"/>sine spiritu fidei non potest lex tota integre
+          <lb ed="#P" n="59"/>servari : et nihilominus cum dixit : Genfes,
+          <lb ed="#P" n="60"/>qua legem non habent, naturaliter ea, quee legis
+          <lb ed="#P" n="61"/>sunt faciunt, intelligere de his, qui per solas
+          <lb ed="#P" n="62"/>vires et lumen naturae aliquid consentaneum
+          <lb ed="#P" n="63"/>legi naturali faciunt, sive alioqui fidem 
+          ha<lb break="no" ed="#P" n="64"/>beant, sive non habeant. Et hic revera est
+          <lb ed="#P" n="65"/>proprius sensus illius loci.
+        </p>
+        <p xml:id="szduep-096892-d1e1114">
+          <lb ed="#P" n="66"/>13. Ulterius vero confirmari potest dicta
+          <lb ed="#P" n="67"/>communis sententia ex alia ejusdem Pauli in
+          <lb ed="#P" n="68"/>eadem epistola ad Romanos, cap. 1, ubi docet,
+          <lb ed="#P" n="69"/>potuisse Gentiles via et ratione naturali 
+          habe<lb break="no" ed="#P" n="70"/>re veri Dei notitiam: fuisseque valde 
+          culpa<lb break="no" ed="#P" n="71"/>biles, illa non bene utendo ad Deum 
+          glorifi<lb break="no" ed="#P" n="72"/>candum et amandum. Probatur ex illis verbis:
+          <lb ed="#P" n="73"/>Qui veritatem Dei in injustitia detinent, quia
+          <lb ed="#P" n="74"/>quod notum est Dei, manifestum est in illis;
+          <lb ed="#P" n="75"/>Deus enim illius manifestavit -invisibilia enim
+          <lb ed="#P" n="76"/>ipsius a creatura mundi per ea, que facta sunt,
+          <lb ed="#P" n="77"/>intellecta conspiciuntur, sempiterna quoque ojus
+          <lb ed="#P" n="78"/>virtus et divinitas, ita ut sint inexcusabiles -
+          <lb ed="#P" n="79"/>quia cum cognovissent Demn, non sicut Deum
+          <lb ed="#P" n="80"/>glorificaverunt, aut gratias egerunt, etc. Ex
+          <lb ed="#P" n="81"/>his enim verbis intelligimus primo, in illis
+          <lb ed="#P" n="82"/>hominibus, quos reprehendit (sunt enim 
+          anti<lb break="no" ed="#P" n="83"/>qui Gentles) fuisse Dei veritatem ex illo 
+          capi<lb break="no" ed="#P" n="84"/>te. seu ex parte intellectus sufficientem ad 
+          jus<lb break="no" ed="#P" n="85"/>ttiam saltem naturalem, id est, bonitatem et
+          <lb ed="#P" n="86"/>honestatem moralem exequendam. Alioqui
+          <lb ed="#P" n="87"/>non posset Paulus de illis gentibus dicere, Qui
+          <lb ed="#P" n="88"/>veritatem Dei in injustitia detinent - si aut 
+          ve<lb break="no" ed="#P" n="89"/>ritatem non assequerentur, aut illa non esset
+          <lb ed="#P" n="90"/>satis ad honestam operationem. Secundo 
+          in<lb break="no" ed="#P" n="91"/>telligimus, hanc veritatem fuisse quidem illis
+          <lb ed="#P" n="92"/>Gentibus a Deo manifestatam, non tamen per
+          <lb ed="#P" n="93"/>fidem, aut supernaturalem revelationem, sed
+          <lb ed="#P" n="94"/>per naturale magisterium creaturarum , ut
+          <lb ed="#P" n="95"/>evidenter probat illa causalis : /nvisibilia enim
+          <lb ed="#P" n="96"/>ipsius a creatura mundi, etc. Tertio 
+          intelligi<lb break="no" ed="#P" n="97"/>mus, fuisse illam cognitionem sufticientem ad
+          <lb ed="#P" n="98"/>glorificandum Deum, ad gratias illi agendas,
+          <lb ed="#P" n="99"/>ut aperte probant verba illa : 7ta ut sint 
+          inex<lb break="no" ed="#P" n="100"/>cusabiles, si enim cognitio non esset sufficiens,
+          <lb ed="#P" n="101"/>merito excusari potuissent.
+        </p>
+        <p xml:id="szduep-096892-d1e1195">
+          <lb ed="#P" n="102"/>14. Ratione dicta communis sententia 
+          vobo<lb break="no" ed="#P" n="103"/>ratur. — Unde concluditur ratio: Quia sine
+          <lb ed="#P" n="104"/>gratia, per solum cursum naturae potest 
+          habe<lb break="no" ed="#P" n="105"/>ri quidquid ex parte cognitionis necessarium
+          <lb ed="#P" n="106"/>est ad bene operandum, secundum aliquam
+          <lb ed="#P" n="107"/>honestatem naturalem, sed posita illa 
+          cogni<lb break="no" ed="#P" n="108"/>tione, non est etiam gratia necessaria ex parte
+          <lb ed="#P" n="109"/>voluntatis : ergo simpliciter necessaria non est
+          <lb ed="#P" n="110"/>ad singulos bonos actus morales virtutum ac-
+          <pb ed="#P" n="386"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quisitarum. Major supponitur ex dictis, capite
+          <lb ed="#P" n="2"/>decimo, quia ille actus, de quo agimus, non
+          <lb ed="#P" n="3"/>excedit physicas vires voluntatis, ideoque ad
+          <lb ed="#P" n="4"/>illum eliciendum non indiget in se alio 
+          prin<lb break="no" ed="#P" n="5"/>cipio. Quod etiam doctores, cum quibus 
+          dispu<lb break="no" ed="#P" n="6"/>tamus, admittunt, ut ex relatione 
+          sententiae<lb break="no" ed="#P" n="7"/>illorum constat, et ex sequentibus fiet 
+          eviden<lb break="no" ed="#P" n="8"/>tius. Minor autem expresse traditur a Paulo in
+          <lb ed="#P" n="9"/>citatis verbis : ideo enim recurrit ad creaturas
+          <lb ed="#P" n="10"/>et effectus Dei, ut declaret, illam cognitionem
+          <lb ed="#P" n="11"/>fuisse per naturam sine gratia, ut Patres 
+          intel<lb break="no" ed="#P" n="12"/>lexerunt, quos erudite congerit Bellarminus,
+          <lb ed="#P" n="13"/>libro quarto, de Gratia et libero arbitrio, 
+          ca<lb break="no" ed="#P" n="14"/>pite secundo, et libro quinto, capite secundo.
+        </p>
+        <p xml:id="szduep-096892-d1e1253">
+          <lb ed="#P" n="15"/>15. Consonatque optime cum veritate hac
+          <lb ed="#P" n="16"/>aliud testimonium ejusdem Pauli, Actor. 14,
+          <lb ed="#P" n="17"/>ubi cum de Deo dixisset: Qui in prateritis
+          <lb ed="#P" n="18"/>generationibus dimisit gentes ingredi vias suas,
+          <lb ed="#P" n="19"/>subdit : Et quidem non sine testimonio reliquit
+          <lb ed="#P" n="20"/>semetipsun, benefaciens de celo dans pluvias,
+          <lb ed="#P" n="21"/>ec. Quod testimonium expendemus latius
+          <lb ed="#P" n="22"/>capite sequenti. Nunc solum advertimus,
+          <lb ed="#P" n="23"/>naturale testimonium creaturarum reputari a
+          <lb ed="#P" n="24"/>Paulo sufficiens ad excitandum hominem ad
+          <lb ed="#P" n="25"/>quaerendum aliquo modo Deum et alquid
+          <lb ed="#P" n="26"/>boni praestandum. De quo testimonio Dei 
+          ite<lb break="no" ed="#P" n="27"/>rum subdit, c. 17: Queerere Deum, si forte 
+          at<lb break="no" ed="#P" n="28"/>trectent eum, aut inveniant, quamvis non longe
+          <lb ed="#P" n="29"/>sit ab unoquoque nostrum, etc. Quibus locis
+          <lb ed="#P" n="30"/>Chrysostomus et alii Patres de naturali 
+          cogni<lb break="no" ed="#P" n="31"/>tione et bona operatione illi conformi haec
+          <lb ed="#P" n="32"/>loca interpretantur.
+        </p>
+        <p xml:id="szduep-096892-d1e1295">
+          <lb ed="#P" n="33"/>16. Ultimo induci merito possunt ad hanc
+          <lb ed="#P" n="34"/>veritatem confirmandam verba illa Christi
+          <lb ed="#P" n="35"/>Matthaei, quinto capite: S diligitis eos, qui
+          <lb ed="#P" n="36"/>vos diligunt, quam mercedem habebitis, nonne
+          <lb ed="#P" n="37"/>et Publicani hoc faciunt ? Et si salutaveritis
+          <lb ed="#P" n="38"/>fratres vestros tantum, quid amplius facitis ?
+          <lb ed="#P" n="39"/>Illis enim verbis significavit Christus, talem
+          <lb ed="#P" n="40"/>quidem dilectionem et beneficentiam esse 
+          bo<lb break="no" ed="#P" n="41"/>nam et per naturalem rationem et 
+          inclinatio<lb break="no" ed="#P" n="42"/>nem fieri posse, quamvis non sit digna 
+          mer<lb break="no" ed="#P" n="43"/>cede, quia nec ex fide, nec ex gratia sit, ut ibi
+          <lb ed="#P" n="44"/>divus Anselmus, divus Thomas et alii 
+          exposi<lb break="no" ed="#P" n="45"/>tores significant. Inter quos recte Maldonatus
+          <lb ed="#P" n="46"/>dixit, Christum non negare mercedem 
+          habi<lb break="no" ed="#P" n="47"/>turos, quicumque amicos diligunt, cum 
+          ami<lb break="no" ed="#P" n="48"/>cos diligere Charitatis sit, sed negare 
+          merce<lb break="no" ed="#P" n="49"/>dem habituros, si ut Publicani tantum hoc
+          <lb ed="#P" n="50"/>faciant, id est, si non propter Deum, sed aut
+          <lb ed="#P" n="51"/>propter naturalem in amicos propensionem,
+          <lb ed="#P" n="52"/>aut propter utilitatem suam faciant: quia
+          <lb ed="#P" n="53"/>Deus non naturam, sed gratiam remunerat.
+          <lb ed="#P" n="54"/>Quod etiam significavit D. Thomas 2, 2, quaest.
+          <lb ed="#P" n="55"/>QT, art. 7. ad 7.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

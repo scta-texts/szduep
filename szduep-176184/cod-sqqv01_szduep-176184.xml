@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="696"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-176184"><!-- t3-l7c4 -->
+        <head xml:id="szduep-176184-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-176184-Hd1e103" type="question-title">Utrum eaedem proprietates, quae constituunt personas, illas distinguant</head>
+        <p xml:id="szduep-176184-d1e106">
+          <lb ed="#P" n="85"/>CAPUT IV.
+          <lb ed="#P" n="86"/>UTRUM EAEDEM PROPRIETATES, QUAE CONSTITUUNT
+          <lb ed="#P" n="87"/>PERSONAS, ILLAS DISTINGUANT.
+        </p>
+        <p xml:id="szduep-176184-d1e115">
+          <lb ed="#P" n="88"/>1. Prima opinio negans. — Multi theologi
+          <lb ed="#P" n="89"/>existimant, aliter in hac materia loquendum
+          <lb ed="#P" n="90"/>esse de constitutione, quam de distinctione:
+          <lb ed="#P" n="91"/>nam aliquando proprietas constituens 
+          perso<lb break="no" ed="#P" n="92"/>nam non distinguit illam ab omnibus alis,
+          <lb ed="#P" n="93"/>aliquando vero lcet distinguat, non tamen
+          <lb ed="#P" n="94"/>sub eadem ratione. Ita sentiunt Cajetanus et
+          <lb ed="#P" n="95"/>alii, 1 part., quaest. 36, art. 2, Ferrariensis, 4,
+          <lb ed="#P" n="96"/>contra Gentes, cap. 24 et 26. Fundantur 
+          prae<lb break="no" ed="#P" n="97"/>cipue, quia Filiatio constituit secundam 
+          per<lb break="no" ed="#P" n="98"/>sonam et non distinguit illam a tertia: quia
+          <lb ed="#P" n="99"/>juxta sententiam D. Thomae, si Spiritus 
+          sanc<lb break="no" ed="#P" n="100"/>tus non procederet a Filio non distingueretur
+          <lb ed="#P" n="101"/>ab illo, ergo Filiatio non satis distinguit 
+          Fi<lb break="no" ed="#P" n="102"/>lium ab Spiritu sancto, sed necessaria est 
+          spi<lb break="no" ed="#P" n="103"/>ratio activa, quae distinguat, ergo proprietas
+          <lb ed="#P" n="104"/>non semper distinguit personam, quam 
+          con<lb break="no" ed="#P" n="105"/>sutuit, ut ab omnibus aliis personis. Filiatio
+          <lb ed="#P" n="106"/>enim est proprietas Filii, et non distinguit 
+          il<lb break="no" ed="#P" n="107"/>Ium ab Spiritu sancto, spiratio autem activa,
+          <pb ed="#P" n="697"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quae illum distinguit, non est proprietas, ut
+          <lb ed="#P" n="2"/>supra dixi. Deinde, proprietas Patris 
+          consti<lb break="no" ed="#P" n="3"/>tuit personam ejus prius ratione, quam 
+          refe<lb break="no" ed="#P" n="4"/>rat, ut infra ostendemus: non distinguit 
+          au<lb break="no" ed="#P" n="5"/>tem, nisi quatenus actus refert, ergo alia est
+          <lb ed="#P" n="6"/>ratio constituendi et distinguendi. Denique,
+          <lb ed="#P" n="7"/>ratione a priori possumus ex mente horum
+          <lb ed="#P" n="8"/>auctorum argumentari: quia relatio, ut 
+          rela<lb break="no" ed="#P" n="9"/>tio, non distinguit, nisi a suo opposito : 
+          perso<lb break="no" ed="#P" n="10"/>nae autem divinae solum distinguuntur 
+          oppo<lb break="no" ed="#P" n="11"/>sitione relativa, ut infra ostendemus: ergo
+          <lb ed="#P" n="12"/>proprietas licet simpliciter constituat, non 
+          ta<lb break="no" ed="#P" n="13"/>men distinguit, nisi quatenus refert, et 
+          conse<lb break="no" ed="#P" n="14"/>quenter non distinguit ab omnibus, sed 
+          tan<lb break="no" ed="#P" n="15"/>tum a suo opposito.
+        </p>
+        <p xml:id="szduep-176184-d1e198">
+          <lb ed="#P" n="16"/>2. Secunda opinio affirmans approbatur.—
+          <lb ed="#P" n="17"/>Nihilominus opposita sententia mihi semper
+          <lb ed="#P" n="18"/>placuit et nunc maxime p quam tenet
+          <lb ed="#P" n="19"/>Scotus, in 1, dist. 7, quaest. 2, et Henricus,
+          <lb ed="#P" n="20"/>quodlib. 5, q. 8 et a multi. Ad eam vero
+          <lb ed="#P" n="21"/>explicandam et probandam, adverto imprimis,
+          <lb ed="#P" n="22"/>aliud esse loqui de origine distinctionis, aliud
+          <lb ed="#P" n="23"/>de forma, quae est veluti causa formalis talis
+          <lb ed="#P" n="24"/>distinctionis, verbi gratia, de creatura dici 
+          po<lb break="no" ed="#P" n="25"/>test distingui a creatore, et quia ab illo 
+          pro<lb break="no" ed="#P" n="26"/>cessit, et per entitatem suam creatam, tamen
+          <lb ed="#P" n="27"/>illud prius est verum solum per modum viae,
+          <lb ed="#P" n="28"/>et originis: hoc posterius vero per modum
+          <lb ed="#P" n="29"/>formae. Idem potest considerari inter Patrem
+          <lb ed="#P" n="30"/>et Filium in humanis, distinguuntur enim
+          <lb ed="#P" n="31"/>realiter per suas entitates, tanquam per 
+          cau<lb break="no" ed="#P" n="32"/>sam formalem distinctionis, sicut distinguuntur
+          <lb ed="#P" n="33"/>alii duo homines, quorum unus ab alio non
+          <lb ed="#P" n="34"/>processit : inter Patrem vero, et Filium origo,
+          <lb ed="#P" n="35"/>et via ad illam distinctionem fuit generatio,
+          <lb ed="#P" n="36"/>quae ratio inter duos alios homines non 
+          inter<lb break="no" ed="#P" n="37"/>cedit. Haec ergo duo etiam inter divinas 
+          per<lb break="no" ed="#P" n="38"/>sonas considerari possunt; in praesenti vero
+          <lb ed="#P" n="39"/>agimus de forma, quae est veluti causa 
+          forma<lb break="no" ed="#P" n="40"/>lis hujus distinctionis, non de via, vel origine.
+        </p>
+        <p xml:id="szduep-176184-d1e256">
+          <lb ed="#P" n="41"/>3. Deinde observandum est, in rebus, quae
+          <lb ed="#P" n="42"/>inter se distinguuntur, aliud esse, considerare
+          <lb ed="#P" n="43"/>denominationem, vel habitudinem, qua una
+          <lb ed="#P" n="44"/>res dicitur actu distincta ab alia: aliud vero
+          <lb ed="#P" n="45"/>esse, considerare formam, vel entitatem, quae
+          <lb ed="#P" n="46"/>facit rem ita distinguibilem ab alia, ut ex vi
+          <lb ed="#P" n="47"/>illius non possit cum altera identificari. Hic
+          <lb ed="#P" n="48"/>ergo quaerimus formam distinguentem hoc
+          <lb ed="#P" n="49"/>posteriori modo: nam illa prior actualis 
+          dis<lb break="no" ed="#P" n="50"/>tinctio, vel solum consistit in relatione aliqua
+          <lb ed="#P" n="51"/>reali, aut rationis, vel in denominatione 
+          ex<lb break="no" ed="#P" n="52"/>trinseca, ratione cujus res non denominatur
+          <lb ed="#P" n="53"/>actu distincta, nisi aliud extremum existat :
+          <lb ed="#P" n="54"/>potest autem res habere suam formam, vel
+          <lb ed="#P" n="55"/>entitatem ex se distinguentem illam a qua-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cumque alia, si fuerit, etiamsi actu alia non
+          <lb ed="#P" n="57"/>existat.
+        </p>
+        <p xml:id="szduep-176184-d1e298">
+          <lb ed="#P" n="58"/>4. Probatio prima verae opinionis. — 
+          Dici<lb break="no" ed="#P" n="59"/>mus ergo, formam, vel proprietatem 
+          consti<lb break="no" ed="#P" n="60"/>tuentem personam ex se etiam distinguere
+          <lb ed="#P" n="61"/>illam realiter a quacumque alia. Probatur 
+          ar<lb break="no" ed="#P" n="62"/>gumento Scoti, quia in omni re, id quod illam
+          <lb ed="#P" n="63"/>constituit, eam etiam distinguit ab omnibus
+          <lb ed="#P" n="64"/>aliis : ergo idem dicendum est in divinis 
+          per<lb break="no" ed="#P" n="65"/>sonis, quia nec sufficiens ratio diversitatis 
+          as<lb break="no" ed="#P" n="66"/>signari potest, neque aliter intelligi potest plena
+          <lb ed="#P" n="67"/>constitutio. Antecedens probatur primo 
+          induc<lb break="no" ed="#P" n="68"/>tione in omnibus rebus creatis, deinde ratione,
+          <lb ed="#P" n="69"/>quia quod constituit rem in sua entitate, 
+          con<lb break="no" ed="#P" n="70"/>stituit etiam in sua unitate, quia ens et unum
+          <lb ed="#P" n="71"/>idem sunt : res autem ex eo habet unitatem
+          <lb ed="#P" n="72"/>propriam, quod est indistincta in se et 
+          dis<lb break="no" ed="#P" n="73"/>tincta a qualibet alia, ergo principium 
+          con<lb break="no" ed="#P" n="74"/>stitutivum rei etiam est distinctivum a 
+          quali<lb break="no" ed="#P" n="75"/>bet alia.
+        </p>
+        <p xml:id="szduep-176184-d1e340">
+          <lb ed="#P" n="76"/>5. Prima evasio refellitur. — Ad hanc 
+          ra<lb break="no" ed="#P" n="77"/>tionem duas invenio responsiones. Prior est,
+          <lb ed="#P" n="78"/>illud principium sumptum ab Scoto esse 
+          ve<lb break="no" ed="#P" n="79"/>rum, ubi constitutio est realis, non vero ubi
+          <lb ed="#P" n="80"/>constitutio est rationis, qualis est in divinis
+          <lb ed="#P" n="81"/>personis. Haec vero responsio solum est inventa
+          <lb ed="#P" n="82"/>ad fugiendam vim argumenti, non tamen 
+          sa<lb break="no" ed="#P" n="83"/>tisfacit. Quia imprimis nulla ratio redditur
+          <lb ed="#P" n="84"/>talis distinctionis, ratio autem Scoti, cum 
+          pro<lb break="no" ed="#P" n="85"/>portione applicata, eamdem vim habet in 
+          con<lb break="no" ed="#P" n="86"/>stitutione rationis. Ut patet in constitutione
+          <lb ed="#P" n="87"/>speciei per suam differentiam, nam per illam
+          <lb ed="#P" n="88"/>distinguitur una species ab omni alia, cum
+          <lb ed="#P" n="89"/>qua habeat genericam convenientiam. Deinde,
+          <lb ed="#P" n="90"/>ratio est eadem, quia etiam in tali 
+          constitu<lb break="no" ed="#P" n="91"/>tione forma constituens dat unitatem. Accedit
+          <lb ed="#P" n="92"/>praeterea (quod apud me magis urget) quia
+          <lb ed="#P" n="93"/>(ut supra dicebam) licet haec constitutio sit
+          <lb ed="#P" n="94"/>rationis quantum ad modum, quo a nobis 
+          con<lb break="no" ed="#P" n="95"/>cipitur, tamen in re illi correspondet aliquid
+          <lb ed="#P" n="96"/>aequivalens reali constitutioni, et ideo, (ut 
+          su<lb break="no" ed="#P" n="97"/>pra etiam dicebam) rei sic constitutae 
+          conve<lb break="no" ed="#P" n="98"/>niunt omnia, quae per realem constitutionem
+          <lb ed="#P" n="99"/>convenire possunt, seclusis imperfectionibus.
+          <lb ed="#P" n="100"/>Quod autem forma constituens etiam 
+          distin<lb break="no" ed="#P" n="101"/>guat, non involvit imperfectionem, imo
+          <lb ed="#P" n="102"/>spectare videtur ad plenam et perfectam 
+          con<lb break="no" ed="#P" n="103"/>stitutionem, ut magis statim declarabo: ergo
+          <lb ed="#P" n="104"/>illa distinctio non enervat vim rationis. Quod
+          <lb ed="#P" n="105"/>etiam sic explico, nam si Filiatio, verbi gratia,
+          <lb ed="#P" n="106"/>esset ex natura rei actu distincta ab essentia,
+          <lb ed="#P" n="107"/>realiter constitueret personam, et consequenter
+          <lb ed="#P" n="108"/>illam distingueret ab omni alia ut 
+          consequen<lb break="no" ed="#P" n="109"/>ter fatentur, qui ita respondent : sed nunc
+          <lb ed="#P" n="110"/>Filiatio, absque distinctione actuali, non minus
+          <pb ed="#P" n="698"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>perfecte et complete constituit personam Filii,
+          <lb ed="#P" n="2"/>quam sic esset distincta ab essentia : ergo non
+          <lb ed="#P" n="3"/>minus reddit personam Filii 
+          incommunicabi<lb break="no" ed="#P" n="4"/>lem. quod est de ratione personae: ergo non
+          <lb ed="#P" n="5"/>minus distinguit illam a quacumque alia.
+        </p>
+        <p xml:id="szduep-176184-d1e434">
+          <lb ed="#P" n="6"/>6. Altera evasio excluditur. — Altera 
+          res<lb break="no" ed="#P" n="7"/>ponsio magis recepta inter Thomistas est illud
+          <lb ed="#P" n="8"/>principium Seoti esse verum in 
+          constituenti<lb break="no" ed="#P" n="9"/>bus et constitutis absolutis, non vero in 
+          rela<lb break="no" ed="#P" n="10"/>tivis, propter rationem in priori sententia 
+          in<lb break="no" ed="#P" n="11"/>sinuatam. Verumtamen neque hoc satisfacit.
+          <lb ed="#P" n="12"/>Primo, quia ratio facta etiam in relativis 
+          ha<lb break="no" ed="#P" n="13"/>bet veritatem, nimirum, quod difterentia, vel
+          <lb ed="#P" n="14"/>proprietas constituens aliquid in esse entis,
+          <lb ed="#P" n="15"/>constituit etiam in esse unius et consequenter
+          <lb ed="#P" n="16"/>distincti a quolibet. Quod maxime patet in
+          <lb ed="#P" n="17"/>constitutione persona, quanquam enim 
+          per<lb break="no" ed="#P" n="18"/>sona relativa sit, non solum est de ratione ejus.
+          <lb ed="#P" n="19"/>ut distinguatur ab opposito, sed etiam ut 
+          dis<lb break="no" ed="#P" n="20"/>tinguatur a qualibet alia persona, quia debet
+          <lb ed="#P" n="21"/>esse simpliciter incommunicabilis, alioqui 
+          non<lb break="no" ed="#P" n="22"/>dum plene est constituta in ratione personae.
+          <lb ed="#P" n="23"/>Vel ergo proprietas relativa non plene et 
+          per<lb break="no" ed="#P" n="24"/>fecte constituit personam, vel si plene 
+          consti<lb break="no" ed="#P" n="25"/>tuit illam etiam ab omni alia distinguit. Unde
+          <lb ed="#P" n="26"/>Spiritus sanctus. verbi gratia, per suam 
+          pro<lb break="no" ed="#P" n="27"/>prietatem. non solum distinguitur personaliter
+          <lb ed="#P" n="28"/>ab aliis personis divinis, sed etiam ab omnibus
+          <lb ed="#P" n="29"/>personis creatis.
+        </p>
+        <p xml:id="szduep-176184-d1e489">
+          <lb ed="#P" n="30"/>7 Secundo in relationibus creatis constat,
+          <lb ed="#P" n="31"/>non solum distingui per sua constitutiva a 
+          re<lb break="no" ed="#P" n="32"/>bus absolutis, vel a suis oppositis. sed etiam ab
+          <lb ed="#P" n="33"/>aliis relationibus disparatis. Dicent, hoc esse
+          <lb ed="#P" n="34"/>verum de formali distinctione, non vero de
+          <lb ed="#P" n="35"/>reali. de qua hic agimus. Sed advertendum est,
+          <lb ed="#P" n="36"/>illud principium, in unaquaque reverum esse,
+          <lb ed="#P" n="37"/>juxta proportionem et capacitatem ejus. Unde,
+          <lb ed="#P" n="38"/>si id. quod eonstituitur, non est propria res,
+          <lb ed="#P" n="39"/>habens suam enutatem, sed solum modus, vel
+          <lb ed="#P" n="40"/>formalitas alterius rei, mirum non est, quod
+          <lb ed="#P" n="41"/>talis constitutio non faciat rem realiter 
+          distinc<lb break="no" ed="#P" n="42"/>tam a qualibet alia : si autem res constituta
+          <lb ed="#P" n="43"/>sit vera res habens propriam entitatem, id,
+          <lb ed="#P" n="44"/>quod illam constituit in tali esse. etiam 
+          distin<lb break="no" ed="#P" n="45"/>guit realiter illam a qualibet alia. Imo 
+          intel<lb break="no" ed="#P" n="46"/>ligi vix potest, quod una entitas distinguatur
+          <lb ed="#P" n="47"/>re ab alia, nisi per id, quod formaliter facit
+          <lb ed="#P" n="48"/>illam talem esse entitatem. Relationes ergo
+          <lb ed="#P" n="49"/>creatae, quae praedicamentales appellantur. non
+          <lb ed="#P" n="50"/>sunt proprie entitates, sed modi, vel 
+          forma<lb break="no" ed="#P" n="51"/>litates, et ideo mirum non est, quod realiter
+          <lb ed="#P" n="52"/>non distinguantur ab aliis, per sua 
+          constituti<lb break="no" ed="#P" n="53"/>va. Ad sumendum autem proportionale 
+          argu<lb break="no" ed="#P" n="54"/>mentum satis est, quod eo modo, quo 
+          consti<lb break="no" ed="#P" n="55"/>tuuntur, etiam distinguantur.
+        </p>
+        <p xml:id="szduep-176184-d1e548">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>8. Considerare autem possumus ulterius in
+          <lb ed="#P" n="57"/>creaturis habitudines illas, quas 
+          transcenden<lb break="no" ed="#P" n="58"/>tales vocant et vere etiam reales sunt, et 
+          cons<lb break="no" ed="#P" n="59"/>tituere possunt proprias entitates. In illis ergo
+          <lb ed="#P" n="60"/>verum inveniemus illud principium, id est,
+          <lb ed="#P" n="61"/>quod constituit, distinguere etiam realiter a
+          <lb ed="#P" n="62"/>quolibet alio. Ut, verbi gratia, potentia visiva
+          <lb ed="#P" n="63"/>constituitur in specie et entitas talis potentiae
+          <lb ed="#P" n="64"/>per habitudinem ad objectum et ex vi illius
+          <lb ed="#P" n="65"/>habet etiam distinctionem realem ab aliis 
+          sen<lb break="no" ed="#P" n="66"/>sibus, quamvis illis non opponatur per talem
+          <lb ed="#P" n="67"/>habitudinem. Rationes itaque divinae non sunt
+          <lb ed="#P" n="68"/>tantum modi,vel formalitates,sed sunt res 
+          sub<lb break="no" ed="#P" n="69"/>stantiales : nam sunt per se subsistentes, ergo
+          <lb ed="#P" n="70"/>proprietates illae constituentes, etiam si 
+          relati<lb break="no" ed="#P" n="71"/>vae sint, simpliciter unamquamque personam
+          <lb ed="#P" n="72"/>distinguunt a qualibet alia.
+        </p>
+        <p xml:id="szduep-176184-d1e591">
+          <lb ed="#P" n="73"/>9. Quomodo relatio distinguat a suo 
+          opposi<lb break="no" ed="#P" n="74"/>to. — Addo insuper, etiam si gratis demus, 
+          re<lb break="no" ed="#P" n="75"/>lationem ut sic, solum distinguere realiter a
+          <lb ed="#P" n="76"/>suo opposito, hoc intelligendum esse non 
+          tan<lb break="no" ed="#P" n="77"/>tum de opposito, ut correlativo, sed etiam de
+          <lb ed="#P" n="78"/>opposito, ut termino. Nam (juxta veram 
+          Me<lb break="no" ed="#P" n="79"/>taphysicam doctrinam, quam supra insinuavi
+          <lb ed="#P" n="80"/>et ad hoc mysterium applicui ) illa duo 
+          distinc<lb break="no" ed="#P" n="81"/>ta sunt, ut patet in relatione creata, quae non
+          <lb ed="#P" n="82"/>tendit per se ad correlativum, ut ad terminum,
+          <lb ed="#P" n="83"/>sed ad absolutum. Declaraturque exemplo :
+          <lb ed="#P" n="84"/>nam relatio, verbi gratia, creaturae ad 
+          creato<lb break="no" ed="#P" n="85"/>rem ex intrinseca ratione et constitutione sua
+          <lb ed="#P" n="86"/>postulat distinctionem realem a creatore, quia
+          <lb ed="#P" n="87"/>illi in re ipsa opponitur, non tanquam 
+          correla<lb break="no" ed="#P" n="88"/>tivo. quia in creatore non respondet relatio
+          <lb ed="#P" n="89"/>realis opposita : ergo tanquam termino, qui
+          <lb ed="#P" n="90"/>in se quid absolutum est. Ita ergo omnis 
+          rela<lb break="no" ed="#P" n="91"/>tio comparatur ad suum terminum, sive in eo
+          <lb ed="#P" n="92"/>sit relatio opposita, sive non. Sicut igitur,
+          <lb ed="#P" n="93"/>quamvis concedamus proprietates personales
+          <lb ed="#P" n="94"/>tantum distinguere ab illis personis, cum 
+          qui<lb break="no" ed="#P" n="95"/>bus habent oppositionem : nihilominus verum
+          <lb ed="#P" n="96"/>in universum est, proprietatem constituentem
+          <lb ed="#P" n="97"/>personam distinguere illam ab omnibus aliis.
+          <lb ed="#P" n="98"/>Et quoniam de caeteris res est clara, quae ab
+          <lb ed="#P" n="99"/>adversariis etiam admittitur, in Filiatione 
+          ex<lb break="no" ed="#P" n="100"/>plicatur. Nam paternitati opponitur 
+          correlati<lb break="no" ed="#P" n="101"/>ve, processioni autem opponitur tanquam 
+          ter<lb break="no" ed="#P" n="102"/>minus formalis, ad quem Spiritus sanctus 
+          re<lb break="no" ed="#P" n="103"/>fertur. Procedit enim Spiritus sanctus a Patre
+          <lb ed="#P" n="104"/>et Filio immediate, et ut constitutis paternitate
+          <lb ed="#P" n="105"/>et filiatione, ut infra ostendemus et ideo 
+          im<lb break="no" ed="#P" n="106"/>mediate ad illos refertur tanquam ad 
+          princi<lb break="no" ed="#P" n="107"/>pium suum. Ergo ex vi illius oppositionis 
+          ha<lb break="no" ed="#P" n="108"/>bent sufticientem rationem distinctionis. Ita
+          <lb ed="#P" n="109"/>ut licet per impossibile intelligeremus in Filio
+          <lb ed="#P" n="110"/>non resultare relationem reale spirationis ac-
+          <pb ed="#P" n="699"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tivae ad Spiritum sanctum, sed esse inter illos
+          <lb ed="#P" n="2"/>relationem non mutuam : nihilominus esset
+          <lb ed="#P" n="3"/>inter eos realis distinctio ex vi suarum 
+          pro<lb break="no" ed="#P" n="4"/>prietatum , quatenus Filiatio est quasi ratio
+          <lb ed="#P" n="5"/>terminandi habitudinem processionis ad 
+          Fi<lb break="no" ed="#P" n="6"/>lium. Unde in Concilio Toletano 11, sicut 
+          Fi<lb break="no" ed="#P" n="7"/>lius dicitur ad Patrem, ita Spiritus sanctus 
+          di<lb break="no" ed="#P" n="8"/>citur referri ad Patrem et Filium.
+        </p>
+        <p xml:id="szduep-176184-d1e698">
+          <lb ed="#P" n="9"/>10. Nulla ergo superest ratio, ob quam 
+          ex<lb break="no" ed="#P" n="10"/>cipiamus divinas personas ab illo generali et
+          <lb ed="#P" n="11"/>vero principio, quod eadem forma, quae 
+          cons<lb break="no" ed="#P" n="12"/>tituit, distinguit a quolibet alio. Aliunde vero
+          <lb ed="#P" n="13"/>huic sententiae favent Patres omnes, si attente
+          <lb ed="#P" n="14"/>considerentur testimonia, quae in cap. 1, 
+          ad<lb break="no" ed="#P" n="15"/>duxi, et quae afferam in sequenti. Nam 
+          indis<lb break="no" ed="#P" n="16"/>tincte loquuntur de constitutione et 
+          distinc<lb break="no" ed="#P" n="17"/>tione, et utramque tribuunt proprietatibus
+          <lb ed="#P" n="18"/>personalibus. Quod maxime adverti potest in
+          <lb ed="#P" n="19"/>Sophronio et Damasceno. Sunt etiam optima
+          <lb ed="#P" n="20"/>illa verba Concilii Lateranensis, in capite 
+          Fir<lb break="no" ed="#P" n="21"/>mater. Huwc sancta Trinitas, secundum 
+          sub<lb break="no" ed="#P" n="22"/>stantium una, et secundum propraetates 
+          perso<lb break="no" ed="#P" n="23"/>nales discreta : ergo solae proprietates 
+          perso<lb break="no" ed="#P" n="24"/>nales sufficienter efficiunt distinctionem.
+        </p>
+        <p xml:id="szduep-176184-d1e735">
+          <lb ed="#P" n="25"/>11. Ad fundamenta contraria. — 
+          Funda<lb break="no" ed="#P" n="26"/>menta vero contrariae sententiae soluta sunt,
+          <lb ed="#P" n="27"/>jam enim ostensum est, quomodo nunc Filius
+          <lb ed="#P" n="28"/>distinguatur ab Spiritu sancto per Filiationem,s
+          <lb ed="#P" n="29"/>interveniente origine inter illos. ÀAn vero sine
+          <lb ed="#P" n="30"/>interventu ejus etiam Filiatio distingueret, alia
+          <lb ed="#P" n="31"/>quaestio est, infra tractanda. Quod autem 
+          ad<lb break="no" ed="#P" n="32"/>debatur de Paternitate constituente et 
+          distin<lb break="no" ed="#P" n="33"/>guente sub diversis considerationibus, nullius
+          <lb ed="#P" n="34"/>momenti est. Tum quia fortasse illud 
+          necessa<lb break="no" ed="#P" n="35"/>rium non est, nam sub quacumque ratione
+          <lb ed="#P" n="36"/>intelligatur constituens, intelligi etiam potest
+          <lb ed="#P" n="37"/>sufficiens ad distinguendum. Tum etiam, quia
+          <lb ed="#P" n="38"/>illa duplex consideratio utraque cadit in 
+          per<lb break="no" ed="#P" n="39"/>sonalem proprietatem et distinguit in illa 
+          di<lb break="no" ed="#P" n="40"/>versas rationes formales specificas et positivas,
+          <lb ed="#P" n="41"/>sed solum diversos modos concipiendi nostros,
+          <lb ed="#P" n="42"/>magis, vel minus confusos, quae omnia ex 
+          se<lb break="no" ed="#P" n="43"/>quentibus fient manifesta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

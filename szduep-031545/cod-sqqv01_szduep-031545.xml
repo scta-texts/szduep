@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="124"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-031545"><!-- t1-l2c21 -->
+        <head xml:id="szduep-031545-Hd1e101">Caput 21</head>
+        <head xml:id="szduep-031545-Hd1e103" type="question-title">Unde proxime oriatur inaequalitas visionis in beatis</head>
+        <p xml:id="szduep-031545-d1e106">
+          <lb ed="#P" n="4"/>CAPUT XXI.
+          <lb ed="#P" n="5"/>UNDE PROXIME ORIATUR INAEQUALITAS VISIONIS IN
+          <lb ed="#P" n="6"/>BEATIS.
+        </p>
+        <p xml:id="szduep-031545-d1e115">
+          <lb ed="#P" n="7"/>1. Duo nobis explicanda supersunt. Unum
+          <lb ed="#P" n="8"/>est, in quo posita sit haec inaequalitas visionum,
+          <lb ed="#P" n="9"/>alterum est, quae sit proxima ratio ejus. 
+          Pri<lb break="no" ed="#P" n="10"/>mum longiorem disputationem requirit : 
+          se<lb break="no" ed="#P" n="11"/>cundum autem breviter expediri potest, et
+          <lb ed="#P" n="12"/>ideo in hoc capite illud expediemus , postea
+          <lb ed="#P" n="13"/>de alio dicere aggrediemur. Loquimur autem
+          <lb ed="#P" n="14"/>de ratione proxima , quam physicam etiam
+          <lb ed="#P" n="15"/>appellare possumus ; nam remota et moralis
+          <lb ed="#P" n="16"/>ratio est diversitas meritorum , et remotior
+          <lb ed="#P" n="17"/>est gratia et vocatio Dei et remotissima ,
+          <lb ed="#P" n="18"/>et quasi primaria dici potest divina 
+          praedesti<lb break="no" ed="#P" n="19"/>natio.
+        </p>
+        <p xml:id="szduep-031545-d1e146">
+          <lb ed="#P" n="20"/>2. Sed de his non est hic dicendi locus. 
+          Agi<lb break="no" ed="#P" n="21"/>mus ergo de causa propria et physica, nam
+          <lb ed="#P" n="22"/>visio effectus quidam realis est, et inaequalitas
+          <lb ed="#P" n="23"/>ejus in ipsamet reali, ac physica perfectione
+          <lb ed="#P" n="24"/>intercedit ; ergo oportet, ut causa illius 
+          inae<lb break="no" ed="#P" n="25"/>qualitatis ex causa proximaillius visionis 
+          oria<lb break="no" ed="#P" n="26"/>tur, nam inaequalitas effectus ex causae 
+          inae<lb break="no" ed="#P" n="27"/>qualitate oritur, maxime , ubi causa proxima
+          <lb ed="#P" n="28"/>non impediri potest.
+        </p>
+        <p xml:id="szduep-031545-d1e169">
+          <lb ed="#P" n="29"/>3. Prima sententia. — Haec autem quaestio
+          <lb ed="#P" n="30"/>locum non habet in opinione eorum , qui 
+          di<lb break="no" ed="#P" n="31"/>cunt visionem non fieri effective a vidente, sed
+          <lb ed="#P" n="32"/>a solo Deo infundi; nam tunc necessario 
+          dicen<lb break="no" ed="#P" n="33"/>dum est, inaequalitatem esse ex voluntate Dei
+          <lb ed="#P" n="34"/>volentis infundere uni majorem visionem,
+          <lb ed="#P" n="35"/>quam alteri, vel sine alia dispositione proxima
+          <lb ed="#P" n="36"/>praeter merita praecedentia, ut sentit Durandus
+          <lb ed="#P" n="37"/>in 4, dist. 49, q. 2, vel ad summum 
+          disponen<lb break="no" ed="#P" n="38"/>do potentiam per intensius lumen, ut dixerunt
+          <lb ed="#P" n="39"/>Nominales. Et eadem ratione non habet 
+          lo<lb break="no" ed="#P" n="40"/>cum quaestio in opinione Soti et aliorum , qui
+          <lb ed="#P" n="41"/>dixerunt totam activitatem esse a lumine;
+          <lb ed="#P" n="42"/>nam tunc etiam necesse est ab eodem esse 
+          inae<lb break="no" ed="#P" n="43"/>qualitatem, sicut respondet Soto, utens 
+          exem<lb break="no" ed="#P" n="44"/>plo aquae calidae, quod non est ad rem, ut
+          <lb ed="#P" n="45"/>supra dixi. Hae vero opiniones nituntur falsis
+          <lb ed="#P" n="46"/>fundamentis, ut supra ostensum est. Nos ergo
+          <lb ed="#P" n="47"/>supponimus intellectum et lumen et objectum
+          <lb ed="#P" n="48"/>effective concurrere ad illam visionem. Et ideo
+          <lb ed="#P" n="49"/>inquirimus, ex quo illorum oriatur, ut una
+          <lb ed="#P" n="50"/>visio sit perfectior alia, an ex omnibus illis,
+          <lb ed="#P" n="51"/>vel ex quolibet illorum, vel ex altero tantum.
+          <lb ed="#P" n="52"/>Et quoniam certum est , inaqualitatem lumi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>visionem posse interdum provenire ex 
+          inaequa<lb break="no" ed="#P" n="54"/>nis posse ad hoc sufficere, si ex parte 
+          intellec<lb break="no" ed="#P" n="55"/>tuum sit aequalitas, quia species vel objectum
+          <lb ed="#P" n="56"/>ratione speciei accommodatur potentiae, ut 
+          di<lb break="no" ed="#P" n="57"/>cemus, ideo tota quaestio ad hoc fere reducitur
+          <lb ed="#P" n="58"/>an inaequalitas intellectuum in naturali 
+          per<lb break="no" ed="#P" n="59"/>fectione conferat aliquid ad visionis 
+          inaequa<lb break="no" ed="#P" n="60"/>Htatem, caeteris paribus. ?
+        </p>
+        <p xml:id="szduep-031545-d1e243">
+          <lb ed="#P" n="61"/>3. Prima ergo sententia est, perfectiorem
+          <lb ed="#P" n="62"/>Ii intellectu, etiam si in lumine glorise sit
+          <lb ed="#P" n="63"/>aequalitas. Ita sentit Scotus 3, dist. 12, q. 3, et -
+          <lb ed="#P" n="64"/>in 4, dist. 50, q. 6; Richardus, dist. 49, art. 9,
+          <lb ed="#P" n="65"/>qu. 8; Major, qu. 10; Durandus in 3, dist. 14,
+          <lb ed="#P" n="66"/>q. et Paludanus ibi, supplem.; Gabriel in 4, d.
+          <lb ed="#P" n="67"/>49. qu. 2, art. 3; Cajetanus 3, q. 10, art. 4,
+          <lb ed="#P" n="68"/>qui in eamdem sententiam adducit D. Thomas
+          <lb ed="#P" n="69"/>ibi ad 2. Fundamentum est, quia utrumque
+          <lb ed="#P" n="70"/>principium habet activitatem circa visionem;
+          <lb ed="#P" n="71"/>ergo ex quocumque crescat activitas , crescet
+          <lb ed="#P" n="72"/>effectus . sed posita majori perfectione in 
+          quo<lb break="no" ed="#P" n="73"/>cumque principio erit magis activum, ergo 
+          sa<lb break="no" ed="#P" n="74"/>tis est illud, ut erescat effectus. Confirmatur
+          <lb ed="#P" n="75"/>primo , quia quando totalis causa coalescit ex
+          <lb ed="#P" n="76"/>multis partialibus, aucta quacumque illarum,
+          <lb ed="#P" n="77"/>est causa totalis major, unde potest efticere
+          <lb ed="#P" n="78"/>majorem effectum, sed ita se habent illa 
+          prin<lb break="no" ed="#P" n="79"/>cipia in praesenti. Neque obstabit, etiam si 
+          in<lb break="no" ed="#P" n="80"/>tellectus dicatur esse causa instrumentaria,
+          <lb ed="#P" n="81"/>quia etiam solet crescere effectus ex perfectione
+          <lb ed="#P" n="82"/>instrumenti, ut artifex instrumento melius 
+          ap<lb break="no" ed="#P" n="83"/>to melius operatur, et idem oculus cum meliore
+          <lb ed="#P" n="84"/>specie melius videt. Confirmatur secundo, quia
+          <lb ed="#P" n="85"/>in via melior intellectus cum aequali auxilio,
+          <lb ed="#P" n="86"/>seu lumine fidei, melius operatur, etiam si 
+          ac<lb break="no" ed="#P" n="87"/>tus fidei supernaturalis sit, ergo similiter in
+          <lb ed="#P" n="88"/>patria. D
+        </p>
+        <p xml:id="szduep-031545-d1e306">
+          <lb ed="#P" n="89"/>4. Assertio. — Nihilominus assero, 
+          proxi<lb break="no" ed="#P" n="90"/>mam causam et radicem inaequalitatis in 
+          vi<lb break="no" ed="#P" n="91"/>sione positam esse in lumine gloriae. Itaque
+          <lb ed="#P" n="92"/>qui habuerit perfectius lumen, perfectius 
+          vide<lb break="no" ed="#P" n="93"/>bit, etiam si habeat intellectum minus 
+          perfec<lb break="no" ed="#P" n="94"/>tum. Ita D. Thomas, 1 p., q. 12, art. 6, in 
+          cor<lb break="no" ed="#P" n="95"/>pore, et ad 3, ubi ait: Attendendam esse 
+          diver<lb break="no" ed="#P" n="96"/>sam visionem secundum diversam facultatem
+          <lb ed="#P" n="97"/>intellectus, non naturalem, sed gloriosum. Idem
+          <lb ed="#P" n="98"/>tenet Ferrarius 3, contra Gentes, c. 55 et 58;
+          <lb ed="#P" n="99"/>Sotus in 4, d. 49, q. 3, art. 2; Medina 1-2, q.
+          <lb ed="#P" n="100"/>3, art. 2; et recentiores Thomistae. Item 
+          Hen<lb break="no" ed="#P" n="101"/>ricus, quodl. 12, q. 6, qui addit, quod licet 
+          per<lb break="no" ed="#P" n="102"/>fectior intellectus non juvet ad perfectius 
+          vi<lb break="no" ed="#P" n="103"/>dendum , juvat tamen ad empeditius. Quo
+          <lb ed="#P" n="104"/>verbo nescio quid significet , quia non potest
+          <lb ed="#P" n="105"/>dici actio fieri expeditius, nisi quia fit velocius,
+          <lb ed="#P" n="106"/>vel quia fit minori resistentia et difficultate :
+          <lb ed="#P" n="107"/>neutrum autem habet locum in visione, quia
+          <pb ed="#P" n="125"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et a quocumque intellectu etiam imperfecto
+          <lb ed="#P" n="2"/>fit in instanti, et non habet contrarium, neque
+          <lb ed="#P" n="3"/>impedimentum in ea elicienda esse potest.
+        </p>
+        <p xml:id="szduep-031545-d1e361">
+          <lb ed="#P" n="4"/>5. Responsum.— Enervatur. — Hac ergo 
+          li<lb break="no" ed="#P" n="5"/>mitatione omissa probatur assertio primo a
+          <lb ed="#P" n="6"/>posteriori, ratione theologica, quia qui 
+          habue<lb break="no" ed="#P" n="7"/>rint aequalia merita, habent aequale lumen
+          <lb ed="#P" n="8"/>gloriae et si in intellectu sint inaequales, ergo
+          <lb ed="#P" n="9"/>elicient aequalem visionem, alio qui 
+          existenti<lb break="no" ed="#P" n="10"/>bus aequalibus meritis esset inaequalis visio,
+          <lb ed="#P" n="11"/>quod est absurdum , ergo melior intellectus
+          <lb ed="#P" n="12"/>cum aequali lumine non videt melius. 
+          Respon<lb break="no" ed="#P" n="13"/>dent aliqui, non esse inconveniens, ut qui 
+          ha<lb break="no" ed="#P" n="14"/>bet aequalia merita perfectius videat ex 
+          perfec<lb break="no" ed="#P" n="15"/>tione et activitate sibi connaturali, quia gratia
+          <lb ed="#P" n="16"/>non destruit naturam, sed perficit ; si ergo 
+          na<lb break="no" ed="#P" n="17"/>tura cooperetur gratiae, nihil impedit quominus
+          <lb ed="#P" n="18"/>ex hac parte aliquam majorem perfectionem
+          <lb ed="#P" n="19"/>habeat in ipsa visione, ultra illam, quae 
+          debe<lb break="no" ed="#P" n="20"/>tur ex meritis. Sed haec responsio est parum
+          <lb ed="#P" n="21"/>consona principiis fidei, quia visio beatifica
+          <lb ed="#P" n="22"/>datur, ut merces filiorum Dei, et ideo fieri non
+          <lb ed="#P" n="23"/>potest ut aliquis absque pluribus meritis et
+          <lb ed="#P" n="24"/>majori gratia, perfectius videat. Item quia
+          <lb ed="#P" n="25"/>nihil perfectionis potest esse in illa visione quod
+          <lb ed="#P" n="26"/>non oriatur ex divina gratia, juxta id : Gratia
+          <lb ed="#P" n="27"/>Doai vita eeterna.
+        </p>
+        <p xml:id="szduep-031545-d1e416">
+          <lb ed="#P" n="28"/>6. Alia evasio. — Rejicitur. — Secundo 
+          res<lb break="no" ed="#P" n="29"/>ponderi potest, illos, qui sunt inaequales in
+          <lb ed="#P" n="30"/>perfectione naturae, aequales vero in meritis
+          <lb ed="#P" n="31"/>habere aequale lumen, tamen ne inaequaliter
+          <lb ed="#P" n="32"/>videant Deum, continere concursum suum et
+          <lb ed="#P" n="33"/>non relinquere intellectum, ut cum illo 
+          lu<lb break="no" ed="#P" n="34"/>mine quantum potest operetur , sed quantum
+          <lb ed="#P" n="35"/>est meritis proportionatum. Sed haec est fuga
+          <lb ed="#P" n="36"/>contra rationem, quia hoc ipso, quod causa
+          <lb ed="#P" n="37"/>secunda habet principium sufficiens ad aliquam
+          <lb ed="#P" n="38"/>operationem, vel ad tantam perfectionem ejus,
+          <lb ed="#P" n="39"/>est illi debitus concursus ad talem operationem,
+          <lb ed="#P" n="40"/>etiam si nulla merita intercedant , praesertim
+          <lb ed="#P" n="41"/>si homo non demeruit privari illo concursu,
+          <lb ed="#P" n="42"/>quod de beatis dici non potest. Item, quia illud
+          <lb ed="#P" n="43"/>esset perpetuum miraculum. Item, quia ex
+          <lb ed="#P" n="44"/>parte Dei est incredibile fieri, ut beatus non
+          <lb ed="#P" n="45"/>amet ipsum, quantum potest , ergo idem est
+          <lb ed="#P" n="46"/>de visione.
+        </p>
+        <p xml:id="szduep-031545-d1e460">
+          <lb ed="#P" n="47"/>7. Tertia responsio. — Non admittitur. —
+          <lb ed="#P" n="48"/>Tertio, negari posset in eo casu dari aequalia
+          <lb ed="#P" n="49"/>lumina habentibus aequalia merita, sed dari in
+          <lb ed="#P" n="50"/>ea proportione, quae sufficiat, ut habeant 
+          aequa<lb break="no" ed="#P" n="51"/>les visiones. Quia proprium praemium 
+          merito<lb break="no" ed="#P" n="52"/>rum est visio, lumen vero datur ut principium
+          <lb ed="#P" n="53"/>seu conditio necessaria ad visionem et ideo
+          <lb ed="#P" n="54"/>non tantum luminis uniquique datur, 
+          quan<lb break="no" ed="#P" n="55"/>tum visionis meruit, sed quantum est illi ne-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cessarium ad eliciendam visionem 
+          proportio<lb break="no" ed="#P" n="57"/>natam meritis. Haec responsio habet minora
+          <lb ed="#P" n="58"/>incommoda, videtur tamen mihi parum 
+          con<lb break="no" ed="#P" n="59"/>sentanea Concilio Viennensi dicenti, per Iumen
+          <lb ed="#P" n="60"/>gloriae elevari intellectum ad videndum. Nam
+          <lb ed="#P" n="61"/>hinc recte infertur ad melius videndum esse
+          <lb ed="#P" n="62"/>elevandum per melius lumen. Praeterea 
+          seque<lb break="no" ed="#P" n="63"/>retur, habitum charitatis infundi minus 
+          per<lb break="no" ed="#P" n="64"/>fectum ei, qui habet perfectiorem naturam
+          <lb ed="#P" n="65"/>cum meritis aequalibus, ne magis amet in actu
+          <lb ed="#P" n="66"/>secundo. Quia si perfectior intellectus cum
+          <lb ed="#P" n="67"/>aequali Iumine perfectius videt, etiam 
+          perfec<lb break="no" ed="#P" n="68"/>Uuor voluntas cum aequali charitatis habitu
+          <lb ed="#P" n="69"/>perfectius amabit : illud autem consequens
+          <lb ed="#P" n="70"/>incredibile est, quia ex illo ulterius sequitur,
+          <lb ed="#P" n="71"/>etiam habitum gratiae esse minus perfectum,
+          <lb ed="#P" n="72"/>et intensum in habente aequalia merita, si 
+          ha<lb break="no" ed="#P" n="73"/>beat perfectiorem naturam ; nam gratia et
+          <lb ed="#P" n="74"/>charitas servant proportionem in perfectione
+          <lb ed="#P" n="75"/>et revera est eadem ratio de lumine, nam haec
+          <lb ed="#P" n="76"/>tria sibi respondent, sicut essentia animae, 
+          in<lb break="no" ed="#P" n="77"/>tellectus et voluntas. Tandem negari non 
+          po<lb break="no" ed="#P" n="78"/>test, quin ipsummet lumen sit magna 
+          perfec<lb break="no" ed="#P" n="79"/>tio animae, nulla autem ratio ponitur, ut qui
+          <lb ed="#P" n="80"/>aqualiter meruit, minorem decorem, ac 
+          per<lb break="no" ed="#P" n="81"/>fectionem supernaturalem accipiat, solum quia
+          <lb ed="#P" n="82"/>majori pollet ingenio, est ergo haec ratio a 
+          pos<lb break="no" ed="#P" n="83"/>teriori satis efficax.
+        </p>
+        <p xml:id="szduep-031545-d1e546">
+          <lb ed="#P" n="84"/>8. Physica ratio. —Secunda vero et physica
+          <lb ed="#P" n="85"/>ratio est, quia ut dixi, intellectus non 
+          concur<lb break="no" ed="#P" n="86"/>rit ad visionem virtute naturali, ut naturalis
+          <lb ed="#P" n="87"/>est, sed ut elevatus per ipsummet lumen, ad
+          <lb ed="#P" n="88"/>hanc autem elevationem tam est aptus 
+          imper<lb break="no" ed="#P" n="89"/>fectus intellectus, sicut perfectissimus, ergo
+          <lb ed="#P" n="90"/>perfectio vel imperfectio naturae neque addit,
+          <lb ed="#P" n="91"/>neque tollit facultatem videndi, nihil ergo
+          <lb ed="#P" n="92"/>conferre potest ad perfectiorem visionem, si
+          <lb ed="#P" n="93"/>caetera sunt paria. Concurrit itaque intellectus
+          <lb ed="#P" n="94"/>ut instrumentum divinae gratiae per potentiam
+          <lb ed="#P" n="95"/>activam obedientialem , haec autem est 
+          aequa<lb break="no" ed="#P" n="96"/>lis in omnibus intellectibus, etiam si in 
+          per<lb break="no" ed="#P" n="97"/>fectione naturae sint inaequales, quia omnes
+          <lb ed="#P" n="98"/>sunt aeque capaces divinae gratiae et aeque 
+          ele<lb break="no" ed="#P" n="99"/>vari possunt, unde major perfectio naturae, in
+          <lb ed="#P" n="100"/>hoc opere, in instrumento materialiter tantum
+          <lb ed="#P" n="101"/>se habet, talis autem major perfectio 
+          instru<lb break="no" ed="#P" n="102"/>menti nihil confert ad actionem.
+        </p>
+        <p xml:id="szduep-031545-d1e590">
+          <lb ed="#P" n="103"/>9. Praeterea etiam si dicatur intellectus 
+          con<lb break="no" ed="#P" n="104"/>currere cum lumine virtute suae naturae, 
+          ni<lb break="no" ed="#P" n="105"/>hilominus non est dicendum solam majorem
+          <lb ed="#P" n="106"/>perfectionem intellectus sufficere ad meliorem
+          <lb ed="#P" n="107"/>visionem. Quia (juxta illam opinionem sano
+          <lb ed="#P" n="108"/>modo intellectam) dicendum consequenter est,
+          <lb ed="#P" n="109"/>intellectum ex se non habere completam 
+          vir<lb break="no" ed="#P" n="110"/>tutem ad visionem, neque ad aliquem gradum
+          <pb ed="#P" n="126"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ejus, in quo multum differt illa virtus 
+          intel<lb break="no" ed="#P" n="2"/>lectus (si illam habet) a virtute circa actus 
+          na<lb break="no" ed="#P" n="3"/>turales, ad quod habet completam virtutem
+          <lb ed="#P" n="4"/>requisitam ex parte potentiae, et ideo potest 
+          il<lb break="no" ed="#P" n="5"/>los elicere sine illo habitu vel elevatione. Ad
+          <lb ed="#P" n="6"/>visionem vero et in universum ad actus 
+          su<lb break="no" ed="#P" n="7"/>pernaturales et ad minimum gradum eorum,
+          <lb ed="#P" n="8"/>non habet intellectus completam virtutem ex
+          <lb ed="#P" n="9"/>parte sua, nisi elevetur per gratiam, sed ad
+          <lb ed="#P" n="10"/>summum habet inchoatam, ergo non potest
+          <lb ed="#P" n="11"/>secundum virtutem naturalem operari, nisi
+          <lb ed="#P" n="12"/>quatenus per facultatem supernaturalem 
+          com<lb break="no" ed="#P" n="13"/>pletur : haec autem facultas in praesenti est 
+          lu<lb break="no" ed="#P" n="14"/>men ipsum, ergo.
+        </p>
+        <p xml:id="szduep-031545-d1e645">
+          <lb ed="#P" n="15"/>10. Majorem difficultatem habet haec 
+          proba<lb break="no" ed="#P" n="16"/>tio in opinione eorum, qui dicunt, intellectum
+          <lb ed="#P" n="17"/>ex se habere totam activitatem naturalem,
+          <lb ed="#P" n="18"/>necessariam ex parte potentiae ad illum actum
+          <lb ed="#P" n="19"/>videndi Deum ; et lumen gloriae non deservire
+          <lb ed="#P" n="20"/>nisi ut speciem objecti, quia activitas potentiae
+          <lb ed="#P" n="21"/>multum confert ad perfectionem actus, caeteris
+          <lb ed="#P" n="22"/>paribus ex parte speciei intelligibilis. 
+          Nihilo<lb break="no" ed="#P" n="23"/>minus etiam in illa opinione dicunt qui illam
+          <lb ed="#P" n="24"/>defendunt, visionem non posse excedere 
+          per<lb break="no" ed="#P" n="25"/>fectionem luminis. Quia licet potentia ex se
+          <lb ed="#P" n="26"/>conferat totam vim necessariam ad 
+          intelligen<lb break="no" ed="#P" n="27"/>dum ex parte potentiae, tota illa est incompleta
+          <lb ed="#P" n="28"/>respectu visionis, quia solum est ad 
+          visionem<lb break="no" ed="#P" n="29"/>secundum rationem genericam. Unde circa
+          <lb ed="#P" n="30"/>visionem, ut visio est, fatentur, non habere
+          <lb ed="#P" n="31"/>intellectum nativam virtutem, sed elevari ut
+          <lb ed="#P" n="32"/>instrumentum per ipsammet speciem, quam
+          <lb ed="#P" n="33"/>lumen appellant. Ex quo inferunt, 
+          perfectio<lb break="no" ed="#P" n="34"/>rem intellectum non posse sufficere ad 
+          melio<lb break="no" ed="#P" n="35"/>rem visionem, ut visio est, et consequenter,
+          <lb ed="#P" n="36"/>nec ad meliorem intellectionem, ut intellectio
+          <lb ed="#P" n="37"/>est, quia non potest actus produci perfectior
+          <lb ed="#P" n="38"/>secundum rationem genericam, nisi etiam fiat
+          <lb ed="#P" n="39"/>perfectior secundum specificam, at intellectus
+          <lb ed="#P" n="40"/>perfectior non potest hoc praestare circa 
+          visio<lb break="no" ed="#P" n="41"/>nem Dei, ergo nec illud prius.
+        </p>
+        <p xml:id="szduep-031545-d1e706">
+          <lb ed="#P" n="42"/>11. Quae ratio et consecutio optima mihi
+          <lb ed="#P" n="43"/>videtur et ad defendendam veram doctrinam
+          <lb ed="#P" n="44"/>de supernaturalitate illius actus magis 
+          accom<lb break="no" ed="#P" n="45"/>modata. Tamen non videtur satis consequens
+          <lb ed="#P" n="46"/>ad priora principia; tum quia si intellectus non
+          <lb ed="#P" n="47"/>habet innatam vim activam circa visionem, ut
+          <lb ed="#P" n="48"/>visio est, saltem hac ratione indigebit lumine
+          <lb ed="#P" n="49"/>distincto ab specie, quia species, ut sic, non
+          <lb ed="#P" n="50"/>dat hanc virtutem, sed solum determinationem
+          <lb ed="#P" n="51"/>ad tale objectum, concurrendo ad illam 
+          effec<lb break="no" ed="#P" n="52"/>tive ex parte objecti; tum etiam quia potentiae
+          <lb ed="#P" n="53"/>cognoscitivae non habent virtutem naturalem
+          <lb ed="#P" n="54"/>ad suos actus tantum secundum rationem 
+          ge<lb break="no" ed="#P" n="55"/>nericam, sed etiam secundum specificam, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cum operantur, ita illos efficiunt, et tunc n
+          <lb ed="#P" n="57"/>accipiunt virtutem ab specie, quia propria ac
+          <lb ed="#P" n="58"/>tivitate distincta ab influxu speciei attingun
+          <lb ed="#P" n="59"/>differentiam specificam actus, seu actum, se.
+          <lb ed="#P" n="60"/>cundum rationem specificam. Item quia actus
+          <lb ed="#P" n="61"/>etiam ut talis est, intrinsece postulat fieri c
+          <lb ed="#P" n="62"/>principio vitali. Et e converso, species vin
+          <lb ed="#P" n="63"/>habet influendi etiam in actum, secundum
+          <lb ed="#P" n="64"/>rationem genericam. Non est ergo virtus innata
+          <lb ed="#P" n="65"/>ad rationem genericam et non Spocificam, sec
+          <lb ed="#P" n="66"/>est ad totum, non totaliter, sed incompleta
+          <lb ed="#P" n="67"/>quadam ratione. Unde in praesenti si intellectus
+          <lb ed="#P" n="68"/>habet innatam virtutem ad visionem Dei prout
+          <lb ed="#P" n="69"/>intellectio est, certe habebit etiam ut visio est;
+          <lb ed="#P" n="70"/>maxime quia etiam visio, ut visio, debet esse a
+          <lb ed="#P" n="71"/>principio vitali, ergo si de ratione principi
+          <lb ed="#P" n="72"/>vitalis est, ut operetur per virtutem innatam,
+          <lb ed="#P" n="73"/>id est, naturalem et principalem, hoc modo
+          <lb ed="#P" n="74"/>concurrit intellectus ad visionem, vel si id non
+          <lb ed="#P" n="75"/>est de ratione principii vitalis, non erit 
+          neces<lb break="no" ed="#P" n="76"/>sarium, ut ad visionem concurrat illo modo,
+          <lb ed="#P" n="77"/>etiam ut intellectio est. Et revera ita est, quia
+          <lb ed="#P" n="78"/>etiam ipsa ratio intellectionis in tali visione ad
+          <lb ed="#P" n="79"/>ordinem supernaturalem elevata est et ideo
+          <lb ed="#P" n="80"/>intellectus virtute naturali, ut naturalis est,
+          <lb ed="#P" n="81"/>nihil potest in illam visionem, etiam ut 
+          intel<lb break="no" ed="#P" n="82"/>lectio est, in re ipsa: effectio enim versatur
+          <lb ed="#P" n="83"/>circa rationes omnes reales, prout sunt in re,
+          <lb ed="#P" n="84"/>at in ipsa etiam illa ratio supernaturalis est.
+          <lb ed="#P" n="85"/>Igitur vera ratio est supra posita, quod virtus
+          <lb ed="#P" n="86"/>intellectus ad totum illum actum incompleta
+          <lb ed="#P" n="87"/>est, quia est imperfecta, non solum comparata
+          <lb ed="#P" n="88"/>ad concursum objecti, quod habet respectu
+          <lb ed="#P" n="89"/>cujuscumque intellectionis, sed etiam 
+          compa<lb break="no" ed="#P" n="90"/>rata ad virtutem intelligendi necessariam ex
+          <lb ed="#P" n="91"/>parte cognoscentis : completur autem per 
+          Iu<lb break="no" ed="#P" n="92"/>men, et ideo nunquam potest visio excedere
+          <lb ed="#P" n="93"/>perfectionem luminis.
+        </p>
+        <p xml:id="szduep-031545-d1e823">
+          <lb ed="#P" n="94"/>2. Ad argumenta. — Ad argumenta alterius 
+          <lb ed="#P" n="95"/>u quidam distinguentes in actu 
+          visio<lb break="no" ed="#P" n="96"/>nis substantiam et modum et affirmantes,
+          <lb ed="#P" n="97"/>substantiam esse naturalem et modum 
+          super<lb break="no" ed="#P" n="98"/>naturalem , dicunt, intellectum sua virtute 
+          <lb ed="#P" n="99"/>efficere substantiam actus et sic actum fore
+          <lb ed="#P" n="100"/>perfectiorem a perfectiori intellectu, lumen
+          <lb ed="#P" n="101"/>autem eflficere modum, et ideo modum -
+          <lb ed="#P" n="102"/>commensurari lumini et quia ex modo habet
+          <lb ed="#P" n="103"/>actus, quod sit visio, ideo in ratione visionis
+          <lb ed="#P" n="104"/>equalitatem , vel inaqualitatem perfectionis
+          <lb ed="#P" n="105"/>mensurari ex lumine. Sed hoc supra refutatum
+          <lb ed="#P" n="106"/>est, cum ostendimus, illum.actum esse 
+          super<lb break="no" ed="#P" n="107"/>naturalem quoad substantiam, et per se est
+          <lb ed="#P" n="108"/>intelligibilis illa responsio, nam si ibi sit actus
+          <lb ed="#P" n="109"/>aliquis perfectior in substantia a perfectiori
+          <lb ed="#P" n="110"/>intellectu, interrogo, cujus objecti? quam spe-
+          <pb ed="#P" n="127"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ciem habeat? quia supponitur esse quasi 
+          objec<lb break="no" ed="#P" n="2"/>tum modi et ideo oportet, ut sit entitas in
+          <lb ed="#P" n="3"/>aliqua certa specie collocata. Quem etiam 
+          for<lb break="no" ed="#P" n="4"/>malem effectum meliorem habet illa visio in
+          <lb ed="#P" n="5"/>perfectiori intellectu ratione suae substantiae?
+          <lb ed="#P" n="6"/>nam cum sit forma, aliquem formalem 
+          effec<lb break="no" ed="#P" n="7"/>tum habere debet, et cum sit perfectior, etiam
+          <lb ed="#P" n="8"/>i intellectus, aliquid melius percipiet per illam
+          <lb ed="#P" n="9"/>substantiam actus. Hoc autem inexplicabile
+          <lb ed="#P" n="10"/>est, quia totus ille actus non habet alium 
+          for<lb break="no" ed="#P" n="11"/>malem effectum nisi videre Deum. Unde etiam
+          <lb ed="#P" n="12"/>econtrario de illo modo interrogari potest, an
+          <lb ed="#P" n="13"/>sit vitalis? nam si est, debet ab ipso intellectu
+          <lb ed="#P" n="14"/>fieri et redit difficultas; si vero non est vitalis,
+          <lb ed="#P" n="15"/>non constituet visionem, nec reddet videntem.
+          <lb ed="#P" n="16"/>Est ergo ille modus differentia specifica et 
+          con<lb break="no" ed="#P" n="17"/>naturalis entitati illius actus, et ideo tota 
+          su<lb break="no" ed="#P" n="18"/>pernaturali principio commensuratur. Ad 
+          ra<lb break="no" ed="#P" n="19"/>tionem ergo in contrarium respondetur, 
+          negan<lb break="no" ed="#P" n="20"/>do subsumptam propositionem ; nam ex sola
+          <lb ed="#P" n="21"/>perfectione naturali intellectus non crescit
+          <lb ed="#P" n="22"/>activitas principii proprii et completi illius
+          <lb ed="#P" n="23"/>visionis, propter rationem jam dictam, quia
+          <lb ed="#P" n="24"/>activitas, quam confert intellectus semper est
+          <lb ed="#P" n="25"/>commensurata elevationi, non perfectioni suse,
+          <lb ed="#P" n="26"/>quia est secundum rationem obedientialis 
+          po<lb break="no" ed="#P" n="27"/>tentiae, vel secundum quod completur in 
+          ratio<lb break="no" ed="#P" n="28"/>ne potentiae per lumen.
+        </p>
+        <p xml:id="szduep-031545-d1e927">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="29"/>13. Ad alteram confirmationem respondetur,
+          <lb ed="#P" n="30"/>principium illud de causis partialibus 
+          complen<lb break="no" ed="#P" n="31"/>tibus causam totalem, tantum esse verum,
+          <lb ed="#P" n="32"/>quando principium partiale augetur secundum
+          <lb ed="#P" n="33"/>propriam rationem causae, vel saltem secundum
+          <lb ed="#P" n="34"/>aliquam virtutem completam in suo genere.
+          <lb ed="#P" n="35"/>Hic autem cum intellectus augetur in 
+          perfec<lb break="no" ed="#P" n="36"/>üone naturali, illud augmentum quasi 
+          materia<lb break="no" ed="#P" n="37"/>liter se habet ad activitatem intellectus circa
+          <lb ed="#P" n="38"/>talem visionem, quia, ut dixi, tanta virtus 
+          ac<lb break="no" ed="#P" n="39"/>tiva obedientialis est in inferiori intellectu,
+          <lb ed="#P" n="40"/>sicut in perfectiori. Sicut capacitas 
+          obedientia<lb break="no" ed="#P" n="41"/>lis tanta est in uno, sicut in alio, neque 
+          auge<lb break="no" ed="#P" n="42"/>tur ex augmento naturalis perfectionis. Ita
+          <lb ed="#P" n="43"/>ergo in praesenti non augetur virtus causae, ut
+          <lb ed="#P" n="44"/>causa est. Vel (secundum alium dicendi 
+          mo<lb break="no" ed="#P" n="45"/>dum) non augetur secundum completam 
+          acti<lb break="no" ed="#P" n="46"/>vitatem necessariam ad visionem, et ideo inde
+          <lb ed="#P" n="47"/>non crescit effectus.
+        </p>
+        <p xml:id="szduep-031545-d1e974">
+          <lb ed="#P" n="48"/>14. Ad exemplum. — Ad exemplum vero de
+          <lb ed="#P" n="49"/>instrumentis artis respondetur, ibi posse 
+          ha<lb break="no" ed="#P" n="50"/>bere locum distinctionem de actione talis 
+          ins<lb break="no" ed="#P" n="51"/>trumenti aliquid, quod fit virtute propria 
+          ins<lb break="no" ed="#P" n="52"/>trument, scilicet modus localis, vel expulsio
+          <lb ed="#P" n="53"/>alterius corporis. Et haec est substantia 
+          actio<lb break="no" ed="#P" n="54"/>nis, ad quam multum confert dispositio 
+          instru<lb break="no" ed="#P" n="55"/>menti, quia in ea se habet ad modum causae
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="56"/>principalis, seu proprii principii, virtute innata
+          <lb ed="#P" n="57"/>operantis. Est autem ulterius in illa actione
+          <lb ed="#P" n="58"/>artificiosus modus, qui est ab arte 
+          principali<lb break="no" ed="#P" n="59"/>ter et ab instrumento instrumentaliter. Tamen
+          <lb ed="#P" n="60"/>hic modus et accommodatur saepe actioni 
+          subs<lb break="no" ed="#P" n="61"/>tratae et ab illa pendet, et hinc provenit, ut
+          <lb ed="#P" n="62"/>instrumentum deserviens ad meliorem 
+          actio<lb break="no" ed="#P" n="63"/>nem, quo ad substantiam ejus, consequenter
+          <lb ed="#P" n="64"/>conferat ad melius artificium, etiam si ars sit
+          <lb ed="#P" n="65"/>aequalis, quia ineptum instrumentum impedit
+          <lb ed="#P" n="66"/>artem, quia impedit actionem substratam 
+          di<lb break="no" ed="#P" n="67"/>rectioni artis. At in praesenti simplicissima est
+          <lb ed="#P" n="68"/>actio, nihilque est in illa, quodab intellectu
+          <lb ed="#P" n="69"/>fiat, ut proprio, ac principali principio 
+          ope<lb break="no" ed="#P" n="70"/>rante, quoad actionem, quae fit, licet in ea
+          <lb ed="#P" n="71"/>actione reperiatur ratio communis cum 
+          actio<lb break="no" ed="#P" n="72"/>nibus naturalibus, quae juvare non potest, quia
+          <lb ed="#P" n="73"/>illa non est re distincta, nec per se fit, sed ut
+          <lb ed="#P" n="74"/>contracta ad talem speciem.
+        </p>
+        <p xml:id="szduep-031545-d1e1037">
+          <lb ed="#P" n="75"/>15. Ad aliud exemplum. — Ad aliud vero
+          <lb ed="#P" n="76"/>exemplum de oculo et specie respondetur, id
+          <lb ed="#P" n="77"/>esse verum, quando vis activa visus non 
+          adae<lb break="no" ed="#P" n="78"/>quat activitatem speciei. Visus enim per se
+          <lb ed="#P" n="79"/>habet suam virtutem agendi completam in
+          <lb ed="#P" n="80"/>genere talis potentiae respicientis tales actus et
+          <lb ed="#P" n="81"/>species etiam habet activitatem suam 
+          necessa<lb break="no" ed="#P" n="82"/>riam ex parte objecti: interdum autem fieri
+          <lb ed="#P" n="83"/>potest ut visus impediatur, ne adaequate utatur
+          <lb ed="#P" n="84"/>tali specie secundum totam activitatem ejus,
+          <lb ed="#P" n="85"/>v. g., ex defectu attentionis et distractionis
+          <lb ed="#P" n="86"/>phantasise, alius vero operetur secundum totam
+          <lb ed="#P" n="87"/>activitatem speciei. Nunquam autem fieri 
+          po<lb break="no" ed="#P" n="88"/>test, ut per aequalem speciem unus visus melius
+          <lb ed="#P" n="89"/>videat quam alius, si uterque utitur specie
+          <lb ed="#P" n="90"/>secundum totam activitatem illius. In praesenti
+          <lb ed="#P" n="91"/>autem quilibet intellectus quantumcumque 
+          im<lb break="no" ed="#P" n="92"/>perfectus influit secundum totam activitatem
+          <lb ed="#P" n="93"/>luminis, et ideo non potest inaequalitas visionis
+          <lb ed="#P" n="94"/>ex naturali perfectione intellectus oriri.
+        </p>
+        <p xml:id="szduep-031545-d1e1083">
+          <lb ed="#P" n="95"/>16. Ad secundam confirmationem negatur
+          <lb ed="#P" n="96"/>assumptum, loquendo de proprio actu fidei.
+          <lb ed="#P" n="97"/>Quia assensus supernaturalis et certus, tantum
+          <lb ed="#P" n="98"/>est melior propter majus auxilium, vel 
+          per<lb break="no" ed="#P" n="99"/>fectiorem habitum ; quia vero cognitio fidei
+          <lb ed="#P" n="100"/>in via applicatur naturali modo per species,
+          <lb ed="#P" n="101"/>apprehensiones et discursus naturales, ex hac
+          <lb ed="#P" n="102"/>parte potest perfectio intellectus conferre ad
+          <lb ed="#P" n="103"/>concipiendam perfectiorem fidem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

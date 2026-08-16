@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="666"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-168601"><!-- t3-l5c8 -->
+        <head xml:id="szduep-168601-Hd1e101">Caput 8</head>
+        <head xml:id="szduep-168601-Hd1e103" type="question-title">Conferuntur relationes divine inter se et peculiares earum conditiones explicantur</head>
+        <p xml:id="szduep-168601-d1e106">
+          <lb ed="#P" n="46"/>CAPUT VIII.
+          <lb ed="#P" n="47"/>CONFERUNTUR RELATIONES DIVINE INTER SE ET 
+          PE<lb break="no" ed="#P" n="48"/>CULIARES EARUM CONDITIONES EXPLICANTUR.
+        </p>
+        <p xml:id="szduep-168601-d1e115">
+          <lb ed="#P" n="49"/>1. In quibus conveniat spiratio cum 
+          perso<lb break="no" ed="#P" n="50"/>nalibus relationibus. — Haec collectio 
+          necessa<lb break="no" ed="#P" n="51"/>ria visa est, ut major notitia harum 
+          relatio<lb break="no" ed="#P" n="52"/>num, et praesertim spirationis activae habeatur.
+          <lb ed="#P" n="53"/>sed substantia:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>Unde etiam obiter intelligitur, quantum hae
+          <lb ed="#P" n="55"/>relationes a creatis differant.
+        </p>
+        <p xml:id="szduep-168601-d1e135">
+          <lb ed="#P" n="56"/>2. Primo igitur conveniunt hae quatuor 
+          re<lb break="no" ed="#P" n="57"/>lationes in conceptu generali relationis divinae.
+          <lb ed="#P" n="58"/>Unde necesse est, ut spiratio, cum caeteris 
+          im<lb break="no" ed="#P" n="59"/>primis conveniat in his omnibus, quae sunt de
+          <lb ed="#P" n="60"/>extrinseca ratione relationis realis, qualia sunt
+          <lb ed="#P" n="61"/>habere aliquod esse reale, habere terminum
+          <lb ed="#P" n="62"/>realem ad illum, et re ipsa distinctum, et 
+          habi<lb break="no" ed="#P" n="63"/>tudinem realem ad illum, ac denique 
+          perfec<lb break="no" ed="#P" n="64"/>tionem aliqua in illo genere, id est, relativam.
+          <lb ed="#P" n="65"/>Deinde necessarium etiam est, ut cum ulis
+          <lb ed="#P" n="66"/>conveniat in eo, quod est proprium relationis
+          <lb ed="#P" n="67"/>divinae, ut sic, quatenus a creata distinguitur
+          <lb ed="#P" n="68"/>hoc autem imprimis est, ut non sit accidens,
+          <lb ed="#P" n="69"/>sed substantia: nam intra Deum nullum 
+          acci<lb break="no" ed="#P" n="70"/>dens esse non potest, non solum quia Deus 
+          mu<lb break="no" ed="#P" n="71"/>tari non potest, ut prosequitur Augustinus,
+          <lb ed="#P" n="72"/>lib. 5, de Trinit., sed maxime, quia 
+          composi<lb break="no" ed="#P" n="73"/>tionem non admittit, accidens autem alicui 
+          in<lb break="no" ed="#P" n="74"/>haerere sine compositione cum illo, intelligi
+          <lb ed="#P" n="75"/>non potest, quia necesse est, ut accidens aliquo
+          <lb ed="#P" n="76"/>modo distinguatur re ab eo, cujus est 
+          acci<lb break="no" ed="#P" n="77"/>dens. Sicut ergo relationes personales accidens
+          <lb ed="#P" n="78"/>non sunt, ita nec spiratio activa. Oportet ergo,
+          <lb ed="#P" n="79"/>ut sit substantia, et consequenter aliquo modo
+          <lb ed="#P" n="80"/>subsistens, quia in se, ac per se est, et non in
+          <lb ed="#P" n="81"/>alio secundum rem, quidquid sit modo 
+          conci<lb break="no" ed="#P" n="82"/>piendi nostro. Unde etiam sit, ut divinam 
+          sub<lb break="no" ed="#P" n="83"/>stantiam et essentiam in suo conceptu includat,
+          <lb ed="#P" n="84"/>quia est substantia, non quaecumque, sed 
+          in<lb break="no" ed="#P" n="85"/>creata, et simpliciter infinita, hoc enim totum
+          <lb ed="#P" n="86"/>habere debet omnis proprietas, quae intra
+          <lb ed="#P" n="87"/>Deum est, tantumque id provenit ex divina
+          <lb ed="#P" n="88"/>essentia intime in hujusmodi proprietatibus
+          <lb ed="#P" n="89"/>inclusa.
+        </p>
+        <p xml:id="szduep-168601-d1e212">
+          <lb ed="#P" n="90"/>3. Quamvis autem haec ita sunt, 
+          nihilomi<lb break="no" ed="#P" n="91"/>nus plus videntur convenire relationes 
+          perso<lb break="no" ed="#P" n="92"/>nales inter se; quam cum spiratione activa.
+          <lb ed="#P" n="93"/>Nam relatio divina non concipitur a nobis, ut
+          <lb ed="#P" n="94"/>proximum genus ad omnes quatuor relationes.
+          <lb ed="#P" n="95"/>Quia subdividi potest in relationem 
+          persona<lb break="no" ed="#P" n="96"/>lem et non personalem, et sub priori membro
+          <lb ed="#P" n="97"/>subdividuntur tres quasi species, sub posteriori
+          <lb ed="#P" n="98"/>vero sola spiratio divina continetur. Necesse
+          <lb ed="#P" n="99"/>est ergo, ut in aliqua, vel aliquibus 
+          conditioni<lb break="no" ed="#P" n="100"/>bus differat a caeteris, in quibus istae inter se
+          <lb ed="#P" n="101"/>non differunt, has ergo differendi rationes
+          <lb ed="#P" n="102"/>nunc investigamus.
+        </p>
+        <p xml:id="szduep-168601-d1e243">
+          <lb ed="#P" n="103"/>4. In quibus differat. — Multae autem 
+          diffe<lb break="no" ed="#P" n="104"/>rentiae considerari, ac notari possunt. Prima,
+          <lb ed="#P" n="105"/>ac principalis est quod spiratio activa 
+          commu<lb break="no" ed="#P" n="106"/>nicabilis est pluribus personis, aliae vero 
+          pror<lb break="no" ed="#P" n="107"/>sus incommunicabiles sunt aliis personis. Hoc
+          <lb ed="#P" n="108"/>posterius constat, tum ex distinctione trium
+          <pb ed="#P" n="667"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>personarum, tum etiam, quia illa 
+          incommuni<lb break="no" ed="#P" n="2"/>cabilitas est necessaria, ut personales rationes
+          <lb ed="#P" n="3"/>sint constitutivae personarum, ex quo habent, ut
+          <lb ed="#P" n="4"/>personales dicantur, quia incommunicabilitas
+          <lb ed="#P" n="5"/>est de ratione personae. Prior vero constat ex
+          <lb ed="#P" n="6"/>dictis, quia spiratio activa in Patre est et in 
+          Fi<lb break="no" ed="#P" n="7"/>lio per simplicem identitatem cum utroque et
+          <lb ed="#P" n="8"/>ita est communicabilis illis : imo inde habet,
+          <lb ed="#P" n="9"/>ut personalis non sit, nec personam constituere
+          <lb ed="#P" n="10"/>possit. Radix autem hujus differentiae est, quia
+          <lb ed="#P" n="11"/>haec relatio spirationis non habet oppositionem,
+          <lb ed="#P" n="12"/>velimmediatam cum omnibus relationibus 
+          per<lb break="no" ed="#P" n="13"/>sonalibus, sed cum una tantum, scilicet, 
+          pro<lb break="no" ed="#P" n="14"/>cessione : et ideo manet communicabilis aliis
+          <lb ed="#P" n="15"/>duabus. At quaelibet aliarum habet 
+          oppositio<lb break="no" ed="#P" n="16"/>nem cum aliis personis, vel mediatam, vel 
+          im<lb break="no" ed="#P" n="17"/>mediatam, originis, vel relativam, juxta ea,
+          <lb ed="#P" n="18"/>quae IHibro septimo videbimus.
+        </p>
+        <p xml:id="szduep-168601-d1e302">
+          <lb ed="#P" n="19"/>5. Objectioni satisfit. — Dices, sicut spiratio
+          <lb ed="#P" n="20"/>non opponitur paternitati, ita nec Paternitas
+          <lb ed="#P" n="21"/>spirationi, ergo sicut spiratio communicatur
+          <lb ed="#P" n="22"/>Paternitati, ita Paternitas communicatur 
+          Spi<lb break="no" ed="#P" n="23"/>rationi, ergo hoc satis est, ut Paternitas non
+          <lb ed="#P" n="24"/>sit incommunicabilis , idemque est de 
+          Filia<lb break="no" ed="#P" n="25"/>tione. Respondeo, hanc non esse 
+          communica<lb break="no" ed="#P" n="26"/>tionem repugnantem personae, imo nec proprie
+          <lb ed="#P" n="27"/>communicationem esse, sed quamdam 
+          identi<lb break="no" ed="#P" n="28"/>tatem. Tum, quia nunquam Paternitas est in
+          <lb ed="#P" n="29"/>multis suppositis realiter distinctis, sicut est
+          <lb ed="#P" n="30"/>spiratio. Tum etiam quia Paternitas, vel 
+          Filia<lb break="no" ed="#P" n="31"/>tio non conjungitur spirationi, ut terminetur
+          <lb ed="#P" n="32"/>per illam, sed solum ut substet illa, per 
+          mo<lb break="no" ed="#P" n="33"/>dum subjecti, nostro modo intelligendi, quae
+          <lb ed="#P" n="34"/>communicatio (si ita vocanda est) non 
+          repug<lb break="no" ed="#P" n="35"/>nat personae. At vero spiratio ipsa 
+          communi<lb break="no" ed="#P" n="36"/>catur duabus personis realiter distinctis, 
+          est<lb break="no" ed="#P" n="37"/>que in illis tanquam forma quaedam afficiens
+          <lb ed="#P" n="38"/>ipsas, et ideo habet communicabilitatem 
+          re<lb break="no" ed="#P" n="39"/>pugnantem relationi personal.
+        </p>
+        <p xml:id="szduep-168601-d1e350">
+          <lb ed="#P" n="40"/>6. Spiratio non habet propriam 
+          subsisten<lb break="no" ed="#P" n="41"/>tiam. — Et ex hac differentia infertur alia 
+          no<lb break="no" ed="#P" n="42"/>tanda, videlicet, quod relationes personales
+          <lb ed="#P" n="43"/>per se, et ex propris conceptibus subsistentes
+          <lb ed="#P" n="44"/>sunt, non tamen relatio spirationis activae.
+          <lb ed="#P" n="45"/>Prior pars in libro tertio, tractata est, quoniam
+          <lb ed="#P" n="46"/>ad declarandam trium personarum 
+          distinctio<lb break="no" ed="#P" n="47"/>nem fuit necessarium. Altera vero pars infra,
+          <lb ed="#P" n="48"/>libro decimo, ex professo tractabitur. Nunc 
+          de<lb break="no" ed="#P" n="49"/>claratur breviter, quia relationes personales
+          <lb ed="#P" n="50"/>sunt rationes subsistendi, alias non possent
+          <lb ed="#P" n="51"/>constituere personas, ut ibi declaratum est.
+          <lb ed="#P" n="52"/>Spiratio autem non constituit personam, sed
+          <lb ed="#P" n="53"/>potius advenit jam constitutis, et ideo nec est
+          <lb ed="#P" n="54"/>ratio subsistendi, nec ex proprio conceptu 
+          se<lb break="no" ed="#P" n="55"/>cum affert subsistentiam, sed per identitatem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>habet illam a personis, quibus inest, nostro
+          <lb ed="#P" n="57"/>intelligendi modo. Quae differentia ex sequenti
+          <lb ed="#P" n="58"/>magis declarabitur.
+        </p>
+        <p xml:id="szduep-168601-d1e396">
+          <lb ed="#P" n="59"/>7. Spiratio est quasi resultans. — Tertia
+          <lb ed="#P" n="60"/>ergo differentia est quod relationes personales
+          <lb ed="#P" n="61"/>non sunt, nec intelliguntur a nobis tanquam
+          <lb ed="#P" n="62"/>resultantes, sed tanquam per se primo 
+          conve<lb break="no" ed="#P" n="63"/>nientes Divinae naturae, vel ex se et absque
+          <lb ed="#P" n="64"/>productione, ut paternitas, vel per 
+          productio<lb break="no" ed="#P" n="65"/>nem, ut termini producti, vel comproducti
+          <lb ed="#P" n="66"/>(nostro modo loquendi) per se, ac directe per
+          <lb ed="#P" n="67"/>ipsas origines, ut de Filiatione, ac processione
+          <lb ed="#P" n="68"/>ostendemus libro sequenti. At vero spiratio est
+          <lb ed="#P" n="69"/>in Deo quasi per resultantiam quamdam, seu
+          <lb ed="#P" n="70"/>indirectam consecutionem. Quia talis relatio
+          <lb ed="#P" n="71"/>non est per sese in Deo, absque interventu 
+          ali<lb break="no" ed="#P" n="72"/>cujus processionis in quo differt a Paternitate.
+          <lb ed="#P" n="73"/>Et ratio differentiae est, quia Paternitas (ut 
+          di<lb break="no" ed="#P" n="74"/>cemus ) est proprietas constituens personarum
+          <lb ed="#P" n="75"/>primam, ideo secundum esse suum antevertit
+          <lb ed="#P" n="76"/>omnem processionem, seu productionem, quia
+          <lb ed="#P" n="77"/>prior est constitutio personae, quam operatio,
+          <lb ed="#P" n="78"/>seu productio (loquimur enim more nostro),
+          <lb ed="#P" n="79"/>et ideo talis relatio non est quasi resultans ex
+          <lb ed="#P" n="80"/>productione, sed ex se, et per se est conjuncta
+          <lb ed="#P" n="81"/>cum divina natura. Spiratio autem activa 
+          sup<lb break="no" ed="#P" n="82"/>ponit personam plene constitutam in ratione
+          <lb ed="#P" n="83"/>personae, neque ad hanc constitutionem ullo
+          <lb ed="#P" n="84"/>modo necessaria est, ideoque solum 
+          intelligi<lb break="no" ed="#P" n="85"/>tur existere, quatenus ex operatione, seu 
+          pro<lb break="no" ed="#P" n="86"/>ductione aliqua talis personae jam constitutae
+          <lb ed="#P" n="87"/>consequitur. Nec vero talis relatio consequitur
+          <lb ed="#P" n="88"/>ex tali productione, tanquam pertinens ad 
+          pri<lb break="no" ed="#P" n="89"/>marium et completum terminum, seu rem 
+          pro<lb break="no" ed="#P" n="90"/>ductam per illam processionem , quia non est
+          <lb ed="#P" n="91"/>forma constituens illam, ut per se notum est.
+          <lb ed="#P" n="92"/>Superest ergo, ut solum inde consurgat per
+          <lb ed="#P" n="93"/>modum resultantis. Estque haec differentia 
+          con<lb break="no" ed="#P" n="94"/>sentanea praecedenti, quia constitutio personae
+          <lb ed="#P" n="95"/>est per se et directe requisita in qualibet 
+          sub<lb break="no" ed="#P" n="96"/>stantiali natura , quod autem intelligitur 
+          ad<lb break="no" ed="#P" n="97"/>venire personae ita constitutae, cum non sit ab
+          <lb ed="#P" n="98"/>extrinseco, optime intelligitur provenire per
+          <lb ed="#P" n="99"/>aliquam resultantiam.
+        </p>
+        <p xml:id="szduep-168601-d1e487">
+          <lb ed="#P" n="100"/>8. Personales relationes fundamento carent
+          <lb ed="#P" n="101"/>non vero spiratio.—Atque hic intervenit etiam
+          <lb ed="#P" n="102"/>quarta differentia. Quia relationes personales
+          <lb ed="#P" n="103"/>non habent proprium fundamentum, in quo
+          <lb ed="#P" n="104"/>quasi nitantur, quia per se et intrinsece 
+          sub<lb break="no" ed="#P" n="105"/>sistentes sunt, ut libro septimo, iterum dicam,
+          <lb ed="#P" n="106"/>spiratio autem activa, quia personae jam 
+          sub<lb break="no" ed="#P" n="107"/>sistenti incommunicabiliter advenit, illam 
+          sup<lb break="no" ed="#P" n="108"/>ponit, ut prosimum fundamentum suum, in
+          <lb ed="#P" n="109"/>quo quasi resultat posito termino, loquor 
+          au<lb break="no" ed="#P" n="110"/>tem de fundamento quasi permanente, quod
+          <pb ed="#P" n="668"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>relatio proxime afficit, ut more nostro 
+          loqua<lb break="no" ed="#P" n="2"/>mur. Nam si loquamur de ratione fundamenti,
+          <lb ed="#P" n="3"/>quae a nobis concipitur, quasi in fieri, seu in
+          <lb ed="#P" n="4"/>origine, quoad illam est aliquid, in quo 
+          spira<lb break="no" ed="#P" n="5"/>tio cum aliis relationibus conveniat et aliquid,
+          <lb ed="#P" n="6"/>in quo differat. A paternitate enim in hoc 
+          om<lb break="no" ed="#P" n="7"/>nino dissimilis est, quod Paternitas talem etiam
+          <lb ed="#P" n="8"/>rationem fundandi non postulat, ut in rerum
+          <lb ed="#P" n="9"/>natura sit, nam si aliquam talem fundandi 
+          ra<lb break="no" ed="#P" n="10"/>tionem haberet, maxime generationem 
+          acti<lb break="no" ed="#P" n="11"/>vam : illam autem non respicit, ut rationem
+          <lb ed="#P" n="12"/>sul esse, sed potius est in suo genere ratio, cur
+          <lb ed="#P" n="13"/>ipsa sit, ut in libro septimo et octavo, latius
+          <lb ed="#P" n="14"/>explicabimus. In quo etiam Paternitas illa 
+          ae<lb break="no" ed="#P" n="15"/>terna antecellit omnem aliam Paternitatem,
+          <lb ed="#P" n="16"/>quia in coelo et in terra nominatur. Omnis 
+          e<lb break="no" ed="#P" n="17"/>nim alius Pater, ideo est Pater, quia generat,
+          <lb ed="#P" n="18"/>Pater autem aeternus ideo generat, quia per
+          <lb ed="#P" n="19"/>Paternitatem est constitutus in suo esse 
+          per<lb break="no" ed="#P" n="20"/>sonali : Quod provenit ex peculiari conditione
+          <lb ed="#P" n="21"/>et dignitate illius paternitatis, quae per sese
+          <lb ed="#P" n="22"/>est, absque alia ratione, sed solum quia 
+          Divi<lb break="no" ed="#P" n="23"/>nitas ex se, et immediate illam postulat.
+        </p>
+        <p xml:id="szduep-168601-d1e569">
+          <lb ed="#P" n="24"/>9. Spiratio autem non sic est, sed habet suam
+          <lb ed="#P" n="25"/>rationem fundandi, scilicet activam originem,
+          <lb ed="#P" n="26"/>seu productionem Spiritus sancti: Quia haec
+          <lb ed="#P" n="27"/>relatio cum non sit personalitas, non est per se
+          <lb ed="#P" n="28"/>immediate conjuncta Divinitati, et ideo 
+          opor<lb break="no" ed="#P" n="29"/>tet, ut interveniat ratio alia, qua posita cum
+          <lb ed="#P" n="30"/>termino, resultet, quae propterea dicitur ratio
+          <lb ed="#P" n="31"/>fundandi. In hoc ergo aliquo modo convenit
+          <lb ed="#P" n="32"/>haec relatio cum relationibus passivis, quia 
+          e<lb break="no" ed="#P" n="33"/>tiam illae non sunt per se immediate conjunctae
+          <lb ed="#P" n="34"/>cum natura divina, sed media productione,
+          <lb ed="#P" n="35"/>diverso tamen modo , quia relatio personae
+          <lb ed="#P" n="36"/>productae est quasi directe intenta ex vi talis
+          <lb ed="#P" n="37"/>productionis, ut dictum est, et ideo illa 
+          pro<lb break="no" ed="#P" n="38"/>ductio non tam se habet, ut ratio fundandi,
+          <lb ed="#P" n="39"/>quam, ut via ad terminum suum. Spiratio
+          <lb ed="#P" n="40"/>vero non hoc modo se habet ad illam 
+          produc<lb break="no" ed="#P" n="41"/>tionem, sed quasi per resultantiam, ut 
+          decla<lb break="no" ed="#P" n="42"/>ratum est, et ideo magis proprie habet 
+          ratio<lb break="no" ed="#P" n="43"/>nem fundandi, estque hoc illi quodam modo
+          <lb ed="#P" n="44"/>peculiare.
+        </p>
+        <p xml:id="szduep-168601-d1e617">
+          <lb ed="#P" n="45"/>10. Differentia inter Paternitatem et 
+          spira<lb break="no" ed="#P" n="46"/>tionem ex parte principii.—Addit potest quinta
+          <lb ed="#P" n="47"/>differentia, quae maxime versatur inter 
+          spira<lb break="no" ed="#P" n="48"/>tionem et Paternitatem, quae dici possunt 
+          re<lb break="no" ed="#P" n="49"/>lationes activae, consistitque in hoc, quod
+          <lb ed="#P" n="50"/>Paternitas includitur aliquo modo in potentia
+          <lb ed="#P" n="51"/>generandi, ut in superioribus declaratum est,
+          <lb ed="#P" n="52"/>spiratio autem activa non includitur in 
+          poten<lb break="no" ed="#P" n="53"/>tia spirandi, sed supponit illam, et ad illam,
+          <lb ed="#P" n="54"/>consequitur, media productione amoris. Unde
+          <lb ed="#P" n="55"/>etiam extenditur haec differentia ad Filiatio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nem, quatenus aliquo modo relatio activa est.
+          <lb ed="#P" n="57"/>Nam Filiatio simul cum Paternitate pertinet
+          <lb ed="#P" n="58"/>ad potentiam spirandi, et eam complere 
+          po<lb break="no" ed="#P" n="59"/>test, saltem ut conditio sufficiens ad illam, 
+          si<lb break="no" ed="#P" n="60"/>cut infra videbimus. Spiratio vero hoc non
+          <lb ed="#P" n="61"/>habet, ut dixi. Cum processione autem 
+          com<lb break="no" ed="#P" n="62"/>parari in hoc non potest spiratio, quia 
+          proces<lb break="no" ed="#P" n="63"/>sio nullo modo est productiva ad intra, etiam
+          <lb ed="#P" n="64"/>ut conditio : Tamen servata proportione 
+          inter<lb break="no" ed="#P" n="65"/>cedit differentia, quod processio est per se 
+          ne<lb break="no" ed="#P" n="66"/>cessaria ad illam productionem saltem ex parte
+          <lb ed="#P" n="67"/>termini, spiratio autem solum est consequens
+          <lb ed="#P" n="68"/>quasi consummata jam, et terminata 
+          produc<lb break="no" ed="#P" n="69"/>tione.
+        </p>
+        <p xml:id="szduep-168601-d1e676">
+          <lb ed="#P" n="70"/>11. Differentia in terminis.—Ultimo potest
+          <lb ed="#P" n="71"/>assignari inter spirationem et processionem
+          <lb ed="#P" n="72"/>discrimen ex parte termini, ad quem relatio
+          <lb ed="#P" n="73"/>refertur. Nam spiratio activa habet pro 
+          for<lb break="no" ed="#P" n="74"/>mali termino ipsam relationem sibi correlative
+          <lb ed="#P" n="75"/>oppositam , scilicet passivam processionem ,
+          <lb ed="#P" n="76"/>quia persona, ad quam spiratio refertur, per
+          <lb ed="#P" n="77"/>ipsammet processionem constituitur in suo 
+          sub<lb break="no" ed="#P" n="78"/>sistere personali, relatio autem principii, seu
+          <lb ed="#P" n="79"/>originis activae per se primo terminatur ad
+          <lb ed="#P" n="80"/>suppositum productum, quatenus est 
+          adaequa<lb break="no" ed="#P" n="81"/>tus terminus talis productionis. At vero 
+          pro<lb break="no" ed="#P" n="82"/>cessio passiva, quatenus talis relatio est, non
+          <lb ed="#P" n="83"/>habet pro formali termino suam correlationem
+          <lb ed="#P" n="84"/>seu spirationem activam, quia terminus adae- -
+          <lb ed="#P" n="85"/>quatus illius relationis non est spirator, ut 
+          cor<lb break="no" ed="#P" n="86"/>relativus est Spiritus sancti, sed ut est unum
+          <lb ed="#P" n="87"/>principium Spiritus sancti, habens unam 
+          po<lb break="no" ed="#P" n="88"/>tentiam spirandi et quasi eliciens unam 
+          pro<lb break="no" ed="#P" n="89"/>ductionem ejusdem Spiritus sancti. Quae duae
+          <lb ed="#P" n="90"/>rationes, scilicet spirationis, ut correlativum
+          <lb ed="#P" n="91"/>est et ut est principium habens unam 
+          poten<lb break="no" ed="#P" n="92"/>tiam, et actum spirandi, diversae sunt 
+          secun<lb break="no" ed="#P" n="93"/>dum rationem, ut infra videbimus. Haec autem
+          <lb ed="#P" n="94"/>distinctio rationis sufficit, ut sub una ratione
+          <lb ed="#P" n="95"/>scilicet principii sit terminus relationis 
+          pro<lb break="no" ed="#P" n="96"/>cessionis et non sub ratione correlativa. Quia
+          <lb ed="#P" n="97"/>relatio termini producti per se non respicit
+          <lb ed="#P" n="98"/>alium, ut sibi correlativum, sed, ut 
+          princi<lb break="no" ed="#P" n="99"/>pium producens. Quod etiam in creaturis 
+          ve<lb break="no" ed="#P" n="100"/>rum est, et ideo in humanis filius, non 
+          respi<lb break="no" ed="#P" n="101"/>cit formaliter Patrem, ut correlativum, sed ut
+          <lb ed="#P" n="102"/>cenerantem, vel habentem virtutem 
+          generan<lb break="no" ed="#P" n="103"/>di sub tali actu, unde sit, ut relationes hae
+          <lb ed="#P" n="104"/>creatae terminentur ad absolutum terminum
+          <lb ed="#P" n="105"/>formaliter loquendo, ut in metaphysica 
+          osten<lb break="no" ed="#P" n="106"/>dimus. Quod non habet locum omnino eodem
+          <lb ed="#P" n="107"/>modo in divinis personis, quia habent 
+          perso<lb break="no" ed="#P" n="108"/>nales proprietates absolutas, quibus 
+          consti<lb break="no" ed="#P" n="109"/>tuantur: Servatur tamen cum proportione
+          <lb ed="#P" n="110"/>quoad fieri potest, et quantum requirit vera
+          <pb ed="#P" n="669"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>relatio originis. Et ideo processio Spiritus sancti
+          <lb ed="#P" n="2"/>terminatur ad Patrem et Filium, non ut 
+          affec<lb break="no" ed="#P" n="3"/>tos (ut sic dicam), relatione spirationis 
+          resul<lb break="no" ed="#P" n="4"/>tantis in eis ex productione Spiritus sancti, sed
+          <lb ed="#P" n="5"/>ut constitutos personaliter suis proprus 
+          rela<lb break="no" ed="#P" n="6"/>tionibus, in ratione unius principii Spiritus
+          <lb ed="#P" n="7"/>sancti.
+        </p>
+        <p xml:id="szduep-168601-d1e787">
+          <lb ed="#P" n="8"/>12. Haec autem differentia non est tantum
+          <lb ed="#P" n="9"/>in processione comparata cum spiratione, sed
+          <lb ed="#P" n="10"/>etiam respectu Paternitatis et Filiationis, 
+          quam<lb break="no" ed="#P" n="11"/>vis non omnino eodem modo. Et ita in hoc 
+          e<lb break="no" ed="#P" n="12"/>tiam est aliquod discrimen inter spirationem
+          <lb ed="#P" n="13"/>activam ex una parte et Paternitatem, et 
+          Filia<lb break="no" ed="#P" n="14"/>tionem ex alia. Nam revera Paternitas habet
+          <lb ed="#P" n="15"/>pro termino Filium, ut sic constitutum per 
+          ip<lb break="no" ed="#P" n="16"/>sam Filiationem, et e converso, Filiatio habet
+          <lb ed="#P" n="17"/>pro primario termino Patrem, ut constitutum
+          <lb ed="#P" n="18"/>ipsamet Paternitate. Atque adeo una est 
+          for<lb break="no" ed="#P" n="19"/>malis terminus alterius et e converso. hatio
+          <lb ed="#P" n="20"/>est, quia in his personis eadem relatio est, quae
+          <lb ed="#P" n="21"/>constituit personam et relativum, seu 
+          correla<lb break="no" ed="#P" n="22"/>tivum, et ideo necesse est, ut eadem 
+          proprie<lb break="no" ed="#P" n="23"/>tas, quae est correlatio alterius, sit etiam 
+          ter<lb break="no" ed="#P" n="24"/>minus ejus : sicut etiam de spiratione activa
+          <lb ed="#P" n="25"/>dicebamus, quae in hoc convenit cum 
+          paterni<lb break="no" ed="#P" n="26"/>tate et Filiatione. At vero processio non habet
+          <lb ed="#P" n="27"/>pro termino spiratorem, ut constitutum 
+          for<lb break="no" ed="#P" n="28"/>maliter opposita relatione spirationis activae,
+          <lb ed="#P" n="29"/>sed ut constitutum personaliter prioribus 
+          re<lb break="no" ed="#P" n="30"/>lationibus, ut declaratum est. Quod totum 
+          pro<lb break="no" ed="#P" n="31"/>venit ex eo, quod spiratio activa non est 
+          rela<lb break="no" ed="#P" n="32"/>tio constitutiva personae, sicut sunt aliae. 
+          At<lb break="no" ed="#P" n="33"/>que omnia haec notanda sunt, quia conferunt
+          <lb ed="#P" n="34"/>ad distinctius concipiendas proprietates 
+          singu<lb break="no" ed="#P" n="35"/>larum personarum, et ab intelligenda multa,
+          <lb ed="#P" n="36"/>quae in sequentibus tractanda sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

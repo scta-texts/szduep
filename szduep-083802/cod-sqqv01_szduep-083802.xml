@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="330"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-083802"><!-- t2-l2c5 -->
+        <head xml:id="szduep-083802-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-083802-Hd1e103" type="question-title">Utrum ex operibus, que homo facturus esset, si in alio statu constitueretur, sumi possit ratio praesentis praedestinationis, etiamsi talia opera absolute nunquam futura sint ubi de praedestinatione infantium praesertim disseritur</head>
+        <p xml:id="szduep-083802-d1e106">
+          <pb ed="#P" n="330"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT V.
+          <lb ed="#P" n="2"/>UTRUM EX OPERIBUS, QUE HOMO FACTURUS ESSET,
+          <lb ed="#P" n="3"/>SI IN ALIO STATU CONSTITUERETUR, SUMI POSSIT
+          <lb ed="#P" n="4"/>RATIO PRAESENTIS PRAEDESTINATIONIS, ETIAMSI
+          <lb ed="#P" n="5"/>TALIA OPERA ABSOLUTE NUNQUAM FUTURA SINT 
+          <lb ed="#P" n="6"/>UBI DE PRAEDESTINATIONE INFANTIUM PRAESERTIM
+          <lb ed="#P" n="7"/>DISSERITUR.
+        </p>
+        <p xml:id="szduep-083802-d1e128">
+          <lb ed="#P" n="8"/>1. Occasio quaestionis ex causa infantium.—
+          <lb ed="#P" n="9"/>Unum ex praecipuis argumentis. quo 
+          Augusti<lb break="no" ed="#P" n="10"/>nus uti solet ad excludendam omnem causam
+          <lb ed="#P" n="11"/>praedestinationis ex parte hominis 
+          praedesti<lb break="no" ed="#P" n="12"/>nati, sumitur ex causa infantium. Videmus
+          <lb ed="#P" n="13"/>enim mirabilem in eis diversitatem, non 
+          so<lb break="no" ed="#P" n="14"/>lum. quia multi salvantur, alii non salvantur
+          <lb ed="#P" n="15"/>sine propriis meritis : verum etiam. quia 
+          qui<lb break="no" ed="#P" n="16"/>busdam singulari Dei providentia procuratur
+          <lb ed="#P" n="17"/>salutis remedium, dum in hac vita 
+          conservan<lb break="no" ed="#P" n="18"/>tur. donec baptizentur, etiamsi necesse sit vel
+          <lb ed="#P" n="19"/>miraculose eos conservare. vel speciali 
+          provi<lb break="no" ed="#P" n="20"/>dentia ministros Sacramentorum adducere,
+          <lb ed="#P" n="21"/>aut aquam praeparare vel quidpiam simile.
+          <lb ed="#P" n="22"/>Alii vero ita videntur destituti ut praemature
+          <lb ed="#P" n="23"/>rapiantur. priusquam baptizentur. vel baptizari
+          <lb ed="#P" n="24"/>possint. Haec autem diversitas non potuit non
+          <lb ed="#P" n="25"/>esse praescita et aliquo modo praedestinata. vel
+          <lb ed="#P" n="26"/>permissa a Deo, id est, praedestinata ex parte
+          <lb ed="#P" n="27"/>eorum qui salvantur, permissa ex parte 
+          eo<lb break="no" ed="#P" n="28"/>rum, qui condemnantur : et tamen in eis non
+          <lb ed="#P" n="29"/>invenitur diversitas meritorum vita 
+          praete<lb break="no" ed="#P" n="30"/>ritae. qua nulla fuit, ut vidimus; nec etiam
+          <lb ed="#P" n="31"/>vitae praesentis, quia in illa nunquam usuri sunt
+          <lb ed="#P" n="32"/>ratione, ut mereri possint; nec denique vitae
+          <lb ed="#P" n="33"/>post hanc futurae, quia status illius vitae non
+          <lb ed="#P" n="34"/>est merendi. sed obtinendi premium 
+          merito<lb break="no" ed="#P" n="35"/>rum. Unde actiones futurae in illa vita in 
+          Sanc<lb break="no" ed="#P" n="36"/>tis praedestinatis. non sunt causa, sed potius
+          <lb ed="#P" n="37"/>fructus et quasi ultimus effectus 
+          praedestinatio<lb break="no" ed="#P" n="38"/>nis eorum. Hinc ergo concludit Augustinus,
+          <lb ed="#P" n="39"/>in infantibus.esse clarissimam gratuitam 
+          prae<lb break="no" ed="#P" n="40"/>destinationem absque causa morali ex parte
+          <lb ed="#P" n="41"/>illorum, ut videre licet in libris de Praedest.
+          <lb ed="#P" n="42"/>Sanct.. et de Bono persever., et passim contra
+          <lb ed="#P" n="43"/>Pelagianos.
+        </p>
+        <p xml:id="szduep-083802-d1e209">
+          <lb ed="#P" n="44"/>2. Error Semipelagianorum. — Ad 
+          fugien<lb break="no" ed="#P" n="45"/>dam ergo vim hujus discursus, dixerunt 
+          Semi<lb break="no" ed="#P" n="46"/>pelagiani, Deum non tantum cognoscere quod
+          <lb ed="#P" n="47"/>infantes facturi sint in hac vita mortali, eo
+          <lb ed="#P" n="48"/>brevit tempore, quo vivunt, sed etiam quid
+          <lb ed="#P" n="49"/>essent acturi, si diutius vixissent, et ad 
+          aeta<lb break="no" ed="#P" n="50"/>tem adultam pervenissent. Ex illis ergo 
+          ope<lb break="no" ed="#P" n="51"/>ribus reddebant causam praedestinationis 
+          eo<lb break="no" ed="#P" n="52"/>rum, quibus remedia salutis applicantur. Nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>praescivit Deus. optima merita fuisse 
+          habitu<lb break="no" ed="#P" n="54"/>TOs. si vixissent et propter illa eos 
+          praedestina<lb break="no" ed="#P" n="55"/>vit. Ita referunt Prosper et Hilarius in 
+          Episto<lb break="no" ed="#P" n="56"/>lis ad Augustinum, quae ante librum de 
+          Prae<lb break="no" ed="#P" n="57"/>destinatione Sanctorum habentur. Et idem
+          <lb ed="#P" n="58"/>supponit idem Augustinus. libro de Praedestin.
+          <lb ed="#P" n="59"/>sanctor.. cap. 12 et 13, et libro de Bono 
+          per<lb break="no" ed="#P" n="60"/>sever.. cap. 9 et 10, et Epist. 105 et 106. et
+          <lb ed="#P" n="61"/>iterum Prosper, lib. 1. de Vocat. Gent.. cap. 7,
+          <lb ed="#P" n="62"/>alias 22. Sunt etiam, qui asserant, Pelagium
+          <lb ed="#P" n="63"/>antea in eadem sententia fuisse, sed hoc non
+          <lb ed="#P" n="64"/>constat. nec a dictis Patribus refertur. Quin
+          <lb ed="#P" n="65"/>potius Augustinus, de Praedestin. Sanctor.,
+          <lb ed="#P" n="66"/>cap. 13 et 14. diserte negat Pelagium id 
+          sen<lb break="no" ed="#P" n="67"/>sisse, vel esse consequens ad ejus doctrinam.
+          <lb ed="#P" n="68"/>Idemque repetit, lib. 1, de Anim. et ejus 
+          ori<lb break="no" ed="#P" n="69"/>gine. cap. 12. Quisquis autem fuerit hujus 
+          sen<lb break="no" ed="#P" n="70"/>tentiae auctor, in hoc videtur cum Origene
+          <lb ed="#P" n="71"/>convenisse, quod putavit, ad justitiam Dei 
+          per<lb break="no" ed="#P" n="72"/>tinere. ut illa diversitas non fiat a Deo pro
+          <lb ed="#P" n="73"/>sola sua voluntate, sed necessario 
+          supponen<lb break="no" ed="#P" n="74"/>dum esse ex parte infantium diversitatem 
+          ali<lb break="no" ed="#P" n="75"/>quam meritorum, ut liberetur Deus a 
+          perso<lb break="no" ed="#P" n="76"/>narum acceptione. Unde quia de facto nulla
+          <lb ed="#P" n="77"/>poterant invenire merita in parvulis, 
+          confuge<lb break="no" ed="#P" n="78"/>runt ad illa, quae habituri essent, si diutius
+          <lb ed="#P" n="79"/>viverent.
+        </p>
+        <p xml:id="szduep-083802-d1e293">
+          <lb ed="#P" n="80"/>3. Nec solum in parvulis, verum etiam in
+          <lb ed="#P" n="81"/>multis adultis rationem et causam 
+          praedestina<lb break="no" ed="#P" n="82"/>tionis ad similia conditionata merita 
+          revoca<lb break="no" ed="#P" n="83"/>bant. Nam licet alio modo etiam erraverint
+          <lb ed="#P" n="84"/>Semipelagiani, ponendo causam omnium 
+          pro<lb break="no" ed="#P" n="85"/>priorum effectuum praedestinationis, ex parte
+          <lb ed="#P" n="86"/>liberi arbitrii, et in aliquo actu ejus, futuro
+          <lb ed="#P" n="87"/>aliquando. et a Deo absolute praeviso, ante 
+          to<lb break="no" ed="#P" n="88"/>tam praedestinationem, ut infra videbimus :
+          <lb ed="#P" n="89"/>nihilominus tamen. posuerunt meritum illud
+          <lb ed="#P" n="90"/>conditionate praevisum concurrere aliquo 
+          mo<lb break="no" ed="#P" n="91"/>do ad causam praedestinationis. Duplex enim
+          <lb ed="#P" n="92"/>differentia inter homines, qui salvantur et
+          <lb ed="#P" n="93"/>damnantur considerari potest, non quod 
+          utra<lb break="no" ed="#P" n="94"/>que inter omnes intercedat , sed quaedam in
+          <lb ed="#P" n="95"/>his, alia in aliis. Una est, quia quibusdam
+          <lb ed="#P" n="96"/>praedicatur Evangelium, seu fides, alis, non
+          <lb ed="#P" n="97"/>praedicatur, nec ad ipsam fidem sufficienter
+          <lb ed="#P" n="98"/>excitantur exterius. Alia est, quod ex his, 
+          qui<lb break="no" ed="#P" n="99"/>bus annuntiatur fides, quidam credunt, ali
+          <lb ed="#P" n="100"/>non credunt : et huc etiam spectat, quod ex
+          <lb ed="#P" n="101"/>credentibus, quidam poenitentiam agunt, ali
+          <lb ed="#P" n="102"/>non agunt, et ex agentibus poenitentiam, ali
+          <lb ed="#P" n="103"/>perseverant usque in finem, alii non 
+          perseve<lb break="no" ed="#P" n="104"/>rant. Quoad hanc ergo totam posteriorem 
+          di<lb break="no" ed="#P" n="105"/>versitatem ponebant ipsi causam in aliquo
+          <lb ed="#P" n="106"/>bono affectu, vel conatu liberi arbitrii, qui in
+          <lb ed="#P" n="107"/>re ipsa tempore, vel natura praecedit et in
+          <pb ed="#P" n="331"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aeternitate praevisus est a Deo scientia visionis
+          <lb ed="#P" n="2"/>ante initium praedestinationis : de qua parte
+          <lb ed="#P" n="3"/>hujus erroris dicemus postea.
+        </p>
+        <p xml:id="szduep-083802-d1e367">
+          <lb ed="#P" n="4"/>4. Primam vero diversitatem non poterant
+          <lb ed="#P" n="5"/>in universum revocare in bonum usum 
+          antece<lb break="no" ed="#P" n="6"/>dentem ipsam praedicationem Evangelii. Ouia
+          <lb ed="#P" n="7"/>licet possit interdum praecedere, ut illi 
+          puta<lb break="no" ed="#P" n="8"/>bant, et alii de Cornelio Centurione 
+          existima<lb break="no" ed="#P" n="9"/>runt, Act. 10, tamen non est id necessarium,
+          <lb ed="#P" n="10"/>nec ipsimet Pelagiani id dicere ausi sunt. Nam
+          <lb ed="#P" n="11"/>est evidens, saepissime praedicatum esse 
+          Evan<lb break="no" ed="#P" n="12"/>gelium impiis et sceleratis, juxta illud : 
+          uven<lb break="no" ed="#P" n="13"/>tus swn a non querentibus me. Et inter varias
+          <lb ed="#P" n="14"/>gentes, eeque infideles et iniquas, quibusdam
+          <lb ed="#P" n="15"/>praedicari citius, aliis tardius, aliis nunquam.
+          <lb ed="#P" n="16"/>Hanc ergo diversitatem attribuebant operibus
+          <lb ed="#P" n="17"/>talium hominum, non quae praedicationem
+          <lb ed="#P" n="18"/>Evangelii antecederent, sed quae essent 
+          subse<lb break="no" ed="#P" n="19"/>cutura, si fieret, his enim non praedicari 
+          dice<lb break="no" ed="#P" n="20"/>bant, quia credituri non essent, licet 
+          praedi<lb break="no" ed="#P" n="21"/>caretur : illis vero praedicari, quia praevisi
+          <lb ed="#P" n="22"/>sunt credituri, his vero citius, quia in hoc 
+          tem<lb break="no" ed="#P" n="23"/>pore isti credituri erant, alii in alio. Unde 
+          ne<lb break="no" ed="#P" n="24"/>cesse est ut talis praescientia conditionata 
+          tan<lb break="no" ed="#P" n="25"/>tum fuerit, quia in illo signo nondum Deus
+          <lb ed="#P" n="26"/>decreverat, ut talibus hominibus praedicaretur
+          <lb ed="#P" n="27"/>Evangelium. Ergo nec per absolutam 
+          scien<lb break="no" ed="#P" n="28"/>tiam praevidere poterat bonum usum, sen 
+          effec<lb break="no" ed="#P" n="29"/>tum talis praedicationis, ut jam praesentem in
+          <lb ed="#P" n="30"/>eeternitate, quia haec praescientia supponit illud
+          <lb ed="#P" n="31"/>decretum : ergo solum esse poterat 
+          praescien<lb break="no" ed="#P" n="32"/>tia conditionata, qua Deus praescivit, si talibus
+          <lb ed="#P" n="33"/>hominibus dedero praedicationem, bono affectu
+          <lb ed="#P" n="34"/>illam recipient, Unde obiter intelligitur, 
+          bo<lb break="no" ed="#P" n="35"/>num motum naturalem erga doctrinam fidei,
+          <lb ed="#P" n="36"/>per externam praedicationem propositam, 
+          du<lb break="no" ed="#P" n="37"/>pliciter esse positum ab istis causam 
+          praedesti<lb break="no" ed="#P" n="38"/>nationis. Primo, respectu antecedentis 
+          praedi<lb break="no" ed="#P" n="39"/>cauonis Evangelii. ut conditionaliter 
+          praevi<lb break="no" ed="#P" n="40"/>sum : secundo, respectu subsequentis gratise,
+          <lb ed="#P" n="41"/>quam faciebant pedissequam liberi arbitri,
+          <lb ed="#P" n="42"/>ratione hujus praevii boni affectus, seu 
+          cona<lb break="no" ed="#P" n="43"/>tus. Quae omnia satis collisuntur ex Augustino,
+          <lb ed="#P" n="44"/>locis citatis, nam licet non tam clare et 
+          dis<lb break="no" ed="#P" n="45"/>tincte referantur, tamen revera haec fuit 
+          illo<lb break="no" ed="#P" n="46"/>rum sententia, et ex eodem fundamento, quia
+          <lb ed="#P" n="47"/>putabant non posse aliter vitari in Deo 
+          accep<lb break="no" ed="#P" n="48"/>tionem personarum.
+        </p>
+        <p xml:id="szduep-083802-d1e467">
+          <lb ed="#P" n="49"/>5. Expeditur error Semipelagianorum.— In
+          <lb ed="#P" n="50"/>hac vero Semipelagianorum sententia. tria vel
+          <lb ed="#P" n="51"/>quatuor notari possunt. Primum est. quod Deo
+          <lb ed="#P" n="52"/>tribuebant illam conditionatam scientiam de
+          <lb ed="#P" n="53"/>futuris actibus liberi arbitrii, ante totum 
+          de<lb break="no" ed="#P" n="54"/>cretum praedestinationis. Et inter alia hoc 
+          e<lb break="no" ed="#P" n="55"/>tiam in Semipelagianis nonnulli moderni re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prehendere non dubitarunt. Imo etiam 
+          dixe<lb break="no" ed="#P" n="57"/>runt, illud fuisse inventum Pelagii aut 
+          reli<lb break="no" ed="#P" n="58"/>quiarum ejus, ut libertati arbitrii causam
+          <lb ed="#P" n="59"/>omnis boni tribuerent. Verumtamen neque
+          <lb ed="#P" n="60"/>Augustinus, nec Prosper, vel Hilarius, neque
+          <lb ed="#P" n="61"/>D. Thomas, aut aliquis ex antiquis theologis,
+          <lb ed="#P" n="62"/>ex hoccapitereprehendit Semipelagianos,quod
+          <lb ed="#P" n="63"/>Deo hanc scientiam attribuerint, sed ex hoc,
+          <lb ed="#P" n="64"/>quod male illa usi fuerint, ut mox dicemus.
+          <lb ed="#P" n="65"/>Non est ergo haec scientia a Semipelagianis 
+          in<lb break="no" ed="#P" n="66"/>venta, sed in Scriptura sacra est praedicata, et a
+          <lb ed="#P" n="67"/>sanctis Patribus recognita, ut alibi est 
+          osten<lb break="no" ed="#P" n="68"/>sum. Unde sicut Sripturam sacram non 
+          infa<lb break="no" ed="#P" n="69"/>mant haeretici, eo quod ad errores fundandos
+          <lb ed="#P" n="70"/>illa abutantur, ita nec cedit in illius scientiae
+          <lb ed="#P" n="71"/>infamiam, quod Semipelagiani illam 
+          agnove<lb break="no" ed="#P" n="72"/>rint et crediderint, etiam si male usi fuerint
+          <lb ed="#P" n="73"/>illa, quod videndum superest.
+        </p>
+        <p xml:id="szduep-083802-d1e526">
+          <lb ed="#P" n="74"/>6. Secundo ergo notari potest in illa 
+          sen<lb break="no" ed="#P" n="75"/>tentia, quod illa opera, quae sub conditione
+          <lb ed="#P" n="76"/>praevisa ponebant, ut causam 
+          praedestinatio<lb break="no" ed="#P" n="77"/>nis ad totam gratiam et gloriam, dicebant 
+          es<lb break="no" ed="#P" n="78"/>se opera, quae futura fuissent a libero arbitrio,
+          <lb ed="#P" n="79"/>suis viribus et sine adjutorio gratisee operante.
+          <lb ed="#P" n="80"/>Quae, quoad hanc partem coincidit cum 
+          haere<lb break="no" ed="#P" n="81"/>si Pelagiana et cum alia parte ejusdem 
+          Semi<lb break="no" ed="#P" n="82"/>pelagiani erroris, quod bonus affectus moralis
+          <lb ed="#P" n="83"/>ad fidem exterius praedicatam, sit initium 
+          sa<lb break="no" ed="#P" n="84"/>lutis et causa primae gratie auxiliantis, quae
+          <lb ed="#P" n="85"/>homini tribuitur. Qui error ex professo infra
+          <lb ed="#P" n="86"/>tractandus est et impugnandus: et quae ibi 
+          di<lb break="no" ed="#P" n="87"/>centur, a fortiori procedent contra hanc 
+          par<lb break="no" ed="#P" n="88"/>tem hujus erroris, ideoque plura de illa hic
+          <lb ed="#P" n="89"/>dicere non est necesse.
+        </p>
+        <p xml:id="szduep-083802-d1e563">
+          <lb ed="#P" n="90"/>7. Deum neminem judicare ez meritis solum
+          <lb ed="#P" n="91"/>sub conditione futuris. — Tertio ergo: notatur
+          <lb ed="#P" n="92"/>in Semipelagianis, quod actionibus nunquam
+          <lb ed="#P" n="93"/>futuris, vel solum sub conditione futuris, 
+          ve<lb break="no" ed="#P" n="94"/>rum rationem meriti et moralis causalitatis
+          <lb ed="#P" n="95"/>tribuerent. et hic error est, qui proprie ad hunc
+          <lb ed="#P" n="96"/>locum pertinet, quemque Augustinus maxime
+          <lb ed="#P" n="97"/>in his haereticis admiratur, ac reprehendtt.
+          <lb ed="#P" n="98"/>Summa rationum ejus est. Primo, quia si Deus
+          <lb ed="#P" n="99"/>judicaret hominem ex operibus, quae nunquam
+          <lb ed="#P" n="100"/>commissurus est, quiailla commissurus fuisset
+          <lb ed="#P" n="101"/>si permittetur : falso dixisset apostolus: Eefert
+          <lb ed="#P" n="102"/>unusquisque. prout gessit in corpore suo. Quia
+          <lb ed="#P" n="103"/>etiam refert, prout non gessit, sed gesturus
+          <lb ed="#P" n="104"/>esset. si durasset in corpore. Secundo parum
+          <lb ed="#P" n="105"/>referret ponderatio Pauli: Anfeguam quidguid
+          <lb ed="#P" n="106"/>boni, vel mali egissent, maleque intulisset, non
+          <lb ed="#P" n="107"/>ex operibus, sed ez cocante : quia potuisset 
+          dis<lb break="no" ed="#P" n="108"/>crimen fundari in operibus, quae facturi 
+          es<lb break="no" ed="#P" n="109"/>sent, si hoc, vel illud facere permitterentur.
+          <lb ed="#P" n="110"/>Tertio, frustra propter electos breviarentur dies
+          <pb ed="#P" n="332"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>persecutionis Antichristi, ut dicitur Matth., 24
+          <lb ed="#P" n="2"/>capite, quia non propterea minus puniendi 
+          es<lb break="no" ed="#P" n="3"/>sent, propter peccata, quae commissuri essent,
+          <lb ed="#P" n="4"/>si persecutio duraret, et tamen Christus ait,
+          <lb ed="#P" n="5"/>propter electos breviandos esse dies illos, 
+          uti<lb break="no" ed="#P" n="6"/>que, ut salventur: quia nisi breviati fuissent,
+          <lb ed="#P" n="7"/>non fieret salva omnis caro. Quarto, quia alias
+          <lb ed="#P" n="8"/>praematura mors, qua homo divina 
+          providen<lb break="no" ed="#P" n="9"/>tia praevenitur tempore, quo est justus, nea
+          <lb ed="#P" n="10"/>gratia cadat, non esset divinum beneficium,
+          <lb ed="#P" n="11"/>quia nihilominus puniendus esset propter 
+          pec<lb break="no" ed="#P" n="12"/>cata, quae commissurus esset, si viveret. 
+          Con<lb break="no" ed="#P" n="13"/>sequens autem est contra illud Sap. 4: Maptus
+          <lb ed="#P" n="14"/>est, ne malitia mutaret intellectum ejus. Quo
+          <lb ed="#P" n="15"/>testimonio saepe ad rem hanc utitur 
+          Augusti<lb break="no" ed="#P" n="16"/>nus, de Correption. et Grat., cap. 8, hb. 2,
+          <lb ed="#P" n="17"/>contra duas Epistolas Pelagian. , cap. 7, de
+          <lb ed="#P" n="18"/>Anim. et ejus origine, cap. 12, et libro de
+          <lb ed="#P" n="19"/>Praedestinatione Sanctorum, cap. 14, 
+          speciah<lb break="no" ed="#P" n="20"/>ter ostendit, et illud esse canonicum, et 
+          authen<lb break="no" ed="#P" n="21"/>ticum, et illo ad eamdem rem fuisse usum
+          <lb ed="#P" n="22"/>Cypriani , lib. de Mortalit., sub fine. Et 
+          su<lb break="no" ed="#P" n="23"/>mi potest ex Hieronymo, dialogo tertio, 
+          con<lb break="no" ed="#P" n="24"/>tra Pelagian. , Gregorio , 27, Moral., capite
+          <lb ed="#P" n="25"/>secundo, Nyssenio, orat. de Infan., qui 
+          prae<lb break="no" ed="#P" n="26"/>mature rapiuntur., Prospero, dicto libro 
+          pri<lb break="no" ed="#P" n="27"/>mo, de Vocatione Gent. , vigint-uno 
+          ca<lb break="no" ed="#P" n="28"/>pite.
+        </p>
+        <p xml:id="szduep-083802-d1e676">
+          <lb ed="#P" n="29"/>8. Evasio. — Refellitur. — Dicerent tamen
+          <lb ed="#P" n="30"/>fortasse adversarii, hujusmodi opera, quae 
+          prae<lb break="no" ed="#P" n="31"/>videntur tantum futura si homo viveret, non
+          <lb ed="#P" n="32"/>esse quidem sufficientem causam, quae 
+          obli<lb break="no" ed="#P" n="33"/>get divinam justitiam ad reddendum homini
+          <lb ed="#P" n="34"/>praemium, vel poenam condignam, talibus 
+          o<lb break="no" ed="#P" n="35"/>peribus reddendam, si fierent, esse tamen posse
+          <lb ed="#P" n="36"/>rationem sufficientem ad denegandam gratiam
+          <lb ed="#P" n="37"/>aliquam, et e converso si opera sint bona, posse
+          <lb ed="#P" n="38"/>esse causam non cogentem, ut ita dicam, sed
+          <lb ed="#P" n="39"/>aliquo modo inducentem ad gratiam 
+          confe<lb break="no" ed="#P" n="40"/>rendam. At enim, si isti solum intelligerent,
+          <lb ed="#P" n="41"/>haec opera sic conditionaliter praecognita posse
+          <lb ed="#P" n="42"/>movere per modum finis, vel ad dandam 
+          gra<lb break="no" ed="#P" n="43"/>tiam qua bona fiant, vel ad tollendam 
+          occa<lb break="no" ed="#P" n="44"/>sionem, et si necesse sit, vitam, ne mala fiant,
+          <lb ed="#P" n="45"/>nulla esset nobis cum illis disceptatio: nam et
+          <lb ed="#P" n="46"/>Paulus dixit , elegit nos, ut essemus Sancti, et
+          <lb ed="#P" n="47"/>Sapiens dixit: Raptus est, ne malitia mutaret
+          <lb ed="#P" n="48"/>intellectum ejus. Ex uterque ostendit, hunc 
+          es<lb break="no" ed="#P" n="49"/>se proximum finem a Deo intentum per hoc
+          <lb ed="#P" n="50"/>genus providentiae. Et hoc sensu interdum 
+          u<lb break="no" ed="#P" n="51"/>tuntur Patres consideratione illorum operum,
+          <lb ed="#P" n="52"/>ut reddant rationem divinae providentiae erga
+          <lb ed="#P" n="53"/>infantes, ut videre licet in Nysseno supra.
+          <lb ed="#P" n="54"/>Et Augustinus aliquando ex illis sumpsit 
+          ra<lb break="no" ed="#P" n="55"/>tionem Adventus Christi Domini in hoc tem-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pore potius, quam in alio, ut libro de 
+          Sex<lb break="no" ed="#P" n="57"/>quaesitonibus, contra Paganos, quaest. 2. Quam
+          <lb ed="#P" n="58"/>non omnino reprobat, libro de 
+          Praedestinatio<lb break="no" ed="#P" n="59"/>ne Sanctorum, cap. 9, sed dicit non esse 
+          pri<lb break="no" ed="#P" n="60"/>mariam rationem, sed revocandam esse ad
+          <lb ed="#P" n="61"/>gratuitam Dei electionem. Quod in Nysseno t
+          <lb ed="#P" n="62"/>aliis Patribus observandum est.
+        </p>
+        <p xml:id="szduep-083802-d1e755">
+          <lb ed="#P" n="63"/>9. At Semipelagiani non potuerunt in hoc
+          <lb ed="#P" n="64"/>sensu loqui, praesertim in causa infantium,
+          <lb ed="#P" n="65"/>quia talia opera nunquam futura sunt in eis:
+          <lb ed="#P" n="66"/>eorum sententia, dicebant enim, Deum ante
+          <lb ed="#P" n="67"/>adultam aetatem Tapere infantem, qui
+          <lb ed="#P" n="68"/>facturus esset, si ad illam aetatem perveniret 5i
+          <lb ed="#P" n="69"/>propter illa justificando illum, non tamen 
+          gra<lb break="no" ed="#P" n="70"/>tiam illi praeparando, ut illa faciat, quae 
+          nun<lb break="no" ed="#P" n="71"/>quam facturus est, non ergo sunt finis alicujus Is
+          <lb ed="#P" n="72"/>gratiae collatae, sed meritum. Similiter, qum,
+          <lb ed="#P" n="73"/>quem vidit male operaturum , non ut ma a
+          <lb ed="#P" n="74"/>opera non faceret, illum rapuit, sed pu
+          <lb ed="#P" n="75"/>gratiam illi denegavit, quia mala factu£us e
+          <lb ed="#P" n="76"/>set, si viveret. Unde omnino volebant hade e
+          <lb ed="#P" n="77"/>gratiae collationem, vel denegationem esse 
+          re<lb break="no" ed="#P" n="78"/>tributionem operum sic praevisorum sub con
+          <lb ed="#P" n="79"/>ditione, etiamsi nunquam futura sint, nec pu
+          <lb ed="#P" n="80"/>tabant aliter posse reddi rationem justae e
+          <lb ed="#P" n="81"/>dentiae erga infantes. Merito ergo ab Augustinc
+          <lb ed="#P" n="82"/>impugnantur, ex illo principio, quod Deus nor
+          <lb ed="#P" n="83"/>judicat homines, nec punit, vel praemiat il
+          <lb ed="#P" n="84"/>ex talibus operibus: Quod primo aperte colh
+          <lb ed="#P" n="85"/>gitur ex Scripturis citatis. Ratio autem a pri
+          <lb ed="#P" n="86"/>ri est, quia conditionalis, ut aiunt, nihil poi
+          <lb ed="#P" n="87"/>in esse : hec autem pue tantium conditiona
+          <lb ed="#P" n="88"/>liter praesciuntur futura: ergo nihil ponunt in
+          <lb ed="#P" n="89"/>homine: ergo non reddunt illum poena, vel
+          <lb ed="#P" n="90"/>praemio din Injustum enim esset, ibs
+          <lb ed="#P" n="91"/>Iutam (ut sic dicam) seu realem et existent en
+          <lb ed="#P" n="92"/>poenam imponere, propter opera conditiona
+          <lb ed="#P" n="93"/>et concepta potius seu possibilia, quam ex :
+          <lb ed="#P" n="94"/>tentia, vel futura. Unde etiam de
+          <lb ed="#P" n="95"/>fert Augustinus, quod interrogatus, cur
+          <lb ed="#P" n="96"/>creaverit hominem, vel angelum, quem pra
+          <lb ed="#P" n="97"/>sciebat peccaturum : respondit, quia injustun
+          <lb ed="#P" n="98"/>videretur illos punire, propter opera nunqu an
+          <lb ed="#P" n="99"/>futura: talia enim essent illa peccata sub con
+          <lb ed="#P" n="100"/>ditione praevisa, si Deus decrevisset, neque
+          <lb ed="#P" n="101"/>minem, neque angelum ereare ; quam respor
+          <lb ed="#P" n="102"/>sionem Augustinus laudat. Eadem ergo ratic
+          <lb ed="#P" n="103"/>ne, opera bona nunquam futura non su
+          <lb ed="#P" n="104"/>aliqua retributione digna. Accedit,
+          <lb ed="#P" n="105"/>quovis homine praescit Deus bene operat  :
+          <lb ed="#P" n="106"/>cum his circumstantiis et male cum aliis : erg
+          <lb ed="#P" n="107"/>quoad has conditionales est quaedam equit
+          <lb ed="#P" n="108"/>inter ipsos homines : erg. ex illis non pote
+          <pb ed="#P" n="333"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sumi ratio diversae providentiae circa illos, sed
+          <lb ed="#P" n="2"/>divini fuit beneplaciti huic dare gratiam 
+          ac<lb break="no" ed="#P" n="3"/>commodatam, ut consequeretur salutem 
+          effti<lb break="no" ed="#P" n="4"/>caciter, non vero alteri. In quo nulla cernitur
+          <lb ed="#P" n="5"/>anjustitia , quia respectu praedestinati magna
+          <lb ed="#P" n="6"/>est gratia et beneficium : respectu vero alterius
+          <lb ed="#P" n="7"/>mnon esti injuria, quia non negatur aliquid 
+          de<lb break="no" ed="#P" n="8"/>bitum. Imo, si jam erat praevisum peccatum
+          <lb ed="#P" n="9"/>originale (ut Massilienses concedebant) ex illo
+          <lb ed="#P" n="10"/>isumitur suffticiens, ratio justitiae, maxime 
+          res<lb break="no" ed="#P" n="11"/>pectu parvulorum, qui non praedestinantur,
+          <lb ed="#P" n="12"/>iut infra suo loco dicemus.
+        </p>
+        <p xml:id="szduep-083802-d1e888">
+          <lb ed="#P" n="13"/>10. Ratio diversae providentiae circa infantes.
+          <lb ed="#P" n="14"/>— Atque ex his satis reprobatur est hic error
+          <lb ed="#P" n="15"/>et solutum ejus fundamentum, quantum ad
+          <lb ed="#P" n="16"/>infantes spectat. Ex quo recte quidem 
+          infer<lb break="no" ed="#P" n="17"/>tur, quaestionem hanc de causa 
+          praedestina<lb break="no" ed="#P" n="18"/>tionis ex parte hominis praedestinati, vel 
+          elec<lb break="no" ed="#P" n="19"/>tionis ex parte electi, nullum habere locum in
+          <lb ed="#P" n="20"/>his infantibus, qui ad aetatem adultam non
+          <lb ed="#P" n="21"/>perveniunt. Atque ita hoc argumento solet
+          <lb ed="#P" n="22"/>concludere Augustinus, in his parvulis 
+          dubi<lb break="no" ed="#P" n="23"/>tari non posse de gratuita, mereque libera Dei
+          <lb ed="#P" n="24"/>electione quorumdam prae aliis ad gloriam et
+          <lb ed="#P" n="25"/>efficacem gratiam. Quia non potest habere
+          <lb ed="#P" n="26"/>fundamentum in operibus eorum, sive 
+          antece<lb break="no" ed="#P" n="27"/>dentibus illorum conceptionem , quia nulla
+          <lb ed="#P" n="28"/>fuerunt ; sive sub conditione futuris, quia 
+          re<lb break="no" ed="#P" n="29"/>vera futura non sunt; sive absolute futuris
+          <lb ed="#P" n="30"/>aliquando, quia haec tantum futura sunt post
+          <lb ed="#P" n="31"/>hanc vitam, ubi nullum est meritum. At non
+          <lb ed="#P" n="32"/>defuerunt haeretici (teste eodem Augustino,
+          <lb ed="#P" n="33"/>Epistola 116) asserentes, habereinfantes in 
+          ute<lb break="no" ed="#P" n="34"/>ris maternis aliquos actus bonos, propter quos
+          <lb ed="#P" n="35"/>praedestinari possunt. Asserebantque 
+          exem<lb break="no" ed="#P" n="36"/>plum de Jacob, et Esau in ventre matris 
+          luc<lb break="no" ed="#P" n="37"/>tantibus, meliusque afferre possent de Joanne
+          <lb ed="#P" n="38"/>Baptistae in utero Elisabeth exultante. Et hunc
+          <lb ed="#P" n="39"/>verrorem, ferunt, etiam nunc haereticos nostri
+          <lb ed="#P" n="40"/>temporis excitasse.
+        </p>
+        <p xml:id="szduep-083802-d1e951">
+          <lb ed="#P" n="41"/>11. Infantes actus liberos non habere.—
+          Fa<lb break="no" ed="#P" n="42"/>le tamen hoc etiam subterfugium ab eodem
+          <lb ed="#P" n="43"/>Augustino eodem loco reftellitur: quia valde
+          <lb ed="#P" n="44"/>absurdum est, omnibus parvulis attribuere in
+          <lb ed="#P" n="45"/>lla aetate liberos, et humanos actus, cum usu
+          <lb ed="#P" n="46"/>rationis careant, sine quo actus liber et 
+          huma<lb break="no" ed="#P" n="47"/>aus exerceri non potest. Dicere tamen, 
+          om<lb break="no" ed="#P" n="48"/>aibus accelerari supernaturaliter usum 
+          ratio<lb break="no" ed="#P" n="49"/>ais, eisque interius fidem praedicari, sine 
+          exte<lb break="no" ed="#P" n="50"/>irius praedicante, non solum voluntarium est,
+          <lb ed="#P" n="51"/>sed etiam doctrinae fidei, et communi 
+          Eccle<lb break="no" ed="#P" n="52"/>ilae sensui contrarium, et Apostolo dicenti de
+          <lb ed="#P" n="53"/>lacob et Esau: Cum nondwm quidquam boni,
+          <lb ed="#P" n="54"/>oel mali egissent. Unde recte Augustinus supra
+          <lb ed="#P" n="55"/>de illis dixit: Luctam illorum in utero matris,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non fuisse arbitrium, sed prodigium. De 
+          Joan<lb break="no" ed="#P" n="57"/>ne autem Baptista, nos pie non Ambrosio et
+          <lb ed="#P" n="58"/>aliis Patribus credimus , exultationem ejus
+          <lb ed="#P" n="59"/>fuisse quidem arbitrium, sed non sine 
+          prodi<lb break="no" ed="#P" n="60"/>gio et speciali privilegio, ita tamen ut totum
+          <lb ed="#P" n="61"/>illud fuerit potius singularis praedestinationis
+          <lb ed="#P" n="62"/>eximius effectus, quam causa, sicut de adultis
+          <lb ed="#P" n="63"/>inferius dicemus. Quocirca etiamsi daremus,
+          <lb ed="#P" n="64"/>infantes habere in uteris maternis bonos 
+          ac<lb break="no" ed="#P" n="65"/>tus, si illi tales essent, quales ad pietatem et
+          <lb ed="#P" n="66"/>justitiam Christianam esse oportet, effectus 
+          es<lb break="no" ed="#P" n="67"/>sent praedestinationis, non causa: si vero tales
+          <lb ed="#P" n="68"/>non sunt et imperiissime finguntur contra
+          <lb ed="#P" n="69"/>omnem rationem naturalem, et sine 
+          testimo<lb break="no" ed="#P" n="70"/>nio divino, imo contra illud: et adhuc tales
+          <lb ed="#P" n="71"/>actus non possent esse praedestinationis causa
+          <lb ed="#P" n="72"/>eadem ratione, quanec in adultis esse possunt,
+          <lb ed="#P" n="73"/>ut infra ostendemus, est enim evidenter 
+          ea<lb break="no" ed="#P" n="74"/>dem utrorumque ratio.
+        </p>
+        <p xml:id="szduep-083802-d1e1029">
+          <lb ed="#P" n="75"/>12. Quamvis autem causa infantium 
+          quan<lb break="no" ed="#P" n="76"/>tum ad ipsos pertinet, sufficienter hoc modo
+          <lb ed="#P" n="77"/>concludatur, adhuc tamen superest difficultas,
+          <lb ed="#P" n="78"/>an ex parte eorum, sub quorum cura 
+          nascun<lb break="no" ed="#P" n="79"/>tur et moriuntur, sive parentes sint , sive 
+          tu<lb break="no" ed="#P" n="80"/>tores: sive in universum amici, aut 
+          benefacto<lb break="no" ed="#P" n="81"/>res, detur aliqua causa praedestinationis 
+          eo<lb break="no" ed="#P" n="82"/>rum. Certum est enim secundum finem, hos
+          <lb ed="#P" n="83"/>parvulos non salvari, nisi per Christi meritum
+          <lb ed="#P" n="84"/>eis applicatum. Certum item est, 
+          applicatio<lb break="no" ed="#P" n="85"/>nem hanc fieri oportere per aliquam actionem
+          <lb ed="#P" n="86"/>humanam et liberam alicujus hominis , qui
+          <lb ed="#P" n="87"/>pueri curam gerit, vel suscipit. Ex quo item
+          <lb ed="#P" n="88"/>est certum, illam voluntatem, seu 
+          cooperatio<lb break="no" ed="#P" n="89"/>nem liberam talis hominis adulti esse aliquo
+          <lb ed="#P" n="90"/>modo causam salutis parvuli, sive vocetur
+          <lb ed="#P" n="91"/>causa meritoria de congruo, quod necessarium
+          <lb ed="#P" n="92"/>non est, licet non repugnet, ut infra dicetur:
+          <lb ed="#P" n="93"/>sive vocetur ministerialis causa, ut revera est,
+          <lb ed="#P" n="94"/>et constat ex materia de Sacramentis : sive
+          <lb ed="#P" n="95"/>vocetur conditio sine qua non, quod satis ad
+          <lb ed="#P" n="96"/>praesens sufficit, quia negari non potest, quin
+          <lb ed="#P" n="97"/>eo modo, quo concurrit, sit causa morahs et
+          <lb ed="#P" n="98"/>valde conferens. De hac ergo causa salutis 
+          ex<lb break="no" ed="#P" n="99"/>plicandum superest, an sit etiam causa 
+          prae<lb break="no" ed="#P" n="100"/>destinationis vel electionis talis parvuli, qui
+          <lb ed="#P" n="101"/>cum effectu salvatur, vel potius sit electionis
+          <lb ed="#P" n="102"/>ejus, ac praedestinationis effectus. Et quoad
+          <lb ed="#P" n="103"/>hanc partem quaestio haec in parvulis 
+          eam<lb break="no" ed="#P" n="104"/>dem difficultatem, eamdemque rationem 
+          du<lb break="no" ed="#P" n="105"/>bitandi et decidendi habet, quam habet in
+          <lb ed="#P" n="106"/>adultis, et non pertinet ad praesentem 
+          dubita<lb break="no" ed="#P" n="107"/>tionem de meritis conditionatis, nunquam 
+          fu<lb break="no" ed="#P" n="108"/>turis, sed ad quaestionem de merito 
+          praedesti<lb break="no" ed="#P" n="109"/>nationis per aliquasactiones hujus vitae, et ideo
+          <lb ed="#P" n="110"/>infra commodius tractabitur.
+        </p>
+        <p xml:id="szduep-083802-d1e1110">
+          <pb ed="#P" n="334"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>13. Ultimus error Semipelagianorum 
+          impug<lb break="no" ed="#P" n="2"/>natur. —Superest, ut de altero membro 
+          perti<lb break="no" ed="#P" n="3"/>nente ad adultos, seu de quarto puncto, quod
+          <lb ed="#P" n="4"/>in hac sententia Semipelagianorum notari 
+          po<lb break="no" ed="#P" n="5"/>test, pauca dicamus. Asserebant enim etiam,
+          <lb ed="#P" n="6"/>in adultis dari posse aliquo modo causam 
+          prae<lb break="no" ed="#P" n="7"/>destinationis ex meritis eorum sub conditione
+          <lb ed="#P" n="8"/>praevisis, saltem quoad externam fidei, seu 
+          su<lb break="no" ed="#P" n="9"/>per naturalis doctrinae praedicationem, cui 
+          cau<lb break="no" ed="#P" n="10"/>sae tribuebant, quod uni provinciae, vel genti
+          <lb ed="#P" n="11"/>praedicetur Evangelium et non alteri. In quo
+          <lb ed="#P" n="12"/>praeter errorem supra in secundo puncto 
+          no<lb break="no" ed="#P" n="13"/>tatum, quod loquebantur de bono affectu a
+          <lb ed="#P" n="14"/>solis naturalibus viribus liberi arbitrii 
+          profec<lb break="no" ed="#P" n="15"/>to, (contra quem infra disputandum est): in
+          <lb ed="#P" n="16"/>eo etiam excedebant, quod eidem operi 
+          tribue<lb break="no" ed="#P" n="17"/>bant duplex praemium. Unam antecedens 
+          prae<lb break="no" ed="#P" n="18"/>scientiam absolutam talis operis, quod est 
+          prae<lb break="no" ed="#P" n="19"/>destinatio ad habendam praedicationem 
+          Evan<lb break="no" ed="#P" n="20"/>gelii, aliud subsequens absolutam 
+          praescien<lb break="no" ed="#P" n="21"/>tiam, quod est ipsa fides, vel corroboratio in
+          <lb ed="#P" n="22"/>illa, ita ut habeatur, sicut oportet. Nam quia
+          <lb ed="#P" n="23"/>Deus praesciebat hos hommnes bono affectu 
+          sus<lb break="no" ed="#P" n="24"/>cepturos Evangelium, si illis praedicaretur, 
+          de<lb break="no" ed="#P" n="25"/>crevit, ut illis praedicaretur, et ita ille effectus
+          <lb ed="#P" n="26"/>sic praevisus fuit ratio meritoria illius effectus
+          <lb ed="#P" n="27"/>exterioris gratiae. Postquam autem Deus 
+          de<lb break="no" ed="#P" n="28"/>crevit illis praedicari Evangelium: vidit in eis
+          <lb ed="#P" n="29"/>per scientiam visionis et absolutam, bonum
+          <lb ed="#P" n="30"/>affectum ad sacram doctrinam, vel aliquam
+          <lb ed="#P" n="31"/>etiam naturalem fidem, et propterea decrevit
+          <lb ed="#P" n="32"/>dare gratiam ad credendum sicut oportet. Hoc
+          <lb ed="#P" n="33"/>autem sine dubio est, ultra aequitatem 
+          justi<lb break="no" ed="#P" n="34"/>Use, quam isti maxime tueri profitebantur. Et
+          <lb ed="#P" n="35"/>praeterea ponebant praemium antecedere ad
+          <lb ed="#P" n="36"/>meritum , non solum in actuali existentia, sed
+          <lb ed="#P" n="37"/>etiam in absoluta praescientia Dei, quod esse
+          <lb ed="#P" n="38"/>contra veram rationem meriti, infra 
+          ostende<lb break="no" ed="#P" n="39"/>mus.
+        </p>
+        <p xml:id="szduep-083802-d1e1201">
+          <lb ed="#P" n="40"/>14. Denique quod ex talibus operibus non
+          <lb ed="#P" n="41"/>possit sumiratip meritoriadiscernendi electos a
+          <lb ed="#P" n="42"/>non clectis, facile ex dictis in praecedenti 
+          punc<lb break="no" ed="#P" n="43"/>to convincitur. Nam respectu eorum, qui 
+          cre<lb break="no" ed="#P" n="44"/>dituri non sunt, illa incredulitas, saltem ut 
+          vo<lb break="no" ed="#P" n="45"/>luntaria et culpabilis nunquam futura est:
+          <lb ed="#P" n="46"/>quia illis de facto non est praedicandum 
+          Evan<lb break="no" ed="#P" n="47"/>gelium, (ponitur enim in hypothesi ita Deum
+          <lb ed="#P" n="48"/>decrevisse) ergo juxta dicta , tale opus non 
+          po<lb break="no" ed="#P" n="49"/>test esse ratio demeritoria talis effectus. 
+          Res<lb break="no" ed="#P" n="50"/>pectu autem eorum credituri sunt, quamvis
+          <lb ed="#P" n="51"/>lides de facto sit futura, si Deus voluit illis 
+          prae<lb break="no" ed="#P" n="52"/>dicari Evangelium: tamen ut praevisa ante
+          <lb ed="#P" n="53"/>hanc voluntatem, non potuit esse ratio 
+          meri<lb break="no" ed="#P" n="54"/>toria talis praedicationis , quia ut sit non 
+          sup<lb break="no" ed="#P" n="55"/>ponebatur futura absolute, ergo tantum est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ratio finalis. Dat enim Deus praedicationem,
+          <lb ed="#P" n="57"/>ut credatur, tamen hoc ipsum supponit 
+          vo<lb break="no" ed="#P" n="58"/>Iuntatem et decretum Dei circa talem finem,
+          <lb ed="#P" n="59"/>quod non potuit in ipsomet fine fundari 
+          tan<lb break="no" ed="#P" n="60"/>quam in ratione meritoria.
+        </p>
+        <p xml:id="szduep-083802-d1e1252">
+          <lb ed="#P" n="61"/>15. Praeter haec omnia, sententia haec 
+          re<lb break="no" ed="#P" n="62"/>pugnat Scripturis : nam legimus saepe 
+          praedi<lb break="no" ed="#P" n="63"/>cari Evangelium his, qui non sunt credituri,
+          <lb ed="#P" n="64"/>ut praedixit Christus, Matth. 10, et Lucae 9, et
+          <lb ed="#P" n="65"/>accidisse legimus Actorum 13 et 18, et in 
+          ip<lb break="no" ed="#P" n="66"/>samet Christi praedicatione facta Judaeis, ut
+          <lb ed="#P" n="67"/>ipse conqueritur, Matth. 11. E contrario 
+          au<lb break="no" ed="#P" n="68"/>tem videmus non praedicari his, qui credituri
+          <lb ed="#P" n="69"/>erant, si eis proponeretur, juxta illud Ezech. 3:
+          <lb ed="#P" n="70"/>Si ad eos mittereris, audirent te, et Matth. 11:
+          <lb ed="#P" n="71"/>Si in Tyro et Sidone, etc. Quem locum late
+          <lb ed="#P" n="72"/>expendit Augustinus, citatis locis. Dicet forte
+          <lb ed="#P" n="73"/>aliquis, illa opera Tyriorum et Sidoniorum
+          <lb ed="#P" n="74"/>nunquam fuisse futura, nos autem hic loqui
+          <lb ed="#P" n="75"/>de operibus aliquando futuris. Sed hoc nihil
+          <lb ed="#P" n="76"/>obstat : tum quia licet tractemus quasi 
+          mate<lb break="no" ed="#P" n="77"/>rialiter (ut sic dicam) de operibus futuris, non
+          <lb ed="#P" n="78"/>tamen formaliter ut absolute futuris, quia pro
+          <lb ed="#P" n="79"/>illo signo nondum ut talia praevidentur, sed
+          <lb ed="#P" n="80"/>tantum ut sub conditione futura, et in eis, ut
+          <lb ed="#P" n="81"/>sic praecise spectatis, debet ratio meriti juxta
+          <lb ed="#P" n="82"/>Semipelagianos considerari. Tum etiam, quia
+          <lb ed="#P" n="83"/>si Deus voluisset, ut Tyriis et Sidonis, 
+          prae<lb break="no" ed="#P" n="84"/>dicaretur Evangelium, eo ipso illa opera, quae
+          <lb ed="#P" n="85"/>supponebantur tantum sub conditione, futura.
+          <lb ed="#P" n="86"/>essent et praeviderentur ut absolute futura:
+          <lb ed="#P" n="87"/>est ergo de illis eadem ratio.
+        </p>
+        <p xml:id="szduep-083802-d1e1313">
+          <lb ed="#P" n="88"/>16. At Rupertus ibi, lib. 9, de Gloria et 
+          ho<lb break="no" ed="#P" n="89"/>nore filii hominis, dicit, Tyrios et Sidonios
+          <lb ed="#P" n="90"/>non fuisse veram poenitentiam acturos, sed
+          <lb ed="#P" n="91"/>humanam ad vitandum temporale supplicium:
+          <lb ed="#P" n="92"/>et ideo non deisse Deum illis talia auxilia. Quag
+          <lb ed="#P" n="93"/>omnino, inquit, daturus fuisset Christus, si
+          <lb ed="#P" n="94"/>illi essent veram poenitentiam acturi ; alas non
+          <lb ed="#P" n="95"/>vere diceretur, velle eos salvare. Sed imprimis
+          <lb ed="#P" n="96"/>expositio est aliena a verbis textus, et a 
+          com<lb break="no" ed="#P" n="97"/>muni expositione : imo Christus dixit, 7n 
+          cili<lb break="no" ed="#P" n="98"/>cio et cinere, ut poenitentiam exaggeraret. Unde
+          <lb ed="#P" n="99"/>Angustinus, libro de Bono persever., cap. 6,
+          <lb ed="#P" n="100"/>de Tyriis et Sidoniis ait, fuisse salvandos a
+          <lb ed="#P" n="101"/>Deo, si opera nunquam futura, et sub 
+          condi<lb break="no" ed="#P" n="102"/>tione praevisa, essent retributione digna. Et
+          <lb ed="#P" n="103"/>infra ait, dubitari non posse, eos fuisse 
+          credi<lb break="no" ed="#P" n="104"/>Lturos, cum Dominus attestetur, fuisse acturos
+          <lb ed="#P" n="105"/>magne hunilitatis penitentiam. Wud etiam
+          <lb ed="#P" n="106"/>verbum apud Ezechielem, Audirent te, veram
+          <lb ed="#P" n="107"/>fidem significare solet in Scriptura. Deinde
+          <lb ed="#P" n="108"/>falsum est, necessario fuisse danda talia 
+          auxi<lb break="no" ed="#P" n="109"/>lia, si bene illis essent usuri. Quia ut recte
+          <lb ed="#P" n="110"/>notavit Abulensis ibi, quaest. 83, illa auxilia
+          <pb ed="#P" n="335"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non erant tantum sufficientia, sed 
+          abundan<lb break="no" ed="#P" n="2"/>tiora, quae non dat Deus omnibus, 
+          quantum<lb break="no" ed="#P" n="3"/>cumque sint bene illis usuri. Neque hoc 
+          perti<lb break="no" ed="#P" n="4"/>net ad voluntatem generalem, qua Deus vult
+          <lb ed="#P" n="5"/>omnes homines salvos fieri : nam ex illa solum
+          <lb ed="#P" n="6"/>nascuntur auxilia sufficientia ; alia vero 
+          sup<lb break="no" ed="#P" n="7"/>ponunt specialem voluntatem, et dilectionem
+          <lb ed="#P" n="8"/>quae non potest in talibus operibus fundari, ut
+          <lb ed="#P" n="9"/>ostendum est.
+        </p>
+        <p xml:id="szduep-083802-d1e1389">
+          <lb ed="#P" n="10"/>17. At enim, refert Augustinus, dicto libro
+          <lb ed="#P" n="11"/>de Bono persever., cap. 9, disputatorem 
+          quem<lb break="no" ed="#P" n="12"/>dam Catholicum de Tyriis et Sidoniis 
+          respon<lb break="no" ed="#P" n="13"/>disse, ideo Deum non decrevisse, ut illis 
+          prae<lb break="no" ed="#P" n="14"/>dicaretur Evangelium, licet praeviderit, si 
+          prae<lb break="no" ed="#P" n="15"/>dicaretur, eos fuisse credituros, quia simul
+          <lb ed="#P" n="16"/>praevidit non fuisse in fide permansuros, sed
+          <lb ed="#P" n="17"/>turpius postea lapsuros. Quam fere sententiam
+          <lb ed="#P" n="18"/>invenio in Origene, lib. 3, Periar., cap. 1. Eam
+          <lb ed="#P" n="19"/>vero inconstantiae et contradictionis actue 
+          re<lb break="no" ed="#P" n="20"/>darguit Augustinus. Nam si illis credituris non
+          <lb ed="#P" n="21"/>est praedicatum Evangelium, ne gravius postea
+          <lb ed="#P" n="22"/>cadendo delinquerent ; ergo illud providentiae
+          <lb ed="#P" n="23"/>genus favor potius quidam fuit, quam poena;
+          <lb ed="#P" n="24"/>ergo non punit Deus peccata sub conditione
+          <lb ed="#P" n="25"/>praevisa, sed potius illa excusat : ergo nec 
+          red<lb break="no" ed="#P" n="26"/>dit praemium pro bonis operibus sic praevisis.
+          <lb ed="#P" n="27"/>Deinde si Deus praevidens lapsuros Tyrios post
+          <lb ed="#P" n="28"/>tidem, voluit eorum majorem ruinam evitare,
+          <lb ed="#P" n="29"/>nonne melius cum eis ageret, ad fidem eos 
+          tra<lb break="no" ed="#P" n="30"/>hendo per Evangelii praedicationem, et statim
+          <lb ed="#P" n="31"/>eos rapiendo, ne malitia mutaret intellectum
+          <lb ed="#P" n="32"/>eorum? Aut cur non potius hoc meruissent per
+          <lb ed="#P" n="33"/>fidem, quam adhiberent de facto Evangelio
+          <lb ed="#P" n="34"/>praedicato, quam potuerint demereri 
+          praedica<lb break="no" ed="#P" n="35"/>tionem Evangelii per inconstantiam in fide sub
+          <lb ed="#P" n="36"/>conditione tantum praevisam. Maxime, quia
+          <lb ed="#P" n="37"/>juxta eorum doctrinam, eadem fides sub 
+          con<lb break="no" ed="#P" n="38"/>ditione praevisa potest esse ratio obtinendi
+          <lb ed="#P" n="39"/>praedicationem Evangeli, et postea exhibita,
+          <lb ed="#P" n="40"/>vel absolute praevisa potest esse meritum 
+          alio<lb break="no" ed="#P" n="41"/>rum subsequentium donorum.
+        </p>
+        <p xml:id="szduep-083802-d1e1461">
+          <lb ed="#P" n="42"/>18. Unde etiam apparet in illo dicendi modo
+          <lb ed="#P" n="43"/>quaedam contradictio, nam idem peccatum
+          <lb ed="#P" n="44"/>apostasiae a fide, vel recidivi post poenitentiam
+          <lb ed="#P" n="45"/>praevisium sub conditione dicitur esse causa
+          <lb ed="#P" n="46"/>demeritoria praedicationis Evangelii , quam
+          <lb ed="#P" n="47"/>ipsa fides futura merebatur, et simul dicitur
+          <lb ed="#P" n="48"/>esse causa, ob quam Deus non dat talibus 
+          ho<lb break="no" ed="#P" n="49"/>minibus majorem occasionem ruinae. Praeterea
+          <lb ed="#P" n="50"/>cum non sit minus meritoria fides, quam sit
+          <lb ed="#P" n="51"/>demeritoria inconstantia in fide : quomodo
+          <lb ed="#P" n="52"/>inconstantia, quae posterius futura praevidetur
+          <lb ed="#P" n="53"/>potest impedire, ne fides prius futura suum
+          <lb ed="#P" n="54"/>praemium consequatur ? Accedit tandem, quod
+          <lb ed="#P" n="55"/>eadem ratione dici potest praescivisse simul
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Deum, post illum lapsum, et recessum a fide
+          <lb ed="#P" n="57"/>semel concepta, acturos illos iterum 
+          poeniten<lb break="no" ed="#P" n="58"/>tiam, et in ea permansuros, et sic poterimus
+          <lb ed="#P" n="59"/>in infinitum procedere, si licentia datur 
+          hujus<lb break="no" ed="#P" n="60"/>modi causas sine fundamento confingendi. Est
+          <lb ed="#P" n="61"/>ergo hujusmodi genus causae prorsus 
+          absur<lb break="no" ed="#P" n="62"/>dum, temere excogitatum, et Catholicae 
+          doc<lb break="no" ed="#P" n="63"/>trinae aperte contrarium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

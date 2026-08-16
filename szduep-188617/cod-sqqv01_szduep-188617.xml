@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="746"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-188617"><!-- t3-l9c9 -->
+        <head xml:id="szduep-188617-Hd1e101">Caput 9</head>
+        <head xml:id="szduep-188617-Hd1e103" type="question-title">Sit-ne filius solius patris imago</head>
+        <p xml:id="szduep-188617-d1e106">
+          <lb ed="#P" n="25"/>CAPUT IX.
+          <lb ed="#P" n="26"/>SIT-NE FILIUS SOLIUS PATRIS IMAGO.
+        </p>
+        <p xml:id="szduep-188617-d1e113">
+          <lb ed="#P" n="27"/>1. Ratio dubitandi. — Ratio dubitandi esse
+          <lb ed="#P" n="28"/>potest, quia Verbum mentis est vera et 
+          natu<lb break="no" ed="#P" n="29"/>ralis imago objectorum omnium, ex quorum
+          <lb ed="#P" n="30"/>cognitione procedit, sed verbum non tantum
+          <lb ed="#P" n="31"/>procedit ex cognitione Patris, sed etiam 
+          Spiri<lb break="no" ed="#P" n="32"/>tus sancti et creaturarum, ut dictum est capite
+          <lb ed="#P" n="33"/>quinto et sexto, ergo non est tantum imago
+          <lb ed="#P" n="34"/>Patris, sed etiam aliorum. Major probatur, quia
+          <lb ed="#P" n="35"/>Verbum habet duas illas conditiones 
+          necessa<lb break="no" ed="#P" n="36"/>rias ad imaginem objecti per illud cogniti. Nam
+          <lb ed="#P" n="37"/>amprimis habet similitudinem, cum 
+          repraesen<lb break="no" ed="#P" n="38"/>tat objectum: deinde habet emanationem, quia
+          <lb ed="#P" n="39"/>ex objecto et potentia nascitur Verbum. Et
+          <lb ed="#P" n="40"/>imago secundum quid. Et praeterea 
+          impro<lb break="no" ed="#P" n="41"/>augetur amplius difficultas respectu Spiritus
+          <lb ed="#P" n="42"/>sancti, quia Filius non tantum est similis illi
+          <lb ed="#P" n="43"/>secundum intellectualem repraesentationem,
+          <lb ed="#P" n="44"/>sed etiam secundum naturalem et perfectam
+          <lb ed="#P" n="45"/>similitudinem substantialem, et alioqui 
+          proce<lb break="no" ed="#P" n="46"/>dit ab illo saltem ut ab objecto cognito, ergo
+          <lb ed="#P" n="47"/>est imago illius.
+        </p>
+        <p xml:id="szduep-188617-d1e161">
+          <lb ed="#P" n="48"/>2. Resolutio. — Nihilominus concors 
+          sen<lb break="no" ed="#P" n="49"/>tentia theologorum esse videtur, Verbum 
+          so<lb break="no" ed="#P" n="50"/>lum esse imaginem aeterni Patris, sub hoc enim
+          <lb ed="#P" n="51"/>respectu hanc proprietatem Verbi declarant, et
+          <lb ed="#P" n="52"/>non sub alio, eodemque modo loquuntur 
+          Pa<lb break="no" ed="#P" n="53"/>tres. Ratio vero est, quia verbum non habet
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>illas duas conditiones simul ad rationem 
+          ima<lb break="no" ed="#P" n="55"/>ginis necessarias, praecipue processionem, nisi
+          <lb ed="#P" n="56"/>respectu Patris : ergo illius tantum potest esse
+          <lb ed="#P" n="57"/>et dici imago. Magis autem hoc confirmabitur,
+          <lb ed="#P" n="58"/>et solvetur difficultas tota discurrendo per 
+          om<lb break="no" ed="#P" n="59"/>nia, ad quae Verbum potest comparari, et quasi
+          <lb ed="#P" n="60"/>inductione ostendendo, nullius alterius posse
+          <lb ed="#P" n="61"/>esse imaginem.
+        </p>
+        <p xml:id="szduep-188617-d1e197">
+          <lb ed="#P" n="62"/>3. Verbum non esse imaginem sui. —Primo
+          <lb ed="#P" n="63"/>ergo certum est, Verbum non esse imaginem
+          <lb ed="#P" n="64"/>sui, quia neque a se procedit, neque sibi est
+          <lb ed="#P" n="65"/>similis, quia nullo modo a se distinguitur. 
+          Di<lb break="no" ed="#P" n="66"/>ces, hinc sequi, Verbum non esse imaginem
+          <lb ed="#P" n="67"/>Patris, quia Deus est ipse Pater, sed qua Pater
+          <lb ed="#P" n="68"/>est, quia quatenus Deus est, non distinguitur
+          <lb ed="#P" n="69"/>a Filio. Consequens autem est falsum, quia
+          <lb ed="#P" n="70"/>Verbum non est simile Patri, ut Pater est, sed
+          <lb ed="#P" n="71"/>ut Deus est, quia similitudo non est attendenda
+          <lb ed="#P" n="72"/>in notionalibus, sed in essentialibus, ut dixit
+          <lb ed="#P" n="73"/>D. Thomas, 1 part., quaest. 35, art. 2. 
+          Respon<lb break="no" ed="#P" n="74"/>deri potest primo: Verbum esse imaginem
+          <lb ed="#P" n="75"/>Patris, ut Pater est, quia eum intellectualiter
+          <lb ed="#P" n="76"/>repraesentat, non solum ut Deum, sed etiam
+          <lb ed="#P" n="77"/>secundum propriam rationem Paternitatis, et
+          <lb ed="#P" n="78"/>procedit a Patre, non solum ut a principio 
+          pro<lb break="no" ed="#P" n="79"/>ducente, ut quod et propriissime, sed etiam ut
+          <lb ed="#P" n="80"/>ab objecto cognito. Sed hoc non recte dicitur,
+          <lb ed="#P" n="81"/>quia sola repraesentatio intentionalis non 
+          suffti<lb break="no" ed="#P" n="82"/>cit ad perfectam rationem imaginis, qualem
+          <lb ed="#P" n="83"/>in divino Verbo intelligere debemus, nisi 
+          tran<lb break="no" ed="#P" n="84"/>seat in substantialem unitatem. Et ideo Paulus
+          <lb ed="#P" n="85"/>vocavit Verbum Figuram substantie ad 
+          He<lb break="no" ed="#P" n="86"/>braeos 1, ut denotaret consubstantiahtatem ,
+          <lb ed="#P" n="87"/>sicut ibi D. Thomas adnotavit. Et eamdem 
+          con<lb break="no" ed="#P" n="88"/>substantialitatem appellatione absoluta 
+          ima<lb break="no" ed="#P" n="89"/>ginis significatam esse ad Colos. 1, omnes 
+          Pa<lb break="no" ed="#P" n="90"/>tres intellexerunt, ut supra retuli. Unde 
+          Ver<lb break="no" ed="#P" n="91"/>bum beatorum, seu visio beatifica, non potest
+          <lb ed="#P" n="92"/>absolute dici imago Dei invisibilis, aut 
+          Trini<lb break="no" ed="#P" n="93"/>tas, licet intentionaliter illa repraesentet, quia
+          <lb ed="#P" n="94"/>non repraesentat secundum convenientiam 
+          na<lb break="no" ed="#P" n="95"/>turalem. Unde intentionalis imago revera est
+          <lb ed="#P" n="96"/>priissime dicitur Filius procedere, ut ab 
+          ob<lb break="no" ed="#P" n="97"/>jecto cognito, ut in simili statim dicam.
+        </p>
+        <p xml:id="szduep-188617-d1e278">
+          <lb ed="#P" n="98"/>4. Verbum esse imaginem Paítris ut Deus
+          <lb ed="#P" n="99"/>est. — Dico ergo, Filium esse imaginem 
+          Pa<lb break="no" ed="#P" n="100"/>tris, ut Deus est formaliter loquendo, id est,
+          <lb ed="#P" n="101"/>si particula u designat formalem rationem
+          <lb ed="#P" n="102"/>terminandi relationem imaginis, quamvis 
+          Pa<lb break="no" ed="#P" n="103"/>terr itas sit conditio necessaria, ut Pater possit
+          <lb ed="#P" n="104"/>esse terminus illius relationis. Cum enim 
+          dici<lb break="no" ed="#P" n="105"/>mus, Filium esse imaginem Patris, Filium
+          <lb ed="#P" n="106"/>concipimus ut subjectum relatum, Patrem 
+          ve<lb break="no" ed="#P" n="107"/>ro ut terminum illius relationis, relatio autem,
+          <pb ed="#P" n="747"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quam indicat nomen imaginis, seu per quam
+          <lb ed="#P" n="2"/>nos imaginem explicamus, non est alia, quam
+          <lb ed="#P" n="3"/>relatio similitudinis : connotat vero ex parte
+          <lb ed="#P" n="4"/>imaginis, quod talis relatio, seu 
+          fundamen<lb break="no" ed="#P" n="5"/>tum ejus sit acceptum per dimanationem a
+          <lb ed="#P" n="6"/>termino similitudinis. Unde ex parte ipsius
+          <lb ed="#P" n="7"/>subjecti talis relationis (ut sic dicam) 
+          funda<lb break="no" ed="#P" n="8"/>mentum formale, ac proximum, seu ratio 
+          fun<lb break="no" ed="#P" n="9"/>dandi talem relationem, est natura ipsa, seu
+          <lb ed="#P" n="10"/>forma : conditio autem necessaria est modus
+          <lb ed="#P" n="11"/>habendi formam illam per processionem ab
+          <lb ed="#P" n="12"/>alio, qui terminus est talis relationis. Sic ergo
+          <lb ed="#P" n="13"/>etiam ex parte termini formalis ratio 
+          termi<lb break="no" ed="#P" n="14"/>nandi illam relationem imaginis, est eadem
+          <lb ed="#P" n="15"/>natura seu forma, quia illa est ratio fundandi
+          <lb ed="#P" n="16"/>similitudinem , conditio autem necessaria est
+          <lb ed="#P" n="17"/>modus habendi illam formam per modum
+          <lb ed="#P" n="18"/>principii alterius, qui imago vocatur. Hoc ergo
+          <lb ed="#P" n="19"/>modo dicimus, Verbum esse imaginem Patris,
+          <lb ed="#P" n="20"/>ut Deus est, formaliter, licet in eo requirat
+          <lb ed="#P" n="21"/>conditionem Paternitatis, quae necessaria est,
+          <lb ed="#P" n="22"/>ut possit esse principium Verbi, et 
+          consequen<lb break="no" ed="#P" n="23"/>ter ut possit esse terminus relationis imaginis.
+        </p>
+        <p xml:id="szduep-188617-d1e356">
+          <lb ed="#P" n="24"/>5. Discrimen inter imaginem et 
+          similitudi<lb break="no" ed="#P" n="25"/>nem. — Et hinc facile solvitur objectio facta,
+          <lb ed="#P" n="26"/>nam licet Filius idem sit cum Patre in Deitate,
+          <lb ed="#P" n="27"/>nihilominus Pater habet illam Deitatem sub
+          <lb ed="#P" n="28"/>conditione, et modo necessario in termino 
+          il<lb break="no" ed="#P" n="29"/>Jius relationis, quam dicit imago. Filius autem
+          <lb ed="#P" n="30"/>non habet illam conditionem necessariam ad
+          <lb ed="#P" n="31"/>terminum ejusdem relationis, saltem respectu
+          <lb ed="#P" n="32"/>sui, et ideo non potest dici imago sui, licet
+          <lb ed="#P" n="33"/>dicatur imago Patris. Unde etiam obiter 
+          intel<lb break="no" ed="#P" n="34"/>ligitur, quomodo licet relatio similitudinis sit
+          <lb ed="#P" n="35"/>sequiparantiae, seu ejusdem rationis in Filio et
+          <lb ed="#P" n="36"/>Patre, nam ad invicem dicitur unus alteri 
+          si<lb break="no" ed="#P" n="37"/>milis, nihilominus relatio imaginis sit 
+          disqui<lb break="no" ed="#P" n="38"/>parantiae, quia in Filio est imaginis, non vero
+          <lb ed="#P" n="39"/>in Patre, sed imaginati, seu repraesentati cum
+          <lb ed="#P" n="40"/>tamen relatio imaginis juxta ea, quae diximus,
+          <lb ed="#P" n="41"/>non alia, quam similitudinis esse videatur.
+          <lb ed="#P" n="42"/>Ratio enim esse videtur, quia imago non dicit
+          <lb ed="#P" n="43"/>relationem similitudinis absolute, sed ut 
+          fun<lb break="no" ed="#P" n="44"/>datam in forma accepta ab exemplari. Vel
+          <lb ed="#P" n="45"/>certe imago involvit duas relationes, similis et
+          <lb ed="#P" n="46"/>procedentis in tali similitudine, et ex utraque
+          <lb ed="#P" n="47"/>simul conficit unam denominationem, quae
+          <lb ed="#P" n="48"/>propterea non potest esse eadem in utroque
+          <lb ed="#P" n="49"/>extremo. In illo autem quasi aggregato 
+          rela<lb break="no" ed="#P" n="50"/>tionum similitudo attenditur ut formale, 
+          pro<lb break="no" ed="#P" n="51"/>cessio ut conditio requisita, illa tamen sufficit,
+          <lb ed="#P" n="52"/>ut denominatio varietur in utroque extremo.
+        </p>
+        <p xml:id="szduep-188617-d1e421">
+          <lb ed="#P" n="53"/>6. Imago non dicit in Filio novum 
+          proprie<lb break="no" ed="#P" n="54"/>tatem. — Praeterea hinc etiam obiter 
+          intelli<lb break="no" ed="#P" n="55"/>gitur, quomodo licet nomen imaginis sit pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prium Filii, et involvat relationem ad eum,
+          <lb ed="#P" n="57"/>cujus est imago, nihilominus inde non 
+          multi<lb break="no" ed="#P" n="58"/>plicentur personales proprietates Filii, etiamsi
+          <lb ed="#P" n="59"/>nomen imaginis synonymum non sit, nec cum
+          <lb ed="#P" n="60"/>nomine Filii, nec cum nomine Verbi. Ratio
+          <lb ed="#P" n="61"/>autem est, quia duplicem respectum importat
+          <lb ed="#P" n="62"/>imago. Unus vero, qui est similitudinis , non
+          <lb ed="#P" n="63"/>est realis, sed rationis, et ideo non pertinet ad
+          <lb ed="#P" n="64"/>proprietates, maxime cum ille respectus 
+          com<lb break="no" ed="#P" n="65"/>munis sit omnibus personis. Alter autem est
+          <lb ed="#P" n="66"/>respectus realis, scilicet, procedentis et hic non
+          <lb ed="#P" n="67"/>est alius, nisi filiatio, et ideo nec ex hoc capite
+          <lb ed="#P" n="68"/>multiplicantur proprietates. Ex conjunctione
+          <lb ed="#P" n="69"/>autem illorum respectuum sumitur quaedam 
+          de<lb break="no" ed="#P" n="70"/>nominatio, quae sufficit ad proprium et speciale
+          <lb ed="#P" n="71"/>nomen notionale imaginis, non vero ad novam
+          <lb ed="#P" n="72"/>proprietatem, vel notionem in abstracto 
+          mul<lb break="no" ed="#P" n="73"/>uplicandam. Unde facile etiam constat 
+          diffe<lb break="no" ed="#P" n="74"/>rentia inter nomen Imaginis et F'ilii, eamdem
+          <lb ed="#P" n="75"/>enim rem significant, et eosdem respectus 
+          in<lb break="no" ed="#P" n="76"/>volvunt, sed Filius, formalius importat 
+          rela<lb break="no" ed="#P" n="77"/>tonem procedentis, Imago formalius 
+          relatio<lb break="no" ed="#P" n="78"/>nem similis. Item nomen maginis, 
+          commu<lb break="no" ed="#P" n="79"/>nius est, non enim requirit ex vi suae 
+          signifi<lb break="no" ed="#P" n="80"/>cationis relationem Filii, sed procedentis; et ex
+          <lb ed="#P" n="81"/>hoc capite etiam non dicit specialem 
+          proprieta<lb break="no" ed="#P" n="82"/>tem, quia ex vi sua non dicit specificam 
+          rela<lb break="no" ed="#P" n="83"/>tionem realem, sed genericam. Et hoc etiam
+          <lb ed="#P" n="84"/>titulo differt vox imago a nomine Ferbi, ex
+          <lb ed="#P" n="85"/>parte relationis procedentis, quia non dicit 
+          re<lb break="no" ed="#P" n="86"/>lationem specificam processionis per 
+          intellec<lb break="no" ed="#P" n="87"/>tum sicut dicit Verbum. Ex parte vero 
+          relatio<lb break="no" ed="#P" n="88"/>nis similitudinis imago magis declarat 
+          simili<lb break="no" ed="#P" n="89"/>tudinem naturalem, quam Ferlwmn, quod 
+          in<lb break="no" ed="#P" n="90"/>tentionalem magis indicat.
+        </p>
+        <p xml:id="szduep-188617-d1e508">
+          <lb ed="#P" n="91"/>7. Verbum non est imago Deitatis. — 
+          Ulte<lb break="no" ed="#P" n="92"/>rius sequitur ex dictis, Verbum non esse 
+          ima<lb break="no" ed="#P" n="93"/>ginem Deitatis: nec hujus Dei ut concepti
+          <lb ed="#P" n="94"/>praecise et abstracti a tribus personis. Patet,
+          <lb ed="#P" n="95"/>quia nec procedit realiter ab illo, quia nec
+          <lb ed="#P" n="96"/>Deitas generat, neque hic Deus, ut supra 
+          os<lb break="no" ed="#P" n="97"/>tensum est, unde nullum respectum realem
+          <lb ed="#P" n="98"/>dicit Verbum divinum ad Deitatem suam, vel
+          <lb ed="#P" n="99"/>ad hunc Deum ut sic. Ac proinde nec est ei
+          <lb ed="#P" n="100"/>similis, cum similitudo requirat distinctionem
+          <lb ed="#P" n="101"/>realem, saltem inter extrema, quae dicuntur
+          <lb ed="#P" n="102"/>similia. Objici vero potest, nam ad Colos. 1,
+          <lb ed="#P" n="103"/>dicitur CHRISTUS , Zmago Dei invisibilis, et
+          <lb ed="#P" n="104"/>ad Hebr. 1, dicitur, Imago substantiee Dei, id
+          <lb ed="#P" n="105"/>est, essentiae. Respondeo ad prius testimonium,
+          <lb ed="#P" n="106"/>ibi esse sermonem de Patre. Praemittit enim
+          <lb ed="#P" n="107"/>Paulus, in principio : Gratia vobis et paa a Deo
+          <lb ed="#P" n="108"/>Patre, et de illo sermorem prosequitur. In
+          <lb ed="#P" n="109"/>Epistola vero ad Hebraeos ita Paulus incipit :
+          <lb ed="#P" n="110"/>Multifariam, multisque modis olim Deus lo-
+          <pb ed="#P" n="748"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quens Patribus in prophetis, novissime locutus
+          <lb ed="#P" n="2"/>esl nobis in Filio. Ubi plane loqui videtur de
+          <lb ed="#P" n="3"/>Deo Patre, solet enim per quamdam 
+          appropria<lb break="no" ed="#P" n="4"/>tionem nomen Dei simpliciter prolati pro Patre
+          <lb ed="#P" n="5"/>accipi. Quod maxime observare licet in multis
+          <lb ed="#P" n="6"/>orationibus Ecclesiae, quibus prius ad Deum
+          <lb ed="#P" n="7"/>omnipotentem orat et postea subdit : Per 
+          Do<lb break="no" ed="#P" n="8"/>mnum nostrum J esum Christum Filum tuum.
+          <lb ed="#P" n="9"/>Quod relativum, Patrem referat, necesse est.
+          <lb ed="#P" n="10"/>Sic ergo cum Paulo de eodem Filio subdit: Qui
+          <lb ed="#P" n="11"/>cun. sit splendor glorie et figura substantie
+          <lb ed="#P" n="12"/>ejus, illud relativum, ejus ad Deum Patrem 
+          re<lb break="no" ed="#P" n="13"/>fertur. Cum autem dicitur figura substantie,
+          <lb ed="#P" n="14"/>vel nomen substantie, non significat essentiam,
+          <lb ed="#P" n="15"/>seu personam, seu hypostasim, ut graece 
+          habe<lb break="no" ed="#P" n="16"/>tur, vel non significat terminum relationis
+          <lb ed="#P" n="17"/>imaginis, sed perfectionem illius figurae, ita,
+          <lb ed="#P" n="18"/>ut sumatur in vi adjectivi figura substantie,
+          <lb ed="#P" n="19"/>id est, substantialis, vel appositive, fi gura 
+          sub<lb break="no" ed="#P" n="20"/>stantie, id est quee est substantia ejus. Denique
+          <lb ed="#P" n="21"/>licet interdum in his locutionibus nomen Dei
+          <lb ed="#P" n="22"/>simpliciter sumatur , cum Christus dicitur
+          <lb ed="#P" n="23"/>Inago DET, quod probabile est in dictis 
+          tes<lb break="no" ed="#P" n="24"/>timoniis, praesertim ad Colos. 1, nihilominus
+          <lb ed="#P" n="25"/>ex vi vocis relativae /mago restringitur ad 
+          sup<lb break="no" ed="#P" n="26"/>ponendum pro persona Patris, sicut cum 
+          Ver<lb break="no" ed="#P" n="27"/>bum dicitur Deus de Deo, particula De facit, ut
+          <lb ed="#P" n="28"/>in uno extremo Denus supponat tantum pro 
+          Pa<lb break="no" ed="#P" n="29"/>tre, sicut in altero supponit tantum pro Filio.
+        </p>
+        <p xml:id="szduep-188617-d1e621">
+          <lb ed="#P" n="30"/>8. Verbum non esse imaginem S piritus sancti.
+          <lb ed="#P" n="31"/>— Major aliqua difficultas est de persona 
+          Spi<lb break="no" ed="#P" n="32"/>ritus sancti, nam et realiter a Filio 
+          distingui<lb break="no" ed="#P" n="33"/>tur, et illi perfecte similis est, et ex ejus 
+          cog<lb break="no" ed="#P" n="34"/>nitione Filius procedit, eumque repraesentat,
+          <lb ed="#P" n="35"/>quatenus est Verbum adaequatum divinae 
+          in<lb break="no" ed="#P" n="36"/>tellectionis. Nihilominus dicendum est, Filium
+          <lb ed="#P" n="37"/>non esse imaginem Spiritus sancti. Ratio est,
+          <lb ed="#P" n="38"/>quia non procedit realiter ab illo, quod est de
+          <lb ed="#P" n="39"/>ratione imaginis, ut supra ostensum est. Quod
+          <lb ed="#P" n="40"/>autem ita non procedat, patet, quia Spiritus
+          <lb ed="#P" n="41"/>sanctus nulla ratione dici, aut cogitari potest
+          <lb ed="#P" n="42"/>principium Filii. Nec satis est, quod Filius
+          <lb ed="#P" n="43"/>procedat a Patre, ut cognoscente se et Spiritum
+          <lb ed="#P" n="44"/>sanctum. Primo quia supra est ostensum, non
+          <lb ed="#P" n="45"/>semper rem cognitam esse principium 
+          cogni<lb break="no" ed="#P" n="46"/>Uonis, vel termini, per cognitionem producti,
+          <lb ed="#P" n="47"/>sed tunc solum, quando intelligens ab objecto
+          <lb ed="#P" n="48"/>cognito habet aliquo modo principium 
+          cognos<lb break="no" ed="#P" n="49"/>cendi, seu speciem intelligibilem, vel id, quod
+          <lb ed="#P" n="50"/>sortitur vicem ejus. At Pater aeternus, dum
+          <lb ed="#P" n="51"/>producit Verbum repraesentativum Spiritus
+          <lb ed="#P" n="52"/>sancti, non habet ab Spiritu sancto ullo modo
+          <lb ed="#P" n="53"/>virtutem producendi tale Verbum, nec Spiritus
+          <lb ed="#P" n="54"/>sanctus ad illam cognitionem sui concurrit (ut
+          <lb ed="#P" n="55"/>sic dicam) ut principium, seu objectum moti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vum, sed ut purus terminus. Hic autem modus
+          <lb ed="#P" n="57"/>non est satis, ut Verbum dicatur aliquo modo
+          <lb ed="#P" n="58"/>procedere ab Spiritu sancto, nam praepositio
+          <lb ed="#P" n="59"/>ab dicit habitudinem principii, unde potius
+          <lb ed="#P" n="60"/>dicendum esset procedere ad Spiritum 
+          sanc<lb break="no" ed="#P" n="61"/>tum, utique repraesentandum, quamvis neque
+          <lb ed="#P" n="62"/>hic modus loquendi usurpandus est, quia non
+          <lb ed="#P" n="63"/>est usitatus. Accedit, quod Verbum divinum ex
+          <lb ed="#P" n="64"/>vi suae processionis non procedit ad 
+          repraesen<lb break="no" ed="#P" n="65"/>tandum Spiritum sanctum, nisi secundario et
+          <lb ed="#P" n="66"/>quasi per consecutionem quamdam ex vi 
+          cog<lb break="no" ed="#P" n="67"/>nitionis divinitatis : unde sola divinitas ut sic,
+          <lb ed="#P" n="68"/>est principium quo, et quasi species 
+          intelligi<lb break="no" ed="#P" n="69"/>bilis, per quam Pater producit tale Verbum.
+          <lb ed="#P" n="70"/>Quando autem aliquid sic cognoscitur 
+          secun<lb break="no" ed="#P" n="71"/>dario ex vi alterius, et per speciem alterius,
+          <lb ed="#P" n="72"/>non potest dici verbum repraesentans illud 
+          se<lb break="no" ed="#P" n="73"/>cundarium objectum, procedere ab iilo, ut est
+          <lb ed="#P" n="74"/>per se notum. Unde nec Pater ipse dici potest
+          <lb ed="#P" n="75"/>principium Verbi ratione Paternitatis, etiamsi
+          <lb ed="#P" n="76"/>per ipsum Verbum secundum suam etiam 
+          Pa<lb break="no" ed="#P" n="77"/>ternitatem repraesentetur, quia etiam 
+          Paterni<lb break="no" ed="#P" n="78"/>tas est secundarium objectum, et cognoscitur
+          <lb ed="#P" n="79"/>ex vi essentiae. Et ideo supra dicebamus, 
+          Fi<lb break="no" ed="#P" n="80"/>lium non esse imaginem Patris quoad 
+          Pater<lb break="no" ed="#P" n="81"/>nitatem, etiamsi procedat ex cognitione Patris
+          <lb ed="#P" n="82"/>ut sic, seu Paternitatis : ergo non potest dici
+          <lb ed="#P" n="83"/>imago Spiritus sancti.
+        </p>
+        <p xml:id="szduep-188617-d1e744">
+          <lb ed="#P" n="84"/>9. Filium non esse imaginem creaturarum.—
+          <lb ed="#P" n="85"/>Tandem a fortiori concluditur non esse Filium
+          <lb ed="#P" n="86"/>imaginem creaturarum. Tum, quia ab illis
+          <lb ed="#P" n="87"/>non procedit, ut eisdem rationibus a fortiori
+          <lb ed="#P" n="88"/>convincitur. Tum quia non habet cum illis 
+          si<lb break="no" ed="#P" n="89"/>militudinem perfectam et consubstantialem,
+          <lb ed="#P" n="90"/>quam imago, quae intra Deum est, importat.
+          <lb ed="#P" n="91"/>Tum denique, quia potius creaturae ab illo
+          <lb ed="#P" n="92"/>Verbo procedunt secundum peculiarem 
+          quam<lb break="no" ed="#P" n="93"/>dam appropriationem, quatenus in se 
+          conti<lb break="no" ed="#P" n="94"/>net ex vi processionis suae ideas omnium 
+          crea<lb break="no" ed="#P" n="95"/>turarum, quae sunt quasi exemplaria, ad 
+          quo<lb break="no" ed="#P" n="96"/>rum imitationem producuntur creaturae. Illae
+          <lb ed="#P" n="97"/>autem ideae non sunt propriae imagines 
+          creatu<lb break="no" ed="#P" n="98"/>rarum, quia non sunt ab illis sumptae, sed per
+          <lb ed="#P" n="99"/>se sunt connaturales divinitati, quae ex se 
+          ha<lb break="no" ed="#P" n="100"/>bet esse principium creaturarum. Nec etiam,
+          <lb ed="#P" n="101"/>ut sunt in verbo, sunt imagines idearum, prout
+          <lb ed="#P" n="102"/>sunt in essentia, quia sunt omnino idem, sicut
+          <lb ed="#P" n="103"/>essentia secundum se, et prout communicata
+          <lb ed="#P" n="104"/>Filio, est una et eadem. Nihil ergo relinquitur,
+          <lb ed="#P" n="105"/>cujus Filius possit esse imago, praeter Patrem,
+          <lb ed="#P" n="106"/>est ergo solius Patris imago.
+        </p>
+        <p xml:id="szduep-188617-d1e796">
+          <lb ed="#P" n="107"/>10. Objectio. — Mices. Divinitas ipsa 
+          voca<lb break="no" ed="#P" n="108"/>tur ab Augustino imago creaturarum de Fide
+          <lb ed="#P" n="109"/>ad Petilium, cap. 1, cur ergo non poterit etiam
+          <lb ed="#P" n="110"/>Verbum creaturarum imago vocari. Item Ver-
+          <pb ed="#P" n="749"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bum aeternum dici potest Verbum 
+          creatura<lb break="no" ed="#P" n="2"/>rum, nam per illud factae sunt omnes 
+          creatu<lb break="no" ed="#P" n="3"/>rae, et omnia portat Verbo virtutis suae.
+        </p>
+        <p xml:id="szduep-188617-d1e818">
+          <lb ed="#P" n="4"/>11. Responsio. — Ad priorem partem 
+          res<lb break="no" ed="#P" n="5"/>pondet D. Thomas, dicta quaest. 35, art. 5,
+          <lb ed="#P" n="6"/>ad 1, ibi Augustinum late et minus rigorose
+          <lb ed="#P" n="7"/>sumpsisse nomen imaginis pro exemplari. Sed
+          <lb ed="#P" n="8"/>forte Augustinus, si attente legatur, non 
+          vo<lb break="no" ed="#P" n="9"/>cat divinitatem imaginem hominis, vel 
+          alicu<lb break="no" ed="#P" n="10"/>jus creaturae, sed ipsum hominem dicit esse
+          <lb ed="#P" n="11"/>ad imaginem divinitatis. Itaque illud ad 
+          ima<lb break="no" ed="#P" n="12"/>ginem non significat exemplar ex parte Dei,
+          <lb ed="#P" n="13"/>ad cujus imitationem factus est homo, estque
+          <lb ed="#P" n="14"/>quasi terminus relationis illius qualiscumque
+          <lb ed="#P" n="15"/>imaginis impressee ipsi homini, sed potius 
+          si<lb break="no" ed="#P" n="16"/>gnificat illammet imaginem, quae est in 
+          ho<lb break="no" ed="#P" n="17"/>mine, quae non dicitur simpliciter imago, sed
+          <lb ed="#P" n="18"/>quasi imago, seu ad imaginem, quia 
+          imper<lb break="no" ed="#P" n="19"/>fecta est sicut cum dicitur factus homo ad 
+          si<lb break="no" ed="#P" n="20"/>militudinem Dei, non significatur similitudo,
+          <lb ed="#P" n="21"/>quae est in Deo, sed quam participat ipse homo.
+          <lb ed="#P" n="22"/>Qualiscumque tamen sit illa imago, quae est
+          <lb ed="#P" n="23"/>in homine, una tantum est totius Trinitatis,
+          <lb ed="#P" n="24"/>ut colligit Augustinus ex verbis illis : 
+          Facia<lb break="no" ed="#P" n="25"/>mus hominem ad imaginem et similitudinem
+          <lb ed="#P" n="26"/>nostram propter pronomen illud plurale 
+          nos<lb break="no" ed="#P" n="27"/>iram Et idem subinfert , unam esse deitatem
+          <lb ed="#P" n="28"/>trium personarum, in qua illae aequales sunt:
+          <lb ed="#P" n="29"/>non quia ipsa divinitas imago sit, sed quia non
+          <lb ed="#P" n="30"/>possunt tres personae una imagine 
+          repraesen<lb break="no" ed="#P" n="31"/>tari, nisi unam haberent naturam.
+        </p>
+        <p xml:id="szduep-188617-d1e881">
+          <lb ed="#P" n="32"/>12. Ad alteram partem respondeo, cum
+          <lb ed="#P" n="33"/>Verbum dicitur alicujus, ambiguam esse 
+          lo<lb break="no" ed="#P" n="34"/>cutionem, nam potest dici Verbum alicujus,
+          <lb ed="#P" n="35"/>quia ab illo dictum, seu prolatum est, vel quia
+          <lb ed="#P" n="36"/>illud repraesentat, et circa illud versatur, ut
+          <lb ed="#P" n="37"/>in materia , circa quam. Priori sensu non
+          <lb ed="#P" n="38"/>potest Verbum divinum dici, nisi Patris 
+          tan<lb break="no" ed="#P" n="39"/>tum, ut constat. Posteriori autem modo dici
+          <lb ed="#P" n="40"/>poterit esse personarum omnium, et 
+          creatura<lb break="no" ed="#P" n="41"/>rum. Tamen quia ambigua est locutio, non est
+          <lb ed="#P" n="42"/>ita loquendum sine declaratione, ne detur
+          <lb ed="#P" n="43"/>occasio erroris. Praesertim, quia prior sensus
+          <lb ed="#P" n="44"/>videtur magis usitatus, et proprius. Cum enim
+          <lb ed="#P" n="45"/>dicimus, hoc Verbum vel testimonium est 
+          Au<lb break="no" ed="#P" n="46"/>gustini, non significamus in illo, aliquid dici
+          <lb ed="#P" n="47"/>de Augustino, sed esse scriptum, vel probatum
+          <lb ed="#P" n="48"/>ab Augustino. Quando vere significare 
+          volu<lb break="no" ed="#P" n="49"/>mus habitudinem objecti seu materiae, circa
+          <lb ed="#P" n="50"/>quam, potius dicimus, Verbum esse de tali re.
+          <lb ed="#P" n="51"/>In nomine autem imaginis utrumque 
+          signifi<lb break="no" ed="#P" n="52"/>cari videtur per modum unius, dicitur enim
+          <lb ed="#P" n="53"/>imago alicujus, quae illum repraesentat 
+          tan<lb break="no" ed="#P" n="54"/>quam eum, a quo processit, et ideo non est
+          <lb ed="#P" n="55"/>eadem omnino ratio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

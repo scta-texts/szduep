@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="495"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-125801"><!-- t2-l4c4 -->
+        <head xml:id="szduep-125801-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-125801-Hd1e103" type="question-title">Utrum omnibus infantibus, qui in hac vita ad rationis usum non perveniunt, providerit deus sufficientia media ad salutem</head>
+        <p xml:id="szduep-125801-d1e106">
+          <lb ed="#P" n="63"/>CAPUT IV.
+          <lb ed="#P" n="64"/>UTRUM OMNIBUS INFANTIBUS, QUI IN HAC VITA AD
+          <lb ed="#P" n="65"/>RATIONIS USUM NON PERVENIUNT, PROVIDERIT
+          <lb ed="#P" n="66"/>DEUS SUFFICIENTIA MEDIA AD SALUTEM.
+        </p>
+        <p xml:id="szduep-125801-d1e117">
+          <lb ed="#P" n="67"/>1. Ratio dubitandi. — De infantibus est 
+          pe<lb break="no" ed="#P" n="68"/>culiaris difficultas, propter eos qui ita videntur
+          <lb ed="#P" n="69"/>remedio salutis destituti, ut eis non possit per
+          <lb ed="#P" n="70"/>humanam industriam, vel diligentiam 
+          apph<lb break="no" ed="#P" n="71"/>cari. Sic enim accidit imprimis omnibus his
+          <lb ed="#P" n="72"/>qui in maternis visceribus moriuntur: deinde
+          <lb ed="#P" n="73"/>illis qui in ea occasione et dispositione 
+          nascun<lb break="no" ed="#P" n="74"/>tur, ut priusquam possit aqua, verbi gratia,
+          <lb ed="#P" n="75"/>inveniri, vel minister vocari, qui baptizare
+          <lb ed="#P" n="76"/>sciat, moriuntur. Denique eadem ratio est de
+          <lb ed="#P" n="77"/>omnibus qui sine culpa alicujus, casu aliquo
+          <lb ed="#P" n="78"/>sine Sacramento decedunt. De quibus ita 
+          po<lb break="no" ed="#P" n="79"/>test formari argumentum, illi omnes carent
+          <lb ed="#P" n="80"/>remedio, et non propter voluntatem propriam,
+          <lb ed="#P" n="81"/>quia illius non sunt capaces, nec propter 
+          vo<lb break="no" ed="#P" n="82"/>Iuntatem parentis aut alterius hominis, quia
+          <lb ed="#P" n="83"/>ibi non voluntas, sed impotentia humana fuit,
+          <lb ed="#P" n="84"/>quia ibi nulla culpa, neque negligentia 
+          paren<lb break="no" ed="#P" n="85"/>tis vel alterius intercessit, ut supponimus: ergo
+          <lb ed="#P" n="86"/>non potest ille effectus referri nisi in 
+          volunta<lb break="no" ed="#P" n="87"/>tem Dei qui res ita disposuit, ut non posset
+          <lb ed="#P" n="88"/>tale remedium tali infanti applicari, ut sentit
+          <lb ed="#P" n="89"/>Augustinus, de Natura et Gratia, c. 8, et de
+          <lb ed="#P" n="90"/>Bono persever., c. 12, et de Correp. et Gratia,
+          <lb ed="#P" n="91"/>c. etiam 12, ergo simpliciter fatendum est,
+          <lb ed="#P" n="92"/>Deum nullo modo providisse his parvulis de
+          <lb ed="#P" n="93"/>remedio sufficiente.
+        </p>
+        <p xml:id="szduep-125801-d1e178">
+          <lb ed="#P" n="94"/>2. Confirmatur ex comparatione ad adultos.
+          <lb ed="#P" n="95"/>Si enim Deus homini adulto non ponenti 
+          im<lb break="no" ed="#P" n="96"/>pedimentum , negaret omne auxilium ad 
+          sa<lb break="no" ed="#P" n="97"/>lutem , diceremus plane, sua sola voluntate
+          <lb ed="#P" n="98"/>non dare, ac proinde non providisse illi 
+          suffi<lb break="no" ed="#P" n="99"/>cientia media : at nunc, quia non negat nisi
+          <lb ed="#P" n="100"/>ponenti impedimentum, dicimus ex parte sua
+          <lb ed="#P" n="101"/>omnibus dare, et omnibus providisse : sed illi
+          <lb ed="#P" n="102"/>parvuli non ponunt impedimentum per suam
+          <lb ed="#P" n="103"/>voluntatem, ut constat, nec per voluntatem 
+          pa<lb break="no" ed="#P" n="104"/>rentum, quia non ponitur in voluntate eorum,
+          <lb ed="#P" n="105"/>imo saepe illis facientibus quantum possunt,
+          <lb ed="#P" n="106"/>deest facultas applicandi remedium, ergo non
+          <lb ed="#P" n="107"/>potest hoc tribui humanae voluntati, sed divi-
+          <pb ed="#P" n="496"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nae, quae ex se noluit his providere de 
+          suffi<lb break="no" ed="#P" n="2"/>cienti remedio contra originale peccatum, 
+          so<lb break="no" ed="#P" n="3"/>Ium propter peccati originalis malitiam.
+        </p>
+        <p xml:id="szduep-125801-d1e223">
+          <lb ed="#P" n="4"/>3. Propter haec Gregorius, 1, d. 46, q. 1.
+          <lb ed="#P" n="5"/>docuit absolute, Deum positive, et ex se, 
+          no<lb break="no" ed="#P" n="6"/>luisse plures infantes salvare, ut illis de 
+          suf<lb break="no" ed="#P" n="7"/>ficienti remedio contra originale provideret.
+          <lb ed="#P" n="8"/>In eamdemque sententiam inclinat Driedo, de
+          <lb ed="#P" n="9"/>Captiv. et Redemptione gen. human., tract. 5,
+          <lb ed="#P" n="10"/>cap. 3. Referuntur etiam pro eadem sententia
+          <lb ed="#P" n="11"/>D. Thomas, 4, d. P q. 1, ad 1, et Gabriel, d. 4,
+          <lb ed="#P" n="12"/>q. 2, art. 3, dub. 2, et Richardus 1, d. 46,
+          <lb ed="#P" n="13"/>art. et Soto, lib. 2, de Nat. et grat., cap. 10,
+          <lb ed="#P" n="14"/>in fine. Sed revera id non dicunt, sed potius
+          <lb ed="#P" n="15"/>oppositum supponunt, ut statim dicam. Potest
+          <lb ed="#P" n="16"/>vero haec sententia confirmari, quia licet Deus
+          <lb ed="#P" n="17"/>instituerit generale remedium baptismi, si 
+          ta<lb break="no" ed="#P" n="18"/>men res ita Deus disposuit, ut licet parentes
+          <lb ed="#P" n="19"/>faciant quantum possunt, non possint 
+          appli<lb break="no" ed="#P" n="20"/>care baptismum, nec Deus ad hoc speciale
+          <lb ed="#P" n="21"/>auxilium conferat, dici non potest Deus 
+          pro<lb break="no" ed="#P" n="22"/>vidisse illis parvulis de sufticienti remedio,
+          <lb ed="#P" n="23"/>quia baptismus non est remedium nisi ut 
+          ap<lb break="no" ed="#P" n="24"/>plicandus, et ut sic est impossibilis, quia 
+          ap<lb break="no" ed="#P" n="25"/>plicatio est impossibilis : ergo non potest dici,
+          <lb ed="#P" n="26"/>tales parvulos habuisse auxilium sufficiens,
+          <lb ed="#P" n="27"/>cum neque in se, neque in parentibus illud
+          <lb ed="#P" n="28"/>habuerint.
+        </p>
+        <p xml:id="szduep-125801-d1e280">
+          <lb ed="#P" n="29"/>4. Assertio. —Sed licet fortasse magna pars
+          <lb ed="#P" n="30"/>hujus controversiae sit in modo loquendi, 
+          sim<lb break="no" ed="#P" n="31"/>pliciter dicendum censeo, Deum ex parte sua
+          <lb ed="#P" n="32"/>voluisse his infantibus salutem aeternam, ac
+          <lb ed="#P" n="33"/>proinde providisse illis omnibus absque ulla
+          <lb ed="#P" n="34"/>exceptione media de se aliquo modo 
+          sufficien<lb break="no" ed="#P" n="35"/>tia ad salutem aeternam. Hanc censeo esse
+          <lb ed="#P" n="36"/>communiorem sententiam theologorum, quam
+          <lb ed="#P" n="37"/>ita declaro. Nam prima ejus pars pertinet ad
+          <lb ed="#P" n="38"/>aliud generale dogma supra tractatum : Deus
+          <lb ed="#P" n="39"/>vult omnes homines salvos fieri, sub quo 
+          par<lb break="no" ed="#P" n="40"/>vuli omnes a theologis comprehenduntur eo
+          <lb ed="#P" n="41"/>ipso, quod non excipiuntur : ita vero de illo
+          <lb ed="#P" n="42"/>scribunt D. Thomas, Scotus, et alii superius
+          <lb ed="#P" n="43"/>relati, et communiter reliqui in 4, d. 4 et 6,
+          <lb ed="#P" n="44"/>et in 1, q. 45 et 46. In particulari vero de 
+          par<lb break="no" ed="#P" n="45"/>vulis ita loquitur Bellarminus, lib. 2, de Grat.,
+          <lb ed="#P" n="46"/>c. 5, ad finem, et Vega, lib. 5, in Trident. c. 6,
+          <lb ed="#P" n="47"/>ad finem. Videturque expressa sententia 
+          Pros<lb break="no" ed="#P" n="48"/>peri, lib. 2, de Vocatione gent., c. 8, alias 32.
+          <lb ed="#P" n="49"/>Quae maxime fundatur in illo testimonio 
+          Pau<lb break="no" ed="#P" n="50"/>li: Deus vult omnes homines salvos fieri, cum
+          <lb ed="#P" n="51"/>omnibus, quae de illo et similibus supra tradita
+          <lb ed="#P" n="52"/>sunt.
+        </p>
+        <p xml:id="szduep-125801-d1e335">
+          <lb ed="#P" n="53"/>5. Effugium. — Dicitur.— Respondent 
+          ali<lb break="no" ed="#P" n="54"/>qui, verba illa Pauli limitanda esse ad adultos,
+          <lb ed="#P" n="55"/>quia statim Paulus subdit, et in agnitionem ve-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ritatis venire; quod non nisi adultis convenire 
+          <lb ed="#P" n="57"/>potest. Sed hoc nullius momenti est : nam 
+          Au<lb break="no" ed="#P" n="58"/>gustinus, lib. 4, contra Julian., etiam 
+          parvu<lb break="no" ed="#P" n="59"/>los, qui justificantur et salvantur, ait : Venire
+          <lb ed="#P" n="60"/>i Regnum Dei, ubi certa est, veritatis agnitio.
+          <lb ed="#P" n="61"/>Et aliis locis saepe docet, parvulos baptizatos
+          <lb ed="#P" n="62"/>credere habitu, licet non credant actu: ergo
+          <lb ed="#P" n="63"/>eodem modo dici possunt venire in agnitionem
+          <lb ed="#P" n="64"/>veritatis. Neque obstat verbum ceniendi, quod
+          <lb ed="#P" n="65"/>significare videtur voluntariam fidei 
+          suscep<lb break="no" ed="#P" n="66"/>tionem. Quia etiam parvuli dicuntur venire
+          <lb ed="#P" n="67"/>per voluntatem parentum, juxta morem 
+          lo<lb break="no" ed="#P" n="68"/>quendi Ecclesiae. Itaque per posteriora verba
+          <lb ed="#P" n="69"/>non limitantur priora, quae in rigore, et 
+          pro<lb break="no" ed="#P" n="70"/>prietate universalia sunt. Et praeterea, 
+          ponde<lb break="no" ed="#P" n="71"/>rationes supra factae ad parvulos extenduntur,
+          <lb ed="#P" n="72"/>scilicet quia cum Paulus ait, pro omnibus esse
+          <lb ed="#P" n="73"/>orandum, vel Christum esse redemptorem 
+          om<lb break="no" ed="#P" n="74"/>nium, parvulos sub ea distributione 
+          compre<lb break="no" ed="#P" n="75"/>hendit. Atque ita intellexerunt locum illum
+          <lb ed="#P" n="76"/>expositores, et Augustinus, supra: IVumquid
+          <lb ed="#P" n="77"/>(ait) parvuli homines non sunt, ut non pertineat
+          <lb ed="#P" n="78"/>ad id quod dictum est, vult omnes homines 
+          sal<lb break="no" ed="#P" n="79"/>cos fieri.
+        </p>
+        <p xml:id="szduep-125801-d1e398">
+          <lb ed="#P" n="80"/>6. Responsum. — Ex hoc ergo principio, et
+          <lb ed="#P" n="81"/>priori assensionis parte concludimus 
+          posterio<lb break="no" ed="#P" n="82"/>rem. Nam qui vult finem, si prudenter agat,
+          <lb ed="#P" n="83"/>vult etiam media sufficientia ad finem, saltem
+          <lb ed="#P" n="84"/>eo modo, quo vult finem, alioqui vel 
+          formali<lb break="no" ed="#P" n="85"/>ter, vel virtute, et vellet, et nollet : ergo, si
+          <lb ed="#P" n="86"/>Deus ex se voluit omnibus parvulis finem 
+          aeter<lb break="no" ed="#P" n="87"/>nae beatitudinis, voluit etiam, et praeparavit
+          <lb ed="#P" n="88"/>sufficientia media, quantum est de se. 
+          Respon<lb break="no" ed="#P" n="89"/>dent aliqui, illud assumptum esse verum de
+          <lb ed="#P" n="90"/>intentione finis efficaci et absoluta, non vero
+          <lb ed="#P" n="91"/>de voluntate, quae tantum est simplex 
+          com<lb break="no" ed="#P" n="92"/>placentia , qualis est illa voluntas, qua Deus
+          <lb ed="#P" n="93"/>vult omnes salvos fieri. Probatur assumptum,
+          <lb ed="#P" n="94"/>quia cum aliquis in naufragio metu mortis
+          <lb ed="#P" n="95"/>projicit merces in mare, simplicem quidem
+          <lb ed="#P" n="96"/>affectum habet non projiciendi, quam 
+          exph<lb break="no" ed="#P" n="97"/>care solemus illis verbis, nollem projicere, et
+          <lb ed="#P" n="98"/>tamen nullum medium applicat ad non 
+          pro<lb break="no" ed="#P" n="99"/>Jiciendum, sed potius totus est in projiciendis
+          <lb ed="#P" n="100"/>mercibus : ergo signum est, simplicem 
+          affec<lb break="no" ed="#P" n="101"/>tum non inferre applicationem mediorum :
+          <lb ed="#P" n="102"/>ergo, quamvis Deus simplici affectu velit 
+          aeter<lb break="no" ed="#P" n="103"/>nam salutem horum parvulorum, non recte
+          <lb ed="#P" n="104"/>inde infertur, quod det illis sufficientia media
+          <lb ed="#P" n="105"/>ad eamdem salutem : imo cum priori affectu
+          <lb ed="#P" n="106"/>stat efficax, et absoluta voluntas non 
+          appli<lb break="no" ed="#P" n="107"/>candi media necessaria, ut exemplum 
+          adduc<lb break="no" ed="#P" n="108"/>tum manifeste declarat.
+        </p>
+        <p xml:id="szduep-125801-d1e463">
+          <lb ed="#P" n="109"/>7. Rejicitur. — Verumtamen haec responsio
+          <lb ed="#P" n="110"/>aliena est a mente antiquorum theologorum :
+          <pb ed="#P" n="497"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnes enim existimant, illas voluntates esse
+          <lb ed="#P" n="2"/>inter se connexas, et ideo fere omnes ex priori
+          <lb ed="#P" n="3"/>inferunt posteriorem ut capite praecedenti 
+          vi<lb break="no" ed="#P" n="4"/>dimus. Gregorius vero, qui ausus est 
+          posterio<lb break="no" ed="#P" n="5"/>rem negare, consequenter etiam negavit 
+          prio<lb break="no" ed="#P" n="6"/>rem. Et declaratur primo ratione : Nam si 
+          vo<lb break="no" ed="#P" n="7"/>luntas illa, quam Deus habet de salute horum
+          <lb ed="#P" n="8"/>parvulorum, non infert ex se collationem, ut
+          <lb ed="#P" n="9"/>oblationem sufficientium mediorum, non 
+          ma<lb break="no" ed="#P" n="10"/>gis Deus vult hos parvulos lapsos in peccato
+          <lb ed="#P" n="11"/>originali salvos fieri, quam voluerit angelos
+          <lb ed="#P" n="12"/>malos post lapsum in peccatum salvare, quia
+          <lb ed="#P" n="13"/>etiam in illo objecto, scilicet, sanctificatione,
+          <lb ed="#P" n="14"/>et glorificatione illorum angelorum 
+          simplici<lb break="no" ed="#P" n="15"/>ter complacere potest, quia per se spectatum
+          <lb ed="#P" n="16"/>optimum est. Quamvis ergo ad illum effectum
+          <lb ed="#P" n="17"/>nulla media applicare voluerit, illam 
+          compla<lb break="no" ed="#P" n="18"/>centiam simplicem habere potest : est ergo
+          <lb ed="#P" n="19"/>eadem ratio. Simile argumentum est, quod
+          <lb ed="#P" n="20"/>eodem modo dici posset Deus velle unionem
+          <lb ed="#P" n="21"/>hypostaticam omnium naturarum, hominum
+          <lb ed="#P" n="22"/>et angelorum, quia si ad veritatem illius 
+          locu<lb break="no" ed="#P" n="23"/>tionis sufficit affectus, vel complacentia adeo
+          <lb ed="#P" n="24"/>simplex, ut neque inferat media, neque ullo
+          <lb ed="#P" n="25"/>modo inclinet ad opus, sed respiciat tantum
+          <lb ed="#P" n="26"/>bonitatem, vel pulchritudinem objecti 
+          secun<lb break="no" ed="#P" n="27"/>dum se, profecto majori ratione, complacet
+          <lb ed="#P" n="28"/>Deus in illo objecto universali unionis 
+          hypos<lb break="no" ed="#P" n="29"/>taticae, et ad illud simpliciter afficitur, quam
+          <lb ed="#P" n="30"/>ad universalem salutem omnium parvulorum.
+        </p>
+        <p xml:id="szduep-125801-d1e539">
+          <lb ed="#P" n="31"/>8. Ad rationem contrarium respondetur . —
+          <lb ed="#P" n="32"/>Praeterea in responsione illa, et in exemplo,
+          <lb ed="#P" n="33"/>quod in ea adducitur, quaedam latet 
+          aequivo<lb break="no" ed="#P" n="34"/>catio, et fit transitus a voluntate simplici, et
+          <lb ed="#P" n="35"/>conditionata dandi media , quantum est ex
+          <lb ed="#P" n="36"/>parte Dei, ad voluntatem absolutam et 
+          effica<lb break="no" ed="#P" n="37"/>cem. Nos enim non dicimus, Deum absolute,
+          <lb ed="#P" n="38"/>et efficaciter velle dare cum effectu omnibus
+          <lb ed="#P" n="39"/>his parvulis omnia media proxime sufficientia
+          <lb ed="#P" n="40"/>ad salutem, sed solum paratum esse, quantum
+          <lb ed="#P" n="41"/>est ex se, ad danda illa, et consequenter id
+          <lb ed="#P" n="42"/>velle saltem simplici affectu, et voluntate 
+          in<lb break="no" ed="#P" n="43"/>cludente conditionem. Et hanc tantum 
+          volun<lb break="no" ed="#P" n="44"/>tatem dicimus necessario sequi ex priori 
+          vo<lb break="no" ed="#P" n="45"/>luntate salvandi omnes, etiamsi non sequatur
+          <lb ed="#P" n="46"/>voluntas efficax dandi media, ut per se constat.
+          <lb ed="#P" n="47"/>Atque tantum hoc ultimum probat exemplum
+          <lb ed="#P" n="48"/>allatum.
+        </p>
+        <p xml:id="szduep-125801-d1e582">
+          <lb ed="#P" n="49"/>9. In quo etiam considerandum est, in illa
+          <lb ed="#P" n="50"/>voluntate imperfecta projicendi merces, quae
+          <lb ed="#P" n="51"/>velleitas, vel simplex affectus appellatur, 
+          con<lb break="no" ed="#P" n="52"/>ditionem includi formaliter, seu virtute, 
+          prop<lb break="no" ed="#P" n="53"/>iter quod etiam voluntas conditionata 
+          appella<lb break="no" ed="#P" n="54"/>itur, quia ejus objectum est hoc, non projiciam
+          <lb ed="#P" n="55"/>merces, si cum eis possum evadere periculum.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Sub hac ergo ratione habet illa voluntas 
+          ra<lb break="no" ed="#P" n="57"/>tionem intentionis, non absolutae, et efficacis,
+          <lb ed="#P" n="58"/>sed cum illa limitatione, si possum salvari.
+          <lb ed="#P" n="59"/>Et ita ex vi illius intentionis applicantur 
+          me<lb break="no" ed="#P" n="60"/>dia, quae illi fini sub eadem conditione 
+          pos<lb break="no" ed="#P" n="61"/>sunt deservire : nam qui habet illum affectum,
+          <lb ed="#P" n="62"/>procurat , omnibus modis evadere periculum
+          <lb ed="#P" n="63"/>retinendo merces, quantum potest. Non 
+          perti<lb break="no" ed="#P" n="64"/>net autem ad illam intentionem applicare 
+          me<lb break="no" ed="#P" n="65"/>dia ad non projiciendas merces cum periculo
+          <lb ed="#P" n="66"/>salutis, et navis, quia ille affectus non 
+          exten<lb break="no" ed="#P" n="67"/>ditur cum tanta perfectione ad illum finem.
+          <lb ed="#P" n="68"/>Sed ad summum infertur ex illa intentione
+          <lb ed="#P" n="69"/>quaedam praeparatio animi ad applicandum illa
+          <lb ed="#P" n="70"/>media, et resistendum projectioni, si 
+          pericu<lb break="no" ed="#P" n="71"/>lum cesset, ut conditio impleatur. Quae 
+          con<lb break="no" ed="#P" n="72"/>sideratio in omni simili effectu, qui versatur
+          <lb ed="#P" n="73"/>circa objectum simpliciter possibile, et quod
+          <lb ed="#P" n="74"/>secundum se potest per media obtinere, locum
+          <lb ed="#P" n="75"/>habet et verissima est.
+        </p>
+        <p xml:id="szduep-125801-d1e645">
+          <lb ed="#P" n="76"/>10. Ad hunc ergo modum philosophandum
+          <lb ed="#P" n="77"/>est de illo simplici affectu divinae voluntatis
+          <lb ed="#P" n="78"/>circa aeternam salutem horum parvulorum,
+          <lb ed="#P" n="79"/>habet enim rationem cujusdam intentionis 
+          il<lb break="no" ed="#P" n="80"/>lius finis, quatenus per media comparari 
+          po<lb break="no" ed="#P" n="81"/>test. Non tamen est intentio absoluta, sed 
+          in<lb break="no" ed="#P" n="82"/>cludens aliquam conditionem, quam his verbis
+          <lb ed="#P" n="83"/>explicamus : Volo, quantum est em me, 
+          seuev<lb break="no" ed="#P" n="84"/>parte mea. Sub qua conditione voluntas illa est
+          <lb ed="#P" n="85"/>efficax, seu habet virtutem efficacis, quando
+          <lb ed="#P" n="86"/>conditio impletur, quia conditionalis, impleta
+          <lb ed="#P" n="87"/>conditione, transit in absolutam. Unde fit, ut
+          <lb ed="#P" n="88"/>voluntas illa duo necessario operetur : unum
+          <lb ed="#P" n="89"/>est, ut si quae sunt necessaria ad salutem, quae
+          <lb ed="#P" n="90"/>a solo Deo pendent, et sunt accommodata 
+          ca<lb break="no" ed="#P" n="91"/>pacitati parvulorum, ut eis aliquo modo 
+          con<lb break="no" ed="#P" n="92"/>ferri valeant, illis necessario offerantur, et
+          <lb ed="#P" n="93"/>quantum ipsi capaces sunt, conferantur. Sic
+          <lb ed="#P" n="94"/>Christus pro illis mortuus est, et pro eisdem
+          <lb ed="#P" n="95"/>eeque, ac pro illis redemptionem suam obtulit.
+          <lb ed="#P" n="96"/>Item pro eis baptismum *nstituit, et quantum
+          <lb ed="#P" n="97"/>in ipso est contuht, et sic de aliis hujusmodi
+          <lb ed="#P" n="98"/>mediis. Et ratio est, quia in his mediis 
+          imple<lb break="no" ed="#P" n="99"/>tur conditio, quantum in Deo est, cum illa non
+          <lb ed="#P" n="100"/>pendeant , nisi ab ipso: ergo respectu 
+          illo<lb break="no" ed="#P" n="101"/>rum voluntas illa transit in absolutam, et 
+          et<lb break="no" ed="#P" n="102"/>ficacem.
+        </p>
+        <p xml:id="szduep-125801-d1e706">
+          <lb ed="#P" n="103"/>11. Aliud, quod dicta voluntas operatur, est,
+          <lb ed="#P" n="104"/>quod in his mediis, quae pendent a causis 
+          se<lb break="no" ed="#P" n="105"/>cundis, ut est applicatio baptismi, et similia,
+          <lb ed="#P" n="106"/>Deus ex vi illius voluntatis, quae in eo 
+          suppo<lb break="no" ed="#P" n="107"/>nitur, non potest peculiari, aut directa 
+          provi<lb break="no" ed="#P" n="108"/>dentia impedire illam applicationem seu 
+          exe<lb break="no" ed="#P" n="109"/>cutionem talium mediorum, alioqui jam 
+          agce<lb break="no" ed="#P" n="110"/>ret contra illam conditionem, quantum in se
+          <pb ed="#P" n="498"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est. Unde potius ex vi hujus effectus cogitur
+          <lb ed="#P" n="2"/>(ut sic dicam); ad offerendum quantum in se
+          <lb ed="#P" n="3"/>est ordinarium auxilium, vel concursum ad
+          <lb ed="#P" n="4"/>talem applicationem ex parte sua 
+          necessarium<lb break="no" ed="#P" n="5"/>Et hoc satis est, ut dicatur, ex se velle etiam
+          <lb ed="#P" n="6"/>haec media praestare, saltem voluntate 
+          antece<lb break="no" ed="#P" n="7"/>dénte et simplici, ac proportionata intentioni
+          <lb ed="#P" n="8"/>finis. Non tamen cogitur, ex vi illius affectus
+          <lb ed="#P" n="9"/>circa finem, immutare ordinem aliarum 
+          cau<lb break="no" ed="#P" n="10"/>sarum, ut talia media cum effectu 
+          applicen<lb break="no" ed="#P" n="11"/>tur, quia hoc excedit limitationem illius 
+          affec<lb break="no" ed="#P" n="12"/>tus, et conditionem in ejus objecto inclusam.
+        </p>
+        <p xml:id="szduep-125801-d1e756">
+          <lb ed="#P" n="13"/>12. Et quidem priorem partem hujus 
+          dis<lb break="no" ed="#P" n="14"/>cursus non obscure confirmat Paulus, cum
+          <lb ed="#P" n="15"/>immediate post illa verba subjungit : Unus
+          <lb ed="#P" n="16"/>enim Deus, unus et mediator Dei, et hominwm
+          <lb ed="#P" n="17"/>homo Christus Jesus, qui dedit in redemptionem
+          <lb ed="#P" n="18"/>semetipsum pro omnibus nobis. Ac si diceret,
+          <lb ed="#P" n="19"/>ideo se dedit in redemptionem pro omnibus,
+          <lb ed="#P" n="20"/>quia omnes salvari vult. Unde etiam 
+          conclu<lb break="no" ed="#P" n="21"/>ditur argumentum supra in simili factum:
+          <lb ed="#P" n="22"/>Christus redemit hos parvulos suflcienter :
+          <lb ed="#P" n="23"/>ergo et pro eis obtulit mortem suam, quae in
+          <lb ed="#P" n="24"/>suo genere est remedium de se sufficiens ad
+          <lb ed="#P" n="25"/>salutem, et per illam eis meruit, quantum in
+          <lb ed="#P" n="26"/>Ipso est, reliqua sufficientia media, per quae
+          <lb ed="#P" n="27"/>salus applicari solet.
+        </p>
+        <p xml:id="szduep-125801-d1e791">
+          <lb ed="#P" n="28"/>13. Evasio. — Repicitur. — Bespondent 
+          ah<lb break="no" ed="#P" n="29"/>qui, Christum dici redemptorem horum 
+          par<lb break="no" ed="#P" n="30"/>vulorum, non quia pro eis obtulerit passionem
+          <lb ed="#P" n="31"/>suam, sed quia pretium passionis de se erat
+          <lb ed="#P" n="32"/>sufficiens etiam pro illis, et causa illorum erat
+          <lb ed="#P" n="33"/>communis cum aliis hominibus. At hoc satis
+          <lb ed="#P" n="34"/>non est, ut Christus vere et proprie dicatur
+          <lb ed="#P" n="35"/>redemptor, etiam quoad sufticientiam talium
+          <lb ed="#P" n="36"/>hominum : quod est contra communem 
+          sen<lb break="no" ed="#P" n="37"/>tentiam theologorum. Quam expresse tradit
+          <lb ed="#P" n="38"/>Prosper ad primam objectionem Vincentii, et
+          <lb ed="#P" n="39"/>ad nonam Gallorum, et sumitur ex illo 1, Joan.
+          <lb ed="#P" n="40"/>2. Ipse est propitiatio pro peccatis mostris, non
+          <lb ed="#P" n="41"/>pro nostris autem tamhun, sed etium pro totius
+          <lb ed="#P" n="42"/>mundi, et 9, ad Corinth. 5. Erat Deusin Christo
+          <lb ed="#P" n="43"/>mundum reconcilians sibi. Et ad Rom. 5. Sicut
+          <lb ed="#P" n="44"/>per unius delictum in omnes homines in 
+          condem<lb break="no" ed="#P" n="45"/>nationem, sic et per unius justitiam in omnes 
+          ho<lb break="no" ed="#P" n="46"/>mines injustificationem vite . Sequela patet, quia
+          <lb ed="#P" n="47"/>non satis est pretium esse sufficiens, nisi 
+          offe<lb break="no" ed="#P" n="48"/>ratur : nam etiam pro daemoniis erat sufficiens
+          <lb ed="#P" n="49"/>valor in Passione Christi, et non propterea
+          <lb ed="#P" n="50"/>Christus. fuit redemptor eorum etiam quoad
+          <lb ed="#P" n="51"/>sufficientiam. Parumque referret causam esse
+          <lb ed="#P" n="52"/>communem, si oblatio pretii non fuisset pro
+          <lb ed="#P" n="53"/>omnibus communis. Ut si mille homines 
+          es<lb break="no" ed="#P" n="54"/>sent captivi ob eamdem causam, et quispiam
+          <lb ed="#P" n="55"/>dives potens ad redimendum omnes, solum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pro quingentis pretium offerret, et alios nullo
+          <lb ed="#P" n="57"/>modo liberare vellet, non diceretur 
+          redemp<lb break="no" ed="#P" n="58"/>tor eorum, etiam quoad sufficientiam. Imo
+          <lb ed="#P" n="59"/>tunc clara esset exceptio et limitatio, ac mere
+          <lb ed="#P" n="60"/>voluntaria.
+        </p>
+        <p xml:id="szduep-125801-d1e867">
+          <lb ed="#P" n="61"/>14. Respondent, Christum quidem affectu
+          <lb ed="#P" n="62"/>simplici desiderasse, ut sua merita his etiam
+          <lb ed="#P" n="63"/>parvulis prodessent. Patrem autem hoc non
+          <lb ed="#P" n="64"/>acceptasse, neque ordinasse. Sed hoc non recte
+          <lb ed="#P" n="65"/>dicitur. Primo, quia non minus Deus voluntate
+          <lb ed="#P" n="66"/>divina, quam Christus bumana, voluit salutem
+          <lb ed="#P" n="67"/>et redemptionem omnium, juxta illud Joan. 3.
+          <lb ed="#P" n="68"/>Sic Deus dilecit mundum, et illud 1, ad Tim. 4.
+          <lb ed="#P" n="69"/>Deus est salvator omnium, utique quoad 
+          suffi<lb break="no" ed="#P" n="70"/>cientiam, macvime fideliun, quoad efficaciam.
+          <lb ed="#P" n="71"/>Unde siChristus habuit illam voluntatem, ut 
+          re<lb break="no" ed="#P" n="72"/>vera habuit, in ea se conformavit voluntati 
+          di<lb break="no" ed="#P" n="73"/>vinae, per quam acceperat munus universalis
+          <lb ed="#P" n="74"/>Redemptoris: quod per eam generalem 
+          oblatio<lb break="no" ed="#P" n="75"/>nem exequebatur. Unde, non solum pro 
+          par<lb break="no" ed="#P" n="76"/>vulis, qui fuerunt post adventum ipsius Christi,
+          <lb ed="#P" n="77"/>suam passionem obtulit, ut quidam volunt,
+          <lb ed="#P" n="78"/>sed etiam pro omnibus, qui a principio mundi
+          <lb ed="#P" n="79"/>fuerunt, quia omnium fuit universalis 
+          redemp<lb break="no" ed="#P" n="80"/>tor, et illa oblatio necessaria ad 
+          redemptio<lb break="no" ed="#P" n="81"/>nem, ut dictum est. Nec refert, quod illis jam
+          <lb ed="#P" n="82"/>non posset applicari fructus passionis, nam
+          <lb ed="#P" n="83"/>satis est, quod suis temporibus fuerit eis 
+          pa<lb break="no" ed="#P" n="84"/>rata salus propter Christum, quantum est ex
+          <lb ed="#P" n="85"/>parte Dei, et universalium mediorum, quae ad
+          <lb ed="#P" n="86"/>hoc instituebantur, in quo fere eadem est ratio
+          <lb ed="#P" n="87"/>de adultis, qui superioribus temporibus 
+          dam<lb break="no" ed="#P" n="88"/>nati fuerant. Satis ergo constat, omnibus 
+          par<lb break="no" ed="#P" n="89"/>vulis data esse generalia remedia necessaria
+          <lb ed="#P" n="90"/>ad salutem, quae ex sola Dei, et Christi 
+          volun<lb break="no" ed="#P" n="91"/>tate, ac institutione dependent.
+        </p>
+        <p xml:id="szduep-125801-d1e938">
+          <lb ed="#P" n="92"/>15. Altera vero pars de mediis quae ex 
+          cau<lb break="no" ed="#P" n="93"/>sis secundis pendent, et per illas applicantur,
+          <lb ed="#P" n="94"/>satis declarata est in superioribus. Duas enim
+          <lb ed="#P" n="95"/>partes continet, una est, Deum non habuisse
+          <lb ed="#P" n="96"/>voluntatem efficacem, et absolutam dandi talia 
+          <lb ed="#P" n="97"/>media, quae est evidens ex ipsis effectibus, et
+          <lb ed="#P" n="98"/>probatur optime argumentis in principio 
+          fac<lb break="no" ed="#P" n="99"/>ts : Nihil tamen ad praesentem causam refert,
+          <lb ed="#P" n="100"/>quia ex intentione finis solum antecedente, et
+          <lb ed="#P" n="101"/>inefficaci non sequitur talis voluntas 
+          medio<lb break="no" ed="#P" n="102"/>rum. Alia pars est, quod Deus simili voluntate
+          <lb ed="#P" n="103"/>antecedente, et quantum est de se cuperet 
+          ap<lb break="no" ed="#P" n="104"/>plicari talia media etiam his parvulis, non 
+          <lb ed="#P" n="105"/>quidem omni modo possibili, nam hoc 
+          perti<lb break="no" ed="#P" n="106"/>neret potius ad efficacem voluntatem, sed per 
+          <lb ed="#P" n="107"/>ordinarias causas, nam hoc satis est ad 
+          volun<lb break="no" ed="#P" n="108"/>tatem antecedentem Dei, ut generalis 
+          provi<lb break="no" ed="#P" n="109"/>soris. Hoc ergo satis est, ut dicatur Deus 
+          pro<lb break="no" ed="#P" n="110"/>vidisse sufficientia remedia etiam pro his par-
+          <pb ed="#P" n="499"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vulis, et ex parte sua nulli posuisse 
+          impedi<lb break="no" ed="#P" n="2"/>mentum, licet illud permiserit in multis, in
+          <lb ed="#P" n="3"/>quibus praevidit ex aliis causis fuisse 
+          eventu<lb break="no" ed="#P" n="4"/>rum. Quod magis patebit respondendo ad 
+          ob<lb break="no" ed="#P" n="5"/>jectiones in principio factas.
+        </p>
+        <p xml:id="szduep-125801-d1e997">
+          <lb ed="#P" n="6"/>16. Prima erat de parvulis, qui moriuntur
+          <lb ed="#P" n="7"/>in utero: propter quam Cajetanus existimavit
+          <lb ed="#P" n="8"/>parvulos illos propter orationes parentum, vel
+          <lb ed="#P" n="9"/>per aliud remedium posse sine baptismo 
+          sal<lb break="no" ed="#P" n="10"/>vari. Et Gabriel et alii indicant, posse hoc
+          <lb ed="#P" n="11"/>de divina pietate sperari. Certum tamen est
+          <lb ed="#P" n="12"/>eos de lege non salvari, nec habere aliud 
+          re<lb break="no" ed="#P" n="13"/>medium : et hoc est quod docent S. Thomas
+          <lb ed="#P" n="14"/>et Richardus et late Soto, et Vega. Hic vero
+          <lb ed="#P" n="15"/>addit, illos non esse privatos omni remedio,
+          <lb ed="#P" n="16"/>tum quia possent salvari baptismo 
+          sangui<lb break="no" ed="#P" n="17"/>nis, si mater propter Christum occideretur:
+          <lb ed="#P" n="18"/>tum etiam, quia possunt parentes precibus
+          <lb ed="#P" n="19"/>obtinere a Deo, ut prius in hanc lucem
+          <lb ed="#P" n="20"/>exeant, quam moriantur. Dico tamen satis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="21"/>esse, ut Deus et baptismum ita institui 
+          vo<lb break="no" ed="#P" n="22"/>luerit, ut quacumque ratione eis applicetur
+          <lb ed="#P" n="23"/>(sive diviso utero matris jure, vel injuria, illa
+          <lb ed="#P" n="24"/>vivente, vel post mortem ejus, sive 
+          quocum<lb break="no" ed="#P" n="25"/>que alio casu) eis prodesset, et quod 
+          ordina<lb break="no" ed="#P" n="26"/>verit causas, in quibus esset virtus per se 
+          suf<lb break="no" ed="#P" n="27"/>ficiens ad hunc effectum. Nam, licet in 
+          parti<lb break="no" ed="#P" n="28"/>culari contingat impediri, non pertinet ad 
+          ge<lb break="no" ed="#P" n="29"/>neralem providentiam immutare cursum 
+          ea<lb break="no" ed="#P" n="30"/>rum, quod (ut dixi) satis est advoluntatem Dei
+          <lb ed="#P" n="31"/>antecedentem. Idemque dicendum est de 
+          quo<lb break="no" ed="#P" n="32"/>cumque alio casu, in quo est moraliter, vel
+          <lb ed="#P" n="33"/>humano modo impossibilis applicatio 
+          baptis<lb break="no" ed="#P" n="34"/>mi: nam illud impedimentum, quatenus tale
+          <lb ed="#P" n="35"/>est, semper est ex permissione divina, non ex
+          <lb ed="#P" n="36"/>directa ordinatione : quae permissio supponit
+          <lb ed="#P" n="37"/>praescientiam, et addit voluntatem non 
+          tollen<lb break="no" ed="#P" n="38"/>di illa impedimenta, sed ordinandi illa ad 
+          al<lb break="no" ed="#P" n="39"/>tiores fines providentiae. Et solum hoc ait 
+          Au<lb break="no" ed="#P" n="40"/>gustinus in citatis locis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

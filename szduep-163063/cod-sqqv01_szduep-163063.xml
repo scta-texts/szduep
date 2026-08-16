@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="644"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-163063"><!-- t3-l4c14 -->
+        <head xml:id="szduep-163063-Hd1e101">Caput 14</head>
+        <head xml:id="szduep-163063-Hd1e103" type="question-title">Pro quo supponat hic deus, cum de tribus personis dicitur</head>
+        <p xml:id="szduep-163063-d1e106">
+          <lb ed="#P" n="69"/>CAPUT XIV.
+          <lb ed="#P" n="70"/>PRO QUO SUPPONAT HIC DEUS, CUM DE TRIBUS
+          <lb ed="#P" n="71"/>PERSONIS DICITUR.
+        </p>
+        <p xml:id="szduep-163063-d1e115">
+          <lb ed="#P" n="72"/>1. Prima opinio. —Haec quaestio ex parte 
+          vi<lb break="no" ed="#P" n="73"/>deri potest dialectica, tractatur autem a divo
+          <lb ed="#P" n="74"/>Thoma, quaest. 39, et a caeteris theologis, quia
+          <lb ed="#P" n="75"/>necessaria est ad recte loquendum in hoc 
+          mys<lb break="no" ed="#P" n="76"/>terio: et ideo non debuit omnino praetermitti :
+          <lb ed="#P" n="77"/>breviter autem expedietur. Prima ergo 
+          sen<lb break="no" ed="#P" n="78"/>tentia est Deum semper supponere immediate
+          <lb ed="#P" n="79"/>pro personis. Ita sentit Henricus, quodlib. 5,
+          <lb ed="#P" n="80"/>quaest. 8, et fundamentum ejus est, quia 
+          no<lb break="no" ed="#P" n="81"/>miria concreta semper supponunt immediate
+          <lb ed="#P" n="82"/>pro aliquo supposito : in Deo autem non datur
+          <lb ed="#P" n="83"/>aliquod suppositum praeter tres divinas 
+          perso<lb break="no" ed="#P" n="84"/>nas, ergo, etc.
+        </p>
+        <p xml:id="szduep-163063-d1e146">
+          <lb ed="#P" n="85"/>2. Rejicitur. — Haec vero sententia sustineri
+          <lb ed="#P" n="86"/>com mode non potest, nam multae sunt 
+          locutio<lb break="no" ed="#P" n="87"/>nes verae in Trinitate, ad quarum veritatem
+          <lb ed="#P" n="88"/>non sufficit illa suppositio, ut patet de 
+          locutio<lb break="no" ed="#P" n="89"/>nibus sequentibus , una est. Hic Deus est 
+          Tri<lb break="no" ed="#P" n="90"/>nitas, quae de nulla persona verificari potest.
+          <lb ed="#P" n="91"/>Fortasse tamen diceret Henricus verificari de
+          <lb ed="#P" n="92"/>collectione trium personarum. Sed hoc non
+          <lb ed="#P" n="93"/>satisfacit. Nam hic Deus, qui est Trinitas, est
+          <lb ed="#P" n="94"/>etiam Pater, et Filius divisim, seu sigillatim.
+          <lb ed="#P" n="95"/>Idem est de hac locutione: Hc Deus realiter
+          <lb ed="#P" n="96"/>communis est Patri et Filio, et Spiritui 
+          sanc<lb break="no" ed="#P" n="97"/>to, quod praedicatum neque alicui personae,
+          <lb ed="#P" n="98"/>neque omnibus simul attribui potest. Deinde
+          <lb ed="#P" n="99"/>Henricus videtur supponere, non dari in Deo
+          <lb ed="#P" n="100"/>subsistentiam realem et communenm, 
+          singula<lb break="no" ed="#P" n="101"/>rem tribus personis: nam illa posita, facile
+          <lb ed="#P" n="102"/>intelligitur, non esse necessarium, ut hic Deus
+          <lb ed="#P" n="103"/>immediate supponat pro supposito, sed pro
+          <lb ed="#P" n="104"/>natura Deitatis subsistente essentialiter. Ac 
+          de<lb break="no" ed="#P" n="105"/>nique illa sententia supposita, non recte infert
+          <lb ed="#P" n="106"/>Henricus, illum esse unicum et universalem
+          <lb ed="#P" n="107"/>supponendi modum, ut declarabitur statim.
+        </p>
+        <p xml:id="szduep-163063-d1e199">
+          <pb ed="#P" n="645"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>3. Secunda opinio. — Est ergo secunda 
+          opi<lb break="no" ed="#P" n="2"/>nio, quae licet neget subsistentiam absolutam,
+          <lb ed="#P" n="3"/>nihilominus dicit hunc Deum ex se non 
+          sup<lb break="no" ed="#P" n="4"/>ponere immediate pro personis, sed pro 
+          con<lb break="no" ed="#P" n="5"/>creto, seu individuo Deitatis. Per concretum
+          <lb ed="#P" n="6"/>autem Deitatis intelligunt hujus opinionis 
+          auc<lb break="no" ed="#P" n="7"/>tores hunc Deum, qui includit singularem, seu
+          <lb ed="#P" n="8"/>particularem naturam, non tamen 
+          particula<lb break="no" ed="#P" n="9"/>rem subsistentiam : sed abstracte et 
+          indiffe<lb break="no" ed="#P" n="10"/>renter, quidquid est subsistens in natura tali:
+          <lb ed="#P" n="11"/>Unde licet suppositio illius termini sit 
+          particu<lb break="no" ed="#P" n="12"/>laris ex parte Divinitatis, tamen ex parte 
+          sub<lb break="no" ed="#P" n="13"/>sistentiae est communis et abstrahens a tribus
+          <lb ed="#P" n="14"/>personis. Et hac ratione dicitur ille terminus
+          <lb ed="#P" n="15"/>non supponere immediate pro personis, sed
+          <lb ed="#P" n="16"/>pro illo concreto: cujus sententiae 
+          fundamen<lb break="no" ed="#P" n="17"/>tum est, quia non datur subsistentia 
+          commu<lb break="no" ed="#P" n="18"/>nis secundum rem, et aliunde ad rationem 
+          in<lb break="no" ed="#P" n="19"/>dividui concreti sufficit unitas naturae. Haec
+          <lb ed="#P" n="20"/>sententia videtur posse sumi ex Capreolo in 1,
+          <lb ed="#P" n="21"/>dist. 4, quaest. 1, et Torres, quaest. 39, art. 4.
+          <lb ed="#P" n="22"/>Et quidem ablata subsistentia communi, hic
+          <lb ed="#P" n="23"/>dicendi modus est caeteris probabilior, et illo
+          <lb ed="#P" n="24"/>ego usus sum in 3 part., quaest. 24, ad 
+          expli<lb break="no" ed="#P" n="25"/>candum quo modo Christus in quantum hic
+          <lb ed="#P" n="26"/>homo, fuerit praedestinatus Filius Dei 
+          natu<lb break="no" ed="#P" n="27"/>ralis.
+        </p>
+        <p xml:id="szduep-163063-d1e264">
+          <lb ed="#P" n="28"/>4. Rejicitur. — Tamen in praesenti materia,
+          <lb ed="#P" n="29"/>neque est necessarius , quia Divinitas habet
+          <lb ed="#P" n="30"/>particularem subsistentiam realiter 
+          commu<lb break="no" ed="#P" n="31"/>nem : neque etiam est sufficiens ad omnes 
+          lo<lb break="no" ed="#P" n="32"/>cutiones et suppositiones verificandas, 
+          praeser<lb break="no" ed="#P" n="33"/>tim juxta varias sententias D. Thomae, ille enim
+          <lb ed="#P" n="34"/>in 1 part., quaest. 39, art. 4, docet in hac 
+          pro<lb break="no" ed="#P" n="35"/>positione, Deus creat, Deum non supponere
+          <lb ed="#P" n="36"/>immediate pro personis, sed pro essentia : non
+          <lb ed="#P" n="37"/>potest autem ibi supponere immediate pro
+          <lb ed="#P" n="38"/>concreto Deitatis abstrahente ex parte 
+          sub<lb break="no" ed="#P" n="39"/>sistentiae a particularibus suppositis solum
+          <lb ed="#P" n="40"/>secundum rationem. Quod probatur ex 
+          a<lb break="no" ed="#P" n="41"/>lia doctrina ejusdem Divi Thomae, 8 part.,
+          <lb ed="#P" n="42"/>quaest. 24, art. 1, ad 3, ubi dicit, illum 
+          mo<lb break="no" ed="#P" n="43"/>dum suppositionis habere locum in ordine ad
+          <lb ed="#P" n="44"/>actus mentis, non vero ad actiones reales. 
+          Un<lb break="no" ed="#P" n="45"/>de cum vera sit illa locutio: Christus, ut hic
+          <lb ed="#P" n="46"/>homo est preedestinatus Filius Dei: Haec tamen
+          <lb ed="#P" n="47"/>est falsa: Christus, ut hic homo est factus 
+          Fi<lb break="no" ed="#P" n="48"/>lius Dei. Et ratio est, quia actus mentis 
+          ter<lb break="no" ed="#P" n="49"/>minatur ad rationes abstracte conceptas, 
+          ac<lb break="no" ed="#P" n="50"/>tiones vero reales exeunt immediate a rebus,
+          <lb ed="#P" n="51"/>prout a parte rei subsistunt. Cum ergo in hac
+          <lb ed="#P" n="52"/>propositione: Deus creat, realis actio 
+          praedi<lb break="no" ed="#P" n="53"/>cetur, immediate dicitur de particulari re 
+          sub<lb break="no" ed="#P" n="54"/>sistente, et prout in re ipsa subsistens est.
+        </p>
+        <p xml:id="szduep-163063-d1e325">
+          <lb ed="#P" n="55"/>5. Tertia opinio. — Defenditur. — Est ergo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tertia opinio, Deum ex se, ac sine restrictione
+          <lb ed="#P" n="57"/>positum supponere immediate pro hoc Deo,
+          <lb ed="#P" n="58"/>praescindendo secundum rationem a personis,
+          <lb ed="#P" n="59"/>non solum secundum rationem subsistentiae
+          <lb ed="#P" n="60"/>communem per solam abstractionem mentis,
+          <lb ed="#P" n="61"/>sed etiam secundum subsistentiam realem 
+          com<lb break="no" ed="#P" n="62"/>munem. Haec est sententia Cajetani, 1 part.,
+          <lb ed="#P" n="63"/>quaest. 3, art. 3, et 3 part., quaest. 3, ad 3,
+          <lb ed="#P" n="64"/>quam multi vehementer reprobant, quia 
+          vide<lb break="no" ed="#P" n="65"/>tur confundere tres personas in unam, vel
+          <lb ed="#P" n="66"/>quartam tribus adjungere. Sed hae objectiones
+          <lb ed="#P" n="67"/>frivolae sunt. Nam hic Deus pro quo immediate
+          <lb ed="#P" n="68"/>et realiter dicitur supponere Deus, non est 
+          ali<lb break="no" ed="#P" n="69"/>quid distinctum in re a tribus personis, sed
+          <lb ed="#P" n="70"/>ratione tantum, et ideo nulla quaternitas 
+          se<lb break="no" ed="#P" n="71"/>quitur juxta doctrinam Concilii Lateranensis,
+          <lb ed="#P" n="72"/>in capite Damnamus, dicentis, ex personis et
+          <lb ed="#P" n="73"/>essentia, non consurgere quaternitatem, quia
+          <lb ed="#P" n="74"/>in re non distinguuntur. Neque etiam hic Deus
+          <lb ed="#P" n="75"/>est persona, vel suppositum, quia est realiter
+          <lb ed="#P" n="76"/>communis tribus personis. In quo non 
+          proba<lb break="no" ed="#P" n="77"/>mus modum loquendi Cajetani, ut superius
+          <lb ed="#P" n="78"/>attigi, et latius, 3 part., disp. 13, sect. 3. Haec
+          <lb ed="#P" n="79"/>ergo sententia sic exposita vera est, et sine
+          <lb ed="#P" n="80"/>dubio est D. Thomae, dicta quaest. 39, art. 4.
+          <lb ed="#P" n="81"/>Eamdem indicat Alensis, 1 part., quaest. 10,
+          <lb ed="#P" n="82"/>memb. 3, per totum, et Bonaventura, in 1,
+          <lb ed="#P" n="83"/>dist. 4, art. 1, quaest. 4. Et omnes qui 
+          admit<lb break="no" ed="#P" n="84"/>tunt subsistentiam absolutam, hoc ipsum 
+          sen<lb break="no" ed="#P" n="85"/>tire debent, si consequenter loquantur.
+        </p>
+        <p xml:id="szduep-163063-d1e397">
+          <lb ed="#P" n="86"/>6. Prima, assertio. — Ut autem tota res
+          <lb ed="#P" n="87"/>melius intelligatur, dicendum imprimis est,
+          <lb ed="#P" n="88"/>Deum ex sua vi, si aliunde non restringatur,
+          <lb ed="#P" n="89"/>vel determinetur, immediate supponere pro
+          <lb ed="#P" n="90"/>hoc subsistente in Divinitate, realiter communi
+          <lb ed="#P" n="91"/>tribus personis. Probatur, quia ille terminus,
+          <lb ed="#P" n="92"/>cum sit concretus ex modo suae significationis
+          <lb ed="#P" n="93"/>habet supponere pro re subsistente, quatenus
+          <lb ed="#P" n="94"/>vero terminus singularis est, habet etiam 
+          sup<lb break="no" ed="#P" n="95"/>ponere pro subsistente singulari, quantum
+          <lb ed="#P" n="96"/>potest: sed potest supponere pro tali 
+          subsia<lb break="no" ed="#P" n="97"/>tente particulari et realiter corhmuni, quia in
+          <lb ed="#P" n="98"/>re ipsa datur: ergo vere pro illo supponit.
+          <lb ed="#P" n="99"/>Quod autem haec sit suppositio immediata,
+          <lb ed="#P" n="100"/>patet, tum quia illud significatum est maxime
+          <lb ed="#P" n="101"/>adaequatum illius vocis, tum etiam quia 
+          nos<lb break="no" ed="#P" n="102"/>tro modo concipiendi subsistentia communis
+          <lb ed="#P" n="103"/>immediatius convenit divinitati, quam 
+          per<lb break="no" ed="#P" n="104"/>sonalis.
+        </p>
+        <p xml:id="szduep-163063-d1e441">
+          <lb ed="#P" n="105"/>7. Secunda assertio. — Secundo vero 
+          addi<lb break="no" ed="#P" n="106"/>mus, Deum ex se, si aliunde non restringatur,
+          <lb ed="#P" n="107"/>simul etiam supponere pro personis. Hoc etiam
+          <lb ed="#P" n="108"/>docet D. Thomas, dict. art. 4, et probat ex
+          <lb ed="#P" n="109"/>modo significandi termini concreti : significat
+          <lb ed="#P" n="110"/>enim naturam ut in habente ipsam, et ideo ex
+          <pb ed="#P" n="646"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>se aptus est supponere pro quocumque 
+          sup<lb break="no" ed="#P" n="2"/>posito talis naturae, quia vere habet ipsam. Et
+          <lb ed="#P" n="3"/>in hoc est differentia, (notanda pro his, quae
+          <lb ed="#P" n="4"/>infra dicemus de actibus notionahbus) inter
+          <lb ed="#P" n="5"/>Deum in concreto et Deitatem in abstracto.
+          <lb ed="#P" n="6"/>Nam Deus propriissime supponit pro personis,
+          <lb ed="#P" n="7"/>et ideo non tantum essentiales actus, ut creare,
+          <lb ed="#P" n="8"/>sed etiam notionales, ut generare, illi 
+          attri<lb break="no" ed="#P" n="9"/>buuntur, Deitas vero ex vi modi significandi
+          <lb ed="#P" n="10"/>non habet supponere pro persona, et ideo 
+          no<lb break="no" ed="#P" n="11"/>tionales actus illi tribuuntur, ut postea 
+          vide<lb break="no" ed="#P" n="12"/>bimus.
+        </p>
+        <p xml:id="szduep-163063-d1e487">
+          <lb ed="#P" n="13"/>8. Tertia assertio. — Tertio dicendum est,
+          <lb ed="#P" n="14"/>ratione adjuncti, vel ratione praedicati posse
+          <lb ed="#P" n="15"/>suppositionem Pei determinari, vel ad hunc
+          <lb ed="#P" n="16"/>Deum tantum, vel ad personam tantum, unam,
+          <lb ed="#P" n="17"/>vel duas, vel aliquando etiam ad omnes 
+          divi<lb break="no" ed="#P" n="18"/>sive, aut collective. Declaro breviter singula:
+          <lb ed="#P" n="19"/>nam imprimis de hoc Deo, potest aliquid 
+          prae<lb break="no" ed="#P" n="20"/>dicari, quod illi soli secundum se conveniat,
+          <lb ed="#P" n="21"/>ut in his locutionibus : Deus est realiter 
+          com<lb break="no" ed="#P" n="22"/>munis tribus personis, subsistit subsistentia
+          <lb ed="#P" n="23"/>absolvta et similibus. Confirmatur, nam in
+          <lb ed="#P" n="24"/>concretis creatis terminus communis ex 
+          ad<lb break="no" ed="#P" n="25"/>juncto determinatur aliquando ad communem
+          <lb ed="#P" n="26"/>suppositionem, ut in hac, homo est species:
+          <lb ed="#P" n="27"/>ergo idem erit in Deo, quatenus 
+          communita<lb break="no" ed="#P" n="28"/>tem habet, hac servata differentia, quod in
+          <lb ed="#P" n="29"/>homine communitas illa est rationis, in Deo
+          <lb ed="#P" n="30"/>est realis. Aliae partes assertionis locum habent,
+          <lb ed="#P" n="31"/>quoties aliquid notionale huic terminc 
+          adjun<lb break="no" ed="#P" n="32"/>gitur, nam illud determinat suppositionem.
+          <lb ed="#P" n="33"/>Unde in hac, Deus pater generat, clarum est
+          <lb ed="#P" n="34"/>suppositionem esse tantum pro prima persona.
+          <lb ed="#P" n="35"/>Imo etiamsi determinatio non addatur in 
+          sub<lb break="no" ed="#P" n="36"/>jecto, praedicatum censetur sufficere ad 
+          res<lb break="no" ed="#P" n="37"/>tringendam suppositionem, ut in bac etiam,
+          <lb ed="#P" n="38"/>Deus generat,censetur Deus supponere pro solo
+          <lb ed="#P" n="39"/>Patre. In hac vero Deus spirat, pro Patre et
+          <lb ed="#P" n="40"/>Filio, de quo latius dicetur in libro sexto. In
+          <lb ed="#P" n="41"/>hac vero propositione Deus est persona, 
+          cla<lb break="no" ed="#P" n="42"/>rum est, immediatam suppositionem esse pro
+          <lb ed="#P" n="43"/>personis, quia hoc praedicatum convenit Deo
+          <lb ed="#P" n="44"/>ratone hypostasis : est autem commune 
+          om<lb break="no" ed="#P" n="45"/>nibus singulis personis: et ideo ibi Deus pro
+          <lb ed="#P" n="46"/>omnibus divisive supponit.
+        </p>
+        <p xml:id="szduep-163063-d1e564">
+          <lb ed="#P" n="47"/>9. Exponitur illud soli Deo honor et gloria.
+          <lb ed="#P" n="48"/>— In hac etiam propositione: Soli Deo honor
+          <lb ed="#P" n="49"/>et gloria, ait D. Thomas supra, suppositionem
+          <lb ed="#P" n="50"/>esse pro omnibus personis, secutus 
+          Augusti<lb break="no" ed="#P" n="51"/>num, lib. 6, de Trinitate, cap. 8. Indicatque
+          <lb ed="#P" n="52"/>esse differentiam inter illam propositionem et
+          <lb ed="#P" n="53"/>alteram, Deus creat, Cajetanus autem sentit,
+          <lb ed="#P" n="54"/>non esse differentiam inter illas duas 
+          propo<lb break="no" ed="#P" n="55"/>sitiones : Deus creat, et soli Deo honor et gloria,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia in utraque Deus supponit pro natura et
+          <lb ed="#P" n="57"/>pro personis. Aliqui vero sentiunt discrimen
+          <lb ed="#P" n="58"/>aliquod oriri ex rigorosa significatione ilhus
+          <lb ed="#P" n="59"/>particulae soli. Nam in ila, Deus creat, 
+          sup<lb break="no" ed="#P" n="60"/>positio pro pérsonis est divisa, seu 
+          distributi<lb break="no" ed="#P" n="61"/>va : de singulis enim vere dicitur, quod creant.
+          <lb ed="#P" n="62"/>At vero in alia, suppositio pro personis videtur
+          <lb ed="#P" n="63"/>esse collectiva, quia in rigore solum de tota
+          <lb ed="#P" n="64"/>Trinitate dici potest : quod illa tantum sit 
+          di<lb break="no" ed="#P" n="65"/>gna honore et gloria. Quod mihi etiam 
+          ah<lb break="no" ed="#P" n="66"/>quando visum est: sed re attentius considerata
+          <lb ed="#P" n="67"/>non placet. Quia si particula soli in eo rigore
+          <lb ed="#P" n="68"/>sumatnur, ut excludat etiam concomitantia,
+          <lb ed="#P" n="69"/>propositio erit falsa, quia non sola Trinitas
+          <lb ed="#P" n="70"/>collective, sed etiam unaquaeque persona 
+          si<lb break="no" ed="#P" n="71"/>gillatim sumpta est digna honore et gloria,
+          <lb ed="#P" n="72"/>aeque, ac tota Trinitas, si autem sumatur soli
+          <lb ed="#P" n="73"/>secundum theologicam proprietatem, ut 
+          nimi<lb break="no" ed="#P" n="74"/>rum concomitantia non excludat, si vera est
+          <lb ed="#P" n="75"/>locutio, etiam si Deus divisim pro personis et
+          <lb ed="#P" n="76"/>pro Zoc Dec, et simul pro tota Trinitate 
+          sup<lb break="no" ed="#P" n="77"/>ponat, quod idem est in altera enuntiatione
+          <lb ed="#P" n="78"/>Deus creat, nulla ergo est differentia. Clarior
+          <lb ed="#P" n="79"/>autem est illa suppositio collectiva, in hac 
+          pro<lb break="no" ed="#P" n="80"/>positione Deus est Trinilas, quae primum 
+          ve<lb break="no" ed="#P" n="81"/>rificari potest de hoc Deo, ut sic, ille enim et
+          <lb ed="#P" n="82"/>est singulae personae, et omnes simul. 
+          Descen<lb break="no" ed="#P" n="83"/>dendo vero ad personas, non potest verificari
+          <lb ed="#P" n="84"/>de singulis, sed de omnibus collecüve.
+        </p>
+        <p xml:id="szduep-163063-d1e651">
+          <lb ed="#P" n="85"/>10. Atque ita tandem clara est etiam 
+          dif<lb break="no" ed="#P" n="86"/>ferentia, quam D. Thomas ibi assignat inter
+          <lb ed="#P" n="87"/>hos terminos, Homo et Deus, quia homo unum
+          <lb ed="#P" n="88"/>immediate significat, scilicet speciem 
+          huma<lb break="no" ed="#P" n="89"/>nam, ut sic et pro alio immediate supponit ex
+          <lb ed="#P" n="90"/>natura sua, et aliunde non restrictus, scilicet
+          <lb ed="#P" n="91"/>pro individuis, quia non datur homo 
+          subsis<lb break="no" ed="#P" n="92"/>tens nisi ratione singulorum suppositorum.
+          <lb ed="#P" n="93"/>Deus autem ex se immediate supponit pro suo
+          <lb ed="#P" n="94"/>immediato significato, scilicet, pro hoc Deo
+          <lb ed="#P" n="95"/>realiter et subsistente et communi tribus 
+          per<lb break="no" ed="#P" n="96"/>sonis per summam identitatem cum singulis
+          <lb ed="#P" n="97"/>illarum, et cum omnibus simul. Unde etiam
+          <lb ed="#P" n="98"/>fit, ut homo, juxta usitatum morem loquendi
+          <lb ed="#P" n="99"/>non sit capax suppositionis collectivae pro 
+          sup<lb break="no" ed="#P" n="100"/>positis: Deus autem, non obstante 
+          determi<lb break="no" ed="#P" n="101"/>nata suppositione pro hoc Deo, habere possit
+          <lb ed="#P" n="102"/>collectivam suppositionem pro personis, ut
+          <lb ed="#P" n="103"/>satis declaratum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

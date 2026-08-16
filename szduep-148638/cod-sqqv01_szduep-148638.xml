@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="588"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-148638"><!-- t3-l3c1 -->
+        <head xml:id="szduep-148638-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-148638-Hd1e103" type="question-title">Divinas personas realiter inter se distingui, ostenditur</head>
+        <p xml:id="szduep-148638-d1e106">
+          <lb ed="#P" n="14"/>CAPUT I.
+          <lb ed="#P" n="15"/>DIVINAS PERSONAS REALITER INTER SE DISTINGUI,
+          <lb ed="#P" n="16"/>OSTENDITUR.
+        </p>
+        <p xml:id="szduep-148638-d1e115">
+          <lb ed="#P" n="17"/>1. Error Sabellii. —Hic primo occurrit 
+          trac<lb break="no" ed="#P" n="18"/>tandus error Sabellii, qui trium personarum
+          <lb ed="#P" n="19"/>nomina eidem rei et personae accommodabat,
+          <lb ed="#P" n="20"/>ut refert Athanasius, oratione contra Arium in
+          <lb ed="#P" n="21"/>illud Deus de Deo. Ubi rationem nominum
+          <lb ed="#P" n="22"/>his verbis exponit: Patrem dilatari in Filum
+          <lb ed="#P" n="23"/>sumendo carnem et in Spiritum sanctum, 
+          sanc<lb break="no" ed="#P" n="24"/>tificando homines, id est, eamdem personam,
+          <lb ed="#P" n="25"/>prout est ingenita et principium vocari Patrem,
+          <lb ed="#P" n="26"/>prout incarnatam vocari Filium, prout vero
+          <lb ed="#P" n="27"/>in hominibus habitat per gratiam, Spiritum
+          <lb ed="#P" n="28"/>sanctum. Hoc etiam sumitur ex relatione 
+          A<lb break="no" ed="#P" n="29"/>thanasii, oratione contra Gregales Sabelli, et
+          <lb ed="#P" n="30"/>ex Basilio, sermone contra Sabellium, et ex 
+          Eu<lb break="no" ed="#P" n="31"/>sebio, libro septimo Historiae, cap. 5, 
+          Nyce<lb break="no" ed="#P" n="32"/>phoro, libro sexto, cap. 26. Nec fuit hic 
+          haere<lb break="no" ed="#P" n="33"/>ticus primus auctor hujus erroris: sed illi 
+          tri<lb break="no" ed="#P" n="34"/>buitur, quia illum magis explicavit et defendit.
+          <lb ed="#P" n="35"/>Prius vero illum docuit Praxaeas, ut ex 
+          Tertul<lb break="no" ed="#P" n="36"/>liano constat, libro contra illum, et Noethus 
+          a<lb break="no" ed="#P" n="37"/>pud Epiphanium, haeres. 57. Refert etiam 
+          Ter<lb break="no" ed="#P" n="38"/>tullianus, libro de Praescriptionibus 
+          haeretico<lb break="no" ed="#P" n="39"/>rum, cap. 52. Cataphrigas in hoc fuisse errore,
+          <lb ed="#P" n="40"/>quod de Montanistis, su iidem censentur, 
+          re<lb break="no" ed="#P" n="41"/>fert Nycephorus, libro 4 Historiae, cap. 22, et
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>ideo fortasse dixit Hieronymus, epistola 54
+          <lb ed="#P" n="43"/>ad Marcellam, Montanum Trinitatem in unius
+          <lb ed="#P" n="44"/>personae augustias coegisse: vel forte hoc dixit
+          <lb ed="#P" n="45"/>propter sectatores ejus, nam de ipso Montanc
+          <lb ed="#P" n="46"/>ait Epiphanius, haeres. 40, non male de Trintr.
+          <lb ed="#P" n="47"/>tate sensisse. Atque ex his haeretecis orti sunt. 
+          <lb ed="#P" n="48"/>qui appellantur Patripassiani, quia Patrem d-].
+          <lb ed="#P" n="49"/>cebant pro nobis passum fuisse et mortuum, 
+          <lb ed="#P" n="50"/>quia illum a Filio non distinguebant. Ad 
+          con<lb break="no" ed="#P" n="51"/>firmandum hunc errorem utebantur imprimis
+          <lb ed="#P" n="52"/>hi haeretici omnibus testimoniis, quibus 
+          divi<lb break="no" ed="#P" n="53"/>nitatem singularum personarum ostendimus,
+          <lb ed="#P" n="54"/>deinde adjungebant omnia, quae probant 
+          uni<lb break="no" ed="#P" n="55"/>tatem Dei, et inde concludi putabant, personas
+          <lb ed="#P" n="56"/>non distingui in re ipsa.
+        </p>
+        <p xml:id="szduep-148638-d1e206">
+          <lb ed="#P" n="57"/>2. Assertio catholica. — Veritas autem 
+          ca<lb break="no" ed="#P" n="58"/>tholica docet, Personas divinas esse in re ipsa
+          <lb ed="#P" n="59"/>inter se distinctas: atque adeo proprie, ac
+          <lb ed="#P" n="60"/>realiter distingui. Prior pars est simpliciter de
+          <lb ed="#P" n="61"/>fide, quam definiunt omnia Concila citata in
+          <lb ed="#P" n="62"/>capite tertio libri praecedentis, et omnes etiam
+          <lb ed="#P" n="63"/>b ac specialiter Leo papa, epistola 93,
+          <lb ed="#P" n="64"/>cap. 1, et Ignatius, epistola 8, Non (inquit)
+          <lb ed="#P" n="65"/>credimus in upum Trinomium, sed in tres 
+          ejus<lb break="no" ed="#P" n="66"/>dem honoris. Nazianzenus optime, oratione 3,
+          <lb ed="#P" n="67"/>de Theologia, Hilarius, libro de Synodis, in
+          <lb ed="#P" n="68"/>principio, et libro 6 et 7, de Trinitate. u [
+          <lb ed="#P" n="69"/>nia Scripturae adduximus, libro primo, cap. 2.
+          <lb ed="#P" n="70"/>Nam licet in Scriptura non habeatur ornan 1
+          <lb ed="#P" n="71"/>ter hoc verbum, distinguuntur, habentur 
+          ta<lb break="no" ed="#P" n="72"/>men multa, quae illud includunt, ut esse tres 1,
+          <lb ed="#P" n="73"/>Joann. quinto. Item nomen putris, et Filii
+          <lb ed="#P" n="74"/>(Matth. ultim.), satis ostendunt distinctionem,
+          <lb ed="#P" n="75"/>si intelligantur cum proprietate, ut intelligi
+          <lb ed="#P" n="76"/>debent, quia nulla res se ipsam generat, ut
+          <lb ed="#P" n="77"/>Pater et Filius esse possit respectu ejusdem
+          <lb ed="#P" n="78"/>persona.. Et idem probat verbum procedendi,
+          <lb ed="#P" n="79"/>quod Joan. 8 et 14, invenitur. Ttem relativum
+          <lb ed="#P" n="80"/>alius, quo utitur Christus Dominus Joan. 15
+          <lb ed="#P" n="81"/>et 16. Nam una res omninp indistincta non est
+          <lb ed="#P" n="82"/>alia a se ipsa. Item hoc includit illa locutio;
+          <pb ed="#P" n="589"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ua Pater, dicitur esse in Filio, et Filius in
+          <lb ed="#P" n="2"/>Patre, et Joan. 14, et in cap. 1. Verbam erat 
+          a<lb break="no" ed="#P" n="3"/>ud Verbum. Praeterea, ubicumque Christus
+          <lb ed="#P" n="4"/>ominus ait, se accipere a Patre, et Spiritum
+          <lb ed="#P" n="5"/>anctum a se, et a Patre, clare docet 
+          distinc<lb break="no" ed="#P" n="6"/>onem, quia haec non dicuntur vere et proprie
+          <lb ed="#P" n="7"/>e eadem re respectu sui ipsius. Denique etiam
+          <lb ed="#P" n="8"/>« missione personarum id probari potest, ut
+          <lb ed="#P" n="9"/>afra videbimus. 
+        </p>
+        <p xml:id="szduep-148638-d1e290">
+          <lb ed="#P" n="10"/>3. Personarum distinctio qualis.—Haec ergo
+          <lb ed="#P" n="11"/>videnter convincunt distinctionem in re ipsa
+          <lb ed="#P" n="12"/>xter personas, quod vero illa distinctio 
+          dicen<lb break="no" ed="#P" n="13"/>a sit realis, non invenio sub hac voce 
+          tracta<lb break="no" ed="#P" n="14"/>m a Patribus, aut definitum a Concilus: puto
+          <lb ed="#P" n="15"/>amen contineri sufficienter in his, quae 
+          defi<lb break="no" ed="#P" n="16"/>ita sunt, et in allatis testimoniis, et 
+          locutioni<lb break="no" ed="#P" n="17"/>us, ideoque censeo absolute esse de fide. Quia
+          <lb ed="#P" n="18"/>aec distinctio, quam fides docet, est 
+          persona<lb break="no" ed="#P" n="19"/>is, id est, constituens personas distinctas:
+          <lb ed="#P" n="20"/>istinctio autem personalis, realis est. 
+          Praete<lb break="no" ed="#P" n="21"/>ea unaquaeque divina persona in se spectata,
+          <lb ed="#P" n="22"/>sst vera res per se subsistens, et una non est
+          <lb ed="#P" n="23"/>lia, ergo est distinctio realis inter ipsas, nam
+          <lb ed="#P" n="24"/>vealiter distingui, nihil aliud est, quam esse
+          <lb ed="#P" n="25"/>reras res, quarum una non est alia. Et hoc 
+          ip<lb break="no" ed="#P" n="26"/>ium probant argumenta sumpta ex 
+          substan<lb break="no" ed="#P" n="27"/>iali generatione et productione : haec namque
+          <lb ed="#P" n="28"/>uon est, nisi inter res realiter distinctas. 
+          Idem<lb break="no" ed="#P" n="29"/>que argumentum sumitur ex oppositione 
+          rela<lb break="no" ed="#P" n="30"/>iva tali processioni accommodata.
+        </p>
+        <p xml:id="szduep-148638-d1e338">
+          <lb ed="#P" n="31"/>4. Ultimo declarari hoc potest ex principus
+          <lb ed="#P" n="32"/>Metaphysicae : nam actualis distinctio in re 
+          ip<lb break="no" ed="#P" n="33"/>3a non est, nisi realis, vel modalis, seu, ut alii
+          <lb ed="#P" n="34"/>oquuntur, formalis : haec autem posterior 
+          dis<lb break="no" ed="#P" n="35"/>tinctio nunquam invenitur, nisi intra eamdem
+          <lb ed="#P" n="36"/>rem, quae componitur , vel aliquo modo 
+          coales<lb break="no" ed="#P" n="37"/>cit ex illis rebus, quae ita distingui dicuntur.
+          <lb ed="#P" n="38"/>Unde, quod ita distinguitur ab aliqua re 
+          sem<lb break="no" ed="#P" n="39"/>per est tanquam modus, vel affectio ejus, ut
+          <lb ed="#P" n="40"/>inductione facile constat. Et ideo in Deo non
+          <lb ed="#P" n="41"/>habet locum hic modus distinctionis, quae vere
+          <lb ed="#P" n="42"/>et actualiter sit in re ipsa, quia in eo non 
+          ha<lb break="no" ed="#P" n="43"/>bet locum compositio, nec modificatio, vel 
+          at<lb break="no" ed="#P" n="44"/>fectio per aliquid a se ipso actualiter in re 
+          dis<lb break="no" ed="#P" n="45"/>tinctum a substantia Dei, ut latius infra libro
+          <lb ed="#P" n="46"/>quarto, explicandum est: ergo sola superest
+          <lb ed="#P" n="47"/>distinctio realis, quae inter divinas personas
+          <lb ed="#P" n="48"/>esse possit, estque in universum inter omnes
+          <lb ed="#P" n="49"/>iillas entitates, quae per se habent reahtatem,
+          <lb ed="#P" n="50"/>ita ut una alteram non modificet, hujusmodi
+          <lb ed="#P" n="51"/>autem sunt divinae personae, ut ex illarum 
+          sim<lb break="no" ed="#P" n="52"/>plicitate, summaque perfectione constat. kErgo.
+        </p>
+        <p xml:id="szduep-148638-d1e388">
+          <lb ed="#P" n="53"/>5. Ad generale fundamentum haereticorum
+          <lb ed="#P" n="54"/>ssupra insinuatum generatim etiam dicendum
+          <lb ed="#P" n="55"/>est, veram divinitatem trium personarum rea-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>liter distinctarum non repugnare cum unitate
+          <lb ed="#P" n="57"/>Dei, quae unitas Dei sumitur ex unitate naturae
+          <lb ed="#P" n="58"/>divinae, potest autem una et eadem vera 
+          divi<lb break="no" ed="#P" n="59"/>nitas esse trium personarum, ut ex dicendis
+          <lb ed="#P" n="60"/>libro sequenti manifestum fiet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

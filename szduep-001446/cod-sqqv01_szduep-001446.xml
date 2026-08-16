@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="5"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-001446"><!-- t1-l1c2 -->
+        <head xml:id="szduep-001446-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-001446-Hd1e103" type="question-title">An esse dei sit de essentia dei.</head>
+        <p xml:id="szduep-001446-d1e106">
+          <lb ed="#P" n="89"/>CAPUT II.
+          <lb ed="#P" n="90"/>AN ESSE DEI SIT DE ESSENTIA DEI.
+        </p>
+        <p xml:id="szduep-001446-d1e113">
+          <lb ed="#P" n="91"/>1. Nemo potest Deum quidditative in hac vita
+          <lb ed="#P" n="92"/>cognoscere. — Supponimus esse impossibile,
+          <lb ed="#P" n="93"/>hominem in hac vita mortali vel omnino extra
+          <lb ed="#P" n="94"/>visionem claram Dei ipsum quidditative 
+          co<lb break="no" ed="#P" n="95"/>gnoscere, ut libro secundo latius ostendemus.
+          <lb ed="#P" n="96"/>Multo ergo impossibilius hoc est homini per
+          <lb ed="#P" n="97"/>solam rationem naturalem aut per solam 
+          fi<lb break="no" ed="#P" n="98"/>dem Deum cognoscenti, quia ratio naturalis
+          <lb ed="#P" n="99"/>non attingit omnem perfectionem Dei, nec 
+          for<lb break="no" ed="#P" n="100"/>mare potest conceptum Dei, prout est in se;
+          <lb ed="#P" n="101"/>fides autem obscure proponit Deum et sub 
+          ve<lb break="no" ed="#P" n="102"/>lamine creaturarum, et ideo dicitur ejus 
+          cogni<lb break="no" ed="#P" n="103"/>tio esse per speculum et in aenigmate, non
+          <lb ed="#P" n="104"/>prout Deus in se est. Hinc ergo fit, ut vix possit
+          <lb ed="#P" n="105"/>homo describere aut eloqui quid Deus sit, quia
+          <lb ed="#P" n="106"/>minus potest homo explicare quam concipere;
+          <lb ed="#P" n="107"/>at mente satis concipere non potest, quid Deus
+          <pb ed="#P" n="6"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sit, multo ergo minus verbis id poterit 
+          expli<lb break="no" ed="#P" n="2"/>care. Sic dixit Dionysius, c. 7, deDivin. nomin.:
+          <lb ed="#P" n="3"/>Veraciter dicimus nos Deum non ex natura
+          <lb ed="#P" n="4"/>cognoscere. Et Nazianzenus. orat. 2, de Theol.,
+          <lb ed="#P" n="5"/>non posseDei naturam mente comprehendi aut
+          <lb ed="#P" n="6"/>verbis explicari, ut Dam. 1. 4, c. 2: Quid Dei
+          <lb ed="#P" n="7"/>essentia sit,mecscimns, nec dicere possimus, etc.
+          <lb ed="#P" n="8"/>4. Quod Deus sit, liquido constat ; quid autem
+          <lb ed="#P" n="9"/>ratione essentiee natureque sit, nullo modo 
+          co<lb break="no" ed="#P" n="10"/>gosci potest.
+        </p>
+        <p xml:id="szduep-001446-d1e178">
+          <lb ed="#P" n="11"/>2. Quamvis autem hoc ita sit, necessarium
+          <lb ed="#P" n="12"/>nobis est aliquo modo explicare Dei essentiam
+          <lb ed="#P" n="13"/>et naturam, ut possimus illumab 
+          ahisrebusdis<lb break="no" ed="#P" n="14"/>tinguere et singularem aliquem ejus 
+          concep<lb break="no" ed="#P" n="15"/>tum formare, ratione cujus ei singularis 
+          vene<lb break="no" ed="#P" n="16"/>ratio debetur : ac denique, ut ejus proprietates
+          <lb ed="#P" n="17"/>et perfectiones, quatenus aliquo modo 
+          inno<lb break="no" ed="#P" n="18"/>tescere possunt, explicare valeamus. Primum
+          <lb ed="#P" n="19"/>autem , quod de Deo nobis notificatur, est
+          <lb ed="#P" n="20"/>esse, ut ex discursu natural constat et in ipsa
+          <lb ed="#P" n="21"/>fide significavit Paulus, cum dixit: Accedentem
+          <lb ed="#P" n="22"/>ad Dewmn oportet credere, quia est. Et ideo ante
+          <lb ed="#P" n="23"/>omnia explicandum est, quomodo ipsum esse
+          <lb ed="#P" n="24"/>ad Dei essentiam velquidditatem comparetur.
+        </p>
+        <p xml:id="szduep-001446-d1e212">
+          <lb ed="#P" n="25"/>3. Duo autem certa sunt in fide. Unum est
+          <lb ed="#P" n="26"/>non distingui, in re ipsa ab essentia Dei,
+          <lb ed="#P" n="27"/>propter Dei simplhicitatem, ut infra videbimus.
+          <lb ed="#P" n="28"/>Aliud est, esse non convenire Deo aliunde,
+          <lb ed="#P" n="29"/>quam ex sua essentia. Nam cap. praecedenti
+          <lb ed="#P" n="30"/>ostensum est, Deum non habere ab alio, quod
+          <lb ed="#P" n="31"/>existat; ergo necesse est, ut id habeat ex vi
+          <lb ed="#P" n="32"/>suae essentiae et naturae, et hoc intendunt 
+          Pa<lb break="no" ed="#P" n="33"/>tres ibi citati, et Isidorus l. 7, Ety. c. 1; et 
+          Au<lb break="no" ed="#P" n="34"/>gustinus, 5. de Trinit., cap. 2, ubireete id 
+          in<lb break="no" ed="#P" n="35"/>telligit ex illo testimonio Exod. 3: E'go sum qui
+          <lb ed="#P" n="36"/>sum. Quasi diceret Deus, non posse melius suam
+          <lb ed="#P" n="37"/>naturam explicare quam per ipsum esse, atque
+          <lb ed="#P" n="38"/>adeo habere suum esse ex natura sua, et cum
+          <lb ed="#P" n="39"/>illa idem esse, et non esse aliud nec aliunde.
+        </p>
+        <p xml:id="szduep-001446-d1e247">
+          <lb ed="#P" n="40"/>4. Difficultas.—Nihilominus dubitant 
+          scho<lb break="no" ed="#P" n="41"/>lastici, an formaliter sit esse Dei essentia, seu
+          <lb ed="#P" n="42"/>de ejus essentia. Quia illa duo priora 
+          inter<lb break="no" ed="#P" n="43"/>dum inveniri possunt sine hoc postremo. 
+          Pater<lb break="no" ed="#P" n="44"/>nitas enim est idem cum essentia Divina, et non
+          <lb ed="#P" n="45"/>aliunde convenit Deo quam ex vi suae 
+          essen<lb break="no" ed="#P" n="46"/>tiae, et nihilominus non est proprie ac 
+          forma<lb break="no" ed="#P" n="47"/>liter de essentia ejus. Sic ergo dixerunt aliqui
+          <lb ed="#P" n="48"/>esse non esse de essentia Dei, etiamsi sit idem
+          <lb ed="#P" n="49"/>cumilla,et non aliunde quam ex illa, per 
+          quam<lb break="no" ed="#P" n="50"/>dam quasi resultantiam secundum rationem,
+          <lb ed="#P" n="51"/>cum fundamento virtuali in re. Potestque hoc
+          <lb ed="#P" n="52"/>suaderi, qui esse etiam in Deo concipitur a 
+          no<lb break="no" ed="#P" n="53"/>bis ut actus essentiae, et comparatur ad illam
+          <lb ed="#P" n="54"/>sicut abstractum ad concretum ; nam licet 
+          es<lb break="no" ed="#P" n="55"/>sentia ipsa etiam concipiatur et significetur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>abstracte, mens tamen nostra, quae indivisibilia
+          <lb ed="#P" n="57"/>dividit, ab uno abstracto aliam majorem 
+          ab<lb break="no" ed="#P" n="58"/>stractionem facit, ut in relatione praescindit
+          <lb ed="#P" n="59"/>t abstrahit esse ad ab esse in, et ab albedine
+          <lb ed="#P" n="60"/>abstrahit albedineitatem, (ut quidam 
+          loquun<lb break="no" ed="#P" n="61"/>tur). Sic ergo ab essentia Dei, ut existente, 
+          ab<lb break="no" ed="#P" n="62"/>strahit esse seu existentiam ; ergo necesse est,
+          <lb ed="#P" n="63"/>utratione saltem distinguantur; ergo secundum
+          <lb ed="#P" n="64"/>praecisionem rationis non est esse de essentia
+          <lb ed="#P" n="65"/>illius essentiae, sed actus ejus; ergo simpheiter
+          <lb ed="#P" n="66"/>non est de essentia. Tum quia, quod est de 
+          es<lb break="no" ed="#P" n="67"/>sentia nec secundum rationem praescindi 
+          po<lb break="no" ed="#P" n="68"/>test ab ipsa essentia ; tum etiam, quia oportet
+          <lb ed="#P" n="69"/>illa duo ita distingui, ut unum in altero non
+          <lb ed="#P" n="70"/>includatur secundum rationem, alias non 
+          pos<lb break="no" ed="#P" n="71"/>sunt ut concretum et abstractum comparari.
+          <lb ed="#P" n="72"/>Tandem confirmatur a simili; nam eadem est
+          <lb ed="#P" n="73"/>ratio de existentia et subsistentia, sed 
+          subsis<lb break="no" ed="#P" n="74"/>tentia non est de essentia divinitatis; ergo nec
+          <lb ed="#P" n="75"/>existentia.
+        </p>
+        <p xml:id="szduep-001446-d1e330">
+          <lb ed="#P" n="76"/>5. Conclusio. — Quaestionem hanc tractavi
+          <lb ed="#P" n="77"/>fuse in 1 tom., 3. par., disput. 11, sect. 1, ubi
+          <lb ed="#P" n="78"/>dixi, divinam existentiam proprie ac 
+          formali<lb break="no" ed="#P" n="79"/>ter esse de essentia Dei, seu ipsam existentiam
+          <lb ed="#P" n="80"/>Dei. Quam assertionem nunc etiam omnino
+          <lb ed="#P" n="81"/>veram et veritati fidei maxime consentaneam
+          <lb ed="#P" n="82"/>judico. Quia vero ibi ex Scriptura et Patribus
+          <lb ed="#P" n="83"/>illam satis confirmavi, nunc sufficit expendere
+          <lb ed="#P" n="84"/>nomen Dei, Qui est, ad hoc confirmandum.
+          <lb ed="#P" n="85"/>Quia nomina sapienter imposita solent 
+          pro<lb break="no" ed="#P" n="86"/>priam rei naturam maxime declarare : cum
+          <lb ed="#P" n="87"/>ergo Deus ab ipsa existentia sibi nomen 
+          impo<lb break="no" ed="#P" n="88"/>suerit, argumentum est illud esse maxime 
+          es<lb break="no" ed="#P" n="89"/>sentiale. Ita fere D. Thomas 1. contra gent., c.
+          <lb ed="#P" n="90"/>22. Praeterea unam vel aliam rationem urgebo,
+          <lb ed="#P" n="91"/>licet in alibi dictis omnia contineantur.
+        </p>
+        <p xml:id="szduep-001446-d1e367">
+          <lb ed="#P" n="92"/>Ratio conclusionis .—bivinum ergo esse nullo
+          <lb ed="#P" n="93"/>modo comparari potest ad essentiam Dei, 
+          tan<lb break="no" ed="#P" n="94"/>quam actum ab aliqua causa extrinseca illi
+          <lb ed="#P" n="95"/>collatum, sicut in creaturis comparatur: haec
+          <lb ed="#P" n="96"/>enim est prima differentia inter divinum esse
+          <lb ed="#P" n="97"/>et esse creatum, propter quam Deus per 
+          ana<lb break="no" ed="#P" n="98"/>logiam et principalitatem quandam 
+          nomina<lb break="no" ed="#P" n="99"/>tur, Qui est: de omnibus autem aliis rebus
+          <lb ed="#P" n="100"/>scriptum est Isaiae 40, esse coram eo quasi non
+          <lb ed="#P" n="101"/>sint, suflicienterque probatur haec proprietas
+          <lb ed="#P" n="102"/>divini esse ex dictis in praecedenti capite.
+          <lb ed="#P" n="103"/>Rursus non potest existentia convenire divinae
+          <lb ed="#P" n="104"/>essentiae, ut resultans ex illa, vel secundum
+          <lb ed="#P" n="105"/>rem vel secundum rationem ; ergo debet 
+          con<lb break="no" ed="#P" n="106"/>venire tanquam omnino de essentia, seu 
+          essen<lb break="no" ed="#P" n="107"/>tialiter constituens ipsam Divinitatem. 
+          Conse<lb break="no" ed="#P" n="108"/>quentia evidens est a sufficienti partium 
+          enu<lb break="no" ed="#P" n="109"/>meratione.
+        </p>
+        <p xml:id="szduep-001446-d1e409">
+          <lb ed="#P" n="110"/>6. Antecedens autem quoad priorem partem
+          <pb ed="#P" n="7"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>certum est ex divina simplicitate et 
+          perfectio<lb break="no" ed="#P" n="2"/>ne, ut in sequentibus generatim ostendemus.
+          <lb ed="#P" n="3"/>Et patet facile, quia resultantia vera et realis
+          <lb ed="#P" n="4"/>non est sine aliqua reali causalitate ad 
+          efficien<lb break="no" ed="#P" n="5"/>tiam pertinente, quam intra Deum cogitare
+          <lb ed="#P" n="6"/>nefas est. Adde, quod si nec secundumrationem
+          <lb ed="#P" n="7"/>potest hic esse talis resultantia, multo minus
+          <lb ed="#P" n="8"/>esse poterit secundum rem. Probatur ergo 
+          al<lb break="no" ed="#P" n="9"/>tera pars, quia ut aliquid intelligatur ab altero
+          <lb ed="#P" n="10"/>resultare, oportet intelligi ut aliquo modo 
+          ra<lb break="no" ed="#P" n="11"/>tione prius, et ut sic esse etiam prius in 
+          ratio<lb break="no" ed="#P" n="12"/>ne entis actualis; implicat autem 
+          contradictio<lb break="no" ed="#P" n="13"/>nem hoc modo concipere divinam essentiam
+          <lb ed="#P" n="14"/>respectu suae existentiae, ergo. Major patet,
+          <lb ed="#P" n="15"/>quia eo ipso quod intelligitur aliquid ut 
+          re<lb break="no" ed="#P" n="16"/>sultans ab alio, concipitur unum ut radix 
+          al<lb break="no" ed="#P" n="17"/>terius, et sub ea ratione ut prius. Resultantia
+          <lb ed="#P" n="18"/>autem non potest esse nisi ab ente actuali et
+          <lb ed="#P" n="19"/>existente in rerum natura, et ideo eo ipso,
+          <lb ed="#P" n="20"/>quod aliquid intelligitur tanquam resultans ab
+          <lb ed="#P" n="21"/>alio, illud a quo resultare intelligitur, 
+          perci<lb break="no" ed="#P" n="22"/>pitur ut actualis entitas, quia ab eo quod 
+          non<lb break="no" ed="#P" n="23"/>dum concipitur ut ens actu, non potest concipi
+          <lb ed="#P" n="24"/>aliquid dimanare, quod res vera sit res actualis,
+          <lb ed="#P" n="25"/>ut in praesenti est esse divinum. Nam hrcet illa
+          <lb ed="#P" n="26"/>dimanatio concipiatur secundum rationem, 
+          ta<lb break="no" ed="#P" n="27"/>men res illa, quae illo modo concipitur, realis
+          <lb ed="#P" n="28"/>est, et ideo concipi non potest ut manans nisi
+          <lb ed="#P" n="29"/>ab ente reahi et actuali. Quod autem repugnet,
+          <lb ed="#P" n="30"/>hoc modo concipere divinam essentiam 
+          res<lb break="no" ed="#P" n="31"/>pectu sui esse, probatur aperte, quia si essentia
+          <lb ed="#P" n="32"/>ila concipitur ut actualis entitas, jam 
+          conci<lb break="no" ed="#P" n="33"/>pitur ut includens esse in rerum natura. 
+          Re<lb break="no" ed="#P" n="34"/>pugnat ergo concipere esse divinae naturae ut
+          <lb ed="#P" n="35"/>fluens a natura divina; ergo oportet illud 
+          con<lb break="no" ed="#P" n="36"/>cipere ut inclusum essentialiter in ipsa, seu
+          <lb ed="#P" n="37"/>quod perinde est, ut constituens ipsam in 
+          ra<lb break="no" ed="#P" n="38"/>tione talis essentiae, quod est esse de essentia
+          <lb ed="#P" n="39"/>ejus.
+        </p>
+        <p xml:id="szduep-001446-d1e503">
+          <lb ed="#P" n="40"/>7. Altera ratio.— Atque hinc sumitur 
+          al<lb break="no" ed="#P" n="41"/>tera ratio, quia implicat concipere divinam
+          <lb ed="#P" n="42"/>naturam ut potentialem, seu per modum entis
+          <lb ed="#P" n="43"/>in potentia, sicut intelliguntur essentiae 
+          crea<lb break="no" ed="#P" n="44"/>turarum ; ergo signum est, includere in sua
+          <lb ed="#P" n="45"/>essentiali constitutione ipsum esse actuale
+          <lb ed="#P" n="46"/>suum. Consequentia inde constat, quia 
+          una<lb break="no" ed="#P" n="47"/>quaeque essentia concipi potest sine eo quod
+          <lb ed="#P" n="48"/>sibi essentiale non est, saltem abstractione
+          <lb ed="#P" n="49"/>praecisiva. Antecedens vero patet ex dictis, quia
+          <lb ed="#P" n="50"/>divina natura concipi non potest ut ens in
+          <lb ed="#P" n="51"/>potentia passiva, ut per se notum est, quia
+          <lb ed="#P" n="52"/>nihil in re recipit vere ac realiter, cum nihil
+          <lb ed="#P" n="53"/>habere possit a quo in re distinguatur. Nec
+          <lb ed="#P" n="54"/>etiam habet a quo recipiat, praesertim ipsum
+          <lb ed="#P" n="55"/>esse, quia nec alio, cum ipsa sit ante omnia,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nec a se, cum esse actuale sit etiam primum
+          <lb ed="#P" n="57"/>omnium, cujuslibet dimanationis ad intra,
+          <lb ed="#P" n="58"/>quomodocumque cogitetur, ut ostensum est.
+          <lb ed="#P" n="59"/>Neque etiam concipi potest divina natura ut
+          <lb ed="#P" n="60"/>in potentia objectiva, quomodo proprie dicitur
+          <lb ed="#P" n="61"/>essentia creaturae esse in potentia, ut abstrahit
+          <lb ed="#P" n="62"/>ab actuali existentia. Quod in divina natura
+          <lb ed="#P" n="63"/>non habet locum, nam haec potentia objectiva
+          <lb ed="#P" n="64"/>dicitur respectu alicujus efficientis seu 
+          prod<lb break="no" ed="#P" n="65"/>centis ; divina autem natura factibilis non est
+          <lb ed="#P" n="66"/>nec producibilis, neque ut talis concipi 
+          po<lb break="no" ed="#P" n="67"/>test, alias non concipitur divina; ergo nec 
+          po<lb break="no" ed="#P" n="68"/>test concipi ut entitas in potentia objectiva;
+          <lb ed="#P" n="69"/>solum ergo concipi potest ut entitas actuahs,
+          <lb ed="#P" n="70"/>ac proinde ut essentialiter habens ipsum esse.
+        </p>
+        <p xml:id="szduep-001446-d1e576">
+          <lb ed="#P" n="71"/>5. Ex dictis ergo satis constat, non posse ita
+          <lb ed="#P" n="72"/>comparari esse ad essentiam Dei, sicut nunc
+          <lb ed="#P" n="73"/>comparatur Paternitas ad divinam naturam,
+          <lb ed="#P" n="74"/>de qua Paternitate verissime dicitur, esse in re
+          <lb ed="#P" n="75"/>indistinctam ab illa natura, et immediate, 
+          in<lb break="no" ed="#P" n="76"/>time, ac per se esse illi conjunctam, et 
+          nihilo<lb break="no" ed="#P" n="77"/>minus non esse de essentia illius naturae, et
+          <lb ed="#P" n="78"/>secundum rationem concipi tanquam fluens ab
+          <lb ed="#P" n="79"/>illa, ut infra in tractatu de Trinitate 
+          ostende<lb break="no" ed="#P" n="80"/>tur ac declarabitur. Ratio vero differentiae est,
+          <lb ed="#P" n="81"/>quia Paternitas non constituit illam naturam
+          <lb ed="#P" n="82"/>in sua entitate actuali. Unde concipi potest illa
+          <lb ed="#P" n="83"/>natura in re ipsa actu existens praecisa tal
+          <lb ed="#P" n="84"/>relatione, et ut prior illa. Imo potest illa 
+          na<lb break="no" ed="#P" n="85"/>tura secundum totam suam essentiam esse in
+          <lb ed="#P" n="86"/>aliqua persona, in qua non sit Paternitas, quod
+          <lb ed="#P" n="87"/>locum non habet in ipso esse actualis 
+          existen<lb break="no" ed="#P" n="88"/>tiae talis naturae. Unde etiam constat illud esse
+          <lb ed="#P" n="89"/>naturae divinae non posse esse nisi absolutum
+          <lb ed="#P" n="90"/>quid, ac proinde essentiale, ut latius in dicto
+          <lb ed="#P" n="91"/>tomo 1, 3 part. tractavi.
+        </p>
+        <p xml:id="szduep-001446-d1e624">
+          <lb ed="#P" n="92"/>6. Ad aliam rationem respondetur, ex 
+          con<lb break="no" ed="#P" n="93"/>ceptione nostra per modum abstracti et 
+          con<lb break="no" ed="#P" n="94"/>creti, vel cum praecisione quoad expressum
+          <lb ed="#P" n="95"/>modum concipiendi unius sub una ratione et
+          <lb ed="#P" n="96"/>non sub alia, non sequi quod re ipsa unum
+          <lb ed="#P" n="97"/>non sit de essentia alterius, vel quod non 
+          in<lb break="no" ed="#P" n="98"/>cludatur in essentia illius. Nam Deus et 
+          Deita<lb break="no" ed="#P" n="99"/>se habent ut abstractum et concretum ; et
+          <lb ed="#P" n="100"/>tamen in re nihil includit unum, quod non 
+          in<lb break="no" ed="#P" n="101"/>cludit aliud, sed distinguuntur tantum ratione,
+          <lb ed="#P" n="102"/>ex modo concipiendi nostro; nam per unum
+          <lb ed="#P" n="103"/>modum concipitur expresse ut subsistens in
+          <lb ed="#P" n="104"/>tali natura, per alium tantum sub ratione 
+          na<lb break="no" ed="#P" n="105"/>turae. Sic ergo se habent esse et essentia ; nam
+          <lb ed="#P" n="106"/>sub conceptu essentiee concipitur sub ratione
+          <lb ed="#P" n="107"/>naturae non potentialis, sed actualis; sub 
+          ra<lb break="no" ed="#P" n="108"/>tione autem ipsius esse concipitur ut actus
+          <lb ed="#P" n="109"/>tantum, non quidem ut actus actuans aliud,
+          <lb ed="#P" n="110"/>sed ut actus simplex, qui per se actus quidam
+          <pb ed="#P" n="8"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est ; unde si conciperentur haec ut divina et
+          <lb ed="#P" n="2"/>prout in se sunt, nullum esset in eis 
+          funda<lb break="no" ed="#P" n="3"/>mentum ad formandos hos conceptus ; tamen,
+          <lb ed="#P" n="4"/>quia in creaturis haec inveniuntur aliquo modo
+          <lb ed="#P" n="5"/>distincta, et nos concipimus divina instar 
+          eo<lb break="no" ed="#P" n="6"/>rum quae in nobis sunt, ideo illos diversos
+          <lb ed="#P" n="7"/>conceptus formamus in modo concipiendi 
+          dis<lb break="no" ed="#P" n="8"/>tinctos, non vero, quia aliquid in conceptu 
+          ob<lb break="no" ed="#P" n="9"/>jectivo unius includatur, quod non includitur
+          <lb ed="#P" n="10"/>in alio.
+        </p>
+        <p xml:id="szduep-001446-d1e694">
+          <lb ed="#P" n="11"/>10. Ultima ratio. —Ultima confirmatio 
+          pos<lb break="no" ed="#P" n="12"/>tulabat quaestionem aliam de divino esse, an
+          <lb ed="#P" n="13"/>ex propria absoluta ratione sit tantum 
+          exis<lb break="no" ed="#P" n="14"/>tentia, vel sit etiam per se existentia et illa 
+          ra<lb break="no" ed="#P" n="15"/>tione subsistentia, ita ut non minus sit 
+          essen<lb break="no" ed="#P" n="16"/>tialis Deo talis substantia quam existentia.
+          <lb ed="#P" n="17"/>Idemque posset de divino supposito quaeri, 
+          si<lb break="no" ed="#P" n="18"/>cut tractatur a D. Thoma 1. p., q. 3, art. 3. 
+          Ve<lb break="no" ed="#P" n="19"/>rumtamen, quia hoc spectat proprie ad 
+          myste<lb break="no" ed="#P" n="20"/>rium Trinitatis, quod consistit in tribus 
+          suppo<lb break="no" ed="#P" n="21"/>sitis increatis ejusdem divinae naturae, et modus
+          <lb ed="#P" n="22"/>subsistendi illius naturae essentialis non potest
+          <lb ed="#P" n="23"/>satis explicari sine personali, ideo haec omnia
+          <lb ed="#P" n="24"/>in ultimum tractatum hujus partis reservamus.
+          <lb ed="#P" n="25"/>De distinctione autem naturae et suppositi, vel
+          <lb ed="#P" n="26"/>esse et essentiae in creaturis, quod solet hoc
+          <lb ed="#P" n="27"/>loco a theologis tractari, in proprio loco 
+          Me<lb break="no" ed="#P" n="28"/>taphysicae disputatum a nobis est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

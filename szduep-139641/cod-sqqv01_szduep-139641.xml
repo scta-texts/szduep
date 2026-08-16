@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="552"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-139641"><!-- t3-l1c6 -->
+        <head xml:id="szduep-139641-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-139641-Hd1e103" type="question-title">Personas productas in deo procedere per actus intelligendi et amandi, ut tales sunt</head>
+        <p xml:id="szduep-139641-d1e106">
+          <lb ed="#P" n="13"/>CAPUT VI.
+          <lb ed="#P" n="14"/>PERSONAS PRODUCTAS IN DEO PROCEDERE PER 
+          AC<lb break="no" ed="#P" n="15"/>TUS INTELLIGENDI ET AMANDI, UT TALES SUNT.
+        </p>
+        <p xml:id="szduep-139641-d1e115">
+          <lb ed="#P" n="16"/>1. Ad expediendam difficultatem relictam
+          <lb ed="#P" n="17"/>in capite praecedenti necesse est, veritatem
+          <lb ed="#P" n="18"/>propositam examinare, nam si in intellectu
+          <lb ed="#P" n="19"/>Patris (et idem est cum proportione de 
+          volun<lb break="no" ed="#P" n="20"/>tate) intelligi posset alia actio praeter 
+          intellec<lb break="no" ed="#P" n="21"/>tionem, expediri posset tacta difficultas, 
+          di<lb break="no" ed="#P" n="22"/>cendo, Patrem producere quidem per 
+          intellec<lb break="no" ed="#P" n="23"/>tum, non tamen per ipsummet intelligere, sed
+          <lb ed="#P" n="24"/>per aliam actionem, et hanc actionem esse
+          <lb ed="#P" n="25"/>propriam Patris solius, licet intelligere 
+          com<lb break="no" ed="#P" n="26"/>mune sit et essentiale, et ideo nihil obstare,
+          <lb ed="#P" n="27"/>quominus solus Pater generet, licet per 
+          intel<lb break="no" ed="#P" n="28"/>lectum generet. At si productio illa est per
+          <lb ed="#P" n="29"/>actum intelligendi, quatenus talis est, augetur
+          <lb ed="#P" n="30"/>difficultas tacta, quomodo non omnes 
+          perso<lb break="no" ed="#P" n="31"/>nae generent, cum omnes intelligant per 
+          il<lb break="no" ed="#P" n="32"/>Iummet intelligendi actum.
+        </p>
+        <p xml:id="szduep-139641-d1e154">
+          <lb ed="#P" n="33"/>2. Scoti opinio.—Scotus ergo in 1, distinet.
+          <lb ed="#P" n="34"/>2. queest. 7, et distinct. 27, quaest. 1 et2,et
+          <lb ed="#P" n="35"/>quodlib. 2, distinguit in Deo duas quasi 
+          actio<lb break="no" ed="#P" n="36"/>nes, quas vocat intelligere, et dicere, et 
+          utram<lb break="no" ed="#P" n="37"/>que vult esse a memoria foecunda, seu ab 
+          in<lb break="no" ed="#P" n="38"/>tellectu paterno, ut constituto in actu primo.
+          <lb ed="#P" n="39"/>Dicit ergo, Patrem producere Filium per 
+          di<lb break="no" ed="#P" n="40"/>cere, non vero formaliter per intelligere.
+          <lb ed="#P" n="41"/>Quod si ab eo quaeratur, quidnam istorum sit
+          <lb ed="#P" n="42"/>prius, vel quod illorum intelligatur esse ab
+          <lb ed="#P" n="43"/>alio: respondet, neutrum esse ab alio proprie
+          <lb ed="#P" n="44"/>loquendo, seu unum non esse rationem 
+          alte<lb break="no" ed="#P" n="45"/>rius, atque adeo sub ea ratione quasi 
+          conco<lb break="no" ed="#P" n="46"/>mitanter se habere, quia utrumque est 
+          imme<lb break="no" ed="#P" n="47"/>diate ab intellectu in actu primo, tanquam a
+          <lb ed="#P" n="48"/>proxima ratione operandi. Addit tamen, 
+          in<lb break="no" ed="#P" n="49"/>telligere esse aliquo modo prius, quam dicere,
+          <lb ed="#P" n="50"/>quia prius est rem in se perfici, quam 
+          com<lb break="no" ed="#P" n="51"/>municari alteri: intelligere autem tantum est
+          <lb ed="#P" n="52"/>ad perfectionem intelligentis, dicere vero ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>se communicandum alteri. Atque eadem 
+          pro<lb break="no" ed="#P" n="54"/>portione loqui debet Scotus de voluntate ,
+          <lb ed="#P" n="55"/>distinguendo in illa amare et spirare, est
+          <lb ed="#P" n="56"/>enim eadem ratio et quamvis in locis 
+          cita<lb break="no" ed="#P" n="57"/>tis hoc expresse non declaret, attigit vero in 
+          <lb ed="#P" n="58"/>quodlib. 14.
+        </p>
+        <p xml:id="szduep-139641-d1e216">
+          <lb ed="#P" n="59"/>3. Fundamentum. — Fundamentum hujus
+          <lb ed="#P" n="60"/>opinionis supra tactum est a Durando, quia
+          <lb ed="#P" n="61"/>intelligere est essentiale et commune omnibus
+          <lb ed="#P" n="62"/>personis, dicere autem est proprium Patris:
+          <lb ed="#P" n="63"/>ergo intelligere, ut sic, non est producere:
+          <lb ed="#P" n="64"/>ergo ipsum dicere est producere. Similter
+          <lb ed="#P" n="65"/>etiam, amare commune et essentiale Spiritui
+          <lb ed="#P" n="66"/>sancto, spirare vero est notionale et proprium
+          <lb ed="#P" n="67"/>Patris et Filii, ergo hoc est producere 
+          Spiri<lb break="no" ed="#P" n="68"/>tum sanctum, quia personae producuntur per
+          <lb ed="#P" n="69"/>actus notionales, non per essentiales. Simile
+          <lb ed="#P" n="70"/>fundamentum est, quia intelligere et amare,
+          <lb ed="#P" n="71"/>ut sic, non est producere terminum aliquem,
+          <lb ed="#P" n="72"/>dicere autem est producere, et similiter spirare,
+          <lb ed="#P" n="73"/>ergo. Minor ut clara supponitur. Major autem
+          <lb ed="#P" n="74"/>probatur, quia intelligere solum est percipere
+          <lb ed="#P" n="75"/>rem intellectam et ibi sistit, et ideo Filius 
+          in<lb break="no" ed="#P" n="76"/>telligit, licet non producat. Atqui haec opinio
+          <lb ed="#P" n="77"/>indistincte reprobatur a Commentatoribus D.
+          <lb ed="#P" n="78"/>Thomae, 1 part., quaest. 27, ut videre licet in
+          <lb ed="#P" n="79"/>Cajetano, art. 4, Torrense, art. 1, disput. 4, et
+          <lb ed="#P" n="80"/>aliis. At non omnia, quae in ea sententia 
+          con<lb break="no" ed="#P" n="81"/>tinentur, falsa sunt: oportet ergo ea 
+          distin<lb break="no" ed="#P" n="82"/>guere et quid nobis in ea placeat, quid vero
+          <lb ed="#P" n="83"/>displiceat, aperire.
+        </p>
+        <p xml:id="szduep-139641-d1e273">
+          <lb ed="#P" n="84"/>4. Verbum produci per actum dicendi. —
+          <lb ed="#P" n="85"/>Primum ergo Scoti assertum est, Patrem 
+          pro<lb break="no" ed="#P" n="86"/>ducere Verbum dicendo, atque adeo dictionem,
+          <lb ed="#P" n="87"/>seu dicere esse actum, quo Verbum 
+          produci<lb break="no" ed="#P" n="88"/>tur. Quod quidem simpliciter verum est. Haec
+          <lb ed="#P" n="89"/>enim est sententia Augustini, Anselmi, 
+          Ful<lb break="no" ed="#P" n="90"/>gentii et D. Thomae, locis statim citandis. Et
+          <lb ed="#P" n="91"/>patet ex proprietate ipsius Verbi: nihilominus
+          <lb ed="#P" n="92"/>aliud est Verbum, quam intrinsecus terminus
+          <lb ed="#P" n="93"/>locutionis. Unde in verbo vocalh manifestum
+          <lb ed="#P" n="94"/>est produci per actionem dicendi vocahter.
+          <lb ed="#P" n="95"/>Tunc etiam nos verbum in mente formamus,
+          <lb ed="#P" n="96"/>quando interius loquimur: ipsa ergo mentahs
+          <lb ed="#P" n="97"/>locutio est productio Verbi mentalis in nobis:
+          <lb ed="#P" n="98"/>ergo eadem proportione intelligendum est de
+          <lb ed="#P" n="99"/>Verbo divino et productione ejus. Est autem
+          <lb ed="#P" n="100"/>advertendum, verbum duplicem dicere 
+          respec<lb break="no" ed="#P" n="101"/>tum ; unus est ad ipsum dicentem, tanquam
+          <lb ed="#P" n="102"/>ad principium producens: alius est ad rem
+          <lb ed="#P" n="103"/>dictam, nam qui loquitur de aliqua re loquitur,
+          <lb ed="#P" n="104"/>quae res per Verbum significatur, seu 
+          repraesen<lb break="no" ed="#P" n="105"/>tatur, et ideo verbum dicit ad rem illum 
+          respec<lb break="no" ed="#P" n="106"/>tum significantis. Unde sit, ut ipsum etiam dicere
+          <lb ed="#P" n="107"/>possit et ad verbum et ad rem dictam referri:
+          <pb ed="#P" n="553"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dicendo enim verbum ipsum producimus, et 
+          di<lb break="no" ed="#P" n="2"/>cendo etiam rem repraesentatam per verbum
+          <lb ed="#P" n="3"/>dicimus, quia est una omnino actio diversis 
+          res<lb break="no" ed="#P" n="4"/>pectibus significata. Et ita facile intelligitur
+          <lb ed="#P" n="5"/>Augustinus 15, de Trinit., cap. 14, dicens: 
+          Pa<lb break="no" ed="#P" n="6"/>trem dicendo se producere Verbum sibi equale.
+          <lb ed="#P" n="7"/>Nam dicere se non est producere se, sed est 
+          re<lb break="no" ed="#P" n="8"/>praesentare se producendo verbum.
+        </p>
+        <p xml:id="szduep-139641-d1e349">
+          <lb ed="#P" n="9"/>5. Dicere et intelligere, an distinguantur. —
+          <lb ed="#P" n="10"/>Secundum contentum in Scoti sententia est,
+          <lb ed="#P" n="11"/>idicere et intelligere esse aliquo modo distincta.
+          <lb ed="#P" n="12"/>Quod quidem tam in nobis, quam in Deo 
+          ali<lb break="no" ed="#P" n="13"/>iquo modo verum est. Et quod in Deo illa duo
+          <lb ed="#P" n="14"/>idistinguantur ratione, docuit expresse D. 
+          Tho<lb break="no" ed="#P" n="15"/>mas, 1 part., quaest. 34, art. 1, ad 3, et quaest.
+          <lb ed="#P" n="16"/>191, art. 1, et 2, et probatur sufficienter 
+          ar<lb break="no" ed="#P" n="17"/>gumento Scoti et Durandi, quia necesse est,
+          <lb ed="#P" n="18"/>commune distingui a proprio saltem ratione
+          <lb ed="#P" n="19"/>et essentiale a notionali. In nobis autem 
+          ad<lb break="no" ed="#P" n="20"/>vertere oportet hanc vocem intelligere posse
+          <lb ed="#P" n="21"/>esse ambiguam. Nam potest praecise significare
+          <lb ed="#P" n="22"/>producere actum intelligendi, vel recipere 
+          il<lb break="no" ed="#P" n="23"/>lum, seu informari illo, juxta illud Aristotelis,
+          <lb ed="#P" n="24"/>Intelligere est quoddam pati, vel certe potest
+          <lb ed="#P" n="25"/>illa vox utrumque complecti. Quia intelligere
+          <lb ed="#P" n="26"/>dicit actum immanentem, qui et producitur
+          <lb ed="#P" n="27"/>et recipitur in agente. Si ergo primo modo
+          <lb ed="#P" n="28"/>aecipiamus intelhgere in nobis, sic revera non
+          <lb ed="#P" n="29"/>distinguuntur intelligere et dicere mentale.
+          <lb ed="#P" n="30"/>Nam juxta sententiam, quam ego suppono et
+          <lb ed="#P" n="31"/>existimo omnino veram, verbum mentale in
+          <lb ed="#P" n="32"/>nobis nihil aliud est, quam ipse actus 
+          intelli<lb break="no" ed="#P" n="33"/>gendi in facto esse, quia etiam conceptus et
+          <lb ed="#P" n="34"/>notitia dicitur: ergo dicere mentale nihil aliud
+          <lb ed="#P" n="35"/>est, quam producere ipsum intelligendi actum,
+          <lb ed="#P" n="36"/>ergo est idem, quod intelligere sumptum 
+          prae<lb break="no" ed="#P" n="37"/>cise pro actione: Quia vero frequentius 
+          sumi<lb break="no" ed="#P" n="38"/>tur intelligere pro ipsa objecti perceptione,
+          <lb ed="#P" n="39"/>ideo communiter includit informationem 
+          ip<lb break="no" ed="#P" n="40"/>sius actus intelligendi, et hoc modo 
+          distingui<lb break="no" ed="#P" n="41"/>tur in nobis ex natura rei ab ipso dicere. Nam
+          <lb ed="#P" n="42"/>dicere tantum est agere, seu producere verbum:
+          <lb ed="#P" n="43"/>intelligere vero formaliter dicit informari 
+          vi<lb break="no" ed="#P" n="44"/>taliter ipso verbo, quae duo ex natura rei 
+          di<lb break="no" ed="#P" n="45"/>versa sunt, ut ex Philosophia suppono.
+        </p>
+        <p xml:id="szduep-139641-d1e432">
+          <lb ed="#P" n="46"/>6. Tertio sentit Scotus in illa opinione sua,
+          <lb ed="#P" n="47"/>dicere et intelligere esse actiones seu 
+          produc<lb break="no" ed="#P" n="48"/>tiones distinctas realiter vel ex natura rei. De
+          <lb ed="#P" n="49"/>qua assertione aliter in nobis et aliter in Deo
+          <lb ed="#P" n="50"/>judicandum est. De creaturis igitur sciendum est,
+          <lb ed="#P" n="51"/>varias esse opiniones, quid verbum mentis sit,
+          <lb ed="#P" n="52"/>quomodove ab actu intelligendi distinguatur.
+          <lb ed="#P" n="53"/>Quidam enim sentiunt esse res, seu qualitates
+          <lb ed="#P" n="54"/>distinctas, compararique verbum ad actum 
+          in<lb break="no" ed="#P" n="55"/>telligendi tanquam proximum objectum ejus,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in quo res repraesentata per verbum, tanquam
+          <lb ed="#P" n="57"/>in imagine cognoscitur per actum intelligendi.
+          <lb ed="#P" n="58"/>Et hanc opinionem secuti sunt Cajetanus, 
+          Fer<lb break="no" ed="#P" n="59"/>rariensis ac alii multi. Juxta quam necessarium
+          <lb ed="#P" n="60"/>omnino videtur, duas actiones reales ac realiter
+          <lb ed="#P" n="61"/>distinctas in intellectu nostro recognoscere.
+          <lb ed="#P" n="62"/>Quia duae qualitates realiter distinctae per 
+          ac<lb break="no" ed="#P" n="63"/>tiones realiter distinctas producantur necesse
+          <lb ed="#P" n="64"/>est: praesertim cum unaquaeque per se 
+          produ<lb break="no" ed="#P" n="65"/>catur, ut de verbo et actu intelligendi, juxta
+          <lb ed="#P" n="66"/>hanc sententiam, dicendum est. Quia actiones
+          <lb ed="#P" n="67"/>distinguuntur ex terminis, et unaquaeque actio
+          <lb ed="#P" n="68"/>cum suo termino habet realem identitatem,
+          <lb ed="#P" n="69"/>licet modaliter distinguantur, ergo cum 
+          pro<lb break="no" ed="#P" n="70"/>ductio verbi sit dicere, intelligere, quatenus
+          <lb ed="#P" n="71"/>est actio, erit productio ipsius actus intelligendi.
+          <lb ed="#P" n="72"/>Juxta hanc igitur opinionem, ad nostrum 
+          in<lb break="no" ed="#P" n="73"/>telligere et dicere applicatam, vera est assertio
+          <lb ed="#P" n="74"/>Scoti. Mirumque mihi est, quomodo possint
+          <lb ed="#P" n="75"/>Thomistae in hoc puncto Scotum impugnare,
+          <lb ed="#P" n="76"/>cum de verbo mentis nostrae et de munere ejus,
+          <lb ed="#P" n="77"/>ac distinctione ab actu intelligendi ita sentiant.
+        </p>
+        <p xml:id="szduep-139641-d1e506">
+          <lb ed="#P" n="78"/>7. At vero Scotus non potest in hoc sensu
+          <lb ed="#P" n="79"/>sententiam suam declarare aut defendere, quia
+          <lb ed="#P" n="80"/>ipse tenet verbum mentis nostrae non esse rem
+          <lb ed="#P" n="81"/>distinctam ab actu intelligendi, ut est qualitas
+          <lb ed="#P" n="82"/>in facto esse. Quam sententiam ego verissimam
+          <lb ed="#P" n="83"/>censeo, imo opinor, non distingui ex natura
+          <lb ed="#P" n="84"/>rei, nec in aliqua proprietate absoluta per illas
+          <lb ed="#P" n="85"/>voces significata, sed solum in hoc, quod nomen
+          <lb ed="#P" n="86"/>verbi expressius indicat realem emanationem a
+          <lb ed="#P" n="87"/>dicente, ut infra libro nono dicam. Hac vero
+          <lb ed="#P" n="88"/>sententia supposita, non potest subsistere dicta
+          <lb ed="#P" n="89"/>propositio tertia Scoti in mente humana. Quia
+          <lb ed="#P" n="90"/>si verbum et actus intelligendi idem sunt, ergo
+          <lb ed="#P" n="91"/>per quam actionem producitur verbum, 
+          produ<lb break="no" ed="#P" n="92"/>citur actus intelligendi, ergo illamet actio et
+          <lb ed="#P" n="93"/>est dicere, quia est productio verbi et est 
+          intel<lb break="no" ed="#P" n="94"/>ligere, quatenus actionem requirit, quia est
+          <lb ed="#P" n="95"/>productio actus intelligendi, ergo non sunt ibi
+          <lb ed="#P" n="96"/>duae actiones, nec realiter, nec formahter, seu
+          <lb ed="#P" n="97"/>ex natura rei distinctae.
+        </p>
+        <p xml:id="szduep-139641-d1e552">
+          <lb ed="#P" n="98"/>8. At vero loquendo de Deo, seu de aeterno
+          <lb ed="#P" n="99"/>Patre, longe certius est in eo non distingui 
+          di<lb break="no" ed="#P" n="100"/>cere et intelligere, tanquam duas actiones, seu
+          <lb ed="#P" n="101"/>productiones reales, quod optime intellexit
+          <lb ed="#P" n="102"/>Scotus, estque non solum certum, sed etiam
+          <lb ed="#P" n="103"/>evidens. Quia in Trinitate unus est tantum
+          <lb ed="#P" n="104"/>terminus productus per intellectum, ergo una
+          <lb ed="#P" n="105"/>tantum productio realis per intellectum esse
+          <lb ed="#P" n="106"/>potest. Item quia actus intelligendi in Deo non
+          <lb ed="#P" n="107"/>est realiter productus, sicut est in creaturis,
+          <lb ed="#P" n="108"/>quia non est intellhgere participatum, aut 
+          ac<lb break="no" ed="#P" n="109"/>cidentale, sicut est in nobis, sed est ipsum 
+          in<lb break="no" ed="#P" n="110"/>telligere per essentiam, ac proinde actus sim-
+          <pb ed="#P" n="554"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>plicissimus, ac purissimus , omnino idem cum
+          <lb ed="#P" n="2"/>Patre intelligente, et propterea tam 
+          improduc<lb break="no" ed="#P" n="3"/>tus realiter, quam ipse Pater, vel essentia ejus.
+          <lb ed="#P" n="4"/>In hoc ergo sensu non possunt esse in Patre
+          <lb ed="#P" n="5"/>aeterno actiones duae, quae sins duae reales 
+          pro<lb break="no" ed="#P" n="6"/>ductiones. Alio ergo sensu vult Scotus, illa duo
+          <lb ed="#P" n="7"/>distingui in Deo instar duarum actionum, 
+          qua<lb break="no" ed="#P" n="8"/>rum una est realis productio, alia solum 
+          se<lb break="no" ed="#P" n="9"/>cundum rationem, seu modum concipiendi
+          <lb ed="#P" n="10"/>nostrum. Quo sensu admitti potest dictum 
+          il<lb break="no" ed="#P" n="11"/>lud, quia dictio est realis productio, ut constat
+          <lb ed="#P" n="12"/>ex fide, et infra libro sexto, latius declarabimus.
+          <lb ed="#P" n="13"/>Intellectio vero, licet non sit realis productio,
+          <lb ed="#P" n="14"/>aut emanatio, ad modum emanationis a nobis
+          <lb ed="#P" n="15"/>concipitur.
+        </p>
+        <p xml:id="szduep-139641-d1e621">
+          <lb ed="#P" n="16"/>9. Dico autem hoc admitti posse, quia in 
+          ri<lb break="no" ed="#P" n="17"/>gore fortasse non est necessarium concipere
+          <lb ed="#P" n="18"/>ipsum divinum intelligere per modum actus
+          <lb ed="#P" n="19"/>secundi emanantis ab actu primo. Quia in Deo
+          <lb ed="#P" n="20"/>in reipsa non estintellectus per modum 
+          poten<lb break="no" ed="#P" n="21"/>tiae, aut actus primi in rigore sumpti. Quia 
+          es<lb break="no" ed="#P" n="22"/>sentialiter Deus est ipsum intelligere in actu
+          <lb ed="#P" n="23"/>secundo, et ideo non est necessarium concipere
+          <lb ed="#P" n="24"/>intellectionem in Deo, ut actionem fluentem
+          <lb ed="#P" n="25"/>ab intellectu in actu primo, et tendentem in
+          <lb ed="#P" n="26"/>actum secundum, sicutin nobis invenitur, quia
+          <lb ed="#P" n="27"/>tendimus a potentia in actum. Unde possent
+          <lb ed="#P" n="28"/>distingui ratione dicere, et intelligere in Deo
+          <lb ed="#P" n="29"/>solum, quia dicere est realiter producere, 
+          in<lb break="no" ed="#P" n="30"/>telligere autem est actus perfectuset ultimus
+          <lb ed="#P" n="31"/>sine productione ulla. Verumtamen, quia 
+          con<lb break="no" ed="#P" n="32"/>cipimus divina instar humanorum et in nobis
+          <lb ed="#P" n="33"/>aliud est habere virtutem intelligendi, aliud 
+          in<lb break="no" ed="#P" n="34"/>telligere: ideo etiam haec duo ratione 
+          distin<lb break="no" ed="#P" n="35"/>guimus in Deo, et ipsum intelligere 
+          concipi<lb break="no" ed="#P" n="36"/>mus, ac si manaret a virtute intelligendi. Atque
+          <lb ed="#P" n="37"/>hoc modo distinguitur dicere ab intelligere,
+          <lb ed="#P" n="38"/>tanquam productio realis ab ea, quae solum
+          <lb ed="#P" n="39"/>concipitur per modum productionis. Unde
+          <lb ed="#P" n="40"/>prior terminatur ad proprium Verbum, 
+          poste<lb break="no" ed="#P" n="41"/>rior autem concipitur terminari ad ipsum 
+          ac<lb break="no" ed="#P" n="42"/>tum intelligendi absolutum et communem. In
+          <lb ed="#P" n="43"/>hoc ergo sensu nullum habet inconveniens illa
+          <lb ed="#P" n="44"/>distinctio.
+        </p>
+        <p xml:id="szduep-139641-d1e686">
+          <lb ed="#P" n="45"/>10. Quid sit prius dicere, an antelligere. —
+          <lb ed="#P" n="46"/>Quarto et ultimo ait Scotus, intelligere et 
+          di<lb break="no" ed="#P" n="47"/>cere ita inter se distingui, ut nullum inter se
+          <lb ed="#P" n="48"/>habent ordinem, vel causalitatis, aut 
+          emana<lb break="no" ed="#P" n="49"/>tionis, vel prioritatis secundum rem, vel 
+          ra<lb break="no" ed="#P" n="50"/>tionem , sed utrumque veluti concomitanter
+          <lb ed="#P" n="51"/>esse ab intellectu foecundo in actu primo. Et
+          <lb ed="#P" n="52"/>quoad hanc partem merito improbatur haec
+          <lb ed="#P" n="53"/>sententia Scoti, quia neque in nobis, neque in
+          <lb ed="#P" n="54"/>Deo intelligi potest. In nobis enim nulla 
+          ra<lb break="no" ed="#P" n="55"/>tione excogitari potest, dicere, quod vel ab in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>telligere non procedat, vel ad intelligendum 
+          <lb ed="#P" n="57"/>non tendat, ergo non possunt haec duo 
+          intelli<lb break="no" ed="#P" n="58"/>gi distincta , quin inter se ordinem servent.
+          <lb ed="#P" n="59"/>Consecutio, evidens est. Antecedens patet. Si
+          <lb ed="#P" n="60"/>enim locutio vocalis sit, oritur ex aliqua 
+          intel<lb break="no" ed="#P" n="61"/>ligentia, et ideo non est locutio vocalis, nisi
+          <lb ed="#P" n="62"/>in his, qui intellectum participant: neque 
+          ali<lb break="no" ed="#P" n="63"/>quis joqui potest, nisi de his, quae intelligit,
+          <lb ed="#P" n="64"/>aut cogitat. Si autem locutio est mentalis, sic
+          <lb ed="#P" n="65"/>non est, nisi productio interni verbi, quae solet
+          <lb ed="#P" n="66"/>vocari intellectio in fieri, ut est actio procedens
+          <lb ed="#P" n="67"/>ab intellectu specie formato, et sic ordinatur
+          <lb ed="#P" n="68"/>ad intelligendum in actu secundo. Quod si vera
+          <lb ed="#P" n="69"/>esset opinio de distinctione verbi ab actu 
+          in<lb break="no" ed="#P" n="70"/>telligendi, adhuc dicere ordinaretur ad 
+          intel<lb break="no" ed="#P" n="71"/>ligere, tanquam proponens illi proximum 
+          ob<lb break="no" ed="#P" n="72"/>jectum. Ergo non possunt in nobis illa duo 
+          in<lb break="no" ed="#P" n="73"/>telligi distincta sine ordine inter se. 
+        </p>
+        <p xml:id="szduep-139641-d1e754">
+          <lb ed="#P" n="74"/>11. — Unde, quatenus illa duo sine ordine
+          <lb ed="#P" n="75"/>intelliguntur, sine distinctione etiam intelligi 
+          <lb ed="#P" n="76"/>debent. Nam verbum, et actus intelligendi in 
+          <lb ed="#P" n="77"/>facto esse, non est unum eorum prius alio,
+          <lb ed="#P" n="78"/>nec causa alterius, quia non sunt duo, sed
+          <lb ed="#P" n="79"/>unum omnino, idemque est de dicere, et 
+          in<lb break="no" ed="#P" n="80"/>telligere in fieri. Concipi ergo non potest ad
+          <lb ed="#P" n="81"/>quid sint in nobis duae actiones intellectus sine 
+          <lb ed="#P" n="82"/>ordine, seu concomitantes. Et ideo merito
+          <lb ed="#P" n="83"/>Sancti Patres dicunt nos interius loqui 
+          cogi<lb break="no" ed="#P" n="84"/>tando, et cogitare loquendo, non quia haee 
+          <lb ed="#P" n="85"/>sint duo distincta concomitanter se habentia ,
+          <lb ed="#P" n="86"/>sed quia vel sunt idem cum proportione 
+          sump<lb break="no" ed="#P" n="87"/>ta, id est, vel utrumque in fieri, vel utrumque
+          <lb ed="#P" n="88"/>in facto esse, vel locutio sumatur pro actione,
+          <lb ed="#P" n="89"/>et partu intellectus, proles et terminus illius,
+          <lb ed="#P" n="90"/>est ipse conceptus, seu intelligere, et ita 
+          ha<lb break="no" ed="#P" n="91"/>bent inter se ordinem. Et ita sentit 
+          Augusti<lb break="no" ed="#P" n="92"/>nus , 15, de Trinitate, cap. 7, et Fulgentius,
+          <lb ed="#P" n="93"/>lib. 3, ad Monimum, cap. 7, dicens : Cum
+          <lb ed="#P" n="94"/>mens verbun apud se habeat, utique cogitando
+          <lb ed="#P" n="95"/>habet, quia nilil aliud est apud se dicere, quam
+          <lb ed="#P" n="96"/>apud se cogitare.
+        </p>
+        <p xml:id="szduep-139641-d1e806">
+          <lb ed="#P" n="97"/>12. Hinc ad Deum ascendendo, eo modo,
+          <lb ed="#P" n="98"/>quo ratione distinguimus inter dicere, et 
+          in<lb break="no" ed="#P" n="99"/>telligere, necesse est, ut aliquem inter se 
+          or<lb break="no" ed="#P" n="100"/>dinem rationis observent : Ita ut intelligere
+          <lb ed="#P" n="101"/>includatur saltem in ipso dicere, vel habeat 
+          a<lb break="no" ed="#P" n="102"/>liquem ordinem per se cum illo nostro modo 
+          <lb ed="#P" n="103"/>intelligendi. Ita sumitur ex eisdem Patribus. 
+          <lb ed="#P" n="104"/>Imo addit Anselmus, in Monolog., cap. 34:
+          <lb ed="#P" n="105"/>Idem esse in summo spiritu scire, quod 
+          intelli<lb break="no" ed="#P" n="106"/>gere, seu dicere. Quod intelligendum est, vel 
+          <lb ed="#P" n="107"/>de identitate rcali, vel specialiter de Patre, ut 
+          <lb ed="#P" n="108"/>infra declarabo. Probaturque primo, quia cum 
+          <lb ed="#P" n="109"/>non possimus intelligere divina, nisi ex 
+          huma<lb break="no" ed="#P" n="110"/>nis, non possumus concipere etiam in Deo
+          <pb ed="#P" n="555"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ipsum dicere, nisi ut per se connexum cum
+          <lb ed="#P" n="2"/>inicllisere, Secundo quia, si actio illa, quae a
+          <lb ed="#P" n="3"/>Scoto vocatur dictio , non est intelligere
+          <lb ed="#P" n="4"/>neque per se connexa cum ipso intelligere, cur
+          <lb ed="#P" n="5"/>dicitur esse actio intellectus? vel quod titulo
+          <lb ed="#P" n="6"/>illi tribuitur magis, quam alteri facultati? vel
+          <lb ed="#P" n="7"/>cur appellatur dictio, si neque intellectio est,
+          <lb ed="#P" n="8"/>neque intellectionem exprimit. Unde 
+          argu<lb break="no" ed="#P" n="9"/>mentor tertio, quia etiam admissa illa 
+          actio<lb break="no" ed="#P" n="10"/>ine, non esset formaliter ab intellectu. Atque
+          <lb ed="#P" n="11"/>iita juxta illam sententiam verbum Divinum,
+          <lb ed="#P" n="12"/>quasi materialiter tantum procederet per 
+          in<lb break="no" ed="#P" n="13"/>tellectum, quatenus virtutem habet 
+          producen<lb break="no" ed="#P" n="14"/>di suo modo, non autem quatenus est virtus
+          <lb ed="#P" n="15"/>intelligendi. Consequens est falsum, ergo: 
+          se<lb break="no" ed="#P" n="16"/>quela patet, quia juxta illam sententiam 
+          intel<lb break="no" ed="#P" n="17"/>lectus non est ratio producendi secundam 
+          Tri<lb break="no" ed="#P" n="18"/>nitatis personam, quatenus se explicat in 
+          ac<lb break="no" ed="#P" n="19"/>tum intelligendi , sed quatenus alias habet
+          <lb ed="#P" n="20"/>virtutem producendi, ergo non est ratio 
+          pro<lb break="no" ed="#P" n="21"/>ducendi, quatenus virtus intelligendi est. 
+          Fal<lb break="no" ed="#P" n="22"/>sitas autem consequentis patet, quia alias 
+          Fi<lb break="no" ed="#P" n="23"/>lius non esset ex vi productionis suae, sapientia
+          <lb ed="#P" n="24"/>Patris, ut loquitur Scriptura, seu sapientia
+          <lb ed="#P" n="25"/>genita, utloquitur Athanasius, oratione contra
+          <lb ed="#P" n="26"/>Gregales Sabellii, et Augustinus, l. 6, de 
+          Tri<lb break="no" ed="#P" n="27"/>nit., cap. 1 et 2, et lib. 15, c. 14, et alu sancti
+          <lb ed="#P" n="28"/>communiter ex illo Eccl. 24. Dominus possedit
+          <lb ed="#P" n="29"/>me, etc., usque illud: Et ego jam concepta
+          <lb ed="#P" n="30"/>eram.
+        </p>
+        <p xml:id="szduep-139641-d1e908">
+          <lb ed="#P" n="31"/>13. Respondere posset aliquis , actionem
+          <lb ed="#P" n="32"/>illam etiamsi non sit intelligere, esse ab 
+          intel<lb break="no" ed="#P" n="33"/>lectu, ut intellectus est, et ut est foecundus per
+          <lb ed="#P" n="34"/>speciem intelligibilem, quia tendit ad 
+          expri<lb break="no" ed="#P" n="35"/>mendum, et repraesentandum in termino suo
+          <lb ed="#P" n="36"/>totum id, quod in se continet per speciem:
+          <lb ed="#P" n="37"/>talis enim est dictio intellectualis in nobis, et
+          <lb ed="#P" n="38"/>talis debet a nobis concipi in aeterno Patre.
+          <lb ed="#P" n="39"/>Et tamen differentia, quia in nobis terminus
+          <lb ed="#P" n="40"/>illius actionis non est subsistens, sed est forma
+          <lb ed="#P" n="41"/>ipsius intellectus producentis illum, quem 
+          ac<lb break="no" ed="#P" n="42"/>tu intelligentem constituit, et ideo illud dicere
+          <lb ed="#P" n="43"/>terminatur ad intelligere. At vero in aeterno
+          <lb ed="#P" n="44"/>Patre terminus productus per dicere est 
+          sub<lb break="no" ed="#P" n="45"/>sistens, et ut sic, non est forma Patris, nec
+          <lb ed="#P" n="46"/>constituit illam intelligentem , nihilominus
+          <lb ed="#P" n="47"/>tamen vere dicitur, et est Verbum, quia 
+          pro<lb break="no" ed="#P" n="48"/>ducitur ex vi intellectualis virtutis, ac 
+          reprae<lb break="no" ed="#P" n="49"/>sentationis, eademque ratione est proprie 
+          no<lb break="no" ed="#P" n="50"/>titia, et sapientia genita, tanquam sapientia,
+          <lb ed="#P" n="51"/>et notitia subsistens, non tanquam sapientia,
+          <lb ed="#P" n="52"/>vel notitia informans. Ac propterea talis 
+          pro<lb break="no" ed="#P" n="53"/>ductio non est formaliter intelligere, quia per
+          <lb ed="#P" n="54"/>illam non intelligit Pater, nec etiam ordinatur
+          <lb ed="#P" n="55"/>ad intelligere, quia nec per terminum ejus in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>telligit Pater, nec etiam est ab intelligere ut
+          <lb ed="#P" n="57"/>sic, licet sit ab intellectu, ut sic, quia est ab
+          <lb ed="#P" n="58"/>intellectu, ut constituto in actu primo, non in
+          <lb ed="#P" n="59"/>actu secundo. Et propterea non habet ordinem
+          <lb ed="#P" n="60"/>cum intelligere, sed Pater aeternus, ut 
+          consti<lb break="no" ed="#P" n="61"/>tutus in actu primo, seu in memoria foecunda
+          <lb ed="#P" n="62"/>simul, et aeque primo concipiendus est a nobis
+          <lb ed="#P" n="63"/>prodire in actum intelligendi, et dicendi, quia
+          <lb ed="#P" n="64"/>ad utrumque simul faecundus est cum 
+          propor<lb break="no" ed="#P" n="65"/>tione, id est, ad intelligere tantum per 
+          ema<lb break="no" ed="#P" n="66"/>nationem secundum rationem, et modum 
+          con<lb break="no" ed="#P" n="67"/>cipiendi nostrum, ad dicere autem per realem
+          <lb ed="#P" n="68"/>verbi productionem.
+        </p>
+        <p xml:id="szduep-139641-d1e995">
+          <lb ed="#P" n="69"/>14. Objectioni occurritur.—Sed contra hunc
+          <lb ed="#P" n="70"/>apparentem discursum objicitur primo, quia
+          <lb ed="#P" n="71"/>ex illomet concludi potest, dicere Paternum
+          <lb ed="#P" n="72"/>supponere per se, vel aliquo modo includere
+          <lb ed="#P" n="73"/>ipsum intelligere. Probatur, quia supponit 
+          in<lb break="no" ed="#P" n="74"/>tellectum paternum, ut constitutum in actu
+          <lb ed="#P" n="75"/>ad intelligendum , sed constitutio illa non est
+          <lb ed="#P" n="76"/>tantum in actu primo, sed maxime in actu
+          <lb ed="#P" n="77"/>secundo, quia actus primus, ut potentiam 
+          re<lb break="no" ed="#P" n="78"/>ceptivam, seu actuabilem includit, non 
+          tribui<lb break="no" ed="#P" n="79"/>tur Deo cum proprietate, quia imperfectionem
+          <lb ed="#P" n="80"/>includit, ego dicere Patris aeterni est ab 
+          intel<lb break="no" ed="#P" n="81"/>lectu ejus , ut constituto in actu secundo 
+          in<lb break="no" ed="#P" n="82"/>telligendi, ergo est ab intelligere, vel illud in
+          <lb ed="#P" n="83"/>se includit. Confirmatur, quia, ut saepe dixi,
+          <lb ed="#P" n="84"/>in Deo non est intellectiva potentia formaliter,
+          <lb ed="#P" n="85"/>et proprie, sed est purissimus actus intelligendi
+          <lb ed="#P" n="86"/>per se subsistens , ergo eo ipso, quod dicere
+          <lb ed="#P" n="87"/>Paternum est per intelligendi facultatem , ut
+          <lb ed="#P" n="88"/>talis est, esse debet per intelligere, ut 
+          intelli<lb break="no" ed="#P" n="89"/>gere est , quia facultas intelligendi in aeterno
+          <lb ed="#P" n="90"/>Patre non est, nisi ipsum intelligere per 
+          essen<lb break="no" ed="#P" n="91"/>tiam. Denique licet demus, concipi posse a
+          <lb ed="#P" n="92"/>nobis actum intelligendi Patris, tanquam 
+          ali<lb break="no" ed="#P" n="93"/>quid emanans secundum rationem ab 
+          intel<lb break="no" ed="#P" n="94"/>lectu Paterno, ut constituto in actu primo per
+          <lb ed="#P" n="95"/>suam essentiam in ratione spei intelligibilis :
+          <lb ed="#P" n="96"/>nihilominus haec ipsa emanatio rationis debet
+          <lb ed="#P" n="97"/>intelligi prior secundum rationem in Patre,
+          <lb ed="#P" n="98"/>quam realis Verbi productio , ergo etiam 
+          se<lb break="no" ed="#P" n="99"/>cundum hunc concipiendi modum necesse est,
+          <lb ed="#P" n="100"/>admittere ordinem rationis inter dicere, et 
+          in<lb break="no" ed="#P" n="101"/>telligere. Probatur antecedens, quia 
+          essentia<lb break="no" ed="#P" n="102"/>lia secundum ordinem rationis sunt priora
+          <lb ed="#P" n="103"/>notionalibus : item, quia prius Pater 
+          concipi<lb break="no" ed="#P" n="104"/>tur, ut in se perfecte constitutus in suo esse
+          <lb ed="#P" n="105"/>per suum intelligere : quia actu intelligere est
+          <lb ed="#P" n="106"/>esse Dei, et Pater, ut sic constitutus 
+          intelligi<lb break="no" ed="#P" n="107"/>tur, et est perfectissime Deus. Unde etiam ipse
+          <lb ed="#P" n="108"/>Scotus fatetur intelligere, ut est perfectio 
+          Pa<lb break="no" ed="#P" n="109"/>tris, esse prius, quam dicere. Hinc vero 
+          con<lb break="no" ed="#P" n="110"/>cluditur, ipsum intelligere esse Patri princi-
+          <pb ed="#P" n="556"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pium, vel rationem dicendi, quia intelligere
+          <lb ed="#P" n="2"/>non supponitur in Patre solum materialiter,
+          <lb ed="#P" n="3"/>et identice ad modum aliorum attributorum ,
+          <lb ed="#P" n="4"/>sed formaliter, quatenus constituit Patrem in
+          <lb ed="#P" n="5"/>perfectissimo gradu intellectuali, ac proinde
+          <lb ed="#P" n="6"/>foecundissimo cum omni perfectione.
+        </p>
+        <p xml:id="szduep-139641-d1e1107">
+          <lb ed="#P" n="7"/>15. Conclusio intenta. — Concludo igitur,
+          <lb ed="#P" n="8"/>Verbum divinum procedere peractum 
+          intel<lb break="no" ed="#P" n="9"/>ligendi , ut talis est, et Spiritum sanctum
+          <lb ed="#P" n="10"/>similiter per actum amandi, quae est 
+          senten<lb break="no" ed="#P" n="11"/>tia D. Thomaee, dicta quaest. 27, artic. 5, et
+          <lb ed="#P" n="12"/>quaest. 34 ac 36, et aliorum, quos retuli 
+          prae<lb break="no" ed="#P" n="13"/>cedenti capite et in sequenti alios referam.
+          <lb ed="#P" n="14"/>Et late a nobis est explicanda in lib. 9 et 11,
+          <lb ed="#P" n="15"/>ubi de Personis productis in particulari 
+          age<lb break="no" ed="#P" n="16"/>mus. Nunc satis probatur ex dictis, quia Pater
+          <lb ed="#P" n="17"/>producit Verbum suum dicendo, ut supra 
+          pro<lb break="no" ed="#P" n="18"/>batum est, sed non dicit, nisi intelligendo,
+          <lb ed="#P" n="19"/>non soium materialiter, sed etiam formaliter,
+          <lb ed="#P" n="20"/>quia ratio dicendi est ipsa intelligentia, ut
+          <lb ed="#P" n="21"/>probatum etiam est, ergo Verbum divinum
+          <lb ed="#P" n="22"/>procedit per actum intelligendi, ut talis est.
+          <lb ed="#P" n="23"/>Quae ratio cum proportione facile potest ad
+          <lb ed="#P" n="24"/>amorem applicari. Item, Pater producit 
+          sub<lb break="no" ed="#P" n="25"/>stantiale Verbum , quatenus intellectualis per
+          <lb ed="#P" n="26"/>essentiam , et summe perfectius in gradu 
+          in<lb break="no" ed="#P" n="27"/>tellectuali, ergo producit, ut per se, et 
+          essentia<lb break="no" ed="#P" n="28"/>liter, ac substantialiter intelligens, ergo 
+          pro<lb break="no" ed="#P" n="29"/>ducit per ipsum intelligere, ut tale est. 
+          Deni<lb break="no" ed="#P" n="30"/>que , inde probamus cum D. Thoma 
+          proces<lb break="no" ed="#P" n="31"/>siones tantum duas esse, quia tantum sunt duo
+          <lb ed="#P" n="32"/>actus immanentes in re intellectuali. At haec
+          <lb ed="#P" n="33"/>ratio parum valeret, nisi actus ipsi intelligendi,
+          <lb ed="#P" n="34"/>et amandi per se concurrerent ad 
+          productio<lb break="no" ed="#P" n="35"/>nes, quia si tantum concomitanter, vel etiam
+          <lb ed="#P" n="36"/>antecedenter praesupponerentur , possent ad
+          <lb ed="#P" n="37"/>tres, vel quatuor processiones supponi, vel illas
+          <lb ed="#P" n="38"/>comitari , sicvt bonitas Dei, vel justitia, licet
+          <lb ed="#P" n="39"/>sit una, admittit plures processiones. Est ergo
+          <lb ed="#P" n="40"/>formalis illa locutio, ut in sequentibus 
+          capiti<lb break="no" ed="#P" n="41"/>bus magis declarabimus, expediemusque 
+          dif<lb break="no" ed="#P" n="42"/>ficultates circa hoc occurentos.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

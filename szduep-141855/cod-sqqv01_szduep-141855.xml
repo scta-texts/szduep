@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="560"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-141855"><!-- t3-l1c9 -->
+        <head xml:id="szduep-141855-Hd1e101">Caput 9</head>
+        <head xml:id="szduep-141855-Hd1e103" type="question-title">In deo tantum esse duas processiones reales</head>
+        <p xml:id="szduep-141855-d1e106">
+          <lb ed="#P" n="82"/>CAPUT IX.
+          <lb ed="#P" n="83"/>IN DEO TANTUM ESSE DUAS PROCESSIONES REALES.
+        </p>
+        <p xml:id="szduep-141855-d1e113">
+          <lb ed="#P" n="84"/>1. Haec veritas necessario praemittenda esi
+          <lb ed="#P" n="85"/>ad concludendum numerum Personarum. 
+          Igi<lb break="no" ed="#P" n="86"/>tur in Deo esse duas reales processiones de
+          <lb ed="#P" n="87"/>Fide, est exlocis Joannis supra citatis, cap. 8 e
+          <lb ed="#P" n="88"/>15, ubi et Filius a Patre, et Spiritus sanctus e
+          <lb ed="#P" n="89"/>Patre et Filio procedere dicitur. Quod etian
+          <lb ed="#P" n="90"/>definitur in symbolo Nyceno, et Athanasi:
+          <lb ed="#P" n="91"/>constat autem distinctarum personarum 
+          dis<lb break="no" ed="#P" n="92"/>tinctas esse processiones. Item una processic
+          <lb ed="#P" n="93"/>est ab una sola persona, altera est a duabus
+          <lb ed="#P" n="94"/>ergo necesse est, ut inter se sint aliquo modc
+          <lb ed="#P" n="95"/>distinctae. Denique, una est per intellectum
+          <lb ed="#P" n="96"/>altera per voluntatem. Ostendimus enim 
+          pro<lb break="no" ed="#P" n="97"/>cessionem in Deo esse per actum immanentem
+          <lb ed="#P" n="98"/>naturae intellectualis, in qua natura duplex est
+          <lb ed="#P" n="99"/>hujusmodi actus, non est autem major ratic
+          <lb ed="#P" n="100"/>propter quam sit in Deo processio secunduni
+          <lb ed="#P" n="101"/>unum actum potius, quam secundum alium;
+          <lb ed="#P" n="102"/>tatibus distinguit illas D. Thomas, quaest. 27/
+          <lb ed="#P" n="103"/>art. 5, Henricus, quodlib. 6, quaest. 1, et in
+          <lb ed="#P" n="104"/>quaest. 1, et ibi alii theologi.
+        </p>
+        <p xml:id="szduep-141855-d1e161">
+          <pb ed="#P" n="561"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Ut autem haec veritas magis explicetur,
+          <lb ed="#P" n="2"/>occurit difficultas, quia intellectus, et voluntas
+          <lb ed="#P" n="3"/>in Deo non distinguuntur in re, sed ratione
+          <lb ed="#P" n="4"/>tantum, ergo neque actus intelligendi, et 
+          aman<lb break="no" ed="#P" n="5"/>di, ergo inde non potest colligi major 
+          distinc<lb break="no" ed="#P" n="6"/>tio processionum quam rationis. Probatur 
+          con<lb break="no" ed="#P" n="7"/>sequentia, quia non est necessaria major 
+          dis<lb break="no" ed="#P" n="8"/>tnctio inter terminos, quam inter potentias,
+          <lb ed="#P" n="9"/>vel actus : Neque videtur possibile, quod res
+          <lb ed="#P" n="10"/>aliqua per intellectum divinum producatur,
+          <lb ed="#P" n="11"/>quae non producatur per voluntatem, cum in
+          <lb ed="#P" n="12"/>re idem actu sint, licet virtute distinguantur.
+          <lb ed="#P" n="13"/>Ergo idem dicendum est de processione, et de
+          <lb ed="#P" n="14"/>re producta.
+        </p>
+        <p xml:id="szduep-141855-d1e199">
+          <lb ed="#P" n="15"/>3. Quo sensu processiones sint due. — Ad
+          <lb ed="#P" n="16"/>hanc ergo difficultatem explicandam 
+          adver<lb break="no" ed="#P" n="17"/>tendum est, dupliciter posse distingui has 
+          pro<lb break="no" ed="#P" n="18"/>cessiones, primo formaliter, seu quasi specifice
+          <lb ed="#P" n="19"/>in ratione processionum, secundo realiter, et
+          <lb ed="#P" n="20"/>uterque modus distinctionis, absolute 
+          loquen<lb break="no" ed="#P" n="21"/>do de processionibus verus est, et certus. Prior
+          <lb ed="#P" n="22"/>pars de distinctione formali patet, quia 
+          pro<lb break="no" ed="#P" n="23"/>cessiones istae in sua formalitate ita 
+          distin<lb break="no" ed="#P" n="24"/>guuntur, ut una sit vera, et propria 
+          genera<lb break="no" ed="#P" n="25"/>tio, scilicet processio Filii : alia vero nullo 
+          mo<lb break="no" ed="#P" n="26"/>do sit generatio. Quod est certum de Fide, ut
+          <lb ed="#P" n="27"/>infra constabit, tractando de personis in 
+          par<lb break="no" ed="#P" n="28"/>ticulari : ergo distinguuntur illae processiones
+          <lb ed="#P" n="29"/>formaliter. Advertit autem et bene (mea 
+          sen<lb break="no" ed="#P" n="30"/>tentia) Cajetanus, 1. p., quaest. 27, art. 1, has
+          <lb ed="#P" n="31"/>processiones sub hac ratione non ita esse 
+          pri<lb break="no" ed="#P" n="32"/>mo diversas, seu distingui se totis (ut alias 
+          lo<lb break="no" ed="#P" n="33"/>quuntur Scotus, Durandus et Gabriel, in 1
+          <lb ed="#P" n="34"/>dist. 13), quin habeant inter se aliquam 
+          con<lb break="no" ed="#P" n="35"/>venientiam realem : addo etiam, et univocam.
+          <lb ed="#P" n="36"/>Conveniunt enim in communi ratione 
+          proces<lb break="no" ed="#P" n="37"/>sionis realis ita perfectae, ut nullam includant
+          <lb ed="#P" n="38"/>unperfectionem. Habet autem illa ratio 
+          commu<lb break="no" ed="#P" n="39"/>nis ad modum transcendentis, sicut supra dixi
+          <lb ed="#P" n="40"/>de communi ratione personae. Altera vero pars
+          <lb ed="#P" n="41"/>de distinctione reali constat ex distinctione
+          <lb ed="#P" n="42"/>terminorum, nam personae procedentes per has
+          <lb ed="#P" n="43"/>processiones sunt realiter distinctae secundum
+          <lb ed="#P" n="44"/>fidem, ut infra ex professo ostendemus : 
+          pro<lb break="no" ed="#P" n="45"/>cessiones autem, quae tendunt ad terminos
+          <lb ed="#P" n="46"/>realiter distinctos inter se, etiam distingui 
+          ne<lb break="no" ed="#P" n="47"/>cesse est.
+        </p>
+        <p xml:id="szduep-141855-d1e273">
+          <lb ed="#P" n="48"/>4. Est autem ulterius advertendum, 
+          singu<lb break="no" ed="#P" n="49"/>las processiones distingui a theologis in activas
+          <lb ed="#P" n="50"/>et passivas, unde comparari possunt, quoad
+          <lb ed="#P" n="51"/>banc distinctionem, vel processiones activae 
+          in<lb break="no" ed="#P" n="52"/>ter se, ut generatio et spiratio, vel 
+          processio<lb break="no" ed="#P" n="53"/>nes passivae inter se, ut generari et spurari, vel
+          <lb ed="#P" n="54"/>activa ad passivam sibi respondentem, ut 
+          ge<lb break="no" ed="#P" n="55"/>nerare ad generari. Quod ergo in praesenti cer-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum esse asserimus, solum est, processiones
+          <lb ed="#P" n="57"/>passivas inter se realiter distingui, quia hoc
+          <lb ed="#P" n="58"/>est necessarium ad distinctionem personarum.
+          <lb ed="#P" n="59"/>An vero inde sequatur realis distinctio inter
+          <lb ed="#P" n="60"/>productiones activas, vel sufficiat eminens et
+          <lb ed="#P" n="61"/>virtualis, diceinus infra tractando de 
+          origini<lb break="no" ed="#P" n="62"/>bus, quia ad fundandum mysterium fidei non
+          <lb ed="#P" n="63"/>est necessarium, et multa necesse est prius 
+          dis<lb break="no" ed="#P" n="64"/>putare. Et idem dico de altera quaestione, 
+          quo<lb break="no" ed="#P" n="65"/>modo inter se distinguantur processio activa
+          <lb ed="#P" n="66"/>et passrva. Praeterea, inquiri potest, unde 
+          su<lb break="no" ed="#P" n="67"/>menda sit distinctio realis inter has 
+          processio<lb break="no" ed="#P" n="68"/>nes passivas, sed de hoc etiam infra dicendum
+          <lb ed="#P" n="69"/>est, traciando de distinctione personarum et
+          <lb ed="#P" n="70"/>praesertim Spiritus sancti a Filio. Nunc vero
+          <lb ed="#P" n="71"/>suppono, sumendam esse ex distinctione, seu
+          <lb ed="#P" n="72"/>oppositione originis, sine qua non potest esse
+          <lb ed="#P" n="73"/>aliqua realis distinctio intra Deum, ut postea
+          <lb ed="#P" n="74"/>videbimus.
+        </p>
+        <p xml:id="szduep-141855-d1e336">
+          <lb ed="#P" n="75"/>5. Solvitur difficultas.—kx his Igitur 
+          dicen<lb break="no" ed="#P" n="76"/>dum est ad difficultatem propositam, quamvis
+          <lb ed="#P" n="77"/>actus intellectus et voluntatis Dei non habeant
+          <lb ed="#P" n="78"/>in re actualem distinctionem Suflicere 
+          eminen<lb break="no" ed="#P" n="79"/>tem et virtualem, ut una persona procedat per
+          <lb ed="#P" n="80"/>actum intellectus et non per actum voluntatis.
+          <lb ed="#P" n="81"/>Quod quidem est de fide certum, ut nunc 
+          sup<lb break="no" ed="#P" n="82"/>ponimus ex dictis in superioribus capitibus et
+          <lb ed="#P" n="83"/>tractabitur iatius lib. 8 et 9, ubi de verbo 
+          di<lb break="no" ed="#P" n="84"/>vino et Spiritu sancto disseremus. Ratione 
+          au<lb break="no" ed="#P" n="85"/>tem vix potest declarari, nedum convinci : 
+          sa<lb break="no" ed="#P" n="86"/>tis vero nobis est, ostendere non repugnare.
+          <lb ed="#P" n="87"/>Quia licet omnia Dei attributa sint una 
+          sim<lb break="no" ed="#P" n="88"/>plicissima perfectio, vere ac formaliter 
+          conti<lb break="no" ed="#P" n="89"/>nent, quidquid perfectionis in eis excogitari
+          <lb ed="#P" n="90"/>potest absque imperfectione. Sic ergo est in
+          <lb ed="#P" n="91"/>Deo tota perfectio intelligendi, ut non minus
+          <lb ed="#P" n="92"/>habeat suum proprium et adaequatum 
+          termi<lb break="no" ed="#P" n="93"/>num per ipsam productum, quam si esset in re
+          <lb ed="#P" n="94"/>distincta a quacumque alia perfectione. Sic 
+          er<lb break="no" ed="#P" n="95"/>go dari potest, et datur in Deo quaedam 
+          proces<lb break="no" ed="#P" n="96"/>sio, quae solum est per intellectum. Atque hinc
+          <lb ed="#P" n="97"/>ulterius sequitur, ut illamet persona, quae 
+          pro<lb break="no" ed="#P" n="98"/>cedit per intellectum, possit producere per 
+          vo<lb break="no" ed="#P" n="99"/>luntatem. Ex quo tandem fit, ut processio
+          <lb ed="#P" n="100"/>passiva per voluntatem sit realiter distincta a
+          <lb ed="#P" n="101"/>processione per intellectum, quia habet cum
+          <lb ed="#P" n="102"/>illa oppositionem originis.
+        </p>
+        <p xml:id="szduep-141855-d1e399">
+          <lb ed="#P" n="103"/>6. Processiones non esse plures quam duas.
+          <lb ed="#P" n="104"/>—Secundo dicendum est, has processiones non
+          <lb ed="#P" n="105"/>esse plures, quam duas: quod etiam est de 
+          fi<lb break="no" ed="#P" n="106"/>de ex eisdem testimoniis, ex quibus credimus,
+          <lb ed="#P" n="107"/>solum esse in Deo duas personas procedentes.
+          <lb ed="#P" n="108"/>Ratio vero optima redditur a D. Thoma, quia
+          <lb ed="#P" n="109"/>hae processiones sunt per actus proprios 
+          intel<lb break="no" ed="#P" n="110"/>lectualis naturae in natura autem intellec-
+          <pb ed="#P" n="562"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tuali non sunt, nisi duae facultates, et duo
+          <lb ed="#P" n="2"/>senera actuum immanentium, scilicet 
+          intellec<lb break="no" ed="#P" n="3"/>tus et voluntatis, ergo neque in Deo possunt
+          <lb ed="#P" n="4"/>esse plures processiones, quam duae. Qua 
+          ratio<lb break="no" ed="#P" n="5"/>ne utuntur etiam Alensis, 1 part., quaest. 17,
+          <lb ed="#P" n="6"/>memb. 7, Bonaventura, in 1, dist. 2, quaest. 4,
+          <lb ed="#P" n="7"/>Gabriel, distinct. 10, quaest. 1, Scotus, 
+          Richar<lb break="no" ed="#P" n="8"/>dus, Marsilius et Henricus, locis citatis in cap. 5,
+          <lb ed="#P" n="9"/>et optime probat non esse in Deo plures 
+          pro<lb break="no" ed="#P" n="10"/>cessiones distinctas quasi specifice. Posset 
+          au<lb break="no" ed="#P" n="11"/>tem quis cogitare, in unoquoque ordine illarum
+          <lb ed="#P" n="12"/>processionum posse dari plures. Sed in hoc 
+          e<lb break="no" ed="#P" n="13"/>tiam sensu de fide est, non esse plures: quia in
+          <lb ed="#P" n="14"/>Deo non sunt duo Patres, aut duo Filii, aut duo
+          <lb ed="#P" n="15"/>amores procedentes. Hoc autem multis etiam
+          <lb ed="#P" n="16"/>rationibus probat D. Thomas, citatis locis. Una
+          <lb ed="#P" n="17"/>vero est, quae satisfacit, scilicet, quod 
+          unaquae<lb break="no" ed="#P" n="18"/>que processio divina habet terminum sibi 
+          adae<lb break="no" ed="#P" n="19"/>quatum, ut intellectio verbum, in quo 
+          reprae<lb break="no" ed="#P" n="20"/>sentantur omnia, quae per actum intelligendi
+          <lb ed="#P" n="21"/>Dei naturalem comprehendi possunt : ergo non
+          <lb ed="#P" n="22"/>potest talis processio quasi multiplicari numero
+          <lb ed="#P" n="23"/>intra eamdem rationem formalem.
+        </p>
+        <p xml:id="szduep-141855-d1e473">
+          <lb ed="#P" n="24"/>7. Opinio Raymundi. — Dices. Hac ratione
+          <lb ed="#P" n="25"/>probaretur non esse in Deo, nisi unicam 
+          pro<lb break="no" ed="#P" n="26"/>cessionem, quia illa est adaequata virtuti 
+          pro<lb break="no" ed="#P" n="27"/>ductivae ad intra. Quod patet, quia illa 
+          pro<lb break="no" ed="#P" n="28"/>ductio est infinita, et ad illam requiritur virtus
+          <lb ed="#P" n="29"/>infinita, ergo adaequantur. Atque ita sensisse
+          <lb ed="#P" n="30"/>videtur Raymundus Lullus, cap. 11, citandus.
+          <lb ed="#P" n="31"/>Dixit enim, ad divinam perfectionem 
+          pertine<lb break="no" ed="#P" n="32"/>re, ut intra Deum tantum sit unus actus 
+          boni<lb break="no" ed="#P" n="33"/>ficandi, id est, communicandi bonitatem, quia
+          <lb ed="#P" n="34"/>si essent plures, quilibet eorum esset limitatus.
+          <lb ed="#P" n="35"/>Unde ille non videtur agnoscere duas 
+          proces<lb break="no" ed="#P" n="36"/>siones, sed unam tantum. Imo putat illam 
+          suf<lb break="no" ed="#P" n="37"/>ficere ad Trinitatem personarum, et pertinere
+          <lb ed="#P" n="38"/>ad majorem, perfectionem, ideoque non esse
+          <lb ed="#P" n="39"/>in Deo multiplicandos illos actus.
+        </p>
+        <p xml:id="szduep-141855-d1e510">
+          <lb ed="#P" n="40"/>8. Refellitur.—Sed deceptus est valde et in
+          <lb ed="#P" n="41"/>periculosam sententiam incidit, si vera sunt,
+          <lb ed="#P" n="42"/>quae de illo referuntur. Quia impossibile est,
+          <lb ed="#P" n="43"/>ut cum unica productione reali, salvet 
+          nume<lb break="no" ed="#P" n="44"/>rum trium personarum, ut capite sequenti 
+          os<lb break="no" ed="#P" n="45"/>tendemus. Impossibile item est, omnia salvare,
+          <lb ed="#P" n="46"/>quae de hoc mysterio fides docet, ut quod 
+          Fi<lb break="no" ed="#P" n="47"/>lius non producat se et producat Spiritum 
+          sanc<lb break="no" ed="#P" n="48"/>tum, et quod quaedam productio Dei sit 
+          genera<lb break="no" ed="#P" n="49"/>tio, et alia non sit generatio, et quod una sit ab
+          <lb ed="#P" n="50"/>una tantum persona, alia a duabus. Ad 
+          argu<lb break="no" ed="#P" n="51"/>mentum ergo respondeo, negando sequelam,
+          <lb ed="#P" n="52"/>quia licet ad quamlibet processionem 
+          requira<lb break="no" ed="#P" n="53"/>tur infinita perfectio, seu virtus productiva,
+          <lb ed="#P" n="54"/>quae in processione qualibet habet adaequatum
+          <lb ed="#P" n="55"/>actum in ratione formali, et quasi specie talis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>actus : non tamen habet adaequationem quasi
+          <lb ed="#P" n="57"/>extensivam et secundum rationem omnium
+          <lb ed="#P" n="58"/>actuum, quos ad intra habere potest: Sicut 
+          e<lb break="no" ed="#P" n="59"/>tiam ad producendam quamlibet creaturam ex
+          <lb ed="#P" n="60"/>nihilo requiritur infinita virtus Dei, et 
+          nihil<lb break="no" ed="#P" n="61"/>ominus non quaelibet creatio est adaequatus
+          <lb ed="#P" n="62"/>actus illius potestatis. Sic ergo ad 
+          productio<lb break="no" ed="#P" n="63"/>nem Filii requiritur infinita perfectio et 
+          foecun<lb break="no" ed="#P" n="64"/>ditas divinae natura: illa tamen non 
+          exhau<lb break="no" ed="#P" n="65"/>ritur (ut ita dicam ) per illam solam 
+          proces<lb break="no" ed="#P" n="66"/>sionem, quia non est adaequata utrique 
+          facul<lb break="no" ed="#P" n="67"/>tati (ut sic dicam ) illius naturae, scilicet 
+          intel<lb break="no" ed="#P" n="68"/>lectui et voluntati, unaquaeque autem 
+          proces<lb break="no" ed="#P" n="69"/>sio ex his est adaequata suo actui et ideo intra
+          <lb ed="#P" n="70"/>suam rationem formalem non multiphcatur.
+        </p>
+        <p xml:id="szduep-141855-d1e583">
+          <lb ed="#P" n="71"/>9. Et confirmatur, nam si posset esse 
+          secun<lb break="no" ed="#P" n="72"/>dus Filius in divinis, vel ille procederet a solo
+          <lb ed="#P" n="73"/>primo Filio, et hoc dici non potest, quia 
+          se<lb break="no" ed="#P" n="74"/>cunda persona nihil potest producere , quod
+          <lb ed="#P" n="75"/>quod non producat prima, nec tertia sine 
+          pri<lb break="no" ed="#P" n="76"/>ma et secunda, quia, ut supra declaravi, qua
+          <lb ed="#P" n="77"/>ratione opera Trinitatis ad extra sunt indivisa,
+          <lb ed="#P" n="78"/>eadem productio ad intra necessario est 
+          com<lb break="no" ed="#P" n="79"/>munis omnibus personis, quae secundum 
+          ordi<lb break="no" ed="#P" n="80"/>nem originis supponuntur ad talem 
+          processio<lb break="no" ed="#P" n="81"/>nem. Vel ille secundus Filhus produceretur a
+          <lb ed="#P" n="82"/>solo Patre et hoc non, tum quia eadem 
+          ra<lb break="no" ed="#P" n="83"/>tione produceret Filios sine termino: tum 
+          e<lb break="no" ed="#P" n="84"/>tiam quia nulla ratio distinctionis realis 
+          in<lb break="no" ed="#P" n="85"/>veniri posset inter tales Filios, qui dicerent
+          <lb ed="#P" n="86"/>respectum ad idem principium, et inter se non
+          <lb ed="#P" n="87"/>haberent oppositionem originis, tum denique,
+          <lb ed="#P" n="88"/>quia cum Pater non habeat , nisi unum actum
+          <lb ed="#P" n="89"/>intelligendi, non potest etiam habere, nisi 
+          u<lb break="no" ed="#P" n="90"/>num verbum adaequatum. Vel denique talis
+          <lb ed="#P" n="91"/>secundus Filius procederet simul a Patre et
+          <lb ed="#P" n="92"/>primo Filio. Et hoc etiam repugnat excellen-:
+          <lb ed="#P" n="93"/>tia et adaequationi primae processionis cum
+          <lb ed="#P" n="94"/>suo termino, inde etiam sequeretur infinita
+          <lb ed="#P" n="95"/>multiplicatio similium processionum , quia
+          <lb ed="#P" n="96"/>nulla esset ratio sistendi in secunda, magis
+          <lb ed="#P" n="97"/>quam in prima, nec in tertia magis, quam in 
+          <lb ed="#P" n="98"/>secunda, et sic de caeteris. Similesque rationes
+          <lb ed="#P" n="99"/>locum habent in processione per voluntatem.
+          <lb ed="#P" n="100"/>Non sunt ergo in Deo plures, quam duae 
+          pro<lb break="no" ed="#P" n="101"/>cessiones. Neque in hoc nova difficultas 
+          alicu<lb break="no" ed="#P" n="102"/>jus momenti occurrit. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

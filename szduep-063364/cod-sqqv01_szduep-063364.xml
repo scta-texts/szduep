@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="249"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-063364"><!-- t2-l1c6 -->
+        <head xml:id="szduep-063364-Hd1e101">Caput 6</head>
+        <head xml:id="szduep-063364-Hd1e103" type="question-title">Quae scientia necessario in deo supponenda sit ante omne decretum praedestinationis</head>
+        <p xml:id="szduep-063364-d1e106">
+          <lb ed="#P" n="45"/>CAPUT VI.
+          <lb ed="#P" n="46"/>QUAE SCIENTIA NECESSARIO IN DEO SUPPONENDA SIT
+          <lb ed="#P" n="47"/>ANTE OMNE DECRETUM PRAEDESTINATIONIS.
+        </p>
+        <p xml:id="szduep-063364-d1e115">
+          <lb ed="#P" n="48"/>1. Explicata materia circa quam praedestinatio
+          <lb ed="#P" n="49"/>versatur, ut ejus rationem distincte et in 
+          parti<lb break="no" ed="#P" n="50"/>culari tradamus, necessarium est ut per omnes
+          <lb ed="#P" n="51"/>actus divini intellectus et voluntatis, qui in hoc
+          <lb ed="#P" n="52"/>praedestinationis negotio circa talem materiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>versantur, et in hoc opere intervenire possunt,
+          <lb ed="#P" n="54"/>vel debent, discurramus: inde enim lucidius
+          <lb ed="#P" n="55"/>constabit in quo actu posita sit praedestinatio.
+          <lb ed="#P" n="56"/>Hujusmodi vero actus ad tres ordines reduci
+          <lb ed="#P" n="57"/>possunt, quidam, qui praecedunt, 
+          supponuntur<lb break="no" ed="#P" n="58"/>que ad praedestinationem: alii, qui sunt 
+          pos<lb break="no" ed="#P" n="59"/>teriores et consequentes ad praedestinationem:
+          <lb ed="#P" n="60"/>alii inter hos medii sunt, in quibus, vel eorum
+          <lb ed="#P" n="61"/>aliquo praedestinatio ponenda est. Ut hoc autem
+          <lb ed="#P" n="62"/>semel pro toto hoc opere dicamus, quoties de
+          <lb ed="#P" n="63"/>his actibus, ut de multis loquimur, vel in eis
+          <lb ed="#P" n="64"/>ordinem prioris et posterioris supponimus, 
+          se<lb break="no" ed="#P" n="65"/>cundum rationem tantum et modum nostrum
+          <lb ed="#P" n="66"/>intelligendi, cum aliquo fundamento in re id
+          <lb ed="#P" n="67"/>intelligimus: cum in re constet omnia esse
+          <lb ed="#P" n="68"/>unum simplicissimum actum, aeternum et 
+          om<lb break="no" ed="#P" n="69"/>nino simul. Itaque secundum rationem certum
+          <lb ed="#P" n="70"/>est intellectum praeire et voluntatem subsequi,
+          <lb ed="#P" n="71"/>ideoque, si qui actus divinae mentis ad totam
+          <lb ed="#P" n="72"/>praedestinationem supponuntur, in intellectu
+          <lb ed="#P" n="73"/>primario esse debent et ad scientiam pertinent,
+          <lb ed="#P" n="74"/>et ideo isti sunt in hoc capite explicandi: de
+          <lb ed="#P" n="75"/>voluntate vero postea videbimus.
+        </p>
+        <p xml:id="szduep-063364-d1e180">
+          <lb ed="#P" n="76"/>2. Prima assertio. — Primo igitur certum
+          <lb ed="#P" n="77"/>est, ante omnem proedestinationis actum 
+          sup<lb break="no" ed="#P" n="78"/>ponendam esse in Deo aliquam scientiam, quae
+          <lb ed="#P" n="79"/>vel dirigat praedestinationem ipsam vel divinam
+          <lb ed="#P" n="80"/>voluntatem (ut sic dicam) ad praedestinationem
+          <lb ed="#P" n="81"/>faciendam invitet, ei proponendo objecta et res
+          <lb ed="#P" n="82"/>quae praedestinare possit. Hoc ad minimum 
+          si<lb break="no" ed="#P" n="83"/>gnificavit Paulus ad Rom. 8, dicens: Quos 
+          pree<lb break="no" ed="#P" n="84"/>scivit et preedestinavit conformes fieri imaginis
+          <lb ed="#P" n="85"/>Filii sui. Namilla duo verba non sunt 
+          accipien<lb break="no" ed="#P" n="86"/>da ut synonyma, cum in omni proprietate 
+          di<lb break="no" ed="#P" n="87"/>versas habeant significationes, possintque illo
+          <lb ed="#P" n="88"/>in loco illasretinere. Itemque ex ordine litterae,
+          <lb ed="#P" n="89"/>ipsoque modo loquendi constat, praescientiam
+          <lb ed="#P" n="90"/>ad praedestinationem supponi, nam in reliquis
+          <lb ed="#P" n="91"/>quae ibi Paulus enumerat, hunc ordinem 
+          ser<lb break="no" ed="#P" n="92"/>vat: prius enim id ponit quod alteri supponitur,
+          <lb ed="#P" n="93"/>ut praedestinationem ante vocationem, 
+          voca<lb break="no" ed="#P" n="94"/>tionem ante justificationem, justificationem
+          <lb ed="#P" n="95"/>ante glorificationem. Cum ergo simili modo
+          <lb ed="#P" n="96"/>ponat praescientiam ante praedestinationem,
+          <lb ed="#P" n="97"/>ponit illam ut praeviam.
+        </p>
+        <p xml:id="szduep-063364-d1e231">
+          <lb ed="#P" n="98"/>3. Atque hic etiam videtur esse sensus 
+          Au<lb break="no" ed="#P" n="99"/>gustini, lib. de Bono persev. , cap. 14, 
+          definien<lb break="no" ed="#P" n="100"/>tis praedestinationem esse preescientiam et 
+          pre<lb break="no" ed="#P" n="101"/>parationem beneficiorum Dei. Nam praescientia
+          <lb ed="#P" n="102"/>sine dubio ad praeparationem supponitur, quia
+          <lb ed="#P" n="103"/>per praescientiam, ut sic, nihil praeparatur, 
+          do<lb break="no" ed="#P" n="104"/>nec accedat voluntas seu propositum dandi, ut
+          <lb ed="#P" n="105"/>capite secundo explicatum est. In illa vero 
+          prae<lb break="no" ed="#P" n="106"/>paratione formaliter consistit praedestinatio, ut
+          <lb ed="#P" n="107"/>ibidem tetigimus, et significavit Augustinus
+          <pb ed="#P" n="250"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>alibi dicens: praedestinationem esse gratie 
+          pree<lb break="no" ed="#P" n="2"/>parationem, de Praedestinatione Sanctorum ,
+          <lb ed="#P" n="3"/>c. 10. De qua praedestinatione subdit statim:
+          <lb ed="#P" n="4"/>Quee fine praescientia esse non potest. Cum ergo
+          <lb ed="#P" n="5"/>alio in loco praedestinationem dicit esse 
+          prae<lb break="no" ed="#P" n="6"/>scientiam et praeparationem, praescientiam 
+          po<lb break="no" ed="#P" n="7"/>nit, ut conditionem praeviam et necessariam ad
+          <lb ed="#P" n="8"/>praedestinationem. Unde in eodem lib. de Bono
+          <lb ed="#P" n="9"/>persever. , cap. 17: Sua (inquit) dona 
+          quibus<lb break="no" ed="#P" n="10"/>cuungue Deus donat, procul daturum se esse 
+          pree<lb break="no" ed="#P" n="11"/>scivit et in sua praescientia preeparavit. 
+          Praesci<lb break="no" ed="#P" n="12"/>vit autem se daturum, postquam praeparavit
+          <lb ed="#P" n="13"/>seu dare proposuit, praeparavit autem in priori
+          <lb ed="#P" n="14"/>praescientia, non quidem consequente, sed 
+          pla<lb break="no" ed="#P" n="15"/>ne antecedente ad praeparationem. Unde 
+          sub<lb break="no" ed="#P" n="16"/>jungit: In sua, quee falli mutarique non potest
+          <lb ed="#P" n="17"/>praescientia opera sua futura disponere, id 
+          om<lb break="no" ed="#P" n="18"/>nino nec aliud quidquam est nisi preedestinare.
+          <lb ed="#P" n="19"/>Dispositio ergo in praescientia est praedestinatio
+          <lb ed="#P" n="20"/>et praescientia aliqua ad talem dispositionem,
+          <lb ed="#P" n="21"/>atque adeo ad praedestinationem supponitur.
+        </p>
+        <p xml:id="szduep-063364-d1e305">
+          <lb ed="#P" n="22"/>4. Ratio assertionis. — Eadem ratio magis
+          <lb ed="#P" n="23"/>declaratur. — Matio vero assertionis breviter
+          <lb ed="#P" n="24"/>nunc assignanda est: quia praedestinatio, ut
+          <lb ed="#P" n="25"/>vidimus, consistit in aliquo actu voluntario et
+          <lb ed="#P" n="26"/>libero Dei, sed ante omnem actum liberum et
+          <lb ed="#P" n="27"/>voluntarium, necesse est ut aliqua cognitio 
+          an<lb break="no" ed="#P" n="28"/>tecedat, ergo ante praedestinationem praecedit
+          <lb ed="#P" n="29"/>necessario in Deo aliqua cognitio seu scientia.
+          <lb ed="#P" n="30"/>Minor patet, tum ex definitione voluntari:
+          <lb ed="#P" n="31"/>debet enim esse a principio intrinseco cum
+          <lb ed="#P" n="32"/>cognitione: tum ex ratione libertatis quae 
+          pro<lb break="no" ed="#P" n="33"/>venit ex inditferentia judicii et rationis: tum
+          <lb ed="#P" n="34"/>denique ex generali dogmate, quod nihil est
+          <lb ed="#P" n="35"/>volitum quin praecognitum : nec etiam potest
+          <lb ed="#P" n="36"/>esse liberum, nisi quod est volitum, nam 
+          liber<lb break="no" ed="#P" n="37"/>tas formalis in voluntate sola existit. Quae 
+          om<lb break="no" ed="#P" n="38"/>nia etiam in ipso Deo, seclusis 
+          imperfectioni<lb break="no" ed="#P" n="39"/>bus, locum habent, id est, sine distinctione in
+          <lb ed="#P" n="40"/>re, cum virtuali continentia et eminentia, et
+          <lb ed="#P" n="41"/>consequenter cum praesuppositione secundum
+          <lb ed="#P" n="42"/>rationis ordinem in re fundatum. Declaratur
+          <lb ed="#P" n="43"/>tandem quia in universum, omnis 
+          intellectua<lb break="no" ed="#P" n="44"/>lis natura prius versatur per intellectum circa
+          <lb ed="#P" n="45"/>quamcumque rem seu materiam, quam per
+          <lb ed="#P" n="46"/>voluntatem : et Deus ipse prius se intelligit
+          <lb ed="#P" n="47"/>quam amet, et ideo generatio filii prior est
+          <lb ed="#P" n="48"/>quam productio Spiritus sancti. Ita ergo circa
+          <lb ed="#P" n="49"/>praedestinationis materiam praeit intellectus, ac
+          <lb ed="#P" n="50"/>proinde necesse est ut scientia aliqua ejusdem
+          <lb ed="#P" n="51"/>materiae praedestinationem ejus praecedat.
+        </p>
+        <p xml:id="szduep-063364-d1e373">
+          <lb ed="#P" n="52"/>5. Secunda assertio.— Differentia inter 
+          sim<lb break="no" ed="#P" n="53"/>plicem. intelligentium et visionem. — Secundo
+          <lb ed="#P" n="54"/>dicen dum est, ad praedestinationem necessario
+          <lb ed="#P" n="55"/>supponi scientiam simplicis intelligentiae. Sup-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pono vulgarem divisionem scientiae divinae in 
+          <lb ed="#P" n="57"/>simplicem intelligentiam et visionem. Quae 
+          <lb ed="#P" n="58"/>quantum ad praesens attinet, in duobus 
+          diffe<lb break="no" ed="#P" n="59"/>runt. Primo, quia per simphicem intelligentiam
+          <lb ed="#P" n="60"/>cognoscuntur res possibiles, etiamsi nunquam
+          <lb ed="#P" n="61"/>futurae sint, seu (quod idem est) abstrahendoa
+          <lb ed="#P" n="62"/>futuritione absoluta in aliqua differentia 
+          tem<lb break="no" ed="#P" n="63"/>poris. Visionis autem scientia terminatur ad 
+          <lb ed="#P" n="64"/>res aliquando futuras, easque ut futuras 
+          reprae<lb break="no" ed="#P" n="65"/>sentat vel intuetur. ;
+        </p>
+        <p xml:id="szduep-063364-d1e408">
+          <lb ed="#P" n="66"/>Altera differentia.—hRuatio assertionis.—
+          Se<lb break="no" ed="#P" n="67"/>cunda differentia communis theologorum est,
+          <lb ed="#P" n="68"/>quia scientia simplicis intelligentiae antecedit
+          <lb ed="#P" n="69"/>omne decretum Dei liberum, estque ita 
+          natu<lb break="no" ed="#P" n="70"/>ralis, quod necessario conveniret Deo, etiamsi
+          <lb ed="#P" n="71"/>Deus nihil libere vellet. Scientia autem visionis 
+          <lb ed="#P" n="72"/>supponit voluntatem Dei libere volentem 
+          ali<lb break="no" ed="#P" n="73"/>quid: quia sine voluntate Dei libera, nihil potest
+          <lb ed="#P" n="74"/>esse futurum. Ex his ergo evidens est assertio,
+          <lb ed="#P" n="75"/>quia praedestinatio consistit in aliquo actu 
+          libe<lb break="no" ed="#P" n="76"/>ro, ut ostensum est: scientia vero simplieis 
+          in<lb break="no" ed="#P" n="77"/>telligentiae non est libera Deo, sed est inillo ante 
+          <lb ed="#P" n="78"/>omnem actum liberum: ergo est ante 
+          praedes<lb break="no" ed="#P" n="79"/>tinationem. Confirmatur, quia in Deo 
+          natura<lb break="no" ed="#P" n="80"/>lia sunt priora liberis, saltem subsistendi 
+          con<lb break="no" ed="#P" n="81"/>sequentia, quia esse possunt sine illis: quia
+          <lb ed="#P" n="82"/>Deus sine naturalibus proprietatibus esse non
+          <lb ed="#P" n="83"/>potest ; sine liberis autem actibus, ut tales sunt,
+          <lb ed="#P" n="84"/>esse potest. Confirmatur secundo, quia ante
+          <lb ed="#P" n="85"/>liberum actum supponitur cognitio: ergo illa
+          <lb ed="#P" n="86"/>non potest esse libera, sed naturalis: sed talis
+          <lb ed="#P" n="87"/>cognitio in Deo non est, nisi simplex 
+          intelli<lb break="no" ed="#P" n="88"/>gentia: ergo haec est quae ad praedestinationem
+          <lb ed="#P" n="89"/>necessario supponitur.
+        </p>
+        <p xml:id="szduep-063364-d1e463">
+          <lb ed="#P" n="90"/>6. Tertia assertio. — Duplea modus divinee 
+          <lb ed="#P" n="91"/>cognitionis intuitiva. — Tertio dicendum est,
+          <lb ed="#P" n="92"/>nullam scientiam quae sit de rebus in aliqua
+          <lb ed="#P" n="93"/>differentia temporis absolute futuris in persona
+          <lb ed="#P" n="94"/>praedestinanda, necessario praesupponi ad 
+          to<lb break="no" ed="#P" n="95"/>tam illius praedestinationem. Hanc assertionem 
+          <lb ed="#P" n="96"/>non omnes admittunt: est autem communior 
+          <lb ed="#P" n="97"/>sententia D. Thomae, Alensis et aliorum quos 
+          <lb ed="#P" n="98"/>statim commemorabo, et latius infra tractando 
+          <lb ed="#P" n="99"/>de causa praedestinationis. Ut autem illam 
+          pro<lb break="no" ed="#P" n="100"/>bemus, suppono, duobus modis posse Deum
+          <lb ed="#P" n="101"/>praecognoscere absolute aliquid esse futurum
+          <lb ed="#P" n="102"/>in tali tempore, scilicet, vel in praesentia 
+          objec<lb break="no" ed="#P" n="103"/>tiva aeternitatis, in qua DEUS intuetur omnes
+          <lb ed="#P" n="104"/>rerum causas, omnesque determinationes 
+          ea<lb break="no" ed="#P" n="105"/>rum cum omnibus circumstantiis suis, vel in
+          <lb ed="#P" n="106"/>decreto suae voluntatis, quo vult illud fieri,
+          <lb ed="#P" n="107"/>nam quod ipse absolute vult, certo futurum
+          <lb ed="#P" n="108"/>est. Qui duo modi sciendi, seu duo media 
+          cog<lb break="no" ed="#P" n="109"/>noscendi maxime locum habent in bonis 
+          effec<lb break="no" ed="#P" n="110"/>tibus qui a Deo praedestinari seu praefiniri pos-
+          <pb ed="#P" n="251"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt voluntate absoluta, de quibus nunc 
+          agi<lb break="no" ed="#P" n="2"/>mus. Ita vero comparantur ad decretum divinae
+          <lb ed="#P" n="3"/>voluntatis, ut illud necessario supponant, quia
+          <lb ed="#P" n="4"/>scientia illa, quae est in decreto, necessario
+          <lb ed="#P" n="5"/>supponit decretum, ut per se constat, quia 
+          de<lb break="no" ed="#P" n="6"/>cretum est fundamentum et ratio talis scientiae.
+          <lb ed="#P" n="7"/>Scientia vero intuitiva ipsius rei in se, multo
+          <lb ed="#P" n="8"/>magis supponit decretum, quia supponit 
+          deter<lb break="no" ed="#P" n="9"/>minationem omnium causarum a quibus res
+          <lb ed="#P" n="10"/>lilla habet, quod sit futura, inter quas prima
+          <lb ed="#P" n="11"/>est divina voluntas et decretum ejus. Unde
+          <lb ed="#P" n="12"/>etiam inter illos duos modos cognoscendi talia
+          <lb ed="#P" n="13"/>futura, praecedit secundum rationem ille qui
+          <lb ed="#P" n="14"/>est in decreto, quia decretum supponitur ad
+          <lb ed="#P" n="15"/>determinationem omnium aliarum causarum,
+          <lb ed="#P" n="16"/>per quas res futura est, et preesentialiter 
+          cog<lb break="no" ed="#P" n="17"/>nosci potest.
+        </p>
+        <p xml:id="szduep-063364-d1e552">
+          <lb ed="#P" n="18"/>7. Probatur conclusio. — Ex his ergo 
+          conclu<lb break="no" ed="#P" n="19"/>ditur rem illam, quae per decretum 
+          praedesti<lb break="no" ed="#P" n="20"/>nationis ordinatur ut sit, non posse praesciri ut
+          <lb ed="#P" n="21"/>futuram ante tale decretum, ac proinde 
+          res<lb break="no" ed="#P" n="22"/>pectu illius rei manifestam esse assertionem
+          <lb ed="#P" n="23"/>propositam, videlicet, scientiam talis rei ut 
+          fu<lb break="no" ed="#P" n="24"/>turae, non necessario supponi ad 
+          praedestina<lb break="no" ed="#P" n="25"/>tonem ejus, imo nec posse esse ante illam,
+          <lb ed="#P" n="26"/>quia talis res a praedestinatione habet, quod sit
+          <lb ed="#P" n="27"/>absolute futura, nam ex vi decreti 
+          praedestina<lb break="no" ed="#P" n="28"/>tionis. quodcumque illud tandem sit, 
+          applican<lb break="no" ed="#P" n="29"/>tur auxilia et media necessaria, ut talis effectus
+          <lb ed="#P" n="30"/>futurus sit: ergo decretum supponitur ad 
+          fu<lb break="no" ed="#P" n="31"/>turitionem tanquam causa ad effectum: ergo
+          <lb ed="#P" n="32"/>etiam supponitur ad praescientiam futuritionis,
+          <lb ed="#P" n="33"/>quia prius secundum rationem est res futura
+          <lb ed="#P" n="34"/>absolute, quam praesciatur absolute futura, tum
+          <lb ed="#P" n="35"/>quia objectum determinativum scientiae ad 
+          il<lb break="no" ed="#P" n="36"/>lam supponitur, tum etiam quia res non est
+          <lb ed="#P" n="37"/>futura, quia praescitur, sed potius e converso,
+          <lb ed="#P" n="38"/>ideo praescitur, quia futura est. Quoniam haec
+          <lb ed="#P" n="39"/>praescientia, de qua loquimur, non est causa
+          <lb ed="#P" n="40"/>fnturitionis rei, nec est scientia practica, sed
+          <lb ed="#P" n="41"/>speculativa vel intuitiva, quae supponit 
+          objec<lb break="no" ed="#P" n="42"/>tum suum ; ergo talis praescientia non solum
+          <lb ed="#P" n="43"/>non est prior decreto praedestinationis, sed etiam
+          <lb ed="#P" n="44"/>cest posterior. Nec enim omnino simul aut 
+          con<lb break="no" ed="#P" n="45"/>vcomitanter tantum se habent, cum unum sit
+          <lb ed="#P" n="46"/>ratio et fundamentum alterius, ut explicatum
+        </p>
+        <p xml:id="szduep-063364-d1e618">
+          <lb ed="#P" n="47"/>8. Loquor autem semper de decreto 
+          praedes<lb break="no" ed="#P" n="48"/>i tinationis, ut ab opinionibus abstraham. 
+          Ete<lb break="no" ed="#P" n="49"/>nim qui dixerit praedestinationem esse 
+          forma<lb break="no" ed="#P" n="50"/>hHter in ipsa praescientia seu esse ipsam 
+          prae<lb break="no" ed="#P" n="51"/>scientiam, non admittet praescientiam 
+          futuro<lb break="no" ed="#P" n="52"/>trum esse posteriorem praedestinatione, sed 
+          di<lb break="no" ed="#P" n="53"/>vcet, potius ipsammet praedestinationem esse
+          <lb ed="#P" n="54"/>praescientiam futurorum formaliter et omnino
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>simul. Nihilominus tamen negare non poterit,
+          <lb ed="#P" n="56"/>quin talis praescientia sit posterior decreto illo,
+          <lb ed="#P" n="57"/>quod ad talem praedestinationem necessarium
+          <lb ed="#P" n="58"/>est. Primo quidem, quia, ut ostendi, talis 
+          prae<lb break="no" ed="#P" n="59"/>scientia non est rei futurae, ut sic, ante tale
+          <lb ed="#P" n="60"/>decretum, sed post illud. Secundo, quia talis
+          <lb ed="#P" n="61"/>scientia non potest habere rationem 
+          praedesti<lb break="no" ed="#P" n="62"/>nationis, nisi ut est aliquo modo libera ipsi
+          <lb ed="#P" n="63"/>Deo, juxta principia superius posita: non est
+          <lb ed="#P" n="64"/>autem libera, nisi quatenus supponit decretum
+          <lb ed="#P" n="65"/>liberum voluntatis. Unde qui dicunt 
+          praedesti<lb break="no" ed="#P" n="66"/>nationem esse praescientiam, dicunt esse 
+          scien<lb break="no" ed="#P" n="67"/>tiam approbationis quae libera est. Scientia
+          <lb ed="#P" n="68"/>autem approbationis supponit voluntatem 
+          ap<lb break="no" ed="#P" n="69"/>probantem effectum praescitum, et hac ratione
+          <lb ed="#P" n="70"/>per illam scientiam cognoscit Deus, effectum
+          <lb ed="#P" n="71"/>sibi placitum et approbatum per absolutum
+          <lb ed="#P" n="72"/>decretum suae voluntatis, infallibiliter esse 
+          fu<lb break="no" ed="#P" n="73"/>turum. Ex hoc autem, quod talis praescientia
+          <lb ed="#P" n="74"/>absoluta effectus futuri per praedestinationem
+          <lb ed="#P" n="75"/>non est prior, sed posterior decreto 
+          praedesti<lb break="no" ed="#P" n="76"/>nationis, optime sequitur, et non esse priorem
+          <lb ed="#P" n="77"/>praedestinatione, et esse vel posteriorem illa, si
+          <lb ed="#P" n="78"/>praedestinatio in voluntate esse intelligatur, vel
+          <lb ed="#P" n="79"/>saltem esse posteriorem initio (ut ita dicam)
+          <lb ed="#P" n="80"/>praedestinationis, nam hoc initium a voluntate
+          <lb ed="#P" n="81"/>sumi indubitatum est, ut postea videbimus.
+        </p>
+        <p xml:id="szduep-063364-d1e699">
+          <lb ed="#P" n="82"/>9. Dubitatio an predestinatio supponat 
+          ne<lb break="no" ed="#P" n="83"/>cessario scientiam alterius. — Satisfit. — At
+          <lb ed="#P" n="84"/>enim, licet haec vera sint respectu ejusdem 
+          ef<lb break="no" ed="#P" n="85"/>fectus praedestinati, dubitari adhuc potest, an
+          <lb ed="#P" n="86"/>praedestinatio unius rei, vel effectus supponat
+          <lb ed="#P" n="87"/>necessario absolutam praescientiam alterius rei,
+          <lb ed="#P" n="88"/>vel effectus futuri. Idem affirmare videtur D.
+          <lb ed="#P" n="89"/>Thomas, 3. part., quaest. 1, art. 3, ad 4, ubi
+          <lb ed="#P" n="90"/>ait: Quod preedestinatio supponit praescientiam
+          <lb ed="#P" n="91"/>futurorum : hoc autem non potest intelligi 
+          res<lb break="no" ed="#P" n="92"/>pectu ejusdem effectus praedestinationis, ut 
+          pro<lb break="no" ed="#P" n="93"/>batum est; ergo saltem debet intelligi de 
+          prae<lb break="no" ed="#P" n="94"/>scientia unius rei respectu praedestinationis
+          <lb ed="#P" n="95"/>alterius. Nam quod loquatur de praescientia
+          <lb ed="#P" n="96"/>absoluta rei futurae, videtur manifestum, quia
+          <lb ed="#P" n="97"/>ex illo principio declarat, Christum fuisse 
+          prae<lb break="no" ed="#P" n="98"/>destinatum, praeviso Adae peccato, ut futuro.
+          <lb ed="#P" n="99"/>Et hoc nullum videtur inconveniens, imo 
+          ne<lb break="no" ed="#P" n="100"/>cessarium moraliter, quia saepe ex praescientia
+          <lb ed="#P" n="101"/>unius effectus moveri potest, et movetur Deus
+          <lb ed="#P" n="102"/>ad praedestinandum alium ; ut quia praescit 
+          Pe<lb break="no" ed="#P" n="103"/>trum peccaturum, praedestinat ut poenitentiam
+          <lb ed="#P" n="104"/>agat antequam moriatur.
+        </p>
+        <p xml:id="szduep-063364-d1e751">
+          <lb ed="#P" n="105"/>10. Satisfit. — Datur causa 
+          praedestinatio<lb break="no" ed="#P" n="106"/>nis ex parte Christi, non autem ex parte 
+          pre<lb break="no" ed="#P" n="107"/>destinati. —Respondeo, quaestionem hanc posse
+          <lb ed="#P" n="108"/>tractari , aut de tota praedestinatione, aut de
+          <lb ed="#P" n="109"/>uno vel alio effectu ejus. De tota praedestina-
+          <pb ed="#P" n="252"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tione pendet haec quaestio ex alia, an totius
+          <lb ed="#P" n="2"/>praedestinationis detur aliqua causa, vel ratio
+          <lb ed="#P" n="3"/>ex parte effectuum futurorum. Nam si talis
+          <lb ed="#P" n="4"/>causa datur, profecto necesse est, ut 
+          praescien<lb break="no" ed="#P" n="5"/>tia illius supponatur ad totam 
+          praedestinatio<lb break="no" ed="#P" n="6"/>nem, quia necesse est ut supponatur ad 
+          pri<lb break="no" ed="#P" n="7"/>mum decretum praedestinationis. Nam illa res
+          <lb ed="#P" n="8"/>futura, quae dicitur esse ratio 
+          praedestinatio<lb break="no" ed="#P" n="9"/>nis, non potest esse ratio illius, nisi ut 
+          praesci<lb break="no" ed="#P" n="10"/>ta, quia non potest aliter movere voluntatem,
+          <lb ed="#P" n="11"/>debet ergo illius praescientia supponi. Si 
+          au<lb break="no" ed="#P" n="12"/>tem non datur talis ratio totius 
+          praedestinatio<lb break="no" ed="#P" n="13"/>nis, nec praescientia aliqua futuri effectus, ad
+          <lb ed="#P" n="14"/>totam praedestinationem necessariosupponitur.
+          <lb ed="#P" n="15"/>Quia haec praesuppositio et ordo rationis debet
+          <lb ed="#P" n="16"/>fundari in aliqua habitudine, quam per se 
+          ha<lb break="no" ed="#P" n="17"/>beat una res comparatione alterius : si enim
+          <lb ed="#P" n="18"/>impertinenter se habeant inter se, impertinens
+          <lb ed="#P" n="19"/>etiam erit talis praescientia ad talem 
+          praedesti<lb break="no" ed="#P" n="20"/>nationem. Habitudo autem per se non potest
+          <lb ed="#P" n="21"/>esse , nisi causalitatis (sub causalitate enim
+          <lb ed="#P" n="22"/>comprehendimus quamcumque occasionem ,
+          <lb ed="#P" n="23"/>vel motivum, quod una res praebeat ad 
+          vo<lb break="no" ed="#P" n="24"/>lendam, vel praedestinandam aliam). Igitur 
+          re<lb break="no" ed="#P" n="25"/>solutio hujus dubii de hoc ordine pendet ex
+          <lb ed="#P" n="26"/>alia de causa praedestinationis , quod infra
+          <lb ed="#P" n="27"/>tractabitur. Nunc autem breviter supponimus,
+          <lb ed="#P" n="28"/>ex parte Christi et meritorum ejus, posse dari
+          <lb ed="#P" n="29"/>causam praedestinationis nostrae : non vero ex
+          <lb ed="#P" n="30"/>parte ipsius hominis praedestinati, nec ullius
+          <lb ed="#P" n="31"/>creaturae respectu alterius. Ac proinde 
+          prae<lb break="no" ed="#P" n="32"/>destinatio nostra supponit quidem 
+          praescien<lb break="no" ed="#P" n="33"/>tiam absolutam futurorum ad Christum 
+          Domi<lb break="no" ed="#P" n="34"/>num pertinentium, non vero illorum, quae ad
+          <lb ed="#P" n="35"/>ipsummet praedestinatum, vel ad alios 
+          homi<lb break="no" ed="#P" n="36"/>nes, aut Angelos pertinent.
+        </p>
+        <p xml:id="szduep-063364-d1e847">
+          <lb ed="#P" n="37"/>11. Quaesitum. —Potest autem specialiter 
+          in<lb break="no" ed="#P" n="38"/>terrogari, an praedestinatio tota alicujus 
+          ho<lb break="no" ed="#P" n="39"/>minis supponat saltem praescientiam , quod
+          <lb ed="#P" n="40"/>talis homo futurus sit in rerum natura. Aliqui
+          <lb ed="#P" n="41"/>enim putant, id esse necessarium, quia gratia
+          <lb ed="#P" n="42"/>supponit naturam , praedestinatio autem est
+          <lb ed="#P" n="43"/>ad gratiam, sub gratia gloriam includendo,
+          <lb ed="#P" n="44"/>ergo supponit esse naturae, juxta doctrinam
+          <lb ed="#P" n="45"/>Cajetani, 3 part., q. 1, art. 3. Item quia 
+          pro<lb break="no" ed="#P" n="46"/>videntia supponit existentiam earum rerum,
+          <lb ed="#P" n="47"/>quibus aliquid providetur saltem ut 
+          praesen<lb break="no" ed="#P" n="48"/>tem in aeternitate , quia nemo providet, nisi
+          <lb ed="#P" n="49"/>rebus futuris : at praedestinatio est 
+          providen<lb break="no" ed="#P" n="50"/>tia quaedam: ergo necessario supponit 
+          prae<lb break="no" ed="#P" n="51"/>scientiam futuritionis, saltem ipsius subjecti
+          <lb ed="#P" n="52"/>praedestinandi.
+        </p>
+        <p xml:id="szduep-063364-d1e884">
+          <lb ed="#P" n="53"/>12. Resolutio. — Dicendum vero est, etiam
+          <lb ed="#P" n="54"/>ex hoc capite, non necessario supponi 
+          prae<lb break="no" ed="#P" n="55"/>scientiam rei alicujus futurae in ipso praedes-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tinato ad totam praedestinationem. Ita sentit
+          <lb ed="#P" n="57"/>D. Thomas, dicta quaest. 23, art. 2, ad 2. EtO
+          <lb ed="#P" n="58"/>hac ratione dicit cum Origene, quem refert;
+          <lb ed="#P" n="59"/>Praedestinationem esse posse ejus, quod non est.
+          <lb ed="#P" n="60"/>Hoc autem potest dupliciter intelligi: primo
+          <lb ed="#P" n="61"/>quod praedestinatio sit rei nondum existentis 1
+          <lb ed="#P" n="62"/>in se et in propria natura: et hoc modo 
+          expo<lb break="no" ed="#P" n="63"/>nit illud Alensis, 1 part., quaest. 28, Memb. 2,
+          <lb ed="#P" n="64"/>art. 1, et est per se evidens, quia 
+          praedestina<lb break="no" ed="#P" n="65"/>tio est aeterna et existentia rei praedestinatae 1
+          <lb ed="#P" n="66"/>est temporalis. Secundo potest id intelligi de $
+          <lb ed="#P" n="67"/>esse rei in praescientia Dei: et hoc modo ait
+          <lb ed="#P" n="68"/>supra Alensis, praedestinationem esse rei 
+          exis<lb break="no" ed="#P" n="69"/>tentis in praescientia. Sub distinctione vero
+          <lb ed="#P" n="70"/>opus est, quia ipsum esse rei in praescientia
+          <lb ed="#P" n="71"/>sumitur, vel ut antecedens decretum 
+          praedes<lb break="no" ed="#P" n="72"/>tinationis, vel ut consequens. Hoc posteriori
+          <lb ed="#P" n="73"/>modo, verum est, praedestinationem semper 
+          <lb ed="#P" n="74"/>esse alicujus entis in praescientia: quia posita
+          <lb ed="#P" n="75"/>praedestinatione ex vi illius res praescitur 
+          futu<lb break="no" ed="#P" n="76"/>ra. Priori autem modo praedestinatio etiam est
+          <lb ed="#P" n="77"/>non entis simpliciter, seu, nondum futuri pro
+          <lb ed="#P" n="78"/>illo signo in praescientia; sed tantum entis
+          <lb ed="#P" n="79"/>possibilis, quod per ipsam praedestinationem
+          <lb ed="#P" n="80"/>ordinatur , ut sit : nam per eamdem 
+          volunta<lb break="no" ed="#P" n="81"/>tem praedestinatus ordinatur ut sit, et ut sit
+          <lb ed="#P" n="82"/>propter talem finem. Ideoque non est in hoc
+          <lb ed="#P" n="83"/>eadem omnino ratio de providentia et de 
+          prae<lb break="no" ed="#P" n="84"/>destinatione, ut infra capite penultimo hujus
+          <lb ed="#P" n="85"/>libri melius declarabimus. Nec illa doctrina
+          <lb ed="#P" n="86"/>Cajetani necessaria est, ut in eodem loco, 
+          ter<lb break="no" ed="#P" n="87"/>tia parte, latius adnotavi: quia licet gratia
+          <lb ed="#P" n="88"/>supponat naturam, in genere subjecti, seu
+          <lb ed="#P" n="89"/>causae materialis et in ordine executionis:
+          <lb ed="#P" n="90"/>ordine tamen intentionis et praedestinationis
+          <lb ed="#P" n="91"/>non est necessarium supponi, sed satis est, si
+          <lb ed="#P" n="92"/>per modum unius, seu per quamdam 
+          habitu<lb break="no" ed="#P" n="93"/>dinem cum illa conjungatur, ut in dicto capite
+          <lb ed="#P" n="94"/>penultimo latius explicabitur. 1
+        </p>
+        <p xml:id="szduep-063364-d1e980">
+          <lb ed="#P" n="95"/>13. At vero, si non de tota 
+          praedestinatio<lb break="no" ed="#P" n="96"/>ne, sed de uno, vel altero effectu ejus quaestio
+          <lb ed="#P" n="97"/>tractetur, sic non est inconveniens, quod 
+          prae<lb break="no" ed="#P" n="98"/>destinatio hominis ad unum effectum, sed 
+          be<lb break="no" ed="#P" n="99"/>neficium praedestinationis, supponit 
+          praescien<lb break="no" ed="#P" n="100"/>tiam absolutam alterius effectus. Hoc probat
+          <lb ed="#P" n="101"/>ratio dubitandi superius posita. Et fortasse in
+          <lb ed="#P" n="102"/>eodem sensu locutus est D. Thomas, in citato
+          <lb ed="#P" n="103"/>loco tertiae partis, quamvis possit de scientia
+          <lb ed="#P" n="104"/>conditionata intelligi, de qua dicemus in 
+          ca<lb break="no" ed="#P" n="105"/>pite sequenti. Quomodo autem haec scientia
+          <lb ed="#P" n="106"/>praedictum ordinem servet cum decreto 
+          prae<lb break="no" ed="#P" n="107"/>destinationis et quasi cum illo misceatur (ut
+          <lb ed="#P" n="108"/>sic dicam), intelligetur melius, explicato toto
+          <lb ed="#P" n="109"/>ipso praedestinationis decreto. Nunc duo solum
+          <lb ed="#P" n="110"/>consideranda sunt. Unum est, totum hunc or-
+          <pb ed="#P" n="253"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dinem spectandum esse, vel inter finem totius
+          <lb ed="#P" n="2"/>praedestinationis, qui est glorificatio est media
+          <lb ed="#P" n="3"/>ad illum: vel inter media ipsa inter se, 
+          quate<lb break="no" ed="#P" n="4"/>nus unum est propinquius fini , quam aliud,
+          <lb ed="#P" n="5"/>ut justificatio, quam vocatio, et consequenter
+          <lb ed="#P" n="6"/>unum comparatur ad aliud, sicut finis ad 
+          me<lb break="no" ed="#P" n="7"/>dium sibi propinquum, vel e converso. 
+          Seclu<lb break="no" ed="#P" n="8"/>sa enim hac habitudine, ad quam omnis alia
+          <lb ed="#P" n="9"/>reduci potest, nulla manet ratio ordinis per se
+          <lb ed="#P" n="10"/>inter praedestinationis effectus, seu terminos:
+          <lb ed="#P" n="11"/>et ita nulla erit etiam ratio, ob quam 
+          prae<lb break="no" ed="#P" n="12"/>scientia unius supponatur praedestinationi 
+          al<lb break="no" ed="#P" n="13"/>terius, vel e converso.
+        </p>
+        <p xml:id="szduep-063364-d1e1051">
+          <lb ed="#P" n="14"/>14. Duplex praescientia futurorum. — Uhra
+          <lb ed="#P" n="15"/>oc vero, prae oculis habendus est duplex ille
+          <lb ed="#P" n="16"/>modus praesciendi futura, vel in decreto 
+          prae<lb break="no" ed="#P" n="17"/>destinativo, vel in ipsis, secundum praesentiam
+          <lb ed="#P" n="18"/>objectivam aeternitatis. Nam praescientia, quae
+          <lb ed="#P" n="19"/>est in decreto, habet ordinem cum ipsis 
+          decre<lb break="no" ed="#P" n="20"/>tis, juxta ordinem, quem decreta ipsa ratione
+          <lb ed="#P" n="21"/>distincta inter se habent. Ut, verbi gratia, in
+          <lb ed="#P" n="22"/>praedestinatione involvitur decretum dandi 
+          glo<lb break="no" ed="#P" n="23"/>riam et dandi gratiam, quae sunt etiam ratione
+          <lb ed="#P" n="24"/>distincta. Si ergo inter haec decreta servatur
+          <lb ed="#P" n="25"/>ordo intentionis, ita ut decretum dandi 
+          glo<lb break="no" ed="#P" n="26"/>riam sit prius, quam decretum dandi gratiam,
+          <lb ed="#P" n="27"/>etiam praescientia futurae gloriae ex vi decreti,
+          <lb ed="#P" n="28"/>praecedit secundum rationem ad decretum 
+          dan<lb break="no" ed="#P" n="29"/>di gratiam. Si vero inter haec decreta non est
+          <lb ed="#P" n="30"/>ordo intentionis, sed tantum executionis, ita
+          <lb ed="#P" n="31"/>ut decretum gratiae prius sit, quam 
+          decre<lb break="no" ed="#P" n="32"/>tum gloriae, praecedit utique praescientia 
+          futu<lb break="no" ed="#P" n="33"/>rae gratiae, ante decretum et praescientiam 
+          glo<lb break="no" ed="#P" n="34"/>riae. Et ratio est, quia, posito decreto libero,
+          <lb ed="#P" n="35"/>absoluto et efficaci alicujus effectus, 
+          quicum<lb break="no" ed="#P" n="36"/>que ille sit , statim ex vi talis decreti est 
+          futu<lb break="no" ed="#P" n="37"/>rus infallibiliter ille effectus : hoc enim 
+          perti<lb break="no" ed="#P" n="38"/>net ad efficaciam divinae voluntatis. Statim
+          <lb ed="#P" n="39"/>vero, ac ille effectus est futurus ex vi sui 
+          de<lb break="no" ed="#P" n="40"/>creti, praescit Deus futuritionem ejus prius 
+          ra<lb break="no" ed="#P" n="41"/>tione, quam aliud liberum decretum habere
+          <lb ed="#P" n="42"/>intelligatur : tum, quia jam illa scientia est
+          <lb ed="#P" n="43"/>mere naturalis, ac necessaria, supposito tali
+          <lb ed="#P" n="44"/>decreto et naturalia sunt priora liberis: tum
+          <lb ed="#P" n="45"/>etiam, quia subsequens decretum pendet (ut
+          <lb ed="#P" n="46"/>more nostro loquamur), ex priori et ex illa
+          <lb ed="#P" n="47"/>praescientia. Ut, verbi gratia, si decretum 
+          glo<lb break="no" ed="#P" n="48"/>riae praecedit tanquam intentio finis, oportet
+          <lb ed="#P" n="49"/>ut illamet intentio et efficacia ejus praesciatur,
+          <lb ed="#P" n="50"/>ut indicat ad electionem mediorum. Nam qui
+          <lb ed="#P" n="51"/>intendit finem, non intelligitur eligere 
+          me<lb break="no" ed="#P" n="52"/>dium, donec intelligatur scire se intendisse 
+          fi<lb break="no" ed="#P" n="53"/>nem, et ideo debere media intelligere et 
+          appli<lb break="no" ed="#P" n="54"/>care accommodata intentioni, ut visillius 
+          inten<lb break="no" ed="#P" n="55"/>tonis ad etfectum perducatur voluntarie. Quo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modo enim posset quis voluntarie applicari ad
+          <lb ed="#P" n="57"/>electionem ex vi intentionis, nisi praenosceret
+          <lb ed="#P" n="58"/>illam, illa autem praescita Deo, in illa 
+          praesci<lb break="no" ed="#P" n="59"/>tur futuritio effectus intenti. Hac ergo ratione,
+          <lb ed="#P" n="60"/>necesse est, ut inter decretum de fine et 
+          de<lb break="no" ed="#P" n="61"/>cretum de medio haec praescientia 
+          interpona<lb break="no" ed="#P" n="62"/>tur. Si vero decretum efficax circa finem non
+          <lb ed="#P" n="63"/>praecedit, tunc contrarius ordo servabitur. Ut,
+          <lb ed="#P" n="64"/>verbi gratia, si Deus prius decrevit Petrum
+          <lb ed="#P" n="65"/>vocare ad fidem vocatione congrua, quam 
+          ha<lb break="no" ed="#P" n="66"/>buerit decretum efficax , per quod intenderit
+          <lb ed="#P" n="67"/>fidem ejus, prius etiam scivit vocationem 
+          ta<lb break="no" ed="#P" n="68"/>lem Petri fuisse futuram ex vi sui decreti, et
+          <lb ed="#P" n="69"/>tunc praescivit ex illa consequi fidem, et sicde
+          <lb ed="#P" n="70"/>caeteris. Haec enim omnia locum habent tam
+          <lb ed="#P" n="71"/>in omnibus mediis respectu finis ultimi, quam
+          <lb ed="#P" n="72"/>inter ipsa media inter se, quatenus unum
+          <lb ed="#P" n="73"/>comparatur ad aliud, tanquam causa ad 
+          effec<lb break="no" ed="#P" n="74"/>tum, vel tanquam proximus finis ad medium.
+        </p>
+        <p xml:id="szduep-063364-d1e1188">
+          <lb ed="#P" n="75"/>15. Quocirca loquendo de alio modo 
+          prae<lb break="no" ed="#P" n="76"/>scientiae, qui est de ipsis effectibus in se: quia
+          <lb ed="#P" n="77"/>haec scientia supponit executionem et 
+          effec<lb break="no" ed="#P" n="78"/>tionem causarum , ut praesentem objective in
+          <lb ed="#P" n="79"/>eeternitate, necesse est, ut praescientia illius
+          <lb ed="#P" n="80"/>medi prioris in executione praecedat ante
+          <lb ed="#P" n="81"/>praescientiam et voluntatem executivam 
+          sub<lb break="no" ed="#P" n="82"/>sequentis medii , secundum eumdem 
+          execu<lb break="no" ed="#P" n="83"/>tionis ordinem, quia nemo applicat secundum
+          <lb ed="#P" n="84"/>medium, donec videat effectum medi prioris.
+          <lb ed="#P" n="85"/>Et eadem ratione prior est praescientia futurae
+          <lb ed="#P" n="86"/>gratiae, quam voluntas, per quam datur 
+          per<lb break="no" ed="#P" n="87"/>severantia in illa, et praescientia futurae 
+          perse<lb break="no" ed="#P" n="88"/>verantiae , quam voluntas dandi gloriam per
+          <lb ed="#P" n="89"/>modum exequentis illam. Quae omnia in 
+          se<lb break="no" ed="#P" n="90"/>quentibus capitulis clariora fient.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

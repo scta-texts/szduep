@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="538"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-136245"><!-- t3-l1c3 -->
+        <head xml:id="szduep-136245-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-136245-Hd1e103" type="question-title">Quomodo ratio personae communis sit tribus divinis personis</head>
+        <p xml:id="szduep-136245-d1e106">
+          <lb ed="#P" n="95"/>CAPUT III.
+          <lb ed="#P" n="96"/>QUOMODO RATIO PERSONAE COMMUNIS SIT TRIBUS 
+          <lb ed="#P" n="97"/>DIVINIS PERSONIS.
+        </p>
+        <p xml:id="szduep-136245-d1e115">
+          <lb ed="#P" n="98"/>1. Varia distinguuntur dubia. — Quamvis
+          <lb ed="#P" n="99"/>dubium hoc metaphysicum potius, quuam 
+          theo<lb break="no" ed="#P" n="100"/>logicum videatur, quia tamen a theologis non
+          <lb ed="#P" n="101"/>praetermittitur, varieque de illo sentiunt, 
+          pro<lb break="no" ed="#P" n="102"/>prieque nascitur ex hoc mysterio, ideo breviter 
+          <lb ed="#P" n="103"/>expediendum est. Sunt qutem multa simul 
+          <lb ed="#P" n="104"/>explicanda. Unum, an nomen personae dicat 
+          <pb ed="#P" n="539"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliquam positivam rationem communem 
+          tri<lb break="no" ed="#P" n="2"/>bus personis divinis. Alterum, si ratio illa 
+          po<lb break="no" ed="#P" n="3"/>sitiva est, an sit realis, vel rationis. Tertium:
+          <lb ed="#P" n="4"/>si realis est, an dicat unum conceptum 
+          objec<lb break="no" ed="#P" n="5"/>tivum praecisum a tribus personis, 
+          commu<lb break="no" ed="#P" n="6"/>nemque illis. Ultimum, an vox, Persona, 
+          uni<lb break="no" ed="#P" n="7"/>voca sit respectu trium personarum vel 
+          ana<lb break="no" ed="#P" n="8"/>loga. Atque haec omnia similiter tractari 
+          pos<lb break="no" ed="#P" n="9"/>sunt de nomine relationis, ut commune est
+          <lb ed="#P" n="10"/>tribus relationibus divinis, et ideo simul 
+          expe<lb break="no" ed="#P" n="11"/>dientur.
+        </p>
+        <p xml:id="szduep-136245-d1e161">
+          <lb ed="#P" n="12"/>2. Opinio Scoti. — Circa haec igitur Scotus
+          <lb ed="#P" n="13"/>in 1, distinctione 23, quaest. 1, S Item arguo,
+          <lb ed="#P" n="14"/>sensit, non posse nomen personae significare
+          <lb ed="#P" n="15"/>rationem aliquam positivam communem 
+          tri<lb break="no" ed="#P" n="16"/>bus personis, sed solum negativam, nam licet
+          <lb ed="#P" n="17"/>interdum sub disjunctione loquatur, scihcet,
+          <lb ed="#P" n="18"/>vel dicere conceptum communem negativum,
+          <lb ed="#P" n="19"/>vel saltem non posse dicere conceptum unius
+          <lb ed="#P" n="20"/>rationis positivum, et quidditativum, semper
+          <lb ed="#P" n="21"/>in priorem partem inclinat. Fundamentum
+          <lb ed="#P" n="22"/>ejus est, quia putat personam sola negatione
+          <lb ed="#P" n="23"/>incommunicabilitatis formaliter constitui. Item
+          <lb ed="#P" n="24"/>quia putat ab ultimis terminis, et constitutivis
+          <lb ed="#P" n="25"/>non posse conceptum communem abstrahi,
+          <lb ed="#P" n="26"/>quia aliter procederetur in infinitum. De hoc
+          <lb ed="#P" n="27"/>posteriori fundamento infra dicemus, de priori
+          <lb ed="#P" n="28"/>nunc agendum est. Quod fundamentum 
+          sequi<lb break="no" ed="#P" n="29"/>tur ibi Gabriel, quaest. unica, dubio 1, et 
+          la<lb break="no" ed="#P" n="30"/>tius 3, distinct. 1, quaest. 1, art. 1, licet de 
+          prae<lb break="no" ed="#P" n="31"/>senti quaestione nihil dicat: Aureolus vero in 1,
+          <lb ed="#P" n="32"/>dist. 93, et latius dist. 25, latissime tractans
+          <lb ed="#P" n="33"/>hanc quaestionem, licet Scotum impugnet,
+          <lb ed="#P" n="34"/>tandem in illius opinionem coincidit. 
+          Conten<lb break="no" ed="#P" n="35"/>dit enim, personam directe significare ens 
+          po<lb break="no" ed="#P" n="36"/>isitivum, ut affectum, et vestitum nonnullis
+          <lb ed="#P" n="37"/>megationibus. Unde concludit, personam ex
+          <lb ed="#P" n="38"/>parte positivi dicere aliquid determinatum,
+          <lb ed="#P" n="39"/>secundum aliquam determinationem, id est,
+          <lb ed="#P" n="40"/>iquasi genericam, vel specificam rationem 
+          en<lb break="no" ed="#P" n="41"/>tis, sed esse tantum transcendentalem 
+          ratio<lb break="no" ed="#P" n="42"/>mnem entis. Ex parte vero negationum dicere
+          <lb ed="#P" n="43"/>certas, ac definitas negationes, scilicet 
+          com<lb break="no" ed="#P" n="44"/>municationis, seu communicabilitatis. Atque
+          <lb ed="#P" n="45"/>ita nomen persona secundum id proprium, et
+          <lb ed="#P" n="46"/>peculiare, quod habet commune tribus 
+          perso<lb break="no" ed="#P" n="47"/>inis, dicere tantum negationes : quoad 
+          positi<lb break="no" ed="#P" n="48"/>vum autem, dicere tantum rationem 
+          indeter<lb break="no" ed="#P" n="49"/>minatam, seu transcendentalem. Fundamenta
+          <lb ed="#P" n="50"/>hujus auctoris, quantum ad praesens punctum
+          <lb ed="#P" n="51"/>spectant, eadem fere, quae Scoti, sunt.
+        </p>
+        <p xml:id="szduep-136245-d1e251">
+          <lb ed="#P" n="52"/>3. Rationem persone positivam esse.—Nos
+          <lb ed="#P" n="53"/>vero imprimis supponimus ex Metaphysica,
+          <lb ed="#P" n="54"/>disputatione 34, sect. 2, suppositum in reipsa
+          <lb ed="#P" n="55"/>non constitui formaliter negationibus, sed po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sitiva entitate, seu modo reali, quem 
+          supposi<lb break="no" ed="#P" n="57"/>tum addit supra naturam, vel ex natura rei
+          <lb ed="#P" n="58"/>distinctum, ut in creaturis, vel ratione, ut in
+          <lb ed="#P" n="59"/>Deo. Unde cum persona nihil aliud sit, quam
+          <lb ed="#P" n="60"/>suppositum intellectualis naturae, necesse est,
+          <lb ed="#P" n="61"/>personam addere naturae intellectuahli, non 
+          tan<lb break="no" ed="#P" n="62"/>tum negationes, sed etiam positivum 
+          termi<lb break="no" ed="#P" n="63"/>num, in quo illae negationes fundentur. 
+          Prae<lb break="no" ed="#P" n="64"/>terea in divinis personis est peculiaris ratio,
+          <lb ed="#P" n="65"/>quia necesse est, ut in aliquo positivo 
+          distin<lb break="no" ed="#P" n="66"/>guantur, alioquin non essent res distinctae.
+          <lb ed="#P" n="67"/>Nam si unaquaeque non habet aliquid proprium
+          <lb ed="#P" n="68"/>positivum, ergo solam essentiam habent, quae
+          <lb ed="#P" n="69"/>sit res positiva : ergo in re ipsa non habent,
+          <lb ed="#P" n="70"/>nisi unam solam entitatem , quia solum id,
+          <lb ed="#P" n="71"/>quod positivum est, entitas realis est. Necesse
+          <lb ed="#P" n="72"/>est ergo, ut unaquaeque habeat aliquid 
+          positi<lb break="no" ed="#P" n="73"/>vum proprium : ergo illud est, quod personam
+          <lb ed="#P" n="74"/>constituit, quodque est fundamentum 
+          incom<lb break="no" ed="#P" n="75"/>municabilitatis, et similium negationum, quia
+          <lb ed="#P" n="76"/>solum illud esse potest incommunicabile in
+          <lb ed="#P" n="77"/>unaquaque persona, nam essentia 
+          communi<lb break="no" ed="#P" n="78"/>cabilis est, et in unaquaque persona solum est
+          <lb ed="#P" n="79"/>essentia, et proprietas. Omitto enim nunc 
+          spi<lb break="no" ed="#P" n="80"/>rationem activam, quae communicabils est.
+        </p>
+        <p xml:id="szduep-136245-d1e319">
+          <lb ed="#P" n="81"/>4. Denique infra ostendemus, proprietatem
+          <lb ed="#P" n="82"/>constituentem divinam personam esse 
+          relatio<lb break="no" ed="#P" n="83"/>nem, relatio autem positivum quid est, igitur
+          <lb ed="#P" n="84"/>praeter negationes communes tribus personis,
+          <lb ed="#P" n="85"/>habent divinae personae convenientiam in 
+          po<lb break="no" ed="#P" n="86"/>sitivis proprietatibus, illamque significat 
+          no<lb break="no" ed="#P" n="87"/>men personc. Nam sicut particularis persona
+          <lb ed="#P" n="88"/>constituitur sua particulari proprietate, ut 
+          ta<lb break="no" ed="#P" n="89"/>lis est, ita persona in communi significat 
+          ah<lb break="no" ed="#P" n="90"/>quid positivum, nimirum, constitutum ex 
+          na<lb break="no" ed="#P" n="91"/>tura, et proprietate personali positiva. Unde
+          <lb ed="#P" n="92"/>nec satisfacit, nec intelligi potest, quod 
+          Au<lb break="no" ed="#P" n="93"/>reolus ait, positivum illud non esse quid 
+          de<lb break="no" ed="#P" n="94"/>terminatum secundum aliquam particularem
+          <lb ed="#P" n="95"/>rationem entis, sed commune quid, et 
+          trans<lb break="no" ed="#P" n="96"/>cendens ad omnia entia positiva. Constat enim
+          <lb ed="#P" n="97"/>hoc esse falsum. Nam loquendo de persona 
+          to<lb break="no" ed="#P" n="98"/>ta illa positivum quid est, quod non est 
+          acci<lb break="no" ed="#P" n="99"/>dens, sed substantia, et non est pars 
+          substan<lb break="no" ed="#P" n="100"/>tiae, sed totalis substantia, et non est tota, ut
+          <lb ed="#P" n="101"/>natura, sed ut substantia integra ultimo 
+          termi<lb break="no" ed="#P" n="102"/>nata. Quod si de ipso termino in abstracto 
+          lo<lb break="no" ed="#P" n="103"/>quamur, constat hanc ipsam rationem termini
+          <lb ed="#P" n="104"/>particularem esse, et positivam. Tandem in
+          <lb ed="#P" n="105"/>conceptu relationis personalis constat, 
+          ratio<lb break="no" ed="#P" n="106"/>nem relationis determinatam esse saltem ad
+          <lb ed="#P" n="107"/>modum rationis genericae.
+        </p>
+        <p xml:id="szduep-136245-d1e380">
+          <lb ed="#P" n="108"/>5. Secunda opinio. — Est ergo secunda 
+          sen<lb break="no" ed="#P" n="109"/>tentia, quae concedit personam dicere 
+          ratio<lb break="no" ed="#P" n="110"/>nem positivam communem tribus personis,
+          <pb ed="#P" n="540"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tamen illam non esse realam, sed rationis ex
+          <lb ed="#P" n="2"/>illo fundamento, quod ab ultimis censtitutis
+          <lb ed="#P" n="3"/>non potest abstrahi conceptus objectivus realis,
+          <lb ed="#P" n="4"/>et communis. Pro hac sententia referri potest
+          <lb ed="#P" n="5"/>Durandus 1, distinct. 23, quaest. 1, et dist. 25,
+          <lb ed="#P" n="6"/>quaest. 1, in eam enim inclinat, licet semper
+          <lb ed="#P" n="7"/>sub disjunctione loquatur. Tribuitur etiam
+          <lb ed="#P" n="8"/>haec sententia Henrico quodlibet 5, quaest. 6,
+          <lb ed="#P" n="9"/>ubi ait, personam significare intentionem. Sed
+          <lb ed="#P" n="10"/>adeo obscure loquitur, ut vix intelligas, an de
+          <lb ed="#P" n="11"/>prima, vel secunda intentione loquatur, 
+          vide<lb break="no" ed="#P" n="12"/>tur autem in hanc partem inclinare. 
+          Funda<lb break="no" ed="#P" n="13"/>mentum hujus sententiae esse potest, quia 
+          per<lb break="no" ed="#P" n="14"/>sona significat aliquem conceptum objectivum
+          <lb ed="#P" n="15"/>communenm, et non privativum, ut contra 
+          prio<lb break="no" ed="#P" n="16"/>rem sententiam probatum est, nec positivum
+          <lb ed="#P" n="17"/>reale, ut fundamentum Sceoti probare videtur,
+          <lb ed="#P" n="18"/>ergo positivum rationis.
+        </p>
+        <p xml:id="szduep-136245-d1e432">
+          <lb ed="#P" n="19"/>6. Rationem personae realem esse.—
+          Verum<lb break="no" ed="#P" n="20"/>tamen neque haec sententia cum probabilitate
+          <lb ed="#P" n="21"/>defendi potest. Quia esse personam in 
+          particu<lb break="no" ed="#P" n="22"/>lari, et prout in unaquaque persona reperitur,
+          <lb ed="#P" n="23"/>non est ens rationis, sed verum et reale, sed
+          <lb ed="#P" n="24"/>nomen personc, licet non significet distincte
+          <lb ed="#P" n="25"/>propriam et particularem rationem 
+          uniuscu<lb break="no" ed="#P" n="26"/>jusque personae, quatenus talis est, significat
+          <lb ed="#P" n="27"/>nihilominus confuse modum illum existendi,
+          <lb ed="#P" n="28"/>quem in re ipsa habet unaquaeque persona,
+          <lb ed="#P" n="29"/>ergo non potest adaequate et primario 
+          signifi<lb break="no" ed="#P" n="30"/>care aliquod ens rationis. Consequentia evidens
+          <lb ed="#P" n="31"/>est. Major et in fide, et in Metaphysica 
+          vide<lb break="no" ed="#P" n="32"/>tur certissima. Nam esse Patrem, Filium et
+          <lb ed="#P" n="33"/>Spiritum sanctum non est aliquid rationis, sed
+          <lb ed="#P" n="34"/>rei, alioqui nullum est Trinitatis mysterium.
+          <lb ed="#P" n="35"/>Item, humana natura non fuit assumpta ad
+          <lb ed="#P" n="36"/>ens rationis, cum fuit unita personae Verbi.
+          <lb ed="#P" n="37"/>Supposita etiam creata. prout in re sunt, per
+          <lb ed="#P" n="38"/>proprium modum realem, et in re ipsa absque
+          <lb ed="#P" n="39"/>negotiatione intellectus constituuntur. Minor
+          <lb ed="#P" n="40"/>denique propositio per se nota videtur, quia
+          <lb ed="#P" n="41"/>licet intellectus noster confuso modo concipiat
+          <lb ed="#P" n="42"/>personam, quando hoc nomen commune 
+          im<lb break="no" ed="#P" n="43"/>ponit, nihilominus non concipit aliquid a se
+          <lb ed="#P" n="44"/>fictum, sed id, quod in re est, nec per illam
+          <lb ed="#P" n="45"/>vocem significat, nisi modum existendi, quem
+          <lb ed="#P" n="46"/>persona habet in re, licet non distincte 
+          con<lb break="no" ed="#P" n="47"/>ceptum, sed confuse tantum. Unde non solum
+          <lb ed="#P" n="48"/>est verum dicere Patrem esse personam, sed
+          <lb ed="#P" n="49"/>esse personam realem, seu vere et realiter, ac
+          <lb ed="#P" n="50"/>in re ipsa, quae omnia vera non essent, si 
+          per<lb break="no" ed="#P" n="51"/>sona formaliter ens rationis significaret. 
+          De<lb break="no" ed="#P" n="52"/>nique relatio divina, ut est communis tribus
+          <lb ed="#P" n="53"/>relationibus personalibus, non dicit de formali
+          <lb ed="#P" n="54"/>aliquod ens rationis, quia licet communitas illa
+          <lb ed="#P" n="55"/>fit per rationem, tamen res concepta realis est:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ergo idem est de persona, quia personahta
+          <lb ed="#P" n="57"/>divina, et relatio divina in re sunt omnin
+          <lb ed="#P" n="58"/>idem, et idem conceptus objectivus eis respon
+          <lb ed="#P" n="59"/>det, licet sub diverso modo concipiendi nos
+          <lb ed="#P" n="60"/>tro, ut infra videbimus.
+        </p>
+        <p xml:id="szduep-136245-d1e528">
+          <lb ed="#P" n="61"/>7. Tertia opinio.—ertia sententia est, no
+          <lb ed="#P" n="62"/>men personae significare quidem rationen
+          <lb ed="#P" n="63"/>realem positivam in singulis personis divinid
+          <lb ed="#P" n="64"/>existentem, non significare autem immediat
+          <lb ed="#P" n="65"/>rationem aliquam communem tribus personi
+          <lb ed="#P" n="66"/>etiam communitate rationis, sed immediat
+          <lb ed="#P" n="67"/>significare tres personas, secundum uniuscu
+          <lb ed="#P" n="68"/>jusque incommunicabilem existentiam. Fun
+          <lb ed="#P" n="69"/>damentum est illud a Scoto tactum, quia ter
+          <lb ed="#P" n="70"/>minus ultimus debet esse omnino simplex, it
+          <lb ed="#P" n="71"/>ut in duobus conceptus resolvi non possit, sec
+          <lb ed="#P" n="72"/>tres personalitates divinae sunt tres ultimi ter
+          <lb ed="#P" n="73"/>mini naturae divinae, ergo non potest ab ei
+          <lb ed="#P" n="74"/>absirahi conceptus realis communis. Majo
+          <lb ed="#P" n="75"/>probatur, quia si terminus est ultimus, ergc
+          <lb ed="#P" n="76"/>est ultimate constituens, ergo non potest ips
+          <lb ed="#P" n="77"/>alio termino constitui, alioqui jam non eri
+          <lb ed="#P" n="78"/>ultimus, ergo non potest resolvi in duos con]
+          <lb ed="#P" n="79"/>ceptus, alioqui unus eorum esset terminabilis
+          <lb ed="#P" n="80"/>alius esset termini constituentis. Secundo 
+          pro<lb break="no" ed="#P" n="81"/>batur, quia alias daretur processus in infini
+          <lb ed="#P" n="82"/>tum, quia si tres personahtates divinae habent
+          <lb ed="#P" n="83"/>in quo conveniant realiter, et in quo differant
+          <lb ed="#P" n="84"/>etiam modus ille, in quo differunt, potest ir
+          <lb ed="#P" n="85"/>communi et in particulari concipi, ac 
+          signifi<lb break="no" ed="#P" n="86"/>cari, ergo resolvi poterit in duos alios 
+          concep<lb break="no" ed="#P" n="87"/>tus, et ita procedetur in infinitum, vel 
+          sisten<lb break="no" ed="#P" n="88"/>dum est in primo termino ultimo et 
+          simplicis<lb break="no" ed="#P" n="89"/>simo. Tertio, persona, ut est communis tribus
+          <lb ed="#P" n="90"/>divinis erit univocum quid, ergo universale,
+          <lb ed="#P" n="91"/>ergo genus, vel species, vel aliud ex quinque
+          <lb ed="#P" n="92"/>universalibus. Quae omnia Deo repugnant, quia
+          <lb ed="#P" n="93"/>in eo locum non habet compositio etiam 
+          me<lb break="no" ed="#P" n="94"/>taphysica et rationis, ut supponimus.
+        </p>
+        <p xml:id="szduep-136245-d1e604">
+          <lb ed="#P" n="95"/>8. Rationem personae communem et univocam
+          <lb ed="#P" n="96"/>esse. — Vera nihilominus sententia est, 
+          perso<lb break="no" ed="#P" n="97"/>nam divinam univoce dici de tribus personis,
+          <lb ed="#P" n="98"/>ac proinde non significare immediate ipsas
+          <lb ed="#P" n="99"/>personas secundum proprias rationes earum,
+          <lb ed="#P" n="100"/>sed communem conceptum objectivum, 
+          rea<lb break="no" ed="#P" n="101"/>lem et positivum, quoad rem conceptam, 
+          ra<lb break="no" ed="#P" n="102"/>tionis vero quoad communitatem. Haec est,
+          <lb ed="#P" n="103"/>sententia divi Thomae, 1 p., quaest. 29, art. 4,
+          <lb ed="#P" n="104"/>et clarius, quaest. 30, art. 4. Ubi Cajetanus 
+          il<lb break="no" ed="#P" n="105"/>lam sequitur, et quaest. 27, art. 4, ad 4 
+          du<lb break="no" ed="#P" n="106"/>bium, Alensis, 1 part., quaest. 56, membr. 4,
+          <lb ed="#P" n="107"/>art. 2, Bonaventura, in 1, distinct. 25, art. 2,
+          <lb ed="#P" n="108"/>quaest. 1, Capreolus, eadem-dist. 25, quaest. 4,
+          <lb ed="#P" n="109"/>art. 1, Marsilius, 1, quaest. 28, art. 2, 
+          conclu<lb break="no" ed="#P" n="110"/>sione secunda. Probatur autem prima pars,
+          <pb ed="#P" n="541"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia persona divina terminus est communis,
+          <lb ed="#P" n="2"/>at est per se notum. Et non est aequivocus, ut
+          <lb ed="#P" n="3"/>stiam constat, quia et distribuitur pro omnibus
+          <lb ed="#P" n="4"/>personis divinis, et proprie afficitur termino
+          <lb ed="#P" n="5"/>numerali, vel partitivo, ut cum dicimus Patrem
+          <lb ed="#P" n="6"/>»t Filium et Spiritum sanctum esse plures 
+          per<lb break="no" ed="#P" n="7"/>onas, et aliam esse personam Patris, aliam
+          <lb ed="#P" n="8"/>Filii, etc. In voce autem aequivoca non sunt
+          <lb ed="#P" n="9"/>istae locutiones propriae. Denique non solum
+          <lb ed="#P" n="10"/>pomen commune est, sed etiam ratio nominis,
+          <lb ed="#P" n="11"/>ut patebit : non ergo est aequivocum. Praeterea
+          <lb ed="#P" n="12"/>nec analogum est, quia simpliciter et 
+          perfec<lb break="no" ed="#P" n="13"/>tissime dicitur de quacumque persona, et non
+          <lb ed="#P" n="14"/>magis dicitur de una ratione alterius, quam
+          <lb ed="#P" n="15"/>e converso.
+        </p>
+        <p xml:id="szduep-136245-d1e679">
+          <lb ed="#P" n="16"/>9. Respondent aliqui, esse vocem analogam
+          <lb ed="#P" n="17"/>secundum analogiam proportionalitatis, quia
+          <lb ed="#P" n="18"/>sicut se habet Pater ad suam proprietatem , ita
+          <lb ed="#P" n="19"/>Filius ad suam, et Spiritus sanctus ad suam, et
+          <lb ed="#P" n="20"/>hanc analogiam non postulare necessario 
+          inae<lb break="no" ed="#P" n="21"/>qualitatem inter plura significata nominis.
+          <lb ed="#P" n="22"/>Bed contra, nam pari ratione dicam, 
+          substan<lb break="no" ed="#P" n="23"/>tiam non esse univocam vocem corpori, et
+          <lb ed="#P" n="24"/>Spiritui, sed analogam secundum 
+          proportiona<lb break="no" ed="#P" n="25"/>litatem. Item de animali respectu plurium
+          <lb ed="#P" n="26"/>animalium, et sic destruitur totum 
+          fundamen<lb break="no" ed="#P" n="27"/>tum univocationis secundum communes 
+          ratio<lb break="no" ed="#P" n="28"/>nes, et conceptus. Deinde impossibile videtur,
+          <lb ed="#P" n="29"/>ut unum nomen, una impositione, et aeque
+          <lb ed="#P" n="30"/>primo imponatur ad significandum plura per
+          <lb ed="#P" n="31"/>solam proportionalitatem , ergo impossibile
+          <lb ed="#P" n="32"/>eest, ut vox sit analoga respectu eorum, in 
+          qui<lb break="no" ed="#P" n="33"/>bus invenitur ratio formalis significata per 
+          il<lb break="no" ed="#P" n="34"/>lam cum omni perfectione, proprietate , et
+          <lb ed="#P" n="35"/>sequalitate. Quocirca, quoties vox est analoga
+          <lb ed="#P" n="36"/>secundum proportionalitatem, semper 
+          imposi<lb break="no" ed="#P" n="37"/>ta est prius ad unum membrum 
+          significan<lb break="no" ed="#P" n="38"/>dum, et inde translata est ad aliud, vel alia,
+          <lb ed="#P" n="39"/>propter proportionalitatem, quae non attingit
+          <lb ed="#P" n="40"/>ad omnimodam proprietatem. Et e converso,
+          <lb ed="#P" n="41"/>quando ratio aliqua significata per vocem
+          <lb ed="#P" n="42"/>aque primo, et cum omni proprietate 
+          conve<lb break="no" ed="#P" n="43"/>nit multis, licet inter ea possit 
+          proportionah<lb break="no" ed="#P" n="44"/>tas considerari, tamen non est illa ratio 
+          impo<lb break="no" ed="#P" n="45"/>nendi nomen, sed communitas aliqua, vel 
+          si<lb break="no" ed="#P" n="46"/>militudo propria, aut convenientia, in qua
+          <lb ed="#P" n="47"/>illa proportionalitas fundatur, et ideo tale 
+          no<lb break="no" ed="#P" n="48"/>imen univocum est. Hoc autem totum inveni
+          <lb ed="#P" n="49"/>tur in nomine personae respectu trium 
+          perso<lb break="no" ed="#P" n="50"/>narum, ut dixi, estque per se satis notum,
+          <lb ed="#P" n="51"/>ergo.
+        </p>
+        <p xml:id="szduep-136245-d1e760">
+          <lb ed="#P" n="52"/>10. Atque hinc facile probatur altera pars
+          <lb ed="#P" n="53"/>de immediato significato illius vocis. Primo,
+          <lb ed="#P" n="54"/>quia tres personae divinae vere, et realiter 
+          con<lb break="no" ed="#P" n="55"/>veniunt in modo subsistendi incommunicabi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>liter, nam in hoc sunt similes in re ipsa, unde
+          <lb ed="#P" n="57"/>potest mens nostra praescindere, et formare
+          <lb ed="#P" n="58"/>unum conceptum repraesentantem personas,
+          <lb ed="#P" n="59"/>non distincte, et secundum propria, sed 
+          con<lb break="no" ed="#P" n="60"/>fuse, et secundum convenientiam, quam inter
+          <lb ed="#P" n="61"/>se habent. Talis autem conceptus formalis in
+          <lb ed="#P" n="62"/>nostra mente existens, suum proprium, 
+          adae<lb break="no" ed="#P" n="63"/>quatum, et immediatum objectum habet, quia
+          <lb ed="#P" n="64"/>non potest intelligi actus mentis unus, sine
+          <lb ed="#P" n="65"/>proportionato objecto, suam unitatem 
+          ha<lb break="no" ed="#P" n="66"/>bente. Hlud autem objectum respectu illius
+          <lb ed="#P" n="67"/>conceptus formalis , non est aliqua persona
+          <lb ed="#P" n="68"/>particularis , ut per se constat, nec sunt 
+          mul<lb break="no" ed="#P" n="69"/>tae secundum proprias rationes earum , quia
+          <lb ed="#P" n="70"/>hoc repugnat unitati, neque etiam secundum
+          <lb ed="#P" n="71"/>proportionalitatem , tum quia, ut antea 
+          dice<lb break="no" ed="#P" n="72"/>bam, proportionalitas, cum proprietate, et
+          <lb ed="#P" n="73"/>eequalitate in ratione significata per nomen,
+          <lb ed="#P" n="74"/>non est proportionalitas tantum, sed est realis
+          <lb ed="#P" n="75"/>convenientia, et unitas rationis formalis 
+          ob<lb break="no" ed="#P" n="76"/>jectivae, tum etiam quia ad concipiendam 
+          pro<lb break="no" ed="#P" n="77"/>portionalitatem , necesse est concipere plura
+          <lb ed="#P" n="78"/>significata secundum proprias rationes, in 
+          qui<lb break="no" ed="#P" n="79"/>bus distiguuntur , quia in illis intelliguntur
+          <lb ed="#P" n="80"/>habere proportionalitatem , quod per illum
+          <lb ed="#P" n="81"/>conceptum non sit. Ergo necesse est, ut 
+          objec<lb break="no" ed="#P" n="82"/>tum illius conceptus sit unum, unitate 
+          ratio<lb break="no" ed="#P" n="83"/>nis formalis objectivae. Illud ergo dicendum
+          <lb ed="#P" n="84"/>est immediatum significatum nominis persona
+          <lb ed="#P" n="85"/>divina, quia in eo personae divinae continentur
+          <lb ed="#P" n="86"/>confuse tantum, et secundum convenientiam,
+          <lb ed="#P" n="87"/>quam inter se habent, et ita per illam vocem
+          <lb ed="#P" n="88"/>significantur. Et hoc potest confirmari, tum
+          <lb ed="#P" n="89"/>ex definitione personae contractae ad 
+          indivi<lb break="no" ed="#P" n="90"/>duam substantiam naturae divinae, haec enim
+          <lb ed="#P" n="91"/>datur de aliquo conceptu objectivo vero, et
+          <lb ed="#P" n="92"/>reali, ac communi tribus personis secundum
+          <lb ed="#P" n="93"/>rationem : tum ex modo significandi illius 
+          vo<lb break="no" ed="#P" n="94"/>cis, una enim impositione intelligitur 
+          impo<lb break="no" ed="#P" n="95"/>sita ad significandum, et ratione illius 
+          imposi<lb break="no" ed="#P" n="96"/>tionis sub significato suo comprehendit tres
+          <lb ed="#P" n="97"/>personas saltem confuse : hoc autem intelligi
+          <lb ed="#P" n="98"/>non potest sine unitate objectiva in re 
+          signifi<lb break="no" ed="#P" n="99"/>cata per nomen, quae unitas tanta est in 
+          prae<lb break="no" ed="#P" n="100"/>senti, ut ad invocationem sufficiat, ut 
+          osten<lb break="no" ed="#P" n="101"/>dimus.
+        </p>
+        <p xml:id="szduep-136245-d1e873">
+          <lb ed="#P" n="102"/>11. Argumentorum solutio. — Superest ut
+          <lb ed="#P" n="103"/>argumentis tertiae sententiae respondeamus ,
+          <lb ed="#P" n="104"/>in quibus motiva aliarum opinionum 
+          compre<lb break="no" ed="#P" n="105"/>henduntur. Ad primum responderi potest,
+          <lb ed="#P" n="106"/>personam divinam non dicere rationem 
+          ali<lb break="no" ed="#P" n="107"/>quam personae abstractam a tribus personis,
+          <lb ed="#P" n="108"/>ut personae sunt, sed dicere solum communem
+          <lb ed="#P" n="109"/>conceptum personae, ut determinatum per 
+          ha<lb break="no" ed="#P" n="110"/>bitudinem ad divinam naturam. Ad eum mo-
+          <pb ed="#P" n="542"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dum, quo persona ultra communem rationem
+          <lb ed="#P" n="2"/>suppositi non addit aliquid ex parte 
+          subsisten<lb break="no" ed="#P" n="3"/>tiae, sed ex parte naturae addit, quod 
+          rationa<lb break="no" ed="#P" n="4"/>lis sit. Itaque juxta hunc dicendi modum ires
+          <lb ed="#P" n="5"/>personalitates divinae solum in hoc conveniunt,
+          <lb ed="#P" n="6"/>quod eamdem naturam divinam terminant,
+          <lb ed="#P" n="7"/>quae convenientia non est in aliqua communi
+          <lb ed="#P" n="8"/>ratione abstrahibili a tribus personalitatibus
+          <lb ed="#P" n="9"/>divinis, et superiori ad illas quasi quidditative,
+          <lb ed="#P" n="10"/>et intrinsece , sed solum est convenientia in
+          <lb ed="#P" n="11"/>quadam habitudine rationis ad eamdem 
+          natu<lb break="no" ed="#P" n="12"/>ram divinam, seu in denominatione sumpta
+          <lb ed="#P" n="13"/>ab eadem natura, quam terminant. Sicut 
+          per<lb break="no" ed="#P" n="14"/>sona Angelica, vel humana non addit supra
+          <lb ed="#P" n="15"/>communem rationem personae nisi 
+          determina<lb break="no" ed="#P" n="16"/>tionem ad talem naturam, seu 
+          denominatio<lb break="no" ed="#P" n="17"/>nem ab illa. Unde persona Christi dicitur esse
+          <lb ed="#P" n="18"/>persona humana solum, quia terminat 
+          huma<lb break="no" ed="#P" n="19"/>nam naturam, licet in sua substantia, et 
+          enti<lb break="no" ed="#P" n="20"/>tate longe diversa sit ab aliis personis 
+          huma<lb break="no" ed="#P" n="21"/>nis. Atque hac ratione licet personalitates 
+          di<lb break="no" ed="#P" n="22"/>vinae sint ultimi termini, et simplicissimi, ita
+          <lb ed="#P" n="23"/>ut non possint habere conceptum communem
+          <lb ed="#P" n="24"/>intrinsecum , et quasi praecisum a propriis 
+          ra<lb break="no" ed="#P" n="25"/>tionibus, possunt habere conceptum 
+          commu<lb break="no" ed="#P" n="26"/>nem secundum dictam denominationem.
+        </p>
+        <p xml:id="szduep-136245-d1e956">
+          <lb ed="#P" n="27"/>12. Sed tamen responsio haec non satisfacit.
+          <lb ed="#P" n="28"/>Esto enim verum sit, personas divinas concipi
+          <lb ed="#P" n="29"/>posse secundum illam denominationem ; 
+          ni<lb break="no" ed="#P" n="30"/>hilominus negari non potest, quin inter se 
+          ha<lb break="no" ed="#P" n="31"/>beant realem convenientiam intresecam, 
+          se<lb break="no" ed="#P" n="32"/>cundum quam possint concipi, et significari
+          <lb ed="#P" n="33"/>conceptu, et voce communi, et univoca. Hoc
+          <lb ed="#P" n="34"/>patebit facile, si, omissa illa voce, persona
+          <lb ed="#P" n="35"/>divina, utamur voce, persona relativa, vel 
+          per<lb break="no" ed="#P" n="36"/>sonalitatis relativee , hae namque voces non
+          <lb ed="#P" n="37"/>minus sunt univocae, quam vox, persona 
+          di<lb break="no" ed="#P" n="38"/>vina, nec minus significant conceptum 
+          com<lb break="no" ed="#P" n="39"/>munem, ut probant omnia adducta in nostrae
+          <lb ed="#P" n="40"/>sententiae confirmationem. At illa communitas
+          <lb ed="#P" n="41"/>non est in denominatione aliqua a natura 
+          divi<lb break="no" ed="#P" n="42"/>na, seu in ordine ad illam, sed in modo 
+          intrin<lb break="no" ed="#P" n="43"/>seco, ac proprio illarum personahtatum Dei.
+          <lb ed="#P" n="44"/>Et declaratur amplius, quia persona in 
+          com<lb break="no" ed="#P" n="45"/>muni, ut abstrahit a creata, et increata, recte
+          <lb ed="#P" n="46"/>dividitur in absolutam, et respectivam, quae
+          <lb ed="#P" n="47"/>duo membra non solum distinguuntur in 
+          ha<lb break="no" ed="#P" n="48"/>bitudine subsistentiae ad naturam creatam,
+          <lb ed="#P" n="49"/>vel increatam, sed formaliter, ac intrinsece in
+          <lb ed="#P" n="50"/>propriis modis, quasi contrahentibus, seu 
+          de<lb break="no" ed="#P" n="51"/>terminantibus communem rationem 
+          persona<lb break="no" ed="#P" n="52"/>litatis, ad talem quasi speciem personalitatis,
+          <lb ed="#P" n="53"/>ergo in illo modo pecuhari, ac relativo habent
+          <lb ed="#P" n="54"/>inter se convenientiam realem divinae 
+          per<lb break="no" ed="#P" n="55"/>sona, ergo secundum illam convenientiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>datur conceptus communis illis, qui imme
+          <lb ed="#P" n="57"/>diate significatur nomine personae divinae
+          <lb ed="#P" n="58"/>Tandem relationes divinae conveniunt univoce
+          <lb ed="#P" n="59"/>in communi conceptu relationis subsistentis
+          <lb ed="#P" n="60"/>seu increatae, qui conceptus non est quasi 
+          de<lb break="no" ed="#P" n="61"/>nominativus , sed intrinsecus, et quasi 
+          quid<lb break="no" ed="#P" n="62"/>ditativus relationi, ut sic, ergo idem est de
+          <lb ed="#P" n="63"/>personalitate increata, etc.
+        </p>
+        <p xml:id="szduep-136245-d1e1041">
+          <lb ed="#P" n="64"/>13. At enim Scotus 1, distinctione 26
+          <lb ed="#P" n="65"/>quaest. 1, § Tertia opinio, cum de 
+          relationi<lb break="no" ed="#P" n="66"/>bus divinis fateatur , convenire in aliquo 
+          con<lb break="no" ed="#P" n="67"/>ceptu reali, et quasi quidditativo relationi, ui
+          <lb ed="#P" n="68"/>talis est, nihilominus negat, tres proprietate:
+          <lb ed="#P" n="69"/>personales Trinitatis posse habere hujusmodi
+          <lb ed="#P" n="70"/>convenientiam, seu conceptum communem
+          <lb ed="#P" n="71"/>Imo hinc conatur ostendere, relationes divi
+          <lb ed="#P" n="72"/>nas non esse ipsas proprietates personales, 
+          se<lb break="no" ed="#P" n="73"/>cundum suas proprias rationes formales, quis
+          <lb ed="#P" n="74"/>a relationibus potest abstrahi conceptus 
+          com<lb break="no" ed="#P" n="75"/>munis, non vero a proprietatibus personali
+          <lb ed="#P" n="76"/>bus, quia hoc est contra rationem ultimi 
+          cons<lb break="no" ed="#P" n="77"/>tituentis, ut in argumentis objiciebamus. Item
+          <lb ed="#P" n="78"/>quia relatio, ut sic, dici quidditatem 
+          quam<lb break="no" ed="#P" n="79"/>dam, quae communicabilis est de se, hoc 
+          au<lb break="no" ed="#P" n="80"/>tem repugnat proprietati personali, de cuju:
+          <lb ed="#P" n="81"/>ratione est, ut sit incommunicabils.
+        </p>
+        <p xml:id="szduep-136245-d1e1083">
+          <lb ed="#P" n="82"/>14. Proprietates incommunicabiles posse 
+          ha<lb break="no" ed="#P" n="83"/>bDere rationem communem.— Sed immerito 
+          Sco<lb break="no" ed="#P" n="84"/>tus hanc differentiam excogitavit , quae illum
+          <lb ed="#P" n="85"/>in aliam sententiam induxit, nimirum, 
+          pro<lb break="no" ed="#P" n="86"/>prietates incommunicabiles , constituentes 
+          di<lb break="no" ed="#P" n="87"/>vinas personas absolutas esse, et non relationes
+          <lb ed="#P" n="88"/>ipsas, quae est reprobata sententia, ut infra
+          <lb ed="#P" n="89"/>suo loco videbimus. Nihil ergo obstat, 
+          quomi<lb break="no" ed="#P" n="90"/>nus paternitas, verbi gratia, sit proprietas ex
+          <lb ed="#P" n="91"/>se incommunicabilis, id est, 
+          incommunicabi<lb break="no" ed="#P" n="92"/>liter subsistens, et quod nihilominus habeat
+          <lb ed="#P" n="93"/>realem convenientiam, et conceptum realem
+          <lb ed="#P" n="94"/>communenm filiationi et processioni. Imo, iicet
+          <lb ed="#P" n="95"/>praeter relationes personales haberent divinae
+          <lb ed="#P" n="96"/>personae proprietates absolutas et 
+          incommuni<lb break="no" ed="#P" n="97"/>cabiles, nihilominus illae proprietates 
+          habe<lb break="no" ed="#P" n="98"/>rent inter se realem convenientiam in 
+          com<lb break="no" ed="#P" n="99"/>muni ratione subsistentiae incommunicabilis.
+          <lb ed="#P" n="100"/>Neque enim hujusmodi convenientia repugnat
+          <lb ed="#P" n="101"/>illi incommunicabilitati, nam haec ipsa 
+          incom<lb break="no" ed="#P" n="102"/>municabilitas, seu modus ille sic subsistendi
+          <lb ed="#P" n="103"/>qui realis ac positivus est, potest ita 
+          conveni<lb break="no" ed="#P" n="104"/>re multis proprietatibus personalibus, ut in eo
+          <lb ed="#P" n="105"/>habeant convenientiam aliquam seu 
+          similitu<lb break="no" ed="#P" n="106"/>dinem. Atque ita contingit in personalitatibus
+          <lb ed="#P" n="107"/>creatis, quae licet absolutae sint, conveniunt
+          <lb ed="#P" n="108"/>nihilominus in communi conceptu 
+          personali<lb break="no" ed="#P" n="109"/>tatis absolutae. Neque etiani communicabihtas
+          <lb ed="#P" n="110"/>hujus conceptus repugnàt incommunicabili-
+          <pb ed="#P" n="543"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tati personalitatis, sunt enim diversarum 
+          ra<lb break="no" ed="#P" n="2"/>tionum, et non habent inter se oppositionem.
+          <lb ed="#P" n="3"/>Quia non omnis communicabilitas repugnat
+          <lb ed="#P" n="4"/>I cuicumque incommunicabilitati, sed cum 
+          pro<lb break="no" ed="#P" n="5"/>portione, unde secundum diversas rationes
+          <lb ed="#P" n="6"/>eadem res communicabilis et 
+          incommunicabi<lb break="no" ed="#P" n="7"/>lis esse potest. Ut essentia divina est 
+          incom<lb break="no" ed="#P" n="8"/>municabilis multis naturis , tamen 
+          communi<lb break="no" ed="#P" n="9"/>cabilis multis personis, et filatio divina est 
+          in<lb break="no" ed="#P" n="10"/>icommunicabilis multis personis, 
+          communica<lb break="no" ed="#P" n="11"/>Itur autem suo modo multis naturis. Sic ergo
+          <lb ed="#P" n="12"/>ipersonalitas relativa in Deo, vel absoluta in
+          <lb ed="#P" n="13"/>creaturis dicit rationom incommunicabilem
+          <lb ed="#P" n="14"/>secundum rationem multis personalitatibus, et
+          <lb ed="#P" n="15"/>nihilominus secundum rem quaelibet 
+          persona<lb break="no" ed="#P" n="16"/>Htas est incommunicabilis alteri personae, 
+          at<lb break="no" ed="#P" n="17"/>que ita est terminus ultimus naturae. Unde
+          <lb ed="#P" n="18"/>non repugnat conceptum objectivum 
+          relatio<lb break="no" ed="#P" n="19"/>tionis divinae esse communem relationibus 
+          per<lb break="no" ed="#P" n="20"/>sonalibus, et nihilominus dicere rationem 
+          ulti<lb break="no" ed="#P" n="21"/>umi termini naturae divinae, quia illa 
+          commu<lb break="no" ed="#P" n="22"/>initas non repugnat incommunicabilitati 
+          ulti<lb break="no" ed="#P" n="23"/>mi termini. Eo vel maxime, quod relatio non
+          <lb ed="#P" n="24"/>exercet rationem ultimi termini, ut manens
+          <lb ed="#P" n="25"/>in communi conceptu relationis, sed ut 
+          deter<lb break="no" ed="#P" n="26"/>minata ad talem speciem relationis, secundum
+          <lb ed="#P" n="27"/>quam incommunicabilis est multis 
+          relationi<lb break="no" ed="#P" n="28"/>bus personalibus.
+        </p>
+        <p xml:id="szduep-136245-d1e1214">
+          <lb ed="#P" n="29"/>15. Ad primo ergo argumentum respondeo,
+          <lb ed="#P" n="30"/>non esse contra rationem ultimi termini, ut
+          <lb ed="#P" n="31"/>ab illo possit abstrahi conceptus communis
+          <lb ed="#P" n="32"/>multis similibus terminis. Quia licet talis 
+          ter<lb break="no" ed="#P" n="33"/>minus ultimo constituat personam, tali genere
+          <lb ed="#P" n="34"/>constitutionis (quam hypostaticam vocare 
+          pos<lb break="no" ed="#P" n="35"/>sumus) nihilominus ipse potest constitui, seu
+          <lb ed="#P" n="36"/>determinari in ratione talis termini in alio
+          <lb ed="#P" n="37"/>genere quod vocare possumus 
+          determinatio<lb break="no" ed="#P" n="38"/>nem rationis inferioris ad superiorem. Sicut
+          <lb ed="#P" n="39"/>albedo constituit album tanquam propria et
+          <lb ed="#P" n="40"/>ultima forma ejus, et tamen constituitur in
+          <lb ed="#P" n="41"/>esse albedinis per proprias differentias, 
+          consti<lb break="no" ed="#P" n="42"/>tutione (nimirum) contractiva genericae 
+          ratio<lb break="no" ed="#P" n="43"/>nis ad specificam. Igitur in universum 
+          loquen<lb break="no" ed="#P" n="44"/>do, ultimum constituens in eo genere 
+          consti<lb break="no" ed="#P" n="45"/>tutionis, in quo est ultimum, non constituitur,
+          <lb ed="#P" n="46"/>neque ultimus terminus amplius terminatur,
+          <lb ed="#P" n="47"/>nihilominus in alio genere compositionis, seu
+          <lb ed="#P" n="48"/>constitutionis, aut determinationis, constitui,
+          <lb ed="#P" n="49"/>vel determinari potest et ita non repugnat illi
+          <lb ed="#P" n="50"/>habere conceptum communem praeter 
+          pro<lb break="no" ed="#P" n="51"/>priam et particularem.
+        </p>
+        <p xml:id="szduep-136245-d1e1266">
+          <lb ed="#P" n="52"/>16. Alia duo argumenta communia sunt ad
+          <lb ed="#P" n="53"/>omnia transcendentia communia, seu quae 
+          ha<lb break="no" ed="#P" n="54"/>bent conceptum communem, et ideo in 
+          Meta<lb break="no" ed="#P" n="55"/>physica late tractata sunt de ipso ente, et de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>substantia, accidente, et similibus. Nunc ergo
+          <lb ed="#P" n="57"/>breviter ad 2, negamus sequi processum in 
+          in<lb break="no" ed="#P" n="58"/>finitum, quia relatio divina, verbi gratia, non
+          <lb ed="#P" n="59"/>determinatur ad esse Paternitatis per modum,
+          <lb ed="#P" n="60"/>in quo non includatur ipsa communis ratio
+          <lb ed="#P" n="61"/>divinae relationis, ac substantiae, et ita non 
+          pro<lb break="no" ed="#P" n="62"/>ceditur in infinitum, quia Paternitas non 
+          cons<lb break="no" ed="#P" n="63"/>tat duobus conceptibus inter se omnino 
+          con<lb break="no" ed="#P" n="64"/>distinctis, sed dicit solum simplicem 
+          concep<lb break="no" ed="#P" n="65"/>tum relationis magis expressum et specificum,
+          <lb ed="#P" n="66"/>qui per seipsum determinat communem 
+          con<lb break="no" ed="#P" n="67"/>ceptum. Et eadem ratione conceptus ille 
+          com<lb break="no" ed="#P" n="68"/>munis non est conceptus generis, vel speciei,
+          <lb ed="#P" n="69"/>vel alterius praedicabilis, sed ad modum 
+          trans<lb break="no" ed="#P" n="70"/>cendentis. Addit praeterea D. Thomas, dicta
+          <lb ed="#P" n="71"/>quaest. 30, articulo 4, ad. 3, communem 
+          ratio<lb break="no" ed="#P" n="72"/>nem personae divinae habent unum esse : non
+          <lb ed="#P" n="73"/>versale aliquod, quia personae divinae habent
+          <lb ed="#P" n="74"/>unum esse : universale autem dicit esse 
+          com<lb break="no" ed="#P" n="75"/>mune multis secundum esse differentibus.
+          <lb ed="#P" n="76"/>Contra quam rationem instari potest, quia 
+          di<lb break="no" ed="#P" n="77"/>vinae personae etiam distinguuntur in esse 
+          per<lb break="no" ed="#P" n="78"/>sonali, seu relativo, quod satis esse videtur,
+          <lb ed="#P" n="79"/>quia universale non requirit ordinem ad multa,
+          <lb ed="#P" n="80"/>nisi distincta secundum illud esse, in quo 
+          de<lb break="no" ed="#P" n="81"/>terminant ipsum commune. Potest 
+          nihilomi<lb break="no" ed="#P" n="82"/>nus facile defendi illa ratio, quia universale
+          <lb ed="#P" n="83"/>dicit habitudinem ad multa, ita distincta, ut
+          <lb ed="#P" n="84"/>non sint unum simpliciter in suo absoluto, ac
+          <lb ed="#P" n="85"/>proprio esse.
+        </p>
+        <p xml:id="szduep-136245-d1e1344">
+          <lb ed="#P" n="86"/>17. Personam nec genus, nec speciem esse.—
+          <lb ed="#P" n="87"/>Denique addit D. Thomas in eadem solutione,
+          <lb ed="#P" n="88"/>Personam , ut de creaturis etiam dicitur, non
+          <lb ed="#P" n="89"/>praedicari de multis tanquam genus, vel 
+          spe<lb break="no" ed="#P" n="90"/>ciem. Quod si interroges quomodo praedicetur?
+          <lb ed="#P" n="91"/>hespondet in corpore articuli, praedicari 
+          tan<lb break="no" ed="#P" n="92"/>quam individuum vagum. Idemque censet de
+          <lb ed="#P" n="93"/>persona divina, ut est communis ad tres divinas
+          <lb ed="#P" n="94"/>personas. Contra hoc vero objicit Aureolus,
+          <lb ed="#P" n="95"/>quia individuum vagum non potest ampltus
+          <lb ed="#P" n="96"/>determinari per signum particulare, guidam,
+          <lb ed="#P" n="97"/>vel aliquis : est enim individuum vagum 
+          qui<lb break="no" ed="#P" n="98"/>dam homo , vel aliquis homo : non possumus
+          <lb ed="#P" n="99"/>autem ulterius dicere; quidam aliquis homo,
+          <lb ed="#P" n="100"/>vel aliquis quidam homo, quia est ineptissima
+          <lb ed="#P" n="101"/>negatio. At vero nomen, Persona, 
+          congruen<lb break="no" ed="#P" n="102"/>tissime recipit has determinationes; dicimus
+          <lb ed="#P" n="103"/>enim, quaedam persona divina est incarnata,
+          <lb ed="#P" n="104"/>quaedam generat, alia generatur, ergo non
+          <lb ed="#P" n="105"/>praedicatur tanquam individuum vagum. 
+          Res<lb break="no" ed="#P" n="106"/>pondetur tamen facile, nomen personae non
+          <lb ed="#P" n="107"/>dici significare ad modum individui vagi,
+          <lb ed="#P" n="108"/>quoad illam determinationem, nec quoad 
+          illo<lb break="no" ed="#P" n="109"/>rum terminorum complexionem, ex qua 
+          pro<lb break="no" ed="#P" n="110"/>enit, ut individuum vagum jam affectum illo
+          <pb ed="#P" n="544"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>signo non possit ulterius eodem affici, quod
+          <lb ed="#P" n="2"/>secus est de quocumque nomine communi 
+          in<lb break="no" ed="#P" n="3"/>definite sumpto, ut est nomen persona, vel
+          <lb ed="#P" n="4"/>suppositumn, dicitur ergo persona habere 
+          com<lb break="no" ed="#P" n="5"/>munitatem individui vagi quoad habitudinem
+          <lb ed="#P" n="6"/>ad particularia, quae respicit , seu quoad 
+          qua<lb break="no" ed="#P" n="7"/>litatem praedicationis, quia sicut individuum
+          <lb ed="#P" n="8"/>vagum sumptum est in substantiis ex modo
+          <lb ed="#P" n="9"/>subsistendi incommunicabiliter vage sumpto,
+          <lb ed="#P" n="10"/>ita etiam persona, vel suppositum : et ideo
+          <lb ed="#P" n="11"/>sicut individuum vagum non praedicatur in
+          <lb ed="#P" n="12"/>quid, vel quale, sed potest dici praedicari in
+          <lb ed="#P" n="13"/>qualiter, seu in quomodo, ita est etiam 
+          per<lb break="no" ed="#P" n="14"/>sona.
+        </p>
+        <p xml:id="szduep-136245-d1e1435">
+          <lb ed="#P" n="15"/>18. Sed instabit aliquis, quia relatio divina
+          <lb ed="#P" n="16"/>praedicatur in quid de tribus relationibus 
+          divi<lb break="no" ed="#P" n="17"/>nis, non minus quam si esset genus, neque ex
+          <lb ed="#P" n="18"/>hoc capite desinit esse genus, sed propter 
+          trans<lb break="no" ed="#P" n="19"/>cendentiam et simplicitatem, ut supra dixi:
+          <lb ed="#P" n="20"/>ergo simpliciter persona praedicatur in quid de
+          <lb ed="#P" n="21"/>Patre, Filio et Spiritu sancto, quia eamdem
+          <lb ed="#P" n="22"/>propositionem servat respectu illorum. 
+          Rhes<lb break="no" ed="#P" n="23"/>pondent aliqui negando antecedens, quia 
+          rela<lb break="no" ed="#P" n="24"/>tio divina etiam in suo ultimo conceptu 
+          inclu<lb break="no" ed="#P" n="25"/>dit subsistere, quia in omni relatione et in
+          <lb ed="#P" n="26"/>proprio modo constituente illam, qui dicitur ad
+          <lb ed="#P" n="27"/>includitur, esse in, quod esse in est esse in alio
+          <lb ed="#P" n="28"/>in relationibus creatis, in divinis autem est
+          <lb ed="#P" n="29"/>esse in se et subsistere, et ideo sicut subsistere
+          <lb ed="#P" n="30"/>non dicitur in quid de tribus personis vel 
+          rela<lb break="no" ed="#P" n="31"/>tionibus, ita nec relatio. At haec responsio 
+          pe<lb break="no" ed="#P" n="32"/>tit principium. Nam, ex eo, quod Ad, ut Ad
+          <lb ed="#P" n="33"/>est essentiale omni relationi, concludimus dici
+          <lb ed="#P" n="34"/>in quid de illis, quatenus abstrahitur ad 
+          mo<lb break="no" ed="#P" n="35"/>dum generis, ergo inde ulterius concludi potest,
+          <lb ed="#P" n="36"/>quod quidquid includitur intime in conspectu
+          <lb ed="#P" n="37"/>Ad, dicitur etiamin quid de tribus subsistentiis,
+          <lb ed="#P" n="38"/>seu relationibus divinis. Eo vel maxime, quod
+          <lb ed="#P" n="39"/>illud in inclusum intime in Ad, est suo modo
+          <lb ed="#P" n="40"/>essentiale illi, eo modo, quo esse quid reale
+          <lb ed="#P" n="41"/>pertinet ad rationem quidditativam omnis 
+          en<lb break="no" ed="#P" n="42"/>tis realis, ergo sicut, esse ad, pertinet ad 
+          quid<lb break="no" ed="#P" n="43"/>quid est relationis, ut sic, ita etiam, esse in
+          <lb ed="#P" n="44"/>inclusum intime in ipso Ad. Denique, quam
+          <lb ed="#P" n="45"/>proportionem servat relatio divina in communi
+          <lb ed="#P" n="46"/>ad tres relationes, eamdem servat personalitas
+          <lb ed="#P" n="47"/>divina, ut sic, ad tres personalitates formaliter
+          <lb ed="#P" n="48"/>spectatas, ut personalitates sunt, ergo etiam in
+          <lb ed="#P" n="49"/>modo praedicationis servant eamdem 
+          propor<lb break="no" ed="#P" n="50"/>tionem.
+        </p>
+        <p xml:id="szduep-136245-d1e1516">
+          <lb ed="#P" n="51"/>19. An persona praedicetur in quid. — 
+          Quo<lb break="no" ed="#P" n="52"/>circa dicendum est, aliud esse loqui de eo.
+          <lb ed="#P" n="53"/>quod simpliciter, et absolute, et in reipsa est
+          <lb ed="#P" n="54"/>de essentia suppositi, seu personae, aliud vero
+          <lb ed="#P" n="55"/>est loqui tantum secundum formalitatem sup-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>positi, vel personae, ut talis est. Priori modo
+          <lb ed="#P" n="57"/>nec individuum vagum, nec suppositum, vel 
+          <lb ed="#P" n="58"/>persona praedicatur in quid de individua 
+          sub<lb break="no" ed="#P" n="59"/>stantia completa etintegra, unde in creaturis
+          <lb ed="#P" n="60"/>licet haec praedicatio sit in quid, Petrus est 
+          <lb ed="#P" n="61"/>homo, nihilominus hae praepositiones, Peftrus 
+          <lb ed="#P" n="62"/>est aliquis homo, seu Petrus est suppositum,
+          <lb ed="#P" n="63"/>aut persona, non sunt quidditativae, quia non 
+          <lb ed="#P" n="64"/>dicunt formaliter essentiam Petri, sed modum 
+          <lb ed="#P" n="65"/>existendi, vel subsistendi, quod nos 
+          appella<lb break="no" ed="#P" n="66"/>mus, Predicari in qualiter, vel in quomodo. Et
+          <lb ed="#P" n="67"/>sic hae propositiones, Pater est persona, vel
+          <lb ed="#P" n="68"/>est hypostasis, non sunt in quid, imo nec si
+          <lb ed="#P" n="69"/>dicam, est persona relativa, non est praedicatio 
+          <lb ed="#P" n="70"/>quidditativa. Unde haec etiam propositio, Deus
+          <lb ed="#P" n="71"/>est Pater, praeter quam quod est indirecta,
+          <lb ed="#P" n="72"/>non essentialis, sed personalis. Et similiter
+          <lb ed="#P" n="73"/>haec, Pater est Pater, licet sit identica, et hoc 
+          <lb ed="#P" n="74"/>titulo videatur plusquam essentialis, 
+          nihil<lb break="no" ed="#P" n="75"/>ominus hoc tantum habebit locum, si 
+          subjec<lb break="no" ed="#P" n="76"/>tum stet formaliter, ita, ut formale praedicati
+          <lb ed="#P" n="77"/>cadat in formale subjecti, sic enim sunt idem
+          <lb ed="#P" n="78"/>etiam secundum rationem. At vero si 
+          loqua<lb break="no" ed="#P" n="79"/>mur de persona illa simpliciter, tale 
+          praedica<lb break="no" ed="#P" n="80"/>tum formaliter sumptum non dicit essentiam
+          <lb ed="#P" n="81"/>ejus, sed attributum personale. Ac propterea
+          <lb ed="#P" n="82"/>in Deo tantum est una essentia et personae 
+          di<lb break="no" ed="#P" n="83"/>vinae, licet distinguantur personaliter, ac 
+          rela<lb break="no" ed="#P" n="84"/>tive, non tamen essentialiter, ut in 
+          sequenti<lb break="no" ed="#P" n="85"/>bus videbimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

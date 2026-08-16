@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="654"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-165509"><!-- t3-l5c2 -->
+        <head xml:id="szduep-165509-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-165509-Hd1e103" type="question-title">Quod sint intra deum relationes reales</head>
+        <p xml:id="szduep-165509-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>CAPUT II.
+          <lb ed="#P" n="54"/>QUOD SINT INTRA DEUM RELATIONES REALES.
+        </p>
+        <p xml:id="szduep-165509-d1e115">
+          <lb ed="#P" n="55"/>1. Relationes reales in Deo solum sunt 
+          se<lb break="no" ed="#P" n="56"/>cundwm originem. — Quoniam numerus harum
+          <lb ed="#P" n="57"/>relationum ita a nobis praescribendus est, ut
+          <lb ed="#P" n="58"/>nec minor, nec major esse ostendatur, ideo
+          <lb ed="#P" n="59"/>imprimis supponendum est, in DEO nullas esse
+          <lb ed="#P" n="60"/>relationes reales ad intra praeter eas, quas 
+          re<lb break="no" ed="#P" n="61"/>lationes originis vocamus, quae comparatae ad
+          <lb ed="#P" n="62"/>relationes in creaturis inventas, 
+          correspon<lb break="no" ed="#P" n="63"/>dent his, quae in actione et passione probari
+          <lb ed="#P" n="64"/>dicuntur. Hoc in superioribus tactum est, 
+          po<lb break="no" ed="#P" n="65"/>testque inductione ostendi, quia inter divinas
+          <lb ed="#P" n="66"/>personas, nec relatio similitudinis, nec 
+          aequa<lb break="no" ed="#P" n="67"/>litatis realis est, quia est eadem cum relatione
+          <lb ed="#P" n="68"/>identitas in essentia, quae rationis est. Et 
+          con<lb break="no" ed="#P" n="69"/>sequenter neque relatio imaginis ex ea parte,
+          <lb ed="#P" n="70"/>qua similitudinem dicit, sed solum ex ea, quae
+          <lb ed="#P" n="71"/>dicit originem, realis est. Idemque est de 
+          re<lb break="no" ed="#P" n="72"/>latione mutuae inexistentiae, seu intimae 
+          prae<lb break="no" ed="#P" n="73"/>sentiae, ut in fine praecedentis libri dicebamus.
+          <lb ed="#P" n="74"/>Quod etiam de relatione distinctionis est 
+          ma<lb break="no" ed="#P" n="75"/>nifestum, quia vel est eadem cum relatione
+          <lb ed="#P" n="76"/>oppositionis, quae non est, nisi relatio 
+          origi<lb break="no" ed="#P" n="77"/>nis, vel solum addit negationem identitatis,
+          <lb ed="#P" n="78"/>in qua non fundatur relatio, nisi rationis.
+          <lb ed="#P" n="79"/>Praeter has autem relationes nullae aliae 
+          pos<lb break="no" ed="#P" n="80"/>sunt inter divinas personas excogitari, exceptis
+          <lb ed="#P" n="81"/>relationibus originis, ergo extra hasnullae sunt
+          <lb ed="#P" n="82"/>ibi relationes reales. Et ratio in universum
+          <lb ed="#P" n="83"/>reddi potest, quia omnis habitudo positiva 
+          in<lb break="no" ed="#P" n="84"/>ter divinas personas, vel reducitur ad 
+          distinc<lb break="no" ed="#P" n="85"/>tionem, seu oppositionem, et sic est originis,
+          <lb ed="#P" n="86"/>vel reducitur ad unitatem, et sic est rationis
+          <lb ed="#P" n="87"/>propter summam identitatem realem 
+          funda<lb break="no" ed="#P" n="88"/>menti ut in utroque extremo.
+        </p>
+        <p xml:id="szduep-165509-d1e191">
+          <lb ed="#P" n="89"/>2. Non sunt plures quam quatuor. — Ex hoc
+          <lb ed="#P" n="90"/>fundamento infertur alia veritas quam hic, ut
+          <lb ed="#P" n="91"/>certam supponimus, videlicet, helationes reales
+          <lb ed="#P" n="92"/>divinas non posse esse plures, quam quatuor.
+          <lb ed="#P" n="93"/>Ita docet D. Thomas, dicta q. 28, etconsentiunt
+          <lb ed="#P" n="94"/>omnes theologi statim referendi. Probaturque,
+          <lb ed="#P" n="95"/>quia hae relationes solum sunt originis: sed 
+          ori<lb break="no" ed="#P" n="96"/>gines, seu processiones intra Deum solum sunt
+          <lb ed="#P" n="97"/>duae, ut in libro primo ostensum est, 
+          er<lb break="no" ed="#P" n="98"/>go relationes al summum possunt esse 
+          qua<lb break="no" ed="#P" n="99"/>tuor et non plures. Probatur consequentia,
+          <lb ed="#P" n="100"/>quia ex unaqueque processione, non 
+          consur<lb break="no" ed="#P" n="101"/>cunt nisi duae relationes, ergo, si processiones
+          <lb ed="#P" n="102"/>sunt tantum duae, relationes ad summum erunt
+          <lb ed="#P" n="103"/>quatuor. Antecedens probatur, quia una 
+          pro<lb break="no" ed="#P" n="104"/>cessio tantum habet unum principium, et u-
+          <pb ed="#P" n="655"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>num terminum. Atque ita in processione per
+          <lb ed="#P" n="2"/>intellectum sunt relationes generantis, et 
+          ge<lb break="no" ed="#P" n="3"/>niti, seu Patris et Filii, in altera vero 
+          proces<lb break="no" ed="#P" n="4"/>sione voluntatis sunt relationes producentis,
+          <lb ed="#P" n="5"/>seu spirantis et procedentis seu spirati. Ergo
+          <lb ed="#P" n="6"/>hae relationes non possunt excedere 
+          quater<lb break="no" ed="#P" n="7"/>narium numerum. An vero illum attingant,
+          <lb ed="#P" n="8"/>statim videbimus. Hic vero occurrebat 
+          pecu<lb break="no" ed="#P" n="9"/>liaris difficultas de relatione Verbi, quam libro
+          <lb ed="#P" n="10"/>nono, tanquam in proprio loco tractabimus.
+          <lb ed="#P" n="11"/>Nunc vero supponimus, in secunda persona
+          <lb ed="#P" n="12"/>eamdem esse relationem Verbi et Filii respectu
+          <lb ed="#P" n="13"/>primae personae, quia ex vi ejusdem 
+          proces<lb break="no" ed="#P" n="14"/>sionis consurgit, licet diversis conceptibus et
+          <lb ed="#P" n="15"/>vocibus a nobis exprimatur, propter diversos
+          <lb ed="#P" n="16"/>respectus rationis, seu convenientiae ad res
+          <lb ed="#P" n="17"/>creatas, ut dicto libro explicabimus. Quod si
+          <lb ed="#P" n="18"/>Verbum importat aliquam rauonem ad res
+          <lb ed="#P" n="19"/>cognitas, vel creabiles, vel dictas, illa non est
+          <lb ed="#P" n="20"/>relatio realis, sed rationis, unde non auget 
+          nu<lb break="no" ed="#P" n="21"/>merum relationum, de quibus nunc 
+          tracta<lb break="no" ed="#P" n="22"/>mus. De spiratione autem activa statim 
+          di<lb break="no" ed="#P" n="23"/>cemus.
+        </p>
+        <p xml:id="szduep-165509-d1e283">
+          <lb ed="#P" n="24"/>3. Tres sunt realiter inter se distincte.—Ex
+          <lb ed="#P" n="25"/>his principiis ulterius concluditur, intra Deum
+          <lb ed="#P" n="26"/>tres esse relationes reales realiter inter se 
+          dis<lb break="no" ed="#P" n="27"/>tinctas. Quae veritas, quoad ternarium 
+          nume<lb break="no" ed="#P" n="28"/>rum, ita ut minor non sit, tam est certa, quam
+          <lb ed="#P" n="29"/>est certum dari in Deo tres personas realiter
+          <lb ed="#P" n="30"/>distinctas, supposita veritate talium relationum
+          <lb ed="#P" n="31"/>realium. Atque ita docent theologi omnes. Quia
+          <lb ed="#P" n="32"/>in unaquaque persona ad minimum necessaria
+          <lb ed="#P" n="33"/>est una relatio, habens oppositionem cum aliis
+          <lb ed="#P" n="34"/>personis, et consequenter distinctam ab illis.
+          <lb ed="#P" n="35"/>Imo unaquaeque persona solum est suamet 
+          re<lb break="no" ed="#P" n="36"/>latio subsistens, unde per illam constituitur in
+          <lb ed="#P" n="37"/>suo esse personali, et ab aliis etiam 
+          personali<lb break="no" ed="#P" n="38"/>ter distinguitur. Ergo tales relationes reales
+          <lb ed="#P" n="39"/>et realiter distinctae non possunt in Deo esse
+          <lb ed="#P" n="40"/>pauciores quam res. Haec autem sunt, 
+          Paterni<lb break="no" ed="#P" n="41"/>tas, Filiatio et processio passiva, quae est 
+          pro<lb break="no" ed="#P" n="42"/>pria Spiritus sancti relatio. Nam cum Filius
+          <lb ed="#P" n="43"/>realiter a Patre procedat, necesse est, ut et
+          <lb ed="#P" n="44"/>duas habeant relationes reales et realiter 
+          dis<lb break="no" ed="#P" n="45"/>tinctas, utpote inter se directe et formaliter
+          <lb ed="#P" n="46"/>oppositas. Rursus cum Spiritus sanctus realiter
+          <lb ed="#P" n="47"/>procedit a Patre et Filio, ac proinde ad illos
+          <lb ed="#P" n="48"/>habeat relationem realem, illam etiam esse
+          <lb ed="#P" n="49"/>realiter distinctam a Paternitate et Filiatione
+          <lb ed="#P" n="50"/>necesse est, quia quidquid a Patre realiter 
+          dis<lb break="no" ed="#P" n="51"/>tinguitur, etiam a Paternitate et Filiatione
+          <lb ed="#P" n="52"/>realiter distinguitur.
+        </p>
+        <p xml:id="szduep-165509-d1e348">
+          <lb ed="#P" n="53"/>4. Quid de spiratione activa.—Quoad aliam
+          <lb ed="#P" n="54"/>vero partem, scilicet, quod hic numerus 
+          rela<lb break="no" ed="#P" n="55"/>tionum realium realiter distinctarum major
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non sit, quam ternarius, licet etiam res certa
+          <lb ed="#P" n="57"/>sit, pendet nihilominus ex cognitione alterius
+          <lb ed="#P" n="58"/>relationis correspondentis relationi 
+          processio<lb break="no" ed="#P" n="59"/>nis passivae, quae a theologis vocatur spiratio
+          <lb ed="#P" n="60"/>activa, de qua videndum superest, an sit et
+          <lb ed="#P" n="61"/>qualis sit, habet enim illa relatio peculiarem
+          <lb ed="#P" n="62"/>rationem ac difficultatem. Prius vero quam ad
+          <lb ed="#P" n="63"/>illam transeamus, operae pretium erit 
+          condi<lb break="no" ed="#P" n="64"/>tiones trium dictarum relationum prae oculis
+          <lb ed="#P" n="65"/>ponere, quia et illarum cognitio per se necesse
+          <lb ed="#P" n="66"/>est ad explicationem mysterii, et multum 
+          con<lb break="no" ed="#P" n="67"/>feret ad ea quae de spiratione activa dicenda
+          <lb ed="#P" n="68"/>sunt.
+        </p>
+        <p xml:id="szduep-165509-d1e387">
+          <lb ed="#P" n="69"/>5. Dicte tres relationes quas conditiones 
+          ha<lb break="no" ed="#P" n="70"/>beunt.—Addo igitur, tres illas relationes reales
+          <lb ed="#P" n="71"/>inter se distinctas tales esse, ut unaquaeque
+          <lb ed="#P" n="72"/>propriam perfectionem in suo genere, 
+          pro<lb break="no" ed="#P" n="73"/>priamque rationem existendi et subsistendi 
+          in<lb break="no" ed="#P" n="74"/>communicabiliter secum afferat. Haec assertio
+          <lb ed="#P" n="75"/>non recipitur ab omnibus, aliqui enim putant,
+          <lb ed="#P" n="76"/>has relationes secundum proprias rationes
+          <lb ed="#P" n="77"/>praecise habere, quod referant, seu respiciant
+          <lb ed="#P" n="78"/>alium: per hoc autem necesse, nec 
+          perfectio<lb break="no" ed="#P" n="79"/>nem, immo nec subsistere, afferre. Conclusio
+          <lb ed="#P" n="80"/>nihilominus colligitur ex omnibus tractatis in
+          <lb ed="#P" n="81"/>tertio libro. Breviterque ostenditur, 
+          suppo<lb break="no" ed="#P" n="82"/>nendo in divinis personis non esse alias 
+          pro<lb break="no" ed="#P" n="83"/>prietates constituens personas, praeter has 
+          re<lb break="no" ed="#P" n="84"/>lationes, quod libro septimo probandum est.
+          <lb ed="#P" n="85"/>Ex quo sic colligo. Relatio, verbi gratia, 
+          Pa<lb break="no" ed="#P" n="86"/>ternitas est in Patre, aut ergo est tanquam
+          <lb ed="#P" n="87"/>inexistens personae jam constitutae, et sic erit
+          <lb ed="#P" n="88"/>in Patre alia proprietas constituens illum in
+          <lb ed="#P" n="89"/>ratione talis personae, quod est contra 
+          suppo<lb break="no" ed="#P" n="90"/>sitionem factam : vel est in eo tanquam secum
+          <lb ed="#P" n="91"/>afferens propriam rationem subsistendi : 
+          Af<lb break="no" ed="#P" n="92"/>fert ergo Paternitas propriam subsistendi 
+          ra<lb break="no" ed="#P" n="93"/>tionem, cum compositione sufficienti ad 
+          reli<lb break="no" ed="#P" n="94"/>quas relationes, et inde habet, quod 
+          subsisten<lb break="no" ed="#P" n="95"/>tia incommunicabilis sit.
+        </p>
+        <p xml:id="szduep-165509-d1e448">
+          <lb ed="#P" n="96"/>6. Et hinc facile probatur altera pars de
+          <lb ed="#P" n="97"/>existentia, quia ratio existentiae superior est et
+          <lb ed="#P" n="98"/>quasi transcendens, et ideo intime comitatur
+          <lb ed="#P" n="99"/>subsistentiam, vel potius in illa imbibitur. 
+          De<lb break="no" ed="#P" n="100"/>nique ex utroque capite convincitur altera pars
+          <lb ed="#P" n="101"/>de perfectione, tum quia omnis subsistentia
+          <lb ed="#P" n="102"/>est aliqua perfectio, tum etiam quia quantum
+          <lb ed="#P" n="103"/>unaquequae res habet entitatis, tantumdem
+          <lb ed="#P" n="104"/>habet perfectionis. Quod autem in Paternitate,
+          <lb ed="#P" n="105"/>gratia exempli, declaratum est, in aliis duabus
+          <lb ed="#P" n="106"/>relationibus personalibus locum habet. Et ad
+          <lb ed="#P" n="107"/>hanc assertionem confirmandam applicari 
+          pos<lb break="no" ed="#P" n="108"/>sunt omnia, quae in similibus punctis de 
+          per<lb break="no" ed="#P" n="109"/>sonis divinis diximus in libro tertio, capitibus
+          <lb ed="#P" n="110"/>quarto et quinto. Nam quoad haec omnia, hae
+          <pb ed="#P" n="656"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tres, relationes et personae idem sunt, ut in 
+          se<lb break="no" ed="#P" n="2"/>quenti capite amplius constabit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

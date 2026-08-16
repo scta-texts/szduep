@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="13"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-003329"><!-- t1-l1c4 -->
+        <head xml:id="szduep-003329-Hd1e101">Caput 4</head>
+        <head xml:id="szduep-003329-Hd1e103" type="question-title">Sit ne divina essentia omnino simplex substantia, ita ut nullam substantialem compositionem admittat</head>
+        <p xml:id="szduep-003329-d1e106">
+          <lb ed="#P" n="16"/>CAPUT IV.
+          <lb ed="#P" n="17"/>SIT NE DIVINA ESSENTIA OMNINO SIMPLEX SUBSTANTIA,
+          <lb ed="#P" n="18"/>ITA UT NULLAM SUBSTANTIALEM 
+          COMPOSI<lb break="no" ed="#P" n="19"/>TIONEM ADMITTAT.
+        </p>
+        <p xml:id="szduep-003329-d1e117">
+          <lb ed="#P" n="20"/>1. Conclusio. — Probatur primo. — Haec
+          <lb ed="#P" n="21"/>quaestio ex principiis supernaturalibus facile
+          <lb ed="#P" n="22"/>expediri potest, juxta principia vero naturalia
+          <lb ed="#P" n="23"/>in disput. 30 Metaphbys. late tractata est. 
+          Dici<lb break="no" ed="#P" n="24"/>mus ergo divinam naturam et substantiam
+          <lb ed="#P" n="25"/>esse omnino simplicem. Quod est de fide sub
+          <lb ed="#P" n="26"/>his terminis definitum in Concil. Lat., in cap.
+          <lb ed="#P" n="27"/>Firmiter , et Damnamus , seepe citatis. Et in
+          <lb ed="#P" n="28"/>Concilio Rhemensi contra Gilbertum 
+          Porreta<lb break="no" ed="#P" n="29"/>tanum, ut infra in materia de Trinitate 
+          osten<lb break="no" ed="#P" n="30"/>demus. Ex Scriptura et Patribus non oportet
+          <lb ed="#P" n="31"/>nunc plura referre, praeter ea, quae inferius de
+          <lb ed="#P" n="32"/>attributis dicenda sunt et quae in sequenti
+          <lb ed="#P" n="33"/>discursu attingemus. Duobus enim modis 
+          po<lb break="no" ed="#P" n="34"/>test haec veritas declarari, quos attigi dicta
+          <lb ed="#P" n="35"/>disp. 30 Metaphys., sect. 3. Unus et brevis
+          <lb ed="#P" n="36"/>est ex ipsa perfectione simplicitatis. Quamvis
+          <lb ed="#P" n="37"/>enim vera sit opinio Cajetani, simplicitatem
+          <lb ed="#P" n="38"/>per se non addere rei perfectionem, quia in
+          <lb ed="#P" n="39"/>negatione consistit, ut ibidem dixi, tamen 
+          du<lb break="no" ed="#P" n="40"/>bitari non potest quin, caeteris paribus, melius
+          <lb ed="#P" n="41"/>sit habere totam rei perfectionem in simplici
+          <lb ed="#P" n="42"/>entitate quam ex plurium adunatione. 
+          Sim<lb break="no" ed="#P" n="43"/>plicitas ergo exse circumscribit modum essendi
+          <lb ed="#P" n="44"/>perfectiorem; ergo talis modus entitatis Deo
+          <lb ed="#P" n="45"/>tribuendus est, quia tribuendum est illi 
+          quid<lb break="no" ed="#P" n="46"/>quid est perfectius. Quod eo loco latius ostendi
+          <lb ed="#P" n="47"/>ac declaravi.
+        </p>
+        <p xml:id="szduep-003329-d1e180">
+          <lb ed="#P" n="48"/>2. Secunda probatio. — Eaplicantur varie
+          <lb ed="#P" n="49"/>compositiones. — Secundo probari hoc potest
+          <lb ed="#P" n="50"/>sistendo in negatione quam dicit simplicitas,
+          <lb ed="#P" n="51"/>et discurrendo per omnes modos compositionis
+          <lb ed="#P" n="52"/>substantialis, de qua sola nunc agimus; nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>si ostenderimus nullum eorum cadere posse in
+          <lb ed="#P" n="54"/>Deum, satis probatum erit Deum esse 
+          sub<lb break="no" ed="#P" n="55"/>stantiam omnino simplicem. Ad probandam
+          <lb ed="#P" n="56"/>autem inductionem illam satis erit discurrere
+          <lb ed="#P" n="57"/>per omnes compositiones, quae in substantiis
+          <lb ed="#P" n="58"/>creatis inveniuntur ; nam novam fingere 
+          eam<lb break="no" ed="#P" n="59"/>que Deo tribuere, chimericum esset et fictum,
+          <lb ed="#P" n="60"/>et ideo contemnendum est. Praeter quam quod
+          <lb ed="#P" n="61"/>rationes, quibus excluduntur verae 
+          composi<lb break="no" ed="#P" n="62"/>itones, convincunt nullam excogitari posse
+          <lb ed="#P" n="63"/>quae imperfectionem Deo repugnantem non
+          <lb ed="#P" n="64"/>includat.
+        </p>
+        <p xml:id="szduep-003329-d1e223">
+          <lb ed="#P" n="65"/>3. Prima ergo compositio in substantiis 
+          in<lb break="no" ed="#P" n="66"/>venitur ex esse et essentia, quae suo modo
+          <lb ed="#P" n="67"/>etiam convenit accidentibus. Et quanquam de
+          <lb ed="#P" n="68"/>modo compositionis hujus in creaturis magna
+          <lb ed="#P" n="69"/>opinionum varietas sit, ut in disp. 31 
+          Meta<lb break="no" ed="#P" n="70"/>phys. diximus ; tamen in hoc omnes 
+          conve<lb break="no" ed="#P" n="71"/>niunt, quod ad talem compositionem 
+          necessa<lb break="no" ed="#P" n="72"/>rium est, ut esse actualis existentiae non 
+          con<lb break="no" ed="#P" n="73"/>veniat essentiae creatae ex intrinseca quidditate
+          <lb ed="#P" n="74"/>sua, ita ut illam a se habeat et non ab alio.
+          <lb ed="#P" n="75"/>Nam ubi essentia ex se habet esse, esse est de
+          <lb ed="#P" n="76"/>intrinseca quidditate ejus; unde nec cogitatione
+          <lb ed="#P" n="77"/>apprehendi potest , quod compositionem cum
+          <lb ed="#P" n="78"/>illa faciat. Ita vero se habet esse ad essentiam
+          <lb ed="#P" n="79"/>Dei ut ostendimus , et ideo talis compositio Deo
+          <lb ed="#P" n="80"/>locum non habet. Itaque compositio haec secum
+          <lb ed="#P" n="81"/>affert ad minimum duas imperfectiones: una
+          <lb ed="#P" n="82"/>est, ut essentia ex se sit ens potentiale tantum;
+          <lb ed="#P" n="83"/>alia est, ut in ratione entitatis actualis 
+          neces<lb break="no" ed="#P" n="84"/>sario pendeat ab alio dante illi esse. Quae duo
+          <lb ed="#P" n="85"/>evidentissime repugnant primo enti.
+        </p>
+        <p xml:id="szduep-003329-d1e271">
+          <lb ed="#P" n="86"/>4. Secunda compositio.—Secunda compositio
+          <lb ed="#P" n="87"/>est ex natura et supposito, quae est communis
+          <lb ed="#P" n="88"/>omnibus substantiis creatis et magis realis
+          <lb ed="#P" n="89"/>quam prior, ut disp. 34 Metaphy. late 
+          tracta<lb break="no" ed="#P" n="90"/>tum est. A divina autem substantia excluditur
+          <lb ed="#P" n="91"/>talis compositio, quia ut est esse omnino 
+          abso<lb break="no" ed="#P" n="92"/>lutum , essentialiter subsistit. Quia illud esse
+          <lb ed="#P" n="93"/>quod essentiahter etiam est esse subsistens,
+          <lb ed="#P" n="94"/>quia est perfectissimum et perfectius est esse
+          <lb ed="#P" n="95"/>subsistens quam non subsistens, ut per se
+          <lb ed="#P" n="96"/>notum est. Si autem comparetur illa absoluta
+          <lb ed="#P" n="97"/>Dei substantia ad relationem, jam consideratio
+          <lb ed="#P" n="98"/>illa pertinet ad mysterium Trinitatis, non ad
+          <lb ed="#P" n="99"/>unitatem Dei, sub qua ratione nunc de illo
+          <lb ed="#P" n="100"/>tractamus. Veritas autem catholica est, etiam
+          <lb ed="#P" n="101"/>hoc modo essentiam non facere compositionem
+          <lb ed="#P" n="102"/>cum relationibus, quam ex principiis fidei 
+          in<lb break="no" ed="#P" n="103"/>fra tractatu ultimo ostendemus. Nunc solum
+          <lb ed="#P" n="104"/>assero, illam compositionem excludi posse 
+          du<lb break="no" ed="#P" n="105"/>plici titulo. Primo ex quadam generali ratione,
+          <lb ed="#P" n="106"/>ob quam compositio repugnat DEO, scilicet ,
+          <lb ed="#P" n="107"/>quia compositio supponit limitationem in ex-
+          <pb ed="#P" n="14"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tremis componentibus ; sed haec limitatio 
+          re<lb break="no" ed="#P" n="2"/>pugnat Deo, ergo. Major declaratur, quia 
+          com<lb break="no" ed="#P" n="3"/>positio supponit distinctionem in re; distinctio
+          <lb ed="#P" n="4"/>autem non est nisi ob limitationem vel 
+          oppo<lb break="no" ed="#P" n="5"/>sitionem, ex quibus illa, quae est per 
+          opposi<lb break="no" ed="#P" n="6"/>tionem extremorum habet locum intra Deum,
+          <lb ed="#P" n="7"/>Sed non est apta ad compositionem, quia 
+          op<lb break="no" ed="#P" n="8"/>posita, ut sic, non uniuntur inter se, licet in
+          <lb ed="#P" n="9"/>uno tertio possint esse idem, ut infra de 
+          rela<lb break="no" ed="#P" n="10"/>tionibus divinis dicemus. Distinctio autem inter
+          <lb ed="#P" n="11"/>extrema non opposita, non habet locum intra
+          <lb ed="#P" n="12"/>Deum, quia talia extrema sunt limitata ac
+          <lb ed="#P" n="13"/>proinde imperfecta. Alia ratio valde propria
+          <lb ed="#P" n="14"/>est, quia cum natura divina sit essentialiter
+          <lb ed="#P" n="15"/>subsistens , non potest uniri personalitati 
+          di<lb break="no" ed="#P" n="16"/>stincte ab illa, et ita solum potest esse in 
+          per<lb break="no" ed="#P" n="17"/>sona sua per identitatem cum illa, ut dicto
+          <lb ed="#P" n="18"/>loco latius dicemus. Unde obiter intelligitur,
+          <lb ed="#P" n="19"/>in hoc puncto magis agendum esse 
+          supernatu<lb break="no" ed="#P" n="20"/>rali discursu, sensu ex principiis creditis, quam
+          <lb ed="#P" n="21"/>naturali, ut in disp. 30 Metaphys., sect. 4 dixi,
+          <lb ed="#P" n="22"/>ubi satis declaratum est , quantum in hoc 
+          va<lb break="no" ed="#P" n="23"/>leat ratio naturalis.
+        </p>
+        <p xml:id="szduep-003329-d1e375">
+          <lb ed="#P" n="24"/>5. Tertia compositio. — Tertia compositio
+          <lb ed="#P" n="25"/>realis esse solet in substantiis ex partibus 
+          in<lb break="no" ed="#P" n="26"/>tegralibus. Et haec solum invenitur in 
+          substan<lb break="no" ed="#P" n="27"/>tuis corporeis et quantis. Unde cum supra
+          <lb ed="#P" n="28"/>ostensum sit Deum non posse esse 
+          substan<lb break="no" ed="#P" n="29"/>tiam corpoream, satis constat non posse 
+          ha<lb break="no" ed="#P" n="30"/>bere compositionem hanc ex partibus 
+          integra<lb break="no" ed="#P" n="31"/>libus. Accedit quod haec compositio (juxta
+          <lb ed="#P" n="32"/>veriorem doctrinam) supponit compositionem
+          <lb ed="#P" n="33"/>ex materia et forma, quam in Deo esse statim
+          <lb ed="#P" n="34"/>ostendemus. Imo licet daremus substantiam
+          <lb ed="#P" n="35"/>non compositam ex essentiali potentia et actu,
+          <lb ed="#P" n="36"/>sed simplicem , quoad negationem hujus 
+          com<lb break="no" ed="#P" n="37"/>positionis , posse esse compositam ex partibus
+          <lb ed="#P" n="38"/>integrantibus, non posset talis modus 
+          substan<lb break="no" ed="#P" n="39"/>tiae Deo attribui. Quia vel talis substantia esset
+          <lb ed="#P" n="40"/>capax extensionis quantitatis, vel non. Si 
+          pri<lb break="no" ed="#P" n="41"/>mum dicatur, esset tota corporea, et ex hoc
+          <lb ed="#P" n="42"/>capite repugnaret Deo. Immo esset minus 
+          per<lb break="no" ed="#P" n="43"/>fecta quam substantia hominis, quae non est
+          <lb ed="#P" n="44"/>tota sic extensa et corporea, sed formam 
+          ha<lb break="no" ed="#P" n="45"/>bet spiritualem. Item talis substantia non 
+          pos<lb break="no" ed="#P" n="46"/>eet esse intellectualis, ut in libris de Coelo 
+          os<lb break="no" ed="#P" n="47"/>tensum est. Si vero fingatur substantia habens
+          <lb ed="#P" n="48"/>partes integrantes, et non subjecta moli 
+          quan<lb break="no" ed="#P" n="49"/>ütatis nec capax extensionis ejus, sed solum
+          <lb ed="#P" n="50"/>habens ex se entitativam et substantialium
+          <lb ed="#P" n="51"/>partium multiplicationem, haec fictio 
+          chime<lb break="no" ed="#P" n="52"/>rica est et in se impossibilis , et plane 
+          invol<lb break="no" ed="#P" n="53"/>vens multas imperfectiones repugnantes 
+          Divi<lb break="no" ed="#P" n="54"/>nitati, ut dicta dispu. 30, Metaphys., section 4,
+          <lb ed="#P" n="55"/>num. 16, ostendi, quod hic repetere non est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>necesse. Praesertim, quia non legimus aliquem,
+          <lb ed="#P" n="57"/>vel gentilem vel haereticum, ita sensisse de
+          <lb ed="#P" n="58"/>-Deo, ut ex principis fidel certissimum est,
+          <lb ed="#P" n="59"/>hunc substantia modum esse repugnantem
+          <lb ed="#P" n="60"/>Divinitati. Unde Patres omnes tractantes de
+          <lb ed="#P" n="61"/>generatione Verbi Divini, ut evidentissimum
+          <lb ed="#P" n="62"/>supponunt non potuisse Patrem 
+          communi<lb break="no" ed="#P" n="63"/>care substantiam suam Filio, nisi 
+          communi<lb break="no" ed="#P" n="64"/>cando totam , quia substantia illa non habet
+          <lb ed="#P" n="65"/>partes.
+        </p>
+        <p xml:id="szduep-003329-d1e471">
+          <lb ed="#P" n="66"/>5. Quarta compositio. — Quarta compositio
+          <lb ed="#P" n="67"/>est ex materia et forma. Et haec si intelligatur
+          <lb ed="#P" n="68"/>de materia nobis nota, involvit 
+          imperfectio<lb break="no" ed="#P" n="69"/>nem corporeae molis, de qua satis dictum est.
+          <lb ed="#P" n="70"/>Si autem fingatur ex alio genere materiae non
+          <lb ed="#P" n="71"/>subjectae quantitati nec capacis ejus, ac 
+          pro<lb break="no" ed="#P" n="72"/>inde spiritualis et indivisibilis quoad partes
+          <lb ed="#P" n="73"/>integrantes; dicimus in primis hoc genus 
+          ma<lb break="no" ed="#P" n="74"/>teriee substantialis, vel esse omnino 
+          impossi<lb break="no" ed="#P" n="75"/>bile, vel esse fictum sine fundamento, quia
+          <lb ed="#P" n="76"/>neque ex operatione colligi potest, neque ad
+          <lb ed="#P" n="77"/>operationem potest deservire. Et alioqui talis
+          <lb ed="#P" n="78"/>substantia haberet imperfectionem potentiae
+          <lb ed="#P" n="79"/>passivae, et de se non haberet esse perfectum,
+          <lb ed="#P" n="80"/>sed dependens a forma, ut latius dicta sect. 4
+          <lb ed="#P" n="81"/>a num. 8, ostendi.
+        </p>
+        <p xml:id="szduep-003329-d1e508">
+          <lb ed="#P" n="82"/>6. Substantia Dei est entitas simples. — Ex
+          <lb ed="#P" n="83"/>hac ergo inductione aperte concluditur, 
+          sub<lb break="no" ed="#P" n="84"/>stantiam Dei esse entitatem simplicem quoad
+          <lb ed="#P" n="85"/>carentiam realis compositionis, ex quocumque
+          <lb ed="#P" n="86"/>genere partialium entitatum, seu actus et 
+          po<lb break="no" ed="#P" n="87"/>tentiae substantialis , in re ipsa distinctorum.
+          <lb ed="#P" n="88"/>Et generaliter confirmari potest ex illo 
+          prin<lb break="no" ed="#P" n="89"/>cipio, quod divina substantia debet esse 
+          om<lb break="no" ed="#P" n="90"/>nino necessaria, et ita ab intrinseco 
+          immuta<lb break="no" ed="#P" n="91"/>bili, substantialiter, ut ex vi sui esse implicet
+          <lb ed="#P" n="92"/>contradictionem non esse. At substantia 
+          reali<lb break="no" ed="#P" n="93"/>ter composita non potest esse talis. Quia ut
+          <lb ed="#P" n="94"/>recte dixit Nazianzenus orat. 2 de Theolog.: Zo
+          <lb ed="#P" n="95"/>JAipso quod substantia coalescit ev multis, non
+          <lb ed="#P" n="96"/>repugnat dissolvi. Quamvis enim philosophi
+          <lb ed="#P" n="97"/>doceant , coeli substantiam esse 
+          incorruptibi<lb break="no" ed="#P" n="98"/>lem, licet composita sit ex materia et forma,
+          <lb ed="#P" n="99"/>et angelos esse incorruptibiles , etiamsi 
+          com<lb break="no" ed="#P" n="100"/>positi sint ex natura et supposito, et esse et
+          <lb ed="#P" n="101"/>essentia ; nihilominus verissimum est, per se
+          <lb ed="#P" n="102"/>et intrinsece non repugnare illam 
+          compositio<lb break="no" ed="#P" n="103"/>nem dissolvi, et angelos annihilari, vel privari
+          <lb ed="#P" n="104"/>sua personalitate, et materiam ac formam coeli
+          <lb ed="#P" n="105"/>distingui, et partes integrales coeli dividi, et in
+          <lb ed="#P" n="106"/>universum idem mens concipit in omni re,
+          <lb ed="#P" n="107"/>quae coalescit ex multis, nimirum quod ex
+          <lb ed="#P" n="108"/>parte objecti non repugnet illa dissolutio.
+        </p>
+        <p xml:id="szduep-003329-d1e569">
+          <lb ed="#P" n="109"/>7. Effugium. — Objectioni occurritur. —
+          <lb ed="#P" n="110"/>Video posse protervum respondere , intelligi
+          <pb ed="#P" n="15"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>posse entitatem compositam ita per se 
+          neces<lb break="no" ed="#P" n="2"/>sariam, ut et partes et unio earum habeant
+          <lb ed="#P" n="3"/>eandem necessitatem essendi ex se, et non ex
+          <lb ed="#P" n="4"/>causa extrinseca, et inde in earum dissolutione
+          <lb ed="#P" n="5"/>esse posse omnimodam impossibilitatem. Aliae
+          <lb ed="#P" n="6"/>enim uniones quantumvis ex parte sua 
+          videan<lb break="no" ed="#P" n="7"/>tur perpetuae, tamen quatenus pendent a causa
+          <lb ed="#P" n="8"/>extrinseca efficiente, eatenus nonrepugnat 
+          dis<lb break="no" ed="#P" n="9"/>solvi. At posita unione per se necessaria sine
+          <lb ed="#P" n="10"/>causa efficienti, compositum ex illa tam 
+          neces<lb break="no" ed="#P" n="11"/>sarium erit, sicut entitas omnino simplex. Quod
+          <lb ed="#P" n="12"/>si objiciatur, auia illa unio necessario penderet
+          <lb ed="#P" n="13"/>a partibus componentibus, et consequenter
+          <lb ed="#P" n="14"/>etiam totum penderet ex illis, et una pars ab
+          <lb ed="#P" n="15"/>alia, quia non posset esse sine illa et 
+          conse<lb break="no" ed="#P" n="16"/>quenter utramque a toto, sine quo esse non
+          <lb ed="#P" n="17"/>posset. Responderi posset, hanc non esse 
+          pro<lb break="no" ed="#P" n="18"/>priam dependentiam, sed connexionem 
+          intrin<lb break="no" ed="#P" n="19"/>secam et quasi formalem, sine ulla efficientia,
+          <lb ed="#P" n="20"/>ac proinde nihil illam obstare necessitati 
+          es<lb break="no" ed="#P" n="21"/>sendi. Sed in primis illamet interna 
+          depen<lb break="no" ed="#P" n="22"/>dentia est magna umperfectio. Deinde intelligi
+          <lb ed="#P" n="23"/>non potest , quod pars illa saltem potentialis
+          <lb ed="#P" n="24"/>ex se habeat esse, quia necessitas essendi a se
+          <lb ed="#P" n="25"/>formaliter dicit summam actualitatem et 
+          per<lb break="no" ed="#P" n="26"/>fectionem, ut ostensum est late in dicta 
+          dis<lb break="no" ed="#P" n="27"/>put. 30, sect. 4. Unde etiam repugnat, talem
+          <lb ed="#P" n="28"/>potentiam ex se habere unionem cum suoactu,
+          <lb ed="#P" n="29"/>sed necesse est, ut illam habeat vel a causa
+          <lb ed="#P" n="30"/>extrinseca, et ita non repugnabit per eamdem
+          <lb ed="#P" n="31"/>causam dissolvi et separari ; vel certe ab ipso
+          <lb ed="#P" n="32"/>actu sese unienti sua virtute tali potentiae, et
+          <lb ed="#P" n="33"/>sic ille erit causa prior , et erit Deus, et non
+          <lb ed="#P" n="34"/>tale compositum. Repugnat ergo Deum habere
+          <lb ed="#P" n="35"/>in sua substantia realem compositionem.
+        </p>
+        <p xml:id="szduep-003329-d1e657">
+          <lb ed="#P" n="36"/>8. Difficultas. — Animadoversio. — Hic vero
+          <lb ed="#P" n="37"/>occurrebat quaestio, an saltem possit Deus 
+          ha<lb break="no" ed="#P" n="38"/>bere compositionem rationis in substantia sua,
+          <lb ed="#P" n="39"/>qualis est illa quae.est ex genere et 
+          differen<lb break="no" ed="#P" n="40"/>tia. Veruntamen de hac quaestione nihil hic
+          <lb ed="#P" n="41"/>tractare decrevi. Tum quia, quae disi in dicta
+          <lb ed="#P" n="42"/>disput. 30, sect. 4 a nu. 28, usque ad 35, 
+          vi<lb break="no" ed="#P" n="43"/>dentur mihi sufficere. Tum etiam, quia pendet
+          <lb ed="#P" n="44"/>magis ex principiis dialecticis et metaphysicis
+          <lb ed="#P" n="45"/>quam ex theologicis. Adverto tamen , 
+          super<lb break="no" ed="#P" n="46"/>naturalem theologiam admittere in Deo 
+          cons<lb break="no" ed="#P" n="47"/>titutionem aliquam per modum compositionis
+          <lb ed="#P" n="48"/>secundum rationem, ut tractando de 
+          constitu<lb break="no" ed="#P" n="49"/>tione personarum in Trinitate videbimus. Unde
+          <lb ed="#P" n="50"/>etiam constat distinctionem , quae tantum 
+          ra<lb break="no" ed="#P" n="51"/>tionis est, non repugnare simplieitati Dei,
+          <lb ed="#P" n="52"/>ergo nec compositio per solam rationem ex
+          <lb ed="#P" n="53"/>suo genere illi repugnabit. Nam haec duo 
+          mu<lb break="no" ed="#P" n="54"/>tuo sibi correspondent. Hinc ergo constat,
+          <lb ed="#P" n="55"/>compositionem ex genere et differentia , si
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Deo repugnat, non repugnare solum ratione
+          <lb ed="#P" n="57"/>simplieitatis, qui non repugnat ex vi 
+          composi<lb break="no" ed="#P" n="58"/>tionis secundum rationem. Oportet ergo, ut
+          <lb ed="#P" n="59"/>repugnet ex aliis principiis pertinentibus ad
+          <lb ed="#P" n="60"/>talem modum compositionis, quae philosophica
+          <lb ed="#P" n="61"/>tantum esse possunt.
+        </p>
+        <p xml:id="szduep-003329-d1e718">
+          <lb ed="#P" n="62"/>9. Notabile proponitur. — In quo ctiam
+          <lb ed="#P" n="63"/>aliud adverto , scilicet, duobus modis posse
+          <lb ed="#P" n="64"/>tractari quaestionem illam. Primo de genere
+          <lb ed="#P" n="65"/>communi Deo et creaturis, et differentia 
+          dis<lb break="no" ed="#P" n="66"/>tinguente Deum a creaturis ; ita ut descriptio
+          <lb ed="#P" n="67"/>data a nobis capite praecedenti , Deum esse
+          <lb ed="#P" n="68"/>substantiam viventem intellectualem per 
+          es<lb break="no" ed="#P" n="69"/>sentiam, proprie censeatur constare ex genere
+          <lb ed="#P" n="70"/>et differentia. Secundo potest tractari dicta
+          <lb ed="#P" n="71"/>quaestio, de Deo intra seipsum. Priori modo
+          <lb ed="#P" n="72"/>tractata est a nobis quaestio citato loco, sicut
+          <lb ed="#P" n="73"/>communiter tractatur. Et sic diximus, Deum
+          <lb ed="#P" n="74"/>non convenire in genere aliquo cum creaturis,
+          <lb ed="#P" n="75"/>nec differre ab illis per differentiam propriam,
+          <lb ed="#P" n="76"/>et ita in se non constare genere et differentia.
+          <lb ed="#P" n="77"/>Ratio autem sufficiens est pro priori parte,
+          <lb ed="#P" n="78"/>quia nihit est univocum Deo et creaturis, ut
+          <lb ed="#P" n="79"/>in eadem Metaphys., disp. 28, latius diximus.
+          <lb ed="#P" n="80"/>Pro altera vero parte ratio est, quia in Deo
+          <lb ed="#P" n="81"/>nulla est propria differentia, quae non includat
+          <lb ed="#P" n="82"/>totam perfectionem essentialem Det , quod est
+          <lb ed="#P" n="83"/>late probandum in sequentibus; hoc autem est
+          <lb ed="#P" n="84"/>contra rationem differentiae, ut ex Metaphysica
+          <lb ed="#P" n="85"/>etiam constat.
+        </p>
+        <p xml:id="szduep-003329-d1e773">
+          <lb ed="#P" n="86"/>Aliter vero quaestionis sensus non habet 
+          lo<lb break="no" ed="#P" n="87"/>cum stando in sola ratione naturah, quia Deus,
+          <lb ed="#P" n="88"/>ut Deus est, multiplicari non potest, sed 
+          essen<lb break="no" ed="#P" n="89"/>tialiter est hic singularis Deus; et ideo concipi
+          <lb ed="#P" n="90"/>non potest vero conceptu communi et 
+          univer<lb break="no" ed="#P" n="91"/>sali, quare non potest in eo esse genus vel
+          <lb ed="#P" n="92"/>species in ordine ad Deum, vel plures Deos.
+          <lb ed="#P" n="93"/>Tamen supposito mysterio Trinitatis possunt
+          <lb ed="#P" n="94"/>dari conceptus communes secundum rationem
+          <lb ed="#P" n="95"/>tribus personis, non ut sunt Deus, sed ut sunt
+          <lb ed="#P" n="96"/>personae vel relationes ; et hoc modo habet 
+          lo<lb break="no" ed="#P" n="97"/>cum quaestio , an intra Deum sit compositio
+          <lb ed="#P" n="98"/>generis et differentiae, quam attingemus 
+          trac<lb break="no" ed="#P" n="99"/>tantes de Trinitate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

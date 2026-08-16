@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-000297"><!-- t1-l1c1 -->
+        <head xml:id="szduep-000297-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-000297-Hd1e103" type="question-title">An existentia necessitate absoluta deo conveniat, id est, an deus necessario sit.</head>
+        <p xml:id="szduep-000297-d1e106">
+          <lb ed="#P" n="18"/>CAPUT I.
+          <lb ed="#P" n="19"/>AN EXISTENTIA NECESSITATE ABSOLUTA DEO 
+          CON<lb break="no" ed="#P" n="20"/>VENIAT, ID EST, AN DEUS NECESSARIO SIT.
+        </p>
+        <p xml:id="szduep-000297-d1e115">
+          <lb ed="#P" n="21"/>1. Quoniam in hoc opere (ut dixi), in his
+          <lb ed="#P" n="22"/>veritatibus, quas de Deo, ut uno, fides docet,
+          <lb ed="#P" n="23"/>supponimus ea, quae per naturalem Theologiam
+          <lb ed="#P" n="24"/>assequi possumus, in proprio loco esse 
+          trac<lb break="no" ed="#P" n="25"/>tata, duo solum in praesenti tractatu circa 
+          eas<lb break="no" ed="#P" n="26"/>dem veritates addere possumus, nimirum vel
+          <lb ed="#P" n="27"/>majorem certitudinem ex propriis principiis
+          <lb ed="#P" n="28"/>theologicis, vel majorem declarationem. 
+          Prae<lb break="no" ed="#P" n="29"/>sertim explicando, an veritas illa, de qua 
+          agi<lb break="no" ed="#P" n="30"/>tur, sit omnino eadem in se, prout a naturah
+          <lb ed="#P" n="31"/>et supernaturali Theologia traditur, vel ei 
+          ali<lb break="no" ed="#P" n="32"/>quid addatur ex Theologia supernaturali.
+        </p>
+        <p xml:id="szduep-000297-d1e144">
+          <lb ed="#P" n="33"/>2. In proposita ergo quaestione, duo vel tria
+          <lb ed="#P" n="34"/>utraque Theologia docet. Unum est, Deum
+          <lb ed="#P" n="35"/>esse : aliud est, necessario esse, seu quod
+          <lb ed="#P" n="36"/>idem est, Deum esse ens simpliciter et omni
+          <lb ed="#P" n="37"/>modo necessarium. Et in his continetur 
+          ter<lb break="no" ed="#P" n="38"/>tium, scilicet, esse ens a se, id est, non 
+          reci<lb break="no" ed="#P" n="39"/>piens ab alio suum esse actualis existentiae, sed
+          <lb ed="#P" n="40"/>ex se illud habere. Haec omnia demonstrata
+          <lb ed="#P" n="41"/>sunt a nobis in secundo tomo Metaphys. par-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>tim disputatione 28. sect. r, plenius vero tota
+          <lb ed="#P" n="43"/>disputation. 29. Has ergo veritates omnes 
+          do<lb break="no" ed="#P" n="44"/>cet etiam fides, ut mox dicemus, neque illis
+          <lb ed="#P" n="45"/>aliquid peculiare addit, praeter ea quae de 
+          per<lb break="no" ed="#P" n="46"/>fectionibus divinis esse postea dicemus. Dico
+          <lb ed="#P" n="47"/>autem sacram doctrinam non addere aliquid
+          <lb ed="#P" n="48"/>dictis veritatibus, quantum ad rem directe 
+          cog<lb break="no" ed="#P" n="49"/>nitam de divino esse seu existentia : nam per
+          <lb ed="#P" n="50"/>modum cujusdam reflexionis supra 
+          cognitio<lb break="no" ed="#P" n="51"/>nem nostram seu circa veritates illas, ut 
+          cog<lb break="no" ed="#P" n="52"/>noscibiles a nobis, videri potest aliquid addere,
+          <lb ed="#P" n="53"/>quamvis re vera solum in omnibus addat 
+          ma<lb break="no" ed="#P" n="54"/>jorem certitudinem, ut ex sequentibus 
+          asser<lb break="no" ed="#P" n="55"/>tionibus constabit.
+        </p>
+        <p xml:id="szduep-000297-d1e200">
+          <lb ed="#P" n="56"/>3. Prima conclusio. — Dico ergo primo:
+          <lb ed="#P" n="57"/>fide catholica tenendum est Deum esse: ita
+          <lb ed="#P" n="58"/>docuit SPIRITUS sanctus per David, Ps. 52,
+          <lb ed="#P" n="59"/>contra insipientem, qui in corde suo divit. Non
+          <lb ed="#P" n="60"/>est Deus. Notat autem Augustinus dixisse in
+          <lb ed="#P" n="61"/>corde, quia vix est qui tam insignem 
+          blasphe<lb break="no" ed="#P" n="62"/>miam coram aliis audeat ore proferre. Adeo
+          <lb ed="#P" n="63"/>autem crevit haereticorum impudentia, ut dum
+          <lb ed="#P" n="64"/>nihil solidum aut stabile in suis erroribus 
+          in<lb break="no" ed="#P" n="65"/>veniant, tandem in atheismum prolabantur, et
+          <lb ed="#P" n="66"/>Deum esse negent, ut Lindanus in sua 
+          Pano<lb break="no" ed="#P" n="67"/>plia latius refert. Hi tamen non audiunt 
+          Pau<lb break="no" ed="#P" n="68"/>lum dicentem: Accedentem ad Deum oportet 
+          cre<lb break="no" ed="#P" n="69"/>dere, quia est, Heb. 11. Sed fortasse dicent
+          <lb ed="#P" n="70"/>Paulum loqui de illis, qui ad Deum accedunt,
+          <lb ed="#P" n="71"/>se autem non accedere ad Deum, quia cum
+          <lb ed="#P" n="72"/>Deum esse non credant, ad Deum accedere non
+          <lb ed="#P" n="73"/>possunt. Hi ergo omnibus paganis et 
+          gentili<lb break="no" ed="#P" n="74"/>bus pejores sunt, nam omnem modum 
+          Reli<lb break="no" ed="#P" n="75"/>gionis tollunt, et omnia fidei fundamenta 
+          ever<lb break="no" ed="#P" n="76"/>tunt, neque scripturas admittere possunt 
+          tan<lb break="no" ed="#P" n="77"/>quam sermonem Dei, qui si non credunt
+          <lb ed="#P" n="78"/>Deum esse, multo minus credent ipsum loqui.
+          <lb ed="#P" n="79"/>Contra hoc ergo supervacaneum est ex 
+          Scrip<lb break="no" ed="#P" n="80"/>turis vel ex aliis locis theologicis 
+          argumen<lb break="no" ed="#P" n="81"/>tari ; sed vel rationibus convincendi sunt, vel
+          <lb ed="#P" n="82"/>si sunt baptizati et pertinaces, igne suadendi.
+          <pb ed="#P" n="2"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>4. Objectio. — Una vero difticultas occurrit,
+          <lb ed="#P" n="2"/>non circa veritatem ipsam, sed circa gradum
+          <lb ed="#P" n="3"/>certitudinis in assertione positum. Quia non
+          <lb ed="#P" n="4"/>videtur fieri posse, ut fide credatur Deum esse.
+          <lb ed="#P" n="5"/>Nam fidei in assensu suo nititur testimonio
+          <lb ed="#P" n="6"/>Apsius DEE ergo ut fides locum habeat, supponi
+          <lb ed="#P" n="7"/>oportet esse Deum ; non ergo per ipsammet
+          <lb ed="#P" n="8"/>fidem credi potest Deum esse. Si enim credo
+          <lb ed="#P" n="9"/>per fidem Deum esse, ergo ideo credo esse, quia
+          <lb ed="#P" n="10"/>ipse dicit se esse ; ergo jam credo vel suppono,
+          <lb ed="#P" n="11"/>ipsum dicere se esse ; ergo suppono vel 
+          assen<lb break="no" ed="#P" n="12"/>tior ipsum esse; ergo impossibile est, quod ex
+          <lb ed="#P" n="13"/>dicto ejusdem Dei, ego credam Deum esse.
+        </p>
+        <p xml:id="szduep-000297-d1e294">
+          <lb ed="#P" n="14"/>5. Resolutio difficultatis. — Haec 
+          difficul<lb break="no" ed="#P" n="15"/>tas tangit illam de ultima resolutione fidei
+          <lb ed="#P" n="16"/>et de principiis, in quibus ipsa fides nititur,
+          <lb ed="#P" n="17"/>quae ad materiam de fide spectat, et huc
+          <lb ed="#P" n="18"/>vocanda non est. Dicendum ergo breviter est,
+          <lb ed="#P" n="19"/>non repugnare assentiri Deum esse, ex 
+          tes<lb break="no" ed="#P" n="20"/>timonio ipsius Dei dicentis : Zgo smm qui
+          <lb ed="#P" n="21"/>sum, et qui est anisit me ad vos, Exod. 3.
+          <lb ed="#P" n="22"/>Potest enim persona, quae latet seu oculis non
+          <lb ed="#P" n="23"/>videtur, auribus audiri, et de se ipsa 
+          testimo<lb break="no" ed="#P" n="24"/>nium perhibere quod sit, vel quod talis sit. Sic
+          <lb ed="#P" n="25"/>Christus, cum Samaritana non cognosceret 
+          il<lb break="no" ed="#P" n="26"/>lum sub ratione Messiae, testimonium de se
+          <lb ed="#P" n="27"/>perhibuit dicens: Ego sum, qui et loquor 
+          te<lb break="no" ed="#P" n="28"/>cum, Joan. 4. Quo testimonio et illam 
+          obliga<lb break="no" ed="#P" n="29"/>esse absoluta necessitate, seu esse ens 
+          simplici<lb break="no" ed="#P" n="30"/>ter necessarium, ita ut existere illi necessario
+          <lb ed="#P" n="31"/>conveniat, de fide est. Haec assertio sequitur ex
+          <lb ed="#P" n="32"/>praecedenti, vel illius sensum declarat: nam in
+          <lb ed="#P" n="33"/>hoc sensu docet fides Deum esse, tanquam 
+          ve<lb break="no" ed="#P" n="34"/>vit ad credendum se esse Messiam, et ad 
+          cre<lb break="no" ed="#P" n="35"/>dendum Messiam esse, qui illud testificabatur,
+          <lb ed="#P" n="36"/>nisi enim auctoritate Messiae illud dictuni 
+          con<lb break="no" ed="#P" n="37"/>firmaretur, fide dignum non effticeretur. 
+          Simi<lb break="no" ed="#P" n="38"/>liter Marci 6, cum Christus supra mare iret ad
+          <lb ed="#P" n="39"/>discipulos laborantes in remigando, et ipsi eum
+          <lb ed="#P" n="40"/>videntes non cognovissent, sed turbati 
+          puta<lb break="no" ed="#P" n="41"/>rent phantasma esse, ipse de se testimonium
+          <lb ed="#P" n="42"/>perhibuit dicens : Fgo sum. temque post 
+          resur<lb break="no" ed="#P" n="43"/>rectionem ingressus ad discipulos dixit eis:
+          <lb ed="#P" n="44"/>Paa vobis, ego sum. Cui voci magis credendum
+          <lb ed="#P" n="45"/>erat quam visui, juxta illud Petri: Habenus
+          <lb ed="#P" n="46"/>firmiorem Propheticum sermonem, etc. Sic ergo
+          <lb ed="#P" n="47"/>Deus revelando fidem, revelat se testificari res
+          <lb ed="#P" n="48"/>credendas, ex quibus una est, Deum esse. Quia
+          <lb ed="#P" n="49"/>potest Deus de se et de suo esse loqui, ac
+          <lb ed="#P" n="50"/>proinde testimonium praebere. In quo quidem
+          <lb ed="#P" n="51"/>testimonio supponitur Deum esse, ut dari 
+          pos<lb break="no" ed="#P" n="52"/>sit, quia non loquitur nisi qui est, ut bene
+          <lb ed="#P" n="53"/>probat argumentum factum ; non tamen 
+          sup<lb break="no" ed="#P" n="54"/>ponitur cognitum ex parte credentis Deum
+          <lb ed="#P" n="55"/>esse ex vi illius testimonii, sed per illum 
+          eum<lb break="no" ed="#P" n="56"/>dem assensum creditur, et Deum esse, et ipsum
+          <lb ed="#P" n="57"/>dicere se esse, quia tanta est divina authoritas
+          <lb ed="#P" n="58"/>taliquemodo proponitur, ut totum id testimonio
+          <lb ed="#P" n="59"/>suo faciat creditu dignissimum, certissima fide.
+        </p>
+        <p xml:id="szduep-000297-d1e396">
+          <lb ed="#P" n="60"/>6. Altera conclusio. — Secundo dico Deum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="61"/>ritatem quandam ita necessariam et 
+          infallibi<lb break="no" ed="#P" n="62"/>lem, ut deficere non possit. ldem ex alio fidei
+          <lb ed="#P" n="63"/>dogmate sequitur a posteriori, quia Deus est
+          <lb ed="#P" n="64"/>immutabilis et aeternus ; ita ergo est, ut initium
+          <lb ed="#P" n="65"/>sui esse vel finem habere non possit, nec 
+          tran<lb break="no" ed="#P" n="66"/>sire ulla ratione de esse ad non esse; et hoc est,
+          <lb ed="#P" n="67"/>esse ens simpliciter necessarium, cui actualis
+          <lb ed="#P" n="68"/>existentia absoluta necessitate inest, ut ita 
+          lo<lb break="no" ed="#P" n="69"/>quamur. Et hoc totum Deus ipse significavit,
+          <lb ed="#P" n="70"/>quando de se singulariter et quasi per 
+          anto<lb break="no" ed="#P" n="71"/>nomasiam aftirmavit: Ego swun qui sum, 
+          sibi<lb break="no" ed="#P" n="72"/>que nomem imposuit : Qui est. Nam per illam
+          <lb ed="#P" n="73"/>absolutam appellationem significata est 
+          per<lb break="no" ed="#P" n="74"/>manentia necessaria et immutabiltas divini
+          <lb ed="#P" n="75"/>esse. Ut notavit Nazianzenus or. 24, quae est 2,
+          <lb ed="#P" n="76"/>in Paschat. et Augustinus lib. de ver. Relig.;
+          <lb ed="#P" n="77"/>cap. 49; Isidorus h. 7 Etymol.; cap. 1. 
+          Hila<lb break="no" ed="#P" n="78"/>rius 1. de Trinitat. et Cyrillus; lib. 1. Thesau.,
+          <lb ed="#P" n="79"/>cap. 6.
+        </p>
+        <p xml:id="szduep-000297-d1e444">
+          <lb ed="#P" n="80"/>Effugium. —Responsum. —Quod si quis dicat
+          <lb ed="#P" n="81"/>in Hebraeo non legi, est, sed qui ero, juxta 
+          He<lb break="no" ed="#P" n="82"/>braicam proprietatem, ut Burgensis ibi et ali
+          <lb ed="#P" n="83"/>notarunt. Respondemus, vel esse 
+          consuetudi<lb break="no" ed="#P" n="84"/>nem illius linguae futurum pro praesente 
+          pone<lb break="no" ed="#P" n="85"/>re, ut Lippomanus ibi respondet; vel quod ad
+          <lb ed="#P" n="86"/>nostrum institutum spectat, non minus illo 
+          fu<lb break="no" ed="#P" n="87"/>turo significari necessitatem essendi Dei quam
+          <lb ed="#P" n="88"/>praesenti, quia ex necessitate essendi sequitur
+          <lb ed="#P" n="89"/>ut semper duraturus sit Deus, quod significatur
+          <lb ed="#P" n="90"/>illo indefinito verbo ero. Ratione veritas haec
+          <lb ed="#P" n="91"/>ostensa est in citato loco Metaphysicae, et 
+          pate<lb break="no" ed="#P" n="92"/>bit ex sequenti assertione.
+        </p>
+        <p xml:id="szduep-000297-d1e475">
+          <lb ed="#P" n="93"/>7. Objectio. — Objici vero potest, quia si
+          <lb ed="#P" n="94"/>Deus ita necessario est, ergo non potest concipi
+          <lb ed="#P" n="95"/>Deus non actu existens ; consequens ostendit
+          <lb ed="#P" n="96"/>falsum Stultus ille, qui in corde suo dizit : Non
+          <lb ed="#P" n="97"/>est Deus. Item sequitur veritatem hanc: Deus
+          <lb ed="#P" n="98"/>est, per se notam esse etiam nobis, quia 
+          nomine<lb break="no" ed="#P" n="99"/>Dei significatur res actu existens ; per se autem
+          <lb ed="#P" n="100"/>et ex ipsis terminis notum est, rem actu 
+          exis<lb break="no" ed="#P" n="101"/>tentem esse; ergo. Haec objectio praebet nobis
+          <lb ed="#P" n="102"/>occasionem illius quaestionis, quam hoc loco
+          <lb ed="#P" n="103"/>omnes tractant, an propositio haec: Deus est,
+          <lb ed="#P" n="104"/>sit per se nota. Sed de illa existimo sufticere
+          <lb ed="#P" n="105"/>quae in dicto loco Metaphys., disput. 26, in fine,
+          <lb ed="#P" n="106"/>dixi. Et summa est, rem per illam 
+          propositio<lb break="no" ed="#P" n="107"/>nem significatam in se et per se notam esse,
+          <lb ed="#P" n="108"/>si ut est in se videatur. Nobis autem non esse
+          <lb ed="#P" n="109"/>per se notam, quia nonconcipimus clare Deum,
+          <lb ed="#P" n="110"/>prout in se est. Et licet apprebendamus signi-
+          <pb ed="#P" n="3"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ficatum illius vocis Deus, non statim in illo
+          <lb ed="#P" n="2"/>videmus vere illi attribui quod sit, quia non
+          <lb ed="#P" n="3"/>statim apparet clare, an vox illa rem veram
+          <lb ed="#P" n="4"/>vel tantum cogitatam significet. Quod 
+          pate<lb break="no" ed="#P" n="5"/>bit respondendo ad objectionem.
+        </p>
+        <p xml:id="szduep-000297-d1e532">
+          <lb ed="#P" n="6"/>8. Responsum. — Ad primum concedo eum,
+          <lb ed="#P" n="7"/>qui non concipit rem actu existentem, non 
+          con<lb break="no" ed="#P" n="8"/>cipere Deum; unde insipiens ille qui dixit : Non
+          <lb ed="#P" n="9"/>est Deus, re vera non concipiebat Deum ut
+          <lb ed="#P" n="10"/>verum ens, nam ille error destruit omnino 
+          co<lb break="no" ed="#P" n="11"/>gnitionem et conceptum Dei : sed concipiebat
+          <lb ed="#P" n="12"/>quid ab aliis significaretur nomine Dei et 
+          pu<lb break="no" ed="#P" n="13"/>tabat non esse nomen rei verae, sed fictae, sicut
+          <lb ed="#P" n="14"/>est chimera ; et hoc modo dicimus illum non
+          <lb ed="#P" n="15"/>habuisse conceptum verum Dei, id est, 
+          tan<lb break="no" ed="#P" n="16"/>quam rei verae et non fictae. At qui cognoscit
+          <lb ed="#P" n="17"/>veritatem illius propositionis : Deus est, per hoc
+          <lb ed="#P" n="18"/>cognoscit rem significatam hac voce Deus, non
+          <lb ed="#P" n="19"/>esse fictam, sed veram : et eo ipso quod vera
+          <lb ed="#P" n="20"/>est talem esse, ut necessario sit.
+        </p>
+        <p xml:id="szduep-000297-d1e568">
+          <lb ed="#P" n="21"/>9. Altera pars objectionis solvitur.— Neque
+          <lb ed="#P" n="22"/>inde sequitur, quod posteriori loco 
+          objicieba<lb break="no" ed="#P" n="23"/>tur, propositionem illam esse nobis per se 
+          no<lb break="no" ed="#P" n="24"/>tam, quia licet haec propositio: Quod necessario
+          <lb ed="#P" n="25"/>habet existentiam actualem, est, sic per se nota,
+          <lb ed="#P" n="26"/>quia auditis et perceptis utrumque terminis,
+          <lb ed="#P" n="27"/>statim apparet inclusio praedicati in subjecto:
+          <lb ed="#P" n="28"/>tamen (si quis recte consideret) illa propositio
+          <lb ed="#P" n="29"/>est per se nota, ut includit conditionem. Quia
+          <lb ed="#P" n="30"/>ex vi illius non affirmatur absolute aliquod
+          <lb ed="#P" n="31"/>existere, sed est veluti conditionalis, si habet
+          <lb ed="#P" n="32"/>existentium, eaistit. Ut ergo absolute et in actu
+          <lb ed="#P" n="33"/>exercito significetur illud subjectum existere,
+          <lb ed="#P" n="34"/>de secundo adjacente (ut adiunt) oportet, ut
+          <lb ed="#P" n="35"/>aliunde supponatur id de quo est sermo, 
+          ne<lb break="no" ed="#P" n="36"/>cessario habere existentiam actualem. Sic ergo
+          <lb ed="#P" n="37"/>licet nos significemus nomine Dei rem 
+          quan<lb break="no" ed="#P" n="38"/>dam, quae necessario est, non est per se notum
+          <lb ed="#P" n="39"/>esse, quia non est per se notum illud, quod illa
+          <lb ed="#P" n="40"/>voce significamus, esse rem veram et non 
+          fic<lb break="no" ed="#P" n="41"/>tam. Quando autem demonstratur aut alter
+          <lb ed="#P" n="42"/>ostenditur veritas illius propositionis, simul
+          <lb ed="#P" n="43"/>demonstratur significatum illius nominis Dei
+          <lb ed="#P" n="44"/>esse verum et non fictum. 
+        </p>
+        <p xml:id="szduep-000297-d1e623">
+          <lb ed="#P" n="45"/>10. Conclusio tertia. — Dico tertio: De fide
+          <lb ed="#P" n="46"/>est, Deum habere ex se existentiam non 
+          recep<lb break="no" ed="#P" n="47"/>tam ab alio. Haec consequens ad duas 
+          praece<lb break="no" ed="#P" n="48"/>dentes, et in ordine ad nos est prior illis, ut in
+          <lb ed="#P" n="49"/>citato loco Metaphys. ostendi. Nos enim prius
+          <lb ed="#P" n="50"/>probamus, esse aliquod ens habens ex se 
+          exis<lb break="no" ed="#P" n="51"/>tentiam non receptam nec causatam ab alio;
+          <lb ed="#P" n="52"/>et inde concludimus ens esse necessarium in
+          <lb ed="#P" n="53"/>existendo, et esse unum tantum, et esse Deum.
+          <lb ed="#P" n="54"/>Et licet in re ipsa non est prius neque 
+          poste<lb break="no" ed="#P" n="55"/>rius, quia sunt idem tamen si secundum ratio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nem loquamur, haec veritas sequitur ex 
+          praece<lb break="no" ed="#P" n="57"/>denti, quia haec ultra praecedentem solum addit
+          <lb ed="#P" n="58"/>negationem dependentiae ab alio, seu 
+          causali<lb break="no" ed="#P" n="59"/>tatis vel receptionis existentiae ; positivum 
+          au<lb break="no" ed="#P" n="60"/>tem est prius negatione, et quasi 
+          fundamen<lb break="no" ed="#P" n="61"/>tum ejus. Deus ergo ita est, ut ex se summa
+          <lb ed="#P" n="62"/>necessitate sibi vendicet esse ; hinc autem fit,
+          <lb ed="#P" n="63"/>ut illud esse ab alio non habeat, nec in eoa 
+          quo<lb break="no" ed="#P" n="64"/>quam pendeat.
+        </p>
+        <p xml:id="szduep-000297-d1e671">
+          <lb ed="#P" n="65"/>11. Quod vero attinet ad certitudinem fidei,
+          <lb ed="#P" n="66"/>cum haec in re idem sint, licet a nobis 
+          distin<lb break="no" ed="#P" n="67"/>guantur et diversis verbis declarentur, eisdem
+          <lb ed="#P" n="68"/>testimonns, quibus probatur prior veritas, haec
+          <lb ed="#P" n="69"/>etiam convincitur. Unde quod Deus dixit : Fgo
+          <lb ed="#P" n="70"/>swn qui swum, perinde est ac si dixisset : Ex.
+          <lb ed="#P" n="71"/>me habeo Ego, ut sim. Praeterea saepe 
+          scrip<lb break="no" ed="#P" n="72"/>tura docet, Deum nulla re indigere, neque ab
+          <lb ed="#P" n="73"/>alio ditari posse, neque esse creatum, neque
+          <lb ed="#P" n="74"/>factum, imo ipsum esse factorem visibilium
+          <lb ed="#P" n="75"/>et invisibilium, ut in symbolo fidei legimus.
+          <lb ed="#P" n="76"/>Est ergo ens ex se habens esse. Tandem hoc
+          <lb ed="#P" n="77"/>sensu docet fides, dari in Deo quandam 
+          per<lb break="no" ed="#P" n="78"/>sonam ingenitam , quae auctorem vel 
+          princi<lb break="no" ed="#P" n="79"/>pium non habeat, ut infra tractantes de 
+          Trini<lb break="no" ed="#P" n="80"/>tate videbimus; ergo eodem modo est de fide,
+          <lb ed="#P" n="81"/>Deum esse improductum ut Deus est. Praeterea
+          <lb ed="#P" n="82"/>est ratio theologica, quia si haberet esse ab
+          <lb ed="#P" n="83"/>alio, vel haberet ab alio Deo, et ita essent 
+          plu<lb break="no" ed="#P" n="84"/>res Dii, vel ab alio meliori quam sit Deus, et
+          <lb ed="#P" n="85"/>sic iste non est Deus, vel ab alio inferiori, quod
+          <lb ed="#P" n="86"/>esse non potest, ut per se notum est.
+        </p>
+        <p xml:id="szduep-000297-d1e721">
+          <lb ed="#P" n="87"/>13. Dubium.— Resolvitur. — Hic vero 
+          oc<lb break="no" ed="#P" n="88"/>currebat diflicultas de divinis personis, quae
+          <lb ed="#P" n="89"/>recipiunt esse ab alia persona, quomodo 
+          pos<lb break="no" ed="#P" n="90"/>sint esse verus Deus, si de ratione Dei est 
+          ha<lb break="no" ed="#P" n="91"/>bere esse a se, et non ab alio. Sed de hoc in
+          <lb ed="#P" n="92"/>tractatu de Trinitate ex professo agendum est,
+          <lb ed="#P" n="93"/>libro secundo, capite secundo. Nunc breviter
+          <lb ed="#P" n="94"/>dicimus, hic solum esse sermonem de Deo ut
+          <lb ed="#P" n="95"/>Deus est, seu de divina natura ut sic; et hanc
+          <lb ed="#P" n="96"/>dicimus non esse factam, nec productam 
+          pro<lb break="no" ed="#P" n="97"/>prie in aliqua persona, licet in quibusdam sit
+          <lb ed="#P" n="98"/>communicata ab alia persona, quod non 
+          repu<lb break="no" ed="#P" n="99"/>gnat tali naturae neque illius esse.
+        </p>
+        <p xml:id="szduep-000297-d1e752">
+          <lb ed="#P" n="100"/>13. Conclusio quarta. — Dico quarto valde
+          <lb ed="#P" n="101"/>consentaneum fidei esse, posse naturali 
+          dis<lb break="no" ed="#P" n="102"/>cursu demonstrari Deum esse, et hoc negare
+          <lb ed="#P" n="103"/>temerarium esset et errori proximum. Quoad
+          <lb ed="#P" n="104"/>hoc dicebam, videri posse aliquid addi per 
+          re<lb break="no" ed="#P" n="105"/>velationem et doctrinam fidei, circa veritatem
+          <lb ed="#P" n="106"/>hanc; re tamen vera, si res attente consideretur,
+          <lb ed="#P" n="107"/>solum additur nova certitudo vel peculiaris
+          <lb ed="#P" n="108"/>modus cognoscendi. Namsi verumest, ut revera
+          <lb ed="#P" n="109"/>est, ratione naturali demonstrari Deum esse,
+          <lb ed="#P" n="110"/>eadem ratione ostenditur hoc esse demonstra-
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bile et cognoscibile naturaliter, nam ab actu
+          <lb ed="#P" n="2"/>ad potentiam bona est illatio: si ergo 
+          demons<lb break="no" ed="#P" n="3"/>tratur, demonstrabile est et cognoscibile 
+          na<lb break="no" ed="#P" n="4"/>turaliter. Item lux se ipsam manifestat, et qui
+          <lb ed="#P" n="5"/>vere scit etiam scit se scire ; si ergo ratione
+          <lb ed="#P" n="6"/>naturali scimus Deum esse, etiam scimus nos
+          <lb ed="#P" n="7"/>hoc scire et demonstrare. Ergo etiam quoad
+          <lb ed="#P" n="8"/>hanc partem nihil docet fides, quod ratio non
+          <lb ed="#P" n="9"/>ostendat.
+        </p>
+        <p xml:id="szduep-000297-d1e802">
+          <lb ed="#P" n="10"/>14. Quod autem hoc ad doctrinam fidei 
+          per<lb break="no" ed="#P" n="11"/>tineat, ut in assertione dicitur, docet aperte
+          <lb ed="#P" n="12"/>D. Thomas 1. contra gentes, cap. 11 et 12. Ubi
+          <lb ed="#P" n="13"/>contrariam doctrinam erroneam appellat, 
+          idem<lb break="no" ed="#P" n="14"/>que censent communiter expositores D. 
+          Tho<lb break="no" ed="#P" n="15"/>mae, quos ego in Metaphys. secutus sum. Quia
+          <lb ed="#P" n="16"/>hoc videntur satis clare docere Paulus et 
+          Sa<lb break="no" ed="#P" n="17"/>piens locis citatis.
+        </p>
+        <p xml:id="szduep-000297-d1e823">
+          <lb ed="#P" n="18"/>15. Aliquorum eapositio. — Non desunt
+          <lb ed="#P" n="19"/>autem moderni, qui hanc probationem ex illis
+          <lb ed="#P" n="20"/>locis ut frivolam rejiciant, quia putant 
+          satis<lb break="no" ed="#P" n="21"/>fieri testimoniis Pauli et Sapientis, dicendo
+          <lb ed="#P" n="22"/>posse veritatem hanc ex creaturis multum 
+          sua<lb break="no" ed="#P" n="23"/>deri et cum magna probabilitate, etiam si
+          <lb ed="#P" n="24"/>assensum evidentem non efficiat. Quia illa 
+          per<lb break="no" ed="#P" n="25"/>suasio est satis, ut sint inexcusabiles, quia non
+          <lb ed="#P" n="26"/>assentiuntur vel Deum non glorificant ut 
+          ve<lb break="no" ed="#P" n="27"/>rum Deum, et ut dicatur haec veritas 
+          manifes<lb break="no" ed="#P" n="28"/>tari, notificari aut conspici modo humano ex
+          <lb ed="#P" n="29"/>creaturis.
+        </p>
+        <p xml:id="szduep-000297-d1e852">
+          <lb ed="#P" n="30"/>16. Rejicitur. — Sed non probo 
+          expositio<lb break="no" ed="#P" n="31"/>nem. Primo, quia verba sunt valde clara in
+          <lb ed="#P" n="32"/>omni proprietate intellecta, et materia non
+          <lb ed="#P" n="33"/>obstat, imo juvat, ut proprietas verborum 
+          te<lb break="no" ed="#P" n="34"/>neatur. Item Sapiens non est contentus uti
+          <lb ed="#P" n="35"/>verbo videndi sed addidit: Cognoscibiliter videri
+          <lb ed="#P" n="36"/>poterat. Paulus autem tot verba repetit, qua
+          <lb ed="#P" n="37"/>claram cognitionem significant, ut non possit
+          <lb ed="#P" n="38"/>convenienter imitari ; nam primo vocat notum
+          <lb ed="#P" n="39"/>Dei, ubi Anselmus: Notumn Dei (inquit) est,
+          <lb ed="#P" n="40"/>quod naturali ingenio sciri potest de Deo. Hoc
+          <lb ed="#P" n="41"/>autem de Deo naturaliter sciri potest, quod ipse
+          <lb ed="#P" n="42"/>sit Deus. Unde addit Paulus : Hoc essse 
+          mani<lb break="no" ed="#P" n="43"/>festum, et quod Deus illis manifestavit. Deinde
+          <lb ed="#P" n="44"/>addit intellecta conspici, ubi Hieronymus:
+          <lb ed="#P" n="45"/>Tam evidenter (uinquit) intellecta sunt, ut 
+          cons<lb break="no" ed="#P" n="46"/>pecta dicantur. Vtem insinuant ibi 
+          Chrysosto<lb break="no" ed="#P" n="47"/>mus et Graeci et clarius Beda cum 
+          Augus<lb break="no" ed="#P" n="48"/>tino, cujus varia loca refert, estque optimus
+          <lb ed="#P" n="49"/>tractatus secundus in Joan: Deus (inquit) potest
+          <lb ed="#P" n="50"/>inveniri per creaturam evidenter, dicente 
+          Apos<lb break="no" ed="#P" n="51"/>tolo : Invisibilia enim ipsius, etc. Idem optime
+          <lb ed="#P" n="52"/>in libro soliloquiorum, c. 31, et lib. 10. 
+          con<lb break="no" ed="#P" n="53"/>ession., cap. 6,
+        </p>
+        <p xml:id="szduep-000297-d1e907">
+          <lb ed="#P" n="54"/>17. Communis sententia. — Praeterea est
+          <lb ed="#P" n="55"/>haec communis sententia Patrum, ut constat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ex Dionysio, cap. 7, de Divinis nominibus,
+          <lb ed="#P" n="57"/>Chrysostomo homilia 9 et 10 ad populum,
+          <lb ed="#P" n="58"/>Gregorio lib. 29, Moralium, cap. 2 in id Job.
+          <lb ed="#P" n="59"/>36: Omnes homines vident eum, unusqui sque 
+          in<lb break="no" ed="#P" n="60"/>tuetur procul. Ubi idem testatur Hieronimus in
+          <lb ed="#P" n="61"/>Commentar. Job illi attributis. Ilemque habet
+          <lb ed="#P" n="62"/>in Epistol. ad Galatas ; idem sentit 
+          Damas<lb break="no" ed="#P" n="63"/>cenus 1. 1. de fide, cap. 1 et 2.; et 
+          Nazian<lb break="no" ed="#P" n="64"/>zenus oratione 24., ubi ait de Patre, id est, de
+          <lb ed="#P" n="65"/>Deo, (ut est principium non productum, nec
+          <lb ed="#P" n="66"/>factum ab alio) : /nsitam esse hominibus 
+          natura<lb break="no" ed="#P" n="67"/>lem cognitionem ; ait vero esse a natura insitam,
+          <lb ed="#P" n="68"/>quia per naturalem discursum comparatur, ut
+          <lb ed="#P" n="69"/>ipse exposuit oratione 34, quae est secunda de
+          <lb ed="#P" n="70"/>Theolog. Ubi interpres, pro discursu vel 
+          ra<lb break="no" ed="#P" n="71"/>tiocinatione, conjectura assequi, posuit;sed vox
+          <lb ed="#P" n="72"/>Graeca proprie est sillogizare et ratiocimari ;
+          <lb ed="#P" n="73"/>qualis autem haec ratio sit, ex alio loco satis
+          <lb ed="#P" n="74"/>colligitur, scilicet, esse tam claram et 
+          aper<lb break="no" ed="#P" n="75"/>tam, ut ea ratione a natura insita dicatur talis
+          <lb ed="#P" n="76"/>conclusio, scilicet Deu esse. Idem plane docet
+          <lb ed="#P" n="77"/>Justinus ad quaestionem 6 a Gentibus 
+          proposi<lb break="no" ed="#P" n="78"/>tam, et Athanasius oratione contra Idola, et
+          <lb ed="#P" n="79"/>Cyprianus de Idolorum vanitate, ubi hac 
+          ra<lb break="no" ed="#P" n="80"/>tione dicit, Deum ignorari non posse, et alii
+          <lb ed="#P" n="81"/>passim. Denique eodem modo sentiunt 
+          Scho<lb break="no" ed="#P" n="82"/>lastici, S. Thomas cum suis sectatoribus, 
+          Ca<lb break="no" ed="#P" n="83"/>jetanus, Ferrariensis, Capreolus et alii moderni,
+          <lb ed="#P" n="84"/>Alens. 1. p., qu. 2, M. 2, art. 1; 
+          Albertusinsum<lb break="no" ed="#P" n="85"/>ma p.1, qu. 17; Henricus in summa artic. 22
+          <lb ed="#P" n="86"/>qu. 4; Marsilus 1. qu. 5, art. 1; Scotus 
+          Ri<lb break="no" ed="#P" n="87"/>chardus et alii in 1, distinction. 2 et 3. Qui
+          <lb ed="#P" n="88"/>fere omnes fundantur in verbis Pauli, de quibus
+          <lb ed="#P" n="89"/>etiam videri possunt ibi Toletus et Pereira, qui
+          <lb ed="#P" n="90"/>constantissime hanc intelligentiam confirmant.
+        </p>
+        <p xml:id="szduep-000297-d1e992">
+          <lb ed="#P" n="91"/>18. Ego vel maxime, quod scripturae sanctae
+          <lb ed="#P" n="92"/>seepe utuntur argumento ex creaturis desumpto
+          <lb ed="#P" n="93"/>ad confundendos idololatras et gentiles 
+          agnos<lb break="no" ed="#P" n="94"/>centes verum Deum, ut videre maxime licet in
+          <lb ed="#P" n="95"/>Psalmis praesertim 18, 88, 140, 148 et in 113
+          <lb ed="#P" n="96"/>ab illis verbis : Neguando dicant gentes, ubi est
+          <lb ed="#P" n="97"/>Deus eorum? Deus autem noster in colo, omnia
+          <lb ed="#P" n="98"/>quecumque voluit, fecit. n hibro etiam Job, 
+          a<lb break="no" ed="#P" n="99"/>cap. 38. Deus ipse ex operibus suis, quae 
+          latis<lb break="no" ed="#P" n="100"/>sime recenset, seipsum demonstrat. Unde 
+          Pau<lb break="no" ed="#P" n="101"/>lus Act. 14, inquit: Non sine testimonio reliquit
+          <lb ed="#P" n="102"/>semetipsum, dans eis pluvias, etc. Sentiens illud
+          <lb ed="#P" n="103"/>esse efficacissimum testimonium, ut 
+          ignoran<lb break="no" ed="#P" n="104"/>tes Deum vel ipsum non colentes, reddantur
+          <lb ed="#P" n="105"/>inexcusabiles. Unde, Act. 17, praedicaturus 
+          Athe<lb break="no" ed="#P" n="106"/>niensibus, tacite arguendo, supponit Deum
+          <lb ed="#P" n="107"/>esse, ita ut non possent resistere : Deus (
+          in<lb break="no" ed="#P" n="108"/>quit) qui fecit mundum et omnia, quae in eo
+          <lb ed="#P" n="109"/>sunt, hic caeli et terre cum sit Dominus, etc.
+          <lb ed="#P" n="110"/>Reputabat ergo Paulus tam evidens testimo-
+          <pb ed="#P" n="5"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nium hoc creaturarum, ut ethnici ipsi 
+          con<lb break="no" ed="#P" n="2"/>tradicere non possent. Tandem posset hoc
+          <lb ed="#P" n="3"/>ostendi afferendo demonstrationem, sed hoc
+          <lb ed="#P" n="4"/>fuse prestitimus disputatione 29 
+          Metaphy<lb break="no" ed="#P" n="5"/>sicae.
+        </p>
+        <p xml:id="szduep-000297-d1e1053">
+          <lb ed="#P" n="6"/>19. Objectio. — Solum posset objici, quia
+          <lb ed="#P" n="7"/>quae evidenter demonstrantur negari non 
+          pos<lb break="no" ed="#P" n="8"/>sunt; at multi negarunt Deum esse, etiam ex
+          <lb ed="#P" n="9"/>his qui sibi sapientes videbantur, et 
+          Philoso<lb break="no" ed="#P" n="10"/>phorumrationes intellexisse, ut referunt Cicero
+          <lb ed="#P" n="11"/>1 de natura Deorum, Plutarchus lib. 1 de 
+          Pla<lb break="no" ed="#P" n="12"/>cit. Lactantius libro1 de divin. Institut. et ali.
+          <lb ed="#P" n="13"/>Ergo signum est, rationes illas non esse 
+          evi<lb break="no" ed="#P" n="14"/>dentes: item ut homines ductu 
+          rationistenean<lb break="no" ed="#P" n="15"/>tur assentiri Deum esse, non est necessaria
+          <lb ed="#P" n="16"/>demonstratio, alias pauci possent habere illum
+          <lb ed="#P" n="17"/>assensum, quia pauci sunt qui philosophicis
+          <lb ed="#P" n="18"/>discursibus intendant, et pauciores qui illorum
+          <lb ed="#P" n="19"/>vim penetrent : ergo non oportet intelligere
+          <lb ed="#P" n="20"/>Scripturam de cognitione evidente, sed de illa,
+          <lb ed="#P" n="21"/>quae ad operandum humano modo sufficiat.
+          <lb ed="#P" n="22"/>Tandem alias quomodo sapientes christiani
+          <lb ed="#P" n="23"/>philosophi poterunt habere fidem hujus 
+          veri<lb break="no" ed="#P" n="24"/>tatis, si illius habent evidentiam?
+        </p>
+        <p xml:id="szduep-000297-d1e1097">
+          <lb ed="#P" n="25"/>20. Ad primam partem respondetur. — Ad
+          <lb ed="#P" n="26"/>primum respondeo primo, non negasse 
+          verita<lb break="no" ed="#P" n="27"/>tem hanc demonstratam, nisi qui attente illius
+          <lb ed="#P" n="28"/>demonstrationem considerare noluerunt, aut
+          <lb ed="#P" n="29"/>non potuerunt : vel ex defectu doctrinae et 
+          in<lb break="no" ed="#P" n="30"/>genii, vel ex aliqua nimia cupiditate, qua 
+          prae<lb break="no" ed="#P" n="31"/>sertim obcaecantur politici nostri temporis,
+          <lb ed="#P" n="32"/>qui in Atheismum declinant. Secundo dicimus,
+          <lb ed="#P" n="33"/>non omnem demonstrationem esse aeque 
+          fa<lb break="no" ed="#P" n="34"/>cilem et notam : aliqua enim est vera 
+          de<lb break="no" ed="#P" n="35"/>monstratio quia, quae de se intellectum bene
+          <lb ed="#P" n="36"/>dispositum convincit : non est tamen tam 
+          cla<lb break="no" ed="#P" n="37"/>ra, quin protervus possit resilire ; semper 
+          ta<lb break="no" ed="#P" n="38"/>men hoc provenit ex aliqua caecitate mentis
+          <lb ed="#P" n="39"/>nolentis considerare vim praemissarum vel
+          <lb ed="#P" n="40"/>illationis. Unde Nazianzenus, orat. 2 Theol.:
+          <lb ed="#P" n="41"/>Niünis (inquit) absurdus et praeposterus est, qui
+          <lb ed="#P" n="42"/>non cedit argumentis naturalibus, et inficiatur
+          <lb ed="#P" n="43"/>Dewn esse.
+        </p>
+        <p xml:id="szduep-000297-d1e1142">
+          <lb ed="#P" n="44"/>21. Ad alteram partem satisfit. — Ad 
+          se<lb break="no" ed="#P" n="45"/>cundum respondemus primo, ideo Deum 
+          pro<lb break="no" ed="#P" n="46"/>vidisse, ut homines fide potius quam 
+          na<lb break="no" ed="#P" n="47"/>turali discursu ambularent, quia ille infirmus
+          <lb ed="#P" n="48"/>est, et non potest omnibus esse communis.
+          <lb ed="#P" n="49"/>Secundo dico, si fingamus homines in pura
+          <lb ed="#P" n="50"/>natura sine fidei revelatione , necessarium
+          <lb ed="#P" n="51"/>fuisse ut vulgus hominum ignorantium et
+          <lb ed="#P" n="52"/>simplicium crederet suis majoribus, quod in
+          <lb ed="#P" n="53"/>hac veritate esset facillimum et conveniens:
+          <lb ed="#P" n="54"/>facile quidem, quia licet non posset omnibus
+          <lb ed="#P" n="55"/>res esse perfecte nota, tamen ipsa veritas pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>posita cum aliquali declaratione ex effectibus
+          <lb ed="#P" n="57"/>notissimis, est per se credibilis ac valde 
+          pro<lb break="no" ed="#P" n="58"/>babilis; conveniens autem esset, quia in re
+          <lb ed="#P" n="59"/>tam gravi non expediret unumquemque de
+          <lb ed="#P" n="60"/>populo duci suo solo judicio et apparenti 
+          veri<lb break="no" ed="#P" n="61"/>similitudine, oporteret ergo sapientibus et
+          <lb ed="#P" n="62"/>majoribus fidem habere. Talis autem fides 
+          re<lb break="no" ed="#P" n="63"/>mote niteretur in certa assertione aliorum,
+          <lb ed="#P" n="64"/>quae non posset esse ita certa, nisi esset etiam
+          <lb ed="#P" n="65"/>evidens.
+        </p>
+        <p xml:id="szduep-000297-d1e1194">
+          <lb ed="#P" n="66"/>22. Ad 3 partem objectionis respondetur. —
+          <lb ed="#P" n="67"/>De tertia objectione non est hic dicendi locus.
+          <lb ed="#P" n="68"/>Breviter ergo dico, certitudinem fidei esse 
+          ma<lb break="no" ed="#P" n="69"/>jorem quam sit certitudo genita ex 
+          demon<lb break="no" ed="#P" n="70"/>stratione, quod Deus sit, et ex hac parte potest
+          <lb ed="#P" n="71"/>philosophus christianus per fidem credere,
+          <lb ed="#P" n="72"/>Deum esse, firmius quam per suam scientiam.
+          <lb ed="#P" n="73"/>Non eliciendo unum actum, qui habeat 
+          evi<lb break="no" ed="#P" n="74"/>dentiam scientiae et certitudinem fidei (ut 
+          qui<lb break="no" ed="#P" n="75"/>dam dicunt, id enim impossibile est, cum illae
+          <lb ed="#P" n="76"/>proprietates sint diversorum ordinum, 
+          natura<lb break="no" ed="#P" n="77"/>lis et supernaturahs, et sint ex diversis motivis,
+          <lb ed="#P" n="78"/>quae sufficiunt ad actus specie diversos); sed 
+          eli<lb break="no" ed="#P" n="79"/>ciendo actus plures, quorum unus liber est
+          <lb ed="#P" n="80"/>quoad specificationem, alter necessarius ; unus
+          <lb ed="#P" n="81"/>evidens, alius obscurus ex ratione sua, quia
+          <lb ed="#P" n="82"/>illa major certitudo non ex claritate est, sed
+          <lb ed="#P" n="83"/>ex motivo obscuro, accedente voluntate. Et
+          <lb ed="#P" n="84"/>ideo unus manet semper actus scientiae 
+          natu<lb break="no" ed="#P" n="85"/>ralis, alter vero actus supernaturalis fidei, sive
+          <lb ed="#P" n="86"/>actus illi possint simul exerceri, sive tantum
+          <lb ed="#P" n="87"/>diversis temporibus, quod ad praesens nihil
+          <lb ed="#P" n="88"/>refert.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

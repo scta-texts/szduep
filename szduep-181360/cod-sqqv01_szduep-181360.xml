@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="717"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-181360"><!-- t3-l8c3 -->
+        <head xml:id="szduep-181360-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-181360-Hd1e103" type="question-title">Utrum sit proprium primae personae, esse principium deitatis</head>
+        <p xml:id="szduep-181360-d1e106">
+          <lb ed="#P" n="39"/>CAPUT III.
+          <lb ed="#P" n="40"/>UTRUM SIT PROPRIUM PRIMAE PERSONAE, ESSE 
+          PRIN<lb break="no" ed="#P" n="41"/>CIPIUM DEITATIS.
+        </p>
+        <p xml:id="szduep-181360-d1e115">
+          <lb ed="#P" n="42"/>1. Patres uti illa locutione. — Haec locutio
+          <lb ed="#P" n="43"/>est frequens apud Patres, et nonnullam habet
+          <lb ed="#P" n="44"/>obscuritatem, et ideo explicanda est, simulque
+          <lb ed="#P" n="45"/>declarabimus alias locutiones, vel attributa,
+          <lb ed="#P" n="46"/>quae de Patre dici solent. Reperitur ergo illa
+          <lb ed="#P" n="47"/>locutio apud Dionysium, cap. 3, de divinis
+          <lb ed="#P" n="48"/>Nominibus, ubi Patrem vocat fontem ceelestis
+          <lb ed="#P" n="49"/>divinitatis. Ita etiam loquitur Augustinus 4,
+          <lb ed="#P" n="50"/>de Trinitate, cap. 2, circa finem, et Athanasius,
+          <lb ed="#P" n="51"/>orat. contra Gregales Sabellii. Imo Concilium
+          <lb ed="#P" n="52"/>Toletanum 11, in Confessione fidei, vocat fon-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tem et originem totius Deitatis. Idem 
+          Conci<lb break="no" ed="#P" n="54"/>lium Florentinum, sess. 24, in litteris unionis.
+          <lb ed="#P" n="55"/>Difficilius Concilium Wormaciense, in Confess.
+          <lb ed="#P" n="56"/>fidei, Patrem vocat principiumtotius Trinitatis.
+        </p>
+        <p xml:id="szduep-181360-d1e152">
+          <lb ed="#P" n="57"/>2. Difficultates circa illum. — Duo ergo 
+          ex<lb break="no" ed="#P" n="58"/>plicanda sunt. Primum, quomodo possit Pater
+          <lb ed="#P" n="59"/>esse principium Deitatis, cum Deitas non 
+          pro<lb break="no" ed="#P" n="60"/>cedat, nec generetur : aut Trinitas, cum 
+          re<lb break="no" ed="#P" n="61"/>pugnet totam Trinitatem habere principium:
+          <lb ed="#P" n="62"/>alioqui esset ab illo distincta, nam principium
+          <lb ed="#P" n="63"/>et quod est a principio, distincta sunt. 
+          Secun<lb break="no" ed="#P" n="64"/>dum est, cur esse principium in divinitate 
+          spe<lb break="no" ed="#P" n="65"/>cialiter attribuatur Patri, cum etiam Filius vere,
+          <lb ed="#P" n="66"/>ac proprie sit principium ad intra, ut definit
+          <lb ed="#P" n="67"/>Concilium Florentinum, et in sequentibus late
+          <lb ed="#P" n="68"/>videbimus.
+        </p>
+        <p xml:id="szduep-181360-d1e182">
+          <lb ed="#P" n="69"/>3. Ad primam difficultatem. — Ad priorem
+          <lb ed="#P" n="70"/>partem respondent D. Thomas et caeteri 
+          theo<lb break="no" ed="#P" n="71"/>logi, Patrem non appellari principium 
+          Deita<lb break="no" ed="#P" n="72"/>tis, eo quod ipsam Deitatem producat, sed quia
+          <lb ed="#P" n="73"/>Deitatem communicat. Unde nomen Deitatis,
+          <lb ed="#P" n="74"/>in illa locutione positum , non significat 
+          pro<lb break="no" ed="#P" n="75"/>prium terminum relationis principii, ut constat,
+          <lb ed="#P" n="76"/>quia ille terminus debet esse realiter distinctus
+          <lb ed="#P" n="77"/>a principio, sed significat formalem terminum,
+          <lb ed="#P" n="78"/>seu naturam, in qua tale principium sese 
+          com<lb break="no" ed="#P" n="79"/>municat. Ita fere exponunt Magister, et cum
+          <lb ed="#P" n="80"/>ipso alii scholastici in 1, dist. 29. Qui dicunt,
+          <lb ed="#P" n="81"/>Patrem vocari principium totius Deitatis, quia
+          <lb ed="#P" n="82"/>est principium omnis personae, cui per 
+          origi<lb break="no" ed="#P" n="83"/>nem communicatur divinitas. Principium 
+          au<lb break="no" ed="#P" n="84"/>tem Trinitatis dicitur, non quia tota Trinitas,
+          <lb ed="#P" n="85"/>aut omnes ejus personae ab eo procedant : hoc
+          <lb ed="#P" n="86"/>enim plane falsum est, ut ratio facta probat,
+          <lb ed="#P" n="87"/>sed quia multiplicatio personarum Trinitatis
+          <lb ed="#P" n="88"/>ab illo ducit originem. Est ergo principium
+          <lb ed="#P" n="89"/>Trinitatis, non condistinctum ab illa, sed in ea
+          <lb ed="#P" n="90"/>inclusum, tanquam prima persona , quae est
+          <lb ed="#P" n="91"/>aliarum fons et principium. Inter has autem
+          <lb ed="#P" n="92"/>duas locutiones, haec posterior minus usitata
+          <lb ed="#P" n="93"/>est, et ideo non est usurpanda, vel clarioribus
+          <lb ed="#P" n="94"/>verbis explicanda est. Prior vero adeo jam
+          <lb ed="#P" n="95"/>vulgaris est inter Patres et theologos in hac
+          <lb ed="#P" n="96"/>materia, ejusque sensus ita ex usu declaratus
+          <lb ed="#P" n="97"/>est, ut licet in rigore verborum videatur 
+          ha<lb break="no" ed="#P" n="98"/>bere aliquam improprietatem, sine scrupulo
+          <lb ed="#P" n="99"/>usurpari possit.
+        </p>
+        <p xml:id="szduep-181360-d1e252">
+          <lb ed="#P" n="100"/>4. Ad secundam difficultatem.—Ad alteram
+          <lb ed="#P" n="101"/>partem propositam respondendum est ex 
+          doc<lb break="no" ed="#P" n="102"/>trina Patrum, principium generaliter 
+          sump<lb break="no" ed="#P" n="103"/>tum non esse proprium attributum Paíris, ut
+          <lb ed="#P" n="104"/>ratio facta probat, et sumitur ex capite 
+          Fir<lb break="no" ed="#P" n="105"/>miter, de summa Trinitate, et Augustino 15,
+          <lb ed="#P" n="106"/>de Trinitate, cap. 13. Nihilominus tamen esse
+          <lb ed="#P" n="107"/>grincipium sine principio, seu esse principium
+          <pb ed="#P" n="718"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>primum in illo ordine, est Patri proprium.
+          <lb ed="#P" n="2"/>Nam Filius est principium de principio. lttem
+          <lb ed="#P" n="3"/>Filius est principium tantum unius 
+          processio<lb break="no" ed="#P" n="4"/>nis. Pater autem est principium universale
+          <lb ed="#P" n="5"/>in illo ordine, scilicet omnis processionis, quae.
+          <lb ed="#P" n="6"/>intra Deum esse potest. Unde ad hoc 
+          signifi<lb break="no" ed="#P" n="7"/>candum vocant etiam sancti primam 
+          perso<lb break="no" ed="#P" n="8"/>nam fontem Deitatis, et Bonaventura, loco 
+          su<lb break="no" ed="#P" n="9"/>pracitato, dixit in eo esse fontalem plenitudinem:
+          <lb ed="#P" n="10"/>nam foecunditas divinae naturae in illo est per
+          <lb ed="#P" n="11"/>se et sine dimanatione: et ideo in illo est ad
+          <lb ed="#P" n="12"/>omnem actum illius foecunditatis: in Verbo
+          <lb ed="#P" n="13"/>autem est per processionem a Patre, et ideo
+          <lb ed="#P" n="14"/>non est ad omnem productionem ad intra.
+        </p>
+        <p xml:id="szduep-181360-d1e307">
+          <lb ed="#P" n="15"/>5. Pater appellatur Origo. — Radix. —
+          <lb ed="#P" n="16"/>Auctor. — Initium. — Hoc etiam solius 
+          expli<lb break="no" ed="#P" n="17"/>cant sancti nomine Originis tribuentes Patri,
+          <lb ed="#P" n="18"/>quod sit Origo personarum , ut videre licet
+          <lb ed="#P" n="19"/>in Concilio Toletano 6, in Cont. fidei. Ibi 
+          au<lb break="no" ed="#P" n="20"/>tem origo non sumitur pro ipsa professione,
+          <lb ed="#P" n="21"/>ut apud scholasticos accipi solet, sed pro 
+          prin<lb break="no" ed="#P" n="22"/>cipio primo omnis processionis. Hinc etiam
+          <lb ed="#P" n="23"/>Chrysostomus, orat. 9, in fine quinti tomi, 
+          Pa<lb break="no" ed="#P" n="24"/>trem vocat radicem sancti illius fructus. 
+          Au<lb break="no" ed="#P" n="25"/>gustinus 3, contra Maxim. , cap. 14, vocat
+          <lb ed="#P" n="26"/>auctorem. Quam vocem interpretans divus
+          <lb ed="#P" n="27"/>Thomas, q. 32, art. 1. dicit. idem significare,
+          <lb ed="#P" n="28"/>quod principium primum. Verum est, 
+          Hila<lb break="no" ed="#P" n="29"/>rium 2 et 4, de Trinitate, etiam Filium vocare
+          <lb ed="#P" n="30"/>auctorem Spiritus sancti. Et ideo Phebadius,
+          <lb ed="#P" n="31"/>libro contra Arianos, Patrem vocat auctorem
+          <lb ed="#P" n="32"/>sine auctore. Denique idem sensit 
+          Bonaventu<lb break="no" ed="#P" n="33"/>ra, in 1. dist. 29, art. 1, queest. 1, ad 2. de
+          <lb ed="#P" n="34"/>hae voce initium, nimirum, si sumatur pro
+          <lb ed="#P" n="35"/>primo principio, tribui posse Patri. Tamen
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="36"/>quia illa non est propria et usitata significatio
+          <lb ed="#P" n="37"/>illius vocis, nam magis videtur significare 
+          du<lb break="no" ed="#P" n="38"/>rationis, aut existentiae initium, ideo cavenda
+          <lb ed="#P" n="39"/>est : nam potest generare suspectum sensum.
+          <lb ed="#P" n="40"/>Unde Concilia potius negative loquuntur 
+          di<lb break="no" ed="#P" n="41"/>centia, divinas personas non habere initium
+          <lb ed="#P" n="42"/>sui esse. Quod etiam ex Hilario4, de Trinit., 
+          no<lb break="no" ed="#P" n="43"/>tarunt Magister, et D. Thomas in illa dist. 29.
+        </p>
+        <p xml:id="szduep-181360-d1e375">
+          <lb ed="#P" n="44"/>6. Corollarium.—De nomine principii.—Ex
+          <lb ed="#P" n="45"/>quibus omnibus constat, per omnes has voces
+          <lb ed="#P" n="46"/>non significari novam proprietatem, vel 
+          notio<lb break="no" ed="#P" n="47"/>nem Patris. Quia per illa omnia attributa solum
+          <lb ed="#P" n="48"/>manifestatur, ut primum principiüm intra 
+          Dei<lb break="no" ed="#P" n="49"/>tatem. Nomine autem principiisignificari potest
+          <lb ed="#P" n="50"/>aut ratio generalis confusa, et haec non 
+          nume<lb break="no" ed="#P" n="51"/>ratur inter notiones, vel proprietates, ut 
+          con<lb break="no" ed="#P" n="52"/>stat ex dictis, libro quinto, aut significari 
+          po<lb break="no" ed="#P" n="53"/>test principium particularium processionum,
+          <lb ed="#P" n="54"/>et sic nihil dicit praeter paternitatem, et ad
+          <lb ed="#P" n="55"/>summum complectitur spirationem activam.
+          <lb ed="#P" n="56"/>Quod autem additur primum solum, notat
+          <lb ed="#P" n="57"/>carentiam originis, quae per innascibilitatem
+          <lb ed="#P" n="58"/>declaratur, ut dixi. Posset autem hic tractari,
+          <lb ed="#P" n="59"/>an hoc nomen, principium, analogum sit in
+          <lb ed="#P" n="60"/>Deo; ut dicitur ad intra et ad extra, vel etiam
+          <lb ed="#P" n="61"/>ut dicitur ad intra de Patre et Filio. Sed
+          <lb ed="#P" n="62"/>haec res est parvi momenti, et priorem partem
+          <lb ed="#P" n="63"/>suflicienter tractavi in primo tomo 
+          Metaphy<lb break="no" ed="#P" n="64"/>sicae, disp. 1, de Causis. De posteriori dicam
+          <lb ed="#P" n="65"/>aliquid infra in fine capiti septimi, libri 
+          deci<lb break="no" ed="#P" n="66"/>mi. De analogia vero hujus vocis Pater, 
+          di<lb break="no" ed="#P" n="67"/>cam libro sequenti disputando de Filio. 
+          De<lb break="no" ed="#P" n="68"/>nique de nomine causee, an possit Patri 
+          attri<lb break="no" ed="#P" n="69"/>bui ad intra, dixi supra primo libro, et ideo
+          <lb ed="#P" n="70"/>de prima persona haec sint satis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

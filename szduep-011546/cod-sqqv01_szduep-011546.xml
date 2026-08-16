@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="45"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-011546"><!-- t1-l2c1 -->
+        <head xml:id="szduep-011546-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-011546-Hd1e103" type="question-title">An deus sit infinitus simpliciter hocque illi proprium sit</head>
+        <p xml:id="szduep-011546-d1e106">
+          <lb ed="#P" n="60"/>CAPUT I.
+          <lb ed="#P" n="61"/>AN DEUS SIT INFINITUS SIMPLICITER HOCQUE ILLI
+          <lb ed="#P" n="62"/>PROPRIUM SIT.
+        </p>
+        <p xml:id="szduep-011546-d1e115">
+          <lb ed="#P" n="63"/>1. Status quaestionis. — Quaestio est de 
+          infi<lb break="no" ed="#P" n="64"/>nitate perfectionis in essendo; nam infinitas
+          <lb ed="#P" n="65"/>molis in Deo locum non habet, cum 
+          quantita<lb break="no" ed="#P" n="66"/>tem non habeat. Est autem difficilius ad 
+          decla<lb break="no" ed="#P" n="67"/>randum, quid per hanc negationem infinitatis
+          <lb ed="#P" n="68"/>explicetur ac significetur, quam ad 
+          demon<lb break="no" ed="#P" n="69"/>strandum convenire Deo, saltem ex principiis
+          <lb ed="#P" n="70"/>fidel. Itaque ut certum supponimus, Deum
+          <lb ed="#P" n="71"/>esse simpliciter infinitum. Id enim aperte 
+          do<lb break="no" ed="#P" n="72"/>cet Scriptura Psal. 144: Magnitudinis ejus non
+          <lb ed="#P" n="73"/>est finis; Baruch 3: Magnus est et non habet
+          <lb ed="#P" n="74"/>finem, eacelsus et immensus. Unde in capite
+          <lb ed="#P" n="75"/>Firmiter ita expresse definitur et Dionysius de
+          <lb ed="#P" n="76"/>Divinis nominibus capite 9: Magnus (de quo
+          <lb ed="#P" n="77"/>loquitur), est super omnem magnatudinem, 
+          om<lb break="no" ed="#P" n="78"/>nem transiliens infinitatem. Basilius hom. in
+          <lb ed="#P" n="79"/>principium Joan.: nfinttus Pater, infinitus 
+          Fi<lb break="no" ed="#P" n="80"/>lius. Gregorius orat. 1, in id Genes. 1, faciamus
+          <lb ed="#P" n="81"/>hominem -: Magnwm (inquit) cogita (scilicet
+          <lb ed="#P" n="82"/>Deum) ; et Intic magno plus etiam atque etiam
+          <lb ed="#P" n="83"/>adde, quam cogitasti, atqueita emple cogitationem
+          <pb ed="#P" n="46"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tuam, neque unquam, qua infinita sunt, capies.
+          <lb ed="#P" n="2"/>Nec magnitudine concluditur, nec finibus 
+          coha<lb break="no" ed="#P" n="3"/>betur. Theodorus, serm. 2, de Providentia:
+          <lb ed="#P" n="4"/>Deus ipse et increatus et infinitus est. Omnia
+          <lb ed="#P" n="5"/>complectitur ipse a mullo circumscriptus: 
+          Damas<lb break="no" ed="#P" n="6"/>cenus etiam l. 1,c. 4. Infinitus (inquit) est Deus
+          <lb ed="#P" n="7"/>et incomprehensibilis, atque hoc unum ea: eo 
+          per<lb break="no" ed="#P" n="8"/>cipi ac comprehendi potest, quod mimirum ipse
+          <lb ed="#P" n="9"/>infinitus atque incomprehensibilis sit.
+        </p>
+        <p xml:id="szduep-011546-d1e187">
+          <lb ed="#P" n="10"/>2. Dubium. — Prior opinio. — Impugnatur.
+          <lb ed="#P" n="11"/>— Ut vero ratione theologica hanc veritatem
+          <lb ed="#P" n="12"/>confirmemus, oportet exponere quid negetur
+          <lb ed="#P" n="13"/>de Deo, quando infinitus appellatur, quod 
+          im<lb break="no" ed="#P" n="14"/>perfectionem dicat, nam inde facile constabit,
+          <lb ed="#P" n="15"/>removendam esse a Deo illam imperfectionem
+          <lb ed="#P" n="16"/>ex vi summae perfectionis, quam ipsum habere
+          <lb ed="#P" n="17"/>ostensum est. Quidam ergo putant per hanc
+          <lb ed="#P" n="18"/>infinitatem nihil aliud negari, nisi Deum 
+          ha<lb break="no" ed="#P" n="19"/>bere causam sui esse, itaque idem esse dicunt,
+          <lb ed="#P" n="20"/>Deum esse infinitum et esse a se, vel non esse
+          <lb ed="#P" n="21"/>ab alio. At hoc alienum est a communi modo
+          <lb ed="#P" n="22"/>concipiendi et loquendi de attributis divinis.
+          <lb ed="#P" n="23"/>Nullus enim intelligit has duas negationes esse
+          <lb ed="#P" n="24"/>formaliter unam et eamdem, esse infinitum et
+          <lb ed="#P" n="25"/>esse increatum vel improductum ; sed divus
+          <lb ed="#P" n="26"/>Thomas et omnes theologi haec ponunt ut
+          <lb ed="#P" n="27"/>distincta attributa Dei et Theodoretus in 
+          ver<lb break="no" ed="#P" n="28"/>bis proxime citatis illa ut distincta recenset.
+          <lb ed="#P" n="29"/>Praeterea divus Thomas quaestione 4 et 7,1
+          <lb ed="#P" n="30"/>part. in hoc maxime laborat, ut ex eo quod
+          <lb ed="#P" n="31"/>Deus est suum esse, colligat Deum esse infinite
+          <lb ed="#P" n="32"/>perfectum, quod in dicto loco Metaphysicae
+          <lb ed="#P" n="33"/>late etiam ostendimus. Non sunt ergo illa duo
+          <lb ed="#P" n="34"/>attributa formaliter unum et idem, sed oportet
+          <lb ed="#P" n="35"/>saltem ratione distingui, ut probatio sit 
+          alicu<lb break="no" ed="#P" n="36"/>jus momenti. Et sane longe evidentius est,
+          <lb ed="#P" n="37"/>Deum esse ens necessarium et sine causa,
+          <lb ed="#P" n="38"/>quam esse infinitum; nam apertius et 
+          imme<lb break="no" ed="#P" n="39"/>diatius id colligitur ex effectibus Dei et ex 
+          or<lb break="no" ed="#P" n="40"/>dine causarum, in quibus non potest in 
+          infi<lb break="no" ed="#P" n="41"/>nitum procedi, quam ex negatione essendi ab
+          <lb ed="#P" n="42"/>alio colligatur negatio, quam dicit infinitas
+          <lb ed="#P" n="43"/>essendi : non sunt ergo formaliter eadem
+          <lb ed="#P" n="44"/>negatio, esto una colligatur ex alia. Denique
+          <lb ed="#P" n="45"/>esse a se immediate solum negat 
+          dependen<lb break="no" ed="#P" n="46"/>tiam a causa extrinseca, esse autem 
+          infi<lb break="no" ed="#P" n="47"/>nitum formaliter hoc non negat: nam si mente
+          <lb ed="#P" n="48"/>concipiatur angelus finitae naturae et ex se
+          <lb ed="#P" n="49"/>existens sine creatione, formaliter non 
+          ap<lb break="no" ed="#P" n="50"/>prehenduntur duo contradictoria, licet 
+          vir<lb break="no" ed="#P" n="51"/>tualiter ibi includi per discursum ostendi 
+          pos<lb break="no" ed="#P" n="52"/>sit. Neque e converso est aperta et formalis
+          <lb ed="#P" n="53"/>contradictio, si apprehendatur ens infinitum a
+          <lb ed="#P" n="54"/>Deo factum, unde quaeri solet an id fieri 
+          pos<lb break="no" ed="#P" n="55"/>sit, ut statim dicam: non est ergo negatio,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quam dicit infinitas, formaliter eadem cum
+          <lb ed="#P" n="57"/>negatione essendi ab alo.
+        </p>
+        <p xml:id="szduep-011546-d1e297">
+          <lb ed="#P" n="58"/>3. Opinio. — Rejicitur. — Alii ergo dicunt
+          <lb ed="#P" n="59"/>per infinitatem negari finitum numerum 
+          per<lb break="no" ed="#P" n="60"/>fectionum, quia in Deo finitae non sunt, sed 
+          in<lb break="no" ed="#P" n="61"/>finitae. At hoc etiam non recte dicitur: quia
+          <lb ed="#P" n="62"/>hoc modo nec finitae, nec infinitae perfectiones
+          <lb ed="#P" n="63"/>in Deo sunt, sed una summa perfectio. Item
+          <lb ed="#P" n="64"/>perfectiones, quae in Deo sunt formahter,
+          <lb ed="#P" n="65"/>etiamsi ratione a nobis distinguantur, fortasse
+          <lb ed="#P" n="66"/>non possunt multiplicari in infinitum. Unde
+          <lb ed="#P" n="67"/>per illam negationem infinitatis non negatur
+          <lb ed="#P" n="68"/>terminus in his objectivis conceptibus, quos
+          <lb ed="#P" n="69"/>nos de Divinitate formamus: nam hoc nihil
+          <lb ed="#P" n="70"/>refert ad perfectionem Dei. Perfectiones autem
+          <lb ed="#P" n="71"/>inferiores creaturarum in Deo non sunt 
+          forma<lb break="no" ed="#P" n="72"/>liter. Et licet verum sit posse a creaturis 
+          per<lb break="no" ed="#P" n="73"/>fectionem Dei infinitis modis participari, tamen
+          <lb ed="#P" n="74"/>revera omnes illae perfectiones in infinitum
+          <lb ed="#P" n="75"/>participabiles sunt in Deo una simplicissima et
+          <lb ed="#P" n="76"/>eminentissima perfectio, in qua nullus 
+          nume<lb break="no" ed="#P" n="77"/>rus negatur ex eo quod infinita sit. Posset
+          <lb ed="#P" n="78"/>tamen hic aliquo modo non improbabih 
+          decla<lb break="no" ed="#P" n="79"/>rari illa infinitas, si dicamus talem ac tantam
+          <lb ed="#P" n="80"/>esse perfectionem Dei, ut non possit nec debeat
+          <lb ed="#P" n="81"/>concipi tanquam habens terminum in 
+          partici<lb break="no" ed="#P" n="82"/>pabilitate sua, sed magis ac magis posse in
+          <lb ed="#P" n="83"/>infinitum participari vel communicari. Per 
+          il<lb break="no" ed="#P" n="84"/>lam tamen negationem etiam hoc modo 
+          expli<lb break="no" ed="#P" n="85"/>catam non negatur in Deo terminus in numero
+          <lb ed="#P" n="86"/>perfectionum quae sunt in ipso; sed negatur 
+          ter<lb break="no" ed="#P" n="87"/>minus, quem intelligitur habere res vel 
+          per<lb break="no" ed="#P" n="88"/>fectio, quae usque ad certum gradum participari
+          <lb ed="#P" n="89"/>potest et non amplius.
+        </p>
+        <p xml:id="szduep-011546-d1e369">
+          <lb ed="#P" n="90"/>4. Tertia opinio. — Hoc placitum non 
+          admit<lb break="no" ed="#P" n="91"/>titur. — Alii dicunt per negationem, quam
+          <lb ed="#P" n="92"/>de formali dicit infinitas, negari omnem 
+          ter<lb break="no" ed="#P" n="93"/>minum, quo solent res limitari in perfectione
+          <lb ed="#P" n="94"/>sua. Nam materia suo modo limitatur per 
+          for<lb break="no" ed="#P" n="95"/>mam et forma per materiam et essentia creata
+          <lb ed="#P" n="96"/>per suum esse, seu per habitudinem ad aliud
+          <lb ed="#P" n="97"/>et ipsum esse per essentiam tanquam per 
+          po<lb break="no" ed="#P" n="98"/>tentiam, quam actuat. Item omnis essentia
+          <lb ed="#P" n="99"/>specifica limitatur et finitur per suam 
+          differen<lb break="no" ed="#P" n="100"/>tiam specificam, quae contrahit genus. In Deo
+          <lb ed="#P" n="101"/>autem nihil horum reperitur propter suam
+          <lb ed="#P" n="102"/>simplicitatem et actualitatem summam , ut
+          <lb ed="#P" n="103"/>supra ostensum est. Sed haec omnia licet 
+          deser<lb break="no" ed="#P" n="104"/>viant ad suadendam infinitatem Dei: tamen
+          <lb ed="#P" n="105"/>non declarant formalitatem ejus, ut sic dicam,
+          <lb ed="#P" n="106"/>id est quid per illam negationem formaliter
+          <lb ed="#P" n="107"/>negetur. Nam per illam non negatur 
+          composi<lb break="no" ed="#P" n="108"/>tio ex materia et forma, nec ex esse et 
+          essen<lb break="no" ed="#P" n="109"/>tia, nec ex genere ac differentia; haec enim
+          <lb ed="#P" n="110"/>pertinent ad negationem, quam dicit simpli-
+          <pb ed="#P" n="47"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>citas. Praeterquam quod in illis modis 
+          expli<lb break="no" ed="#P" n="2"/>candi multa principia sumuntur incerta, ut
+          <lb ed="#P" n="3"/>quod esse creaturae limitetur per essentiam:
+          <lb ed="#P" n="4"/>vel e converso, quod compositio generis et
+          <lb ed="#P" n="5"/>differentiae directe repugnet infinitati et 
+          simi<lb break="no" ed="#P" n="6"/>lia, quae probabilia sunt, non tamen tam certa
+          <lb ed="#P" n="7"/>etiam in ratione naturali, quam est certum
+          <lb ed="#P" n="8"/>esse infinitum.
+        </p>
+        <p xml:id="szduep-011546-d1e439">
+          <lb ed="#P" n="9"/>5. Vera explicatio. — Consideremus ergo,
+          <lb ed="#P" n="10"/>quid sit in essentia aliqua creata esse finitam
+          <lb ed="#P" n="11"/>ac limitatam et negationem illius limitationis
+          <lb ed="#P" n="12"/>intelligemus significari per infinitatem 
+          essen<lb break="no" ed="#P" n="13"/>tiae Deo attributam. In creaturis ergo dicitur
+          <lb ed="#P" n="14"/>aliqua essentia esse finita in gradu entis, quia
+          <lb ed="#P" n="15"/>talis est, ut non repugnet illi habere illam
+          <lb ed="#P" n="16"/>excellentiorem in gradu entis: nos enim non
+          <lb ed="#P" n="17"/>possumus limitationem illam, prout in se est,
+          <lb ed="#P" n="18"/>concipere : et ideo per comparationem illam
+          <lb ed="#P" n="19"/>explicuimus. Unde solemus etiam dicere, 
+          ali<lb break="no" ed="#P" n="20"/>quam speciem creatam habere quamdam 
+          infi<lb break="no" ed="#P" n="21"/>nitatem secundum quid, quatenus sub se potest
+          <lb ed="#P" n="22"/>infinitas species minus perfectas continere; quo
+          <lb ed="#P" n="23"/>modo dicitur homo excedere quodammodo 
+          in<lb break="no" ed="#P" n="24"/>finite bruta animalia ; est tamem simpliciter
+          <lb ed="#P" n="25"/>finitus, quia potest ab alia perfectiore specie
+          <lb ed="#P" n="26"/>excedi et sic in angelis intelligimus finitatem,
+          <lb ed="#P" n="27"/>quatenus unusquisque potest habere 
+          superio<lb break="no" ed="#P" n="28"/>rem. Deus ergo dicitur infinitus simpliciter
+          <lb ed="#P" n="29"/>proprie et quasi a priori, quia tantae 
+          perfectio<lb break="no" ed="#P" n="30"/>nis est, ut non possit in ea habere superiorem
+          <lb ed="#P" n="31"/>nec aequalem, qui sit distinctae naturae. Unde
+          <lb ed="#P" n="32"/>quod multi sancti explicant quid sit Deus, per
+          <lb ed="#P" n="33"/>hoc quod est tale ens, quo majus excogitari non
+          <lb ed="#P" n="34"/>potest, hanc ipsam negationem per infinitatem
+          <lb ed="#P" n="35"/>fignificari intelligo. Unde in ea etiam 
+          contine<lb break="no" ed="#P" n="36"/>tur illa infinitas, quae intelligitur in 
+          continen<lb break="no" ed="#P" n="37"/>tia omnis perfectionis possibilis vel cogitabilis,
+          <lb ed="#P" n="38"/>continentia, inquam, formali et vel 
+          eminen<lb break="no" ed="#P" n="39"/>tiali, cum summa perfectione possibili, in
+          <lb ed="#P" n="40"/>quacumque perfectione et modo habendi illam.
+          <lb ed="#P" n="41"/>Ac denique in hac negatione etiam includitur,
+          <lb ed="#P" n="42"/>continere sub se sine ullo termino omnia, quae
+          <lb ed="#P" n="43"/>quocumque modo perfecta cogitari possunt,
+          <lb ed="#P" n="44"/>etiamsi in infinitum in eis procedatur in gradu
+          <lb ed="#P" n="45"/>majoris et majoris perfectionis sine termino.
+          <lb ed="#P" n="46"/>Hoc ergo modo convenienter videtur explicari
+          <lb ed="#P" n="47"/>perfectio, quam per hanc negationem 
+          Scrip<lb break="no" ed="#P" n="48"/>tura intendit Deo tribuere, et imperfectio,
+          <lb ed="#P" n="49"/>quam ab eo vult excludere.
+        </p>
+        <p xml:id="szduep-011546-d1e530">
+          <lb ed="#P" n="50"/>6. Esse Deum infinitum demonstratur. —
+          <lb ed="#P" n="51"/>Atque ita facile est, demonstrare Deum esse
+          <lb ed="#P" n="52"/>infinitum ex dictis de divina perfectione. Nam
+          <lb ed="#P" n="53"/>quoad positivum per illam negationem 
+          indica<lb break="no" ed="#P" n="54"/>tum, illud nihil aliud est, quam ipsa 
+          consum<lb break="no" ed="#P" n="55"/>mata perfectio Dei, qua major excogitari non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>potest, nec illi potest aliquid deesse, quod ad
+          <lb ed="#P" n="57"/>summam entis perfectionem possit pertinere:
+          <lb ed="#P" n="58"/>qua ergo ratione constat Deum esse summum
+          <lb ed="#P" n="59"/>bonum, eadem constat esse infinitum. Quoad
+          <lb ed="#P" n="60"/>ipsam vero formalem negationem probandum
+          <lb ed="#P" n="61"/>est Deum esse infinitum, vel ex alia negatione
+          <lb ed="#P" n="62"/>essendi ab alio, vel ex virtute producendi omne
+          <lb ed="#P" n="63"/>producibile, quas duas rationes in citato loco
+          <lb ed="#P" n="64"/>Metaphysicae late prosecuti sumus. Unde addi
+          <lb ed="#P" n="65"/>potest hanc negationem infinitatis posse addi,
+          <lb ed="#P" n="66"/>vel ipsi esse seu essentiae divinae, ut sic, 
+          qua<lb break="no" ed="#P" n="67"/>tenus adaequato conceptu, licet confuso, 
+          intel<lb break="no" ed="#P" n="68"/>ligitur comprehendere totam perfectionem 
+          es<lb break="no" ed="#P" n="69"/>sentialem Dei, vel etiam addi posse 
+          peculiari<lb break="no" ed="#P" n="70"/>bus attributis, quomodo dicimus sapientiam
+          <lb ed="#P" n="71"/>Dei esse infinitam et scientiam et praesentiam
+          <lb ed="#P" n="72"/>et similia. Priori ergo modo ponitur hoc loco
+          <lb ed="#P" n="73"/>attributum speciale infinitatis, aliis vero 
+          ac<lb break="no" ed="#P" n="74"/>commodatur cum proportione, ut in singulis
+          <lb ed="#P" n="75"/>videbimus : unumquodque enim dicitur in tali
+          <lb ed="#P" n="76"/>genere infinitum, quatenus in illo habet totam
+          <lb ed="#P" n="77"/>perfectionem possibilem, nec potest cogitari
+          <lb ed="#P" n="78"/>talis perfectio in altiori gradu. Unde secundum
+          <lb ed="#P" n="79"/>nostrum modum concipiendi potest a priori
+          <lb ed="#P" n="80"/>demonstrari infinitas uniuscujusque attributi
+          <lb ed="#P" n="81"/>ex infinitate essentiae, a posteriori vero 
+          infini<lb break="no" ed="#P" n="82"/>tas essentiae ex finitate omnipotentiae, verbi
+          <lb ed="#P" n="83"/>gratia, ut fieri solet, quia facilius cognoscitur.
+          <lb ed="#P" n="84"/>Hhe tamen vera infinitas simphciter essentiae
+          <lb ed="#P" n="85"/>divinae infinitatem omnium complectitur 
+          attri<lb break="no" ed="#P" n="86"/>butorum, eodem modo quo supra diximus,
+          <lb ed="#P" n="87"/>omnia esse de essentia ejus.
+        </p>
+        <p xml:id="szduep-011546-d1e617">
+          <lb ed="#P" n="88"/>7. Infinitas Dei implicat communicari 
+          crea<lb break="no" ed="#P" n="89"/>ture.— Ratio.— Ulterius potest facile ex dictis
+          <lb ed="#P" n="90"/>intelligi , esse hanc infinitatem ita propriam
+          <lb ed="#P" n="91"/>Dei, ut omnino implicet contradictionem alteri
+          <lb ed="#P" n="92"/>naturae illam communicare, seu alteri qui
+          <lb ed="#P" n="93"/>non sit idem Deus. Quod addimus propter
+          <lb ed="#P" n="94"/>ineffabile Trinitatis mysterium, in quo tota
+          <lb ed="#P" n="95"/>infinitas divinitatis communicatur singulis
+          <lb ed="#P" n="96"/>personis sed non communicatur alteri naturae,
+          <lb ed="#P" n="97"/>sed eadem numero natura est in omnibus : et
+          <lb ed="#P" n="98"/>ita omnes personae sunt idem Deus idemque
+          <lb ed="#P" n="99"/>ens infinitum simpliciter, et ideo illa 
+          commu<lb break="no" ed="#P" n="100"/>nicatio non obstat quominus haec infinitas sit
+          <lb ed="#P" n="101"/>propria Dei, quia nunquam illa infinitas 
+          inve<lb break="no" ed="#P" n="102"/>nitur extra divinam naturam, quae una , 
+          sin<lb break="no" ed="#P" n="103"/>gularis et indivisa est. Quod ergo repugnare
+          <lb ed="#P" n="104"/>dicimus, est illam infinitatem communicari
+          <lb ed="#P" n="105"/>alteri naturae seu substantiae infinitae. Ratio
+          <lb ed="#P" n="106"/>est quia eo ipso, quod sit altera natura, debet
+          <lb ed="#P" n="107"/>esse facta ab ipsa divinitate : ergo necesse est
+          <lb ed="#P" n="108"/>ut sit inferior illa , ergo non potest esse talis,
+          <lb ed="#P" n="109"/>quin alia major esse possit ; ergo habet 
+          termi<lb break="no" ed="#P" n="110"/>num et limitationem perfectionis; non est
+          <pb ed="#P" n="48"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo infinita eo modo quo divina natura 
+          infi<lb break="no" ed="#P" n="2"/>nita est. Primum antecedens supponitur ex
+          <lb ed="#P" n="3"/>dicüs in lib. 1, quia ens a se per essentiam
+          <lb ed="#P" n="4"/>tantum potest esse unum. Prima vero 
+          conse<lb break="no" ed="#P" n="5"/>quentia evidens est , quia si natura est facta;
+          <lb ed="#P" n="6"/>est dependens et ex nihilo : non est ergo
+          <lb ed="#P" n="7"/>summee perfecta, ergo inferior. Aliae vero 
+          con<lb break="no" ed="#P" n="8"/>sequentiae ex declaratione data de infinitate
+          <lb ed="#P" n="9"/>per se evidentes sunt. Et hoc sensu docent
+          <lb ed="#P" n="10"/>theologi communiter , Deum non posse facere
+          <lb ed="#P" n="11"/>infinitum per essentiam simpliciter, patet ex
+          <lb ed="#P" n="12"/>D. Thoma 1 p., q. 7, ar. 2et ex alis 
+          theolo<lb break="no" ed="#P" n="13"/>gis in 1, dist. 42 et 43. Ubi solent etiam 
+          dispu<lb break="no" ed="#P" n="14"/>tare, an possit Deus facere infinitum in 
+          magni<lb break="no" ed="#P" n="15"/>tudine et multitudine. Sed haec quaestio ad Dei
+          <lb ed="#P" n="16"/>infinitatem explicandam non pertinet. Nam si
+          <lb ed="#P" n="17"/>Deus non potest facere tale infinitum, non est
+          <lb ed="#P" n="18"/>ex defectu potentiae, unde non minuitur inde
+          <lb ed="#P" n="19"/>perfectio ejus et potius ostenditur excellentia
+          <lb ed="#P" n="20"/>et singularitas infinitatis ejus. Si vero potest
+          <lb ed="#P" n="21"/>illud facere, non est illa infinitas 
+          comparabi<lb break="no" ed="#P" n="22"/>lis cum infinitate Dei, et ita non tollit 
+          singula<lb break="no" ed="#P" n="23"/>ritatem seu proprietatem ejus. Et ideo ad
+          <lb ed="#P" n="24"/>praesens attributum explicandum illa quaestio
+          <lb ed="#P" n="25"/>necessaria non est, et alioqui est philosophica
+          <lb ed="#P" n="26"/>et a nobis est in libris Physicorum diligenter
+          <lb ed="#P" n="27"/>disputata et est admodum utilis et ideo eam
+          <lb ed="#P" n="28"/>hoc loco praetermittere decrevi.
+        </p>
+        <p xml:id="szduep-011546-d1e734">
+          <lb ed="#P" n="29"/>8. Objectio.— Enodatur.— Contra veritatem
+          <lb ed="#P" n="30"/>demonstratam solet objici, quia si Deus esset
+          <lb ed="#P" n="31"/>infinitum ens, non admitteret secum alia 
+          en<lb break="no" ed="#P" n="32"/>ta, sicut si esset infinitum corpus quantum,
+          <lb ed="#P" n="33"/>non admitteret secum alia corpora, quia ipsum
+          <lb ed="#P" n="34"/>occuparet omnia loca. Maxime vero, quia si
+          <lb ed="#P" n="35"/>Deus esset infinitus in perfectione, deberet
+          <lb ed="#P" n="36"/>excludere omnem imperfectionem et 
+          conse<lb break="no" ed="#P" n="37"/>quenter omne malum. Sed haec facilia sunt,
+          <lb ed="#P" n="38"/>quia infinitas Dei non tollit singularitatem et
+          <lb ed="#P" n="39"/>unitatem essentiae Dei, neque enim est 
+          infini<lb break="no" ed="#P" n="40"/>tas multitudinis sed intensiva entis; et ideo
+          <lb ed="#P" n="41"/>non tollit quin possint esse alia entia, a 
+          qui<lb break="no" ed="#P" n="42"/>bus distinguatur Deus, hoc ipso quod ipse
+          <lb ed="#P" n="43"/>Deus est infinitus, alia vero finita : ille est a
+          <lb ed="#P" n="44"/>se, alia ab ipso. Nec est simile de corpore
+          <lb ed="#P" n="45"/>quanto, nam illi naturale est excludere aliud
+          <lb ed="#P" n="46"/>quantum ab codem loco; unum autem ens
+          <lb ed="#P" n="47"/>maxime per se subsistens non excludit alia
+          <lb ed="#P" n="48"/>entia a rerum universitate seu ab existendo,
+          <lb ed="#P" n="49"/>ut sic dicam. Quia entia non habent formalem
+          <lb ed="#P" n="50"/>repugnantiam in existendo simul in rerum
+          <lb ed="#P" n="51"/>natura, sicut babent duo quanta ad simul
+          <lb ed="#P" n="52"/>existendum in eodem spatio vel duae 
+          qua<lb break="no" ed="#P" n="53"/>litates contrariae ad simul existendum eodem
+          <lb ed="#P" n="54"/>subjecto. Unde ulterius dicitur, si illa 
+          re<lb break="no" ed="#P" n="55"/>pugnantia quantitatum impediatur, non re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pugnare ex eo capite quod cum corpore uno
+          <lb ed="#P" n="57"/>infinitae magnitudinis sint alia corpora 
+          quan<lb break="no" ed="#P" n="58"/>ta, quia possent esse penetrative cum illo in
+          <lb ed="#P" n="59"/>eodem spatio. Ad aliam vero partem dicitur,
+          <lb ed="#P" n="60"/>recte concludere ab illo ente, quod infinitum
+          <lb ed="#P" n="61"/>est, necessario excludi omnem 
+          imperfectio<lb break="no" ed="#P" n="62"/>nem et omne malum; nihil enim horum potest
+          <lb ed="#P" n="63"/>esse in Deo ex visuae infinitae perfectionis. Quia
+          <lb ed="#P" n="64"/>sicut illa perfectio intelligitur quasi formaliter
+          <lb ed="#P" n="65"/>afficere ipsum Deum, ita intelligitur ab illo
+          <lb ed="#P" n="66"/>formaliter excludere omnem imperfectionem.
+          <lb ed="#P" n="67"/>At non sequitur, illud ens infinitum excludere
+          <lb ed="#P" n="68"/>ab omni alio ente omnem imperfectionem vel
+          <lb ed="#P" n="69"/>malitiam, quia nec excludere potest formaliter,
+          <lb ed="#P" n="70"/>nam illa infinita perfectio non perficit 
+          forma<lb break="no" ed="#P" n="71"/>liter alia entia; nec necesse est ut excludat
+          <lb ed="#P" n="72"/>effective, quia vel alia entia non sunt capacia,
+          <lb ed="#P" n="73"/>ut est evidens de imperfectionibus negativis
+          <lb ed="#P" n="74"/>et naturalibus, ut sunt esse composita, esse 
+          h<lb break="no" ed="#P" n="75"/>mitata, esse mutabilia vel annihilabilha vel
+          <lb ed="#P" n="76"/>corruptibilia respective et hujusmodi. Vel si
+          <lb ed="#P" n="77"/>capacia sint, Deus non est agens naturale ut
+          <lb ed="#P" n="78"/>necessario omne malum excludat, sed pro 
+          ra<lb break="no" ed="#P" n="79"/>tione sapientiae suae illud libere permittere
+          <lb ed="#P" n="80"/>potest, de quo alias.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

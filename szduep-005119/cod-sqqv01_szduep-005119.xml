@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="20"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-005119"><!-- t1-l1c7 -->
+        <head xml:id="szduep-005119-Hd1e101">Caput 7</head>
+        <head xml:id="szduep-005119-Hd1e103" type="question-title">De veritate divini esse</head>
+        <p xml:id="szduep-005119-d1e106">
+          <lb ed="#P" n="9"/>CAPUT VII.
+          <lb ed="#P" n="10"/>DE VERITATE DIVINI ESSE.
+        </p>
+        <p xml:id="szduep-005119-d1e113">
+          <lb ed="#P" n="11"/>1. Ferum prius est bono saltem ratione. —
+          <lb ed="#P" n="12"/>Veritas quotuplem sit. — Verum, ut supra dixi,
+          <lb ed="#P" n="13"/>et D. Thomas fatetur 1. p., q. 16, art. 4. prius
+          <lb ed="#P" n="14"/>est saltem ratione formali quam bonum, et
+          <lb ed="#P" n="15"/>ideo ordinem ipsius rei attendentes , prius de
+          <lb ed="#P" n="16"/>veritate dicimus, licet D. Thomas alia ratione
+          <lb ed="#P" n="17"/>adductus ordinem commutaverit. Solet autem
+          <lb ed="#P" n="18"/>distingui veritas in veritatem rei, quae in 
+          essen<lb break="no" ed="#P" n="19"/>do dicitur, et veritatem cognitionis; quibus
+          <lb ed="#P" n="20"/>addi potest veritas locutionis vel scriptionis,
+          <lb ed="#P" n="21"/>vel cujuscumque similis significationis ad 
+          pla<lb break="no" ed="#P" n="22"/>citum, ac denique veritas voluntatis, quam
+          <lb ed="#P" n="23"/>moralem possumus appellare , et harum 
+          om<lb break="no" ed="#P" n="24"/>nium veritatum est aliqua mentio in scriptura,
+          <lb ed="#P" n="25"/>ut statim dicam.
+        </p>
+        <p xml:id="szduep-005119-d1e148">
+          <lb ed="#P" n="26"/>2. Feritas moralis in decisione hac locum
+          <lb ed="#P" n="27"/>non habet. — Hic ergo non est sermo de 
+          veri<lb break="no" ed="#P" n="28"/>tate morali, quae in nobis significat virtutem
+          <lb ed="#P" n="29"/>quamdam, qua inclinamur ad loquendum 
+          sem<lb break="no" ed="#P" n="30"/>per verum. Cui proportionale attributum in
+          <lb ed="#P" n="31"/>voluntate divina respondet, ut infra dicemus,
+          <lb ed="#P" n="32"/>quo non solum inclinatur, sed etiam quoad
+          <lb ed="#P" n="33"/>specificationem determinatur ad dicendum 
+          ve<lb break="no" ed="#P" n="34"/>rum, ita ut si loqui vult, non nisi verum 
+          di<lb break="no" ed="#P" n="35"/>cere possit. -Unde etiam prima veritas in 
+          di<lb break="no" ed="#P" n="36"/>cendo nominatur , et sub ea ratione objectum
+          <lb ed="#P" n="37"/>fidei nostrae esse creditur. Et ab hoc attributo
+          <lb ed="#P" n="38"/>intelligo nominari Deum in Scriptura Deum
+          <lb ed="#P" n="39"/>veritatis, Psal. 39: Redesnisti me, Domine Deus
+          <lb ed="#P" n="40"/>veritatis , id est , qui mentiri non potes. Sic
+          <lb ed="#P" n="41"/>etiam Joan 14, 15, vocat Christus Spiritum
+          <lb ed="#P" n="42"/>sanctum, Spiritum veritatis, id est, doctorem
+          <lb ed="#P" n="43"/>nfaillibilem veritatis.
+        </p>
+        <p xml:id="szduep-005119-d1e191">
+          <lb ed="#P" n="44"/>3. Veritas moralis veritatem locutionis 
+          sup<lb break="no" ed="#P" n="45"/>ponit. — Quocirca haec veritas moralis 
+          suppo<lb break="no" ed="#P" n="46"/>uit veritatem locutionis , quae illius objectum
+          <lb ed="#P" n="47"/>est. De qua etiam hic non est sermo, sed 
+          trac<lb break="no" ed="#P" n="48"/>tando de fide, de locutione Dei certa et 
+          infalli<lb break="no" ed="#P" n="49"/>bili consequenter agitur. Non est erim dubium ,
+          <lb ed="#P" n="50"/>quin haec veritas etiam in Deo sit, vel potius a
+          <lb ed="#P" n="51"/>Deo sit, quia est in verbo externo ejus. Et ideo
+          <lb ed="#P" n="52"/>tale verbum appellari solet in Scriptura ver-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>bum veritatis ad Eph. 1: Cun suscepistis
+          <lb ed="#P" n="54"/>verbum ceritatis. Et quia haec veritas verbi Dei
+          <lb ed="#P" n="55"/>est maxima, ideo solet nomine absoluto 
+          veri<lb break="no" ed="#P" n="56"/>tatis appellari ad Gal. 5: Quis vos impedivit
+          <lb ed="#P" n="57"/>obedire veritati ; Psal. S8: Neque nocebo in 
+          ve<lb break="no" ed="#P" n="58"/>ritate mea. Et sic etiam intelhgi potest id Joan.
+          <lb ed="#P" n="59"/>19: Veni, ut testimonium perhibeam veritati.
+        </p>
+        <p xml:id="szduep-005119-d1e230">
+          <lb ed="#P" n="60"/>4. Veritas moralis et locutionis veritatem
+          <lb ed="#P" n="61"/>cognitionis supponit. — Ab utramque autem
+          <lb ed="#P" n="62"/>ex his veritatibus necessario supponi debet 
+          ve<lb break="no" ed="#P" n="63"/>ritas in cognoscendo, quia nemo potest ex
+          <lb ed="#P" n="64"/>propria voluntate et intentione vera loqui,
+          <lb ed="#P" n="65"/>nisi ea cognoscat; in cognitione igitur seu
+          <lb ed="#P" n="66"/>mente Dei, certa et infaillibilis residet veritas.
+          <lb ed="#P" n="67"/>Sed ejus consideratio ad materiam de scientia
+          <lb ed="#P" n="68"/>Dei spectat, quam summatim in libro tertio
+          <lb ed="#P" n="69"/>hujus tractatus comprehendemus. Quid autem
+          <lb ed="#P" n="70"/>sit haec veritas in cognoscendo ( in reliquis
+          <lb ed="#P" n="71"/>enim nihil est difficultatis) generatin 
+          tractavi<lb break="no" ed="#P" n="72"/>mus in Metaphysica, disp. 8, per sex primas
+          <lb ed="#P" n="73"/>sectiones, quae divinae cognitioni ac menti 
+          fa<lb break="no" ed="#P" n="74"/>cile applicari possunt, ut ibi breviter fecimus
+          <lb ed="#P" n="75"/>sect. 5, in fine.
+        </p>
+        <p xml:id="szduep-005119-d1e267">
+          <lb ed="#P" n="76"/>5. De veritate rei hic agitur. — De veritate
+          <lb ed="#P" n="77"/>igitur rei, quae transcendentalis dici solet, hic
+          <lb ed="#P" n="78"/>agimus. Et quod ad fidei doctrinam pertinet ,
+          <lb ed="#P" n="79"/>certum est esse Deum verum Deum, ac 
+          pro<lb break="no" ed="#P" n="80"/>inde habere veritatem essentialem in essendo,
+          <lb ed="#P" n="81"/>quidquid tandem illa veritas sit. Hoc patet,
+          <lb ed="#P" n="82"/>quia saepe in Scriptura appellatur Deus verus,
+          <lb ed="#P" n="83"/>ut distinguatur a falsis Diis; sic dixit Christus
+          <lb ed="#P" n="84"/>Joannis. 17: Hoec est vita eterna, ut 
+          cognos<lb break="no" ed="#P" n="85"/>cant te solum Deum verum. Et Paulus I. ad
+          <lb ed="#P" n="86"/>Thessal. 1: Conversi estis a simulacris servire
+          <lb ed="#P" n="87"/>Deo vivo et vero. Et primae Joan. 5: AHlc est
+          <lb ed="#P" n="88"/>cerus Deus. Jerem. 9: Opus artificum 
+          univer<lb break="no" ed="#P" n="89"/>sa hec, Dominus autem Deus verus est, ipse
+          <lb ed="#P" n="90"/>Deus vivens et Rem sempiternus. Sucut ergo ex
+          <lb ed="#P" n="91"/>fide confitendum est, hunc esse verum Deum
+          <lb ed="#P" n="92"/>verum spiritum, veram substantiam, verum
+          <lb ed="#P" n="93"/>ens, ita confitendum est in illo esse veritatem
+          <lb ed="#P" n="94"/>illam, a qua talis denominatio sumitur.
+        </p>
+        <p xml:id="szduep-005119-d1e311">
+          <lb ed="#P" n="95"/>6. Veritas haec Deo inest absque aliqua 
+          de<lb break="no" ed="#P" n="96"/>pendentia ab intellectu creato vel operatione. Non
+          <lb ed="#P" n="97"/>consistit in relatione rationis aut eatrinseca
+          <lb ed="#P" n="98"/>denominatione ab actu intellectus creati.— 
+          Dein<lb break="no" ed="#P" n="99"/>de censeo certum, veritatem hanc ita 
+          conve<lb break="no" ed="#P" n="100"/>nire Deo in re ipsa, ut non pendeat ex aliquo
+          <lb ed="#P" n="101"/>intellectu creato neque ex operatione ejus.
+          <lb ed="#P" n="102"/>Patet , quia hcet nullus esset intellectus 
+          crea<lb break="no" ed="#P" n="103"/>tus, Deus esset verus Deus; ergo haberet id,
+          <lb ed="#P" n="104"/>unde talem denominationem suscipit ; ergo 
+          ha<lb break="no" ed="#P" n="105"/>beret veritatem in suo esse, nam ab illa 
+          deno<lb break="no" ed="#P" n="106"/>minatur verus Deus. Primum antecedens 
+          vide<lb break="no" ed="#P" n="107"/>tur per se evidens, quia Deus tam a se neces-
+          <pb ed="#P" n="21"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sario ac essentialiter est verum ens et Deus
+          <lb ed="#P" n="2"/>verus, quam necessario est ens et Deus, non
+          <lb ed="#P" n="3"/>habet ergo hanc veritatem dependenter ab 
+          in<lb break="no" ed="#P" n="4"/>tellectu creato vel operatione ejus. Unde etiam
+          <lb ed="#P" n="5"/>concludo, hanc veritatem non consistere in 
+          re<lb break="no" ed="#P" n="6"/>latione rationis, nec illam proprie postulare,
+          <lb ed="#P" n="7"/>nec in denominatione extrinseca ab aliquo actu
+          <lb ed="#P" n="8"/>intellectus creati, nam talis relatio, vel 
+          deno<lb break="no" ed="#P" n="9"/>minatio omnino pendet a tali operatione.
+        </p>
+        <p xml:id="szduep-005119-d1e366">
+          <lb ed="#P" n="10"/>7. Non consistit etiaum in denominatione a
+          <lb ed="#P" n="11"/>cognitione vera, quam Deus de se habet. — 
+          UI<lb break="no" ed="#P" n="12"/>terius vero adjungo, veritatem hanc formaliter
+          <lb ed="#P" n="13"/>non consistere in sola denominatione a 
+          cogni<lb break="no" ed="#P" n="14"/>tione vera, quam Deus habet de se, quamvis
+          <lb ed="#P" n="15"/>non sit sine aliqua connotatione illius per 
+          mo<lb break="no" ed="#P" n="16"/>dum termini virtualis vel fundamentalis 
+          ha<lb break="no" ed="#P" n="17"/>bitudinis, quam veritas in essendo intelligitur
+          <lb ed="#P" n="18"/>addere supra ens, quam proportionaliter addit
+          <lb ed="#P" n="19"/>veritas essendi Dei ad ipsum esse Dei. Prior
+          <lb ed="#P" n="20"/>pars declaratur, quia licet non possit esse 
+          ve<lb break="no" ed="#P" n="21"/>rus Deus, quin se verum Deum esse cognoscat,
+          <lb ed="#P" n="22"/>quia haec ipsa cognitio pertinet ad essentiam
+          <lb ed="#P" n="23"/>et substantiam veri Dei, ut infra ostendemus:
+          <lb ed="#P" n="24"/>tamen formaliter ac praecise loquendo, non
+          <lb ed="#P" n="25"/>ideo hoc ens est verus Deus, quia videt se esse
+          <lb ed="#P" n="26"/>verum Deum : sed e converso ideo videt se esse
+          <lb ed="#P" n="27"/>verum Deum, quia re ipsa verus Dens est ; ergo
+          <lb ed="#P" n="28"/>proprie et formaliter non denominatur Deus,
+          <lb ed="#P" n="29"/>verus Deus, a veritate cognitionis quam de se
+          <lb ed="#P" n="30"/>habet, sed potius veritas haec in essendo 
+          se<lb break="no" ed="#P" n="31"/>cundum rationem supponitur ad cognitionem
+          <lb ed="#P" n="32"/>illam. Rationes perspicuae sunt: assumptum
+          <lb ed="#P" n="33"/>vero patet, quia illa cognitio est pure 
+          specula<lb break="no" ed="#P" n="34"/>tiva; ergo non dat objecto veritatem suam 
+          rea<lb break="no" ed="#P" n="35"/>lem, sed solum intuetur illam ; ergo supponit
+          <lb ed="#P" n="36"/>illam ; Deus ergo ex se et ex natura sua habet
+          <lb ed="#P" n="37"/>quod sit verus Deus, non ex eo, quod ut talis
+          <lb ed="#P" n="38"/>cognoscitur, vel cognosci potest a se vel ab
+          <lb ed="#P" n="39"/>alio.
+        </p>
+        <p xml:id="szduep-005119-d1e434">
+          <lb ed="#P" n="40"/>8. Doctrina quedam ut vera ex 
+          Metaphg<lb break="no" ed="#P" n="41"/>sica supponitur. — Ut autem altera pars 
+          intel<lb break="no" ed="#P" n="42"/>ligatur, oportet ex Metaphysica supponere,
+          <lb ed="#P" n="43"/>quid addat verum transcendens supra ens,
+          <lb ed="#P" n="44"/>quod hac occasione hic solent tractare 
+          theo<lb break="no" ed="#P" n="45"/>logi. Ego vero id late disserui in disputatione
+          <lb ed="#P" n="46"/>S Metaphysieae, sect. 7, et ideo hic solum 
+          sup<lb break="no" ed="#P" n="47"/>pono, verum supra ens nihil reale intrinsecum
+          <lb ed="#P" n="48"/>addere, sed solum dicere entitatem rei, cum
+          <lb ed="#P" n="49"/>quodam modo peculiari concipiendi illam, qui
+          <lb ed="#P" n="50"/>potest dici esse cum quadam reflexione supra
+          <lb ed="#P" n="51"/>cognitionem rei, seu cum quadam 
+          connota<lb break="no" ed="#P" n="52"/>tione cognitionis. Appellatur enim aliquid 
+          sim<lb break="no" ed="#P" n="53"/>pliciter ens vel tale ens, verbi gratia, aurum
+          <lb ed="#P" n="54"/>ab entitate seu natura reali auri, quam habet ;
+          <lb ed="#P" n="55"/>appellatur autem verum aurum, per quandam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>reflexionem ad cognitionem, quia nimirum est
+          <lb ed="#P" n="57"/>tale aurum, ut si concipiatur tanquam aurum,
+          <lb ed="#P" n="58"/>cognitio illa sit vera et conformitatem habens
+          <lb ed="#P" n="59"/>cum objecto suo. Nec vero propterea 
+          putan<lb break="no" ed="#P" n="60"/>dum est, vocari aurum verum aurum per 
+          de<lb break="no" ed="#P" n="61"/>nominationem extrinsecam a tali cognitione,
+          <lb ed="#P" n="62"/>sed ab entitate auri, quam in se habet, 
+          quate<lb break="no" ed="#P" n="63"/>nus fundare potest illam cognitionem et 
+          ve<lb break="no" ed="#P" n="64"/>ritatem ejus ; et quia non possumus illud 
+          fun<lb break="no" ed="#P" n="65"/>damentum explicare nisi per habitudinem ad
+          <lb ed="#P" n="66"/>veram cognitionem et judicium de re, ideo
+          <lb ed="#P" n="67"/>dicimus veritatem rei connotare aliquo modo
+          <lb ed="#P" n="68"/>illam cognitionem, directe vero, et in se non
+          <lb ed="#P" n="69"/>esse aliquid praeter entitatem rei.
+        </p>
+        <p xml:id="szduep-005119-d1e505">
+          <lb ed="#P" n="70"/>9. Hanc ergo doctrinam, hic ut veram 
+          sup<lb break="no" ed="#P" n="71"/>ponimus, neque eam amplius probamus, quia
+          <lb ed="#P" n="72"/>praeterquam quod dicto loco probata est, 
+          sut<lb break="no" ed="#P" n="73"/>ficit quod per se est intelligibihs et 
+          quocum<lb break="no" ed="#P" n="74"/>que alio modo vix potest expediri, quid 
+          veri<lb break="no" ed="#P" n="75"/>tas in essendo sit. Hac ergo doctrina supposita
+          <lb ed="#P" n="76"/>constat, multo magis idem sentiendum esse de
+          <lb ed="#P" n="77"/>Deo, ut est verus Deus; non potest enim veritas
+          <lb ed="#P" n="78"/>haec addere Deo rationem aliquam entis 
+          rea<lb break="no" ed="#P" n="79"/>lem, sive absolutam, sive respectivam, ut per
+          <lb ed="#P" n="80"/>se notum est, nec debet poni in sola relatione
+          <lb ed="#P" n="81"/>rationis conficta vel extrinseca denominatione,
+          <lb ed="#P" n="82"/>ut ostensum est, neque est omnino 
+          synony<lb break="no" ed="#P" n="83"/>mum dicere Deum et verum Deum, sed 
+          ali<lb break="no" ed="#P" n="84"/>quis distinctus conceptus per illas voces 
+          expli<lb break="no" ed="#P" n="85"/>catur ; ergo addit saltem illam connotationem,
+          <lb ed="#P" n="86"/>et quasi reflexionem conformitatis ad 
+          concep<lb break="no" ed="#P" n="87"/>tum et judicium veri Dei. Cumque Deus intra
+          <lb ed="#P" n="88"/>se habeat perfectissimum judicium de se ipso,
+          <lb ed="#P" n="89"/>et omnia alia extrinseca ilh sint et 
+          accidenta<lb break="no" ed="#P" n="90"/>lia, seu non necessario sint recte per dictam
+          <lb ed="#P" n="91"/>habitudinem ad suammet cognitionem, haec
+          <lb ed="#P" n="92"/>veritas explicatur. Ex qua etiam consequenter
+          <lb ed="#P" n="93"/>habet, ut fundamentum omnis veri conceptus,
+          <lb ed="#P" n="94"/>qui de Deo formari potest.
+        </p>
+        <p xml:id="szduep-005119-d1e562">
+          <lb ed="#P" n="95"/>10. Non solum habet Deus veritatem in 
+          es<lb break="no" ed="#P" n="96"/>sendo, sed est ipsa summa veritas.—Atque hinc
+          <lb ed="#P" n="97"/>tandem conclusit D. Thomas dicta q. 16, art. 6,
+          <lb ed="#P" n="98"/>Deum non solum habere veritatem in essendo
+          <lb ed="#P" n="99"/>sed esse ipsammet veritatem summam et
+          <lb ed="#P" n="100"/>maximam, quia et est suum esse et in illo 
+          ha<lb break="no" ed="#P" n="101"/>bet summam. necessitatem essendi, et ex hoc
+          <lb ed="#P" n="102"/>capite habet firmum fundamentum illius 
+          con<lb break="no" ed="#P" n="103"/>formitatis, quam connotat veritas entis, et
+          <lb ed="#P" n="104"/>aliunde est etiam sua cognitio et sua essentia
+          <lb ed="#P" n="105"/>est suum intellgere. Unde, dum ipse Deus 
+          con<lb break="no" ed="#P" n="106"/>formabilis est vel conformitatem habet per
+          <lb ed="#P" n="107"/>modum objecti cum supremo judicio de vero
+          <lb ed="#P" n="108"/>Deo : non alteri, sed sibi ipsi conformatur, 
+          est<lb break="no" ed="#P" n="109"/>que illa conformitas essentialis ipsi Deo, quia
+          <lb ed="#P" n="110"/>est per summam identitatem et simplicitatem.
+          <pb ed="#P" n="22"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Ideoque et est sua veritas, et est summa ac
+          <lb ed="#P" n="2"/>maxima veritas, quae concipi aut cogitari 
+          po<lb break="no" ed="#P" n="3"/>test : atque ita intelligit D. Thomas supra,
+          <lb ed="#P" n="4"/>Christum de se dixisse : Ego sum via, ceritas
+          <lb ed="#P" n="5"/>et vita ; et 1. Joan. 5: Spiritus est qui 
+          testi<lb break="no" ed="#P" n="6"/>ficatur . quia Christus est veritas. Idem cum
+          <lb ed="#P" n="7"/>proportione dici potest de veritate in 
+          cognos<lb break="no" ed="#P" n="8"/>cendo, praesertim si divinam cognitionem ad
+          <lb ed="#P" n="9"/>suum primarium objectum, qui est ipsemet
+          <lb ed="#P" n="10"/>Deus, comparemus. Sic enim non solum 
+          ha<lb break="no" ed="#P" n="11"/>bet conformitatem cum objecto suo, sed etiam
+          <lb ed="#P" n="12"/>est ipsamet essentia ejus, et ideo est summa
+          <lb ed="#P" n="13"/>et maxima veritas. At respectu secundariorum
+          <lb ed="#P" n="14"/>objectorum, licet non habeat Deus tantam 
+          iden<lb break="no" ed="#P" n="15"/>titatem cum illis, prout in se sunt, 
+          nihilomi<lb break="no" ed="#P" n="16"/>nus etiam respectu illorum est prima et 
+          maxi<lb break="no" ed="#P" n="17"/>ma veritas, quia illa omnia in se et per se
+          <lb ed="#P" n="18"/>continet, et ex infinita vi intelligendi illa per
+          <lb ed="#P" n="19"/>sese cognoscit, prout in se sunt, cum summa
+          <lb ed="#P" n="20"/>evidentia et claritate, quam ex se habet. 
+          At<lb break="no" ed="#P" n="21"/>que adeo cum summa necessitate habet 
+          con<lb break="no" ed="#P" n="22"/>formitatem cum illis, et ex visui infiniti 
+          lumi<lb break="no" ed="#P" n="23"/>nis. Ideoque sub omni consideratione est prima
+          <lb ed="#P" n="24"/>et summa veritas, praeter quam quod est fons
+          <lb ed="#P" n="25"/>totius veritatis, sicut et omnis entis. Neque in
+          <lb ed="#P" n="26"/>his omnibus difficultas alicujus momenti 
+          occu<lb break="no" ed="#P" n="27"/>rit : caetera vero, qua generalia et metaphysica
+          <lb ed="#P" n="28"/>sunt, in loco allegato sunt dicta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

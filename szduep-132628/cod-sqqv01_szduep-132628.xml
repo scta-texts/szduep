@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="523"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-132628"><!-- t2-l6c2 -->
+        <head xml:id="szduep-132628-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-132628-Hd1e103" type="question-title">Quomodo numerus praedestinatorum et reproborum certus sit</head>
+        <p xml:id="szduep-132628-d1e106">
+          <lb ed="#P" n="5"/>CAPUT II.
+          <lb ed="#P" n="6"/>QUOMODO NUMERUS PRAEDESTINATORUM ET 
+          REPRO<lb break="no" ed="#P" n="7"/>BORUM CERTUS SIT.
+        </p>
+        <p xml:id="szduep-132628-d1e115">
+          <lb ed="#P" n="8"/>1. Supponimus utrumque numerum esse
+          <lb ed="#P" n="9"/>certum. Nam de Praedestinatis ait Paulus 2,
+          <lb ed="#P" n="10"/>ad Timoth. 2: Firmum fundamentum Dei stat,
+          <lb ed="#P" n="11"/>novit Dominus, qui sunt ejus; et Ecclesia in
+          <lb ed="#P" n="12"/>quadam oratione dicit : Deus, cui soli cognitus
+          <lb ed="#P" n="13"/>est numerus electorum in eterna felicitate 
+          lo<lb break="no" ed="#P" n="14"/>candus. Eademque ratio est de numero 
+          repro<lb break="no" ed="#P" n="15"/>borum, quia scientia Dei est aeterna, sive bona,
+          <lb ed="#P" n="16"/>sive mala, quae in tempore eventura sunt, illi
+          <lb ed="#P" n="17"/>sunt ab aeterno certa. Unde in hoc non potest
+          <lb ed="#P" n="18"/>esse dissensio inter Catholicos, quamvis aliqui
+          <lb ed="#P" n="19"/>oppositum tribuant Catherino et 
+          Massiliensi<lb break="no" ed="#P" n="20"/>bus. Sed illi in alio sensu locuti sunt, ut 
+          con<lb break="no" ed="#P" n="21"/>stabit.
+        </p>
+        <p xml:id="szduep-132628-d1e148">
+          <lb ed="#P" n="22"/>2. Potest vero objici, quia praedestinatio et
+          <lb ed="#P" n="23"/>reprobatio non est certa et infallibilis : ergo
+          <lb ed="#P" n="24"/>nec numerus potest esse certus. Antecedens
+          <lb ed="#P" n="25"/>patet, quia quod est infallibile, est inevitabile,
+          <lb ed="#P" n="26"/>quod inevitabile necessarium, sed haec non
+          <lb ed="#P" n="27"/>possunt tribui praedestinationi vel 
+          reprobatio<lb break="no" ed="#P" n="28"/>ni: ergo neque illud. Hoc solum propono ad
+          <lb ed="#P" n="29"/>explicandos terminos. Nam certum et 
+          infalli<lb break="no" ed="#P" n="30"/>bile connotant habitudinem ad scientiam : et
+          <lb ed="#P" n="31"/>ideo simpliciter et sine distinctione tribui 
+          pos<lb break="no" ed="#P" n="32"/>sunt, et debent praedestinationi, et numero
+          <lb ed="#P" n="33"/>praedestinatorum, anevitabile autem et 
+          meces<lb break="no" ed="#P" n="34"/>sarium dicunt habitudinem ad causalitatem
+          <lb ed="#P" n="35"/>et effectum, et ideo non sunt admittenda sine
+          <lb ed="#P" n="36"/>distinctione sensus compositi et divisi, in sensu
+          <lb ed="#P" n="37"/>declarato in superioribus. Unde id, quod est
+          <lb ed="#P" n="38"/>certum, non semper est simpliciter 
+          inevita<lb break="no" ed="#P" n="39"/>bile in ordine ad suam causam proximam, sed
+          <lb ed="#P" n="40"/>solum ex suppositione, quod jam sit causa
+          <lb ed="#P" n="41"/>praevisa hoc faciens, quae est illa suppositio, de
+          <lb ed="#P" n="42"/>qua dixit Aristoteles : Quod est, quando est, 
+          ne<lb break="no" ed="#P" n="43"/>cesse est, esse.
+        </p>
+        <p xml:id="szduep-132628-d1e199">
+          <lb ed="#P" n="44"/>3. Dubium. — Prima opinio. — Hoc ergo 
+          po<lb break="no" ed="#P" n="45"/>sito, dubitant theologi de modo hujus 
+          certitu<lb break="no" ed="#P" n="46"/>dinis. In quo Catherinus distinxit inter 
+          nume<lb break="no" ed="#P" n="47"/>rum preedestinatorum et salvandorum, et de
+          <lb ed="#P" n="48"/>priori dixit, esse certum in decreto voluntatis
+          <lb ed="#P" n="49"/>divinae: imo et esse necessarium, ut supra
+          <lb ed="#P" n="50"/>vidimus : de posteriori autem dixit non esse
+          <lb ed="#P" n="51"/>certum in voluntate Dei, sed in sola 
+          praescien<lb break="no" ed="#P" n="52"/>tia omnium actionum humanarum, a princi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>pio vitae usque ad finem. In qua sententia 
+          vi<lb break="no" ed="#P" n="54"/>dentur fuisse Massilienses, ut colligitur ex
+          <lb ed="#P" n="55"/>Epistola Hilarii ad Augustinum, in ilhs 
+          ver<lb break="no" ed="#P" n="56"/>bis : Zllud pariter non accipiunt , ut 
+          eligendo<lb break="no" ed="#P" n="57"/>rum, recipiendorumque esse definitum 
+          naume<lb break="no" ed="#P" n="58"/>n velint, scilicet, in decreto voluntatis Dei,
+          <lb ed="#P" n="59"/>ut Augustinus docebat. Unde a fortiori idem
+          <lb ed="#P" n="60"/>dicunt hi auctores de numero reproborum.
+        </p>
+        <p xml:id="szduep-132628-d1e241">
+          <lb ed="#P" n="61"/>4. Impugnatur haec opinio. — Haec vero opinio
+          <lb ed="#P" n="62"/>supponit imprimis malam divisionem in 
+          nu<lb break="no" ed="#P" n="63"/>merum salvandorum et praedestinatorum, 
+          con<lb break="no" ed="#P" n="64"/>tra quam supra ostendi, omnes salvandos esse
+          <lb ed="#P" n="65"/>praedestinatos. Deinde supponit duo principia
+          <lb ed="#P" n="66"/>falsa. Unum est, non omnes, qui salvantur,
+          <lb ed="#P" n="67"/>esse praeelectos : aliud est, Deum non praescire
+          <lb ed="#P" n="68"/>sub conditione futura contingentia, priusquam
+          <lb ed="#P" n="69"/>circa salutem hominum aliquid decernat: et
+          <lb ed="#P" n="70"/>ideo non oportet plura contra hanc sententiam
+          <lb ed="#P" n="71"/>dicere.
+        </p>
+        <p xml:id="szduep-132628-d1e267">
+          <lb ed="#P" n="72"/>5. Alii ergo moderni acriter impugnantes
+          <lb ed="#P" n="73"/>hanc opinionem, in aliam extremam 
+          incide<lb break="no" ed="#P" n="74"/>runt, dicentes. Utrumque numerum, tam 
+          prae<lb break="no" ed="#P" n="75"/>destinatorum, quam reproborum esse certum
+          <lb ed="#P" n="76"/>in decreto quodam voluntatis Dei, quod 
+          ante<lb break="no" ed="#P" n="77"/>cessit omnem praescientiam futurorum, tam
+          <lb ed="#P" n="78"/>absolutam, quam conditionatam. Verumtamen
+          <lb ed="#P" n="79"/>haec opinio satis in superioribus impugnata
+          <lb ed="#P" n="80"/>est : quia neque circa reprobos Deus potuit
+          <lb ed="#P" n="81"/>convenienter habere tale decretum ante 
+          prae<lb break="no" ed="#P" n="82"/>scientiam absolutam, nisi velimus Deum 
+          fa<lb break="no" ed="#P" n="83"/>cere auctorem totius mali, neque etiam locum
+          <lb ed="#P" n="84"/>habet tale decretum circa praedestinatos ante
+          <lb ed="#P" n="85"/>praescientiam conditionatam, nisi laedatur 
+          h<lb break="no" ed="#P" n="86"/>bertas arbitrii. Denique unusquisque juxta
+          <lb ed="#P" n="87"/>modum praedestinationis , quem fingit , tale
+          <lb ed="#P" n="88"/>etiam admittit fundamentum hujus 
+          certitudi<lb break="no" ed="#P" n="89"/>nis : et ideo necesse non est per singulas 
+          opi<lb break="no" ed="#P" n="90"/>niones discurrere, aut impugnare illas, quia
+          <lb ed="#P" n="91"/>ex fundamento, id est, ex modo 
+          praedestina<lb break="no" ed="#P" n="92"/>tionis expugnandae sunt.
+        </p>
+        <p xml:id="szduep-132628-d1e315">
+          <lb ed="#P" n="93"/>6. Prima assertio. — Nos igitur ex modo
+          <lb ed="#P" n="94"/>praedestinationis, quem posuimus, 
+          consequen<lb break="no" ed="#P" n="95"/>ter dicimus, in numero praedestinatorum duo
+          <lb ed="#P" n="96"/>considerari posse, scilicet, ut non sit major et
+          <lb ed="#P" n="97"/>ut non sit minor. Dico ergo primo. Ex vi 
+          il<lb break="no" ed="#P" n="98"/>lius decreti, quo Deus eligit ad gloriam tales
+          <lb ed="#P" n="99"/>personas, certum est numerum 
+          praedestinato<lb break="no" ed="#P" n="100"/>rum esse futurum in tanta multitudine et non
+          <lb ed="#P" n="101"/>in minori. Probatur, quia cum sit absolutum
+          <lb ed="#P" n="102"/>decretum, deficere non potest. Haec vero 
+          cer<lb break="no" ed="#P" n="103"/>titudo non repugnat libertati 
+          praedestinato<lb break="no" ed="#P" n="104"/>rum, propter scientiam conditionatam, quam
+          <lb ed="#P" n="105"/>supponit, ut saepe declaravi.
+        </p>
+        <p xml:id="szduep-132628-d1e346">
+          <lb ed="#P" n="106"/>7. Secunda assertio. —Secundo dico, 
+          quan<lb break="no" ed="#P" n="107"/>tum ad aliam partem, quod scilicet ille nume-
+          <pb ed="#P" n="524"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rus non sit futurus major, certitudo sumenda
+          <lb ed="#P" n="2"/>est ex alia voluntate, qua Deus statuit non 
+          eh<lb break="no" ed="#P" n="3"/>gere plures, nec praeparare aliis media 
+          effica<lb break="no" ed="#P" n="4"/>cia, quia ante hanc voluntatem in nullo 
+          prin<lb break="no" ed="#P" n="5"/>cipio est infallibilis negatio majoris numeri.
+          <lb ed="#P" n="6"/>Unde consequenter fit, ut in hac posteriori
+          <lb ed="#P" n="7"/>yoluntate, supposita etiam conditionata 
+          prae<lb break="no" ed="#P" n="8"/>scientia et voluntate creandi tantam 
+          multitu<lb break="no" ed="#P" n="9"/>dinem angelorum, vel hominum, sit etiam
+          <lb ed="#P" n="10"/>certus reproborum numerus, non propter 
+          effi<lb break="no" ed="#P" n="11"/>caciam talis voluntatis, quam positive habeat
+          <lb ed="#P" n="12"/>circa effectus reprobationis, vel circa culpam,
+          <lb ed="#P" n="13"/>quae est causa eorum: sed propter scientiam
+          <lb ed="#P" n="14"/>conditionatam, cum decreto permittendi 
+          con<lb break="no" ed="#P" n="15"/>ditionem, ut supra etiam declaratum est.
+        </p>
+        <p xml:id="szduep-132628-d1e390">
+          <lb ed="#P" n="16"/>8. Ex quo tandem intelligitur differentia,
+          <lb ed="#P" n="17"/>quam D. Thomas, hic art. 7, ponit inter 
+          nu<lb break="no" ed="#P" n="18"/>merum praedestinatorum et reproborum. Nam
+          <lb ed="#P" n="19"/>priorem dicit esse certum ex singulari quadam
+          <lb ed="#P" n="20"/>predefinitione divina, ita enim et merito 
+          vo<lb break="no" ed="#P" n="21"/>cavit praeelectionem DEI. Posteriorem etiam
+          <lb ed="#P" n="22"/>dicit non esse certum ex tali praefinitione.
+          <lb ed="#P" n="23"/>Quaeri vero potest, an sit ex aliqua. In quo
+          <lb ed="#P" n="24"/>distinguendum est (cum Cajetano ibi) de 
+          re<lb break="no" ed="#P" n="25"/>probis, ut sint homines, vel angeli: vel ut
+          <lb ed="#P" n="26"/>sint reprobi. Nam priori modo numerus 
+          eo<lb break="no" ed="#P" n="27"/>rum est certus ex aliqua praefinitione Dei, id
+          <lb ed="#P" n="28"/>est, ex aliqua absoluta voluntate Dei: nam
+          <lb ed="#P" n="29"/>ille effectus talis est, ut DEUS illum facturus
+          <lb ed="#P" n="30"/>sit, et magna ex parte ipse solus: unde talis
+          <lb ed="#P" n="31"/>etiam est, ut ex se, et absolute possit eum
+          <lb ed="#P" n="32"/>velle. Non existimo autem, etiam in hoc esse
+          <lb ed="#P" n="33"/>eequalitatem inter reprobos et praedestinatos
+          <lb ed="#P" n="34"/>(licet oppositum censeat Cajetanus,) nam 
+          prae<lb break="no" ed="#P" n="35"/>destinatorum numerus per se praefinitus est,
+          <lb ed="#P" n="36"/>reproborum autem propter bonum ipsorum
+          <lb ed="#P" n="37"/>praedestinatorum, ut expresse ibi docuit divus
+          <lb ed="#P" n="38"/>Thomas, et fuit sententia Augustini 4, contra
+          <lb ed="#P" n="39"/>Julianum, cap. 4; et ideo illa prior voluntas
+          <lb ed="#P" n="40"/>merito vocatur singularis praefinitio. Ut autem
+          <lb ed="#P" n="41"/>tales homines, vel angeli reprobi sint, non.est
+          <lb ed="#P" n="42"/>certus eorum numerus ex praefinitione talis
+          <lb ed="#P" n="43"/>effectus, sed ex permissione, supposita 
+          condi<lb break="no" ed="#P" n="44"/>tonata praescientia, ut supra declaratum est.
+          <lb ed="#P" n="45"/>Dico autem non esse certum hunc numerum
+          <lb ed="#P" n="46"/>ex praefinitione talis effectus, nam si quis vocet
+          <lb ed="#P" n="47"/>praefinitionem, voluntatem, quam Deus habuit
+          <lb ed="#P" n="48"/>non praeeligendi hos homines, nec praeparandi
+          <lb ed="#P" n="49"/>eis auxilia congrua, etiam est certus ille
+          <lb ed="#P" n="50"/>numerus ex vi talis praefinitionis. Modus 
+          ta<lb break="no" ed="#P" n="51"/>men loquendi est improprius et minime 
+          usi<lb break="no" ed="#P" n="52"/>tatus, quia cum illa voluntas non sit de 
+          ef<lb break="no" ed="#P" n="53"/>fectu positivo , sed tantum de quadam 
+          ne<lb break="no" ed="#P" n="54"/>gatione, ad permissionem potius pertinere 
+          cen<lb break="no" ed="#P" n="55"/>setur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="282"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-071923"><!-- t2-l1c12 -->
+        <head xml:id="szduep-071923-Hd1e101">Caput 12</head>
+        <head xml:id="szduep-071923-Hd1e103" type="question-title">Electionem omnium salvandorum in eodem signo rationis factum fuisse</head>
+        <p xml:id="szduep-071923-d1e106">
+          <lb ed="#P" n="104"/>CAPUT XII.
+          <lb ed="#P" n="105"/>ELECTIONEM OMNIUM SALVANDORUM IN EODEM
+          <lb ed="#P" n="106"/>SIGNO RATIONIS FACTUM FUISSE.
+        </p>
+        <p xml:id="szduep-071923-d1e115">
+          <lb ed="#P" n="107"/>1. Prima ratio dubitandi. — In hoc capite
+          <pb ed="#P" n="283"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sermo non est de Christo Domino, sed de 
+          cae<lb break="no" ed="#P" n="2"/>teris praedestinatis, tam angelis, quam 
+          homi<lb break="no" ed="#P" n="3"/>nibus. Unde prima ratio dubitandi est, quia
+          <lb ed="#P" n="4"/>angeli sancti videntur prius electi ad gloriam
+          <lb ed="#P" n="5"/>quam homines. Probatur, quia prius sunt electi
+          <lb ed="#P" n="6"/>boni angeli, quam mali praevisi sint peccare,
+          <lb ed="#P" n="7"/>sed homines non fuerunt electi, donec 
+          pecca<lb break="no" ed="#P" n="8"/>tum malorum angelorum fuit praevisum, ergo.
+          <lb ed="#P" n="9"/>Major est certa, quia ante praescientiam 
+          pec<lb break="no" ed="#P" n="10"/>cati angelorum praecessit permissio ejus, ante
+          <lb ed="#P" n="11"/>permissionem vero voluntas creandi, et 
+          ordi<lb break="no" ed="#P" n="12"/>mandi illos (malos scilicet angelos) ad gloriam,
+          <lb ed="#P" n="13"/>antecedenti voluntate: sed electio bonorum
+          <lb ed="#P" n="14"/>simul facta est cum ordinatione malorum ad
+          <lb ed="#P" n="15"/>gloriam, ergo sine dubio praecessit 
+          permissio<lb break="no" ed="#P" n="16"/>nem, et praescientiam peccati angelici. Minor
+          <lb ed="#P" n="17"/>autem probatur, quia homines electi sunt ad
+          <lb ed="#P" n="18"/>reparandas sedes angelorum, ut aliqui 
+          colli<lb break="no" ed="#P" n="19"/>gunt ex illo Pauli ad Ephes. 1: Instaurare 
+          om<lb break="no" ed="#P" n="20"/>nia in Christo, que in ceelis, et in terra sunt :
+          <lb ed="#P" n="21"/>et solet etiam accommodari illud Psalm. 109:
+          <lb ed="#P" n="22"/>UIndicabit in nationibus, implebit ruinas. Unde
+          <lb ed="#P" n="23"/>D. Bernardus, serm. 1, de Adventu, hinc 
+          sump<lb break="no" ed="#P" n="24"/>sit rationem, ob quam homines redempti sunt,
+          <lb ed="#P" n="25"/>et non angeli, quia ruinae angelorum per 
+          ho<lb break="no" ed="#P" n="26"/>mines instauratae sunt, casus autem naturae
+          <lb ed="#P" n="27"/>humanae non poterat in inferiori aliqua natura
+          <lb ed="#P" n="28"/>reparari. Et eamdem rationem habet 
+          Ansel<lb break="no" ed="#P" n="29"/>mus, lib. 1, cur Deus homo, cap. 16 et 17, ac
+          <lb ed="#P" n="30"/>denique Augustinus, in Enchir., cap. 29. dicit:
+          <lb ed="#P" n="31"/>Filios Ecclesie succedere in sedibus angelorum,
+          <lb ed="#P" n="32"/>ut pace fruantur : quam. illi amiserunt - ergo
+          <lb ed="#P" n="33"/>electio hominum supponit praescientiam 
+          ange<lb break="no" ed="#P" n="34"/>Iici lapsus.
+        </p>
+        <p xml:id="szduep-071923-d1e198">
+          <lb ed="#P" n="35"/>2. Secunda ratio.—Secunda ratio dubitandi
+          <lb ed="#P" n="36"/>est, quia etiam ipsi homines non videntur 
+          si<lb break="no" ed="#P" n="37"/>mul, et in eodem signo rationis electi. Quia
+          <lb ed="#P" n="38"/>Adamus electus fuit ante praescientiam 
+          origi<lb break="no" ed="#P" n="39"/>nalis peccati. In majori suppono, Adam 
+          elec<lb break="no" ed="#P" n="40"/>tum fuisse, quia salvatus est, Sap. 10, et jam
+          <lb ed="#P" n="41"/>dixi, omnes, qui salvantur, esse etiam electos.
+          <lb ed="#P" n="42"/>Ante peccatum etiam habuit Adam plures 
+          ef<lb break="no" ed="#P" n="43"/>fectus suae electionis, nam gratia, et justitia,
+          <lb ed="#P" n="44"/>quam in sua creatione recepit, effectus fuit
+          <lb ed="#P" n="45"/>electionis ejus, ut nunc suppono, et facile 
+          ha<lb break="no" ed="#P" n="46"/>beri potest ex dictis, capite praecedenti : fuit
+          <lb ed="#P" n="47"/>ergo electus ante praescientiam sui peccati.
+          <lb ed="#P" n="48"/>Minor autem videtur esse clara sententia 
+          Au<lb break="no" ed="#P" n="49"/>gustini, lib. 2, contra duas Epistolas Pelag.,
+          <lb ed="#P" n="50"/>eap. 7, de Praedest. et Grat., cap. 3, lib. 1, ad
+          <lb ed="#P" n="51"/>Simplician., quaest. 2, in Enchir., cap. 49, et
+          <lb ed="#P" n="52"/>saepe alias. Favet etiam D. Thomas, 1 part.,
+          <lb ed="#P" n="53"/>quaest. 23, art. 1, ad 3, quatenus ait, 
+          termi<lb break="no" ed="#P" n="54"/>num a quo praedestinationis humanae fuisse
+          <lb ed="#P" n="55"/>miseriam peccati. hatione etiam declarari po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>test, quia si homo non peccasset, fortasse non
+          <lb ed="#P" n="57"/>essent tot homines, quot nunc sunt, vel forte,
+          <lb ed="#P" n="58"/>neque iidem : vel si essent, non tot 
+          damnaren<lb break="no" ed="#P" n="59"/>tur, quot nunc, cum natura esset integra.
+          <lb ed="#P" n="60"/>Praeterea, gloria beatorum hominum anucta est
+          <lb ed="#P" n="61"/>occasione peccati, juxta illud: Ego ceni ut
+          <lb ed="#P" n="62"/>vitam habeant , et abundantius habeant : ergo
+          <lb ed="#P" n="63"/>electio prout a nobis praescripta est, non potuit
+          <lb ed="#P" n="64"/>esse ante praescientiam originalis peccati, quia
+          <lb ed="#P" n="65"/>facta est ad definitum gradum gloriae, definiri
+          <lb ed="#P" n="66"/>autem non potuit ante praevisum originale 
+          pec<lb break="no" ed="#P" n="67"/>catum : quia gradus semel definitus 
+          immuta<lb break="no" ed="#P" n="68"/>bilis permaneret, nec posset postea augeri.
+          <lb ed="#P" n="69"/>Item declarari potest ex modo providentiae,
+          <lb ed="#P" n="70"/>et communicationis gratiae, quem Deus habuit
+          <lb ed="#P" n="71"/>in statu innocentiae, quia fuit quasi 
+          indiffe<lb break="no" ed="#P" n="72"/>rens, et aeque communis omnibus hominibus:
+          <lb ed="#P" n="73"/>ergo procedebat ex aequali voluntate dandi
+          <lb ed="#P" n="74"/>omnibus gloriam: nondum ergo facta erat
+          <lb ed="#P" n="75"/>discretio per absolutam electionem aliquorum.
+          <lb ed="#P" n="76"/>Denique Christus ipse praedestinatus non fuit,
+          <lb ed="#P" n="77"/>nisi praeviso originali peccato, ut habet 
+          mul<lb break="no" ed="#P" n="78"/>torum opinio : sed ipse praedestinatus fuit ante
+          <lb ed="#P" n="79"/>electionem aliorum hominum, quia in ipso
+          <lb ed="#P" n="80"/>electi sunt, teste Paulo ad Ephes. 1, ergo 
+          ne<lb break="no" ed="#P" n="81"/>que alii electi sunt ante praescientiam 
+          origi<lb break="no" ed="#P" n="82"/>nalis peccati.
+        </p>
+        <p xml:id="szduep-071923-d1e308">
+          <lb ed="#P" n="83"/>3. Tertia ratio. — Tertia difficultas esse 
+          po<lb break="no" ed="#P" n="84"/>test, quia nec post originale peccatum 
+          vi<lb break="no" ed="#P" n="85"/>dentur omnes praedestinati simul electi. 
+          Pri<lb break="no" ed="#P" n="86"/>mo, quia nemo eligitur nisi praevideatur 
+          futu<lb break="no" ed="#P" n="87"/>rus : non autem omnes homines simul 
+          praevi<lb break="no" ed="#P" n="88"/>dentur futuri : nam praevidentur eo ordine,
+          <lb ed="#P" n="89"/>quo futuri sunt. Secundo, quia multorum 
+          ge<lb break="no" ed="#P" n="90"/>nerationes non sunt ex praedefinitione divina,
+          <lb ed="#P" n="91"/>sed ex sola permissione, quia cum peccato
+          <lb ed="#P" n="92"/>fiunt, et tamen multi homines sic geniti, sunt
+          <lb ed="#P" n="93"/>electi, ergo non eliguntur, donec jam 
+          praevi<lb break="no" ed="#P" n="94"/>deantur futuri : igitur non omnes simul 
+          eh<lb break="no" ed="#P" n="95"/>guntur. Tertio, quia seepe multi assumuntur
+          <lb ed="#P" n="96"/>ad gloriam occasione lapsus aliorum. Ut non
+          <lb ed="#P" n="97"/>obscure significatur in illo Apoc. 3: Tene,
+          <lb ed="#P" n="98"/>quod habes, ne alius accipiat coronam tuam.
+          <lb ed="#P" n="99"/>Prius ergo, quam unus eligatur ad coronam
+          <lb ed="#P" n="100"/>alterius accipiendam, lapsus alterius 
+          praevide<lb break="no" ed="#P" n="101"/>tur. Et haec Dei providentia significatur, Job,
+          <lb ed="#P" n="102"/>cap. 34, cum dicitur. Conteret multos, et 
+          innu<lb break="no" ed="#P" n="103"/>merabiles, et stare faciet alios pro eis. Sic in
+          <lb ed="#P" n="104"/>locum Judae suffectus est Matthias, Act. 1, et
+          <lb ed="#P" n="105"/>in locum Judaeorum vocati sunt Gentiles, Act.
+          <lb ed="#P" n="106"/>13, et ad Rom. 11, ergo non potuit electio
+          <lb ed="#P" n="107"/>omnium salvandorum hominum in eodem 
+          si<lb break="no" ed="#P" n="108"/>gno rationis fieri.
+        </p>
+        <p xml:id="szduep-071923-d1e367">
+          <lb ed="#P" n="109"/>A. Prima conclusio. — Electio omnium simul
+          <lb ed="#P" n="110"/>fuit.— Prima ratio. — Nihilominus dicendum
+          <pb ed="#P" n="284"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, electionem omnium praedestinatorum post
+          <lb ed="#P" n="2"/>Christum (de quo nunc non disputo) simul, et
+          <lb ed="#P" n="3"/>in eodem signo rationis fuisse. Hanc existimo
+          <lb ed="#P" n="4"/>esse communiorem sententiam theologorum,
+          <lb ed="#P" n="5"/>quos inferius referam. Probatur autem primo,
+          <lb ed="#P" n="6"/>quia in actibus voluntatis divinae ex parte 
+          ip<lb break="no" ed="#P" n="7"/>sius Dei nullus est ordo, simul enim, et uno
+          <lb ed="#P" n="8"/>simplicissimo actu vult omnia, solum ergo ex
+          <lb ed="#P" n="9"/>parte objectorum potest talis ordo considerari,
+          <lb ed="#P" n="10"/>sed inter electos nullus est ordo, propter quem
+          <lb ed="#P" n="11"/>quidam dicantur electi prius, quam ali. Ergo.
+          <lb ed="#P" n="12"/>Probatur minor, quia hic ordo tantum potest
+          <lb ed="#P" n="13"/>esse causalitatis, et in praesenti esse debet finis,
+          <lb ed="#P" n="14"/>et ejus quod ordinatur ad finem, quia 
+          versa<lb break="no" ed="#P" n="15"/>mur circa ordinem intentionis : unus autem
+          <lb ed="#P" n="16"/>electus non est finis gloria alterius, neque e
+          <lb ed="#P" n="17"/>converso, sed omnes immediate ordinantur ad
+          <lb ed="#P" n="18"/>gloriam Dei, et Christi: ergo.
+        </p>
+        <p xml:id="szduep-071923-d1e417">
+          <lb ed="#P" n="19"/>Secunda ratio. — Secundo ex ratione saepe
+          <lb ed="#P" n="20"/>facta, quod Deus intendit regnum electorum
+          <lb ed="#P" n="21"/>per modum unius corporis, seu civitatis 
+          coe<lb break="no" ed="#P" n="22"/>lestis : ergo simul intendit etiam omnia 
+          mem<lb break="no" ed="#P" n="23"/>bra, ex quibus tale corpus constat , nam ex
+          <lb ed="#P" n="24"/>eorum multitudine, et varietate, totius 
+          corpo<lb break="no" ed="#P" n="25"/>ris pulchritudo resultat.
+        </p>
+        <p xml:id="szduep-071923-d1e435">
+          <lb ed="#P" n="26"/>Tertia ratio. — Tertio denique, quia neque
+          <lb ed="#P" n="27"/>angeli prius electi sunt, quam homines, neque
+          <lb ed="#P" n="28"/>inter homines quidam prius quam alii, ergo
+          <lb ed="#P" n="29"/>omnes simul. Consequentia nota est, et 
+          ante<lb break="no" ed="#P" n="30"/>cedens constabit ex dicendis, et ex 
+          solutioni<lb break="no" ed="#P" n="31"/>bus argumentorum.
+        </p>
+        <p xml:id="szduep-071923-d1e451">
+          <lb ed="#P" n="32"/>5. Secunda conclusio. —Electio hominum fuit
+          <lb ed="#P" n="33"/>ante praevisum peccatum angelorum.—Secundo
+          <lb ed="#P" n="34"/>assero, homines fuisse electos ad gloriam ante
+          <lb ed="#P" n="35"/>praevisum peccatum angelorum , atque adeo
+          <lb ed="#P" n="36"/>non fuisse electos occasione illius peccati, sed
+          <lb ed="#P" n="37"/>per se, aeque ac ipsos angelos. Ita sentit D. 
+          Au<lb break="no" ed="#P" n="38"/>gustinus, lib. 12, de Civit., cap. 9, quatenus
+          <lb ed="#P" n="39"/>necessitatem gratiae aeque ad angelos et ad 
+          ho<lb break="no" ed="#P" n="40"/>mines judicat pertinere, et a Deo aeque 
+          libera<lb break="no" ed="#P" n="41"/>liter, seu gratis praestari. Clarius, lib.11, cap.9,
+          <lb ed="#P" n="42"/>lib. 12, cap. 1, et lib. 15, cap. 1, quibus locis
+          <lb ed="#P" n="43"/>distinguit duas civitates, seu societates, unam
+          <lb ed="#P" n="44"/>praedestinatorum et alteram reproborum, et
+          <lb ed="#P" n="45"/>priorem significat coalescere ex angelis et 
+          ho<lb break="no" ed="#P" n="46"/>minibus, sine ullo inter eos ordine. Similiter,
+          <lb ed="#P" n="47"/>lib. 22. cap. 29, ait, Civitatem illam Dei aeque
+          <lb ed="#P" n="48"/>constare ex angelis et hominibus. Sumi etiam
+          <lb ed="#P" n="49"/>potest ex Anselmo in Elucidario, quatenus 
+          di<lb break="no" ed="#P" n="50"/>cit, tot homines salvandos esse, quot sunt 
+          an<lb break="no" ed="#P" n="51"/>geli beati. Nam inde optime infertur, non 
+          as<lb break="no" ed="#P" n="52"/>sumi homines tantum ad sedes malorum 
+          ange<lb break="no" ed="#P" n="53"/>lorum: nam angeli, qui ceciderunt, multo
+          <lb ed="#P" n="54"/>pauciores fuerunt, quam qui perstiterunt. Imo
+          <lb ed="#P" n="55"/>Augustinus , in Enchir. , cap. 29, probabiles
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>censet, majorem futurum esse numerum 
+          bea<lb break="no" ed="#P" n="57"/>torum hominum, quam sit angelorum.
+        </p>
+        <p xml:id="szduep-071923-d1e512">
+          <lb ed="#P" n="58"/>6. Ratione declaratur primo, quia humana l
+          <lb ed="#P" n="59"/>natura per sese est aeque capax (capacitate
+          <lb ed="#P" n="60"/>obedientiali ) illius beativudinis 
+          supernatura<lb break="no" ed="#P" n="61"/>lis, ac angelica, et natura sua solum Deum 
+          <lb ed="#P" n="62"/>rescipit ut ultimum finem, et in illo tantum
+          <lb ed="#P" n="63"/>quiescit, ergo ita per se ordinatur in illum 
+          fi<lb break="no" ed="#P" n="64"/>nem, sicut angelica natura : ergo aeque primo
+          <lb ed="#P" n="65"/>eliguntur ad illum finem homines sicut 
+          an<lb break="no" ed="#P" n="66"/>geli. Accedit praeterea, quod licet angelica 
+          na<lb break="no" ed="#P" n="67"/>tura in perfectione excedat : tamen hoc ipso 
+          <lb ed="#P" n="68"/>humana est aptior, ut in ea ostendatur virtus
+          <lb ed="#P" n="69"/>divinae gratiee, qui est unus finis praecipuus
+          <lb ed="#P" n="70"/>divinae praedestinationis: ergo est quodam 
+          mo<lb break="no" ed="#P" n="71"/>do major ratio, ut per se eligantur homines,
+          <lb ed="#P" n="72"/>quam angeli, et augetur amplius haec ratio ex
+          <lb ed="#P" n="73"/>parte CHRISTI Domini (quem suppono fuisse
+          <lb ed="#P" n="74"/>primum electum et praedestinatum a Deo;
+          <lb ed="#P" n="75"/>tanquam caput omnium, propter cujus 
+          glo<lb break="no" ed="#P" n="76"/>riam omnes alii eliguntur :) cum ergo Deus
+          <lb ed="#P" n="77"/>humanam naturam ad illud mysterium potius
+          <lb ed="#P" n="78"/>quam angelicam ordinaverit, non videtur 
+          du<lb break="no" ed="#P" n="79"/>bium, quin etiam homines, tanquam Christi
+          <lb ed="#P" n="80"/>socios et fratres, per se primo elegerit 
+          inde<lb break="no" ed="#P" n="81"/>pendenter a peccato angelorum: Uft sit apse
+          <lb ed="#P" n="82"/>primogenitus in multis fratribus. Propter quod
+          <lb ed="#P" n="83"/>etiam de illo, id est, de se, divina Sapientia
+          <lb ed="#P" n="84"/>dicit : Delicie mee esse cum filiis homimum.
+          <lb ed="#P" n="85"/>Nullus ergo ordo rationis est inter electionem
+          <lb ed="#P" n="86"/>hominum et peccatum angelorum : ergo haec
+          <lb ed="#P" n="87"/>electio non supponit praescientiam illius 
+          pec<lb break="no" ed="#P" n="88"/>cati : ac proinde neque inter electionem 
+          ho<lb break="no" ed="#P" n="89"/>minum et angelorum ex hoc capite erit 
+          ali<lb break="no" ed="#P" n="90"/>quis ordo.
+        </p>
+        <p xml:id="szduep-071923-d1e587">
+          <lb ed="#P" n="91"/>7. Objectio. — Solutio.— Dices, ergo neque
+          <lb ed="#P" n="92"/>etiam electio hominum erit ante m 
+          prae<lb break="no" ed="#P" n="93"/>scientiam, neque inter peccatum angelorum
+          <lb ed="#P" n="94"/>et hominum gloriam est aliquis ordo 
+          causali<lb break="no" ed="#P" n="95"/>tatis. Respondeo negando sequelam, quia licet
+          <lb ed="#P" n="96"/>immediate non videatur esse hic ordo: tamen
+          <lb ed="#P" n="97"/>mediate et ratione alterius intercedit, 
+          quate<lb break="no" ed="#P" n="98"/>nus electio bonorum angelorum necessario 
+          an<lb break="no" ed="#P" n="99"/>tecessit illam praescientiam et electio 
+          homi<lb break="no" ed="#P" n="100"/>num et angelorum simul facta est. Deinde
+          <lb ed="#P" n="101"/>probabile est, etiam permissionem peccati 
+          an<lb break="no" ed="#P" n="102"/>gelici ordinatam esse a Deo ad salutem 
+          ho<lb break="no" ed="#P" n="103"/>minum electorum, ut inferius exponam.
+        </p>
+        <p xml:id="szduep-071923-d1e618">
+          <lb ed="#P" n="104"/>8. Tertia conclusio. Electio hominum fuit ante
+          <lb ed="#P" n="105"/>praevisum Adae peccatum. — Dico tertio, omnes
+          <lb ed="#P" n="106"/>homines salvandi electi fuerunt ante 
+          praevi<lb break="no" ed="#P" n="107"/>sum peccatum Adae, ut absolute futurum:
+          <lb ed="#P" n="108"/>imo etante voluntatem permittandi illud. Haec
+          <lb ed="#P" n="109"/>conclusio sumitur ex D. Thoma, q. 993. art. 1,
+          <lb ed="#P" n="110"/>ad 3, et ex art. 4, si attente fegatur. Idem te-
+          <pb ed="#P" n="285"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nuit Scotus in 3, d. 7, q. 3, indicavit etiam,
+          <lb ed="#P" n="2"/>quamvis sub dubio, in 1, d. 41. Ubi idem 
+          te<lb break="no" ed="#P" n="3"/>net Hervaeus et in d. 40, idem sentiunt /
+          JEgi<lb break="no" ed="#P" n="4"/>dius , Gregorius et Capreolus, et Marsilius,
+          <lb ed="#P" n="5"/>quaest. 41. Echius, inlib. de Praedestin., cent. 1,
+          <lb ed="#P" n="6"/>nu. 236, ubi pro regula statuit: Nwullhun 
+          prae<lb break="no" ed="#P" n="7"/>destinatum electum esse occasione peccati 
+          alte<lb break="no" ed="#P" n="8"/>rius. Quod profecto per se mihi est maxime
+          <lb ed="#P" n="9"/>verisimile, ut in simili dixi latius de 
+          praedesti<lb break="no" ed="#P" n="10"/>natione Christi in 3 part., disp. 5. Atque hinc
+          <lb ed="#P" n="11"/>sumitur ratio assertionis, quia electio 
+          homi<lb break="no" ed="#P" n="12"/>num in nullo pendet a permissione, vel 
+          prae<lb break="no" ed="#P" n="13"/>visione peccati, quia nullo modo, vel ratione,
+          <lb ed="#P" n="14"/>vel occasione illius intelligitur fieri : ergo non
+          <lb ed="#P" n="15"/>est cur illam supponat. Item sumo 
+          argumen<lb break="no" ed="#P" n="16"/>tum ex dictis : nam angeli non sunt electi ad
+          <lb ed="#P" n="17"/>gloriam occasione peccati alicujus, sed per se:
+          <lb ed="#P" n="18"/>ergo et homines, quia sunt aeque primo et
+          <lb ed="#P" n="19"/>principaliter electi. Tandem, permittendo 
+          pec<lb break="no" ed="#P" n="20"/>catum Adami, disposuit Deus salutem 
+          electo<lb break="no" ed="#P" n="21"/>rum, optimo et sapientissimo modo 
+          consequen<lb break="no" ed="#P" n="22"/>dam et quasi paravit viam ad illam gloriam
+          <lb ed="#P" n="23"/>hominum, quam intendebat : ergo optime 
+          in<lb break="no" ed="#P" n="24"/>telligitur illa intentio prior hac permissione.
+        </p>
+        <p xml:id="szduep-071923-d1e692">
+          <lb ed="#P" n="25"/>9. Diluitur. — Prima ratio dubitandi. —
+          <lb ed="#P" n="26"/>Bespondetur ad sanctos Patres. —Ad primam
+          <lb ed="#P" n="27"/>ergo rationem dubitandi, nego homines fuisse
+          <lb ed="#P" n="28"/>electos post praescientiam peccati angelorum.
+          <lb ed="#P" n="29"/>Nego etiam primam rationem eligendi 
+          homi<lb break="no" ed="#P" n="30"/>nes sumptam esse ex occasione illius peccati,
+          <lb ed="#P" n="31"/>sed ex divina bonitate supposita hominis 
+          ca<lb break="no" ed="#P" n="32"/>pacitate et fortasse etiam ex parte meritorum
+          <lb ed="#P" n="33"/>CHRISTI. Ad illas vero locutiones sanctorum
+          <lb ed="#P" n="34"/>respondeo, eos loqui potius de effectu et 
+          exe<lb break="no" ed="#P" n="35"/>cutione, quam de prima electione. Considerant
+          <lb ed="#P" n="36"/>enim beatitudinem, ut complendam ex 
+          om<lb break="no" ed="#P" n="37"/>nibus angelis creatis: et quia aliqui eorum
+          <lb ed="#P" n="38"/>defecerunt, dicunt regnum illud ex hominibus
+          <lb ed="#P" n="39"/>compleri. Non quidem, quia solum hac 
+          inten<lb break="no" ed="#P" n="40"/>üone Deus homines creaverit, aut ea occasione
+          <lb ed="#P" n="41"/>eos elegerit, sed quia a principio voluit 
+          re<lb break="no" ed="#P" n="42"/>gnum illud ita constituere. Atque hoc modo
+          <lb ed="#P" n="43"/>exposuit Augustinus, cap. 62, Enchir., illud
+          <lb ed="#P" n="44"/>verbum Pauli ad Ephes. 1, Instaurare omnia
+          <lb ed="#P" n="45"/>in Christo : Quia illud (inquit) quod in angelis
+          <lb ed="#P" n="46"/>lapsum est, in hominibus redditur. Quamvis
+          <lb ed="#P" n="47"/>Hieronymus et Graeci, juxta proprietatem 
+          ver<lb break="no" ed="#P" n="48"/>bi graeci, aliter legant et exponant, 
+          recapitula<lb break="no" ed="#P" n="49"/>re omnia in Christo, id est, in summam 
+          redi<lb break="no" ed="#P" n="50"/>gere, vel omnia in illo tanquam in vero, et
+          <lb ed="#P" n="51"/>supremo capite conjungere.
+        </p>
+        <p xml:id="szduep-071923-d1e753">
+          <lb ed="#P" n="52"/>10. Explicatur.—Vwerba autem Psalm. 109,
+          <lb ed="#P" n="53"/>longe diversum habent sensum : nam implere
+          <lb ed="#P" n="54"/>muinas, non significat reparare, seu restituere
+          <lb ed="#P" n="55"/>illas, sed potius perficere, seu augere illas.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Nam metaphorica illa locutione significatae
+          <lb ed="#P" n="57"/>sunt spirituales victoriae , quas Christus de
+          <lb ed="#P" n="58"/>gentibus reportavit. Quod si ad ruinas 
+          daemo<lb break="no" ed="#P" n="59"/>num illa verba referantur, potius significant,
+          <lb ed="#P" n="60"/>illas completas esse per Christum, qui 
+          daemo<lb break="no" ed="#P" n="61"/>nem vicit et ejecit de cordibus hominum. 
+          De<lb break="no" ed="#P" n="62"/>nique, etiam admisso illo sensu allegorico, 
+          so<lb break="no" ed="#P" n="63"/>Ium ex illo probatur, in executione Christum
+          <lb ed="#P" n="64"/>reparasse angelorum sedes , homines electos
+          <lb ed="#P" n="65"/>redimendo: inde vero non sequitur , fuisse
+          <lb ed="#P" n="66"/>homines electos ad gloriam, quia mali angeli
+          <lb ed="#P" n="67"/>illam perdiderunt.
+        </p>
+        <p xml:id="szduep-071923-d1e792">
+          <lb ed="#P" n="68"/>11. Satisfit. — Secunda ratio. — Sensus
+          <lb ed="#P" n="69"/>verborun D. Thome et Augustini.—
+          Responde<lb break="no" ed="#P" n="70"/>tur ad confirmandum.—C hristus est 
+          praedesti<lb break="no" ed="#P" n="71"/>natus ante pravisionem peccati. — Ad 
+          secun<lb break="no" ed="#P" n="72"/>dum, admitto , Adamum fuisse electum ad
+          <lb ed="#P" n="73"/>gloriam ante praevisum originale peccatum,
+          <lb ed="#P" n="74"/>et inde sumo argumentum , idem dicendum
+          <lb ed="#P" n="75"/>esse de aliis praedestinatis, quia nulla est ratio
+          <lb ed="#P" n="76"/>ordinis inter illos. D. Thomas autem, cum 
+          si<lb break="no" ed="#P" n="77"/>enificat terminum a quo praedestinationis 
+          ho<lb break="no" ed="#P" n="78"/>minum fuisse statum peccati, loquitur de 
+          prae<lb break="no" ed="#P" n="79"/>destinatione quoad media, per quae homines
+          <lb ed="#P" n="80"/>salvantur, non quoad primam intentionem,
+          <lb ed="#P" n="81"/>seu electionem gloriae. Et eodem modo potest
+          <lb ed="#P" n="82"/>intelligi Augustinus. Vel, si referatur hoc ad
+          <lb ed="#P" n="83"/>electionem gloriae, intelligi potest veluti per
+          <lb ed="#P" n="84"/>anticipationem, quia illi electi sunt, qui futuri
+          <lb ed="#P" n="85"/>erant in massa perditionis, et ab illa erat 
+          libe<lb break="no" ed="#P" n="86"/>randi per efficacia media praedestinationis. Ad
+          <lb ed="#P" n="87"/>illas vero conditionales : S Adam non 
+          peccas<lb break="no" ed="#P" n="88"/>set, an essent futuri ddem homines, et an 
+          sal<lb break="no" ed="#P" n="89"/>varentur iidem, et in eodem gradu gratie et
+          <lb ed="#P" n="90"/>glorie. Respondeo imprimis, potuisse Deum,
+          <lb ed="#P" n="91"/>etiam durante illo statu, ita res humanas 
+          gu<lb break="no" ed="#P" n="92"/>bernare, ut tandem iidem homines in eodem
+          <lb ed="#P" n="93"/>gradu gratiae et gloriae salvarentur, qui nunc
+          <lb ed="#P" n="94"/>praedestinati sunt : habet enim Deum in 
+          the<lb break="no" ed="#P" n="95"/>sauris suae sapientiae, et potentiae infinitas vias
+          <lb ed="#P" n="96"/>et modos, quibus facere posset. Deinde vero
+          <lb ed="#P" n="97"/>dicitur, conditionales illas nihil ad rem 
+          prae<lb break="no" ed="#P" n="98"/>sentem referre. Ideo enim originale peccatum
+          <lb ed="#P" n="99"/>permissum est, ut illo modo divinum 
+          proposi<lb break="no" ed="#P" n="100"/>tum, et electio sapientissime impleretur. Ad
+          <lb ed="#P" n="101"/>confirmationem autem de Christi 
+          praedestina<lb break="no" ed="#P" n="102"/>tione respondetur, negando assumptum, nam
+          <lb ed="#P" n="103"/>Christus etiam ante praevisum omne peccatum
+          <lb ed="#P" n="104"/>dilectus est. Imo inde retorquemus 
+          argumen<lb break="no" ed="#P" n="105"/>tum, quia cum ipso, et propter ipsum 
+          debue<lb break="no" ed="#P" n="106"/>runt multi homines eligi per se, et absque 
+          oc<lb break="no" ed="#P" n="107"/>casione peccati.
+        </p>
+        <p xml:id="szduep-071923-d1e881">
+          <lb ed="#P" n="108"/>19. Solvitur. — Tertia ratio. — Successio
+          <lb ed="#P" n="109"/>temporis in futuritione hominum non 
+          consti<lb break="no" ed="#P" n="110"/>tuit ordinem electionis. — Ad tertium respon-
+          <pb ed="#P" n="286"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>detur, negando, fuisse ordinem inter alios 
+          ho<lb break="no" ed="#P" n="2"/>mines. Neque ad hoc refert ordo, qui est in
+          <lb ed="#P" n="3"/>successione temporum, alias necessario prius
+          <lb ed="#P" n="4"/>fuissent electi omnes praedestinati pertinentes
+          <lb ed="#P" n="5"/>ad legem scriptam, quam pertinentes ad 
+          le<lb break="no" ed="#P" n="6"/>gem gratiae, quod frivolum est. Deus ergo 
+          si<lb break="no" ed="#P" n="7"/>mul, et in eodem signo rationis multa 
+          praefi<lb break="no" ed="#P" n="8"/>nit; quae successive impleri disponit. Neque
+          <lb ed="#P" n="9"/>est verum, homines prius praevisos fuisse 
+          fu<lb break="no" ed="#P" n="10"/>turos, quam fuerint electi, sed potius (ut 
+          su<lb break="no" ed="#P" n="11"/>pra dixi) per ipsammet electionem praeordinati
+          <lb ed="#P" n="12"/>sunt ad existendum, eadem praefinitione 
+          divi<lb break="no" ed="#P" n="13"/>na. Neque obstat, quod multi peccaminose
+          <lb ed="#P" n="14"/>generentur, novit enim Deus praefinitiones
+          <lb ed="#P" n="15"/>suas mediis permissionibus ad exitum 
+          perdu<lb break="no" ed="#P" n="16"/>cere : quod est intellectum facillimum, 
+          suppo<lb break="no" ed="#P" n="17"/>sita conditionata scientia, et saepe in 
+          sequenti<lb break="no" ed="#P" n="18"/>bus attingetur.
+        </p>
+        <p xml:id="szduep-071923-d1e934">
+          <lb ed="#P" n="19"/>13. Rejicitur instantia. — Atque hinc 
+          in<lb break="no" ed="#P" n="20"/>fertur, respondendo simul ad ultimam 
+          instan<lb break="no" ed="#P" n="21"/>tiam, nullum hominem fuisse electum ad 
+          glo<lb break="no" ed="#P" n="22"/>riam vel gratiam, in illo primario ordine 
+          di<lb break="no" ed="#P" n="23"/>vinae intentionis, occasione peccati, vel 
+          perdi<lb break="no" ed="#P" n="24"/>tionis alterius, sed Deum ex se, ac per se primo
+          <lb ed="#P" n="25"/>eos elegisse, quos voluit. Numerum enim 
+          sal<lb break="no" ed="#P" n="26"/>vandorum absoluta voluntate praefinivit Deus,
+          <lb ed="#P" n="27"/>non tantum confuse, et formaliter (ut aiunt)
+          <lb ed="#P" n="28"/>quoad speciem numeri, sed etiam distincte,
+          <lb ed="#P" n="29"/>et quasi materialiter quoad singulares 
+          perso<lb break="no" ed="#P" n="30"/>nas, quae salutem consequuntur. Hoc enim (ut
+          <lb ed="#P" n="31"/>supra dixi) significant Scripturae, et hoc 
+          postu<lb break="no" ed="#P" n="32"/>lat perfectio divinae gratiae, et providentiae.
+          <lb ed="#P" n="33"/>Id autem vix posset subsistere, aut intelligi,
+          <lb ed="#P" n="34"/>si ad eligendum unum expectaret Deus 
+          prae<lb break="no" ed="#P" n="35"/>scientiam de bono, vel malo usu gratiae, et 
+          li<lb break="no" ed="#P" n="36"/>beri arbitrii alterius. Neque est ulla ratio 
+          fin<lb break="no" ed="#P" n="37"/>gendi hujusmodi ordinem, vel expectationem.
+        </p>
+        <p xml:id="szduep-071923-d1e978">
+          <lb ed="#P" n="38"/>14. Explicantur loca Scripture in 
+          contra<lb break="no" ed="#P" n="39"/>rium allata. — Loca vero Scripturae varias 
+          ha<lb break="no" ed="#P" n="40"/>bent expositiones. Illud enim Apocal. 3: Tene
+          <lb ed="#P" n="41"/>quod habes, ne alius accipiat coronam tuam.
+          <lb ed="#P" n="42"/>Aliqui putant solum esse phrasim loquendi, et
+          <lb ed="#P" n="43"/>exhortandi, sicut mater solet incitare filum
+          <lb ed="#P" n="44"/>parvulum ad fugendum ubera dicens : tene
+          <lb ed="#P" n="45"/>ubera, ne dem fratri tuo : ita refert D. Thomas
+          <lb ed="#P" n="46"/>ibi, vel quicumque est auctor illorum 
+          com<lb break="no" ed="#P" n="47"/>mentariorum : nec illi displicet. Sed majorem
+          <lb ed="#P" n="48"/>proprietatem observat in illis verbis idem 
+          di<lb break="no" ed="#P" n="49"/>vus Thomas, 1 part., quaest. 23, art. 6, ad
+          <lb ed="#P" n="50"/>primum. Duo itaque in illis verbis 
+          continen<lb break="no" ed="#P" n="51"/>tur : unum est comminatio de amissione 
+          co<lb break="no" ed="#P" n="52"/>ronae. Quod esset facile, si tantum dixisset :
+          <lb ed="#P" n="53"/>Tene, ne forte amittas coronam tuam. Nam hoc
+          <lb ed="#P" n="54"/>dici potest, tum ad praescitum, quia etiam dum
+          <lb ed="#P" n="55"/>est justus, dici potest habere coronam suam,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non possessione, sed jure, et merito qua m
+          <lb ed="#P" n="57"/>amittit peccando: tum etiam ad praedesti
+          <lb ed="#P" n="58"/>tum, quia ex se potens est amittere coronam,
+          <lb ed="#P" n="59"/>et ut illa potestas non reducatur in actum, per
+          <lb ed="#P" n="60"/>similes Dei admonitiones praevenitur. 
+          Quomo<lb break="no" ed="#P" n="61"/>do etiam dixit Petrus electis. Satagite, ut per
+          <lb ed="#P" n="62"/>bona opera, cerlam vestram electionem, et 
+          vo<lb break="no" ed="#P" n="63"/>cationem faciatis. Quod etiam tradit D. 
+          Tho<lb break="no" ed="#P" n="64"/>mas in locis allegatis. Aliud significatum in
+          <lb ed="#P" n="65"/>illis verbis est, quod solet unus substitui loco
+          <lb ed="#P" n="66"/>alterius, ut accipiat coronam quam alius 
+          ami<lb break="no" ed="#P" n="67"/>sit. Quod quidem in dignitatibus hujus vitae
+          <lb ed="#P" n="68"/>conspicimus. Nam David accepit coronam 
+          re<lb break="no" ed="#P" n="69"/>gni, quam Saul per inobedientiam perdidit.
+          <lb ed="#P" n="70"/>Et Matthias suffectus est in apostolatu, quem
+          <lb ed="#P" n="71"/>Judas demeruit. Et de his dignitatibus 
+          potissi<lb break="no" ed="#P" n="72"/>mum loquitur Job, loco citato.
+        </p>
+        <p xml:id="szduep-071923-d1e1059">
+          <lb ed="#P" n="73"/>15. Responsio aliquorum confutatur. — 
+          Ve<lb break="no" ed="#P" n="74"/>rumtamen D. Gregorius 25, Moral., cap. 7et 8,
+          <lb ed="#P" n="75"/>alias 9 et 10, etiam de gratia et gloria illum
+          <lb ed="#P" n="76"/>locum intelligit, idem confirmans alio 
+          testi<lb break="no" ed="#P" n="77"/>monio Apoc. 3. Et idem sentit Hieronymus in
+          <lb ed="#P" n="78"/>eumdem locum Job, et Beda, Haimo et Glos.
+          <lb ed="#P" n="79"/>Apoc. 3. Quod adeo verum esse censuit 
+          Augus<lb break="no" ed="#P" n="80"/>tinus, lib. de Correp. et Gratia, cap. 13, ut 
+          dixe<lb break="no" ed="#P" n="81"/>rit: Alius non accepturus, nisi iste perdiderit.
+          <lb ed="#P" n="82"/>Et hinc colligit, esse certum praedestinatorum
+          <lb ed="#P" n="83"/>numerum, ita ut non possit augeri: ideo enim
+          <lb ed="#P" n="84"/>unus non acciperet nisi alius perderet, ne 
+          ex<lb break="no" ed="#P" n="85"/>cresceret electorum numerus definitus. Quod
+          <lb ed="#P" n="86"/>sane satisfaceret, si numerus praedestinatorum 
+          <lb ed="#P" n="87"/>solum formaliter esset praefinitus per 
+          electio<lb break="no" ed="#P" n="88"/>nem. Cum tamen sit etiam materialiter 
+          defi<lb break="no" ed="#P" n="89"/>nitus, difficile est intelligere, quomodo unus
+          <lb ed="#P" n="90"/>loco alterius substituatur et quomodo verum
+          <lb ed="#P" n="91"/>sit, unum non fuisse accepturum coronam, nisi
+          <lb ed="#P" n="92"/>alius illam amitteret. Nam si electus est ante
+          <lb ed="#P" n="93"/>praevisionem operum, profecto illam haberet,
+          <lb ed="#P" n="94"/>etiamsi alii non caderent, cum electio ejus 
+          nul<lb break="no" ed="#P" n="95"/>lum respectum habuerit ad casum aliorum,
+          <lb ed="#P" n="96"/>nec formaliter, nec virtute, neque ullo alio
+          <lb ed="#P" n="97"/>modo. Neque quoad hanc partem satisfacit illa
+          <lb ed="#P" n="98"/>responsio, quod praedestinatio non imponit 
+          ne<lb break="no" ed="#P" n="99"/>cessitatem, nam absolute potest praedestinatus
+          <lb ed="#P" n="100"/>coronam amittere. Quia esto, hoc verum sit,
+          <lb ed="#P" n="101"/>tamen suflicit, ut quando per gratiam 
+          perse<lb break="no" ed="#P" n="102"/>verat praedestinatus, dicatur substitui loco 
+          al<lb break="no" ed="#P" n="103"/>terius, ut accipiat coronam quam alius amisit.
+          <lb ed="#P" n="104"/>Nec etiam suflicit, ut vere dicamus, permittere
+          <lb ed="#P" n="105"/>Deum, quod reprobus cadat, ut alias accipiat
+          <lb ed="#P" n="106"/>coronam, quam alias non acciperet, ne 
+          nu<lb break="no" ed="#P" n="107"/>merus praedestinatorum definitum numerum
+          <lb ed="#P" n="108"/>excedat.
+        </p>
+        <p xml:id="szduep-071923-d1e1140">
+          <lb ed="#P" n="109"/>16. Melior responsio ad Sanctos .Patres et
+          <lb ed="#P" n="110"/>loca Scripturae. — Dico ergo, testimonia illa,
+          <pb ed="#P" n="287"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnesque illos loquendi modos intelligendos
+          <lb ed="#P" n="2"/>esse de divina providentia, quoad mirabilem
+          <lb ed="#P" n="3"/>et sapientissramum modum, quem observat in
+          <lb ed="#P" n="4"/>executione mediorum : non vero quoad 
+          prima<lb break="no" ed="#P" n="5"/>riam electionem praedestinatorum. Haec enim
+          <lb ed="#P" n="6"/>intelligenda est per modum singularis 
+          praefi<lb break="no" ed="#P" n="7"/>nitionis, quam Deus ex se tantum et ex suo
+          <lb ed="#P" n="8"/>mero beneplacito habuit. Absolute intendens,
+          <lb ed="#P" n="9"/>tale regnum aeternum ex talibus personis et
+          <lb ed="#P" n="10"/>mennbris constans. Ex vi autem hujus 
+          electio<lb break="no" ed="#P" n="11"/>nis manet ille numerus salvandorum ita 
+          cer<lb break="no" ed="#P" n="12"/>itus, tam formaliter, quam materialiter, ut 
+          mi<lb break="no" ed="#P" n="13"/>nui non possit. Non tamen pertinet ad 
+          effica<lb break="no" ed="#P" n="14"/>ciam illius voluntatis, ut non possit augeri,
+          <lb ed="#P" n="15"/>quia Deus ex se non voluit positive omnes alios
+          <lb ed="#P" n="16"/>aregno excludere, ut infra dicam. Et ideo 
+          si<lb break="no" ed="#P" n="17"/>mul cum illa electione habuit Deus 
+          volunta<lb break="no" ed="#P" n="18"/>tem veram salvandi alios, non tamen 
+          absolu<lb break="no" ed="#P" n="19"/>tam, sed sub conditione, si per eos non staret.
+          <lb ed="#P" n="20"/>Et ideo in executione illis dat media 
+          sufficien<lb break="no" ed="#P" n="21"/>tia ut salventur, quae interdum talem effectum
+          <lb ed="#P" n="22"/>Ahabent, ut per eam comparent verum jus ad
+          <lb ed="#P" n="23"/>aeternam coronam, etiamsi praesciti sint non
+          <lb ed="#P" n="24"/>conservaturi illud usque ad finem vitae. Ac
+          <lb ed="#P" n="25"/>proinde, quando illud amittunt, dicunt perdere
+          <lb ed="#P" n="26"/>ceoronam suam, id est, suis meritis debitam, si
+          <lb ed="#P" n="27"/>n gratia decesserint. Uno autem ex his 
+          ca<lb break="no" ed="#P" n="28"/>dente, dicitur alius loco illius substitui, quia
+          <lb ed="#P" n="29"/>solet Deus ita gubernare et exequi salutem
+          <lb ed="#P" n="30"/>suorum electorum, ut prius vocet reprobos et
+          <lb ed="#P" n="31"/>illis male utentibus divina gratia, illos deferat
+          <lb ed="#P" n="32"/>et ad alios suam specialem protectionem 
+          trans<lb break="no" ed="#P" n="33"/>ferat, non quia illos posterius dilexerit, vel
+          <lb ed="#P" n="34"/>tantum occasione peccati aliorum, sed quia illo
+          <lb ed="#P" n="35"/>modo justitiam suam erga malos et gratiam
+          <lb ed="#P" n="36"/>erga bonos mirabilius et sapientius ostendit.
+          <lb ed="#P" n="37"/>Atque ex his facile est alia testimonia 
+          Scriptu<lb break="no" ed="#P" n="38"/>rae sacrae et Sanctorum interpretari.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

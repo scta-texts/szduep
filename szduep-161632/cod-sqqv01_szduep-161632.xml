@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="639"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-161632"><!-- t3-l4c11 -->
+        <head xml:id="szduep-161632-Hd1e101">Caput 11</head>
+        <head xml:id="szduep-161632-Hd1e103" type="question-title">An tres personae divinae sint unum in aliqua subsistentia absoluta et essentiali</head>
+        <p xml:id="szduep-161632-d1e106">
+          <lb ed="#P" n="8"/>CAPUT XI.
+          <lb ed="#P" n="9"/>AN TRES PERSONAE DIVINAE SINT UNUM IN ALIQUA
+          <lb ed="#P" n="10"/>SUBSISTENTIA ABSOLUTA ET ESSENTIALI.
+        </p>
+        <p xml:id="szduep-161632-d1e115">
+          <lb ed="#P" n="11"/>1. Quaestionem hanc late disputavi, in tomo
+          <lb ed="#P" n="12"/>primo de Incarnatione, disputatione undecimo,
+          <lb ed="#P" n="13"/>sectione tertia, et ideo non repetam, quae ibi
+          <lb ed="#P" n="14"/>tractavi : sed in summam redigam et nonnulla
+          <lb ed="#P" n="15"/>addam, propter aliquos recentiores, qui 
+          doc<lb break="no" ed="#P" n="16"/>trinam ibi traditam in duobus impugnant.
+          <lb ed="#P" n="17"/>Primo in re ipsa, secundo in usu vocis 
+          subsis<lb break="no" ed="#P" n="18"/>tentie.. Dicunt ergo aliqui, existentiam 
+          divi<lb break="no" ed="#P" n="19"/>nam essentialem ex vi conceptus absoluti non
+          <lb ed="#P" n="20"/>esse per se existentiam, sed solum existentiam
+          <lb ed="#P" n="21"/>substantialem cujusdam naturae. Eo modo, quo
+          <lb ed="#P" n="22"/>existentia creata humanitatis CHRISTI, (quam
+          <lb ed="#P" n="23"/>ipsi etiam admittunt) non est per se existentia.
+          <lb ed="#P" n="24"/>Ratio praecipua est, quia divinitas cum sua
+          <lb ed="#P" n="25"/>existentia absoluta est in personis, ergo 
+          prae<lb break="no" ed="#P" n="26"/>eisis personalitatibus relativis non est per se.
+          <lb ed="#P" n="27"/>Probatur consequentia, quia per se hoc loco,
+          <lb ed="#P" n="28"/>non sumitur, ut distinguitur contra in alio, ut
+          <lb ed="#P" n="29"/>in subjecto : hoc enim modo etiam existentia
+          <lb ed="#P" n="30"/>humanitatis CHRISTI est existentia per se, id
+          <lb ed="#P" n="31"/>est, substantialis et non accidentalis. Sumitur
+          <lb ed="#P" n="32"/>ergo, ut excludit esse in alio, ut in supposito,
+          <lb ed="#P" n="33"/>ergo cum divina essentia sit in tribus 
+          supposi<lb break="no" ed="#P" n="34"/>tis, non est per se hoc modo, ut praecisa ab
+          <lb ed="#P" n="35"/>illis et ex vi solius existentiae essentialis. 
+          Ad<lb break="no" ed="#P" n="36"/>ditur confirmatio, quia si talis esset 
+          subsisten<lb break="no" ed="#P" n="37"/>tia in Deitate, non posset haec Deitas, ut 
+          prae<lb break="no" ed="#P" n="38"/>cisa a personis in abstracto accipi. Patet 
+          se<lb break="no" ed="#P" n="39"/>quela, quia quantumvis praecisa a personis,
+          <lb ed="#P" n="40"/>includeret subsistentiam : id autem, quod 
+          sub<lb break="no" ed="#P" n="41"/>sistentiam includit, non est abstractum, sed
+          <lb ed="#P" n="42"/>concretum, nam haec est potissima differentia
+          <lb ed="#P" n="43"/>inter illa.
+        </p>
+        <p xml:id="szduep-161632-d1e189">
+          <lb ed="#P" n="44"/>2. Edictum de fide Justiniani Imperatoris
+          <lb ed="#P" n="45"/>ad Joannem et Agathonem papas. — Secundo
+          <lb ed="#P" n="46"/>asserunt , etiamsi in Divinitate admitteretur
+          <lb ed="#P" n="47"/>per se existentia absoluta, illam non posse 
+          ap<lb break="no" ed="#P" n="48"/>pellari, subsistentiam. hatio est, quia ex usu
+          <lb ed="#P" n="49"/>sanctorum Patrum subsistentia idem est, quod
+          <lb ed="#P" n="50"/>persona, vel hypostasis : dici autem non 
+          po<lb break="no" ed="#P" n="51"/>test, tres personas esse unam hypostasim, vel
+          <lb ed="#P" n="52"/>unam personam, ergo neque unam subsisten-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tiam. Minor certa est, quia illud esset incidere
+          <lb ed="#P" n="54"/>in errorem Sabellii. Major autem constat ex
+          <lb ed="#P" n="55"/>dictis supra de voce hypostasis, ut ex 
+          Patri<lb break="no" ed="#P" n="56"/>bus praesertim Graecis ibi citatis colligitur, et
+          <lb ed="#P" n="57"/>ex Concilio Lateranense sub Martino 5, 
+          Con<lb break="no" ed="#P" n="58"/>sult. 5, Canon. 1, dicente: Trinitatem 
+          mume<lb break="no" ed="#P" n="59"/>rari tribus subsistentiis, et ex edicto de Fide,
+          <lb ed="#P" n="60"/>Justiniani Imperatoris ad Joanncm pontificem,
+          <lb ed="#P" n="61"/>quod habetur in 2tomo Conciliorum, post 
+          Con<lb break="no" ed="#P" n="62"/>cilium Toletanum 2. Item ex Agathone papa,
+          <lb ed="#P" n="63"/>in ejus Epistola quae refertur in 6 Synodo,
+          <lb ed="#P" n="64"/>act. 4, etex Joanne Maxentio, in utraque fidei
+          <lb ed="#P" n="65"/>professione , quae referuntur in 4 tomo 
+          Bi<lb break="no" ed="#P" n="66"/>blioth. Sanct. In hac autem materia non licet
+          <lb ed="#P" n="67"/>uti vocibus praeter usum Patrum, ne ex verbis
+          <lb ed="#P" n="68"/>inordinate prolatis detur erroris suspicio.
+        </p>
+        <p xml:id="szduep-161632-d1e249">
+          <lb ed="#P" n="69"/>3. Ego vero imprimis sentio, Divinitatem
+          <lb ed="#P" n="70"/>per se et complete existere ex vi suae 
+          existen<lb break="no" ed="#P" n="71"/>tiae essentialis : atque adeo illam vere dici per
+          <lb ed="#P" n="72"/>se existentiam ex praeciso conceptu absoluto.
+          <lb ed="#P" n="73"/>Haec est sententia, et D. Thomas et communior
+          <lb ed="#P" n="74"/>theologorum, ut late retuli, citato loco, et 
+          su<lb break="no" ed="#P" n="75"/>pra etiam tractando de existentiis, et 
+          subsisten<lb break="no" ed="#P" n="76"/>tiis relativis : Patres etiam ibidem allegavi,
+          <lb ed="#P" n="77"/>quibus statim aliquid adjiciam. Ratio, quae me
+          <lb ed="#P" n="78"/>maxime movet, est, quia hujusmodi per se
+          <lb ed="#P" n="79"/>existentia pertinet adl summam perfectionem
+          <lb ed="#P" n="80"/>intensivam entis, est enim perfectio 
+          simplici<lb break="no" ed="#P" n="81"/>ter simplex. Quod adversarii non negant : nam
+          <lb ed="#P" n="82"/>revera est quasi per se notum ex terminis, ut
+          <lb ed="#P" n="83"/>latius etiam ibi dixi: ergo includitur 
+          formali<lb break="no" ed="#P" n="84"/>ter haec perfectio in essentiali conceptu 
+          Divi<lb break="no" ed="#P" n="85"/>nitatis, atque adeo est absoluta. Patet 
+          conse<lb break="no" ed="#P" n="86"/>quentia ex supra dictis in capitulis 
+          praeceden<lb break="no" ed="#P" n="87"/>tibus, nam tota essentia et omnis perfectio
+          <lb ed="#P" n="88"/>simpliciter communis est tribus personis.
+        </p>
+        <p xml:id="szduep-161632-d1e295">
+          <lb ed="#P" n="89"/>4. Respondent vero aliqui, satis esse, quod
+          <lb ed="#P" n="90"/>haec perfectio sit communis secundum 
+          ratio<lb break="no" ed="#P" n="91"/>nem tribus personis : nam ratio subsistendi,
+          <lb ed="#P" n="92"/>et per se existendi in omnibus est, non quia
+          <lb ed="#P" n="93"/>una numero perseitas: (ut ita loquamur ad
+          <lb ed="#P" n="94"/>rem explicandam) et realiter eadem in illis sit,
+          <lb ed="#P" n="95"/>sed quia haec ratio communis est omnibus 
+          pro<lb break="no" ed="#P" n="96"/>prietatibus illarum. Sed haec responsio facile
+          <lb ed="#P" n="97"/>refutatur, quia tota divina essentia est eadem
+          <lb ed="#P" n="98"/>numero et realiter communis tribus personis:
+          <lb ed="#P" n="99"/>ergo omnia praedicata essentialia sunt eodem
+          <lb ed="#P" n="100"/>modo realiter et individue communia 
+          omni<lb break="no" ed="#P" n="101"/>bus personis: hac enim ratione id 
+          probavi<lb break="no" ed="#P" n="102"/>mus de omnipotentia et de caeteris attributis:
+          <lb ed="#P" n="103"/>ergo si haec perseitas existendi est praedicatum
+          <lb ed="#P" n="104"/>essentiale, debet esse idem numero realiter et
+          <lb ed="#P" n="105"/>non tantum ratione commune tribus personis.
+          <lb ed="#P" n="106"/>Alioqui tres personae non sunt unum numero
+          <lb ed="#P" n="107"/>in tota essentia Dei, nec Pater communicat
+          <pb ed="#P" n="640"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Filio totam suam realem essentiam , contra
+          <lb ed="#P" n="2"/>Concilium Lateranense, in capite Damnamus.
+          <lb ed="#P" n="3"/>Patet sequela, quia tota essentia nostro modo
+          <lb ed="#P" n="4"/>loquendi coalescit ex omnibus praedicatis 
+          es<lb break="no" ed="#P" n="5"/>sentialibus : ergo si unum illorum non est 
+          rea<lb break="no" ed="#P" n="6"/>liter commune, non est tota essentia realiter
+          <lb ed="#P" n="7"/>communis.
+        </p>
+        <p xml:id="szduep-161632-d1e358">
+          <lb ed="#P" n="8"/>B. Et praeterea declaratur in hunc modum,
+          <lb ed="#P" n="9"/>quia perfectio simpliciter, et praesertim 
+          com<lb break="no" ed="#P" n="10"/>munis secundum rationem, qualis illa esse
+          <lb ed="#P" n="11"/>asseritur, non solum debet convenire personis,
+          <lb ed="#P" n="12"/>sed etiam Divinitati secundum se conceptae,
+          <lb ed="#P" n="13"/>praecisis relationibus : ergo talis perfectio non
+          <lb ed="#P" n="14"/>potest provenire ex relationibus, ut relationes
+          <lb ed="#P" n="15"/>sunt: ergo non potest esse communis solum
+          <lb ed="#P" n="16"/>secundum rationem, nam haec 
+          communitas<lb break="no" ed="#P" n="17"/>solum invenitur in Trinitate ratione 
+          relatio<lb break="no" ed="#P" n="18"/>num, propter distinctionem, cum convenientia
+          <lb ed="#P" n="19"/>aliqua, quam inter se habent. Consequentiae
+          <lb ed="#P" n="20"/>sunt evidentes, ut existimo. Antecedens vero
+          <lb ed="#P" n="21"/>patet, tum quia Deitas praecisis relationibus,
+          <lb ed="#P" n="22"/>est infinite perfecta in genere entis, tum etiam
+          <lb ed="#P" n="23"/>quia est verus Deus, atque adeo completum
+          <lb ed="#P" n="24"/>ens.
+        </p>
+        <p xml:id="szduep-161632-d1e397">
+          <lb ed="#P" n="25"/>6. Respondent aliqui, Deitatem sic 
+          concep<lb break="no" ed="#P" n="26"/>tam non includere omnem perfectionem 
+          sim<lb break="no" ed="#P" n="27"/>pliciter simplicem, atque adeo esse completam
+          <lb ed="#P" n="28"/>in ratione naturae, non vero in ratione 
+          sub<lb break="no" ed="#P" n="29"/>stantiae, et entis, et eodem modo esse 
+          infinita<lb break="no" ed="#P" n="30"/>tem in ratione naturae, non in ratione entis.
+          <lb ed="#P" n="31"/>Quam infinitatem solum in hoc ponunt, quod
+          <lb ed="#P" n="32"/>habet esse a se, non vero in hoc, quod 
+          inclu<lb break="no" ed="#P" n="33"/>dat omnem perfectionem simpliciter. Unde
+          <lb ed="#P" n="34"/>tandem concludunt, illam non posse dici Deum,
+          <lb ed="#P" n="35"/>nisi ut includit aliquam relationem. Haec vero
+          <lb ed="#P" n="36"/>omnia tam absurda videntur mihi, ut 
+          sufti<lb break="no" ed="#P" n="37"/>cienter ostendant falsitatem contrariae 
+          senten<lb break="no" ed="#P" n="38"/>tiae. Et imprimis Concilium Rhemense contra
+          <lb ed="#P" n="39"/>Gilbertum sic inquit: Credimus, et confitemur
+          <lb ed="#P" n="40"/>simplicem naturam Diuitatis esse Deum, 
+          ne<lb break="no" ed="#P" n="41"/>que aliquo sensu Catholico posse negari, quin
+          <lb ed="#P" n="42"/>Divinitas sit Deus, et Deus Divinitas. Quod ita
+          <lb ed="#P" n="43"/>declaravit, ac docuit, quia Gilbertus etiam 
+          di<lb break="no" ed="#P" n="44"/>cebat, essentiam sine relationibus non esse
+          <lb ed="#P" n="45"/>Deum: in eo vero magis errabat, quod ad Dei
+          <lb ed="#P" n="46"/>constitutionem postulabat proprietates 
+          distinc<lb break="no" ed="#P" n="47"/>tas ab essentia, quod dicti auctores Catholici
+          <lb ed="#P" n="48"/>non dicunt. Et sic possunt interpretari 
+          Conci<lb break="no" ed="#P" n="49"/>lium ita loqui, eo quod essentia sit persona, et
+          <lb ed="#P" n="50"/>e contra. Tamen quia Concilium extendit 
+          ser<lb break="no" ed="#P" n="51"/>monem, et dicit, in nullo sensu Catholico 
+          Dei<lb break="no" ed="#P" n="52"/>tatem non esse Deum, ideo multum urget
+          <lb ed="#P" n="53"/>contra illam sententiam, si verba illius, prout
+          <lb ed="#P" n="54"/>a nobis relata sunt, illius esse admittantur.
+          <lb ed="#P" n="55"/>Quod ideo dico, quia non habemus illud con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cilium, et P. Vasquez, qui ejus decreta refert
+          <lb ed="#P" n="57"/>ex quodam codice manu scripto, dubitat, an .
+          <lb ed="#P" n="58"/>ila sint formalia verba Concilii: sed neque
+          <lb ed="#P" n="59"/>rationem declarat, cur dubitet, nec negat illam
+          <lb ed="#P" n="60"/>fuisse sententiam Concilii, quod nobis satis est,
+          <lb ed="#P" n="61"/>sive illis, sive aliis verbis eam docuerit.
+        </p>
+        <p xml:id="szduep-161632-d1e482">
+          <lb ed="#P" n="62"/>7. Praeterea ex illa responsione sequitur,
+          <lb ed="#P" n="63"/>Trinitatem et quamlibet divinam personam esse
+          <lb ed="#P" n="64"/>quid perfectius Deitate, contra illud: Quod 
+          de<lb break="no" ed="#P" n="65"/>dit mihi Pater, majus omnibus est. Sequela
+          <lb ed="#P" n="66"/>patet, quia illud est perfectius, quod formaliter
+          <lb ed="#P" n="67"/>includit omnes perfectiones simpliciter: quam
+          <lb ed="#P" n="68"/>illud, quod non omnes formaliter continet, sed
+          <lb ed="#P" n="69"/>persona divina includit formahter aliquam 
+          per<lb break="no" ed="#P" n="70"/>fectionem simpliciter, quam non includit 
+          Divi<lb break="no" ed="#P" n="71"/>nitas, ut ex dicta sententia constat, ergo. Imo
+          <lb ed="#P" n="72"/>inde facile etiam inferri potest, unam personam
+          <lb ed="#P" n="73"/>includere perfectionem simpliciter, quam non
+          <lb ed="#P" n="74"/>includit alia, et consequenter nullam esse 
+          om<lb break="no" ed="#P" n="75"/>nino perfectam. Ac denique sequitur, Deum
+          <lb ed="#P" n="76"/>non esse essentialiter summe perfectum, quia
+          <lb ed="#P" n="77"/>ex visuae essentiae non habet formaliter omnem
+          <lb ed="#P" n="78"/>perfectionem simpliciter.
+        </p>
+        <p xml:id="szduep-161632-d1e521">
+          <lb ed="#P" n="79"/>8. Fortasse aliquis coactis his argumentis,
+          <lb ed="#P" n="80"/>negabit quod pro certo assumpsimus, perse
+          <lb ed="#P" n="81"/>existentiam esse perfectionem simpliciter, quia
+          <lb ed="#P" n="82"/>licet dicat perfectionem, quod negari non 
+          po<lb break="no" ed="#P" n="83"/>test, non vero talem, quae in quolibet individuo
+          <lb ed="#P" n="84"/>entis melior sit ipsa quam queelibet ei 
+          compos<lb break="no" ed="#P" n="85"/>sibilis. Nam in Divinitate, ut sic, major 
+          perfec<lb break="no" ed="#P" n="86"/>tio est, esse communicabilem tribus personis,
+          <lb ed="#P" n="87"/>cui repugnat per se existentia, et ideo talis
+          <lb ed="#P" n="88"/>modus exi-tendi formaliter sumptus, non erit
+          <lb ed="#P" n="89"/>perfectio simpliciter respectu Divinitatis. Unde,
+          <lb ed="#P" n="90"/>ut Divinitas sit ens summe perfectum, satis
+          <lb ed="#P" n="91"/>erit, quod sit radix totius subsistentiae, 
+          quam<lb break="no" ed="#P" n="92"/>vis illam formahter non includat in suo praeciso
+          <lb ed="#P" n="93"/>conceptu. Et confirmatur, quia ita nos 
+          philo<lb break="no" ed="#P" n="94"/>sophamur de ratione personae, quam non 
+          pos<lb break="no" ed="#P" n="95"/>sumus negare, dicere aliquam perfectionem,
+          <lb ed="#P" n="96"/>non tamen simpliciter simplicem, quia hic
+          <lb ed="#P" n="97"/>Deus, praecisis relationibus, persona non est: et
+          <lb ed="#P" n="98"/>quia persona includit incommunicabilitatem
+          <lb ed="#P" n="99"/>repugnantem communicabilitati divina 
+          na<lb break="no" ed="#P" n="100"/>turae. -
+        </p>
+        <p xml:id="szduep-161632-d1e572">
+          <lb ed="#P" n="101"/>9. Sed haec responsio, merito ab aliis etiam
+          <lb ed="#P" n="102"/>auctoribus non datur, neque admittitur. Quia
+          <lb ed="#P" n="103"/>esse completam substantiam, sine dubio 
+          perti<lb break="no" ed="#P" n="104"/>net ad perfectionem simpliciter : ad hoc 
+          au<lb break="no" ed="#P" n="105"/>tem requiritur per se existentia. Idem posse
+          <lb ed="#P" n="106"/>esse principium quod proprium operationum
+          <lb ed="#P" n="107"/>absoluta perfectio est, at hoc esse non potest
+          <lb ed="#P" n="108"/>nisi in re per se existente. Denique in-hoc 
+          con<lb break="no" ed="#P" n="109"/>ceptu per se existendi nulla includitur 
+          imper<lb break="no" ed="#P" n="110"/>fectio, neque incompossipilitas cum majori,
+          <pb ed="#P" n="641"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel aequali perfectione. In quo multum, per se
+          <lb ed="#P" n="2"/>existentia, ut sic, differt a personalitate, vel
+          <lb ed="#P" n="3"/>suppositalitate : nam haec includit formaliter,
+          <lb ed="#P" n="4"/>quod sit ratio incommunicabiliter subsistendi
+          <lb ed="#P" n="5"/>quod non habet, nisi vel ratione oppositionis,
+          <lb ed="#P" n="6"/>ut in divinis, vel ratione limitationis, ut in
+          <lb ed="#P" n="7"/>creaturis. Et ideo non potest formahter 
+          con<lb break="no" ed="#P" n="8"/>venire huic Deo praecise concepto, quia in eo,
+          <lb ed="#P" n="9"/>nec relatio, nec limitatio includi potest.
+        </p>
+        <p xml:id="szduep-161632-d1e620">
+          <lb ed="#P" n="10"/>10. Perfectio autem de qua agimus, 
+          praeci<lb break="no" ed="#P" n="11"/>se dicit perseitatem essendi, quae ex proprio
+          <lb ed="#P" n="12"/>conceptu non postulat omnimodam 
+          incommu<lb break="no" ed="#P" n="13"/>nicabilitatem, sed tantum illam, quae est ad
+          <lb ed="#P" n="14"/>rem aliquo modo actuahter distinctam a 
+          par<lb break="no" ed="#P" n="15"/>te rei, ut in illa, vel per illam sustentetur.
+          <lb ed="#P" n="16"/>Quomodo humanitas Christi praecise concepta
+          <lb ed="#P" n="17"/>non est per se existens, quia ut sic, est apta
+          <lb ed="#P" n="18"/>uniri alteri, a quo sustentatur ; unde etiam illi
+          <lb ed="#P" n="19"/>unita non fit ipsa proprie intrinsece 
+          subsis<lb break="no" ed="#P" n="20"/>tens, sed est potius inexistens Verbo, quod 
+          pro<lb break="no" ed="#P" n="21"/>prie in ipsa subsistit : seu ipsa persona 
+          com<lb break="no" ed="#P" n="22"/>posita ex humanitate, et Verbo, subsistens est,
+          <lb ed="#P" n="23"/>ratione solius subsistentiee Verbi. Divinaautem
+          <lb ed="#P" n="24"/>natura hoc modo communicabilis est, sed per
+          <lb ed="#P" n="25"/>summam identitatem, secundum quam 
+          intrin<lb break="no" ed="#P" n="26"/>sece includitur in ipsismet relationibus, 
+          qui<lb break="no" ed="#P" n="27"/>bus communicatur : et hoc modo ex natura
+          <lb ed="#P" n="28"/>divina et ratione respectiva consurgit persona
+          <lb ed="#P" n="29"/>incommunicabiliter subsistens. Non quia 
+          divi<lb break="no" ed="#P" n="30"/>nitas indigeat relatione, ut ab ipsa sustentetur,
+          <lb ed="#P" n="31"/>sed solum, ut propter infinitam foecunditatem
+          <lb ed="#P" n="32"/>suam se illi communicet : ut possint personae
+          <lb ed="#P" n="33"/>multiplicari. Atque ita fit, ut persona 
+          secun<lb break="no" ed="#P" n="34"/>dum se totam sit perfectissime subsistens, quia
+          <lb ed="#P" n="35"/>et habet naturam per se existentem 
+          commu<lb break="no" ed="#P" n="36"/>nicabiliter, et relationem per se etiam 
+          incom<lb break="no" ed="#P" n="37"/>municabihter subsistentem.
+        </p>
+        <p xml:id="szduep-161632-d1e683">
+          <lb ed="#P" n="38"/>11. Hic ergo modus per se essendi non 
+          re<lb break="no" ed="#P" n="39"/>pugnat cum aliqua alia perfectione divinitatis:
+          <lb ed="#P" n="40"/>et ideo est perfectio simpliciter. Quam 
+          doctri<lb break="no" ed="#P" n="41"/>nam sumo ex D. Thoma 4, contra Gentes,
+          <lb ed="#P" n="42"/>cap. 18, ubi hoc sensu dicit: Et essentiam, et
+          <lb ed="#P" n="43"/>personam esse subsistentem. Sic etiam prima
+          <lb ed="#P" n="44"/>parte, quaest. 3, docet ipsum esse per 
+          essen<lb break="no" ed="#P" n="45"/>tiam subsistens esse Dei essentiam, et plura
+          <lb ed="#P" n="46"/>alia ejus testimonia attuli, citato loco. Atque
+          <lb ed="#P" n="47"/>ita responsum est principali fundamento 
+          alte<lb break="no" ed="#P" n="48"/>rius sententiae. Confirmatio vero de abstractis
+          <lb ed="#P" n="49"/>et concretis nullius est momenti, quia ad illa
+          <lb ed="#P" n="50"/>sufficit noster modus concipiendi,ut supra dixi,
+          <lb ed="#P" n="51"/>et in libro septimo latius explicabitur.
+        </p>
+        <p xml:id="szduep-161632-d1e716">
+          <lb ed="#P" n="52"/>12. Superest, ut de nomine subsistentiae 
+          ap<lb break="no" ed="#P" n="53"/>plicato ad significandam hanc perfectionem
+          <lb ed="#P" n="54"/>divinae essentiae, pauca dicamus. Et imprimis,
+          <lb ed="#P" n="55"/>cum fere omnes scholastici hac voce utantur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in hac significatione, etiamsi olim fortasse
+          <lb ed="#P" n="57"/>alium usum habuerit, non potest hic 
+          repre<lb break="no" ed="#P" n="58"/>hendi. Quia cum res ipsa vera sit, necessario
+          <lb ed="#P" n="59"/>debuit aliqua vox ad illam significandam 
+          ac<lb break="no" ed="#P" n="60"/>commodari, ut in multis similibus docent 
+          Pa<lb break="no" ed="#P" n="61"/>tres, etiam contra haereticos : et pro 
+          scholas<lb break="no" ed="#P" n="62"/>tico usu maxime necessarium est. Tota autem
+          <lb ed="#P" n="63"/>schola theologorum habet auctoritatem ad 
+          hu<lb break="no" ed="#P" n="64"/>jusmodi usum introducendum, et vox ipsa
+          <lb ed="#P" n="65"/>valde accommodata est, quia nihil aliud 
+          indi<lb break="no" ed="#P" n="66"/>care videtur, nisi perfectum existendi modum.
+        </p>
+        <p xml:id="szduep-161632-d1e753">
+          <lb ed="#P" n="67"/>13. Deinde nego vocem hanc in hac 
+          signifi<lb break="no" ed="#P" n="68"/>catione non habere magnum fundamentum in
+          <lb ed="#P" n="69"/>Patribus antiquis. Nam Boetius, libro de 
+          Dua<lb break="no" ed="#P" n="70"/>bus naturis, quatuor distinguit vocabula graeca,
+          <lb ed="#P" n="71"/>eaia, quv »Gía., unócdcis, npoconcv. quibus
+          <lb ed="#P" n="72"/>ait respondere quatuor Latina, essentia, 
+          sub<lb break="no" ed="#P" n="73"/>sistentia, hypostasis, Persona. Ecce ubi 
+          distin<lb break="no" ed="#P" n="74"/>guit subsistentiam ab hypostasi : unde infra
+          <lb ed="#P" n="75"/>subdit hominem subsistere, licet hypostasis
+          <lb ed="#P" n="76"/>non sit. Et de Deo ait, in eo idem esse 
+          essen<lb break="no" ed="#P" n="77"/>uam, et subsistentiam. Est enim, inquit, 
+          es<lb break="no" ed="#P" n="78"/>sentia, quia est subsistentia , quia in nullo est.
+          <lb ed="#P" n="79"/>Quod ultimum verbum juxta dicta 
+          explican<lb break="no" ed="#P" n="80"/>dum est. Anastasius etiam et Cyrillus 
+          Alexan<lb break="no" ed="#P" n="81"/>drinus , in compendiaria fidei explicatione ,
+          <lb ed="#P" n="82"/>in 4 tom. Biblioth., sic inquit : Quid est Deus?
+          <lb ed="#P" n="83"/>essentia cujus nullus est auctor, cui prorsus
+          <lb ed="#P" n="84"/>nilil deest. Quid est essentia? Res, que per se
+          <lb ed="#P" n="85"/>est, neque altero indiget ad hoc, ut ipsa 
+          subsis<lb break="no" ed="#P" n="86"/>tat. Denique Augustinus, Hieronymus, et alii
+          <lb ed="#P" n="87"/>quos citato loco adduxi, manifeste utuntur hac
+          <lb ed="#P" n="88"/>voce subsistendin hacsignificatione. Et 
+          quam<lb break="no" ed="#P" n="89"/>vis de sensu eorum, quantum ad rem spectat,
+          <lb ed="#P" n="90"/>possit esse controversia, tamen de usu vocis
+          <lb ed="#P" n="91"/>esse non potest: nam Divinitatem ipsam per
+          <lb ed="#P" n="92"/>se vocant subsistentem. Imo Hieronymus ait,
+          <lb ed="#P" n="93"/>si vox hgpostasistantum significet substantiam,
+          <lb ed="#P" n="94"/>Divinitatem esse hypostasim, et subsistentem.
+        </p>
+        <p xml:id="szduep-161632-d1e816">
+          <lb ed="#P" n="95"/>14. Vox ergo subsistentia, licet in multis
+          <lb ed="#P" n="96"/>conciliis et auctoribus usurpetur pro 
+          hypos<lb break="no" ed="#P" n="97"/>tasi, non tantum semper. Nunc autem usu
+          <lb ed="#P" n="98"/>frequentiori non sumitur illa vox pro concreto,
+          <lb ed="#P" n="99"/>sed pro abstracto ut ipsa sonat, scilicet, pro
+          <lb ed="#P" n="100"/>ratione subsistendi, cui respondet, ut 
+          concre<lb break="no" ed="#P" n="101"/>tum subsistens, quod latius patet, quam 
+          per<lb break="no" ed="#P" n="102"/>sona, vel suppositum, quia dicitur etiam de
+          <lb ed="#P" n="103"/>subsistente communicabiliter. Et ideo licet tres
+          <lb ed="#P" n="104"/>personae sint una subsistentia absoluta, non
+          <lb ed="#P" n="105"/>tamen sunt una persona, neque unum 
+          suppo<lb break="no" ed="#P" n="106"/>situm, ut latius citato loco declaravi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

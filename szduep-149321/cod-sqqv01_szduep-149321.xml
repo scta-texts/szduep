@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="591"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-149321"><!-- t3-l3c3 -->
+        <head xml:id="szduep-149321-Hd1e101">Caput 3</head>
+        <head xml:id="szduep-149321-Hd1e103" type="question-title">Sicut trinitate sunt tres persone, ita etiam esse tres personalitates realiter distinctas</head>
+        <p xml:id="szduep-149321-d1e106">
+          <pb ed="#P" n="591"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT III.
+          <lb ed="#P" n="2"/>SICUT TRINITATE SUNT TRES PERSONE, ITA 
+          E<lb break="no" ed="#P" n="3"/>TIAM ESSE TRES PERSONALITATES REALITER
+          <lb ed="#P" n="4"/>DISTINCTAS.
+        </p>
+        <p xml:id="szduep-149321-d1e122">
+          <lb ed="#P" n="5"/>1. Quod in Deo plures personae sint et quod
+          <lb ed="#P" n="6"/>illae sint tres, et non plures, neque pauciores,
+          <lb ed="#P" n="7"/>in primo libro ostensum est, et ex distinctione
+          <lb ed="#P" n="8"/>reali, quam inter eas ostendimus, evidentius
+          <lb ed="#P" n="9"/>confirmatur. Quia si realiter distinguuntur
+          <lb ed="#P" n="10"/>personae, ergo una non est alia, hanc enim 
+          ne<lb break="no" ed="#P" n="11"/>gationem, vel solum, vel praecipue importat
+          <lb ed="#P" n="12"/>distinctionis vox, praesertim realis, ergo vere,
+          <lb ed="#P" n="13"/>ac proprie numerantur, ac vocantur tres 
+          per<lb break="no" ed="#P" n="14"/>sonae.
+        </p>
+        <p xml:id="szduep-149321-d1e146">
+          <lb ed="#P" n="15"/>2. Tres persone non sunt una persona.—
+          <lb ed="#P" n="16"/>Adde, personas divinas ita esse distinctas in
+          <lb ed="#P" n="17"/>sua personali ratione, ut nullo modo dici 
+          pos<lb break="no" ed="#P" n="18"/>sint una persona, sed tantum plures, seu 
+          dis<lb break="no" ed="#P" n="19"/>tinctae, aut tres. Hoc de fide certum est contra
+          <lb ed="#P" n="20"/>Sabellium, quia in Dei unitate ita est Trinitas
+          <lb ed="#P" n="21"/>confitenda,ut non confundantur personae, 
+          con<lb break="no" ed="#P" n="22"/>funderentur autem, si una persona essent.
+          <lb ed="#P" n="23"/>Unde est illud Athanasii in suo Symbolo:
+          <lb ed="#P" n="24"/>F'ides uutem catholica hec est, ut unum Deumn
+          <lb ed="#P" n="25"/>w Trinitate, et Trinitatem in unitate 
+          venere<lb break="no" ed="#P" n="26"/>wur, neque confundentes personas, neque 
+          sub<lb break="no" ed="#P" n="27"/>stantium separantes : alia est enim persona
+          <lb ed="#P" n="28"/>Patris, alia Filii, alia Spiritus sancti, ut
+          <lb ed="#P" n="29"/>ergo personae non confundantur, ita sunt 
+          con<lb break="no" ed="#P" n="30"/>fitendae distinctae, ut nullo modo in una 
+          coa<lb break="no" ed="#P" n="31"/>lescere existimentur. Ratio autem est, quia
+          <lb ed="#P" n="32"/>distinctio personalis, seu inter personas 
+          imme<lb break="no" ed="#P" n="33"/>diate et quasi contradictorie opponitur unitati
+          <lb ed="#P" n="34"/>personali, seu in persona, et ideo talis 
+          distinc<lb break="no" ed="#P" n="35"/>tio et unitas non potest simul convenire 
+          eis<lb break="no" ed="#P" n="36"/>dem personis. Et declaratur, ac confirmatur,
+          <lb ed="#P" n="37"/>quia si personae sunt distinctae, jam una non
+          <lb ed="#P" n="38"/>est alia. At neque ambae esse possunt una
+          <lb ed="#P" n="39"/>tertia persona (ut sic dicam) quia illa tertia
+          <lb ed="#P" n="40"/>non erit substantia distincta in re ab illis 
+          dua<lb break="no" ed="#P" n="41"/>bus personis, ergo non est persona, quia non
+          <lb ed="#P" n="42"/>est incommunicabilis pluribus personis, quod
+          <lb ed="#P" n="43"/>est de ratione personae, ergo, ut personae sint
+          <lb ed="#P" n="44"/>tres et dictinctae, necesse est, ut non possint
+          <lb ed="#P" n="45"/>esse una persona.
+        </p>
+        <p xml:id="szduep-149321-d1e217">
+          <lb ed="#P" n="46"/>3. Nec unum suppositum. — Atque ob 
+          eam<lb break="no" ed="#P" n="47"/>dem rationem, et cum eadem certitudine 
+          se<lb break="no" ed="#P" n="48"/>quitur, non posse tres divinas personas esse
+          <lb ed="#P" n="49"/>unum suppositum , tum quia etiam est de 
+          ra<lb break="no" ed="#P" n="50"/>tione suppositi, ut sit incommunicabile : si 
+          au<lb break="no" ed="#P" n="51"/>tem personae divinae essent unum suppositum,
+          <lb ed="#P" n="52"/>jam illud suppositum realiter esset commune
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>multis personis, et suppositis, quod est contra
+          <lb ed="#P" n="54"/>rationem suppositi, tum etiam quia tale 
+          sup<lb break="no" ed="#P" n="55"/>positum esset in natura intellectuali, nempe
+          <lb ed="#P" n="56"/>divina, ac proinde esset persona, essent ergo
+          <lb ed="#P" n="57"/>una persona, cujus oppositum ostensum est.
+          <lb ed="#P" n="58"/>Idemque dicendum est sub nomine hypostasis.
+          <lb ed="#P" n="59"/>Nam tres divinae personae ita etiam sunt tres
+          <lb ed="#P" n="60"/>hypostases, ut non possint dici una hypostasis:
+          <lb ed="#P" n="61"/>juxta usum receptum illius vocis, jam enim
+          <lb ed="#P" n="62"/>idem significat, quod suppositum, ut supra 
+          vi<lb break="no" ed="#P" n="63"/>sum est. De nomine autem substantiae jam 
+          di<lb break="no" ed="#P" n="64"/>ximus supra, esse aequivocum, nam potest et
+          <lb ed="#P" n="65"/>naturam , et suppositum significare. Unde
+          <lb ed="#P" n="66"/>constat, non posse tres personas dici tres 
+          sub<lb break="no" ed="#P" n="67"/>stantias, et unam substantiam in uniformi,
+          <lb ed="#P" n="68"/>seu univoca significatione , sic enim vel 
+          dice<lb break="no" ed="#P" n="69"/>rentur una persona, vel tres naturae : 
+          qua<lb break="no" ed="#P" n="70"/>propter vel non est ita loquendum, vel 
+          expli<lb break="no" ed="#P" n="71"/>canda est aequivocatio, ut vitetur periculum
+          <lb ed="#P" n="72"/>erroris.
+        </p>
+        <p xml:id="szduep-149321-d1e280">
+          <lb ed="#P" n="73"/>4. Esse in Deo tres personalitates. — 
+          Tan<lb break="no" ed="#P" n="74"/>dem ex dictis concluditur, personas divinas
+          <lb ed="#P" n="75"/>non solum in concreto esse tres personas 
+          rea<lb break="no" ed="#P" n="76"/>liter distinctas : sed etiam habere tres 
+          persona<lb break="no" ed="#P" n="77"/>Iitates realiter distinctas. Haec assertio sub his
+          <lb ed="#P" n="78"/>terminis non est ab Ecclesia definita, nec in
+          <lb ed="#P" n="79"/>sacra Scriptura expressa, et ideo non est 
+          sim<lb break="no" ed="#P" n="80"/>pliciter de fide. Maxime, quia non defuerunt
+          <lb ed="#P" n="81"/>theologi, qui noluerint admittere hunc 
+          mo<lb break="no" ed="#P" n="82"/>dum loquendi in abstracto de personahtatibus
+          <lb ed="#P" n="83"/>divinis, contra illos vero disputabimus infra
+          <lb ed="#P" n="84"/>librum. Nunc autem supponimus, esse in Deo
+          <lb ed="#P" n="85"/>proprietates reales constituentes personas,
+          <lb ed="#P" n="86"/>quas nos abstracte concipimus, recteque 
+          signi<lb break="no" ed="#P" n="87"/>ficamus, ita ut licet modus concipiendi sit ex
+          <lb ed="#P" n="88"/>imperfectione nostra , nihilominus res 
+          con<lb break="no" ed="#P" n="89"/>cepta, et significata vera, et realis sit. Has
+          <lb ed="#P" n="90"/>ergo proprietates , personalitates vocamus,
+          <lb ed="#P" n="91"/>easque asserimus ita esse distinguendas, et
+          <lb ed="#P" n="92"/>multiplicandas in re ipsa, sicut ipsasmet 
+          per<lb break="no" ed="#P" n="93"/>sonas. Quod facile probari potest. Primo ex
+          <lb ed="#P" n="94"/>simplicitate illarum personarum : tanta enim
+          <lb ed="#P" n="95"/>est, ut in re non admittat distinctionem inter
+          <lb ed="#P" n="96"/>personam, et proprietatem, seu 
+          personalita<lb break="no" ed="#P" n="97"/>tem suam , ideoque sint convertibiliter idem,
+          <lb ed="#P" n="98"/>ergo quantum distinguitur persona a persona,
+          <lb ed="#P" n="99"/>tantum necesse est distingui personalitatem
+          <lb ed="#P" n="100"/>a personalitate. Secundo , quia si personae
+          <lb ed="#P" n="101"/>distinguuntur , est propter oppositionem, et
+          <lb ed="#P" n="102"/>distinctionem personalitatum inter se, ut in
+          <lb ed="#P" n="103"/>sequentibus videbimus , ergo tantum necesse
+          <lb ed="#P" n="104"/>est esse distinctionem , et pluralitatem 
+          perso<lb break="no" ed="#P" n="105"/>nalitatum, quanta est personarum.
+        </p>
+        <p xml:id="szduep-149321-d1e354">
+          <lb ed="#P" n="106"/>5. Regula de unitate nominis sabstantivi. —
+          <lb ed="#P" n="107"/>Ut autem haec veritas magis confirmetur , ac
+          <pb ed="#P" n="592"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>declaretur, notanda est regula communiter a
+          <lb ed="#P" n="2"/>theologis recepta, quae ad caetera omnia in 
+          se<lb break="no" ed="#P" n="3"/>quentibus tractanda , multum deserviet : 
+          ni<lb break="no" ed="#P" n="4"/>mirum ad unitatem nominis substantivi 
+          suf<lb break="no" ed="#P" n="5"/>ficere unitatem formae, formaliter significatae
+          <lb ed="#P" n="6"/>per nomen, seu forma, a qua tale nomen
+          <lb ed="#P" n="7"/>sumptum est. Quam regulam tradit divus
+          <lb ed="#P" n="8"/>Thomas, 1 par., q. 36, art. 4, et q. 39, art. 3,
+          <lb ed="#P" n="9"/>eamdemque supponit in 3. par., q. 4, art. 6,
+          <lb ed="#P" n="10"/>ad 1, Capreolus , in 1, dist. 4, q. 1, art. 1,
+          <lb ed="#P" n="11"/>ad 1. Aureolus , Scotus 1. distinct. 12, q. 1,
+          <lb ed="#P" n="12"/>S Juata questionem, et alios pro eadem regula
+          <lb ed="#P" n="13"/>retuli in 4 tom. 3. part., disp. 13, sect. 2, et
+          <lb ed="#P" n="14"/>in sequenti libro plura de illa dicam. 
+          Ratio<lb break="no" ed="#P" n="15"/>nem ejus reddit divus Thomas, quia nomen
+          <lb ed="#P" n="16"/>substantivum significat modo quodam 
+          absolu<lb break="no" ed="#P" n="17"/>to, seu per modum substantiae, aut per se 
+          stan<lb break="no" ed="#P" n="18"/>tis, substantia vero, sicut per se habet esse,
+          <lb ed="#P" n="19"/>ita per se habet unitatem suam, ergo nomen
+          <lb ed="#P" n="20"/>substantivum, quod per modum substantiae
+          <lb ed="#P" n="21"/>significat, habet unitatem a forma, quam 
+          for<lb break="no" ed="#P" n="22"/>maliter, et per modum subsistendis significat,
+          <lb ed="#P" n="23"/>quia illa secum affert suam unitatem, ergo ad
+          <lb ed="#P" n="24"/>illam sufficit. Quae ratio non placet Scoto 
+          su<lb break="no" ed="#P" n="25"/>pra, sed non affert aliam meliorem, ut 
+          vide<lb break="no" ed="#P" n="26"/>bimus infra agentes de terminis adjectivis.
+          <lb ed="#P" n="27"/>Alii addunt rationem aliam, scilicet nomen
+          <lb ed="#P" n="28"/>substantivum significare directe formam, 
+          reli<lb break="no" ed="#P" n="29"/>qua vero connotare, et ideo a forma accipere
+          <lb ed="#P" n="30"/>unitatem suam, quia unumquodque nomen
+          <lb ed="#P" n="31"/>accipit suam unitatem a suo directo 
+          significa<lb break="no" ed="#P" n="32"/>to, nam aliud est, quod directe demonstrat.
+          <lb ed="#P" n="33"/>Sed haec ratio, nisi includat rationem D. 
+          Tho<lb break="no" ed="#P" n="34"/>mae, parum probat, alioqui etiam procederet
+          <lb ed="#P" n="35"/>de nomine adjectivo, nam illud etiam directe
+          <lb ed="#P" n="36"/>significat formam, et connotat subjectum 
+          for<lb break="no" ed="#P" n="37"/>mae , ergo etiam in illo unitas formae deberet
+          <lb ed="#P" n="38"/>ad unitatem sufticere, quod tamen non ita est,
+          <lb ed="#P" n="39"/>ut videbimus. Oportet ergo addere, nomen
+          <lb ed="#P" n="40"/>substantivum significare directe formam per
+          <lb ed="#P" n="41"/>modum per se stantis , et ita involvitur ratio
+          <lb ed="#P" n="42"/>D. Thomae. Quocirca, licet contingat, talem
+          <lb ed="#P" n="43"/>formam immediate subsistere in multis 
+          sup<lb break="no" ed="#P" n="44"/>positis, tamen ex vi nominis substantivi 
+          signi<lb break="no" ed="#P" n="45"/>ficatur per modum unius constituti per talem
+          <lb ed="#P" n="46"/>formam, et ideo licet plura sint supposita, per
+          <lb ed="#P" n="47"/>illud nomen solum significantur, ut habentia
+          <lb ed="#P" n="48"/>unitatem in tali forma, ideoque nomen 
+          sub<lb break="no" ed="#P" n="49"/>stantivum a tali forma sumptum, singulariter,
+          <lb ed="#P" n="50"/>et non pluralter, de illis praedicatur.
+        </p>
+        <p xml:id="szduep-149321-d1e474">
+          <lb ed="#P" n="51"/>6. Alia regula de pluralitate. — Ex hac 
+          re<lb break="no" ed="#P" n="52"/>gula sequitur alia, videlicet, ad pluralitatem
+          <lb ed="#P" n="53"/>nominis substantivi necessariam esse 
+          multitu<lb break="no" ed="#P" n="54"/>dinem formae directe, ac formaliter 
+          signifi<lb break="no" ed="#P" n="55"/>catae per nomen. Hoc facile patet, quia si ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>unitatem concreti substantivi sufficit unitas
+          <lb ed="#P" n="57"/>formae, etiamsi supposita plura sint, ut 
+          osten<lb break="no" ed="#P" n="58"/>dimus, ergo ad pluralitatem ejusdem nominis
+          <lb ed="#P" n="59"/>necessaria erit pluralitas formarum, quiasi haec
+          <lb ed="#P" n="60"/>non esset necessaria, posset stare haec 
+          plurali<lb break="no" ed="#P" n="61"/>tas cohcretorum cum unitate formae seu 
+          ab<lb break="no" ed="#P" n="62"/>tracti, quod repugnat superiori regulae. Haec
+          <lb ed="#P" n="63"/>ergo posterior regula evidenter sequitur ex
+          <lb ed="#P" n="64"/>priori : potestque inductione probari, nam hac
+          <lb ed="#P" n="65"/>ratione tres personae non sunt plures dii, quia
+          <lb ed="#P" n="66"/>deest eis aliquid necessarium ad pluralitatem,
+          <lb ed="#P" n="67"/>quod non est, nisi pluralitas deitatum, nam
+          <lb ed="#P" n="68"/>deitas est forma directe significata per nmem
+          <lb ed="#P" n="69"/>Deus. Similiter Pater, et Filius vere sunt unus
+          <lb ed="#P" n="70"/>spirator, et non plures ob eamdem rationem,
+          <lb ed="#P" n="71"/>et sic de aliis. :
+        </p>
+        <p xml:id="szduep-149321-d1e524">
+          <lb ed="#P" n="72"/>7. Ex his ergo concluditur ratio, nam Pater,
+          <lb ed="#P" n="73"/>Filius, et Spiritus sanctus sunt tres personae
+          <lb ed="#P" n="74"/>secundum fidem Catholicam, et non sunt una
+          <lb ed="#P" n="75"/>persona, ut ex eadem fide ostensum est : ergo
+          <lb ed="#P" n="76"/>habent tres personalitates et non unam. 
+          Pro<lb break="no" ed="#P" n="77"/>batur consequentia, quia nomina Persona,
+          <lb ed="#P" n="78"/>suppositum, et hypostasis, substantiva sunt,
+          <lb ed="#P" n="79"/>nam et substantiam significant, et per 
+          mo<lb break="no" ed="#P" n="80"/>dum substantise, et per se stantis, ut evidenter
+          <lb ed="#P" n="81"/>constat ex modo significandi talium vocum, et
+          <lb ed="#P" n="82"/>ex modo concipiendi omnium hominum. Imo,
+          <lb ed="#P" n="83"/>sicut Aristoteles in Praedicamentis dixit, 
+          pri<lb break="no" ed="#P" n="84"/>mam substantiam esse primo, et maxime 
+          sub<lb break="no" ed="#P" n="85"/>stantiam, ita dicere possumus, haec nomina
+          <lb ed="#P" n="86"/>significantia primam substantiam, quatenus
+          <lb ed="#P" n="87"/>et in se subsistit, et incommunicabilis est, esse
+          <lb ed="#P" n="88"/>maxime substantiva inter omnia nomina 
+          con<lb break="no" ed="#P" n="89"/>creta. Ergo in his omnibus maxime locum 
+          ha<lb break="no" ed="#P" n="90"/>bent regulae positae. Constat autem nomine
+          <lb ed="#P" n="91"/>Personc formalius magisque directe 
+          signifi<lb break="no" ed="#P" n="92"/>care personalitatem, quam naturam, ut 
+          nota<lb break="no" ed="#P" n="93"/>vit divus Thomas, 1 part., quaest. 29, art. 4,
+          <lb ed="#P" n="94"/>estque ex ipsa voce satis per se notum. Ergo,
+          <lb ed="#P" n="95"/>ut persona possit pluraliter praedicari, necesse
+          <lb ed="#P" n="96"/>est, ut personalitates eolem modo 
+          multiph<lb break="no" ed="#P" n="97"/>centur, in tanto, nimirum, numero, in 
+          quanp<lb break="no" ed="#P" n="98"/>to personae plures esse dicuntur. Et simihter
+          <lb ed="#P" n="99"/>haec pluralitas personalitatum sufficiet, ut 
+          per<lb break="no" ed="#P" n="100"/>sonae plures sint, quantumvis natura sit una.
+          <lb ed="#P" n="101"/>Sicut etiam e contrario unitas personahtatis
+          <lb ed="#P" n="102"/>sufficit ad personae unitatem, etiamsi naturae
+          <lb ed="#P" n="103"/>multiplicentur, ut in Christo Domino videre
+          <lb ed="#P" n="104"/>licet.
+        </p>
+        <p xml:id="szduep-149321-d1e598">
+          <lb ed="#P" n="105"/>8. Prima difficultas circa regulas. — 
+          Argu<lb break="no" ed="#P" n="106"/>menta, si quae sunt, quae contra hanc 
+          verita<lb break="no" ed="#P" n="107"/>tem fieri possunt, in sequenti capite melius
+          <lb ed="#P" n="108"/>tractabuntur. Nunc circa regulas positas 
+          oc<lb break="no" ed="#P" n="109"/>curit difficultas ; quoniam ex illis sequi 
+          viden<lb break="no" ed="#P" n="110"/>tur duae aliae. Una est ad pluralitatem nomi-
+          <pb ed="#P" n="593"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nis substantivi concreti suflicere pluralitatem
+          <lb ed="#P" n="2"/>formae significatae formaliter per nomen. 
+          AI<lb break="no" ed="#P" n="3"/>tera est consequens ad istam, scilicet ad 
+          plu<lb break="no" ed="#P" n="4"/>ralitatem nominis substantivi concreti 
+          neces<lb break="no" ed="#P" n="5"/>sariam non esse pluralitatem suppositorum
+          <lb ed="#P" n="6"/>cum pluralitate formarum. Haec posterior 
+          evi<lb break="no" ed="#P" n="7"/>denter sequitur ex priori, nam si ad 
+          pluralita<lb break="no" ed="#P" n="8"/>tem dicti significati sufficit pluralitas 
+          forma<lb break="no" ed="#P" n="9"/>rum, ergo si plures formae tales sint in eodem
+          <lb ed="#P" n="10"/>supposito, erunt plura concreta substantiva a
+          <lb ed="#P" n="11"/>tali forma sumpta, ergo ad eorum 
+          plura<lb break="no" ed="#P" n="12"/>litatem necesse non est, ut simul concurrat
+          <lb ed="#P" n="13"/>pluralitas suppositorum. Quod vero prior 
+          re<lb break="no" ed="#P" n="14"/>gula sequatur ex praecedentibus, patet, quia
+          <lb ed="#P" n="15"/>oppositorum esse debet eadem, seu 
+          proportio<lb break="no" ed="#P" n="16"/>nalis ratio.
+        </p>
+        <p xml:id="szduep-149321-d1e654">
+          <lb ed="#P" n="17"/>9. Ad hanc difficultatem quidam respondent,
+          <lb ed="#P" n="18"/>concedendo sequelam et admittendo has etiam
+          <lb ed="#P" n="19"/>duas ultimas regulas, et ea nomina, quae ex
+          <lb ed="#P" n="20"/>illis inferri possunt, ut, Verbum, si assumeret
+          <lb ed="#P" n="21"/>plures humanitates, futurum fuisse plures 
+          ho<lb break="no" ed="#P" n="22"/>mines et Patrem aeternum, quatenus virtutem
+          <lb ed="#P" n="23"/>generandi et spirandi habet, esse duo 
+          princi<lb break="no" ed="#P" n="24"/>pia, saltem secundum rationem et similia.
+          <lb ed="#P" n="25"/>Ego vero oppositam sententiam defendi in
+          <lb ed="#P" n="26"/>primo tomo, tertia parte, disput. 13, sect. 3,
+          <lb ed="#P" n="27"/>quam nunc etiam probabiliorem censeo, infra.
+          <lb ed="#P" n="28"/>vero occurret occasio peculiaris illam 
+          tractan<lb break="no" ed="#P" n="29"/>di, cum agemus de principio Spiritus sancti,
+          <lb ed="#P" n="30"/>et ideo in illum locum remitto nonnulla, quae
+          <lb ed="#P" n="31"/>circa opinionem illam addenda occurrebant.
+          <lb ed="#P" n="32"/>Nunc ergo breviter respondeo, negando 
+          se<lb break="no" ed="#P" n="33"/>quelam. Et ad probationem assero, non esse
+          <lb ed="#P" n="34"/>eamdem rationem pluralitatis, seu 
+          multitudi<lb break="no" ed="#P" n="35"/>nis, quae est unitatis, quia ad unitatem suffticit
+          <lb ed="#P" n="36"/>unio multorum in eodem supposito, ut citato
+          <lb ed="#P" n="37"/>loco, tertia parte, magis late declaravi, et in
+          <lb ed="#P" n="38"/>sequentibus attingemus.
+        </p>
+        <p xml:id="szduep-149321-d1e704">
+          <lb ed="#P" n="39"/>10. Altera difficultas. —Alia difficultas circa
+          <lb ed="#P" n="40"/>eamdem regulam occurrebat, quia si 
+          persona<lb break="no" ed="#P" n="41"/>litatum pluralitas necessaria est, ut personae
+          <lb ed="#P" n="42"/>possint plures numerari, eadem ratione erunt
+          <lb ed="#P" n="43"/>necessariae plures sapientiae, ut dicantur 
+          plu<lb break="no" ed="#P" n="44"/>res sapientes et plura dominia, ut dicantur
+          <lb ed="#P" n="45"/>plures dominantes, quod tamen falsum est.
+          <lb ed="#P" n="46"/>In hac vero difficultate inculcatur alia regula
+          <lb ed="#P" n="47"/>de praedicatione nominum adjectivorum, quam
+          <lb ed="#P" n="48"/>in fine hujus libri trademus. Nunc breviter 
+          di<lb break="no" ed="#P" n="49"/>cimus, regulas a nobis positas procedere in 
+          no<lb break="no" ed="#P" n="50"/>minibus substantivis, quia nomen, Persona,
+          <lb ed="#P" n="51"/>substantivum est. Et ita concedimus sequelam
+          <lb ed="#P" n="52"/>in aliis omnibus substantivis dictis de tribus 
+          per<lb break="no" ed="#P" n="53"/>sonis, et ideo Athanasius in suo symbolo negat,
+          <lb ed="#P" n="54"/>tres personasessetres omnipotentes, 
+          utiquesub<lb break="no" ed="#P" n="55"/>stantive, quia unam tantum habent omnipo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tentiam, idemque erit de sapiente codem modo
+          <lb ed="#P" n="57"/>sumpto, et de Domino, vox autem 
+          Dominan<lb break="no" ed="#P" n="58"/>tis adjectiva est, et ideo dispar est de illa 
+          ra<lb break="no" ed="#P" n="59"/>tio, ut infra dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

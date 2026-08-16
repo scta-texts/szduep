@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="386"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-098142"><!-- t2-l2c13 -->
+        <head xml:id="szduep-098142-Hd1e101">Caput 13</head>
+        <head xml:id="szduep-098142-Hd1e103" type="question-title">Eadem sententia conciliorum auctoritate comprobatur</head>
+        <p xml:id="szduep-098142-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>CAPUT XIII.
+          <lb ed="#P" n="57"/>EADEM SENTENTIA CONCILIORUM AUCTORITATE
+          <lb ed="#P" n="58"/>COMPROBATUR.
+        </p>
+        <p xml:id="szduep-098142-d1e117">
+          <lb ed="#P" n="59"/>1. Duplex argumentandi ea auctoritate ratio
+          <lb ed="#P" n="60"/>assignatur. Cvtertio potest haec sententia 
+          sua<lb break="no" ed="#P" n="61"/>deri auctoritate, ac definitionibus Ecclesiae.
+          <lb ed="#P" n="62"/>Est autem hic distinguenda duplex ratio 
+          argu<lb break="no" ed="#P" n="63"/>mentandi ab auctoritate. Una est quam vocant
+          <lb ed="#P" n="64"/>ab auctoritate negativa: alia est directe 
+          osten<lb break="no" ed="#P" n="65"/>siva. In hoc enim capite magis utemur priori
+          <lb ed="#P" n="66"/>argumentandi modo, quam posteriori, licet
+          <lb ed="#P" n="67"/>hoc etiam modo possint testimonia 
+          Concilio<lb break="no" ed="#P" n="68"/>rum induci. Nam imprimis Concilia nullibi do
+          <lb ed="#P" n="69"/>cent absolute, ad omnia et singula bona 
+          mo<lb break="no" ed="#P" n="70"/>ralia opera necessarium esse speciale auxilium
+          <lb ed="#P" n="71"/>gratiae. Deinde, si in uno, aut alio loco 
+          indi<lb break="no" ed="#P" n="72"/>stincte loquuntur in aliis diserte declarant, de
+          <lb ed="#P" n="73"/>quibus bonis operibus intelligenda sint, quando
+          <lb ed="#P" n="74"/>indefinite loquuntur. Unde, ut urgentius sit
+          <lb ed="#P" n="75"/>argumentum, vocari potest, non solum ab
+          <lb ed="#P" n="76"/>auctoritate negativa, sed etiam a contrario
+          <lb ed="#P" n="77"/>sensu, aut ab illo principio, quod exceptio
+          <lb ed="#P" n="78"/>firmat regulam in contrarium, seu quod 
+          pro<lb break="no" ed="#P" n="79"/>hibitio, aut damnatio cum limitatione facta,
+          <lb ed="#P" n="80"/>indicat propositionem sine limitatione 
+          sump<lb break="no" ed="#P" n="81"/>tam non comprehendi, sed potius eximi ab
+          <lb ed="#P" n="82"/>illa damnatione.
+        </p>
+        <p xml:id="szduep-098142-d1e172">
+          <lb ed="#P" n="83"/>2. Sic igitur possunt ad hanc sententiam
+          <lb ed="#P" n="84"/>probandam loca omnia Conciliorum afferri,
+          <lb ed="#P" n="85"/>in quibus additur illa particula, sicut oportet,
+          <lb ed="#P" n="86"/>vel alia aequivalens. Ut est in Concilio 
+          Triden<lb break="no" ed="#P" n="87"/>Uno, sess. 6, can. 3, dicente: S quis dimerit,
+          <lb ed="#P" n="88"/>sine praeveniente Spiritus sancti inspiratione,
+          <lb ed="#P" n="89"/>atque ejus adjutorio hominem credere, sperare,
+          <lb ed="#P" n="90"/>diligere, aut poitere posse, sicut oportet, ut ei
+          <lb ed="#P" n="91"/>Justificationis gratia conferatur, anathema sit.
+          <lb ed="#P" n="92"/>Non enim sine causa addita fuit illa particula,
+          <lb ed="#P" n="93"/>sicut oportet : quidquid enim per eam 
+          signifi<lb break="no" ed="#P" n="94"/>cetur tanquam necessarium ex parte actus, ut
+          <lb ed="#P" n="95"/>sit sufficiens dispositio ad justificationis gratiam
+          <lb ed="#P" n="96"/>obtinendam, et sive ibi sit sermo de 
+          justifica<lb break="no" ed="#P" n="97"/>tione pro sola infusione habitualis justitiae,
+          <lb ed="#P" n="98"/>sive pro tota serie justificationis, ab exordio
+          <lb ed="#P" n="99"/>ejus usque ad infusionem justitiae, certum est
+          <lb ed="#P" n="100"/>voluisse Concilium ab ea damnatione 
+          praeser<lb break="no" ed="#P" n="101"/>vare eos, qui dixerint posse hominem credere,
+          <lb ed="#P" n="102"/>aut diligere, sine auxiliis gratiae, non tamen
+          <lb ed="#P" n="103"/>ita, sicut oportet, ut justiticationis gratiam
+          <lb ed="#P" n="104"/>obtineat. Imo supponere videtur, posse 
+          homi<lb break="no" ed="#P" n="105"/>nem id facere, alias limitatio illa et restrictio
+          <lb ed="#P" n="106"/>necessaria non fuisset. Dicet aliquis, posse
+          <lb ed="#P" n="107"/>quidem hominem credere, vel amare, sine
+          <pb ed="#P" n="387"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>auxilio gratiae, alio modo, quam oporteat ad
+          <lb ed="#P" n="2"/>justitiam, eo tamen ipso, quod actus non est
+          <lb ed="#P" n="3"/>sicut oportet, esse malum et peccatum, si 
+          hu<lb break="no" ed="#P" n="4"/>manus et morahs sit. Hoc vero dici non potest,
+          <lb ed="#P" n="5"/>quia circumstantia illa, sicut oportet, 
+          quaecum<lb break="no" ed="#P" n="6"/>que tandem illa sit, non est intrinsece 
+          neces<lb break="no" ed="#P" n="7"/>saria ad moralem honestatem actus, ut est per
+          <lb ed="#P" n="8"/>se notum: ergo nec amissio illius per se et 
+          in<lb break="no" ed="#P" n="9"/>trinsece reddit actum malum.
+        </p>
+        <p xml:id="szduep-098142-d1e254">
+          <lb ed="#P" n="10"/>3. Deinde ad hoc pondero canonem primum
+          <lb ed="#P" n="11"/>ejusdem sessionis: Sà quis diverit hominem
+          <lb ed="#P" n="12"/>suis operibus, quae vel per lumanee naturae 
+          vi<lb break="no" ed="#P" n="13"/>ves, vel per legis doctrinam fiunt, absque divina
+          <lb ed="#P" n="14"/>per Jesum Christum gratia, posse justificari
+          <lb ed="#P" n="15"/>coram Deo, anathema sit.In quibus verbis 
+          sup<lb break="no" ed="#P" n="16"/>ponit Concilium posse hominem habere aliqua
+          <lb ed="#P" n="17"/>opera per humanae naturae vires, vel per legis
+          <lb ed="#P" n="18"/>doctrinam, scilicet, solam et fine auxilio 
+          gra<lb break="no" ed="#P" n="19"/>tiae, ut dicebat Pelagius. Nam si ad legis 
+          doc<lb break="no" ed="#P" n="20"/>trinam accedat gratiae auxilium, non est 
+          du<lb break="no" ed="#P" n="21"/>bium, quin per talia opera possit homo 
+          justifi<lb break="no" ed="#P" n="22"/>cari : At opera illa, quae supponit Concilium,
+          <lb ed="#P" n="23"/>posse fieri per naturae vires, aut legis 
+          doctri<lb break="no" ed="#P" n="24"/>nam, non statim sunt mala, sed possunt esse
+          <lb ed="#P" n="25"/>bona ex mente et intentione ejusdem Concili.
+          <lb ed="#P" n="26"/>Quis enim unquam dixit, posse hominem 
+          jus<lb break="no" ed="#P" n="27"/>tificari per mala opera liberi arbitrii? Concilium
+          <lb ed="#P" n="28"/>autem in illo canone damnat Pelagium, qui id
+          <lb ed="#P" n="29"/>affirmabat de bonis operibus, per vires arbitrii,
+          <lb ed="#P" n="30"/>vel legis doctrinam factis: non autem damnat
+          <lb ed="#P" n="31"/>illum, eo quod aliqua opera talia fieri posse 
+          di<lb break="no" ed="#P" n="32"/>cebat: imo hoc vel supponere. vel permittere
+          <lb ed="#P" n="33"/>videtur: sed in eo damnat, quod illa opera ad
+          <lb ed="#P" n="34"/>justificationem sufficere dicebat.
+        </p>
+        <p xml:id="szduep-098142-d1e311">
+          <lb ed="#P" n="35"/>4. Et ad hoc confirmandum facit, quod in
+          <lb ed="#P" n="36"/>capite octavo idem Concilium exposuerat, ideo
+          <lb ed="#P" n="37"/>dici hominem gratis justificari, quia nilul 
+          eo<lb break="no" ed="#P" n="38"/>rum quae justificationem preecedunt, sive fides,
+          <lb ed="#P" n="39"/>sive opera, ipsam justificationis gratiam 
+          prome<lb break="no" ed="#P" n="40"/>retur. Ubi non censet, omnia illa opera esse
+          <lb ed="#P" n="41"/>mala, etiamsi absque fide vel gratia fiant, sed
+          <lb ed="#P" n="42"/>non esse justificationis merita. Et ideo in 
+          ca<lb break="no" ed="#P" n="43"/>none septimo damnat dicentes: Opera quee ante
+          <lb ed="#P" n="44"/>Justificationem fiunt quacumque ratione facta
+          <lb ed="#P" n="45"/>sint, vere esse peccata. Qui canon evidentius
+          <lb ed="#P" n="46"/>concludit, si supponamus (ut supponunt 
+          auc<lb break="no" ed="#P" n="47"/>tores cum quibus disputamus), in hac doctrina
+          <lb ed="#P" n="48"/>et canonibus Concilii Tridentini intelligi 
+          no<lb break="no" ed="#P" n="49"/>mine justificationis totam mutationem 
+          homi<lb break="no" ed="#P" n="50"/>nis a prima et remotissima dispositione, quae
+          <lb ed="#P" n="51"/>incipit a primo opere bono ex gratia facto;
+          <lb ed="#P" n="52"/>usque ad infusionem justitiae: ergo necesse est,
+          <lb ed="#P" n="53"/>ut fateantur, ante totam illam justificationem
+          <lb ed="#P" n="54"/>dari posse opus bonum: quia Tridentinum 
+          de<lb break="no" ed="#P" n="55"/>finit, non omnia talia opera esse peccata, et in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>individuo inter peccatum et bonum opus non
+          <lb ed="#P" n="57"/>datur medium: ergo tale opus bonum non
+          <lb ed="#P" n="58"/>semper fit ex gratia, nam si ex gratia fit, non
+          <lb ed="#P" n="59"/>antecedit justificationem dicto modo sumptam,
+          <lb ed="#P" n="60"/>sed inchoat illam, ut iidem auctores 
+          profiten<lb break="no" ed="#P" n="61"/>tur.
+        </p>
+        <p xml:id="szduep-098142-d1e374">
+          <lb ed="#P" n="62"/>5. Ad idem genus argumentandi pertinet
+          <lb ed="#P" n="63"/>canon sextus Concilii Arausicani: Si quis sine
+          <lb ed="#P" n="64"/>gratia Dei volentibus , credentibus, etc., non
+          <lb ed="#P" n="65"/>autem divinitus ut credamus, velimus, vel heec
+          <lb ed="#P" n="66"/>omnia , sicut oportet, agere valeamus per 
+          in<lb break="no" ed="#P" n="67"/>fusionem et inspirationem Sancti Spiritus in
+          <lb ed="#P" n="68"/>nobis fteri confitetur, etc. Ilemque fere habet,
+          <lb ed="#P" n="69"/>canone vigesimo quinto addendo similiter 
+          par<lb break="no" ed="#P" n="70"/>ticulam, sicut oportet, quae cum additur, aperte
+          <lb ed="#P" n="71"/>insinuatur alio inferiori modo non quidem
+          <lb ed="#P" n="72"/>malo, sed ad negotium salutis insufficiente,
+          <lb ed="#P" n="73"/>fieri posse opus bonum. Ita enim censeo hoc
+          <lb ed="#P" n="74"/>loco particulam illam, sicut oportet, esse 
+          inter<lb break="no" ed="#P" n="75"/>pretandam, scilicet, sicut ad negotium salutis
+          <lb ed="#P" n="76"/>oportet, sive id sit ad conferendam vel 
+          prome<lb break="no" ed="#P" n="77"/>rendam salutem, sive id sit ad initiandam 
+          il<lb break="no" ed="#P" n="78"/>lam per quamcumque dispositionem: ergo si
+          <lb ed="#P" n="79"/>opus non sit hoc modo, sicut oportet, licet 
+          bo<lb break="no" ed="#P" n="80"/>num sit, fieri poterit sine praevia Spiritus
+          <lb ed="#P" n="81"/>sancti inspiratione, aut saltem ex intentione
+          <lb ed="#P" n="82"/>Concilii non repugnat ita fieri. Simili modo
+          <lb ed="#P" n="83"/>facit canone septimo ejusdem Concili dicentis:
+          <lb ed="#P" n="84"/>Si quis per nature vigorem bonum aliquod, quod
+          <lb ed="#P" n="85"/>ad salutem pertinet vitee eternee, etc. Ecce 
+          expli<lb break="no" ed="#P" n="86"/>cationem particulae sicut oportet : cum eadem
+          <lb ed="#P" n="87"/>cautione et limitatione additam, ne absolute de
+          <lb ed="#P" n="88"/>quolibet bono opere definitio illa intelligatur.
+          <lb ed="#P" n="89"/>Unde cum ibi allegat verbum Christi: S'ine me
+          <lb ed="#P" n="90"/>nihil potestis facere, illud tacite ex pomt de opere
+          <lb ed="#P" n="91"/>ad salutem vitae aeternae pertinente. Et desimili
+          <lb ed="#P" n="92"/>cogitatione exponit verbum Pauli: JVon sumus
+          <lb ed="#P" n="93"/>sufficientes cogitare aliquid ex nobis, quasi ez
+          <lb ed="#P" n="94"/>nobis, etc.
+        </p>
+        <p xml:id="szduep-098142-d1e448">
+          <lb ed="#P" n="95"/>6. Utriusque autem loci expositio et tota
+          <lb ed="#P" n="96"/>haec limitatio seu determinatio boni operis, ex
+          <lb ed="#P" n="97"/>qua argumentamur, sumpta est ex doctrina
+          <lb ed="#P" n="98"/>Augustini. Ille enim in libro de Spirit. et lit.,
+          <lb ed="#P" n="99"/>cap. 29, de operibus justitiae exposuit huisti
+          <lb ed="#P" n="100"/>verba, sine me nihil potestis facere. Et de Grat.
+          <lb ed="#P" n="101"/>et lib. Arb., c. 8, exponit de operibus, quibus
+          <lb ed="#P" n="102"/>aterna redditur vita. Et lib. de Praed. Sanct.,
+          <lb ed="#P" n="103"/>c. 9: Quod pertinet (inquit) ad religionem atque
+          <lb ed="#P" n="104"/>pietatem de qua loguebatur Apostolus, etc., et
+          <lb ed="#P" n="105"/>lib. de Bono persev. , cap. 13: Quod attinet ad
+          <lb ed="#P" n="106"/>pietatis viam et verun Dei cultuwmn, non sumnus
+          <lb ed="#P" n="107"/>sufficientes cogitare aliquid ex nobDis. Unde in
+          <lb ed="#P" n="108"/>epistol. 106, in principio, eumdem modum 
+          lo<lb break="no" ed="#P" n="109"/>quendi servat, dicens: fa ut nisi adjuvet 
+          gra<lb break="no" ed="#P" n="110"/>tia, nihil pietatis atque justitie, sive in opere,
+          <pb ed="#P" n="388"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sive in voluntate habere possimus, etl. de Grat.
+          <lb ed="#P" n="2"/>et lib. Arb., c. 4, ait, cavendum esse ne 
+          prop<lb break="no" ed="#P" n="3"/>ter defendendum liberum arbitrium, ad vitam
+          <lb ed="#P" n="4"/>piam et bonam conversationem, cui merces 
+          eter<lb break="no" ed="#P" n="5"/>na debetur, adjutorio et gratie Deà locus non
+          <lb ed="#P" n="6"/>relinguatur. Hoc autem in aliis locis ita 
+          exag<lb break="no" ed="#P" n="7"/>gerat Augustinus ut interdum significet, sine
+          <lb ed="#P" n="8"/>gratia et charitate non posse opus bonum fieri,
+          <lb ed="#P" n="9"/>ut in eodem libro de Grat. et lib. Arb., c. 18,
+          <lb ed="#P" n="10"/>ait: Quidquid se putaverit homo facere bene, si
+          <lb ed="#P" n="11"/>fiat sine charitate, nullo modo fit bene. Haec
+          <lb ed="#P" n="12"/>vero et similia verba intelligenda sunt de 
+          bo<lb break="no" ed="#P" n="13"/>nis operibus, quibus aeterna redditur vita, ut
+          <lb ed="#P" n="14"/>capite octavo dixerat. Unde hic bene operari,
+          <lb ed="#P" n="15"/>idem est, quod meritorie operari. Atque ad
+          <lb ed="#P" n="16"/>eumdem modum videtur explicandus 
+          Augus<lb break="no" ed="#P" n="17"/>tinus, libro de Grat. Christi, c. 26, cum ait:
+          <lb ed="#P" n="18"/>Quid autem boni faceremus, nisi diligeremus?
+          <lb ed="#P" n="19"/>boni, scilicet meritorii: nam paulo superius
+          <lb ed="#P" n="20"/>dixerat: Quae bona merita tunc habere 
+          potera<lb break="no" ed="#P" n="21"/>mus, quando Dewn non diligebamus . Unde post
+          <lb ed="#P" n="22"/>illa superiora verba subjungit: Etst Dei 
+          man<lb break="no" ed="#P" n="23"/>datum cidetur aliquando a non diligentibus, sed
+          <lb ed="#P" n="24"/>a timentibus fieri, tamen ubi non est dilectio,
+          <lb ed="#P" n="25"/>nullum bonum ingnttatur ; utique ad meritum.
+          <lb ed="#P" n="26"/>Et ita videtur clarum ex his locis, per bonum
+          <lb ed="#P" n="27"/>opus intelligere Augustinum opus meritorium
+          <lb ed="#P" n="28"/>aliquo modo.
+        </p>
+        <p xml:id="szduep-098142-d1e550">
+          <lb ed="#P" n="29"/>7. Exponuntur quaedam verba Augustini 
+          dif<lb break="no" ed="#P" n="30"/>ficilia. —Addit vero Augustinus in hoc ultimo
+          <lb ed="#P" n="31"/>loco quaedam verba quae rem obscuram 
+          red<lb break="no" ed="#P" n="32"/>dunt: Nec recte bonum ognts vocatur (scilicet
+          <lb ed="#P" n="33"/>opus sine charitate factum) quia omne quod non
+          <lb ed="#P" n="34"/>est ex fide, peccatum est : et fides per dalectionem
+          <lb ed="#P" n="35"/>operatur. Significat ergo omne opus, quod non
+          <lb ed="#P" n="36"/>est ex fide per charitatem operante, esse 
+          pec<lb break="no" ed="#P" n="37"/>catum. At verba haec ab omnibus catholicis
+          <lb ed="#P" n="38"/>sunt pie exponenda, nisi velint duos errores
+          <lb ed="#P" n="39"/>damnatos Augustino tribuere, videlicet, omne
+          <lb ed="#P" n="40"/>opus peccatorum fidelium vel infidelium, 
+          pec<lb break="no" ed="#P" n="41"/>catum esse. Dicit ergo, non recte vocari ognis
+          <lb ed="#P" n="42"/>bonum , non quia non sit, sed quia non habet
+          <lb ed="#P" n="43"/>conditionem convenientem homini christiano:
+          <lb ed="#P" n="44"/>vel certe, quia tale opus regulariter non est
+          <lb ed="#P" n="45"/>bonum, non quia esse non possit, sed quia
+          <lb ed="#P" n="46"/>homo est tam fragilis, ut si vel fide careat, vel
+          <lb ed="#P" n="47"/>ex illa non operetur, prava aliqua intentione,
+          <lb ed="#P" n="48"/>vel fidei non conformi operari soleat, et in hoc
+          <lb ed="#P" n="49"/>sensu accipienda est probatio Augustini: quia
+          <lb ed="#P" n="50"/>omne quod non est ex fide, peccatum est : 1d est,
+          <lb ed="#P" n="51"/>quod est repugnans vel alienum a dictamine
+          <lb ed="#P" n="52"/>fidei, quale ordinarie esse solet opus infidelis
+          <lb ed="#P" n="53"/>vel peccatoris. Quanquam locus ille Pauli 
+          ha<lb break="no" ed="#P" n="54"/>beat alium sensum, forte veriorem, ut supra
+          <lb ed="#P" n="55"/>dixi. Quod autem Augustinus etiam illo loco
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nihil aliud intendat, patet, quia post illa verba
+          <lb ed="#P" n="57"/>iterum subjungit: Gratiam Dei, qua charitas
+          <lb ed="#P" n="58"/>Dei diffusa est in cordibus nostris, sic 
+          confitea<lb break="no" ed="#P" n="59"/>tur, qui vult veraciter confiteri, ut omnino nihil
+          <lb ed="#P" n="60"/>boni sine illa, quod ad pietatem pertineat, 
+          ve<lb break="no" ed="#P" n="61"/>ramque justitiam fieri posse non dubitet, ubi
+          <lb ed="#P" n="62"/>eamdem limitationem et restrictionem 
+          adhi<lb break="no" ed="#P" n="63"/>bet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

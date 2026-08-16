@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="280"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-071388"><!-- t2-l1c11 -->
+        <head xml:id="szduep-071388-Hd1e101">Caput 11</head>
+        <head xml:id="szduep-071388-Hd1e103" type="question-title">An hoc decretum dandi gloriam praedestinatis, fuerit eorum electio, vel dilectio et quomodo haec differant</head>
+        <p xml:id="szduep-071388-d1e106">
+          <lb ed="#P" n="97"/>CAPUT XI.
+          <lb ed="#P" n="98"/>AN HOC DECRETUM DANDI GLORIAM PRAEDESTINATIS,
+          <lb ed="#P" n="99"/>FUERIT EORUM ELECTIO, VEL DILECTIO ET
+          <lb ed="#P" n="100"/>QUOMODO HAEC DIFFERANT.
+        </p>
+        <p xml:id="szduep-071388-d1e117">
+          <lb ed="#P" n="101"/>1. Certum est hoc decretum esse dilectionem.
+          <lb ed="#P" n="102"/>—Disputatio haec fere pertinet ad explicandas
+          <lb ed="#P" n="103"/>varias locutiones et sententias auctorum, 
+          ta<lb break="no" ed="#P" n="104"/>men in materia tam gravi neque hoc 
+          praeter<lb break="no" ed="#P" n="105"/>mittendum est, ne ambiguitas verborum , vel
+          <lb ed="#P" n="106"/>confusionem pariat, vel periculum errandi
+          <lb ed="#P" n="107"/>creet. Scholastici ergo Doctores pro certo ha-
+          <pb ed="#P" n="281"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bent, decretum illud esse dilectionem Dei et
+          <lb ed="#P" n="2"/>valde magnam, ut constat ex D. Thoma dict.,
+          <lb ed="#P" n="3"/>art. 4, quaest. 23, et omnibus ibi scribentibus,
+          <lb ed="#P" n="4"/>et in 1, dist. 40 et 41. Neque in eo dubitare
+          <lb ed="#P" n="5"/>quispiam potest, quia diligere aliquem est
+          <lb ed="#P" n="6"/>velle illi bonum, sed per hoc decretum vult
+          <lb ed="#P" n="7"/>Deus praedestinato maximum bonum, nempe
+          <lb ed="#P" n="8"/>gloriam aeternam, ergo illum illigit est ergo
+          <lb ed="#P" n="9"/>actus ille vera dilectio.
+        </p>
+        <p xml:id="szduep-071388-d1e159">
+          <lb ed="#P" n="10"/>2. Rationes dubitandi. — Quin potius 
+          dubi<lb break="no" ed="#P" n="11"/>tare theologi. An haec dilectio praedestinati sit
+          <lb ed="#P" n="12"/>major, quam illa, qua Deus diligit reprobum
+          <lb ed="#P" n="13"/>eo tempore, quo justus est, ut videre est apud
+          <lb ed="#P" n="14"/>D. Thomam, 1 part., quaest. 20, art. 4, ad5, et
+          <lb ed="#P" n="15"/>Alensis, 1 part., quaest 32, Memb. 2. Et in
+          <lb ed="#P" n="16"/>summa respondent simpliciter et absolute plus
+          <lb ed="#P" n="17"/>amari praedestinatum , ratione hujus 
+          volunta<lb break="no" ed="#P" n="18"/>tis, seu decreti gratuiti dandi gloriam, quia
+          <lb ed="#P" n="19"/>simpliciter Deus vult ei majus bonum, scilicet
+          <lb ed="#P" n="20"/>vitam aeternam, tamen secundum quid, seu
+          <lb ed="#P" n="21"/>pro illo tempore, quo praescitus est justus et
+          <lb ed="#P" n="22"/>praedestinatus est in peccato, plus amari 
+          repro<lb break="no" ed="#P" n="23"/>bum, quia pro tunc est acceptus ad gloriam,
+          <lb ed="#P" n="24"/>ad quam, secundum praesentem illius 
+          tempo<lb break="no" ed="#P" n="25"/>ris justitiam, non est acceptus praedestinatus
+          <lb ed="#P" n="26"/>peccator.
+        </p>
+        <p xml:id="szduep-071388-d1e199">
+          <lb ed="#P" n="27"/>3. Sed contra, nam per hunc actum 
+          dilec<lb break="no" ed="#P" n="28"/>tionis diligitur praedestinatus , etiam pro eo
+          <lb ed="#P" n="29"/>tempore, in quo non est justus, ergo jam pro
+          <lb ed="#P" n="30"/>eo tempore plus diligitur simpliciter et 
+          abso<lb break="no" ed="#P" n="31"/>Inute. Patet consequentia, quia illa dilectio in
+          <lb ed="#P" n="32"/>se est simpliciter major, ergo pro omni 
+          tem<lb break="no" ed="#P" n="33"/>pore, pro quo denominat hominem dilectum,
+          <lb ed="#P" n="34"/>denominat etiam magis dilectum. Respondetur
+          <lb ed="#P" n="35"/>ex mente D. Thomae supra, amorem Dei esse
+          <lb ed="#P" n="36"/>causam bonitatis rei amatae, et ideo pro 
+          quo<lb break="no" ed="#P" n="37"/>cumque tempore, plus diligere Deum illam
+          <lb ed="#P" n="38"/>personam, cui pro eodem tempore majus 
+          bo<lb break="no" ed="#P" n="39"/>num confert. At eo tempore, quo 
+          praedestina<lb break="no" ed="#P" n="40"/>tus non est justus et reprobus est justus, majus
+          <lb ed="#P" n="41"/>bonum confert Deus reprobo, quam 
+          praedesti<lb break="no" ed="#P" n="42"/>nato, quia confert praescito gratiam, quam non
+          <lb ed="#P" n="43"/>confert praedestinato, et ideo pro eo tempore
+          <lb ed="#P" n="44"/>smimpliciter plus amat praescitum, guam pro
+          <lb ed="#P" n="45"/>tunc facit meliorem.
+        </p>
+        <p xml:id="szduep-071388-d1e243">
+          <lb ed="#P" n="46"/>4. Sed adhuc urgeo. Nam vel hinc seqns
+          <lb ed="#P" n="47"/>Deum pro illo tempore non diligere 
+          praedesti<lb break="no" ed="#P" n="48"/>natum:: vel difficultas non expeditur. Patet,
+          <lb ed="#P" n="49"/>quia si pro illo tempore diligit, ergo etiam 
+          pro<lb break="no" ed="#P" n="50"/>illo tempore plus diligit. Probatur 
+          consequen<lb break="no" ed="#P" n="51"/>tia, quia per amorem majorem pro eodem
+          <lb ed="#P" n="52"/>tempore diligit. Item quia in illomet tempore
+          <lb ed="#P" n="53"/>ad majus bonum diligit. Quod si hoc non satis
+          <lb ed="#P" n="54"/>est, ut magis eum diligat, quia pro tunc non
+          <lb ed="#P" n="55"/>confert illi majus illud bonum, ergo non suf-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ficiet ut absolute diligat (dilectione utique 
+          su<lb break="no" ed="#P" n="57"/>pernaturali, de qua est sermo), quia ex vi illius
+          <lb ed="#P" n="58"/>voluntatis, nullum bonum supernaturale ci
+          <lb ed="#P" n="59"/>confert, ut suppono. Quod si tandem hoc 
+          con<lb break="no" ed="#P" n="60"/>cedatur, sequitur illud decretum non esse 
+          ve<lb break="no" ed="#P" n="61"/>ram dilectionem Dei, contra hypothesim 
+          fac<lb break="no" ed="#P" n="62"/>tam. Patet sequela, quia per illud decretum
+          <lb ed="#P" n="63"/>formaliter spectatum, vel nunquam Deus 
+          dili<lb break="no" ed="#P" n="64"/>git hominem, vel semper, ac continuo diligit,
+          <lb ed="#P" n="65"/>quia ex parte Dei ille actus semper manet 
+          im<lb break="no" ed="#P" n="66"/>mutatus et mutatio, quae fit in homine pro 
+          di<lb break="no" ed="#P" n="67"/>versis temporibus, non provenit ab illo actu
+          <lb ed="#P" n="68"/>formaliter spectato, cujus signum est (quia ille
+          <lb ed="#P" n="69"/>homo in omni tempore et statu tam peccati,
+          <lb ed="#P" n="70"/>quam gratiae, semper manet praedestinatus,
+          <lb ed="#P" n="71"/>seu praeordinatus ex vi illius actus ad vitam
+          <lb ed="#P" n="72"/>eeternam) ergo, si hoc satis est ad dilectionem,
+          <lb ed="#P" n="73"/>semper denominat dilectum, vel si non est 
+          sa<lb break="no" ed="#P" n="74"/>tis, nunquam denominat. Videtur autem 
+          ulte<lb break="no" ed="#P" n="75"/>rius ex dictis concludi, non esse satis, quia
+          <lb ed="#P" n="76"/>Deus non amat, nisi bonum et quia ejus 
+          volun<lb break="no" ed="#P" n="77"/>tas non praesupponit bonum, ideo non amat,
+          <lb ed="#P" n="78"/>nisi faciendo bonum: at per illum actum, ut
+          <lb ed="#P" n="79"/>sic, Deus non facit hominem bonum, ergo per
+          <lb ed="#P" n="80"/>illum actum non diligit hominem. Probatur
+          <lb ed="#P" n="81"/>minor, qui stante illo actu et formali 
+          denomi<lb break="no" ed="#P" n="82"/>natione ejus stat, hominem non esse bonum :
+          <lb ed="#P" n="83"/>ergo per illum actum Deus non facit hominem
+          <lb ed="#P" n="84"/>bonum.
+        </p>
+        <p xml:id="szduep-071388-d1e332">
+          <lb ed="#P" n="85"/>5. Conclusio. — Distinctio duplicis 
+          dilectio<lb break="no" ed="#P" n="86"/>nis erga homines. — Nihilominus dicendum
+          <lb ed="#P" n="87"/>est, actum illum esse veram dilectionem Dei
+          <lb ed="#P" n="88"/>erga hominem, ut est communis sententia, quae
+          <lb ed="#P" n="89"/>jam satis probata est. Possumus autem 
+          distin<lb break="no" ed="#P" n="90"/>guere duplicem Dei amorem. Unum, quo 
+          tan<lb break="no" ed="#P" n="91"/>tum ordinat hominem ad aliquod bonum;
+          <lb ed="#P" n="92"/>aliud, quo confert illi tale bonum. Ut inter 
+          ho<lb break="no" ed="#P" n="93"/>mines propositum dandi alicui bonum aliquod,
+          <lb ed="#P" n="94"/>dilectio quaedam est, etiamsi non statim 
+          mo<lb break="no" ed="#P" n="95"/>veat facultatem ad bonum illud conferendum.
+          <lb ed="#P" n="96"/>Et in Deo ipso non solum est signum 
+          praesen<lb break="no" ed="#P" n="97"/>tis amoris collatio alicujus doni, sed etiam 
+          pro<lb break="no" ed="#P" n="98"/>missio boni conferendi. Sicut quando DEUS
+          <lb ed="#P" n="99"/>promisit Abrahae futuram ex ipso Christi 
+          ge<lb break="no" ed="#P" n="100"/>nerationem, eo ipso ostendit praesentem 
+          amo<lb break="no" ed="#P" n="101"/>rem specialem erga ipsum, licet nondum 
+          bo<lb break="no" ed="#P" n="102"/>num illud ei praestaret. Est ergo in Deo verus
+          <lb ed="#P" n="103"/>amor praeordinans hominem ad aliquod 
+          bo<lb break="no" ed="#P" n="104"/>num, secundum rationem distinctus ab eo
+          <lb ed="#P" n="105"/>amore, qui consistit in actuali collatione talis
+          <lb ed="#P" n="106"/>boni et prior dici potest amor propositi et 
+          in<lb break="no" ed="#P" n="107"/>tentionis, posterior vero executionis. Unde
+          <lb ed="#P" n="108"/>cum dicitur, Deum non amare eum, quem non
+          <lb ed="#P" n="109"/>facit bonum, universe intellectum, simpliciter
+          <lb ed="#P" n="110"/>falsum est: pnam illum, quem decrevit facere
+          <pb ed="#P" n="282"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bonum pro aliquo tempore, ac deinceps pro
+          <lb ed="#P" n="2"/>tota aeternitate, amat etiam pro illo tempore
+          <lb ed="#P" n="3"/>quo illum non facit bonum, quia etiam tunc
+          <lb ed="#P" n="4"/>ordinat illum ad tale bonum: amat ergo pro
+          <lb ed="#P" n="5"/>tunc amore ordinativo, non collativo talis
+          <lb ed="#P" n="6"/>boni pro tunc. Est ergo propositum illud, seu
+          <lb ed="#P" n="7"/>decretum salvandi aliquem, vera dilectio Dei.
+        </p>
+        <p xml:id="szduep-071388-d1e410">
+          <lb ed="#P" n="8"/>6. Difficultas de actu electionis ev D. 
+          Tho<lb break="no" ed="#P" n="9"/>ma.— De actu vero electionis nonnulla 
+          difficul<lb break="no" ed="#P" n="10"/>tas est, propter D. Thomam, qui, art. 3, q. 23,
+          <lb ed="#P" n="11"/>distinguit inter dilectionem et electionem, et
+          <lb ed="#P" n="12"/>dilectionem dicit praecedere in DEO ante 
+          elec<lb break="no" ed="#P" n="13"/>tionem, quamvis in homine aliquando 
+          contin<lb break="no" ed="#P" n="14"/>gat prius eligere, quam diligat. Ut cum 
+          quis<lb break="no" ed="#P" n="15"/>piam eligit aliquem, ut cum eo contrahat
+          <lb ed="#P" n="16"/>amicitiam. Ratio ejus est, quia, ut unum prae
+          <lb ed="#P" n="17"/>alio eligatur, supponitur esse bonum, imo 
+          me<lb break="no" ed="#P" n="18"/>lius alio, quia electio supponit aliquam 
+          in<lb break="no" ed="#P" n="19"/>aequalitatem et excessum in re, quae eligitur.
+          <lb ed="#P" n="20"/>Si ergo hic eligitur et non alius, supponitur
+          <lb ed="#P" n="21"/>hic bonus et non alius. At respectu divinae 
+          vo<lb break="no" ed="#P" n="22"/>luntatis bonum non supponitur ad 
+          dilectio<lb break="no" ed="#P" n="23"/>nem, sed potius ab illa procedit : ergo necesse
+          <lb ed="#P" n="24"/>est, ut dilectio praecedat electionem. Quam
+          <lb ed="#P" n="25"/>doctrinam explicans Cajetanus addit, etiam in
+          <lb ed="#P" n="26"/>voluntate humana electionem supponere 
+          ali<lb break="no" ed="#P" n="27"/>quam dilectionem, saltem earum 
+          proprieta<lb break="no" ed="#P" n="28"/>tum, seu virtutum, propter quas aliquid 
+          eli<lb break="no" ed="#P" n="29"/>gitur, ut in exemplo posito, quando quis eligit
+          <lb ed="#P" n="30"/>alium in amicum, semper est propter aliquam
+          <lb ed="#P" n="31"/>conditionemsibi gratam, quam inillo cognoscit.
+        </p>
+        <p xml:id="szduep-071388-d1e465">
+          <lb ed="#P" n="32"/>7. Deus unico actu diligit et eligit 
+          preedes<lb break="no" ed="#P" n="33"/>Linatos. — Duplex acceptio electionis. — 
+          Nibilo<lb break="no" ed="#P" n="34"/>minus censeo, unicum esse voluntatis actum,
+          <lb ed="#P" n="35"/>quos Deus diligit et eligit praedestinatos ad
+          <lb ed="#P" n="36"/>eumdem terminum gloriae et per eas voces 
+          so<lb break="no" ed="#P" n="37"/>Ium connotari diversas habitudines. Quod ut
+          <lb ed="#P" n="38"/>declarem, adverto, electionem dupliciter dici,
+          <lb ed="#P" n="39"/>scilicet unius prae alio, quae videtur esse prima
+          <lb ed="#P" n="40"/>vocis impositio et unius propter aliud, 
+          quo<lb break="no" ed="#P" n="41"/>modo philosophi morales voluntatem medii
+          <lb ed="#P" n="42"/>propter finem vocant electionem, etiamsi 
+          con<lb break="no" ed="#P" n="43"/>tingat, illud medium unicum esse. Utroque
+          <lb ed="#P" n="44"/>autem modo potest haec dilectio 
+          praedestinato<lb break="no" ed="#P" n="45"/>rum electio vocari. Primum probatur, quia ex
+          <lb ed="#P" n="46"/>infinitis hominibus, quos potuisset Deus ad
+          <lb ed="#P" n="47"/>beatitudinem diligere, hos dilexit et non alios:
+          <lb ed="#P" n="48"/>ergo diligendo hos, eos praetulit aliis, ergo
+          <lb ed="#P" n="49"/>ipso actu dilectionis intrinsece elegit illos. 
+          Di<lb break="no" ed="#P" n="50"/>citur autem diligere, quatenus eis bonum
+          <lb ed="#P" n="51"/>vult : eligere vero, quatenus eos praefert aliis,
+          <lb ed="#P" n="52"/>quod non facit per alium actum, sed per 
+          eum<lb break="no" ed="#P" n="53"/>dem. Et confirmatur exemplo humanae 
+          elec<lb break="no" ed="#P" n="54"/>tionis. Postquam enim per consultationem
+          <lb ed="#P" n="55"/>plura media apta ad finem proposita sunt, hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ipso quod voluntas unum acceptat et non alia, i
+          <lb ed="#P" n="57"/>dihgit et eligit tale medium. Neque ad 
+          electio<lb break="no" ed="#P" n="58"/>nem necessarium est, ut per voluntatem posi- l
+          <lb ed="#P" n="59"/>tivam et quasi directam sequatur medium,
+          <lb ed="#P" n="60"/>quod non eligitur, sed satis est, quod in actu 
+          <lb ed="#P" n="61"/>exercito hoc voluntas acceptet, et non aliud: 
+          <lb ed="#P" n="62"/>ita ergo est in praesenti. Unde justa 
+          commu<lb break="no" ed="#P" n="63"/>nem locutionem Scripturae, haec dilectio 
+          prae<lb break="no" ed="#P" n="64"/>destinatorum electio vocatur : Flegit nos n
+          <lb ed="#P" n="65"/>ipso, ad Ephes. 1.
+        </p>
+        <p xml:id="szduep-071388-d1e543">
+          <lb ed="#P" n="66"/>8. Secundum etiam facile patet ex supra
+          <lb ed="#P" n="67"/>dictis, quia licet Deus velit gloriam 
+          praedesti<lb break="no" ed="#P" n="68"/>natis, ut finem ipsorum, tamen hoc ipsum 
+          vo<lb break="no" ed="#P" n="69"/>luit tanquam medium ad manifestanda sua
+          <lb ed="#P" n="70"/>attributa, suamque bonitatem 
+          communican<lb break="no" ed="#P" n="71"/>dam. Unde ipsius bonitas fuit primaria ratio
+          <lb ed="#P" n="72"/>diligendi electos : ergo talis dilectio intrinsece
+          <lb ed="#P" n="73"/>est propter ipsummet Deum: ergo est electio
+          <lb ed="#P" n="74"/>in altera etiam acceptione. :
+        </p>
+        <p xml:id="szduep-071388-d1e566">
+          <lb ed="#P" n="75"/>9. Respondetur ad D. Thomam.— Quare d
+          <lb ed="#P" n="76"/>D. Thomam respondeo, nunquam dicere hos 
+          <lb ed="#P" n="77"/>esse plures actus, quamvis de illis, ut de 
+          pluri<lb break="no" ed="#P" n="78"/>bus loquatur ad explicandas varias relationes.
+          <lb ed="#P" n="79"/>Inter quas prima est ad objectum in quantum
+          <lb ed="#P" n="80"/>voluntas Dei vult ibi bonum : deinde vero 
+          re<lb break="no" ed="#P" n="81"/>sultat altera, quae est praelationis ad alios: nam
+          <lb ed="#P" n="82"/>sub ea ratione D. Thomae de electione 
+          loqui<lb break="no" ed="#P" n="83"/>tur. Nec vero censeo necessarium, ut electio
+          <lb ed="#P" n="84"/>supponat inaequalitatem praesertim in ordine
+          <lb ed="#P" n="85"/>consultationis et intentionis: nam ex mediis
+          <lb ed="#P" n="86"/>aequalibus potest voluntas unum accipere et
+          <lb ed="#P" n="87"/>alia omittere. Quod maxime est in voluntate 
+          di<lb break="no" ed="#P" n="88"/>vina necessariam, ut etiam D. Thomas, art. 5,
+          <lb ed="#P" n="89"/>fatetur. Denique etiam in nobis nullam 
+          elec<lb break="no" ed="#P" n="90"/>tionem esse censeo, quae non sit intrinsece 
+          ali<lb break="no" ed="#P" n="91"/>qua dilectio. Ratio est clara, quia per 
+          electio<lb break="no" ed="#P" n="92"/>nem fertur voluntas in rem, quam eligit 
+          tan<lb break="no" ed="#P" n="93"/>quam bonam et illi unitur : ergo diligit illam
+          <lb ed="#P" n="94"/>per eumdem modum. Ut, in exemplo posito,
+          <lb ed="#P" n="95"/>quando quis eligit aliquem, ut illum habeat
+          <lb ed="#P" n="96"/>familiarem amicum, per ipsammet electionem
+          <lb ed="#P" n="97"/>incipit diligere, quamvis illam dilectionem ad
+          <lb ed="#P" n="98"/>aliam majorem et magis familiarem 
+          amici<lb break="no" ed="#P" n="99"/>tiam ordinet. Atque etiam e contrario dilectio,
+          <lb ed="#P" n="100"/>si sit unius ex multis, semper est electio, 
+          so<lb break="no" ed="#P" n="101"/>Ium carere poterit hac denominatione, quando
+          <lb ed="#P" n="102"/>unum tantum objectum propter se amandum
+          <lb ed="#P" n="103"/>propositum fuerit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

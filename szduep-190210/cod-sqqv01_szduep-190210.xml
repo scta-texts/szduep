@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="753"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-190210"><!-- t3-l10prae -->
+        <head xml:id="szduep-190210-Hd1e101">Praeambulum</head>
+        <p xml:id="szduep-190210-d1e103">
+          <pb ed="#P" n="753"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER DECIMUS.
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>SPIRATORE SEU PRINCIPIO
+          <lb ed="#P" n="4"/>SPIRITUS SANCTI.
+        </p>
+        <p xml:id="szduep-190210-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Priusquam de tertia persona Trinitatis 
+          dica<lb break="no" ed="#P" n="6"/>mus, operae pretium est de illius principio 
+          di<lb break="no" ed="#P" n="7"/>cere, quod Spirator appellatur. Nam licet 
+          cor<lb break="no" ed="#P" n="8"/>relativum Spiritus sancti sit, et ex hac parte
+          <lb ed="#P" n="9"/>videatur esse simul cognitione cum illo, tamen
+          <lb ed="#P" n="10"/>quatenus habet suam prioritatem originis, et
+          <lb ed="#P" n="11"/>in se est aliquid subsistens, suam propriam
+          <lb ed="#P" n="12"/>considerationem habet, quae et pertinet 
+          quo<lb break="no" ed="#P" n="13"/>dammodo ad consummatam de Patre et Filio
+          <lb ed="#P" n="14"/>tractationem, quia esse Spiratorem est tanquam
+          <lb ed="#P" n="15"/>proprietas communis illis, et parabit viam ad
+          <lb ed="#P" n="16"/>cognitionem Spiritus sancti, quam in sequenti
+          <lb ed="#P" n="17"/>libro trademus. Hic vero supponimus, 
+          necessa<lb break="no" ed="#P" n="18"/>rium esse dari aliquod principium tertiae 
+          per<lb break="no" ed="#P" n="19"/>sonae, quia oportet, illam esse productam, 
+          ali<lb break="no" ed="#P" n="20"/>ter enim multiplicari non posset. Sicut autem
+          <lb ed="#P" n="21"/>illam personam Spiritum sanctum vocamus,
+          <lb ed="#P" n="22"/>ita principium ejus appellamus Spiratorem.
+          <lb ed="#P" n="23"/>Circa quod nomen praemittere oportet, posse
+          <lb ed="#P" n="24"/>denominationem illam sumi, vel ab origine 
+          ac<lb break="no" ed="#P" n="25"/>iva, vel a relatione Spirantis, seu producentis
+          <lb ed="#P" n="26"/>per voluntatem: in hac enim processione ut
+          <lb ed="#P" n="27"/>theologi notarunt, ob penuriam nominum, 
+          ea<lb break="no" ed="#P" n="28"/>dem voce originem et relationem nominamus.
+          <lb ed="#P" n="29"/>Quae duo licet in re non distinguantur, tamen
+          <lb ed="#P" n="30"/>ratione distincta sunt, juxta dicta superius libro
+          <lb ed="#P" n="31"/>quinto et sexto. Quae distinctio quantum ad 
+          mo<lb break="no" ed="#P" n="32"/>dum nostrum concipiendi multum refert. Is
+          <lb ed="#P" n="33"/>autem, qui tam ab origine, quam a relatione
+          <lb ed="#P" n="34"/>denominatur, idem est, et de illo praesertim
+          <lb ed="#P" n="35"/>agimus in hoc libro: nam illae proprietates in
+          <lb ed="#P" n="36"/>abstracto explicatae sunt in dicto libro quinto
+          <lb ed="#P" n="37"/>et sexto, hic autem magis etiam declarabitur
+          <lb ed="#P" n="38"/>earum ratio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

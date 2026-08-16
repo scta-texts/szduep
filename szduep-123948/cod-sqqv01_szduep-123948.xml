@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="488"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-123948"><!-- t2-l4c2 -->
+        <head xml:id="szduep-123948-Hd1e101">Caput 2</head>
+        <head xml:id="szduep-123948-Hd1e103" type="question-title">Qualis sit in deo haec voluntas salvandi omnes homines, et quod proprium objectum habeat</head>
+        <p xml:id="szduep-123948-d1e106">
+          <lb ed="#P" n="45"/>CAPUT II.
+          <lb ed="#P" n="46"/>QUALIS SIT IN DEO HAEC VOLUNTAS SALVANDI 
+          OM<lb break="no" ed="#P" n="47"/>NES HOMINES, ET QUOD PROPRIUM OBJECTUM
+          <lb ed="#P" n="48"/>HABEAT.
+        </p>
+        <p xml:id="szduep-123948-d1e117">
+          <lb ed="#P" n="49"/>1. Certum est, voluntatem illam non fuisse
+          <lb ed="#P" n="50"/>per absolutum, et efficax decretum divinae 
+          vo<lb break="no" ed="#P" n="51"/>luntatis, quae ab aliquibus voluntas simpliciter
+          <lb ed="#P" n="52"/>beneplaciti, ab aliis voluntas consequens dici-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tur. Quia id, quod Deus sic vult, infallibiliter
+          <lb ed="#P" n="54"/>impletur. Nam de hac voluntate scriptum est.
+          <lb ed="#P" n="55"/>Domimmmn quecumque voluit, fecit, et illud:
+          <lb ed="#P" n="56"/>Voluntati ejus, quis resistet? at constat, hanc
+          <lb ed="#P" n="57"/>voluntatem non impleri in omnibus 
+          homini<lb break="no" ed="#P" n="58"/>bus: ergo non potest esse ita absoluta, seu
+          <lb ed="#P" n="59"/>praedefinitiva voluntas.
+        </p>
+        <p xml:id="szduep-123948-d1e146">
+          <lb ed="#P" n="60"/>2. Quedam opinio.—Hinc vero intulerunt
+          <lb ed="#P" n="61"/>aliqui, voluntatem illam non esse per 
+          pro<lb break="no" ed="#P" n="62"/>prium, et formalem actum volendi, qui in Deo
+          <lb ed="#P" n="63"/>sit, quia Deus non habet actum voluntatis
+          <lb ed="#P" n="64"/>imperfectum, qui velleitas dicitur, perfectus
+          <lb ed="#P" n="65"/>autem et absolutus non est, ut diximus: ergo
+          <lb ed="#P" n="66"/>non est proprie actus volendi. Dicunt ergo esse
+          <lb ed="#P" n="67"/>voluntatem signi, quae tantum est 
+          metaphori<lb break="no" ed="#P" n="68"/>ca, seu interpretativa. Quia scilicet ita se 
+          ge<lb break="no" ed="#P" n="69"/>rit Deus cum omnibus hominibus, ac si illum
+          <lb ed="#P" n="70"/>actum voluntatis haberet. Ita sentit Cajetanus
+          <lb ed="#P" n="71"/>ad Timoth. 2, et Marsilius 1, d. 45. Alii vero
+          <lb ed="#P" n="72"/>aiunt Deum non habere talem actum 
+          forma<lb break="no" ed="#P" n="73"/>lem, et proprium voluntatis, qui ad fehicitatem
+          <lb ed="#P" n="74"/>omnium hominum in se ipsa terminetur, 
+          prop<lb break="no" ed="#P" n="75"/>ter rationem factam quod Deus non habet 
+          ta<lb break="no" ed="#P" n="76"/>lem voluntatem , quae consequatur effectum
+          <lb ed="#P" n="77"/>illum: voluntas autem, quae potest frustrari
+          <lb ed="#P" n="78"/>effectu, imperfecta est, et in Deum non cadit.
+          <lb ed="#P" n="79"/>Addunt vero nihilominus, habere Deum 
+          vo<lb break="no" ed="#P" n="80"/>luntatem dandi media sufficientia, quae 
+          pro<lb break="no" ed="#P" n="81"/>pria est, et formalis in Deo, et ab illa 
+          denomi<lb break="no" ed="#P" n="82"/>nari Deum volentem salutem omnium. Ita
+          <lb ed="#P" n="83"/>sentiunt multi scholastici in 1, distinct. 45 et
+          <lb ed="#P" n="84"/>46. Ratio vero est, quia illa voluntas habet
+          <lb ed="#P" n="85"/>effectum, et ita in suo genere est perfecta, et
+          <lb ed="#P" n="86"/>ideo habet locum in Deo, estque virtualis 
+          vo<lb break="no" ed="#P" n="87"/>lIuntas finis, saltem in medliis et causis 
+          univer<lb break="no" ed="#P" n="88"/>salibus, ut sunt justitia originalis, Christi 
+          re<lb break="no" ed="#P" n="89"/>demptio, Sacramenta, verbum Dei, generalia
+          <lb ed="#P" n="90"/>auxilia, ctc. Et ideo merito potest ratione hujus
+          <lb ed="#P" n="91"/>voluntatis dici Deus, velle salutem omnium.
+        </p>
+        <p xml:id="szduep-123948-d1e219">
+          <lb ed="#P" n="92"/>3. Prima assertio. —Dico vero primo, 
+          ha<lb break="no" ed="#P" n="93"/>bere Deum in se proprium et formalem actum
+          <lb ed="#P" n="94"/>seu affectum voluntatis, quo vult et cupit
+          <lb ed="#P" n="95"/>omnium hominum salutem. Probatur primo
+          <lb ed="#P" n="96"/>argumento sumpto ex verbis Pauli citatis, 
+          ad<lb break="no" ed="#P" n="97"/>juncta generali regula Scriptura, verba ejus
+          <lb ed="#P" n="98"/>esse cum proprietate intelligenda, ubi 
+          mate<lb break="no" ed="#P" n="99"/>ria, vel circumstantia litterae non cogunt ad
+          <lb ed="#P" n="100"/>metaphoram. Quod praesertim locum habet,
+          <lb ed="#P" n="101"/>quando Scriptura saepe ita loquitur, et nullibi
+          <lb ed="#P" n="102"/>explicat metaphoram, ut etiam hic invenitur,
+          <lb ed="#P" n="103"/>ut jam ostensum est, et patebit amplius ex 
+          se<lb break="no" ed="#P" n="104"/>quentibus. Deinde, ita sentiunt Patres supra
+          <lb ed="#P" n="105"/>relati, maxime Chrysostomus, hom. 7, in 1,
+          <lb ed="#P" n="106"/>ad Timothaeum, et hom. 1, in ad Ephes. et
+          <lb ed="#P" n="107"/>Damascenus, lib. 2, de Fide, cap. 29 et 30.
+          <pb ed="#P" n="489"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Tandem declaratur ratione, quia voluntas, quae
+          <lb ed="#P" n="2"/>appellatur metaphorica semper supponit 
+          ali<lb break="no" ed="#P" n="3"/>quam propriam: ergo etiamsi in praesenti 
+          ad<lb break="no" ed="#P" n="4"/>mittamus metaphoricam voluntatem circa
+          <lb ed="#P" n="5"/>salutem reproborum, non est propria neganda.
+        </p>
+        <p xml:id="szduep-123948-d1e271">
+          <lb ed="#P" n="6"/>4. Probatur ratione. — Explico antecedens:
+          <lb ed="#P" n="7"/>dicitur enim voluntas metaphorica voluntas
+          <lb ed="#P" n="8"/>signi, id est, signum aliquod externum, quo
+          <lb ed="#P" n="9"/>indicatur aliquid, quod Deus vult: hoc autem
+          <lb ed="#P" n="10"/>signum semper supponit in Deo aliquem 
+          af<lb break="no" ed="#P" n="11"/>fectum. Ut, verbi gratia, praeceptum Dei 
+          dici<lb break="no" ed="#P" n="12"/>tur voluntas signi Dei, quia significat, velle
+          <lb ed="#P" n="13"/>Deum id, quod praecipit: quod necesse est,
+          <lb ed="#P" n="14"/>verum esse secundum aliquam propriam 
+          vo<lb break="no" ed="#P" n="15"/>luntatem, alioqui non esset verum signum.
+          <lb ed="#P" n="16"/>Ila autem voluntas non semper est efficax
+          <lb ed="#P" n="17"/>circa opus ipsum, quod praecipitur, sed est vel
+          <lb ed="#P" n="18"/>complacentia in bonitate talis operis, vel 
+          vo<lb break="no" ed="#P" n="19"/>luntas obligandi ad illud faciendum. Et hoc
+          <lb ed="#P" n="20"/>semper reperitur in omnibus signis divinae
+          <lb ed="#P" n="21"/>voluntatis. Ita ergo hic, si circa salutem 
+          re<lb break="no" ed="#P" n="22"/>proborum est aliqua voluntas signi, seu 
+          ali<lb break="no" ed="#P" n="23"/>quod signum voluntatis divinae, cum necesse
+          <lb ed="#P" n="24"/>sit illud esse verum signum, in Deo indicat
+          <lb ed="#P" n="25"/>aliquam veram voluntatem, a qua procedunt
+          <lb ed="#P" n="26"/>ila signa, quae nobis indicant, Deum, 
+          quan<lb break="no" ed="#P" n="27"/>tum in se est, velle salutem talium hominum.
+        </p>
+        <p xml:id="szduep-123948-d1e321">
+          <lb ed="#P" n="28"/>5. Secunda assertio. — Dico secundo. Haec
+          <lb ed="#P" n="29"/>voluntas Dei non solum est de mediis, seu 
+          ef<lb break="no" ed="#P" n="30"/>fectibus gratiae, qui revera futuri sunt circa
+          <lb ed="#P" n="31"/>hos homines, sed etiam de ipsa aeterna 
+          beati<lb break="no" ed="#P" n="32"/>tudine, etiamsi illam consecuturi non sint:
+          <lb ed="#P" n="33"/>imo nostro modo intelligendi circa illam prius
+          <lb ed="#P" n="34"/>versatur, deinde circa alia. Haec sententia his
+          <lb ed="#P" n="35"/>assertionibus exposita, est (ut opinor) D. 
+          Tho<lb break="no" ed="#P" n="36"/>mae, 1 part., quaest. 19, art. 6, ad 1, Durandi
+          <lb ed="#P" n="37"/>1, distinctione 47, quaest. 1. Probatur autem
+          <lb ed="#P" n="38"/>haec seunda propositio, quia Deus confert his
+          <lb ed="#P" n="39"/>hominibus dona gratiae, quaecumqne illa sint,
+          <lb ed="#P" n="40"/>propter hunc finem, ut per illa consequantur
+          <lb ed="#P" n="41"/>vitam aeternam, si velint, vel quantum est, ex
+          <lb ed="#P" n="42"/>parte ipsius Dei: ergo necesse est, ut 
+          suppo<lb break="no" ed="#P" n="43"/>natur in DEO intentio aliqua illius finis: 
+          in<lb break="no" ed="#P" n="44"/>tentio autem est vera voluntas, quae circa 
+          fi<lb break="no" ed="#P" n="45"/>nem ipsum versatur: ergo primum antecedens
+          <lb ed="#P" n="46"/>per se notum est, et frequenter habetur in
+          <lb ed="#P" n="47"/>Scriptura. Consequentia autem patet, tum
+          <lb ed="#P" n="48"/>quia operatio propter finem, dicit relationem
+          <lb ed="#P" n="49"/>ad finem, quae dicit originem ex intentione
+          <lb ed="#P" n="50"/>finis. Tum etiam, quia Deus dat eisdem 
+          homi<lb break="no" ed="#P" n="51"/>nibus principia et concursus, quibus 
+          condem<lb break="no" ed="#P" n="52"/>nari possunt, imo de facto dum male eis 
+          utun<lb break="no" ed="#P" n="53"/>tur, damnantur, et tamen non dat propter 
+          il<lb break="no" ed="#P" n="54"/>lum finem, quia illum non intendit: ergo, ut
+          <lb ed="#P" n="55"/>det aliquid propter finem, non satis est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>velle illud objectum, quod potest ducere 
+          ho<lb break="no" ed="#P" n="57"/>minem in illnm terminum, sed necesse est,
+          <lb ed="#P" n="58"/>Deum talem finem intendere, ad quem aliud
+          <lb ed="#P" n="59"/>objectum referatur.
+        </p>
+        <p xml:id="szduep-123948-d1e395">
+          <lb ed="#P" n="60"/>6. Effugium praecluditur. — Nec satis est
+          <lb ed="#P" n="61"/>dicere, ipsa media gratiae natura sua tendere
+          <lb ed="#P" n="62"/>in illum finem, ut Deus illa conferendo, 
+          dica<lb break="no" ed="#P" n="63"/>tur ea donare propter illum finem. Primo
+          <lb ed="#P" n="64"/>quidem, quia hic modus operandi propter 
+          fi<lb break="no" ed="#P" n="65"/>nem non est agentis a proposito, et ideo non
+          <lb ed="#P" n="66"/>est tribuendus Deo. Deinde, quia multa sunt
+          <lb ed="#P" n="67"/>media, quae non natura sua, sed voluntate
+          <lb ed="#P" n="68"/>Dei in illum finem referuntur, ut, verbi 
+          gra<lb break="no" ed="#P" n="69"/>tia, Passio Christi, institutio Sacramenti, et 
+          si<lb break="no" ed="#P" n="70"/>milia, quae si Deus voluisset, potuissent ad 
+          sa<lb break="no" ed="#P" n="71"/>lutem tantum praedestinatorum ordinari. 
+          De<lb break="no" ed="#P" n="72"/>nique quia, ut in superioribus tetigi, etiam
+          <lb ed="#P" n="73"/>ipsam fidem et charitatem potuisset Deus dare
+          <lb ed="#P" n="74"/>hominibus, ut recte operentur in hac vita,
+          <lb ed="#P" n="75"/>sine voluntate dandi gloriam et sine 
+          ordina<lb break="no" ed="#P" n="76"/>tione ad illum finem ex parte Dei: necessaria
+          <lb ed="#P" n="77"/>est ergo ex parte Dei illa specialis intentio. Quae
+          <lb ed="#P" n="78"/>in hoc ipso includitur, quod Deus voluit 
+          ordi<lb break="no" ed="#P" n="79"/>nare naturam humanam in omnibus suis 
+          indi<lb break="no" ed="#P" n="80"/>viduis ad supernaturalem beatitudinem 
+          conse<lb break="no" ed="#P" n="81"/>quendam, neque ab ea intentione destitit 
+          prop<lb break="no" ed="#P" n="82"/>ter peccatum primi hominis superveniens.
+        </p>
+        <p xml:id="szduep-123948-d1e447">
+          <lb ed="#P" n="83"/>7. Aliqua notatu digna sentiuntur.—Ut 
+          au<lb break="no" ed="#P" n="84"/>tem hic actus melius intelligatur et aliarum
+          <lb ed="#P" n="85"/>opinionum fundamenta solvantur, nonnulla
+          <lb ed="#P" n="86"/>dubitanda sunt. Primum est, an hic actus sit
+          <lb ed="#P" n="87"/>liber, vel necessarius in Deo. Aliqui enim
+          <lb ed="#P" n="88"/>theologi indicant esse actum necessarium, nam
+          <lb ed="#P" n="89"/>ex eo solum putant ponendum esse in Deo,
+          <lb ed="#P" n="90"/>quod beatitudo hominis cujusque apprehensa
+          <lb ed="#P" n="91"/>non solum ut possibilis, sed etiam ut futura,
+          <lb ed="#P" n="92"/>non potest displicere Deo, cum bona sit, nec
+          <lb ed="#P" n="93"/>etiam potest divina voluntas mere negative se
+          <lb ed="#P" n="94"/>habere, et quasi suspensa manere circa tale 
+          ob<lb break="no" ed="#P" n="95"/>jectum, ut supponunt: ergo necessarium 
+          om<lb break="no" ed="#P" n="96"/>nino est, ut Deus velit tale objectum. Hic 
+          au<lb break="no" ed="#P" n="97"/>tem actus non potest esse, nisi simplex 
+          com<lb break="no" ed="#P" n="98"/>placentia, cum non sit actus efficax: ergo est
+          <lb ed="#P" n="99"/>actus necessarius, cum Deus necessario habeat
+          <lb ed="#P" n="100"/>cognitionem seu repraesentationem talis 
+          objec<lb break="no" ed="#P" n="101"/>ti. Sequitur etiam haec opinio ex alio principio,
+          <lb ed="#P" n="102"/>quod Deus non potest habere actum liberum
+          <lb ed="#P" n="103"/>circa objectum creatum, nisi ex vi talis actus
+          <lb ed="#P" n="104"/>immediate resultet aliqua mutatio in tali 
+          ob<lb break="no" ed="#P" n="105"/>jecto ; ex hoc autem actu nulla resultat 
+          muta<lb break="no" ed="#P" n="106"/>tio in objecto, non est ergo actus liber.
+        </p>
+        <p xml:id="szduep-123948-d1e502">
+          <lb ed="#P" n="107"/>8. Ego vero censeo, talum actum esse 
+          libe<lb break="no" ed="#P" n="108"/>rum DEO. Haec sententia est (ut opinor) 
+          theo<lb break="no" ed="#P" n="109"/>logorum et Patrum, quos capite praecedenti
+          <lb ed="#P" n="110"/>retuli. Non enim colligunt hanc voluntatem in
+          <pb ed="#P" n="490"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>DEO ex aliqua naturali necessitate, sed ex
+          <lb ed="#P" n="2"/>revelatione et modo loquendi Seripturae et ex
+          <lb ed="#P" n="3"/>effectibus, qui sicut libere fiunt, ita ostendunt
+          <lb ed="#P" n="4"/>liberam voluntatem Dei. Item, si haec voluntas
+          <lb ed="#P" n="5"/>esset necessaria, non esset speciale beneficium
+          <lb ed="#P" n="6"/>Dei, nec teneretur homo gratias agere Deo
+          <lb ed="#P" n="7"/>propter hunc amorem quem erga illum habuit,
+          <lb ed="#P" n="8"/>ordinando illum ad beatitudinem 
+          supernatu<lb break="no" ed="#P" n="9"/>ralem. Imo ulterius sequitur, non potuisse
+          <lb ed="#P" n="10"/>Deum creare hominem, quin ordinaret illum
+          <lb ed="#P" n="11"/>ad supernaturalem beatitudinem: quod esse
+          <lb ed="#P" n="12"/>falsum, suppono ex materia de gratia. 
+          Seque<lb break="no" ed="#P" n="13"/>la patet, quia creando illum, non potuit non
+          <lb ed="#P" n="14"/>habere illum actum complacentiae circa 
+          bea<lb break="no" ed="#P" n="15"/>titudinem ejus apprehensam ut possibilem,
+          <lb ed="#P" n="16"/>etiamsi nunquam extitura esset, ut patet ex
+          <lb ed="#P" n="17"/>praedicta opinione et applicando rationem
+          <lb ed="#P" n="18"/>ejus: per hanc autem voluntatem solam 
+          dici<lb break="no" ed="#P" n="19"/>tur Deus ordinare hominem ad illum finem,
+          <lb ed="#P" n="20"/>nam si alia requiritur, illa est libera, et illa
+          <lb ed="#P" n="21"/>est de qua nos agimus. Simile argumentum
+          <lb ed="#P" n="22"/>est, quod juxta illam sententiam, non magis
+          <lb ed="#P" n="23"/>Deus vult beatitudinem reprobi, quam 
+          daemo<lb break="no" ed="#P" n="24"/>nis, quia etiam beatitudo Luciferi apprehensa,
+          <lb ed="#P" n="25"/>vel ut possibilis, vel (quod in idem redit) ut
+          <lb ed="#P" n="26"/>possibiliter existens, abstrahendo ad hoc, quod
+          <lb ed="#P" n="27"/>futura sit, non displicet Deo, quia est de se
+          <lb ed="#P" n="28"/>bona, ergo placet eodem modo: et similia
+          <lb ed="#P" n="29"/>exempla possent multiplicari. Ratio vero a
+          <lb ed="#P" n="30"/>posteriori est, quia quidquid sit de illa simplici
+          <lb ed="#P" n="31"/>complacentia necessaria, sive asseratur vere,
+          <lb ed="#P" n="32"/>sive non, praeter illam necessarius est actus,
+          <lb ed="#P" n="33"/>quo Deus vere intendat huic homini talem 
+          fi<lb break="no" ed="#P" n="34"/>nem. Hic autem actus non potest esse 
+          ne<lb break="no" ed="#P" n="35"/>cessarius Deo, nam ex vi illius aliquid ad
+          <lb ed="#P" n="36"/>extra operatur, si creatura non ponat 
+          impe<lb break="no" ed="#P" n="37"/>dimentum: nullus autem voluntatis actus 
+          in<lb break="no" ed="#P" n="38"/>ferens ex se operationem ad extra potest esse
+          <lb ed="#P" n="39"/>Deo necessarius, ut per se manifestum est, et
+          <lb ed="#P" n="40"/>magis haec ratio ex sequenti dubitatione 
+          con<lb break="no" ed="#P" n="41"/>stabit.
+        </p>
+        <p xml:id="szduep-123948-d1e607">
+          <lb ed="#P" n="42"/>9. Secunda difficultas. — Prior opinio. —
+          <lb ed="#P" n="43"/>Secundo dubitari potest an haec voluntas sit
+          <lb ed="#P" n="44"/>in Deo tantum simplex complacentia, vel sit
+          <lb ed="#P" n="45"/>etiam actus per modum prosecutionis. Hac
+          <lb ed="#P" n="46"/>enim distinctione utuntur Gregorius et ali
+          <lb ed="#P" n="47"/>theologi supra, etad rem explicandam conferre
+          <lb ed="#P" n="48"/>potest. Nam in voluntate intelligi potest actus
+          <lb ed="#P" n="49"/>quo placet rei bonitas, sive possibilis, sive
+          <lb ed="#P" n="50"/>existens cognoscatur, ita tamen, ut qui in illa
+          <lb ed="#P" n="51"/>complacet, non intendat illam facere, aut 
+          pro<lb break="no" ed="#P" n="52"/>curare, et talis dicitur simplex complacentia;
+          <lb ed="#P" n="53"/>quando autem voluntas aliquo modo proponit
+          <lb ed="#P" n="54"/>rem illam facere, aut obtinere, dicitur tali
+          <lb ed="#P" n="55"/>actu prosequi rem: et talis est intentio et re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>liqui actus, qui ex illa sequuntur. Aliqui ergo
+          <lb ed="#P" n="57"/>significant, hanc Deti voluntatem solum esse
+          <lb ed="#P" n="58"/>priori modo, quia si esset ex se ordinata ad 
+          <lb ed="#P" n="59"/>opus, vel esset absoluta, et sic semper habere
+          <lb ed="#P" n="60"/>effectum, vel esset conditionata, et sic de 
+          prae<lb break="no" ed="#P" n="61"/>senti non esset vera voluntas, sed tunc futura
+          <lb ed="#P" n="62"/>esset, quando conditio poneretur, ut dum quis
+          <lb ed="#P" n="63"/>dicit, si Petrus veniret, hoc facerem, tunc
+          <lb ed="#P" n="64"/>quidem nihil facit, sed posita conditione, 
+          po<lb break="no" ed="#P" n="65"/>nenda esset actio. ne
+        </p>
+        <p xml:id="szduep-123948-d1e664">
+          <lb ed="#P" n="66"/>10. Assertio. — Ratione confirmatur.—
+          Ulte<lb break="no" ed="#P" n="67"/>rius confirmatur. — Nihilominus assero talem
+          <lb ed="#P" n="68"/>voluntatem esse per modum prosecutionis et
+          <lb ed="#P" n="69"/>quantum est ex se, inducere operationem. 
+          Pro<lb break="no" ed="#P" n="70"/>batur, quia omnis intentio finis est actus 
+          hujus<lb break="no" ed="#P" n="71"/>modi, nam illa posita, necesse est ut voluntas
+          <lb ed="#P" n="72"/>eligat media et illa exequatur, quantum 
+          exi<lb break="no" ed="#P" n="73"/>git intentio, ut constat ex 1, 2, et hoc est, 
+          ac<lb break="no" ed="#P" n="74"/>tum esse prosecutivum: sed hic actus 
+          volunta<lb break="no" ed="#P" n="75"/>tis divina est vera intentio, ut dictum est,
+          <lb ed="#P" n="76"/>ergo. Et declari potest ex differentia inter
+          <lb ed="#P" n="77"/>hominem prout nunc creatus est et prout 
+          crea<lb break="no" ed="#P" n="78"/>retur in puris naturalibus. Nam tunc in Deo
+          <lb ed="#P" n="79"/>posset intelligi illa simplex complacentia 
+          na<lb break="no" ed="#P" n="80"/>turalis: Deus autem ex vi illius nullum 
+          super<lb break="no" ed="#P" n="81"/>naturale medium conferret homini sic creato,
+          <lb ed="#P" n="82"/>imo habere posset propositum absolutum non
+          <lb ed="#P" n="83"/>dandi aliquid hujusmodi, nunc vero ita vulf
+          <lb ed="#P" n="84"/>hominibus illum finem, ut ex vi hujus 
+          volun<lb break="no" ed="#P" n="85"/>tatis necessario det aliqua media 
+          supernatu<lb break="no" ed="#P" n="86"/>ralia, ut constabit latius in sequentibus: ergo
+          <lb ed="#P" n="87"/>talis voluntas non est pura complacentia, sed
+          <lb ed="#P" n="88"/>prosecutio aliquo modo ordinata ad rei 
+          effec<lb break="no" ed="#P" n="89"/>tionem. Confirmatur et declaratur, nam si in
+          <lb ed="#P" n="90"/>Deo est aliqua simplex complacentia, quae non
+          <lb ed="#P" n="91"/>supponat scientiam visionis de re jam 
+          exi<lb break="no" ed="#P" n="92"/>stente, seu futura, solum est de re possibih.
+          <lb ed="#P" n="93"/>Nam licet dicatur esse de apprehensa ut 
+          exis<lb break="no" ed="#P" n="94"/>tente, revera id solum est, quatenus 
+          ipsum<lb break="no" ed="#P" n="95"/>met existere apprehenditur ut possibile, et ita
+          <lb ed="#P" n="96"/>solum repraesentatur Deo per scientiam 
+          sim<lb break="no" ed="#P" n="97"/>plicis intelligentiae. Unde ex vi illius 
+          compla<lb break="no" ed="#P" n="98"/>centiae talis res non ordinatur ad existendum,
+          <lb ed="#P" n="99"/>et ideo talis complacentia fortasse potest actus
+          <lb ed="#P" n="100"/>necessarius. Voluntas autem, de qua nunc
+          <lb ed="#P" n="101"/>agimus, non ita se habet, sed per illam vult
+          <lb ed="#P" n="102"/>Deus, vel ut Chrysostomus loquitur, desiderat, 
+          <lb ed="#P" n="103"/>ut talis beatitudo hominis sit: et ideo 
+          quan<lb break="no" ed="#P" n="104"/>tum est ex parte Dei, ordinatur tale bonum ad
+          <lb ed="#P" n="105"/>existendum : ergo plus habet hic actus, quam 
+          <lb ed="#P" n="106"/>simplex complacentia.
+        </p>
+        <p xml:id="szduep-123948-d1e755">
+          <lb ed="#P" n="107"/>11. Ad rationem in contrariam respondetur.
+          <lb ed="#P" n="108"/>—Unde ad rationem in contrarium respondeo, 
+          <lb ed="#P" n="109"/>voluntatem illam esse actum aliqua ex parte
+          <lb ed="#P" n="110"/>efficacem, quatenus obligat Deum (ut sic di- 
+          <pb ed="#P" n="491"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cam) ad ponenda media, quae ad ipsum 
+          spec<lb break="no" ed="#P" n="2"/>tant, non esse tamen actum omnino 
+          absolu<lb break="no" ed="#P" n="3"/>tum, sed conditionem includere in objecto, ut
+          <lb ed="#P" n="4"/>communiter docent theologi, imo et Sancti,
+          <lb ed="#P" n="5"/>Ambrosius, Chrysostomus et alii 1, ad Timoth.
+          <lb ed="#P" n="6"/>2. aiunt, Deum velle salvare hominem, si 
+          ho<lb break="no" ed="#P" n="7"/>mo velit, vel aliter ex Chrysostomo ad 
+          Roma<lb break="no" ed="#P" n="8"/>nos 9. Deum velle, quantum in ipso est. Nec
+          <lb ed="#P" n="9"/>sequitur, illum actum non esse de praesenti
+          <lb ed="#P" n="10"/>veram voluntatem, quia conditio non ponitur
+          <lb ed="#P" n="11"/>ex parte subjecti, quomodo solet suspendere
+          <lb ed="#P" n="12"/>actum, sed ponitur ex parte objecti ad 
+          limi<lb break="no" ed="#P" n="13"/>tandum illud. Nam licet Deus velit nunc tale
+          <lb ed="#P" n="14"/>objectum esse, non tamen vult omni modo,
+          <lb ed="#P" n="15"/>nec sine illa limitatione, sed solum quantum
+          <lb ed="#P" n="16"/>exigere potest sufficiens providentia ejusdem
+          <lb ed="#P" n="17"/>Dei. An vero illa voluntas dicenda sit 
+          benepla<lb break="no" ed="#P" n="18"/>citi, nec ne, quaestio esse potest de modo 
+          lo<lb break="no" ed="#P" n="19"/>quendi, nam haec vox ab aliquibus sumitur
+          <lb ed="#P" n="20"/>pro absoluto et efficaci proposito Dei, quo 
+          sen<lb break="no" ed="#P" n="21"/>su constat non esse voluntatem beneplaciti.
+          <lb ed="#P" n="22"/>Latius tamen et satis proprie juxta vim vocis,
+          <lb ed="#P" n="23"/>Beneplacitum, dici potest quidquid placet Deo
+          <lb ed="#P" n="24"/>et quod cupit, ut fiat, quantum in ipso est.
+          <lb ed="#P" n="25"/>Hoc ergo modo continetur illa voluntas inter
+          <lb ed="#P" n="26"/>voluntates beneplaciti, sicque necessarium non
+          <lb ed="#P" n="27"/>est omnem voluntatem beneplaciti habere 
+          ef<lb break="no" ed="#P" n="28"/>Tectum, sed absolutam semper; 
+          conditiona<lb break="no" ed="#P" n="29"/>tam autem, solum conditione impleta. Nec
+          <lb ed="#P" n="30"/>vero sequitur hanc voluntatem esse 
+          imperfec<lb break="no" ed="#P" n="31"/>tam, quia non est in Deo ex impotentia 
+          ha<lb break="no" ed="#P" n="32"/>bendi majorem voluntatem, si velit, sed ex
+          <lb ed="#P" n="33"/>libertate, et ideo potius pertinet ad 
+          perfectio<lb break="no" ed="#P" n="34"/>nem Dei, ut possit ita velle.
+        </p>
+        <p xml:id="szduep-123948-d1e844">
+          <lb ed="#P" n="35"/>12. Insurgit ultima difficultas. — Ultimo
+          <lb ed="#P" n="36"/>vero inquiri potest, an haec voluntas sit 
+          aequa<lb break="no" ed="#P" n="37"/>lis respectu omnium, in quibus non habet 
+          ef<lb break="no" ed="#P" n="38"/>fectum. Nam citati Patres videntur ita loqui ,
+          <lb ed="#P" n="39"/>et ideo comparant Deum Soli, qui ex se aeque
+          <lb ed="#P" n="40"/>paratus est ad illuminandum omnes, ut 
+          vide<lb break="no" ed="#P" n="41"/>re licet in S. Ephrem in principio suorum 
+          o<lb break="no" ed="#P" n="42"/>perum. Comparant etiam medico, qui paratus
+          <lb ed="#P" n="43"/>est ad curandum omnes, Ambros. 1, ad 
+          Ti<lb break="no" ed="#P" n="44"/>moth. 2. In contrarium vero est, quia 
+          effec<lb break="no" ed="#P" n="45"/>tus, seu media, quae dantur his hominibus,
+          <lb ed="#P" n="46"/>non sunt aequalia, ut experientia constat:
+          <lb ed="#P" n="47"/>dictum est autem supra, differentiam 
+          electio<lb break="no" ed="#P" n="48"/>nis mediorum indicare diversitatem 
+          intentio<lb break="no" ed="#P" n="49"/>nis, quia servant inter se proportionem.
+        </p>
+        <p xml:id="szduep-123948-d1e879">
+          <lb ed="#P" n="50"/>13. Resolutio questionis. — Respondeo, rem
+          <lb ed="#P" n="51"/>esse incertam et utramque partem posse facile
+          <lb ed="#P" n="52"/>defendi. Nam imprimis illa aequalitas, de qua
+          <lb ed="#P" n="53"/>loquuntur sancti, non est intelligenda 
+          simpli<lb break="no" ed="#P" n="54"/>citer, quia de omnibus hominibus absolute 
+          lo<lb break="no" ed="#P" n="55"/>quuntur, sed solum quoad hoc, ut DEUS quan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum est ex se, neminem excludat a Regno, 
+          vo<lb break="no" ed="#P" n="57"/>luntate antecedente. Et deinde intra illum
+          <lb ed="#P" n="58"/>modum volendi sub conditione nihil repugnat,
+          <lb ed="#P" n="59"/>Deum, quantum est ex se, velle huic dare 
+          de<lb break="no" ed="#P" n="60"/>cem gradus gloriae, alii centum, etc. Quod
+          <lb ed="#P" n="61"/>sane in angelis reprobis verisimile est, 
+          suppo<lb break="no" ed="#P" n="62"/>sita communi sententia, Deum illis dedisse
+          <lb ed="#P" n="63"/>gratiam juxta proportionem naturalium: nam
+          <lb ed="#P" n="64"/>inde probabiliter infertur, cum eadem 
+          propor<lb break="no" ed="#P" n="65"/>tione ordinasse illos ad gloriam, et ita 
+          commu<lb break="no" ed="#P" n="66"/>niter etiam creditur, illis fuisse praeparatas
+          <lb ed="#P" n="67"/>sedes inaequales, ad quam tandem assumpti
+          <lb ed="#P" n="68"/>sunt homines praedestinati. In hominibus 
+          au<lb break="no" ed="#P" n="69"/>tem non est omnino eadem ratio, quia non
+          <lb ed="#P" n="70"/>babent in natura illam inaequalitatem, nec
+          <lb ed="#P" n="71"/>Deus in danda illis gratia talem proportionem
+          <lb ed="#P" n="72"/>observat. Neque etiam ratio supra tacta de
+          <lb ed="#P" n="73"/>inaequalitate mediorum in his hominibus 
+          co<lb break="no" ed="#P" n="74"/>git, quia potuit illa inaequalitas ex aliis causis
+          <lb ed="#P" n="75"/>oriri: fortasse enim multa auxilia dantur 
+          re<lb break="no" ed="#P" n="76"/>probis occasione praedestinatorum potius, quam
+          <lb ed="#P" n="77"/>directe et per se propter illos. Fortasse igitur
+          <lb ed="#P" n="78"/>Deus ex se voluit indifferenter hos salvare,
+          <lb ed="#P" n="79"/>quamvis (ut dixi) aliud etiam possit facile 
+          de<lb break="no" ed="#P" n="80"/>fendi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

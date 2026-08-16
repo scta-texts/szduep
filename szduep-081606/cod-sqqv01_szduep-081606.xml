@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="321"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-081606"><!-- t2-l2c1 -->
+        <head xml:id="szduep-081606-Hd1e101">Caput 1</head>
+        <head xml:id="szduep-081606-Hd1e103" type="question-title">Status controversiae, multiplexque disputationis sensus aperitur</head>
+        <p xml:id="szduep-081606-d1e106">
+          <lb ed="#P" n="26"/>CAPUT I.
+          <lb ed="#P" n="27"/>STATUS CONTROVERSIE, MULTIPLEXQUE 
+          DISPUTA<lb break="no" ed="#P" n="28"/>TIONIS SENSUS APERITUR.
+        </p>
+        <p xml:id="szduep-081606-d1e115">
+          <lb ed="#P" n="29"/>1. Doctores fere omnes, qui de hac materia
+          <lb ed="#P" n="30"/>disputant, imprimis praemittunt, 
+          praedestina<lb break="no" ed="#P" n="31"/>tionis causam investigari posse, vel quoad 
+          ac<lb break="no" ed="#P" n="32"/>tum ipsum Dei, in quo diximus formaliter 
+          ip<lb break="no" ed="#P" n="33"/>sam consistere, vel quoad effectus, quos 
+          prae<lb break="no" ed="#P" n="34"/>destinatio in praedestinato ponit, seu efficit.
+          <lb ed="#P" n="35"/>Aiuntque, in praesenti non posse esse 
+          quaestio<lb break="no" ed="#P" n="36"/>nem de praedestinatione priori modo spectata,
+          <lb ed="#P" n="37"/>quoad actum ipsum Dei, quia cum sit 
+          quid<lb break="no" ed="#P" n="38"/>piam increatum et aeternum, non potest 
+          ha<lb break="no" ed="#P" n="39"/>bere causam, ac proinde totam controversiam
+          <lb ed="#P" n="40"/>revocandam esse ad effectus praedestinationis,
+          <lb ed="#P" n="41"/>qui, cum creati sint, causam requirunt, quae
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>in hac parte investigatur. Ita fere D. Thomas,
+          <lb ed="#P" n="43"/>1 p.. q. 23, art. 5 et 8, et in simili 3 p., q. 24,
+          <lb ed="#P" n="44"/>art. 3, et q. 19, art. 5; Bonaventura, 1, d. 41,
+          <lb ed="#P" n="45"/>art. 1, q.25; Richardus, art. 2.q. 1, et alii 
+          com<lb break="no" ed="#P" n="46"/>muniter ibi, et in 3, d. 7, quos imitatur 
+          Drie<lb break="no" ed="#P" n="47"/>do, lib. de Concord., cap. 3, initio, et cap. 4,
+          <lb ed="#P" n="48"/>ad 4. Unde, cum (teste Augustino, de Bono 
+          per<lb break="no" ed="#P" n="49"/>sev., cap. 14 et de Praed. Sanctor., cap. 10),
+          <lb ed="#P" n="50"/>praedestinationis effectus sit ipsa gratia, seu
+          <lb ed="#P" n="51"/>gratiae donatio, fit, ut quaerere causam 
+          prae<lb break="no" ed="#P" n="52"/>destinationis, nihil aliud sit, quam quaerere
+          <lb ed="#P" n="53"/>causam gratiae, seu donationis gratiae. Patet,
+          <lb ed="#P" n="54"/>quia (ut aiunt) solum quaeritur causa 
+          praedes<lb break="no" ed="#P" n="55"/>tinationis quoad effectus illius, et hi effectus
+          <lb ed="#P" n="56"/>omnes continentur aliquo modo sub nomine
+          <lb ed="#P" n="57"/>gratiae, ergo.
+        </p>
+        <p xml:id="szduep-081606-d1e183">
+          <lb ed="#P" n="58"/>2. Sensus controcersic. —Ergo vero existimo
+          <lb ed="#P" n="59"/>controversiam hanc non solum disputandam
+          <lb ed="#P" n="60"/>esse et a Patribus etiam disputatam fuisse, de
+          <lb ed="#P" n="61"/>causa ex parte effectuum praedestinationis, sed
+          <lb ed="#P" n="62"/>etiam ex parte ipsius actus divini, qui est 
+          prae<lb break="no" ed="#P" n="63"/>destinatio. Alioquin disputatio haec omnino
+          <lb ed="#P" n="64"/>esset in materia de gratia relinquenda, ubi
+          <lb ed="#P" n="65"/>neque de gratia tractatur, de causis ejus 
+          trac<lb break="no" ed="#P" n="66"/>tandum est. Quia vero ipsimet effectus 
+          prae<lb break="no" ed="#P" n="67"/>destinationis dupliciter considerari possunt,
+          <lb ed="#P" n="68"/>vel, ut in tempore donantur, vel, ut in 
+          aeter<lb break="no" ed="#P" n="69"/>nitate praeparantur, ideo non immerito 
+          inqui<lb break="no" ed="#P" n="70"/>ritur, utrum non solum priori ratione, sed
+          <lb ed="#P" n="71"/>etiam posteriori causam habeant, et hoc est,
+          <lb ed="#P" n="72"/>quod per se spectat ad hanc materiam: tamen
+          <lb ed="#P" n="73"/>propter conjunctionem praetermittere non 
+          pos<lb break="no" ed="#P" n="74"/>sumus, quin de utroque aliquid disseramus.
+          <lb ed="#P" n="75"/>Dicemus ergo prius de causis praedestinationis
+          <lb ed="#P" n="76"/>ex parte effectuum ejus, deinde vero ex parte
+          <lb ed="#P" n="77"/>ipsiusmet divini actus.
+        </p>
+        <p xml:id="szduep-081606-d1e230">
+          <lb ed="#P" n="78"/>3. Duplex causa, et physica et moralis. —
+          <lb ed="#P" n="79"/>Ut autem hoc melius declaremus, totamque
+          <lb ed="#P" n="80"/>materiam comprehendentes, certa ab incertis
+          <lb ed="#P" n="81"/>separemus, distinguamus duplicem causam,
+          <lb ed="#P" n="82"/>physicam et moralem. Physica dicitur illa,
+          <pb ed="#P" n="322"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quae per se et per realem influxum sibi 
+          propor<lb break="no" ed="#P" n="2"/>tionatum dat esse effectui : moralis autem 
+          du<lb break="no" ed="#P" n="3"/>plici ex causa sic dicitur, scilicet, ut solum,
+          <lb ed="#P" n="4"/>quia libere agit, et sic non condistinguitur a
+          <lb ed="#P" n="5"/>causa Physica, sed supra illam addit 
+          conditio<lb break="no" ed="#P" n="6"/>nem libertatis, vel quia per se non immediate
+          <lb ed="#P" n="7"/>influit in effectum, sed causam physicam 
+          mo<lb break="no" ed="#P" n="8"/>raliter applicat, vel inducit ad aliquid 
+          agen<lb break="no" ed="#P" n="9"/>dum. Unde, causa moralis hoc posteriori modo
+          <lb ed="#P" n="10"/>- supponit causam principalem et per se 
+          agen<lb break="no" ed="#P" n="11"/>tem per intellectum et voluntatem, quae per
+          <lb ed="#P" n="12"/>rationem moralem, qualis est meriti, 
+          petitio<lb break="no" ed="#P" n="13"/>nis, satisfactionis, vel aliam similem inducitur,
+          <lb ed="#P" n="14"/>aut inclinatur ad aliquid agendum. In 
+          prae<lb break="no" ed="#P" n="15"/>senti ergo utramque ex his causis quoad 
+          prae<lb break="no" ed="#P" n="16"/>destinationem investigamus ; sed praecipue 
+          cau<lb break="no" ed="#P" n="17"/>sam moralem : nam physica vel spectat magis
+          <lb ed="#P" n="18"/>ad materiam de gratia, vel in praesenti 
+          mate<lb break="no" ed="#P" n="19"/>ria difficultatem non habet. Ut autem hoc 
+          ip<lb break="no" ed="#P" n="20"/>sum magis constet et ad materiae 
+          complemen<lb break="no" ed="#P" n="21"/>tum, pauca de illa dicemus.
+        </p>
+        <p xml:id="szduep-081606-d1e293">
+          <lb ed="#P" n="22"/>4. Tandem animadvertendum est, quatuor
+          <lb ed="#P" n="23"/>esse capita, ex quibus causa praedestinationis
+          <lb ed="#P" n="24"/>investigari, aut excogitari potest. scilicet, aut
+          <lb ed="#P" n="25"/>ex parte Dei praedestinantis, aut ex parte 
+          ejus<lb break="no" ed="#P" n="26"/>dem hominis praedestinati, aut ex parte Christi
+          <lb ed="#P" n="27"/>Domini, in quo et per quem omnes electi ac
+          <lb ed="#P" n="28"/>praedestinati sumus, vel denique ex parte 
+          cu<lb break="no" ed="#P" n="29"/>juscumque alterius tertiae personae, quae non
+          <lb ed="#P" n="30"/>sit omnium hominum caput, sicut est Christus ;
+          <lb ed="#P" n="31"/>sed commembrum ejusdem corporis. Hic 
+          prae<lb break="no" ed="#P" n="32"/>cipue agimus de causa praedestinationis ex
+          <lb ed="#P" n="33"/>parte ipsius hominis praedestinati, et haec 
+          quaes<lb break="no" ed="#P" n="34"/>tio maxime tractata est ab Augustino et ab
+          <lb ed="#P" n="35"/>Scholasticis, nam reliquarum causarum 
+          consi<lb break="no" ed="#P" n="36"/>deratio, vel difficultatem non habet, ut prima
+          <lb ed="#P" n="37"/>de causahtate Dei et ultima de causalitate 
+          ali<lb break="no" ed="#P" n="38"/>cujus tertiae personae privatae : vel pertinet ad
+          <lb ed="#P" n="39"/>aliam materiam, ut est quaestio de Christo 
+          Do<lb break="no" ed="#P" n="40"/>mino, quae spectat ad materiam de 
+          Incarna<lb break="no" ed="#P" n="41"/>tione , ubi circa quaestionem primam et 19
+          <lb ed="#P" n="42"/>D. Thomae, à nobis late tractata est. Hic ergo
+          <lb ed="#P" n="43"/>secundam illam quaestionem ex professo 
+          trac<lb break="no" ed="#P" n="44"/>tabimus : de reliquis vero, quae necessaria visa
+          <lb ed="#P" n="45"/>fuerint, attingemus. Et prius dicemus de 
+          om<lb break="no" ed="#P" n="46"/>nibus, quae spectant ad praedestinationem ex
+          <lb ed="#P" n="47"/>parte effectuum, et postea quae ad eamdem ex
+          <lb ed="#P" n="48"/>parte divini actus spectare possunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

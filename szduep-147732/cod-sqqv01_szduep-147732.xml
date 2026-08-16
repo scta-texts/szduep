@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="584"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-147732"><!-- t3-l2c5 -->
+        <head xml:id="szduep-147732-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-147732-Hd1e103" type="question-title">Spiritum sanctum, tertiam trinitatis personam, esse verum deum</head>
+        <p xml:id="szduep-147732-d1e106">
+          <lb ed="#P" n="35"/>CAPUT V.
+          <lb ed="#P" n="36"/>SPIRITUM SANCTUM, TERTIAM TRINITATIS PERSONAM,
+          <lb ed="#P" n="37"/>ESSE VERUM DEUM.
+        </p>
+        <p xml:id="szduep-147732-d1e115">
+          <lb ed="#P" n="38"/>1. Varii errores. — Primum referri hic 
+          po<lb break="no" ed="#P" n="39"/>test, ex Nazianzeno, orat. 5, de Theologia, error
+          <lb ed="#P" n="40"/>Sadducaeorum , qui in universum negabant,
+          <lb ed="#P" n="41"/>Spiritum aliquid esse. Sed hic error refutatur,
+          <lb ed="#P" n="42"/>1.p..q. 9. ubi ostenditur, Deum esse 
+          Spiri<lb break="no" ed="#P" n="43"/>tum , imo et inter creaturas dari vero 
+          spiri<lb break="no" ed="#P" n="44"/>tus, demonstratur de angelis, et animabus
+          <lb ed="#P" n="45"/>rationalibus in suis locis. Hinc fuit etiam
+          <lb ed="#P" n="46"/>quaedam haeresis, quae dicebat, Spiritum 
+          sanc<lb break="no" ed="#P" n="47"/>tum esse quidem Spiritum increatum : non
+          <lb ed="#P" n="48"/>tamen esse propriam personam, sed esse 
+          Di<lb break="no" ed="#P" n="49"/>vinitatem ipsam communem Patri, et 
+          Fi<lb break="no" ed="#P" n="50"/>lio, nam illa spiritualis, et sancta est: 
+          quo<lb break="no" ed="#P" n="51"/>modo aliquos esse interpretatos errorem 
+          Ma<lb break="no" ed="#P" n="52"/>cedonii, refert Augustinus , de haer. in 52.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Verumtamen hic error in hoc sensu magis
+          <lb ed="#P" n="54"/>pertinet ad haeresim Sabellii, contra quam ex
+          <lb ed="#P" n="55"/>parte jam dictum est in libro praecedenti,
+          <lb ed="#P" n="56"/>cap. 2, et dicetur in sequenti, cap. 1. Nunc
+          <lb ed="#P" n="57"/>sufficiat illud, 1. Joan. 5: Tres sunt, qui 
+          testi<lb break="no" ed="#P" n="58"/>moniwmn dant in celo, Pater, Verbum et 
+          Spi<lb break="no" ed="#P" n="59"/>ritus sanctus. Nam divinitas non 
+          annumera<lb break="no" ed="#P" n="60"/>tur duabus personis, tanquam tertia res. Et
+          <lb ed="#P" n="61"/>idem confirmant illa verba Christi Matth. ult.
+          <lb ed="#P" n="62"/>Daptizanes eos in nomine Patris, et Filii, et
+          <lb ed="#P" n="63"/>Spiritus sancti.
+        </p>
+        <p xml:id="szduep-147732-d1e176">
+          <lb ed="#P" n="64"/>2. Error Macedonii. — Fuit ergo quaedam
+          <lb ed="#P" n="65"/>haeresis, quae dicebat Spiritum sanctum esse
+          <lb ed="#P" n="66"/>creaturam, et non Deum: quam dupliciter 
+          in<lb break="no" ed="#P" n="67"/>venio explicatam. Primo, quod Spiritus 
+          sanc<lb break="no" ed="#P" n="68"/>tus non sit substantia aliqua, sed ipsa dona
+          <lb ed="#P" n="69"/>gratiee, quae Deus infundit in cordibus nostris.
+          <lb ed="#P" n="70"/>De his enim donis videtur loqui Paulus, 
+          quo<lb break="no" ed="#P" n="71"/>ties agit de homine spirituali : qui Spiritu Dei
+          <lb ed="#P" n="72"/>movetur. Nam hic Spiritus nihil aliud esse
+          <lb ed="#P" n="73"/>videtur, quam gratia, et dona creata. Unde
+          <lb ed="#P" n="74"/>orare pro nobis dicitur gemitibus inerrabilibus,
+          <lb ed="#P" n="75"/>ad Rom. 8. Atque ita refert hunc errorem
+          <lb ed="#P" n="76"/>Athanasius, libro de Communi essentia Patris
+          <lb ed="#P" n="77"/>et Filii. Aliusmodus, et communior est, 
+          Spiri<lb break="no" ed="#P" n="78"/>tum sanctum quidem, esse substantiam et 
+          per<lb break="no" ed="#P" n="79"/>sonam intellectualem, superiorem omnibus
+          <lb ed="#P" n="80"/>angelis, creatam tamen a Patre per Filium,
+          <lb ed="#P" n="81"/>ut foveat, et quasi conservet, et moveat 
+          uni<lb break="no" ed="#P" n="82"/>versa juxta illud Gen. 1. Spiritus Domini 
+          fe<lb break="no" ed="#P" n="83"/>rebatur super aquas - et ideo aliqui vocabant
+          <lb ed="#P" n="84"/>hunc spiritum, animam Mundi, sicut quidam
+          <lb ed="#P" n="85"/>Philosophi de Deo locuti sunt.
+        </p>
+        <p xml:id="szduep-147732-d1e227">
+          <lb ed="#P" n="86"/>3. Hic error tribuitur Macedonio, nam licet
+          <lb ed="#P" n="87"/>Arius etiam circa personam Spiritus sancti 
+          <lb ed="#P" n="88"/>erraverit, tamen Macedonius praecipue 
+          defen<lb break="no" ed="#P" n="89"/>dit hunc errorem, et de Filio non satis constat,
+          <lb ed="#P" n="90"/>quid senserit. Nam Augustinus, dicta haeres.
+          <lb ed="#P" n="91"/>52, putat, recte sensisse, et ideo Macedonianos
+          <lb ed="#P" n="92"/>vocat Semiarianos, quod etiam indicat 
+          Epipha<lb break="no" ed="#P" n="93"/>nius, haeres. 74. et Athanasius, in epist. ad :
+          <lb ed="#P" n="94"/>Serapionem, ubi ait: os heereticos non fuisse
+          <lb ed="#P" n="95"/>ausos, Verbum vocare creaturam, et 
+          Nycepho<lb break="no" ed="#P" n="96"/>rus, lib. 9, Historiee, cap. 43, dicit: Vocasse
+          <lb ed="#P" n="97"/>cqualem, et omnino similem. Theodoretus 
+          au<lb break="no" ed="#P" n="98"/>tem, lib. 4, haereticarum Fabularum, et lib. 9,
+          <lb ed="#P" n="99"/>Historiae, cap. 6, dicit: eos nunquam confessos .
+          <lb ed="#P" n="100"/>fuisse Filii consubstantialitatem, et Damasus
+          <lb ed="#P" n="101"/>papa in expositione fidei ad Paulinum, dicit,
+          <lb ed="#P" n="102"/>ex Arianis ortos esse, et non impietatem, sed
+          <lb ed="#P" n="103"/>nomen mutasse. Existimo ergocirca utramque
+          <lb ed="#P" n="104"/>personam errasse: tamen circa Filium 
+          occul<lb break="no" ed="#P" n="105"/>te, et palliatis verbis, circa Spiritum sanctum
+          <lb ed="#P" n="106"/>autem magis aperte : et ideo hunc errorem
+          <lb ed="#P" n="107"/>illis maxime tribui. In quo videtur etiam fuisse
+          <pb ed="#P" n="585"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ovatianos, in libro illo de Trinitate attributo
+          <lb ed="#P" n="2"/>tertulliano, cap. 24. Eumdem errorem secutus
+          <lb ed="#P" n="3"/>st Valentinus, ut sumitur ex Athanasio, in
+          <lb ed="#P" n="4"/>oist. ad Serapionem. Denique Abailardus,
+          <lb ed="#P" n="5"/>»ferente Bernardo, epist. 190, ita circa hoc
+          <lb ed="#P" n="6"/>ywsterium erravit, ut Patrem diceret esse 
+          om<lb break="no" ed="#P" n="7"/>ipotentem, Filium semipotentem, Spiritum
+          <lb ed="#P" n="8"/>autem nullipotentem, scilicet, in opere 
+          crea<lb break="no" ed="#P" n="9"/>tionis. Fundamenta aliqua hujus haeresis 
+          pos<lb break="no" ed="#P" n="10"/>tea attingemus.
+        </p>
+        <p xml:id="szduep-147732-d1e303">
+          <lb ed="#P" n="11"/>4. Assertio catholica. — Veritas catholica
+          <lb ed="#P" n="12"/>st, Spiritum sanctum esse unam ex personis
+          <lb ed="#P" n="13"/>rinitatis, atque esse verum Deum, quae 
+          qui<lb break="no" ed="#P" n="14"/>em assertio quoad priorem ejus partem 
+          poni<lb break="no" ed="#P" n="15"/>ar contra primum modum explicandi illum
+          <lb ed="#P" n="16"/>rrorem. Qui facile refellitur ex illis locis
+          <lb ed="#P" n="17"/>cripturae, in quibus Spiritus sanctus a suis
+          <lb ed="#P" n="18"/>onis distinguitur, tanquam causa ab effectu,
+          <lb ed="#P" n="19"/>d Rom. 3. Charitas Dei diffusa est in 
+          cordi<lb break="no" ed="#P" n="20"/>us nostris, per Spiritum sanctum, qui datus
+          <lb ed="#P" n="21"/>st nobis, et 1, Cor. 19. Divisiones gratiarum
+          <lb ed="#P" n="22"/>unt, idem autem Spiritus. Et ad Galat. 5:
+          <lb ed="#P" n="23"/>ructus Spiritus distincte numerantur. 
+          Secun<lb break="no" ed="#P" n="24"/>o improbatur idem error, et probatur eadem
+          <lb ed="#P" n="25"/>ars assertionis illis testimoniis, in quibus 
+          at<lb break="no" ed="#P" n="26"/>ributa, et opera intellectualis substantiae 
+          tri<lb break="no" ed="#P" n="27"/>uuntur Spiritui sancto. Primo, perfectissima,
+          <lb ed="#P" n="28"/>t uivina scientia 1, Cor. 2. Spiritus omnia
+          <lb ed="#P" n="29"/>crutatur, etiam profunda Dei, nam que sunt
+          <lb ed="#P" n="30"/>ominis (ait Paulus) nemo novit, nisi spiritus
+          <lb ed="#P" n="31"/>ominis - quee sunt Dei, nemo novit nisi 
+          Spiri<lb break="no" ed="#P" n="32"/>us Dei. Deinde libera voluntas 1, Cor. 12: 
+          Di<lb break="no" ed="#P" n="33"/>idens singulis, prout vult, et Joan. 3: 
+          Spiri<lb break="no" ed="#P" n="34"/>us ubi vult, spirat. Quem locum, et moderni
+          <lb ed="#P" n="35"/>nulti, et nonnulli etiam ex antiquis Patribus,
+          <lb ed="#P" n="36"/>naxime Graecis, de vento interpretantur. Juxta
+          <lb ed="#P" n="37"/>[uam expositionem necesse est, illud verbum,
+          <lb ed="#P" n="38"/>ult, improprie, et metaphorice exponere. Sed
+          <lb ed="#P" n="39"/>on indigemus metaphora, cum locus ille 
+          pro<lb break="no" ed="#P" n="40"/>rissime, et accommodatissime possit de 
+          Spi<lb break="no" ed="#P" n="41"/>itu sancto intelligi, prout Augustinus ibi 
+          in<lb break="no" ed="#P" n="42"/>ellexit. Hilarius, lib. 2, de Trinitate, 
+          Ambro<lb break="no" ed="#P" n="43"/>ius 2, de Fide, cap. 3, et 3. lib. de Spiritu
+          <lb ed="#P" n="44"/>ancto, capit. 11, Hieronymus, in epist. ad
+          <lb ed="#P" n="45"/>dibiam , q. 6. Et ex Graecis Nazianzenus,
+          <lb ed="#P" n="46"/>at. 5, Theologiae, et Nyssenus, oratione de
+          <lb ed="#P" n="47"/>sancto baptismate, et Basilius, lib. 5, contra
+          <lb ed="#P" n="48"/>Eunomium, circa finem.
+        </p>
+        <p xml:id="szduep-147732-d1e388">
+          <lb ed="#P" n="49"/>5. Vera Spiritus sancti divinitas ostenditur.
+          <lb ed="#P" n="50"/>— Altera pars assertionis posita est contra 
+          a<lb break="no" ed="#P" n="51"/>ium modum explicandi illum errorem : 
+          ni<lb break="no" ed="#P" n="52"/>mirum, Spiritum sanctum esse quidem 
+          sub<lb break="no" ed="#P" n="53"/>itantiam intellectualem, sed inferiorem Deo.
+          <lb ed="#P" n="54"/>Probamus igitur, esse verum Deum, primo ex
+          <lb ed="#P" n="55"/>appellatione absoluta, et propria Dei, quae im-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>utem nullipotentem, scilicet, in opere 
+          crea<lb break="no" ed="#P" n="57"/>primis ostenditur ex consonantia veteris, et
+          <lb ed="#P" n="58"/>novi Testamenti. Nam in veteri saepe dicitur
+          <lb ed="#P" n="59"/>Deus loqui per ora Prophetarum. Quod etiam
+          <lb ed="#P" n="60"/>dixit Zacharias Luc. 1: Benedictus Dominus
+          <lb ed="#P" n="61"/>Deus Israel, et infra: Sicut locutus est per os
+          <lb ed="#P" n="62"/>Sanctorum : et tamen 2. Petri 1, dicitur : 
+          Spi<lb break="no" ed="#P" n="63"/>ritu sancto inspirati locuti sunt sancti Dei
+          <lb ed="#P" n="64"/>homines. Ergo Spiritus sanctus est ille Deus
+          <lb ed="#P" n="65"/>verus, qui per ora Prophetarum loquebatur.
+          <lb ed="#P" n="66"/>Unde etiam Isaias, cap. 6, dicit: Se audiisse
+          <lb ed="#P" n="67"/>vocem Domini Dei loquentis ad se, et tamen
+          <lb ed="#P" n="68"/>Act. ult. dicitur : Spiritum sanctum locutum
+          <lb ed="#P" n="69"/>esse ad Isaiam. Praeterea, in eodem loco 
+          vete<lb break="no" ed="#P" n="70"/>ris Testamenti utrumque simul fit, 2, Reg. 23,
+          <lb ed="#P" n="71"/>ait David: Spiritus Domini locutus est per me:
+          <lb ed="#P" n="72"/>quod declarans subdit : Diait Deus Israel mihi.
+          <lb ed="#P" n="73"/>Denique similem declarationem habemus in
+          <lb ed="#P" n="74"/>Testamento novo, Act. 5. Nam cum Petrus
+          <lb ed="#P" n="75"/>dixisset ad Ananiam : Cur mentitus es 
+          Spiri<lb break="no" ed="#P" n="76"/>tui sancto? subdit : Non es mentatus hominibus,
+          <lb ed="#P" n="77"/>sed Deo. Quod autem in his locis sermo sit
+          <lb ed="#P" n="78"/>proprius, et de vero Deo, non eget probatione,
+          <lb ed="#P" n="79"/>nam ex verbis ipsis clare constat, et ex 
+          cir<lb break="no" ed="#P" n="80"/>cumstantiis singulorum locorum, et ex 
+          om<lb break="no" ed="#P" n="81"/>nium Catholicorum intelligentia.
+        </p>
+        <p xml:id="szduep-147732-d1e464">
+          <lb ed="#P" n="82"/>6. Ex attributis.—Secundum argumentum
+          <lb ed="#P" n="83"/>principale sumitur ex his attributis et 
+          operi<lb break="no" ed="#P" n="84"/>bus, quae in Scriptura de Spiritu sancto 
+          dicun<lb break="no" ed="#P" n="85"/>tur. Ex quibus duo jam exposuimus. Unum
+          <lb ed="#P" n="86"/>est perfecta scientia et comprehensiva Dei,
+          <lb ed="#P" n="87"/>hoc enim significat, scrutari profunda, Dei.
+          <lb ed="#P" n="88"/>Alterum est perfecta voluntas, habens talem
+          <lb ed="#P" n="89"/>libertatem in bonis distribuendis, quae 
+          supre<lb break="no" ed="#P" n="90"/>mum dominium indicat et haec duo spectant
+          <lb ed="#P" n="91"/>ad actus immanentes. Ex transeuntibus vero
+          <lb ed="#P" n="92"/>primo tribuitur Spiritui sancto creatio, 
+          Psal<lb break="no" ed="#P" n="93"/>mo 32. Verbo Domini celi firmati sunt, et 
+          spi<lb break="no" ed="#P" n="94"/>ritu oris ejus omnis virtus eorum. Secundo 
+          at<lb break="no" ed="#P" n="95"/>tribuitur eidem Spiritui sancto opus 
+          sanctifica<lb break="no" ed="#P" n="96"/>tionis, Joelis 2. Effundam de spiritu meo 
+          su<lb break="no" ed="#P" n="97"/>per omnem carnem. Quod de Spiritu sancto 
+          in<lb break="no" ed="#P" n="98"/>terpretatur Petrus Act. 2. Et inde recte 
+          colli<lb break="no" ed="#P" n="99"/>git divinitatem Spiritus sancti Didimus, lib. 1,
+          <lb ed="#P" n="100"/>de Spiritu sancto, et Ambrosius, lib. etiam 1,
+          <lb ed="#P" n="101"/>de Spiritu sancto, cap. 7. Quia Spiritus 
+          sanc<lb break="no" ed="#P" n="102"/>tus effundi dicitur per participationem gratiae
+          <lb ed="#P" n="103"/>sanctificantis, quae propria est divinitatis 
+          par<lb break="no" ed="#P" n="104"/>ticipatio. Unde idem etiam colligitur ex forma
+          <lb ed="#P" n="105"/>baptismi Matth. ult., ubi aeque invocatur 
+          Spi<lb break="no" ed="#P" n="106"/>ritus sanctus, quia est principalis causa 
+          sanc<lb break="no" ed="#P" n="107"/>tificationis, quae in baptismo datur, ut inter
+          <lb ed="#P" n="108"/>alios bene notavit Fulgentius, lib. de Fide ad
+          <lb ed="#P" n="109"/>Donatum, cap. 8. Qui etiam ad objectiones 
+          A<lb break="no" ed="#P" n="110"/>rianorum in octava dixit: Si Dominus 
+          Spi<lb break="no" ed="#P" n="111"/>ritum sanctum creaturam vellet intelligi, ne-
+          <pb ed="#P" n="586"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quaquum preciperet sibi et Patri in 
+          Sacra<lb break="no" ed="#P" n="2"/>mento baptismi copulari.
+        </p>
+        <p xml:id="szduep-147732-d1e540">
+          <lb ed="#P" n="3"/>7. Ex operatione. —Unde huc etiam spectat,
+          <lb ed="#P" n="4"/>quod omnis operatio et distributio gratiae 
+          Spi<lb break="no" ed="#P" n="5"/>ritui sancto tribuitur, ut vidimus ex 1, ad
+          <lb ed="#P" n="6"/>Corinth. 12, et ad Galatas 5, adeo ut Paulus
+          <lb ed="#P" n="7"/>dixerit : Nemo potest dicere, Dominus J esus,
+          <lb ed="#P" n="8"/>nisi in Spiritu sancto, et Joan 14 et 15, illi
+          <lb ed="#P" n="9"/>attribuit CHISTUS Dominus omnem 
+          illumina<lb break="no" ed="#P" n="10"/>tionem et inspirationem internam, et capite 16,
+          <lb ed="#P" n="11"/>quod arguet mundum de peccato, etc., et 
+          Acto<lb break="no" ed="#P" n="12"/>rum 13, dixit Spiritus sanctus, segregate mihi
+          <lb ed="#P" n="13"/>Paulum et Barnabam . et capite 20, in quo
+          <lb ed="#P" n="14"/>posuit vos Spiritus sanctus regere Hcclesiam
+          <lb ed="#P" n="15"/>DPHT, quae omnia sunt propria Dei. Et quod
+          <lb ed="#P" n="16"/>magis est, ipsum supremum opus 
+          Incarnatio<lb break="no" ed="#P" n="17"/>nis et conceptionis Filii Dei et praeparatio 
+          Vir<lb break="no" ed="#P" n="18"/>ginis per excellentem sanctificationem, 
+          Spiri<lb break="no" ed="#P" n="19"/>tui sancto tribuitur Lucae 1. Hinc etiam 
+          Pau<lb break="no" ed="#P" n="20"/>lus 1, ad Corinth. 6, Spiritum sanctum dicit
+          <lb ed="#P" n="21"/>habitare in homine tanquam in templo, quod
+          <lb ed="#P" n="22"/>est proprium Dei. Vescitis (inquit) quia 
+          mem<lb break="no" ed="#P" n="23"/>bra vestra templum sunt Spiritus sancti, 
+          sub<lb break="no" ed="#P" n="24"/>dit, glorificate ergo et portate Dewm in 
+          cor<lb break="no" ed="#P" n="25"/>dibus vestris, ut notavit Augustinus 1, contra
+          <lb ed="#P" n="26"/>Maximinum, cap. ult. et alii Patres. Qui 
+          tan<lb break="no" ed="#P" n="27"/>dem etiam advertunt Spiritum sanctum in
+          <lb ed="#P" n="28"/>Scriptura nunquam numerari in ordine 
+          crea<lb break="no" ed="#P" n="29"/>turarum, sed ubicumque recensentur creaturae
+          <lb ed="#P" n="30"/>perveniri solum ad angelos, vel in genere, vel
+          <lb ed="#P" n="31"/>in specie, ad seraphinos et cherubinos, 
+          Spiri<lb break="no" ed="#P" n="32"/>tum sanctum autem semper numerari in 
+          ordi<lb break="no" ed="#P" n="33"/>ne divinarum personarum. De Ecclesiae 
+          defini<lb break="no" ed="#P" n="34"/>tione et Patrum testificatione nihil dicere 
+          ne<lb break="no" ed="#P" n="35"/>cesse est. est enim eadem et in eisdem locis,
+          <lb ed="#P" n="36"/>quae in praecedentibus insinuata sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

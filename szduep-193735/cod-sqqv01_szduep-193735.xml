@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-08-15">August 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv01">Paris 1856, v. 01</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="766"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szduep-193735"><!-- t3-l10c5 -->
+        <head xml:id="szduep-193735-Hd1e101">Caput 5</head>
+        <head xml:id="szduep-193735-Hd1e103" type="question-title">Sit-ne in patre et filio una et eadem spirandi virtus</head>
+        <p xml:id="szduep-193735-d1e106">
+          <lb ed="#P" n="97"/>CAPUT V.
+          <lb ed="#P" n="98"/>SIT-NE IN PATRE ET FILIO UNA ET EADEM SPIRANDI
+          <lb ed="#P" n="99"/>VIRTUS
+        </p>
+        <p xml:id="szduep-193735-d1e115">
+          <lb ed="#P" n="100"/>1. Sensus quaestionis exponitur. — Unum ex
+          <lb ed="#P" n="101"/>praecipuis argumentis, quod Graeci adversus
+          <lb ed="#P" n="102"/>Latinos semper objecerunt, est, quia si 
+          Spiri<lb break="no" ed="#P" n="103"/>tus sanctus a Filio et Patre procederet, duo
+          <lb ed="#P" n="104"/>haberet principia, quod et divina simplicitati,
+          <lb ed="#P" n="105"/>et personarum consubstantiahltati repugnare
+          <lb ed="#P" n="106"/>videtur. Ut ergo Ecclesia Romana ilhis 
+          respon<lb break="no" ed="#P" n="107"/>deret, ac satisfaceret, docuit tam in Concilio
+          <pb ed="#P" n="767"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Lugdunensi, in capite unico de Summa 
+          Trini<lb break="no" ed="#P" n="2"/>tate in 6, quam in Concilio Florentino, 
+          ses<lb break="no" ed="#P" n="3"/>sione 24, Spiritum sanctum procedere a Patre,
+          <lb ed="#P" n="4"/>et Filio tanquam ab uno principio. Quod dogma
+          <lb ed="#P" n="5"/>in hoc capite a nobis explicandum est. Tria
+          <lb ed="#P" n="6"/>etiam puncta postulat. Primum, an in Patre et
+          <lb ed="#P" n="7"/>Filio sit una, et eadem virtus spirandi, et 
+          quo<lb break="no" ed="#P" n="8"/>modo necessaria sit. Secundum, quomodo 
+          dua<lb break="no" ed="#P" n="9"/>litas personarum concurrat, vel necessaria sit
+          <lb ed="#P" n="10"/>ad Spiritus sancti productionem. Tertium, an
+          <lb ed="#P" n="11"/>cum hoc stet vera unitas spiratoris, seu 
+          prin<lb break="no" ed="#P" n="12"/>cipii Spiritus sancti.
+        </p>
+        <p xml:id="szduep-193735-d1e165">
+          <lb ed="#P" n="13"/>2. Dubitandi ratio. — Circa primum igitur
+          <lb ed="#P" n="14"/>ratio dubitandi est, quia vel est sermo de 
+          uni<lb break="no" ed="#P" n="15"/>tate reali, seu numerica, vel solum de unitate
+          <lb ed="#P" n="16"/>rationis : hoc posterius dici non potest, alioqui
+          <lb ed="#P" n="17"/>Pater, et Filius non essent reipsa unum 
+          prin<lb break="no" ed="#P" n="18"/>cipium, sed plura. Primum autem non videtur
+          <lb ed="#P" n="19"/>possibile, quia virtus spirandi est quid 
+          notio<lb break="no" ed="#P" n="20"/>nale: nihil autem notionale unum, et idem
+          <lb ed="#P" n="21"/>secundum rem est commune Patri, et Filio,
+          <lb ed="#P" n="22"/>ergo. Major clara est, quia illa virtus non est
+          <lb ed="#P" n="23"/>communis omnibus personis. Minor autem 
+          vi<lb break="no" ed="#P" n="24"/>detur affirmari a Basilio, Epist. 43, dicente:
+          <lb ed="#P" n="25"/>Flius nullam prorsus notionum 
+          commnunicatio<lb break="no" ed="#P" n="26"/>nem secundwn proprietatem suaum, tam cum
+          <lb ed="#P" n="27"/>Paítre, quam cum Spiritu habet. Ratione etiam
+          <lb ed="#P" n="28"/>ostenditur, quia licet relatio spirationis activae
+          <lb ed="#P" n="29"/>communis sit Patri, et Filio, tamen illa est
+          <lb ed="#P" n="30"/>consequens actum spirandi, et consequenter
+          <lb ed="#P" n="31"/>supponit virtutem spirativam : ergo haec 
+          vir<lb break="no" ed="#P" n="32"/>tus non includit illam relationem : ergo 
+          ratio<lb break="no" ed="#P" n="33"/>ne illius non est virtus spirandi communis 
+          se<lb break="no" ed="#P" n="34"/>cundum rem Patri, et Filio, ergo solum potest
+          <lb ed="#P" n="35"/>esse communis secundum rationem quantum
+          <lb ed="#P" n="36"/>ad illud notionale, quod includit.
+        </p>
+        <p xml:id="szduep-193735-d1e221">
+          <lb ed="#P" n="37"/>3. Resolutio. — Nihilominus dicendum est,
+          <lb ed="#P" n="38"/>in Patre, et Filio unam tantum esse virtutem
+          <lb ed="#P" n="39"/>spirandi, eamdem numero, et utrique realiter
+          <lb ed="#P" n="40"/>communem. Est res certa, et in ea conveniunt
+          <lb ed="#P" n="41"/>omnes theologi referendi capite sexto et 
+          septi<lb break="no" ed="#P" n="42"/>mo, quia necessario sequitur ex praedicto 
+          dog<lb break="no" ed="#P" n="43"/>mate tradito in dictis Conciliis. Nam si Pater,
+          <lb ed="#P" n="44"/>et Filius cum distinctione personal haberent
+          <lb ed="#P" n="45"/>etiam virtutes spirandi realiter distinctas, 
+          ni<lb break="no" ed="#P" n="46"/>hil superesset, propter quod dici possent unum
+          <lb ed="#P" n="47"/>principium vere, ac in re ipsa, prout dicta
+          <lb ed="#P" n="48"/>Concilia loquuntur. Item aut virtutes illae 
+          es<lb break="no" ed="#P" n="49"/>sent partiales, aut totales. Primum dici non
+          <lb ed="#P" n="50"/>potest, alias quaelibet earum imperfecta esset,
+          <lb ed="#P" n="51"/>et neutra persona esset simpliciter principium
+          <lb ed="#P" n="52"/>Spiritus sancti, sed ex utraque quasi per 
+          col<lb break="no" ed="#P" n="53"/>lectionem quamquam coalesceret integrum
+          <lb ed="#P" n="54"/>principium Spiritus sancti. At haec sunt plane
+          <lb ed="#P" n="55"/>absurda, quae Graeci inferebant, et Concilia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>propter illa vitanda definiunt, utramque 
+          per<lb break="no" ed="#P" n="57"/>sonam esse unum principium. Si vero dicatur
+          <lb ed="#P" n="58"/>secundum, scilicet, illas virtutes esse totales,
+          <lb ed="#P" n="59"/>aperte secuitur duas personas esse duos 
+          spira<lb break="no" ed="#P" n="60"/>tores substantive, quia ad multiplicationem
+          <lb ed="#P" n="61"/>substantivi nihil amplius requiritur, quam
+          <lb ed="#P" n="62"/>quod personae, et formae multiplicentur. 
+          Prae<lb break="no" ed="#P" n="63"/>terea ex unitate actus, seu originis, et termini
+          <lb ed="#P" n="64"/>adaequati recte etiam colligitur una virtus tali
+          <lb ed="#P" n="65"/>actui proportionata, et adaequata. Denique 
+          ra<lb break="no" ed="#P" n="66"/>tio a priori est, quia haec virtus non est aliud,
+          <lb ed="#P" n="67"/>quam voluntas, seu amor Patris, et Filii, ut
+          <lb ed="#P" n="68"/>in libro primo et secundo dictum est, constat
+          <lb ed="#P" n="69"/>autem ex dictis in libro quarto voluntatem, et
+          <lb ed="#P" n="70"/>dilectionem esse eamdem numero in Patre, et
+          <lb ed="#P" n="71"/>Filio, ergo et virtus spirandi est una. Quae 
+          ra<lb break="no" ed="#P" n="72"/>tiones non solum probant, hanc virtutem in
+          <lb ed="#P" n="73"/>re esse unam, sed etiam ostendunt, talem 
+          uni<lb break="no" ed="#P" n="74"/>tatem hujus virtutis per se, et ex intrinseca
+          <lb ed="#P" n="75"/>ratione talis productionis esse necessariam,
+          <lb ed="#P" n="76"/>tum propter unitatem simplicissimam actus,
+          <lb ed="#P" n="77"/>et termini ejus, tum etiam quia intrinsece 
+          re<lb break="no" ed="#P" n="78"/>quirit infinitatem simpliciter, et ideo illa virtus
+          <lb ed="#P" n="79"/>multiplicabilis non est.
+        </p>
+        <p xml:id="szduep-193735-d1e319">
+          <lb ed="#P" n="80"/>4. Ad rationem dubitandi. — Aliquorum
+          <lb ed="#P" n="81"/>responsio. — Ad difficultatem autem in 
+          prin<lb break="no" ed="#P" n="82"/>cipio positam, quod attinet ad testimonium
+          <lb ed="#P" n="83"/>Basilii, jam dictum est, illum loqui de 
+          notio<lb break="no" ed="#P" n="84"/>nibus convenientibus personis secundum 
+          pro<lb break="no" ed="#P" n="85"/>prietates personales, ut constat ex illo verbo
+          <lb ed="#P" n="86"/>secundum proprietatem suam. Quod vero 
+          per<lb break="no" ed="#P" n="87"/>tinet ad rationem, aliqui convicti illo 
+          argu<lb break="no" ed="#P" n="88"/>mento dicunt, spirationem activam, lcet 
+          vi<lb break="no" ed="#P" n="89"/>deatur consequi originem, quatenus exercet
+          <lb ed="#P" n="90"/>officium referendi, tamen secundum se, et
+          <lb ed="#P" n="91"/>prout est proprietas quaedam, antecedere 
+          ori<lb break="no" ed="#P" n="92"/>ginem, et complere virtutem spirandi quantum
+          <lb ed="#P" n="93"/>ad id notionale, quod includit. Quia alias virtus
+          <lb ed="#P" n="94"/>illa, quantum ad id totum, quod includit, non
+          <lb ed="#P" n="95"/>esset realiter communis. Item quia sine illa
+          <lb ed="#P" n="96"/>non potest intelligi notionalis amor per quem
+          <lb ed="#P" n="97"/>Spiritus sanctus producitur.
+        </p>
+        <p xml:id="szduep-193735-d1e361">
+          <lb ed="#P" n="98"/>5. Rejicitur. — Haec vero sententia est 
+          ma<lb break="no" ed="#P" n="99"/>nifeste contra D. Thomam, quaest. 40, art. 4,
+          <lb ed="#P" n="100"/>et repugnat his, quae diximus capite 
+          praece<lb break="no" ed="#P" n="101"/>denti. Unde et ex illis etiam impugnari potest,
+          <lb ed="#P" n="102"/>ob quam illa relatio constituens principium
+          <lb ed="#P" n="103"/>producendi, necessaria sit ad virtutem spirandi :
+          <lb ed="#P" n="104"/>et hoc non, quia non complet formaliter 
+          vir<lb break="no" ed="#P" n="105"/>tutem amandi, et quia in libro primo 
+          osten<lb break="no" ed="#P" n="106"/>sum est, amorem notionalem non includere
+          <lb ed="#P" n="107"/>formaliter relationem, quod etiam de virtute
+          <lb ed="#P" n="108"/>productiva ad intra ostendimus libro septimo.
+          <lb ed="#P" n="109"/>Vel est necessaria solum ut conditio requisita,
+          <lb ed="#P" n="110"/>et hoc etiam dici non potest, quia nec neces-
+          <pb ed="#P" n="768"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>saria est ad constituendam personam Patris,
+          <lb ed="#P" n="2"/>vel Filii, supponuntur enim constitutae suis
+          <lb ed="#P" n="3"/>proprietatibus, neque etiam ut se mutuo
+          <lb ed="#P" n="4"/>amant, nam ad hoc sufficit infinita voluntas,
+          <lb ed="#P" n="5"/>in qua subsistunt, nec denique ut se amando
+          <lb ed="#P" n="6"/>producant, nam ad hoc etiam satis est, ut in
+          <lb ed="#P" n="7"/>eadem voluntate personaliter subsistant 
+          abs<lb break="no" ed="#P" n="8"/>que origine per eamdem voluntatem, nam
+          <lb ed="#P" n="9"/>quidquid ultra requiritur, sine causa, vel 
+          ra<lb break="no" ed="#P" n="10"/>tione dicitur.
+        </p>
+        <p xml:id="szduep-193735-d1e418">
+          <lb ed="#P" n="11"/>6. Fera responsio. —Dico ergo, virtutem
+          <lb ed="#P" n="12"/>spirandi de formali dicere absolutum, scilicet,
+          <lb ed="#P" n="13"/>voluntatem, vel amorem. (Quod absolutum est
+          <lb ed="#P" n="14"/>per se, ac formale principium quo, talis 
+          pro<lb break="no" ed="#P" n="15"/>ductionis) connotare autem relationem 
+          perso<lb break="no" ed="#P" n="16"/>nalem tanquam conditionem necessariam in
+          <lb ed="#P" n="17"/>principio quod, productivo Spiritus sancti.
+          <lb ed="#P" n="18"/>Haec ergo conditio non est una, et eadem 
+          se<lb break="no" ed="#P" n="19"/>cundum rem in Patre, et in Filio, quia in 
+          Pa<lb break="no" ed="#P" n="20"/>tre est Paternitas, et in Filio Filatio, utraque
+          <lb ed="#P" n="21"/>enim sufficit ad complendam virtutem 
+          spiran<lb break="no" ed="#P" n="22"/>di, ut in superioribus fuse explicatum est, 
+          vi<lb break="no" ed="#P" n="23"/>delicet, quatenus inter se conveniunt in hoc,
+          <lb ed="#P" n="24"/>quod utraque est absque productione per 
+          vo<lb break="no" ed="#P" n="25"/>Iuntatem : hoc enim satis est, ut quaelibet 
+          illa<lb break="no" ed="#P" n="26"/>rum personarum possit esse principrum per
+          <lb ed="#P" n="27"/>voluntatem producens, imo unum ex altero
+          <lb ed="#P" n="28"/>necessario sequitur. Neque inde fit, ut virtus
+          <lb ed="#P" n="29"/>spirandi non sit una, et eadem realiter in
+          <lb ed="#P" n="30"/>utraque persona, quia virtus non dicit 
+          condi<lb break="no" ed="#P" n="31"/>tionem suppositi, sed formam, quae est 
+          prin<lb break="no" ed="#P" n="32"/>cipium producendi, ut si unamet albedo esset
+          <lb ed="#P" n="33"/>in duobus subjectis, vel superficiebus unicum
+          <lb ed="#P" n="34"/>esset formale principium, et una virtus 
+          dis<lb break="no" ed="#P" n="35"/>gregandi visum in utraque superficie, licet
+          <lb ed="#P" n="36"/>haberet duplicem extensionem, quae est 
+          condi<lb break="no" ed="#P" n="37"/>tio necessaria ad disgregandum visum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
